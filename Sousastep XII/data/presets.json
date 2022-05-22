@@ -1,0 +1,297 @@
+{
+	"pattrstorage" : 	{
+		"name" : "presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ 0.0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_multiplier" : [ 0.5 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"freq_ceiling" : [ 84.25196850393705 ],
+					"freq_floor" : [ 17.913385826771698 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [ 127.0 ],
+					"gen_auto_wah_lo_mix" : [ 127.0 ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ -51.35270557329423 ],
+					"high_phase_offset" : [ 75.590551181102285 ],
+					"high_power" : [ -22.54453484991646 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ -63.779527559055204 ],
+					"low_power" : [ -1.318822691546529 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"aux_SnTrSq" : [ 1 ],
+					"aux_depth" : [ 37.795275590551142 ],
+					"aux_duty_cycle" : [ -73.228346456693245 ],
+					"aux_multiplier" : [ 0.5 ],
+					"aux_phase_offset" : [ 22.047244094488022 ],
+					"aux_power" : [ 11.023622047244118 ],
+					"aux_route_menu" : [ 1 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 7.874015748031482 ],
+					"freq_ceiling" : [ 35.433070866141733 ],
+					"freq_floor" : [ 12.598425196850393 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 0 ],
+					"high_duty_cycle" : [ 21.259842519685094 ],
+					"high_phase_offset" : [ 45.669291338582497 ],
+					"high_power" : [ 24.756018909353784 ],
+					"low_SnTrSq" : [ 1 ],
+					"low_duty_cycle" : [ 82.677165354330725 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ 56.692913385826728 ],
+					"low_power" : [ 10.581027167274314 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ -26.771653543306996 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_multiplier" : [ 0.25 ],
+					"aux_phase_offset" : [ 100.0 ],
+					"aux_power" : [ 0.0 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"freq_ceiling" : [ 65.354330708661351 ],
+					"freq_floor" : [ 14.173228346456657 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ 40.157480314960679 ],
+					"high_phase_offset" : [ 53.543307086613936 ],
+					"high_power" : [ 13.385826771653569 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ 64.566929133858224 ],
+					"low_power" : [ -9.448818897637693 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ 100.0 ],
+					"aux_duty_cycle" : [ -40.944881889763785 ],
+					"aux_multiplier" : [ 0.5 ],
+					"aux_phase_offset" : [ -100.0 ],
+					"aux_power" : [ 34.645669291338493 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ -3.937007874015833 ],
+					"freq_ceiling" : [ 80.31496062992116 ],
+					"freq_floor" : [ 5.511811023622047 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 0 ],
+					"high_duty_cycle" : [ -47.853811605066838 ],
+					"high_phase_offset" : [ 29.921259842519504 ],
+					"high_power" : [ 31.596380826685262 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ 0.0 ],
+					"low_power" : [ -0.618743033997085 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"aux_SnTrSq" : [ 2 ],
+					"aux_depth" : [ -79.527559055118132 ],
+					"aux_duty_cycle" : [ -0.000000000000043 ],
+					"aux_multiplier" : [ 0.25 ],
+					"aux_phase_offset" : [ -48.81889763779526 ],
+					"aux_power" : [ 0.000000000000043 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 36.220472440944803 ],
+					"freq_ceiling" : [ 86.614173228346345 ],
+					"freq_floor" : [ 12.598425196850377 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ -47.853811605066838 ],
+					"high_phase_offset" : [ -9.448818897637778 ],
+					"high_power" : [ -11.400179796541138 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 26.771653543307082 ],
+					"low_phase_offset" : [ -50.393700787401549 ],
+					"low_power" : [ -39.106576684498364 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ 0.0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_multiplier" : [ 0.25 ],
+					"aux_phase_offset" : [ 0.0 ],
+					"aux_power" : [ 0.0 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"freq_ceiling" : [ 25.0 ],
+					"freq_floor" : [ 25.0 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ -46.104364620953149 ],
+					"high_phase_offset" : [ 53.543307086613936 ],
+					"high_power" : [ 11.075295074690843 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 100.0 ],
+					"low_phase_offset" : [ 64.566929133858224 ],
+					"low_power" : [ -18.987936367190869 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ -100.0 ],
+					"aux_duty_cycle" : [ -0.000000000000043 ],
+					"aux_multiplier" : [ 0.25 ],
+					"aux_phase_offset" : [ -48.81889763779526 ],
+					"aux_power" : [ 22.047244094488235 ],
+					"aux_route_menu" : [ 1 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 50.393700787401514 ],
+					"freq_ceiling" : [ 88.188976377952741 ],
+					"freq_floor" : [ 21.259842519684934 ],
+					"function[7]" : [  ],
+					"function[8]" : [  ],
+					"gen_auto_wah_hi_mix" : [  ],
+					"gen_auto_wah_lo_mix" : [  ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ -42.856195475322295 ],
+					"high_phase_offset" : [ -9.448818897637778 ],
+					"high_power" : [ -2.142919326710118 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ -50.393700787401549 ],
+					"low_power" : [ -40.779979456107313 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ 0.0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_multiplier" : [ 0.5 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"freq_ceiling" : [ 59.428695810265879 ],
+					"freq_floor" : [ 35.433070866141691 ],
+					"function[7]" : [ 1.0, 0.0, 127.0, 0.0, 127.0, 0, 0.0, 0.111859838435592, 127.0, 0, 0.0, 0.278169014084507, 0.0, 0, 0.045, 0.443661971830986, 0.0, 0, -0.85, "curve" ],
+					"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 41.627060264251398, 0, 0.0, 0.798387097094649, 100.0, 0, 0.0, "curve" ],
+					"gen_auto_wah_hi_mix" : [ 32.0 ],
+					"gen_auto_wah_lo_mix" : [ 31.0 ],
+					"hi_SnTrSq" : [ 0 ],
+					"high_duty_cycle" : [ 0.0 ],
+					"high_phase_offset" : [ 56.246407478366812 ],
+					"high_power" : [ 6.299212598425228 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ -63.779527559055204 ],
+					"low_power" : [ -1.318822691546529 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+,
+			"9" : 			{
+				"id" : 9,
+				"data" : 				{
+					"aux_SnTrSq" : [ 0 ],
+					"aux_depth" : [ 0.0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_multiplier" : [ 0.5 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_sync_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"freq_ceiling" : [ 81.313416100399195 ],
+					"freq_floor" : [ 40.030373249201077 ],
+					"function[7]" : [ 1.0, 0.0, 127.0, 0.0, 127.0, 0, 0.0, 0.254716981292735, 0.0, 0, 0.845, 0.443661971830986, 0.0, 0, -0.85, "curve" ],
+					"function[8]" : [ 1.0, 0.0, 100.0, 0.000000000320455, 44.216116027933296, 0, 0.0, 0.333333333653788, 100.0, 0, 0.6, "curve" ],
+					"gen_auto_wah_hi_mix" : [ 127.0 ],
+					"gen_auto_wah_lo_mix" : [ 127.0 ],
+					"hi_SnTrSq" : [ 1 ],
+					"high_duty_cycle" : [ -0.959004785892773 ],
+					"high_phase_offset" : [ 75.590551181102285 ],
+					"high_power" : [ 0.0 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 0.0 ],
+					"low_phase_offset" : [ 66.929133858267761 ],
+					"low_power" : [ -43.838507730916675 ],
+					"main_invert" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,39 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# The above is from https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+
+# https://stackoverflow.com/a/65429032/13631346
+Icon?
+![iI]con[_a-zA-Z0-9]
+
+# https://github.com/nyboer/M4L-GamePad/blob/main/Game%20Controller%20Project/media/gamectl_bg.png
+/Sousastep XII/media
+
+# Media folders
+/Audio-reactive LED Bell for 2012 MBP/media
+/Audio-reactive LED Bell for 2021 MBP/media
+/Sousastep XII Project/Samples
+/Sousastep XII Project/Clips
+/Sousastep XII Project/Backup

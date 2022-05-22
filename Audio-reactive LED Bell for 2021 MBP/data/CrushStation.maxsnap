@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "CrushStation",
+	"origin" : "CrushStation.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "CrushStation.auinfo",
+		"plugindisplayname" : "CrushStation",
+		"pluginsavedname" : "C74_AU:/CrushStation",
+		"pluginsaveduniqueid" : 1131565934,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDCI2TtAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHCIWcyg1TzEFco8lahvRCJ.BHh.mbuQVciQ2WoQlH5.hHi8VatTlck4FcoQVYtfVNtLlb0MGZyQWXzk1atIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfXyMtjCN3PSL3TyM4DCLwTiMrzfBf.hHjImckIhNfHCNtbCN1XSL2HyM4.SMxbyLrzfBf.hHjImck80bzElbz8UY3AmH5.BLtPCLvHiMwjSN3DyM1TyMzbCKMn.HfHBYxYWYeUlaj8UY3AmH5.BLtbSMvHiMx.iLx.SL3PyLxXCKMn.HfHxbyQmahnCHwLSMtjCMwTSLy.iMwTiLyPCKMn.HfHxbyE1YhnCHv3BLyfyLzXyL0LSNwfyLwLSN3vRCJ.BHhL2bgc1Wn8FceM2coQ2XnIhNf.iK0XyLyHCM3.SNvbCMz.SL4vRCJ.BHh.Ga0cVZt80byE1YegFcyc2WxUFauEFYhnCHv3BLyfyLzXyL0LSNwfyLwLSN3vRCJ.BHh71XzYmH5.BLt.CKMn.HfHxXtQmbhnCHxjiK4.iL3LSM3PSM4PyMxbCKMn.HfHRXzM1ZhnCHw3BLrzfBf.hHzglbyIhNfzhM03BLrzfBf.hHhE1byIhNfDCNtPSL1XiMzDiLyTyL0DiMrzfBf.hHskFYyIhNfHyLtLCNv.iL2byMvjSN1.SNrzfBf.hHsYlbwIhNfLCLv.iKvvRCJ.BHhPmbhwlH5.hLv3hL4XCN2TCKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3RMrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBcykmahnCHv3BLMnPe..................................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+	}
+
+}
