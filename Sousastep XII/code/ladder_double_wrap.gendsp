@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -134.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -315,18 +315,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 61.172288091977009, 1115.350023576191234, 40.0, 22.0 ],
 					"text" : "clip"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-111",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.172288091977009, 1011.0, 28.0, 22.0 ],
-					"text" : "abs"
 				}
 
 			}
@@ -1159,7 +1147,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 608.984360649886639, 70.350011297634182, 60.553641059591882, 21.0 ],
+					"patching_rect" : [ 608.984360649886639, 70.350011297634182, 61.0, 21.0 ],
 					"text" : "deep lows",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1567,7 +1555,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-109", 0 ]
 				}
 
@@ -1577,13 +1565,6 @@
 					"color" : [ 0.181329488754272, 0.192575424909592, 0.181360363960266, 1.0 ],
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-111", 0 ]
 				}
 
 			}

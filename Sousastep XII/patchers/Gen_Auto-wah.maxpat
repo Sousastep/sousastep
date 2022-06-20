@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -209.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ -220.0, -993.0, 1573.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,1315 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-119",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 578.666663885116577, 2083.000022649765015, 171.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Comp FET-76", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[7]",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Comp FET-76.auinfo",
+							"plugindisplayname" : "Comp FET-76",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1179924278,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "2728.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAPC..............TB...P.+.H......HfOqWHH....C..........A+vDyNC...T..........F7yHWq....vA.........fvO.B......I.........fB.........rfO.B......L7C.......PC+.H......3..........O3y1CQI....D+fR8BC...DwO.B......R.........vD.........PwMEB......k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zxO........t7C.......vK+.........C.........w.........fL.........LC.........z.........PM.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEABoIiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLv.hPgM2bfXTZtQ1bfjDcyABTrE1XkAhMfLEckIWYuABMv.RLv.xUnUVYrkVYskFdfLCHMkFdf.CHv.BLf.CHw.BLf.CHfDiMx.iLxjCL3LCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.RMf.CHv.BLfDSMfLDZgIWXiQWYxk1bzk1XyARM0.xPnElbgMFckIWZyQWZiMGKTIWXtMWZk4Fc7ITXyM2NGUlaxU1brH0ais1NSQWdrU1brLEauc2NfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfHCLfHTXyMGHFklajMGHIQ2bf.EagMVYfbCHSUmXzkGbkARLv.xPu0FbxU1by8lbfPCHTkGbkABNfPTdtEVaoM1bf.CHv.BLfbCHv.BLf.CHv.BLf.CHxbCHv.BLf.CHwDCHAQGcgM1ZfPUZsUFHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLffCHGIEHRElamUFHv.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3BM1.CLv.CLz.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK1LSN4jSN4jCH0.hTgQWZuABLfDiLfHUYrUVXyUFHTkVakABLtfCLv.CLv.yMfDyMfL0PfPTYzU1Xzk1atARSuQVYf.iKxTCHwTCHSMDHEEEHBUFarAhQxUVbf.iKzHCNxPSN4XCHwTCHSMDHEEEHBUFarAxQgklaf.iK1TSN4jSN4bCHwLCHSMDHEEEHHAEHFIWYwABLfDCMfL0PfTTTffDTFAhQxUVbf.CHwHCHSMDHEEEHHAkQf7jaf.CHwLCHSMDHEEEHLAEHFIWYwARLfDCMfL0PfTTTfvDTFAhQxUVbfDCHwHCHSMDHEEEHLAkQf7jaf.CH3.xTCARQQAxStARLfDiLfL0PfPUZsUFHWElbvABLtTCHw.CHVElboEFco8layABLfDCMfXUcMUFckIGHSUFakMFcf.CHzbCHv.hLw.BRocFZrk1YnQ2WAQGcgM1ZfPUZsUFH3.B........f+.hLx.BRocFZrk1YnQ2WEEEHBUFarAhQxUVbffCH.........9CHxHCHHk1YnwVZmgFceUTTfHTYrwFHGEVZtABNf.........3OfHCLffTZmgFaocFZz8URtAWczAxQgklaffCH.........9CHwfCHHk1YnwVZmgFceYUUfHUXtcVYffCHY+Ti9XsIw7CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf3zatUF.....................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLfDiBRXDU2XCD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfnAbZ.oFvpA.a.xF.uAXb.IG.0JDjBFo.RJzD.......f.A.........PF..................fBVA"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Comp FET-76",
+									"origin" : "Comp FET-76.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Comp FET-76.auinfo",
+										"plugindisplayname" : "Comp FET-76",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1179924278,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "2728.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAPC..............TB...P.+.H......HfOqWHH....C..........A+vDyNC...T..........F7yHWq....vA.........fvO.B......I.........fB.........rfO.B......L7C.......PC+.H......3..........O3y1CQI....D+fR8BC...DwO.B......R.........vD.........PwMEB......k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zxO........t7C.......vK+.........C.........w.........fL.........LC.........z.........PM.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEABoIiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLv.hPgM2bfXTZtQ1bfjDcyABTrE1XkAhMfLEckIWYuABMv.RLv.xUnUVYrkVYskFdfLCHMkFdf.CHv.BLf.CHw.BLf.CHfDiMx.iLxjCL3LCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.RMf.CHv.BLfDSMfLDZgIWXiQWYxk1bzk1XyARM0.xPnElbgMFckIWZyQWZiMGKTIWXtMWZk4Fc7ITXyM2NGUlaxU1brH0ais1NSQWdrU1brLEauc2NfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfHCLfHTXyMGHFklajMGHIQ2bf.EagMVYfbCHSUmXzkGbkARLv.xPu0FbxU1by8lbfPCHTkGbkABNfPTdtEVaoM1bf.CHv.BLfbCHv.BLf.CHv.BLf.CHxbCHv.BLf.CHwDCHAQGcgM1ZfPUZsUFHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLffCHGIEHRElamUFHv.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3BM1.CLv.CLz.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK1LSN4jSN4jCH0.hTgQWZuABLfDiLfHUYrUVXyUFHTkVakABLtfCLv.CLv.yMfDyMfL0PfPTYzU1Xzk1atARSuQVYf.iKxTCHwTCHSMDHEEEHBUFarAhQxUVbf.iKzHCNxPSN4XCHwTCHSMDHEEEHBUFarAxQgklaf.iK1TSN4jSN4bCHwLCHSMDHEEEHHAEHFIWYwABLfDCMfL0PfTTTffDTFAhQxUVbf.CHwHCHSMDHEEEHHAkQf7jaf.CHwLCHSMDHEEEHLAEHFIWYwARLfDCMfL0PfTTTfvDTFAhQxUVbfDCHwHCHSMDHEEEHLAkQf7jaf.CH3.xTCARQQAxStARLfDiLfL0PfPUZsUFHWElbvABLtTCHw.CHVElboEFco8layABLfDCMfXUcMUFckIGHSUFakMFcf.CHzbCHv.hLw.BRocFZrk1YnQ2WAQGcgM1ZfPUZsUFH3.B........f+.hLx.BRocFZrk1YnQ2WEEEHBUFarAhQxUVbffCH.........9CHxHCHHk1YnwVZmgFceUTTfHTYrwFHGEVZtABNf.........3OfHCLffTZmgFaocFZz8URtAWczAxQgklaffCH.........9CHwfCHHk1YnwVZmgFceYUUfHUXtcVYffCHY+Ti9XsIw7CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf3zatUF.....................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLfDiBRXDU2XCD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfnAbZ.oFvpA.a.xF.uAXb.IG.0JDjBFo.RJzD.......f.A.........PF..................fBVA"
+									}
+,
+									"fileref" : 									{
+										"name" : "Comp FET-76",
+										"filename" : "Comp FET-76.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "4b66cfd883ce5eb326081392ed106322"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 \"Comp FET-76\"",
+					"varname" : "vst~[7]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-116",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 887.51617125601615, 1458.967955984336413, 77.0, 22.0 ],
+					"text" : "scale 0 1 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-114",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2482.189264320201346, -39.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-109",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 672.666657447814941, 1294.0, 32.0, 22.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 182.0, 1655.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 335.833332300186157, 1664.0, 72.0, 22.0 ],
+					"text" : "r~ tuba_env"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2889.764232623874705, -292.506123008045279, 74.0, 22.0 ],
+					"text" : "s~ tuba_env"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "Zlo_val",
+					"id" : "obj-77",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 97.0, 1848.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "Zhi_val",
+					"id" : "obj-67",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 102.0, 1814.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 135.0, 1517.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 1577.542017921467959, 129.0, 22.0 ],
+					"text" : "r is_distortion_enabled"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 1619.0, 90.0, 22.0 ],
+					"text" : "scale 0 1 24 52"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 227.0, 1530.666710853576433, 82.0, 22.0 ],
+					"text" : "prepend Zmix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 182.0, 1697.66671085357666, 120.0, 22.0 ],
+					"text" : "prepend Xovr_out_in"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 56.0, 1697.66671085357666, 112.0, 22.0 ],
+					"text" : "prepend Q_amount"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 3084.216983557642379, -562.94633156771215, 55.0, 22.0 ],
+					"text" : "adc~ 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-386",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 679.333349466323853, -259.0000079870224, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-384",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 478.999997615814209, 1385.666676878929138, 77.0, 22.0 ],
+					"text" : "scale 0 1 8 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-383",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 922.833325147628784, 1323.666705846786499, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-380",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 713.166661620140076, 1379.690427757757334, 70.0, 23.0 ],
+					"text" : "bypass $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-379",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 863.833325147628784, 1585.333349943161011, 83.0, 22.0 ],
+					"text" : "scale 0 1 13 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-378",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 757.166675686836243, 1585.333349943161011, 83.0, 22.0 ],
+					"text" : "scale 0 1 13 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-367",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 492.833331108093262, 1585.333349943161011, 83.0, 22.0 ],
+					"text" : "scale 0 1 13 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-370",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 887.51617125601615, 1496.634666837913073, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-375",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 583.24278223844135, 1506.66671085357666, 70.0, 23.0 ],
+					"text" : "bypass $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-366",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 423.833331108093262, 1630.791328666812433, 94.0, 22.0 ],
+					"text" : "delay~ 13 13 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-365",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 404.833332300186157, 1901.000056385993958, 83.0, 22.0 ],
+					"text" : "scale 0 1 40 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-363",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 610.166662851969363, 1901.000056385993958, 83.0, 22.0 ],
+					"text" : "scale 0 1 40 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-360",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 335.833332300186157, 1943.962846499771331, 88.0, 22.0 ],
+					"text" : "delay~ 40 40 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-359",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 541.166662851969363, 1943.962846499771331, 88.0, 22.0 ],
+					"text" : "delay~ 40 40 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-357",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1154.000018835067749, 1821.666679382324219, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-358",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 789.576122168022039, 1901.000056385993958, 70.0, 23.0 ],
+					"text" : "bypass $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-341",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hold.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 919.119998927116285, 2150.792365873824565, 100.880000000000109, 29.581943351368409 ],
+					"varname" : "hold[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-340",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2519.50570216237611, -100.0, 129.0, 22.0 ],
+					"text" : "r is_distortion_enabled"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-338",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1690.414472558508351, 1290.51916358278595, 131.0, 22.0 ],
+					"text" : "s is_distortion_enabled"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-337",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 182.0, 1615.0, 77.0, 22.0 ],
+					"text" : "scale 0 1 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-320",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1286.699998927116212, 1993.000056385993958, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-321",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1121.699998927116212, 2121.000060200691223, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-314",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 990.49999892711628, 2301.000060200691223, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-313",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 859.299998927116235, 2301.000060200691223, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-309",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 980.498051784216841, 2203.000060200691223, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-304",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 859.299998927116235, 2203.000060200691223, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-280",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 423.833331108093262, 1421.666679859161377, 74.0, 22.0 ],
+					"text" : "delay~ 8 8 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-275",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 792.99999463558197, 1622.000016808509827, 94.0, 22.0 ],
+					"text" : "delay~ 13 13 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-272",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 687.833327531814575, 1622.000016808509827, 94.0, 22.0 ],
+					"text" : "delay~ 13 13 50"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-270",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 1121.699998927116212, 2169.000022649765015, 184.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Delay BRIGADE", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[6]",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Delay BRIGADE.auinfo",
+							"plugindisplayname" : "Delay BRIGADE",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1298481778,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "3190.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvI..............HC...P.9DIZ0A...HfOzlSV....C7SUUUE....A9PaNYA...TvOUUUU....F7COp4G...vA+HGrg....ffOu2or....I.........fB9jNRXC...rfO6eda....L7Cf......PC.........3..........O7Cf.......D+.H......DwO.B......R7SQgpL...vD9z5k0A...PgOHSaN....U7iKTrG...fE+.H......bA.........X7yFkRN...PF+bf1o....nA.........a..........G+.H......zwOFcpX....d7yEzZB...vG+.H.......B.........g7yKZ.J...fL+........LyO........z7C.......PM+........XyO........27C........N+........jyO........57C.......vN+........vyO........8.........fO.........7C..........A........PP.........HD.....RyPCNDQTwDkLQ+.DQASVSQWYxU1afjjaQ+fDZMEckIWYuAxS0Q2SQjP2xHCHyUlboEFaooWXzk1atoiNgI2XnklckARLv.BLfbCHv.xMfDCLfDiKz.BQkwVX4MGH1.xTzUlbk8FHzXCHx.CHJUVXt0RSoMFZkwFHBwVXtMFZkQGH3.xTzElajElbjABLf.CHv.BLfDCHv.BLf.RL1HCLy.yMzjCLfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHy.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGHzfCHCgVXxE1XzUlboMGcoM1brPUYsA2asLUdtMVYjsyTzkGakMGKBIWZmgFc7QEZo41NfbCHSUmXzkGbkARLx.RPtEFaucFHDUFagkGHz.BU4AWYfTCHDUFagkGHv.BLf.CH2.BLf.CHv.BLf.CHv.xL2.BLf.CHv.hMfHTdvE1byABLfDSNfTTbeYTZrQWYxMCTkE1ZeYjbkEGHv3xLyjCLzXSL0.hLw.RQw8kQowFckI2LPUVXq80QgklajIDHv3hM3.CLv.CLw.RL1.RQw8kQowFckI2LPUVXq8UTf.iKyjSL4jSN4jCH4.RQw8ERPYjbkEGHv3xM2DSN4jSN1.RNfTTbewDTFIWYwARLfTCHEE2WO4FHw.RLx.RSIQTRfLDZg4lakwFHv.RL0.RSk01axkWSg41WBwVYtQFHv3hL3PCLv.CL2.hL4.RSk01axkWSg41WCg1axU2bVklXxEFcuETauUmazABLfHyMfzTYs8lb40TXt80Pn8lb0MmUoIlbgQ2aM8FYkABLfDSNfzTYs8lb40TXt8EQkwVX4wTYlQGHv3xL0HCLv.CLy.hL0.RSk01axkWSg41WDUFagkGSkYFcSkmaiUFYf.iK3LyLyLyLyDCHxDCHMUVauIWdMElaeQTYrEVdLklaqUFYfDCHwjCHMUVauIWdMElaeQTYrEVdM8FYkABLfHCLfzTYs8lb40TXt8EQkwVX4IUZmgFcf.iKyTiLv.CLvLCHxXCHMUVauIWdMElaeQTYrEVdRk1YnQ2T441XkQFHv3BNyLyLyLyLw.RL4.RSk01axkWSg41WEMFZuwTY1UFaf.iK4PCNv.CLvDCHwfCHMUVauIWdMElaeYTYkQlXgM1Zf.iK2LSM4jSN4PCHwTCHMUVauIWdMElaewTY1UFaf.iKzXyM4jSN4jCHwfCHMUVauIWdMElaewzatcVSuQVYfDCHwfCHMUVauIWdMElae0TZjk1T441XfDCHxbCHMUVauIWdMElaeMEckIWYuQTYrEVdOYlYyUFcf.iKzTSM1LyL3fCHxDCHMUVauIWdMElaeMEckIWYucUZjQGZf.iKzjiLv.CLvDCHxbCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcf.CHyLCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcA01a04Fcf.CHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WAQGcgM1Zf.iK1.CNv.CLvPCHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WI41Qgklaf.CHyDCHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WRUFakE1bkABLtTyLvXyMxXSLfDSNfzzajUGagQWZu41bewjQOQTYyQGHv.hL0.RSuQVcrEFco8lay8ESF8DQkMGcA01a04Fcf.iK1fCMv.CLvHCHxPCHM8FY0wVXzk1atM2WLYzSe0TZjk1T441XfDCHxXCHM8FY0wVXzk1atM2WLYzSeIUXzU1T441XkQFHv3RM4HSM4HiMfLCLfzzajUGagQWZu41bewjQO8kTgQWYSkmaiUFYTkGbkABLfHCNfzzajUGagQWZu41bewjQO8kTgQWYU41T441XkQFHv3xM2TSN4DSM1.hLz.RSuQVcrEFco8lay8ESF8zWWElckY1ax0FHw.RLv.hUgIWZgQWZu41bf.CHzHCHv.RL3.RSoQVZC8lazI2arwVYx4TXsUFHyHCH...........................................HwPCHe8ERW8USgAGbkQ1WeACHz.x+++++fDCMf70WHc0WMEFbvUFYe8ULfPCH+++++CRL0.xWegzUe0TXvAWYj80Ww.CHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULw.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwLCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULz.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwXCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL2.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECNfPCH+++++CRL0.xWegzUe0TXvAWYj80WwjCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kLfPCH+++++CRLz.xWegzUe0TXvAWYj80Wy.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeQCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UMfPCH+++++CRLz.xWegzUe0TXvAWYj80W1.BMf7++++OHwPCHe8ERW8USgAGbkQ1WecCHz.x+++++fDCMf70WHc0WMEFbvUFYe8ENfPCH+++++CRLz.xWegzUe0TXvAWYj80W4.BMf7++++OHwDCHe8USgAGbkQ1WeACHz.x+++++fDSLf70WMEFbvUFYe8ULfPCH+++++CRLx.xWe0TXvAWYj80Ww.CHz.x+++++fDiLf70WMEFbvUFYe8ULw.BMf7++++OHwHCHe8USgAGbkQ1WeEiLfPCH+++++CRLx.xWe0TXvAWYj80WwLCHz.x+++++fDiLf70WMEFbvUFYe8ULz.BMf7++++OHwHCHe8USgAGbkQ1WeESMfPCH+++++CRLx.xWe0TXvAWYj80WwXCHz.x+++++fDiLf70WMEFbvUFYe8UL2.BMf7++++OHwHCHe8USgAGbkQ1WeECNfPCH+++++CRLx.xWe0TXvAWYj80WwjCHz.x+++++fDSLf70WMEFbvUFYe8kLfPCH+++++CRLw.xWe0TXvAWYj80Wy.BMf7++++OHwDCHe8USgAGbkQ1WeQCHz.x+++++fDSLf70WMEFbvUFYe8UMfPCH+++++CRLw.xWe0TXvAWYj80W1.BMf7++++OHwDCHe8USgAGbkQ1WecCHz.x+++++fDSLf70WMEFbvUFYe8ENfPCH+++++CRLw.xWe0TXvAWYj80W4.BMf7++++OHxbCHe80TTEDUE80WRUzTEIkUEQzWe0zSDkjQIUDQfDCHwnfDMUlPxAA.RDVcsYFVU4FcoQGakQF.H.PF.XB.q..N.rD.SAvV..F.kAfZBnf.OHPDBLg.VH.FBHh.kH.LLDACVv.FLzA.......f.A..........F...................Cl."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Delay BRIGADE",
+									"origin" : "Delay BRIGADE.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Delay BRIGADE.auinfo",
+										"plugindisplayname" : "Delay BRIGADE",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1298481778,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "3190.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvI..............HC...P.9DIZ0A...HfOzlSV....C7SUUUE....A9PaNYA...TvOUUUU....F7COp4G...vA+HGrg....ffOu2or....I.........fB9jNRXC...rfO6eda....L7Cf......PC.........3..........O7Cf.......D+.H......DwO.B......R7SQgpL...vD9z5k0A...PgOHSaN....U7iKTrG...fE+.H......bA.........X7yFkRN...PF+bf1o....nA.........a..........G+.H......zwOFcpX....d7yEzZB...vG+.H.......B.........g7yKZ.J...fL+........LyO........z7C.......PM+........XyO........27C........N+........jyO........57C.......vN+........vyO........8.........fO.........7C..........A........PP.........HD.....RyPCNDQTwDkLQ+.DQASVSQWYxU1afjjaQ+fDZMEckIWYuAxS0Q2SQjP2xHCHyUlboEFaooWXzk1atoiNgI2XnklckARLv.BLfbCHv.xMfDCLfDiKz.BQkwVX4MGH1.xTzUlbk8FHzXCHx.CHJUVXt0RSoMFZkwFHBwVXtMFZkQGH3.xTzElajElbjABLf.CHv.BLfDCHv.BLf.RL1HCLy.yMzjCLfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHy.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGHzfCHCgVXxE1XzUlboMGcoM1brPUYsA2asLUdtMVYjsyTzkGakMGKBIWZmgFc7QEZo41NfbCHSUmXzkGbkARLx.RPtEFaucFHDUFagkGHz.BU4AWYfTCHDUFagkGHv.BLf.CH2.BLf.CHv.BLf.CHv.xL2.BLf.CHv.hMfHTdvE1byABLfDSNfTTbeYTZrQWYxMCTkE1ZeYjbkEGHv3xLyjCLzXSL0.hLw.RQw8kQowFckI2LPUVXq80QgklajIDHv3hM3.CLv.CLw.RL1.RQw8kQowFckI2LPUVXq8UTf.iKyjSL4jSN4jCH4.RQw8ERPYjbkEGHv3xM2DSN4jSN1.RNfTTbewDTFIWYwARLfTCHEE2WO4FHw.RLx.RSIQTRfLDZg4lakwFHv.RL0.RSk01axkWSg41WBwVYtQFHv3hL3PCLv.CL2.hL4.RSk01axkWSg41WCg1axU2bVklXxEFcuETauUmazABLfHyMfzTYs8lb40TXt80Pn8lb0MmUoIlbgQ2aM8FYkABLfDSNfzTYs8lb40TXt8EQkwVX4wTYlQGHv3xL0HCLv.CLy.hL0.RSk01axkWSg41WDUFagkGSkYFcSkmaiUFYf.iK3LyLyLyLyDCHxDCHMUVauIWdMElaeQTYrEVdLklaqUFYfDCHwjCHMUVauIWdMElaeQTYrEVdM8FYkABLfHCLfzTYs8lb40TXt8EQkwVX4IUZmgFcf.iKyTiLv.CLvLCHxXCHMUVauIWdMElaeQTYrEVdRk1YnQ2T441XkQFHv3BNyLyLyLyLw.RL4.RSk01axkWSg41WEMFZuwTY1UFaf.iK4PCNv.CLvDCHwfCHMUVauIWdMElaeYTYkQlXgM1Zf.iK2LSM4jSN4PCHwTCHMUVauIWdMElaewTY1UFaf.iKzXyM4jSN4jCHwfCHMUVauIWdMElaewzatcVSuQVYfDCHwfCHMUVauIWdMElae0TZjk1T441XfDCHxbCHMUVauIWdMElaeMEckIWYuQTYrEVdOYlYyUFcf.iKzTSM1LyL3fCHxDCHMUVauIWdMElaeMEckIWYucUZjQGZf.iKzjiLv.CLvDCHxbCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcf.CHyLCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcA01a04Fcf.CHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WAQGcgM1Zf.iK1.CNv.CLvPCHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WI41Qgklaf.CHyDCHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WRUFakE1bkABLtTyLvXyMxXSLfDSNfzzajUGagQWZu41bewjQOQTYyQGHv.hL0.RSuQVcrEFco8lay8ESF8DQkMGcA01a04Fcf.iK1fCMv.CLvHCHxPCHM8FY0wVXzk1atM2WLYzSe0TZjk1T441XfDCHxXCHM8FY0wVXzk1atM2WLYzSeIUXzU1T441XkQFHv3RM4HSM4HiMfLCLfzzajUGagQWZu41bewjQO8kTgQWYSkmaiUFYTkGbkABLfHCNfzzajUGagQWZu41bewjQO8kTgQWYU41T441XkQFHv3xM2TSN4DSM1.hLz.RSuQVcrEFco8lay8ESF8zWWElckY1ax0FHw.RLv.hUgIWZgQWZu41bf.CHzHCHv.RL3.RSoQVZC8lazI2arwVYx4TXsUFHyHCH...........................................HwPCHe8ERW8USgAGbkQ1WeACHz.x+++++fDCMf70WHc0WMEFbvUFYe8ULfPCH+++++CRL0.xWegzUe0TXvAWYj80Ww.CHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULw.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwLCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULz.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwXCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL2.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECNfPCH+++++CRL0.xWegzUe0TXvAWYj80WwjCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kLfPCH+++++CRLz.xWegzUe0TXvAWYj80Wy.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeQCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UMfPCH+++++CRLz.xWegzUe0TXvAWYj80W1.BMf7++++OHwPCHe8ERW8USgAGbkQ1WecCHz.x+++++fDCMf70WHc0WMEFbvUFYe8ENfPCH+++++CRLz.xWegzUe0TXvAWYj80W4.BMf7++++OHwDCHe8USgAGbkQ1WeACHz.x+++++fDSLf70WMEFbvUFYe8ULfPCH+++++CRLx.xWe0TXvAWYj80Ww.CHz.x+++++fDiLf70WMEFbvUFYe8ULw.BMf7++++OHwHCHe8USgAGbkQ1WeEiLfPCH+++++CRLx.xWe0TXvAWYj80WwLCHz.x+++++fDiLf70WMEFbvUFYe8ULz.BMf7++++OHwHCHe8USgAGbkQ1WeESMfPCH+++++CRLx.xWe0TXvAWYj80WwXCHz.x+++++fDiLf70WMEFbvUFYe8UL2.BMf7++++OHwHCHe8USgAGbkQ1WeECNfPCH+++++CRLx.xWe0TXvAWYj80WwjCHz.x+++++fDSLf70WMEFbvUFYe8kLfPCH+++++CRLw.xWe0TXvAWYj80Wy.BMf7++++OHwDCHe8USgAGbkQ1WeQCHz.x+++++fDSLf70WMEFbvUFYe8UMfPCH+++++CRLw.xWe0TXvAWYj80W1.BMf7++++OHwDCHe8USgAGbkQ1WecCHz.x+++++fDSLf70WMEFbvUFYe8ENfPCH+++++CRLw.xWe0TXvAWYj80W4.BMf7++++OHxbCHe80TTEDUE80WRUzTEIkUEQzWe0zSDkjQIUDQfDCHwnfDMUlPxAA.RDVcsYFVU4FcoQGakQF.H.PF.XB.q..N.rD.SAvV..F.kAfZBnf.OHPDBLg.VH.FBHh.kH.LLDACVv.FLzA.......f.A..........F...................Cl."
+									}
+,
+									"fileref" : 									{
+										"name" : "Delay BRIGADE",
+										"filename" : "Delay BRIGADE.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "3b9795af5cc06d5cada6f55db1eac649"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 \"Delay BRIGADE\"",
+					"varname" : "vst~[6]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 672.666657447814941, 1261.962828856796477, 46.0, 22.0 ],
+					"text" : "get -10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-242",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 859.299998927116235, 2247.288134215426908, 140.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Blackhole", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[4]",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Blackhole.auinfo",
+							"plugindisplayname" : "Blackhole",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1213156421,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1479.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCf9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwPiK3.CLv.yLvTSL2TyM3vRCJ.BHhLWZ5UlH5.BN43hM1XiM1PSLxLSMyTSL1vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsjiK1XiM1XSN3PSM0fSLvTSMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNf.iKvvRCJ.BHhHWYy8lH5.BLt.CKMn.HfHRZtwlchnCHv3BLrzfBf.hHuQGa1IhNf.iKvvRCJ.BHhPWav8lH5.RLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHxZowFahnCHv3BLrzfBf.hHlIWY5IhNf.iKvvRCJ.BHhf1azMmH5.BLt.CKMn.HfHhboIlahnCHw3BLrzfBf.hHsEla0EFaTUVav8lUgwVckIhNfDiLv3BLrzfBf.hHn8FcycGNhnCHw3BLrzfBf.hHn8Fcyc2alYFNhnCHv3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNfDiKvvRCJ.BHhP2b44lH5.BcxUWYrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RK43hM1XiM1jCNzTSM3DCL0TCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHv3BLrzfBf.hHlQlXq8EZuQ2WycWZzMFZhnCHw3BLrzfBf.hHvIWYoIhNfTCKMn.HfHBbxUlahnCHhfDNv.CLfHDagM1Zn8FakIRCJzG.....................................................................................................................................................................................................................................PA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.fEPYAbV.oE.aA3V.zEvcA3W.CFPgAnXA1A.......HP..........fA..................Tvc"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Blackhole",
+									"origin" : "Blackhole.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Blackhole.auinfo",
+										"plugindisplayname" : "Blackhole",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1213156421,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1479.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCf9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwPiK3.CLv.yLvTSL2TyM3vRCJ.BHhLWZ5UlH5.BN43hM1XiM1PSLxLSMyTSL1vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsjiK1XiM1XSN3PSM0fSLvTSMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNf.iKvvRCJ.BHhHWYy8lH5.BLt.CKMn.HfHRZtwlchnCHv3BLrzfBf.hHuQGa1IhNf.iKvvRCJ.BHhPWav8lH5.RLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHxZowFahnCHv3BLrzfBf.hHlIWY5IhNf.iKvvRCJ.BHhf1azMmH5.BLt.CKMn.HfHhboIlahnCHw3BLrzfBf.hHsEla0EFaTUVav8lUgwVckIhNfDiLv3BLrzfBf.hHn8FcycGNhnCHw3BLrzfBf.hHn8Fcyc2alYFNhnCHv3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNfDiKvvRCJ.BHhP2b44lH5.BcxUWYrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RK43hM1XiM1jCNzTSM3DCL0TCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHv3BLrzfBf.hHlQlXq8EZuQ2WycWZzMFZhnCHw3BLrzfBf.hHvIWYoIhNfTCKMn.HfHBbxUlahnCHhfDNv.CLfHDagM1Zn8FakIRCJzG.....................................................................................................................................................................................................................................PA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.fEPYAbV.oE.aA3V.zEvcA3W.CFPgAnXA1A.......HP..........fA..................Tvc"
+									}
+,
+									"fileref" : 									{
+										"name" : "Blackhole",
+										"filename" : "Blackhole.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "81ae089482a2ceff058ba8ea13eba452"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 Blackhole",
+					"varname" : "vst~[4]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-276",
+					"maxclass" : "newobj",
+					"numinlets" : 8,
+					"numoutlets" : 0,
+					"patching_rect" : [ 334.49999892711628, 2350.288134215426908, 908.666689753532523, 22.0 ],
+					"text" : "dac~ 5 6 7 8 9 10 11 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-211",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 863.833325147628784, 1682.288113711429105, 106.0, 22.0 ],
+					"text" : "r~ Low_Amp_Mod",
+					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-218",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 951.833323955535889, 1715.481713686667717, 109.0, 22.0 ],
+					"text" : "r~ High_Freq_Mod",
+					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-210",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 533.166663885116577, 1546.666682124137878, 155.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Crushstation", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[3]",
+							"parameter_shortname" : "vst~[3]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "CrushStation.auinfo",
+							"plugindisplayname" : "CrushStation",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1131565934,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDCI2TtAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHCIWcyg1TzEFco8lahvRCJ.BHh.mbuQVciQ2WoQlH5.hHi8VatTlck4FcoQVYtfVNtLlb0MGZyQWXzk1atIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLv.CLvbiMxjyL4PSMrzfBf.hHjImckIhNfbiLtHCMyXSMxLCMybSMrzfBf.hHjImck80bzElbz8UY3AmH5.BLtPCLvHiMwjSN3DyM1TyMzbCKMn.HfHBYxYWYeUlaj8UY3AmH5.BLtbSMvHiMx.iLx.SL3PyLxXCKMn.HfHxbyQmahnCHw.CLt.iMwLCL4fSLzPSMyDCKMn.HfHxbyE1YhnCHv3BLrzfBf.hHyMWXm8EZuQ2WycWZzMFZhnCHv3RM1LyLxPCNvjCL2PCMvDSNrzfBf.hHvwVcmklaeM2bgc1WnQ2b28kbkw1agQlH5.BLt.CKMn.HfHxaiQmchnCHxHCMtXCL4LyM0vRCJ.BHhLlazImH5.xLv3hM4bSLvbyLwTCL1LCM3vRCJ.BHhDFcislH5.RLt.CKMn.HfHBcnI2bhnCHsXSMt.CKMn.HfHhXgM2bhnCHv3BLrzfBf.hHskFYyIhNf.iKvvRCJ.BHhzlYxEmH5.BM0DiK0jCN4XCN0.SM3TSNzvRCJ.BHhPmbhwlH5.xLx3hM3bCM4XSL3TyLvHyMyvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtTCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHhP2b44lH5.BLt.CKMn.HfHBbxUVZhnCHwHCMrzfBf.hHvIWYtIhNfHxbuU2bgMGckAmHMnPe..............................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "CrushStation",
+									"origin" : "CrushStation.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "CrushStation.auinfo",
+										"plugindisplayname" : "CrushStation",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1131565934,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDCI2TtAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHCIWcyg1TzEFco8lahvRCJ.BHh.mbuQVciQ2WoQlH5.hHi8VatTlck4FcoQVYtfVNtLlb0MGZyQWXzk1atIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLv.CLvbiMxjyL4PSMrzfBf.hHjImckIhNfbiLtHCMyXSMxLCMybSMrzfBf.hHjImck80bzElbz8UY3AmH5.BLtPCLvHiMwjSN3DyM1TyMzbCKMn.HfHBYxYWYeUlaj8UY3AmH5.BLtbSMvHiMx.iLx.SL3PyLxXCKMn.HfHxbyQmahnCHw.CLt.iMwLCL4fSLzPSMyDCKMn.HfHxbyE1YhnCHv3BLrzfBf.hHyMWXm8EZuQ2WycWZzMFZhnCHv3RM1LyLxPCNvjCL2PCMvDSNrzfBf.hHvwVcmklaeM2bgc1WnQ2b28kbkw1agQlH5.BLt.CKMn.HfHxaiQmchnCHxHCMtXCL4LyM0vRCJ.BHhLlazImH5.xLv3hM4bSLvbyLwTCL1LCM3vRCJ.BHhDFcislH5.RLt.CKMn.HfHBcnI2bhnCHsXSMt.CKMn.HfHhXgM2bhnCHv3BLrzfBf.hHskFYyIhNf.iKvvRCJ.BHhzlYxEmH5.BM0DiK0jCN4XCN0.SM3TSNzvRCJ.BHhPmbhwlH5.xLx3hM3bCM4XSL3TyLvHyMyvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtTCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHhP2b44lH5.BLt.CKMn.HfHBbxUVZhnCHwHCMrzfBf.hHvIWYtIhNfHxbuU2bgMGckAmHMnPe..............................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+									}
+,
+									"fileref" : 									{
+										"name" : "CrushStation",
+										"filename" : "CrushStation_20220620.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "54f6e6ba7d1759f60d574b44679c305d"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 Crushstation",
+					"varname" : "vst~[3]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.325490196078431, 0.0, 0.545098039215686, 1.0 ],
+					"id" : "obj-200",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 568.333328127861023, 1793.962842685074065, 170.0, 20.0 ],
+					"text" : "low L / low R / High L / High R",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-191",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 746.547615630286032, 1943.962846499771331, 224.33333055178332, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Tricerachorus", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~",
+							"parameter_shortname" : "vst~",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"bypass" : 1,
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "TriceraChorus.auinfo",
+							"plugindisplayname" : "TriceraChorus",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1416784195,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1637.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQPfu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtPSL2jSN4HiM2TyM3DiLrzfBf.hHi0VZ3IhNfDiL43RM3HCLv.yMyHCMxDSNrzfBf.hHvwVcmklaeMVaog2Wn8FceM2coQ2XnIhNf.iK0TCL1XCMyXSMxjSL0jSM0vRCJ.BHh.Ga0cVZt80XskFdegFcyc2WxUFauEFYhnCH2DiKzDyM4jSNxXyM0bCNwHCKMn.HfHxXn0FYhnCHw3BLrzfBf.hHxEFckIhNf.iK2HSNz.CLxbyMwLyM2TiMyvRCJ.BHhHWXzU1Wn8FceM2coQ2XnIhNf.iKvDSL0XSN1fCL1PiMvXSL4vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3xMxjCMv.iL2bSLybyM0XyLrzfBf.hHrQVYvIhNfHCMtTCM2TCLvXSLvLSMwTiMrzfBf.hHiQVYvIhNf.iKvvRCJ.BHhHGYkAmH5.hLz3xL0HyL4jCNxXCLzjCNrzfBf.hHj0VZtIhNfDiKzLiLwjSN4TCM4fiM0biLrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BLrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPyLxDSN4jSMzjCN1TyMxvRCJ.BHhTla1ImH5.RLz.iKvDiMv.iMzXSN2HiM1vRCJ.BHhPFcsgmH5.xMx3xMzbSM2LCN0HSMyjCL1vRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xLxDCNzbCM4fCMwXSNv.iMrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3BNx.SM1PSMvfCMyfSLw.CMrzfBf.hHjQVYvIhNfDSN23hL3bCLvHSM1LCM2XiMrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHyPSLt.SL0jSNwHSLvjyL2TCKMn.HfHBcu4VYhnCH23hMzXSMvLCMzfCM3XyLxfCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHy3BLv.CLvLCL4jCMzDSMxfCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtfSLy.CLv.iLyLiM0.iLvfCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfDiLv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RLxvRCJ.BHh.mbk4lH5.hHPE1big1axkVcyIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RY.E........BD..........X...................FTA"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "TriceraChorus",
+									"origin" : "TriceraChorus.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "TriceraChorus.auinfo",
+										"plugindisplayname" : "TriceraChorus",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1416784195,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1637.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQPfu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtPSL2jSN4HiM2TyM3DiLrzfBf.hHi0VZ3IhNfDiL43RM3HCLv.yMyHCMxDSNrzfBf.hHvwVcmklaeMVaog2Wn8FceM2coQ2XnIhNf.iK0TCL1XCMyXSMxjSL0jSM0vRCJ.BHh.Ga0cVZt80XskFdegFcyc2WxUFauEFYhnCH2DiKzDyM4jSNxXyM0bCNwHCKMn.HfHxXn0FYhnCHw3BLrzfBf.hHxEFckIhNf.iK2HSNz.CLxbyMwLyM2TiMyvRCJ.BHhHWXzU1Wn8FceM2coQ2XnIhNf.iKvDSL0XSN1fCL1PiMvXSL4vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3xMxjCMv.iL2bSLybyM0XyLrzfBf.hHrQVYvIhNfHCMtTCM2TCLvXSLvLSMwTiMrzfBf.hHiQVYvIhNf.iKvvRCJ.BHhHGYkAmH5.hLz3xL0HyL4jCNxXCLzjCNrzfBf.hHj0VZtIhNfDiKzLiLwjSN4TCM4fiM0biLrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BLrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPyLxDSN4jSMzjCN1TyMxvRCJ.BHhTla1ImH5.RLz.iKvDiMv.iMzXSN2HiM1vRCJ.BHhPFcsgmH5.xMx3xMzbSM2LCN0HSMyjCL1vRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xLxDCNzbCM4fCMwXSNv.iMrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3BNx.SM1PSMvfCMyfSLw.CMrzfBf.hHjQVYvIhNfDSN23hL3bCLvHSM1LCM2XiMrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHyPSLt.SL0jSNwHSLvjyL2TCKMn.HfHBcu4VYhnCH23hMzXSMvLCMzfCM3XyLxfCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHy3BLv.CLvLCL4jCMzDSMxfCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtfSLy.CLv.iLyLiM0.iLvfCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfDiLv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RLxvRCJ.BHh.mbk4lH5.hHPE1big1axkVcyIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RY.E........BD..........X...................FTA"
+									}
+,
+									"fileref" : 									{
+										"name" : "TriceraChorus",
+										"filename" : "TriceraChorus_20220620.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "ca78ea32300e5025a490531a594aae2f"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 Tricerachorus",
+					"varname" : "vst~",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-186",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 693.166661024093628, 1413.666679620742798, 142.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Micropitch", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[2]",
+							"parameter_shortname" : "vst~[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"bypass" : 1,
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "MicroPitch.auinfo",
+							"plugindisplayname" : "MicroPitch",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1298362960,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtbyMy.SNzDyM2HCM1.SNrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH43BLrzfBf.hHvMFZhIhNfjiKvvRCJ.BHhPFa4ElH5.BLt.SM3LCL4.yL2HyL3LSM4PSMrzfBf.hHjwVdhIhNf.iKvvRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.xL03hMwfCM3fyLwDyM1bSM3vRCJ.BHhzlbgQmH5.xLz3hL1XSNxTCNwDyM1bSM3vRCJ.BHhXFYhslH5.xLy3BNzbiM0XiL0vRCJ.BHhP2atUlH5.RKv3BM3TiMxHCN3HCNzLCLwbiMrzfBf.hHvwVcmklae0FaislH5.RLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvslahIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCHyvRCJ.BHh.mbk4lH5.hHHMCLv.CHMk1Xx8FboQ2XnIRCJzG............................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "MicroPitch",
+									"origin" : "MicroPitch.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "MicroPitch.auinfo",
+										"plugindisplayname" : "MicroPitch",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1298362960,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtbyMy.SNzDyM2HCM1.SNrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH43BLrzfBf.hHvMFZhIhNfjiKvvRCJ.BHhPFa4ElH5.BLt.SM3LCL4.yL2HyL3LSM4PSMrzfBf.hHjwVdhIhNf.iKvvRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.xL03hMwfCM3fyLwDyM1bSM3vRCJ.BHhzlbgQmH5.xLz3hL1XSNxTCNwDyM1bSM3vRCJ.BHhXFYhslH5.xLy3BNzbiM0XiL0vRCJ.BHhP2atUlH5.RKv3BM3TiMxHCN3HCNzLCLwbiMrzfBf.hHvwVcmklae0FaislH5.RLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvslahIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCHyvRCJ.BHh.mbk4lH5.hHHMCLv.CHMk1Xx8FboQ2XnIRCJzG............................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+									}
+,
+									"fileref" : 									{
+										"name" : "MicroPitch",
+										"filename" : "MicroPitch_20220620_2.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "ebf2d51525ed89318c09710ea2d9f21d"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 Micropitch",
+					"varname" : "vst~[2]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.325490196078431, 0.0, 0.545098039215686, 1.0 ],
+					"id" : "obj-125",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.333328127861023, 1746.481713686667717, 466.0, 20.0 ],
+					"text" : "mic mono / low mono / hi L / hi R / dry L / dry R / low amp mod LFO / hi freq mod LFO",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-69",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 423.833331108093262, 1302.962828856796477, 204.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Quadravox", "sousastep", ";" ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "vst~[1]",
+							"parameter_shortname" : "vst~[1]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 1,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Quadravox.auinfo",
+							"plugindisplayname" : "Quadravox",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1366647895,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "26800.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQTF960fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHv3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiK0jSN4jSN4.CM1LiL0XCNrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RKx3RN4jSN4bSLyfSN2bCL0DCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNf.iKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfbiKvvRCJ.BHhz1b2IiH5.BLt.CKMn.HfHhXkElLhnCHv3BLrzfBf.hHuclayHhNf.iKvvRCJ.BHhXlXqMiH5.BLt.CKMn.HfHBbg41LhnCHw3BLrzfBf.hHjwVdyHhNf.iKvvRCJ.BHhLGZzMiH5.BLt.CKMn.HfHRZtQ2LhnCHwPiKvvRCJ.BHhz1b2MiH5.RLt.CKMn.HfHhXkE1LhnCHv3BLrzfBf.hHuclazHhNf.iKvvRCJ.BHhXlXqQiH5.BLt.CKMn.HfHBbg4FMhnCHsDiKvvRCJ.BHhPFa4QiH5.BLt.CKMn.HfHxbnQGMhnCHv3BLrzfBf.hHo4FczHhNfHSLt.CKMn.HfHRaycGMhnCHw3BLrzfBf.hHhUVXzHhNf.iKvvRCJ.BHhX2bkwlH5.BLt.CKMn.HfHRazImahnCHz3BLrzfBf.hHsQmbjIhNfPiKvvRCJ.BHhLmagA2bn8FcvHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHwjCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQmLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHyLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8FcyHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.RL2vBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azQiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCHyvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWMhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc1HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLvvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azciH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQGNhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfjCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc4HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4cCWhnCHw3BL0.CLv.CLv.iLzPCM2HCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHCNt.CKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDyMr.BWhjlazYCWhnCHw.CKfvkHo4Fc2vkH5.RLvvBHbIRZtQGNbIhNfDiLr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHsDiKvvBHbIBbg4lMbIhNfDiKvvBHbIBbg41MbIhNfzRLt.CKfvkHvEla3vkH5.RLt.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fcw.iH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNfDiKyPSN4jSN4jSN2TSM0HCNr.BWhPFa4YCWhnCHw3BM4jSN4jSN4jyM4.CM0HCKfvkHjwVd2vkH5.RLtbSN4jSN4jSN4fiMvLCLxvBHbIBYrkGNbIhNfHiKvjSN4jSN4jSN4LCLwTSLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.BNr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHw3BLr.BWh.WXtYCWhnCHw3BLr.BWh.WXtcCWhnCHsDiKvvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLwHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHw3xLzjSN4jSN4jyM0TSMxfCKfvkHjwVd1vkH5.RLtPSN4jSN4jSN4bSNvPSMxvBHbIBYrk2MbIhNfDiK4PSN4jSN4jSN3jSMxHiMr.BWhPFa4gCWhnCHx3BL4jSN4jSN4jSNy.SL0DCKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwTCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDyMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.RLt.CKfvkHvEla1vkH5.RLt.CKfvkHvEla2vkH5.RKw3BLr.BWh.WXtgCWhnCHw3BLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHCNt.CKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHwvBHbIRaycmMbIhNfDCKfvkHsM2c2vkH5.RLr.BWhz1b2gCWhnCHwvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNf.iK1XSLvDiM4PCN4.yM3byLr.BWh.WXtYCWhnCHs.iKyTSM4LiLx.iL4bSL0HCM1vBHbIBbg41MbIhNf.iK0jyLxHCLyLCN0jiMyDSMyvBHbIBbg4FNbIhNfzBLtPiLybiL3fSLyHCNy.CNxLCKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH23RN4jSN4jiMyXyM3PCL1DCKfvkHygFc1vkH5.RK23RN4jSN4jiMyXyM3PyLxbCKfvkHygFc2vkH5.BNtjSN4jSN4fCLvjiL4bSLzvBHbIxbnQGNbIhNfzRNtjSN4jSN4jiM0.yM0LiM3vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEyLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCHv3BLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLzHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3xM0.CLv.CLv.SL2PiMxLCKfvkHjwVd2vkH5.BLtjCLv.CLv.CLvHCL4TCM2TCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.hLwvBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHw.CKfvkHo4Fc1vkH5.RNr.BWhjlazcCWhnCH3vBHbIRZtQGNbIhNfbCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.BLtHCM4jSN4jSN4fiL0LyM2vBHbIBbg4lMbIhNf.iKzjSN4jSN4jSN3fyL0fCM2vBHbIBbg41MbIhNf.iK2PSN4jSN4jSN4PSL2jiLyvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWL0HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.hLwvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHvIWYoIhNfHyL2vRCJ.BHh.mbk4lH5.hHy8VcyE1bzUFbhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZBji.9H.PBHj.EIvQBzj.PIvUBvk.dIvXn8E.......f.A..........F...................ZfA"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Quadravox",
+									"origin" : "Quadravox.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "AudioEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Quadravox.auinfo",
+										"plugindisplayname" : "Quadravox",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1366647895,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "26800.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQTF960fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHv3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiK0jSN4jSN4.CM1LiL0XCNrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RKx3RN4jSN4bSLyfSN2bCL0DCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNf.iKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfbiKvvRCJ.BHhz1b2IiH5.BLt.CKMn.HfHhXkElLhnCHv3BLrzfBf.hHuclayHhNf.iKvvRCJ.BHhXlXqMiH5.BLt.CKMn.HfHBbg41LhnCHw3BLrzfBf.hHjwVdyHhNf.iKvvRCJ.BHhLGZzMiH5.BLt.CKMn.HfHRZtQ2LhnCHwPiKvvRCJ.BHhz1b2MiH5.RLt.CKMn.HfHhXkE1LhnCHv3BLrzfBf.hHuclazHhNf.iKvvRCJ.BHhXlXqQiH5.BLt.CKMn.HfHBbg4FMhnCHsDiKvvRCJ.BHhPFa4QiH5.BLt.CKMn.HfHxbnQGMhnCHv3BLrzfBf.hHo4FczHhNfHSLt.CKMn.HfHRaycGMhnCHw3BLrzfBf.hHhUVXzHhNf.iKvvRCJ.BHhX2bkwlH5.BLt.CKMn.HfHRazImahnCHz3BLrzfBf.hHsQmbjIhNfPiKvvRCJ.BHhLmagA2bn8FcvHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHwjCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQmLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHyLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8FcyHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.RL2vBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azQiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCHyvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWMhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc1HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLvvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azciH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQGNhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfjCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc4HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4cCWhnCHw3BL0.CLv.CLv.iLzPCM2HCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHCNt.CKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDyMr.BWhjlazYCWhnCHw.CKfvkHo4Fc2vkH5.RLvvBHbIRZtQGNbIhNfDiLr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHsDiKvvBHbIBbg4lMbIhNfDiKvvBHbIBbg41MbIhNfzRLt.CKfvkHvEla3vkH5.RLt.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fcw.iH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNfDiKyPSN4jSN4jSN2TSM0HCNr.BWhPFa4YCWhnCHw3BM4jSN4jSN4jyM4.CM0HCKfvkHjwVd2vkH5.RLtbSN4jSN4jSN4fiMvLCLxvBHbIBYrkGNbIhNfHiKvjSN4jSN4jSN4LCLwTSLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.BNr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHw3BLr.BWh.WXtYCWhnCHw3BLr.BWh.WXtcCWhnCHsDiKvvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLwHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHw3xLzjSN4jSN4jyM0TSMxfCKfvkHjwVd1vkH5.RLtPSN4jSN4jSN4bSNvPSMxvBHbIBYrk2MbIhNfDiK4PSN4jSN4jSN3jSMxHiMr.BWhPFa4gCWhnCHx3BL4jSN4jSN4jSNy.SL0DCKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwTCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDyMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.RLt.CKfvkHvEla1vkH5.RLt.CKfvkHvEla2vkH5.RKw3BLr.BWh.WXtgCWhnCHw3BLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHCNt.CKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHwvBHbIRaycmMbIhNfDCKfvkHsM2c2vkH5.RLr.BWhz1b2gCWhnCHwvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNf.iK1XSLvDiM4PCN4.yM3byLr.BWh.WXtYCWhnCHs.iKyTSM4LiLx.iL4bSL0HCM1vBHbIBbg41MbIhNf.iK0jyLxHCLyLCN0jiMyDSMyvBHbIBbg4FNbIhNfzBLtPiLybiL3fSLyHCNy.CNxLCKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH23RN4jSN4jiMyXyM3PCL1DCKfvkHygFc1vkH5.RK23RN4jSN4jiMyXyM3PyLxbCKfvkHygFc2vkH5.BNtjSN4jSN4fCLvjiL4bSLzvBHbIxbnQGNbIhNfzRNtjSN4jSN4jiM0.yM0LiM3vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEyLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCHv3BLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLzHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3xM0.CLv.CLv.SL2PiMxLCKfvkHjwVd2vkH5.BLtjCLv.CLv.CLvHCL4TCM2TCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.hLwvBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHw.CKfvkHo4Fc1vkH5.RNr.BWhjlazcCWhnCH3vBHbIRZtQGNbIhNfbCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.BLtHCM4jSN4jSN4fiL0LyM2vBHbIBbg4lMbIhNf.iKzjSN4jSN4jSN3fyL0fCM2vBHbIBbg41MbIhNf.iK2PSN4jSN4jSN4PSL2jiLyvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWL0HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.hLwvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHvIWYoIhNfHyL2vRCJ.BHh.mbk4lH5.hHy8VcyE1bzUFbhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZBji.9H.PBHj.EIvQBzj.PIvUBvk.dIvXn8E.......f.A..........F...................ZfA"
+									}
+,
+									"fileref" : 									{
+										"name" : "Quadravox",
+										"filename" : "Quadravox_20220620.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+										"filepos" : -1,
+										"snapshotfileid" : "de6003779a0009d20663f82798e0f0ad"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 Quadravox sousastep",
+					"varname" : "vst~[1]",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 423.833331108093262, 1238.881673486469936, 72.0, 22.0 ],
+					"text" : "r~ tuba_mic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2846.764232623874705, -362.297431707301769, 74.0, 22.0 ],
+					"text" : "s~ tuba_mic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2846.764232623874705, -490.422080753371461, 67.5, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2006.0, -374.0, 35.0, 22.0 ],
+					"patching_rect" : [ 1690.414472558508351, 1193.590422071648845, 35.0, 22.0 ],
 					"text" : "del 1"
 				}
 
@@ -57,34 +1360,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2006.0, -407.0, 22.0, 22.0 ],
+					"patching_rect" : [ 1690.414472558508351, 1161.280841567936477, 22.0, 22.0 ],
 					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-63",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2872.355180854748596, -344.875350953930308, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2901.900740841685092, -344.875350953930308, 37.0, 22.0 ],
-					"text" : "* 127"
 				}
 
 			}
@@ -95,7 +1372,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 2901.900740841685092, -443.875350953930308, 70.0, 22.0 ],
+					"patching_rect" : [ 895.51617125601615, 1093.12464499295379, 70.0, 22.0 ],
 					"text" : "select 0 1 2"
 				}
 
@@ -107,7 +1384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 2979.900740841685092, -402.875350953930308, 32.0, 22.0 ],
+					"patching_rect" : [ 973.51617125601615, 1134.12464499295379, 32.0, 22.0 ],
 					"text" : "t 0 1"
 				}
 
@@ -119,7 +1396,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 2939.900740841685092, -402.875350953930308, 32.0, 22.0 ],
+					"patching_rect" : [ 933.51617125601615, 1134.12464499295379, 32.0, 22.0 ],
 					"text" : "t 1 0"
 				}
 
@@ -131,8 +1408,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 2901.900740841685092, -402.875350953930308, 32.0, 22.0 ],
-					"text" : "t 0 0"
+					"patching_rect" : [ 895.51617125601615, 1134.12464499295379, 32.0, 22.0 ],
+					"text" : "t 1 1"
 				}
 
 			}
@@ -143,7 +1420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2855.599255999268735, -510.875350953930308, 29.5, 22.0 ],
+					"patching_rect" : [ 839.214686413599793, 1004.12464499295379, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -155,7 +1432,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2901.900740841685092, -510.875350953930308, 34.0, 22.0 ],
+					"patching_rect" : [ 895.51617125601615, 1026.12464499295379, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -167,55 +1444,8 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 2901.900740841685092, -476.875350953930308, 61.0, 22.0 ],
+					"patching_rect" : [ 895.51617125601615, 1060.12464499295379, 61.0, 22.0 ],
 					"text" : "counter 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2882.567412654219424, -288.341549550443972, 63.0, 20.0 ],
-					"text" : "micropitch"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-30",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2876.567412654219424, -307.542021037929942, 69.0, 22.0 ],
-					"text" : "prepend 24"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-29",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1947.878084732721618, -160.819585716430197, 90.0, 22.0 ],
-					"text" : "scale 1 2 127 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-24",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1947.878084732721618, -123.94633156771215, 69.0, 22.0 ],
-					"text" : "prepend 12"
 				}
 
 			}
@@ -226,7 +1456,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2131.484307162376354, -192.79952851251403, 29.5, 22.0 ],
+					"patching_rect" : [ 227.0, 1494.817333418956423, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -242,7 +1472,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1264,7 +2494,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 271.087253134759521, 38.592617089985197, 131.0, 22.0 ],
+					"patching_rect" : [ 409.087253134759521, 47.592617089985197, 131.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1283,7 +2513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2075.50570216237611, -304.906553681206447, 70.0, 22.0 ],
+					"patching_rect" : [ 2549.00570216237611, -67.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -1294,7 +2524,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3049.0, 254.539215286336457, 150.0, 20.0 ],
+					"patching_rect" : [ 3266.216983617247024, -119.460784713663543, 106.0, 20.0 ],
 					"text" : "ceiling - low-sens"
 				}
 
@@ -1305,7 +2535,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3294.393951322912471, 263.327182450194869, 150.0, 20.0 ],
+					"patching_rect" : [ 3511.610934940159495, -110.672817549805131, 106.0, 20.0 ],
 					"text" : "floor - low sens"
 				}
 
@@ -1317,14 +2547,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2024.747816779623463, -269.031202727276138, 29.5, 22.0 ],
+					"patching_rect" : [ 2519.50570216237611, -30.124649046069692, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 35.304188303955442, 0, 0.0, 0.370371105559001, 99.586178876508725, 0, 0.5, 1.0, 100.0, 0, 0.0, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 35.304188303955442, 0, 0.0, 0.498236785036167, 100.0, 0, 0.0, 1.0, 100.0, 0, 0.0 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -1338,7 +2568,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 3027.110974366025857, 169.594431806673356, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 3202.327957983272881, -180.405568193326644, 198.0, 123.005676922673501 ],
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1359,7 +2589,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 21.019301510054717, 0, 0.0, 0.521505236305216, 100.0, 0, 0.7, 1.0, 100.0, 0, 0.0, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 21.019301510054717, 0, 0.0, 1.0, 87.341990196022394, 0, 0.0 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -1373,7 +2603,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 3267.000026047229767, 169.594431806673356, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 3442.217009664476791, -180.405568193326644, 198.0, 123.005676922673501 ],
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1399,7 +2629,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2655.999999940395355, 372.103423038628989, 52.0, 22.0 ],
+					"patching_rect" : [ 2791.999999940395355, 29.103423038628989, 52.0, 22.0 ],
 					"text" : "switch 2"
 				}
 
@@ -1411,7 +2641,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2024.747816779623463, -304.906553681206447, 29.5, 22.0 ],
+					"patching_rect" : [ 1690.414472558508351, 1225.900002575361214, 29.5, 22.0 ],
 					"text" : "+"
 				}
 
@@ -1423,8 +2653,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2024.747816779623463, -230.410061974118605, 47.0, 22.0 ],
-					"text" : "clip 1 2"
+					"patching_rect" : [ 1690.414472558508351, 1258.209583079073582, 47.0, 22.0 ],
+					"text" : "clip 0 1"
 				}
 
 			}
@@ -1435,7 +2665,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2567.0, 372.103423038628989, 52.0, 22.0 ],
+					"patching_rect" : [ 2703.0, 29.103423038628989, 52.0, 22.0 ],
 					"text" : "switch 2"
 				}
 
@@ -1446,7 +2676,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2797.816572114993505, 809.676782585893534, 42.0, 20.0 ],
+					"patching_rect" : [ 2967.816572114993505, 116.577078196984644, 42.0, 20.0 ],
 					"text" : "pow"
 				}
 
@@ -1467,7 +2697,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2760.41643840245888, 789.195823768757691, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 2930.41643840245888, 96.096119379848801, 198.0, 123.005676922673501 ],
 					"range" : [ -100.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1493,8 +2723,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2131.484307162376354, -229.094863414603537, 93.0, 22.0 ],
-					"text" : "scale 0. 1 0 127"
+					"patching_rect" : [ 227.0, 1458.967955984336413, 93.0, 22.0 ],
+					"text" : "scale 0. 1 0 100"
 				}
 
 			}
@@ -1505,7 +2735,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 397.379220118805279, -20.079133804301932, 22.0, 22.0 ],
+					"patching_rect" : [ 535.379220118805279, -11.079133804301932, 22.0, 22.0 ],
 					"text" : "t 4"
 				}
 
@@ -1517,7 +2747,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 259.429139447332091, -221.745786066512778, 22.0, 22.0 ],
+					"patching_rect" : [ 397.429139447332091, -212.745786066512778, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -1529,7 +2759,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 443.104827628877501, -266.177491879269041, 32.0, 22.0 ],
+					"patching_rect" : [ 581.104827628877501, -257.177491879269041, 32.0, 22.0 ],
 					"text" : "r left"
 				}
 
@@ -1541,7 +2771,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 338.454437628877713, -266.177491879269041, 39.0, 22.0 ],
+					"patching_rect" : [ 476.454437628877713, -257.177491879269041, 39.0, 22.0 ],
 					"text" : "r right"
 				}
 
@@ -1553,7 +2783,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 298.454437628877713, -266.177491879269041, 29.0, 22.0 ],
+					"patching_rect" : [ 436.454437628877713, -257.177491879269041, 29.0, 22.0 ],
 					"text" : "r up"
 				}
 
@@ -1565,7 +2795,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 388.24640461292347, -266.177491879269041, 45.0, 22.0 ],
+					"patching_rect" : [ 526.24640461292347, -257.177491879269041, 45.0, 22.0 ],
 					"text" : "r down"
 				}
 
@@ -1576,7 +2806,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2533.999999940395355, 251.539215286336457, 150.0, 20.0 ],
+					"patching_rect" : [ 2751.216983557642379, -122.460784713663543, 106.0, 20.0 ],
 					"text" : "ceiling - high-sens"
 				}
 
@@ -1588,7 +2818,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2810.999999940395355, 57.493876991954721, 87.0, 22.0 ],
+					"patching_rect" : [ 2986.216983557642379, -292.506123008045279, 87.0, 22.0 ],
 					"text" : "slide~ 3 40000"
 				}
 
@@ -1600,7 +2830,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2809.999999940395355, 93.369227945885086, 75.0, 22.0 ],
+					"patching_rect" : [ 2985.216983557642379, -256.630772054114914, 75.0, 22.0 ],
 					"text" : "peakamp~ 3"
 				}
 
@@ -1612,7 +2842,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2855.599255999268735, -51.422080753371461, 35.0, 22.0 ],
+					"patching_rect" : [ 3030.816239616515759, -401.422080753371461, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -1636,34 +2866,12 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.303599611348545, 153.795724498384857, 140.0, 28.0 ],
+					"patching_rect" : [ 624.303599611348545, 162.795724498384857, 140.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.986988708868239, 244.869053281965421, 172.666668057441711, 28.0 ],
-					"text" : "quarter",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-326",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2399.544285606305039, -390.666670083999634, 98.580300192012601, 20.0 ],
-					"text" : "gloriousangelics"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-324",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3383.0, -420.0, 74.0, 20.0 ],
-					"text" : "crushstation"
 				}
 
 			}
@@ -1674,44 +2882,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3283.454437628877713, -426.5, 49.666668891906738, 33.0 ],
+					"patching_rect" : [ 610.166662851969363, 1167.451867696139743, 49.666668891906738, 33.0 ],
 					"text" : "pitch correct"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-312",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3494.0, -426.5, 68.333340466022491, 34.0 ],
-					"text" : "ring mod\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-310",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2966.0, -285.297431707301769, 80.166668891906738, 20.0 ],
-					"text" : "tricerachorus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-305",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3011.567413429079807, -344.875350953930308, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
 				}
 
 			}
@@ -1722,7 +2894,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2054.015426555817612, 526.257223175126001, 46.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 183.257223175126001, 46.0, 22.0 ],
 					"text" : "r share"
 				}
 
@@ -1738,11 +2910,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2778.974869000000126, 377.265804907256097, 81.0, 40.0 ],
+					"patching_rect" : [ 2217.674868690055973, -725.734195092743903, 81.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 673.653656766309837, 43.535025984665594, 81.0, 40.0 ],
-					"text" : "Connect to H9K USB",
+					"text" : "Connect to MADIface",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1755,7 +2927,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3029.0, 431.265804907256097, 94.0, 22.0 ],
+					"patching_rect" : [ 2467.699999690055847, -671.734195092743903, 94.0, 22.0 ],
 					"text" : "prepend symbol"
 				}
 
@@ -1768,7 +2940,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2794.974869000000126, 411.802657454937389, 49.0, 49.0 ],
+					"patching_rect" : [ 2233.674868690055973, -691.197342545062611, 49.0, 49.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 689.653656766309837, 78.071878532346886, 49.0, 49.0 ]
 				}
@@ -1780,9 +2952,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "H9000 USB Audio" ],
-					"patching_rect" : [ 3029.0, 377.265804907256097, 120.0, 22.0 ],
-					"text" : "t \"H9000 USB Audio\""
+					"outlettype" : [ "MADIface Pro (79250639)" ],
+					"patching_rect" : [ 2467.699999690055847, -725.734195092743903, 163.0, 22.0 ],
+					"text" : "t \"MADIface Pro (79250639)\""
 				}
 
 			}
@@ -1798,7 +2970,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2009,7 +3181,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2904.641113000000132, 652.850521907256052, 86.0, 22.0 ],
+					"patching_rect" : [ 2343.341112690055979, -450.149478092743948, 86.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2034,7 +3206,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2245,7 +3417,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2738.474869000000126, 652.850521907256052, 86.0, 22.0 ],
+					"patching_rect" : [ 2177.174868690055973, -450.149478092743948, 86.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2270,7 +3442,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2413,7 +3585,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2738.474869000000126, 525.691005907256113, 54.0, 22.0 ],
+					"patching_rect" : [ 2177.174868690055973, -577.308994092743887, 54.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2438,7 +3610,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2581,7 +3753,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 2904.641113000000132, 525.691005907256113, 54.0, 22.0 ],
+					"patching_rect" : [ 2343.341112690055979, -577.308994092743887, 54.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2601,7 +3773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2904.641113000000132, 492.950847907256048, 130.0, 22.0 ],
+					"patching_rect" : [ 2343.341112690055979, -610.049152092743952, 130.0, 22.0 ],
 					"text" : "adstatus optionname 1"
 				}
 
@@ -2616,7 +3788,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2904.641113000000132, 558.431148907256102, 100.0, 23.0 ],
+					"patching_rect" : [ 2343.341112690055979, -544.568851092743898, 100.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 506.153656766309837, 86.959416701400983, 100.0, 23.0 ],
 					"text" : "Output Device",
@@ -2631,7 +3803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2738.474869000000126, 492.950847907256048, 130.0, 22.0 ],
+					"patching_rect" : [ 2177.174868690055973, -610.049152092743952, 130.0, 22.0 ],
 					"text" : "adstatus optionname 0"
 				}
 
@@ -2646,7 +3818,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2738.474869000000126, 558.431148907256102, 88.0, 23.0 ],
+					"patching_rect" : [ 2177.174868690055973, -544.568851092743898, 88.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 506.153656766309837, 30.959416701400983, 88.0, 23.0 ],
 					"text" : "Input Device",
@@ -2661,7 +3833,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2904.641113000000132, 615.816982907256033, 100.0, 22.0 ],
+					"patching_rect" : [ 2343.341112690055979, -487.183017092743967, 100.0, 22.0 ],
 					"text" : "adstatus option 1"
 				}
 
@@ -2681,13 +3853,13 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "H9000 USB Audio", ",", "BlackHole 2ch", ",", "MacBook Pro Speakers", ",", "H9K USB + ModMic" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "MacBook Pro Speakers", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2904.641113000000132, 584.565014907256113, 145.939552000000049, 25.0 ],
+					"patching_rect" : [ 2343.341112690055979, -518.434985092743887, 145.939552000000049, 25.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
@@ -2704,7 +3876,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2738.474869000000126, 615.816982907256033, 100.0, 22.0 ],
+					"patching_rect" : [ 2177.174868690055973, -487.183017092743967, 100.0, 22.0 ],
 					"text" : "adstatus option 0"
 				}
 
@@ -2724,13 +3896,13 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "H9000 USB Audio", ",", "BlackHole 2ch", ",", "MacBook Pro Microphone", ",", "H9K USB + ModMic" ],
+					"items" : [ "None", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "MacBook Pro Microphone", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2738.474869000000126, 584.565014907256113, 145.939551999999935, 25.0 ],
+					"patching_rect" : [ 2177.174868690055973, -518.434985092743887, 145.939551999999935, 25.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
@@ -2747,7 +3919,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 299.587253134759521, -144.590234096507743, 70.0, 22.0 ],
+					"patching_rect" : [ 437.587253134759521, -135.590234096507743, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -2759,7 +3931,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 523.85519188160788, -20.079133804301932, 29.5, 22.0 ],
+					"patching_rect" : [ 661.85519188160788, -11.079133804301932, 29.5, 22.0 ],
 					"text" : "25"
 				}
 
@@ -2771,7 +3943,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 493.188525165270676, -20.079133804301932, 29.0, 22.0 ],
+					"patching_rect" : [ 631.188525165270676, -11.079133804301932, 29.0, 22.0 ],
 					"text" : "t 27"
 				}
 
@@ -2783,7 +3955,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 462.521858448933472, -20.079133804301932, 29.0, 22.0 ],
+					"patching_rect" : [ 600.521858448933472, -11.079133804301932, 29.0, 22.0 ],
 					"text" : "t 26"
 				}
 
@@ -2795,7 +3967,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 431.855191732596268, -20.079133804301932, 29.0, 22.0 ],
+					"patching_rect" : [ 569.855191732596268, -11.079133804301932, 29.0, 22.0 ],
 					"text" : "t 24"
 				}
 
@@ -2807,7 +3979,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 307.756954462664908, -20.079133804301932, 22.0, 22.0 ],
+					"patching_rect" : [ 445.756954462664908, -11.079133804301932, 22.0, 22.0 ],
 					"text" : "t 3"
 				}
 
@@ -2819,7 +3991,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 371.155095701766641, -20.079133804301932, 22.0, 22.0 ],
+					"patching_rect" : [ 509.155095701766641, -11.079133804301932, 22.0, 22.0 ],
 					"text" : "t 5"
 				}
 
@@ -2831,7 +4003,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 336.155093854022653, -20.079133804301932, 28.0, 22.0 ],
+					"patching_rect" : [ 474.155093854022653, -11.079133804301932, 28.0, 22.0 ],
 					"text" : "t 11"
 				}
 
@@ -2843,7 +4015,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 276.155093854022653, -20.079133804301932, 29.0, 22.0 ],
+					"patching_rect" : [ 414.155093854022653, -11.079133804301932, 29.0, 22.0 ],
 					"text" : "t 10"
 				}
 
@@ -2855,7 +4027,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 435.843969197040224, -50.079134698371604, 64.0, 22.0 ],
+					"patching_rect" : [ 573.843969197040224, -41.079134698371604, 64.0, 22.0 ],
 					"text" : "sel 1 2 3 4"
 				}
 
@@ -2867,7 +4039,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 299.587253134759521, -61.079134698371604, 74.0, 22.0 ],
+					"patching_rect" : [ 437.587253134759521, -52.079134698371604, 74.0, 22.0 ],
 					"text" : "sel 0 1 2 3 4"
 				}
 
@@ -2879,7 +4051,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 464.327689291853858, -144.590234096507743, 29.5, 22.0 ],
+					"patching_rect" : [ 602.327689291853858, -135.590234096507743, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -2891,7 +4063,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 437.209518790899892, -221.745786066512778, 22.0, 22.0 ],
+					"patching_rect" : [ 575.209518790899892, -212.745786066512778, 22.0, 22.0 ],
 					"text" : "t 4"
 				}
 
@@ -2903,7 +4075,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 397.379220118805279, -221.745786066512778, 22.0, 22.0 ],
+					"patching_rect" : [ 535.379220118805279, -212.745786066512778, 22.0, 22.0 ],
 					"text" : "t 3"
 				}
 
@@ -2915,7 +4087,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 347.587253134759521, -221.745786066512778, 22.0, 22.0 ],
+					"patching_rect" : [ 485.587253134759521, -212.745786066512778, 22.0, 22.0 ],
 					"text" : "t 2"
 				}
 
@@ -2927,7 +4099,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 307.756954462664908, -221.745786066512778, 22.0, 22.0 ],
+					"patching_rect" : [ 445.756954462664908, -212.745786066512778, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -2939,7 +4111,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 417.827689291854313, -100.07913165853472, 42.0, 22.0 ],
+					"patching_rect" : [ 555.827689291854313, -91.07913165853472, 42.0, 22.0 ],
 					"text" : "gate 2"
 				}
 
@@ -2951,7 +4123,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.327689291853858, -181.234693344096854, 29.0, 22.0 ],
+					"patching_rect" : [ 602.327689291853858, -172.234693344096854, 29.0, 22.0 ],
 					"text" : "r L2"
 				}
 
@@ -2963,7 +4135,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 248.929139447332091, -266.177491879269041, 29.0, 22.0 ],
+					"patching_rect" : [ 386.929139447332091, -257.177491879269041, 29.0, 22.0 ],
 					"text" : "r L1"
 				}
 
@@ -2977,7 +4149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 417.827689291854313, 38.592617089985197, 75.0, 22.0 ],
+					"patching_rect" : [ 555.827689291854313, 47.592617089985197, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -2995,7 +4167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2509.999999940395355, 107.061303413035603, 47.0, 22.0 ],
+					"patching_rect" : [ 2685.216983557642379, -242.938696586964397, 47.0, 22.0 ],
 					"text" : "qlim 16"
 				}
 
@@ -3009,7 +4181,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2509.999999940395355, 158.265804907256097, 198.0, 10.0 ],
+					"patching_rect" : [ 2685.216983557642379, -191.734195092743903, 198.0, 10.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 93.999999940395355, 455.0, 198.0, 10.0 ],
 					"size" : 1.0
@@ -3018,7 +4190,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 46.256814141347682, 0, 0.0, 0.333333333653788, 100.0, 0, 0.4, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 40.405933587491418, 0, 0.0, 1.0, 100.0, 0, 0.25 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -3032,7 +4204,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2509.999999940395355, 169.594431806673356, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 2685.216983557642379, -180.405568193326644, 198.0, 123.005676922673501 ],
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -3057,7 +4229,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3213.0, 805.134424362389382, 76.0, 20.0 ],
+					"patching_rect" : [ 3383.0, 112.034719973480492, 76.0, 20.0 ],
 					"text" : "duty cycle"
 				}
 
@@ -3068,7 +4240,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3043.0, 799.391276138885132, 82.0, 20.0 ],
+					"patching_rect" : [ 3213.0, 106.291571749976242, 82.0, 20.0 ],
 					"text" : "phase offset"
 				}
 
@@ -3079,7 +4251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2763.099666491467815, 263.327182450194869, 150.0, 20.0 ],
+					"patching_rect" : [ 3028.316239616515759, -115.672817549805131, 106.0, 20.0 ],
 					"text" : "floor - high sens"
 				}
 
@@ -3091,7 +4263,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2205.0, -725.309585593683096, 133.0, 47.0 ],
+					"patching_rect" : [ 900.999993681907654, 894.357080675619272, 133.0, 47.0 ],
 					"text" : "prevents spurious triggering when setting HotSwitches"
 				}
 
@@ -3103,7 +4275,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2313.0, -758.0, 48.0, 22.0 ],
+					"patching_rect" : [ 1008.999993681907654, 861.666666269302368, 48.0, 22.0 ],
 					"text" : "del 600"
 				}
 
@@ -3115,7 +4287,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2367.0, -730.131828330499502, 22.0, 22.0 ],
+					"patching_rect" : [ 1062.999993681907654, 889.534837938802866, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -3127,7 +4299,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2339.0, -730.131828330499502, 22.0, 22.0 ],
+					"patching_rect" : [ 1034.999993681907654, 889.534837938802866, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -3139,7 +4311,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 2339.0, -786.287377141458364, 75.0, 22.0 ],
+					"patching_rect" : [ 1034.999993681907654, 833.379289127844004, 75.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -3151,7 +4323,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2339.0, -695.309598706704946, 77.0, 22.0 ],
+					"patching_rect" : [ 1034.999993681907654, 924.357067562597422, 77.0, 22.0 ],
 					"text" : "scale 0 1 1 0"
 				}
 
@@ -3163,7 +4335,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2659.257885382753102, -499.223880597014954, 32.0, 22.0 ],
+					"patching_rect" : [ 1355.257879064660756, 1120.4427856722873, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -3175,7 +4347,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2616.007885382753102, -504.149253731343265, 32.0, 22.0 ],
+					"patching_rect" : [ 1312.007879064660756, 1115.51741253795899, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -3187,7 +4359,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2572.757885382753102, -509.074626865671689, 32.0, 22.0 ],
+					"patching_rect" : [ 1268.757879064660756, 1110.592039403630679, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -3199,20 +4371,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2529.507885382753102, -514.0, 32.0, 22.0 ],
+					"patching_rect" : [ 1225.507879064660756, 1105.666666269302368, 32.0, 22.0 ],
 					"text" : "gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2380.294284533421433, -368.666670083999634, 90.0, 22.0 ],
-					"text" : "scale 0 1 0 127"
 				}
 
 			}
@@ -3222,110 +4382,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2625.197886455636763, -395.5, 77.999997854232788, 20.0 ],
-					"text" : "Delay Sends"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-121",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3472.333340466022491, -357.666670083999634, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-122",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3414.666672587394714, -357.666670083999634, 51.0, 22.0 ],
-					"text" : "pak 23 i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-123",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3472.333340466022491, -395.0, 90.0, 22.0 ],
-					"text" : "scale 0 1 0 127"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-128",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3390.666671812534332, -357.666670083999634, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-140",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3333.000003933906555, -357.666670083999634, 51.0, 22.0 ],
-					"text" : "pak 22 i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-151",
-					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3370.666671276092529, -395.0, 90.0, 22.0 ],
-					"text" : "scale 0 1 0 127"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-117",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3310.666669428348541, -357.666670083999634, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-118",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3253.000001549720764, -357.666670083999634, 51.0, 22.0 ],
-					"text" : "pak 21 i"
+					"patching_rect" : [ 1444.631111512827829, 1135.947505810680923, 77.999997854232788, 20.0 ],
+					"text" : " Sends"
 				}
 
 			}
@@ -3336,22 +4394,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3267.80819149511899, -395.0, 90.0, 22.0 ],
+					"patching_rect" : [ 552.6870819941023, 1204.780841567936477, 90.0, 22.0 ],
 					"text" : "scale 0 1 127 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-109",
-					"ignoreclick" : 1,
-					"maxclass" : "dial",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2443.294285308281815, -331.333340167999268, 21.999999463558197, 21.999999463558197 ],
-					"size" : 127.0
 				}
 
 			}
@@ -3362,7 +4406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2605.666655838489532, -675.798495255452963, 42.0, 22.0 ],
+					"patching_rect" : [ 1301.666649520397186, 943.868171013849405, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -3374,7 +4418,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2653.449631042940837, -675.798495255452963, 42.0, 22.0 ],
+					"patching_rect" : [ 1349.449624724848491, 943.868171013849405, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -3386,7 +4430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2703.999986469745636, -675.798495255452963, 42.0, 22.0 ],
+					"patching_rect" : [ 1399.99998015165329, 943.868171013849405, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -3398,7 +4442,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2467.124585798317639, -716.642917893869253, 77.0, 22.0 ],
+					"patching_rect" : [ 1163.124579480225293, 903.023748375433115, 77.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -3410,7 +4454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2423.794284533421433, -716.642917893869253, 29.5, 22.0 ],
+					"patching_rect" : [ 1119.794278215329086, 903.023748375433115, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -3422,7 +4466,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2467.124585798317639, -751.465147517663809, 77.0, 22.0 ],
+					"patching_rect" : [ 1163.124579480225293, 868.201518751638559, 77.0, 22.0 ],
 					"text" : "scale 0 1 0 2"
 				}
 
@@ -3434,7 +4478,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2757.440000000000055, -675.798495255452963, 42.0, 22.0 ],
+					"patching_rect" : [ 1453.439993681907708, 943.868171013849405, 42.0, 22.0 ],
 					"text" : "gate 3"
 				}
 
@@ -3446,7 +4490,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2467.124585798317639, -786.287377141458364, 31.0, 22.0 ],
+					"patching_rect" : [ 1163.124579480225293, 833.379289127844004, 31.0, 22.0 ],
 					"text" : "r R2"
 				}
 
@@ -3458,7 +4502,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2423.794284533421433, -841.962441055291379, 31.0, 22.0 ],
+					"patching_rect" : [ 1119.794278215329086, 777.704225214010989, 31.0, 22.0 ],
 					"text" : "r R1"
 				}
 
@@ -3470,7 +4514,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2623.039363623874578, -725.309585593683096, 53.0, 22.0 ],
+					"patching_rect" : [ 1319.039357305782232, 894.357080675619272, 53.0, 22.0 ],
 					"text" : "r square"
 				}
 
@@ -3482,7 +4526,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2735.388970166805393, -725.309585593683096, 44.0, 22.0 ],
+					"patching_rect" : [ 1431.388963848713047, 894.357080675619272, 44.0, 22.0 ],
 					"text" : "r circle"
 				}
 
@@ -3494,7 +4538,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2793.872695208804998, -725.309585593683096, 55.0, 22.0 ],
+					"patching_rect" : [ 1489.872688890712652, 894.357080675619272, 55.0, 22.0 ],
 					"text" : "r triangle"
 				}
 
@@ -3506,20 +4550,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2693.297249006627681, -725.309585593683096, 24.0, 22.0 ],
+					"patching_rect" : [ 1389.297242688535334, 894.357080675619272, 24.0, 22.0 ],
 					"text" : "r X"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2385.627617429654038, -331.333340167999268, 51.0, 22.0 ],
-					"text" : "pak 20 i"
 				}
 
 			}
@@ -3530,8 +4562,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2810.999999940395355, 22.702568292698231, 64.0, 22.0 ],
-					"text" : "clip~ 0 0.3"
+					"patching_rect" : [ 2986.216983557642379, -327.297431707301769, 54.0, 22.0 ],
+					"text" : "clip~ 0 1"
 				}
 
 			}
@@ -3542,7 +4574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2810.999999940395355, -51.422080753371461, 35.0, 22.0 ],
+					"patching_rect" : [ 2986.216983557642379, -401.422080753371461, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -3554,7 +4586,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2810.999999940395355, -12.297431707301769, 51.5, 22.0 ],
+					"patching_rect" : [ 2986.216983557642379, -362.297431707301769, 51.5, 22.0 ],
 					"text" : "+~"
 				}
 
@@ -3566,8 +4598,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 2810.999999940395355, -91.172782661232077, 55.0, 22.0 ],
-					"text" : "adc~ 1 2"
+					"patching_rect" : [ 2987.216983557642379, -562.94633156771215, 68.0, 22.0 ],
+					"text" : "adc~ 23 24"
 				}
 
 			}
@@ -3583,13 +4615,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+						"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3754,8 +4786,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1106.372288091976998, 1143.845541302461697, 226.0, 23.0 ],
-									"text" : "param Zcurve -36 @min -100 @max 100",
+									"patching_rect" : [ 1106.372288091976998, 1143.845541302461697, 214.0, 23.0 ],
+									"text" : "param Zcurve 0 @min -100 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[8]"
 								}
@@ -3772,8 +4804,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1082.372288091976998, 1069.845541302461697, 197.0, 23.0 ],
-									"text" : "param Zlo_val 6 @min 0 @max 100",
+									"patching_rect" : [ 1082.372288091976998, 1069.845541302461697, 204.0, 23.0 ],
+									"text" : "param Zlo_val 40 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[7]"
 								}
@@ -3791,7 +4823,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1060.872288091976998, 998.845541302461697, 204.0, 23.0 ],
-									"text" : "param Zhi_val 28 @min 0 @max 100",
+									"text" : "param Zhi_val 44 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[6]"
 								}
@@ -3826,8 +4858,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1039.372288091976998, 927.19556392497816, 253.0, 23.0 ],
-									"text" : "param Zslide_down 2000 @min 0 @max 3000",
+									"patching_rect" : [ 1039.372288091976998, 927.19556392497816, 246.0, 23.0 ],
+									"text" : "param Zslide_down 534 @min 0 @max 3000",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[1]"
 								}
@@ -3910,8 +4942,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1153.727711908022911, 1291.201947866712999, 223.0, 23.0 ],
-									"text" : "param LoDryTrim -10 @min -12 @max 0",
+									"patching_rect" : [ 1153.727711908022911, 1291.201947866712999, 216.0, 23.0 ],
+									"text" : "param LoDryTrim -7 @min -12 @max 0",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[3]"
 								}
@@ -3928,8 +4960,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1182.727711908022911, 1365.201947866712999, 222.0, 23.0 ],
-									"text" : "param HiDryTrim -10 @min -12 @max 0",
+									"patching_rect" : [ 1182.727711908022911, 1365.201947866712999, 214.0, 23.0 ],
+									"text" : "param HiDryTrim -7 @min -12 @max 0",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 									"varname" : "hi_filter[4]"
 								}
@@ -4020,7 +5052,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 969.835057024685284, 689.318717306786198, 232.0, 22.0 ],
-									"text" : "param Xovr_Freq 93 @min 10 @max 300",
+									"text" : "param Xovr_Freq 95 @min 10 @max 300",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 								}
 
@@ -4073,7 +5105,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 887.835057024685284, 348.6602800625908, 221.0, 23.0 ],
-									"text" : "Param Q_amount 42 @min 0 @max 100",
+									"text" : "Param Q_amount 25 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 								}
 
@@ -4418,8 +5450,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 948.77291829636124, 604.154107995737263, 211.0, 23.0 ],
-									"text" : "Param Q_sense 20 @min 0 @max 100",
+									"patching_rect" : [ 948.77291829636124, 604.154107995737263, 204.0, 23.0 ],
+									"text" : "Param Q_sense 0 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 								}
 
@@ -4436,7 +5468,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 926.410201533355803, 518.989498684688556, 212.0, 23.0 ],
-									"text" : "Param Q_decay 50 @min 0 @max 100",
+									"text" : "Param Q_decay 39 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 								}
 
@@ -4452,8 +5484,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 907.77291829636124, 433.824889373639621, 208.0, 23.0 ],
-									"text" : "Param Q_attack 9 @min 0 @max 100",
+									"patching_rect" : [ 907.77291829636124, 433.824889373639621, 215.0, 23.0 ],
+									"text" : "Param Q_attack 11 @min 0 @max 100",
 									"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 								}
 
@@ -5274,8 +6306,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 478.5, 682.23354238629679, 174.0, 22.0 ],
+					"patching_rect" : [ 335.833332300186157, 1769.962842685074065, 634.999991655349731, 22.0 ],
 					"saved_object_attributes" : 					{
+						"autoexport" : 0,
 						"exportfolder" : "Macintosh HD:/Users/jbaylies/Documents/Max 8/Collections/",
 						"exportnotifier" : "H9000watcher"
 					}
@@ -5291,8 +6324,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 496.0, 406.719364610197204, 45.0, 22.0 ],
-					"text" : "adc~ 8"
+					"patching_rect" : [ 634.0, 415.719364610197204, 52.0, 22.0 ],
+					"text" : "adc~ 17"
 				}
 
 			}
@@ -5312,7 +6345,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2981.744036269686148, 789.195823768757691, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 3151.744036269686148, 96.096119379848801, 198.0, 123.005676922673501 ],
 					"range" : [ -100.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -5347,7 +6380,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 3203.744036269686148, 789.195823768757691, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 3373.744036269686148, 96.096119379848801, 198.0, 123.005676922673501 ],
 					"range" : [ -100.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -5368,7 +6401,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 23.809134893789398, 0, 0.0, 0.505972840744091, 100.0, 0, 0.45, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 23.809134893789398, 0, 0.0, 1.0, 100.0, 0, 0.5 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -5382,7 +6415,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2755.757885382753102, 169.594431806673356, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 2936.316239616515759, -180.405568193326644, 198.0, 123.005676922673501 ],
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -5408,7 +6441,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 2054.015426555817612, 673.891772332007122, 61.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 330.891772332007122, 61.0, 22.0 ],
 					"text" : "change 0."
 				}
 
@@ -5420,7 +6453,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2054.015426555817612, 601.458508410673858, 45.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 258.458508410673858, 45.0, 22.0 ],
 					"text" : "1, 0 88"
 				}
 
@@ -5432,7 +6465,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 2054.015426555817612, 563.391772332007122, 44.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 220.391772332007122, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -5444,7 +6477,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2112.015426555817612, 601.458508410673858, 45.0, 22.0 ],
+					"patching_rect" : [ 2248.015426555817612, 258.458508410673858, 45.0, 22.0 ],
 					"text" : "0, 1 44"
 				}
 
@@ -5456,116 +6489,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 2054.015426555817612, 638.925134303385448, 57.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 295.925134303385448, 57.0, 22.0 ],
 					"text" : "line 0 0.1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-366",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2619.000026047229767, -274.45798338983434, 40.0, 22.0 ],
-					"text" : "* 127."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-365",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2549.000026047229767, -274.45798338983434, 40.0, 22.0 ],
-					"text" : "* 127."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-364",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2966.0, -344.875350953930308, 37.0, 22.0 ],
-					"text" : "* 127"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-363",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2689.257911429982869, -274.45798338983434, 40.0, 22.0 ],
-					"text" : "* 127."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-169",
-					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 2537.0, -147.126745851281953, 82.0, 22.0 ],
-					"text" : "midiformat"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-116",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2657.257911429982869, -239.126747520212007, 51.0, 22.0 ],
-					"text" : "pak 43 i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-119",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2587.000026047229767, -239.126747520212007, 51.0, 22.0 ],
-					"text" : "pak 42 i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2517.000026047229767, -239.126747520212007, 51.0, 22.0 ],
-					"text" : "pak 41 i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-114",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2966.0, -307.542021037929942, 51.0, 22.0 ],
-					"text" : "pak 13 i"
 				}
 
 			}
@@ -5576,7 +6501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1146.290134877296168, -697.563579110998944, 48.0, 22.0 ],
+					"patching_rect" : [ 1284.290134877296168, -688.563579110998944, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -5588,7 +6513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1146.290134877296168, -723.563579110998944, 58.0, 22.0 ],
+					"patching_rect" : [ 1284.290134877296168, -714.563579110998944, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -5602,7 +6527,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1694.384440874912343, -44.915352468475248, 150.0, 22.0 ]
+					"patching_rect" : [ 1868.203651966885445, -390.445272059604008, 150.0, 22.0 ]
 				}
 
 			}
@@ -5623,7 +6548,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1637.384440874912343, 4.05366843228785, 198.0, 123.005676922673501 ],
+					"patching_rect" : [ 1811.203651966885445, -341.47625115884091, 198.0, 123.005676922673501 ],
 					"range" : [ -100.0, 0.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -5650,32 +6575,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1637.384440874912343, -44.915352468475248, 36.0, 22.0 ],
+					"patching_rect" : [ 1811.203651966885445, -390.445272059604008, 36.0, 22.0 ],
 					"text" : "r LV2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-58",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 403.485580558215588, 632.23354238629679, 159.0, 22.0 ],
-					"text" : "exportnotifier H9000watcher"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-59",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 568.485580558215588, 632.23354238629679, 68.0, 22.0 ],
-					"text" : "exportcode"
 				}
 
 			}
@@ -5687,7 +6588,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2131.484307162376354, -263.845565322464154, 39.0, 22.0 ],
+					"patching_rect" : [ 227.0, 1423.118578549716403, 39.0, 22.0 ],
 					"text" : "r RV2"
 				}
 
@@ -5699,48 +6600,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2054.015426555817612, 711.315726761913538, 40.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 368.315726761913538, 40.0, 22.0 ],
 					"text" : "* 100."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-56",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2131.484307162376354, -157.172782661232077, 68.0, 22.0 ],
-					"text" : "prepend 11"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 3139.000026047229767, 431.265804907256097, 156.0, 22.0 ],
-					"text" : "midiout \"H9000 USB Audio\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 8,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 293.485580558215588, 718.23354238629679, 560.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"exportfolder" : "Macintosh HD:/Users/jbaylies/Documents/Max 8/Collections/",
-						"exportnotifier" : "H9000watcher"
-					}
-,
-					"text" : "gen~ @gen \"/Users/jbaylies/Documents/Max 8/Projects/Sousastep XII/code/ladder_triple_wrap.gendsp\""
 				}
 
 			}
@@ -5751,7 +6612,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 950.855191732596268, -56.903880620151199, 103.0, 22.0 ],
+					"patching_rect" : [ 1088.855191732596268, -47.903880620151199, 103.0, 22.0 ],
 					"text" : "scale 0. 1. 0. 255."
 				}
 
@@ -5763,7 +6624,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 826.855191732596268, -56.903880620151199, 103.0, 22.0 ],
+					"patching_rect" : [ 964.855191732596268, -47.903880620151199, 103.0, 22.0 ],
 					"text" : "scale 0. 1. 0. 255."
 				}
 
@@ -5777,7 +6638,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 947.426052285264177, 109.26604611589471, 150.0, 22.0 ]
+					"patching_rect" : [ 1085.426052285264177, 118.26604611589471, 150.0, 22.0 ]
 				}
 
 			}
@@ -5798,7 +6659,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "float", "", "", "bang" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 918.855191732596268, 141.161795957748041, 100.0, 51.327656470264401 ],
+					"patching_rect" : [ 1056.855191732596268, 150.161795957748041, 100.0, 51.327656470264401 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 255.0, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 130.407744656623663, 1.0, 0, 0.0, 189.651620354957544, 0.0, 0, 0.0, 255.0, 0.0, 0, 0.795, 255.0, 0.0, 0, 0.0, "curve" ],
@@ -5822,7 +6683,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2752.0, -310.094618595192514, 76.0, 22.0 ],
+					"patching_rect" : [ 1426.249993681907654, 1213.572046958854116, 76.0, 22.0 ],
 					"text" : "s circle_gate"
 				}
 
@@ -5843,7 +6704,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2728.0, -359.963754336916281, 100.880000000000109, 29.581943351368409 ],
+					"patching_rect" : [ 1426.249993681907654, 1163.70291121713035, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[1]",
 					"viewvisibility" : 1
 				}
@@ -5855,19 +6716,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2631.757885382753102, -310.094618595192514, 87.0, 22.0 ],
+					"patching_rect" : [ 1312.007879064660756, 1213.572046958854116, 87.0, 22.0 ],
 					"text" : "s triangle_gate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-246",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2519.757885382753102, -310.094618595192514, 77.0, 22.0 ],
-					"text" : "s cross_gate"
 				}
 
 			}
@@ -5887,7 +6737,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2613.757885382753102, -359.963754336916281, 100.880000000000109, 29.581943351368409 ],
+					"patching_rect" : [ 1312.007879064660756, 1163.70291121713035, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[5]",
 					"viewvisibility" : 1
 				}
@@ -5909,7 +6759,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2500.757885382753102, -360.207656775940677, 100.880000000000109, 29.581943351368409 ],
+					"patching_rect" : [ 1257.4161301028239, 2050.792365873824565, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[6]",
 					"viewvisibility" : 1
 				}
@@ -5923,7 +6773,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 826.855191732596268, -90.377217703670908, 38.0, 22.0 ],
+					"patching_rect" : [ 964.855191732596268, -81.377217703670908, 38.0, 22.0 ],
 					"text" : "r LH2"
 				}
 
@@ -5936,7 +6786,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 950.855191732596268, -94.015740732336894, 36.0, 22.0 ],
+					"patching_rect" : [ 1088.855191732596268, -85.015740732336894, 36.0, 22.0 ],
 					"text" : "r LV2"
 				}
 
@@ -5949,7 +6799,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2981.744036269686148, 706.867163215766141, 40.0, 22.0 ],
+					"patching_rect" : [ 3151.744036269686148, 13.767458826857251, 40.0, 22.0 ],
 					"text" : "r RH2"
 				}
 
@@ -5962,7 +6812,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1223.204958891958086, -713.563579110998944, 70.0, 35.0 ],
+					"patching_rect" : [ 1361.204958891958086, -704.563579110998944, 70.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 682.65365676630995, 152.948111353472598, 63.0, 35.0 ],
@@ -5980,7 +6830,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1227.204958891958086, -676.563579110998944, 48.0, 48.0 ],
+					"patching_rect" : [ 1365.204958891958086, -667.563579110998944, 48.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 691.15365676630995, 183.948111353472598, 46.0, 46.0 ]
 				}
@@ -5992,7 +6842,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1227.204958891958086, -604.896914331812695, 62.0, 22.0 ],
+					"patching_rect" : [ 1365.204958891958086, -595.896914331812695, 62.0, 22.0 ],
 					"text" : "s reopen2"
 				}
 
@@ -6004,7 +6854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1378.204958891958086, -642.896914331812695, 155.0, 60.0 ],
+					"patching_rect" : [ 1516.204958891958086, -633.896914331812695, 155.0, 60.0 ],
 					"text" : "this reopens the PS4 MIDI Controller patcher after the reset button in the patcher is clicked."
 				}
 
@@ -6016,7 +6866,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1320.204958891958086, -604.896914331812695, 48.0, 22.0 ],
+					"patching_rect" : [ 1458.204958891958086, -595.896914331812695, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -6028,7 +6878,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1320.204958891958086, -638.896914331812695, 53.0, 22.0 ],
+					"patching_rect" : [ 1458.204958891958086, -629.896914331812695, 53.0, 22.0 ],
 					"text" : "r reopen"
 				}
 
@@ -6040,7 +6890,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1320.204958891958086, -482.896914331812695, 51.0, 22.0 ],
+					"patching_rect" : [ 1458.204958891958086, -473.896914331812695, 51.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -6053,19 +6903,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1320.204958891958086, -571.896914331812695, 160.599994242191315, 76.0 ],
-					"text" : "load \"/Users/jbaylies/Documents/Max 8/Projects/Sousastep XII/patchers/PS4 MIDI Controller.maxpat\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-276",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 0,
-					"patching_rect" : [ 369.823719825521039, 583.621418355059973, 85.296420320444668, 22.0 ],
-					"text" : "dac~ 15 16"
+					"patching_rect" : [ 1458.204958891958086, -562.896914331812695, 146.0, 76.0 ],
+					"text" : "load \"/Users/jbaylies/Music/_repo/sousastep/Sousastep XII/patchers/PS4 MIDI Controller.maxpat\""
 				}
 
 			}
@@ -6078,7 +6917,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1249.61689215727165, -28.476158554291032, 104.0, 48.0 ],
+					"patching_rect" : [ 1387.61689215727165, -19.476158554291032, 104.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 185.497484806976104, 210.7524780246506, 32.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -6114,7 +6953,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1249.61689215727165, 34.504020673649393, 112.0, 22.0 ],
+					"patching_rect" : [ 1387.61689215727165, 43.504020673649393, 112.0, 22.0 ],
 					"text" : "prepend Low_Floor"
 				}
 
@@ -6127,7 +6966,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1337.565402622519287, -188.938819791951119, 37.0, 19.0 ],
+					"patching_rect" : [ 1475.565402622519287, -179.938819791951119, 37.0, 19.0 ],
 					"text" : "clip 0 1"
 				}
 
@@ -6140,7 +6979,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1337.565402622519287, -164.248490615194896, 68.0, 19.0 ],
+					"patching_rect" : [ 1475.565402622519287, -155.248490615194896, 68.0, 19.0 ],
 					"text" : "prepend active"
 				}
 
@@ -6152,7 +6991,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1264.042790476837581, -63.505342391690647, 109.0, 22.0 ],
+					"patching_rect" : [ 1402.042790476837581, -54.505342391690647, 109.0, 22.0 ],
 					"text" : "prepend Low_Duty"
 				}
 
@@ -6166,7 +7005,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1264.042790476837581, -123.248490615194896, 87.0, 48.0 ],
+					"patching_rect" : [ 1402.042790476837581, -114.248490615194896, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.564830154133958, 210.7524780246506, 52.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -6201,7 +7040,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1391.400134189371784, -110.248490615194896, 29.5, 22.0 ],
+					"patching_rect" : [ 1529.400134189371784, -101.248490615194896, 29.5, 22.0 ],
 					"text" : "+ 1."
 				}
 
@@ -6213,7 +7052,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1391.400134189371784, -78.248490615194896, 125.0, 22.0 ],
+					"patching_rect" : [ 1529.400134189371784, -69.248490615194896, 125.0, 22.0 ],
 					"text" : "prepend Low_SnTrSq"
 				}
 
@@ -6237,7 +7076,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1391.400134189371784, -208.45866088599314, 87.957210000000032, 23.0 ],
+					"patching_rect" : [ 1529.400134189371784, -199.45866088599314, 87.957210000000032, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 125.812939504672329, 180.375371035963326, 75.682200513948942, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -6254,7 +7093,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2346.189264320201346, 532.485653497959447, 87.0, 48.0 ],
+					"patching_rect" : [ 2482.189264320201346, 189.485653497959447, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 414.756173392633116, 210.7524780246506, 32.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -6292,7 +7131,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2208.704958891958086, 513.257223175126001, 87.0, 48.0 ],
+					"patching_rect" : [ 2344.704958891958086, 170.257223175126001, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 452.292404765504273, 210.7524780246506, 32.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -6328,7 +7167,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2346.189264320201346, 589.956633269294343, 107.0, 22.0 ],
+					"patching_rect" : [ 2482.189264320201346, 246.956633269294343, 107.0, 22.0 ],
 					"text" : "prepend freq_floor"
 				}
 
@@ -6340,7 +7179,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2208.589263759917685, 570.719364610197317, 117.0, 22.0 ],
+					"patching_rect" : [ 2344.589263759917685, 227.719364610197317, 117.0, 22.0 ],
 					"text" : "prepend freq_ceiling"
 				}
 
@@ -6351,7 +7190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3616.000020861625671, 1596.666685342788696, 31.0, 20.0 ],
+					"patching_rect" : [ 3754.000020861625671, 1605.666685342788696, 31.0, 20.0 ],
 					"text" : "JVB"
 				}
 
@@ -6365,7 +7204,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 751.488199094499578, -719.0, 24.0, 24.0 ]
+					"patching_rect" : [ 889.488199094499578, -710.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6377,7 +7216,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1633.366694053120227, -710.640820271212533, 130.470047092515415, 21.0 ],
+					"patching_rect" : [ 1771.366694053120227, -701.640820271212533, 130.470047092515415, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.659095831944171, 28.662514202421789, 174.723112436948327, 21.0 ],
 					"text" : "Preset Management",
@@ -6393,7 +7232,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1829.197922665031001, -639.062127383484381, 29.5, 22.0 ],
+					"patching_rect" : [ 1967.197922665031001, -630.062127383484381, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -6405,7 +7244,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1822.795177114994658, -719.999998807907104, 56.0, 22.0 ],
+					"patching_rect" : [ 1960.795177114994658, -710.999998807907104, 56.0, 22.0 ],
 					"restore" : 					{
 						"aux_SnTrSq" : [ 0 ],
 						"aux_depth" : [ 0.0 ],
@@ -6416,10 +7255,10 @@
 						"aux_route_menu" : [ 0 ],
 						"aux_sync_menu" : [ 0 ],
 						"aux_yaxis" : [ 0.0 ],
-						"freq_ceiling" : [ 35.305223140272808 ],
-						"freq_floor" : [ 21.019411161231943 ],
+						"freq_ceiling" : [ 40.405933587491418 ],
+						"freq_floor" : [ 23.809134893789398 ],
 						"function[5]" : [ 1.0, -100.0, 100.0, 0.0, -30.205062063055422, 0, 0.0, 0.377720235109214, 0.248626276247293, 0, 0.0, 0.603526686722118, 0.248626276247293, 0, 0.0, 1.0, -20.00157149598347, 0, 0.0, "curve" ],
-						"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 46.256814141347682, 0, 0.0, 0.333333333653788, 100.0, 0, 0.4, 1.0, 100.0, 0, 0.0, "curve" ],
+						"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 40.405933587491418, 0, 0.0, 1.0, 100.0, 0, 0.25, "curve" ],
 						"hi_SnTrSq" : [ 1 ],
 						"high_duty_cycle" : [ 0.00854414525736 ],
 						"high_phase_offset" : [ 29.830962981779869 ],
@@ -6427,9 +7266,163 @@
 						"low_SnTrSq" : [ 0 ],
 						"low_duty_cycle" : [ 0.0 ],
 						"low_floor" : [ 0.0 ],
-						"low_phase_offset" : [ 33.858267716535266 ],
-						"low_power" : [ -4.46842899075925 ],
-						"main_invert" : [ 0.0 ]
+						"low_phase_offset" : [ 19.685039370078613 ],
+						"low_power" : [ -1.318822691546529 ],
+						"main_invert" : [ 0.0 ],
+						"vst~" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "TriceraChorus",
+								"origin" : "TriceraChorus.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "TriceraChorus.auinfo",
+									"plugindisplayname" : "TriceraChorus",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1416784195,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "1637.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQPfu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtPSL2jSN4HiM2TyM3DiLrzfBf.hHi0VZ3IhNfDiL43RM3HCLv.yMyHCMxDSNrzfBf.hHvwVcmklaeMVaog2Wn8FceM2coQ2XnIhNf.iK0TCL1XCMyXSMxjSL0jSM0vRCJ.BHh.Ga0cVZt80XskFdegFcyc2WxUFauEFYhnCH2DiKzDyM4jSNxXyM0bCNwHCKMn.HfHxXn0FYhnCHw3BLrzfBf.hHxEFckIhNf.iK2HSNz.CLxbyMwLyM2TiMyvRCJ.BHhHWXzU1Wn8FceM2coQ2XnIhNf.iKvDSL0XSN1fCL1PiMvXSL4vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3xMxjCMv.iL2bSLybyM0XyLrzfBf.hHrQVYvIhNfHCMtTCM2TCLvXSLvLSMwTiMrzfBf.hHiQVYvIhNf.iKvvRCJ.BHhHGYkAmH5.hLz3xL0HyL4jCNxXCLzjCNrzfBf.hHj0VZtIhNfDiKzLiLwjSN4TCM4fiM0biLrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BLrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPyLxDSN4jSMzjCN1TyMxvRCJ.BHhTla1ImH5.RLz.iKvDiMv.iMzXSN2HiM1vRCJ.BHhPFcsgmH5.xMx3xMzbSM2LCN0HSMyjCL1vRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xLxDCNzbCM4fCMwXSNv.iMrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3BNx.SM1PSMvfCMyfSLw.CMrzfBf.hHjQVYvIhNfDSN23hL3bCLvHSM1LCM2XiMrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHyPSLt.SL0jSNwHSLvjyL2TCKMn.HfHBcu4VYhnCH23hMzXSMvLCMzfCM3XyLxfCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHy3BLv.CLvLCL4jCMzDSMxfCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtfSLy.CLv.iLyLiM0.iLvfCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfDiLv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RLxvRCJ.BHh.mbk4lH5.hHPE1big1axkVcyIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RY.E........BD..........X...................FTA"
+								}
+
+							}
+ ],
+						"vst~[1]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "Quadravox",
+								"origin" : "Quadravox.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "AudioEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "Quadravox.auinfo",
+									"plugindisplayname" : "Quadravox",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1366647895,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "26800.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQTF960fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHv3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiK0jSN4jSN4.CM1LiL0XCNrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RKx3RN4jSN4bSLyfSN2bCL0DCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNf.iKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfbiKvvRCJ.BHhz1b2IiH5.BLt.CKMn.HfHhXkElLhnCHv3BLrzfBf.hHuclayHhNf.iKvvRCJ.BHhXlXqMiH5.BLt.CKMn.HfHBbg41LhnCHw3BLrzfBf.hHjwVdyHhNf.iKvvRCJ.BHhLGZzMiH5.BLt.CKMn.HfHRZtQ2LhnCHwPiKvvRCJ.BHhz1b2MiH5.RLt.CKMn.HfHhXkE1LhnCHv3BLrzfBf.hHuclazHhNf.iKvvRCJ.BHhXlXqQiH5.BLt.CKMn.HfHBbg4FMhnCHsDiKvvRCJ.BHhPFa4QiH5.BLt.CKMn.HfHxbnQGMhnCHv3BLrzfBf.hHo4FczHhNfHSLt.CKMn.HfHRaycGMhnCHw3BLrzfBf.hHhUVXzHhNf.iKvvRCJ.BHhX2bkwlH5.BLt.CKMn.HfHRazImahnCHz3BLrzfBf.hHsQmbjIhNfPiKvvRCJ.BHhLmagA2bn8FcvHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHwjCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQmLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHyLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8FcyHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.RL2vBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azQiH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCHyvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWMhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc1HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.xMr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLvvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.BLr.BWhz1b2YCWhnCHvvBHbIRayc2MbIhNf.CKfvkHsM2c3vkH5.BLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtYCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtcCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.WXtgCWhnCHx3xLxfyLvXCMyXSMyfiM4XSYsDCLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azciH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNf.iKvvBHbIBYrkmMbIhNf.iKvvBHbIBYrk2MbIhNf.iKvvBHbIBYrkGNbIhNf.iKvvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQGNhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfjCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwPCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDCMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNf.CKfvkHsM2c1vkH5.BLr.BWhz1b2cCWhnCHvvBHbIRaycGNbIhNf.CKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla1vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla2vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvEla3vkH5.hLtLiL3LCL1PyL1TyL3XSN1TVKw.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fc4HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4cCWhnCHw3BL0.CLv.CLv.iLzPCM2HCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.xMr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHCNt.CKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDyMr.BWhjlazYCWhnCHw.CKfvkHo4Fc2vkH5.RLvvBHbIRZtQGNbIhNfDiLr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHsDiKvvBHbIBbg4lMbIhNfDiKvvBHbIBbg41MbIhNfzRLt.CKfvkHvEla3vkH5.RLt.CKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzYCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzcCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGZzgCWhnCH03RM3bSNyTCMzbiM4HCN2DSYs.yMr.BWhLGcsAGWhnCHvvBHbIBcsAWYbIhNfDCKfvkHz0FbuwkH5.RLv.CKfvkHzUmakwkH5.BMz.CKfvkH1MWYrwkH5.BLr.BWhfmYgQFWhnCHv3BLxjSN4jSN4bCM1XCNvHSM4bSehvRCJ.BHhLmagA2bn8Fcw.iH5.hH6wkHhUVXwvkH5.BLr.BWhHVYgICWhnCHvvBHbIhXkE1LbIhNf.CKfvkHhUVXzvkH5.BLr.BWhHVYgwFWhnCHy3RL4jSN4jCNvjiL1TSLyXyMr.BWhPFa4ECWhnCHvvBHbIBYrkmLbIhNf.CKfvkHjwVdyvkH5.BLr.BWhPFa4QCWhnCHvvBHbIBYrkWMbIhNfDiKyPSN4jSN4jSN2TSM0HCNr.BWhPFa4YCWhnCHw3BM4jSN4jSN4jyM4.CM0HCKfvkHjwVd2vkH5.RLtbSN4jSN4jSN4fiMvLCLxvBHbIBYrkGNbIhNfHiKvjSN4jSN4jSN4LCLwTSLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.BNr.BWhjlazMCWhnCHxDCKfvkHo4FczvkH5.hLwvBHbIRZtQWMbIhNfDCMr.BWhjlazYCWhnCHwPCKfvkHo4Fc2vkH5.RLzvBHbIRZtQGNbIhNfDCMr.BWhrVY4MGWhnCHvvBHbIxZrM1ZbIhNf.CKfvkHrklckwkH5.BLr.BWhzlYhsFWhnCHvvBHbIRao4FbbIhNfDiLr.BWhzFaisFWhnCHvvBHbIRaskFdbIhNf.iK1XiM1XiMvLCL3fyL2fSNwvBHbIRaycWLbIhNfDCKfvkHsM2cxvkH5.RLr.BWhz1b2MCWhnCHwvBHbIRaycGMbIhNfDCKfvkHsM2c0vkH5.RLr.BWhz1b2YCWhnCHwvBHbIRayc2MbIhNfDCKfvkHsM2c3vkH5.RLr.BWhzFcxQFWhnCHzvBHbIRazImabIhNfPCKfvkHucVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWh71YtECWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtICWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtMCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtQCWhnCHsHiK4jSN4jyMwLCN4byMvTSLr.BWh71YtUCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtYCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtcCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh71YtgCWhnCHsLiKv.CLv.CLv.yLzjiLzXSMr.BWh.WXtECWhnCHsDCKfvkHvElaxvkH5.RLr.BWh.WXtMCWhnCHsDCKfvkHvElazvkH5.RLr.BWh.WXtUCWhnCHw3BLr.BWh.WXtYCWhnCHw3BLr.BWh.WXtcCWhnCHsDiKvvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLwHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHw3xLzjSN4jSN4jyM0TSMxfCKfvkHjwVd1vkH5.RLtPSN4jSN4jSN4bSNvPSMxvBHbIBYrk2MbIhNfDiK4PSN4jSN4jSN3jSMxHiMr.BWhPFa4gCWhnCHx3BL4jSN4jSN4jSNy.SL0DCKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNffCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHwTCKfvkHo4Fc1vkH5.RLzvBHbIRZtQ2MbIhNfDyMr.BWhjlazgCWhnCHwPCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.RLt.CKfvkHvEla1vkH5.RLt.CKfvkHvEla2vkH5.RKw3BLr.BWh.WXtgCWhnCHw3BLr.BWh.GcxsFWhnCHwvBHbIhbjUFbbIhNf.CKfvkHyMVXrwkH5.BLr.BWhLGZzECWhnCHvvBHbIxbnQmLbIhNf.CKfvkHygFcyvkH5.BLr.BWhLGZzQCWhnCHvvBHbIxbnQWMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQmMbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQ2MbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbnQGNbIhNfTiK0fyM4LSMzPyM1jiL3bSLk0BL2vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEiLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCH2vBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHCNt.CKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHwvBHbIRaycmMbIhNfDCKfvkHsM2c2vkH5.RLr.BWhz1b2gCWhnCHwvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNf.iK1XSLvDiM4PCN4.yM3byLr.BWh.WXtYCWhnCHs.iKyTSM4LiLx.iL4bSL0HCM1vBHbIBbg41MbIhNf.iK0jyLxHCLyLCN0jiMyDSMyvBHbIBbg4FNbIhNfzBLtPiLybiL3fSLyHCNy.CNxLCKfvkHvQmbqwkH5.RLr.BWhHGYkAGWhnCHvvBHbIxbiEFabIhNf.CKfvkHygFcwvkH5.BLr.BWhLGZzICWhnCHvvBHbIxbnQ2LbIhNf.CKfvkHygFczvkH5.BLr.BWhLGZzUCWhnCH23RN4jSN4jiMyXyM3PCL1DCKfvkHygFc1vkH5.RK23RN4jSN4jiMyXyM3PyLxbCKfvkHygFc2vkH5.BNtjSN4jSN4fCLvjiL4bSLzvBHbIxbnQGNbIhNfzRNtjSN4jSN4jiM0.yM0LiM3vBHbIxbz0FbbIhNf.CKfvkHz0FbkwkH5.RLr.BWhPWav8FWhnCHw.CLr.BWhPWctUFWhnCHzPCLr.BWhX2bkwFWhnCHvvBHbIBdlEFYbIhNf.iKvHSN4jSN4jyMzXiM3.iL0jyM8IBKMn.HfHxbtEFbyg1azEyLhnCHhrGWhHVYgECWhnCHvvBHbIhXkElLbIhNf.CKfvkHhUVXyvkH5.BLr.BWhHVYgQCWhnCHvvBHbIhXkEFabIhNfLiKwjSN4jSN3.SNxXSMwLiM2vBHbIBYrkWLbIhNf.CKfvkHjwVdxvkH5.BLr.BWhPFa4MCWhnCHvvBHbIBYrkGMbIhNf.CKfvkHjwVd0vkH5.BLt.CKfvkHjwVd1vkH5.BLt.CKfvkHjwVd2vkH5.BLt.CKfvkHjwVd3vkH5.BLt.CKfvkHlI1ZwvkH5.BLr.BWhXlXqICWhnCHvvBHbIhYhs1LbIhNf.CKfvkHlI1ZzvkH5.BLr.BWhXlXqUCWhnCHv3BLr.BWhXlXqYCWhnCHv3BLr.BWhXlXqcCWhnCHv3BLr.BWhXlXqgCWhnCHv3BLr.BWhXlXqQFWhnCHw3RNwjSN4jCNybCN2TyL1XiLr.BWhbFaoQFWhnCHv3BLzjSN4jSN4jCNxTyL2bCLxvBHbIRZmElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHo41bzwkH5.BLr.BWhjlazECWhnCHv3BLr.BWhjlazICWhnCH2vBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWLzHhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3hMv.CLv.CLv.SLyjiM4fyLr.BWhPFa4YCWhnCHv3xM0.CLv.CLv.SL2PiMxLCKfvkHjwVd2vkH5.BLtjCLv.CLv.CLvHCL4TCM2TCKfvkHjwVd3vkH5.RLt.SMv.CLv.CLvHCMzPyMxvBHbIhYhsVLbIhNf.CKfvkHlI1ZxvkH5.BLr.BWhXlXqMCWhnCHvvBHbIhYhsFMbIhNf.CKfvkHlI1Z0vkH5.BLt.CKfvkHlI1Z1vkH5.BLt.CKfvkHlI1Z2vkH5.BLt.CKfvkHlI1Z3vkH5.BLt.CKfvkHlI1ZjwkH5.RLtjSL4jSN4fyL2fyM0LiM1HCKfvkHmwVZjwkH5.BLt.CM4jSN4jSN4fiL0LyM2.iLr.BWhj1Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIRZtMGcbIhNf.CKfvkHo4FcwvkH5.hLwvBHbIRZtQmLbIhNfbCKfvkHo4FcyvkH5.hLwvBHbIRZtQGMbIhNfHSLr.BWhjlazUCWhnCHw.CKfvkHo4Fc1vkH5.RNr.BWhjlazcCWhnCH3vBHbIRZtQGNbIhNfbCKfvkHqUVdywkH5.BLr.BWhrFaisFWhnCHvvBHbIBaoYWYbIhNf.CKfvkHsYlXqwkH5.BLr.BWhzVZtAGWhnCHwHCKfvkHsw1XqwkH5.BLr.BWhzVaogGWhnCHv3hM1XiM1XCLy.CN3LyM3jSLr.BWhz1b2ECWhnCHwvBHbIRaycmLbIhNfDCKfvkHsM2cyvkH5.RLr.BWhz1b2QCWhnCHwvBHbIRaycWMbIhNfDCKfvkHsM2c1vkH5.RLr.BWhz1b2cCWhnCHwvBHbIRaycGNbIhNfDCKfvkHsQmbjwkH5.BMr.BWhzFcx4FWhnCHzvBHbIxamElabIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVKvbCKfvkHuclawvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclaxvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclayvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHuclazvkH5.RKx3RN4jSN4bSLyfSN2bCL0DCKfvkHucla0vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla1vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla2vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHucla3vkH5.RKy3BLv.CLv.CLvLCM4HCM1TCKfvkHvElawvkH5.RKwvBHbIBbg4lLbIhNfDCKfvkHvElayvkH5.RKwvBHbIBbg4FMbIhNfDCKfvkHvEla0vkH5.BLtHCM4jSN4jSN4fiL0LyM2vBHbIBbg4lMbIhNf.iKzjSN4jSN4jSN3fyL0fCM2vBHbIBbg41MbIhNf.iK2PSN4jSN4jSN4PSL2jiLyvBHbIBbg4FNbIhNfDiKvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHy4VXvMGZuQWL0HhNfHxdbIhXkEVLbIhNf.CKfvkHhUVXxvkH5.BLr.BWhHVYgMCWhnCHvvBHbIhXkEFMbIhNf.CKfvkHhUVXrwkH5.xLtDSN4jSN4fCL4HiM0DyL1bCKfvkHjwVdwvkH5.BLr.BWhPFa4ICWhnCHvvBHbIBYrk2LbIhNf.CKfvkHjwVdzvkH5.BLr.BWhPFa4UCWhnCHv3BLr.BWhPFa4YCWhnCHv3BLr.BWhPFa4cCWhnCHv3BLr.BWhPFa4gCWhnCHv3BLr.BWhXlXqECWhnCHvvBHbIhYhslLbIhNf.CKfvkHlI1ZyvkH5.BLr.BWhXlXqQCWhnCHvvBHbIhYhsVMbIhNf.iKvvBHbIhYhslMbIhNf.iKvvBHbIhYhs1MbIhNf.iKvvBHbIhYhsFNbIhNf.iKvvBHbIhYhsFYbIhNfDiK4DSN4jSN3LyM3bSMyXiMxvBHbIxYrkFYbIhNf.iKvPSN4jSN4jSN3HSMybyMvHCKfvkHocVXtwkH5.RKz3RL2HyLxTSLyPiL2byLzPSYs.yMr.BWhjlayQGWhnCHvvBHbIRZtQWLbIhNfbCKfvkHo4FcxvkH5.hLwvBHbIRZtQ2LbIhNfHSLr.BWhjlazQCWhnCHxDCKfvkHo4Fc0vkH5.RLzvBHbIRZtQmMbIhNfDCMr.BWhjlazcCWhnCHwPCKfvkHo4Fc3vkH5.RLzvBHbIxZkk2bbIhNf.CKfvkHqw1XqwkH5.BLr.BWhvVZ1UFWhnCHvvBHbIRalI1ZbIhNf.CKfvkHsklavwkH5.RLxvBHbIRarM1ZbIhNf.CKfvkHs0VZ3wkH5.BLtXiM1XiM1.yLvfCNybCN4DCKfvkHsM2cwvkH5.RLr.BWhz1b2ICWhnCHwvBHbIRayc2LbIhNfDCKfvkHsM2czvkH5.RLr.BWhz1b2UCWhnCHvvBHbIRaycmMbIhNf.CKfvkHsM2c2vkH5.BLr.BWhz1b2gCWhnCHvvBHbIRazIGYbIhNfPCKfvkHsQmbtwkH5.BMr.BWh71Yg4FWhnCHsPiKwbiLyHSMwLCMxbyMyPCMk0BL2vBHbIxam4VLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4lLbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam41LbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4FMbIhNfzhLtjSN4jSN2DyL3jyM2.SMwvBHbIxam4VMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4lMbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam41MbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIxam4FNbIhNfzxLt.CLv.CLv.CLyPSNxPiM0vBHbIBbg4VLbIhNfzRLr.BWh.WXtICWhnCHwvBHbIBbg41LbIhNfzRLr.BWh.WXtQCWhnCHwvBHbIBbg4VMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4lMbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg41MbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbg4FNbIhNfHiKyHCNy.iMzLiM0LCN1jiMk0RLvvBHbIBbzI2ZbIhNfDCKfvkHxQVYvwkH5.BLr.BWhL2XgwFWhnCHvvBHbIxbnQWLbIhNf.CKfvkHygFcxvkH5.BLr.BWhLGZzMCWhnCHvvBHbIxbnQGMbIhNf.CKfvkHygFc0vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc1vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc2vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHygFc3vkH5.RMtTCN2jyL0PCM2XSNxfyMwTVKvbCKfvkHyQWavwkH5.BLr.BWhPWavUFWhnCHwvBHbIBcsA2abIhNfDCLvvBHbIBc04VYbIhNfPCMvvBHbIhcyUFabIhNf.CKfvkH3YVXjwkH5.BLt.iL4jSN4jSN2PiM1fCLxTSN2zmHrzfBf.hHvIWYoIhNfHyL2vRCJ.BHh.mbk4lH5.hHy8VcyE1bzUFbhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZBji.9H.PBHj.EIvQBzj.PIvUBvk.dIvXn8E.......f.A..........F...................ZfA"
+								}
+
+							}
+ ],
+						"vst~[2]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "MicroPitch",
+								"origin" : "MicroPitch.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "MicroPitch.auinfo",
+									"plugindisplayname" : "MicroPitch",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1298362960,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtbyMy.SNzDyM2HCM1.SNrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH43BLrzfBf.hHvMFZhIhNfjiKvvRCJ.BHhPFa4ElH5.BLt.SM3LCL4.yL2HyL3LSM4PSMrzfBf.hHjwVdhIhNf.iKvvRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.xL03hMwfCM3fyLwDyM1bSM3vRCJ.BHhzlbgQmH5.xLz3hL1XSNxTCNwDyM1bSM3vRCJ.BHhXFYhslH5.xLy3BNzbiM0XiL0vRCJ.BHhP2atUlH5.RKv3BM3TiMxHCN3HCNzLCLwbiMrzfBf.hHvwVcmklae0FaislH5.RLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvslahIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCHyvRCJ.BHh.mbk4lH5.hHHMCLv.CHMk1Xx8FboQ2XnIRCJzG............................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+								}
+
+							}
+ ],
+						"vst~[3]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "CrushStation",
+								"origin" : "CrushStation.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "CrushStation.auinfo",
+									"plugindisplayname" : "CrushStation",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1131565934,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDCI2TtAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHCIWcyg1TzEFco8lahvRCJ.BHh.mbuQVciQ2WoQlH5.hHi8VatTlck4FcoQVYtfVNtLlb0MGZyQWXzk1atIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLv.CLvbiMxjyL4PSMrzfBf.hHjImckIhNfbiLtHCMyXSMxLCMybSMrzfBf.hHjImck80bzElbz8UY3AmH5.BLtPCLvHiMwjSN3DyM1TyMzbCKMn.HfHBYxYWYeUlaj8UY3AmH5.BLtbSMvHiMx.iLx.SL3PyLxXCKMn.HfHxbyQmahnCHw.CLt.iMwLCL4fSLzPSMyDCKMn.HfHxbyE1YhnCHv3BLrzfBf.hHyMWXm8EZuQ2WycWZzMFZhnCHv3RM1LyLxPCNvjCL2PCMvDSNrzfBf.hHvwVcmklaeM2bgc1WnQ2b28kbkw1agQlH5.BLt.CKMn.HfHxaiQmchnCHxHCMtXCL4LyM0vRCJ.BHhLlazImH5.xLv3hM4bSLvbyLwTCL1LCM3vRCJ.BHhDFcislH5.RLt.CKMn.HfHBcnI2bhnCHsXSMt.CKMn.HfHhXgM2bhnCHv3BLrzfBf.hHskFYyIhNf.iKvvRCJ.BHhzlYxEmH5.BM0DiK0jCN4XCN0.SM3TSNzvRCJ.BHhPmbhwlH5.xLx3hM3bCM4XSL3TyLvHyMyvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtTCKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHhP2b44lH5.BLt.CKMn.HfHBbxUVZhnCHwHCMrzfBf.hHvIWYtIhNfHxbuU2bgMGckAmHMnPe..............................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+								}
+
+							}
+ ],
+						"vst~[4]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "Blackhole",
+								"origin" : "Blackhole.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "Blackhole.auinfo",
+									"plugindisplayname" : "Blackhole",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1213156421,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "1479.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCf9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwPiK3.CLv.yLvTSL2TyM3vRCJ.BHhLWZ5UlH5.BN43hM1XiM1PSLxLSMyTSL1vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsjiK1XiM1XSN3PSM0fSLvTSMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNf.iKvvRCJ.BHhHWYy8lH5.BLt.CKMn.HfHRZtwlchnCHv3BLrzfBf.hHuQGa1IhNf.iKvvRCJ.BHhPWav8lH5.RLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHxZowFahnCHv3BLrzfBf.hHlIWY5IhNf.iKvvRCJ.BHhf1azMmH5.BLt.CKMn.HfHhboIlahnCHw3BLrzfBf.hHsEla0EFaTUVav8lUgwVckIhNfDiLv3BLrzfBf.hHn8FcycGNhnCHw3BLrzfBf.hHn8Fcyc2alYFNhnCHv3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNfDiKvvRCJ.BHhP2b44lH5.BcxUWYrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RK43hM1XiM1jCNzTSM3DCL0TCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHv3BLrzfBf.hHlQlXq8EZuQ2WycWZzMFZhnCHw3BLrzfBf.hHvIWYoIhNfTCKMn.HfHBbxUlahnCHhfDNv.CLfHDagM1Zn8FakIRCJzG.....................................................................................................................................................................................................................................PA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.fEPYAbV.oE.aA3V.zEvcA3W.CFPgAnXA1A.......HP..........fA..................Tvc"
+								}
+
+							}
+ ],
+						"vst~[6]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "Delay BRIGADE",
+								"origin" : "Delay BRIGADE.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "Delay BRIGADE.auinfo",
+									"plugindisplayname" : "Delay BRIGADE",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1298481778,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "3190.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvI..............HC...P.9DIZ0A...HfOzlSV....C7SUUUE....A9PaNYA...TvOUUUU....F7COp4G...vA+HGrg....ffOu2or....I.........fB9jNRXC...rfO6eda....L7Cf......PC.........3..........O7Cf.......D+.H......DwO.B......R7SQgpL...vD9z5k0A...PgOHSaN....U7iKTrG...fE+.H......bA.........X7yFkRN...PF+bf1o....nA.........a..........G+.H......zwOFcpX....d7yEzZB...vG+.H.......B.........g7yKZ.J...fL+........LyO........z7C.......PM+........XyO........27C........N+........jyO........57C.......vN+........vyO........8.........fO.........7C..........A........PP.........HD.....RyPCNDQTwDkLQ+.DQASVSQWYxU1afjjaQ+fDZMEckIWYuAxS0Q2SQjP2xHCHyUlboEFaooWXzk1atoiNgI2XnklckARLv.BLfbCHv.xMfDCLfDiKz.BQkwVX4MGH1.xTzUlbk8FHzXCHx.CHJUVXt0RSoMFZkwFHBwVXtMFZkQGH3.xTzElajElbjABLf.CHv.BLfDCHv.BLf.RL1HCLy.yMzjCLfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHy.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGHzfCHCgVXxE1XzUlboMGcoM1brPUYsA2asLUdtMVYjsyTzkGakMGKBIWZmgFc7QEZo41NfbCHSUmXzkGbkARLx.RPtEFaucFHDUFagkGHz.BU4AWYfTCHDUFagkGHv.BLf.CH2.BLf.CHv.BLf.CHv.xL2.BLf.CHv.hMfHTdvE1byABLfDSNfTTbeYTZrQWYxMCTkE1ZeYjbkEGHv3xLyjCLzXSL0.hLw.RQw8kQowFckI2LPUVXq80QgklajIDHv3hM3.CLv.CLw.RL1.RQw8kQowFckI2LPUVXq8UTf.iKyjSL4jSN4jCH4.RQw8ERPYjbkEGHv3xM2DSN4jSN1.RNfTTbewDTFIWYwARLfTCHEE2WO4FHw.RLx.RSIQTRfLDZg4lakwFHv.RL0.RSk01axkWSg41WBwVYtQFHv3hL3PCLv.CL2.hL4.RSk01axkWSg41WCg1axU2bVklXxEFcuETauUmazABLfHyMfzTYs8lb40TXt80Pn8lb0MmUoIlbgQ2aM8FYkABLfDSNfzTYs8lb40TXt8EQkwVX4wTYlQGHv3xL0HCLv.CLy.hL0.RSk01axkWSg41WDUFagkGSkYFcSkmaiUFYf.iK3LyLyLyLyDCHxDCHMUVauIWdMElaeQTYrEVdLklaqUFYfDCHwjCHMUVauIWdMElaeQTYrEVdM8FYkABLfHCLfzTYs8lb40TXt8EQkwVX4IUZmgFcf.iKyTiLv.CLvLCHxXCHMUVauIWdMElaeQTYrEVdRk1YnQ2T441XkQFHv3BNyLyLyLyLw.RL4.RSk01axkWSg41WEMFZuwTY1UFaf.iK4PCNv.CLvDCHwfCHMUVauIWdMElaeYTYkQlXgM1Zf.iK2LSM4jSN4PCHwTCHMUVauIWdMElaewTY1UFaf.iKzXyM4jSN4jCHwfCHMUVauIWdMElaewzatcVSuQVYfDCHwfCHMUVauIWdMElae0TZjk1T441XfDCHxbCHMUVauIWdMElaeMEckIWYuQTYrEVdOYlYyUFcf.iKzTSM1LyL3fCHxDCHMUVauIWdMElaeMEckIWYucUZjQGZf.iKzjiLv.CLvDCHxbCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcf.CHyLCHM8FY0wVXzk1atM2WE4lcF8Far81ckIGQkMGcA01a04Fcf.CHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WAQGcgM1Zf.iK1.CNv.CLvPCHy.CHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WI41Qgklaf.CHyDCHM8FY0wVXzk1atM2WE4lcF8Far81ckI2WRUFakE1bkABLtTyLvXyMxXSLfDSNfzzajUGagQWZu41bewjQOQTYyQGHv.hL0.RSuQVcrEFco8lay8ESF8DQkMGcA01a04Fcf.iK1fCMv.CLvHCHxPCHM8FY0wVXzk1atM2WLYzSe0TZjk1T441XfDCHxXCHM8FY0wVXzk1atM2WLYzSeIUXzU1T441XkQFHv3RM4HSM4HiMfLCLfzzajUGagQWZu41bewjQO8kTgQWYSkmaiUFYTkGbkABLfHCNfzzajUGagQWZu41bewjQO8kTgQWYU41T441XkQFHv3xM2TSN4DSM1.hLz.RSuQVcrEFco8lay8ESF8zWWElckY1ax0FHw.RLv.hUgIWZgQWZu41bf.CHzHCHv.RL3.RSoQVZC8lazI2arwVYx4TXsUFHyHCH...........................................HwPCHe8ERW8USgAGbkQ1WeACHz.x+++++fDCMf70WHc0WMEFbvUFYe8ULfPCH+++++CRL0.xWegzUe0TXvAWYj80Ww.CHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULw.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwLCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULz.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwXCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL2.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECNfPCH+++++CRL0.xWegzUe0TXvAWYj80WwjCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kLfPCH+++++CRLz.xWegzUe0TXvAWYj80Wy.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeQCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UMfPCH+++++CRLz.xWegzUe0TXvAWYj80W1.BMf7++++OHwPCHe8ERW8USgAGbkQ1WecCHz.x+++++fDCMf70WHc0WMEFbvUFYe8ENfPCH+++++CRLz.xWegzUe0TXvAWYj80W4.BMf7++++OHwDCHe8USgAGbkQ1WeACHz.x+++++fDSLf70WMEFbvUFYe8ULfPCH+++++CRLx.xWe0TXvAWYj80Ww.CHz.x+++++fDiLf70WMEFbvUFYe8ULw.BMf7++++OHwHCHe8USgAGbkQ1WeEiLfPCH+++++CRLx.xWe0TXvAWYj80WwLCHz.x+++++fDiLf70WMEFbvUFYe8ULz.BMf7++++OHwHCHe8USgAGbkQ1WeESMfPCH+++++CRLx.xWe0TXvAWYj80WwXCHz.x+++++fDiLf70WMEFbvUFYe8UL2.BMf7++++OHwHCHe8USgAGbkQ1WeECNfPCH+++++CRLx.xWe0TXvAWYj80WwjCHz.x+++++fDSLf70WMEFbvUFYe8kLfPCH+++++CRLw.xWe0TXvAWYj80Wy.BMf7++++OHwDCHe8USgAGbkQ1WeQCHz.x+++++fDSLf70WMEFbvUFYe8UMfPCH+++++CRLw.xWe0TXvAWYj80W1.BMf7++++OHwDCHe8USgAGbkQ1WecCHz.x+++++fDSLf70WMEFbvUFYe8ENfPCH+++++CRLw.xWe0TXvAWYj80W4.BMf7++++OHxbCHe80TTEDUE80WRUzTEIkUEQzWe0zSDkjQIUDQfDCHwnfDMUlPxAA.RDVcsYFVU4FcoQGakQF.H.PF.XB.q..N.rD.SAvV..F.kAfZBnf.OHPDBLg.VH.FBHh.kH.LLDACVv.FLzA.......f.A..........F...................Cl."
+								}
+
+							}
+ ],
+						"vst~[7]" : [ 							{
+								"filetype" : "C74Snapshot",
+								"version" : 2,
+								"minorversion" : 0,
+								"name" : "Comp FET-76",
+								"origin" : "Comp FET-76.auinfo",
+								"type" : "AudioUnit",
+								"subtype" : "MidiEffect",
+								"embed" : 1,
+								"snapshot" : 								{
+									"pluginname" : "Comp FET-76.auinfo",
+									"plugindisplayname" : "Comp FET-76",
+									"pluginsavedname" : "",
+									"pluginsaveduniqueid" : 1179924278,
+									"version" : 1,
+									"isbank" : 0,
+									"isbase64" : 1,
+									"blob" : "2728.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAPC..............TB...P.+.H......HfOqWHH....C..........A+vDyNC...T..........F7yHWq....vA.........fvO.B......I.........fB.........rfO.B......L7C.......PC+.H......3..........O3y1CQI....D+fR8BC...DwO.B......R.........vD.........PwMEB......k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zxO........t7C.......vK+.........C.........w.........fL.........LC.........z.........PM.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEABoIiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLv.hPgM2bfXTZtQ1bfjDcyABTrE1XkAhMfLEckIWYuABMv.RLv.xUnUVYrkVYskFdfLCHMkFdf.CHv.BLf.CHw.BLf.CHfDiMx.iLxjCL3LCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.RMf.CHv.BLfDSMfLDZgIWXiQWYxk1bzk1XyARM0.xPnElbgMFckIWZyQWZiMGKTIWXtMWZk4Fc7ITXyM2NGUlaxU1brH0ais1NSQWdrU1brLEauc2NfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfHCLfHTXyMGHFklajMGHIQ2bf.EagMVYfbCHSUmXzkGbkARLv.xPu0FbxU1by8lbfPCHTkGbkABNfPTdtEVaoM1bf.CHv.BLfbCHv.BLf.CHv.BLf.CHxbCHv.BLf.CHwDCHAQGcgM1ZfPUZsUFHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLffCHGIEHRElamUFHv.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3BM1.CLv.CLz.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK1LSN4jSN4jCH0.hTgQWZuABLfDiLfHUYrUVXyUFHTkVakABLtfCLv.CLv.yMfDyMfL0PfPTYzU1Xzk1atARSuQVYf.iKxTCHwTCHSMDHEEEHBUFarAhQxUVbf.iKzHCNxPSN4XCHwTCHSMDHEEEHBUFarAxQgklaf.iK1TSN4jSN4bCHwLCHSMDHEEEHHAEHFIWYwABLfDCMfL0PfTTTffDTFAhQxUVbf.CHwHCHSMDHEEEHHAkQf7jaf.CHwLCHSMDHEEEHLAEHFIWYwARLfDCMfL0PfTTTfvDTFAhQxUVbfDCHwHCHSMDHEEEHLAkQf7jaf.CH3.xTCARQQAxStARLfDiLfL0PfPUZsUFHWElbvABLtTCHw.CHVElboEFco8layABLfDCMfXUcMUFckIGHSUFakMFcf.CHzbCHv.hLw.BRocFZrk1YnQ2WAQGcgM1ZfPUZsUFH3.B........f+.hLx.BRocFZrk1YnQ2WEEEHBUFarAhQxUVbffCH.........9CHxHCHHk1YnwVZmgFceUTTfHTYrwFHGEVZtABNf.........3OfHCLffTZmgFaocFZz8URtAWczAxQgklaffCH.........9CHwfCHHk1YnwVZmgFceYUUfHUXtcVYffCHY+Ti9XsIw7CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf3zatUF.....................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLfDiBRXDU2XCD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfnAbZ.oFvpA.a.xF.uAXb.IG.0JDjBFo.RJzD.......f.A.........PF..................fBVA"
+								}
+
+							}
+ ]
 					}
 ,
 					"text" : "autopattr",
@@ -6444,7 +7437,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1575.136739369417228, -665.096908717055271, 51.0, 22.0 ],
+					"patching_rect" : [ 1713.136739369417228, -656.096908717055271, 51.0, 22.0 ],
 					"text" : "delete #"
 				}
 
@@ -6466,7 +7459,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1829.197922665031001, -668.579518050269826, 100.0, 22.0 ],
+					"patching_rect" : [ 1967.197922665031001, -659.579518050269826, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.659095831944171, 59.617196367384338, 174.723112436948327, 22.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -6481,7 +7474,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1775.570078905607261, -604.296914248366306, 72.566658854484558, 22.0 ],
+					"patching_rect" : [ 1913.570078905607261, -595.296914248366306, 72.566658854484558, 22.0 ],
 					"text" : "pack store i"
 				}
 
@@ -6494,7 +7487,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1574.536741014505424, -496.096915929217289, 297.0, 22.0 ],
+					"patching_rect" : [ 1712.536741014505424, -487.096915929217289, 297.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 23, 79, 846, 866 ],
 						"parameter_enable" : 0,
@@ -6514,7 +7507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1575.136739369417228, -635.296903698344181, 60.0, 22.0 ],
+					"patching_rect" : [ 1713.136739369417228, -626.296903698344181, 60.0, 22.0 ],
 					"text" : "renumber"
 				}
 
@@ -6528,7 +7521,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1653.236740883375205, -668.579518050269826, 110.600000262260437, 22.0 ],
+					"patching_rect" : [ 1791.236740883375205, -659.579518050269826, 110.600000262260437, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.715380239152068, 91.571878532346886, 113.633340954780579, 22.0 ],
 					"text" : "save / overwrite:",
@@ -6547,7 +7540,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.850980392156863, 0.686274509803922, 1.0, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1764.570078905607261, -675.579518050269826, 36.0, 36.0 ],
+					"patching_rect" : [ 1902.570078905607261, -666.579518050269826, 36.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 435.742104996371268, 91.571878532346886, 22.0, 22.0 ],
 					"style" : "buttonGold"
@@ -6573,7 +7566,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1574.536741014505424, -604.296914248366306, 90.0, 22.0 ],
+					"patching_rect" : [ 1712.536741014505424, -595.296914248366306, 90.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 321.715380239152068, 123.526560697309435, 136.026724757219199, 22.0 ],
 					"style" : "messageGold",
@@ -6602,7 +7595,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1813.136738952184714, -544.896914331812809, 34.0, 22.0 ],
+					"patching_rect" : [ 1951.136738952184714, -535.896914331812809, 34.0, 22.0 ],
 					"style" : "messageGold",
 					"text" : "read",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 0.94 ]
@@ -6628,7 +7621,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1730.136738952184714, -544.896914331812809, 55.0, 22.0 ],
+					"patching_rect" : [ 1868.136738952184714, -535.896914331812809, 55.0, 22.0 ],
 					"style" : "messageGold",
 					"text" : "writexml",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 0.94 ]
@@ -6654,7 +7647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1670.691852786618256, -604.296914248366306, 78.0, 22.0 ],
+					"patching_rect" : [ 1808.691852786618256, -595.296914248366306, 78.0, 22.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.890196078431372 ]
@@ -6670,7 +7663,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 77.732492086637194, 174.415425632094752, 64.0, 21.0 ],
+					"patching_rect" : [ 215.732492086637194, 183.415425632094752, 64.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 221.683925558183773, 133.851574345412018, 64.0, 21.0 ],
 					"text" : "multiplier",
@@ -6685,7 +7678,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 204.995992140539329, -648.908326083260363, 71.270020000000159, 22.0 ],
+					"patching_rect" : [ 342.995992140539329, -639.908326083260363, 71.270020000000159, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -6699,7 +7692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 204.995992140539329, -613.146050583260148, 56.270020000000159, 22.0 ],
+					"patching_rect" : [ 342.995992140539329, -604.146050583260148, 56.270020000000159, 22.0 ],
 					"text" : "fsaa 1"
 				}
 
@@ -6715,7 +7708,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 204.995992140539329, -569.114200138980777, 986.08356159754112, 143.323233665535099 ],
+					"patching_rect" : [ 342.995992140539329, -560.114200138980777, 986.08356159754112, 143.323233665535099 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 38.273487587850468, 282.323510809794243, 433.418917332625824, 135.323233665535099 ],
 					"shared" : 0,
@@ -6735,7 +7728,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 35.228059247703186, -485.229912182184762, 111.0, 37.0 ],
+					"patching_rect" : [ 173.228059247703186, -476.229912182184762, 111.0, 37.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 512.357049185391588, 230.869053281965421, 42.0, 37.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.71 ]
@@ -6749,7 +7742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 273.5, 239.566659683071407, 41.0, 22.0 ],
+					"patching_rect" : [ 411.5, 248.566659683071407, 41.0, 22.0 ],
 					"text" : "del 10"
 				}
 
@@ -6761,7 +7754,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 273.5, 208.661219069276626, 34.0, 22.0 ],
+					"patching_rect" : [ 411.5, 217.661219069276626, 34.0, 22.0 ],
 					"text" : "sel 2"
 				}
 
@@ -6780,7 +7773,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 148.5, 174.415425632094752, 53.0, 23.0 ],
+					"patching_rect" : [ 286.5, 183.415425632094752, 53.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 173.498236851738966, 133.851574345412018, 107.0, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -6796,7 +7789,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 220.5, 319.976216386692954, 41.0, 22.0 ],
+					"patching_rect" : [ 358.5, 328.976216386692954, 41.0, 22.0 ],
 					"text" : "del 10"
 				}
 
@@ -6808,7 +7801,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 220.5, 291.327627549393924, 34.0, 22.0 ],
+					"patching_rect" : [ 358.5, 300.327627549393924, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -6821,7 +7814,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 294.30526216672024, 357.085811529040143, 29.5, 22.0 ],
+					"patching_rect" : [ 432.30526216672024, 366.085811529040143, 29.5, 22.0 ],
 					"text" : "+ 1",
 					"textcolor" : [ 0.0, 1.0, 0.945098039215686, 1.0 ]
 				}
@@ -6847,7 +7840,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 294.30526216672024, 319.976216386692954, 136.333335638046265, 23.0 ],
+					"patching_rect" : [ 432.30526216672024, 328.976216386692954, 136.333335638046265, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.713766337370998, 133.851574345412018, 137.010864264665088, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -6862,7 +7855,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 220.5, 348.976216386692954, 29.5, 22.0 ],
+					"patching_rect" : [ 358.5, 357.976216386692954, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -6874,7 +7867,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 143.0, 406.719364610197204, 251.0, 22.0 ],
+					"patching_rect" : [ 281.0, 415.719364610197204, 251.0, 22.0 ],
 					"text" : "switch 3"
 				}
 
@@ -6887,7 +7880,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1826.839034700981301, 229.872204843261329, 34.0, 17.0 ],
+					"patching_rect" : [ 2000.658245792954403, -115.657714747867431, 34.0, 17.0 ],
 					"text" : "clip 0 1"
 				}
 
@@ -6900,7 +7893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1826.839034700981301, 254.562534020017551, 61.0, 17.0 ],
+					"patching_rect" : [ 2000.658245792954403, -90.967385571111208, 61.0, 17.0 ],
 					"text" : "prepend active"
 				}
 
@@ -6914,7 +7907,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 81.603599921292698, 286.111486653992301, 22.0, 22.0 ],
+					"patching_rect" : [ 219.603599921292698, 295.111486653992301, 22.0, 22.0 ],
 					"text" : "t b",
 					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
 				}
@@ -6929,7 +7922,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 494.314301387268188, -785.537439566538524, 73.0, 22.0 ],
+					"patching_rect" : [ 632.314301387268188, -776.537439566538524, 73.0, 22.0 ],
 					"text" : "r~ Aux_LFO",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -6943,7 +7936,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 864.485580558215815, 583.621418355059973, 75.0, 22.0 ],
+					"patching_rect" : [ 1002.485580558215815, 592.621418355059973, 75.0, 22.0 ],
 					"text" : "s~ Aux_LFO",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -6958,7 +7951,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 105.435634041333742, -608.764840125067167, 22.0, 83.0 ],
+					"patching_rect" : [ 243.435634041333742, -599.764840125067167, 22.0, 83.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 11.981963041398217, 328.485127642561793, 22.0, 83.0 ],
@@ -6975,7 +7968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 646.854851018680165, -754.0, 83.0, 22.0 ],
+					"patching_rect" : [ 784.854851018680165, -745.0, 83.0, 22.0 ],
 					"text" : "loadmess 240"
 				}
 
@@ -6988,7 +7981,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 646.854851018680165, -719.0, 50.0, 22.0 ]
+					"patching_rect" : [ 784.854851018680165, -710.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -7001,7 +7994,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2002.591519540777426, 156.962384807222747, 127.0, 21.0 ],
+					"patching_rect" : [ 2176.410730632750528, -188.567534783906012, 127.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.713766337370998, 28.662514202421789, 252.784470514367968, 21.0 ],
 					"text" : "Auxiliary LFO",
@@ -7018,7 +8011,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2343.143160780990911, 501.738828540101167, 223.0, 21.0 ],
+					"patching_rect" : [ 2479.143160780990911, 158.738828540101167, 223.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.961123545096484, 182.375371035963326, 94.31455371253378, 21.0 ],
 					"text" : "High Freq Mod",
@@ -7035,7 +8028,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1284.699999690055847, -343.719306777795282, 223.0, 21.0 ],
+					"patching_rect" : [ 1422.699999690055847, -334.719306777795282, 223.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 31.485942700436226, 182.375371035963326, 88.390178313942897, 21.0 ],
 					"text" : "Low Amp Mod",
@@ -7051,7 +8044,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2051.005702162376565, 365.296867048155377, 106.0, 22.0 ],
+					"patching_rect" : [ 2224.824913254349667, 19.766947457026617, 106.0, 22.0 ],
 					"text" : "prepend Aux_Pow"
 				}
 
@@ -7065,7 +8058,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2046.005702162376565, 309.553718824651128, 87.0, 48.0 ],
+					"patching_rect" : [ 2219.824913254349667, -35.976200766477632, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 178.074886645266588, 51.169371566058089, 55.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7100,7 +8093,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1912.90583587491119, 365.115353066765579, 119.0, 22.0 ],
+					"patching_rect" : [ 2086.725046966884292, 19.585433475636819, 119.0, 22.0 ],
 					"text" : "prepend Aux_PhsOff"
 				}
 
@@ -7114,7 +8107,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1908.90583587491119, 309.372204843261329, 87.0, 48.0 ],
+					"patching_rect" : [ 2082.725046966884292, -36.157714747867431, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 68.719198469703485, 51.169371566058089, 55.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7149,7 +8142,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1777.005702162376565, 344.872204843261329, 107.0, 22.0 ],
+					"patching_rect" : [ 1950.824913254349667, -0.657714747867431, 107.0, 22.0 ],
 					"text" : "prepend Aux_Duty"
 				}
 
@@ -7163,7 +8156,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1777.005702162376565, 289.595941822286363, 87.0, 48.0 ],
+					"patching_rect" : [ 1950.824913254349667, -55.933977768842396, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 123.397042557485065, 51.169371566058089, 55.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7198,7 +8191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1695.129579755936447, 233.038876655795661, 111.0, 22.0 ],
+					"patching_rect" : [ 1868.948790847909549, -112.491042935333098, 111.0, 22.0 ],
 					"text" : "prepend Aux_Yaxis"
 				}
 
@@ -7212,7 +8205,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1695.129579755936447, 175.62905661975708, 87.0, 48.0 ],
+					"patching_rect" : [ 1868.948790847909549, -169.90086297137168, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 232.752730733048224, 51.169371566058089, 55.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7247,7 +8240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1637.384440874912343, 344.872204843261329, 115.0, 22.0 ],
+					"patching_rect" : [ 1811.203651966885445, -0.657714747867431, 115.0, 22.0 ],
 					"text" : "prepend Aux_Depth"
 				}
 
@@ -7261,7 +8254,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1633.384440874912343, 282.872204843261329, 87.0, 48.0 ],
+					"patching_rect" : [ 1807.203651966885445, -62.657714747867431, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 14.041354381921906, 52.135376956512573, 55.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7296,7 +8289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1908.90583587491119, 228.372204843261329, 29.5, 22.0 ],
+					"patching_rect" : [ 2082.725046966884292, -117.157714747867431, 29.5, 22.0 ],
 					"text" : "+ 1."
 				}
 
@@ -7308,7 +8301,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1908.90583587491119, 282.872204843261329, 123.0, 22.0 ],
+					"patching_rect" : [ 2082.725046966884292, -62.657714747867431, 123.0, 22.0 ],
 					"text" : "prepend Aux_SnTrSq"
 				}
 
@@ -7332,7 +8325,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1908.90583587491119, 185.62905661975708, 87.957210000000032, 23.0 ],
+					"patching_rect" : [ 2082.725046966884292, -159.90086297137168, 87.957210000000032, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 212.726715558183741, 104.31110303972082, 67.771521293555224, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -7347,7 +8340,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2054.015426555817612, 806.148351584159172, 119.0, 22.0 ],
+					"patching_rect" : [ 2190.015426555817612, 463.148351584159172, 119.0, 22.0 ],
 					"text" : "prepend Main_Invert"
 				}
 
@@ -7361,7 +8354,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2079.015426555817612, 744.148351584159172, 87.0, 48.0 ],
+					"patching_rect" : [ 2215.015426555817612, 401.148351584159172, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 222.006602980757066, 210.7524780246506, 28.87873871253484, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7395,7 +8388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1364.931445869806339, -239.066992352388752, 157.0, 22.0 ],
+					"patching_rect" : [ 1502.931445869806339, -230.066992352388752, 157.0, 22.0 ],
 					"text" : "prepend Low_Phase_Offset"
 				}
 
@@ -7409,7 +8402,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1364.931445869806339, -307.576050052467963, 87.0, 48.0 ],
+					"patching_rect" : [ 1502.931445869806339, -298.576050052467963, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 21.885942557385079, 210.7524780246506, 57.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7444,7 +8437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1247.61689215727165, -239.066992352388752, 108.0, 22.0 ],
+					"patching_rect" : [ 1385.61689215727165, -230.066992352388752, 108.0, 22.0 ],
 					"text" : "prepend Low_Pow"
 				}
 
@@ -7458,7 +8451,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1243.61689215727165, -294.810140575893001, 87.0, 48.0 ],
+					"patching_rect" : [ 1381.61689215727165, -285.810140575893001, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 142.009763866289262, 210.7524780246506, 38.666664361953735, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7493,7 +8486,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2235.589263759917685, 686.719364610197317, 160.0, 22.0 ],
+					"patching_rect" : [ 2371.589263759917685, 343.719364610197317, 160.0, 22.0 ],
 					"text" : "prepend High_Phase_Offset"
 				}
 
@@ -7507,7 +8500,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2235.589263759917685, 615.415474247805832, 87.0, 48.0 ],
+					"patching_rect" : [ 2371.589263759917685, 272.415474247805832, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 255.248413626466117, 210.7524780246506, 55.456175218228395, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7542,7 +8535,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2208.589263759917685, 789.195823768757691, 111.0, 22.0 ],
+					"patching_rect" : [ 2344.589263759917685, 446.195823768757691, 111.0, 22.0 ],
 					"text" : "prepend High_Pow"
 				}
 
@@ -7556,7 +8549,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2204.589263759917685, 733.452675545253442, 87.0, 48.0 ],
+					"patching_rect" : [ 2340.589263759917685, 390.452675545253442, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 373.756173392633116, 210.7524780246506, 39.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7591,7 +8584,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2407.699999690055847, 689.938971992261941, 112.0, 22.0 ],
+					"patching_rect" : [ 2543.699999690055847, 346.938971992261941, 112.0, 22.0 ],
 					"text" : "prepend High_Duty"
 				}
 
@@ -7605,7 +8598,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2407.699999690055847, 630.195823768757691, 87.0, 48.0 ],
+					"patching_rect" : [ 2543.699999690055847, 287.195823768757691, 87.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 316.311239680477854, 210.7524780246506, 52.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
@@ -7640,7 +8633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2569.05734340259005, 634.938971992261941, 29.5, 22.0 ],
+					"patching_rect" : [ 2705.05734340259005, 291.938971992261941, 29.5, 22.0 ],
 					"text" : "+ 1."
 				}
 
@@ -7652,7 +8645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2535.05734340259005, 689.938971992261941, 127.0, 22.0 ],
+					"patching_rect" : [ 2671.05734340259005, 346.938971992261941, 127.0, 22.0 ],
 					"text" : "prepend High_SnTrSq"
 				}
 
@@ -7676,7 +8669,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2529.721394690055604, 534.060805924783836, 87.957210000000032, 23.0 ],
+					"patching_rect" : [ 2665.721394690055604, 191.060805924783836, 87.957210000000032, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 337.499609098031272, 180.375371035963326, 75.682200513948942, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -7691,7 +8684,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2064.505702162376565, 224.372204843261329, 29.5, 22.0 ],
+					"patching_rect" : [ 2238.324913254349667, -121.157714747867431, 29.5, 22.0 ],
 					"text" : "+ 1."
 				}
 
@@ -7703,7 +8696,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2064.505702162376565, 256.372204843261329, 115.0, 22.0 ],
+					"patching_rect" : [ 2238.324913254349667, -89.157714747867431, 115.0, 22.0 ],
 					"text" : "prepend Aux_Route"
 				}
 
@@ -7727,7 +8720,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2060.505702162376565, 185.62905661975708, 209.957210000000032, 23.0 ],
+					"patching_rect" : [ 2234.324913254349667, -159.90086297137168, 209.957210000000032, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 27.713766337370998, 104.31110303972082, 176.430551548314668, 23.0 ],
 					"textcolor" : [ 0.803921568627451, 1.0, 0.988235294117647, 1.0 ],
@@ -7742,7 +8735,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.72735253365272, -718.0, 30.0, 22.0 ],
+					"patching_rect" : [ 503.72735253365272, -709.0, 30.0, 22.0 ],
 					"text" : "-~ 1"
 				}
 
@@ -7754,7 +8747,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 236.287140893441119, -719.0, 30.0, 22.0 ],
+					"patching_rect" : [ 374.287140893441119, -710.0, 30.0, 22.0 ],
 					"text" : "-~ 1"
 				}
 
@@ -7766,7 +8759,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 236.287140893441119, -754.0, 30.0, 22.0 ],
+					"patching_rect" : [ 374.287140893441119, -745.0, 30.0, 22.0 ],
 					"text" : "*~ 2"
 				}
 
@@ -7780,7 +8773,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 365.72735253365272, -785.537439566538524, 106.0, 22.0 ],
+					"patching_rect" : [ 503.72735253365272, -776.537439566538524, 106.0, 22.0 ],
 					"text" : "r~ Low_Amp_Mod",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -7795,7 +8788,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 622.90125024088411, -785.537439566538524, 109.0, 22.0 ],
+					"patching_rect" : [ 760.90125024088411, -776.537439566538524, 109.0, 22.0 ],
 					"text" : "r~ High_Freq_Mod",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -7810,7 +8803,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 236.287140893441119, -785.537439566538524, 92.0, 22.0 ],
+					"patching_rect" : [ 374.287140893441119, -776.537439566538524, 92.0, 22.0 ],
 					"text" : "r~ main_phasor",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -7828,7 +8821,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8495,7 +9488,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 108.553454826421785, -684.513930312698449, 661.934744268077793, 22.0 ],
+					"patching_rect" : [ 246.553454826421785, -675.513930312698449, 661.934744268077793, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -8519,7 +9512,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 105.435634041333742, -648.0, 22.0, 143.323234500000126 ],
+					"patching_rect" : [ 243.435634041333742, -639.0, 22.0, 143.323234500000126 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.981963041398217, 282.323510809794243, 21.537782337267799, 143.323233665535099 ],
 					"saved_attribute_attributes" : 					{
@@ -8548,7 +9541,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 573.242789867835882, 471.264938079613216, 183.0, 22.0 ],
+					"patching_rect" : [ 711.242789867835882, 480.264938079613216, 183.0, 22.0 ],
 					"text" : "gen~ Yet_Another_Gen_LFO",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 1.0 ]
 				}
@@ -8562,7 +9555,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 610.742789867836109, 583.621418355059973, 108.0, 22.0 ],
+					"patching_rect" : [ 748.742789867836109, 592.621418355059973, 108.0, 22.0 ],
 					"text" : "s~ Low_Amp_Mod",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -8576,7 +9569,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 734.998052857100447, 583.621418355059973, 111.0, 22.0 ],
+					"patching_rect" : [ 872.998052857100447, 592.621418355059973, 111.0, 22.0 ],
 					"text" : "s~ High_Freq_Mod",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -8590,7 +9583,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 583.621418355059973, 94.0, 22.0 ],
+					"patching_rect" : [ 634.0, 592.621418355059973, 94.0, 22.0 ],
 					"text" : "s~ main_phasor",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -8605,7 +9598,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 785.547159968339201, 122.926168268863762, 48.0, 22.0 ],
+					"patching_rect" : [ 923.547159968339201, 131.926168268863762, 48.0, 22.0 ],
 					"text" : "change",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8620,7 +9613,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.855191732596268, 158.756217157878496, 123.0, 22.0 ],
+					"patching_rect" : [ 924.855191732596268, 167.756217157878496, 123.0, 22.0 ],
 					"text" : "scale 0 255 0.008 0.9",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8635,7 +9628,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 782.547159968339201, 4.05366843228785, 22.0, 22.0 ],
+					"patching_rect" : [ 920.547159968339201, 13.05366843228785, 22.0, 22.0 ],
 					"text" : "t b",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8650,7 +9643,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 727.855191732596268, 122.926168268863762, 48.0, 22.0 ],
+					"patching_rect" : [ 865.855191732596268, 131.926168268863762, 48.0, 22.0 ],
 					"text" : "change",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8665,7 +9658,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 575.0, 318.037615793061264, 29.5, 22.0 ],
+					"patching_rect" : [ 713.0, 327.037615793061264, 29.5, 22.0 ],
 					"text" : "- 0.",
 					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
 				}
@@ -8680,7 +9673,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 666.0, 227.827817202773872, 22.0, 22.0 ],
+					"patching_rect" : [ 804.0, 236.827817202773872, 22.0, 22.0 ],
 					"text" : "t b",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8695,7 +9688,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 727.855191732596268, 87.096119379848801, 39.0, 22.0 ],
+					"patching_rect" : [ 865.855191732596268, 96.096119379848801, 39.0, 22.0 ],
 					"text" : "> 127",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8710,7 +9703,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 786.855191732596268, 207.719364610197204, 90.0, 22.0 ],
+					"patching_rect" : [ 924.855191732596268, 216.719364610197204, 90.0, 22.0 ],
 					"text" : "scale 0. 1. 0. 1.",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8725,7 +9718,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 785.547159968339201, 87.096119379848801, 152.0, 22.0 ],
+					"patching_rect" : [ 923.547159968339201, 96.096119379848801, 152.0, 22.0 ],
 					"text" : "if $i1 > 127 then $i2 else 0.",
 					"textcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ]
 				}
@@ -8740,7 +9733,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 90.47026683432523, 443.777859911506653, 29.5, 22.0 ],
+					"patching_rect" : [ 228.47026683432523, 452.777859911506653, 29.5, 22.0 ],
 					"text" : "* 1.",
 					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
 				}
@@ -8755,7 +9748,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
-					"patching_rect" : [ 607.303599611348545, 119.161795957748041, 63.0, 22.0 ],
+					"patching_rect" : [ 745.303599611348545, 128.161795957748041, 63.0, 22.0 ],
 					"text" : "unpack s f",
 					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
 				}
@@ -8772,7 +9765,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.680722835672441, -809.141036252670119, 1208.682271226522062, 424.080632872626666 ],
+					"patching_rect" : [ 156.680722835672441, -800.141036252670119, 1208.682271226522062, 424.080632872626666 ],
 					"proportion" : 0.5,
 					"varname" : "Aux_LFO_panel[3]"
 				}
@@ -8789,7 +9782,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 42.150858674519213, -348.510547571987559, 1096.8526861431626, 1114.902111672714682 ],
+					"patching_rect" : [ 180.150858674519213, -339.510547571987559, 1096.8526861431626, 1114.902111672714682 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 502.423780592991989, 30.959416701400983, 271.793084289194212, 246.055633870186057 ],
 					"proportion" : 0.5,
@@ -8810,7 +9803,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1230.61689215727165, -318.029357456238358, 315.0, 374.533378129887979 ],
+					"patching_rect" : [ 1368.61689215727165, -309.029357456238358, 315.0, 374.533378129887979 ],
 					"proportion" : 0.5,
 					"pt1" : [ -0.060606060606061, 0.575757575757576 ],
 					"pt2" : [ 1.02020202020202, 0.606060606060606 ]
@@ -8828,7 +9821,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1595.547482961147125, 153.795724498384857, 696.04178079877056, 264.195892510274462 ],
+					"patching_rect" : [ 1769.366694053120227, -191.734195092743903, 696.04178079877056, 264.195892510274462 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.44968162177156, 21.162514202421789, 263.234243936412213, 143.951166066170003 ],
 					"proportion" : 0.5,
@@ -8849,7 +9842,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2193.699999690055847, 496.938971992261941, 490.0, 334.0 ],
+					"patching_rect" : [ 2329.699999690055847, 153.938971992261941, 490.0, 334.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 22.079878110019962, 171.645725830520632, 462.212526655484226, 96.223327451444788 ],
 					"proportion" : 0.508796759078115,
@@ -8869,7 +9862,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1559.0375976267037, -725.309585593683096, 398.151666693497646, 270.124853768313301 ],
+					"patching_rect" : [ 1697.0375976267037, -716.309585593683096, 398.151666693497646, 270.124853768313301 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.739060112569348, 10.900408279242015, 482.953344807906944, 266.351167890072134 ],
 					"proportion" : 0.5,
@@ -8929,7 +9922,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-341", 0 ],
 					"source" : [ "obj-105", 0 ]
 				}
 
@@ -8978,13 +9978,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-112", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-102", 1 ],
 					"source" : [ "obj-113", 0 ]
 				}
@@ -8992,36 +9985,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-114", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-206", 0 ],
-					"midpoints" : [ 2747.974869000000126, 687.068966907256254, 2723.78228799999988, 687.068966907256254, 2723.78228799999988, 578.612255907256213, 2747.974869000000126, 578.612255907256213 ],
+					"midpoints" : [ 2186.674868690055973, -415.931033092743746, 2162.482287690055728, -415.931033092743746, 2162.482287690055728, -524.387744092743787, 2186.674868690055973, -524.387744092743787 ],
 					"source" : [ "obj-115", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
+					"destination" : [ "obj-370", 0 ],
 					"source" : [ "obj-116", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-118", 0 ]
+					"destination" : [ "obj-276", 3 ],
+					"source" : [ "obj-119", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
+					"destination" : [ "obj-276", 2 ],
 					"source" : [ "obj-119", 0 ]
 				}
 
@@ -9030,45 +10016,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 0 ],
-					"order" : 0,
-					"source" : [ "obj-120", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-118", 1 ],
-					"order" : 1,
-					"source" : [ "obj-120", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-122", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-121", 0 ],
-					"order" : 0,
-					"source" : [ "obj-123", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-122", 1 ],
-					"order" : 1,
-					"source" : [ "obj-123", 0 ]
 				}
 
 			}
@@ -9089,7 +10036,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-212", 0 ],
-					"order" : 0,
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -9097,23 +10043,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-213", 0 ],
-					"order" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-276", 1 ],
-					"order" : 1,
-					"source" : [ "obj-13", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-276", 0 ],
-					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -9208,13 +10137,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 0.155215231788079 ],
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-141", 0 ]
@@ -9278,22 +10200,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
-					"order" : 0,
-					"source" : [ "obj-151", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-140", 1 ],
-					"order" : 1,
-					"source" : [ "obj-151", 0 ]
 				}
 
 			}
@@ -9479,14 +10385,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"midpoints" : [ 2546.5, 73.0, 2740.0, 73.0, 2740.0, 363.0, 3016.0, 363.0, 3016.0, 417.0, 3148.500026047229767, 417.0 ],
-					"source" : [ "obj-169", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
@@ -9621,6 +10519,38 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-210", 1 ],
+					"order" : 1,
+					"source" : [ "obj-186", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"order" : 1,
+					"source" : [ "obj-186", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-272", 0 ],
+					"order" : 0,
+					"source" : [ "obj-186", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-275", 0 ],
+					"order" : 0,
+					"source" : [ "obj-186", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-187", 0 ]
 				}
@@ -9645,6 +10575,54 @@
 				"patchline" : 				{
 					"destination" : [ "obj-188", 0 ],
 					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 1 ],
+					"order" : 2,
+					"source" : [ "obj-191", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"order" : 2,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 0 ],
+					"order" : 1,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-309", 0 ],
+					"order" : 1,
+					"source" : [ "obj-191", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"order" : 0,
+					"source" : [ "obj-191", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"order" : 0,
+					"source" : [ "obj-191", 0 ]
 				}
 
 			}
@@ -9845,23 +10823,51 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-289", 0 ],
-					"order" : 1,
 					"source" : [ "obj-208", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-102", 0 ],
 					"order" : 0,
-					"source" : [ "obj-208", 0 ]
+					"source" : [ "obj-209", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-78", 0 ],
+					"destination" : [ "obj-55", 0 ],
+					"order" : 1,
 					"source" : [ "obj-209", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 3 ],
+					"source" : [ "obj-210", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 2 ],
+					"source" : [ "obj-210", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 6 ],
+					"source" : [ "obj-211", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 7 ],
+					"source" : [ "obj-218", 0 ]
 				}
 
 			}
@@ -9875,15 +10881,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-215", 0 ],
-					"order" : 0,
-					"source" : [ "obj-222", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-363", 0 ],
-					"order" : 1,
 					"source" : [ "obj-222", 0 ]
 				}
 
@@ -9992,15 +10989,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-24", 0 ]
+					"destination" : [ "obj-301", 0 ],
+					"source" : [ "obj-241", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-301", 0 ],
-					"source" : [ "obj-241", 0 ]
+					"destination" : [ "obj-313", 0 ],
+					"source" : [ "obj-242", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-314", 0 ],
+					"source" : [ "obj-242", 1 ]
 				}
 
 			}
@@ -10028,31 +11032,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-230", 0 ],
+					"source" : [ "obj-250", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 1 ],
 					"order" : 0,
-					"source" : [ "obj-250", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-366", 0 ],
-					"order" : 1,
-					"source" : [ "obj-250", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-246", 0 ],
-					"order" : 1,
 					"source" : [ "obj-251", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-365", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-321", 1 ],
+					"order" : 1,
 					"source" : [ "obj-251", 0 ]
 				}
 
@@ -10232,8 +11227,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-276", 7 ],
+					"source" : [ "obj-270", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 6 ],
+					"source" : [ "obj-270", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-273", 0 ],
 					"source" : [ "obj-271", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 4 ],
+					"source" : [ "obj-272", 0 ]
 				}
 
 			}
@@ -10253,6 +11269,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 5 ],
+					"source" : [ "obj-275", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 2 ],
 					"source" : [ "obj-278", 0 ]
 				}
@@ -10262,6 +11285,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-295", 1 ],
 					"source" : [ "obj-279", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-366", 0 ],
+					"source" : [ "obj-280", 0 ]
 				}
 
 			}
@@ -10307,13 +11337,6 @@
 					"destination" : [ "obj-206", 0 ],
 					"order" : 1,
 					"source" : [ "obj-289", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"source" : [ "obj-29", 0 ]
 				}
 
 			}
@@ -10396,8 +11419,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-30", 0 ]
+					"destination" : [ "obj-191", 1 ],
+					"source" : [ "obj-3", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"source" : [ "obj-3", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-359", 0 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-360", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -10417,6 +11461,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-242", 0 ],
+					"source" : [ "obj-304", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-249", 0 ],
 					"order" : 0,
 					"source" : [ "obj-307", 0 ]
@@ -10428,6 +11479,48 @@
 					"destination" : [ "obj-83", 0 ],
 					"order" : 1,
 					"source" : [ "obj-307", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-242", 1 ],
+					"source" : [ "obj-309", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 4 ],
+					"source" : [ "obj-313", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 5 ],
+					"source" : [ "obj-314", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 1 ],
+					"source" : [ "obj-320", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-321", 0 ]
 				}
 
 			}
@@ -10509,8 +11602,63 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-337", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"order" : 1,
+					"source" : [ "obj-340", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-209", 0 ],
+					"order" : 0,
+					"source" : [ "obj-340", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 1 ],
+					"order" : 3,
+					"source" : [ "obj-341", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-309", 1 ],
+					"order" : 1,
+					"source" : [ "obj-341", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-313", 1 ],
+					"order" : 2,
+					"source" : [ "obj-341", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-314", 1 ],
+					"order" : 0,
+					"source" : [ "obj-341", 0 ]
 				}
 
 			}
@@ -10523,38 +11671,81 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-116", 1 ],
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-358", 0 ],
+					"order" : 0,
+					"source" : [ "obj-357", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-363", 0 ],
+					"order" : 1,
+					"source" : [ "obj-357", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-365", 0 ],
+					"order" : 2,
+					"source" : [ "obj-357", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"source" : [ "obj-358", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 1 ],
+					"source" : [ "obj-359", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 0 ],
+					"source" : [ "obj-360", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-359", 1 ],
 					"source" : [ "obj-363", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 1 ],
-					"order" : 1,
-					"source" : [ "obj-364", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-305", 0 ],
-					"order" : 0,
-					"source" : [ "obj-364", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 1 ],
+					"destination" : [ "obj-360", 1 ],
 					"source" : [ "obj-365", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-119", 1 ],
+					"destination" : [ "obj-3", 1 ],
 					"source" : [ "obj-366", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-366", 1 ],
+					"source" : [ "obj-367", 0 ]
 				}
 
 			}
@@ -10569,6 +11760,38 @@
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-367", 0 ],
+					"order" : 3,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-375", 0 ],
+					"order" : 2,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-378", 0 ],
+					"order" : 1,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-379", 0 ],
+					"order" : 0,
+					"source" : [ "obj-370", 0 ]
 				}
 
 			}
@@ -10609,8 +11832,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-210", 0 ],
+					"source" : [ "obj-375", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-102", 2 ],
 					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-272", 1 ],
+					"source" : [ "obj-378", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-275", 1 ],
+					"source" : [ "obj-379", 0 ]
 				}
 
 			}
@@ -10623,8 +11867,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-186", 0 ],
+					"source" : [ "obj-380", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-381", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-380", 0 ],
+					"order" : 0,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-384", 0 ],
+					"order" : 1,
+					"source" : [ "obj-383", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-280", 1 ],
+					"source" : [ "obj-384", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-279", 0 ],
+					"source" : [ "obj-386", 0 ]
 				}
 
 			}
@@ -10638,6 +11919,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"order" : 1,
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -10645,6 +11943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-328", 0 ],
+					"order" : 0,
 					"source" : [ "obj-4", 1 ]
 				}
 
@@ -10672,6 +11971,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 1 ],
+					"order" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"order" : 1,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-44", 0 ]
 				}
@@ -10686,14 +12001,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-364", 0 ],
+					"destination" : [ "obj-357", 0 ],
 					"source" : [ "obj-48", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -10733,28 +12048,28 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-364", 0 ],
+					"destination" : [ "obj-357", 0 ],
 					"source" : [ "obj-50", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-364", 0 ],
+					"destination" : [ "obj-357", 0 ],
 					"source" : [ "obj-51", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-383", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -10817,15 +12132,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-227", 0 ],
-					"source" : [ "obj-55", 0 ]
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-56", 0 ]
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}
@@ -10852,7 +12167,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -10874,6 +12189,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-329", 0 ],
+					"order" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -10887,24 +12211,47 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-63", 0 ],
+					"destination" : [ "obj-337", 0 ],
+					"order" : 0,
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
 					"order" : 1,
-					"source" : [ "obj-62", 0 ]
+					"source" : [ "obj-63", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
+					"order" : 1,
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"order" : 0,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-67", 0 ]
 				}
 
 			}
@@ -10912,6 +12259,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-186", 1 ],
+					"order" : 0,
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-186", 0 ],
+					"order" : 1,
+					"source" : [ "obj-69", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-280", 0 ],
+					"source" : [ "obj-69", 0 ]
 				}
 
 			}
@@ -10925,7 +12295,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-204", 0 ],
-					"midpoints" : [ 2914.141113000000132, 685.068950907256294, 2894.948546999999962, 685.068950907256294, 2894.948546999999962, 578.612255907256213, 2914.141113000000132, 578.612255907256213 ],
+					"midpoints" : [ 2352.841112690055979, -417.931049092743706, 2333.648546690055809, -417.931049092743706, 2333.648546690055809, -524.387744092743787, 2352.841112690055979, -524.387744092743787 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -10939,16 +12309,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-123", 0 ],
-					"order" : 0,
-					"source" : [ "obj-72", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-72", 1 ]
 				}
 
@@ -10956,7 +12318,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-72", 1 ]
 				}
 
@@ -10991,48 +12353,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-109", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-77", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
-					"order" : 1,
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-102", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-338", 0 ],
 					"source" : [ "obj-78", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"order" : 2,
-					"source" : [ "obj-78", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-55", 0 ],
-					"order" : 1,
-					"source" : [ "obj-78", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-169", 2 ],
-					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -11061,7 +12390,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-209", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-82", 0 ]
 				}
 
@@ -11212,8 +12541,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-116", 0 ],
+					"order" : 1,
 					"source" : [ "obj-99", 1 ]
 				}
 
@@ -11221,7 +12550,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-99", 1 ]
 				}
 
@@ -11230,6 +12559,7 @@
 		"parameters" : 		{
 			"obj-107" : [ "function[11]", "function", 0 ],
 			"obj-113" : [ "function[12]", "function", 0 ],
+			"obj-119" : [ "vst~[7]", "vst~", 0 ],
 			"obj-137" : [ "live.dial[4]", "Duty Cycle", 0 ],
 			"obj-139" : [ "live.dial[5]", "Power", 0 ],
 			"obj-144" : [ "live.dial[6]", "Phase Offset", 0 ],
@@ -11241,17 +12571,23 @@
 			"obj-166" : [ "live.dial[11]", "Depth", 0 ],
 			"obj-175" : [ "live.dial[13]", "Y-axis", 0 ],
 			"obj-177" : [ "live.dial[14]", "Duty Cycle", 0 ],
+			"obj-186" : [ "vst~[2]", "vst~[1]", 0 ],
 			"obj-187" : [ "live.dial[15]", "Phase Offset", 0 ],
 			"obj-19" : [ "function[9]", "function", 0 ],
 			"obj-190" : [ "live.dial[16]", "Power", 0 ],
+			"obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-196" : [ "function[10]", "function", 0 ],
 			"obj-201" : [ "live.dial[18]", "Duty Cycle", 0 ],
+			"obj-210" : [ "vst~[3]", "vst~[3]", 0 ],
 			"obj-227" : [ "live.dial[17]", "ceiling", 0 ],
+			"obj-242" : [ "vst~[4]", "vst~", 0 ],
 			"obj-248" : [ "live.dial[12]", "floor", 0 ],
+			"obj-270" : [ "vst~[6]", "vst~", 0 ],
 			"obj-325" : [ "live.dial[19]", "floor", 0 ],
 			"obj-376" : [ "function[6]", "function", 0 ],
 			"obj-381" : [ "function[7]", "function", 0 ],
 			"obj-394" : [ "function[2]", "function", 0 ],
+			"obj-69" : [ "vst~[1]", "vst~[1]", 0 ],
 			"obj-76" : [ "function[8]", "function", 0 ],
 			"parameterbanks" : 			{
 
@@ -11261,85 +12597,127 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "Blackhole.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Comp FET-76.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "CrushStation_20220620.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Delay BRIGADE.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MicroPitch_20220620_2.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Quadravox_20220620.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "SiTrSq.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "TriceraChorus_20220620.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
+				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Yet_Another_Gen_LFO.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "crossover.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "hold.maxpat",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/patchers",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "ladder_double_wrap.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ladder_triple_wrap.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "presets.json",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/data",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smFilterPack_env_follow.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smFilterPack_ladder.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smFilterPack_ladder_setup.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "smFilterPack_ladder_wrap.gendsp",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/code",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "syncrate.txt",
-				"bootpath" : "~/Music/sousastep/Sousastep XII/data",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1

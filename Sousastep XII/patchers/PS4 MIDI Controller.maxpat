@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 582.0, 877.0, 318.0 ],
+		"rect" : [ 362.0, 325.0, 877.0, 318.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3905,7 +3905,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 20.0,
 					"id" : "obj-45",
-					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "Antlion Wireless Microphone", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "Headset" ],
+					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "Antlion Wireless Microphone", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -6653,28 +6653,28 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "PlayStation_joystick_horizontal_and_vertical_offsets.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep XII/patchers",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PlayStation_joystick_offsetter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep XII/patchers",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "deadzone.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep XII/patchers",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gamectl_bg.png",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep XII/media",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
