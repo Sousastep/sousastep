@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.872288091976998, 1523.282224861980012, 80.0, 22.0 ],
+					"patching_rect" : [ 167.872288091976998, 994.282224861980012, 80.0, 22.0 ],
 					"text" : "slide 480 480"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.672288091977009, 1519.0, 29.5, 22.0 ],
+					"patching_rect" : [ 53.0, 1030.0, 29.5, 22.0 ],
 					"text" : "+"
 				}
 
@@ -149,7 +149,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.872288091976998, 1488.178596127416313, 164.0, 23.0 ],
+					"patching_rect" : [ 167.872288091976998, 959.178596127416313, 164.0, 23.0 ],
 					"text" : "param Xmix @min -1 @max 1",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[9]"
@@ -228,7 +228,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 222.872288091976998, 1134.000000953674316, 210.0, 23.0 ],
-					"text" : "param Xslide_up 3 @min 0 @max 200",
+					"text" : "param Xslide_up 1 @min 0 @max 200",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[5]"
 				}
@@ -1210,7 +1210,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
 
@@ -1249,7 +1249,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-109", 0 ]
 				}
 
@@ -1681,7 +1681,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
+					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
