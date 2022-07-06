@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -220.0, -993.0, 1587.0, 959.0 ],
+		"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,1222 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-460",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 212.000006318092346, 1328.000039577484131, 150.0, 33.0 ],
+					"text" : "mic: 26 / 10\nSB: "
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-458",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1390.000037789344788, 1630.999998569488525, 72.0, 22.0 ],
+					"text" : "r~ tuba_env"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-361",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1415.333370685577393, 1673.333331346511841, 373.0, 20.0 ],
+					"text" : "audio in is squared to emphasize difference between small and large"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-442",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1472.333370685577393, 1755.666715741157532, 150.0, 20.0 ],
+					"text" : "threshold"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-449",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1384.666704416275024, 1713.629496795028899, 87.0, 22.0 ],
+					"text" : "slide~ 0. 4000."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 6,
+					"id" : "obj-451",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1415.333370685577393, 1755.666715741157532, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-453",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1383.833370685577393, 1673.333331346511841, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-454",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1384.666704297065735, 1791.333382368087769, 49.0, 22.0 ],
+					"text" : ">~ 0.01"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-315",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 189.333338975906372, 1843.962842685074065, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-243",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 153.500004887580872, 2012.296172362655852, 29.5, 22.0 ],
+					"text" : ">~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-203",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 696.0, -681.0, 618.0, 421.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 426.0, 303.0, 150.0, 87.0 ],
+									"text" : "when closed, the gate outputs zero. if you want to hold the crossing-value instead, replace the * object with latch, and remove the slide. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 292.0, 69.0, 22.0 ],
+									"text" : "slide 50 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 292.0, 131.0, 33.0 ],
+									"text" : "smoothen the opening & closing of the gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 124.0, 325.0, 150.0, 20.0 ],
+									"text" : "the actual gating is here"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 197.0, 150.0, 47.0 ],
+									"text" : "only change internal gate status when input is zero-crossing"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 55.0, 266.0, 22.0 ],
+									"text" : "in 1 @comment \"nonzero means gate will open\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 197.0, 78.0, 22.0 ],
+									"text" : "latch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 219.0, 159.5, 150.0, 33.0 ],
+									"text" : "will be nonzero when a zero-crossing occurs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 95.0, 206.0, 22.0 ],
+									"text" : "in 2 @comment \"source to be gated\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 165.0, 50.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 137.0, 28.0, 22.0 ],
+									"text" : "> 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 71.0, 325.0, 52.0, 22.0 ],
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 71.0, 368.0, 37.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"midpoints" : [ 172.5, 130.0, 80.5, 130.0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+					}
+,
+					"patching_rect" : [ 540.247615670022697, 1859.333303928375244, 84.0, 22.0 ],
+					"text" : "gen~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-224",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 696.0, -681.0, 618.0, 421.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 426.0, 303.0, 150.0, 87.0 ],
+									"text" : "when closed, the gate outputs zero. if you want to hold the crossing-value instead, replace the * object with latch, and remove the slide. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 292.0, 69.0, 22.0 ],
+									"text" : "slide 50 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 292.0, 131.0, 33.0 ],
+									"text" : "smoothen the opening & closing of the gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 124.0, 325.0, 150.0, 20.0 ],
+									"text" : "the actual gating is here"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 197.0, 150.0, 47.0 ],
+									"text" : "only change internal gate status when input is zero-crossing"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 55.0, 266.0, 22.0 ],
+									"text" : "in 1 @comment \"nonzero means gate will open\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 197.0, 78.0, 22.0 ],
+									"text" : "latch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 219.0, 159.5, 150.0, 33.0 ],
+									"text" : "will be nonzero when a zero-crossing occurs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 95.0, 206.0, 22.0 ],
+									"text" : "in 2 @comment \"source to be gated\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 165.0, 50.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 137.0, 28.0, 22.0 ],
+									"text" : "> 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 71.0, 325.0, 52.0, 22.0 ],
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 71.0, 368.0, 37.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"midpoints" : [ 172.5, 130.0, 80.5, 130.0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+					}
+,
+					"patching_rect" : [ 334.999999046325684, 1856.666637182235718, 84.0, 22.0 ],
+					"text" : "gen~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 696.0, -681.0, 618.0, 421.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 426.0, 303.0, 150.0, 87.0 ],
+									"text" : "when closed, the gate outputs zero. if you want to hold the crossing-value instead, replace the * object with latch, and remove the slide. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 292.0, 69.0, 22.0 ],
+									"text" : "slide 50 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 292.0, 131.0, 33.0 ],
+									"text" : "smoothen the opening & closing of the gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 124.0, 325.0, 150.0, 20.0 ],
+									"text" : "the actual gating is here"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 197.0, 150.0, 47.0 ],
+									"text" : "only change internal gate status when input is zero-crossing"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 55.0, 266.0, 22.0 ],
+									"text" : "in 1 @comment \"nonzero means gate will open\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 197.0, 78.0, 22.0 ],
+									"text" : "latch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 219.0, 159.5, 150.0, 33.0 ],
+									"text" : "will be nonzero when a zero-crossing occurs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 95.0, 206.0, 22.0 ],
+									"text" : "in 2 @comment \"source to be gated\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 165.0, 50.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 137.0, 28.0, 22.0 ],
+									"text" : "> 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 71.0, 325.0, 52.0, 22.0 ],
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 71.0, 368.0, 37.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"midpoints" : [ 172.5, 130.0, 80.5, 130.0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+					}
+,
+					"patching_rect" : [ 908.880944989976456, 1856.666637182235718, 84.0, 22.0 ],
+					"text" : "gen~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 3,
+							"revision" : 1,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "dsp.gen",
+						"rect" : [ 696.0, -681.0, 618.0, 421.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-22",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 426.0, 303.0, 150.0, 87.0 ],
+									"text" : "when closed, the gate outputs zero. if you want to hold the crossing-value instead, replace the * object with latch, and remove the slide. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 292.0, 69.0, 22.0 ],
+									"text" : "slide 50 10"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 292.0, 131.0, 33.0 ],
+									"text" : "smoothen the opening & closing of the gate"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-17",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 124.0, 325.0, 150.0, 20.0 ],
+									"text" : "the actual gating is here"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 184.0, 197.0, 150.0, 47.0 ],
+									"text" : "only change internal gate status when input is zero-crossing"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 55.0, 266.0, 22.0 ],
+									"text" : "in 1 @comment \"nonzero means gate will open\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 104.0, 197.0, 78.0, 22.0 ],
+									"text" : "latch"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-13",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 219.0, 159.5, 150.0, 33.0 ],
+									"text" : "will be nonzero when a zero-crossing occurs"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 95.0, 206.0, 22.0 ],
+									"text" : "in 2 @comment \"source to be gated\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 165.0, 50.0, 22.0 ],
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 163.0, 137.0, 28.0, 22.0 ],
+									"text" : "> 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 71.0, 325.0, 52.0, 22.0 ],
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 71.0, 368.0, 37.0, 22.0 ],
+									"text" : "out 1"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 0 ],
+									"midpoints" : [ 172.5, 130.0, 80.5, 130.0 ],
+									"order" : 1,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"order" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 0 ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 0 ],
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-5", 1 ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-7", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-14", 1 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ],
+						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+					}
+,
+					"patching_rect" : [ 746.499993403752569, 1856.666637182235718, 84.0, 22.0 ],
+					"text" : "gen~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-56",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3245.0, -536.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-445",
 					"linecount" : 2,
@@ -1291,7 +2507,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -2172,7 +3387,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 361.0, 918.9445404367425, 82.0, 22.0 ],
-					"text" : "tempo 151"
+					"text" : "tempo 152."
 				}
 
 			}
@@ -2647,6 +3862,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
+						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -3409,7 +4625,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1486.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDC79dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.xM23BN3XyMwDSLx.iMvTCM2vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0DiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.RLt.CKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHw3BLrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhEzG.......f.A..........F..................PA9A"
+							"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0HiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 						}
 ,
 						"snapshotlist" : 						{
@@ -3431,7 +4647,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1486.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDC79dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.xM23BN3XyMwDSLx.iMvTCM2vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0DiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.RLt.CKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHw3BLrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhEzG.......f.A..........F..................PA9A"
+										"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0HiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 									}
 ,
 									"fileref" : 									{
@@ -3460,7 +4676,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 0,
-					"patching_rect" : [ 300.273803583213066, 2929.621460316730008, 908.666689753532523, 22.0 ],
+					"patching_rect" : [ 293.60713671786425, 3077.621464727473722, 908.666689753532523, 22.0 ],
 					"text" : "dac~ 5 6 7 8 9 10 11 12"
 				}
 
@@ -3555,7 +4771,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "2737.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjfB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2LSNyHiMzbyMvTCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0byL4LiL1PyM2.SMrzfBf.hHrQVYvIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHrQVYv80bzElbz8UY3AmH5.BLtbCLyPCM0byLxTSNyTyL1PCKMn.HfHBajUFbeUlaj8UY3AmH5.BLtDyLxHyMvHyM1TCM1PyM3LCKMn.HfHBajUFbeg1az80b2kFciglH5.BLtbCLyPyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WrQVYv8EZzM2ceIWYr8VXjIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHiQVYvIhNfPyLtbCNyPCLwPCN4HSM2fSLrzfBf.hHxQVYvIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHxQVYv80bzElbz8UY3AmH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHhbjUFbeUlaj8UY3AmH5.BLtLiL0PCNxXyL1XSNvDyL4fCKMn.HfHhbjUFbeg1az80b2kFciglH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHBbrU2Yo41WxQVYv8EZzM2ceIWYr8VXjIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHj0VZtIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHj0VZt80bzElbz8UY3AmH5.BLtHSLwLCN3.CNwLSLxDyM4XCKMn.HfHBYsklaeUlaj8UY3AmH5.BLtfCL4DyMvLCL0biL3jSLxPCKMn.HfHBYsklaeg1az80b2kFciglH5.BLtPCM4bSL4DCLwDSNvTiM2vRCJ.BHh.Ga0cVZt8EYsklaegFcyc2WxUFauEFYhnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHRYtYmbhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHRYtYmbeMGcgIGceUFdvIhNf.iKybyL0HyMybyM3PyL3TiM3vRCJ.BHhTla1I2Wk4FYeUFdvIhNf.iKz.yM1jCMvPSL2HCN4byLzvRCJ.BHhTla1I2Wn8FceM2coQ2XnIhNf.iKxDCN4.SMzjyL1DyMvTyM3vRCJ.BHh.Ga0cVZt8UYtYmbegFcyc2WxUFauEFYhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHBYz0FdhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYz0FdeMGcgIGceUFdvIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHhPFcsg2Wk4FYeUFdvIhNf.iKxbyLwHCMyjiM3.CL4jCM4vRCJ.BHhPFcsg2Wn8FceM2coQ2XnIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EYz0FdegFcyc2WxUFauEFYhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYjUFbhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBYjUFbeMGcgIGceUFdvIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHhPFYkA2Wk4FYeUFdvIhNf.iK1bSNxHSL1LCLvjiMzLSM0vRCJ.BHhPFYkA2Wn8FceM2coQ2XnIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHh.Ga0cVZt8EYjUFbegFcyc2WxUFauEFYhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBbrU2Yo41Wk4lckIhNf.iKvvRCJ.BHhTla1UlH5.hL2XiKvbSNvDCLv.SN2XSM1vRCJ.BHhP2atUlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhP2atU1WyQWXxQ2WkgGbhnCHv3hMwTCNyTyM3TCN1TyM3LyMrzfBf.hHz8lak8UYtQ1WkgGbhnCHv3hL1jyL4biMwXyL3XCMwLiMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhjlayQmH5.hLt.CKMn.HfHxb2IGahnCHv3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.Ga0cVZt8EZuQ2bhnCHv3BLrzfBf.hHvwVcmklaeQWYsA2aeMWYyMWZu41WykmaiIhNfXVXrMWYrzfBf.hHzMWdtIhNfXVXrMWYrzfBf.hHvwVcmklae0VXtUWXr8Eck0FbuIhNfjCLt.CKMn.HfHBcsAmchnCH4.iKvvRCJ.BHhHGcxclH5.BLt.CKMn.HfHBbxUVZhnCHwbCKMn.HfHBbxUlahnCHhXUZhU1XuIWYhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZAfR.sDvKADS.zDfMAvS.+DfQArT.MEfTJ.F.......f.A..........F..................fBgA"
+							"blob" : "2736.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjPB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHz8lak80bzElbz8UY3AmH5.BLtXSL0fyL0bCN0fiM0bCNybCKMn.HfHBcu4VYeUlaj8UY3AmH5.BLtHiM4LSN2XSL1LCN1PSLyXCKMn.HfHBcu4VYeg1az80b2kFciglH5.BLtDCMvDCNx.yM2fCNzXyMzDCKMn.HfHBbrU2Yo41Wz8lak8EZzM2ceIWYr8VXjIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RL2vRCJ.BHh.mbk4lH5.hHVklXkM1axUlHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBeA.......HP..........fA..................n.X"
 						}
 ,
 						"snapshotlist" : 						{
@@ -3577,7 +4793,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "2737.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjfB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2LSNyHiMzbyMvTCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0byL4LiL1PyM2.SMrzfBf.hHrQVYvIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHrQVYv80bzElbz8UY3AmH5.BLtbCLyPCM0byLxTSNyTyL1PCKMn.HfHBajUFbeUlaj8UY3AmH5.BLtDyLxHyMvHyM1TCM1PyM3LCKMn.HfHBajUFbeg1az80b2kFciglH5.BLtbCLyPyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WrQVYv8EZzM2ceIWYr8VXjIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHiQVYvIhNfPyLtbCNyPCLwPCN4HSM2fSLrzfBf.hHxQVYvIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHxQVYv80bzElbz8UY3AmH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHhbjUFbeUlaj8UY3AmH5.BLtLiL0PCNxXyL1XSNvDyL4fCKMn.HfHhbjUFbeg1az80b2kFciglH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHBbrU2Yo41WxQVYv8EZzM2ceIWYr8VXjIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHj0VZtIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHj0VZt80bzElbz8UY3AmH5.BLtHSLwLCN3.CNwLSLxDyM4XCKMn.HfHBYsklaeUlaj8UY3AmH5.BLtfCL4DyMvLCL0biL3jSLxPCKMn.HfHBYsklaeg1az80b2kFciglH5.BLtPCM4bSL4DCLwDSNvTiM2vRCJ.BHh.Ga0cVZt8EYsklaegFcyc2WxUFauEFYhnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHRYtYmbhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHRYtYmbeMGcgIGceUFdvIhNf.iKybyL0HyMybyM3PyL3TiM3vRCJ.BHhTla1I2Wk4FYeUFdvIhNf.iKz.yM1jCMvPSL2HCN4byLzvRCJ.BHhTla1I2Wn8FceM2coQ2XnIhNf.iKxDCN4.SMzjyL1DyMvTyM3vRCJ.BHh.Ga0cVZt8UYtYmbegFcyc2WxUFauEFYhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHBYz0FdhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYz0FdeMGcgIGceUFdvIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHhPFcsg2Wk4FYeUFdvIhNf.iKxbyLwHCMyjiM3.CL4jCM4vRCJ.BHhPFcsg2Wn8FceM2coQ2XnIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EYz0FdegFcyc2WxUFauEFYhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYjUFbhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBYjUFbeMGcgIGceUFdvIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHhPFYkA2Wk4FYeUFdvIhNf.iK1bSNxHSL1LCLvjiMzLSM0vRCJ.BHhPFYkA2Wn8FceM2coQ2XnIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHh.Ga0cVZt8EYjUFbegFcyc2WxUFauEFYhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBbrU2Yo41Wk4lckIhNf.iKvvRCJ.BHhTla1UlH5.hL2XiKvbSNvDCLv.SN2XSM1vRCJ.BHhP2atUlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhP2atU1WyQWXxQ2WkgGbhnCHv3hMwTCNyTyM3TCN1TyM3LyMrzfBf.hHz8lak8UYtQ1WkgGbhnCHv3hL1jyL4biMwXyL3XCMwLiMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhjlayQmH5.hLt.CKMn.HfHxb2IGahnCHv3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.Ga0cVZt8EZuQ2bhnCHv3BLrzfBf.hHvwVcmklaeQWYsA2aeMWYyMWZu41WykmaiIhNfXVXrMWYrzfBf.hHzMWdtIhNfXVXrMWYrzfBf.hHvwVcmklae0VXtUWXr8Eck0FbuIhNfjCLt.CKMn.HfHBcsAmchnCH4.iKvvRCJ.BHhHGcxclH5.BLt.CKMn.HfHBbxUVZhnCHwbCKMn.HfHBbxUlahnCHhXUZhU1XuIWYhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZAfR.sDvKADS.zDfMAvS.+DfQArT.MEfTJ.F.......f.A..........F..................fBgA"
+										"blob" : "2736.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjPB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHz8lak80bzElbz8UY3AmH5.BLtXSL0fyL0bCN0fiM0bCNybCKMn.HfHBcu4VYeUlaj8UY3AmH5.BLtHiM4LSN2XSL1LCN1PSLyXCKMn.HfHBcu4VYeg1az80b2kFciglH5.BLtDCMvDCNx.yM2fCNzXyMzDCKMn.HfHBbrU2Yo41Wz8lak8EZzM2ceIWYr8VXjIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RL2vRCJ.BHh.mbk4lH5.hHVklXkM1axUlHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBeA.......HP..........fA..................n.X"
 									}
 ,
 									"fileref" : 									{
@@ -3754,7 +4970,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxbSL0HyLwDCNvDSNw.CMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
+							"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxXyLwTyM3PCM0PyLzTyMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
 						}
 ,
 						"snapshotlist" : 						{
@@ -3776,7 +4992,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxbSL0HyLwDCNvDSNw.CMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
+										"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxXyLwTyM3PCM0PyLzTyMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
 									}
 ,
 									"fileref" : 									{
@@ -5314,7 +6530,7 @@
 					"patching_rect" : [ 624.303599611348545, 162.795724498384857, 140.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.986988708868239, 244.869053281965421, 172.666668057441711, 28.0 ],
-					"text" : "quarter",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -9462,36 +10678,36 @@
 						"aux_route_menu" : [ 0 ],
 						"aux_sync_menu" : [ 0 ],
 						"aux_yaxis" : [ 0.0 ],
-						"freq_ceiling" : [ 56.226627386649213 ],
-						"freq_floor" : [ 42.961709092122582 ],
+						"freq_ceiling" : [ 56.239117743854521 ],
+						"freq_floor" : [ 42.964347330685612 ],
 						"function[5]" : [ 1.0, -100.0, 100.0, 0.0, -38.571321075058485, 0, 0.0, 0.406363234395382, -26.327132394572146, 0, 0.0, 0.594535277406135, -26.327132394572146, 0, 0.0, 1.0, -36.530622961644099, 0, 0.0, "curve" ],
 						"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 56.226144935236285, 0, 0.0, 0.660123744313751, 100.0, 0, 0.25, 1.0, 100.0, 0, 0.0, "curve" ],
 						"hi_SnTrSq" : [ 0 ],
 						"high_duty_cycle" : [ 0.00854414525736 ],
 						"high_phase_offset" : [ 29.830962981779869 ],
-						"high_power" : [ 1.78618129875246 ],
+						"high_power" : [ 1.792426477355114 ],
 						"low_SnTrSq" : [ 0 ],
 						"low_duty_cycle" : [ 0.0 ],
 						"low_floor" : [ 0.0 ],
 						"low_phase_offset" : [ 43.307086614173357 ],
 						"low_power" : [ 11.279602505303814 ],
 						"main_invert" : [ 0.0 ],
-						"number" : [ 10 ],
-						"number[1]" : [ 26 ],
-						"number[2]" : [ 8 ],
+						"number" : [ 5 ],
+						"number[1]" : [ 60 ],
+						"number[2]" : [ 0 ],
 						"slider[1]" : [ 0.114561799891841 ],
 						"slider[2]" : [ 0.263955368379657 ],
 						"toggle" : [ 1 ],
 						"toggle[1]" : [ 0 ],
 						"toggle[2]" : [ 1 ],
-						"toggle[3]" : [ 1 ],
-						"toggle[4]" : [ 1 ],
+						"toggle[3]" : [ 0 ],
+						"toggle[4]" : [ 0 ],
 						"toggle[5]" : [ 1 ],
 						"toggle[6]" : [ 1 ],
-						"toggle[7]" : [ 0 ],
+						"toggle[7]" : [ 1 ],
 						"toggle[8]" : [ 1 ],
 						"toggle[9]" : [ 1 ],
-						"umenu[1]" : [ 1 ],
+						"umenu[1]" : [ 0 ],
 						"vst~" : [ 							{
 								"filetype" : "C74Snapshot",
 								"version" : 2,
@@ -9509,7 +10725,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "2737.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjfB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2LSNyHiMzbyMvTCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0byL4LiL1PyM2.SMrzfBf.hHrQVYvIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHrQVYv80bzElbz8UY3AmH5.BLtbCLyPCM0byLxTSNyTyL1PCKMn.HfHBajUFbeUlaj8UY3AmH5.BLtDyLxHyMvHyM1TCM1PyM3LCKMn.HfHBajUFbeg1az80b2kFciglH5.BLtbCLyPyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WrQVYv8EZzM2ceIWYr8VXjIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHiQVYvIhNfPyLtbCNyPCLwPCN4HSM2fSLrzfBf.hHxQVYvIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHxQVYv80bzElbz8UY3AmH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHhbjUFbeUlaj8UY3AmH5.BLtLiL0PCNxXyL1XSNvDyL4fCKMn.HfHhbjUFbeg1az80b2kFciglH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHBbrU2Yo41WxQVYv8EZzM2ceIWYr8VXjIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHj0VZtIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHj0VZt80bzElbz8UY3AmH5.BLtHSLwLCN3.CNwLSLxDyM4XCKMn.HfHBYsklaeUlaj8UY3AmH5.BLtfCL4DyMvLCL0biL3jSLxPCKMn.HfHBYsklaeg1az80b2kFciglH5.BLtPCM4bSL4DCLwDSNvTiM2vRCJ.BHh.Ga0cVZt8EYsklaegFcyc2WxUFauEFYhnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHRYtYmbhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHRYtYmbeMGcgIGceUFdvIhNf.iKybyL0HyMybyM3PyL3TiM3vRCJ.BHhTla1I2Wk4FYeUFdvIhNf.iKz.yM1jCMvPSL2HCN4byLzvRCJ.BHhTla1I2Wn8FceM2coQ2XnIhNf.iKxDCN4.SMzjyL1DyMvTyM3vRCJ.BHh.Ga0cVZt8UYtYmbegFcyc2WxUFauEFYhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHBYz0FdhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYz0FdeMGcgIGceUFdvIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHhPFcsg2Wk4FYeUFdvIhNf.iKxbyLwHCMyjiM3.CL4jCM4vRCJ.BHhPFcsg2Wn8FceM2coQ2XnIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EYz0FdegFcyc2WxUFauEFYhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYjUFbhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBYjUFbeMGcgIGceUFdvIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHhPFYkA2Wk4FYeUFdvIhNf.iK1bSNxHSL1LCLvjiMzLSM0vRCJ.BHhPFYkA2Wn8FceM2coQ2XnIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHh.Ga0cVZt8EYjUFbegFcyc2WxUFauEFYhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBbrU2Yo41Wk4lckIhNf.iKvvRCJ.BHhTla1UlH5.hL2XiKvbSNvDCLv.SN2XSM1vRCJ.BHhP2atUlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhP2atU1WyQWXxQ2WkgGbhnCHv3hMwTCNyTyM3TCN1TyM3LyMrzfBf.hHz8lak8UYtQ1WkgGbhnCHv3hL1jyL4biMwXyL3XCMwLiMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RL43xLxTSMwLCNyjyMxDiM3vRCJ.BHhjlayQmH5.hLt.CKMn.HfHxb2IGahnCHv3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.Ga0cVZt8EZuQ2bhnCHv3BLrzfBf.hHvwVcmklaeQWYsA2aeMWYyMWZu41WykmaiIhNfXVXrMWYrzfBf.hHzMWdtIhNfXVXrMWYrzfBf.hHvwVcmklae0VXtUWXr8Eck0FbuIhNfjCLt.CKMn.HfHBcsAmchnCH4.iKvvRCJ.BHhHGcxclH5.BLt.CKMn.HfHBbxUVZhnCHwbCKMn.HfHBbxUlahnCHhXUZhU1XuIWYhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZAfR.sDvKADS.zDfMAvS.+DfQArT.MEfTJ.F.......f.A..........F..................fBgA"
+									"blob" : "2736.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQjPB60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHz8lak80bzElbz8UY3AmH5.BLtXSL0fyL0bCN0fiM0bCNybCKMn.HfHBcu4VYeUlaj8UY3AmH5.BLtHiM4LSN2XSL1LCN1PSLyXCKMn.HfHBcu4VYeg1az80b2kFciglH5.BLtDCMvDCNx.yM2fCNzXyMzDCKMn.HfHBbrU2Yo41Wz8lak8EZzM2ceIWYr8VXjIhNfDSNtLiL0TSLyfyL4biLwXCNrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.RL2vRCJ.BHh.mbk4lH5.hHVklXkM1axUlHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBeA.......HP..........fA..................n.X"
 								}
 
 							}
@@ -9641,7 +10857,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxbSL0HyLwDCNvDSNw.CMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
+									"blob" : "2096.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.LC..............3...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDQUGYWAA.RDVclg2SQT.d60fBf.hHvwVcmklaIQjH5.hHQUGYWIBKMn.HfHBbrU2Yo4lUkImH5.hHy3xMtDCMhvRCJ.BHhPWavUlH5.RLt.CKMn.HfHxbz0FbhnCHw3BLrzfBf.hHz0FbuIhNfDCLv3BLrzfBf.hHqUVdyIhNf.iKvvRCJ.BHhPWctUlH5.BMz.iKvvRCJ.BHhL2XgwlH5.BLt.CKMn.HfHBbzI2ZhnCHw3BLrzfBf.hHo41bzIhNfDyLt.CKMn.HfHRao4FbhnCHwHiKvvRCJ.BHhfmYgQlH5.BLt.iL4jSN4jSN2PiM1fCLxXCKMn.HfHRZmElahnCHsPiKwbiLyHSMwLCMxbyMyPCMk0xMrzfBf.hHucVXtIhNfzBMtDyMxLiL0DyLzHyM2LCMzTVK2vRCJ.BHhzVaogmH5.RLt.CKMn.HfHRalI1ZhnCHv3BLrzfBf.hHlI1ZjIhNfDiKxXyLwTyM3PCM0PyLzTyMrzfBf.hHhUVXrIhNfLiKwjSN4jSN3.SNxXSMwLyMrzfBf.hHxQVYvIhNf.iKvvRCJ.BHhvVZ1UlH5.RLt.CKMn.HfHxam4VLhnCHsHiK4jSN4jyMwLCN4byMvTSLrzfBf.hHlI1ZwHhNf.iKvvRCJ.BHh.WXtEiH5.BLt.CKMn.HfHBYrkWLhnCHv3BLrzfBf.hHygFcwHhNf.iKvvRCJ.BHhjlazEiH5.xMt.CKMn.HfHRaycWLhnCHv3BLrzfBf.hHhUVXwHhNf.iKvvRCJ.BHh71YtIiH5.RK33xL2LSLyTSM1XyMwDCMxXCKMn.HfHhYhslLhnCHv3BLrzfBf.hHvElaxHhNfDiKvvRCJ.BHhPFa4IiH5.BLt.CKMn.HfHxbnQmLhnCHv3BLrzfBf.hHo4FcxHhNfDCLt.CKMn.HfHRaycmLhnCHv3BLrzfBf.hHhUVXxHhNf.iKvvRCJ.BHh71YtMiH5.BLt.CKMn.HfHhYhs1LhnCHv3BLrzfBf.hHvElayHhNfDiKvvRCJ.BHhPFa4MiH5.BLt.CKMn.HfHxbnQ2LhnCHv3BLrzfBf.hHo4FcyHhNfDCMt.CKMn.HfHRayc2LhnCHw3BLrzfBf.hHhUVXyHhNf.iKvvRCJ.BHh71YtQiH5.RKwHiK0jCL2LiMyfSNwXCLwXCKMn.HfHhYhsFMhnCHv3BLrzfBf.hHvElazHhNfzRLt.CKMn.HfHBYrkGMhnCHv3BLrzfBf.hHygFczHhNf.iKvvRCJ.BHhjlazQiH5.hLw3BLrzfBf.hHsM2czHhNfDiKvvRCJ.BHhHVYgQiH5.BLt.CKMn.HfHhcyUFahnCHv3BLrzfBf.hHsQmbtIhNfPiKvvRCJ.BHhzFcxQlH5.BMt.CKMn.HfHxbtEFbyg1azAiH5.hHhvRCJ.BHhLmagA2bn8FcwHhNfHhHrzfBf.hHy4VXvMGZuQmLhnCHhHBKMn.HfHxbtEFbyg1azMiH5.hHhvRCJ.BHhLmagA2bn8FczHhNfHhHrzfBf.hHy4VXvMGZuQWMhnCHhHBKMn.HfHxbtEFbyg1azYiH5.hHhvRCJ.BHhLmagA2bn8Fc2HhNfHhHrzfBf.hHy4VXvMGZuQGNhnCHhHBKMn.HfHxbtEFbyg1azkiH5.hHhvRCJ.BHhLmagA2bn8Fcw.iH5.hHhvRCJ.BHhLmagA2bn8FcwDiH5.hHhvRCJ.BHhLmagA2bn8FcwHiH5.hHhvRCJ.BHhLmagA2bn8FcwLiH5.hHhvRCJ.BHhLmagA2bn8FcwPiH5.hHhvRCJ.BHhLmagA2bn8FcwTiH5.hHhvRCJ.BHh.mbkklH5.hLybCKMn.HfHBbxUlahnCHhL2a0MWXyQWYvIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oIPNB3i..IfPBTj.GIPSB.k.WI.WB3k.icv2........BD..........X...................G.N"
 								}
 
 							}
@@ -9685,7 +10901,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "1486.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDC79dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.xM23BN3XyMwDSLx.iMvTCM2vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0DiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.RLt.CKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHw3BLrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhEzG.......f.A..........F..................PA9A"
+									"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RL0HiKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 								}
 
 							}
@@ -12351,6 +13567,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
+					"order" : 1,
+					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-56", 0 ],
+					"order" : 0,
 					"source" : [ "obj-109", 0 ]
 				}
 
@@ -12437,6 +13662,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 1 ],
+					"order" : 1,
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-309", 0 ],
+					"order" : 2,
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"order" : 0,
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -13292,6 +14541,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-359", 0 ],
+					"source" : [ "obj-203", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-202", 0 ],
 					"source" : [ "obj-204", 0 ]
 				}
@@ -13415,6 +14671,13 @@
 					"destination" : [ "obj-391", 0 ],
 					"order" : 1,
 					"source" : [ "obj-222", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-360", 0 ],
+					"source" : [ "obj-224", 0 ]
 				}
 
 			}
@@ -14031,63 +15294,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-191", 1 ],
-					"order" : 2,
+					"destination" : [ "obj-120", 1 ],
 					"source" : [ "obj-3", 3 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-191", 0 ],
-					"order" : 2,
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-304", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-309", 0 ],
-					"order" : 1,
-					"source" : [ "obj-3", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-320", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-321", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-359", 0 ],
+					"destination" : [ "obj-203", 1 ],
 					"source" : [ "obj-3", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-360", 0 ],
+					"destination" : [ "obj-224", 1 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 1 ],
+					"source" : [ "obj-3", 2 ]
 				}
 
 			}
@@ -14209,6 +15438,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-119", 1 ],
 					"source" : [ "obj-314", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-243", 1 ],
+					"source" : [ "obj-315", 0 ]
 				}
 
 			}
@@ -15384,6 +16620,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-454", 0 ],
+					"source" : [ "obj-449", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
@@ -15402,6 +16645,68 @@
 					"destination" : [ "obj-189", 0 ],
 					"order" : 1,
 					"source" : [ "obj-450", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-454", 1 ],
+					"source" : [ "obj-451", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-449", 0 ],
+					"source" : [ "obj-453", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"order" : 0,
+					"source" : [ "obj-454", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-203", 0 ],
+					"order" : 2,
+					"source" : [ "obj-454", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-224", 0 ],
+					"order" : 3,
+					"source" : [ "obj-454", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"order" : 1,
+					"source" : [ "obj-454", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-453", 1 ],
+					"order" : 0,
+					"source" : [ "obj-458", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-453", 0 ],
+					"order" : 1,
+					"source" : [ "obj-458", 0 ]
 				}
 
 			}
@@ -15612,6 +16917,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"order" : 2,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 0 ],
+					"order" : 1,
+					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"order" : 0,
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
