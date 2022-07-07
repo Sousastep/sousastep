@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,241 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-468",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1477.0, 1265.710631175952585, 150.0, 33.0 ],
+					"text" : "stays open when button held for > # ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-466",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1369.674545453172414, 1402.570210391984801, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-462",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1335.924545453172414, 1402.570210391984801, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-459",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1348.674545453172414, 1322.140420783968693, 35.0, 22.0 ],
+					"text" : "del 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-457",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1382.674545453172414, 1362.208683015697943, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-456",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1348.924545453172414, 1362.355315587976747, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-455",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1348.924545453172414, 1281.925525979960639, 86.5, 22.0 ],
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-448",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1355.257879064660756, 1442.965527196941594, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-440",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1467.333370685577393, 1241.710631175952585, 39.0, 22.0 ],
+					"text" : "< 700"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-437",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hold.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 889.786665673255811, 2321.039516965361599, 100.880000000000109, 29.581943351368409 ],
+					"varname" : "hold[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-435",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1415.333370685577393, 1241.710631175952585, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-333",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 1415.333370685577393, 1161.280841567936477, 51.0, 22.0 ],
+					"text" : "sel 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-312",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "" ],
+					"patching_rect" : [ 1415.333370685577393, 1201.495736371944531, 35.0, 22.0 ],
+					"text" : "timer"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-392",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -19.0, 1042.166671991348267, 70.0, 22.0 ],
+					"text" : "clip~ 0.05 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-355",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -91.916522728902692, 1042.166671991348267, 64.0, 22.0 ],
+					"text" : "clip~ 0.1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-250",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 48.0, 1438.676140652902404, 32.0, 22.0 ],
-					"text" : "/ 1.2"
+					"patching_rect" : [ -19.0, 1186.126218958776462, 82.0, 22.0 ],
+					"text" : "peakamp~ 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-247",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ -17.52973316567477, 1186.126218958776462, 82.0, 22.0 ],
+					"text" : "peakamp~ 32"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -19.0, 1012.166671991348267, 40.0, 22.0 ],
+					"text" : "-~ 0.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -91.916522728902692, 981.51741253795899, 72.0, 19.0 ],
+					"text" : "slide~ 0 120000"
 				}
 
 			}
@@ -58,7 +286,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1544.831136682043507, 1739.500048995018005, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "tuba mic: \nsousa mic: \nSB: 0.002"
 				}
 
@@ -70,9 +297,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.333332300186157, 1359.026840882819215, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
-					"text" : "tuba mic: 26 / 10\nsousa mic: \nSB: 60 / 5"
+					"patching_rect" : [ 153.5, 1338.79131698430183, 150.0, 47.0 ],
+					"text" : "tuba mic: 26 / 10\nsousa mic: \nSB: 60 / 9"
 				}
 
 			}
@@ -136,8 +362,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1421.666704297065735, 1753.000048995018005, 50.0, 22.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1421.666704297065735, 1753.000048995018005, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 0.002 ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "number[3]",
+							"parameter_shortname" : "number[3]",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"varname" : "number[3]"
 				}
 
 			}
@@ -1504,7 +1743,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -178.76273189188214, 1042.166671991348267, 72.0, 22.0 ],
+					"patching_rect" : [ -177.26273189188214, 981.51741253795899, 72.0, 22.0 ],
 					"text" : "r~ tuba_mic"
 				}
 
@@ -1518,7 +1757,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -178.76273189188214, 1075.126670961902619, 67.0, 19.0 ],
+					"patching_rect" : [ -177.26273189188214, 1043.666671991348267, 67.0, 19.0 ],
 					"text" : "slide~ 0 48000"
 				}
 
@@ -1532,7 +1771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -65.52973316567477, 929.166671991348267, 93.0, 35.0 ],
+					"patching_rect" : [ 43.0, 957.048345477818202, 93.0, 35.0 ],
 					"text" : "threshold, hysteresis",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.71 ],
 					"textjustification" : 1
@@ -1547,7 +1786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.123715895768328, 1170.166671991348267, 93.0, 21.0 ],
+					"patching_rect" : [ 236.123715895768328, 1198.048345477818202, 93.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 694.123715895768328, 515.166671991348267, 93.0, 21.0 ],
 					"text" : "envelope level",
@@ -1564,7 +1803,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 123.123715895768328, 1197.351159463123167, 93.0, 21.0 ],
+					"patching_rect" : [ 236.123715895768328, 1225.232832949593103, 93.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 694.123715895768328, 542.351159463123167, 93.0, 21.0 ],
 					"text" : "retrigger status",
@@ -1582,7 +1821,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1.47026683432523, 966.166671991348267, 215.0, 225.0 ],
+					"patching_rect" : [ 114.47026683432523, 994.048345477818202, 215.0, 225.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 572.47026683432523, 311.166671991348267, 215.0, 225.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -1598,7 +1837,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ -151.76273189188214, 1115.51741253795899, 75.0, 22.0 ],
+					"patching_rect" : [ -14.02973316567477, 1186.126218958776462, 75.0, 22.0 ],
 					"text" : "peakamp~ 1"
 				}
 
@@ -1615,7 +1854,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -20.52973316567477, 966.166671991348267, 20.0, 225.0 ],
+					"patching_rect" : [ 92.47026683432523, 994.048345477818202, 20.0, 225.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 550.47026683432523, 311.166671991348267, 20.0, 225.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1642,7 +1881,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ -178.76273189188214, 1223.304000779073704, 48.0, 22.0 ],
+					"patching_rect" : [ -178.76273189188214, 1225.232832949593103, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -1678,7 +1917,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -178.76273189188214, 1153.126218958776462, 102.0, 22.0 ],
+					"patching_rect" : [ -176.916522728902692, 1120.4427856722873, 104.0, 22.0 ],
 					"text" : "thresh~ 0.04 0.32"
 				}
 
@@ -1754,7 +1993,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -178.76273189188214, 1295.173402060862372, 77.0, 22.0 ],
+					"patching_rect" : [ -178.76273189188214, 1293.173402060862372, 77.0, 22.0 ],
 					"text" : "s phasereset",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1772,7 +2011,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ -42.52973316567477, 966.166671991348267, 20.0, 225.0 ],
+					"patching_rect" : [ 70.47026683432523, 994.048345477818202, 20.0, 225.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 528.47026683432523, 311.166671991348267, 20.0, 225.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1801,7 +2040,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4.123715895768328, 1197.351159463123167, 212.0, 27.0 ],
+					"patching_rect" : [ 117.123715895768328, 1225.232832949593103, 212.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 575.123715895768328, 542.351159463123167, 212.0, 27.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
@@ -1928,7 +2167,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1312.007879064660756, 1204.497824383349325, 75.0, 22.0 ],
+					"patching_rect" : [ 1312.007879064660756, 1201.495736371944531, 75.0, 22.0 ],
 					"text" : "s tap_tempo"
 				}
 
@@ -2533,6 +2772,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
+						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -2940,7 +3180,6 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -3020,7 +3259,7 @@
 					"patching_rect" : [ 88.5, 1690.288113711429105, 150.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ "HiDryTrim", -1.0 ],
+							"parameter_initial" : [ "HiDryTrim", -3.0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "attrui",
@@ -3443,17 +3682,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-346",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 518.666667103767395, 1068.666671991348267, 150.0, 20.0 ],
-					"text" : "pre-delay for tuba_env"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-336",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -3489,18 +3717,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 336.833332300186157, 1128.666671991348267, 70.0, 23.0 ],
 					"text" : "bypass $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-333",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 517.666667103767395, 1095.548345477818202, 50.0, 22.0 ]
 				}
 
 			}
@@ -3573,18 +3789,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 351.273803583213066, 2682.333326101303101, 29.5, 22.0 ],
 					"text" : "*~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-312",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 432.666667103767395, 1133.333338260650635, 104.0, 22.0 ],
-					"text" : "delay~ 2000 1000"
 				}
 
 			}
@@ -4012,7 +4216,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 694.666666746139526, 2207.333326101303101, 49.0, 22.0 ],
+					"patching_rect" : [ 614.666666746139526, 2244.333326101303101, 49.0, 22.0 ],
 					"text" : "params"
 				}
 
@@ -4023,7 +4227,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.666666746139526, 2253.333326101303101, 32.0, 22.0 ],
+					"patching_rect" : [ 627.666666746139526, 2397.333326101303101, 32.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -4411,7 +4615,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 896.786665673255811, 2150.125691975127666, 100.880000000000109, 29.581943351368409 ],
+					"patching_rect" : [ 769.786665673255811, 2232.125691975127666, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[2]",
 					"viewvisibility" : 1
 				}
@@ -4447,7 +4651,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1291.366665673255739, 2220.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 1352.366665673255739, 2307.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4459,7 +4663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1121.366665673255739, 2220.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 1182.366665673255739, 2307.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4471,7 +4675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 968.166665673255807, 2300.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 841.166665673255807, 2382.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4483,7 +4687,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 836.966665673255761, 2300.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 709.966665673255761, 2382.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4495,7 +4699,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 958.164718530356367, 2202.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 831.164718530356367, 2284.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4507,7 +4711,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 836.966665673255761, 2202.333386301994324, 29.5, 22.0 ],
+					"patching_rect" : [ 709.966665673255761, 2284.333386301994324, 29.5, 22.0 ],
 					"text" : "*~"
 				}
 
@@ -4524,7 +4728,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1121.366665673255739, 2268.333348751068115, 189.0, 22.0 ],
+					"patching_rect" : [ 1182.366665673255739, 2355.333348751068115, 189.0, 22.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Delay ETERNITY", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -4616,7 +4820,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 836.966665673255761, 2246.621460316730008, 140.0, 22.0 ],
+					"patching_rect" : [ 709.966665673255761, 2328.621460316730008, 140.0, 22.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Blackhole", ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -4651,7 +4855,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
+							"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13RL3XyM4.CM1XyLvfSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMxjCMwDSNwDSN1PCMwbCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0HSNzDSL4DSL4XCMzDyMrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 						}
 ,
 						"snapshotlist" : 						{
@@ -4673,7 +4877,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
+										"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13RL3XyM4.CM1XyLvfSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMxjCMwDSNwDSN1PCMwbCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0HSNzDSL4DSL4XCMzDyMrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 									}
 ,
 									"fileref" : 									{
@@ -4797,7 +5001,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "2661.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQffu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfzBLt.CLxjyMw.yL3XCN2jyMzHSL0vRCJ.BHhP2atU1Wn8FceM2coQ2XnIhNf.iKwPCLwfiLvbyM3fCM1bCMwvRCJ.BHh.Ga0cVZt8Ecu4VYegFcyc2WxUFauEFYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.hM4vRCJ.BHh.mbk4lH5.hHz81ahElHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBT........HP..........fA..................nPE"
+							"blob" : "2660.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQfPu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhHWXzU1WyQWXxQ2WkgGbhnCHv3xL0jyLxjSL1PCLxfSL1byMrzfBf.hHxEFck8UYtQ1WkgGbhnCHv3BN3fCN1fSMw.yMxLSLwPCKMn.HfHhbgQWYeg1az80b2kFciglH5.BLt.CNzLCNyTiM4XSM2fCLxTCNrzfBf.hHvwVcmklaeIWXzU1WnQ2b28kbkw1agQlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhvFYkAmH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhvFYkA2WyQWXxQ2WkgGbhnCHv3xMvLCMzTyMyHSM4LSMyXCMrzfBf.hHrQVYv8UYtQ1WkgGbhnCHv3RLyHiL2.iL2XSMzXCM2fyLrzfBf.hHrQVYv8EZuQ2WycWZzMFZhnCHv3xMvLCM2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaewFYkA2WnQ2b28kbkw1agQlH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhLFYkAmH5.BMy3xM3LCMvDCM3jiL0bCNwvRCJ.BHhHGYkAmH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhHGYkA2WyQWXxQ2WkgGbhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHxQVYv8UYtQ1WkgGbhnCHv3xLxTCM3HiMyXiM4.SLyjCNrzfBf.hHxQVYv8EZuQ2WycWZzMFZhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHvwVcmklaeIGYkA2WnQ2b28kbkw1agQlH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhPVao4lH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhPVao41WyQWXxQ2WkgGbhnCHv3hLwDyL3fCL3DyLwHSL2jiMrzfBf.hHj0VZt8UYtQ1WkgGbhnCHv3BNvjSL2.yLvTyMxfSNwHCMrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BMzjyMwjSLvDSL4.SM1bCKMn.HfHBbrU2Yo41Wj0VZt8EZzM2ceIWYr8VXjIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHk4lcxIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHk4lcx80bzElbz8UY3AmH5.BLtLyMyTiL2LyM2fCMyfSM1fCKMn.HfHRYtYmbeUlaj8UY3AmH5.BLtPCL2XSNz.CMwbiL3jyMyPCKMn.HfHRYtYmbeg1az80b2kFciglH5.BLtHSL3jCL0PSNyXSL2.SM2fCKMn.HfHBbrU2Yo41Wk4lcx8EZzM2ceIWYr8VXjIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHjQWa3IhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQWa380bzElbz8UY3AmH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBYz0FdeUlaj8UY3AmH5.BLtHyMyDiLzLSN1fCLvjSNzjCKMn.HfHBYz0Fdeg1az80b2kFciglH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WjQWa38EZzM2ceIWYr8VXjIhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQVYvIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHjQVYv80bzElbz8UY3AmH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBYjUFbeUlaj8UY3AmH5.BLtXyM4HiLwXyLv.SN1PyL0TCKMn.HfHBYjUFbeg1az80b2kFciglH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBbrU2Yo41WjQVYv8EZzM2ceIWYr8VXjIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHxbiMt.yM4.SLv.CL4biM0XCKMn.HfHBcu4VYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RKv3BLvHSN2DCLyfiM3bSN2PiLwTCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfjCLt.CKMn.HfHhbzI2YhnCHv3BLrzfBf.hHvIWYoIhNfXSNrzfBf.hHvIWYtIhNfHBcu8lXgIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RovD........BD..........X...................JPA"
 						}
 ,
 						"snapshotlist" : 						{
@@ -4819,7 +5023,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "2661.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQffu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfzBLt.CLxjyMw.yL3XCN2jyMzHSL0vRCJ.BHhP2atU1Wn8FceM2coQ2XnIhNf.iKwPCLwfiLvbyM3fCM1bCMwvRCJ.BHh.Ga0cVZt8Ecu4VYegFcyc2WxUFauEFYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.hM4vRCJ.BHh.mbk4lH5.hHz81ahElHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBT........HP..........fA..................nPE"
+										"blob" : "2660.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQfPu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhHWXzU1WyQWXxQ2WkgGbhnCHv3xL0jyLxjSL1PCLxfSL1byMrzfBf.hHxEFck8UYtQ1WkgGbhnCHv3BN3fCN1fSMw.yMxLSLwPCKMn.HfHhbgQWYeg1az80b2kFciglH5.BLt.CNzLCNyTiM4XSM2fCLxTCNrzfBf.hHvwVcmklaeIWXzU1WnQ2b28kbkw1agQlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhvFYkAmH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhvFYkA2WyQWXxQ2WkgGbhnCHv3xMvLCMzTyMyHSM4LSMyXCMrzfBf.hHrQVYv8UYtQ1WkgGbhnCHv3RLyHiL2.iL2XSMzXCM2fyLrzfBf.hHrQVYv8EZuQ2WycWZzMFZhnCHv3xMvLCM2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaewFYkA2WnQ2b28kbkw1agQlH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhLFYkAmH5.BMy3xM3LCMvDCM3jiL0bCNwvRCJ.BHhHGYkAmH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhHGYkA2WyQWXxQ2WkgGbhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHxQVYv8UYtQ1WkgGbhnCHv3xLxTCM3HiMyXiM4.SLyjCNrzfBf.hHxQVYv8EZuQ2WycWZzMFZhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHvwVcmklaeIGYkA2WnQ2b28kbkw1agQlH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhPVao4lH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhPVao41WyQWXxQ2WkgGbhnCHv3hLwDyL3fCL3DyLwHSL2jiMrzfBf.hHj0VZt8UYtQ1WkgGbhnCHv3BNvjSL2.yLvTyMxfSNwHCMrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BMzjyMwjSLvDSL4.SM1bCKMn.HfHBbrU2Yo41Wj0VZt8EZzM2ceIWYr8VXjIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHk4lcxIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHk4lcx80bzElbz8UY3AmH5.BLtLyMyTiL2LyM2fCMyfSM1fCKMn.HfHRYtYmbeUlaj8UY3AmH5.BLtPCL2XSNz.CMwbiL3jyMyPCKMn.HfHRYtYmbeg1az80b2kFciglH5.BLtHSL3jCL0PSNyXSL2.SM2fCKMn.HfHBbrU2Yo41Wk4lcx8EZzM2ceIWYr8VXjIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHjQWa3IhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQWa380bzElbz8UY3AmH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBYz0FdeUlaj8UY3AmH5.BLtHyMyDiLzLSN1fCLvjSNzjCKMn.HfHBYz0Fdeg1az80b2kFciglH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WjQWa38EZzM2ceIWYr8VXjIhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQVYvIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHjQVYv80bzElbz8UY3AmH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBYjUFbeUlaj8UY3AmH5.BLtXyM4HiLwXyLv.SN1PyL0TCKMn.HfHBYjUFbeg1az80b2kFciglH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBbrU2Yo41WjQVYv8EZzM2ceIWYr8VXjIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHxbiMt.yM4.SLv.CL4biM0XCKMn.HfHBcu4VYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RKv3BLvHSN2DCLyfiM3bSN2PiLwTCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfjCLt.CKMn.HfHhbzI2YhnCHv3BLrzfBf.hHvIWYoIhNfXSNrzfBf.hHvIWYtIhNfHBcu8lXgIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RovD........BD..........X...................JPA"
 									}
 ,
 									"fileref" : 									{
@@ -4891,7 +5095,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+							"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtjiL4HyM0TSLxXSN0LSLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
 						}
 ,
 						"snapshotlist" : 						{
@@ -4913,7 +5117,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+										"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtjiL4HyM0TSLxXSN0LSLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
 									}
 ,
 									"fileref" : 									{
@@ -6556,7 +6760,7 @@
 					"patching_rect" : [ 624.303599611348545, 162.795724498384857, 140.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 596.986988708868239, 244.869053281965421, 172.666668057441711, 28.0 ],
-					"text" : "eighth",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -7851,7 +8055,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 56.226144935236285, 0, 0.0, 0.660123744313751, 100.0, 0, 0.25, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 38.88021097121397, 0, 0.0, 0.703134497001923, 100.0, 0, 0.05, 1.0, 100.0, 0, 0.0 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -7869,7 +8073,7 @@
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 0.0, 100.0, 0.0, 56.226144935236285, 0, 0.0, 0.660123744313751, 100.0, 0, 0.25, 1.0, 100.0, 0, 0.0, "curve" ],
+							"parameter_initial" : [ 1.0, 0.0, 100.0, 0.0, 38.88021097121397, 0, 0.0, 0.703134497001923, 100.0, 0, 0.05, 1.0, 100.0, 0, 0.0, "curve" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[10]",
@@ -9915,7 +10119,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 42.961607198042749, 0, 0.0, 1.0, 72.551729842551396, 0, 0.45, 1.0, 100.0, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 24.595324177313245, 0, 0.0, 1.0, 46.022654368164332, 0, 0.45, 1.0, 100.0, 0, 0.0 ],
 					"bgcolor" : [ 0.886274509803922, 1.0, 0.0, 1.0 ],
 					"domain" : 1.0,
 					"gridcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 1.0 ],
@@ -9933,7 +10137,7 @@
 					"range" : [ 0.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 0.0, 100.0, 0.0, 42.961607198042749, 0, 0.0, 1.0, 72.551729842551396, 0, 0.45, 1.0, 100.0, 0, 0.0, "curve" ],
+							"parameter_initial" : [ 1.0, 0.0, 100.0, 0.0, 24.595324177313245, 0, 0.0, 1.0, 46.022654368164332, 0, 0.45, 1.0, 100.0, 0, 0.0, "curve" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[6]",
@@ -10207,7 +10411,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1256.082796848963426, 2020.296172601074431, 100.880000000000109, 29.581943351368409 ],
+					"patching_rect" : [ 1286.082796848963426, 2194.296172601074431, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[6]",
 					"viewvisibility" : 1
 				}
@@ -10638,7 +10842,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3754.000020861625671, 1605.666685342788696, 31.0, 20.0 ],
+					"patching_rect" : [ 3952.000020861625671, 3150.666685342788696, 31.0, 20.0 ],
 					"text" : "JVB"
 				}
 
@@ -10694,7 +10898,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1960.795177114994658, -710.999998807907104, 56.0, 22.0 ],
 					"restore" : 					{
-						"attrui" : [ "HiDryTrim", -1.0 ],
+						"attrui" : [ "HiDryTrim", -3.0 ],
 						"aux_SnTrSq" : [ 0 ],
 						"aux_depth" : [ 0.0 ],
 						"aux_duty_cycle" : [ 0.0 ],
@@ -10704,35 +10908,36 @@
 						"aux_route_menu" : [ 0 ],
 						"aux_sync_menu" : [ 0 ],
 						"aux_yaxis" : [ 0.0 ],
-						"freq_ceiling" : [ 56.842521333149094 ],
-						"freq_floor" : [ 43.092405082714635 ],
+						"freq_ceiling" : [ 38.887775221979766 ],
+						"freq_floor" : [ 24.595869845563168 ],
 						"function[5]" : [ 1.0, -100.0, 100.0, 0.0, -38.571321075058485, 0, 0.0, 0.406363234395382, -26.327132394572146, 0, 0.0, 0.594535277406135, -26.327132394572146, 0, 0.0, 1.0, -36.530622961644099, 0, 0.0, "curve" ],
-						"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 56.226144935236285, 0, 0.0, 0.660123744313751, 100.0, 0, 0.25, 1.0, 100.0, 0, 0.0, "curve" ],
-						"hi_SnTrSq" : [ 0 ],
+						"function[8]" : [ 1.0, 0.0, 100.0, 0.0, 38.88021097121397, 0, 0.0, 0.703134497001923, 100.0, 0, 0.05, 1.0, 100.0, 0, 0.0, "curve" ],
+						"hi_SnTrSq" : [ 1 ],
 						"high_duty_cycle" : [ 0.00854414525736 ],
 						"high_phase_offset" : [ 29.830962981779869 ],
-						"high_power" : [ 28.421260666574547 ],
+						"high_power" : [ -6.883244783582263 ],
 						"low_SnTrSq" : [ 0 ],
 						"low_duty_cycle" : [ 0.0 ],
 						"low_floor" : [ 0.0 ],
 						"low_phase_offset" : [ 43.307086614173357 ],
 						"low_power" : [ 11.279602505303814 ],
 						"main_invert" : [ 0.0 ],
-						"number" : [ 5 ],
+						"number" : [ 9 ],
 						"number[1]" : [ 60 ],
 						"number[2]" : [ 0 ],
-						"slider[1]" : [ 0.114561799891841 ],
-						"slider[2]" : [ 0.263955368379657 ],
+						"number[3]" : [ 0.002 ],
+						"slider[1]" : [ 0.05 ],
+						"slider[2]" : [ 0.1 ],
 						"toggle" : [ 1 ],
 						"toggle[1]" : [ 0 ],
 						"toggle[2]" : [ 1 ],
 						"toggle[3]" : [ 0 ],
-						"toggle[4]" : [ 0 ],
+						"toggle[4]" : [ 1 ],
 						"toggle[5]" : [ 1 ],
-						"toggle[6]" : [ 1 ],
+						"toggle[6]" : [ 0 ],
 						"toggle[7]" : [ 1 ],
 						"toggle[8]" : [ 1 ],
-						"toggle[9]" : [ 1 ],
+						"toggle[9]" : [ 0 ],
 						"umenu[1]" : [ 0 ],
 						"vst~" : [ 							{
 								"filetype" : "C74Snapshot",
@@ -10751,7 +10956,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "2661.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQffu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM2fSLvPSN2HCNyjCKMn.HfHhbgQWYeMGcgIGceUFdvIhNf.iKyTSNyHSNwXCMvHCNwXyM2vRCJ.BHhHWXzU1Wk4FYeUFdvIhNf.iK3fCN3XCN0DCL2HyLwDCMrzfBf.hHxEFck8EZuQ2WycWZzMFZhnCHv3BL3PyL3LSM1jiM0bCNvHSM3vRCJ.BHh.Ga0cVZt8kbgQWYegFcyc2WxUFauEFYhnCHv3hM2DyL0fCLzfSNwTCN1LCKMn.HfHBajUFbhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHBajUFbeMGcgIGceUFdvIhNf.iK2.yLzPSM2LiL0jyL0LiMzvRCJ.BHhvFYkA2Wk4FYeUFdvIhNf.iKwLiLxbCLxbiM0PiMzbCNyvRCJ.BHhvFYkA2Wn8FceM2coQ2XnIhNf.iK2.yLzbiMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EajUFbegFcyc2WxUFauEFYhnCH2.iKyPCM0byL4bCM1.SNyfCKMn.HfHxXjUFbhnCHzLiK2fyLz.SLzfSNxTyM3DCKMn.HfHhbjUFbhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHhbjUFbeMGcgIGceUFdvIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHhHGYkA2Wk4FYeUFdvIhNf.iKyHSMzfiL1LiM1jCLwLSN3vRCJ.BHhHGYkA2Wn8FceM2coQ2XnIhNf.iK1DyMxbSLzfiL4PCMzfCN0vRCJ.BHh.Ga0cVZt8kbjUFbegFcyc2WxUFauEFYhnCH1DiK2HyMwPiMwPCN1fSL1PCKMn.HfHBYsklahnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHBYsklaeMGcgIGceUFdvIhNf.iKxDSLyfCNvfSLyDiLwbSN1vRCJ.BHhPVao41Wk4FYeUFdvIhNf.iK3.SNwbCLy.SM2HCN4DiLzvRCJ.BHhPVao41Wn8FceM2coQ2XnIhNf.iKzPSN2DSNw.SLwjCL0XyMrzfBf.hHvwVcmklaeQVao41WnQ2b28kbkw1agQlH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhTla1ImH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhTla1I2WyQWXxQ2WkgGbhnCHv3xL2LSMxbyL2bCNzLCN0XCNrzfBf.hHk4lcx8UYtQ1WkgGbhnCHv3BMvbiM4PCLzDyMxfSN2LCMrzfBf.hHk4lcx8EZuQ2WycWZzMFZhnCHv3hLwfSNvTCM4LiMwbCL0bCNrzfBf.hHvwVcmklaeUla1I2WnQ2b28kbkw1agQlH5.xM03BL2jCLvHyL3.yL2DCL4vRCJ.BHhPFcsgmH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFcsg2WyQWXxQ2WkgGbhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHjQWa38UYtQ1WkgGbhnCHv3hL2LSLxPyL4XCNv.SN4PSNrzfBf.hHjQWa38EZuQ2WycWZzMFZhnCHv3xL4.SN2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaeQFcsg2WnQ2b28kbkw1agQlH5.xL43BL4biMxjSMzbSLwjSLzvRCJ.BHhPFYkAmH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHhPFYkA2WyQWXxQ2WkgGbhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHjQVYv8UYtQ1WkgGbhnCHv3hM2jiLxDiMy.CL4XCMyTSMrzfBf.hHjQVYv8EZuQ2WycWZzMFZhnCHv3xLzbyLxPCLzLSMwHyLzPCMrzfBf.hHvwVcmklaeQFYkA2WnQ2b28kbkw1agQlH5.hLxHiKxfyMyfCMvLyLx.yLwvRCJ.BHh.Ga0cVZt8UYtYWYhnCHv3BLrzfBf.hHk4lckIhNfHyM13BL2jCLw.CLvjyM1TiMrzfBf.hHz8lakIhNfzBLt.CLxjyMw.yL3XCN2jyMzHSL0vRCJ.BHhP2atU1Wn8FceM2coQ2XnIhNf.iKwPCLwfiLvbyM3fCM1bCMwvRCJ.BHh.Ga0cVZt8Ecu4VYegFcyc2WxUFauEFYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHo41bzIhNfHiKvvRCJ.BHhL2cxwlH5.BLt.CKMn.HfHBbrU2Yo41WowVY1IhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklae8Vcz8EakYWYrIhNfHiK3PSN3PyMvbCNyHyLyXCMk0hMrzfBf.hHvwVcmklaeE1XzYmH5.RLt.CKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3BLrzfBf.hHvwVcmklaeg1azMmH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCH4.iKvvRCJ.BHhPWavYmH5.RNv3BLrzfBf.hHxQmbmIhNf.iKvvRCJ.BHh.mbkklH5.hM4vRCJ.BHh.mbk4lH5.hHz81ahElHMnPePA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBT........HP..........fA..................nPE"
+									"blob" : "2660.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQfPu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHi0VZ3IhNfbSLtjSL2XSL2bSN2fSMwTiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3xMwjSL2XSL2LiLw.SLzPCKMn.HfHBbrU2Yo41Wi0VZ38UYtQ1WkgGbhnCHw3BLrzfBf.hHigVajIhNf.iKvvRCJ.BHhHWXzUlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhHWXzU1WyQWXxQ2WkgGbhnCHv3xL0jyLxjSL1PCLxfSL1byMrzfBf.hHxEFck8UYtQ1WkgGbhnCHv3BN3fCN1fSMw.yMxLSLwPCKMn.HfHhbgQWYeg1az80b2kFciglH5.BLt.CNzLCNyTiM4XSM2fCLxTCNrzfBf.hHvwVcmklaeIWXzU1WnQ2b28kbkw1agQlH5.BLtXyMwLSM3.CM3jSL0fiMyvRCJ.BHhvFYkAmH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhvFYkA2WyQWXxQ2WkgGbhnCHv3xMvLCMzTyMyHSM4LSMyXCMrzfBf.hHrQVYv8UYtQ1WkgGbhnCHv3RLyHiL2.iL2XSMzXCM2fyLrzfBf.hHrQVYv8EZuQ2WycWZzMFZhnCHv3xMvLCM2XyLvjyM2XyLvXiLrzfBf.hHvwVcmklaewFYkA2WnQ2b28kbkw1agQlH5.xMv3xLzPSM2LSN2PiMvjyL3vRCJ.BHhLFYkAmH5.BMy3xM3LCMvDCM3jiL0bCNwvRCJ.BHhHGYkAmH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhHGYkA2WyQWXxQ2WkgGbhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHxQVYv8UYtQ1WkgGbhnCHv3xLxTCM3HiMyXiM4.SLyjCNrzfBf.hHxQVYv8EZuQ2WycWZzMFZhnCHv3hMwbiL2DCM3HSNzPCM3fSMrzfBf.hHvwVcmklaeIGYkA2WnQ2b28kbkw1agQlH5.hMw3xMxbSLzXSLzfiM3DiMzvRCJ.BHhPVao4lH5.RLtPSM3TCMxDCL3TyL0biM2vRCJ.BHhPVao41WyQWXxQ2WkgGbhnCHv3hLwDyL3fCL3DyLwHSL2jiMrzfBf.hHj0VZt8UYtQ1WkgGbhnCHv3BNvjSL2.yLvTyMxfSNwHCMrzfBf.hHj0VZt8EZuQ2WycWZzMFZhnCHv3BMzjyMwjSLvDSL4.SM1bCKMn.HfHBbrU2Yo41Wj0VZt8EZzM2ceIWYr8VXjIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHk4lcxIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHk4lcx80bzElbz8UY3AmH5.BLtLyMyTiL2LyM2fCMyfSM1fCKMn.HfHRYtYmbeUlaj8UY3AmH5.BLtPCL2XSNz.CMwbiL3jyMyPCKMn.HfHRYtYmbeg1az80b2kFciglH5.BLtHSL3jCL0PSNyXSL2.SM2fCKMn.HfHBbrU2Yo41Wk4lcx8EZzM2ceIWYr8VXjIhNfbSMt.yM4.CLxLCNvLyMw.SNrzfBf.hHjQWa3IhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQWa380bzElbz8UY3AmH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBYz0FdeUlaj8UY3AmH5.BLtHyMyDiLzLSN1fCLvjSNzjCKMn.HfHBYz0Fdeg1az80b2kFciglH5.BLtLSNvjyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WjQWa38EZzM2ceIWYr8VXjIhNfLSNt.SN2XiL4TCM2DSL4DCMrzfBf.hHjQVYvIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHjQVYv80bzElbz8UY3AmH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBYjUFbeUlaj8UY3AmH5.BLtXyM4HiLwXyLv.SN1PyL0TCKMn.HfHBYjUFbeg1az80b2kFciglH5.BLtLCM2LiLz.CMyTSLxLCMzPCKMn.HfHBbrU2Yo41WjQVYv8EZzM2ceIWYr8VXjIhNfHiLx3hL3byL3PCLyLiLvLSLrzfBf.hHvwVcmklaeUla1UlH5.BLt.CKMn.HfHRYtYWYhnCHxbiMt.yM4.SLv.CL4biM0XCKMn.HfHBcu4VYhnCHs.iKv.iL4bSLvLCN1fyM4bCMxDSMrzfBf.hHz8lak8EZuQ2WycWZzMFZhnCHv3RLz.SL3HCL2bCN3PiM2PSLrzfBf.hHvwVcmklaeQ2atU1WnQ2b28kbkw1agQlH5.RKv3BLvHSN2DCLyfiM3bSN2PiLwTCKMn.HfHRZtMGchnCHx3BLrzfBf.hHycmbrIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RNv3BLrzfBf.hHz0Fb1IhNfjCLt.CKMn.HfHhbzI2YhnCHv3BLrzfBf.hHvIWYoIhNfXSNrzfBf.hHvIWYtIhNfHBcu8lXgIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.JAzR.uDPLAPS.1D.OA7S.FEvRAzT.RovD........BD..........X...................JPA"
 								}
 
 							}
@@ -10905,7 +11110,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
+									"blob" : "1391.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAm..............fD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRzzXxAED.HQX00lYOEw.nuWCJ.BHhDFam8lboQGZs8kag0VYhnCHhzTZiI2aPkFciglHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKsk1Xx8FboQ2XnIBKMn.HfHhckI2bo8lahnCHhHiHrzfBf.hHs0VZ3IhNfPSNtjiL4HyM0TSLxXSN0LSLrzfBf.hHv0VZ3IhNfTCLt.CKMn.HfHBbigVXhnCH33hM2TyLwHSN4TSNw.iMzTCKMn.HfHBbiglXhnCH33xM3jiM3bSL0XiM2biLzXCKMn.HfHBYrkWXhnCHw3hL2TCL0TCMvfCM2byM3LCKMn.HfHBYrkmXhnCHx3RN1biL2biL3fCMyXCN4vRCJ.BHhPFa4I1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHjwVdh8UYtQ1WkgGbhnCHv3BLxXCMzjCLzfCN4DiM1LSM0vRCJ.BHhzFYvQmH5.RLx3BLxbyLzHyM4XyLxTiM3vRCJ.BHhzlbgQmH5.BMz3BNzLyM0vRCJ.BHhXFYhslH5.BLt.CKMn.HfHBcu4VYhnCHs.iKzfSM1HiL3fiL3PyLvDyM1vRCJ.BHh.Ga0cVZt8UarM1ZhnCHw3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.2ZtIlH5.BLt.CKMn.HfHBbrU2Yo41WzUVav81WyU1byk1at80b441XhnCHlEFayUFKMn.HfHBcykmahnCHlEFayUFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHBbxUVZhnCH2LCKMn.HfHBbxUlahnCHhP2auIVXhzfB8A.........................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.BAzP.ODPDAPQ.VD.GA7Q.lDvJAzR.xTfG........BD..........X...................E7A"
 								}
 
 							}
@@ -10927,7 +11132,7 @@
 									"version" : 1,
 									"isbank" : 0,
 									"isbase64" : 1,
-									"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13hL2jiMz.SL4byM0LSNwvRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMzjCLwjCM0TSNvjyMxjCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0PSNvDSNzTSM4.SN2HSNrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
+									"blob" : "1516.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDDzvdMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwLiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLwTiK1.CL2fCMy.SL2TyM3vRCJ.BHhLWZ5UlH5.hM13RL3XyM4.CM1XyLvfSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsPSNtjCLw.CMxjyL3HyLxPiLrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfHiK4DyL0XCNvDSN3XiM4PyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLz.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtbSMxjCMwDSNwDSN1PCMwbCKMn.HfHRag4VcgwFUk0FbuYUXrUWYhnCHwHCLt.CKMn.HfHhboIlXLIiH5.BLtLSLwbiM3HSNyLCNvbyL2LCKMn.HfHhboIlXRIiH5.BLtXyM1.SMwXSL1XiM3bCLwHCKMn.HfHBZuQ2b2giH5.RLt.CKMn.HfHBZuQ2b28lYlgiH5.BLtHiMzfiM4fCL4DSMvXSN0fCKMn.HfHRY3AmbkM2bo8laeAWYjEFahnCHv3xM0HSNzDSL4DSL4XCMzDyMrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHv3xM2fCN1bCL1TSNvXSMxPyMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKzjiK4.SLvPiL4LCNxLiLzHCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHxjiKwLSM1fSLwTiLyPyL2TCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhErI.......f.A..........F..................PAbB"
 								}
 
 							}
@@ -13615,14 +13820,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-341", 0 ],
+					"destination" : [ "obj-333", 0 ],
+					"order" : 0,
 					"source" : [ "obj-110", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-462", 0 ],
+					"destination" : [ "obj-341", 0 ],
+					"midpoints" : [ 1364.757879064660756, 1153.0, 1230.0, 1153.0, 1230.0, 2207.0, 779.286665673255811, 2207.0 ],
+					"order" : 2,
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-455", 0 ],
+					"order" : 1,
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-432", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -13694,23 +13917,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-191", 1 ],
-					"order" : 2,
-					"source" : [ "obj-120", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-309", 0 ],
-					"order" : 1,
-					"source" : [ "obj-120", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-320", 0 ],
-					"order" : 0,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -14372,6 +14578,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-119", 1 ],
+					"order" : 2,
 					"source" : [ "obj-191", 1 ]
 				}
 
@@ -14379,6 +14586,39 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
+					"order" : 2,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-304", 0 ],
+					"order" : 1,
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-309", 0 ],
+					"order" : 1,
+					"source" : [ "obj-191", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"order" : 0,
+					"source" : [ "obj-191", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"order" : 0,
 					"source" : [ "obj-191", 0 ]
 				}
 
@@ -14876,6 +15116,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-401", 0 ],
+					"source" : [ "obj-247", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-180", 0 ],
 					"source" : [ "obj-248", 0 ]
 				}
@@ -14892,6 +15139,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-246", 1 ],
 					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-385", 0 ],
+					"source" : [ "obj-250", 0 ]
 				}
 
 			}
@@ -15448,7 +15702,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
+					"destination" : [ "obj-435", 0 ],
+					"order" : 1,
+					"source" : [ "obj-312", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-440", 0 ],
+					"order" : 0,
 					"source" : [ "obj-312", 0 ]
 				}
 
@@ -15657,6 +15920,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-312", 1 ],
+					"source" : [ "obj-333", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-312", 0 ],
 					"source" : [ "obj-333", 0 ]
 				}
 
@@ -15692,14 +15962,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-304", 1 ],
-					"order" : 3,
-					"source" : [ "obj-341", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-309", 1 ],
 					"order" : 1,
 					"source" : [ "obj-341", 0 ]
 				}
@@ -15707,15 +15969,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-313", 1 ],
-					"order" : 2,
-					"source" : [ "obj-341", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-314", 1 ],
+					"destination" : [ "obj-309", 1 ],
 					"order" : 0,
 					"source" : [ "obj-341", 0 ]
 				}
@@ -15851,6 +16105,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-377", 0 ],
 					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-247", 0 ],
+					"order" : 0,
+					"source" : [ "obj-355", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-391", 2 ],
+					"order" : 1,
+					"source" : [ "obj-355", 0 ]
 				}
 
 			}
@@ -16055,6 +16325,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-355", 0 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-186", 0 ],
 					"source" : [ "obj-380", 0 ]
 				}
@@ -16078,13 +16364,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-379", 0 ],
 					"source" : [ "obj-384", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-391", 1 ],
-					"source" : [ "obj-385", 0 ]
 				}
 
 			}
@@ -16150,6 +16429,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-250", 0 ],
+					"order" : 0,
+					"source" : [ "obj-392", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-391", 1 ],
+					"order" : 1,
+					"source" : [ "obj-392", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-395", 0 ],
 					"order" : 0,
 					"source" : [ "obj-393", 0 ]
@@ -16188,7 +16483,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-401", 0 ],
-					"midpoints" : [ -139.02973316567477, 948.960951413453586, -33.02973316567477, 948.960951413453586 ],
+					"midpoints" : [ -139.02973316567477, 948.960951413453586, 79.97026683432523, 948.960951413453586 ],
 					"source" : [ "obj-397", 0 ]
 				}
 
@@ -16256,13 +16551,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-391", 2 ],
-					"source" : [ "obj-401", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-405", 0 ],
 					"source" : [ "obj-403", 0 ]
 				}
@@ -16287,6 +16575,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-222", 0 ],
+					"order" : 1,
+					"source" : [ "obj-406", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"order" : 0,
 					"source" : [ "obj-406", 0 ]
 				}
 
@@ -16528,7 +16825,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-312", 0 ],
+					"destination" : [ "obj-128", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
@@ -16588,6 +16885,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-313", 1 ],
+					"order" : 1,
+					"source" : [ "obj-437", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-314", 1 ],
+					"order" : 0,
+					"source" : [ "obj-437", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-438", 0 ]
 				}
@@ -16604,6 +16917,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-462", 0 ],
+					"order" : 1,
+					"source" : [ "obj-440", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-466", 0 ],
+					"order" : 0,
+					"source" : [ "obj-440", 0 ]
 				}
 
 			}
@@ -16641,6 +16970,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-446", 0 ],
 					"source" : [ "obj-447", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-437", 0 ],
+					"midpoints" : [ 1364.757879064660756, 1900.0, 991.0, 1900.0, 991.0, 2296.0, 899.286665673255811, 2296.0 ],
+					"source" : [ "obj-448", 0 ]
 				}
 
 			}
@@ -16722,6 +17059,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-457", 0 ],
+					"source" : [ "obj-455", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-459", 0 ],
+					"source" : [ "obj-455", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-462", 1 ],
+					"source" : [ "obj-456", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-466", 1 ],
+					"source" : [ "obj-457", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-453", 1 ],
 					"order" : 0,
 					"source" : [ "obj-458", 0 ]
@@ -16738,8 +17103,22 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-432", 0 ],
+					"destination" : [ "obj-456", 0 ],
+					"source" : [ "obj-459", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-448", 0 ],
 					"source" : [ "obj-462", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-448", 0 ],
+					"source" : [ "obj-466", 0 ]
 				}
 
 			}
@@ -16955,24 +17334,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-392", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-191", 0 ],
-					"order" : 2,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-304", 0 ],
-					"order" : 1,
-					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-321", 0 ],
-					"order" : 0,
 					"source" : [ "obj-64", 0 ]
 				}
 
@@ -17328,6 +17697,7 @@
 			"obj-401" : [ "peakdetect", "peakdetect", 0 ],
 			"obj-436" : [ "toggle[9]", "toggle[9]", 0 ],
 			"obj-447" : [ "umenu[1]", "umenu[1]", 0 ],
+			"obj-451" : [ "number[3]", "number[3]", 0 ],
 			"obj-48" : [ "attrui", "attrui", 0 ],
 			"obj-54" : [ "vst~[9]", "vst~[9]", 0 ],
 			"obj-58" : [ "vst~[10]", "vst~[9]", 0 ],
