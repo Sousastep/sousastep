@@ -1,14 +1,6 @@
-nublu 1
-colorful shader
-four rings
-single ring
-four cubes
-strobes
-SoShiny
-noisycircle
-Julia
-Julia2
-Julia3
-notsosimple circle
-cube gif five
-cube gif four
+initialize off
+init single
+init multiple
+init shader
+init fractal
+init text
