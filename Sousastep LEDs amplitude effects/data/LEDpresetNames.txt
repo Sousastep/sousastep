@@ -4,3 +4,4 @@ init multiple
 init shader
 init fractal
 init text
+mult with shade
