@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 362.0, 325.0, 877.0, 318.0 ],
+		"rect" : [ 581.0, 577.0, 859.0, 323.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1270,7 +1270,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1831.883300000001327, -332.5, 35.0, 22.0 ],
+					"patching_rect" : [ 1812.5, -325.0, 35.0, 22.0 ],
 					"text" : "s RD"
 				}
 
@@ -1281,7 +1281,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1788.10156200000165, -332.5, 35.0, 22.0 ],
+					"patching_rect" : [ 1768.718262000000323, -325.0, 35.0, 22.0 ],
 					"text" : "s RU"
 				}
 
@@ -1491,7 +1491,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1771.10156200000165, -364.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1751.718262000000323, -356.5, 61.0, 22.0 ],
 					"text" : "deadzone"
 				}
 
@@ -3905,7 +3905,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 20.0,
 					"id" : "obj-45",
-					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "Antlion Wireless Microphone", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
+					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5081,6 +5081,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-226", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-145", 0 ],
 					"source" : [ "obj-227", 2 ]
 				}
@@ -5424,18 +5431,18 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-211", 0 ],
-					"midpoints" : [ 1146.803125199999613, -480.0, 1760.60156200000165, -480.0 ],
-					"source" : [ "obj-315", 17 ]
+					"destination" : [ "obj-225", 0 ],
+					"midpoints" : [ 1085.513671999999815, -480.0, 1509.566406000001734, -480.0 ],
+					"source" : [ "obj-315", 15 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-225", 0 ],
-					"midpoints" : [ 1085.513671999999815, -480.0, 1509.566406000001734, -480.0 ],
-					"source" : [ "obj-315", 15 ]
+					"destination" : [ "obj-226", 0 ],
+					"midpoints" : [ 1146.803125199999613, -480.0, 1761.218262000000323, -480.0 ],
+					"source" : [ "obj-315", 17 ]
 				}
 
 			}
