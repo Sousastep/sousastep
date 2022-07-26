@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -220.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ -220.0, -993.0, 1587.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -177,7 +177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 711.46237449467958, 836.31664042813486, 77.0, 22.0 ],
+					"patching_rect" : [ 628.46237449467958, 851.31664042813486, 77.0, 22.0 ],
 					"text" : "scale 0 1 1 0"
 				}
 
@@ -449,7 +449,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 439.872288091976998, 312.103628734563699, 80.0, 22.0 ],
+					"patching_rect" : [ 439.872288091976998, 316.282224861980012, 80.0, 22.0 ],
 					"text" : "slide 480 480"
 				}
 
@@ -1627,7 +1627,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
+					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -2068,7 +2068,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-19", 1 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -2368,16 +2368,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"order" : 5,
+					"destination" : [ "obj-15", 0 ],
+					"order" : 6,
 					"source" : [ "obj-83", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"order" : 6,
+					"destination" : [ "obj-16", 0 ],
+					"order" : 5,
 					"source" : [ "obj-83", 0 ]
 				}
 
@@ -2442,7 +2442,6 @@
 
 			}
  ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
