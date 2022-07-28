@@ -12,6 +12,8 @@ MADI slot 3
 Algorithm IDs
 -------------
 
+"dtonicii pitch correct" ID 10115
+
 "Sousastep 14" ID 10114
 "XII channel strip noX" ID 10108
 "Chorusdelaysends" ID 10101
