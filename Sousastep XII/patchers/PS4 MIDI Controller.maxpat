@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 561.0, 578.0, 879.0, 322.0 ],
+		"rect" : [ 725.0, 684.0, 676.0, 192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,54 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-92",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2080.28814320019319, 857.0, 47.0, 22.0 ],
+					"text" : "qlim 17"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2023.321440540468757, 857.0, 47.0, 22.0 ],
+					"text" : "qlim 17"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1968.0, 857.0, 47.0, 22.0 ],
+					"text" : "qlim 17"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1910.678666157639782, 857.0, 47.0, 22.0 ],
+					"text" : "qlim 17"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-131",
 					"maxclass" : "newobj",
@@ -617,271 +665,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 248.000003695487976, 431.200006425380707, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-265",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3046.0, -215.200000882148743, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-58",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2924.0, -274.600005388259888, 29.0, 22.0 ],
-					"text" : "r L3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-71",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2962.0, -274.600005388259888, 31.0, 22.0 ],
-					"text" : "r R3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-79",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2023.75954197720921, -297.200002372264862, 31.0, 22.0 ],
-					"text" : "r LH"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2421.859537888330578, -297.200002372264862, 30.0, 22.0 ],
-					"text" : "r LV"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-95",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2484.308031764257066, -297.200002372264862, 33.0, 22.0 ],
-					"text" : "r RH"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-97",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2882.408027675378435, -297.200002372264862, 32.0, 22.0 ],
-					"text" : "r RV"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 20.0,
-					"id" : "obj-268",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2844.009302350452799, -251.73333466053009, 37.0, 30.0 ],
-					"text" : "RV",
-					"textcolor" : [ 0.894117647058824, 0.886274509803922, 0.996078431372549, 0.88 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 20.0,
-					"id" : "obj-100",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2504.592717017118957, -251.73333466053009, 38.0, 30.0 ],
-					"text" : "RH",
-					"textcolor" : [ 0.894117647058824, 0.886274509803922, 0.996078431372549, 0.88 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 20.0,
-					"id" : "obj-118",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2407.083460618882782, -251.73333466053009, 34.0, 30.0 ],
-					"text" : "LV",
-					"textcolor" : [ 0.894117647058824, 0.886274509803922, 0.996078431372549, 0.88 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 20.0,
-					"id" : "obj-119",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2063.53716432258625, -251.73333466053009, 32.0, 30.0 ],
-					"text" : "LH",
-					"textcolor" : [ 0.894117647058824, 0.886274509803922, 0.996078431372549, 0.88 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-516",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "PlayStation_joystick_horizontal_and_vertical_offsets.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 2484.308031764257066, -215.200000882148743, 417.099995911121368, 246.400001764297485 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 438.308031764257066, 194.799999117851257, 417.099995911121368, 109.400001764297485 ],
-					"varname" : "PlayStation_joystick_horizontal_and_vertical_offsets[1]",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-515",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "PlayStation_joystick_horizontal_and_vertical_offsets.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 2023.75954197720921, -215.200000882148743, 417.099995911121368, 246.400001764297485 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 24.208035853135698, 194.799999117851257, 412.099995911121368, 109.400001764297485 ],
-					"varname" : "PlayStation_joystick_horizontal_and_vertical_offsets",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-466",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2222.809539932769894, -264.600005388259888, 46.0, 22.0 ],
-					"text" : "r share"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-123",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2023.75954197720921, 44.799997627735138, 40.0, 22.0 ],
-					"text" : "s LH2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-124",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2421.859537888330578, 44.799997627735138, 38.0, 22.0 ],
-					"text" : "s LV2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-144",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2484.308031764257066, 44.799997627735138, 42.0, 22.0 ],
-					"text" : "s RH2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
-					"id" : "obj-153",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2882.408027675378435, 44.799997627735138, 41.0, 22.0 ],
-					"text" : "s RV2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-154",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2287.931680348312966, -339.266670167446136, 153.0, 74.0 ],
-					"text" : "If the Smoothr display moves while the joystick is not moving then the deadzones are not set properly."
 				}
 
 			}
@@ -1532,8 +1315,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.277344000000085, -462.0, 375.802734000000783, 35.0 ],
-					"text" : "macOS Big Sur PS4 Controller",
+					"patching_rect" : [ 634.277344000000085, -462.0, 415.000000000000909, 35.0 ],
+					"text" : "macOS Big Sur / Monterey PS4 'roller",
 					"textcolor" : [ 0.015686274509804, 0.0, 0.792156862745098, 1.0 ]
 				}
 
@@ -3892,7 +3675,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 20.0,
 					"id" : "obj-45",
-					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
+					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Headset", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5612,7 +5395,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 1 ],
+					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -5924,7 +5707,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-315", 0 ],
-					"midpoints" : [ 332.832161047684792, 784.0, 479.170816500000797, 784.0, 479.170816500000797, -434.0, 625.842773000001216, -434.0 ],
+					"midpoints" : [ 332.832161047684792, 937.0, 479.170816500000797, 937.0, 479.170816500000797, -434.0, 625.842773000001216, -434.0 ],
 					"source" : [ "obj-394", 3 ]
 				}
 
@@ -5974,7 +5757,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
+					"destination" : [ "obj-79", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -6212,43 +5995,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-515", 1 ],
-					"source" : [ "obj-466", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-48", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-123", 0 ],
-					"source" : [ "obj-515", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-124", 0 ],
-					"source" : [ "obj-515", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-144", 0 ],
-					"source" : [ "obj-516", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
-					"source" : [ "obj-516", 1 ]
 				}
 
 			}
@@ -6317,14 +6065,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-515", 1 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -6381,16 +6129,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-265", 0 ],
-					"order" : 0,
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-516", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-34", 1 ],
 					"source" : [ "obj-71", 0 ]
 				}
 
@@ -6446,7 +6185,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-515", 0 ],
+					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -6601,15 +6340,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-515", 2 ],
+					"destination" : [ "obj-59", 1 ],
 					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-516", 0 ],
-					"source" : [ "obj-95", 0 ]
 				}
 
 			}
@@ -6617,13 +6349,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-516", 2 ],
-					"source" : [ "obj-97", 0 ]
 				}
 
 			}
@@ -6639,20 +6364,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "PlayStation_joystick_horizontal_and_vertical_offsets.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "PlayStation_joystick_offsetter.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "deadzone.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep XII/patchers",
 				"patcherrelativepath" : ".",
