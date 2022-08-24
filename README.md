@@ -1,5 +1,7 @@
 This repository is highly specialized, but there are many useful bits that you may want to extract for your own purposes.
 
+To learn more about the history of this project, [click here.](https://www.sousastep.com/sousastep)
+
 "Sousastep XII" is a Max project for audio effects manipulated by a game controller that's attached to a tuba. It mostly uses Eventide, Arturia, and NeuralDSP plugins, but it also includes a custom LFO and dubstep effect, implemented mostly in gen\~, that relies on Surreal Machine's ladder filter emulation.
 
 ![Sousastep XII.maxproj](__audio.jpg)
@@ -12,4 +14,4 @@ This repository is highly specialized, but there are many useful bits that you m
 
 "H9000 Session" backs up data from the Eventide H9000, which is an optional addition to "Sousastep XII", currently mainly used for auto-pitch correction.
 
-"Audio Interface Configs" backs up routings from the RME MADIface Pro and the Eventide H9000 Dante expansion card.
+"Audio Interface Configs" backs up routings from the [RME MADIface Pro](https://rme-audio.de/madiface-pro.html) and the [Eventide H9000 Dante expansion card](https://cdn.eventideaudio.com/manuals/h9000/2.0/content/expansions/dante.html).
