@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Fortin Nameless Suite",
+	"origin" : "Fortin Nameless Suite.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "Fortin Nameless Suite.auinfo",
+		"plugindisplayname" : "Fortin Nameless Suite",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1179536467,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "2583.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIgSDMETOEQ.LA..............n.P.lhzO.....3hAe+CP.D..4riD9L6Lz.vV1W6O.B..C38zP5yryPSAYShj+3AtRUP1jL4O.B..FrrPkB.....Jw5Mp.....vxB8MvO.B..uDsK7C....vLmy499fSTrqCov.vO.B..7X1xE3ihlheO+iGE+.H..7SipH1O.....MnzKA....PPNgxd.....XjDjb9O.B..H8EOVC.....SnY.U+....vjaTF4O....NY8X8+iKAVqSn+Y.+.H..H0kfY7O.B..RAp9T+CSL2LUUr7s.....PkHkpzO.B..TQJ969Cf..PVoc6I+....jkbdAL.....b8Hc28Cf..PatZBJ+....zlsMG7O....tQnw48Cf..vaNAzI+.H..zGn2CxOLwby+U0y+9CSL27eryH2+....7m9j10O....RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRXjSLMED.HQX00lYOEwAe6VY0IWXrQ1bv8kYuIGco41WtEVakwVYyMG.AbPb0EFaoQWd.DPAA.....vbzUlbk81Ws8lauAP.EDP.....rk1YnQG.Aj.A........v+CbxU1bkQmSg0VYPI2avAP.GT.cu8lXgA.bxU1bkQGTgQGZPI2avAP.HUvKLklXxElb48RP0QVZu8BTxU1bkQ2bu3TY0IWXrABQSA0KF8lbzklaf3TXsUFakM2bfLUcoQWYuT0bkI2Kz81ahElK30Fa..mbkMWYzUURDAkbuAG.AjfAqpMxsNHGAcHbxU1bkQmUkI2bo8laPI2avAP.GTvLt.iKw.P.o.UPRETS.Df.oQF.AvPAo4Fb0Q2WmEVZtAfcgwVckAP.IP.........K.C.TAIUPMAP.BjFY.DPCE7VczAWcz80Ygkla.XWXrUWY.DPBD........vBv..UPRETS.Df.oQF.AjPAx8VczklamAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DfCE7lckI2bg0FbrklamAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPBELFZg4lakwF.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.VT.bkQVXr80bkMFco8laeIVdvE1byAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.D.DEH1auMGckI2WhkGbgM2b.XWXrUWY.DPBD.............UPRETS.Df.oQF.AjPAh81ayQWYxAfcgwVckAP.IP.....X5lD3+..TAIUPMAP.BjFY.DPCEnWc0w1WhkGbgM2b.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.AXPA5UWcrAfcgwVckAP.IP......7mZz+..TAIUPMAP.BjFY.DvBEP2beIVdvE1byAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPBEP2bDIWZ1UF.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.HT.cyQ0atUF.1EFa0UF.Aj.A....fvJGR+C.PEjTA0D.AHPZjAP.JT.cyY0arUWakAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPCEfVYgQ1WhkGbgM2b.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.AbPAmEVZtEC.1EFa0UF.Aj.A....ftdTX+C.PEjTA0D.AHPZjAP.GTvYgklax.fcgwVckAP.IP.....PJb83+..TAIUPMAP.BjFY.D.BEPmbkIFakAfcgwVckAP.IP.....HWOJv+..TAIUPMAP.BjFY.DPAEzVZjAfcgwVckAP.IP.....30iB4+..TAIUPMAP.BjFY.DfAEHVXyMG.1EFa0UF.Aj.A.....TMdQ+C.PEjTA0D.AHPZjAP.HTPagMGckIG.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.JT.bxU1bk41XkAfcgwVckAP.IP.............TAIUPMAP.BjFY.DfCE.Wcrw1WmEVZt80atAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.D.DEvVZmgFceMGcxUlamQGZ.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.A7PAiElXykVaeIVdvE1byAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPDELVXhMWZsEyWk4VXhwVYjAfcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DfCELVXhMWZsEyWmEVZtAfcgwVckAP.IP.........F.C.TAIUPMAP.BjFY.DPDELVXhMWZsEyWsk1XggWZyAfcgwVckAP.IP.....nBWO1+..TAIUPMAP.BjFY.DPEELVXhMWZsEyWsk1Xjk1bzElaiUF.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.MTvXgI1bo0VLeAWXtAfcgwVckAP.IP.............TAIUPMAP.BjFY.DPDELVXhMWZsEyWsk1XzkGbkAfcgwVckAP.IP.............TAIUPMAP.BjFY.DfDELVXhMWZsEyWvgVXyUVZtYG.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.QTvXgI1bo0lLeUlagIFakQF.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.NTvXgI1bo0lLecVXo4F.1EFa0UF.Aj.A........X.L.PEjTA0D.AHPZjAP.QTvXgI1bo0lLe0VZiEFdoMG.1EFa0UF.Aj.A....fJb8f+C.PEjTA0D.AHPZjAP.UTvXgI1bo0lLe0VZiQVZyQWXtMVY.XWXrUWY.DPBD.............UPRETS.Df.oQF.AzPAiElXykVax7Ebg4F.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.QTvXgI1bo0lLe0VZiQWdvUF.1EFa0UF.Aj.A........T.D.PEjTA0D.AHPZjAP.RTvXgI1bo0lLeAGZgMWYo4lc.XWXrUWY.DPBD.............UPRETS.Df.oQF.ArPAt8VZyU1QgQWY.XWXrUWY.DPBD.....9n.fEv.jjTMElagcVYxkDQ....PA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.4FfuA.b.BGPwAbb.MG.zAbc.bGf2ALdBFC.......HP..........fA..................jvw"
+	}
+
+}
