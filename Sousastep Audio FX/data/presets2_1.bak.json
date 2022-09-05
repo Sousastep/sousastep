@@ -1,0 +1,183 @@
+{
+	"pattrstorage" : 	{
+		"name" : "presets2",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 800.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 2.0 ],
+					"env_inv" : [ 0 ],
+					"env_top" : [ 33.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.34015893474257, 79.218231657369458, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
+					"freq_ceiling_slide_down" : [ 4000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 38.281457891429369, 0, 0.0, 1.0, 100.0, 0, 0.2, "curve" ],
+					"freq_floor_slide_down" : [ 16000 ],
+					"freq_floor_slide_up" : [ 48 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 800.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 12.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 66.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 1.0, 100.0, 0, -0.6, "curve" ],
+					"freq_ceiling_slide_down" : [ 4000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.781502241600961, 0, 0.0, 0.209610551730608, 41.093907997486319, 0, 0.0, 1.0, 100.0, 0, -0.2, "curve" ],
+					"freq_floor_slide_down" : [ 16000 ],
+					"freq_floor_slide_up" : [ 48 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 1.0 ],
+					"Zslide_down" : [ "Zslide_down", 1500.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ -65.354330708661394 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 22.0 ],
+					"env_inv" : [ 0 ],
+					"env_top" : [ 66.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.105943048795523, 51.093730596799929, 0, 0.0, 1.0, 100.0, 0, -0.6, "curve" ],
+					"freq_ceiling_slide_down" : [ 40000 ],
+					"freq_ceiling_slide_up" : [ 100 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 32.344063223086913, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
+					"freq_floor_slide_down" : [ 40000 ],
+					"freq_floor_slide_up" : [ 480 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 1500.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 20 ],
+					"env_inv" : [ 0 ],
+					"env_top" : [ 42 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 35.136029624692249, 0, 0.0, 0.447272347297903, 79.011039063101634, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
+					"freq_ceiling_slide_down" : [ 40000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 31.054633397863473, 0, 0.0, 1.0, 100.0, 0, 0.55, "curve" ],
+					"freq_floor_slide_down" : [ 80000 ],
+					"freq_floor_slide_up" : [ 48 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+,
+			"10" : 			{
+				"id" : 10,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 1.0 ],
+					"Zslide_down" : [ "Zslide_down", 500.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ -65.354330708661394 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 11.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 55.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, -0.6, "curve" ],
+					"freq_ceiling_slide_down" : [ 4000 ],
+					"freq_ceiling_slide_up" : [ 100 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 32.344063223086913, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
+					"freq_floor_slide_down" : [ 9000 ],
+					"freq_floor_slide_up" : [ 100 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+,
+			"13" : 			{
+				"id" : 13,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 1500.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 10 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 22 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 50.510174528353595, 0, 0.0, 0.236656112680655, 86.222391513105421, 0, 0.0, 1.0, 100.0, 0, -0.895, "curve" ],
+					"freq_ceiling_slide_down" : [ 40000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 42.347382074696036, 0, 0.0, 0.402789144622196, 77.039250002740658, 0, 0.0, 1.0, 83.161344342983838, 0, -0.895, "curve" ],
+					"freq_floor_slide_down" : [ 80000 ],
+					"freq_floor_slide_up" : [ 48 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
