@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 798.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,19 +40,16 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.907481, 0.724084, 0.144178, 0.3 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontname" : "Chakra Petch",
 					"fontsize" : 36.0,
 					"id" : "obj-124",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 100.0 ],
+					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 240.508057316829081, 147.0 ],
-					"text" : "resetting hi object in 5 seconds"
+					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 240.508057316829081, 53.0 ]
 				}
 
 			}
@@ -64,7 +61,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 964.366698000002543, 790.777777777777828, 24.0, 24.0 ],
+					"patching_rect" : [ 939.416078286413267, 795.777777777777828, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 196.011984093106548, 130.777777777777828, 24.0, 24.0 ]
 				}
@@ -350,7 +347,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 574.931303540468434, 633.029634250881827, 104.0, 22.0 ],
+					"patching_rect" : [ 486.931303540468434, 620.177805505290053, 104.0, 22.0 ],
 					"text" : "s controller_found"
 				}
 
@@ -577,7 +574,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.780645725218164, 679.5, 100.0, 33.0 ],
+					"patching_rect" : [ 499.780645725218164, 666.648171254408226, 100.0, 33.0 ],
 					"text" : "bang if [sel \"_\"] not present in list"
 				}
 
@@ -746,7 +743,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 708.842431739098174, 604.0, 24.0, 24.0 ]
+					"patching_rect" : [ 611.931303540468434, 591.148171254408226, 24.0, 24.0 ]
 				}
 
 			}
@@ -828,7 +825,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 726.0, 650.0, 41.0, 22.0 ],
+					"patching_rect" : [ 638.0, 637.148171254408226, 41.0, 22.0 ],
 					"text" : "pipe 2"
 				}
 
@@ -840,7 +837,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 692.777344000000539, 650.0, 22.0, 22.0 ],
+					"patching_rect" : [ 604.777344000000539, 637.148171254408226, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -864,7 +861,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 774.612402300000213, 650.0, 35.0, 22.0 ],
+					"patching_rect" : [ 686.612402300000213, 637.148171254408226, 35.0, 22.0 ],
 					"text" : "del 5"
 				}
 
@@ -876,7 +873,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 745.0, 604.0, 22.0, 22.0 ],
+					"patching_rect" : [ 657.0, 591.148171254408226, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -888,7 +885,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 774.612402300000213, 604.0, 22.0, 22.0 ],
+					"patching_rect" : [ 686.612402300000213, 591.148171254408226, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -900,7 +897,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 692.777344000000539, 685.0, 100.835058299999673, 22.0 ],
+					"patching_rect" : [ 604.777344000000539, 672.148171254408226, 100.835058299999673, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -914,18 +911,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 939.416078286413267, 922.111111111111313, 34.0, 22.0 ],
 					"text" : "sel 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-203",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 916.416078286413267, 790.777777777777828, 24.0, 24.0 ]
 				}
 
 			}
@@ -960,7 +945,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 681.342431739098174, 560.0, 225.0, 22.0 ],
+					"patching_rect" : [ 593.342431739098174, 547.148171254408226, 225.0, 22.0 ],
 					"text" : "sel \"DUALSHOCK 4 Wireless Controller\""
 				}
 
@@ -972,7 +957,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 681.342431739098174, 512.0, 79.0, 22.0 ],
+					"patching_rect" : [ 593.342431739098174, 499.148171254408226, 79.0, 22.0 ],
 					"text" : "route append"
 				}
 
@@ -1010,8 +995,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 940.416078286413267, 1009.66666666666697, 283.0, 22.0 ],
-					"text" : "script sendbox hi replace /patchers/hi_reset.maxpat"
+					"patching_rect" : [ 940.416078286413267, 1009.66666666666697, 289.0, 22.0 ],
+					"text" : "script sendbox hi_reconnect replace hi_reset.maxpat"
 				}
 
 			}
@@ -1022,8 +1007,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.416078286413267, 1052.444444444444798, 249.0, 22.0 ],
-					"text" : "script sendbox hi replace /patchers/hi.maxpat"
+					"patching_rect" : [ 872.416078286413267, 1052.444444444444798, 331.0, 22.0 ],
+					"text" : "script sendbox hi_reconnect replace hi_set.maxpat"
 				}
 
 			}
@@ -1051,13 +1036,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "hi.maxpat",
+					"name" : "hi_set.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 482.342431739098174, 440.0, 122.0, 42.0 ],
-					"varname" : "hi",
+					"patching_rect" : [ 521.342431739098174, 414.207439756171425, 47.0, 36.0 ],
+					"varname" : "hi_reconnect",
 					"viewvisibility" : 1
 				}
 
@@ -2544,7 +2529,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.342431739098174, 356.466686654293085, 60.0, 22.0 ],
+					"patching_rect" : [ 570.342431739098174, 333.266708257934738, 60.0, 22.0 ],
 					"text" : "pak poll 2"
 				}
 
@@ -2564,7 +2549,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 20.0,
 					"id" : "obj-45",
-					"items" : [ "CalDigit Thunderbolt 3 Audio", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "Headset" ],
+					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2585,7 +2570,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 521.342431739098174, 265.45558591891745, 225.0, 22.0 ],
+					"patching_rect" : [ 570.342431739098174, 271.45558591891745, 225.0, 22.0 ],
 					"text" : "sel \"DUALSHOCK 4 Wireless Controller\""
 				}
 
@@ -3165,7 +3150,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
-					"midpoints" : [ 690.842431739098174, 596.0, 252.0, 596.0, 252.0, 13.0, 315.342431739098174, 13.0 ],
+					"midpoints" : [ 602.842431739098174, 596.0, 252.0, 596.0, 252.0, 13.0, 315.342431739098174, 13.0 ],
 					"order" : 3,
 					"source" : [ "obj-19", 0 ]
 				}
@@ -3210,23 +3195,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-128", 0 ],
-					"order" : 1,
-					"source" : [ "obj-203", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-169", 0 ],
-					"midpoints" : [ 925.916078286413267, 830.0, 903.0, 830.0, 903.0, 594.0, 1017.0, 594.0, 1017.0, 451.0, 1074.5, 451.0 ],
-					"order" : 0,
-					"source" : [ "obj-203", 0 ]
 				}
 
 			}
@@ -3363,7 +3331,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -3372,23 +3339,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-315", 0 ],
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 0,
-					"source" : [ "obj-25", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"midpoints" : [ 594.842431739098174, 493.0, 290.0, 493.0, 290.0, 155.0, 315.342431739098174, 155.0 ],
-					"order" : 2,
-					"source" : [ "obj-25", 1 ]
 				}
 
 			}
@@ -4011,7 +3961,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
+					"destination" : [ "obj-169", 0 ],
 					"order" : 0,
 					"source" : [ "obj-37", 0 ]
 				}
@@ -4020,6 +3970,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
+					"order" : 2,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
 					"order" : 1,
 					"source" : [ "obj-37", 0 ]
 				}
@@ -4034,7 +3992,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
+					"destination" : [ "obj-169", 0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -4290,14 +4257,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gamectl_bg.png",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hi.maxpat",
+				"name" : "hi_set.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

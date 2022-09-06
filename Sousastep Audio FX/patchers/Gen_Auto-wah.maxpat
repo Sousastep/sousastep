@@ -4873,6 +4873,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1866.696385666304195, 303.897406694922097, 93.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 481.696385666304195, 13.162514202421789, 93.0, 35.0 ],
 					"text" : "threshold, hysteresis",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.71 ],
 					"textjustification" : 1
@@ -4888,6 +4891,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2048.246687327946347, 559.84479758904854, 93.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 557.246687327946347, 203.84479758904854, 93.0, 21.0 ],
 					"text" : "envelope level",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.71 ],
 					"textjustification" : 1
@@ -4903,6 +4908,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2048.246687327946347, 587.02928506082344, 93.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 557.246687327946347, 231.02928506082344, 93.0, 21.0 ],
 					"text" : "retrigger status",
 					"textcolor" : [ 1.0, 1.0, 1.0, 0.71 ]
 				}
@@ -15578,13 +15585,6 @@
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hi.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{

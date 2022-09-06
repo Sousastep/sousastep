@@ -1,9 +1,9 @@
 {
-	"name" : "Gen_Auto-wah",
+	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3727803901,
-	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
+	"modificationdate" : 3745282551,
+	"viewrect" : [ 396.0, 133.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"hi_reset.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"hi_set.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -27,10 +37,6 @@
 		}
 ,
 		"data" : 		{
-
-		}
-,
-		"externals" : 		{
 
 		}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 664.0, -725.0, 640.0, 480.0 ],
+		"rect" : [ 729.0, 309.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,20 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "list", "" ],
+					"patching_rect" : [ 95.0, 129.0, 29.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 6.0, 29.5, 22.0 ],
+					"text" : "hi"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -47,23 +61,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.0, 44.000008735275287, 93.0, 22.0 ],
 					"text" : "loadmess menu"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.023529, 0.639216, 0.078431, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 11.595186999999999,
-					"id" : "obj-139",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "list", "" ],
-					"patching_rect" : [ 50.0, 115.000008735275287, 106.5, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 8.000008735275287, 106.5, 21.0 ],
-					"text" : "hi"
 				}
 
 			}
@@ -107,29 +104,29 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-139", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-139", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-139", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-139", 0 ],
-					"source" : [ "obj-16", 0 ]
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
