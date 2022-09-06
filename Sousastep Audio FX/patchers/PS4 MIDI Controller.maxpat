@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 798.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,16 +40,79 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"fontname" : "Chakra Petch",
-					"fontsize" : 36.0,
-					"id" : "obj-124",
+					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 53.0 ],
+					"patching_rect" : [ 573.469627917171238, 402.207439756171425, 169.0, 47.0 ],
+					"text" : "these [thru]s will preserve the patch cables if the bpatcher somehow gets messed up"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 521.342431739098174, 381.077830596952026, 29.0, 22.0 ],
+					"text" : "thru"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 559.342431739098174, 467.177805505289768, 29.0, 22.0 ],
+					"text" : "thru"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "list" ],
+					"patching_rect" : [ 521.342431739098174, 467.148171254408112, 29.0, 22.0 ],
+					"text" : "thru"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 859.0, 922.111111111111313, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.9557962, 0.3328192, 0.0592732, 0.78 ],
+					"fontname" : "Chakra Petch",
+					"fontsize" : 36.0,
+					"id" : "obj-124",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 240.508057316829081, 53.0 ]
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 240.508057316829081, 147.0 ],
+					"text" : "attempting to connect in 4 seconds"
 				}
 
 			}
@@ -180,8 +243,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1371.916078286413267, 734.0, 90.0, 22.0 ],
-					"text" : "scale 0 5 0 925"
+					"patching_rect" : [ 1381.916078286413267, 724.911097247355087, 90.0, 22.0 ],
+					"text" : "scale 0 5 925 0"
 				}
 
 			}
@@ -324,8 +387,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1206.916078286413267, 903.66666666666697, 220.0, 22.0 ],
-					"text" : "pak set \"resetting hi object in\" i seconds"
+					"patching_rect" : [ 1206.916078286413267, 903.66666666666697, 240.0, 22.0 ],
+					"text" : "pak set \"attempting to connect in\" i seconds"
 				}
 
 			}
@@ -347,7 +410,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 486.931303540468434, 620.177805505290053, 104.0, 22.0 ],
+					"patching_rect" : [ 487.421875000000909, 653.029634250881713, 104.0, 22.0 ],
 					"text" : "s controller_found"
 				}
 
@@ -574,7 +637,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 499.780645725218164, 666.648171254408226, 100.0, 33.0 ],
+					"patching_rect" : [ 514.63787134238919, 699.499999999999886, 100.0, 33.0 ],
 					"text" : "bang if [sel \"_\"] not present in list"
 				}
 
@@ -743,7 +806,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 611.931303540468434, 591.148171254408226, 24.0, 24.0 ]
+					"patching_rect" : [ 540.247246521204033, 627.029634250881713, 24.0, 24.0 ]
 				}
 
 			}
@@ -825,7 +888,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 638.0, 637.148171254408226, 41.0, 22.0 ],
+					"patching_rect" : [ 652.857225617171025, 669.999999999999886, 41.0, 22.0 ],
 					"text" : "pipe 2"
 				}
 
@@ -837,7 +900,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 604.777344000000539, 637.148171254408226, 22.0, 22.0 ],
+					"patching_rect" : [ 619.634569617171564, 623.999999999999886, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -861,7 +924,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 686.612402300000213, 637.148171254408226, 35.0, 22.0 ],
+					"patching_rect" : [ 701.469627917171238, 669.999999999999886, 35.0, 22.0 ],
 					"text" : "del 5"
 				}
 
@@ -873,7 +936,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 657.0, 591.148171254408226, 22.0, 22.0 ],
+					"patching_rect" : [ 671.857225617171025, 623.999999999999886, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -885,7 +948,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 686.612402300000213, 591.148171254408226, 22.0, 22.0 ],
+					"patching_rect" : [ 701.469627917171238, 623.999999999999886, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -897,7 +960,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 604.777344000000539, 672.148171254408226, 100.835058299999673, 22.0 ],
+					"patching_rect" : [ 619.634569617171564, 704.999999999999886, 100.835058299999673, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -2549,7 +2612,7 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 20.0,
 					"id" : "obj-45",
-					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "Headset" ],
+					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "BTM", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2577,6 +2640,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-208", 0 ],
 					"order" : 0,
@@ -2904,7 +2974,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-157", 0 ]
 				}
 
@@ -3127,6 +3197,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"order" : 0,
 					"source" : [ "obj-19", 1 ]
 				}
 
@@ -3136,6 +3207,14 @@
 					"destination" : [ "obj-37", 0 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"order" : 1,
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
@@ -3330,15 +3409,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-25", 1 ]
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-315", 0 ],
-					"source" : [ "obj-25", 0 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-25", 1 ]
 				}
 
 			}
@@ -4036,16 +4115,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-397", 0 ],
+					"order" : 0,
 					"source" : [ "obj-45", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-397", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-9", 0 ],
+					"order" : 1,
 					"source" : [ "obj-45", 1 ]
 				}
 
@@ -4129,6 +4208,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-315", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 1 ],
 					"source" : [ "obj-71", 0 ]
 				}
@@ -4177,6 +4263,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"order" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
@@ -4236,6 +4338,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 1 ],
 					"source" : [ "obj-92", 0 ]
 				}
@@ -4258,6 +4367,13 @@
 			}
 , 			{
 				"name" : "hi_set.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
