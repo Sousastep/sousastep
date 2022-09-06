@@ -100,19 +100,16 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.9557962, 0.3328192, 0.0592732, 0.78 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontname" : "Chakra Petch",
 					"fontsize" : 36.0,
 					"id" : "obj-124",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 100.0 ],
+					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 494.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 240.508057316829081, 147.0 ],
-					"text" : "attempting to connect in 4 seconds"
+					"presentation_rect" : [ -0.242044565307992, -1.568118704206427, 242.0, 53.0 ]
 				}
 
 			}
@@ -1058,8 +1055,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 940.416078286413267, 1009.66666666666697, 289.0, 22.0 ],
-					"text" : "script sendbox hi_reconnect replace hi_reset.maxpat"
+					"patching_rect" : [ 940.416078286413267, 1009.66666666666697, 365.0, 22.0 ],
+					"text" : "script sendbox hi_reconnect replace auto-connect_hi_reset.maxpat"
 				}
 
 			}
@@ -1070,8 +1067,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 872.416078286413267, 1052.444444444444798, 331.0, 22.0 ],
-					"text" : "script sendbox hi_reconnect replace hi_set.maxpat"
+					"patching_rect" : [ 872.416078286413267, 1052.444444444444798, 355.0, 22.0 ],
+					"text" : "script sendbox hi_reconnect replace auto-connect_hi_set.maxpat"
 				}
 
 			}
@@ -1099,7 +1096,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "hi_set.maxpat",
+					"name" : "auto-connect_hi_set.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
@@ -4359,6 +4356,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "auto-connect_hi_set.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "deadzone.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
@@ -4366,10 +4370,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hi_set.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"name" : "gamectl_bg.png",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
