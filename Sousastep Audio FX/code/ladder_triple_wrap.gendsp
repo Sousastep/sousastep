@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -201.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 87.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,48 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.325490196078431, 0.0, 0.545098039215686, 1.0 ],
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 729.0, 1834.6602800625908, 190.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "smoothed envelope / dry-wet mix",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.945098039215686, 0.917647058823529, 0.917647058823529, 1.0 ],
+					"color" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 849.0, 1810.6602800625908, 42.0, 22.0 ],
+					"text" : "out 12",
+					"textcolor" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.945098039215686, 0.917647058823529, 0.917647058823529, 1.0 ],
+					"color" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ],
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 798.333333333333258, 1810.6602800625908, 41.0, 22.0 ],
+					"text" : "out 11",
+					"textcolor" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 1.0, 1.0 ],
 					"color" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
@@ -150,8 +192,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 491.0, 1585.6602800625908, 276.0, 20.0 ],
-					"text" : "out: lo dry / hi dry / lo wet / hi wet / lo mod / hi mod",
+					"patching_rect" : [ 510.0, 1599.6602800625908, 469.0, 20.0 ],
+					"text" : "out: lo dry / hi dry / lo wet / hi wet / lo mod / hi mod / smoothed envelope / dry-wet mix",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -996,8 +1038,8 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 313.0, 1567.6602800625908, 171.0, 22.0 ],
 					"text" : "gen @file ladder_double_wrap",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1011,8 +1053,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
+					"numoutlets" : 8,
+					"outlettype" : [ "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 132.0, 1567.6602800625908, 171.0, 22.0 ],
 					"text" : "gen @file ladder_double_wrap",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1635,6 +1677,20 @@
 					"color" : [ 0.771525800228119, 0.0, 0.700036466121674, 1.0 ],
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-7", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-7", 6 ]
 				}
 
 			}
