@@ -16,78 +16,24 @@
 					"env_bottom" : [ 2.0 ],
 					"env_inv" : [ 0 ],
 					"env_top" : [ 33.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.34015893474257, 79.218231657369458, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.463534626299635, 80.433709504251411, 0, 0.5, 1.0, 100.0, 0, -0.35, "curve" ],
 					"freq_ceiling_slide_down" : [ 8000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 38.281457891429369, 0, 0.0, 1.0, 100.0, 0, 0.2, "curve" ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.714789416371787, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
 					"freq_floor_slide_down" : [ 16000 ],
 					"freq_floor_slide_up" : [ 480 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 140.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
-				}
-
-			}
-,
-			"4" : 			{
-				"id" : 4,
-				"data" : 				{
-					"Q_sense" : [ "Q_sense", 3.0 ],
-					"Zslide_down" : [ "Zslide_down", 800.0 ],
-					"aux_SnTrSq" : [ 0 ],
-					"aux_duty_cycle" : [ 0.0 ],
-					"aux_phase_offset" : [ 68.5039370078741 ],
-					"aux_power" : [ -5.511811023622144 ],
-					"aux_route_menu" : [ 0 ],
-					"aux_yaxis" : [ 0.0 ],
-					"env_bottom" : [ 12.0 ],
-					"env_inv" : [ 1 ],
-					"env_top" : [ 66.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 1.0, 100.0, 0, -0.6, "curve" ],
-					"freq_ceiling_slide_down" : [ 4000 ],
-					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.781502241600961, 0, 0.0, 0.209610551730608, 41.093907997486319, 0, 0.0, 1.0, 100.0, 0, -0.2, "curve" ],
-					"freq_floor_slide_down" : [ 16000 ],
-					"freq_floor_slide_up" : [ 48 ],
-					"low_SnTrSq" : [ 0 ],
-					"low_duty_cycle" : [ 0.0 ],
-					"low_floor" : [ 5.511811023622045 ],
-					"low_phase_offset" : [ -52.755905511810916 ],
-					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
-				}
-
-			}
-,
-			"7" : 			{
-				"id" : 7,
-				"data" : 				{
-					"Q_sense" : [ "Q_sense", 1.0 ],
-					"Zslide_down" : [ "Zslide_down", 200.0 ],
-					"aux_SnTrSq" : [ 0 ],
-					"aux_duty_cycle" : [ 0.0 ],
-					"aux_phase_offset" : [ -65.354330708661394 ],
-					"aux_power" : [ -5.511811023622144 ],
-					"aux_route_menu" : [ 0 ],
-					"aux_yaxis" : [ 0.0 ],
-					"env_bottom" : [ 22.0 ],
-					"env_inv" : [ 1 ],
-					"env_top" : [ 66.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 1.0, 100.0, 0, 0.2, "curve" ],
-					"freq_ceiling_slide_down" : [ 40000 ],
-					"freq_ceiling_slide_up" : [ 100 ],
-					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
-					"freq_floor_slide_down" : [ 40000 ],
-					"freq_floor_slide_up" : [ 480 ],
-					"low_SnTrSq" : [ 0 ],
-					"low_duty_cycle" : [ 0.0 ],
-					"low_floor" : [ 5.511811023622045 ],
-					"low_phase_offset" : [ -52.755905511810916 ],
-					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [ 						{
+					"octaver_volume" : [ -14.0 ],
+					"vst~[1]" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
@@ -108,7 +54,156 @@
 							}
 
 						}
- ]
+ ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [  ],
+					"emphasis::env_decay" : [  ],
+					"emphasis::env_emphasis" : [  ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 200.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 17.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 83.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 39.218941260115017, 0, 0.0, 0.447309550355495, 72.030859164112798, 0, 0.0, 1.0, 100.0, 0, -0.2, "curve" ],
+					"freq_ceiling_slide_down" : [ 4000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.781502241600961, 0, 0.0, 1.0, 60.468564283656434, 0, 0.6, "curve" ],
+					"freq_floor_slide_down" : [ 16000 ],
+					"freq_floor_slide_up" : [ 48 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 140.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ],
+					"octaver_volume" : [ -5.622047244094503 ],
+					"vst~[1]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "2016 Stereo Room",
+							"origin" : "2016 Stereo Room.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "2016 Stereo Room.auinfo",
+								"plugindisplayname" : "2016 Stereo Room",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 842158930,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
+							}
+
+						}
+ ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 5.939807155204931 ],
+					"emphasis::env_decay" : [ 299.809654737419351 ],
+					"emphasis::env_emphasis" : [ 5.399999999999999 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 1.0 ],
+					"Zslide_down" : [ "Zslide_down", 800.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ -65.354330708661394 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 22.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 66.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 0.425662407236214, 66.189600884644406, 0, 0.5, 1.0, 100.0, 0, -0.7, "curve" ],
+					"freq_ceiling_slide_down" : [ 40000 ],
+					"freq_ceiling_slide_up" : [ 48 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
+					"freq_floor_slide_down" : [ 40000 ],
+					"freq_floor_slide_up" : [ 480 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 142.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_power" : [ 22.303224552547903 ],
+					"octaver_volume" : [ -5.622047244094503 ],
+					"vst~[1]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "2016 Stereo Room",
+							"origin" : "2016 Stereo Room.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "2016 Stereo Room.auinfo",
+								"plugindisplayname" : "2016 Stereo Room",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 842158930,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
+							}
+
+						}
+ ],
+					"vst~[2]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "POWAIR",
+							"origin" : "POWAIR.vst3info",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "POWAIR.vst3info",
+								"plugindisplayname" : "POWAIR",
+								"pluginsavedname" : "C74_VST3:/POWAIR",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "4904.VMjLg7wD...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LiMxHiKV0zQicUPt3hKl4hKt3BTt3hKt3hKLoGVzMGQt3xLlMjQIoGTtEjKt3BRtHVci0lXtPDTtLjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtzDVsU0PIMER2omKt3hc48zLvXTXlg0UYgWSWoUczX0SnQTZKYGRBgzZzDCV0EkUZQ2XV8DZTUTUFAiPNg1Mo8jY1MDUOMVUPkTREgzYUczX0gCLYc1ZrEVYMESXyEzUYQWSWgkdqESXzgyZic1cVM1ZvjFR1MiTLYmXS0TdTkFS14xTNACQC4jdpkGSn4hPgcVSGMVYywVX0MVagUVRFI1bvjFR2gzTLQmKogjY1YEV4EkLWAyZwb0ZmcjXmQiQYsVTwbUdQcEV5UkUOgFQogjYtbEV3UjUgsVTWkEdMIyUwTEahk2ZwDFcMc0SnQTZHYlKsI1ZMcUV5QCUXMWUV8DZPISX0kjUXglKBI1ZEEiVkcVLgIWTwb0azDyU4UULXUGMFkUdvjFR4gjPHUWVWkEdYYTX0MlLW4FNFElZvjFR2gjPH8VSxbUdAcUVoEUahc1cwb0bUYzXqkzUOgFQogjYTckVS0jUXIWUV8DZ5IESn4Bdhs1cVkUZQcUVpUjZPgCRBwDZyLzSPUjZTEDLDgzaQY0SngjUjYWQwHVd3.iXxrlQik1YrgjYXcEVxU0UYgCRBwDZ2f1S23RUPIUQTMkYpYTV3fjTZQWPWMld3TzX3slUgglKnM1Y2Y0XqASZHYGR3sTN1MDUAkTUP0TPRokZvjFRogiUgYWRWkUdMckV0QSLWk2XWokdMYjVn4BZic1cVM1ZvjFR2gDdKkicCQUPIUETMEjTZoFLogTZ3XUX1kzUYkWSWoUczvVTm0jQiUWRsgjYXcEVxU0UYgCRnwjcHg2R4X2PTETRUAUSAIkVpASZHcVTGM1YMEiVn4BZic1cVM1ZvjFRx3RZHU2LC8DTEoFUAACQH8VTV8DZHcUVxUkUXkWUrgjYXcEVxU0UYgCRRwDdPk1R1gDdKkicCQUPIUETMEjTZoFLogDdUYTXqUTLhsFNUEFLMckVokjPHESQFEFLUY0SnIVZHU2LC8DTEoFUAACQH8VTV8DZHcUVxUkUXkWUwb0b3XTVqkjPHESQFEFLUY0SnQTZHU2LC8DTEoFUAACQH8VTV8DZtb0Xz0jQZYTQwfkd3vlXn4BZic1cVM1ZvjFRv3RZHU2LC8DTEoFUAACQH8VTV8DZHcUX4gCLXUGLFIFZtf1XmcmUisFLogjcHg2R4X2PTETRUAUSAIkVpASZHgVQFE1YzDCVqkjPHESQFEFLUY0SnQzPLYGR3sTN1MDUAkTUP0TPRokZvjFRogiUgYWUrEVdEYzXqkjPHESQFEFLUY0SnQTZHU2LC8DTEoFUAACQH8VTV8DZ2X0X5EzUio2XTg0azvFRlg0UXIWUWkENHI0RwLiPMECRowTdPMTSzH1PLIiK4wzcHkFR0MyPOAUQpQUPvPDRuEkUOglKsIVcMYUV40zQS8FMwnEZtf1XmcmUisFLogzctLDSncCZOciKUAkTEQ0TlolQYgCRREVd3TUX0EkUYglKnM1Y2Y0XqASZHYGR3sTN1MDUAkTUP0TPRokZvjFR4slQYsVSFo0YqwVXn4BZic1cVM1ZvjFR1gDdKkicCQUPIUETMEjTZoFLogDdvDiXkAiUYcFMwbkbqwVVqE0UZMWUwb0bM0FRlg0UXIWUWkENHITS14RZHU2LC8DTEoFUAACQH8VTV8DZHcUVrUEahsFMwf0Z3TTXqk0UYIWRBgTLEYTXvTkUOgldnwjcHg2R4X2PTETRUAUSAIkVpASZHcVUGMVc3TTXqk0UYIWRBgTLEYTXvTkUOgFVosjcHg2R4X2PTETRUAUSAIkVpASZHcVUGMVc3.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.UdMMCVo0DZtfWU3fDZMkGVowDdpk1R1QTdLYmK4wzLPkGSncCZOcCRDgjUvjFR1MiPLgGTC4DLPkWSv3xPMMCUo0zLPMUS5gjPHcELogTLLkVS3gzTNQmKSwTdtLDS4Y1PMkGR3sTN1kGTlgUUOglKosjcHMTSzfUZMgGVS4TdPkVS1IVZLcmYogjYhU0SngUdLECRowDMyHDS2wzPLYGSC4jdLkFR0MyPOMUPnUENHIDSz4xPLcGRS0DdLkFSxnVZLQCSo0jLPkVSxfjPHcELogTLLkVS3gzTNQmKSwTdtLDS4Y1PMkGR3sTN1k2RFsFQVkicSAEQAs1S2fEQHYELogzcyfWSyPUZMECQSwDLXMTSzH1TLkmYogjYhU0SnYVZMAiZosDLHkGS1QTdLomYSwzclkGSncCZOcCRDgjUvjFR2MiPNgGVSwzcLMTS3gzTLAiKSwzcPkFRlIVUOglYo0DLpk1RvfTdLYGQ4wjdlMES2YVdLg1Mn8zMLQDRVASZHc2LB4TdPkGS1g0PNQCQowjLlMTS1gUZHYlXU8DZlkVSvnVZKACR4wjcDkGS5Y1TLcmY4wDZ2f1S2vTQHYELogjdyfFSx.UZMACTS4TLPMkS5QzPNcmXogjYhU0SnYVZMAiZosDLHkGS1QTdLomYSwzclkGSncCZOcyMRAEQAs1S2bCdPgTQpMUN1kGTHUjZSkicoEURms1S2fEQHYELogjcyHDS3AUdLYGTSwjctLUS5o1PMomZ4wDdHIDRWASZHECSo0DdHMkSz4xTLkmKCwTdlMTS4gDdKkicoAkYXU0Sn4RZKYGRC0zLTMTSxP0PLoGVC0jLTMkSwfUZHYlXU8DZXkGSwfTZLQyLBwzcLMDS1wzPNoGSogTcyLzSCEDZUgCRBwDctjFS5oVZMECRo0DMLkFSv3xTLoGRo0DZtfWU3fDZMkGVowDdpk1R1QTdLYmK4wzLPkGSncCZOcCSEgjUvjFR1MiPLYGQowDLHkGS3I1TNgmY40zcDMDS3IVZHYlXU8DZXkGSwfTZLQyLBwzcLMDS1wzPNoGSogTcyLzS0gEURgEMC8TPQQDU4XWZQYFVU8DZDk1RxX1TMECVSwzcTkVS54xTNEiK40DZtfWU3fjPNECUS4DcTkFS44xTLMiYC4DdhMESncCZOcCRDgjUvjFR2MiPNgGVSwzcLMTS2o1PMICSC4TLhkFRlIVUOglYo0DLpk1RvfTdLYGQC4zLlkFSxPTZHU2LC8zPAgVU3fjTLQmY4wjdLMDSwX1PNMCUC4jLtLjS5gjPHcELogzLXMUSzLiTMgGSCwzclMjSyfTdMcGR3sTN1kGUlgUUOgFTosDdhMTSwP0PMQCU40jchkGS5QzTLglK3UENHIjSwP0TNQGUowTdtLESyX1PNgmXSwDZ2f1S2biTPQTPq8zM2fGTHUjZSkic4sTPUUTUO0jdS0TPq8zM2HDUOMVUPkTRq8jKt3hKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UX4BQP4hPqcjXm0jLh4BQP4xPt.0Qt3hKt3hKt3hKtQUUCUEQTg2ZrM1YQcUVDUjQicVP77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+							}
+
+						}
+ ],
+					"emphasis::env_attack" : [ 15.997008371969702 ],
+					"emphasis::env_decay" : [ 299.809654737419351 ],
+					"emphasis::env_emphasis" : [ 3.359999999999997 ]
 				}
 
 			}
@@ -124,21 +219,75 @@
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"env_bottom" : [ 20 ],
-					"env_inv" : [ 0 ],
-					"env_top" : [ 42 ],
+					"env_bottom" : [ 2.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 99.0 ],
 					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 35.136029624692249, 0, 0.0, 0.447272347297903, 79.011039063101634, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
 					"freq_ceiling_slide_down" : [ 40000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 31.054633397863473, 0, 0.0, 1.0, 100.0, 0, 0.55, "curve" ],
 					"freq_floor_slide_down" : [ 80000 ],
 					"freq_floor_slide_up" : [ 48 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 121.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
+					"octaver_volume" : [ -8.267716535433085 ],
+					"vst~[1]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "2016 Stereo Room",
+							"origin" : "2016 Stereo Room.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "2016 Stereo Room.auinfo",
+								"plugindisplayname" : "2016 Stereo Room",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 842158930,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
+							}
+
+						}
+ ],
+					"vst~[2]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "POWAIR",
+							"origin" : "POWAIR.vst3info",
+							"type" : "VST3",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "POWAIR.vst3info",
+								"plugindisplayname" : "POWAIR",
+								"pluginsavedname" : "C74_VST3:/POWAIR",
+								"pluginsaveduniqueid" : 0,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"sliderorder" : [  ],
+								"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+								"blob" : "4938.VMjLgDzD...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LiMzfiKV0zQicUPt3hKl4hKt3BTt3hKt3hKLoGVzMGQt3xLtnjQIoGTtEjKt3BRtHVci0lXtPDTtLjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtzjKuU0PIMERKAiKt3hc48zLvXTXlg0UYgWSWoUczX0SnQTZKYGRBgzZzDCV0EkUZQ2XV8DZTUTUFAiPNg1Mo8jY1MDUOMVUPkTREgzYUczX0gCLYc1ZrEVYMESXyEzUYQWSWgkdqESXzgyZic1cVM1ZvjFR1MiTLYmXS0TdTkFS14xTNACQC4jdpkGSn4hPgcVSGMVYywVX0MVagUVRFI1bvjFR2gzTLQmKogjY1YEV4EkLWAyZwb0ZmcjXmQiQYsVTwbUdQcEV5UkUOgFQogjYtbEV3UjUgsVTWkEdMIyUwTEahk2ZwDFcMc0SnQTZHYlKsI1ZMcUV5QCUXMWUV8DZPISX0kjUXglKBI1ZEEiVkcVLgIWTwb0azDyU4UULXUGMFkUdvjFR4gjPHUWVWkEdYYTX0MlLW4FNFElZvjFR2gjPH8VSxbUdAcUVoEUahc1cwb0bUYzXqkzUOgFQogjYTckVS0jUXIWUV8DZ5IESn4Bdhs1cVkUZQcUVpUjZPgCRBwDZyLzSPUjZTEDLDgzaQY0SngjUjYWQwHVd3.iXxrlQik1YrgjYXcEVxU0UYgCRBwDZ2f1S23RUPIUQTMkYpYTV3fjTZQWPWMld3TzX3slUgglKnM1Y2Y0XqASZHYGR3sTN1MDUAkTUP0TPRokZvjFRogiUgYWRWkUdMckV0QSLWk2XWokdMYjVn4BZic1cVM1ZvjFR2gDdKkicCQUPIUETMEjTZoFLogTZ3XUX1kzUYkWSWoUczvVTm0jQiUWRsgjYXcEVxU0UYgCRnwjcHg2R4X2PTETRUAUSAIkVpASZHcVTGM1YMEiVn4BZic1cVM1ZvjFRx3RZHU2LC8DTEoFUAACQH8VTV8DZHcUVxUkUXkWUrgjYXcEVxU0UYgCRRwDdPk1R1gDdKkicCQUPIUETMEjTZoFLogDdUYTXqUTLhsFNUEFLMckVokjPHESQFEFLUY0SnIVZHU2LC8DTEoFUAACQH8VTV8DZHcUVxUkUXkWUwb0b3XTVqkjPHESQFEFLUY0SnQTZHU2LC8DTEoFUAACQH8VTV8DZtb0Xz0jQZYTQwfkd3vlXn4BZic1cVM1ZvjFRv3RZHU2LC8DTEoFUAACQH8VTV8DZHcUX4gCLXUGLFIFZtf1XmcmUisFLogjcHg2R4X2PTETRUAUSAIkVpASZHgVQFE1YzDCVqkjPHESQFEFLUY0SnQzPLYGR3sTN1MDUAkTUP0TPRokZvjFRogiUgYWUrEVdEYzXqkjPHESQFEFLUY0SnQTZHU2LC8DTEoFUAACQH8VTV8DZ2X0X5EzUio2XTg0azvFRlg0UXIWUWkENHI0RwLiPMECRowTdPMTSzH1PLIiK4wzcHkFR0MyPOAUQpQUPvPDRuEkUOglKsIVcMYUV40zQS8FMwnEZtf1XmcmUisFLogzctLDSncCZOciKUAkTEQ0TlolQYgCRREVd3TUX0EkUYglKnM1Y2Y0XqASZHYGR3sTN1MDUAkTUP0TPRokZvjFR4slQYsVSFo0YqwVXn4BZic1cVM1ZvjFR1gDdKkicCQUPIUETMEjTZoFLogDdvDiXkAiUYcFMwbkbqwVVqE0UZMWUwb0bM0FRlg0UXIWUWkENHITS14RZHU2LC8DTEoFUAACQH8VTV8DZHcUVrUEahsFMwf0Z3TTXqk0UYIWRBgTLEYTXvTkUOgldnwjcHg2R4X2PTETRUAUSAIkVpASZHcVUGMVc3TTXqk0UYIWRBgTLEYTXvTkUOgFVosjcHg2R4X2PTETRUAUSAIkVpASZHcVUGMVc3.iXxrlQik1YrgjYXcEVxU0UYgCRBwDZ2f1S23RUPIUQTMkYpYTV3fjTXASTxDVY2YUVwTkQgUVTGoEdUEiXtgiQgoVRBgTLEYTXvTkUOgldB0jcHg2R4X2PTETRUAUSAIkVpASZHkWSrkUY2wVVn4BZic1cVM1ZvjFR1MCZLYmKo0zLXkVSwvTdLMiZowjcTMkS4gTZMgGR3sTN1MDUAkTUP0TPRokZvjFR40DaYU1YrkEZtf1XmcmUisFLogjcyHUS4A0PLgmKCwjcXkVSvfUZMoGV40DdlMUS3gDdKkicCQUPIUETMEjTZoFLogTdMwVVn4BZic1cVM1ZvjFR2gDdKkicCQUPIUETMEjTZoFLogTdMwVVkE0UjYWUrgjYXcEVxU0UYgCRBwDZ2f1S23RUPIUQTMkYpYTV3fDdhkVVwbUd3XTX0kjPHESQFEFLUY0Sn4RZHU2LC8DTEoFUAACQH8VTV8DZlESX4EkLW0VQVoEc3rlXqEkUikVTWoUczvFRlg0UXIWUWkENHIUSz4xPLEiXS4jcDkVS2QTdLgmYSwDdTY0RwfDdKkicCQUPIUETMEjTZoFLogTZ2YkV1EzUZQ2Xwb0b3XTVqkDdKkic4IldEEiXtUkQYMUTWgkdUw1S23BLScUQTIkTAIEVvDkLgU1XVg0azDyUogiUgYWUrEVdEYzXugCagUVVWgkbUcUV3fjTLQmKogjY1YEV4EkLWEGMwDlLzDyUnEzUggCRRwDdtj1R1gDZOciKUAkTEQ0TlolQYgCRRgkdQcEVoMGaHYFVWgkbUcUV3fDZLAyLBwDZ2f1S23RUPIUQTMkYpYTV3fjTXASTxDVY2YUVwTkQgglKnM1Y2Y0XqASZHY2LBwDZ2f1S23RUPIUQTMkYpYTV3fjTXASTxDVY2YUVwTkQgUVTGoEdUEiXtgiQgoVRBgTLEYTXvTkUOgldR0jcyHDSncCZOciKUAkTEQ0TlolQYgCRRgELQISXk0jLi8VTxfkaIIDRwTjQgASUV8DZDk1R1gDdKkicCQUPIUETMEjTZoFLogDZEYTXmQSLXsVRBgTLEYTXvTkUOgFQCwjcyHDSncCZOciKUAkTEQ0TlolQYgCRngEMAcEV40jLWk2XWokdMYjVn4BZic1cVM1ZvjFR1MiPLg1Mn8zMtTETRUDUSYlZFkENHgGVxslQhY2ZrEVa3TUX0EkUYglKnM1Y2Y0XqASZHY2LBwDZ2f1S23RUPIUQTMkYpYTV3fDdXUGLFI1ZzDiXmE0UYglKnM1Y2Y0XqASZHc2LBwDZ2f1S23RUPIUQTMkYpYTV3fDdXUGLFIFdUEiX4sVLgQWVTgUZQISX3kjPHESQFEFLUY0Sn4RZKYGR3sTN1MDUAkTUP0TPRokZvjFRogiUgYWRWkUdMckV0QSLWk2XWokdMYjVn4BZic1cVM1ZvjFR2MiPLg1Mn8zMtTETRUDUSYlZFkENHIjV00zQiU1XVg0azDyU3UkQYASSFM1a3vVXn4BZic1cVM1ZvjFR1MiPLg1Mn8zMtTETRUDUSYlZFkENHIkVzEzUioGNEMFdqYUXn4BZic1cVM1ZvjFR1MiPLg1Mn8zMtTETRUDUSYlZFkENHIUX4gSUgUWTVkEZtf1XmcmUisFLogjcyHDSncCZOciKUAkTEQ0TlolQYgCR3EFLQcjXvDkLQc1ZrEFZtf1XmcmUisFLogjcyHDSncCZOciKUAkTEQ0TlolQYgCRBIFd3DCVq0jLhwzZrEVbIIDRwTjQgASUV8DZDMDS1MiPLg1Mn8zMtTETRUDUSYlZFkENHIjXvPSLX4VVTgUZQISX3kjPHESQFEFLUY0SnQzPLY2LBwDZ2f1S23RUPIUQTMkYpYTV3fDZhsVVVkEdUwVXoUULWIWUrM1Z2wFRlg0UXIWUWkENHI0R34RZKYGR3sTN1MDUAkTUP0TPRokZvjFR3UkQgsVQwH1ZIIDRwTjQgASUV8DZlMDSz4RZHU2LC8DTEoFUAACQH8VTV8DZHcUVxUkUXkWUwb0b3XTVqkjPHESQFEFLUY0Sn4RZKYGR3sTN1MDUAkTUP0TPRokZvjFR3UkQgsVQwH1Z3TUXvzzUZkVRBgTLEYTXvTkUOgFQ4wDctjFR0MyPOAUQpQUPvPDRuEkUOgFRWEVd3.CV0AiQhglKnM1Y2Y0XqASZHY2LBwDZ2f1S23RUPIUQTMkYpYTV3fDZhMWSxb0bUYEVzgSQg8VVVkkdqYUXqgSUgkWRBgTLEYTXvTkUOgFTCwjcyHDSncCZOciKUAkTEQ0TlolQYgCR3IVZYwFRlg0UXIWUWkENHIDSz4RZHU2LC8DTEoFUAACQH8VTV8DZLICVrgSQZwVRBgTLEYTXvTkUOgFQosjcHg2R4X2PTETRUAUSAIkVpASZHkWSrkUY2wVVn4BZic1cVM1ZvjFR1MiTLAiZCwjdtLTS3QTZLomXC0zLHkGSncCZOciKUAkTEQ0TlolQYgCR3IVZYEyU4giQgUWRBgTLEYTXvTkUOglKosjcHg2R4X2PTETRUAUSAIkVpASZHkWSrkUYQcEY1UEaHYFVWgkbUcUV3fjPLQmKogTcyLzSPUjZTEDLDgzaQY0SnwzUZoVUwfkaEYkVzkjPHESQFEFLUY0Sn4RZKYGR3sTN1k2RPgidUEzZpQUN1k2R4E0UXk2YVkkZMUzXmE0UYkicSAUUQAyTCgCUSAEMC8zPmQETNQyPOYzZDYUN1kVTlgUUOglKosjcHMjS4AUdMkmXowjctLkSwvTdLMCTogjYhU0SngUdLECRowDMyHDS2gzTNomYS0DdLMTSncCZOcCRDgjUvjFR1MiPLgmYS4jLLMUS2Y1PNMiZS4jLXMES5gjPHcELogTLLkVS3gzTNQmKSwDdpMTSyPUZLkGTogTcyLzSCEDZUgCRBwDctjFSz3xPLECTo0jcHMESwf0TMMiYo0DZtfWU3fDZMkGVowDdpk1R1QTZLQCTC4DLHkGS5gDdKkic4QkYXU0Sn4RZKYmKSwTdhkVS5Q0TMomKCwTLhMDSv3xPMglK3UENHgVS4gUZLgmZosjcDkFSz.0PNACR4wjdHg2R4XWdKYzZDYUN1METDEzZOcCVDgjUvjFR2MiPNgmX40jLhMkSxHVdMMCUowDMLkFRlIVUOglZC4TLhk1R54RZLgGTCwjdpMESzvzPNg1Mn8zMHQDRVASZHc2LB4TLlMESv3xTMQiKC0DLDkWS2oVZHYlXU8DZpMjSwHVZKomKowDdPMDS5o1TLQCSC4DZ2f1S2vDQHYELogzcyHjSx3RZLICTS0jLXMjS24xTNoGUogjYhU0Sno1PNEiXosjdtjFS3A0PLomZSwDMLMjSncCZOcCSEgjUvjFR5MCZLIiZo0DLLkVSw.0PLYGUS4zcHIDRWASZHQiYo0jLyHTS1gTZLomKC0DMDMkS4YVZHU2LC8TcDQTTPQyPOUGSDIUPzn1S2vDQREDMp8zMXQkTXQyPOYTPnUENHIDSz4RZLMCSC0jLLkWS3QTdMcmYCwjLDMkSn4BdUgCRn0TdXkFS3oVZKYGQowDMPMjSvfTdLoGR3sTN1kFTlgUUOglKosjcHMjSzHVdLACQC4TLPkWS1g0PNgmXogjYhU0SngUdLECRowDMyHDS2gzTNomYS0DdLMTSncCZOcCSDgjUvjFR1MiPLgmZCwjcXMTSvn1TNICRSwzLTMTS3gjPHcELogTLLkVS3gzTNQmKSwDdpMTSyPUZLkGTogTcyLzSSEDZUgCRBwDctLDS2wTdMECTS0DLLMkS44xTMYmYC0TLHIDRWASZHECSo0DdHMkSz4xTLgmZC0zLTkFS4AUZHU2LC8TcXQkTXQyPOETTDQUN1kVTlgUUOgFQoszLHkWSxHVdMQiXo0TLHkWSxn1PMglK3UENHIkSyfUdMQGTCwDdLMDS4QzTNcGQS0DLHg2R4XWZPYFVU8DZDk1Ryf0PNcGUCwDLXkFSzPzPNQiYogjYhU0Sno1PNEiXosjdtjFS44RdLcmZSwzcTMUSncCZOcCSDgjUvjFR2MiPNIiKowjLPMUS5o1TLECSS4TdhkFRlIVUOglZC4TLhk1R54RZLkmK4wzcpMES2Q0TMg1Mn8zMLUDRVASZHo2LnwjLpkVSvvzTMMCSC4zcXMkSwfjPHcELogDMlkVSxLiPMYGR4wjcLMESzPzTLACUogTcyLzS0QDQQAEMC8TcLQjTAQiZOcyMRAUUQAyTCgCUSAEMC8Tct.yTWUDURIEMC4hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
+							}
+
+						}
+ ],
+					"emphasis::env_attack" : [ 19.187817903195082 ],
+					"emphasis::env_decay" : [ 105.449029795697342 ],
+					"emphasis::env_emphasis" : [ 3.239999999999997 ]
 				}
 
 			}
@@ -163,12 +312,22 @@
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 32.344063223086913, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
 					"freq_floor_slide_down" : [ 9000 ],
 					"freq_floor_slide_up" : [ 100 ],
+					"live.dial" : [  ],
+					"live.dial[1]" : [  ],
+					"live.dial[3]" : [  ],
+					"live.gain~" : [  ],
+					"live.gain~[1]" : [  ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
+					"octaver_volume" : [  ],
+					"vst~[1]" : [  ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [  ],
+					"emphasis::env_decay" : [  ],
+					"emphasis::env_emphasis" : [  ]
 				}
 
 			}
@@ -177,7 +336,7 @@
 				"id" : 13,
 				"data" : 				{
 					"Q_sense" : [ "Q_sense", 3.0 ],
-					"Zslide_down" : [ "Zslide_down", 3000.0 ],
+					"Zslide_down" : [ "Zslide_down", 200.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
 					"aux_phase_offset" : [ 68.5039370078741 ],
@@ -185,7 +344,7 @@
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
 					"env_bottom" : [ 42.0 ],
-					"env_inv" : [ 0 ],
+					"env_inv" : [ 1 ],
 					"env_top" : [ 65.0 ],
 					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 44.843841472228924, 0, 0.0, 0.290486739764864, 65.468475583313236, 0, 0.5, 1.0, 100.0, 0, -0.755000000000001, "curve" ],
 					"freq_ceiling_slide_down" : [ 24000 ],
@@ -193,12 +352,18 @@
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 1.0, 83.161344342983838, 0, 0.305, "curve" ],
 					"freq_floor_slide_down" : [ 12000 ],
 					"freq_floor_slide_up" : [ 480 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 140.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [ 						{
+					"octaver_volume" : [ -14.0 ],
+					"vst~[1]" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
@@ -219,7 +384,11 @@
 							}
 
 						}
- ]
+ ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 5.939807155204931 ],
+					"emphasis::env_decay" : [ 153.502543225558838 ],
+					"emphasis::env_emphasis" : [ 4.799999999999999 ]
 				}
 
 			}

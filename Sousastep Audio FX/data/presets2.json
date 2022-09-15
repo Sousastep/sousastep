@@ -16,24 +16,68 @@
 					"env_bottom" : [ 2.0 ],
 					"env_inv" : [ 0 ],
 					"env_top" : [ 33.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.34015893474257, 79.218231657369458, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 46.406313753371677, 0, 0.0, 0.463534626299635, 80.433709504251411, 0, 0.5, 1.0, 100.0, 0, -0.35, "curve" ],
 					"freq_ceiling_slide_down" : [ 8000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 38.281457891429369, 0, 0.0, 1.0, 100.0, 0, 0.2, "curve" ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.714789416371787, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
 					"freq_floor_slide_down" : [ 16000 ],
 					"freq_floor_slide_up" : [ 480 ],
-					"live.dial" : [  ],
-					"live.dial[1]" : [  ],
-					"live.dial[2]" : [  ],
-					"live.dial[3]" : [  ],
-					"live.dial[4]" : [  ],
-					"live.gain~" : [  ],
+					"high_SnTrSq" : [ 1 ],
+					"live.dial" : [ 0.0 ],
+					"live.dial[1]" : [ 0.613652900159119 ],
+					"live.dial[3]" : [ 140.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
+					"low_SnTrSq" : [ 0 ],
+					"low_duty_cycle" : [ 0.0 ],
+					"low_floor" : [ 5.511811023622045 ],
+					"low_phase_offset" : [ 54.330708661417276 ],
+					"low_power" : [ 22.303224552547903 ],
+					"octaver_volume" : [ -8.708661417322844 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 2.847123804483894 ],
+					"emphasis::env_decay" : [ 549.14730301901443 ],
+					"emphasis::env_emphasis" : [ 5.399999999999999 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"Q_sense" : [ "Q_sense", 3.0 ],
+					"Zslide_down" : [ "Zslide_down", 200.0 ],
+					"aux_SnTrSq" : [ 0 ],
+					"aux_duty_cycle" : [ 0.0 ],
+					"aux_phase_offset" : [ 68.5039370078741 ],
+					"aux_power" : [ -5.511811023622144 ],
+					"aux_route_menu" : [ 0 ],
+					"aux_yaxis" : [ 0.0 ],
+					"env_bottom" : [ 42.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 65.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 44.843841472228924, 0, 0.0, 0.336612724411478, 68.094259812249632, 0, 0.3, 1.0, 100.0, 0, -0.505000000000001, "curve" ],
+					"freq_ceiling_slide_down" : [ 24000 ],
+					"freq_ceiling_slide_up" : [ 100 ],
+					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 1.0, 83.161344342983838, 0, 0.305, "curve" ],
+					"freq_floor_slide_down" : [ 12000 ],
+					"freq_floor_slide_up" : [ 480 ],
+					"high_SnTrSq" : [  ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 140.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
+					"octaver_volume" : [ -14.0 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 5.939807155204931 ],
+					"emphasis::env_decay" : [ 153.502543225558838 ],
+					"emphasis::env_emphasis" : [ 4.799999999999999 ]
 				}
 
 			}
@@ -49,7 +93,7 @@
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"env_bottom" : [ 43.0 ],
+					"env_bottom" : [ 17.0 ],
 					"env_inv" : [ 1 ],
 					"env_top" : [ 83.0 ],
 					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 39.218941260115017, 0, 0.0, 0.447309550355495, 72.030859164112798, 0, 0.0, 1.0, 100.0, 0, -0.2, "curve" ],
@@ -58,39 +102,22 @@
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 35.781502241600961, 0, 0.0, 1.0, 60.468564283656434, 0, 0.6, "curve" ],
 					"freq_floor_slide_down" : [ 16000 ],
 					"freq_floor_slide_up" : [ 48 ],
+					"high_SnTrSq" : [ 1 ],
 					"live.dial" : [ -0.003721273030344 ],
 					"live.dial[1]" : [ 0.613528857724774 ],
-					"live.dial[2]" : [ 11.81102362204725 ],
 					"live.dial[3]" : [ 140.0 ],
-					"live.dial[4]" : [ -14.0 ],
 					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "2016 Stereo Room",
-							"origin" : "2016 Stereo Room.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "AudioEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "2016 Stereo Room.auinfo",
-								"plugindisplayname" : "2016 Stereo Room",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 842158930,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
-							}
-
-						}
- ]
+					"octaver_volume" : [ -5.622047244094503 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 2.847123804483894 ],
+					"emphasis::env_decay" : [ 549.14730301901443 ],
+					"emphasis::env_emphasis" : [ 5.399999999999999 ]
 				}
 
 			}
@@ -99,7 +126,7 @@
 				"id" : 7,
 				"data" : 				{
 					"Q_sense" : [ "Q_sense", 1.0 ],
-					"Zslide_down" : [ "Zslide_down", 200.0 ],
+					"Zslide_down" : [ "Zslide_down", 800.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
 					"aux_phase_offset" : [ -65.354330708661394 ],
@@ -109,45 +136,28 @@
 					"env_bottom" : [ 22.0 ],
 					"env_inv" : [ 1 ],
 					"env_top" : [ 66.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 1.0, 100.0, 0, 0.2, "curve" ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 0.425662407236214, 66.189600884644406, 0, 0.5, 1.0, 100.0, 0, -0.7, "curve" ],
 					"freq_ceiling_slide_down" : [ 40000 ],
-					"freq_ceiling_slide_up" : [ 100 ],
+					"freq_ceiling_slide_up" : [ 48 ],
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
 					"freq_floor_slide_down" : [ 40000 ],
 					"freq_floor_slide_up" : [ 480 ],
+					"high_SnTrSq" : [  ],
 					"live.dial" : [ -0.003721273030344 ],
 					"live.dial[1]" : [ 0.613528857724774 ],
-					"live.dial[2]" : [ 0.0 ],
-					"live.dial[3]" : [ 140.0 ],
-					"live.dial[4]" : [ -20.062992125984209 ],
+					"live.dial[3]" : [ 175.0 ],
 					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "2016 Stereo Room",
-							"origin" : "2016 Stereo Room.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "AudioEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "2016 Stereo Room.auinfo",
-								"plugindisplayname" : "2016 Stereo Room",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 842158930,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
-							}
-
-						}
- ]
+					"octaver_volume" : [ -11.354330708661422 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 2.398477237899368 ],
+					"emphasis::env_decay" : [ 299.809654737419351 ],
+					"emphasis::env_emphasis" : [ 4.919999999999999 ]
 				}
 
 			}
@@ -163,27 +173,31 @@
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"env_bottom" : [ 20 ],
-					"env_inv" : [ 0 ],
-					"env_top" : [ 42 ],
+					"env_bottom" : [ 2.0 ],
+					"env_inv" : [ 1 ],
+					"env_top" : [ 99.0 ],
 					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 35.136029624692249, 0, 0.0, 0.447272347297903, 79.011039063101634, 0, 0.0, 0.902059228184718, 100.0, 0, -0.45, 1.0, 100.0, 0, 0.0, "curve" ],
 					"freq_ceiling_slide_down" : [ 40000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 31.054633397863473, 0, 0.0, 1.0, 100.0, 0, 0.55, "curve" ],
 					"freq_floor_slide_down" : [ 80000 ],
 					"freq_floor_slide_up" : [ 48 ],
-					"live.dial" : [  ],
-					"live.dial[1]" : [  ],
-					"live.dial[2]" : [  ],
-					"live.dial[3]" : [  ],
-					"live.dial[4]" : [  ],
-					"live.gain~" : [  ],
+					"high_SnTrSq" : [  ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.613528857724774 ],
+					"live.dial[3]" : [ 121.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
+					"octaver_volume" : [ -8.267716535433085 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 19.187817903195082 ],
+					"emphasis::env_decay" : [ 105.449029795697342 ],
+					"emphasis::env_emphasis" : [ 3.239999999999997 ]
 				}
 
 			}
@@ -201,25 +215,50 @@
 					"aux_yaxis" : [ 0.0 ],
 					"env_bottom" : [ 11.0 ],
 					"env_inv" : [ 1 ],
-					"env_top" : [ 55.0 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, -0.6, "curve" ],
+					"env_top" : [ 80.0 ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 33.28154659177256, 0, 0.0, 1.0, 100.0, 0, 0.15, "curve" ],
 					"freq_ceiling_slide_down" : [ 4000 ],
 					"freq_ceiling_slide_up" : [ 100 ],
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 32.344063223086913, 0, 0.0, 1.0, 100.0, 0, 0.65, "curve" ],
 					"freq_floor_slide_down" : [ 9000 ],
 					"freq_floor_slide_up" : [ 100 ],
-					"live.dial" : [  ],
-					"live.dial[1]" : [  ],
-					"live.dial[2]" : [  ],
-					"live.dial[3]" : [  ],
-					"live.dial[4]" : [  ],
-					"live.gain~" : [  ],
+					"high_SnTrSq" : [ 1 ],
+					"live.dial" : [ -0.003721273030344 ],
+					"live.dial[1]" : [ 0.377529150981662 ],
+					"live.dial[3]" : [ 144.0 ],
+					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [  ]
+					"octaver_volume" : [ -14.0 ],
+					"vst~[2]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-Q 3",
+							"origin" : "Pro-Q 3.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Pro-Q 3.auinfo",
+								"plugindisplayname" : "Pro-Q 3",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1179726704,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1676.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAeajQBMU.....lE.......9C...3O7zjx.A.............f+....9C...vO.....A...9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C...DP...f.A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....n....vXx81by8EZocFZ+++++G....PB....PI2asDEHnLSJA....LTcSYU..........n0Xx81by8EZocFZRDVcsYFD...B.TA.c.fJ.DD.FAvR.LE.XAPWF.jAKY.T........BD..........M...................FHE"
+							}
+
+						}
+ ],
+					"emphasis::env_attack" : [ 5.939807155204931 ],
+					"emphasis::env_decay" : [ 153.502543225558838 ],
+					"emphasis::env_emphasis" : [ 4.799999999999999 ]
 				}
 
 			}
@@ -244,39 +283,22 @@
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 34.531524416686764, 0, 0.0, 1.0, 83.161344342983838, 0, 0.305, "curve" ],
 					"freq_floor_slide_down" : [ 12000 ],
 					"freq_floor_slide_up" : [ 480 ],
+					"high_SnTrSq" : [  ],
 					"live.dial" : [ -0.003721273030344 ],
 					"live.dial[1]" : [ 0.613528857724774 ],
-					"live.dial[2]" : [ 0.0 ],
 					"live.dial[3]" : [ 140.0 ],
-					"live.dial[4]" : [ -20.062992125984209 ],
 					"live.gain~" : [ 6.0 ],
+					"live.gain~[1]" : [ 6.0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 5.511811023622045 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"vst~" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "2016 Stereo Room",
-							"origin" : "2016 Stereo Room.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "AudioEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "2016 Stereo Room.auinfo",
-								"plugindisplayname" : "2016 Stereo Room",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 842158930,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "1343.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAAa...............C..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r......RyPCNDQTwDkLQ+.DQASUI4Fb0QWzOHgUOUGcvUGcRHiLSIED.HQX0YFdOEw.nuWCJ.BHh.Ga0cVZtkDQhnCHhHiLSIkHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLvHBKMn.HfHRZtAmchnCHs.iKvfCNv.CLxjyM0PiMyfiM2HCKMn.HfHRaskFdhnCHw3BLrzfBf.hHqkFahIhNf.iKvvRCJ.BHh.GYrkmH5.BLt.yL4jSN4jSN4DCL0jyLvLyLrzfBf.hHjU1X4IhNfHiK2DCLyXCLvTCLx.SLzDiMrzfBf.hHvMGctIhNfDiKvvRCJ.BHhPlYl4lH5.RLt.CKMn.HfHRYww1bhnCHs.iKzDSM4jSN1TCL4TSMx.CLxvRCJ.BHhTVbrYlH5.RMv.iKvvRCJ.BHhTVbnMmH5.RK13xMwjSN4jyM4.SL4DiM0vRCJ.BHhTVbnYlH5.xL4DiLt.CLvbyLxPiLwfyM0vRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfDCMrzfBf.hHvIWYtIhNfHBRuImafH0au0lHMnPe...................................................................................................................................................................................................................................................................................................................................................................................................................................T.f..Y.fI.rB.3..P.fD.MAvW.PF.oA.1.zM.eCP3.PN.lC.6.7N.1Cv9.ze.BPf6........BD..........X...................D7N"
-							}
-
-						}
- ]
+					"octaver_volume" : [ -14.0 ],
+					"vst~[2]" : [  ],
+					"emphasis::env_attack" : [ 5.939807155204931 ],
+					"emphasis::env_decay" : [ 153.502543225558838 ],
+					"emphasis::env_emphasis" : [ 4.799999999999999 ]
 				}
 
 			}
