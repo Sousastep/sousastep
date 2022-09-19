@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -201.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 92.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.313725490196078, 0.003921568627451, 1.0 ],
+					"color" : [ 0.203921568627451, 0.996078431372549, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 16.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 404.356682040992155, 784.205654811242994, 236.0, 26.0 ],
+					"text" : "in 5 @comment risset_LFO_low",
+					"textcolor" : [ 0.909803921568627, 1.0, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.313725490196078, 0.003921568627451, 1.0 ],
 					"color" : [ 0.203921568627451, 0.996078431372549, 0.0, 1.0 ],
@@ -144,8 +161,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.53257400323912, 776.205654811242994, 203.0, 26.0 ],
-					"text" : "in 5 @comment risset_LFO",
+					"patching_rect" : [ 426.356682040992155, 820.205654811242994, 243.0, 26.0 ],
+					"text" : "in 6 @comment risset_LFO_high",
 					"textcolor" : [ 0.909803921568627, 1.0, 0.996078431372549, 1.0 ]
 				}
 
@@ -1445,6 +1462,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-71", 1 ],
+					"midpoints" : [ 413.856682040992155, 884.0, 198.690007188620939, 884.0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.181329488754272, 0.192575424909592, 0.181360363960266, 1.0 ],
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-16", 0 ]
@@ -2074,18 +2099,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
-					"midpoints" : [ 388.03257400323912, 884.0, 198.690007188620939, 884.0 ],
-					"order" : 1,
-					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-81", 1 ],
-					"midpoints" : [ 388.03257400323912, 884.0, 784.833307643731587, 884.0 ],
-					"order" : 0,
+					"midpoints" : [ 435.856682040992155, 884.0, 784.833307643731587, 884.0 ],
 					"source" : [ "obj-83", 0 ]
 				}
 
