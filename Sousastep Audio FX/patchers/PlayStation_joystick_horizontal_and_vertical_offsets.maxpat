@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -23.0, -967.0, 1429.0, 829.0 ],
+		"rect" : [ 34.0, 87.0, 1429.0, 829.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -245,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 470.100004553794747, 608.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.404098804838213, 1.027642905712128, 200.0, 100.0 ],
+					"presentation_rect" : [ 2.404098804838213, 1.027642905712128, 57.0, 48.0 ],
 					"size" : 1.0,
 					"thickness" : 72.0
 				}
@@ -268,7 +268,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 304.100004553794861, 765.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.404098804838213, 1.027642905712128, 200.0, 100.0 ],
+					"presentation_rect" : [ 2.404098804838213, 1.027642905712128, 57.0, 48.0 ],
 					"size" : 1.0,
 					"thickness" : 72.0
 				}
@@ -289,7 +289,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 251.099975803077427, 608.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.404098804838213, 1.027642905712128, 200.0, 100.0 ]
+					"presentation_rect" : [ 2.404098804838213, 1.027642905712128, 57.0, 48.0 ]
 				}
 
 			}
@@ -358,7 +358,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1057.404127555555533, 612.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.404098804838213, 1.027642905712128, 200.0, 100.0 ],
+					"presentation_rect" : [ 61.404098804838213, 1.027642905712128, 57.0, 48.0 ],
 					"size" : 1.0,
 					"thickness" : 72.0
 				}
@@ -381,7 +381,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 891.404127555555647, 769.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.404098804838213, 1.027642905712128, 200.0, 100.0 ],
+					"presentation_rect" : [ 61.404098804838213, 1.027642905712128, 57.0, 48.0 ],
 					"size" : 1.0,
 					"thickness" : 72.0
 				}
@@ -402,7 +402,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 838.404098804838213, 612.027642905712128, 200.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.404098804838213, 1.027642905712128, 200.0, 100.0 ]
+					"presentation_rect" : [ 61.404098804838213, 1.027642905712128, 57.0, 48.0 ]
 				}
 
 			}
