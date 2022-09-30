@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, -993.0, 1464.0, 959.0 ],
+		"rect" : [ -201.0, -993.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 276.616077976469114, 38.536852547681292, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 647.060722976469151, 40.536852547681292, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-96",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 703.416078286413267, 638.0, 221.0, 22.0 ],
+					"patching_rect" : [ 703.416078286413267, 638.000000000000114, 221.0, 22.0 ],
 					"text" : "bgcolor 0.135289 1. 0.036922 0.1"
 				}
 
@@ -57,7 +81,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1062.416078286413267, 729.339615812176817, 97.0, 22.0 ],
+					"patching_rect" : [ 851.416078286413267, 560.547149651272207, 97.0, 22.0 ],
 					"text" : "scale 0 5 0.3 0.9"
 				}
 
@@ -69,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1062.416078286413267, 758.679231624353633, 255.0, 22.0 ],
+					"patching_rect" : [ 851.416078286413267, 599.27357482563616, 255.0, 22.0 ],
 					"text" : "prepend bgcolor 0.919486 0.182094 0.096352"
 				}
 
@@ -238,7 +262,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "second" ],
-					"patching_rect" : [ 1003.416078286413267, 486.641448953816507, 54.0, 22.0 ],
+					"patching_rect" : [ 1015.416078286413267, 485.641448953816507, 54.0, 22.0 ],
 					"text" : "t second"
 				}
 
@@ -250,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "seconds" ],
-					"patching_rect" : [ 923.416078286413267, 486.641448953816507, 60.0, 22.0 ],
+					"patching_rect" : [ 935.416078286413267, 483.0942993025443, 60.0, 22.0 ],
 					"text" : "t seconds"
 				}
 
@@ -262,7 +286,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 957.416078286413267, 442.861914413699196, 44.0, 22.0 ],
+					"patching_rect" : [ 969.416078286413267, 444.367874128180404, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -274,7 +298,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 957.416078286413267, 406.641448953816507, 33.0, 22.0 ],
+					"patching_rect" : [ 969.416078286413267, 405.641448953816507, 33.0, 22.0 ],
 					"text" : "== 1"
 				}
 
@@ -286,7 +310,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 663.416078286413267, 529.584716999999955, 336.0, 22.0 ],
+					"patching_rect" : [ 675.416078286413267, 521.820724476908254, 336.0, 22.0 ],
 					"text" : "pak set \"attempting to connect to audio interface in\" i seconds"
 				}
 
@@ -330,7 +354,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -520,7 +544,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -710,7 +734,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1070,18 +1094,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-237",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 751.5, 168.506280591363065, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "ezadc~",
 					"numinlets" : 1,
@@ -1254,7 +1266,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1490,7 +1502,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1726,7 +1738,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1894,7 +1906,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 3,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2137,7 +2149,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2180,7 +2192,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2199,6 +2211,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-206", 0 ],
 					"midpoints" : [ 76.09094697646924, 563.803162000000157, 51.898365976468995, 563.803162000000157, 51.898365976468995, 422.346451000000116, 76.09094697646924, 422.346451000000116 ],
 					"source" : [ "obj-115", 0 ]
@@ -2208,7 +2227,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 2 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2224,7 +2243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2232,7 +2251,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"order" : 0,
+					"order" : 2,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2269,6 +2288,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
 					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-258", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -2334,13 +2360,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-23", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-237", 0 ]
 				}
 
 			}
@@ -2428,7 +2447,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"order" : 0,
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-458", 0 ],
+					"order" : 1,
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -2578,7 +2606,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"midpoints" : [ 360.196742976469523, 726.0, 633.0, 726.0, 633.0, 447.0, 669.0, 447.0, 669.0, 234.0, 761.0, 234.0 ],
+					"midpoints" : [ 360.196742976469523, 726.0, 633.0, 726.0, 633.0, 415.0, 800.0, 415.0, 800.0, 222.0, 761.0, 222.0 ],
 					"order" : 0,
 					"source" : [ "obj-57", 0 ]
 				}
