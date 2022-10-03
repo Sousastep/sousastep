@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "bx_solo",
+	"origin" : "bx_solo.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "bx_solo.auinfo",
+		"plugindisplayname" : "bx_solo",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1652061036,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "283.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDBI2c38DDPBUazIG....h....PB...X.....A.....LEcScG.....................S8FaLA....................vTuwlT.....................L0ar0D.....................S8FaSA....................vTzcUZ9nppq5ipptpOpp5p9nppqJQX0YFdRHFdywFD.fPEZbBKwjSPJ8j3myN.......P.A.........PC....................tC"
+	}
+
+}

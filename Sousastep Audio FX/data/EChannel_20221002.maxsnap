@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "EChannel",
+	"origin" : "EChannel.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "EChannel.auinfo",
+		"plugindisplayname" : "EChannel",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1162045550,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "1981.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEQ.7A..............t...............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.....RyPCNHQTwDkLR+.CPDQTvTURtAWczk0ToQVYigVXo4VzOLgUOUGcvUGcRTzPn4FD.HQX0YFdOEQA+rWCJ.BHh.Ga0cVZtkDQhnCHhTzPn4lHrzfBf.hHvwVcmklaVUlbhnCHhLiK23RLwHBKMn.HfHRZmElahnCHsDiKzLCL0DSLzbCM1.SNybSMk0hMrzfBf.hHoAGZyIhNf.iKvvRCJ.BHhbFco8lH5.BLt.CKMn.HfHxYzM2XhnCHv3BLrzfBf.hHmQGcnIhNfzBMv3BLrzfBf.hHmQmbrIhNf.iKvTCLv.CLv.CL2PSMvTCNvXCKMn.HfHxXsk1ahnCHw3BLrzfBf.hHi01biIhNf.iKvvRCJ.BHhLVar0lH5.RLt.CKMn.HfHxXsQGZhnCHsHCNtfCNxHSN2TSL0fiM4DCMrzfBf.hHi0lbgIhNfPiKvvRCJ.BHhLVagQmH5.BLt.CMwjiL1.CLvHiM2HiM2HyLrzfBf.hHi0lbrIhNf.iKwDSN3XCLv.CL4.CNybCM3vRCJ.BHhLVam4lH5.hMtTiL2jSN3jiLzHSM0LyMwvRCJ.BHhLVaq4lH5.BMt.CKMn.HfHxXsQ1bhnCHv3BLrzfBf.hHi0FYlIhNffCLv.iKvvRCJ.BHhTVbo8lH5.BLt.CKMn.HfHRYwEyahnCHv3BLrzfBf.hHkEWLzIhNfHiKvvRCJ.BHhTVbwXlH5.RN43RN4jSN3PyMzDiLw.SNzvRCJ.BHhTVbwDmH5.RLt.CKMn.HfHRYwEyYhnCHv3BLrzfBf.hHkEmLuIhNfDiKvvRCJ.BHhTVbxPmH5.BLt.CKMn.HfHRYwIiYhnCHzHCMtXSN2jSN3.CM1fyM0vRCJ.BHhTVbxDmH5.BLtTCKMn.HfHRYwIyYhnCHw3RL0DSN4jCM2LSM2DyM2bCKMn.HfHRYwMyahnCHv3BLrzfBf.hHkE2LzIhNf.iKvvRCJ.BHhTVbyXlH5.RLv.CLt.CKMn.HfHRYwMSbhnCHw3BLrzfBf.hHkE2LmIhNf.iKvvRCJ.BHhTVbz7lH5.BLt.CKMn.HfHRYwQCchnCHv3BLrzfBf.hHkEGMlIhNffCLv.iKv.CLzfCNxfSLxTCKMn.HfHRYwQSbhnCHw3BLrzfBf.hHkEGMmIhNf.iKvvRCJ.BHhTVb07lH5.BLt.CKMn.HfHRYwUCchnCHx3BLrzfBf.hHkEWMlIhNfDSM4jSNtjSN4.iLyPyL2TCKMn.HfHRYwUSbhnCHw3BLrzfBf.hHkEWMmIhNf.iKvvRCJ.BHhfmYo8lH5.BLt.CKMn.HfHxamElahnCHsPiKvLiLv.SN1.SL0jyLvDCNrzfBf.hHs8lbjIhNf.iKvvRCJ.BHhLmagA2bn8FcvHhNfHhHrzfBf.hHy4VXvMGZuQWLhnCHhHBKMn.HfHxbtEFbyg1azIiH5.hHhvRCJ.BHhLmagA2bn8FcyHhNfHhHrzfBf.hHy4VXvMGZuQGMhnCHhHBKMn.HfHxbtEFbyg1azUiH5.hHhvRCJ.BHhLmagA2bn8Fc1HhNfHhHrzfBf.hHy4VXvMGZuQ2MhnCHhHBKMn.HfHxbtEFbyg1azgiH5.hHhvRCJ.BHhLmagA2bn8Fc4HhNfHhHrzfBf.hHy4VXvMGZuQWLvHhNfHhHrzfBf.hHy4VXvMGZuQWLwHhNfHhHrzfBf.hHy4VXvMGZuQWLxHhNfHhHrzfBf.hHy4VXvMGZuQWLyHhNfHhHrzfBf.hHy4VXvMGZuQWLzHhNfHhHrzfBf.hHy4VXvMGZuQWL0HhNfHhHrzfBf.hHvIWYoIhNfTCKMn.HfHBbxUlahnCHhvTPsTSPfLzasAmbkM2buImHMnPeXUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oEP5A3d.vGf7Abe.4Gv+Bjf.LHvDBfg.ZHvGGHF.......f.A.........PF..................vAqA"
+	}
+
+}

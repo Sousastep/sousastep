@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "bx_solo",
+	"origin" : "bx_solo.vst3info",
+	"type" : "VST3",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "bx_solo.vst3info",
+		"plugindisplayname" : "bx_solo",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "572.VMjLgLi....OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DyMx3hPmACTwEjKt3BTZEEaMYzXt3hKt.kPUEldIcjKt3hKn4hKt3BTB4hKtfkKt3hKtDjKt3hKtvTQiM0XG4hKt3hKt3hKt3hKt3hKt3hKt3hKtLENFEFSA4hKt3hKt3hKt3hKt3hKt3hKt3hK1QUc2wFUt3hKt3hKt3hKt3hKt3hKt3hKt3hKLASXxACQt3hKt3hKt3hKt3hKt3hKt3hKt3hKSgiQgMUPt3hKt3hKt3hKt3hKt3hKt3hKt3hcTo2XUoUNtAGbwUSZvAGcv8DbvUCb43FbvEmRTQlcEYjKt3hKA4hKt3hKtvyKIMzasA2atUlaz4COIUDYoQ2Pu4Fcx8FarUlb9DyMx3hPmACTwEjKt3BTZEEaMYzXt3hKt.kPUEldIcjKt3hKn4hKt3BTB4hKtfkKt3hKtDjKt3hKtvTQiM0XG4hKt3hKt3hKt3hKt3hKt3hKt3hKtLENFEFSA4hKt3hKt3hKt3hKt3hKt3hKt3hK1QUc2wFUt3hKt3hKt3hKt3hKt3hKt3hKt3hKLASXxACQt3hKt3hKt3hKt3hKt3hKt3hKt3hKSgiQgMUPt3hKt3hKt3hKt3hKt3hKt3hKt3hcTo2XUoUNtAGbwUSZvAGcv8DbvUCb43FbvEmRTQlcEYjKt3hKA4hKt3hKtvyKIUDYoQ2Pu4Fcx8FarUlb9vyKVMEUy.Ea0cVZtMEcgQWY9.."
+	}
+
+}
