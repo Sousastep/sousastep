@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Auto-Align",
+	"origin" : "AutoAlign.vstinfo",
+	"type" : "VST",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "AutoAlign.vstinfo",
+		"plugindisplayname" : "Auto-Align",
+		"pluginsavedname" : "C74_VST:/AutoAlign",
+		"pluginsaveduniqueid" : 0,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "220.CMlaKA....fQPMDZ....ADFam4F.AXv.....A..........................................nVMjLgbI....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOMkETLU0QI4zTEQEUI4zQSABL8HBLt.iHfDSOh.iKvHBHxziHsXCLt.iHfLSOhzhMv3BLh.BM8HBLt.iHfTSOh.iKvHBH1ziHv3BLh.xM8HBLt.iHffSOhDiKvHBH4ziHw3BLh.RLvziHv3BLh7hO.."
+	}
+
+}
