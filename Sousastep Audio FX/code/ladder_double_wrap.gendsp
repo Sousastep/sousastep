@@ -50,7 +50,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 951.462404157924084, 649.391665807792151, 117.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "this bias makes the visuals a bit more convincing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -69,7 +68,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 719.212404157924539, 522.318400135953652, 116.0, 35.0 ],
-					"presentation_linecount" : 3,
 					"text" : "crossfade 0-1 between \"dry/wet\"",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -310,8 +308,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 136.0, 1242.500009417533875, 73.0, 22.0 ],
-					"text" : "slide 48 480"
+					"patching_rect" : [ 136.0, 1242.500009417533875, 80.0, 22.0 ],
+					"text" : "slide 28 4800"
 				}
 
 			}
@@ -460,8 +458,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 1242.500009417534329, 73.0, 22.0 ],
-					"text" : "slide 48 480"
+					"patching_rect" : [ 31.0, 1242.500009417534329, 80.0, 22.0 ],
+					"text" : "slide 28 4800"
 				}
 
 			}
@@ -722,7 +720,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.711234625179486, 231.0, 54.5, 21.0 ],
+					"patching_rect" : [ 629.711234625179486, 231.0, 55.0, 21.0 ],
 					"text" : "tuba env",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -927,8 +925,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 283.0, 970.853577934375608, 201.0, 23.0 ],
-					"text" : "param LoDryTrim @min -12 @max 0",
+					"patching_rect" : [ 283.0, 970.853577934375608, 208.0, 23.0 ],
+					"text" : "param LoDryTrim @min -144 @max 0",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[3]"
 				}

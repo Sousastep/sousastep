@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -73.0, -967.0, 1617.0, 912.0 ],
+		"openrect" : [ 24.0, 81.0, 392.0, 183.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,45 +21,62 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbarvisible" : 0,
+		"lefttoolbarpinned" : 2,
+		"toptoolbarpinned" : 2,
+		"righttoolbarpinned" : 2,
+		"bottomtoolbarpinned" : 2,
+		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
+		"devicewidth" : 392.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"workspacedisabled" : 1,
 		"assistshowspatchername" : 0,
+		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-82",
-					"linecount" : 2,
+					"fontsize" : 9.0,
+					"id" : "obj-10",
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 858.0, 1015.0, 340.0, 35.0 ],
-					"text" : "load \"/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/patchers/Gen_Auto-wah.maxpat\""
+					"patching_rect" : [ 728.0, 814.767480591362983, 94.0, 49.0 ],
+					"text" : ";\rmax launchbrowser https://cycling74.com/forums/max-openfile"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-79",
+					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 677.416078286413267, 957.0, 433.0, 22.0 ],
-					"text" : "load \"Sousastep Visual FX/patchers/Sousastep LEDs amplitude effects.maxpat\""
+					"patching_rect" : [ 555.416078286413267, 873.767480591362983, 605.0, 35.0 ],
+					"text" : ";\rmax openfile ID_one \"/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/Sousastep Audio FX.maxproj\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 589.416078286413267, 918.767480591362983, 609.0, 35.0 ],
+					"text" : ";\rmax openfile ID_two \"/Users/jbaylies/Music/_repo/sousastep/Sousastep Visual FX/Sousastep Visual FX.maxproj\""
 				}
 
 			}
@@ -72,7 +89,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 675.416078286413267, 1015.0, 56.0, 22.0 ],
+					"patching_rect" : [ 555.416078286413267, 974.0, 56.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -86,8 +103,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 907.416078286413267, 891.767480591362983, 104.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 613.416078286413267, 841.767480591362983, 104.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 172.020650286413456, 151.767480591362983, 104.0, 22.0 ],
 					"text" : "open visual FX",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -100,8 +118,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.058823529411765, 0.709803921568627, 0.72156862745098, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 881.416078286413267, 890.767480591362983, 24.0, 24.0 ]
+					"patching_rect" : [ 589.416078286413267, 841.767480591362983, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 147.020650286413456, 150.767480591362983, 24.0, 24.0 ]
 				}
 
 			}
@@ -114,7 +135,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 703.416078286413267, 891.767480591362983, 100.0, 22.0 ],
+					"patching_rect" : [ 581.416078286413267, 811.767480591362983, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.020650286413456, 151.767480591362983, 100.0, 22.0 ],
 					"text" : "open audio FX",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -127,8 +150,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.227450980392157, 0.631372549019608, 0.074509803921569, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 677.416078286413267, 891.767480591362983, 24.0, 24.0 ]
+					"patching_rect" : [ 555.416078286413267, 811.767480591362983, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.055396023531102, 150.767480591362983, 24.0, 24.0 ]
 				}
 
 			}
@@ -285,7 +311,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 258.757190976469246, 724.29921000000013, 34.0, 35.0 ],
+					"patching_rect" : [ 258.757190976469246, 724.29921000000013, 35.0, 35.0 ],
 					"text" : "0.150562 0.150562 0.150562 1."
 				}
 
@@ -1252,10 +1278,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 1.0 ],
+					"bgcolor" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 1.0 ],
+					"bgfillcolor_color" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
 					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1295,10 +1321,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 1.0 ],
+					"bgcolor" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 1.0 ],
+					"bgfillcolor_color" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
 					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1355,10 +1381,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.15056249499321, 0.15056249499321, 0.15056249499321, 0.88 ],
 					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
 					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1386,6 +1412,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.49 ],
 					"id" : "obj-59",
 					"maxclass" : "ezadc~",
 					"numinlets" : 1,
@@ -2441,7 +2468,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "External Headphones", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2509,8 +2536,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 85.712351488234447, 703.006280591363065, 119.696742976469523, 78.0 ],
-					"presentation_linecount" : 7,
+					"patching_rect" : [ 85.712351488234447, 703.006280591363065, 121.0, 78.0 ],
 					"text" : "if I/O and Signal vector sizes don't match, turn their background color red"
 				}
 
@@ -2523,7 +2549,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 366.666078286413267, 739.5, 134.0, 37.0 ],
+					"patching_rect" : [ 366.666078286413267, 739.5, 137.0, 37.0 ],
 					"text" : "bang when interface disconnects"
 				}
 
@@ -3101,6 +3127,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
 					"source" : [ "obj-60", 0 ]
 				}
@@ -3131,6 +3164,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-522", 0 ],
 					"order" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -3142,6 +3182,13 @@
 					"destination" : [ "obj-535", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -3162,6 +3209,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-77", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-81", 0 ]
 				}
@@ -3177,7 +3231,7 @@
  ],
 		"dependency_cache" : [  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ],
+		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 0.21 ],
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]
 	}
 

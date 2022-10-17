@@ -1,32 +1,20 @@
 {
-	"name" : "Sousastep Visual FX",
+	"name" : "Sousastep Audio Status",
 	"version" : 1,
-	"creationdate" : 3678270439,
-	"modificationdate" : 3748125297,
-	"viewrect" : [ 62.0, -714.0, 300.0, 500.0 ],
+	"creationdate" : 3748123001,
+	"modificationdate" : 3748123001,
+	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"Sousastep LEDs amplitude effects.maxpat" : 			{
+			"Sousastep Audio Status.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
-
-		}
-,
-		"code" : 		{
-
-		}
-,
-		"data" : 		{
-
-		}
-,
-		"other" : 		{
 
 		}
 
@@ -46,5 +34,5 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 1
+	"viewmode" : 0
 }
