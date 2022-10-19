@@ -26,11 +26,11 @@
 				"Limiter" : 1.0,
 				"Meters" : 1.0,
 				"MetersRate" : 25.0,
-				"Mode" : 1.0,
+				"Mode" : 0.0,
 				"ProgressiveRelease" : 54.0,
 				"Range" : 36.0,
 				"Ratio" : 7.0,
-				"Release" : 73.0,
+				"Release" : 69.0,
 				"SideChainFilter" : 0.0,
 				"SmoothGain" : 13.0,
 				"Thresh" : -32.0
