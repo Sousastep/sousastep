@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -444,8 +444,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1045.372288091976998, 908.810257440074338, 204.0, 23.0 ],
-					"text" : "param Zlo_val 40 @min 0 @max 100",
+					"patching_rect" : [ 1045.372288091976998, 908.810257440074338, 223.0, 23.0 ],
+					"text" : "param Zlo_val 40 @min -100 @max 200",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[7]"
 				}
@@ -462,8 +462,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1023.872288091976998, 837.810257440074338, 204.0, 23.0 ],
-					"text" : "param Zhi_val 44 @min 0 @max 100",
+					"patching_rect" : [ 1023.872288091976998, 837.810257440074338, 223.0, 23.0 ],
+					"text" : "param Zhi_val 44 @min -100 @max 200",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[6]"
 				}
