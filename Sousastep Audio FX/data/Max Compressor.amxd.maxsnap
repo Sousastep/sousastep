@@ -13,13 +13,13 @@
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
 				"AGC" : 1.0,
-				"Attack" : 150.0,
+				"Attack" : 133.0,
 				"Bypass" : 0.0,
 				"ChannelCoupling" : 0.0,
-				"Delay" : 0.0,
+				"Delay" : 23.0,
 				"DownExpandEnable" : 1.0,
 				"DownExpandThresh" : -45.0,
-				"DualBand" : 1.0,
+				"DualBand" : 0.0,
 				"Gain" : 6.0,
 				"LevelDetectFreeze" : -54.0,
 				"LevelDetectGating" : -36.0,
