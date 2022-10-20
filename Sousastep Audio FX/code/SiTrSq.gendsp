@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 249.0, 95.0, 994.0, 735.0 ],
+		"rect" : [ 381.0, 114.0, 994.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 646.0, 409.0, 67.0, 22.0 ],
+					"patching_rect" : [ 588.333336889744032, 422.95857287484364, 67.0, 22.0 ],
 					"text" : "slide 48 48"
 				}
 
@@ -207,8 +207,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 588.333336889744032, 387.458572874843583, 23.0, 22.0 ],
-					"text" : "- 1",
+					"patching_rect" : [ 588.333336889744032, 387.458572874843583, 26.0, 22.0 ],
+					"text" : "+ 1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -237,7 +237,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 380.95857287484364, 166.0, 35.0 ],
+					"patching_rect" : [ 68.0, 409.95857287484364, 166.0, 35.0 ],
 					"text" : "param @name SiTrSq @default 1 @min 1 @max 3"
 				}
 
@@ -264,7 +264,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.0, 433.45900693309602, 539.333336889744032, 22.0 ],
+					"patching_rect" : [ 68.0, 462.45900693309602, 539.333336889744032, 22.0 ],
 					"text" : "selector 3",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -281,8 +281,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 588.333336889744032, 341.458138816591145, 25.0, 21.0 ],
-					"text" : "* 2",
+					"patching_rect" : [ 588.333336889744032, 341.458138816591145, 27.0, 21.0 ],
+					"text" : "* -2",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -397,7 +397,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 68.0, 479.459440991348401, 62.0, 35.0 ],
+					"patching_rect" : [ 68.0, 508.459440991348401, 62.0, 35.0 ],
 					"text" : "out 1",
 					"textcolor" : [ 0.968627450980392, 0.968627450980392, 0.968627450980392, 0.89 ]
 				}
