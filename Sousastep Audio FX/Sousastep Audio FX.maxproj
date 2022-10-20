@@ -2,10 +2,10 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3748126374,
-	"viewrect" : [ 327.0, -905.0, 300.0, 500.0 ],
+	"modificationdate" : 3749123017,
+	"viewrect" : [ 441.0, 113.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
-	"hideprojectwindow" : 0,
+	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
@@ -56,5 +56,6 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 1
+	"viewmode" : 1,
+	"includepackages" : 0
 }
