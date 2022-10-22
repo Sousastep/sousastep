@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Shadow Hills Mastering Compressor",
+	"origin" : "Shadow Hills Mastering Compressor.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "AudioEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "Shadow Hills Mastering Compressor.auinfo",
+		"plugindisplayname" : "Shadow Hills Mastering Compressor",
+		"pluginsavedname" : "C74_AU:/Shadow Hills Mastering Compressor",
+		"pluginsaveduniqueid" : 1397247299,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"sliderorder" : [  ],
+		"slidervisibility" : [ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ],
+		"blob" : "797.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDBI2c38TDBPHTsQmb..f.7A..BPH...vG....D.....fP4AWX+.H..7Cf..vO.B..+.H..7jP4EyO.B..+.H..7Cf..vO.B..OQEZw3CxYs................vSG4VL+rwz54SgPJqOEBor9THjxRjP4EyO.B..+.H..7Cf..vO.B..DQEZw3SAPJK................QREVL+jQlZ5CyL2rOLyby9vLyMSTPzEiOLyby+.H..7Cf..vO.B..DIUYw7Cf...................QG4VL9r4z54SgPJqOEBor9THjxN0PFEC.....................TIWXw7C...vO.B..+.H..7Cf..PSzIWL.....................7jP4IyO.B..+.H..7Cf..vO.B..OQEZx3CxYs................vSG4lL+rwz54SgPJqOEBor9THjxRjP4IyO.B..+.H..7Cf..vO.B..DQEZx3SAPJK................QRElL+jQlZ5CyL2rOLyby9vLyMSTPzIiOLyby+.H..7Cf..vO.B..DIUYx7Cf...................QG4lL9r4z54SgPJqOEBor9THjxN0PFIC.....................TIWXx7C...vO.B..+.H..7Cf..PSzImL+....7C...vO....+....vTZts1O.B..+.H..7Cf..vO.B..q0TZ38Cf..vO.B..+.H..7Cf..vTCgDT8bMgk2S2qWVOcudY8z85kITXtsF.....................qUVdIA....................fUUIkY9vDTa5CSPsoOLA0l9vDTaJQX0YFdRLERMMDD...B.TA.Z.vI.vB.w.PN.DD.JAvSBbs.bKP3........BD..........M...................BLN"
+	}
+
+}

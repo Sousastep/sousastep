@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -63,7 +63,7 @@
 							"parameter_initial" : [ 300 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[6]",
+							"parameter_longname" : "number[16]",
 							"parameter_shortname" : "number[4]",
 							"parameter_type" : 3
 						}
@@ -88,7 +88,7 @@
 							"parameter_initial" : [ 150 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "number[5]",
+							"parameter_longname" : "number[15]",
 							"parameter_shortname" : "number[3]",
 							"parameter_type" : 3
 						}
@@ -106,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 89.5, 503.043667455880495, 179.0, 20.0 ],
-					"text" : "double click in less than 600 ms"
+					"text" : "double click in less than 300 ms"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 19.0, 460.043667455880495, 176.0, 20.0 ],
-					"text" : "single click in less than 300 ms"
+					"text" : "single click in less than 150 ms"
 				}
 
 			}
@@ -128,7 +128,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 184.542091597184935, 542.043667455880495, 150.0, 20.0 ],
-					"text" : "hold for more than 300 ms"
+					"text" : "hold for more than 150 ms"
 				}
 
 			}

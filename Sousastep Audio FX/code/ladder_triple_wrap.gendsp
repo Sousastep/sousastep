@@ -40,6 +40,37 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 1.0, 1.0 ],
+					"color" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1229.0, 1562.347221899363603, 132.0, 23.0 ],
+					"text" : "setparam filter_bypass",
+					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
+					"varname" : "shape[14]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.584313725490196, 0.050980392156863, 0.996078431372549, 1.0 ],
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1229.0, 1526.502278992642914, 206.0, 22.0 ],
+					"text" : "param filter_bypass @min 0 @max 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.945098039215686, 0.917647058823529, 0.917647058823529, 1.0 ],
 					"color" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ],
 					"id" : "obj-65",
@@ -64,8 +95,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1221.5, 1447.666664004325867, 308.0, 23.0 ],
-					"text" : "param @name mix_bias @default 0.75 @min -1 @max 1",
+					"patching_rect" : [ 1221.5, 1447.666664004325867, 265.0, 23.0 ],
+					"text" : "param mix_bias @default 0.75 @min -1 @max 1",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[10]"
 				}
@@ -1197,6 +1228,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.771525800228119, 0.0, 0.700036466121674, 1.0 ],
 					"destination" : [ "obj-6", 0 ],
 					"order" : 1,
@@ -1817,6 +1855,22 @@
 					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}

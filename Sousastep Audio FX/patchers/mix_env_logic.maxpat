@@ -48,8 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 898.465891027941325, 884.290371962606514, 84.93334195613852, 52.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 898.465891027941325, 884.290371962606514, 85.0, 52.0 ],
 					"text" : "add hi_val up past ceiling"
 				}
 
@@ -65,7 +64,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 775.465891027941325, 884.290371962606514, 97.500003457069397, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "subtracts hi_val down to floor"
 				}
 
@@ -80,8 +78,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 583.750001192092896, 884.290371962606514, 74.93334195613852, 52.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 583.750001192092896, 884.290371962606514, 75.0, 52.0 ],
 					"text" : "add lo_val up to ceiling"
 				}
 
@@ -97,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.750001192092896, 884.290371962606514, 97.500003457069397, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "subtracts lo_val down past floor"
 				}
 
@@ -112,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.683336770534538, 708.84172488923582, 122.500003457069397, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "distance between lo_val and floor"
 				}
 
@@ -128,7 +123,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 634.699226248755508, 697.553091416426014, 109.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "distance between lo_val and ceiling"
 				}
 
@@ -141,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 857.965891027941325, 278.26235327223435, 137.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "inverts axis when hi / lo vals are swapped."
 				}
 
@@ -199,7 +192,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 169.666672348976135, 169.922516314622953, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.781838517073083, 299.329182855909949, 24.0, 24.0 ],
+					"presentation_rect" : [ 3.948503117445398, 260.412515156096106, 27.833335399627686, 27.833335399627686 ],
 					"uncheckedcolor" : [ 0.686274509803922, 0.686274509803922, 0.686274509803922, 1.0 ],
 					"varname" : "env_inv"
 				}
@@ -701,18 +694,16 @@
 				"box" : 				{
 					"bgcolor" : [ 0.666666666666667, 0.690196078431373, 0.682352941176471, 0.541176470588235 ],
 					"bubble" : 1,
-					"bubbleside" : 2,
 					"bubbleusescolors" : 1,
 					"id" : "obj-506",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 210.666672348976135, 163.422516314622953, 118.0, 52.0 ],
+					"patching_rect" : [ 210.666672348976135, 163.422516314622953, 118.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 3.948503117445398, 255.829182855909949, 87.0, 52.0 ],
-					"text" : "invert env - options button"
+					"presentation_rect" : [ 33.781838517073083, 255.829182855909949, 57.0, 37.0 ],
+					"text" : "invert env"
 				}
 
 			}
@@ -844,8 +835,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 169.666672348976135, 37.824844765664693, 55.0, 22.0 ],
-					"text" : "r options"
+					"patching_rect" : [ 169.666672348976135, 28.824844765664693, 109.0, 22.0 ],
+					"text" : "r ______________"
 				}
 
 			}
@@ -894,7 +885,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 736.750001192092896, 1102.457011409818733, 146.93334195613852, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "invert hi and lo values"
 				}
 
