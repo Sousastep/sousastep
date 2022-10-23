@@ -1,0 +1,21 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Pro-MB",
+	"origin" : "Pro-MB.auinfo",
+	"type" : "AudioUnit",
+	"subtype" : "MidiEffect",
+	"embed" : 0,
+	"snapshot" : 	{
+		"pluginname" : "Pro-MB.auinfo",
+		"plugindisplayname" : "Pro-MB",
+		"pluginsavedname" : "",
+		"pluginsaveduniqueid" : 1179667810,
+		"version" : 1,
+		"isbank" : 0,
+		"isbase64" : 1,
+		"blob" : "1395.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEAADC..............WB....vO.B......A.T2E.D...f.9.H......LPPNrKH....D3Cf......PA.........XfOcLfZ....GDL7.......B+bi8lC...jvOFuPX....JDDhbHG...vB.AD......vPPPB......MziBqB....fC.........7..........P.TmE.D...PDAoPS7....HwO.B......S..........E.........TA.........V7Cf......vEAACw2....fgOpp5p....YDDUZhG...fF+........rA.........b3ixTJM...PG.ic8DC...3gOHGyI....e.jqOUJ....HA8q9OA...DRPP.......hDD.......vH.........PB.........k.........fI.0YA.A...bRPsYed....n7Cf......PJ9.H......nB.........q..........K.A.......zRPNrKH....t3Cf......vKAACw2.....iOpp5p....w7Cf......fL+fDhIB...LCvfB......z3CguUO...PM.........XSPvCP.....2.DP.......N.AL......jC.........5.........vN.........vCPcV.P....8DjBMwC...fO+.H......7C..........A........PP.........HzO.B......CATmE.D....Q+........TDPcW.P....F4Cf......vQ.........fzO.f45....IAr3OxE...fR+.H......rjPWxby....LETuYpI...PSAAL......3zO.B......OA.........T.........DE.........REz.o5C...vTAgyybC...P0O.B......U8C.......fU.........bE.........X8Cf......PVAQkl3A...n0O........aETa1mG....W+........zE.........d4Cc7pF...vW.CJ.......lOoB8M....gEDP......fXAkMNiC...LlP.A......jAD3......PY.........XF.........mA.........ZAMPp9....jVP37L2....p8Cf......vZ9HKXG....vF.........sA........fa.A.......7FPcV.P....v8C.......PbA0l84A...H2O........yA.........c+LyLy....TG.........18SFYpI...vcAAJ......fWPfB......4EDv......fd+.H......rG.........7A........Pe.........3GPcV.P....+ETa1mG....f.........D3O........BB........vf.........PH.........E9Cf......fg.........bH.........HB........Ph.........nH.........K9Cf.......i.........zH.........N9Cf......vi..........IP........QBDP......fj.A.......LIP.A......TBDP......Pk.........X4O.B..RXDTMIFD.HQX00lYWM2Xfv1auAGDA..B.bA.j.PJ.DC.4.fO.LD.RAvUE7QAjTfIErRAy........HP..........7...................TPM"
+	}
+
+}
