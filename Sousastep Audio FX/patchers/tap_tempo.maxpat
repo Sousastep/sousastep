@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 122.0, 566.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-114",
 					"maxclass" : "newobj",
@@ -151,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 179.000007152557373, 499.592681506902295, 43.5, 26.0 ],
+					"patching_rect" : [ 176.500007152557373, 513.592681506902181, 43.5, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.65365676630995, 4.959416701400983, 53.0, 26.0 ],
 					"text" : "BPM",
@@ -209,7 +221,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 122.000007152557373, 498.592681506902181, 55.0, 28.0 ],
+					"patching_rect" : [ 122.000007152557373, 513.592681506902181, 55.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.65365676630995, 32.959416701400983, 53.0, 28.0 ],
 					"textcolor" : [ 0.529411764705882, 0.956862745098039, 1.0, 0.949019607843137 ],
@@ -408,16 +420,23 @@
 				"box" : 				{
 					"comment" : "Beats per minute",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 122.000007152557373, 550.826213080573439, 30.0, 30.0 ]
+					"patching_rect" : [ 122.000007152557373, 612.826213080573439, 30.0, 30.0 ]
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-418", 5 ],
 					"source" : [ "obj-107", 0 ]
@@ -478,7 +497,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-416", 0 ]
 				}
 
@@ -633,6 +652,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.83 ],
 		"editing_bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.64 ]
 	}
