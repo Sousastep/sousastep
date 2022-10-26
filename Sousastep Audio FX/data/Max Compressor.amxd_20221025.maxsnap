@@ -1,0 +1,43 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Max Compressor.amxd",
+	"origin" : "Max Compressor.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Max Compressor.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max Compressor/Max Compressor.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"AGC" : 1.0,
+				"Attack" : 133.0,
+				"Bypass" : 0.0,
+				"ChannelCoupling" : 0.0,
+				"Delay" : 23.0,
+				"DownExpandEnable" : 1.0,
+				"DownExpandThresh" : -45.0,
+				"DualBand" : 0.0,
+				"Gain" : 0.0,
+				"LevelDetectFreeze" : -54.0,
+				"LevelDetectGating" : -36.0,
+				"Limiter" : 1.0,
+				"Meters" : 1.0,
+				"MetersRate" : 25.0,
+				"Mode" : 0.0,
+				"ProgressiveRelease" : 54.0,
+				"Range" : 10.0,
+				"Ratio" : 7.0,
+				"Release" : 129.0,
+				"SideChainFilter" : 0.0,
+				"SmoothGain" : 13.0,
+				"Thresh" : -28.0
+			}
+
+		}
+
+	}
+
+}
