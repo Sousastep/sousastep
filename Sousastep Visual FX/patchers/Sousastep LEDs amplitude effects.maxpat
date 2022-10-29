@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-204",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2365.562768212814262, 701.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2362.158837540664535, 744.666666626930237, 32.0, 22.0 ],
+					"text" : "gate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-188",
 					"maxclass" : "newobj",
@@ -393,7 +417,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2380.765059999999721, 384.0, 136.0, 22.0 ],
+					"patching_rect" : [ 2380.765059999999721, 368.0, 136.0, 22.0 ],
 					"text" : "r change_multiple_color"
 				}
 
@@ -488,9 +512,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2380.765059999999721, 492.938979999999901, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 638.084410306583095, 806.672767769470283, 24.0, 24.0 ]
+					"patching_rect" : [ 2380.765059999999721, 492.938979999999901, 24.0, 24.0 ]
 				}
 
 			}
@@ -549,9 +571,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 2403.51807400000007, 803.0, 160.0, 120.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 506.818094190270585, 714.619023693022655, 160.0, 120.0 ],
+					"patching_rect" : [ 2442.51807400000007, 711.0, 160.0, 120.0 ],
 					"sync" : 1
 				}
 
@@ -1601,7 +1621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1789.871073273628099, -725.265855648559636, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -24. 24000"
 				}
 
 			}
@@ -3980,8 +4000,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4995,8 +5015,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5696,7 +5716,7 @@
 					"patching_rect" : [ -500.903930672149727, -672.0, 198.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "init shader",
+					"text" : "big colorful cubes",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -5726,37 +5746,37 @@
 					"patching_rect" : [ -495.540946714285838, -864.296630999999934, 123.0, 22.0 ],
 					"restore" : 					{
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Avenir Medium Oblique" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"LineFinal" : [ -24.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 24.0 ],
+						"MultipleShapeSelection" : [ "cube" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"TextPositionY" : [ 0.0 ],
-						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
-						"TextZthickness" : [ 0.0 ],
+						"TextPositionY" : [ -0.53 ],
+						"TextPositionZ" : [ 0.08 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.461 ],
+						"TextTracking" : [ 1.065 ],
+						"TextZthickness" : [ -0.28 ],
 						"TextboxIndex" : [ 1 ],
 						"color_changer" : [ 0 ],
 						"enable_fractal" : [ 0 ],
-						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
+						"enable_multiple_shape" : [ 1 ],
+						"enable_shader" : [ 0 ],
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
-						"fractal_color_1" : [ 1 ],
-						"fractal_color_2" : [ 0 ],
-						"fractal_palette_1" : [ 4 ],
+						"fractal_color_1" : [ 0 ],
+						"fractal_color_2" : [ 1 ],
+						"fractal_palette_1" : [ 5 ],
 						"fractal_palette_1inv" : [ 1 ],
-						"fractal_palette_2inv" : [ 0 ],
-						"fractal_pallet_2" : [ 2 ],
+						"fractal_palette_2inv" : [ 1 ],
+						"fractal_pallet_2" : [ 1 ],
 						"light_type" : [ "point" ],
 						"loop_GIF_number" : [ 1 ],
-						"multiple_material" : [ 8 ],
+						"multiple_material" : [ 3 ],
 						"text_loop_toggle" : [ 0 ]
 					}
 ,
@@ -5778,7 +5798,7 @@
 						"client_rect" : [ 23, 79, 377, 207 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 454, 177, 985, 742 ]
+						"storage_rect" : [ 454, 87, 1098, 866 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 2 @backupmode 3",
@@ -6682,8 +6702,8 @@
 					"numinlets" : 4,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1765.5960693278505, 803.0, 557.999999999999773, 22.0 ],
-					"text" : "jit.gl.multiple 4 @targetname the-shape @glparams position rotatexyz scale color"
+					"patching_rect" : [ 1765.5960693278505, 803.0, 542.999999999999773, 22.0 ],
+					"text" : "jit.gl.multiple 4 @targetname the-shape @glparams position rotatexyz scale"
 				}
 
 			}
@@ -7110,7 +7130,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "wlan-debug", ",", "usbmodem40590801", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8135,8 +8155,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8310,8 +8330,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8450,8 +8470,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8666,8 +8686,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8782,8 +8802,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8969,8 +8989,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10307,6 +10327,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"source" : [ "obj-204", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-201", 0 ],
 					"source" : [ "obj-208", 0 ]
 				}
@@ -10559,7 +10586,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-396", 0 ],
+					"destination" : [ "obj-406", 0 ],
 					"source" : [ "obj-234", 0 ]
 				}
 
@@ -12187,7 +12214,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-409", 3 ],
+					"destination" : [ "obj-192", 1 ],
 					"order" : 1,
 					"source" : [ "obj-482", 0 ]
 				}
@@ -12630,13 +12657,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-546", 0 ],
 					"source" : [ "obj-540", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-543", 0 ],
-					"source" : [ "obj-542", 0 ]
 				}
 
 			}

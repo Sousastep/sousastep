@@ -16,10 +16,10 @@
 				"Attack" : 133.0,
 				"Bypass" : 0.0,
 				"ChannelCoupling" : 0.0,
-				"Delay" : 23.0,
+				"Delay" : 0.0,
 				"DownExpandEnable" : 1.0,
 				"DownExpandThresh" : -45.0,
-				"DualBand" : 0.0,
+				"DualBand" : 1.0,
 				"Gain" : 0.0,
 				"LevelDetectFreeze" : -54.0,
 				"LevelDetectGating" : -36.0,
@@ -28,12 +28,12 @@
 				"MetersRate" : 25.0,
 				"Mode" : 0.0,
 				"ProgressiveRelease" : 54.0,
-				"Range" : 10.0,
-				"Ratio" : 7.0,
+				"Range" : 17.0,
+				"Ratio" : 77.0,
 				"Release" : 129.0,
 				"SideChainFilter" : 0.0,
 				"SmoothGain" : 13.0,
-				"Thresh" : -28.0
+				"Thresh" : -32.0
 			}
 
 		}
