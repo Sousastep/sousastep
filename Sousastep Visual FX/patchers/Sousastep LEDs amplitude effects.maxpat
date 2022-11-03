@@ -13271,10 +13271,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jit.+.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "map_audio_presets_to_visual_presets.txt",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Visual FX/data",
 				"patcherrelativepath" : "../data",
