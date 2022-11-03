@@ -1,0 +1,23 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Sousastep Dry FX",
+	"origin" : "Sousastep Dry FX",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"blob" : 				{
+					"function" : [ 1000.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1000.0, 0.7, 0, -0.545, "curve" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
