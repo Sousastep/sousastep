@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 105.0, 693.0, 697.0 ],
+		"rect" : [ 34.0, 87.0, 897.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,87 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 55.0, 410.950079676160385, 184.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Delay TAPE-201", ";" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Delay TAPE-201.auinfo",
+							"plugindisplayname" : "Delay TAPE-201",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1415655984,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "3638.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAPI..............DC...P.+.H......HfOnaO0....C7iC3PN....A9ft8TC...TvONfC4....F3SkUUE...vA+PGupA...f..........I3y9fXL...fB+TQfF....rfORG+p....LzS2ujA...PC+3BE6A...3fOnq6K....O3ykMFE....D+viZ.B...DA.........R7C.......vD+.H......PwO.B......U7Cf......fE9TNXCA...bgO2R83....X7COpAH...PF+zhCVA...nwO.B......a..........G+HgaJ....zwONfC4....d.........vG9nqW1.....xOPA......w7C.......fL+........LyO........z7C.......PM+........XyO........27C........N+........jyO........57C.......vN+........vC.........8.........fO.........7C..........A........PP.....HMCM3PDQESTxD8CPDELYMEckIWYuARRtE8CRn0TzUlbk8FHOUGcOEwBkJiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLx.BTo41Ys.0atcFHTIWXtMVYfP2auIVXfPCHUMWYxABMz.RNfL2a0MWXyQWYvABLf.BLf.CHv.BLf.CHv.BLf.RL1XyM3PyL1jiLfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CH0.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGHwLSMfLDZgIWXiQWYxk1bzk1XywBSF8DeL8lamAhTkwVYgMWY7IUYy8lag4Fc7M0a04FYfTjYlU1XzMGeSkmazgFeTUVav8VKSkmaiUFY6bTYtIWYywBTykGcxElaiUFeTIWXtMVY6LEc4wVYywRPz01ayAGZkIWZiwmPxk1YnQGeWElbsw2UoQVY6.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakAhLx.BTo41Ys.0atcFHTIWXtMVYfPTYrEVdfbCHSUmXzkGbkARL0.BTo41Ys.0atcFHDUFagkGHz.BU4AWYfTCHDUFagkGHv.BLf.CH2.BLf.CHv.BLf.CHv.xL4.BLf.CHv.hMfHTdvE1byABLfDiLfzTRDkDHCgVXt4VYrABLfLSLfLEbgMVYEMFZuYDVeUTbeYTZrQWYxMCTkE1ZeYjbkEGHv3xL0jCLzXCL2.xLy.xTvE1XkUzXn8lQX8UQw8kQowFckI2LPUVXq80QgklajIDHv3hM2XCHxfCHSAWXiUVQig1aFg0WEE2WFkFazUlby.UYgs1WQABLtbyL1.CLv.iMfHSLfLEbgMVYEMFZuYDVeUTbegDTFIWYwABLtPCM3.CLv.CMfHSLfLEbgMVYEMFZuYDVeUTbewDTFIWYwARLfDyMfLEbgMVYEMFZuYDVeUTbe8jafDCHxLCHSAWXiUVQig1aFg0WI4Fb0QmUuwVcsUFHv3BM4.CM3PCMx.hLx.xTvE1XkUzXn8lQX8ESF8zWA01a04Fcf.iKyXCMv.CLvHCHwjCHSAWXiUVQig1aFg0WLYzSeETavARLfHyMfLEbgMVYEMFZuYDVewjQO8EQkMGco4VXzk1atABLtfSLxTCHxPCHSAWXiUVQig1aFg0WLYzSe0TZjk1T441Xf.CHxXCHSAWXiUVQig1aFg0WLYzSeIUXzU1T441XkQFHv3RM0TSM0TSM3.hL3.xTvE1XkUzXn8lQX8ESF8zWREFckUkaSkmaiUFYf.iK0bSL4jSL0XCHxPCHSAWXiUVQig1aFg0WLYzSecUX1UlYuIWaf.CHxXCHSAWXiUVQig1aFg0WMEVZtAkbkEVavQUdvUFHw.hLx.xTvE1XkUzXn8lQX80S0QGb0Q2Qgklaf.iK0HyLwTSM4LCHxDCHSAWXiUVQig1aFg0WRUlckImXV8Faf.CHxXCHSAWXiUVQig1aFg0WSAWXiUVQig1aeITXyMGHv3RLvbSN4jSN4.xLw.xTvE1XkUzXn8lQX80TvE1XkUzXn81WDUFagkGU4AWYf.iK0.xLx.xTvE1XkUzXn8lQX80TvE1XkUzXn81WEMFZuY0arUWakABLtjSM0jSN4jyMfLSLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8URtQWYtMWZzkGHv3hL4DiM1XiM1.hL1.xTvE1XkUzXn8lQX80TvE1XkUzXn81WLklaqARLfLCLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8USoQVZSkmaiARLfLCMfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8USuQVYSUFakMFcuIGHv3BM0PSMzTCM2.xLz.xTvE1XkUzXn8lQX80TvE1XkUzXn81WM8FcuIWRtUlbzkVXf.iKxjiMv.CLvLCHxbCHSAWXiUVQig1aFg0WSAWXiUVQig1ae4zaoMWYf.CHxfCHSAWXiUVQig1aFg0WSAWXiUVQig1ae8jYlMWYzABLtTCNyjSN4jSNfLSLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8ETxUFTuMGcEEEHw.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckwDHv3BM0TCLvfSL0.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckIEHv3BM0TCLvfSL0.xL4.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckMUdtMVYjwDHv3RM0TSM0TSM3.xL4.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckMUdtMVYjIEHv3RM0TSM0TSM3.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WSQWYxU1aWkFYzgFHv3BMwHCLv.CLy.hL3.xTvE1XkUzXn8lQX80TvE1XkUzXn81WTIWYhwVYf.iK1fCLv.CLvDCHyLCHSAWXiUVQig1aFg0WSAWXiUVQig1aec0a24lQrUGczUlbf.iK2LiMv.CLvXCHwTCHSAWXiUVQig1aFg0WWUFcfDCHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRPUXx.CD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pIf.Bbf.IHvBB3f.PHfFBzg.nzPzMXcCX2P2........BD..........X...................MXN"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Delay TAPE-201",
+									"origin" : "Delay TAPE-201.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Delay TAPE-201.auinfo",
+										"plugindisplayname" : "Delay TAPE-201",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1415655984,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "3638.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAPI..............DC...P.+.H......HfOnaO0....C7iC3PN....A9ft8TC...TvONfC4....F3SkUUE...vA+PGupA...f..........I3y9fXL...fB+TQfF....rfORG+p....LzS2ujA...PC+3BE6A...3fOnq6K....O3ykMFE....D+viZ.B...DA.........R7C.......vD+.H......PwO.B......U7Cf......fE9TNXCA...bgO2R83....X7COpAH...PF+zhCVA...nwO.B......a..........G+HgaJ....zwONfC4....d.........vG9nqW1.....xOPA......w7C.......fL+........LyO........z7C.......PM+........XyO........27C........N+........jyO........57C.......vN+........vC.........8.........fO.........7C..........A........PP.....HMCM3PDQESTxD8CPDELYMEckIWYuARRtE8CRn0TzUlbk8FHOUGcOEwBkJiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLx.BTo41Ys.0atcFHTIWXtMVYfP2auIVXfPCHUMWYxABMz.RNfL2a0MWXyQWYvABLf.BLf.CHv.BLf.CHv.BLf.RL1XyM3PyL1jiLfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CH0.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGHwLSMfLDZgIWXiQWYxk1bzk1XywBSF8DeL8lamAhTkwVYgMWY7IUYy8lag4Fc7M0a04FYfTjYlU1XzMGeSkmazgFeTUVav8VKSkmaiUFY6bTYtIWYywBTykGcxElaiUFeTIWXtMVY6LEc4wVYywRPz01ayAGZkIWZiwmPxk1YnQGeWElbsw2UoQVY6.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakAhLx.BTo41Ys.0atcFHTIWXtMVYfPTYrEVdfbCHSUmXzkGbkARL0.BTo41Ys.0atcFHDUFagkGHz.BU4AWYfTCHDUFagkGHv.BLf.CH2.BLf.CHv.BLf.CHv.xL4.BLf.CHv.hMfHTdvE1byABLfDiLfzTRDkDHCgVXt4VYrABLfLSLfLEbgMVYEMFZuYDVeUTbeYTZrQWYxMCTkE1ZeYjbkEGHv3xL0jCLzXCL2.xLy.xTvE1XkUzXn8lQX8UQw8kQowFckI2LPUVXq80QgklajIDHv3hM2XCHxfCHSAWXiUVQig1aFg0WEE2WFkFazUlby.UYgs1WQABLtbyL1.CLv.iMfHSLfLEbgMVYEMFZuYDVeUTbegDTFIWYwABLtPCM3.CLv.CMfHSLfLEbgMVYEMFZuYDVeUTbewDTFIWYwARLfDyMfLEbgMVYEMFZuYDVeUTbe8jafDCHxLCHSAWXiUVQig1aFg0WI4Fb0QmUuwVcsUFHv3BM4.CM3PCMx.hLx.xTvE1XkUzXn8lQX8ESF8zWA01a04Fcf.iKyXCMv.CLvHCHwjCHSAWXiUVQig1aFg0WLYzSeETavARLfHyMfLEbgMVYEMFZuYDVewjQO8EQkMGco4VXzk1atABLtfSLxTCHxPCHSAWXiUVQig1aFg0WLYzSe0TZjk1T441Xf.CHxXCHSAWXiUVQig1aFg0WLYzSeIUXzU1T441XkQFHv3RM0TSM0TSM3.hL3.xTvE1XkUzXn8lQX8ESF8zWREFckUkaSkmaiUFYf.iK0bSL4jSL0XCHxPCHSAWXiUVQig1aFg0WLYzSecUX1UlYuIWaf.CHxXCHSAWXiUVQig1aFg0WMEVZtAkbkEVavQUdvUFHw.hLx.xTvE1XkUzXn8lQX80S0QGb0Q2Qgklaf.iK0HyLwTSM4LCHxDCHSAWXiUVQig1aFg0WRUlckImXV8Faf.CHxXCHSAWXiUVQig1aFg0WSAWXiUVQig1aeITXyMGHv3RLvbSN4jSN4.xLw.xTvE1XkUzXn8lQX80TvE1XkUzXn81WDUFagkGU4AWYf.iK0.xLx.xTvE1XkUzXn8lQX80TvE1XkUzXn81WEMFZuY0arUWakABLtjSM0jSN4jyMfLSLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8URtQWYtMWZzkGHv3hL4DiM1XiM1.hL1.xTvE1XkUzXn8lQX80TvE1XkUzXn81WLklaqARLfLCLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8USoQVZSkmaiARLfLCMfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8USuQVYSUFakMFcuIGHv3BM0PSMzTCM2.xLz.xTvE1XkUzXn8lQX80TvE1XkUzXn81WM8FcuIWRtUlbzkVXf.iKxjiMv.CLvLCHxbCHSAWXiUVQig1aFg0WSAWXiUVQig1ae4zaoMWYf.CHxfCHSAWXiUVQig1aFg0WSAWXiUVQig1ae8jYlMWYzABLtTCNyjSN4jSNfLSLfLEbgMVYEMFZuYDVeMEbgMVYEMFZu8ETxUFTuMGcEEEHw.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckwDHv3BM0TCLvfSL0.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckIEHv3BM0TCLvfSL0.xL4.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckMUdtMVYjwDHv3RM0TSM0TSM3.xL4.xTvE1XkUzXn8lQX80TvE1XkUzXn81WRUFbkEFcREFckMUdtMVYjIEHv3RM0TSM0TSM3.xLy.xTvE1XkUzXn8lQX80TvE1XkUzXn81WSQWYxU1aWkFYzgFHv3BMwHCLv.CLy.hL3.xTvE1XkUzXn8lQX80TvE1XkUzXn81WTIWYhwVYf.iK1fCLv.CLvDCHyLCHSAWXiUVQig1aFg0WSAWXiUVQig1aec0a24lQrUGczUlbf.iK2LiMv.CLvXCHwTCHSAWXiUVQig1aFg0WWUFcfDCHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRPUXx.CD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pIf.Bbf.IHvBB3f.PHfFBzg.nzPzMXcCX2P2........BD..........X...................MXN"
+									}
+,
+									"fileref" : 									{
+										"name" : "Delay TAPE-201",
+										"filename" : "Delay TAPE-201.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+										"filepos" : -1,
+										"snapshotfileid" : "35c6faa3b1ffa74210dc0c7b7614ac46"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 \"Delay TAPE-201\"",
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -76,7 +157,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 285.166669368743896, 194.0, 138.0, 22.0 ],
+					"patching_rect" : [ 96.5, 107.581943351368409, 138.0, 22.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Pro-Q 3", ";" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -101,7 +182,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1680.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAgajQBMU.....lE.......9C...3OZ2wy.A.............f+....9iSfCvO.....A.........P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+.qpp1C..............................9C...3O...f+B...9C...DP...f.A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....v.....YkwVX48EZoAWXyM2+++++A....j.....Tx8VKQABJ1jB.....CU2TVE..........bQVYrEVdegVZvE1byIQX00lYP...H.PE.zA.p.PP.XD.KAvT.fE.cYfPF7jATA.......HP..........z...................XfU"
+							"blob" : "1680.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAgajQBMU.....lE.......9C...3OZ2wy.A.............f+....9iSfCvO.....A.........P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+.qpp1C..............................9C...3O...f+B...9C...DP...f.A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....v.....YkwVX48EZoAWXyM2+++++A....j.....Tx8VKQABJzjB.....CU2TVE..........bQVYrEVdegVZvE1byIQX00lYP...H.PE.zA.p.PP.XD.KAvT.fE.cYfPF7jATA.......HP..........z...................XfU"
 						}
 ,
 						"snapshotlist" : 						{
@@ -123,7 +204,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1680.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAgajQBMU.....lE.......9C...3OZ2wy.A.............f+....9iSfCvO.....A.........P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+.qpp1C..............................9C...3O...f+B...9C...DP...f.A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....v.....YkwVX48EZoAWXyM2+++++A....j.....Tx8VKQABJ1jB.....CU2TVE..........bQVYrEVdegVZvE1byIQX00lYP...H.PE.zA.p.PP.XD.KAvT.fE.cYfPF7jATA.......HP..........z...................XfU"
+										"blob" : "1680.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAgajQBMU.....lE.......9C...3OZ2wy.A.............f+....9iSfCvO.....A.........P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+.qpp1C..............................9C...3O...f+B...9C...DP...f.A...AD........f+....9C....P..........................................................................................................................................fQQMCbC....v.....YkwVX48EZoAWXyM2+++++A....j.....Tx8VKQABJzjB.....CU2TVE..........bQVYrEVdegVZvE1byIQX00lYP...H.PE.zA.p.PP.XD.KAvT.fE.cYfPF7jATA.......HP..........z...................XfU"
 									}
 ,
 									"fileref" : 									{
@@ -428,87 +509,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autosave" : 1,
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"id" : "obj-451",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 86.285714285714278, 426.950079676160385, 129.0, 22.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Relayer", ";" ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"prefer" : "AudioUnit"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "Relayer.auinfo",
-							"plugindisplayname" : "Relayer",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1382378593,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "1584.hAGaoMGcv.y0AHv.DTfAGfPBJHwDTTAWsEla0YVXiQWcxUlbTQVXzEFWkwVYsUlaz0hag0VYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDUYURf7TDEfUUVkDMA....7OD...db1Gla6113.gguuOEBF6sqr3Pcx.IEHoNG5hlF2D2jKWvXyDKTYIs5Ph8a+RRIMCkkPb.BF9Sw4iin9kI8Y+9ou6+0u3n9b1UYukjIc9oXu77Yybt7Xgnp57YdybtIM+EQ55lLUG99Jg0x8E4mOiAp3KZpyWkJNpZNyYYRUgJtMGKkuJZRqctS8ujYN2Iqkk+rYurTTmWpxTmzRYV99jLT7wiYaVmeadUsNksSNyD7AoJ0xxtYXWqASzgC0YY4Qi7yRUaO2vvPVfuGWcc4o4shyb9dVQS8MhZ4UYhWRkaGJZZolzOHKjhZEknYNWKkaeQr4Ol9tKeq8.UMWJKp2o3yciAtmWjQ7g1b4xVvY7EbsnnRU7Wmjp9e0fTX53GEmOiGyBb88W.8h2VnW.XtdQgKTkw2TkQo8PMBqOVnP8WOHqxaJ2HmW1GjrunIsRVMeo78jMRm04Yx4qEERGv8Cw6cC+tjClad8UodhD5CwtK3wjpdlv8ciBB8Xgj7xxj2aqy.VLDy3mzU6byiTU3UIRcYqS1KWl794yhaiwxh01lgQ.FwwHeLJ.iBwnHLJFiVPY1iBIJLBCi3vHPLhDiPwHVLBFinADMvplHZ.QCHZ.QCHZ.QCHZ.QiSz3DMNQ6G44EOVKJa8B8JWkotwygVgG+HI6MraSqG2HRkXNdVTVz9dBQRl85ltMC6AvHNF4iQAXTHFEgQwXzBLRut0GRTXDFFwgQfXDIFghQrXDLFQCHZfUMQz.hFPz.hFPz.hFPz.hFmnwIZbh1v0sdEbcakHy98Bplr9.UN9alIp8AMUfOJEzeUg8AQ8Aw8AK5GldAnabcFGcDkeFBfQD5rM5nPRLBEiIQDDPf.DDPf.DDPf.DDPf.DDPf.DDm.wQPbBzv65cB12zernTJ11OxmS1p+l.OWOON3yhX5WfdfYuxnZpWYbgvn3fHy6KOXdD1kG4EvChZUzOa45GnE5tF8iXtAw9w.yOznDLRIbjRzHk3QJKvIlGFwvH.i3XjOFEfQgXTDFEiQHC.Y.HC.Y.HC.Y.HC.Y.HC.Y.HCNxfiL3HigqocB3ZppM8cVGXWl7eMhspuO+DkeMr4U6KpOxmPCqhuku+E6zna+K6FCSApfI3o7Ojo1YvHbcd4dQV8PMyVLtXBsK60dVr6CwNc1RGJ0+841WkYmHC0FN0dPts4vkI0UCD9mjZqwYjvsZz0dXZdV7t7wcpsmTZWlVpznIwtMtkjYdr9jNuuodTuq1IpxKuubqYt4xhM+svpOqs64Fqbf5+r5t2xOLg8aBzHc+quVIomut99tdUuXHHHPsav.VeO86Sz7nGL7MEnCAMHn+.sGn6.MGn2.sFny.PGNfNb.c3.5vAzgCnCGPGNfNb.c3.5vAzgCVyejAUATIP0.UDTUPkAUGnCGPGNfNb3TGNbhCGrb3vHGNLzgCS3vgIb3vINbv1gCib3vHGNbpCGlvgCS3vgIb3vXGNL1gCS3vgIb3voNbXrCGNwgCic3vjNbXJGN7YNb3Sc3vm3vgO2gCS5vgwNbXfCGrb38ss70KSd80lpjbyTLjEsP8IxRt6Q0.Ko6yT.LYaYyl+HKWuScntc4oa06LQu8B0GnuyKpqM0BqW3VyEhMWJ2nOsN30NP6wIyZD0lYFfr5OdMSep3sxCpSroNXu4fvcGA+I0AXMCx9z5lSrupLWsnTmHqLaQ8AQ1ap6Bg58NoJ.Y8Jg9lzDGUsvzs9jpJBN+HO6s4r+02YUdgyuqSRSpO595ghptijjIJVmeSYhoJma8KFLuaF18KbLu8m33qe4r4s+tG+Orju+FjzKvPCPDULQISzN7PTvTURtAWczEsCQX0S0QGb0QmDRUFagAA.RDVcsYFVU4FcoQGakQF.H.vE.PB.o.fM.3C.FAvR..E.UUPrEXaA3VftEzaA+VPwEfbAOW.0EXcAaC.......HP..........XA..................T.4"
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Relayer",
-									"origin" : "Relayer.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "Relayer.auinfo",
-										"plugindisplayname" : "Relayer",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1382378593,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1584.hAGaoMGcv.y0AHv.DTfAGfPBJHwDTTAWsEla0YVXiQWcxUlbTQVXzEFWkwVYsUlaz0hag0VYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDUYURf7TDEfUUVkDMA....7OD...db1Gla6113.gguuOEBF6sqr3Pcx.IEHoNG5hlF2D2jKWvXyDKTYIs5Ph8a+RRIMCkkPb.BF9Sw4iin9kI8Y+9ou6+0u3n9b1UYukjIc9oXu77Yybt7Xgnp57YdybtIM+EQ55lLUG99Jg0x8E4mOiAp3KZpyWkJNpZNyYYRUgJtMGKkuJZRqctS8ujYN2Iqkk+rYurTTmWpxTmzRYV99jLT7wiYaVmeadUsNksSNyD7AoJ0xxtYXWqASzgC0YY4Qi7yRUaO2vvPVfuGWcc4o4shyb9dVQS8MhZ4UYhWRkaGJZZolzOHKjhZEknYNWKkaeQr4Ol9tKeq8.UMWJKp2o3yciAtmWjQ7g1b4xVvY7EbsnnRU7Wmjp9e0fTX53GEmOiGyBb88W.8h2VnW.XtdQgKTkw2TkQo8PMBqOVnP8WOHqxaJ2HmW1GjrunIsRVMeo78jMRm04Yx4qEERGv8Cw6cC+tjClad8UodhD5CwtK3wjpdlv8ciBB8Xgj7xxj2aqy.VLDy3mzU6byiTU3UIRcYqS1KWl794yhaiwxh01lgQ.FwwHeLJ.iBwnHLJFiVPY1iBIJLBCi3vHPLhDiPwHVLBFinADMvplHZ.QCHZ.QCHZ.QCHZ.QiSz3DMNQ6G44EOVKJa8B8JWkotwygVgG+HI6MraSqG2HRkXNdVTVz9dBQRl85ltMC6AvHNF4iQAXTHFEgQwXzBLRut0GRTXDFFwgQfXDIFghQrXDLFQCHZfUMQz.hFPz.hFPz.hFPz.hFmnwIZbh1v0sdEbcakHy98Bplr9.UN9alIp8AMUfOJEzeUg8AQ8Aw8AK5GldAnabcFGcDkeFBfQD5rM5nPRLBEiIQDDPf.DDPf.DDPf.DDPf.DDPf.DDm.wQPbBzv65cB12zernTJ11OxmS1p+l.OWOON3yhX5WfdfYuxnZpWYbgvn3fHy6KOXdD1kG4EvChZUzOa45GnE5tF8iXtAw9w.yOznDLRIbjRzHk3QJKvIlGFwvH.i3XjOFEfQgXTDFEiQHC.Y.HC.Y.HC.Y.HC.Y.HC.Y.HCNxfiL3HigqocB3ZppM8cVGXWl7eMhspuO+DkeMr4U6KpOxmPCqhuku+E6zna+K6FCSApfI3o7Ojo1YvHbcd4dQV8PMyVLtXBsK60dVr6CwNc1RGJ0+841WkYmHC0FN0dPts4vkI0UCD9mjZqwYjvsZz0dXZdV7t7wcpsmTZWlVpznIwtMtkjYdr9jNuuodTuq1IpxKuubqYt4xhM+svpOqs64Fqbf5+r5t2xOLg8aBzHc+quVIomut99tdUuXHHHPsav.VeO86Sz7nGL7MEnCAMHn+.sGn6.MGn2.sFny.PGNfNb.c3.5vAzgCnCGPGNfNb.c3.5vAzgCVyejAUATIP0.UDTUPkAUGnCGPGNfNb3TGNbhCGrb3vHGNLzgCS3vgIb3vINbv1gCib3vHGNbpCGlvgCS3vgIb3vXGNL1gCS3vgIb3voNbXrCGNwgCic3vjNbXJGN7YNb3Sc3vm3vgO2gCS5vgwNbXfCGrb38ss70KSd80lpjbyTLjEsP8IxRt6Q0.Ko6yT.LYaYyl+HKWuScntc4oa06LQu8B0GnuyKpqM0BqW3VyEhMWJ2nOsN30NP6wIyZD0lYFfr5OdMSep3sxCpSroNXu4fvcGA+I0AXMCx9z5lSrupLWsnTmHqLaQ8AQ1ap6Bg58NoJ.Y8Jg9lzDGUsvzs9jpJBN+HO6s4r+02YUdgyuqSRSpO595ghptijjIJVmeSYhoJma8KFLuaF18KbLu8m33qe4r4s+tG+Orju+FjzKvPCPDULQISzN7PTvTURtAWczEsCQX0S0QGb0QmDRUFagAA.RDVcsYFVU4FcoQGakQF.H.vE.PB.o.fM.3C.FAvR..E.UUPrEXaA3VftEzaA+VPwEfbAOW.0EXcAaC.......HP..........XA..................T.4"
-									}
-,
-									"fileref" : 									{
-										"name" : "Relayer",
-										"filename" : "Relayer.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "92e1df4f78b625a2af3f46c17063b119"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "audiounit~ 2 2 Relayer",
-					"viewvisibility" : 0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-382",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -603,7 +603,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDUwFUvAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHUwFcxEFUgAmHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiK0wFcxEFcgAmHrzfBf.hH1Ulbyk1atIhNfHhLhvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.RLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHRaskFdhnCHw.CLt.CLv.CL2XiL4LSNzTCKMn.HfHBatQGZhnCHxbiKxfyM1HCMyTSNwLCL3XCKMn.HfHBcgA2bhnCH23BNwjCM1LiL0LCLxDiLzvRCJ.BHh.GYrkmH5.BLt.CKMn.HfHxbvIGYhnCHs.iKxLSL2bCN1HSL1byL0fCMrzfBf.hHzEFbxIhNffSNtXyLvHSL3TCL0fSM4LCNrzfBf.hHzEFbx80bzElbz8UY3AmH5.BLt.CKMn.HfHBcgAmbeUlaj8UY3AmH5.RLt.CKMn.HfHxcjQGZhnCHw.CLt.CLv.CL2XiL4LSNzTCKMn.HfHBcu4VYhnCHv3BLrzfBf.hHywlbsIhNf.iKvvRCJ.BHhLFZuAmH5.BLt.CKMn.HfHhbgQWYhnCHxTiKvvRCJ.BHh.mbkklH5.hLvPCKMn.HfHBbxUlahnCHhDSKBUVXzARL1PGZyABJSQWYxU1ao.RKfvTX2M2atAxUnkFckIRCJzG.......................................................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+							"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDUwFUvAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHUwFcxEFUgAmHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiK0wFcxEFcgAmHrzfBf.hH1Ulbyk1atIhNfHhLhvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.RLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCH1.iKvvRCJ.BHhzVaogmH5.RLv.iKv.CLv.yM1HSNyjCM0vRCJ.BHhvlazglH5.hL23hL3biMxPyL0jSLy.CN1vRCJ.BHhPWXvMmH5.xMtfSL4PiMyHSMy.iLwHCMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhLGbxQlH5.RKv3hLyDyM2fiMxDiM2LSM3PCKMn.HfHBcgAmbhnCH3jiK1LCLxDCN0.SM3TSNyfCKMn.HfHBcgAmbeMGcgIGceUFdvIhNf.iKvvRCJ.BHhPWXvI2Wk4FYeUFdvIhNfDiKvvRCJ.BHhbGYzglH5.RLv.iKv.CLv.yM1HSNyjCM0vRCJ.BHhP2atUlH5.BLt.CKMn.HfHxbrIWahnCHv3BLrzfBf.hHig1avIhNf.iKvvRCJ.BHhHWXzUlH5.hL03BLrzfBf.hHvIWYoIhNfHCLzvRCJ.BHh.mbk4lH5.hHwzhPkEFcfDiMzg1bffxTzUlbk8VJfzBHLE1cy8lafbEZoQWYhzfB8A........................................................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
 						}
 ,
 						"snapshotlist" : 						{
@@ -625,7 +625,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDUwFUvAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHUwFcxEFUgAmHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiK0wFcxEFcgAmHrzfBf.hH1Ulbyk1atIhNfHhLhvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.RLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCHwHCLt.CKMn.HfHRaskFdhnCHw.CLt.CLv.CL2XiL4LSNzTCKMn.HfHBatQGZhnCHxbiKxfyM1HCMyTSNwLCL3XCKMn.HfHBcgA2bhnCH23BNwjCM1LiL0LCLxDiLzvRCJ.BHh.GYrkmH5.BLt.CKMn.HfHxbvIGYhnCHs.iKxLSL2bCN1HSL1byL0fCMrzfBf.hHzEFbxIhNffSNtXyLvHSL3TCL0fSM4LCNrzfBf.hHzEFbx80bzElbz8UY3AmH5.BLt.CKMn.HfHBcgAmbeUlaj8UY3AmH5.RLt.CKMn.HfHxcjQGZhnCHw.CLt.CLv.CL2XiL4LSNzTCKMn.HfHBcu4VYhnCHv3BLrzfBf.hHywlbsIhNf.iKvvRCJ.BHhLFZuAmH5.BLt.CKMn.HfHhbgQWYhnCHxTiKvvRCJ.BHh.mbkklH5.hLvPCKMn.HfHBbxUlahnCHhDSKBUVXzARL1PGZyABJSQWYxU1ao.RKfvTX2M2atAxUnkFckIRCJzG.......................................................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
+										"blob" : "1399.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAo..............vD..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDUwFUvAA.RDVcsY1SQL.560fBf.hHgw1YuIWZzgVae4VXsUlH5.hHUwFcxEFUgAmHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiK0wFcxEFcgAmHrzfBf.hH1Ulbyk1atIhNfHhLhvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.RLt.CKMn.HfHBbrU2Yo41Wn8FcyIhNf.iKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.BcxUWYrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHBbrU2Yo41WsEla0EFaeQWYsA2ahnCHwHCLt.CKMn.HfHBcsAmchnCH1.iKvvRCJ.BHhzVaogmH5.RLv.iKv.CLv.yM1HSNyjCM0vRCJ.BHhvlazglH5.hL23hL3biMxPyL0jSLy.CN1vRCJ.BHhPWXvMmH5.xMtfSL4PiMyHSMy.iLwHCMrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhLGbxQlH5.RKv3hLyDyM2fiMxDiM2LSM3PCKMn.HfHBcgAmbhnCH3jiK1LCLxDCN0.SM3TSNyfCKMn.HfHBcgAmbeMGcgIGceUFdvIhNf.iKvvRCJ.BHhPWXvI2Wk4FYeUFdvIhNfDiKvvRCJ.BHhbGYzglH5.RLv.iKv.CLv.yM1HSNyjCM0vRCJ.BHhP2atUlH5.BLt.CKMn.HfHxbrIWahnCHv3BLrzfBf.hHig1avIhNf.iKvvRCJ.BHhHWXzUlH5.hL03BLrzfBf.hHvIWYoIhNfHCLzvRCJ.BHh.mbk4lH5.hHwzhPkEFcfDiMzg1bffxTzUlbk8VJfzBHLE1cy8lafbEZoQWYhzfB8A........................................................................................................................................................................................................................................................................................................................................................E.H.PF.XB.q..N..D.HAPS.7E.jAPZA.Q.UDvEAjQ.bDfGAPR.mDfKALS.0DfNEXB.......f.A..........F..................PAm."
 									}
 ,
 									"fileref" : 									{
@@ -945,7 +945,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 96.5, 363.950117227086594, 106.0, 20.0 ],
-					"text" : "2 bar loop 7 times"
+					"text" : "crazy"
 				}
 
 			}
@@ -1262,7 +1262,7 @@
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1481.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCn9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwPiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLzTiK3XiLy.CM1fyM0vRCJ.BHhLWZ5UlH5.RNy3RL0fSN0fCMyTCL0fSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfLiK4LSNvfCN3HSLzDSLwLyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLx.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtXSN4jSN4jCN3.yM4.yMwvRCJ.BHhzVXtUWXrQUYsA2aVEFa0UlH5.RLx.iKvvRCJ.BHhHWZhIFSxHhNf.iKyDSL2XCNxjyLyfCL2LyMyvRCJ.BHhHWZhIlTxHhNfDiKvvRCJ.BHhf1azM2c3HhNfDiKvvRCJ.BHhf1azM2cuYlY3HhNf.iKyTCNvjCN4fyL2XCM1PCNzvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtXSN4jSN4jCN3.yM4.yMwvRCJ.BHhP2b44lH5.BcxUWYrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHykldk80bzElbz8UY3AmH5.BLtLCL0HSN3byM0PyLzPSNzvRCJ.BHhLWZ5U1Wk4FYeUFdvIhNfDiKvvRCJ.BHh.GYrkmH5.BLt.CKMn.HfHBauwlchnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnkFa1IhNf.iKvvRCJ.BHhzFYvQmH5.BMy3BLrzfBf.hHsIWXzIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlQlXqIhNfLSNtLSNvfCN3HSLzDSLwLyLrzfBf.hHlQlXq8EZuQ2WycWZzMFZhnCHw3BLrzfBf.hHvIWYoIhNffiMrzfBf.hHvIWYtIhNfHBcu8lXgIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.XATV.mEPZAvV.tE.cAbW.9EvfATX.JV.d........BD..........X...................EjG"
+							"blob" : "1480.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCj9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwPiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLzTiK3XiLy.CM1fyM0vRCJ.BHhLWZ5UlH5.RNy3RL0fSN0fCMyTCL0fSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfLiK4LSNvfCN3HSLzDSLwLyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.hMv3BLrzfBf.hHqkFarIhNf.iKvvRCJ.BHhXlbkomH5.BLt.CKMn.HfHBZuQ2bhnCHv3BLrzfBf.hHxklXtIhNf.iK1jSN4jSN4fCNvbSNvbSLrzfBf.hHsEla0EFaTUVav8lUgwVckIhNfDiLv3BLrzfBf.hHxklXhwjLhnCHv3xLwDyM1fiL4LyL3.yMybyLrzfBf.hHxklXhIkLhnCHw3BLrzfBf.hHn8FcycGNhnCHw3BLrzfBf.hHn8Fcyc2alYFNhnCHv3xL0fCL4fSN3LyM1PiMzfCMrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iK1jSN4jSN4fCNvbSNvbSLrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHw3BLrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKyHiK1TyL1PCNybiMzXCM3PCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHyjiKyjCL3fCNxDCMwDSLyLCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhEbG.......f.A..........F..................PA3A"
 						}
 ,
 						"snapshotlist" : 						{
@@ -1284,7 +1284,7 @@
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1481.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCn9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwPiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLzTiK3XiLy.CM1fyM0vRCJ.BHhLWZ5UlH5.RNy3RL0fSN0fCMyTCL0fSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfLiK4LSNvfCN3HSLzDSLwLyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.RLx.iKvvRCJ.BHhrVZrwlH5.BLt.CKMn.HfHhYxUldhnCHv3BLrzfBf.hHn8FcyIhNf.iKvvRCJ.BHhHWZh4lH5.BLtXSN4jSN4jCN3.yM4.yMwvRCJ.BHhzVXtUWXrQUYsA2aVEFa0UlH5.RLx.iKvvRCJ.BHhHWZhIFSxHhNf.iKyDSL2XCNxjyLyfCL2LyMyvRCJ.BHhHWZhIlTxHhNfDiKvvRCJ.BHhf1azM2c3HhNfDiKvvRCJ.BHhf1azM2cuYlY3HhNf.iKyTCNvjCN4fyL2XCM1PCNzvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLtXSN4jSN4jCN3.yM4.yMwvRCJ.BHhP2b44lH5.BcxUWYrzfBf.hHs0VZ3IhNfDCLv3BLrzfBf.hHykldk80bzElbz8UY3AmH5.BLtLCL0HSN3byM0PyLzPSNzvRCJ.BHhLWZ5U1Wk4FYeUFdvIhNfDiKvvRCJ.BHh.GYrkmH5.BLt.CKMn.HfHBauwlchnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnkFa1IhNf.iKvvRCJ.BHhzFYvQmH5.BMy3BLrzfBf.hHsIWXzIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlQlXqIhNfLSNtLSNvfCN3HSLzDSLwLyLrzfBf.hHlQlXq8EZuQ2WycWZzMFZhnCHw3BLrzfBf.hHvIWYoIhNffiMrzfBf.hHvIWYtIhNfHBcu8lXgIRCJzGT.f..Y.fI.rB.3..P.fD.MAvW.PF.oE.XATV.mEPZAvV.tE.cAbW.9EvfATX.JV.d........BD..........X...................EjG"
+										"blob" : "1480.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUIQTQOAA8..............PG..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.........fE.........bA.........X.........PF.........nA.........a..........G.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIAROwTQP.fDgUWal8TDCj9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhPrE1Xqg1arUlHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKhwVXisFZuwVYhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo4VRDIhNfHBROwTQhvRCJ.BHh.Ga0cVZtYUYxIhNfHxLtfiKwPiHrzfBf.hHskFd3IhNfDiKvvRCJ.BHhblbgYmH5.RLzTiK3XiLy.CM1fyM0vRCJ.BHhLWZ5UlH5.RNy3RL0fSN0fCMyTCL0fSM4vRCJ.BHhPVYrkmH5.BLt.CKMn.HfHBauc2chnCHsLiLtXSMyXCM3LyM1PiMzfCMrzfBf.hHnk1YnIhNf.iKvvRCJ.BHhPFbzglH5.BMy3BLrzfBf.hHxEFckIhNfTyMtXiM1XiMzDiLyTyL0DiMrzfBf.hHlI1XqIhNfLiK4LSNvfCN3HSLzDSLwLyLrzfBf.hHxU1buIhNf.iKvvRCJ.BHhjlarYmH5.BLt.CKMn.HfHxazwlchnCHv3BLrzfBf.hHz0FbuIhNfDiKvvRCJ.BHhPWavYmH5.hMv3BLrzfBf.hHqkFarIhNf.iKvvRCJ.BHhXlbkomH5.BLt.CKMn.HfHBZuQ2bhnCHv3BLrzfBf.hHxklXtIhNf.iK1jSN4jSN4fCNvbSNvbSLrzfBf.hHsEla0EFaTUVav8lUgwVckIhNfDiLv3BLrzfBf.hHxklXhwjLhnCHv3xLwDyM1fiL4LyL3.yMybyLrzfBf.hHxklXhIkLhnCHw3BLrzfBf.hHn8FcycGNhnCHw3BLrzfBf.hHn8Fcyc2alYFNhnCHv3xL0fCL4fSN3LyM1PiMzfCMrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iK1jSN4jSN4fCNvbSNvbSLrzfBf.hHzMWdtIhNfPmb0UFKMn.HfHRaskFdhnCHw.CLt.CKMn.HfHxbooWYeMGcgIGceUFdvIhNf.iKy.SMxjCN2bSMzLCMzjCMrzfBf.hHykldk8UYtQ1WkgGbhnCHw3BLrzfBf.hHvQFa4IhNf.iKvvRCJ.BHhv1arYmH5.RKyHiK1TyL1PCNybiMzXCM3PCKMn.HfHBZowlchnCHv3BLrzfBf.hHsQFbzIhNfPyLt.CKMn.HfHRaxEFchnCH0biK1XiM1XCMwHyL0LSMwXCKMn.HfHhYjI1ZhnCHyjiKyjCL3fCNxDCMwDSLyLCKMn.HfHhYjI1Zeg1az80b2kFciglH5.RLt.CKMn.HfHBbxUVZhnCH3XCKMn.HfHBbxUlahnCHhP2auIVXhzfB8AE.H.PF.XB.q..N..D.HAPS.7E.jAPZA.V.kEvYAjV.rEfaAPW.2EfeALX.EFfhEbG.......f.A..........F..................PA3A"
 									}
 ,
 									"fileref" : 									{
@@ -1339,7 +1339,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.760498000000098, 39.999977215147055, 30.0, 30.0 ]
+					"patching_rect" : [ 96.5, 39.999977215147055, 30.0, 30.0 ]
 				}
 
 			}
@@ -1352,7 +1352,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 209.0, 39.999977215147055, 30.0, 30.0 ]
+					"patching_rect" : [ 215.5, 39.999977215147055, 30.0, 30.0 ]
 				}
 
 			}
@@ -1462,6 +1462,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-124", 0 ]
 				}
 
@@ -1503,24 +1517,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-304", 0 ],
-					"order" : 0,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-321", 0 ],
-					"order" : 2,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
-					"order" : 1,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -1550,24 +1547,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-309", 0 ],
-					"order" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-320", 0 ],
-					"order" : 2,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 1 ],
-					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1646,6 +1626,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"source" : [ "obj-320", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-321", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-627", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -1715,20 +1709,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-611", 0 ],
 					"source" : [ "obj-448", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-451", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-451", 1 ]
 				}
 
 			}
@@ -1813,8 +1793,40 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-304", 0 ],
+					"order" : 0,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-309", 0 ],
+					"order" : 0,
+					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"order" : 4,
+					"source" : [ "obj-58", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-321", 0 ],
+					"order" : 4,
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-479", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-58", 1 ]
 				}
 
@@ -1822,7 +1834,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-480", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1830,7 +1842,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-616", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-58", 1 ]
 				}
 
@@ -1838,7 +1850,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-619", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -1846,7 +1858,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-628", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-58", 1 ]
 				}
 
@@ -1854,7 +1866,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-629", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-58", 0 ]
 				}
 
@@ -2111,14 +2123,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Pro-Q 3_20221029.maxsnap",
+				"name" : "Delay TAPE-201.maxsnap",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Relayer.maxsnap",
+				"name" : "Pro-Q 3_20221029.maxsnap",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
