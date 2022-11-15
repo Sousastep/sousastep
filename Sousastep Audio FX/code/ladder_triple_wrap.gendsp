@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -201.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,37 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 1.0, 1.0 ],
+					"color" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1464.812346838124313, 1644.826944066916212, 125.0, 23.0 ],
+					"text" : "setparam ease_select",
+					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
+					"varname" : "shape[18]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.035294117647059, 0.796078431372549, 0.811764705882353, 1.0 ],
+					"id" : "obj-132",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1464.812346838124313, 1617.0, 310.0, 22.0 ],
+					"text" : "param @name ease_select @default 2 @min 1 @max 4"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 1.0, 1.0 ],
 					"color" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
@@ -1548,6 +1579,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.087929949164391, 0.239419937133789, 0.732974648475647, 1.0 ],
 					"destination" : [ "obj-6", 4 ],
 					"source" : [ "obj-14", 0 ]
@@ -2270,6 +2308,22 @@
 					"destination" : [ "obj-7", 0 ],
 					"order" : 0,
 					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}

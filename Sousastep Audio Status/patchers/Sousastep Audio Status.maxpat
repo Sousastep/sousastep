@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -298,8 +298,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1700.906599461462974, 200.664939955201362, 61.0, 22.0 ],
-					"text" : "delay~ 52"
+					"patching_rect" : [ 1700.906599461462974, 200.664939955201362, 78.0, 22.0 ],
+					"text" : "delay~ 52 52"
 				}
 
 			}
@@ -426,8 +426,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1725.906599461462974, 215.664939955201362, 61.0, 22.0 ],
-					"text" : "delay~ 52"
+					"patching_rect" : [ 1725.906599461462974, 215.664939955201362, 78.0, 22.0 ],
+					"text" : "delay~ 52 52"
 				}
 
 			}
@@ -635,8 +635,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1733.30734340258914, 410.751340458436516, 72.0, 22.0 ],
-					"text" : "maximum~"
+					"patching_rect" : [ 1733.30734340258914, 410.751340458436516, 29.5, 22.0 ],
+					"text" : "+~"
 				}
 
 			}
@@ -1565,8 +1565,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1755,8 +1755,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1945,8 +1945,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2478,8 +2478,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2714,8 +2714,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2950,8 +2950,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3118,8 +3118,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
-							"revision" : 3,
+							"minor" : 5,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3362,7 +3362,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3452,11 +3452,12 @@
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-1031",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1794.289918700436374, 408.125248846099566, 101.616680761026601, 24.0 ],
-					"text" : "previously +~"
+					"patching_rect" : [ 1770.30734340258914, 403.251340458436516, 109.616680761026601, 37.0 ],
+					"text" : "maximum~ isn't as good IMO"
 				}
 
 			}

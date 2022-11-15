@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -380,7 +380,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.743563649354542, 1521.0, 47.000000000000028, 20.0 ],
+					"patching_rect" : [ 219.743563649354542, 1520.0, 47.000000000000028, 20.0 ],
 					"text" : "declick"
 				}
 
@@ -392,8 +392,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.583303411801808, 1520.0, 67.0, 22.0 ],
-					"text" : "slide 66 66"
+					"patching_rect" : [ 135.583303411801808, 1520.0, 80.0, 22.0 ],
+					"text" : "slide 480 480"
 				}
 
 			}
