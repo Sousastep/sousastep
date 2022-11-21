@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 225.666672348976135, 243.346409343350842, 159.0, 22.0 ],
+					"text" : "s invert_transient_crossfade"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-769",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1160,8 +1171,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"order" : 0,
+					"source" : [ "obj-489", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.049065820872784, 0.302847415208817, 0.04405303299427, 1.0 ],
 					"destination" : [ "obj-490", 0 ],
+					"order" : 1,
 					"source" : [ "obj-489", 0 ]
 				}
 

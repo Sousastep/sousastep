@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 34.0, 90.0, 1372.0, 776.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,62 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 781.0, 185.350904063970432, 71.0, 22.0 ],
+					"text" : "constant 16"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "// Based on Warren Moore's easing C source code\r\n// https://github.com/warrenm/AHEasing/blob/master/AHEasing/easing.c\r\n\r\n// Modeled after the piecewise circular function\n// y = (1/2)(1 - sqrt(1 - 4x^2))           ; [0, 0.5)\n// y = (1/2)(sqrt(-(2x - 3)*(2x - 1)) + 1) ; [0.5, 1]\nCircularEaseInOut(value)\n{\n\tif (value < 0.5) {\n\t\treturn 0.5 * (1 - sqrt(1 - 4 * (value * value)));\n\t} else {\n\t\treturn 0.5 * (sqrt(-((2 * value) - 3) * ((2 * value) - 1)) + 1);\n\t}\n}\r\n\r\nout1 = CircularEaseInOut(in1);\r\n",
+					"fontface" : 0,
+					"fontname" : "<Monospaced>",
+					"fontsize" : 12.0,
+					"id" : "obj-98",
+					"maxclass" : "codebox",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1181.0, 116.478119616319674, 213.0, 133.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 762.0, 231.0, 40.0, 22.0 ],
+					"text" : "mix"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.313725490196078, 0.003921568627451, 1.0 ],
+					"color" : [ 0.203921568627451, 0.996078431372549, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 16.0,
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1181.0, 79.041727392494295, 274.0, 26.0 ],
+					"text" : "in 10 @comment transient_crossfade",
+					"textcolor" : [ 0.909803921568627, 1.0, 0.996078431372549, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.996078431372549, 0.156862745098039, 0.729411764705882, 1.0 ],
 					"color" : [ 0.996078431372549, 0.156862745098039, 0.729411764705882, 1.0 ],
@@ -638,7 +694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.966790306568555, 472.134823448552766, 130.0, 22.0 ],
+					"patching_rect" : [ 761.966790306568555, 272.134823448552766, 130.0, 22.0 ],
 					"text" : "setparam phase_offset"
 				}
 
@@ -1253,7 +1309,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.966790306568555, 435.40564963074803, 378.0, 22.0 ],
+					"patching_rect" : [ 761.966790306568555, 81.041727392494295, 378.0, 22.0 ],
 					"text" : "param @name Low_Phase_Offset @default 0 @min -100 @max 100"
 				}
 
@@ -1488,7 +1544,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
+					"destination" : [ "obj-97", 0 ],
 					"source" : [ "obj-173", 0 ]
 				}
 
@@ -1656,6 +1712,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-243", 1 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -2024,6 +2087,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
+					"midpoints" : [ 771.466790306568555, 372.0, 204.0, 372.0, 204.0, 678.0, 145.083303411801808, 678.0 ],
 					"source" : [ "obj-79", 0 ]
 				}
 
@@ -2156,6 +2220,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-96", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 2 ],
+					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 1 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
