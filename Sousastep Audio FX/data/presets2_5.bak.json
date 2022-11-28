@@ -284,7 +284,7 @@
 					"Zslide_down" : [ "Zslide_down", 500.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
-					"aux_phase_offset" : [ -65.354330708661394 ],
+					"aux_phase_offset" : [ 22.834645669291248 ],
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
@@ -302,10 +302,10 @@
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ -61.161342376585871 ],
 					"moog_drive" : [ 51.181102362204825 ],
-					"moog_rez" : [ 29.548235294117649 ],
-					"mp_or_tric" : [ 0 ],
+					"moog_rez" : [ 24.930196078431372 ],
+					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
-					"rez_max" : [ 62 ],
+					"rez_max" : [ 52 ],
 					"rez_min" : [ 2 ],
 					"sm_or_moog" : [ 1 ],
 					"vst~" : [ 						{
@@ -332,7 +332,7 @@
  ],
 					"mix_env_logic::env_bottom" : [ 12.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
-					"mix_env_logic::env_top" : [ 85.0 ],
+					"mix_env_logic::env_top" : [ 81.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ]
 				}
 
@@ -465,25 +465,25 @@
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 43.917550578223526, 0, 0.0, 1.0, 100.0, 0, -0.65, "curve" ],
-					"freq_ceiling_slide_down" : [ 4000 ],
+					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 100.0, 0, 0.0, 0.215560183496037, 48.248994859215713, 0, -0.3, 1.0, 100.0, 0, -0.65, "curve" ],
+					"freq_ceiling_slide_down" : [ 48000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 39.0, 0, 0.0, 1.0, 66.739138612404204, 0, 0.05, "curve" ],
+					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 59.867414317607583, 0, 0.0, 0.227533867452315, 39.0, 0, -0.3, 1.0, 66.739138612404204, 0, -0.1, "curve" ],
 					"freq_floor_slide_down" : [ 9000 ],
 					"freq_floor_slide_up" : [ 300 ],
-					"gate_thresh" : [ 0.0 ],
+					"gate_thresh" : [ 0.114986411833037 ],
 					"high_SnTrSq" : [ 0 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 0.0 ],
-					"low_phase_offset" : [ -76.377952755905383 ],
+					"low_phase_offset" : [ 53.543307086614107 ],
 					"low_power" : [ 1.830783607666021 ],
 					"moog_drive" : [ 20.472440944881924 ],
-					"moog_rez" : [ 29.544627450980389 ],
+					"moog_rez" : [ 52.338980392156863 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
-					"rez_max" : [ 60 ],
-					"rez_min" : [ 3 ],
+					"rez_max" : [ 85 ],
+					"rez_min" : [ 29 ],
 					"sm_or_moog" : [ 1 ],
 					"vst~" : [ 						{
 							"filetype" : "C74Snapshot",
@@ -507,9 +507,9 @@
 
 						}
  ],
-					"mix_env_logic::env_bottom" : [ 31.0 ],
+					"mix_env_logic::env_bottom" : [ 3.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
-					"mix_env_logic::env_top" : [ 99.0 ],
+					"mix_env_logic::env_top" : [ 56.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ]
 				}
 
@@ -630,8 +630,8 @@
 				"id" : 13,
 				"data" : 				{
 					"Q_sense" : [ "Q_sense", 3.0 ],
-					"Quadravox_Enable_12th" : [ 0 ],
-					"Quadravox_Enable_14th" : [ 0 ],
+					"Quadravox_Enable_12th" : [ 1 ],
+					"Quadravox_Enable_14th" : [ 1 ],
 					"Quadravox_Key" : [ "Bb" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
@@ -679,14 +679,14 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "1401.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEAADC..............WB....vO.B......A.TmE.D...f.+........LPPnHrB....D7C.......PA.........XvOQDgD....GDrrOvE....B+.V.RC...j..........JDDx......vBAkEVP....vvO.B......MDDf......fC.........7vO.B......P.TmE.D...PDA0l84A...HA.........S..........E.........TA.........V.D.......vEAogZiA...fwO........YDjJpMF...fF+........rA.........b7yLyLC...PG.qLcP....3gOLwby....eDDH.......HAAJ......DRP.C......h7Cf......vH+zd2fC...PB.........k.........fI.0YA.A...bRPsYed....n.........PJ+........nB.........q..........K.A.......zRP4bwx....t7C.......vKAMEucA....yO........w.........fL+LyLy....LCvCOCL....z3CSL2L...PMAAB......XSPfB......2DDv.......N+.H......jC.........5.........vN.........vCPcV.P....8DTa1mG...fO.........7yO.........A........PP.........HDP........CATmE.D....Q+........TDPcV.P....F8C.......vQ.........fzOyLyL....IA........fR9vDyMC...rTPf.......LEDn......PSAAL......3zO.B......OA.........T.........DE.........RATmE.D...vTA0l84A...PE.........U8C.......fU.........bE.........XAD.......PV.0YA.A...n0O........aATmE.D....W+........zE.........d8yLyLC...vW..........lOLwby....gEDH......fXAAJ......LVP.C......j8Cf......PY.........XF.........mA.........Z.0YA.A...jVPsYed....pA........vZ+........vF.........sA........fa.A.......7FPcV.P....v8C.......Pb.0YA.A...H2O........yA.........c+LyLy....TG.........14CSL2L...vcAAB......fWPfB......4EDv......fd+.H......rG.........7A........Pe.........3GPcV.P....+ETa1mG....f.........D3O........BB........vf.........PH.........E9Cf......fg.........bH.........HB........Ph.........nH.........K9Cf.......i.........zH.........N9Cf......vi..........IP.A......QBDP......fj.AD......LIP.B......TBDP......Pk.........X4O.B..RXDTMIFD.HQX00lYc0VXo41Wr81ceM1asAGDA..B.bA.j.PJ.DC.4.fO.LD.RAvUE7QAjTfIErRA4........HP..........7...................TvN"
+								"blob" : "1401.hAGaoMGcv.y0AHv.DTfAGfPBJr.CM3.WsEla0YVXiQWcxUlbTQVXzE1UyUmXzkGbkckckI2bo8laTQWdvUFUtEVak4kQgIlQowFckImQrE1YyIgQgIlQOEAADC..............WB....vO.B......A.TmE.D...f.+........LPPnHrB....D7C.......PA.........XvOQDgD....GDrrOvE....B+.V.RC...j..........JDDx......vBAkEVP....vvO.B......MDDf......fC.........7vO.B......P.TmE.D...PDA0l84A...HA.........S..........E.........TA.........V.D.......vEAogZiA...fwO........YDjJpMF...fF+........rA.........b7yLyLC...PG.qLcP....3gOLwby....eDDH.......HAAJ......DRP.C......h7Cf......vH+zd2fC...PB.........k.........fI.0YA.A...bRPsYed....n.........PJ+........nB.........q..........K.A.......zRP4bwx....t7C.......vKAMEucA....yO........w.........fL+LyLy....LCvCOCL....z3CSL2L...PMAAB......XSPfB......2DDv.......N+.H......jC.........5.........vN.........vCPcV.P....8DTa1mG...fO.........7yO.........A........PP.........HDP........CATmE.D....Q+........TDPcV.P....F8C.......vQ.........fzOyLyL....IA........fR9vDyMC...rTPf.......LEDn......PSAAL......3zO.B......OA.........T.........DE.........RATmE.D...vTA0l84A...PE.........U8C.......fU.........bE.........XAD.......PV.0YA.A...n0O........aATmE.D....W+........zE.........d8yLyLC...vW..........lOLwby....gEDH......fXAAJ......LVP.C......j8Cf......PY.........XF.........mA.........Z.0YA.A...jVPsYed....pA........vZ+........vF.........sA........fa.A.......7FPcV.P....v8C.......Pb.0YA.A...H2O........yA.........c+LyLy....TG.........14CSL2L...vcAAB......fWPfB......4EDv......fd+.H......rG.........7A........Pe.........3GPcV.P....+ETa1mG....f.........D3O........BB........vf.........PH.........E9Cf......fg.........bH.........H56XNhC...Ph.........nH.........K9Cf.......i.........zH.........N9Cf......vi..........IP.A......QBDP......fj.AD......LIP.B......TBDP......Pk.........X4O.B..RXDTMIFD.HQX00lYc0VXo41Wr81ceM1asAGDA..B.bA.j.PJ.DC.4.fO.LD.RAvUE7QAjTfIErRA4........HP..........7...................TvN"
 							}
 
 						}
  ],
 					"mix_env_logic::env_bottom" : [ 11.6 ],
 					"mix_env_logic::env_inv" : [ 1 ],
-					"mix_env_logic::env_top" : [ 95.0 ],
+					"mix_env_logic::env_top" : [ 62.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ]
 				}
 
