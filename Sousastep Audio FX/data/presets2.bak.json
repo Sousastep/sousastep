@@ -44,7 +44,8 @@
 					"mix_env_logic::env_bottom" : [ 10.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
-					"delay_and_reverb::reverb_volume" : [ -6 ]
+					"delay_and_reverb::reverb_volume" : [ -6 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -91,7 +92,8 @@
 					"mix_env_logic::env_bottom" : [ 26.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 77.0 ],
-					"delay_and_reverb::reverb_volume" : [ -14 ]
+					"delay_and_reverb::reverb_volume" : [ -14 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -138,7 +140,8 @@
 					"mix_env_logic::env_bottom" : [ 45.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -185,7 +188,8 @@
 					"mix_env_logic::env_bottom" : [ 34.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 94.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -232,7 +236,8 @@
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -279,7 +284,8 @@
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -326,7 +332,8 @@
 					"mix_env_logic::env_bottom" : [ 12.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 81.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -373,7 +380,8 @@
 					"mix_env_logic::env_bottom" : [ 15.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 91.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -381,46 +389,47 @@
 			"9" : 			{
 				"id" : 9,
 				"data" : 				{
-					"Q_sense" : [ "Q_sense", 2.0 ],
+					"Q_sense" : [ "Q_sense", 0.0 ],
 					"Quadravox_Enable_12th" : [ 0 ],
 					"Quadravox_Enable_14th" : [ 0 ],
-					"Quadravox_Key" : [ "C" ],
+					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
-					"Quadravox_Scale" : [ "Natural Min" ],
+					"Quadravox_Scale" : [ "Phrygian" ],
 					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
-					"Zslide_down" : [ "Zslide_down", 250.0 ],
+					"Zslide_down" : [ "Zslide_down", 900.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
 					"aux_phase_offset" : [ 68.5039370078741 ],
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"filter_pole" : [ 1 ],
-					"filter_type" : [ 10 ],
-					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 86.324781601353862, 0, 0.0, 0.267942349863529, 54.306974402596595, 0, -0.65, 1.0, 95.257141346108924, 0, -0.65, "curve" ],
-					"freq_ceiling_slide_down" : [ 40000 ],
+					"filter_pole" : [ 0 ],
+					"filter_type" : [ 5 ],
+					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 61.029256263446776, 0, 0.0, 0.157939800491796, 42.439785130019779, 0, -0.4, 0.383183115872011, 82.523332261471737, 0, -0.45, 1.0, 95.257141346108924, 0, -0.35, "curve" ],
+					"freq_ceiling_slide_down" : [ 8000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 66.573468522087666, 0, 0.0, 0.19086635099507, 42.345419021850645, 0, -0.45, 1.0, 64.248996689310729, 0, 0.35, "curve" ],
-					"freq_floor_slide_down" : [ 80000 ],
-					"freq_floor_slide_up" : [ 48 ],
-					"gate_thresh" : [ 0.067139521880884 ],
+					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 40.697022211261, 0, -0.45, 1.0, 45.34438999461775, 0, 0.35, "curve" ],
+					"freq_floor_slide_down" : [ 16000 ],
+					"freq_floor_slide_up" : [ 480 ],
+					"gate_thresh" : [ 0.0 ],
 					"high_SnTrSq" : [ 1 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
-					"low_floor" : [ 0.0 ],
-					"low_lock" : [ 0 ],
-					"low_phase_offset" : [ -41.732283464566898 ],
-					"low_power" : [ -69.291338582677085 ],
-					"moog_drive" : [ 14.173228346456639 ],
-					"moog_rez" : [ 23.057725490196081 ],
-					"mp_or_tric" : [ 0 ],
-					"reverb_delay_input_selector" : [ 0 ],
-					"rez_max" : [ 41 ],
-					"rez_min" : [ 9 ],
+					"low_floor" : [ 3.149606299212598 ],
+					"low_lock" : [ 1 ],
+					"low_phase_offset" : [ 34.64566929133855 ],
+					"low_power" : [ -23.622047244094446 ],
+					"moog_drive" : [ 79.527559055118161 ],
+					"moog_rez" : [ 42.406588235294116 ],
+					"mp_or_tric" : [ 1 ],
+					"reverb_delay_input_selector" : [ 1 ],
+					"rez_max" : [ 70 ],
+					"rez_min" : [ 22 ],
 					"mix_env_logic::env_bottom" : [ 20.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 72.0 ],
-					"delay_and_reverb::reverb_volume" : [ -18 ]
+					"delay_and_reverb::reverb_volume" : [ -18 ],
+					"poly~.1::distortion_plugins" : [ 1 ]
 				}
 
 			}
@@ -467,7 +476,8 @@
 					"mix_env_logic::env_bottom" : [ 3.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 56.0 ],
-					"delay_and_reverb::reverb_volume" : [ -6 ]
+					"delay_and_reverb::reverb_volume" : [ -6 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -514,7 +524,8 @@
 					"mix_env_logic::env_bottom" : [ 0.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 23.0 ],
-					"delay_and_reverb::reverb_volume" : [ -6 ]
+					"delay_and_reverb::reverb_volume" : [ -6 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
@@ -529,7 +540,7 @@
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
 					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
-					"Zslide_down" : [ "Zslide_down", 200.0 ],
+					"Zslide_down" : [ "Zslide_down", 1111.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
 					"aux_phase_offset" : [ -90.551181102362222 ],
@@ -538,10 +549,10 @@
 					"aux_yaxis" : [ 0.0 ],
 					"filter_pole" : [ 1 ],
 					"filter_type" : [ 10 ],
-					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 49.892430397735993, 0, 0.0, 1.0, 100.0, 0, 0.044999999999999, "curve" ],
+					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 44.182548048778557, 0, 0.0, 0.163178017128546, 46.506231940456935, 0, 0.0, 1.0, 90.07530490942645, 0, -0.405000000000001, "curve" ],
 					"freq_ceiling_slide_down" : [ 24000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 48.149667478977207, 0, 0.0, 1.0, 59.768086937369077, 0, -0.005, "curve" ],
+					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 39.0, 0, 0.0, 0.143722401264328, 39.0, 0, 0.0, 1.0, 55.220046534250841, 0, -0.005, "curve" ],
 					"freq_floor_slide_down" : [ 72000 ],
 					"freq_floor_slide_up" : [ 96 ],
 					"gate_thresh" : [ 0.064956900594632 ],
@@ -553,15 +564,16 @@
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ -61.417322834645617 ],
 					"moog_drive" : [ 40.944881889763735 ],
-					"moog_rez" : [ 42.384941176470591 ],
+					"moog_rez" : [ 54.355764705882351 ],
 					"mp_or_tric" : [ 0 ],
 					"reverb_delay_input_selector" : [ 0 ],
-					"rez_max" : [ 64 ],
-					"rez_min" : [ 6 ],
+					"rez_max" : [ 81 ],
+					"rez_min" : [ 38 ],
 					"mix_env_logic::env_bottom" : [ 30.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [ 1 ]
 				}
 
 			}
@@ -608,7 +620,8 @@
 					"mix_env_logic::env_bottom" : [ 2.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 80.0 ],
-					"delay_and_reverb::reverb_volume" : [ 0 ]
+					"delay_and_reverb::reverb_volume" : [ 0 ],
+					"poly~.1::distortion_plugins" : [  ]
 				}
 
 			}
