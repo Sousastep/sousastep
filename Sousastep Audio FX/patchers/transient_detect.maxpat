@@ -44,7 +44,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.346209162979449, 526.36187185554752, 84.0, 22.0 ],
+					"patching_rect" : [ 169.375942328654219, 526.36187185554752, 84.0, 22.0 ],
 					"text" : "s~ phasereset"
 				}
 
@@ -881,9 +881,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }

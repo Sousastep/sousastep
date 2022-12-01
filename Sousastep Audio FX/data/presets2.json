@@ -11,7 +11,6 @@
 					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 200.0 ],
 					"aux_SnTrSq" : [ 1 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -35,17 +34,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ 41.732283464566905 ],
 					"low_power" : [ -40.688901431703961 ],
-					"moog_drive" : [ 3.149606299212564 ],
 					"moog_rez" : [ 35.548078431372552 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [  ],
 					"rez_max" : [ 74 ],
 					"rez_min" : [ 3 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 10.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -59,7 +59,6 @@
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 200.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -83,17 +82,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -82.677165354330583 ],
 					"low_power" : [ -67.460554975011064 ],
-					"moog_drive" : [ 20.472440944881924 ],
 					"moog_rez" : [ 45.155764705882355 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 0 ],
 					"rez_max" : [ 70 ],
 					"rez_min" : [ 28 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 26.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 77.0 ],
 					"delay_and_reverb::reverb_volume" : [ -14 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -107,7 +107,6 @@
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 800.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -131,17 +130,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -56.692913385826728 ],
 					"low_power" : [ -26.515673085247315 ],
-					"moog_drive" : [  ],
 					"moog_rez" : [  ],
 					"mp_or_tric" : [ 0 ],
 					"reverb_delay_input_selector" : [  ],
 					"rez_max" : [ 76 ],
 					"rez_min" : [ 2 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 45.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -155,7 +155,6 @@
 					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
 					"Zslide_down" : [ "Zslide_down", 800.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -179,17 +178,18 @@
 					"low_lock" : [ 0 ],
 					"low_phase_offset" : [ 0.0 ],
 					"low_power" : [ -26.515673085247343 ],
-					"moog_drive" : [ 50.3937007874014 ],
 					"moog_rez" : [ 40.126431372549021 ],
 					"mp_or_tric" : [ 0 ],
 					"reverb_delay_input_selector" : [ 0 ],
 					"rez_max" : [ 73 ],
 					"rez_min" : [ 14 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 34.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 94.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -203,7 +203,6 @@
 					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 600.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -227,17 +226,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"moog_drive" : [  ],
 					"moog_rez" : [  ],
 					"mp_or_tric" : [  ],
 					"reverb_delay_input_selector" : [  ],
 					"rez_max" : [ 32 ],
 					"rez_min" : [ 1 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -251,7 +251,6 @@
 					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 600.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -275,17 +274,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ 22.303224552547903 ],
-					"moog_drive" : [  ],
 					"moog_rez" : [  ],
 					"mp_or_tric" : [  ],
 					"reverb_delay_input_selector" : [  ],
 					"rez_max" : [ 32 ],
 					"rez_min" : [ 1 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -299,7 +299,6 @@
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Phrygian" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 500.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -323,17 +322,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ -61.161342376585871 ],
-					"moog_drive" : [ 51.181102362204825 ],
 					"moog_rez" : [ 24.930196078431372 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 52 ],
 					"rez_min" : [ 2 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 12.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 81.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -347,7 +347,6 @@
 					"Quadravox_Key" : [ "Bb" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Dorian" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 400.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -371,17 +370,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ -76.377952755905341 ],
 					"low_power" : [ -82.677165354330441 ],
-					"moog_drive" : [ 53.54330708661405 ],
 					"moog_rez" : [ 43.864156862745098 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 2 ],
 					"rez_max" : [ 93 ],
 					"rez_min" : [ 34 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 15.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 91.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -390,12 +390,11 @@
 				"id" : 9,
 				"data" : 				{
 					"Q_sense" : [ "Q_sense", 0.0 ],
-					"Quadravox_Enable_12th" : [ 0 ],
-					"Quadravox_Enable_14th" : [ 0 ],
+					"Quadravox_Enable_12th" : [ 1 ],
+					"Quadravox_Enable_14th" : [ 1 ],
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Phrygian" ],
-					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
 					"Zslide_down" : [ "Zslide_down", 900.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -404,11 +403,11 @@
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
 					"filter_pole" : [ 0 ],
-					"filter_type" : [ 5 ],
-					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 61.029256263446776, 0, 0.0, 0.157939800491796, 42.439785130019779, 0, -0.4, 0.383183115872011, 82.523332261471737, 0, -0.45, 1.0, 95.257141346108924, 0, -0.35, "curve" ],
+					"filter_type" : [ 9 ],
+					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 72.066754748919053, 0, 0.0, 0.157939800491796, 47.668073886296121, 0, -0.4, 0.383183115872011, 82.523332261471737, 0, -0.45, 1.0, 95.257141346108924, 0, -0.35, "curve" ],
 					"freq_ceiling_slide_down" : [ 8000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 40.697022211261, 0, -0.45, 1.0, 45.34438999461775, 0, 0.35, "curve" ],
+					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 47.087152913376528, 0, -0.45, 0.112293101443833, 40.697022211261, 0, 0.0, 1.0, 45.34438999461775, 0, 0.35, "curve" ],
 					"freq_floor_slide_down" : [ 16000 ],
 					"freq_floor_slide_up" : [ 480 ],
 					"gate_thresh" : [ 0.0 ],
@@ -419,17 +418,18 @@
 					"low_lock" : [ 1 ],
 					"low_phase_offset" : [ 34.64566929133855 ],
 					"low_power" : [ -23.622047244094446 ],
-					"moog_drive" : [ 79.527559055118161 ],
 					"moog_rez" : [ 42.406588235294116 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 70 ],
 					"rez_min" : [ 22 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 20.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
-					"mix_env_logic::env_top" : [ 72.0 ],
+					"mix_env_logic::env_top" : [ 95.0 ],
 					"delay_and_reverb::reverb_volume" : [ -18 ],
-					"poly~.1::distortion_plugins" : [ 1 ]
+					"just_darkglass::just_darkglass" : [ 1 ],
+					"distortion_plugins::distortion_plugins" : [ 1 ]
 				}
 
 			}
@@ -443,7 +443,6 @@
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 500.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -467,17 +466,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ 53.543307086614107 ],
 					"low_power" : [ 1.830783607666021 ],
-					"moog_drive" : [ 20.472440944881924 ],
 					"moog_rez" : [ 52.338980392156863 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 85 ],
 					"rez_min" : [ 29 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 3.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 56.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -491,7 +491,6 @@
 					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [  ],
 					"Zslide_down" : [ "Zslide_down", 200.0 ],
 					"aux_SnTrSq" : [ 1 ],
 					"aux_duty_cycle" : [ -29.921259842519646 ],
@@ -515,17 +514,18 @@
 					"low_lock" : [  ],
 					"low_phase_offset" : [ 54.330708661417269 ],
 					"low_power" : [ -24.940869935641047 ],
-					"moog_drive" : [ 20.472440944881924 ],
 					"moog_rez" : [ 28.621019607843138 ],
 					"mp_or_tric" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 59 ],
 					"rez_min" : [ 3 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 0.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 23.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [  ],
+					"distortion_plugins::distortion_plugins" : [  ]
 				}
 
 			}
@@ -539,8 +539,7 @@
 					"Quadravox_Key" : [ "Bb" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
-					"Zslide_down" : [ "Zslide_down", 1111.0 ],
+					"Zslide_down" : [ "Zslide_down", 600.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
 					"aux_phase_offset" : [ -90.551181102362222 ],
@@ -548,32 +547,33 @@
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
 					"filter_pole" : [ 1 ],
-					"filter_type" : [ 8 ],
-					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 44.182548048778557, 0, 0.0, 0.163178017128546, 46.506231940456935, 0, 0.0, 1.0, 90.07530490942645, 0, -0.405000000000001, "curve" ],
-					"freq_ceiling_slide_down" : [ 24000 ],
-					"freq_ceiling_slide_up" : [ 48 ],
-					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 39.0, 0, 0.0, 0.143722401264328, 39.0, 0, 0.0, 1.0, 55.220046534250841, 0, -0.005, "curve" ],
-					"freq_floor_slide_down" : [ 72000 ],
-					"freq_floor_slide_up" : [ 96 ],
-					"gate_thresh" : [ 0.064956900594632 ],
+					"filter_type" : [ 10 ],
+					"freq_ceiling" : [ 1.0, 39.0, 100.0, 0.0, 44.182548048778557, 0, 0.0, 0.163178017128546, 46.506231940456935, 0, 0.0, 0.58223534806848, 93.560830746944021, 0, -0.5, 1.0, 98.789119503220348, 0, -0.255000000000001, "curve" ],
+					"freq_ceiling_slide_down" : [ 8000 ],
+					"freq_ceiling_slide_up" : [ 480 ],
+					"freq_floor" : [ 1.0, 39.0, 100.0, 0.0, 39.0, 0, 0.0, 0.143722401264328, 39.0, 0, 0.0, 1.0, 65.095703073883925, 0, -0.005, "curve" ],
+					"freq_floor_slide_down" : [ 16000 ],
+					"freq_floor_slide_up" : [ 480 ],
+					"gate_thresh" : [ 0.172402679775621 ],
 					"high_SnTrSq" : [ 1 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 0.0 ],
-					"low_lock" : [ 1 ],
-					"low_phase_offset" : [ -52.755905511810916 ],
+					"low_lock" : [ 0 ],
+					"low_phase_offset" : [ 48.03149606299209 ],
 					"low_power" : [ -61.417322834645617 ],
-					"moog_drive" : [ 19.685039370078698 ],
 					"moog_rez" : [ 54.817568627450981 ],
-					"mp_or_tric" : [ 1 ],
-					"reverb_delay_input_selector" : [ 0 ],
+					"mp_or_tric" : [ 0 ],
+					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 81 ],
 					"rez_min" : [ 38 ],
-					"mix_env_logic::env_bottom" : [ 42.0 ],
+					"drive" : [  ],
+					"mix_env_logic::env_bottom" : [ 37.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
-					"mix_env_logic::env_top" : [ 71.0 ],
+					"mix_env_logic::env_top" : [ 95.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [ 1 ]
+					"just_darkglass::just_darkglass" : [ 1 ],
+					"distortion_plugins::distortion_plugins" : [ 1 ]
 				}
 
 			}
@@ -584,10 +584,9 @@
 					"Q_sense" : [ "Q_sense", 0.0 ],
 					"Quadravox_Enable_12th" : [ 1 ],
 					"Quadravox_Enable_14th" : [ 1 ],
-					"Quadravox_Key" : [ "Bb" ],
+					"Quadravox_Key" : [ "C" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 0 ],
 					"Quadravox_Scale" : [ "Natural Min" ],
-					"Wet_Gate_tubaEnv_or_FX" : [ 0 ],
 					"Zslide_down" : [ "Zslide_down", 400.0 ],
 					"aux_SnTrSq" : [ 0 ],
 					"aux_duty_cycle" : [ 0.0 ],
@@ -608,20 +607,21 @@
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 0.0 ],
-					"low_lock" : [ 0 ],
+					"low_lock" : [ 1 ],
 					"low_phase_offset" : [ -52.755905511810916 ],
 					"low_power" : [ -61.417322834645617 ],
-					"moog_drive" : [ 40.944881889763735 ],
-					"moog_rez" : [ 52.981176470588238 ],
-					"mp_or_tric" : [ 1 ],
+					"moog_rez" : [ 53.442980392156869 ],
+					"mp_or_tric" : [ 0 ],
 					"reverb_delay_input_selector" : [ 0 ],
 					"rez_max" : [ 81 ],
 					"rez_min" : [ 35 ],
+					"drive" : [  ],
 					"mix_env_logic::env_bottom" : [ 2.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 80.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
-					"poly~.1::distortion_plugins" : [  ]
+					"just_darkglass::just_darkglass" : [ 1 ],
+					"distortion_plugins::distortion_plugins" : [ 1 ]
 				}
 
 			}
