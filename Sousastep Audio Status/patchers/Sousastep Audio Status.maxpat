@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -24,9 +24,9 @@
 		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
-		"righttoolbarpinned" : 2,
+		"righttoolbarpinned" : 1,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 11,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -42,6 +42,342 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2089.0, 218.0, 29.5, 22.0 ],
+					"text" : "/~ 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2087.749852738997106, 166.547149651272207, 29.5, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Big Caslon",
+					"fontsize" : 22.0,
+					"id" : "obj-125",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1951.0, 631.380506004488097, 231.0, 138.0 ],
+					"text" : "\"Always implement things when you actually need them, never when you just foresee that you need them.\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-123",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2323.0, 707.551378075557295, 117.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-113",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2251.749852738997106, 558.565954797297536, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2205.749852738997106, 558.565954797297536, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "signal", "signal", "signal" ],
+					"patching_rect" : [ 1517.396479644653027, 208.0, 85.0, 22.0 ],
+					"text" : "adc~ 21 23 24"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-111",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1594.30734340258914, 208.0, 126.0, 24.0 ],
+					"text" : "SilentBrass DAW"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-108",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2330.260037674948308, 443.935920979027742, 156.949683983467366, 37.0 ],
+					"text" : "divide by two because signal doubles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2251.749852738997106, 503.547149651272207, 29.5, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2205.749852738997106, 503.547149651272207, 29.5, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2287.050316016532634, 451.435920979027742, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2287.050316016532634, 310.719226327888805, 45.0, 22.0 ],
+					"text" : "adc~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-93",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2337.749852738997106, 289.719226327888805, 168.0, 64.0 ],
+					"text" : "clip-on mic, EQd in TotalMix. In RME settings, make sure \"EQ for Record\" is checked."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-90",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 2297.499852738997106, 674.75111850585381, 68.0, 22.0 ],
+					"text" : "selector~ 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-88",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2337.749852738997106, 213.365244338692833, 177.97005385536977, 51.0 ],
+					"text" : "bandpass, for mixing silentbrass with clip-on mic, and for cutting out highs."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.855055809020996, 0.848883986473083, 0.854516446590424, 1.0 ],
+					"color" : [ 0.955981254577637, 0.454555928707123, 0.978662610054016, 1.0 ],
+					"id" : "obj-877",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 2193.499852738997106, 819.5, 123.0, 22.0 ],
+					"text" : "mc.pack~ 2",
+					"textcolor" : [ 0.125540301203728, 0.110298439860344, 0.130722165107727, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.855055809020996, 0.848883986473083, 0.854516446590424, 1.0 ],
+					"color" : [ 0.955981254577637, 0.454555928707123, 0.978662610054016, 1.0 ],
+					"id" : "obj-876",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2193.499852738997106, 863.5, 123.0, 22.0 ],
+					"text" : "mc.send~ tuba_mic 2",
+					"textcolor" : [ 0.125540301203728, 0.110298439860344, 0.130722165107727, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 1,
+					"bgcolor" : [ 0.341176470588235, 0.701960784313725, 0.831372549019608, 1.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"color" : [ 0.031372549019608, 0.247058823529412, 0.76078431372549, 1.0 ],
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 8,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
+					"patching_rect" : [ 2205.749852738997106, 227.865244338692833, 138.0, 22.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Pro-Q 3", ";" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0,
+						"prefer" : "AudioUnit"
+					}
+,
+					"snapshot" : 					{
+						"filetype" : "C74Snapshot",
+						"version" : 2,
+						"minorversion" : 0,
+						"name" : "snapshotlist",
+						"origin" : "vst~",
+						"type" : "list",
+						"subtype" : "Undefined",
+						"embed" : 1,
+						"snapshot" : 						{
+							"pluginname" : "Pro-Q 3.auinfo",
+							"plugindisplayname" : "Pro-Q 3",
+							"pluginsavedname" : "",
+							"pluginsaveduniqueid" : 1179726704,
+							"version" : 1,
+							"isbank" : 0,
+							"isbase64" : 1,
+							"blob" : "1694.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAkajQBMU.....lE.......9C...3Oeao5.A.............f+....9C...vO.....A...AD....P...f+.........3O...f+z8JRED..............9C...3O....+....BD...LP.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B....D...DP...f.A....D........f+....9C....P..........................................................................................................................................fQQMCbC....PA...vbowVYtQmXxE1by8kXg4FYvE1byo....P.....E.....kbu0RTA....LTcSYU..........7EDTLWZrUlazIlbgM2beIVXtQFbgM2bRDVcsYFD...B.TA.c.fJ.DD.FAvR.LE.XAPWFXjAcYfX........BD..........M...................FPF"
+						}
+,
+						"snapshotlist" : 						{
+							"current_snapshot" : 0,
+							"entries" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Pro-Q 3",
+									"origin" : "Pro-Q 3.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"snapshot" : 									{
+										"pluginname" : "Pro-Q 3.auinfo",
+										"plugindisplayname" : "Pro-Q 3",
+										"pluginsavedname" : "",
+										"pluginsaveduniqueid" : 1179726704,
+										"version" : 1,
+										"isbank" : 0,
+										"isbase64" : 1,
+										"blob" : "1694.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAkajQBMU.....lE.......9C...3Oeao5.A.............f+....9C...vO.....A...AD....P...f+.........3O...f+z8JRED..............9C...3O....+....BD...LP.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B....D...DP...f.A....D........f+....9C....P..........................................................................................................................................fQQMCbC....PA...vbowVYtQmXxE1by8kXg4FYvE1byo....P.....E.....kbu0RTA....LTcSYU..........7EDTLWZrUlazIlbgM2beIVXtQFbgM2bRDVcsYFD...B.TA.c.fJ.DD.FAvR.LE.XAPWFXjAcYfX........BD..........M...................FPF"
+									}
+,
+									"fileref" : 									{
+										"name" : "Pro-Q 3",
+										"filename" : "Pro-Q 3.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio Status/data",
+										"filepos" : -1,
+										"snapshotfileid" : "9f75682bfd5b5b25fa221c69ed534bcd"
+									}
+
+								}
+ ]
+						}
+
+					}
+,
+					"text" : "audiounit~ 2 2 \"Pro-Q 3\"",
+					"textcolor" : [ 0.188235294117647, 0.011764705882353, 0.219607843137255, 1.0 ],
+					"viewvisibility" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 2205.749852738997106, 82.986895056506114, 138.0, 22.0 ],
+					"text" : "adc~ 3 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-82",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2345.749852738997106, 75.486895056506114, 125.97005385536977, 37.0 ],
+					"text" : "RME inst. inputs.\nstereo silentbrass"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.19 ],
 					"id" : "obj-107",
 					"interval" : 17,
@@ -51,7 +387,7 @@
 					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.36 ],
 					"oncolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.81 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1509.30734340259005, 721.491261505853799, 55.0, 176.084179086874883 ],
+					"patching_rect" : [ 1426.708087343716215, 689.380506004488097, 55.0, 176.084179086874883 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 366.320625000000291, 54.661889591362979, 21.0, 218.084179086874883 ]
 				}
@@ -233,21 +569,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubblepoint" : 0.14,
-					"bubbleside" : 3,
-					"id" : "obj-73",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1614.207062738998502, 183.633271877303514, 94.0, 37.0 ],
-					"text" : "SoundRadix auto-align"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-72",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -265,7 +586,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1879.707062738998502, 215.664939955201362, 52.0, 22.0 ],
+					"patching_rect" : [ 1681.707062738998502, 513.638363540710543, 52.0, 22.0 ],
 					"text" : "adc~ 23"
 				}
 
@@ -276,7 +597,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1712.156599461462974, 72.506280591363065, 74.75, 20.0 ],
+					"patching_rect" : [ 1514.156599461462974, 370.479704176872247, 74.75, 20.0 ],
 					"text" : "mic / mute. "
 				}
 
@@ -289,90 +610,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1478.80734340259005, 138.486895056506114, 64.0, 20.0 ],
 					"text" : "0 indexed"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 1,
-					"bgcolor" : [ 0.341176470588235, 0.701960784313725, 0.831372549019608, 1.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"color" : [ 0.031372549019608, 0.247058823529412, 0.76078431372549, 1.0 ],
-					"id" : "obj-112",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 8,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1529.749852738997106, 632.865244338692833, 138.0, 22.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, 1, 1, "Pro-Q 3", ";" ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"prefer" : "AudioUnit"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshot" : 						{
-							"pluginname" : "Pro-Q 3.auinfo",
-							"plugindisplayname" : "Pro-Q 3",
-							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 1179726704,
-							"version" : 1,
-							"isbank" : 0,
-							"isbase64" : 1,
-							"blob" : "1660.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAUajQBMU.....lE.......9C...3O3oIU.A.............f+....9C...vO.....A...AD....P...f+..............f+3SmpDDfLTsO.........9C...3O56mZ9.........3O.....A...9C........f+....9CxdwUPfWNy+.........3O...f+....7C...HP...v.A....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C....P.....A...AD........f+....9C...3O..........................................................................................................................................fQQMCbC....P....PZtkFc+++++G....PA....PI2asDE.....CU2TVE..........TklaoQmDgUWalAA..f..U.PG.nB.AAfQ.rD.SA.V.zkA1XvNF.D.......f.A.........PC..................fABA"
-						}
-,
-						"snapshotlist" : 						{
-							"current_snapshot" : 0,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 1,
-									"snapshot" : 									{
-										"pluginname" : "Pro-Q 3.auinfo",
-										"plugindisplayname" : "Pro-Q 3",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1179726704,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1660.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAUajQBMU.....lE.......9C...3O3oIU.A.............f+....9C...vO.....A...AD....P...f+..............f+3SmpDDfLTsO.........9C...3O56mZ9.........3O.....A...9C........f+....9CxdwUPfWNy+.........3O...f+....7C...HP...v.A....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B...9C....P.....A...AD........f+....9C...3O..........................................................................................................................................fQQMCbC....P....PZtkFc+++++G....PA....PI2asDE.....CU2TVE..........TklaoQmDgUWalAA..f..U.PG.nB.AAfQ.rD.SA.V.zkA1XvNF.D.......f.A.........PC..................fABA"
-									}
-,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3_20221029_1.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "83a8a5afdf9ad266d311aeead66b6775"
-									}
-
-								}
- ]
-						}
-
-					}
-,
-					"text" : "audiounit~ 1 1 \"Pro-Q 3\"",
-					"textcolor" : [ 0.188235294117647, 0.011764705882353, 0.219607843137255, 1.0 ],
-					"viewvisibility" : 0
 				}
 
 			}
@@ -431,7 +668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1700.906599461462974, 165.633271877303514, 34.0, 22.0 ],
+					"patching_rect" : [ 2287.050316016532634, 371.712832471650131, 34.0, 22.0 ],
 					"text" : "*~ -1"
 				}
 
@@ -443,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1700.906599461462974, 200.664939955201362, 78.0, 22.0 ],
+					"patching_rect" : [ 2287.050316016532634, 406.601603799405666, 78.0, 22.0 ],
 					"text" : "delay~ 52 52"
 				}
 
@@ -468,20 +705,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1854.406599461462974, 171.633271877303514, 45.0, 22.0 ],
+					"patching_rect" : [ 1656.406599461462974, 469.606695462812695, 45.0, 22.0 ],
 					"text" : "adc~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-812",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1569.338484666682234, 392.607216574261201, 29.5, 22.0 ],
-					"text" : "+~"
 				}
 
 			}
@@ -504,7 +729,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1777.906599461462974, 307.325917505853795, 121.0, 22.0 ],
+					"patching_rect" : [ 1579.906599461462974, 605.299341091362976, 121.0, 22.0 ],
 					"text" : "selector~ 4"
 				}
 
@@ -516,7 +741,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1675.406599461462974, 242.164939955201248, 121.0, 22.0 ],
+					"patching_rect" : [ 1477.406599461462974, 540.138363540710429, 121.0, 22.0 ],
 					"text" : "selector~ 4"
 				}
 
@@ -532,7 +757,7 @@
 					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.36 ],
 					"oncolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.81 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1449.30734340259005, 721.491261505853799, 55.0, 176.084179086874883 ],
+					"patching_rect" : [ 1366.708087343716215, 689.380506004488097, 55.0, 176.084179086874883 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 336.320625000000291, 54.661889591362979, 21.0, 218.084179086874883 ]
 				}
@@ -559,7 +784,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1725.906599461462974, 183.633271877303514, 34.0, 22.0 ],
+					"patching_rect" : [ 1527.906599461462974, 481.606695462812695, 34.0, 22.0 ],
 					"text" : "*~ -1"
 				}
 
@@ -571,7 +796,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1725.906599461462974, 215.664939955201362, 78.0, 22.0 ],
+					"patching_rect" : [ 1527.906599461462974, 513.638363540710543, 78.0, 22.0 ],
 					"text" : "delay~ 52 52"
 				}
 
@@ -583,8 +808,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1734.30734340258914, 449.664647474242315, 30.0, 22.0 ],
-					"text" : "*~ 2"
+					"patching_rect" : [ 1620.30734340258914, 844.249209579537251, 30.0, 22.0 ],
+					"text" : "*~ 6"
 				}
 
 			}
@@ -616,11 +841,11 @@
 				"box" : 				{
 					"id" : "obj-596",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1529.969906594366876, 587.75111850585381, 97.737156144631626, 22.0 ],
-					"text" : "selector~ 2"
+					"patching_rect" : [ 2193.499852738997106, 674.75111850585381, 68.0, 22.0 ],
+					"text" : "selector~ 4"
 				}
 
 			}
@@ -631,7 +856,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1608.707062738998502, 451.607216574261201, 52.0, 22.0 ],
+					"patching_rect" : [ 1355.264553402591446, 449.607216574261201, 52.0, 22.0 ],
 					"text" : "adc~ 19"
 				}
 
@@ -684,7 +909,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1701.277397257959819, 94.506280591363065, 121.129202203503155, 22.0 ],
+					"patching_rect" : [ 1503.277397257959819, 392.479704176872247, 121.129202203503155, 22.0 ],
 					"text" : "adc~ 1 2"
 				}
 
@@ -696,20 +921,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1733.30734340258914, 527.491261505853913, 96.0, 26.0 ],
+					"patching_rect" : [ 1619.30734340258914, 922.075823611148849, 96.0, 26.0 ],
 					"text" : "s~ tuba_env"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontsize" : 16.0,
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1529.969906594366876, 669.491261505853799, 95.0, 26.0 ],
-					"text" : "s~ tuba_mic"
 				}
 
 			}
@@ -720,7 +933,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1786.30734340258914, 371.838033442630717, 35.0, 22.0 ],
+					"patching_rect" : [ 1672.30734340258914, 766.422595547925653, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -732,7 +945,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1733.30734340258914, 488.577954490048114, 54.0, 22.0 ],
+					"patching_rect" : [ 1619.30734340258914, 883.16251659534305, 54.0, 22.0 ],
 					"text" : "clip~ 0 1"
 				}
 
@@ -744,7 +957,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1733.30734340258914, 371.838033442630717, 35.0, 22.0 ],
+					"patching_rect" : [ 1619.30734340258914, 766.422595547925653, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -756,7 +969,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1733.30734340258914, 410.751340458436516, 29.5, 22.0 ],
+					"patching_rect" : [ 1619.30734340258914, 805.335902563731452, 29.5, 22.0 ],
 					"text" : "+~"
 				}
 
@@ -768,7 +981,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1726.406599461462974, 134.506280591363065, 121.5, 22.0 ],
+					"patching_rect" : [ 1528.406599461462974, 432.479704176872247, 121.5, 22.0 ],
 					"text" : "adc~ 23 24"
 				}
 
@@ -801,7 +1014,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1809.777397257959819, 94.506280591363065, 125.97005385536977, 24.0 ],
+					"patching_rect" : [ 1611.777397257959819, 392.479704176872247, 125.97005385536977, 24.0 ],
 					"text" : "SilentBrass Live"
 				}
 
@@ -813,7 +1026,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1836.777397257959819, 133.506280591363065, 126.0, 24.0 ],
+					"patching_rect" : [ 1638.777397257959819, 431.479704176872247, 126.0, 24.0 ],
 					"text" : "SilentBrass DAW"
 				}
 
@@ -825,7 +1038,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1887.244036269686148, 171.633271877303514, 116.0, 24.0 ],
+					"patching_rect" : [ 1689.244036269686148, 469.606695462812695, 116.0, 24.0 ],
 					"text" : "clip-on mic Live"
 				}
 
@@ -869,7 +1082,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1633.749852738997106, 463.592531211788355, 63.0, 52.0 ],
+					"patching_rect" : [ 1380.30734340259005, 461.592531211788355, 63.0, 52.0 ],
 					"text" : "MADI 15 from H9K"
 				}
 
@@ -881,21 +1094,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1923.289918700436374, 214.664939955201362, 114.0, 24.0 ],
+					"patching_rect" : [ 1725.289918700436374, 512.638363540710543, 114.0, 24.0 ],
 					"text" : "clip-on mic DAW"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-61",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1660.906599461462974, 625.365244338692833, 114.0, 37.0 ],
-					"text" : "10 Hz low cut\n14 kHz high cut"
 				}
 
 			}
@@ -909,7 +1109,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1978.749852738997106, 230.592531211788355, 63.0, 52.0 ],
+					"patching_rect" : [ 1780.749852738997106, 528.565954797297536, 63.0, 52.0 ],
 					"text" : "MADI 19 loopback"
 				}
 
@@ -1673,8 +1873,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1863,8 +2063,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2053,8 +2253,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2586,8 +2786,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2822,8 +3022,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3058,8 +3258,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3226,8 +3426,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 1,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3559,13 +3759,39 @@
 , 			{
 				"box" : 				{
 					"bubble" : 1,
-					"id" : "obj-1031",
+					"id" : "obj-73",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2359.050316016532634, 371.712832471650131, 161.0, 51.0 ],
+					"text" : "SoundRadix auto-align recommends 52 sample delay & phase inversion"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-114",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1770.30734340258914, 403.251340458436516, 112.0, 37.0 ],
-					"text" : "maximum~ isn't as good IMO"
+					"patching_rect" : [ 2287.050316016532634, 551.065954797297536, 156.949683983467366, 37.0 ],
+					"text" : "divide by two because you're adding two mics"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-109",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2280.050316016532634, 496.047149651272207, 163.949683983467366, 37.0 ],
+					"text" : "should sound better than just silentbrass alone"
 				}
 
 			}
@@ -3600,6 +3826,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"source" : [ "obj-105", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-113", 0 ],
+					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -3607,8 +3847,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-596", 1 ],
 					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 1 ],
+					"source" : [ "obj-113", 0 ]
 				}
 
 			}
@@ -3661,16 +3908,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-596", 0 ],
-					"order" : 0,
-					"source" : [ "obj-122", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-72", 1 ],
-					"order" : 1,
 					"source" : [ "obj-122", 0 ]
 				}
 
@@ -3952,30 +4190,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"order" : 2,
-					"source" : [ "obj-284", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"order" : 0,
-					"source" : [ "obj-284", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-812", 0 ],
-					"order" : 1,
-					"source" : [ "obj-284", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-204", 0 ],
 					"order" : 0,
 					"source" : [ "obj-289", 0 ]
@@ -4047,30 +4261,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"order" : 2,
-					"source" : [ "obj-320", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-328", 0 ],
-					"order" : 0,
-					"source" : [ "obj-320", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-812", 1 ],
-					"order" : 1,
-					"source" : [ "obj-320", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
 					"source" : [ "obj-328", 0 ]
 				}
@@ -4126,7 +4316,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-284", 0 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-370", 0 ]
 				}
 
@@ -4134,7 +4324,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-320", 0 ],
-					"order" : 0,
+					"order" : 2,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-596", 0 ],
+					"order" : 1,
 					"source" : [ "obj-370", 0 ]
 				}
 
@@ -4142,8 +4340,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-849", 0 ],
-					"order" : 2,
+					"order" : 4,
 					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"order" : 0,
+					"source" : [ "obj-370", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-45", 0 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
@@ -4165,13 +4378,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-320", 1 ],
 					"source" : [ "obj-407", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-844", 0 ],
-					"source" : [ "obj-407", 0 ]
 				}
 
 			}
@@ -4214,6 +4420,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-370", 0 ],
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-45", 0 ]
 				}
 
 			}
@@ -4307,13 +4520,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-858", 0 ],
 					"source" : [ "obj-512", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-596", 2 ],
-					"source" : [ "obj-515", 0 ]
 				}
 
 			}
@@ -4458,7 +4664,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
+					"destination" : [ "obj-53", 0 ],
+					"order" : 1,
+					"source" : [ "obj-596", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-877", 0 ],
+					"order" : 0,
 					"source" : [ "obj-596", 0 ]
 				}
 
@@ -4598,15 +4813,40 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
-					"source" : [ "obj-81", 0 ]
+					"destination" : [ "obj-38", 1 ],
+					"order" : 1,
+					"source" : [ "obj-80", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-596", 1 ],
-					"source" : [ "obj-812", 0 ]
+					"destination" : [ "obj-38", 0 ],
+					"order" : 1,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 1 ],
+					"order" : 0,
+					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"order" : 0,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"source" : [ "obj-81", 0 ]
 				}
 
 			}
@@ -4633,7 +4873,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-284", 1 ],
+					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-847", 0 ]
 				}
 
@@ -4682,6 +4922,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-87", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-87", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-876", 0 ],
+					"source" : [ "obj-877", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-89", 0 ]
 				}
@@ -4696,8 +4957,56 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-328", 0 ],
+					"order" : 1,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-877", 1 ],
+					"order" : 0,
+					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-107", 0 ],
+					"order" : 1,
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-844", 0 ],
+					"order" : 0,
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-92", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 1 ],
+					"order" : 1,
+					"source" : [ "obj-94", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 1 ],
+					"order" : 0,
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
@@ -4717,9 +5026,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Pro-Q 3_20221029_1.maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../../Sousastep Audio FX/data",
+				"name" : "Pro-Q 3.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio Status/data",
+				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
