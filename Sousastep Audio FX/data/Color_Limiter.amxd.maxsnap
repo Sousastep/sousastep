@@ -1,0 +1,27 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Color_Limiter.amxd",
+	"origin" : "Color_Limiter.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"name" : "Color_Limiter.amxd",
+		"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Ceiling" : -14.393700787401571,
+				"Lookahead" : 1.0,
+				"Loudness" : 3.0236220472441,
+				"Release" : 984.664254013703498,
+				"Saturation" : 0.283464566929134,
+				"Saturation Color" : 0.590551181102363
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,32 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "thPunchBowl.amxd",
+	"origin" : "thPunchBowl.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 1,
+	"snapshot" : 	{
+		"name" : "thPunchBowl.amxd",
+		"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/thPunchBowl.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"attack" : 177.811023622047145,
+				"bypass" : 0.0,
+				"knee" : 8.503937007874008,
+				"mug" : 20.787401574803134,
+				"ratio" : 69.291338582677128,
+				"release" : 688.188976377952258,
+				"thresh" : -40.551181102362179,
+				"blob" : 				{
+					"function" : [ 100.0, 1.0, 100.0, 0.0, 1.0, 0, 0.0, 50.0, 2.0, 0, 0.0, 75.0, 5.0, 0, 0.0, 100.0, 100.0, 0, 0.0, "curve" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
