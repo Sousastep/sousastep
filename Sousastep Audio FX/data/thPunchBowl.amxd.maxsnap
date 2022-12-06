@@ -12,13 +12,15 @@
 		"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/thPunchBowl.amxd",
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
-				"attack" : 177.811023622047145,
+				"attack" : 1.0,
 				"bypass" : 0.0,
-				"knee" : 8.503937007874008,
-				"mug" : 20.787401574803134,
-				"ratio" : 69.291338582677128,
-				"release" : 688.188976377952258,
-				"thresh" : -40.551181102362179,
+				"inGain" : 5.6,
+				"knee" : 9.0,
+				"lowcut" : 120.0,
+				"mug" : 9.4,
+				"ratio" : 55.0,
+				"release" : 600.0,
+				"thresh" : -40.0,
 				"blob" : 				{
 					"function" : [ 100.0, 1.0, 100.0, 0.0, 1.0, 0, 0.0, 50.0, 2.0, 0, 0.0, 75.0, 5.0, 0, 0.0, 100.0, 100.0, 0, 0.0, "curve" ]
 				}
