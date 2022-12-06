@@ -12,7 +12,7 @@
 		"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/thPunchBowl.amxd",
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
-				"attack" : 103.929133858267718,
+				"attack" : 100.0,
 				"bypass" : 0.0,
 				"inGain" : 0.0,
 				"knee" : 9.0,

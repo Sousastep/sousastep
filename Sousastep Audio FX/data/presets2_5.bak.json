@@ -46,7 +46,8 @@
 					"mix_env_logic::env_top" : [ 90.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -95,7 +96,8 @@
 					"mix_env_logic::env_top" : [ 77.0 ],
 					"delay_and_reverb::reverb_volume" : [ -14 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -144,7 +146,8 @@
 					"mix_env_logic::env_top" : [ 90.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -193,7 +196,8 @@
 					"mix_env_logic::env_top" : [ 94.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -242,7 +246,8 @@
 					"mix_env_logic::env_top" : [ 98.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -291,7 +296,8 @@
 					"mix_env_logic::env_top" : [ 98.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -340,7 +346,8 @@
 					"mix_env_logic::env_top" : [ 81.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -389,7 +396,8 @@
 					"mix_env_logic::env_top" : [ 91.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -438,7 +446,8 @@
 					"mix_env_logic::env_top" : [ 95.0 ],
 					"delay_and_reverb::reverb_volume" : [ -18 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -487,7 +496,8 @@
 					"mix_env_logic::env_top" : [ 56.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -536,7 +546,8 @@
 					"mix_env_logic::env_top" : [ 23.0 ],
 					"delay_and_reverb::reverb_volume" : [ -6 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -585,7 +596,8 @@
 					"mix_env_logic::env_top" : [ 95.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [  ]
 				}
 
 			}
@@ -606,7 +618,7 @@
 					"aux_power" : [ -5.511811023622144 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
-					"crossover_freq" : [ 28.0 ],
+					"crossover_freq" : [ 0.201825589900811 ],
 					"drive" : [ 63.779527559055282 ],
 					"filter_pole" : [ 1 ],
 					"filter_type" : [ 10 ],
@@ -634,7 +646,8 @@
 					"mix_env_logic::env_top" : [ 80.0 ],
 					"delay_and_reverb::reverb_volume" : [ 0 ],
 					"just_darkglass::just_darkglass" : [ 1 ],
-					"distortion_plugins::distortion_plugins" : [ 1 ]
+					"distortion_plugins::distortion_plugins" : [ 1 ],
+					"just_theDrop::just_theDrop" : [ 1 ]
 				}
 
 			}
