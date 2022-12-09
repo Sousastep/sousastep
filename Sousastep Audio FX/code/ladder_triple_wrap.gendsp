@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 3,
+			"minor" : 5,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -146,7 +146,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.333333333333314, 1140.604722527346439, 79.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "phase reset trigger signal",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -162,7 +161,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 156.333333333333314, 1196.482002388969477, 140.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"suppressinlet" : 1,
 					"text" : "high freq mod no env scaling (for visuals only)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -352,8 +350,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1594.812346838124313, 792.10472314173262, 247.0, 23.0 ],
-					"text" : "param VeryLoDryTrim -7 @min -144 @max 0",
+					"patching_rect" : [ 1594.812346838124313, 792.10472314173262, 234.0, 23.0 ],
+					"text" : "param VeryLoDryTrim 0.5 @min 0 @max 1",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[12]"
 				}
@@ -442,8 +440,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 827.835057024685284, 367.160279448204619, 302.0, 23.0 ],
-					"text" : "Param very_low_spread -300 @min -5000 @max 5000",
+					"patching_rect" : [ 827.835057024685284, 367.160279448204619, 283.0, 23.0 ],
+					"text" : "Param very_low_spread 0 @min -5000 @max 5000",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 				}
 
@@ -1361,8 +1359,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1622.727711908022911, 869.549167449646802, 223.0, 23.0 ],
-					"text" : "param LoDryTrim -7 @min -144 @max 0",
+					"patching_rect" : [ 1622.727711908022911, 869.549167449646802, 209.0, 23.0 ],
+					"text" : "param LoDryTrim 0.5 @min 0 @max 1",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[3]"
 				}
@@ -1379,8 +1377,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1651.727711908022911, 946.993611757560984, 214.0, 23.0 ],
-					"text" : "param HiDryTrim -7 @min -12 @max 0",
+					"patching_rect" : [ 1651.727711908022911, 946.993611757560984, 198.0, 23.0 ],
+					"text" : "param HiDryTrim 1 @min 0 @max 1",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
 					"varname" : "hi_filter[4]"
 				}
@@ -1632,8 +1630,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.831112093222941, 367.160279448204619, 271.0, 23.0 ],
-					"text" : "Param freq_spread 300 @min -5000 @max 5000",
+					"patching_rect" : [ 535.831112093222941, 367.160279448204619, 257.0, 23.0 ],
+					"text" : "Param freq_spread 0 @min -5000 @max 5000",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 				}
 
@@ -1649,8 +1647,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 242.827167161760599, 367.160279448204619, 272.0, 23.0 ],
-					"text" : "Param low_spread -300 @min -5000 @max 5000",
+					"patching_rect" : [ 242.827167161760599, 367.160279448204619, 253.0, 23.0 ],
+					"text" : "Param low_spread 0 @min -5000 @max 5000",
 					"textcolor" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ]
 				}
 
