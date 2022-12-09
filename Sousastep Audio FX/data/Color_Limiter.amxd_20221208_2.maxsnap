@@ -12,12 +12,12 @@
 		"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
 		"valuedictionary" : 		{
 			"parameter_values" : 			{
-				"Ceiling" : -0.3,
-				"Lookahead" : 2.5,
+				"Ceiling" : -8.0,
+				"Lookahead" : 1.2,
 				"Loudness" : 0.0,
-				"Release" : 1132.398870092496281,
-				"Saturation" : 0.0,
-				"Saturation Color" : 0.5
+				"Release" : 1166.29870947988843,
+				"Saturation" : 0.110236220472441,
+				"Saturation Color" : 0.594488188976378
 			}
 
 		}
