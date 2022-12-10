@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -26,7 +26,7 @@
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 1,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 15,
+		"toolbars_unpinned_last_save" : 11,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
@@ -337,6 +337,24 @@
 										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio Status/data",
 										"filepos" : -1,
 										"snapshotfileid" : "9f75682bfd5b5b25fa221c69ed534bcd"
+									}
+
+								}
+, 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "Pro-Q 3",
+									"origin" : "Pro-Q 3.auinfo",
+									"type" : "AudioUnit",
+									"subtype" : "MidiEffect",
+									"embed" : 0,
+									"fileref" : 									{
+										"name" : "Pro-Q 3",
+										"filename" : "Pro-Q 3_20221031.maxsnap",
+										"filepath" : "~/Music/_repo/sousastep/Sousastep Dry FX/data",
+										"filepos" : -1,
+										"snapshotfileid" : "3bab2d2ad2bf5871adc6c351c76b4a6d"
 									}
 
 								}
@@ -1380,7 +1398,7 @@
 					"patching_rect" : [ 171.0, 836.0, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.055396023531102, 146.767480591362983, 70.0, 22.0 ],
-					"text" : "symbol 256"
+					"text" : "symbol 512"
 				}
 
 			}
@@ -1873,8 +1891,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2063,8 +2081,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2253,8 +2271,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2786,8 +2804,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3022,8 +3040,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3258,8 +3276,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3426,8 +3444,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 2,
+							"minor" : 3,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5029,6 +5047,13 @@
 				"name" : "Pro-Q 3.maxsnap",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio Status/data",
 				"patcherrelativepath" : "../data",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pro-Q 3_20221031.maxsnap",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Dry FX/data",
+				"patcherrelativepath" : "../../Sousastep Dry FX/data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
