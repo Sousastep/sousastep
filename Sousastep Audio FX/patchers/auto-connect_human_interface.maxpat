@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 1,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1580,7 +1580,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 689.0, 1284.0, 109.0, 22.0 ],
+					"patching_rect" : [ 661.0, 1288.0, 109.0, 22.0 ],
 					"text" : "s all_together_now"
 				}
 
@@ -3047,7 +3047,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
@@ -3075,7 +3074,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "Wireless Controller", ",", "DUALSHOCK 4 Wireless Controller", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Headset", ",", "BTM", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff" ],
+					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -4435,16 +4434,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-225", 0 ],
-					"midpoints" : [ 677.513671999999815, 1162.0, 1100.949706000003061, 1162.0 ],
-					"source" : [ "obj-315", 15 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-226", 0 ],
+					"destination" : [ "obj-211", 0 ],
 					"midpoints" : [ 738.803125199999613, 1162.0, 1352.60156200000165, 1162.0 ],
 					"source" : [ "obj-315", 17 ]
 				}
@@ -4453,8 +4443,8 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-227", 0 ],
-					"midpoints" : [ 708.158398599999714, 1162.0, 1222.716308000002755, 1162.0 ],
+					"destination" : [ "obj-213", 0 ],
+					"midpoints" : [ 708.158398599999714, 1162.0, 1223.484863000001496, 1162.0 ],
 					"source" : [ "obj-315", 16 ]
 				}
 
@@ -4462,8 +4452,17 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-228", 0 ],
-					"midpoints" : [ 646.868945399999802, 1162.0, 983.366698000002543, 1162.0 ],
+					"destination" : [ "obj-215", 0 ],
+					"midpoints" : [ 677.513671999999815, 1162.0, 1101.718261000001803, 1162.0 ],
+					"source" : [ "obj-315", 15 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-218", 0 ],
+					"midpoints" : [ 646.868945399999802, 1162.0, 983.983398000001216, 1162.0 ],
 					"source" : [ "obj-315", 14 ]
 				}
 

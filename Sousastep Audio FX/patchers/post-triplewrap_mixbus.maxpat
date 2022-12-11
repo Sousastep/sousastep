@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 2,
+			"minor" : 3,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -201.0, -993.0, 1380.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 991.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -415,51 +415,6 @@
 						"prefer" : "AudioUnit"
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "RBass (s)",
-									"origin" : "RBass (s).auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "RBass (s).auinfo",
-										"plugindisplayname" : "RBass (s)",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1380860499,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1182.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsUlVWElckM2WXA0bzc0b0IFc4AWYWYWYxMWZu4FUzkGbkQkag0VYRr1bWY0SPvE..............n......CMNlU....D.Q6DIT....BPzIMDB...v..........P..........E7Cf......fA.........b..........H.........PB+.H..HMCM3PDQESTxD8CPDELd0TXo4FHI4Fb0QGHBU2bQ+fDeAwCMEVZtAxS0QGb0QGHBU2bOEw.9...C3C....A....AHkSBM0bkQWP..v.hfETyQGOPIWYyUFcCgVctsFVMwDUxUVYfXWYxMWZu4VOhHiH9n.H7.kbkMWYzAhSg0VY8HBcu8lXgw1a2IBHGUlakIWZiQUdvUVOhHkSBAhH9n.HfvCTxU1bkQGRkEFYkImOJ.BHfvCTrU2Yo4lSg0VY9HUYtEVZyMWXtMVYfHTXyMGOu.Ea0cVZt4TXsUlOJ.BHfvCTrU2Yo41T0I1Pu0Fb9HkSBMEOu.Ea0cVZtMUchMzasAmOJ.BHfvCTrU2Yo4lUkI2bo8la9DCMt.iK3LiK3PCOu.Ea0cVZtYUYxMWZu4lOJ.BHfvSPiQWZ1U1TkQWcv4yTEQUUP8UP77RPiQWZ1U1TkQWcv4iBf.BH7vzagQVSk4VcCEFckc1axkmOUMWYxwyKL8VXj0TYtU2PgQWYm8lb44iBf.BH7HUYgQ1StwVd9Pmb0UFOuHUYgQ1StwVd9n.HfvyKPIWYyUFcHUVXjUlb9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8UPh.xTkQWcv4TXsUVOhP2auIVXr81ch3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3SMtTiMyDCM1PyMyHCM0bSLzPCNwXSYsDyMffiLfTCHv3hMy.CLv.CLv.CLv.CLv.CLvPCMz.BLfDiLf.CHsDCLfDCHpnfJfnBHp.hLv.hLv.RLv.RLfnBH77BTgIWXsUFckI2b9n.Hf.BOPwVcmklaSAWYiklYoMFVMwDQgQWXf7hOJ.BH77BTxU1bkQGQgQWX9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8kPh3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3CLffCLfLCLf.iK1LCLv.CLv.CLv.CLv.CLv.CMzPCHv.BLf.CHv.RLfnhBp.hJfnBHx.CHx.CHw.CHw.hJfvyKPElbg0VYzUlby4iBf.BH7.Ea0cVZtMEbkMVZlk1XX0DSDEFcgAxK9n.HfvyKPIWYyUFcDEFcg4iBfvyKPIWYyUFc9n.Ou.kbkMWYzMDZ041ZX0DSTIWYk4iBRHkSBMED.HQX0YFdbITXyMWZiAxTkQWcvA.B.jA.l.vJ.fC.CAvR.LE.XAPW.HF.ACfw.fL.JCPy.7L.dCP3.LOA0PfNDvCAAA.......HP..........fA..................PfS"
-									}
-,
-									"fileref" : 									{
-										"name" : "RBass (s)",
-										"filename" : "RBass (s)_20221208.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "8faca76f7d7728a03fe0a0b75467bc05"
-									}
-
-								}
- ]
-						}
-
-					}
-,
 					"text" : "audiounit~ 2 2 \"RBass (s)\"",
 					"textcolor" : [ 0.188235294117647, 0.011764705882353, 0.219607843137255, 1.0 ],
 					"varname" : "vst~[5]",
@@ -514,51 +469,6 @@
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "RBass (s)",
-									"origin" : "RBass (s).auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "RBass (s).auinfo",
-										"plugindisplayname" : "RBass (s)",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1380860499,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1209.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsUlVWElckM2WXA0bzc0b0IFc4AWYWYWYxMWZu4FUzkGbkQkag0VYRr1bWY0SPvE..............n......BsrnoC...D.Qks4z....BPTC4CG...v..........P..........E7Cf......fA.........b..........H.........PB+.H..HMCM3PDQESTxD8CPDELd0TXo4FHI4Fb0QGHBU2bQ+fDeAwCMEVZtAxS0QGb0QGHBU2bOEw.YA..CjE....A....AHkSBM0bkQWP..v.8fETyQGOPIWYyUFcCgVctsFVMwDUxUVYfXWYxMWZu4VOhHiH9n.H7.kbkMWYzAhSg0VY8HBcu8lXgYWYxkGaucmHfbTYtUlboMFU4AWY8HhTNIDHh3iBf.BOPIWYyUFcHUVXjUlb9n.Hf.BOPwVcmklaNEVak4iTk4VXoM2bg41XkAhPgM2b77BTrU2Yo4lSg0VY9n.Hf.BOPwVcmklaSUmXC8Vav4iTNIzT77BTrU2Yo41T0I1Pu0Fb9n.Hf.BOPwVcmklaVUlbyk1at4SLz3BLtfyLtfCM77BTrU2Yo4lUkI2bo8la9n.Hf.BOAMFcoYWYSUFc0AmOSUDUUA0WAwyKAMFcoYWYSUFc0AmOJ.BHfvCSuEFYMUla0MTXzU1YuIWd9T0bkIGOuvzagQVSk4VcCEFckc1axkmOJ.BHfviTkEFYO4Fa44CcxUWY77hTkEFYO4Fa44iBf.BOu.kbkMWYzgTYgQVYx4iBf.BOPIWYyUFcDEFcgAxTkQWcv0iHSUDUUA0WAIBHSUFc0AmSg0VY8HBcu8lXgYWYxkGaucmH9n.Hf.BOPElbg0VYzUlbyABU4AWY8HhTkEFaW8lbrQlH9TiK0XyLwPiMzbyLxPSM2DCMzfSL1TVKwbCHz.CH0.BLtXyLv.CLv.CLv.CLv.CLv.CLzPCMf.CHx.iKw.CLv.CLv.CLv.CLv.SLzHSLf.CHsDyLfDCHpnfJfnBHp.hLv.hLv.RLv.RLfnBH77BTgIWXsUFckI2b9n.Hf.BOPwVcmklaSAWYiklYoMFVMwDQgQWXf7hOJ.BH77BTxU1bkQGQgQWX9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8kPh3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3CLffCLfLCLf.iK1LCLv.CLv.CLv.CLv.CLv.CMzPCHv.BLf.CHv.RLfnhBp.hJfnBHx.CHx.CHw.CHw.hJfvyKPElbg0VYzUlby4iBf.BH7.Ea0cVZtMEbkMVZlk1XX0DSDEFcgAxK9n.HfvyKPIWYyUFcDEFcg4iBfvyKPIWYyUFc9n.Ou.kbkMWYzMDZ041ZX0DSTIWYk4iBRHkSBMED.HQX0YFdbITXyMWZiAxTkQWcvA.B.jA.l.vJ.fC.CAvR.LE.XAPW.HF.ACfw.fL.JCPy.7L.dCP3.LOAPQPUDbEAbA.......HP..........fA..................PPZ"
-									}
-,
-									"fileref" : 									{
-										"name" : "RBass (s)",
-										"filename" : "RBass (s).maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "e71c608554e29abc6f7826a81013dbcf"
-									}
-
-								}
- ]
-						}
-
 					}
 ,
 					"text" : "audiounit~ 2 2 \"RBass (s)\"",
@@ -767,7 +677,7 @@
 								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -7.0,
+										"Ceiling" : -10.0,
 										"Filters On/Off" : 1.0,
 										"Filters On/Off[1]" : 1.0
 									}
@@ -1174,54 +1084,6 @@
 						"showheader" : 0
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "GMaudio Clipper 1.1.amxd",
-									"origin" : "GMaudio Clipper 1.1.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "GMaudio Clipper 1.1.amxd",
-										"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"Ceiling" : -1.0,
-												"Filters On/Off" : 1.0,
-												"Filters On/Off[1]" : 1.0
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "GMaudio Clipper 1.1.amxd",
-										"filename" : "GMaudio Clipper 1.1.amxd.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "749bcf6017c39849b3365cfe261f0f62"
-									}
-
-								}
- ]
-						}
-
-					}
-,
 					"text" : "amxd~ \"GMaudio Clipper 1.1.amxd\"",
 					"varname" : "max~[1]",
 					"viewvisibility" : 1
@@ -1272,7 +1134,7 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-1",
-					"linecount" : 3,
+					"linecount" : 4,
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "newobj",
@@ -1280,10 +1142,10 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 1473.0, 921.809075306784962, 254.029179324755432, 170.0 ],
+					"patching_rect" : [ 1473.0, 921.809075306784962, 244.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 277.314899537494284, 355.526321451103286, 254.029179324755432, 170.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 277.314899537494284, 355.526321451103286, 247.0, 178.0 ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"parameter_enable" : 0,
@@ -1529,11 +1391,11 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1473.0, 633.99500400312445, 193.0, 62.0 ],
+					"patching_rect" : [ 1473.0, 633.99500400312445, 196.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 277.314899537494284, 119.809075306784962, 193.0, 62.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Comp TUBE-STA", "@prefer", "AudioUnit", "@parameter_enable", 0, "@autosave", 0, ";" ],
+					"presentation_rect" : [ 277.314899537494284, 119.809075306784962, 196.0, 62.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Comp TUBE-STA", ";" ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"parameter_enable" : 0,
@@ -1560,11 +1422,11 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1187.10579077937291, 633.99500400312445, 193.0, 62.0 ],
+					"patching_rect" : [ 1187.10579077937291, 633.99500400312445, 196.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 17.038280601981796, 119.809075306784962, 193.0, 62.0 ],
-					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Comp TUBE-STA", "@prefer", "AudioUnit", "@parameter_enable", 0, "@autosave", 0, ";" ],
+					"presentation_rect" : [ 17.038280601981796, 119.809075306784962, 196.0, 62.0 ],
+					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Comp TUBE-STA", ";" ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"parameter_enable" : 0,
@@ -1600,51 +1462,6 @@
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "RBass (s)",
-									"origin" : "RBass (s).auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "RBass (s).auinfo",
-										"plugindisplayname" : "RBass (s)",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1380860499,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1209.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsUlVWElckM2WXA0bzc0b0IFc4AWYWYWYxMWZu4FUzkGbkQkag0VYRr1bWY0SPvE..............n......BsrnoC...D.Qks4z....BPTC4CG...v..........P..........E7Cf......fA.........b..........H.........PB+.H..HMCM3PDQESTxD8CPDELd0TXo4FHI4Fb0QGHBU2bQ+fDeAwCMEVZtAxS0QGb0QGHBU2bOEw.YA..CjE....A....AHkSBM0bkQWP..v.8fETyQGOPIWYyUFcCgVctsFVMwDUxUVYfXWYxMWZu4VOhHiH9n.H7.kbkMWYzAhSg0VY8HBcu8lXgYWYxkGaucmHfbTYtUlboMFU4AWY8HhTNIDHh3iBf.BOPIWYyUFcHUVXjUlb9n.Hf.BOPwVcmklaNEVak4iTk4VXoM2bg41XkAhPgM2b77BTrU2Yo4lSg0VY9n.Hf.BOPwVcmklaSUmXC8Vav4iTNIzT77BTrU2Yo41T0I1Pu0Fb9n.Hf.BOPwVcmklaVUlbyk1at4SLz3BLtfyLtfCM77BTrU2Yo4lUkI2bo8la9n.Hf.BOAMFcoYWYSUFc0AmOSUDUUA0WAwyKAMFcoYWYSUFc0AmOJ.BHfvCSuEFYMUla0MTXzU1YuIWd9T0bkIGOuvzagQVSk4VcCEFckc1axkmOJ.BHfviTkEFYO4Fa44CcxUWY77hTkEFYO4Fa44iBf.BOu.kbkMWYzgTYgQVYx4iBf.BOPIWYyUFcDEFcgAxTkQWcv0iHSUDUUA0WAIBHSUFc0AmSg0VY8HBcu8lXgYWYxkGaucmH9n.Hf.BOPElbg0VYzUlbyABU4AWY8HhTkEFaW8lbrQlH9TiK0XyLwPiMzbyLxPSM2DCMzfSL1TVKwbCHz.CH0.BLtXyLv.CLv.CLv.CLv.CLv.CLzPCMf.CHx.iKw.CLv.CLv.CLv.CLv.SLzHSLf.CHsDyLfDCHpnfJfnBHp.hLv.hLv.RLv.RLfnBH77BTgIWXsUFckI2b9n.Hf.BOPwVcmklaSAWYiklYoMFVMwDQgQWXf7hOJ.BH77BTxU1bkQGQgQWX9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8kPh3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3CLffCLfLCLf.iK1LCLv.CLv.CLv.CLv.CLv.CMzPCHv.BLf.CHv.RLfnhBp.hJfnBHx.CHx.CHw.CHw.hJfvyKPElbg0VYzUlby4iBf.BH7.Ea0cVZtMEbkMVZlk1XX0DSDEFcgAxK9n.HfvyKPIWYyUFcDEFcg4iBfvyKPIWYyUFc9n.Ou.kbkMWYzMDZ041ZX0DSTIWYk4iBRHkSBMED.HQX0YFdbITXyMWZiAxTkQWcvA.B.jA.l.vJ.fC.CAvR.LE.XAPW.HF.ACfw.fL.JCPy.7L.dCP3.LOAPQPUDbEAbA.......HP..........fA..................PPZ"
-									}
-,
-									"fileref" : 									{
-										"name" : "RBass (s)",
-										"filename" : "RBass (s).maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "e71c608554e29abc6f7826a81013dbcf"
-									}
-
-								}
- ]
-						}
-
 					}
 ,
 					"text" : "audiounit~ 2 2 \"RBass (s)\"",
@@ -1683,54 +1500,6 @@
 						"showheader" : 0
 					}
 ,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "max~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "GMaudio Clipper 1.1.amxd",
-									"origin" : "GMaudio Clipper 1.1.amxd",
-									"type" : "amxd",
-									"subtype" : "Undefined",
-									"embed" : 0,
-									"snapshot" : 									{
-										"name" : "GMaudio Clipper 1.1.amxd",
-										"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
-										"valuedictionary" : 										{
-											"parameter_values" : 											{
-												"Ceiling" : -7.0,
-												"Filters On/Off" : 1.0,
-												"Filters On/Off[1]" : 1.0
-											}
-
-										}
-
-									}
-,
-									"fileref" : 									{
-										"name" : "GMaudio Clipper 1.1.amxd",
-										"filename" : "GMaudio Clipper 1.1.amxd.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "749bcf6017c39849b3365cfe261f0f62"
-									}
-
-								}
- ]
-						}
-
-					}
-,
 					"text" : "amxd~ \"GMaudio Clipper 1.1.amxd\"",
 					"varname" : "max~",
 					"viewvisibility" : 1
@@ -1746,7 +1515,7 @@
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
 					"id" : "obj-85",
-					"linecount" : 3,
+					"linecount" : 4,
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "newobj",
@@ -1754,10 +1523,10 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 1187.10579077937291, 924.809075306784962, 254.029179324755432, 170.0 ],
+					"patching_rect" : [ 1187.10579077937291, 924.809075306784962, 244.0, 170.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 17.038280601981796, 355.526321451103286, 254.029179324755432, 170.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 17.038280601981796, 355.526321451103286, 247.0, 178.0 ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"parameter_enable" : 0,
@@ -1794,51 +1563,6 @@
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
-					}
-,
-					"snapshot" : 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "snapshotlist",
-						"origin" : "vst~",
-						"type" : "list",
-						"subtype" : "Undefined",
-						"embed" : 1,
-						"snapshotlist" : 						{
-							"current_snapshot" : -1,
-							"entries" : [ 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "RBass (s)",
-									"origin" : "RBass (s).auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "AudioEffect",
-									"embed" : 0,
-									"snapshot" : 									{
-										"pluginname" : "RBass (s).auinfo",
-										"plugindisplayname" : "RBass (s)",
-										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 1380860499,
-										"version" : 1,
-										"isbank" : 0,
-										"isbase64" : 1,
-										"blob" : "1182.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsUlVWElckM2WXA0bzc0b0IFc4AWYWYWYxMWZu4FUzkGbkQkag0VYRr1bWY0SPvE..............n......CMNlU....D.Q6DIT....BPzIMDB...v..........P..........E7Cf......fA.........b..........H.........PB+.H..HMCM3PDQESTxD8CPDELd0TXo4FHI4Fb0QGHBU2bQ+fDeAwCMEVZtAxS0QGb0QGHBU2bOEw.9...C3C....A....AHkSBM0bkQWP..v.hfETyQGOPIWYyUFcCgVctsFVMwDUxUVYfXWYxMWZu4VOhHiH9n.H7.kbkMWYzAhSg0VY8HBcu8lXgw1a2IBHGUlakIWZiQUdvUVOhHkSBAhH9n.HfvCTxU1bkQGRkEFYkImOJ.BHfvCTrU2Yo4lSg0VY9HUYtEVZyMWXtMVYfHTXyMGOu.Ea0cVZt4TXsUlOJ.BHfvCTrU2Yo41T0I1Pu0Fb9HkSBMEOu.Ea0cVZtMUchMzasAmOJ.BHfvCTrU2Yo4lUkI2bo8la9DCMt.iK3LiK3PCOu.Ea0cVZtYUYxMWZu4lOJ.BHfvSPiQWZ1U1TkQWcv4yTEQUUP8UP77RPiQWZ1U1TkQWcv4iBf.BH7vzagQVSk4VcCEFckc1axkmOUMWYxwyKL8VXj0TYtU2PgQWYm8lb44iBf.BH7HUYgQ1StwVd9Pmb0UFOuHUYgQ1StwVd9n.HfvyKPIWYyUFcHUVXjUlb9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8UPh.xTkQWcv4TXsUVOhP2auIVXr81ch3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3SMtTiMyDCM1PyMyHCM0bSLzPCNwXSYsDyMffiLfTCHv3hMy.CLv.CLv.CLv.CLv.CLvPCMz.BLfDiLf.CHsDCLfDCHpnfJfnBHp.hLv.hLv.RLv.RLfnBH77BTgIWXsUFckI2b9n.Hf.BOPwVcmklaSAWYiklYoMFVMwDQgQWXf7hOJ.BH77BTxU1bkQGQgQWX9n.HfvCTxU1bkQGQgQWXfLUYzUGb8HxTEQUUP8kPh3iBf.BH7.UXxEVakQWYxMGHTkGbk0iHRUVXrc0axwFYh3CLffCLfLCLf.iK1LCLv.CLv.CLv.CLv.CLv.CMzPCHv.BLf.CHv.RLfnhBp.hJfnBHx.CHx.CHw.CHw.hJfvyKPElbg0VYzUlby4iBf.BH7.Ea0cVZtMEbkMVZlk1XX0DSDEFcgAxK9n.HfvyKPIWYyUFcDEFcg4iBfvyKPIWYyUFc9n.Ou.kbkMWYzMDZ041ZX0DSTIWYk4iBRHkSBMED.HQX0YFdbITXyMWZiAxTkQWcvA.B.jA.l.vJ.fC.CAvR.LE.XAPW.HF.ACfw.fL.JCPy.7L.dCP3.LOA0PfNDvCAAA.......HP..........fA..................PfS"
-									}
-,
-									"fileref" : 									{
-										"name" : "RBass (s)",
-										"filename" : "RBass (s)_20221208.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "8faca76f7d7728a03fe0a0b75467bc05"
-									}
-
-								}
- ]
-						}
-
 					}
 ,
 					"text" : "audiounit~ 2 2 \"RBass (s)\"",
@@ -2976,27 +2700,6 @@
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "amxd",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "GMaudio Clipper 1.1.amxd.maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RBass (s).maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "RBass (s)_20221208.maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
