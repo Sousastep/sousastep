@@ -112,7 +112,7 @@
 			<val e="LC Enable 00" v="1.00,"/>
 			<val e="Equ Enable 00" v="1.00,"/>
 			<val e="LC Grade 00" v="1.00,"/>
-			<val e="LC Freq 00" v="30.00,"/>
+			<val e="LC Freq 00" v="20.00,"/>
 			<val e="Band1 Freq 00" v="127.00,"/>
 			<val e="Band1 Q 00" v="2.50,"/>
 			<val e="Band1 Gain 00" v="-4.00,"/>
@@ -125,11 +125,11 @@
 			<val e="Band1 Type 00" v="0.00,"/>
 			<val e="Band3 Type 00" v="0.00,"/>
 			<val e="Hide State 00" v="0.00,"/>
-			<val e="Remote Controls 00" v="1023.00,"/>
+			<val e="Remote Controls 00" v="255.00,"/>
 			<val e="Layout OpenClose 00" v="0.00,"/>
 			<val e="Stereo 01" v="0.00,"/>
 			<val e="Name 01" v="mute"/>
-			<val e="Chan Mute 01" v="0.00,"/>
+			<val e="Chan Mute 01" v="1.00,"/>
 			<val e="Rev Return 01" v="-65.00,"/>
 			<val e="Chan Level 01" v="1.00,"/>
 			<val e="Chan Gain 01" v="0.00,"/>
@@ -147,9 +147,9 @@
 			<val e="Talkback Sel. 01" v="-1.00,"/>
 			<val e="No Trim 01" v="0.00,"/>
 			<val e="Mirror To 01" v="0.00,"/>
-			<val e="Input Pad 01" v="1.00,"/>
-			<val e="LC Enable 01" v="1.00,"/>
-			<val e="Equ Enable 01" v="1.00,"/>
+			<val e="Input Pad 01" v="0.00,"/>
+			<val e="LC Enable 01" v="0.00,"/>
+			<val e="Equ Enable 01" v="0.00,"/>
 			<val e="LC Grade 01" v="1.00,"/>
 			<val e="LC Freq 01" v="161.00,"/>
 			<val e="Band1 Freq 01" v="127.00,"/>
@@ -158,19 +158,19 @@
 			<val e="Band2 Freq 01" v="1000.00,"/>
 			<val e="Band2 Q 01" v="1.00,"/>
 			<val e="Band2 Gain 01" v="0.00,"/>
-			<val e="Band3 Freq 01" v="7000.00,"/>
-			<val e="Band3 Q 01" v="0.70,"/>
-			<val e="Band3 Gain 01" v="-20.00,"/>
+			<val e="Band3 Freq 01" v="13700.00,"/>
+			<val e="Band3 Q 01" v="1.00,"/>
+			<val e="Band3 Gain 01" v="0.00,"/>
 			<val e="Band1 Type 01" v="0.00,"/>
 			<val e="Band3 Type 01" v="1.00,"/>
 			<val e="Hide State 01" v="0.00,"/>
-			<val e="Remote Controls 01" v="1023.00,"/>
+			<val e="Remote Controls 01" v="255.00,"/>
 			<val e="Layout OpenClose 01" v="0.00,"/>
-			<val e="Stereo 02" v="1.00,"/>
+			<val e="Stereo 02" v="0.00,"/>
 			<val e="Name 02" v=""/>
 			<val e="Chan Mute 02" v="0.00,"/>
 			<val e="Rev Return 02" v="-65.00,"/>
-			<val e="Chan Level 02" v="1.00,"/>
+			<val e="Chan Level 02" v="0.00,"/>
 			<val e="Chan Gain 02" v="0.00,"/>
 			<val e="Auto Set 02" v="0.00,"/>
 			<val e="Phase Invert 02" v="0.00,"/>
@@ -203,13 +203,13 @@
 			<val e="Band1 Type 02" v="1.00,"/>
 			<val e="Band3 Type 02" v="1.00,"/>
 			<val e="Hide State 02" v="0.00,"/>
-			<val e="Remote Controls 02" v="1023.00,"/>
+			<val e="Remote Controls 02" v="255.00,"/>
 			<val e="Layout OpenClose 02" v="0.00,"/>
-			<val e="Stereo 03" v="1.00,"/>
+			<val e="Stereo 03" v="0.00,"/>
 			<val e="Name 03" v=""/>
 			<val e="Chan Mute 03" v="0.00,"/>
 			<val e="Rev Return 03" v="-65.00,"/>
-			<val e="Chan Level 03" v="1.00,"/>
+			<val e="Chan Level 03" v="0.00,"/>
 			<val e="Chan Gain 03" v="0.00,"/>
 			<val e="Auto Set 03" v="0.00,"/>
 			<val e="Phase Invert 03" v="0.00,"/>
@@ -242,10 +242,10 @@
 			<val e="Band1 Type 03" v="1.00,"/>
 			<val e="Band3 Type 03" v="1.00,"/>
 			<val e="Hide State 03" v="0.00,"/>
-			<val e="Remote Controls 03" v="1023.00,"/>
+			<val e="Remote Controls 03" v="255.00,"/>
 			<val e="Layout OpenClose 03" v="0.00,"/>
 			<val e="Stereo 04" v="1.00,"/>
-			<val e="Name 04" v="lows"/>
+			<val e="Name 04" v=""/>
 			<val e="Chan Mute 04" v="0.00,"/>
 			<val e="Rev Return 04" v="-65.00,"/>
 			<val e="Chan Level 04" v="1.00,"/>
@@ -281,7 +281,7 @@
 			<val e="Band1 Type 04" v="1.00,"/>
 			<val e="Band3 Type 04" v="1.00,"/>
 			<val e="Hide State 04" v="0.00,"/>
-			<val e="Remote Controls 04" v="1023.00,"/>
+			<val e="Remote Controls 04" v="255.00,"/>
 			<val e="Layout OpenClose 04" v="0.00,"/>
 			<val e="Stereo 05" v="1.00,"/>
 			<val e="Name 05" v=""/>
@@ -320,10 +320,10 @@
 			<val e="Band1 Type 05" v="1.00,"/>
 			<val e="Band3 Type 05" v="1.00,"/>
 			<val e="Hide State 05" v="0.00,"/>
-			<val e="Remote Controls 05" v="1023.00,"/>
+			<val e="Remote Controls 05" v="255.00,"/>
 			<val e="Layout OpenClose 05" v="0.00,"/>
 			<val e="Stereo 06" v="1.00,"/>
-			<val e="Name 06" v="highs"/>
+			<val e="Name 06" v=""/>
 			<val e="Chan Mute 06" v="0.00,"/>
 			<val e="Rev Return 06" v="-65.00,"/>
 			<val e="Chan Level 06" v="1.00,"/>
@@ -359,7 +359,7 @@
 			<val e="Band1 Type 06" v="1.00,"/>
 			<val e="Band3 Type 06" v="1.00,"/>
 			<val e="Hide State 06" v="0.00,"/>
-			<val e="Remote Controls 06" v="1023.00,"/>
+			<val e="Remote Controls 06" v="255.00,"/>
 			<val e="Layout OpenClose 06" v="0.00,"/>
 			<val e="Stereo 07" v="1.00,"/>
 			<val e="Name 07" v=""/>
@@ -398,10 +398,10 @@
 			<val e="Band1 Type 07" v="1.00,"/>
 			<val e="Band3 Type 07" v="1.00,"/>
 			<val e="Hide State 07" v="0.00,"/>
-			<val e="Remote Controls 07" v="1023.00,"/>
+			<val e="Remote Controls 07" v="255.00,"/>
 			<val e="Layout OpenClose 07" v="0.00,"/>
 			<val e="Stereo 08" v="1.00,"/>
-			<val e="Name 08" v="verb"/>
+			<val e="Name 08" v="from FF800"/>
 			<val e="Chan Mute 08" v="0.00,"/>
 			<val e="Rev Return 08" v="-65.00,"/>
 			<val e="Chan Level 08" v="1.00,"/>
@@ -437,7 +437,7 @@
 			<val e="Band1 Type 08" v="1.00,"/>
 			<val e="Band3 Type 08" v="1.00,"/>
 			<val e="Hide State 08" v="0.00,"/>
-			<val e="Remote Controls 08" v="1023.00,"/>
+			<val e="Remote Controls 08" v="255.00,"/>
 			<val e="Layout OpenClose 08" v="0.00,"/>
 			<val e="Stereo 09" v="1.00,"/>
 			<val e="Name 09" v=""/>
@@ -476,11 +476,11 @@
 			<val e="Band1 Type 09" v="1.00,"/>
 			<val e="Band3 Type 09" v="1.00,"/>
 			<val e="Hide State 09" v="0.00,"/>
-			<val e="Remote Controls 09" v="1023.00,"/>
+			<val e="Remote Controls 09" v="255.00,"/>
 			<val e="Layout OpenClose 09" v="0.00,"/>
 			<val e="Stereo 10" v="1.00,"/>
-			<val e="Name 10" v="delay"/>
-			<val e="Chan Mute 10" v="0.00,"/>
+			<val e="Name 10" v="VRchat"/>
+			<val e="Chan Mute 10" v="1.00,"/>
 			<val e="Rev Return 10" v="-65.00,"/>
 			<val e="Chan Level 10" v="1.00,"/>
 			<val e="Chan Gain 10" v="0.00,"/>
@@ -515,11 +515,11 @@
 			<val e="Band1 Type 10" v="1.00,"/>
 			<val e="Band3 Type 10" v="1.00,"/>
 			<val e="Hide State 10" v="0.00,"/>
-			<val e="Remote Controls 10" v="1023.00,"/>
+			<val e="Remote Controls 10" v="255.00,"/>
 			<val e="Layout OpenClose 10" v="0.00,"/>
 			<val e="Stereo 11" v="1.00,"/>
 			<val e="Name 11" v=""/>
-			<val e="Chan Mute 11" v="0.00,"/>
+			<val e="Chan Mute 11" v="1.00,"/>
 			<val e="Rev Return 11" v="-65.00,"/>
 			<val e="Chan Level 11" v="1.00,"/>
 			<val e="Chan Gain 11" v="0.00,"/>
@@ -554,11 +554,11 @@
 			<val e="Band1 Type 11" v="1.00,"/>
 			<val e="Band3 Type 11" v="1.00,"/>
 			<val e="Hide State 11" v="0.00,"/>
-			<val e="Remote Controls 11" v="1023.00,"/>
+			<val e="Remote Controls 11" v="255.00,"/>
 			<val e="Layout OpenClose 11" v="0.00,"/>
 			<val e="Stereo 12" v="1.00,"/>
-			<val e="Name 12" v="beats"/>
-			<val e="Chan Mute 12" v="0.00,"/>
+			<val e="Name 12" v=""/>
+			<val e="Chan Mute 12" v="1.00,"/>
 			<val e="Rev Return 12" v="-65.00,"/>
 			<val e="Chan Level 12" v="1.00,"/>
 			<val e="Chan Gain 12" v="0.00,"/>
@@ -593,11 +593,11 @@
 			<val e="Band1 Type 12" v="1.00,"/>
 			<val e="Band3 Type 12" v="1.00,"/>
 			<val e="Hide State 12" v="0.00,"/>
-			<val e="Remote Controls 12" v="1023.00,"/>
+			<val e="Remote Controls 12" v="255.00,"/>
 			<val e="Layout OpenClose 12" v="0.00,"/>
 			<val e="Stereo 13" v="1.00,"/>
 			<val e="Name 13" v=""/>
-			<val e="Chan Mute 13" v="0.00,"/>
+			<val e="Chan Mute 13" v="1.00,"/>
 			<val e="Rev Return 13" v="-65.00,"/>
 			<val e="Chan Level 13" v="1.00,"/>
 			<val e="Chan Gain 13" v="0.00,"/>
@@ -632,10 +632,10 @@
 			<val e="Band1 Type 13" v="1.00,"/>
 			<val e="Band3 Type 13" v="1.00,"/>
 			<val e="Hide State 13" v="0.00,"/>
-			<val e="Remote Controls 13" v="1023.00,"/>
+			<val e="Remote Controls 13" v="255.00,"/>
 			<val e="Layout OpenClose 13" v="0.00,"/>
 			<val e="Stereo 14" v="1.00,"/>
-			<val e="Name 14" v="metronome"/>
+			<val e="Name 14" v="Chrome Via"/>
 			<val e="Chan Mute 14" v="0.00,"/>
 			<val e="Rev Return 14" v="-65.00,"/>
 			<val e="Chan Level 14" v="1.00,"/>
@@ -643,7 +643,7 @@
 			<val e="Auto Set 14" v="0.00,"/>
 			<val e="Phase Invert 14" v="0.00,"/>
 			<val e="M/S-Coding 14" v="0.00,"/>
-			<val e="Width 14" v="0.00,"/>
+			<val e="Width 14" v="1.00,"/>
 			<val e="PF Listen 14" v="0.00,"/>
 			<val e="Rev Send 14" v="-300.00,"/>
 			<val e="Loopback 14" v="0.00,"/>
@@ -671,7 +671,7 @@
 			<val e="Band1 Type 14" v="1.00,"/>
 			<val e="Band3 Type 14" v="1.00,"/>
 			<val e="Hide State 14" v="0.00,"/>
-			<val e="Remote Controls 14" v="1023.00,"/>
+			<val e="Remote Controls 14" v="255.00,"/>
 			<val e="Layout OpenClose 14" v="0.00,"/>
 			<val e="Stereo 15" v="1.00,"/>
 			<val e="Name 15" v=""/>
@@ -682,7 +682,7 @@
 			<val e="Auto Set 15" v="0.00,"/>
 			<val e="Phase Invert 15" v="0.00,"/>
 			<val e="M/S-Coding 15" v="0.00,"/>
-			<val e="Width 15" v="0.00,"/>
+			<val e="Width 15" v="1.00,"/>
 			<val e="PF Listen 15" v="0.00,"/>
 			<val e="Rev Send 15" v="-300.00,"/>
 			<val e="Loopback 15" v="0.00,"/>
@@ -710,10 +710,10 @@
 			<val e="Band1 Type 15" v="1.00,"/>
 			<val e="Band3 Type 15" v="1.00,"/>
 			<val e="Hide State 15" v="0.00,"/>
-			<val e="Remote Controls 15" v="1023.00,"/>
+			<val e="Remote Controls 15" v="255.00,"/>
 			<val e="Layout OpenClose 15" v="0.00,"/>
 			<val e="Stereo 16" v="1.00,"/>
-			<val e="Name 16" v=""/>
+			<val e="Name 16" v="Discord Via"/>
 			<val e="Chan Mute 16" v="0.00,"/>
 			<val e="Rev Return 16" v="-65.00,"/>
 			<val e="Chan Level 16" v="1.00,"/>
@@ -749,7 +749,7 @@
 			<val e="Band1 Type 16" v="1.00,"/>
 			<val e="Band3 Type 16" v="1.00,"/>
 			<val e="Hide State 16" v="0.00,"/>
-			<val e="Remote Controls 16" v="1023.00,"/>
+			<val e="Remote Controls 16" v="255.00,"/>
 			<val e="Layout OpenClose 16" v="0.00,"/>
 			<val e="Stereo 17" v="1.00,"/>
 			<val e="Name 17" v=""/>
@@ -788,10 +788,10 @@
 			<val e="Band1 Type 17" v="1.00,"/>
 			<val e="Band3 Type 17" v="1.00,"/>
 			<val e="Hide State 17" v="0.00,"/>
-			<val e="Remote Controls 17" v="1023.00,"/>
+			<val e="Remote Controls 17" v="255.00,"/>
 			<val e="Layout OpenClose 17" v="0.00,"/>
 			<val e="Stereo 18" v="1.00,"/>
-			<val e="Name 18" v=""/>
+			<val e="Name 18" v="Atune H9K"/>
 			<val e="Chan Mute 18" v="0.00,"/>
 			<val e="Rev Return 18" v="-65.00,"/>
 			<val e="Chan Level 18" v="1.00,"/>
@@ -827,7 +827,7 @@
 			<val e="Band1 Type 18" v="1.00,"/>
 			<val e="Band3 Type 18" v="1.00,"/>
 			<val e="Hide State 18" v="0.00,"/>
-			<val e="Remote Controls 18" v="1023.00,"/>
+			<val e="Remote Controls 18" v="255.00,"/>
 			<val e="Layout OpenClose 18" v="0.00,"/>
 			<val e="Stereo 19" v="1.00,"/>
 			<val e="Name 19" v=""/>
@@ -866,9 +866,9 @@
 			<val e="Band1 Type 19" v="1.00,"/>
 			<val e="Band3 Type 19" v="1.00,"/>
 			<val e="Hide State 19" v="0.00,"/>
-			<val e="Remote Controls 19" v="1023.00,"/>
+			<val e="Remote Controls 19" v="255.00,"/>
 			<val e="Layout OpenClose 19" v="0.00,"/>
-			<val e="Stereo 20" v="1.00,"/>
+			<val e="Stereo 20" v="0.00,"/>
 			<val e="Name 20" v=""/>
 			<val e="Chan Mute 20" v="0.00,"/>
 			<val e="Rev Return 20" v="-65.00,"/>
@@ -905,9 +905,9 @@
 			<val e="Band1 Type 20" v="1.00,"/>
 			<val e="Band3 Type 20" v="1.00,"/>
 			<val e="Hide State 20" v="0.00,"/>
-			<val e="Remote Controls 20" v="1023.00,"/>
+			<val e="Remote Controls 20" v="255.00,"/>
 			<val e="Layout OpenClose 20" v="0.00,"/>
-			<val e="Stereo 21" v="1.00,"/>
+			<val e="Stereo 21" v="0.00,"/>
 			<val e="Name 21" v=""/>
 			<val e="Chan Mute 21" v="0.00,"/>
 			<val e="Rev Return 21" v="-65.00,"/>
@@ -944,11 +944,11 @@
 			<val e="Band1 Type 21" v="1.00,"/>
 			<val e="Band3 Type 21" v="1.00,"/>
 			<val e="Hide State 21" v="0.00,"/>
-			<val e="Remote Controls 21" v="1023.00,"/>
+			<val e="Remote Controls 21" v="255.00,"/>
 			<val e="Layout OpenClose 21" v="0.00,"/>
 			<val e="Stereo 22" v="1.00,"/>
-			<val e="Name 22" v=""/>
-			<val e="Chan Mute 22" v="1.00,"/>
+			<val e="Name 22" v="test loopba"/>
+			<val e="Chan Mute 22" v="0.00,"/>
 			<val e="Rev Return 22" v="-65.00,"/>
 			<val e="Chan Level 22" v="1.00,"/>
 			<val e="Chan Gain 22" v="0.00,"/>
@@ -983,11 +983,11 @@
 			<val e="Band1 Type 22" v="1.00,"/>
 			<val e="Band3 Type 22" v="1.00,"/>
 			<val e="Hide State 22" v="0.00,"/>
-			<val e="Remote Controls 22" v="1023.00,"/>
+			<val e="Remote Controls 22" v="255.00,"/>
 			<val e="Layout OpenClose 22" v="0.00,"/>
 			<val e="Stereo 23" v="1.00,"/>
 			<val e="Name 23" v=""/>
-			<val e="Chan Mute 23" v="1.00,"/>
+			<val e="Chan Mute 23" v="0.00,"/>
 			<val e="Rev Return 23" v="-65.00,"/>
 			<val e="Chan Level 23" v="1.00,"/>
 			<val e="Chan Gain 23" v="0.00,"/>
@@ -1022,7 +1022,7 @@
 			<val e="Band1 Type 23" v="1.00,"/>
 			<val e="Band3 Type 23" v="1.00,"/>
 			<val e="Hide State 23" v="0.00,"/>
-			<val e="Remote Controls 23" v="1023.00,"/>
+			<val e="Remote Controls 23" v="255.00,"/>
 			<val e="Layout OpenClose 23" v="0.00,"/>
 			<val e="Stereo 24" v="1.00,"/>
 			<val e="Name 24" v=""/>
@@ -1061,7 +1061,7 @@
 			<val e="Band1 Type 24" v="1.00,"/>
 			<val e="Band3 Type 24" v="1.00,"/>
 			<val e="Hide State 24" v="0.00,"/>
-			<val e="Remote Controls 24" v="1023.00,"/>
+			<val e="Remote Controls 24" v="255.00,"/>
 			<val e="Layout OpenClose 24" v="0.00,"/>
 			<val e="Stereo 25" v="1.00,"/>
 			<val e="Name 25" v=""/>
@@ -1100,7 +1100,7 @@
 			<val e="Band1 Type 25" v="1.00,"/>
 			<val e="Band3 Type 25" v="1.00,"/>
 			<val e="Hide State 25" v="0.00,"/>
-			<val e="Remote Controls 25" v="1023.00,"/>
+			<val e="Remote Controls 25" v="255.00,"/>
 			<val e="Layout OpenClose 25" v="0.00,"/>
 			<val e="Stereo 26" v="1.00,"/>
 			<val e="Name 26" v=""/>
@@ -1139,7 +1139,7 @@
 			<val e="Band1 Type 26" v="1.00,"/>
 			<val e="Band3 Type 26" v="1.00,"/>
 			<val e="Hide State 26" v="0.00,"/>
-			<val e="Remote Controls 26" v="1023.00,"/>
+			<val e="Remote Controls 26" v="255.00,"/>
 			<val e="Layout OpenClose 26" v="0.00,"/>
 			<val e="Stereo 27" v="1.00,"/>
 			<val e="Name 27" v=""/>
@@ -1178,7 +1178,7 @@
 			<val e="Band1 Type 27" v="1.00,"/>
 			<val e="Band3 Type 27" v="1.00,"/>
 			<val e="Hide State 27" v="0.00,"/>
-			<val e="Remote Controls 27" v="1023.00,"/>
+			<val e="Remote Controls 27" v="255.00,"/>
 			<val e="Layout OpenClose 27" v="0.00,"/>
 			<val e="Stereo 28" v="1.00,"/>
 			<val e="Name 28" v=""/>
@@ -1217,7 +1217,7 @@
 			<val e="Band1 Type 28" v="1.00,"/>
 			<val e="Band3 Type 28" v="1.00,"/>
 			<val e="Hide State 28" v="0.00,"/>
-			<val e="Remote Controls 28" v="1023.00,"/>
+			<val e="Remote Controls 28" v="255.00,"/>
 			<val e="Layout OpenClose 28" v="0.00,"/>
 			<val e="Stereo 29" v="1.00,"/>
 			<val e="Name 29" v=""/>
@@ -1256,7 +1256,7 @@
 			<val e="Band1 Type 29" v="1.00,"/>
 			<val e="Band3 Type 29" v="1.00,"/>
 			<val e="Hide State 29" v="0.00,"/>
-			<val e="Remote Controls 29" v="1023.00,"/>
+			<val e="Remote Controls 29" v="255.00,"/>
 			<val e="Layout OpenClose 29" v="0.00,"/>
 			<val e="Stereo 30" v="1.00,"/>
 			<val e="Name 30" v=""/>
@@ -1295,7 +1295,7 @@
 			<val e="Band1 Type 30" v="1.00,"/>
 			<val e="Band3 Type 30" v="1.00,"/>
 			<val e="Hide State 30" v="0.00,"/>
-			<val e="Remote Controls 30" v="1023.00,"/>
+			<val e="Remote Controls 30" v="255.00,"/>
 			<val e="Layout OpenClose 30" v="0.00,"/>
 			<val e="Stereo 31" v="1.00,"/>
 			<val e="Name 31" v=""/>
@@ -1334,7 +1334,7 @@
 			<val e="Band1 Type 31" v="1.00,"/>
 			<val e="Band3 Type 31" v="1.00,"/>
 			<val e="Hide State 31" v="0.00,"/>
-			<val e="Remote Controls 31" v="1023.00,"/>
+			<val e="Remote Controls 31" v="255.00,"/>
 			<val e="Layout OpenClose 31" v="0.00,"/>
 			<val e="Stereo 32" v="1.00,"/>
 			<val e="Name 32" v=""/>
@@ -1373,7 +1373,7 @@
 			<val e="Band1 Type 32" v="1.00,"/>
 			<val e="Band3 Type 32" v="1.00,"/>
 			<val e="Hide State 32" v="0.00,"/>
-			<val e="Remote Controls 32" v="1023.00,"/>
+			<val e="Remote Controls 32" v="255.00,"/>
 			<val e="Layout OpenClose 32" v="0.00,"/>
 			<val e="Stereo 33" v="1.00,"/>
 			<val e="Name 33" v=""/>
@@ -1412,7 +1412,7 @@
 			<val e="Band1 Type 33" v="1.00,"/>
 			<val e="Band3 Type 33" v="1.00,"/>
 			<val e="Hide State 33" v="0.00,"/>
-			<val e="Remote Controls 33" v="1023.00,"/>
+			<val e="Remote Controls 33" v="255.00,"/>
 			<val e="Layout OpenClose 33" v="0.00,"/>
 			<val e="Stereo 34" v="1.00,"/>
 			<val e="Name 34" v=""/>
@@ -1451,7 +1451,7 @@
 			<val e="Band1 Type 34" v="1.00,"/>
 			<val e="Band3 Type 34" v="1.00,"/>
 			<val e="Hide State 34" v="0.00,"/>
-			<val e="Remote Controls 34" v="1023.00,"/>
+			<val e="Remote Controls 34" v="255.00,"/>
 			<val e="Layout OpenClose 34" v="0.00,"/>
 			<val e="Stereo 35" v="1.00,"/>
 			<val e="Name 35" v=""/>
@@ -1490,7 +1490,7 @@
 			<val e="Band1 Type 35" v="1.00,"/>
 			<val e="Band3 Type 35" v="1.00,"/>
 			<val e="Hide State 35" v="0.00,"/>
-			<val e="Remote Controls 35" v="1023.00,"/>
+			<val e="Remote Controls 35" v="255.00,"/>
 			<val e="Layout OpenClose 35" v="0.00,"/>
 			<val e="Stereo 36" v="1.00,"/>
 			<val e="Name 36" v=""/>
@@ -1529,7 +1529,7 @@
 			<val e="Band1 Type 36" v="1.00,"/>
 			<val e="Band3 Type 36" v="1.00,"/>
 			<val e="Hide State 36" v="0.00,"/>
-			<val e="Remote Controls 36" v="1023.00,"/>
+			<val e="Remote Controls 36" v="255.00,"/>
 			<val e="Layout OpenClose 36" v="0.00,"/>
 			<val e="Stereo 37" v="1.00,"/>
 			<val e="Name 37" v=""/>
@@ -1568,7 +1568,7 @@
 			<val e="Band1 Type 37" v="1.00,"/>
 			<val e="Band3 Type 37" v="1.00,"/>
 			<val e="Hide State 37" v="0.00,"/>
-			<val e="Remote Controls 37" v="1023.00,"/>
+			<val e="Remote Controls 37" v="255.00,"/>
 			<val e="Layout OpenClose 37" v="0.00,"/>
 			<val e="Stereo 38" v="1.00,"/>
 			<val e="Name 38" v=""/>
@@ -1607,7 +1607,7 @@
 			<val e="Band1 Type 38" v="1.00,"/>
 			<val e="Band3 Type 38" v="1.00,"/>
 			<val e="Hide State 38" v="0.00,"/>
-			<val e="Remote Controls 38" v="1023.00,"/>
+			<val e="Remote Controls 38" v="255.00,"/>
 			<val e="Layout OpenClose 38" v="0.00,"/>
 			<val e="Stereo 39" v="1.00,"/>
 			<val e="Name 39" v=""/>
@@ -1646,7 +1646,7 @@
 			<val e="Band1 Type 39" v="1.00,"/>
 			<val e="Band3 Type 39" v="1.00,"/>
 			<val e="Hide State 39" v="0.00,"/>
-			<val e="Remote Controls 39" v="1023.00,"/>
+			<val e="Remote Controls 39" v="255.00,"/>
 			<val e="Layout OpenClose 39" v="0.00,"/>
 			<val e="Stereo 40" v="1.00,"/>
 			<val e="Name 40" v=""/>
@@ -1685,7 +1685,7 @@
 			<val e="Band1 Type 40" v="1.00,"/>
 			<val e="Band3 Type 40" v="1.00,"/>
 			<val e="Hide State 40" v="0.00,"/>
-			<val e="Remote Controls 40" v="1023.00,"/>
+			<val e="Remote Controls 40" v="255.00,"/>
 			<val e="Layout OpenClose 40" v="0.00,"/>
 			<val e="Stereo 41" v="1.00,"/>
 			<val e="Name 41" v=""/>
@@ -1724,7 +1724,7 @@
 			<val e="Band1 Type 41" v="1.00,"/>
 			<val e="Band3 Type 41" v="1.00,"/>
 			<val e="Hide State 41" v="0.00,"/>
-			<val e="Remote Controls 41" v="1023.00,"/>
+			<val e="Remote Controls 41" v="255.00,"/>
 			<val e="Layout OpenClose 41" v="0.00,"/>
 			<val e="Stereo 42" v="1.00,"/>
 			<val e="Name 42" v=""/>
@@ -1763,7 +1763,7 @@
 			<val e="Band1 Type 42" v="1.00,"/>
 			<val e="Band3 Type 42" v="1.00,"/>
 			<val e="Hide State 42" v="0.00,"/>
-			<val e="Remote Controls 42" v="1023.00,"/>
+			<val e="Remote Controls 42" v="255.00,"/>
 			<val e="Layout OpenClose 42" v="0.00,"/>
 			<val e="Stereo 43" v="1.00,"/>
 			<val e="Name 43" v=""/>
@@ -1802,7 +1802,7 @@
 			<val e="Band1 Type 43" v="1.00,"/>
 			<val e="Band3 Type 43" v="1.00,"/>
 			<val e="Hide State 43" v="0.00,"/>
-			<val e="Remote Controls 43" v="1023.00,"/>
+			<val e="Remote Controls 43" v="255.00,"/>
 			<val e="Layout OpenClose 43" v="0.00,"/>
 			<val e="Stereo 44" v="1.00,"/>
 			<val e="Name 44" v=""/>
@@ -1841,7 +1841,7 @@
 			<val e="Band1 Type 44" v="1.00,"/>
 			<val e="Band3 Type 44" v="1.00,"/>
 			<val e="Hide State 44" v="0.00,"/>
-			<val e="Remote Controls 44" v="1023.00,"/>
+			<val e="Remote Controls 44" v="255.00,"/>
 			<val e="Layout OpenClose 44" v="0.00,"/>
 			<val e="Stereo 45" v="1.00,"/>
 			<val e="Name 45" v=""/>
@@ -1880,7 +1880,7 @@
 			<val e="Band1 Type 45" v="1.00,"/>
 			<val e="Band3 Type 45" v="1.00,"/>
 			<val e="Hide State 45" v="0.00,"/>
-			<val e="Remote Controls 45" v="1023.00,"/>
+			<val e="Remote Controls 45" v="255.00,"/>
 			<val e="Layout OpenClose 45" v="0.00,"/>
 			<val e="Stereo 46" v="1.00,"/>
 			<val e="Name 46" v=""/>
@@ -1919,7 +1919,7 @@
 			<val e="Band1 Type 46" v="1.00,"/>
 			<val e="Band3 Type 46" v="1.00,"/>
 			<val e="Hide State 46" v="0.00,"/>
-			<val e="Remote Controls 46" v="1023.00,"/>
+			<val e="Remote Controls 46" v="255.00,"/>
 			<val e="Layout OpenClose 46" v="0.00,"/>
 			<val e="Stereo 47" v="1.00,"/>
 			<val e="Name 47" v=""/>
@@ -1958,7 +1958,7 @@
 			<val e="Band1 Type 47" v="1.00,"/>
 			<val e="Band3 Type 47" v="1.00,"/>
 			<val e="Hide State 47" v="0.00,"/>
-			<val e="Remote Controls 47" v="1023.00,"/>
+			<val e="Remote Controls 47" v="255.00,"/>
 			<val e="Layout OpenClose 47" v="0.00,"/>
 			<val e="Stereo 48" v="1.00,"/>
 			<val e="Name 48" v=""/>
@@ -1997,7 +1997,7 @@
 			<val e="Band1 Type 48" v="1.00,"/>
 			<val e="Band3 Type 48" v="1.00,"/>
 			<val e="Hide State 48" v="0.00,"/>
-			<val e="Remote Controls 48" v="1023.00,"/>
+			<val e="Remote Controls 48" v="255.00,"/>
 			<val e="Layout OpenClose 48" v="0.00,"/>
 			<val e="Stereo 49" v="1.00,"/>
 			<val e="Name 49" v=""/>
@@ -2036,7 +2036,7 @@
 			<val e="Band1 Type 49" v="1.00,"/>
 			<val e="Band3 Type 49" v="1.00,"/>
 			<val e="Hide State 49" v="0.00,"/>
-			<val e="Remote Controls 49" v="1023.00,"/>
+			<val e="Remote Controls 49" v="255.00,"/>
 			<val e="Layout OpenClose 49" v="0.00,"/>
 			<val e="Stereo 50" v="1.00,"/>
 			<val e="Name 50" v=""/>
@@ -2075,7 +2075,7 @@
 			<val e="Band1 Type 50" v="1.00,"/>
 			<val e="Band3 Type 50" v="1.00,"/>
 			<val e="Hide State 50" v="0.00,"/>
-			<val e="Remote Controls 50" v="1023.00,"/>
+			<val e="Remote Controls 50" v="255.00,"/>
 			<val e="Layout OpenClose 50" v="0.00,"/>
 			<val e="Stereo 51" v="1.00,"/>
 			<val e="Name 51" v=""/>
@@ -2114,10 +2114,10 @@
 			<val e="Band1 Type 51" v="1.00,"/>
 			<val e="Band3 Type 51" v="1.00,"/>
 			<val e="Hide State 51" v="0.00,"/>
-			<val e="Remote Controls 51" v="1023.00,"/>
+			<val e="Remote Controls 51" v="255.00,"/>
 			<val e="Layout OpenClose 51" v="0.00,"/>
 			<val e="Stereo 52" v="1.00,"/>
-			<val e="Name 52" v=""/>
+			<val e="Name 52" v="lo tuba LB"/>
 			<val e="Chan Mute 52" v="0.00,"/>
 			<val e="Rev Return 52" v="-65.00,"/>
 			<val e="Chan Level 52" v="1.00,"/>
@@ -2153,7 +2153,7 @@
 			<val e="Band1 Type 52" v="1.00,"/>
 			<val e="Band3 Type 52" v="1.00,"/>
 			<val e="Hide State 52" v="0.00,"/>
-			<val e="Remote Controls 52" v="1023.00,"/>
+			<val e="Remote Controls 52" v="255.00,"/>
 			<val e="Layout OpenClose 52" v="0.00,"/>
 			<val e="Stereo 53" v="1.00,"/>
 			<val e="Name 53" v=""/>
@@ -2192,10 +2192,10 @@
 			<val e="Band1 Type 53" v="1.00,"/>
 			<val e="Band3 Type 53" v="1.00,"/>
 			<val e="Hide State 53" v="0.00,"/>
-			<val e="Remote Controls 53" v="1023.00,"/>
+			<val e="Remote Controls 53" v="255.00,"/>
 			<val e="Layout OpenClose 53" v="0.00,"/>
 			<val e="Stereo 54" v="1.00,"/>
-			<val e="Name 54" v=""/>
+			<val e="Name 54" v="hi tuba LB"/>
 			<val e="Chan Mute 54" v="0.00,"/>
 			<val e="Rev Return 54" v="-65.00,"/>
 			<val e="Chan Level 54" v="1.00,"/>
@@ -2231,7 +2231,7 @@
 			<val e="Band1 Type 54" v="1.00,"/>
 			<val e="Band3 Type 54" v="1.00,"/>
 			<val e="Hide State 54" v="0.00,"/>
-			<val e="Remote Controls 54" v="1023.00,"/>
+			<val e="Remote Controls 54" v="255.00,"/>
 			<val e="Layout OpenClose 54" v="0.00,"/>
 			<val e="Stereo 55" v="1.00,"/>
 			<val e="Name 55" v=""/>
@@ -2270,7 +2270,7 @@
 			<val e="Band1 Type 55" v="1.00,"/>
 			<val e="Band3 Type 55" v="1.00,"/>
 			<val e="Hide State 55" v="0.00,"/>
-			<val e="Remote Controls 55" v="1023.00,"/>
+			<val e="Remote Controls 55" v="255.00,"/>
 			<val e="Layout OpenClose 55" v="0.00,"/>
 			<val e="Stereo 56" v="1.00,"/>
 			<val e="Name 56" v=""/>
@@ -2309,7 +2309,7 @@
 			<val e="Band1 Type 56" v="1.00,"/>
 			<val e="Band3 Type 56" v="1.00,"/>
 			<val e="Hide State 56" v="0.00,"/>
-			<val e="Remote Controls 56" v="1023.00,"/>
+			<val e="Remote Controls 56" v="255.00,"/>
 			<val e="Layout OpenClose 56" v="0.00,"/>
 			<val e="Stereo 57" v="1.00,"/>
 			<val e="Name 57" v=""/>
@@ -2348,7 +2348,7 @@
 			<val e="Band1 Type 57" v="1.00,"/>
 			<val e="Band3 Type 57" v="1.00,"/>
 			<val e="Hide State 57" v="0.00,"/>
-			<val e="Remote Controls 57" v="1023.00,"/>
+			<val e="Remote Controls 57" v="255.00,"/>
 			<val e="Layout OpenClose 57" v="0.00,"/>
 			<val e="Stereo 58" v="1.00,"/>
 			<val e="Name 58" v=""/>
@@ -2387,7 +2387,7 @@
 			<val e="Band1 Type 58" v="1.00,"/>
 			<val e="Band3 Type 58" v="1.00,"/>
 			<val e="Hide State 58" v="0.00,"/>
-			<val e="Remote Controls 58" v="1023.00,"/>
+			<val e="Remote Controls 58" v="255.00,"/>
 			<val e="Layout OpenClose 58" v="0.00,"/>
 			<val e="Stereo 59" v="1.00,"/>
 			<val e="Name 59" v=""/>
@@ -2426,7 +2426,7 @@
 			<val e="Band1 Type 59" v="1.00,"/>
 			<val e="Band3 Type 59" v="1.00,"/>
 			<val e="Hide State 59" v="0.00,"/>
-			<val e="Remote Controls 59" v="1023.00,"/>
+			<val e="Remote Controls 59" v="255.00,"/>
 			<val e="Layout OpenClose 59" v="0.00,"/>
 			<val e="Stereo 60" v="1.00,"/>
 			<val e="Name 60" v=""/>
@@ -2465,7 +2465,7 @@
 			<val e="Band1 Type 60" v="1.00,"/>
 			<val e="Band3 Type 60" v="1.00,"/>
 			<val e="Hide State 60" v="0.00,"/>
-			<val e="Remote Controls 60" v="1023.00,"/>
+			<val e="Remote Controls 60" v="255.00,"/>
 			<val e="Layout OpenClose 60" v="0.00,"/>
 			<val e="Stereo 61" v="1.00,"/>
 			<val e="Name 61" v=""/>
@@ -2504,10 +2504,10 @@
 			<val e="Band1 Type 61" v="1.00,"/>
 			<val e="Band3 Type 61" v="1.00,"/>
 			<val e="Hide State 61" v="0.00,"/>
-			<val e="Remote Controls 61" v="1023.00,"/>
+			<val e="Remote Controls 61" v="255.00,"/>
 			<val e="Layout OpenClose 61" v="0.00,"/>
 			<val e="Stereo 62" v="1.00,"/>
-			<val e="Name 62" v=""/>
+			<val e="Name 62" v="LB'd"/>
 			<val e="Chan Mute 62" v="0.00,"/>
 			<val e="Rev Return 62" v="-65.00,"/>
 			<val e="Chan Level 62" v="1.00,"/>
@@ -2543,7 +2543,7 @@
 			<val e="Band1 Type 62" v="1.00,"/>
 			<val e="Band3 Type 62" v="1.00,"/>
 			<val e="Hide State 62" v="0.00,"/>
-			<val e="Remote Controls 62" v="1023.00,"/>
+			<val e="Remote Controls 62" v="255.00,"/>
 			<val e="Layout OpenClose 62" v="0.00,"/>
 			<val e="Stereo 63" v="1.00,"/>
 			<val e="Name 63" v=""/>
@@ -2582,10 +2582,10 @@
 			<val e="Band1 Type 63" v="1.00,"/>
 			<val e="Band3 Type 63" v="1.00,"/>
 			<val e="Hide State 63" v="0.00,"/>
-			<val e="Remote Controls 63" v="1023.00,"/>
+			<val e="Remote Controls 63" v="255.00,"/>
 			<val e="Layout OpenClose 63" v="0.00,"/>
 			<val e="Stereo 64" v="1.00,"/>
-			<val e="Name 64" v=""/>
+			<val e="Name 64" v="LB'd"/>
 			<val e="Chan Mute 64" v="0.00,"/>
 			<val e="Rev Return 64" v="-65.00,"/>
 			<val e="Chan Level 64" v="1.00,"/>
@@ -2621,7 +2621,7 @@
 			<val e="Band1 Type 64" v="1.00,"/>
 			<val e="Band3 Type 64" v="1.00,"/>
 			<val e="Hide State 64" v="0.00,"/>
-			<val e="Remote Controls 64" v="1023.00,"/>
+			<val e="Remote Controls 64" v="255.00,"/>
 			<val e="Layout OpenClose 64" v="0.00,"/>
 			<val e="Stereo 65" v="1.00,"/>
 			<val e="Name 65" v=""/>
@@ -2660,10 +2660,10 @@
 			<val e="Band1 Type 65" v="1.00,"/>
 			<val e="Band3 Type 65" v="1.00,"/>
 			<val e="Hide State 65" v="0.00,"/>
-			<val e="Remote Controls 65" v="1023.00,"/>
+			<val e="Remote Controls 65" v="255.00,"/>
 			<val e="Layout OpenClose 65" v="0.00,"/>
 			<val e="Stereo 66" v="1.00,"/>
-			<val e="Name 66" v=""/>
+			<val e="Name 66" v="LB'd"/>
 			<val e="Chan Mute 66" v="0.00,"/>
 			<val e="Rev Return 66" v="-65.00,"/>
 			<val e="Chan Level 66" v="1.00,"/>
@@ -2699,7 +2699,7 @@
 			<val e="Band1 Type 66" v="1.00,"/>
 			<val e="Band3 Type 66" v="1.00,"/>
 			<val e="Hide State 66" v="0.00,"/>
-			<val e="Remote Controls 66" v="1023.00,"/>
+			<val e="Remote Controls 66" v="255.00,"/>
 			<val e="Layout OpenClose 66" v="0.00,"/>
 			<val e="Stereo 67" v="1.00,"/>
 			<val e="Name 67" v=""/>
@@ -2738,7 +2738,7 @@
 			<val e="Band1 Type 67" v="1.00,"/>
 			<val e="Band3 Type 67" v="1.00,"/>
 			<val e="Hide State 67" v="0.00,"/>
-			<val e="Remote Controls 67" v="1023.00,"/>
+			<val e="Remote Controls 67" v="255.00,"/>
 			<val e="Layout OpenClose 67" v="0.00,"/>
 		</Inputs>
 		<Playbacks>
@@ -2755,7 +2755,7 @@
 			<val e="PF Listen 00" v="0.00,"/>
 			<val e="Rev Send 00" v="-300.00,"/>
 			<val e="Hide State 00" v="0.00,"/>
-			<val e="Remote Controls 00" v="1023.00,"/>
+			<val e="Remote Controls 00" v="255.00,"/>
 			<val e="Layout OpenClose 00" v="0.00,"/>
 			<val e="Stereo 01" v="1.00,"/>
 			<val e="Name 01" v=""/>
@@ -2770,10 +2770,10 @@
 			<val e="PF Listen 01" v="0.00,"/>
 			<val e="Rev Send 01" v="-300.00,"/>
 			<val e="Hide State 01" v="0.00,"/>
-			<val e="Remote Controls 01" v="1023.00,"/>
+			<val e="Remote Controls 01" v="255.00,"/>
 			<val e="Layout OpenClose 01" v="0.00,"/>
 			<val e="Stereo 02" v="1.00,"/>
-			<val e="Name 02" v="windows"/>
+			<val e="Name 02" v="Mac SoundID"/>
 			<val e="Chan Mute 02" v="0.00,"/>
 			<val e="Rev Return 02" v="-65.00,"/>
 			<val e="Chan Level 02" v="1.00,"/>
@@ -2785,7 +2785,7 @@
 			<val e="PF Listen 02" v="0.00,"/>
 			<val e="Rev Send 02" v="-300.00,"/>
 			<val e="Hide State 02" v="0.00,"/>
-			<val e="Remote Controls 02" v="1023.00,"/>
+			<val e="Remote Controls 02" v="255.00,"/>
 			<val e="Layout OpenClose 02" v="0.00,"/>
 			<val e="Stereo 03" v="1.00,"/>
 			<val e="Name 03" v=""/>
@@ -2800,10 +2800,10 @@
 			<val e="PF Listen 03" v="0.00,"/>
 			<val e="Rev Send 03" v="-300.00,"/>
 			<val e="Hide State 03" v="0.00,"/>
-			<val e="Remote Controls 03" v="1023.00,"/>
+			<val e="Remote Controls 03" v="255.00,"/>
 			<val e="Layout OpenClose 03" v="0.00,"/>
 			<val e="Stereo 04" v="1.00,"/>
-			<val e="Name 04" v=""/>
+			<val e="Name 04" v="Max SoundID"/>
 			<val e="Chan Mute 04" v="0.00,"/>
 			<val e="Rev Return 04" v="-65.00,"/>
 			<val e="Chan Level 04" v="1.00,"/>
@@ -2815,7 +2815,7 @@
 			<val e="PF Listen 04" v="0.00,"/>
 			<val e="Rev Send 04" v="-300.00,"/>
 			<val e="Hide State 04" v="0.00,"/>
-			<val e="Remote Controls 04" v="1023.00,"/>
+			<val e="Remote Controls 04" v="255.00,"/>
 			<val e="Layout OpenClose 04" v="0.00,"/>
 			<val e="Stereo 05" v="1.00,"/>
 			<val e="Name 05" v=""/>
@@ -2830,10 +2830,10 @@
 			<val e="PF Listen 05" v="0.00,"/>
 			<val e="Rev Send 05" v="-300.00,"/>
 			<val e="Hide State 05" v="0.00,"/>
-			<val e="Remote Controls 05" v="1023.00,"/>
+			<val e="Remote Controls 05" v="255.00,"/>
 			<val e="Layout OpenClose 05" v="0.00,"/>
 			<val e="Stereo 06" v="1.00,"/>
-			<val e="Name 06" v=""/>
+			<val e="Name 06" v="Max to FF80"/>
 			<val e="Chan Mute 06" v="0.00,"/>
 			<val e="Rev Return 06" v="-65.00,"/>
 			<val e="Chan Level 06" v="1.00,"/>
@@ -2845,7 +2845,7 @@
 			<val e="PF Listen 06" v="0.00,"/>
 			<val e="Rev Send 06" v="-300.00,"/>
 			<val e="Hide State 06" v="0.00,"/>
-			<val e="Remote Controls 06" v="1023.00,"/>
+			<val e="Remote Controls 06" v="255.00,"/>
 			<val e="Layout OpenClose 06" v="0.00,"/>
 			<val e="Stereo 07" v="1.00,"/>
 			<val e="Name 07" v=""/>
@@ -2860,11 +2860,11 @@
 			<val e="PF Listen 07" v="0.00,"/>
 			<val e="Rev Send 07" v="-300.00,"/>
 			<val e="Hide State 07" v="0.00,"/>
-			<val e="Remote Controls 07" v="1023.00,"/>
+			<val e="Remote Controls 07" v="255.00,"/>
 			<val e="Layout OpenClose 07" v="0.00,"/>
 			<val e="Stereo 08" v="1.00,"/>
-			<val e="Name 08" v=""/>
-			<val e="Chan Mute 08" v="0.00,"/>
+			<val e="Name 08" v="LOWS"/>
+			<val e="Chan Mute 08" v="1.00,"/>
 			<val e="Rev Return 08" v="-65.00,"/>
 			<val e="Chan Level 08" v="1.00,"/>
 			<val e="Chan Gain 08" v="0.00,"/>
@@ -2875,11 +2875,11 @@
 			<val e="PF Listen 08" v="0.00,"/>
 			<val e="Rev Send 08" v="-300.00,"/>
 			<val e="Hide State 08" v="0.00,"/>
-			<val e="Remote Controls 08" v="1023.00,"/>
+			<val e="Remote Controls 08" v="255.00,"/>
 			<val e="Layout OpenClose 08" v="0.00,"/>
 			<val e="Stereo 09" v="1.00,"/>
 			<val e="Name 09" v=""/>
-			<val e="Chan Mute 09" v="0.00,"/>
+			<val e="Chan Mute 09" v="1.00,"/>
 			<val e="Rev Return 09" v="-65.00,"/>
 			<val e="Chan Level 09" v="1.00,"/>
 			<val e="Chan Gain 09" v="0.00,"/>
@@ -2890,11 +2890,11 @@
 			<val e="PF Listen 09" v="0.00,"/>
 			<val e="Rev Send 09" v="-300.00,"/>
 			<val e="Hide State 09" v="0.00,"/>
-			<val e="Remote Controls 09" v="1023.00,"/>
+			<val e="Remote Controls 09" v="255.00,"/>
 			<val e="Layout OpenClose 09" v="0.00,"/>
 			<val e="Stereo 10" v="1.00,"/>
-			<val e="Name 10" v=""/>
-			<val e="Chan Mute 10" v="0.00,"/>
+			<val e="Name 10" v="JamTaba"/>
+			<val e="Chan Mute 10" v="1.00,"/>
 			<val e="Rev Return 10" v="-65.00,"/>
 			<val e="Chan Level 10" v="1.00,"/>
 			<val e="Chan Gain 10" v="0.00,"/>
@@ -2905,11 +2905,11 @@
 			<val e="PF Listen 10" v="0.00,"/>
 			<val e="Rev Send 10" v="-300.00,"/>
 			<val e="Hide State 10" v="0.00,"/>
-			<val e="Remote Controls 10" v="1023.00,"/>
+			<val e="Remote Controls 10" v="255.00,"/>
 			<val e="Layout OpenClose 10" v="0.00,"/>
 			<val e="Stereo 11" v="1.00,"/>
 			<val e="Name 11" v=""/>
-			<val e="Chan Mute 11" v="0.00,"/>
+			<val e="Chan Mute 11" v="1.00,"/>
 			<val e="Rev Return 11" v="-65.00,"/>
 			<val e="Chan Level 11" v="1.00,"/>
 			<val e="Chan Gain 11" v="0.00,"/>
@@ -2920,7 +2920,7 @@
 			<val e="PF Listen 11" v="0.00,"/>
 			<val e="Rev Send 11" v="-300.00,"/>
 			<val e="Hide State 11" v="0.00,"/>
-			<val e="Remote Controls 11" v="1023.00,"/>
+			<val e="Remote Controls 11" v="255.00,"/>
 			<val e="Layout OpenClose 11" v="0.00,"/>
 			<val e="Stereo 12" v="0.00,"/>
 			<val e="Name 12" v="mic test"/>
@@ -2935,7 +2935,7 @@
 			<val e="PF Listen 12" v="0.00,"/>
 			<val e="Rev Send 12" v="-300.00,"/>
 			<val e="Hide State 12" v="0.00,"/>
-			<val e="Remote Controls 12" v="1023.00,"/>
+			<val e="Remote Controls 12" v="255.00,"/>
 			<val e="Layout OpenClose 12" v="0.00,"/>
 			<val e="Stereo 13" v="0.00,"/>
 			<val e="Name 13" v="mute test"/>
@@ -2950,7 +2950,7 @@
 			<val e="PF Listen 13" v="0.00,"/>
 			<val e="Rev Send 13" v="-300.00,"/>
 			<val e="Hide State 13" v="0.00,"/>
-			<val e="Remote Controls 13" v="1023.00,"/>
+			<val e="Remote Controls 13" v="255.00,"/>
 			<val e="Layout OpenClose 13" v="0.00,"/>
 			<val e="Stereo 14" v="1.00,"/>
 			<val e="Name 14" v="playback"/>
@@ -2965,7 +2965,7 @@
 			<val e="PF Listen 14" v="0.00,"/>
 			<val e="Rev Send 14" v="-300.00,"/>
 			<val e="Hide State 14" v="0.00,"/>
-			<val e="Remote Controls 14" v="1023.00,"/>
+			<val e="Remote Controls 14" v="255.00,"/>
 			<val e="Layout OpenClose 14" v="0.00,"/>
 			<val e="Stereo 15" v="1.00,"/>
 			<val e="Name 15" v=""/>
@@ -2980,7 +2980,7 @@
 			<val e="PF Listen 15" v="0.00,"/>
 			<val e="Rev Send 15" v="-300.00,"/>
 			<val e="Hide State 15" v="0.00,"/>
-			<val e="Remote Controls 15" v="1023.00,"/>
+			<val e="Remote Controls 15" v="255.00,"/>
 			<val e="Layout OpenClose 15" v="0.00,"/>
 			<val e="Stereo 16" v="0.00,"/>
 			<val e="Name 16" v="phasor"/>
@@ -2995,10 +2995,10 @@
 			<val e="PF Listen 16" v="0.00,"/>
 			<val e="Rev Send 16" v="-300.00,"/>
 			<val e="Hide State 16" v="0.00,"/>
-			<val e="Remote Controls 16" v="1023.00,"/>
+			<val e="Remote Controls 16" v="255.00,"/>
 			<val e="Layout OpenClose 16" v="0.00,"/>
 			<val e="Stereo 17" v="0.00,"/>
-			<val e="Name 17" v=""/>
+			<val e="Name 17" v="metronome"/>
 			<val e="Chan Mute 17" v="0.00,"/>
 			<val e="Rev Return 17" v="-65.00,"/>
 			<val e="Chan Level 17" v="1.00,"/>
@@ -3010,10 +3010,10 @@
 			<val e="PF Listen 17" v="0.00,"/>
 			<val e="Rev Send 17" v="-300.00,"/>
 			<val e="Hide State 17" v="0.00,"/>
-			<val e="Remote Controls 17" v="1023.00,"/>
+			<val e="Remote Controls 17" v="255.00,"/>
 			<val e="Layout OpenClose 17" v="0.00,"/>
 			<val e="Stereo 18" v="1.00,"/>
-			<val e="Name 18" v=""/>
+			<val e="Name 18" v="Vid Ableton"/>
 			<val e="Chan Mute 18" v="0.00,"/>
 			<val e="Rev Return 18" v="-65.00,"/>
 			<val e="Chan Level 18" v="1.00,"/>
@@ -3025,7 +3025,7 @@
 			<val e="PF Listen 18" v="0.00,"/>
 			<val e="Rev Send 18" v="-300.00,"/>
 			<val e="Hide State 18" v="0.00,"/>
-			<val e="Remote Controls 18" v="1023.00,"/>
+			<val e="Remote Controls 18" v="255.00,"/>
 			<val e="Layout OpenClose 18" v="0.00,"/>
 			<val e="Stereo 19" v="1.00,"/>
 			<val e="Name 19" v=""/>
@@ -3040,10 +3040,10 @@
 			<val e="PF Listen 19" v="0.00,"/>
 			<val e="Rev Send 19" v="-300.00,"/>
 			<val e="Hide State 19" v="0.00,"/>
-			<val e="Remote Controls 19" v="1023.00,"/>
+			<val e="Remote Controls 19" v="255.00,"/>
 			<val e="Layout OpenClose 19" v="0.00,"/>
 			<val e="Stereo 20" v="1.00,"/>
-			<val e="Name 20" v=""/>
+			<val e="Name 20" v="perc LB"/>
 			<val e="Chan Mute 20" v="0.00,"/>
 			<val e="Rev Return 20" v="-65.00,"/>
 			<val e="Chan Level 20" v="1.00,"/>
@@ -3055,7 +3055,7 @@
 			<val e="PF Listen 20" v="0.00,"/>
 			<val e="Rev Send 20" v="-300.00,"/>
 			<val e="Hide State 20" v="0.00,"/>
-			<val e="Remote Controls 20" v="1023.00,"/>
+			<val e="Remote Controls 20" v="255.00,"/>
 			<val e="Layout OpenClose 20" v="0.00,"/>
 			<val e="Stereo 21" v="1.00,"/>
 			<val e="Name 21" v=""/>
@@ -3070,10 +3070,10 @@
 			<val e="PF Listen 21" v="0.00,"/>
 			<val e="Rev Send 21" v="-300.00,"/>
 			<val e="Hide State 21" v="0.00,"/>
-			<val e="Remote Controls 21" v="1023.00,"/>
+			<val e="Remote Controls 21" v="255.00,"/>
 			<val e="Layout OpenClose 21" v="0.00,"/>
 			<val e="Stereo 22" v="1.00,"/>
-			<val e="Name 22" v=""/>
+			<val e="Name 22" v="lo tuba LB"/>
 			<val e="Chan Mute 22" v="0.00,"/>
 			<val e="Rev Return 22" v="-65.00,"/>
 			<val e="Chan Level 22" v="1.00,"/>
@@ -3085,7 +3085,7 @@
 			<val e="PF Listen 22" v="0.00,"/>
 			<val e="Rev Send 22" v="-300.00,"/>
 			<val e="Hide State 22" v="0.00,"/>
-			<val e="Remote Controls 22" v="1023.00,"/>
+			<val e="Remote Controls 22" v="255.00,"/>
 			<val e="Layout OpenClose 22" v="0.00,"/>
 			<val e="Stereo 23" v="1.00,"/>
 			<val e="Name 23" v=""/>
@@ -3100,10 +3100,10 @@
 			<val e="PF Listen 23" v="0.00,"/>
 			<val e="Rev Send 23" v="-300.00,"/>
 			<val e="Hide State 23" v="0.00,"/>
-			<val e="Remote Controls 23" v="1023.00,"/>
+			<val e="Remote Controls 23" v="255.00,"/>
 			<val e="Layout OpenClose 23" v="0.00,"/>
 			<val e="Stereo 24" v="1.00,"/>
-			<val e="Name 24" v=""/>
+			<val e="Name 24" v="hi tuba LB"/>
 			<val e="Chan Mute 24" v="0.00,"/>
 			<val e="Rev Return 24" v="-65.00,"/>
 			<val e="Chan Level 24" v="1.00,"/>
@@ -3115,7 +3115,7 @@
 			<val e="PF Listen 24" v="0.00,"/>
 			<val e="Rev Send 24" v="-300.00,"/>
 			<val e="Hide State 24" v="0.00,"/>
-			<val e="Remote Controls 24" v="1023.00,"/>
+			<val e="Remote Controls 24" v="255.00,"/>
 			<val e="Layout OpenClose 24" v="0.00,"/>
 			<val e="Stereo 25" v="1.00,"/>
 			<val e="Name 25" v=""/>
@@ -3130,7 +3130,7 @@
 			<val e="PF Listen 25" v="0.00,"/>
 			<val e="Rev Send 25" v="-300.00,"/>
 			<val e="Hide State 25" v="0.00,"/>
-			<val e="Remote Controls 25" v="1023.00,"/>
+			<val e="Remote Controls 25" v="255.00,"/>
 			<val e="Layout OpenClose 25" v="0.00,"/>
 			<val e="Stereo 26" v="1.00,"/>
 			<val e="Name 26" v=""/>
@@ -3145,7 +3145,7 @@
 			<val e="PF Listen 26" v="0.00,"/>
 			<val e="Rev Send 26" v="-300.00,"/>
 			<val e="Hide State 26" v="0.00,"/>
-			<val e="Remote Controls 26" v="1023.00,"/>
+			<val e="Remote Controls 26" v="255.00,"/>
 			<val e="Layout OpenClose 26" v="0.00,"/>
 			<val e="Stereo 27" v="1.00,"/>
 			<val e="Name 27" v=""/>
@@ -3160,7 +3160,7 @@
 			<val e="PF Listen 27" v="0.00,"/>
 			<val e="Rev Send 27" v="-300.00,"/>
 			<val e="Hide State 27" v="0.00,"/>
-			<val e="Remote Controls 27" v="1023.00,"/>
+			<val e="Remote Controls 27" v="255.00,"/>
 			<val e="Layout OpenClose 27" v="0.00,"/>
 			<val e="Stereo 28" v="1.00,"/>
 			<val e="Name 28" v=""/>
@@ -3175,7 +3175,7 @@
 			<val e="PF Listen 28" v="0.00,"/>
 			<val e="Rev Send 28" v="-300.00,"/>
 			<val e="Hide State 28" v="0.00,"/>
-			<val e="Remote Controls 28" v="1023.00,"/>
+			<val e="Remote Controls 28" v="255.00,"/>
 			<val e="Layout OpenClose 28" v="0.00,"/>
 			<val e="Stereo 29" v="1.00,"/>
 			<val e="Name 29" v=""/>
@@ -3190,7 +3190,7 @@
 			<val e="PF Listen 29" v="0.00,"/>
 			<val e="Rev Send 29" v="-300.00,"/>
 			<val e="Hide State 29" v="0.00,"/>
-			<val e="Remote Controls 29" v="1023.00,"/>
+			<val e="Remote Controls 29" v="255.00,"/>
 			<val e="Layout OpenClose 29" v="0.00,"/>
 			<val e="Stereo 30" v="1.00,"/>
 			<val e="Name 30" v=""/>
@@ -3205,7 +3205,7 @@
 			<val e="PF Listen 30" v="0.00,"/>
 			<val e="Rev Send 30" v="-300.00,"/>
 			<val e="Hide State 30" v="0.00,"/>
-			<val e="Remote Controls 30" v="1023.00,"/>
+			<val e="Remote Controls 30" v="255.00,"/>
 			<val e="Layout OpenClose 30" v="0.00,"/>
 			<val e="Stereo 31" v="1.00,"/>
 			<val e="Name 31" v=""/>
@@ -3220,7 +3220,7 @@
 			<val e="PF Listen 31" v="0.00,"/>
 			<val e="Rev Send 31" v="-300.00,"/>
 			<val e="Hide State 31" v="0.00,"/>
-			<val e="Remote Controls 31" v="1023.00,"/>
+			<val e="Remote Controls 31" v="255.00,"/>
 			<val e="Layout OpenClose 31" v="0.00,"/>
 			<val e="Stereo 32" v="1.00,"/>
 			<val e="Name 32" v=""/>
@@ -3235,7 +3235,7 @@
 			<val e="PF Listen 32" v="0.00,"/>
 			<val e="Rev Send 32" v="-300.00,"/>
 			<val e="Hide State 32" v="0.00,"/>
-			<val e="Remote Controls 32" v="1023.00,"/>
+			<val e="Remote Controls 32" v="255.00,"/>
 			<val e="Layout OpenClose 32" v="0.00,"/>
 			<val e="Stereo 33" v="1.00,"/>
 			<val e="Name 33" v=""/>
@@ -3250,7 +3250,7 @@
 			<val e="PF Listen 33" v="0.00,"/>
 			<val e="Rev Send 33" v="-300.00,"/>
 			<val e="Hide State 33" v="0.00,"/>
-			<val e="Remote Controls 33" v="1023.00,"/>
+			<val e="Remote Controls 33" v="255.00,"/>
 			<val e="Layout OpenClose 33" v="0.00,"/>
 			<val e="Stereo 34" v="1.00,"/>
 			<val e="Name 34" v=""/>
@@ -3265,7 +3265,7 @@
 			<val e="PF Listen 34" v="0.00,"/>
 			<val e="Rev Send 34" v="-300.00,"/>
 			<val e="Hide State 34" v="0.00,"/>
-			<val e="Remote Controls 34" v="1023.00,"/>
+			<val e="Remote Controls 34" v="255.00,"/>
 			<val e="Layout OpenClose 34" v="0.00,"/>
 			<val e="Stereo 35" v="1.00,"/>
 			<val e="Name 35" v=""/>
@@ -3280,7 +3280,7 @@
 			<val e="PF Listen 35" v="0.00,"/>
 			<val e="Rev Send 35" v="-300.00,"/>
 			<val e="Hide State 35" v="0.00,"/>
-			<val e="Remote Controls 35" v="1023.00,"/>
+			<val e="Remote Controls 35" v="255.00,"/>
 			<val e="Layout OpenClose 35" v="0.00,"/>
 			<val e="Stereo 36" v="1.00,"/>
 			<val e="Name 36" v=""/>
@@ -3295,7 +3295,7 @@
 			<val e="PF Listen 36" v="0.00,"/>
 			<val e="Rev Send 36" v="-300.00,"/>
 			<val e="Hide State 36" v="0.00,"/>
-			<val e="Remote Controls 36" v="1023.00,"/>
+			<val e="Remote Controls 36" v="255.00,"/>
 			<val e="Layout OpenClose 36" v="0.00,"/>
 			<val e="Stereo 37" v="1.00,"/>
 			<val e="Name 37" v=""/>
@@ -3310,7 +3310,7 @@
 			<val e="PF Listen 37" v="0.00,"/>
 			<val e="Rev Send 37" v="-300.00,"/>
 			<val e="Hide State 37" v="0.00,"/>
-			<val e="Remote Controls 37" v="1023.00,"/>
+			<val e="Remote Controls 37" v="255.00,"/>
 			<val e="Layout OpenClose 37" v="0.00,"/>
 			<val e="Stereo 38" v="1.00,"/>
 			<val e="Name 38" v=""/>
@@ -3325,7 +3325,7 @@
 			<val e="PF Listen 38" v="0.00,"/>
 			<val e="Rev Send 38" v="-300.00,"/>
 			<val e="Hide State 38" v="0.00,"/>
-			<val e="Remote Controls 38" v="1023.00,"/>
+			<val e="Remote Controls 38" v="255.00,"/>
 			<val e="Layout OpenClose 38" v="0.00,"/>
 			<val e="Stereo 39" v="1.00,"/>
 			<val e="Name 39" v=""/>
@@ -3340,7 +3340,7 @@
 			<val e="PF Listen 39" v="0.00,"/>
 			<val e="Rev Send 39" v="-300.00,"/>
 			<val e="Hide State 39" v="0.00,"/>
-			<val e="Remote Controls 39" v="1023.00,"/>
+			<val e="Remote Controls 39" v="255.00,"/>
 			<val e="Layout OpenClose 39" v="0.00,"/>
 			<val e="Stereo 40" v="1.00,"/>
 			<val e="Name 40" v=""/>
@@ -3355,7 +3355,7 @@
 			<val e="PF Listen 40" v="0.00,"/>
 			<val e="Rev Send 40" v="-300.00,"/>
 			<val e="Hide State 40" v="0.00,"/>
-			<val e="Remote Controls 40" v="1023.00,"/>
+			<val e="Remote Controls 40" v="255.00,"/>
 			<val e="Layout OpenClose 40" v="0.00,"/>
 			<val e="Stereo 41" v="1.00,"/>
 			<val e="Name 41" v=""/>
@@ -3370,7 +3370,7 @@
 			<val e="PF Listen 41" v="0.00,"/>
 			<val e="Rev Send 41" v="-300.00,"/>
 			<val e="Hide State 41" v="0.00,"/>
-			<val e="Remote Controls 41" v="1023.00,"/>
+			<val e="Remote Controls 41" v="255.00,"/>
 			<val e="Layout OpenClose 41" v="0.00,"/>
 			<val e="Stereo 42" v="1.00,"/>
 			<val e="Name 42" v=""/>
@@ -3385,7 +3385,7 @@
 			<val e="PF Listen 42" v="0.00,"/>
 			<val e="Rev Send 42" v="-300.00,"/>
 			<val e="Hide State 42" v="0.00,"/>
-			<val e="Remote Controls 42" v="1023.00,"/>
+			<val e="Remote Controls 42" v="255.00,"/>
 			<val e="Layout OpenClose 42" v="0.00,"/>
 			<val e="Stereo 43" v="1.00,"/>
 			<val e="Name 43" v=""/>
@@ -3400,7 +3400,7 @@
 			<val e="PF Listen 43" v="0.00,"/>
 			<val e="Rev Send 43" v="-300.00,"/>
 			<val e="Hide State 43" v="0.00,"/>
-			<val e="Remote Controls 43" v="1023.00,"/>
+			<val e="Remote Controls 43" v="255.00,"/>
 			<val e="Layout OpenClose 43" v="0.00,"/>
 			<val e="Stereo 44" v="1.00,"/>
 			<val e="Name 44" v=""/>
@@ -3415,7 +3415,7 @@
 			<val e="PF Listen 44" v="0.00,"/>
 			<val e="Rev Send 44" v="-300.00,"/>
 			<val e="Hide State 44" v="0.00,"/>
-			<val e="Remote Controls 44" v="1023.00,"/>
+			<val e="Remote Controls 44" v="255.00,"/>
 			<val e="Layout OpenClose 44" v="0.00,"/>
 			<val e="Stereo 45" v="1.00,"/>
 			<val e="Name 45" v=""/>
@@ -3430,7 +3430,7 @@
 			<val e="PF Listen 45" v="0.00,"/>
 			<val e="Rev Send 45" v="-300.00,"/>
 			<val e="Hide State 45" v="0.00,"/>
-			<val e="Remote Controls 45" v="1023.00,"/>
+			<val e="Remote Controls 45" v="255.00,"/>
 			<val e="Layout OpenClose 45" v="0.00,"/>
 			<val e="Stereo 46" v="1.00,"/>
 			<val e="Name 46" v=""/>
@@ -3445,7 +3445,7 @@
 			<val e="PF Listen 46" v="0.00,"/>
 			<val e="Rev Send 46" v="-300.00,"/>
 			<val e="Hide State 46" v="0.00,"/>
-			<val e="Remote Controls 46" v="1023.00,"/>
+			<val e="Remote Controls 46" v="255.00,"/>
 			<val e="Layout OpenClose 46" v="0.00,"/>
 			<val e="Stereo 47" v="1.00,"/>
 			<val e="Name 47" v=""/>
@@ -3460,7 +3460,7 @@
 			<val e="PF Listen 47" v="0.00,"/>
 			<val e="Rev Send 47" v="-300.00,"/>
 			<val e="Hide State 47" v="0.00,"/>
-			<val e="Remote Controls 47" v="1023.00,"/>
+			<val e="Remote Controls 47" v="255.00,"/>
 			<val e="Layout OpenClose 47" v="0.00,"/>
 			<val e="Stereo 48" v="1.00,"/>
 			<val e="Name 48" v=""/>
@@ -3475,7 +3475,7 @@
 			<val e="PF Listen 48" v="0.00,"/>
 			<val e="Rev Send 48" v="-300.00,"/>
 			<val e="Hide State 48" v="0.00,"/>
-			<val e="Remote Controls 48" v="1023.00,"/>
+			<val e="Remote Controls 48" v="255.00,"/>
 			<val e="Layout OpenClose 48" v="0.00,"/>
 			<val e="Stereo 49" v="1.00,"/>
 			<val e="Name 49" v=""/>
@@ -3490,7 +3490,7 @@
 			<val e="PF Listen 49" v="0.00,"/>
 			<val e="Rev Send 49" v="-300.00,"/>
 			<val e="Hide State 49" v="0.00,"/>
-			<val e="Remote Controls 49" v="1023.00,"/>
+			<val e="Remote Controls 49" v="255.00,"/>
 			<val e="Layout OpenClose 49" v="0.00,"/>
 			<val e="Stereo 50" v="1.00,"/>
 			<val e="Name 50" v=""/>
@@ -3505,7 +3505,7 @@
 			<val e="PF Listen 50" v="0.00,"/>
 			<val e="Rev Send 50" v="-300.00,"/>
 			<val e="Hide State 50" v="0.00,"/>
-			<val e="Remote Controls 50" v="1023.00,"/>
+			<val e="Remote Controls 50" v="255.00,"/>
 			<val e="Layout OpenClose 50" v="0.00,"/>
 			<val e="Stereo 51" v="1.00,"/>
 			<val e="Name 51" v=""/>
@@ -3520,7 +3520,7 @@
 			<val e="PF Listen 51" v="0.00,"/>
 			<val e="Rev Send 51" v="-300.00,"/>
 			<val e="Hide State 51" v="0.00,"/>
-			<val e="Remote Controls 51" v="1023.00,"/>
+			<val e="Remote Controls 51" v="255.00,"/>
 			<val e="Layout OpenClose 51" v="0.00,"/>
 			<val e="Stereo 52" v="1.00,"/>
 			<val e="Name 52" v=""/>
@@ -3535,7 +3535,7 @@
 			<val e="PF Listen 52" v="0.00,"/>
 			<val e="Rev Send 52" v="-300.00,"/>
 			<val e="Hide State 52" v="0.00,"/>
-			<val e="Remote Controls 52" v="1023.00,"/>
+			<val e="Remote Controls 52" v="255.00,"/>
 			<val e="Layout OpenClose 52" v="0.00,"/>
 			<val e="Stereo 53" v="1.00,"/>
 			<val e="Name 53" v=""/>
@@ -3550,7 +3550,7 @@
 			<val e="PF Listen 53" v="0.00,"/>
 			<val e="Rev Send 53" v="-300.00,"/>
 			<val e="Hide State 53" v="0.00,"/>
-			<val e="Remote Controls 53" v="1023.00,"/>
+			<val e="Remote Controls 53" v="255.00,"/>
 			<val e="Layout OpenClose 53" v="0.00,"/>
 			<val e="Stereo 54" v="1.00,"/>
 			<val e="Name 54" v=""/>
@@ -3565,7 +3565,7 @@
 			<val e="PF Listen 54" v="0.00,"/>
 			<val e="Rev Send 54" v="-300.00,"/>
 			<val e="Hide State 54" v="0.00,"/>
-			<val e="Remote Controls 54" v="1023.00,"/>
+			<val e="Remote Controls 54" v="255.00,"/>
 			<val e="Layout OpenClose 54" v="0.00,"/>
 			<val e="Stereo 55" v="1.00,"/>
 			<val e="Name 55" v=""/>
@@ -3580,7 +3580,7 @@
 			<val e="PF Listen 55" v="0.00,"/>
 			<val e="Rev Send 55" v="-300.00,"/>
 			<val e="Hide State 55" v="0.00,"/>
-			<val e="Remote Controls 55" v="1023.00,"/>
+			<val e="Remote Controls 55" v="255.00,"/>
 			<val e="Layout OpenClose 55" v="0.00,"/>
 			<val e="Stereo 56" v="1.00,"/>
 			<val e="Name 56" v=""/>
@@ -3595,7 +3595,7 @@
 			<val e="PF Listen 56" v="0.00,"/>
 			<val e="Rev Send 56" v="-300.00,"/>
 			<val e="Hide State 56" v="0.00,"/>
-			<val e="Remote Controls 56" v="1023.00,"/>
+			<val e="Remote Controls 56" v="255.00,"/>
 			<val e="Layout OpenClose 56" v="0.00,"/>
 			<val e="Stereo 57" v="1.00,"/>
 			<val e="Name 57" v=""/>
@@ -3610,7 +3610,7 @@
 			<val e="PF Listen 57" v="0.00,"/>
 			<val e="Rev Send 57" v="-300.00,"/>
 			<val e="Hide State 57" v="0.00,"/>
-			<val e="Remote Controls 57" v="1023.00,"/>
+			<val e="Remote Controls 57" v="255.00,"/>
 			<val e="Layout OpenClose 57" v="0.00,"/>
 			<val e="Stereo 58" v="1.00,"/>
 			<val e="Name 58" v=""/>
@@ -3625,7 +3625,7 @@
 			<val e="PF Listen 58" v="0.00,"/>
 			<val e="Rev Send 58" v="-300.00,"/>
 			<val e="Hide State 58" v="0.00,"/>
-			<val e="Remote Controls 58" v="1023.00,"/>
+			<val e="Remote Controls 58" v="255.00,"/>
 			<val e="Layout OpenClose 58" v="0.00,"/>
 			<val e="Stereo 59" v="1.00,"/>
 			<val e="Name 59" v=""/>
@@ -3640,7 +3640,7 @@
 			<val e="PF Listen 59" v="0.00,"/>
 			<val e="Rev Send 59" v="-300.00,"/>
 			<val e="Hide State 59" v="0.00,"/>
-			<val e="Remote Controls 59" v="1023.00,"/>
+			<val e="Remote Controls 59" v="255.00,"/>
 			<val e="Layout OpenClose 59" v="0.00,"/>
 			<val e="Stereo 60" v="1.00,"/>
 			<val e="Name 60" v=""/>
@@ -3655,7 +3655,7 @@
 			<val e="PF Listen 60" v="0.00,"/>
 			<val e="Rev Send 60" v="-300.00,"/>
 			<val e="Hide State 60" v="0.00,"/>
-			<val e="Remote Controls 60" v="1023.00,"/>
+			<val e="Remote Controls 60" v="255.00,"/>
 			<val e="Layout OpenClose 60" v="0.00,"/>
 			<val e="Stereo 61" v="1.00,"/>
 			<val e="Name 61" v=""/>
@@ -3670,7 +3670,7 @@
 			<val e="PF Listen 61" v="0.00,"/>
 			<val e="Rev Send 61" v="-300.00,"/>
 			<val e="Hide State 61" v="0.00,"/>
-			<val e="Remote Controls 61" v="1023.00,"/>
+			<val e="Remote Controls 61" v="255.00,"/>
 			<val e="Layout OpenClose 61" v="0.00,"/>
 			<val e="Stereo 62" v="1.00,"/>
 			<val e="Name 62" v=""/>
@@ -3685,7 +3685,7 @@
 			<val e="PF Listen 62" v="0.00,"/>
 			<val e="Rev Send 62" v="-300.00,"/>
 			<val e="Hide State 62" v="0.00,"/>
-			<val e="Remote Controls 62" v="1023.00,"/>
+			<val e="Remote Controls 62" v="255.00,"/>
 			<val e="Layout OpenClose 62" v="0.00,"/>
 			<val e="Stereo 63" v="1.00,"/>
 			<val e="Name 63" v=""/>
@@ -3700,7 +3700,7 @@
 			<val e="PF Listen 63" v="0.00,"/>
 			<val e="Rev Send 63" v="-300.00,"/>
 			<val e="Hide State 63" v="0.00,"/>
-			<val e="Remote Controls 63" v="1023.00,"/>
+			<val e="Remote Controls 63" v="255.00,"/>
 			<val e="Layout OpenClose 63" v="0.00,"/>
 			<val e="Stereo 64" v="1.00,"/>
 			<val e="Name 64" v=""/>
@@ -3715,7 +3715,7 @@
 			<val e="PF Listen 64" v="0.00,"/>
 			<val e="Rev Send 64" v="-300.00,"/>
 			<val e="Hide State 64" v="0.00,"/>
-			<val e="Remote Controls 64" v="1023.00,"/>
+			<val e="Remote Controls 64" v="255.00,"/>
 			<val e="Layout OpenClose 64" v="0.00,"/>
 			<val e="Stereo 65" v="1.00,"/>
 			<val e="Name 65" v=""/>
@@ -3730,7 +3730,7 @@
 			<val e="PF Listen 65" v="0.00,"/>
 			<val e="Rev Send 65" v="-300.00,"/>
 			<val e="Hide State 65" v="0.00,"/>
-			<val e="Remote Controls 65" v="1023.00,"/>
+			<val e="Remote Controls 65" v="255.00,"/>
 			<val e="Layout OpenClose 65" v="0.00,"/>
 			<val e="Stereo 66" v="1.00,"/>
 			<val e="Name 66" v=""/>
@@ -3745,7 +3745,7 @@
 			<val e="PF Listen 66" v="0.00,"/>
 			<val e="Rev Send 66" v="-300.00,"/>
 			<val e="Hide State 66" v="0.00,"/>
-			<val e="Remote Controls 66" v="1023.00,"/>
+			<val e="Remote Controls 66" v="255.00,"/>
 			<val e="Layout OpenClose 66" v="0.00,"/>
 			<val e="Stereo 67" v="1.00,"/>
 			<val e="Name 67" v=""/>
@@ -3760,7 +3760,7 @@
 			<val e="PF Listen 67" v="0.00,"/>
 			<val e="Rev Send 67" v="-300.00,"/>
 			<val e="Hide State 67" v="0.00,"/>
-			<val e="Remote Controls 67" v="1023.00,"/>
+			<val e="Remote Controls 67" v="255.00,"/>
 			<val e="Layout OpenClose 67" v="0.00,"/>
 		</Playbacks>
 		<Outputs>
@@ -3790,18 +3790,18 @@
 			<val e="LC Grade 00" v="1.00,"/>
 			<val e="LC Freq 00" v="20.00,"/>
 			<val e="Band1 Freq 00" v="80.00,"/>
-			<val e="Band1 Q 00" v="1.00,"/>
-			<val e="Band1 Gain 00" v="0.00,"/>
+			<val e="Band1 Q 00" v="0.70,"/>
+			<val e="Band1 Gain 00" v="4.00,"/>
 			<val e="Band2 Freq 00" v="1000.00,"/>
-			<val e="Band2 Q 00" v="1.00,"/>
+			<val e="Band2 Q 00" v="0.70,"/>
 			<val e="Band2 Gain 00" v="0.00,"/>
 			<val e="Band3 Freq 00" v="5000.00,"/>
-			<val e="Band3 Q 00" v="1.00,"/>
+			<val e="Band3 Q 00" v="0.70,"/>
 			<val e="Band3 Gain 00" v="0.00,"/>
 			<val e="Band1 Type 00" v="1.00,"/>
 			<val e="Band3 Type 00" v="1.00,"/>
 			<val e="Hide State 00" v="0.00,"/>
-			<val e="Remote Controls 00" v="1023.00,"/>
+			<val e="Remote Controls 00" v="255.00,"/>
 			<val e="Layout OpenClose 00" v="0.00,"/>
 			<val e="Stereo 01" v="1.00,"/>
 			<val e="Name 01" v=""/>
@@ -3829,18 +3829,18 @@
 			<val e="LC Grade 01" v="1.00,"/>
 			<val e="LC Freq 01" v="20.00,"/>
 			<val e="Band1 Freq 01" v="80.00,"/>
-			<val e="Band1 Q 01" v="1.00,"/>
-			<val e="Band1 Gain 01" v="0.00,"/>
+			<val e="Band1 Q 01" v="0.70,"/>
+			<val e="Band1 Gain 01" v="4.00,"/>
 			<val e="Band2 Freq 01" v="1000.00,"/>
-			<val e="Band2 Q 01" v="1.00,"/>
+			<val e="Band2 Q 01" v="0.70,"/>
 			<val e="Band2 Gain 01" v="0.00,"/>
 			<val e="Band3 Freq 01" v="5000.00,"/>
-			<val e="Band3 Q 01" v="1.00,"/>
+			<val e="Band3 Q 01" v="0.70,"/>
 			<val e="Band3 Gain 01" v="0.00,"/>
 			<val e="Band1 Type 01" v="1.00,"/>
 			<val e="Band3 Type 01" v="1.00,"/>
 			<val e="Hide State 01" v="0.00,"/>
-			<val e="Remote Controls 01" v="1023.00,"/>
+			<val e="Remote Controls 01" v="255.00,"/>
 			<val e="Layout OpenClose 01" v="0.00,"/>
 			<val e="Stereo 02" v="1.00,"/>
 			<val e="Name 02" v=""/>
@@ -3867,19 +3867,19 @@
 			<val e="Equ Enable 02" v="0.00,"/>
 			<val e="LC Grade 02" v="1.00,"/>
 			<val e="LC Freq 02" v="20.00,"/>
-			<val e="Band1 Freq 02" v="20.00,"/>
-			<val e="Band1 Q 02" v="0.70,"/>
+			<val e="Band1 Freq 02" v="35.00,"/>
+			<val e="Band1 Q 02" v="1.50,"/>
 			<val e="Band1 Gain 02" v="0.00,"/>
-			<val e="Band2 Freq 02" v="3000.00,"/>
-			<val e="Band2 Q 02" v="1.40,"/>
-			<val e="Band2 Gain 02" v="9.00,"/>
-			<val e="Band3 Freq 02" v="7700.00,"/>
-			<val e="Band3 Q 02" v="2.20,"/>
-			<val e="Band3 Gain 02" v="0.00,"/>
+			<val e="Band2 Freq 02" v="3600.00,"/>
+			<val e="Band2 Q 02" v="0.70,"/>
+			<val e="Band2 Gain 02" v="12.00,"/>
+			<val e="Band3 Freq 02" v="10000.00,"/>
+			<val e="Band3 Q 02" v="1.00,"/>
+			<val e="Band3 Gain 02" v="-20.00,"/>
 			<val e="Band1 Type 02" v="0.00,"/>
-			<val e="Band3 Type 02" v="0.00,"/>
+			<val e="Band3 Type 02" v="1.00,"/>
 			<val e="Hide State 02" v="0.00,"/>
-			<val e="Remote Controls 02" v="1023.00,"/>
+			<val e="Remote Controls 02" v="255.00,"/>
 			<val e="Layout OpenClose 02" v="0.00,"/>
 			<val e="Stereo 03" v="1.00,"/>
 			<val e="Name 03" v=""/>
@@ -3906,19 +3906,19 @@
 			<val e="Equ Enable 03" v="0.00,"/>
 			<val e="LC Grade 03" v="1.00,"/>
 			<val e="LC Freq 03" v="20.00,"/>
-			<val e="Band1 Freq 03" v="20.00,"/>
-			<val e="Band1 Q 03" v="0.70,"/>
+			<val e="Band1 Freq 03" v="35.00,"/>
+			<val e="Band1 Q 03" v="1.50,"/>
 			<val e="Band1 Gain 03" v="0.00,"/>
-			<val e="Band2 Freq 03" v="3000.00,"/>
-			<val e="Band2 Q 03" v="1.40,"/>
-			<val e="Band2 Gain 03" v="9.00,"/>
-			<val e="Band3 Freq 03" v="7700.00,"/>
-			<val e="Band3 Q 03" v="2.20,"/>
-			<val e="Band3 Gain 03" v="0.00,"/>
+			<val e="Band2 Freq 03" v="3600.00,"/>
+			<val e="Band2 Q 03" v="0.70,"/>
+			<val e="Band2 Gain 03" v="12.00,"/>
+			<val e="Band3 Freq 03" v="10000.00,"/>
+			<val e="Band3 Q 03" v="1.00,"/>
+			<val e="Band3 Gain 03" v="-20.00,"/>
 			<val e="Band1 Type 03" v="0.00,"/>
-			<val e="Band3 Type 03" v="0.00,"/>
+			<val e="Band3 Type 03" v="1.00,"/>
 			<val e="Hide State 03" v="0.00,"/>
-			<val e="Remote Controls 03" v="1023.00,"/>
+			<val e="Remote Controls 03" v="255.00,"/>
 			<val e="Layout OpenClose 03" v="0.00,"/>
 			<val e="Stereo 04" v="0.00,"/>
 			<val e="Name 04" v="mic"/>
@@ -3957,10 +3957,10 @@
 			<val e="Band1 Type 04" v="1.00,"/>
 			<val e="Band3 Type 04" v="1.00,"/>
 			<val e="Hide State 04" v="0.00,"/>
-			<val e="Remote Controls 04" v="1023.00,"/>
+			<val e="Remote Controls 04" v="255.00,"/>
 			<val e="Layout OpenClose 04" v="0.00,"/>
 			<val e="Stereo 05" v="0.00,"/>
-			<val e="Name 05" v="mute"/>
+			<val e="Name 05" v="mute L"/>
 			<val e="Chan Mute 05" v="0.00,"/>
 			<val e="Rev Return 05" v="-65.00,"/>
 			<val e="Chan Level 05" v="1.00,"/>
@@ -3996,10 +3996,10 @@
 			<val e="Band1 Type 05" v="1.00,"/>
 			<val e="Band3 Type 05" v="1.00,"/>
 			<val e="Hide State 05" v="0.00,"/>
-			<val e="Remote Controls 05" v="1023.00,"/>
+			<val e="Remote Controls 05" v="255.00,"/>
 			<val e="Layout OpenClose 05" v="0.00,"/>
-			<val e="Stereo 06" v="1.00,"/>
-			<val e="Name 06" v=""/>
+			<val e="Stereo 06" v="0.00,"/>
+			<val e="Name 06" v="mute R"/>
 			<val e="Chan Mute 06" v="0.00,"/>
 			<val e="Rev Return 06" v="-65.00,"/>
 			<val e="Chan Level 06" v="1.00,"/>
@@ -4035,9 +4035,9 @@
 			<val e="Band1 Type 06" v="1.00,"/>
 			<val e="Band3 Type 06" v="1.00,"/>
 			<val e="Hide State 06" v="0.00,"/>
-			<val e="Remote Controls 06" v="1023.00,"/>
+			<val e="Remote Controls 06" v="255.00,"/>
 			<val e="Layout OpenClose 06" v="0.00,"/>
-			<val e="Stereo 07" v="1.00,"/>
+			<val e="Stereo 07" v="0.00,"/>
 			<val e="Name 07" v=""/>
 			<val e="Chan Mute 07" v="0.00,"/>
 			<val e="Rev Return 07" v="-65.00,"/>
@@ -4074,7 +4074,7 @@
 			<val e="Band1 Type 07" v="1.00,"/>
 			<val e="Band3 Type 07" v="1.00,"/>
 			<val e="Hide State 07" v="0.00,"/>
-			<val e="Remote Controls 07" v="1023.00,"/>
+			<val e="Remote Controls 07" v="255.00,"/>
 			<val e="Layout OpenClose 07" v="0.00,"/>
 			<val e="Stereo 08" v="1.00,"/>
 			<val e="Name 08" v=""/>
@@ -4113,7 +4113,7 @@
 			<val e="Band1 Type 08" v="1.00,"/>
 			<val e="Band3 Type 08" v="1.00,"/>
 			<val e="Hide State 08" v="0.00,"/>
-			<val e="Remote Controls 08" v="1023.00,"/>
+			<val e="Remote Controls 08" v="255.00,"/>
 			<val e="Layout OpenClose 08" v="0.00,"/>
 			<val e="Stereo 09" v="1.00,"/>
 			<val e="Name 09" v=""/>
@@ -4152,7 +4152,7 @@
 			<val e="Band1 Type 09" v="1.00,"/>
 			<val e="Band3 Type 09" v="1.00,"/>
 			<val e="Hide State 09" v="0.00,"/>
-			<val e="Remote Controls 09" v="1023.00,"/>
+			<val e="Remote Controls 09" v="255.00,"/>
 			<val e="Layout OpenClose 09" v="0.00,"/>
 			<val e="Stereo 10" v="0.00,"/>
 			<val e="Name 10" v=""/>
@@ -4191,7 +4191,7 @@
 			<val e="Band1 Type 10" v="1.00,"/>
 			<val e="Band3 Type 10" v="1.00,"/>
 			<val e="Hide State 10" v="0.00,"/>
-			<val e="Remote Controls 10" v="1023.00,"/>
+			<val e="Remote Controls 10" v="255.00,"/>
 			<val e="Layout OpenClose 10" v="0.00,"/>
 			<val e="Stereo 11" v="0.00,"/>
 			<val e="Name 11" v=""/>
@@ -4230,10 +4230,10 @@
 			<val e="Band1 Type 11" v="1.00,"/>
 			<val e="Band3 Type 11" v="1.00,"/>
 			<val e="Hide State 11" v="0.00,"/>
-			<val e="Remote Controls 11" v="1023.00,"/>
+			<val e="Remote Controls 11" v="255.00,"/>
 			<val e="Layout OpenClose 11" v="0.00,"/>
 			<val e="Stereo 12" v="1.00,"/>
-			<val e="Name 12" v=""/>
+			<val e="Name 12" v="Met to FF80"/>
 			<val e="Chan Mute 12" v="0.00,"/>
 			<val e="Rev Return 12" v="-65.00,"/>
 			<val e="Chan Level 12" v="1.00,"/>
@@ -4269,7 +4269,7 @@
 			<val e="Band1 Type 12" v="1.00,"/>
 			<val e="Band3 Type 12" v="1.00,"/>
 			<val e="Hide State 12" v="0.00,"/>
-			<val e="Remote Controls 12" v="1023.00,"/>
+			<val e="Remote Controls 12" v="255.00,"/>
 			<val e="Layout OpenClose 12" v="0.00,"/>
 			<val e="Stereo 13" v="1.00,"/>
 			<val e="Name 13" v=""/>
@@ -4308,10 +4308,10 @@
 			<val e="Band1 Type 13" v="1.00,"/>
 			<val e="Band3 Type 13" v="1.00,"/>
 			<val e="Hide State 13" v="0.00,"/>
-			<val e="Remote Controls 13" v="1023.00,"/>
+			<val e="Remote Controls 13" v="255.00,"/>
 			<val e="Layout OpenClose 13" v="0.00,"/>
 			<val e="Stereo 14" v="1.00,"/>
-			<val e="Name 14" v=""/>
+			<val e="Name 14" v="Max to FF80"/>
 			<val e="Chan Mute 14" v="0.00,"/>
 			<val e="Rev Return 14" v="-65.00,"/>
 			<val e="Chan Level 14" v="1.00,"/>
@@ -4347,7 +4347,7 @@
 			<val e="Band1 Type 14" v="1.00,"/>
 			<val e="Band3 Type 14" v="1.00,"/>
 			<val e="Hide State 14" v="0.00,"/>
-			<val e="Remote Controls 14" v="1023.00,"/>
+			<val e="Remote Controls 14" v="255.00,"/>
 			<val e="Layout OpenClose 14" v="0.00,"/>
 			<val e="Stereo 15" v="1.00,"/>
 			<val e="Name 15" v=""/>
@@ -4386,7 +4386,7 @@
 			<val e="Band1 Type 15" v="1.00,"/>
 			<val e="Band3 Type 15" v="1.00,"/>
 			<val e="Hide State 15" v="0.00,"/>
-			<val e="Remote Controls 15" v="1023.00,"/>
+			<val e="Remote Controls 15" v="255.00,"/>
 			<val e="Layout OpenClose 15" v="0.00,"/>
 			<val e="Stereo 16" v="0.00,"/>
 			<val e="Name 16" v="loopback"/>
@@ -4425,7 +4425,7 @@
 			<val e="Band1 Type 16" v="1.00,"/>
 			<val e="Band3 Type 16" v="1.00,"/>
 			<val e="Hide State 16" v="0.00,"/>
-			<val e="Remote Controls 16" v="1023.00,"/>
+			<val e="Remote Controls 16" v="255.00,"/>
 			<val e="Layout OpenClose 16" v="0.00,"/>
 			<val e="Stereo 17" v="0.00,"/>
 			<val e="Name 17" v=""/>
@@ -4464,10 +4464,10 @@
 			<val e="Band1 Type 17" v="1.00,"/>
 			<val e="Band3 Type 17" v="1.00,"/>
 			<val e="Hide State 17" v="0.00,"/>
-			<val e="Remote Controls 17" v="1023.00,"/>
+			<val e="Remote Controls 17" v="255.00,"/>
 			<val e="Layout OpenClose 17" v="0.00,"/>
 			<val e="Stereo 18" v="1.00,"/>
-			<val e="Name 18" v=""/>
+			<val e="Name 18" v="tuba to D"/>
 			<val e="Chan Mute 18" v="0.00,"/>
 			<val e="Rev Return 18" v="-65.00,"/>
 			<val e="Chan Level 18" v="1.00,"/>
@@ -4503,7 +4503,7 @@
 			<val e="Band1 Type 18" v="1.00,"/>
 			<val e="Band3 Type 18" v="1.00,"/>
 			<val e="Hide State 18" v="0.00,"/>
-			<val e="Remote Controls 18" v="1023.00,"/>
+			<val e="Remote Controls 18" v="255.00,"/>
 			<val e="Layout OpenClose 18" v="0.00,"/>
 			<val e="Stereo 19" v="1.00,"/>
 			<val e="Name 19" v=""/>
@@ -4542,10 +4542,10 @@
 			<val e="Band1 Type 19" v="1.00,"/>
 			<val e="Band3 Type 19" v="1.00,"/>
 			<val e="Hide State 19" v="0.00,"/>
-			<val e="Remote Controls 19" v="1023.00,"/>
+			<val e="Remote Controls 19" v="255.00,"/>
 			<val e="Layout OpenClose 19" v="0.00,"/>
 			<val e="Stereo 20" v="1.00,"/>
-			<val e="Name 20" v=""/>
+			<val e="Name 20" v="Vid MADI"/>
 			<val e="Chan Mute 20" v="0.00,"/>
 			<val e="Rev Return 20" v="-65.00,"/>
 			<val e="Chan Level 20" v="1.00,"/>
@@ -4581,7 +4581,7 @@
 			<val e="Band1 Type 20" v="1.00,"/>
 			<val e="Band3 Type 20" v="1.00,"/>
 			<val e="Hide State 20" v="0.00,"/>
-			<val e="Remote Controls 20" v="1023.00,"/>
+			<val e="Remote Controls 20" v="255.00,"/>
 			<val e="Layout OpenClose 20" v="0.00,"/>
 			<val e="Stereo 21" v="1.00,"/>
 			<val e="Name 21" v=""/>
@@ -4620,7 +4620,7 @@
 			<val e="Band1 Type 21" v="1.00,"/>
 			<val e="Band3 Type 21" v="1.00,"/>
 			<val e="Hide State 21" v="0.00,"/>
-			<val e="Remote Controls 21" v="1023.00,"/>
+			<val e="Remote Controls 21" v="255.00,"/>
 			<val e="Layout OpenClose 21" v="0.00,"/>
 			<val e="Stereo 22" v="0.00,"/>
 			<val e="Name 22" v="mic test"/>
@@ -4659,7 +4659,7 @@
 			<val e="Band1 Type 22" v="1.00,"/>
 			<val e="Band3 Type 22" v="1.00,"/>
 			<val e="Hide State 22" v="0.00,"/>
-			<val e="Remote Controls 22" v="1023.00,"/>
+			<val e="Remote Controls 22" v="255.00,"/>
 			<val e="Layout OpenClose 22" v="0.00,"/>
 			<val e="Stereo 23" v="0.00,"/>
 			<val e="Name 23" v="mute test"/>
@@ -4698,10 +4698,10 @@
 			<val e="Band1 Type 23" v="1.00,"/>
 			<val e="Band3 Type 23" v="1.00,"/>
 			<val e="Hide State 23" v="0.00,"/>
-			<val e="Remote Controls 23" v="1023.00,"/>
+			<val e="Remote Controls 23" v="255.00,"/>
 			<val e="Layout OpenClose 23" v="0.00,"/>
 			<val e="Stereo 24" v="1.00,"/>
-			<val e="Name 24" v=""/>
+			<val e="Name 24" v="H9K to Max"/>
 			<val e="Chan Mute 24" v="0.00,"/>
 			<val e="Rev Return 24" v="-65.00,"/>
 			<val e="Chan Level 24" v="1.00,"/>
@@ -4737,7 +4737,7 @@
 			<val e="Band1 Type 24" v="1.00,"/>
 			<val e="Band3 Type 24" v="1.00,"/>
 			<val e="Hide State 24" v="0.00,"/>
-			<val e="Remote Controls 24" v="1023.00,"/>
+			<val e="Remote Controls 24" v="255.00,"/>
 			<val e="Layout OpenClose 24" v="0.00,"/>
 			<val e="Stereo 25" v="1.00,"/>
 			<val e="Name 25" v=""/>
@@ -4776,7 +4776,7 @@
 			<val e="Band1 Type 25" v="1.00,"/>
 			<val e="Band3 Type 25" v="1.00,"/>
 			<val e="Hide State 25" v="0.00,"/>
-			<val e="Remote Controls 25" v="1023.00,"/>
+			<val e="Remote Controls 25" v="255.00,"/>
 			<val e="Layout OpenClose 25" v="0.00,"/>
 			<val e="Stereo 26" v="1.00,"/>
 			<val e="Name 26" v=""/>
@@ -4815,7 +4815,7 @@
 			<val e="Band1 Type 26" v="1.00,"/>
 			<val e="Band3 Type 26" v="1.00,"/>
 			<val e="Hide State 26" v="0.00,"/>
-			<val e="Remote Controls 26" v="1023.00,"/>
+			<val e="Remote Controls 26" v="255.00,"/>
 			<val e="Layout OpenClose 26" v="0.00,"/>
 			<val e="Stereo 27" v="1.00,"/>
 			<val e="Name 27" v=""/>
@@ -4854,7 +4854,7 @@
 			<val e="Band1 Type 27" v="1.00,"/>
 			<val e="Band3 Type 27" v="1.00,"/>
 			<val e="Hide State 27" v="0.00,"/>
-			<val e="Remote Controls 27" v="1023.00,"/>
+			<val e="Remote Controls 27" v="255.00,"/>
 			<val e="Layout OpenClose 27" v="0.00,"/>
 			<val e="Stereo 28" v="1.00,"/>
 			<val e="Name 28" v=""/>
@@ -4893,7 +4893,7 @@
 			<val e="Band1 Type 28" v="1.00,"/>
 			<val e="Band3 Type 28" v="1.00,"/>
 			<val e="Hide State 28" v="0.00,"/>
-			<val e="Remote Controls 28" v="1023.00,"/>
+			<val e="Remote Controls 28" v="255.00,"/>
 			<val e="Layout OpenClose 28" v="0.00,"/>
 			<val e="Stereo 29" v="1.00,"/>
 			<val e="Name 29" v=""/>
@@ -4932,7 +4932,7 @@
 			<val e="Band1 Type 29" v="1.00,"/>
 			<val e="Band3 Type 29" v="1.00,"/>
 			<val e="Hide State 29" v="0.00,"/>
-			<val e="Remote Controls 29" v="1023.00,"/>
+			<val e="Remote Controls 29" v="255.00,"/>
 			<val e="Layout OpenClose 29" v="0.00,"/>
 			<val e="Stereo 30" v="1.00,"/>
 			<val e="Name 30" v=""/>
@@ -4971,7 +4971,7 @@
 			<val e="Band1 Type 30" v="1.00,"/>
 			<val e="Band3 Type 30" v="1.00,"/>
 			<val e="Hide State 30" v="0.00,"/>
-			<val e="Remote Controls 30" v="1023.00,"/>
+			<val e="Remote Controls 30" v="255.00,"/>
 			<val e="Layout OpenClose 30" v="0.00,"/>
 			<val e="Stereo 31" v="1.00,"/>
 			<val e="Name 31" v=""/>
@@ -5010,7 +5010,7 @@
 			<val e="Band1 Type 31" v="1.00,"/>
 			<val e="Band3 Type 31" v="1.00,"/>
 			<val e="Hide State 31" v="0.00,"/>
-			<val e="Remote Controls 31" v="1023.00,"/>
+			<val e="Remote Controls 31" v="255.00,"/>
 			<val e="Layout OpenClose 31" v="0.00,"/>
 			<val e="Stereo 32" v="1.00,"/>
 			<val e="Name 32" v=""/>
@@ -5049,7 +5049,7 @@
 			<val e="Band1 Type 32" v="1.00,"/>
 			<val e="Band3 Type 32" v="1.00,"/>
 			<val e="Hide State 32" v="0.00,"/>
-			<val e="Remote Controls 32" v="1023.00,"/>
+			<val e="Remote Controls 32" v="255.00,"/>
 			<val e="Layout OpenClose 32" v="0.00,"/>
 			<val e="Stereo 33" v="1.00,"/>
 			<val e="Name 33" v=""/>
@@ -5088,7 +5088,7 @@
 			<val e="Band1 Type 33" v="1.00,"/>
 			<val e="Band3 Type 33" v="1.00,"/>
 			<val e="Hide State 33" v="0.00,"/>
-			<val e="Remote Controls 33" v="1023.00,"/>
+			<val e="Remote Controls 33" v="255.00,"/>
 			<val e="Layout OpenClose 33" v="0.00,"/>
 			<val e="Stereo 34" v="1.00,"/>
 			<val e="Name 34" v=""/>
@@ -5127,7 +5127,7 @@
 			<val e="Band1 Type 34" v="1.00,"/>
 			<val e="Band3 Type 34" v="1.00,"/>
 			<val e="Hide State 34" v="0.00,"/>
-			<val e="Remote Controls 34" v="1023.00,"/>
+			<val e="Remote Controls 34" v="255.00,"/>
 			<val e="Layout OpenClose 34" v="0.00,"/>
 			<val e="Stereo 35" v="1.00,"/>
 			<val e="Name 35" v=""/>
@@ -5166,7 +5166,7 @@
 			<val e="Band1 Type 35" v="1.00,"/>
 			<val e="Band3 Type 35" v="1.00,"/>
 			<val e="Hide State 35" v="0.00,"/>
-			<val e="Remote Controls 35" v="1023.00,"/>
+			<val e="Remote Controls 35" v="255.00,"/>
 			<val e="Layout OpenClose 35" v="0.00,"/>
 			<val e="Stereo 36" v="1.00,"/>
 			<val e="Name 36" v=""/>
@@ -5205,7 +5205,7 @@
 			<val e="Band1 Type 36" v="1.00,"/>
 			<val e="Band3 Type 36" v="1.00,"/>
 			<val e="Hide State 36" v="0.00,"/>
-			<val e="Remote Controls 36" v="1023.00,"/>
+			<val e="Remote Controls 36" v="255.00,"/>
 			<val e="Layout OpenClose 36" v="0.00,"/>
 			<val e="Stereo 37" v="1.00,"/>
 			<val e="Name 37" v=""/>
@@ -5244,7 +5244,7 @@
 			<val e="Band1 Type 37" v="1.00,"/>
 			<val e="Band3 Type 37" v="1.00,"/>
 			<val e="Hide State 37" v="0.00,"/>
-			<val e="Remote Controls 37" v="1023.00,"/>
+			<val e="Remote Controls 37" v="255.00,"/>
 			<val e="Layout OpenClose 37" v="0.00,"/>
 			<val e="Stereo 38" v="1.00,"/>
 			<val e="Name 38" v=""/>
@@ -5283,7 +5283,7 @@
 			<val e="Band1 Type 38" v="1.00,"/>
 			<val e="Band3 Type 38" v="1.00,"/>
 			<val e="Hide State 38" v="0.00,"/>
-			<val e="Remote Controls 38" v="1023.00,"/>
+			<val e="Remote Controls 38" v="255.00,"/>
 			<val e="Layout OpenClose 38" v="0.00,"/>
 			<val e="Stereo 39" v="1.00,"/>
 			<val e="Name 39" v=""/>
@@ -5322,7 +5322,7 @@
 			<val e="Band1 Type 39" v="1.00,"/>
 			<val e="Band3 Type 39" v="1.00,"/>
 			<val e="Hide State 39" v="0.00,"/>
-			<val e="Remote Controls 39" v="1023.00,"/>
+			<val e="Remote Controls 39" v="255.00,"/>
 			<val e="Layout OpenClose 39" v="0.00,"/>
 			<val e="Stereo 40" v="1.00,"/>
 			<val e="Name 40" v=""/>
@@ -5361,7 +5361,7 @@
 			<val e="Band1 Type 40" v="1.00,"/>
 			<val e="Band3 Type 40" v="1.00,"/>
 			<val e="Hide State 40" v="0.00,"/>
-			<val e="Remote Controls 40" v="1023.00,"/>
+			<val e="Remote Controls 40" v="255.00,"/>
 			<val e="Layout OpenClose 40" v="0.00,"/>
 			<val e="Stereo 41" v="1.00,"/>
 			<val e="Name 41" v=""/>
@@ -5400,7 +5400,7 @@
 			<val e="Band1 Type 41" v="1.00,"/>
 			<val e="Band3 Type 41" v="1.00,"/>
 			<val e="Hide State 41" v="0.00,"/>
-			<val e="Remote Controls 41" v="1023.00,"/>
+			<val e="Remote Controls 41" v="255.00,"/>
 			<val e="Layout OpenClose 41" v="0.00,"/>
 			<val e="Stereo 42" v="1.00,"/>
 			<val e="Name 42" v=""/>
@@ -5439,7 +5439,7 @@
 			<val e="Band1 Type 42" v="1.00,"/>
 			<val e="Band3 Type 42" v="1.00,"/>
 			<val e="Hide State 42" v="0.00,"/>
-			<val e="Remote Controls 42" v="1023.00,"/>
+			<val e="Remote Controls 42" v="255.00,"/>
 			<val e="Layout OpenClose 42" v="0.00,"/>
 			<val e="Stereo 43" v="1.00,"/>
 			<val e="Name 43" v=""/>
@@ -5478,7 +5478,7 @@
 			<val e="Band1 Type 43" v="1.00,"/>
 			<val e="Band3 Type 43" v="1.00,"/>
 			<val e="Hide State 43" v="0.00,"/>
-			<val e="Remote Controls 43" v="1023.00,"/>
+			<val e="Remote Controls 43" v="255.00,"/>
 			<val e="Layout OpenClose 43" v="0.00,"/>
 			<val e="Stereo 44" v="1.00,"/>
 			<val e="Name 44" v=""/>
@@ -5517,7 +5517,7 @@
 			<val e="Band1 Type 44" v="1.00,"/>
 			<val e="Band3 Type 44" v="1.00,"/>
 			<val e="Hide State 44" v="0.00,"/>
-			<val e="Remote Controls 44" v="1023.00,"/>
+			<val e="Remote Controls 44" v="255.00,"/>
 			<val e="Layout OpenClose 44" v="0.00,"/>
 			<val e="Stereo 45" v="1.00,"/>
 			<val e="Name 45" v=""/>
@@ -5556,7 +5556,7 @@
 			<val e="Band1 Type 45" v="1.00,"/>
 			<val e="Band3 Type 45" v="1.00,"/>
 			<val e="Hide State 45" v="0.00,"/>
-			<val e="Remote Controls 45" v="1023.00,"/>
+			<val e="Remote Controls 45" v="255.00,"/>
 			<val e="Layout OpenClose 45" v="0.00,"/>
 			<val e="Stereo 46" v="1.00,"/>
 			<val e="Name 46" v=""/>
@@ -5595,7 +5595,7 @@
 			<val e="Band1 Type 46" v="1.00,"/>
 			<val e="Band3 Type 46" v="1.00,"/>
 			<val e="Hide State 46" v="0.00,"/>
-			<val e="Remote Controls 46" v="1023.00,"/>
+			<val e="Remote Controls 46" v="255.00,"/>
 			<val e="Layout OpenClose 46" v="0.00,"/>
 			<val e="Stereo 47" v="1.00,"/>
 			<val e="Name 47" v=""/>
@@ -5634,7 +5634,7 @@
 			<val e="Band1 Type 47" v="1.00,"/>
 			<val e="Band3 Type 47" v="1.00,"/>
 			<val e="Hide State 47" v="0.00,"/>
-			<val e="Remote Controls 47" v="1023.00,"/>
+			<val e="Remote Controls 47" v="255.00,"/>
 			<val e="Layout OpenClose 47" v="0.00,"/>
 			<val e="Stereo 48" v="1.00,"/>
 			<val e="Name 48" v=""/>
@@ -5673,7 +5673,7 @@
 			<val e="Band1 Type 48" v="1.00,"/>
 			<val e="Band3 Type 48" v="1.00,"/>
 			<val e="Hide State 48" v="0.00,"/>
-			<val e="Remote Controls 48" v="1023.00,"/>
+			<val e="Remote Controls 48" v="255.00,"/>
 			<val e="Layout OpenClose 48" v="0.00,"/>
 			<val e="Stereo 49" v="1.00,"/>
 			<val e="Name 49" v=""/>
@@ -5712,7 +5712,7 @@
 			<val e="Band1 Type 49" v="1.00,"/>
 			<val e="Band3 Type 49" v="1.00,"/>
 			<val e="Hide State 49" v="0.00,"/>
-			<val e="Remote Controls 49" v="1023.00,"/>
+			<val e="Remote Controls 49" v="255.00,"/>
 			<val e="Layout OpenClose 49" v="0.00,"/>
 			<val e="Stereo 50" v="1.00,"/>
 			<val e="Name 50" v=""/>
@@ -5751,7 +5751,7 @@
 			<val e="Band1 Type 50" v="1.00,"/>
 			<val e="Band3 Type 50" v="1.00,"/>
 			<val e="Hide State 50" v="0.00,"/>
-			<val e="Remote Controls 50" v="1023.00,"/>
+			<val e="Remote Controls 50" v="255.00,"/>
 			<val e="Layout OpenClose 50" v="0.00,"/>
 			<val e="Stereo 51" v="1.00,"/>
 			<val e="Name 51" v=""/>
@@ -5790,10 +5790,10 @@
 			<val e="Band1 Type 51" v="1.00,"/>
 			<val e="Band3 Type 51" v="1.00,"/>
 			<val e="Hide State 51" v="0.00,"/>
-			<val e="Remote Controls 51" v="1023.00,"/>
+			<val e="Remote Controls 51" v="255.00,"/>
 			<val e="Layout OpenClose 51" v="0.00,"/>
 			<val e="Stereo 52" v="1.00,"/>
-			<val e="Name 52" v=""/>
+			<val e="Name 52" v="rec tuba LB"/>
 			<val e="Chan Mute 52" v="0.00,"/>
 			<val e="Rev Return 52" v="-65.00,"/>
 			<val e="Chan Level 52" v="1.00,"/>
@@ -5804,7 +5804,7 @@
 			<val e="Width 52" v="1.00,"/>
 			<val e="PF Listen 52" v="0.00,"/>
 			<val e="Rev Send 52" v="-300.00,"/>
-			<val e="Loopback 52" v="0.00,"/>
+			<val e="Loopback 52" v="1.00,"/>
 			<val e="Phant Power 52" v="0.00,"/>
 			<val e="High Z Inp 52" v="0.00,"/>
 			<val e="RecordEnable 52" v="0.00,"/>
@@ -5829,7 +5829,7 @@
 			<val e="Band1 Type 52" v="1.00,"/>
 			<val e="Band3 Type 52" v="1.00,"/>
 			<val e="Hide State 52" v="0.00,"/>
-			<val e="Remote Controls 52" v="1023.00,"/>
+			<val e="Remote Controls 52" v="255.00,"/>
 			<val e="Layout OpenClose 52" v="0.00,"/>
 			<val e="Stereo 53" v="1.00,"/>
 			<val e="Name 53" v=""/>
@@ -5843,7 +5843,7 @@
 			<val e="Width 53" v="1.00,"/>
 			<val e="PF Listen 53" v="0.00,"/>
 			<val e="Rev Send 53" v="-300.00,"/>
-			<val e="Loopback 53" v="0.00,"/>
+			<val e="Loopback 53" v="1.00,"/>
 			<val e="Phant Power 53" v="0.00,"/>
 			<val e="High Z Inp 53" v="0.00,"/>
 			<val e="RecordEnable 53" v="0.00,"/>
@@ -5868,10 +5868,10 @@
 			<val e="Band1 Type 53" v="1.00,"/>
 			<val e="Band3 Type 53" v="1.00,"/>
 			<val e="Hide State 53" v="0.00,"/>
-			<val e="Remote Controls 53" v="1023.00,"/>
+			<val e="Remote Controls 53" v="255.00,"/>
 			<val e="Layout OpenClose 53" v="0.00,"/>
 			<val e="Stereo 54" v="1.00,"/>
-			<val e="Name 54" v=""/>
+			<val e="Name 54" v="hi tuba LB"/>
 			<val e="Chan Mute 54" v="0.00,"/>
 			<val e="Rev Return 54" v="-65.00,"/>
 			<val e="Chan Level 54" v="1.00,"/>
@@ -5882,7 +5882,7 @@
 			<val e="Width 54" v="1.00,"/>
 			<val e="PF Listen 54" v="0.00,"/>
 			<val e="Rev Send 54" v="-300.00,"/>
-			<val e="Loopback 54" v="0.00,"/>
+			<val e="Loopback 54" v="1.00,"/>
 			<val e="Phant Power 54" v="0.00,"/>
 			<val e="High Z Inp 54" v="0.00,"/>
 			<val e="RecordEnable 54" v="0.00,"/>
@@ -5907,7 +5907,7 @@
 			<val e="Band1 Type 54" v="1.00,"/>
 			<val e="Band3 Type 54" v="1.00,"/>
 			<val e="Hide State 54" v="0.00,"/>
-			<val e="Remote Controls 54" v="1023.00,"/>
+			<val e="Remote Controls 54" v="255.00,"/>
 			<val e="Layout OpenClose 54" v="0.00,"/>
 			<val e="Stereo 55" v="1.00,"/>
 			<val e="Name 55" v=""/>
@@ -5921,7 +5921,7 @@
 			<val e="Width 55" v="1.00,"/>
 			<val e="PF Listen 55" v="0.00,"/>
 			<val e="Rev Send 55" v="-300.00,"/>
-			<val e="Loopback 55" v="0.00,"/>
+			<val e="Loopback 55" v="1.00,"/>
 			<val e="Phant Power 55" v="0.00,"/>
 			<val e="High Z Inp 55" v="0.00,"/>
 			<val e="RecordEnable 55" v="0.00,"/>
@@ -5946,7 +5946,7 @@
 			<val e="Band1 Type 55" v="1.00,"/>
 			<val e="Band3 Type 55" v="1.00,"/>
 			<val e="Hide State 55" v="0.00,"/>
-			<val e="Remote Controls 55" v="1023.00,"/>
+			<val e="Remote Controls 55" v="255.00,"/>
 			<val e="Layout OpenClose 55" v="0.00,"/>
 			<val e="Stereo 56" v="1.00,"/>
 			<val e="Name 56" v=""/>
@@ -5960,7 +5960,7 @@
 			<val e="Width 56" v="1.00,"/>
 			<val e="PF Listen 56" v="0.00,"/>
 			<val e="Rev Send 56" v="-300.00,"/>
-			<val e="Loopback 56" v="0.00,"/>
+			<val e="Loopback 56" v="1.00,"/>
 			<val e="Phant Power 56" v="0.00,"/>
 			<val e="High Z Inp 56" v="0.00,"/>
 			<val e="RecordEnable 56" v="0.00,"/>
@@ -5985,7 +5985,7 @@
 			<val e="Band1 Type 56" v="1.00,"/>
 			<val e="Band3 Type 56" v="1.00,"/>
 			<val e="Hide State 56" v="0.00,"/>
-			<val e="Remote Controls 56" v="1023.00,"/>
+			<val e="Remote Controls 56" v="255.00,"/>
 			<val e="Layout OpenClose 56" v="0.00,"/>
 			<val e="Stereo 57" v="1.00,"/>
 			<val e="Name 57" v=""/>
@@ -5999,7 +5999,7 @@
 			<val e="Width 57" v="1.00,"/>
 			<val e="PF Listen 57" v="0.00,"/>
 			<val e="Rev Send 57" v="-300.00,"/>
-			<val e="Loopback 57" v="0.00,"/>
+			<val e="Loopback 57" v="1.00,"/>
 			<val e="Phant Power 57" v="0.00,"/>
 			<val e="High Z Inp 57" v="0.00,"/>
 			<val e="RecordEnable 57" v="0.00,"/>
@@ -6024,7 +6024,7 @@
 			<val e="Band1 Type 57" v="1.00,"/>
 			<val e="Band3 Type 57" v="1.00,"/>
 			<val e="Hide State 57" v="0.00,"/>
-			<val e="Remote Controls 57" v="1023.00,"/>
+			<val e="Remote Controls 57" v="255.00,"/>
 			<val e="Layout OpenClose 57" v="0.00,"/>
 			<val e="Stereo 58" v="1.00,"/>
 			<val e="Name 58" v=""/>
@@ -6038,7 +6038,7 @@
 			<val e="Width 58" v="1.00,"/>
 			<val e="PF Listen 58" v="0.00,"/>
 			<val e="Rev Send 58" v="-300.00,"/>
-			<val e="Loopback 58" v="0.00,"/>
+			<val e="Loopback 58" v="1.00,"/>
 			<val e="Phant Power 58" v="0.00,"/>
 			<val e="High Z Inp 58" v="0.00,"/>
 			<val e="RecordEnable 58" v="0.00,"/>
@@ -6063,7 +6063,7 @@
 			<val e="Band1 Type 58" v="1.00,"/>
 			<val e="Band3 Type 58" v="1.00,"/>
 			<val e="Hide State 58" v="0.00,"/>
-			<val e="Remote Controls 58" v="1023.00,"/>
+			<val e="Remote Controls 58" v="255.00,"/>
 			<val e="Layout OpenClose 58" v="0.00,"/>
 			<val e="Stereo 59" v="1.00,"/>
 			<val e="Name 59" v=""/>
@@ -6077,7 +6077,7 @@
 			<val e="Width 59" v="1.00,"/>
 			<val e="PF Listen 59" v="0.00,"/>
 			<val e="Rev Send 59" v="-300.00,"/>
-			<val e="Loopback 59" v="0.00,"/>
+			<val e="Loopback 59" v="1.00,"/>
 			<val e="Phant Power 59" v="0.00,"/>
 			<val e="High Z Inp 59" v="0.00,"/>
 			<val e="RecordEnable 59" v="0.00,"/>
@@ -6102,7 +6102,7 @@
 			<val e="Band1 Type 59" v="1.00,"/>
 			<val e="Band3 Type 59" v="1.00,"/>
 			<val e="Hide State 59" v="0.00,"/>
-			<val e="Remote Controls 59" v="1023.00,"/>
+			<val e="Remote Controls 59" v="255.00,"/>
 			<val e="Layout OpenClose 59" v="0.00,"/>
 			<val e="Stereo 60" v="1.00,"/>
 			<val e="Name 60" v=""/>
@@ -6141,7 +6141,7 @@
 			<val e="Band1 Type 60" v="1.00,"/>
 			<val e="Band3 Type 60" v="1.00,"/>
 			<val e="Hide State 60" v="0.00,"/>
-			<val e="Remote Controls 60" v="1023.00,"/>
+			<val e="Remote Controls 60" v="255.00,"/>
 			<val e="Layout OpenClose 60" v="0.00,"/>
 			<val e="Stereo 61" v="1.00,"/>
 			<val e="Name 61" v=""/>
@@ -6180,10 +6180,10 @@
 			<val e="Band1 Type 61" v="1.00,"/>
 			<val e="Band3 Type 61" v="1.00,"/>
 			<val e="Hide State 61" v="0.00,"/>
-			<val e="Remote Controls 61" v="1023.00,"/>
+			<val e="Remote Controls 61" v="255.00,"/>
 			<val e="Layout OpenClose 61" v="0.00,"/>
 			<val e="Stereo 62" v="1.00,"/>
-			<val e="Name 62" v=""/>
+			<val e="Name 62" v="perc LB"/>
 			<val e="Chan Mute 62" v="0.00,"/>
 			<val e="Rev Return 62" v="-65.00,"/>
 			<val e="Chan Level 62" v="1.00,"/>
@@ -6194,7 +6194,7 @@
 			<val e="Width 62" v="1.00,"/>
 			<val e="PF Listen 62" v="0.00,"/>
 			<val e="Rev Send 62" v="-300.00,"/>
-			<val e="Loopback 62" v="0.00,"/>
+			<val e="Loopback 62" v="1.00,"/>
 			<val e="Phant Power 62" v="0.00,"/>
 			<val e="High Z Inp 62" v="0.00,"/>
 			<val e="RecordEnable 62" v="0.00,"/>
@@ -6219,7 +6219,7 @@
 			<val e="Band1 Type 62" v="1.00,"/>
 			<val e="Band3 Type 62" v="1.00,"/>
 			<val e="Hide State 62" v="0.00,"/>
-			<val e="Remote Controls 62" v="1023.00,"/>
+			<val e="Remote Controls 62" v="255.00,"/>
 			<val e="Layout OpenClose 62" v="0.00,"/>
 			<val e="Stereo 63" v="1.00,"/>
 			<val e="Name 63" v=""/>
@@ -6233,7 +6233,7 @@
 			<val e="Width 63" v="1.00,"/>
 			<val e="PF Listen 63" v="0.00,"/>
 			<val e="Rev Send 63" v="-300.00,"/>
-			<val e="Loopback 63" v="0.00,"/>
+			<val e="Loopback 63" v="1.00,"/>
 			<val e="Phant Power 63" v="0.00,"/>
 			<val e="High Z Inp 63" v="0.00,"/>
 			<val e="RecordEnable 63" v="0.00,"/>
@@ -6258,10 +6258,10 @@
 			<val e="Band1 Type 63" v="1.00,"/>
 			<val e="Band3 Type 63" v="1.00,"/>
 			<val e="Hide State 63" v="0.00,"/>
-			<val e="Remote Controls 63" v="1023.00,"/>
+			<val e="Remote Controls 63" v="255.00,"/>
 			<val e="Layout OpenClose 63" v="0.00,"/>
 			<val e="Stereo 64" v="1.00,"/>
-			<val e="Name 64" v=""/>
+			<val e="Name 64" v="playback LB"/>
 			<val e="Chan Mute 64" v="0.00,"/>
 			<val e="Rev Return 64" v="-65.00,"/>
 			<val e="Chan Level 64" v="1.00,"/>
@@ -6272,7 +6272,7 @@
 			<val e="Width 64" v="1.00,"/>
 			<val e="PF Listen 64" v="0.00,"/>
 			<val e="Rev Send 64" v="-300.00,"/>
-			<val e="Loopback 64" v="0.00,"/>
+			<val e="Loopback 64" v="1.00,"/>
 			<val e="Phant Power 64" v="0.00,"/>
 			<val e="High Z Inp 64" v="0.00,"/>
 			<val e="RecordEnable 64" v="0.00,"/>
@@ -6297,7 +6297,7 @@
 			<val e="Band1 Type 64" v="1.00,"/>
 			<val e="Band3 Type 64" v="1.00,"/>
 			<val e="Hide State 64" v="0.00,"/>
-			<val e="Remote Controls 64" v="1023.00,"/>
+			<val e="Remote Controls 64" v="255.00,"/>
 			<val e="Layout OpenClose 64" v="0.00,"/>
 			<val e="Stereo 65" v="1.00,"/>
 			<val e="Name 65" v=""/>
@@ -6311,7 +6311,7 @@
 			<val e="Width 65" v="1.00,"/>
 			<val e="PF Listen 65" v="0.00,"/>
 			<val e="Rev Send 65" v="-300.00,"/>
-			<val e="Loopback 65" v="0.00,"/>
+			<val e="Loopback 65" v="1.00,"/>
 			<val e="Phant Power 65" v="0.00,"/>
 			<val e="High Z Inp 65" v="0.00,"/>
 			<val e="RecordEnable 65" v="0.00,"/>
@@ -6336,10 +6336,10 @@
 			<val e="Band1 Type 65" v="1.00,"/>
 			<val e="Band3 Type 65" v="1.00,"/>
 			<val e="Hide State 65" v="0.00,"/>
-			<val e="Remote Controls 65" v="1023.00,"/>
+			<val e="Remote Controls 65" v="255.00,"/>
 			<val e="Layout OpenClose 65" v="0.00,"/>
 			<val e="Stereo 66" v="1.00,"/>
-			<val e="Name 66" v=""/>
+			<val e="Name 66" v="Max LB"/>
 			<val e="Chan Mute 66" v="0.00,"/>
 			<val e="Rev Return 66" v="-65.00,"/>
 			<val e="Chan Level 66" v="1.00,"/>
@@ -6375,7 +6375,7 @@
 			<val e="Band1 Type 66" v="1.00,"/>
 			<val e="Band3 Type 66" v="1.00,"/>
 			<val e="Hide State 66" v="0.00,"/>
-			<val e="Remote Controls 66" v="1023.00,"/>
+			<val e="Remote Controls 66" v="255.00,"/>
 			<val e="Layout OpenClose 66" v="0.00,"/>
 			<val e="Stereo 67" v="1.00,"/>
 			<val e="Name 67" v=""/>
@@ -6414,32 +6414,36 @@
 			<val e="Band1 Type 67" v="1.00,"/>
 			<val e="Band3 Type 67" v="1.00,"/>
 			<val e="Hide State 67" v="0.00,"/>
-			<val e="Remote Controls 67" v="1023.00,"/>
+			<val e="Remote Controls 67" v="255.00,"/>
 			<val e="Layout OpenClose 67" v="0.00,"/>
 		</Outputs>
 		<Mixer>
 			<val e="Slider 00 00" v="0.00,"/>
 			<val e="Slider 00 01" v="0.00,"/>
-			<val e="Slider 00 02" v="0.00,"/>
-			<val e="Slider 00 03" v="0.00,"/>
-			<val e="Slider 00 04" v="0.00,"/>
-			<val e="Slider 00 05" v="0.00,"/>
-			<val e="Slider 00 06" v="0.00,"/>
-			<val e="Slider 00 07" v="0.00,"/>
-			<val e="Slider 00 08" v="0.21,"/>
-			<val e="Slider 00 09" v="0.21,"/>
-			<val e="Slider 00 10" v="0.00,"/>
-			<val e="Slider 00 11" v="0.00,"/>
-			<val e="Slider 00 12" v="-4.29,"/>
-			<val e="Slider 00 13" v="-4.29,"/>
-			<val e="Slider 00 14" v="-17.46,"/>
-			<val e="Slider 00 15" v="-17.46,"/>
-			<val e="Slider 00 16" v="-0.43,"/>
-			<val e="Slider 00 17" v="-0.43,"/>
-			<val e="Slider 00 18" v="-65.00,"/>
-			<val e="Slider 00 19" v="-65.00,"/>
+			<val e="Slider 00 02" v="-65.00,"/>
+			<val e="Pan 00 02" v="-1.00,"/>
+			<val e="Slider 00 03" v="-65.00,"/>
+			<val e="Pan 00 03" v="1.00,"/>
+			<val e="Slider 00 04" v="-65.00,"/>
+			<val e="Slider 00 05" v="-65.00,"/>
+			<val e="Slider 00 06" v="-65.00,"/>
+			<val e="Slider 00 07" v="-65.00,"/>
+			<val e="Slider 00 08" v="4.86,"/>
+			<val e="Slider 00 09" v="4.86,"/>
+			<val e="Slider 00 10" v="-6.44,"/>
+			<val e="Slider 00 11" v="-6.44,"/>
+			<val e="Slider 00 12" v="0.00,"/>
+			<val e="Slider 00 13" v="0.00,"/>
+			<val e="Slider 00 14" v="0.00,"/>
+			<val e="Slider 00 15" v="0.00,"/>
+			<val e="Slider 00 16" v="-13.92,"/>
+			<val e="Slider 00 17" v="-13.92,"/>
+			<val e="Slider 00 18" v="0.00,"/>
+			<val e="Slider 00 19" v="0.00,"/>
 			<val e="Slider 00 20" v="-65.00,"/>
+			<val e="Pan 00 20" v="-0.67,"/>
 			<val e="Slider 00 21" v="-65.00,"/>
+			<val e="Pan 00 21" v="0.67,"/>
 			<val e="Slider 00 22" v="-65.00,"/>
 			<val e="Slider 00 23" v="-65.00,"/>
 			<val e="Slider 00 24" v="-65.00,"/>
@@ -6486,136 +6490,128 @@
 			<val e="Slider 00 65" v="-65.00,"/>
 			<val e="Slider 00 66" v="-65.00,"/>
 			<val e="Slider 00 67" v="-65.00,"/>
-			<val e="Slider 00 68" v="6.00,"/>
-			<val e="Slider 00 69" v="6.00,"/>
-			<val e="Slider 00 70" v="0.00,"/>
-			<val e="Slider 00 71" v="0.00,"/>
+			<val e="Slider 00 68" v="0.00,"/>
+			<val e="Slider 00 69" v="0.00,"/>
+			<val e="Slider 00 70" v="-1.86,"/>
+			<val e="Slider 00 71" v="-1.86,"/>
 			<val e="Slider 00 72" v="0.00,"/>
 			<val e="Slider 00 73" v="0.00,"/>
 			<val e="Slider 00 74" v="0.00,"/>
 			<val e="Slider 00 75" v="0.00,"/>
-			<val e="Slider 00 76" v="0.00,"/>
-			<val e="Slider 00 77" v="0.00,"/>
+			<val e="Slider 00 76" v="-65.00,"/>
+			<val e="Slider 00 77" v="-65.00,"/>
 			<val e="Slider 00 78" v="0.00,"/>
 			<val e="Slider 00 79" v="0.00,"/>
 			<val e="Slider 00 80" v="0.00,"/>
 			<val e="Pan 00 80" v="-1.00,"/>
 			<val e="Slider 00 81" v="0.00,"/>
 			<val e="Pan 00 81" v="1.00,"/>
-			<val e="Slider 00 82" v="-0.86,"/>
-			<val e="Slider 00 83" v="-0.86,"/>
+			<val e="Slider 00 82" v="0.00,"/>
+			<val e="Slider 00 83" v="0.00,"/>
 			<val e="Slider 00 84" v="0.00,"/>
 			<val e="Pan 00 84" v="-1.00,"/>
-			<val e="Slider 00 85" v="-65.00,"/>
-			<val e="Pan 00 85" v="1.00,"/>
+			<val e="Slider 00 85" v="2.57,"/>
+			<val e="Pan 00 85" v="0.60,"/>
 			<val e="Slider 00 86" v="0.00,"/>
 			<val e="Slider 00 87" v="0.00,"/>
-			<val e="Slider 00 88" v="-65.00,"/>
-			<val e="Slider 00 89" v="-65.00,"/>
-			<val e="Slider 00 90" v="-65.00,"/>
-			<val e="Slider 00 91" v="-65.00,"/>
-			<val e="Slider 00 92" v="-65.00,"/>
-			<val e="Slider 00 93" v="-65.00,"/>
-			<val e="Slider 00 94" v="-65.00,"/>
-			<val e="Slider 00 95" v="-65.00,"/>
-			<val e="Slider 00 96" v="-65.00,"/>
-			<val e="Slider 00 97" v="-65.00,"/>
-			<val e="Slider 00 98" v="0.00,"/>
-			<val e="Slider 00 99" v="0.00,"/>
+			<val e="Slider 00 88" v="0.00,"/>
+			<val e="Slider 00 89" v="0.00,"/>
+			<val e="Slider 00 90" v="0.00,"/>
+			<val e="Slider 00 91" v="0.00,"/>
+			<val e="Slider 00 92" v="0.00,"/>
+			<val e="Slider 00 93" v="0.00,"/>
+			<val e="Slider 00 94" v="0.00,"/>
+			<val e="Slider 00 95" v="0.00,"/>
+			<val e="Slider 00 96" v="0.00,"/>
+			<val e="Slider 00 97" v="0.00,"/>
+			<val e="Slider 00 98" v="-65.00,"/>
+			<val e="Slider 00 99" v="-65.00,"/>
 			<val e="Slider 00 100" v="0.00,"/>
 			<val e="Slider 00 101" v="0.00,"/>
-			<val e="Slider 00 102" v="-65.00,"/>
-			<val e="Slider 00 103" v="-65.00,"/>
-			<val e="Slider 00 104" v="-65.00,"/>
-			<val e="Slider 00 105" v="-65.00,"/>
+			<val e="Slider 00 102" v="0.00,"/>
+			<val e="Slider 00 103" v="0.00,"/>
+			<val e="Slider 00 104" v="0.00,"/>
+			<val e="Slider 00 105" v="0.00,"/>
 			<val e="Slider 00 106" v="0.00,"/>
 			<val e="Slider 00 107" v="0.00,"/>
-			<val e="Slider 00 108" v="0.00,"/>
-			<val e="Slider 00 109" v="0.00,"/>
-			<val e="Slider 00 110" v="0.00,"/>
-			<val e="Slider 00 111" v="0.00,"/>
-			<val e="Slider 00 112" v="0.00,"/>
-			<val e="Slider 00 113" v="0.00,"/>
-			<val e="Slider 00 114" v="0.00,"/>
-			<val e="Slider 00 115" v="0.00,"/>
-			<val e="Slider 00 116" v="0.00,"/>
-			<val e="Slider 00 117" v="0.00,"/>
-			<val e="Slider 00 118" v="0.00,"/>
-			<val e="Slider 00 119" v="0.00,"/>
-			<val e="Slider 00 120" v="0.00,"/>
-			<val e="Slider 00 121" v="0.00,"/>
-			<val e="Slider 00 122" v="0.00,"/>
-			<val e="Slider 00 123" v="0.00,"/>
-			<val e="Slider 00 124" v="0.00,"/>
-			<val e="Slider 00 125" v="0.00,"/>
-			<val e="Slider 00 126" v="0.00,"/>
-			<val e="Slider 00 127" v="0.00,"/>
+			<val e="Slider 00 108" v="-65.00,"/>
+			<val e="Slider 00 109" v="-65.00,"/>
+			<val e="Slider 00 110" v="-65.00,"/>
+			<val e="Slider 00 111" v="-65.00,"/>
+			<val e="Slider 00 112" v="-65.00,"/>
+			<val e="Slider 00 113" v="-65.00,"/>
+			<val e="Slider 00 114" v="-65.00,"/>
+			<val e="Slider 00 115" v="-65.00,"/>
+			<val e="Slider 00 116" v="-65.00,"/>
+			<val e="Slider 00 117" v="-65.00,"/>
+			<val e="Slider 00 118" v="-65.00,"/>
+			<val e="Slider 00 119" v="-65.00,"/>
+			<val e="Slider 00 120" v="-65.00,"/>
+			<val e="Slider 00 121" v="-65.00,"/>
+			<val e="Slider 00 122" v="-65.00,"/>
+			<val e="Slider 00 123" v="-65.00,"/>
+			<val e="Slider 00 124" v="-65.00,"/>
+			<val e="Slider 00 125" v="-65.00,"/>
+			<val e="Slider 00 126" v="-65.00,"/>
+			<val e="Slider 00 127" v="-65.00,"/>
 			<val e="Slider 00 128" v="0.00,"/>
 			<val e="Slider 00 129" v="0.00,"/>
-			<val e="Slider 00 130" v="0.00,"/>
-			<val e="Slider 00 131" v="0.00,"/>
-			<val e="Slider 00 132" v="0.00,"/>
-			<val e="Slider 00 133" v="0.00,"/>
-			<val e="Slider 00 134" v="0.00,"/>
-			<val e="Slider 00 135" v="0.00,"/>
+			<val e="Slider 00 130" v="-65.00,"/>
+			<val e="Slider 00 131" v="-65.00,"/>
+			<val e="Slider 00 132" v="-65.00,"/>
+			<val e="Slider 00 133" v="-65.00,"/>
+			<val e="Slider 00 134" v="-65.00,"/>
+			<val e="Slider 00 135" v="-65.00,"/>
 			<val e="Slider 00 136" v="0.00,"/>
-			<val e="Slider 02 04" v="0.00,"/>
-			<val e="Slider 02 05" v="0.00,"/>
-			<val e="Slider 02 06" v="0.00,"/>
-			<val e="Slider 02 07" v="0.00,"/>
-			<val e="Slider 02 10" v="-0.62,"/>
-			<val e="Slider 02 11" v="-0.62,"/>
-			<val e="Slider 02 12" v="-8.46,"/>
-			<val e="Slider 02 13" v="-8.46,"/>
-			<val e="Slider 02 68" v="0.21,"/>
-			<val e="Slider 02 69" v="0.21,"/>
-			<val e="Slider 02 70" v="0.00,"/>
-			<val e="Slider 02 71" v="0.00,"/>
+			<val e="Pan 02 02" v="-1.00,"/>
+			<val e="Pan 02 03" v="1.00,"/>
+			<val e="Slider 02 08" v="0.00,"/>
+			<val e="Slider 02 09" v="0.00,"/>
+			<val e="Slider 02 14" v="-16.84,"/>
+			<val e="Slider 02 15" v="-16.84,"/>
+			<val e="Pan 02 20" v="-1.00,"/>
+			<val e="Pan 02 21" v="1.00,"/>
+			<val e="Slider 02 68" v="0.00,"/>
+			<val e="Slider 02 69" v="0.00,"/>
+			<val e="Slider 02 70" v="-8.53,"/>
+			<val e="Slider 02 71" v="-8.53,"/>
+			<val e="Slider 02 74" v="-1.43,"/>
+			<val e="Slider 02 75" v="-1.43,"/>
 			<val e="Pan 02 80" v="-1.00,"/>
 			<val e="Pan 02 81" v="1.00,"/>
 			<val e="Pan 02 84" v="-1.00,"/>
 			<val e="Pan 02 85" v="1.00,"/>
-			<val e="Slider 02 136" v="-28.91,"/>
-			<val e="Slider 03 136" v="-28.91,"/>
-			<val e="Slider 04 02" v="-4.57,"/>
-			<val e="Slider 04 03" v="-4.57,"/>
-			<val e="Slider 04 04" v="0.00,"/>
-			<val e="Slider 04 05" v="0.00,"/>
-			<val e="Slider 04 06" v="0.00,"/>
-			<val e="Slider 04 07" v="0.00,"/>
-			<val e="Slider 04 08" v="0.00,"/>
-			<val e="Slider 04 09" v="0.00,"/>
-			<val e="Slider 04 10" v="0.00,"/>
-			<val e="Slider 04 11" v="0.00,"/>
-			<val e="Slider 04 12" v="-11.36,"/>
-			<val e="Slider 04 13" v="-11.36,"/>
-			<val e="Slider 04 14" v="-17.46,"/>
-			<val e="Slider 04 15" v="-17.46,"/>
-			<val e="Slider 04 16" v="-8.93,"/>
-			<val e="Slider 04 17" v="-8.93,"/>
-			<val e="Slider 04 68" v="6.00,"/>
-			<val e="Slider 04 69" v="6.00,"/>
-			<val e="Slider 04 70" v="0.00,"/>
-			<val e="Slider 04 71" v="0.00,"/>
+			<val e="Slider 02 136" v="-20.10,"/>
+			<val e="Slider 03 136" v="-20.10,"/>
+			<val e="Slider 04 08" v="4.86,"/>
+			<val e="Slider 04 09" v="4.86,"/>
+			<val e="Slider 04 10" v="-6.44,"/>
+			<val e="Slider 04 11" v="-6.44,"/>
+			<val e="Slider 04 12" v="0.00,"/>
+			<val e="Slider 04 13" v="0.00,"/>
+			<val e="Slider 04 14" v="0.00,"/>
+			<val e="Slider 04 15" v="0.00,"/>
+			<val e="Slider 04 16" v="-13.92,"/>
+			<val e="Slider 04 17" v="-13.92,"/>
+			<val e="Pan 04 21" v="1.00,"/>
+			<val e="Slider 04 68" v="0.00,"/>
+			<val e="Slider 04 69" v="0.00,"/>
+			<val e="Slider 04 70" v="-1.86,"/>
+			<val e="Slider 04 71" v="-1.86,"/>
 			<val e="Slider 04 72" v="0.00,"/>
 			<val e="Slider 04 73" v="0.00,"/>
-			<val e="Slider 04 74" v="0.00,"/>
-			<val e="Slider 04 75" v="0.00,"/>
-			<val e="Slider 04 76" v="0.00,"/>
-			<val e="Slider 04 77" v="0.00,"/>
 			<val e="Slider 04 78" v="0.00,"/>
 			<val e="Slider 04 79" v="0.00,"/>
-			<val e="Pan 04 80" v="-1.00,"/>
 			<val e="Pan 04 81" v="1.00,"/>
-			<val e="Slider 04 82" v="-0.86,"/>
-			<val e="Slider 04 83" v="-0.86,"/>
+			<val e="Slider 04 82" v="0.00,"/>
+			<val e="Slider 04 83" v="0.00,"/>
 			<val e="Pan 04 84" v="-1.00,"/>
-			<val e="Pan 04 85" v="1.00,"/>
-			<val e="Slider 04 136" v="-21.50,"/>
-			<val e="Slider 05 136" v="-21.50,"/>
+			<val e="Slider 04 85" v="-7.64,"/>
+			<val e="Slider 04 136" v="-12.60,"/>
+			<val e="Slider 05 136" v="-12.60,"/>
 			<val e="Slider 06 00" v="0.00,"/>
-			<val e="Slider 06 02" v="-293.98,"/>
-			<val e="Slider 06 03" v="-293.98,"/>
+			<val e="Pan 06 00" v="-1.00,"/>
+			<val e="Pan 06 01" v="1.00,"/>
 			<val e="Slider 06 04" v="-293.98,"/>
 			<val e="Pan 06 04" v="-1.00,"/>
 			<val e="Slider 06 05" v="-293.98,"/>
@@ -6637,17 +6633,15 @@
 			<val e="Slider 06 13" v="-293.98,"/>
 			<val e="Pan 06 13" v="-1.00,"/>
 			<val e="Slider 06 14" v="-293.98,"/>
+			<val e="Pan 06 14" v="-1.00,"/>
 			<val e="Slider 06 15" v="-293.98,"/>
+			<val e="Pan 06 15" v="-1.00,"/>
 			<val e="Slider 06 16" v="-293.98,"/>
+			<val e="Pan 06 16" v="-1.00,"/>
 			<val e="Slider 06 17" v="-293.98,"/>
+			<val e="Pan 06 17" v="-1.00,"/>
 			<val e="Slider 06 18" v="-293.98,"/>
-			<val e="Pan 06 18" v="-1.00,"/>
 			<val e="Slider 06 19" v="-293.98,"/>
-			<val e="Pan 06 19" v="-1.00,"/>
-			<val e="Slider 06 20" v="-293.98,"/>
-			<val e="Pan 06 20" v="-1.00,"/>
-			<val e="Slider 06 21" v="-293.98,"/>
-			<val e="Pan 06 21" v="-1.00,"/>
 			<val e="Slider 06 22" v="-293.98,"/>
 			<val e="Pan 06 22" v="-1.00,"/>
 			<val e="Slider 06 23" v="-293.98,"/>
@@ -6751,7 +6745,9 @@
 			<val e="Pan 06 72" v="-1.00,"/>
 			<val e="Pan 06 73" v="-1.00,"/>
 			<val e="Slider 06 74" v="-293.98,"/>
+			<val e="Pan 06 74" v="-1.00,"/>
 			<val e="Slider 06 75" v="-293.98,"/>
+			<val e="Pan 06 75" v="-1.00,"/>
 			<val e="Slider 06 76" v="-293.98,"/>
 			<val e="Pan 06 76" v="-1.00,"/>
 			<val e="Slider 06 77" v="-293.98,"/>
@@ -6761,7 +6757,9 @@
 			<val e="Slider 06 79" v="-293.98,"/>
 			<val e="Pan 06 79" v="-1.00,"/>
 			<val e="Slider 06 82" v="-293.98,"/>
+			<val e="Pan 06 82" v="-1.00,"/>
 			<val e="Slider 06 83" v="-293.98,"/>
+			<val e="Pan 06 83" v="-1.00,"/>
 			<val e="Slider 06 86" v="-293.98,"/>
 			<val e="Pan 06 86" v="-1.00,"/>
 			<val e="Slider 06 87" v="-293.98,"/>
@@ -6862,10 +6860,8 @@
 			<val e="Pan 06 134" v="-1.00,"/>
 			<val e="Slider 06 135" v="-293.98,"/>
 			<val e="Pan 06 135" v="-1.00,"/>
-			<val e="Slider 06 136" v="0.00,"/>
-			<val e="Slider 07 01" v="-4.00,"/>
-			<val e="Slider 07 02" v="-293.98,"/>
-			<val e="Slider 07 03" v="-293.98,"/>
+			<val e="Slider 06 136" v="-1.50,"/>
+			<val e="Slider 07 01" v="0.00,"/>
 			<val e="Slider 07 04" v="-293.98,"/>
 			<val e="Pan 07 04" v="1.00,"/>
 			<val e="Slider 07 05" v="-293.98,"/>
@@ -6887,17 +6883,15 @@
 			<val e="Slider 07 13" v="-293.98,"/>
 			<val e="Pan 07 13" v="1.00,"/>
 			<val e="Slider 07 14" v="-293.98,"/>
+			<val e="Pan 07 14" v="1.00,"/>
 			<val e="Slider 07 15" v="-293.98,"/>
+			<val e="Pan 07 15" v="1.00,"/>
 			<val e="Slider 07 16" v="-293.98,"/>
+			<val e="Pan 07 16" v="1.00,"/>
 			<val e="Slider 07 17" v="-293.98,"/>
+			<val e="Pan 07 17" v="1.00,"/>
 			<val e="Slider 07 18" v="-293.98,"/>
-			<val e="Pan 07 18" v="1.00,"/>
 			<val e="Slider 07 19" v="-293.98,"/>
-			<val e="Pan 07 19" v="1.00,"/>
-			<val e="Slider 07 20" v="-293.98,"/>
-			<val e="Pan 07 20" v="1.00,"/>
-			<val e="Slider 07 21" v="-293.98,"/>
-			<val e="Pan 07 21" v="1.00,"/>
 			<val e="Slider 07 22" v="-293.98,"/>
 			<val e="Pan 07 22" v="1.00,"/>
 			<val e="Slider 07 23" v="-293.98,"/>
@@ -7001,7 +6995,9 @@
 			<val e="Pan 07 72" v="1.00,"/>
 			<val e="Pan 07 73" v="1.00,"/>
 			<val e="Slider 07 74" v="-293.98,"/>
+			<val e="Pan 07 74" v="1.00,"/>
 			<val e="Slider 07 75" v="-293.98,"/>
+			<val e="Pan 07 75" v="1.00,"/>
 			<val e="Slider 07 76" v="-293.98,"/>
 			<val e="Pan 07 76" v="1.00,"/>
 			<val e="Slider 07 77" v="-293.98,"/>
@@ -7011,7 +7007,9 @@
 			<val e="Slider 07 79" v="-293.98,"/>
 			<val e="Pan 07 79" v="1.00,"/>
 			<val e="Slider 07 82" v="-293.98,"/>
+			<val e="Pan 07 82" v="1.00,"/>
 			<val e="Slider 07 83" v="-293.98,"/>
+			<val e="Pan 07 83" v="1.00,"/>
 			<val e="Slider 07 86" v="-293.98,"/>
 			<val e="Pan 07 86" v="1.00,"/>
 			<val e="Slider 07 87" v="-293.98,"/>
@@ -7112,23 +7110,263 @@
 			<val e="Pan 07 134" v="1.00,"/>
 			<val e="Slider 07 135" v="-293.98,"/>
 			<val e="Pan 07 135" v="1.00,"/>
-			<val e="Slider 07 136" v="0.00,"/>
-			<val e="Slider 08 00" v="-65.00,"/>
-			<val e="Slider 08 01" v="-65.00,"/>
-			<val e="Slider 08 02" v="-0.00,"/>
-			<val e="Slider 08 03" v="-0.00,"/>
-			<val e="Slider 08 80" v="0.00,"/>
+			<val e="Slider 07 136" v="-1.50,"/>
+			<val e="Pan 08 02" v="-1.00,"/>
+			<val e="Pan 08 03" v="1.00,"/>
+			<val e="Slider 08 04" v="-293.98,"/>
+			<val e="Pan 08 04" v="-1.00,"/>
+			<val e="Slider 08 05" v="-293.98,"/>
+			<val e="Pan 08 05" v="-1.00,"/>
+			<val e="Slider 08 06" v="-293.98,"/>
+			<val e="Pan 08 06" v="-1.00,"/>
+			<val e="Slider 08 07" v="-293.98,"/>
+			<val e="Pan 08 07" v="-1.00,"/>
+			<val e="Slider 08 08" v="-293.98,"/>
+			<val e="Pan 08 08" v="-1.00,"/>
+			<val e="Slider 08 09" v="-293.98,"/>
+			<val e="Pan 08 09" v="-1.00,"/>
+			<val e="Slider 08 10" v="-293.98,"/>
+			<val e="Pan 08 10" v="-1.00,"/>
+			<val e="Slider 08 11" v="-293.98,"/>
+			<val e="Pan 08 11" v="-1.00,"/>
+			<val e="Slider 08 12" v="-293.98,"/>
+			<val e="Pan 08 12" v="-1.00,"/>
+			<val e="Slider 08 13" v="-293.98,"/>
+			<val e="Pan 08 13" v="-1.00,"/>
+			<val e="Slider 08 14" v="-293.98,"/>
+			<val e="Pan 08 14" v="-1.00,"/>
+			<val e="Slider 08 15" v="-293.98,"/>
+			<val e="Pan 08 15" v="-1.00,"/>
+			<val e="Slider 08 16" v="-293.98,"/>
+			<val e="Pan 08 16" v="-1.00,"/>
+			<val e="Slider 08 17" v="-293.98,"/>
+			<val e="Pan 08 17" v="-1.00,"/>
+			<val e="Slider 08 18" v="-293.98,"/>
+			<val e="Slider 08 19" v="-293.98,"/>
+			<val e="Slider 08 22" v="-293.98,"/>
+			<val e="Pan 08 22" v="-1.00,"/>
+			<val e="Slider 08 23" v="-293.98,"/>
+			<val e="Pan 08 23" v="-1.00,"/>
+			<val e="Slider 08 24" v="-293.98,"/>
+			<val e="Pan 08 24" v="-1.00,"/>
+			<val e="Slider 08 25" v="-293.98,"/>
+			<val e="Pan 08 25" v="-1.00,"/>
+			<val e="Slider 08 26" v="-293.98,"/>
+			<val e="Pan 08 26" v="-1.00,"/>
+			<val e="Slider 08 27" v="-293.98,"/>
+			<val e="Pan 08 27" v="-1.00,"/>
+			<val e="Slider 08 28" v="-293.98,"/>
+			<val e="Pan 08 28" v="-1.00,"/>
+			<val e="Slider 08 29" v="-293.98,"/>
+			<val e="Pan 08 29" v="-1.00,"/>
+			<val e="Slider 08 30" v="-293.98,"/>
+			<val e="Pan 08 30" v="-1.00,"/>
+			<val e="Slider 08 31" v="-293.98,"/>
+			<val e="Pan 08 31" v="-1.00,"/>
+			<val e="Slider 08 32" v="-293.98,"/>
+			<val e="Pan 08 32" v="-1.00,"/>
+			<val e="Slider 08 33" v="-293.98,"/>
+			<val e="Pan 08 33" v="-1.00,"/>
+			<val e="Slider 08 34" v="-293.98,"/>
+			<val e="Pan 08 34" v="-1.00,"/>
+			<val e="Slider 08 35" v="-293.98,"/>
+			<val e="Pan 08 35" v="-1.00,"/>
+			<val e="Slider 08 36" v="-293.98,"/>
+			<val e="Pan 08 36" v="-1.00,"/>
+			<val e="Slider 08 37" v="-293.98,"/>
+			<val e="Pan 08 37" v="-1.00,"/>
+			<val e="Slider 08 38" v="-293.98,"/>
+			<val e="Pan 08 38" v="-1.00,"/>
+			<val e="Slider 08 39" v="-293.98,"/>
+			<val e="Pan 08 39" v="-1.00,"/>
+			<val e="Slider 08 40" v="-293.98,"/>
+			<val e="Pan 08 40" v="-1.00,"/>
+			<val e="Slider 08 41" v="-293.98,"/>
+			<val e="Pan 08 41" v="-1.00,"/>
+			<val e="Slider 08 42" v="-293.98,"/>
+			<val e="Pan 08 42" v="-1.00,"/>
+			<val e="Slider 08 43" v="-293.98,"/>
+			<val e="Pan 08 43" v="-1.00,"/>
+			<val e="Slider 08 44" v="-293.98,"/>
+			<val e="Pan 08 44" v="-1.00,"/>
+			<val e="Slider 08 45" v="-293.98,"/>
+			<val e="Pan 08 45" v="-1.00,"/>
+			<val e="Slider 08 46" v="-293.98,"/>
+			<val e="Pan 08 46" v="-1.00,"/>
+			<val e="Slider 08 47" v="-293.98,"/>
+			<val e="Pan 08 47" v="-1.00,"/>
+			<val e="Slider 08 48" v="-293.98,"/>
+			<val e="Pan 08 48" v="-1.00,"/>
+			<val e="Slider 08 49" v="-293.98,"/>
+			<val e="Pan 08 49" v="-1.00,"/>
+			<val e="Slider 08 50" v="-293.98,"/>
+			<val e="Pan 08 50" v="-1.00,"/>
+			<val e="Slider 08 51" v="-293.98,"/>
+			<val e="Pan 08 51" v="-1.00,"/>
+			<val e="Slider 08 52" v="-293.98,"/>
+			<val e="Pan 08 52" v="-1.00,"/>
+			<val e="Slider 08 53" v="-293.98,"/>
+			<val e="Pan 08 53" v="-1.00,"/>
+			<val e="Slider 08 54" v="-293.98,"/>
+			<val e="Pan 08 54" v="-1.00,"/>
+			<val e="Slider 08 55" v="-293.98,"/>
+			<val e="Pan 08 55" v="-1.00,"/>
+			<val e="Slider 08 56" v="-293.98,"/>
+			<val e="Pan 08 56" v="-1.00,"/>
+			<val e="Slider 08 57" v="-293.98,"/>
+			<val e="Pan 08 57" v="-1.00,"/>
+			<val e="Slider 08 58" v="-293.98,"/>
+			<val e="Pan 08 58" v="-1.00,"/>
+			<val e="Slider 08 59" v="-293.98,"/>
+			<val e="Pan 08 59" v="-1.00,"/>
+			<val e="Slider 08 60" v="-293.98,"/>
+			<val e="Pan 08 60" v="-1.00,"/>
+			<val e="Slider 08 61" v="-293.98,"/>
+			<val e="Pan 08 61" v="-1.00,"/>
+			<val e="Slider 08 62" v="-293.98,"/>
+			<val e="Pan 08 62" v="-1.00,"/>
+			<val e="Slider 08 63" v="-293.98,"/>
+			<val e="Pan 08 63" v="-1.00,"/>
+			<val e="Slider 08 64" v="-293.98,"/>
+			<val e="Pan 08 64" v="-1.00,"/>
+			<val e="Slider 08 65" v="-293.98,"/>
+			<val e="Pan 08 65" v="-1.00,"/>
+			<val e="Slider 08 66" v="-293.98,"/>
+			<val e="Pan 08 66" v="-1.00,"/>
+			<val e="Slider 08 67" v="-293.98,"/>
+			<val e="Pan 08 67" v="-1.00,"/>
+			<val e="Slider 08 68" v="-293.98,"/>
+			<val e="Pan 08 68" v="-1.00,"/>
+			<val e="Slider 08 69" v="-293.98,"/>
+			<val e="Pan 08 69" v="-1.00,"/>
+			<val e="Slider 08 70" v="-293.98,"/>
+			<val e="Pan 08 70" v="-1.00,"/>
+			<val e="Slider 08 71" v="-293.98,"/>
+			<val e="Pan 08 71" v="-1.00,"/>
+			<val e="Slider 08 72" v="-293.98,"/>
+			<val e="Pan 08 72" v="-1.00,"/>
+			<val e="Slider 08 73" v="-293.98,"/>
+			<val e="Pan 08 73" v="-1.00,"/>
+			<val e="Slider 08 74" v="-293.98,"/>
+			<val e="Pan 08 74" v="-1.00,"/>
+			<val e="Slider 08 75" v="-293.98,"/>
+			<val e="Pan 08 75" v="-1.00,"/>
+			<val e="Slider 08 76" v="-293.98,"/>
+			<val e="Pan 08 76" v="-1.00,"/>
+			<val e="Slider 08 77" v="-293.98,"/>
+			<val e="Pan 08 77" v="-1.00,"/>
+			<val e="Slider 08 78" v="-293.98,"/>
+			<val e="Pan 08 78" v="-1.00,"/>
+			<val e="Slider 08 79" v="-293.98,"/>
+			<val e="Pan 08 79" v="-1.00,"/>
 			<val e="Pan 08 80" v="-1.00,"/>
-			<val e="Slider 08 81" v="0.00,"/>
 			<val e="Pan 08 81" v="1.00,"/>
-			<val e="Slider 08 84" v="-65.00,"/>
+			<val e="Slider 08 82" v="-293.98,"/>
+			<val e="Pan 08 82" v="-1.00,"/>
+			<val e="Slider 08 83" v="-293.98,"/>
+			<val e="Pan 08 83" v="-1.00,"/>
 			<val e="Pan 08 84" v="-1.00,"/>
-			<val e="Slider 08 85" v="-65.00,"/>
 			<val e="Pan 08 85" v="1.00,"/>
+			<val e="Slider 08 86" v="-293.98,"/>
+			<val e="Pan 08 86" v="-1.00,"/>
+			<val e="Slider 08 87" v="-293.98,"/>
+			<val e="Pan 08 87" v="-1.00,"/>
+			<val e="Slider 08 88" v="-293.98,"/>
+			<val e="Pan 08 88" v="-1.00,"/>
+			<val e="Slider 08 89" v="-293.98,"/>
+			<val e="Pan 08 89" v="-1.00,"/>
+			<val e="Slider 08 90" v="-293.98,"/>
+			<val e="Pan 08 90" v="-1.00,"/>
+			<val e="Slider 08 91" v="-293.98,"/>
+			<val e="Pan 08 91" v="-1.00,"/>
+			<val e="Slider 08 92" v="-293.98,"/>
+			<val e="Pan 08 92" v="-1.00,"/>
+			<val e="Slider 08 93" v="-293.98,"/>
+			<val e="Pan 08 93" v="-1.00,"/>
+			<val e="Slider 08 94" v="-293.98,"/>
+			<val e="Pan 08 94" v="-1.00,"/>
+			<val e="Slider 08 95" v="-293.98,"/>
+			<val e="Pan 08 95" v="-1.00,"/>
+			<val e="Slider 08 96" v="-293.98,"/>
+			<val e="Slider 08 97" v="-293.98,"/>
+			<val e="Slider 08 98" v="-293.98,"/>
+			<val e="Pan 08 98" v="-1.00,"/>
+			<val e="Slider 08 99" v="-293.98,"/>
+			<val e="Pan 08 99" v="-1.00,"/>
+			<val e="Slider 08 100" v="-293.98,"/>
+			<val e="Pan 08 100" v="-1.00,"/>
+			<val e="Slider 08 101" v="-293.98,"/>
+			<val e="Pan 08 101" v="-1.00,"/>
+			<val e="Slider 08 102" v="-293.98,"/>
+			<val e="Pan 08 102" v="-1.00,"/>
+			<val e="Slider 08 103" v="-293.98,"/>
+			<val e="Pan 08 103" v="-1.00,"/>
+			<val e="Slider 08 104" v="-293.98,"/>
+			<val e="Pan 08 104" v="-1.00,"/>
+			<val e="Slider 08 105" v="-293.98,"/>
+			<val e="Pan 08 105" v="-1.00,"/>
+			<val e="Slider 08 106" v="-293.98,"/>
+			<val e="Pan 08 106" v="-1.00,"/>
+			<val e="Slider 08 107" v="-293.98,"/>
+			<val e="Pan 08 107" v="-1.00,"/>
+			<val e="Slider 08 108" v="-293.98,"/>
+			<val e="Pan 08 108" v="-1.00,"/>
+			<val e="Slider 08 109" v="-293.98,"/>
+			<val e="Pan 08 109" v="-1.00,"/>
+			<val e="Slider 08 110" v="-293.98,"/>
+			<val e="Pan 08 110" v="-1.00,"/>
+			<val e="Slider 08 111" v="-293.98,"/>
+			<val e="Pan 08 111" v="-1.00,"/>
+			<val e="Slider 08 112" v="-293.98,"/>
+			<val e="Pan 08 112" v="-1.00,"/>
+			<val e="Slider 08 113" v="-293.98,"/>
+			<val e="Pan 08 113" v="-1.00,"/>
+			<val e="Slider 08 114" v="-293.98,"/>
+			<val e="Pan 08 114" v="-1.00,"/>
+			<val e="Slider 08 115" v="-293.98,"/>
+			<val e="Pan 08 115" v="-1.00,"/>
+			<val e="Slider 08 116" v="-293.98,"/>
+			<val e="Pan 08 116" v="-1.00,"/>
+			<val e="Slider 08 117" v="-293.98,"/>
+			<val e="Pan 08 117" v="-1.00,"/>
+			<val e="Slider 08 118" v="-293.98,"/>
+			<val e="Pan 08 118" v="-1.00,"/>
+			<val e="Slider 08 119" v="-293.98,"/>
+			<val e="Pan 08 119" v="-1.00,"/>
+			<val e="Slider 08 120" v="-293.98,"/>
+			<val e="Pan 08 120" v="-1.00,"/>
+			<val e="Slider 08 121" v="-293.98,"/>
+			<val e="Pan 08 121" v="-1.00,"/>
+			<val e="Slider 08 122" v="-293.98,"/>
+			<val e="Pan 08 122" v="-1.00,"/>
+			<val e="Slider 08 123" v="-293.98,"/>
+			<val e="Pan 08 123" v="-1.00,"/>
+			<val e="Slider 08 124" v="-293.98,"/>
+			<val e="Pan 08 124" v="-1.00,"/>
+			<val e="Slider 08 125" v="-293.98,"/>
+			<val e="Pan 08 125" v="-1.00,"/>
+			<val e="Slider 08 126" v="-293.98,"/>
+			<val e="Pan 08 126" v="-1.00,"/>
+			<val e="Slider 08 127" v="-293.98,"/>
+			<val e="Pan 08 127" v="-1.00,"/>
+			<val e="Slider 08 128" v="-293.98,"/>
+			<val e="Pan 08 128" v="-1.00,"/>
+			<val e="Slider 08 129" v="-293.98,"/>
+			<val e="Pan 08 129" v="-1.00,"/>
+			<val e="Slider 08 130" v="-293.98,"/>
+			<val e="Pan 08 130" v="-1.00,"/>
+			<val e="Slider 08 131" v="-293.98,"/>
+			<val e="Pan 08 131" v="-1.00,"/>
+			<val e="Slider 08 132" v="-293.98,"/>
+			<val e="Pan 08 132" v="-1.00,"/>
+			<val e="Slider 08 133" v="-293.98,"/>
+			<val e="Pan 08 133" v="-1.00,"/>
+			<val e="Slider 08 134" v="-293.98,"/>
+			<val e="Pan 08 134" v="-1.00,"/>
+			<val e="Slider 08 135" v="-293.98,"/>
+			<val e="Pan 08 135" v="-1.00,"/>
 			<val e="Slider 08 136" v="0.00,"/>
-			<val e="Slider 09 02" v="6.02,"/>
 			<val e="Pan 09 02" v="1.00,"/>
-			<val e="Slider 09 03" v="6.02,"/>
 			<val e="Pan 09 03" v="1.00,"/>
 			<val e="Slider 09 04" v="-293.98,"/>
 			<val e="Pan 09 04" v="1.00,"/>
@@ -7159,13 +7397,7 @@
 			<val e="Slider 09 17" v="-293.98,"/>
 			<val e="Pan 09 17" v="1.00,"/>
 			<val e="Slider 09 18" v="-293.98,"/>
-			<val e="Pan 09 18" v="1.00,"/>
 			<val e="Slider 09 19" v="-293.98,"/>
-			<val e="Pan 09 19" v="1.00,"/>
-			<val e="Slider 09 20" v="-293.98,"/>
-			<val e="Pan 09 20" v="1.00,"/>
-			<val e="Slider 09 21" v="-293.98,"/>
-			<val e="Pan 09 21" v="1.00,"/>
 			<val e="Slider 09 22" v="-293.98,"/>
 			<val e="Pan 09 22" v="1.00,"/>
 			<val e="Slider 09 23" v="-293.98,"/>
@@ -7282,7 +7514,6 @@
 			<val e="Pan 09 78" v="1.00,"/>
 			<val e="Slider 09 79" v="-293.98,"/>
 			<val e="Pan 09 79" v="1.00,"/>
-			<val e="Slider 09 81" v="0.00,"/>
 			<val e="Slider 09 82" v="-293.98,"/>
 			<val e="Pan 09 82" v="1.00,"/>
 			<val e="Slider 09 83" v="-293.98,"/>
@@ -7308,9 +7539,7 @@
 			<val e="Slider 09 95" v="-293.98,"/>
 			<val e="Pan 09 95" v="1.00,"/>
 			<val e="Slider 09 96" v="-293.98,"/>
-			<val e="Pan 09 96" v="1.00,"/>
 			<val e="Slider 09 97" v="-293.98,"/>
-			<val e="Pan 09 97" v="1.00,"/>
 			<val e="Slider 09 98" v="-293.98,"/>
 			<val e="Pan 09 98" v="1.00,"/>
 			<val e="Slider 09 99" v="-293.98,"/>
@@ -7388,6 +7617,10 @@
 			<val e="Slider 09 135" v="-293.98,"/>
 			<val e="Pan 09 135" v="1.00,"/>
 			<val e="Slider 09 136" v="0.00,"/>
+			<val e="Pan 10 02" v="-1.00,"/>
+			<val e="Pan 10 03" v="1.00,"/>
+			<val e="Pan 10 20" v="-1.00,"/>
+			<val e="Pan 10 21" v="1.00,"/>
 			<val e="Pan 10 80" v="-1.00,"/>
 			<val e="Pan 10 81" v="1.00,"/>
 			<val e="Pan 10 84" v="-1.00,"/>
@@ -7395,8 +7628,6 @@
 			<val e="Slider 10 136" v="0.00,"/>
 			<val e="Slider 11 136" v="0.00,"/>
 			<val e="Slider 12 00" v="0.00,"/>
-			<val e="Slider 12 02" v="-293.98,"/>
-			<val e="Slider 12 03" v="-293.98,"/>
 			<val e="Slider 12 04" v="-293.98,"/>
 			<val e="Pan 12 04" v="-1.00,"/>
 			<val e="Slider 12 05" v="-293.98,"/>
@@ -7422,13 +7653,7 @@
 			<val e="Slider 12 16" v="-293.98,"/>
 			<val e="Slider 12 17" v="-293.98,"/>
 			<val e="Slider 12 18" v="-293.98,"/>
-			<val e="Pan 12 18" v="-1.00,"/>
 			<val e="Slider 12 19" v="-293.98,"/>
-			<val e="Pan 12 19" v="-1.00,"/>
-			<val e="Slider 12 20" v="-293.98,"/>
-			<val e="Pan 12 20" v="-1.00,"/>
-			<val e="Slider 12 21" v="-293.98,"/>
-			<val e="Pan 12 21" v="-1.00,"/>
 			<val e="Slider 12 22" v="-293.98,"/>
 			<val e="Pan 12 22" v="-1.00,"/>
 			<val e="Slider 12 23" v="-293.98,"/>
@@ -7562,9 +7787,7 @@
 			<val e="Slider 12 95" v="-293.98,"/>
 			<val e="Pan 12 95" v="-1.00,"/>
 			<val e="Slider 12 96" v="-293.98,"/>
-			<val e="Pan 12 96" v="-1.00,"/>
 			<val e="Slider 12 97" v="-293.98,"/>
-			<val e="Pan 12 97" v="-1.00,"/>
 			<val e="Slider 12 98" v="-293.98,"/>
 			<val e="Pan 12 98" v="-1.00,"/>
 			<val e="Slider 12 99" v="-293.98,"/>
@@ -7643,8 +7866,6 @@
 			<val e="Pan 12 135" v="-1.00,"/>
 			<val e="Slider 12 136" v="0.00,"/>
 			<val e="Slider 13 01" v="0.00,"/>
-			<val e="Slider 13 02" v="-293.98,"/>
-			<val e="Slider 13 03" v="-293.98,"/>
 			<val e="Slider 13 04" v="-293.98,"/>
 			<val e="Pan 13 04" v="1.00,"/>
 			<val e="Slider 13 05" v="-293.98,"/>
@@ -7670,13 +7891,7 @@
 			<val e="Slider 13 16" v="-293.98,"/>
 			<val e="Slider 13 17" v="-293.98,"/>
 			<val e="Slider 13 18" v="-293.98,"/>
-			<val e="Pan 13 18" v="1.00,"/>
 			<val e="Slider 13 19" v="-293.98,"/>
-			<val e="Pan 13 19" v="1.00,"/>
-			<val e="Slider 13 20" v="-293.98,"/>
-			<val e="Pan 13 20" v="1.00,"/>
-			<val e="Slider 13 21" v="-293.98,"/>
-			<val e="Pan 13 21" v="1.00,"/>
 			<val e="Slider 13 22" v="-293.98,"/>
 			<val e="Pan 13 22" v="1.00,"/>
 			<val e="Slider 13 23" v="-293.98,"/>
@@ -7810,9 +8025,7 @@
 			<val e="Slider 13 95" v="-293.98,"/>
 			<val e="Pan 13 95" v="1.00,"/>
 			<val e="Slider 13 96" v="-293.98,"/>
-			<val e="Pan 13 96" v="1.00,"/>
 			<val e="Slider 13 97" v="-293.98,"/>
-			<val e="Pan 13 97" v="1.00,"/>
 			<val e="Slider 13 98" v="-293.98,"/>
 			<val e="Pan 13 98" v="1.00,"/>
 			<val e="Slider 13 99" v="-293.98,"/>
@@ -7890,22 +8103,32 @@
 			<val e="Slider 13 135" v="-293.98,"/>
 			<val e="Pan 13 135" v="1.00,"/>
 			<val e="Slider 13 136" v="0.00,"/>
+			<val e="Pan 14 02" v="-1.00,"/>
+			<val e="Pan 14 03" v="1.00,"/>
+			<val e="Pan 14 20" v="-1.00,"/>
+			<val e="Pan 14 21" v="1.00,"/>
+			<val e="Slider 14 78" v="0.00,"/>
+			<val e="Slider 14 79" v="0.00,"/>
 			<val e="Pan 14 80" v="-1.00,"/>
 			<val e="Pan 14 81" v="1.00,"/>
+			<val e="Slider 14 82" v="0.00,"/>
+			<val e="Slider 14 83" v="0.00,"/>
 			<val e="Pan 14 84" v="-1.00,"/>
-			<val e="Pan 14 85" v="1.00,"/>
-			<val e="Slider 14 136" v="0.00,"/>
-			<val e="Slider 15 136" v="0.00,"/>
+			<val e="Slider 14 85" v="2.57,"/>
+			<val e="Slider 14 136" v="-11.84,"/>
+			<val e="Slider 15 136" v="-11.84,"/>
+			<val e="Pan 16 02" v="-1.00,"/>
+			<val e="Pan 16 03" v="1.00,"/>
+			<val e="Pan 16 20" v="-1.00,"/>
+			<val e="Pan 16 21" v="1.00,"/>
+			<val e="Slider 16 74" v="0.00,"/>
+			<val e="Slider 16 75" v="0.00,"/>
 			<val e="Pan 16 80" v="-1.00,"/>
 			<val e="Pan 16 81" v="1.00,"/>
 			<val e="Pan 16 84" v="-1.00,"/>
 			<val e="Pan 16 85" v="1.00,"/>
 			<val e="Slider 16 136" v="0.00,"/>
 			<val e="Slider 17 136" v="0.00,"/>
-			<val e="Slider 18 02" v="-293.98,"/>
-			<val e="Pan 18 02" v="-1.00,"/>
-			<val e="Slider 18 03" v="-293.98,"/>
-			<val e="Pan 18 03" v="-1.00,"/>
 			<val e="Slider 18 04" v="-293.98,"/>
 			<val e="Pan 18 04" v="-1.00,"/>
 			<val e="Slider 18 05" v="-293.98,"/>
@@ -7933,13 +8156,7 @@
 			<val e="Slider 18 16" v="-293.98,"/>
 			<val e="Slider 18 17" v="-293.98,"/>
 			<val e="Slider 18 18" v="-293.98,"/>
-			<val e="Pan 18 18" v="-1.00,"/>
 			<val e="Slider 18 19" v="-293.98,"/>
-			<val e="Pan 18 19" v="-1.00,"/>
-			<val e="Slider 18 20" v="-293.98,"/>
-			<val e="Pan 18 20" v="-1.00,"/>
-			<val e="Slider 18 21" v="-293.98,"/>
-			<val e="Pan 18 21" v="-1.00,"/>
 			<val e="Slider 18 22" v="-293.98,"/>
 			<val e="Pan 18 22" v="-1.00,"/>
 			<val e="Slider 18 23" v="-293.98,"/>
@@ -8086,9 +8303,7 @@
 			<val e="Slider 18 95" v="-293.98,"/>
 			<val e="Pan 18 95" v="-1.00,"/>
 			<val e="Slider 18 96" v="-293.98,"/>
-			<val e="Pan 18 96" v="-1.00,"/>
 			<val e="Slider 18 97" v="-293.98,"/>
-			<val e="Pan 18 97" v="-1.00,"/>
 			<val e="Slider 18 98" v="-293.98,"/>
 			<val e="Pan 18 98" v="-1.00,"/>
 			<val e="Slider 18 99" v="-293.98,"/>
@@ -8166,10 +8381,6 @@
 			<val e="Slider 18 135" v="-293.98,"/>
 			<val e="Pan 18 135" v="-1.00,"/>
 			<val e="Slider 18 136" v="0.00,"/>
-			<val e="Slider 19 02" v="-293.98,"/>
-			<val e="Pan 19 02" v="1.00,"/>
-			<val e="Slider 19 03" v="-293.98,"/>
-			<val e="Pan 19 03" v="1.00,"/>
 			<val e="Slider 19 04" v="-293.98,"/>
 			<val e="Pan 19 04" v="1.00,"/>
 			<val e="Slider 19 05" v="-293.98,"/>
@@ -8197,13 +8408,7 @@
 			<val e="Slider 19 16" v="-293.98,"/>
 			<val e="Slider 19 17" v="-293.98,"/>
 			<val e="Slider 19 18" v="-293.98,"/>
-			<val e="Pan 19 18" v="1.00,"/>
 			<val e="Slider 19 19" v="-293.98,"/>
-			<val e="Pan 19 19" v="1.00,"/>
-			<val e="Slider 19 20" v="-293.98,"/>
-			<val e="Pan 19 20" v="1.00,"/>
-			<val e="Slider 19 21" v="-293.98,"/>
-			<val e="Pan 19 21" v="1.00,"/>
 			<val e="Slider 19 22" v="-293.98,"/>
 			<val e="Pan 19 22" v="1.00,"/>
 			<val e="Slider 19 23" v="-293.98,"/>
@@ -8345,9 +8550,7 @@
 			<val e="Slider 19 95" v="-293.98,"/>
 			<val e="Pan 19 95" v="1.00,"/>
 			<val e="Slider 19 96" v="-293.98,"/>
-			<val e="Pan 19 96" v="1.00,"/>
 			<val e="Slider 19 97" v="-293.98,"/>
-			<val e="Pan 19 97" v="1.00,"/>
 			<val e="Slider 19 98" v="-293.98,"/>
 			<val e="Pan 19 98" v="1.00,"/>
 			<val e="Slider 19 99" v="-293.98,"/>
@@ -8425,24 +8628,292 @@
 			<val e="Slider 19 135" v="-293.98,"/>
 			<val e="Pan 19 135" v="1.00,"/>
 			<val e="Slider 19 136" v="0.00,"/>
+			<val e="Slider 20 00" v="-65.00,"/>
+			<val e="Slider 20 01" v="-65.00,"/>
+			<val e="Slider 20 02" v="-65.00,"/>
+			<val e="Pan 20 02" v="-1.00,"/>
+			<val e="Slider 20 03" v="-65.00,"/>
+			<val e="Pan 20 03" v="1.00,"/>
+			<val e="Slider 20 08" v="-0.00,"/>
+			<val e="Slider 20 09" v="-0.00,"/>
+			<val e="Slider 20 20" v="-65.00,"/>
+			<val e="Pan 20 20" v="-1.00,"/>
+			<val e="Slider 20 21" v="-65.00,"/>
+			<val e="Pan 20 21" v="1.00,"/>
+			<val e="Slider 20 74" v="-7.25,"/>
+			<val e="Slider 20 75" v="-7.25,"/>
+			<val e="Slider 20 80" v="-65.00,"/>
 			<val e="Pan 20 80" v="-1.00,"/>
+			<val e="Slider 20 81" v="-65.00,"/>
 			<val e="Pan 20 81" v="1.00,"/>
+			<val e="Slider 20 82" v="-14.76,"/>
+			<val e="Slider 20 83" v="-14.76,"/>
+			<val e="Slider 20 84" v="-65.00,"/>
 			<val e="Pan 20 84" v="-1.00,"/>
+			<val e="Slider 20 85" v="-65.00,"/>
 			<val e="Pan 20 85" v="1.00,"/>
-			<val e="Slider 20 86" v="0.00,"/>
-			<val e="Slider 20 87" v="0.00,"/>
 			<val e="Slider 20 136" v="0.00,"/>
+			<val e="Slider 21 04" v="-293.98,"/>
+			<val e="Pan 21 04" v="1.00,"/>
+			<val e="Slider 21 05" v="-293.98,"/>
+			<val e="Pan 21 05" v="1.00,"/>
+			<val e="Slider 21 06" v="-293.98,"/>
+			<val e="Pan 21 06" v="1.00,"/>
+			<val e="Slider 21 07" v="-293.98,"/>
+			<val e="Pan 21 07" v="1.00,"/>
+			<val e="Slider 21 08" v="6.02,"/>
+			<val e="Pan 21 08" v="1.00,"/>
+			<val e="Slider 21 09" v="6.02,"/>
+			<val e="Pan 21 09" v="1.00,"/>
+			<val e="Slider 21 10" v="-293.98,"/>
+			<val e="Pan 21 10" v="1.00,"/>
+			<val e="Slider 21 11" v="-293.98,"/>
+			<val e="Pan 21 11" v="1.00,"/>
+			<val e="Slider 21 12" v="-293.98,"/>
+			<val e="Pan 21 12" v="1.00,"/>
+			<val e="Slider 21 13" v="-293.98,"/>
+			<val e="Pan 21 13" v="1.00,"/>
+			<val e="Slider 21 14" v="-293.98,"/>
+			<val e="Pan 21 14" v="1.00,"/>
+			<val e="Slider 21 15" v="-293.98,"/>
+			<val e="Pan 21 15" v="1.00,"/>
+			<val e="Slider 21 16" v="-293.98,"/>
+			<val e="Pan 21 16" v="1.00,"/>
+			<val e="Slider 21 17" v="-293.98,"/>
+			<val e="Pan 21 17" v="1.00,"/>
+			<val e="Slider 21 22" v="-293.98,"/>
+			<val e="Pan 21 22" v="1.00,"/>
+			<val e="Slider 21 23" v="-293.98,"/>
+			<val e="Pan 21 23" v="1.00,"/>
+			<val e="Slider 21 24" v="-293.98,"/>
+			<val e="Pan 21 24" v="1.00,"/>
+			<val e="Slider 21 25" v="-293.98,"/>
+			<val e="Pan 21 25" v="1.00,"/>
+			<val e="Slider 21 26" v="-293.98,"/>
+			<val e="Pan 21 26" v="1.00,"/>
+			<val e="Slider 21 27" v="-293.98,"/>
+			<val e="Pan 21 27" v="1.00,"/>
+			<val e="Slider 21 28" v="-293.98,"/>
+			<val e="Pan 21 28" v="1.00,"/>
+			<val e="Slider 21 29" v="-293.98,"/>
+			<val e="Pan 21 29" v="1.00,"/>
+			<val e="Slider 21 30" v="-293.98,"/>
+			<val e="Pan 21 30" v="1.00,"/>
+			<val e="Slider 21 31" v="-293.98,"/>
+			<val e="Pan 21 31" v="1.00,"/>
+			<val e="Slider 21 32" v="-293.98,"/>
+			<val e="Pan 21 32" v="1.00,"/>
+			<val e="Slider 21 33" v="-293.98,"/>
+			<val e="Pan 21 33" v="1.00,"/>
+			<val e="Slider 21 34" v="-293.98,"/>
+			<val e="Pan 21 34" v="1.00,"/>
+			<val e="Slider 21 35" v="-293.98,"/>
+			<val e="Pan 21 35" v="1.00,"/>
+			<val e="Slider 21 36" v="-293.98,"/>
+			<val e="Pan 21 36" v="1.00,"/>
+			<val e="Slider 21 37" v="-293.98,"/>
+			<val e="Pan 21 37" v="1.00,"/>
+			<val e="Slider 21 38" v="-293.98,"/>
+			<val e="Pan 21 38" v="1.00,"/>
+			<val e="Slider 21 39" v="-293.98,"/>
+			<val e="Pan 21 39" v="1.00,"/>
+			<val e="Slider 21 40" v="-293.98,"/>
+			<val e="Pan 21 40" v="1.00,"/>
+			<val e="Slider 21 41" v="-293.98,"/>
+			<val e="Pan 21 41" v="1.00,"/>
+			<val e="Slider 21 42" v="-293.98,"/>
+			<val e="Pan 21 42" v="1.00,"/>
+			<val e="Slider 21 43" v="-293.98,"/>
+			<val e="Pan 21 43" v="1.00,"/>
+			<val e="Slider 21 44" v="-293.98,"/>
+			<val e="Pan 21 44" v="1.00,"/>
+			<val e="Slider 21 45" v="-293.98,"/>
+			<val e="Pan 21 45" v="1.00,"/>
+			<val e="Slider 21 46" v="-293.98,"/>
+			<val e="Pan 21 46" v="1.00,"/>
+			<val e="Slider 21 47" v="-293.98,"/>
+			<val e="Pan 21 47" v="1.00,"/>
+			<val e="Slider 21 48" v="-293.98,"/>
+			<val e="Pan 21 48" v="1.00,"/>
+			<val e="Slider 21 49" v="-293.98,"/>
+			<val e="Pan 21 49" v="1.00,"/>
+			<val e="Slider 21 50" v="-293.98,"/>
+			<val e="Pan 21 50" v="1.00,"/>
+			<val e="Slider 21 51" v="-293.98,"/>
+			<val e="Pan 21 51" v="1.00,"/>
+			<val e="Slider 21 52" v="-293.98,"/>
+			<val e="Pan 21 52" v="1.00,"/>
+			<val e="Slider 21 53" v="-293.98,"/>
+			<val e="Pan 21 53" v="1.00,"/>
+			<val e="Slider 21 54" v="-293.98,"/>
+			<val e="Pan 21 54" v="1.00,"/>
+			<val e="Slider 21 55" v="-293.98,"/>
+			<val e="Pan 21 55" v="1.00,"/>
+			<val e="Slider 21 56" v="-293.98,"/>
+			<val e="Pan 21 56" v="1.00,"/>
+			<val e="Slider 21 57" v="-293.98,"/>
+			<val e="Pan 21 57" v="1.00,"/>
+			<val e="Slider 21 58" v="-293.98,"/>
+			<val e="Pan 21 58" v="1.00,"/>
+			<val e="Slider 21 59" v="-293.98,"/>
+			<val e="Pan 21 59" v="1.00,"/>
+			<val e="Slider 21 60" v="-293.98,"/>
+			<val e="Pan 21 60" v="1.00,"/>
+			<val e="Slider 21 61" v="-293.98,"/>
+			<val e="Pan 21 61" v="1.00,"/>
+			<val e="Slider 21 62" v="-293.98,"/>
+			<val e="Pan 21 62" v="1.00,"/>
+			<val e="Slider 21 63" v="-293.98,"/>
+			<val e="Pan 21 63" v="1.00,"/>
+			<val e="Slider 21 64" v="-293.98,"/>
+			<val e="Pan 21 64" v="1.00,"/>
+			<val e="Slider 21 65" v="-293.98,"/>
+			<val e="Pan 21 65" v="1.00,"/>
+			<val e="Slider 21 66" v="-293.98,"/>
+			<val e="Pan 21 66" v="1.00,"/>
+			<val e="Slider 21 67" v="-293.98,"/>
+			<val e="Pan 21 67" v="1.00,"/>
+			<val e="Slider 21 68" v="-293.98,"/>
+			<val e="Pan 21 68" v="1.00,"/>
+			<val e="Slider 21 69" v="-293.98,"/>
+			<val e="Pan 21 69" v="1.00,"/>
+			<val e="Slider 21 70" v="-293.98,"/>
+			<val e="Pan 21 70" v="1.00,"/>
+			<val e="Slider 21 71" v="-293.98,"/>
+			<val e="Pan 21 71" v="1.00,"/>
+			<val e="Slider 21 72" v="-293.98,"/>
+			<val e="Pan 21 72" v="1.00,"/>
+			<val e="Slider 21 73" v="-293.98,"/>
+			<val e="Pan 21 73" v="1.00,"/>
+			<val e="Slider 21 74" v="-1.23,"/>
+			<val e="Pan 21 74" v="1.00,"/>
+			<val e="Slider 21 75" v="-1.23,"/>
+			<val e="Pan 21 75" v="1.00,"/>
+			<val e="Slider 21 76" v="-293.98,"/>
+			<val e="Pan 21 76" v="1.00,"/>
+			<val e="Slider 21 77" v="-293.98,"/>
+			<val e="Pan 21 77" v="1.00,"/>
+			<val e="Slider 21 78" v="-293.98,"/>
+			<val e="Pan 21 78" v="1.00,"/>
+			<val e="Slider 21 79" v="-293.98,"/>
+			<val e="Pan 21 79" v="1.00,"/>
+			<val e="Slider 21 82" v="-8.74,"/>
+			<val e="Pan 21 82" v="1.00,"/>
+			<val e="Slider 21 83" v="-8.74,"/>
+			<val e="Pan 21 83" v="1.00,"/>
+			<val e="Slider 21 86" v="-293.98,"/>
+			<val e="Pan 21 86" v="1.00,"/>
+			<val e="Slider 21 87" v="-293.98,"/>
+			<val e="Pan 21 87" v="1.00,"/>
+			<val e="Slider 21 88" v="-293.98,"/>
+			<val e="Pan 21 88" v="1.00,"/>
+			<val e="Slider 21 89" v="-293.98,"/>
+			<val e="Pan 21 89" v="1.00,"/>
+			<val e="Slider 21 90" v="-293.98,"/>
+			<val e="Pan 21 90" v="1.00,"/>
+			<val e="Slider 21 91" v="-293.98,"/>
+			<val e="Pan 21 91" v="1.00,"/>
+			<val e="Slider 21 92" v="-293.98,"/>
+			<val e="Pan 21 92" v="1.00,"/>
+			<val e="Slider 21 93" v="-293.98,"/>
+			<val e="Pan 21 93" v="1.00,"/>
+			<val e="Slider 21 94" v="-293.98,"/>
+			<val e="Pan 21 94" v="1.00,"/>
+			<val e="Slider 21 95" v="-293.98,"/>
+			<val e="Pan 21 95" v="1.00,"/>
+			<val e="Slider 21 96" v="-293.98,"/>
+			<val e="Pan 21 96" v="1.00,"/>
+			<val e="Slider 21 97" v="-293.98,"/>
+			<val e="Pan 21 97" v="1.00,"/>
+			<val e="Slider 21 98" v="-293.98,"/>
+			<val e="Pan 21 98" v="1.00,"/>
+			<val e="Slider 21 99" v="-293.98,"/>
+			<val e="Pan 21 99" v="1.00,"/>
+			<val e="Slider 21 100" v="-293.98,"/>
+			<val e="Pan 21 100" v="1.00,"/>
+			<val e="Slider 21 101" v="-293.98,"/>
+			<val e="Pan 21 101" v="1.00,"/>
+			<val e="Slider 21 102" v="-293.98,"/>
+			<val e="Pan 21 102" v="1.00,"/>
+			<val e="Slider 21 103" v="-293.98,"/>
+			<val e="Pan 21 103" v="1.00,"/>
+			<val e="Slider 21 104" v="-293.98,"/>
+			<val e="Pan 21 104" v="1.00,"/>
+			<val e="Slider 21 105" v="-293.98,"/>
+			<val e="Pan 21 105" v="1.00,"/>
+			<val e="Slider 21 106" v="-293.98,"/>
+			<val e="Pan 21 106" v="1.00,"/>
+			<val e="Slider 21 107" v="-293.98,"/>
+			<val e="Pan 21 107" v="1.00,"/>
+			<val e="Slider 21 108" v="-293.98,"/>
+			<val e="Pan 21 108" v="1.00,"/>
+			<val e="Slider 21 109" v="-293.98,"/>
+			<val e="Pan 21 109" v="1.00,"/>
+			<val e="Slider 21 110" v="-293.98,"/>
+			<val e="Pan 21 110" v="1.00,"/>
+			<val e="Slider 21 111" v="-293.98,"/>
+			<val e="Pan 21 111" v="1.00,"/>
+			<val e="Slider 21 112" v="-293.98,"/>
+			<val e="Pan 21 112" v="1.00,"/>
+			<val e="Slider 21 113" v="-293.98,"/>
+			<val e="Pan 21 113" v="1.00,"/>
+			<val e="Slider 21 114" v="-293.98,"/>
+			<val e="Pan 21 114" v="1.00,"/>
+			<val e="Slider 21 115" v="-293.98,"/>
+			<val e="Pan 21 115" v="1.00,"/>
+			<val e="Slider 21 116" v="-293.98,"/>
+			<val e="Pan 21 116" v="1.00,"/>
+			<val e="Slider 21 117" v="-293.98,"/>
+			<val e="Pan 21 117" v="1.00,"/>
+			<val e="Slider 21 118" v="-293.98,"/>
+			<val e="Pan 21 118" v="1.00,"/>
+			<val e="Slider 21 119" v="-293.98,"/>
+			<val e="Pan 21 119" v="1.00,"/>
+			<val e="Slider 21 120" v="-293.98,"/>
+			<val e="Pan 21 120" v="1.00,"/>
+			<val e="Slider 21 121" v="-293.98,"/>
+			<val e="Pan 21 121" v="1.00,"/>
+			<val e="Slider 21 122" v="-293.98,"/>
+			<val e="Pan 21 122" v="1.00,"/>
+			<val e="Slider 21 123" v="-293.98,"/>
+			<val e="Pan 21 123" v="1.00,"/>
+			<val e="Slider 21 124" v="-293.98,"/>
+			<val e="Pan 21 124" v="1.00,"/>
+			<val e="Slider 21 125" v="-293.98,"/>
+			<val e="Pan 21 125" v="1.00,"/>
+			<val e="Slider 21 126" v="-293.98,"/>
+			<val e="Pan 21 126" v="1.00,"/>
+			<val e="Slider 21 127" v="-293.98,"/>
+			<val e="Pan 21 127" v="1.00,"/>
+			<val e="Slider 21 128" v="-293.98,"/>
+			<val e="Pan 21 128" v="1.00,"/>
+			<val e="Slider 21 129" v="-293.98,"/>
+			<val e="Pan 21 129" v="1.00,"/>
+			<val e="Slider 21 130" v="-293.98,"/>
+			<val e="Pan 21 130" v="1.00,"/>
+			<val e="Slider 21 131" v="-293.98,"/>
+			<val e="Pan 21 131" v="1.00,"/>
+			<val e="Slider 21 132" v="-293.98,"/>
+			<val e="Pan 21 132" v="1.00,"/>
+			<val e="Slider 21 133" v="-293.98,"/>
+			<val e="Pan 21 133" v="1.00,"/>
+			<val e="Slider 21 134" v="-293.98,"/>
+			<val e="Pan 21 134" v="1.00,"/>
+			<val e="Slider 21 135" v="-293.98,"/>
+			<val e="Pan 21 135" v="1.00,"/>
 			<val e="Slider 21 136" v="0.00,"/>
+			<val e="Pan 22 02" v="-1.00,"/>
+			<val e="Pan 22 03" v="1.00,"/>
+			<val e="Pan 22 20" v="-1.00,"/>
+			<val e="Pan 22 21" v="1.00,"/>
 			<val e="Pan 22 80" v="-1.00,"/>
 			<val e="Pan 22 81" v="1.00,"/>
 			<val e="Pan 22 84" v="-1.00,"/>
 			<val e="Pan 22 85" v="1.00,"/>
+			<val e="Slider 22 86" v="0.00,"/>
+			<val e="Slider 22 87" v="0.00,"/>
 			<val e="Slider 22 136" v="0.00,"/>
 			<val e="Slider 23 136" v="0.00,"/>
-			<val e="Slider 24 02" v="-293.98,"/>
-			<val e="Pan 24 02" v="-1.00,"/>
-			<val e="Slider 24 03" v="-293.98,"/>
-			<val e="Pan 24 03" v="-1.00,"/>
 			<val e="Slider 24 04" v="-293.98,"/>
 			<val e="Pan 24 04" v="-1.00,"/>
 			<val e="Slider 24 05" v="-293.98,"/>
@@ -8472,13 +8943,7 @@
 			<val e="Slider 24 17" v="-293.98,"/>
 			<val e="Pan 24 17" v="-1.00,"/>
 			<val e="Slider 24 18" v="-293.98,"/>
-			<val e="Pan 24 18" v="-1.00,"/>
 			<val e="Slider 24 19" v="-293.98,"/>
-			<val e="Pan 24 19" v="-1.00,"/>
-			<val e="Slider 24 20" v="-293.98,"/>
-			<val e="Pan 24 20" v="-1.00,"/>
-			<val e="Slider 24 21" v="-293.98,"/>
-			<val e="Pan 24 21" v="-1.00,"/>
 			<val e="Slider 24 22" v="-293.98,"/>
 			<val e="Pan 24 22" v="-1.00,"/>
 			<val e="Slider 24 23" v="-293.98,"/>
@@ -8625,9 +9090,7 @@
 			<val e="Slider 24 95" v="-293.98,"/>
 			<val e="Pan 24 95" v="-1.00,"/>
 			<val e="Slider 24 96" v="-293.98,"/>
-			<val e="Pan 24 96" v="-1.00,"/>
 			<val e="Slider 24 97" v="-293.98,"/>
-			<val e="Pan 24 97" v="-1.00,"/>
 			<val e="Slider 24 98" v="-293.98,"/>
 			<val e="Pan 24 98" v="-1.00,"/>
 			<val e="Slider 24 99" v="-293.98,"/>
@@ -8705,10 +9168,6 @@
 			<val e="Slider 24 135" v="-293.98,"/>
 			<val e="Pan 24 135" v="-1.00,"/>
 			<val e="Slider 24 136" v="0.00,"/>
-			<val e="Slider 25 02" v="-293.98,"/>
-			<val e="Pan 25 02" v="1.00,"/>
-			<val e="Slider 25 03" v="-293.98,"/>
-			<val e="Pan 25 03" v="1.00,"/>
 			<val e="Slider 25 04" v="-293.98,"/>
 			<val e="Pan 25 04" v="1.00,"/>
 			<val e="Slider 25 05" v="-293.98,"/>
@@ -8738,11 +9197,7 @@
 			<val e="Slider 25 17" v="-293.98,"/>
 			<val e="Pan 25 17" v="1.00,"/>
 			<val e="Slider 25 18" v="-293.98,"/>
-			<val e="Pan 25 18" v="1.00,"/>
 			<val e="Slider 25 19" v="-293.98,"/>
-			<val e="Pan 25 19" v="1.00,"/>
-			<val e="Pan 25 20" v="1.00,"/>
-			<val e="Pan 25 21" v="1.00,"/>
 			<val e="Slider 25 22" v="-293.98,"/>
 			<val e="Pan 25 22" v="1.00,"/>
 			<val e="Slider 25 23" v="-293.98,"/>
@@ -8885,9 +9340,7 @@
 			<val e="Slider 25 95" v="-293.98,"/>
 			<val e="Pan 25 95" v="1.00,"/>
 			<val e="Slider 25 96" v="-293.98,"/>
-			<val e="Pan 25 96" v="1.00,"/>
 			<val e="Slider 25 97" v="-293.98,"/>
-			<val e="Pan 25 97" v="1.00,"/>
 			<val e="Slider 25 98" v="-293.98,"/>
 			<val e="Pan 25 98" v="1.00,"/>
 			<val e="Slider 25 99" v="-293.98,"/>
@@ -8965,152 +9418,722 @@
 			<val e="Slider 25 135" v="-293.98,"/>
 			<val e="Pan 25 135" v="1.00,"/>
 			<val e="Slider 25 136" v="0.00,"/>
+			<val e="Slider 26 00" v="-65.00,"/>
+			<val e="Slider 26 01" v="-65.00,"/>
+			<val e="Slider 26 02" v="-65.00,"/>
+			<val e="Pan 26 02" v="-1.00,"/>
+			<val e="Slider 26 03" v="-65.00,"/>
+			<val e="Pan 26 03" v="1.00,"/>
+			<val e="Slider 26 18" v="0.00,"/>
+			<val e="Slider 26 19" v="0.00,"/>
+			<val e="Slider 26 20" v="-65.00,"/>
+			<val e="Pan 26 20" v="-1.00,"/>
+			<val e="Slider 26 21" v="-65.00,"/>
+			<val e="Pan 26 21" v="1.00,"/>
+			<val e="Slider 26 80" v="-65.00,"/>
 			<val e="Pan 26 80" v="-1.00,"/>
+			<val e="Slider 26 81" v="-65.00,"/>
 			<val e="Pan 26 81" v="1.00,"/>
+			<val e="Slider 26 84" v="-65.00,"/>
 			<val e="Pan 26 84" v="-1.00,"/>
+			<val e="Slider 26 85" v="-65.00,"/>
 			<val e="Pan 26 85" v="1.00,"/>
 			<val e="Slider 26 136" v="0.00,"/>
+			<val e="Slider 27 04" v="-293.98,"/>
+			<val e="Pan 27 04" v="1.00,"/>
+			<val e="Slider 27 05" v="-293.98,"/>
+			<val e="Pan 27 05" v="1.00,"/>
+			<val e="Slider 27 06" v="-293.98,"/>
+			<val e="Pan 27 06" v="1.00,"/>
+			<val e="Slider 27 07" v="-293.98,"/>
+			<val e="Pan 27 07" v="1.00,"/>
+			<val e="Slider 27 08" v="-293.98,"/>
+			<val e="Pan 27 08" v="1.00,"/>
+			<val e="Slider 27 09" v="-293.98,"/>
+			<val e="Pan 27 09" v="1.00,"/>
+			<val e="Slider 27 10" v="-293.98,"/>
+			<val e="Pan 27 10" v="1.00,"/>
+			<val e="Slider 27 11" v="-293.98,"/>
+			<val e="Pan 27 11" v="1.00,"/>
+			<val e="Slider 27 12" v="-293.98,"/>
+			<val e="Pan 27 12" v="1.00,"/>
+			<val e="Slider 27 13" v="-293.98,"/>
+			<val e="Pan 27 13" v="1.00,"/>
+			<val e="Slider 27 14" v="-293.98,"/>
+			<val e="Pan 27 14" v="1.00,"/>
+			<val e="Slider 27 15" v="-293.98,"/>
+			<val e="Pan 27 15" v="1.00,"/>
+			<val e="Slider 27 16" v="-293.98,"/>
+			<val e="Pan 27 16" v="1.00,"/>
+			<val e="Slider 27 17" v="-293.98,"/>
+			<val e="Pan 27 17" v="1.00,"/>
+			<val e="Slider 27 18" v="-294.00,"/>
+			<val e="Slider 27 19" v="-294.00,"/>
+			<val e="Slider 27 22" v="-293.98,"/>
+			<val e="Pan 27 22" v="1.00,"/>
+			<val e="Slider 27 23" v="-293.98,"/>
+			<val e="Pan 27 23" v="1.00,"/>
+			<val e="Slider 27 24" v="-293.98,"/>
+			<val e="Pan 27 24" v="1.00,"/>
+			<val e="Slider 27 25" v="-293.98,"/>
+			<val e="Pan 27 25" v="1.00,"/>
+			<val e="Slider 27 26" v="-293.98,"/>
+			<val e="Pan 27 26" v="1.00,"/>
+			<val e="Slider 27 27" v="-293.98,"/>
+			<val e="Pan 27 27" v="1.00,"/>
+			<val e="Slider 27 28" v="-293.98,"/>
+			<val e="Pan 27 28" v="1.00,"/>
+			<val e="Slider 27 29" v="-293.98,"/>
+			<val e="Pan 27 29" v="1.00,"/>
+			<val e="Slider 27 30" v="-293.98,"/>
+			<val e="Pan 27 30" v="1.00,"/>
+			<val e="Slider 27 31" v="-293.98,"/>
+			<val e="Pan 27 31" v="1.00,"/>
+			<val e="Slider 27 32" v="-293.98,"/>
+			<val e="Pan 27 32" v="1.00,"/>
+			<val e="Slider 27 33" v="-293.98,"/>
+			<val e="Pan 27 33" v="1.00,"/>
+			<val e="Slider 27 34" v="-293.98,"/>
+			<val e="Pan 27 34" v="1.00,"/>
+			<val e="Slider 27 35" v="-293.98,"/>
+			<val e="Pan 27 35" v="1.00,"/>
+			<val e="Slider 27 36" v="-293.98,"/>
+			<val e="Pan 27 36" v="1.00,"/>
+			<val e="Slider 27 37" v="-293.98,"/>
+			<val e="Pan 27 37" v="1.00,"/>
+			<val e="Slider 27 38" v="-293.98,"/>
+			<val e="Pan 27 38" v="1.00,"/>
+			<val e="Slider 27 39" v="-293.98,"/>
+			<val e="Pan 27 39" v="1.00,"/>
+			<val e="Slider 27 40" v="-293.98,"/>
+			<val e="Pan 27 40" v="1.00,"/>
+			<val e="Slider 27 41" v="-293.98,"/>
+			<val e="Pan 27 41" v="1.00,"/>
+			<val e="Slider 27 42" v="-293.98,"/>
+			<val e="Pan 27 42" v="1.00,"/>
+			<val e="Slider 27 43" v="-293.98,"/>
+			<val e="Pan 27 43" v="1.00,"/>
+			<val e="Slider 27 44" v="-293.98,"/>
+			<val e="Pan 27 44" v="1.00,"/>
+			<val e="Slider 27 45" v="-293.98,"/>
+			<val e="Pan 27 45" v="1.00,"/>
+			<val e="Slider 27 46" v="-293.98,"/>
+			<val e="Pan 27 46" v="1.00,"/>
+			<val e="Slider 27 47" v="-293.98,"/>
+			<val e="Pan 27 47" v="1.00,"/>
+			<val e="Slider 27 48" v="-293.98,"/>
+			<val e="Pan 27 48" v="1.00,"/>
+			<val e="Slider 27 49" v="-293.98,"/>
+			<val e="Pan 27 49" v="1.00,"/>
+			<val e="Slider 27 50" v="-293.98,"/>
+			<val e="Pan 27 50" v="1.00,"/>
+			<val e="Slider 27 51" v="-293.98,"/>
+			<val e="Pan 27 51" v="1.00,"/>
+			<val e="Slider 27 52" v="-293.98,"/>
+			<val e="Pan 27 52" v="1.00,"/>
+			<val e="Slider 27 53" v="-293.98,"/>
+			<val e="Pan 27 53" v="1.00,"/>
+			<val e="Slider 27 54" v="-293.98,"/>
+			<val e="Pan 27 54" v="1.00,"/>
+			<val e="Slider 27 55" v="-293.98,"/>
+			<val e="Pan 27 55" v="1.00,"/>
+			<val e="Slider 27 56" v="-293.98,"/>
+			<val e="Pan 27 56" v="1.00,"/>
+			<val e="Slider 27 57" v="-293.98,"/>
+			<val e="Pan 27 57" v="1.00,"/>
+			<val e="Slider 27 58" v="-293.98,"/>
+			<val e="Pan 27 58" v="1.00,"/>
+			<val e="Slider 27 59" v="-293.98,"/>
+			<val e="Pan 27 59" v="1.00,"/>
+			<val e="Slider 27 60" v="-293.98,"/>
+			<val e="Pan 27 60" v="1.00,"/>
+			<val e="Slider 27 61" v="-293.98,"/>
+			<val e="Pan 27 61" v="1.00,"/>
+			<val e="Slider 27 62" v="-293.98,"/>
+			<val e="Pan 27 62" v="1.00,"/>
+			<val e="Slider 27 63" v="-293.98,"/>
+			<val e="Pan 27 63" v="1.00,"/>
+			<val e="Slider 27 64" v="-293.98,"/>
+			<val e="Pan 27 64" v="1.00,"/>
+			<val e="Slider 27 65" v="-293.98,"/>
+			<val e="Pan 27 65" v="1.00,"/>
+			<val e="Slider 27 66" v="-293.98,"/>
+			<val e="Pan 27 66" v="1.00,"/>
+			<val e="Slider 27 67" v="-293.98,"/>
+			<val e="Pan 27 67" v="1.00,"/>
+			<val e="Slider 27 68" v="-293.98,"/>
+			<val e="Pan 27 68" v="1.00,"/>
+			<val e="Slider 27 69" v="-293.98,"/>
+			<val e="Pan 27 69" v="1.00,"/>
+			<val e="Slider 27 70" v="-293.98,"/>
+			<val e="Pan 27 70" v="1.00,"/>
+			<val e="Slider 27 71" v="-293.98,"/>
+			<val e="Pan 27 71" v="1.00,"/>
+			<val e="Slider 27 72" v="-293.98,"/>
+			<val e="Pan 27 72" v="1.00,"/>
+			<val e="Slider 27 73" v="-293.98,"/>
+			<val e="Pan 27 73" v="1.00,"/>
+			<val e="Slider 27 74" v="-293.98,"/>
+			<val e="Pan 27 74" v="1.00,"/>
+			<val e="Slider 27 75" v="-293.98,"/>
+			<val e="Pan 27 75" v="1.00,"/>
+			<val e="Slider 27 76" v="-293.98,"/>
+			<val e="Pan 27 76" v="1.00,"/>
+			<val e="Slider 27 77" v="-293.98,"/>
+			<val e="Pan 27 77" v="1.00,"/>
+			<val e="Slider 27 78" v="-293.98,"/>
+			<val e="Pan 27 78" v="1.00,"/>
+			<val e="Slider 27 79" v="-293.98,"/>
+			<val e="Pan 27 79" v="1.00,"/>
+			<val e="Slider 27 82" v="-293.98,"/>
+			<val e="Pan 27 82" v="1.00,"/>
+			<val e="Slider 27 83" v="-293.98,"/>
+			<val e="Pan 27 83" v="1.00,"/>
+			<val e="Slider 27 86" v="-293.98,"/>
+			<val e="Pan 27 86" v="1.00,"/>
+			<val e="Slider 27 87" v="-293.98,"/>
+			<val e="Pan 27 87" v="1.00,"/>
+			<val e="Slider 27 88" v="-293.98,"/>
+			<val e="Pan 27 88" v="1.00,"/>
+			<val e="Slider 27 89" v="-293.98,"/>
+			<val e="Pan 27 89" v="1.00,"/>
+			<val e="Slider 27 90" v="-293.98,"/>
+			<val e="Pan 27 90" v="1.00,"/>
+			<val e="Slider 27 91" v="-293.98,"/>
+			<val e="Pan 27 91" v="1.00,"/>
+			<val e="Slider 27 92" v="-293.98,"/>
+			<val e="Pan 27 92" v="1.00,"/>
+			<val e="Slider 27 93" v="-293.98,"/>
+			<val e="Pan 27 93" v="1.00,"/>
+			<val e="Slider 27 94" v="-293.98,"/>
+			<val e="Pan 27 94" v="1.00,"/>
+			<val e="Slider 27 95" v="-293.98,"/>
+			<val e="Pan 27 95" v="1.00,"/>
+			<val e="Slider 27 96" v="-293.98,"/>
+			<val e="Slider 27 97" v="-293.98,"/>
+			<val e="Slider 27 98" v="-293.98,"/>
+			<val e="Pan 27 98" v="1.00,"/>
+			<val e="Slider 27 99" v="-293.98,"/>
+			<val e="Pan 27 99" v="1.00,"/>
+			<val e="Slider 27 100" v="-293.98,"/>
+			<val e="Pan 27 100" v="1.00,"/>
+			<val e="Slider 27 101" v="-293.98,"/>
+			<val e="Pan 27 101" v="1.00,"/>
+			<val e="Slider 27 102" v="-293.98,"/>
+			<val e="Pan 27 102" v="1.00,"/>
+			<val e="Slider 27 103" v="-293.98,"/>
+			<val e="Pan 27 103" v="1.00,"/>
+			<val e="Slider 27 104" v="-293.98,"/>
+			<val e="Pan 27 104" v="1.00,"/>
+			<val e="Slider 27 105" v="-293.98,"/>
+			<val e="Pan 27 105" v="1.00,"/>
+			<val e="Slider 27 106" v="-293.98,"/>
+			<val e="Pan 27 106" v="1.00,"/>
+			<val e="Slider 27 107" v="-293.98,"/>
+			<val e="Pan 27 107" v="1.00,"/>
+			<val e="Slider 27 108" v="-293.98,"/>
+			<val e="Pan 27 108" v="1.00,"/>
+			<val e="Slider 27 109" v="-293.98,"/>
+			<val e="Pan 27 109" v="1.00,"/>
+			<val e="Slider 27 110" v="-293.98,"/>
+			<val e="Pan 27 110" v="1.00,"/>
+			<val e="Slider 27 111" v="-293.98,"/>
+			<val e="Pan 27 111" v="1.00,"/>
+			<val e="Slider 27 112" v="-293.98,"/>
+			<val e="Pan 27 112" v="1.00,"/>
+			<val e="Slider 27 113" v="-293.98,"/>
+			<val e="Pan 27 113" v="1.00,"/>
+			<val e="Slider 27 114" v="-293.98,"/>
+			<val e="Pan 27 114" v="1.00,"/>
+			<val e="Slider 27 115" v="-293.98,"/>
+			<val e="Pan 27 115" v="1.00,"/>
+			<val e="Slider 27 116" v="-293.98,"/>
+			<val e="Pan 27 116" v="1.00,"/>
+			<val e="Slider 27 117" v="-293.98,"/>
+			<val e="Pan 27 117" v="1.00,"/>
+			<val e="Slider 27 118" v="-293.98,"/>
+			<val e="Pan 27 118" v="1.00,"/>
+			<val e="Slider 27 119" v="-293.98,"/>
+			<val e="Pan 27 119" v="1.00,"/>
+			<val e="Slider 27 120" v="-293.98,"/>
+			<val e="Pan 27 120" v="1.00,"/>
+			<val e="Slider 27 121" v="-293.98,"/>
+			<val e="Pan 27 121" v="1.00,"/>
+			<val e="Slider 27 122" v="-293.98,"/>
+			<val e="Pan 27 122" v="1.00,"/>
+			<val e="Slider 27 123" v="-293.98,"/>
+			<val e="Pan 27 123" v="1.00,"/>
+			<val e="Slider 27 124" v="-293.98,"/>
+			<val e="Pan 27 124" v="1.00,"/>
+			<val e="Slider 27 125" v="-293.98,"/>
+			<val e="Pan 27 125" v="1.00,"/>
+			<val e="Slider 27 126" v="-293.98,"/>
+			<val e="Pan 27 126" v="1.00,"/>
+			<val e="Slider 27 127" v="-293.98,"/>
+			<val e="Pan 27 127" v="1.00,"/>
+			<val e="Slider 27 128" v="-293.98,"/>
+			<val e="Pan 27 128" v="1.00,"/>
+			<val e="Slider 27 129" v="-293.98,"/>
+			<val e="Pan 27 129" v="1.00,"/>
+			<val e="Slider 27 130" v="-293.98,"/>
+			<val e="Pan 27 130" v="1.00,"/>
+			<val e="Slider 27 131" v="-293.98,"/>
+			<val e="Pan 27 131" v="1.00,"/>
+			<val e="Slider 27 132" v="-293.98,"/>
+			<val e="Pan 27 132" v="1.00,"/>
+			<val e="Slider 27 133" v="-293.98,"/>
+			<val e="Pan 27 133" v="1.00,"/>
+			<val e="Slider 27 134" v="-293.98,"/>
+			<val e="Pan 27 134" v="1.00,"/>
+			<val e="Slider 27 135" v="-293.98,"/>
+			<val e="Pan 27 135" v="1.00,"/>
 			<val e="Slider 27 136" v="0.00,"/>
+			<val e="Pan 28 02" v="-1.00,"/>
+			<val e="Pan 28 03" v="1.00,"/>
+			<val e="Pan 28 20" v="-1.00,"/>
+			<val e="Pan 28 21" v="1.00,"/>
 			<val e="Pan 28 80" v="-1.00,"/>
 			<val e="Pan 28 81" v="1.00,"/>
 			<val e="Pan 28 84" v="-1.00,"/>
 			<val e="Pan 28 85" v="1.00,"/>
-			<val e="Slider 28 136" v="0.00,"/>
-			<val e="Slider 29 136" v="0.00,"/>
+			<val e="Slider 28 104" v="0.00,"/>
+			<val e="Slider 28 105" v="0.00,"/>
+			<val e="Slider 28 136" v="-0.71,"/>
+			<val e="Slider 29 136" v="-0.71,"/>
+			<val e="Slider 30 00" v="-65.00,"/>
+			<val e="Slider 30 01" v="-65.00,"/>
+			<val e="Slider 30 02" v="-65.00,"/>
+			<val e="Pan 30 02" v="-1.00,"/>
+			<val e="Slider 30 03" v="-65.00,"/>
+			<val e="Pan 30 03" v="1.00,"/>
+			<val e="Slider 30 20" v="-65.00,"/>
+			<val e="Slider 30 21" v="-65.00,"/>
+			<val e="Slider 30 80" v="-65.00,"/>
 			<val e="Pan 30 80" v="-1.00,"/>
+			<val e="Slider 30 81" v="-65.00,"/>
 			<val e="Pan 30 81" v="1.00,"/>
+			<val e="Slider 30 84" v="-65.00,"/>
 			<val e="Pan 30 84" v="-1.00,"/>
+			<val e="Slider 30 85" v="-65.00,"/>
 			<val e="Pan 30 85" v="1.00,"/>
+			<val e="Slider 30 100" v="0.00,"/>
+			<val e="Slider 30 101" v="0.00,"/>
 			<val e="Slider 30 136" v="0.00,"/>
+			<val e="Slider 31 04" v="-293.98,"/>
+			<val e="Pan 31 04" v="1.00,"/>
+			<val e="Slider 31 05" v="-293.98,"/>
+			<val e="Pan 31 05" v="1.00,"/>
+			<val e="Slider 31 06" v="-293.98,"/>
+			<val e="Pan 31 06" v="1.00,"/>
+			<val e="Slider 31 07" v="-293.98,"/>
+			<val e="Pan 31 07" v="1.00,"/>
+			<val e="Slider 31 08" v="-293.98,"/>
+			<val e="Pan 31 08" v="1.00,"/>
+			<val e="Slider 31 09" v="-293.98,"/>
+			<val e="Pan 31 09" v="1.00,"/>
+			<val e="Slider 31 10" v="-293.98,"/>
+			<val e="Pan 31 10" v="1.00,"/>
+			<val e="Slider 31 11" v="-293.98,"/>
+			<val e="Pan 31 11" v="1.00,"/>
+			<val e="Slider 31 12" v="-293.98,"/>
+			<val e="Pan 31 12" v="1.00,"/>
+			<val e="Slider 31 13" v="-293.98,"/>
+			<val e="Pan 31 13" v="1.00,"/>
+			<val e="Slider 31 14" v="-293.98,"/>
+			<val e="Pan 31 14" v="1.00,"/>
+			<val e="Slider 31 15" v="-293.98,"/>
+			<val e="Pan 31 15" v="1.00,"/>
+			<val e="Slider 31 16" v="-293.98,"/>
+			<val e="Pan 31 16" v="1.00,"/>
+			<val e="Slider 31 17" v="-293.98,"/>
+			<val e="Pan 31 17" v="1.00,"/>
+			<val e="Slider 31 22" v="-293.98,"/>
+			<val e="Pan 31 22" v="1.00,"/>
+			<val e="Slider 31 23" v="-293.98,"/>
+			<val e="Pan 31 23" v="1.00,"/>
+			<val e="Slider 31 24" v="-293.98,"/>
+			<val e="Pan 31 24" v="1.00,"/>
+			<val e="Slider 31 25" v="-293.98,"/>
+			<val e="Pan 31 25" v="1.00,"/>
+			<val e="Slider 31 26" v="-293.98,"/>
+			<val e="Pan 31 26" v="1.00,"/>
+			<val e="Slider 31 27" v="-293.98,"/>
+			<val e="Pan 31 27" v="1.00,"/>
+			<val e="Slider 31 28" v="-293.98,"/>
+			<val e="Pan 31 28" v="1.00,"/>
+			<val e="Slider 31 29" v="-293.98,"/>
+			<val e="Pan 31 29" v="1.00,"/>
+			<val e="Slider 31 30" v="-293.98,"/>
+			<val e="Pan 31 30" v="1.00,"/>
+			<val e="Slider 31 31" v="-293.98,"/>
+			<val e="Pan 31 31" v="1.00,"/>
+			<val e="Slider 31 32" v="-293.98,"/>
+			<val e="Pan 31 32" v="1.00,"/>
+			<val e="Slider 31 33" v="-293.98,"/>
+			<val e="Pan 31 33" v="1.00,"/>
+			<val e="Slider 31 34" v="-293.98,"/>
+			<val e="Pan 31 34" v="1.00,"/>
+			<val e="Slider 31 35" v="-293.98,"/>
+			<val e="Pan 31 35" v="1.00,"/>
+			<val e="Slider 31 36" v="-293.98,"/>
+			<val e="Pan 31 36" v="1.00,"/>
+			<val e="Slider 31 37" v="-293.98,"/>
+			<val e="Pan 31 37" v="1.00,"/>
+			<val e="Slider 31 38" v="-293.98,"/>
+			<val e="Pan 31 38" v="1.00,"/>
+			<val e="Slider 31 39" v="-293.98,"/>
+			<val e="Pan 31 39" v="1.00,"/>
+			<val e="Slider 31 40" v="-293.98,"/>
+			<val e="Pan 31 40" v="1.00,"/>
+			<val e="Slider 31 41" v="-293.98,"/>
+			<val e="Pan 31 41" v="1.00,"/>
+			<val e="Slider 31 42" v="-293.98,"/>
+			<val e="Pan 31 42" v="1.00,"/>
+			<val e="Slider 31 43" v="-293.98,"/>
+			<val e="Pan 31 43" v="1.00,"/>
+			<val e="Slider 31 44" v="-293.98,"/>
+			<val e="Pan 31 44" v="1.00,"/>
+			<val e="Slider 31 45" v="-293.98,"/>
+			<val e="Pan 31 45" v="1.00,"/>
+			<val e="Slider 31 46" v="-293.98,"/>
+			<val e="Pan 31 46" v="1.00,"/>
+			<val e="Slider 31 47" v="-293.98,"/>
+			<val e="Pan 31 47" v="1.00,"/>
+			<val e="Slider 31 48" v="-293.98,"/>
+			<val e="Pan 31 48" v="1.00,"/>
+			<val e="Slider 31 49" v="-293.98,"/>
+			<val e="Pan 31 49" v="1.00,"/>
+			<val e="Slider 31 50" v="-293.98,"/>
+			<val e="Pan 31 50" v="1.00,"/>
+			<val e="Slider 31 51" v="-293.98,"/>
+			<val e="Pan 31 51" v="1.00,"/>
+			<val e="Slider 31 52" v="-293.98,"/>
+			<val e="Pan 31 52" v="1.00,"/>
+			<val e="Slider 31 53" v="-293.98,"/>
+			<val e="Pan 31 53" v="1.00,"/>
+			<val e="Slider 31 54" v="-293.98,"/>
+			<val e="Pan 31 54" v="1.00,"/>
+			<val e="Slider 31 55" v="-293.98,"/>
+			<val e="Pan 31 55" v="1.00,"/>
+			<val e="Slider 31 56" v="-293.98,"/>
+			<val e="Pan 31 56" v="1.00,"/>
+			<val e="Slider 31 57" v="-293.98,"/>
+			<val e="Pan 31 57" v="1.00,"/>
+			<val e="Slider 31 58" v="-293.98,"/>
+			<val e="Pan 31 58" v="1.00,"/>
+			<val e="Slider 31 59" v="-293.98,"/>
+			<val e="Pan 31 59" v="1.00,"/>
+			<val e="Slider 31 60" v="-293.98,"/>
+			<val e="Pan 31 60" v="1.00,"/>
+			<val e="Slider 31 61" v="-293.98,"/>
+			<val e="Pan 31 61" v="1.00,"/>
+			<val e="Slider 31 62" v="-293.98,"/>
+			<val e="Pan 31 62" v="1.00,"/>
+			<val e="Slider 31 63" v="-293.98,"/>
+			<val e="Pan 31 63" v="1.00,"/>
+			<val e="Slider 31 64" v="-293.98,"/>
+			<val e="Pan 31 64" v="1.00,"/>
+			<val e="Slider 31 65" v="-293.98,"/>
+			<val e="Pan 31 65" v="1.00,"/>
+			<val e="Slider 31 66" v="-293.98,"/>
+			<val e="Pan 31 66" v="1.00,"/>
+			<val e="Slider 31 67" v="-293.98,"/>
+			<val e="Pan 31 67" v="1.00,"/>
+			<val e="Slider 31 68" v="-293.98,"/>
+			<val e="Pan 31 68" v="1.00,"/>
+			<val e="Slider 31 69" v="-293.98,"/>
+			<val e="Pan 31 69" v="1.00,"/>
+			<val e="Slider 31 70" v="-293.98,"/>
+			<val e="Pan 31 70" v="1.00,"/>
+			<val e="Slider 31 71" v="-293.98,"/>
+			<val e="Pan 31 71" v="1.00,"/>
+			<val e="Slider 31 72" v="-293.98,"/>
+			<val e="Pan 31 72" v="1.00,"/>
+			<val e="Slider 31 73" v="-293.98,"/>
+			<val e="Pan 31 73" v="1.00,"/>
+			<val e="Slider 31 74" v="-293.98,"/>
+			<val e="Pan 31 74" v="1.00,"/>
+			<val e="Slider 31 75" v="-293.98,"/>
+			<val e="Pan 31 75" v="1.00,"/>
+			<val e="Slider 31 76" v="-293.98,"/>
+			<val e="Pan 31 76" v="1.00,"/>
+			<val e="Slider 31 77" v="-293.98,"/>
+			<val e="Pan 31 77" v="1.00,"/>
+			<val e="Slider 31 78" v="-293.98,"/>
+			<val e="Pan 31 78" v="1.00,"/>
+			<val e="Slider 31 79" v="-293.98,"/>
+			<val e="Pan 31 79" v="1.00,"/>
+			<val e="Slider 31 82" v="-293.98,"/>
+			<val e="Pan 31 82" v="1.00,"/>
+			<val e="Slider 31 83" v="-293.98,"/>
+			<val e="Pan 31 83" v="1.00,"/>
+			<val e="Slider 31 86" v="-293.98,"/>
+			<val e="Pan 31 86" v="1.00,"/>
+			<val e="Slider 31 87" v="-293.98,"/>
+			<val e="Pan 31 87" v="1.00,"/>
+			<val e="Slider 31 88" v="-293.98,"/>
+			<val e="Pan 31 88" v="1.00,"/>
+			<val e="Slider 31 89" v="-293.98,"/>
+			<val e="Pan 31 89" v="1.00,"/>
+			<val e="Slider 31 90" v="-293.98,"/>
+			<val e="Pan 31 90" v="1.00,"/>
+			<val e="Slider 31 91" v="-293.98,"/>
+			<val e="Pan 31 91" v="1.00,"/>
+			<val e="Slider 31 92" v="-293.98,"/>
+			<val e="Pan 31 92" v="1.00,"/>
+			<val e="Slider 31 93" v="-293.98,"/>
+			<val e="Pan 31 93" v="1.00,"/>
+			<val e="Slider 31 94" v="-293.98,"/>
+			<val e="Pan 31 94" v="1.00,"/>
+			<val e="Slider 31 95" v="-293.98,"/>
+			<val e="Pan 31 95" v="1.00,"/>
+			<val e="Slider 31 96" v="-293.98,"/>
+			<val e="Slider 31 97" v="-293.98,"/>
+			<val e="Slider 31 98" v="-293.98,"/>
+			<val e="Pan 31 98" v="1.00,"/>
+			<val e="Slider 31 99" v="-293.98,"/>
+			<val e="Pan 31 99" v="1.00,"/>
+			<val e="Slider 31 100" v="-293.98,"/>
+			<val e="Pan 31 100" v="1.00,"/>
+			<val e="Slider 31 101" v="-293.98,"/>
+			<val e="Pan 31 101" v="1.00,"/>
+			<val e="Slider 31 102" v="-293.98,"/>
+			<val e="Pan 31 102" v="1.00,"/>
+			<val e="Slider 31 103" v="-293.98,"/>
+			<val e="Pan 31 103" v="1.00,"/>
+			<val e="Slider 31 104" v="-293.98,"/>
+			<val e="Pan 31 104" v="1.00,"/>
+			<val e="Slider 31 105" v="-293.98,"/>
+			<val e="Pan 31 105" v="1.00,"/>
+			<val e="Slider 31 106" v="-293.98,"/>
+			<val e="Pan 31 106" v="1.00,"/>
+			<val e="Slider 31 107" v="-293.98,"/>
+			<val e="Pan 31 107" v="1.00,"/>
+			<val e="Slider 31 108" v="-293.98,"/>
+			<val e="Pan 31 108" v="1.00,"/>
+			<val e="Slider 31 109" v="-293.98,"/>
+			<val e="Pan 31 109" v="1.00,"/>
+			<val e="Slider 31 110" v="-293.98,"/>
+			<val e="Pan 31 110" v="1.00,"/>
+			<val e="Slider 31 111" v="-293.98,"/>
+			<val e="Pan 31 111" v="1.00,"/>
+			<val e="Slider 31 112" v="-293.98,"/>
+			<val e="Pan 31 112" v="1.00,"/>
+			<val e="Slider 31 113" v="-293.98,"/>
+			<val e="Pan 31 113" v="1.00,"/>
+			<val e="Slider 31 114" v="-293.98,"/>
+			<val e="Pan 31 114" v="1.00,"/>
+			<val e="Slider 31 115" v="-293.98,"/>
+			<val e="Pan 31 115" v="1.00,"/>
+			<val e="Slider 31 116" v="-293.98,"/>
+			<val e="Pan 31 116" v="1.00,"/>
+			<val e="Slider 31 117" v="-293.98,"/>
+			<val e="Pan 31 117" v="1.00,"/>
+			<val e="Slider 31 118" v="-293.98,"/>
+			<val e="Pan 31 118" v="1.00,"/>
+			<val e="Slider 31 119" v="-293.98,"/>
+			<val e="Pan 31 119" v="1.00,"/>
+			<val e="Slider 31 120" v="-293.98,"/>
+			<val e="Pan 31 120" v="1.00,"/>
+			<val e="Slider 31 121" v="-293.98,"/>
+			<val e="Pan 31 121" v="1.00,"/>
+			<val e="Slider 31 122" v="-293.98,"/>
+			<val e="Pan 31 122" v="1.00,"/>
+			<val e="Slider 31 123" v="-293.98,"/>
+			<val e="Pan 31 123" v="1.00,"/>
+			<val e="Slider 31 124" v="-293.98,"/>
+			<val e="Pan 31 124" v="1.00,"/>
+			<val e="Slider 31 125" v="-293.98,"/>
+			<val e="Pan 31 125" v="1.00,"/>
+			<val e="Slider 31 126" v="-293.98,"/>
+			<val e="Pan 31 126" v="1.00,"/>
+			<val e="Slider 31 127" v="-293.98,"/>
+			<val e="Pan 31 127" v="1.00,"/>
+			<val e="Slider 31 128" v="-293.98,"/>
+			<val e="Pan 31 128" v="1.00,"/>
+			<val e="Slider 31 129" v="-293.98,"/>
+			<val e="Pan 31 129" v="1.00,"/>
+			<val e="Slider 31 130" v="-293.98,"/>
+			<val e="Pan 31 130" v="1.00,"/>
+			<val e="Slider 31 131" v="-293.98,"/>
+			<val e="Pan 31 131" v="1.00,"/>
+			<val e="Slider 31 132" v="-293.98,"/>
+			<val e="Pan 31 132" v="1.00,"/>
+			<val e="Slider 31 133" v="-293.98,"/>
+			<val e="Pan 31 133" v="1.00,"/>
+			<val e="Slider 31 134" v="-293.98,"/>
+			<val e="Pan 31 134" v="1.00,"/>
+			<val e="Slider 31 135" v="-293.98,"/>
+			<val e="Pan 31 135" v="1.00,"/>
 			<val e="Slider 31 136" v="0.00,"/>
+			<val e="Pan 32 02" v="-1.00,"/>
+			<val e="Pan 32 03" v="1.00,"/>
+			<val e="Pan 32 20" v="-1.00,"/>
+			<val e="Pan 32 21" v="1.00,"/>
 			<val e="Pan 32 80" v="-1.00,"/>
 			<val e="Pan 32 81" v="1.00,"/>
 			<val e="Pan 32 84" v="-1.00,"/>
 			<val e="Pan 32 85" v="1.00,"/>
-			<val e="Slider 32 98" v="0.00,"/>
-			<val e="Slider 32 99" v="0.00,"/>
+			<val e="Slider 32 102" v="0.00,"/>
+			<val e="Slider 32 103" v="0.00,"/>
 			<val e="Slider 32 136" v="0.00,"/>
 			<val e="Slider 33 136" v="0.00,"/>
+			<val e="Pan 34 02" v="-1.00,"/>
+			<val e="Pan 34 03" v="1.00,"/>
+			<val e="Pan 34 20" v="-1.00,"/>
+			<val e="Pan 34 21" v="1.00,"/>
 			<val e="Pan 34 80" v="-1.00,"/>
 			<val e="Pan 34 81" v="1.00,"/>
 			<val e="Pan 34 84" v="-1.00,"/>
 			<val e="Pan 34 85" v="1.00,"/>
-			<val e="Slider 34 100" v="0.00,"/>
-			<val e="Slider 34 101" v="0.00,"/>
+			<val e="Slider 34 104" v="0.00,"/>
+			<val e="Slider 34 105" v="0.00,"/>
 			<val e="Slider 34 136" v="0.00,"/>
 			<val e="Slider 35 136" v="0.00,"/>
-			<val e="Slider 36 02" v="0.00,"/>
-			<val e="Slider 36 03" v="0.00,"/>
-			<val e="Slider 36 04" v="0.00,"/>
-			<val e="Slider 36 05" v="0.00,"/>
-			<val e="Slider 36 06" v="0.00,"/>
-			<val e="Slider 36 07" v="0.00,"/>
-			<val e="Slider 36 08" v="0.21,"/>
-			<val e="Slider 36 09" v="0.21,"/>
-			<val e="Slider 36 12" v="-4.29,"/>
-			<val e="Slider 36 13" v="-4.29,"/>
-			<val e="Slider 36 16" v="-0.43,"/>
-			<val e="Slider 36 17" v="-0.43,"/>
+			<val e="Pan 36 02" v="-1.00,"/>
+			<val e="Pan 36 03" v="1.00,"/>
+			<val e="Pan 36 20" v="-1.00,"/>
+			<val e="Pan 36 21" v="1.00,"/>
 			<val e="Pan 36 80" v="-1.00,"/>
 			<val e="Pan 36 81" v="1.00,"/>
 			<val e="Pan 36 84" v="-1.00,"/>
 			<val e="Pan 36 85" v="1.00,"/>
+			<val e="Slider 36 106" v="0.00,"/>
+			<val e="Slider 36 107" v="0.00,"/>
 			<val e="Slider 36 136" v="0.00,"/>
 			<val e="Slider 37 136" v="0.00,"/>
+			<val e="Pan 38 02" v="-1.00,"/>
+			<val e="Pan 38 03" v="1.00,"/>
+			<val e="Pan 38 20" v="-1.00,"/>
+			<val e="Pan 38 21" v="1.00,"/>
 			<val e="Pan 38 80" v="-1.00,"/>
 			<val e="Pan 38 81" v="1.00,"/>
 			<val e="Pan 38 84" v="-1.00,"/>
 			<val e="Pan 38 85" v="1.00,"/>
 			<val e="Slider 38 136" v="0.00,"/>
 			<val e="Slider 39 136" v="0.00,"/>
+			<val e="Pan 40 02" v="-1.00,"/>
+			<val e="Pan 40 03" v="1.00,"/>
+			<val e="Pan 40 20" v="-1.00,"/>
+			<val e="Pan 40 21" v="1.00,"/>
 			<val e="Pan 40 80" v="-1.00,"/>
 			<val e="Pan 40 81" v="1.00,"/>
 			<val e="Pan 40 84" v="-1.00,"/>
 			<val e="Pan 40 85" v="1.00,"/>
-			<val e="Slider 40 106" v="0.00,"/>
-			<val e="Slider 40 107" v="0.00,"/>
 			<val e="Slider 40 136" v="0.00,"/>
 			<val e="Slider 41 136" v="0.00,"/>
+			<val e="Pan 42 02" v="-1.00,"/>
+			<val e="Pan 42 03" v="1.00,"/>
+			<val e="Pan 42 20" v="-1.00,"/>
+			<val e="Pan 42 21" v="1.00,"/>
 			<val e="Pan 42 80" v="-1.00,"/>
 			<val e="Pan 42 81" v="1.00,"/>
 			<val e="Pan 42 84" v="-1.00,"/>
 			<val e="Pan 42 85" v="1.00,"/>
-			<val e="Slider 42 108" v="0.00,"/>
-			<val e="Slider 42 109" v="0.00,"/>
 			<val e="Slider 42 136" v="0.00,"/>
 			<val e="Slider 43 136" v="0.00,"/>
+			<val e="Pan 44 02" v="-1.00,"/>
+			<val e="Pan 44 03" v="1.00,"/>
+			<val e="Pan 44 20" v="-1.00,"/>
+			<val e="Pan 44 21" v="1.00,"/>
 			<val e="Pan 44 80" v="-1.00,"/>
 			<val e="Pan 44 81" v="1.00,"/>
 			<val e="Pan 44 84" v="-1.00,"/>
 			<val e="Pan 44 85" v="1.00,"/>
-			<val e="Slider 44 110" v="0.00,"/>
-			<val e="Slider 44 111" v="0.00,"/>
 			<val e="Slider 44 136" v="0.00,"/>
 			<val e="Slider 45 136" v="0.00,"/>
+			<val e="Pan 46 02" v="-1.00,"/>
+			<val e="Pan 46 03" v="1.00,"/>
+			<val e="Pan 46 20" v="-1.00,"/>
+			<val e="Pan 46 21" v="1.00,"/>
 			<val e="Pan 46 80" v="-1.00,"/>
 			<val e="Pan 46 81" v="1.00,"/>
 			<val e="Pan 46 84" v="-1.00,"/>
 			<val e="Pan 46 85" v="1.00,"/>
-			<val e="Slider 46 112" v="0.00,"/>
-			<val e="Slider 46 113" v="0.00,"/>
 			<val e="Slider 46 136" v="0.00,"/>
 			<val e="Slider 47 136" v="0.00,"/>
+			<val e="Pan 48 02" v="-1.00,"/>
+			<val e="Pan 48 03" v="1.00,"/>
+			<val e="Pan 48 20" v="-1.00,"/>
+			<val e="Pan 48 21" v="1.00,"/>
 			<val e="Pan 48 80" v="-1.00,"/>
 			<val e="Pan 48 81" v="1.00,"/>
 			<val e="Pan 48 84" v="-1.00,"/>
 			<val e="Pan 48 85" v="1.00,"/>
-			<val e="Slider 48 114" v="0.00,"/>
-			<val e="Slider 48 115" v="0.00,"/>
 			<val e="Slider 48 136" v="0.00,"/>
 			<val e="Slider 49 136" v="0.00,"/>
+			<val e="Pan 50 02" v="-1.00,"/>
+			<val e="Pan 50 03" v="1.00,"/>
+			<val e="Pan 50 20" v="-1.00,"/>
+			<val e="Pan 50 21" v="1.00,"/>
 			<val e="Pan 50 80" v="-1.00,"/>
 			<val e="Pan 50 81" v="1.00,"/>
 			<val e="Pan 50 84" v="-1.00,"/>
 			<val e="Pan 50 85" v="1.00,"/>
-			<val e="Slider 50 116" v="0.00,"/>
-			<val e="Slider 50 117" v="0.00,"/>
 			<val e="Slider 50 136" v="0.00,"/>
 			<val e="Slider 51 136" v="0.00,"/>
+			<val e="Pan 52 02" v="-1.00,"/>
+			<val e="Pan 52 03" v="1.00,"/>
+			<val e="Pan 52 20" v="-1.00,"/>
+			<val e="Pan 52 21" v="1.00,"/>
 			<val e="Pan 52 80" v="-1.00,"/>
 			<val e="Pan 52 81" v="1.00,"/>
 			<val e="Pan 52 84" v="-1.00,"/>
 			<val e="Pan 52 85" v="1.00,"/>
-			<val e="Slider 52 118" v="0.00,"/>
-			<val e="Slider 52 119" v="0.00,"/>
 			<val e="Slider 52 136" v="0.00,"/>
 			<val e="Slider 53 136" v="0.00,"/>
+			<val e="Pan 54 02" v="-1.00,"/>
+			<val e="Pan 54 03" v="1.00,"/>
+			<val e="Pan 54 20" v="-1.00,"/>
+			<val e="Pan 54 21" v="1.00,"/>
 			<val e="Pan 54 80" v="-1.00,"/>
 			<val e="Pan 54 81" v="1.00,"/>
 			<val e="Pan 54 84" v="-1.00,"/>
 			<val e="Pan 54 85" v="1.00,"/>
-			<val e="Slider 54 120" v="0.00,"/>
-			<val e="Slider 54 121" v="0.00,"/>
+			<val e="Slider 54 90" v="0.00,"/>
+			<val e="Slider 54 91" v="0.00,"/>
 			<val e="Slider 54 136" v="0.00,"/>
 			<val e="Slider 55 136" v="0.00,"/>
+			<val e="Pan 56 02" v="-1.00,"/>
+			<val e="Pan 56 03" v="1.00,"/>
+			<val e="Pan 56 20" v="-1.00,"/>
+			<val e="Pan 56 21" v="1.00,"/>
 			<val e="Pan 56 80" v="-1.00,"/>
 			<val e="Pan 56 81" v="1.00,"/>
 			<val e="Pan 56 84" v="-1.00,"/>
 			<val e="Pan 56 85" v="1.00,"/>
-			<val e="Slider 56 122" v="0.00,"/>
-			<val e="Slider 56 123" v="0.00,"/>
+			<val e="Slider 56 92" v="0.00,"/>
+			<val e="Slider 56 93" v="0.00,"/>
 			<val e="Slider 56 136" v="0.00,"/>
 			<val e="Slider 57 136" v="0.00,"/>
+			<val e="Pan 58 02" v="-1.00,"/>
+			<val e="Pan 58 03" v="1.00,"/>
+			<val e="Pan 58 20" v="-1.00,"/>
+			<val e="Pan 58 21" v="1.00,"/>
 			<val e="Pan 58 80" v="-1.00,"/>
 			<val e="Pan 58 81" v="1.00,"/>
 			<val e="Pan 58 84" v="-1.00,"/>
 			<val e="Pan 58 85" v="1.00,"/>
-			<val e="Slider 58 124" v="0.00,"/>
-			<val e="Slider 58 125" v="0.00,"/>
+			<val e="Slider 58 94" v="0.00,"/>
+			<val e="Slider 58 95" v="0.00,"/>
 			<val e="Slider 58 136" v="0.00,"/>
 			<val e="Slider 59 136" v="0.00,"/>
+			<val e="Pan 60 02" v="-1.00,"/>
+			<val e="Pan 60 03" v="1.00,"/>
+			<val e="Pan 60 20" v="-1.00,"/>
+			<val e="Pan 60 21" v="1.00,"/>
 			<val e="Pan 60 80" v="-1.00,"/>
 			<val e="Pan 60 81" v="1.00,"/>
 			<val e="Pan 60 84" v="-1.00,"/>
 			<val e="Pan 60 85" v="1.00,"/>
-			<val e="Slider 60 126" v="0.00,"/>
-			<val e="Slider 60 127" v="0.00,"/>
+			<val e="Slider 60 96" v="0.00,"/>
+			<val e="Slider 60 97" v="0.00,"/>
 			<val e="Slider 60 136" v="0.00,"/>
 			<val e="Slider 61 136" v="0.00,"/>
+			<val e="Pan 62 02" v="-1.00,"/>
+			<val e="Pan 62 03" v="1.00,"/>
+			<val e="Pan 62 20" v="-1.00,"/>
+			<val e="Pan 62 21" v="1.00,"/>
 			<val e="Pan 62 80" v="-1.00,"/>
 			<val e="Pan 62 81" v="1.00,"/>
 			<val e="Pan 62 84" v="-1.00,"/>
@@ -9119,30 +10142,40 @@
 			<val e="Slider 62 129" v="0.00,"/>
 			<val e="Slider 62 136" v="0.00,"/>
 			<val e="Slider 63 136" v="0.00,"/>
+			<val e="Pan 64 02" v="-1.00,"/>
+			<val e="Pan 64 03" v="1.00,"/>
+			<val e="Pan 64 20" v="-1.00,"/>
+			<val e="Pan 64 21" v="1.00,"/>
 			<val e="Pan 64 80" v="-1.00,"/>
 			<val e="Pan 64 81" v="1.00,"/>
 			<val e="Pan 64 84" v="-1.00,"/>
 			<val e="Pan 64 85" v="1.00,"/>
-			<val e="Slider 64 130" v="0.00,"/>
-			<val e="Slider 64 131" v="0.00,"/>
+			<val e="Slider 64 88" v="0.00,"/>
+			<val e="Slider 64 89" v="0.00,"/>
 			<val e="Slider 64 136" v="0.00,"/>
 			<val e="Slider 65 136" v="0.00,"/>
+			<val e="Pan 66 02" v="-1.00,"/>
+			<val e="Pan 66 03" v="1.00,"/>
+			<val e="Pan 66 20" v="-1.00,"/>
+			<val e="Pan 66 21" v="1.00,"/>
+			<val e="Slider 66 68" v="0.00,"/>
+			<val e="Slider 66 69" v="0.00,"/>
 			<val e="Pan 66 80" v="-1.00,"/>
 			<val e="Pan 66 81" v="1.00,"/>
 			<val e="Pan 66 84" v="-1.00,"/>
 			<val e="Pan 66 85" v="1.00,"/>
-			<val e="Slider 66 132" v="0.00,"/>
-			<val e="Slider 66 133" v="0.00,"/>
 			<val e="Slider 66 136" v="0.00,"/>
 			<val e="Slider 67 136" v="0.00,"/>
-			<val e="Slider 68 72" v="0.00,"/>
-			<val e="Slider 68 73" v="0.00,"/>
+			<val e="Pan 68 02" v="-1.00,"/>
+			<val e="Pan 68 03" v="1.00,"/>
+			<val e="Pan 68 20" v="-1.00,"/>
+			<val e="Pan 68 21" v="1.00,"/>
+			<val e="Slider 68 74" v="0.00,"/>
+			<val e="Slider 68 75" v="0.00,"/>
 			<val e="Pan 68 80" v="-1.00,"/>
 			<val e="Pan 68 81" v="1.00,"/>
 			<val e="Pan 68 84" v="-1.00,"/>
 			<val e="Pan 68 85" v="1.00,"/>
-			<val e="Slider 68 134" v="0.00,"/>
-			<val e="Slider 68 135" v="0.00,"/>
 			<val e="Slider 68 136" v="0.00,"/>
 			<val e="Slider 69 136" v="0.00,"/>
 		</Mixer>
@@ -9152,7 +10185,7 @@
 			<val e="MidiOut" v="None"/>
 			<val e="MidiSelBus" v="0"/>
 			<val e="MidiSelChannel" v="0"/>
-			<val e="MidiSelSubmix" v="4"/>
+			<val e="MidiSelSubmix" v="26"/>
 			<val e="MCSupport" v="1"/>
 			<val e="MCExtender" v="0"/>
 			<val e="MCSelSubmixInPb" v="0"/>
@@ -9217,7 +10250,7 @@
 		<OscRemote0>
 			<val e="OscSelBus" v="0"/>
 			<val e="OscSelChannel" v="0"/>
-			<val e="OscSelSubmix" v="4"/>
+			<val e="OscSelSubmix" v="26"/>
 			<val e="OSCRemoteInUse" v="1"/>
 			<val e="OSCOwnPort" v="7001"/>
 			<val e="OSCRemotePort" v="9001"/>

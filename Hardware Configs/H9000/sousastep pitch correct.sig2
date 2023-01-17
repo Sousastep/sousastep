@@ -23,8 +23,8 @@ CONSTANT|1/2|value=0.5
 IIR|highcut:1|in=div2_R-out|n_sections=4|clipvalue=10000|freq=kHz_to_Hz-out|qfactor=1|type=0
 MIX|mix:8|time_constant=20|clipvalue=10000|in1=pitch_correct_R-out1|in2=highcut:1-out|amp1=mix_knob-out|amp2=c_abs:7-output
 PERCENTKNOB|quantization|statement=quant: %3.0f%%|name=quantization|min=-200|max=200|res=1|default=100
-IIR|low_cut_L|in=adc-in2|n_sections=2|clipvalue=10000|freq=161|qfactor=1|type=1
-IIR|low_cut_R|in=adc-in3|n_sections=2|clipvalue=10000|freq=161|qfactor=1|type=1
+IIR|low_cut_L|in=adc-in2|n_sections=4|clipvalue=10000|freq=20|qfactor=1|type=1
+IIR|low_cut_R|in=adc-in3|n_sections=4|clipvalue=10000|freq=20|qfactor=1|type=1
 MULTIPLY|div2_R|in1=sum_R-out|in2=1/2-out
 MULTIPLY|div2_L|in1=sum_L-out|in2=1/2-out
 TAIL|sdg

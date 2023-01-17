@@ -9,7 +9,12 @@ Dante slot 1
 MADI slot 3
 
 
-Algorithm IDs
+
+New alg: sousastep pitch correct
+
+
+
+Old Algorithm IDs
 -------------
 
 "dtonicii pitch correct" ID 10115

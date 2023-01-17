@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 991.0, 959.0 ],
+		"rect" : [ 465.0, -967.0, 991.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -167,11 +167,11 @@
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
 										"Ceiling" : -12.0,
-										"Lookahead" : 2.5,
+										"Lookahead" : 0.0,
 										"Loudness" : 0.0,
 										"Release" : 982.821680841435864,
-										"Saturation" : 0.102362204724409,
-										"Saturation Color" : 0.34251968503937
+										"Saturation" : 0.0,
+										"Saturation Color" : 0.5
 									}
 
 								}
@@ -213,11 +213,11 @@
 								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -6.0,
-										"Lookahead" : 2.5,
+										"Ceiling" : -8.0,
+										"Lookahead" : 0.0,
 										"Loudness" : 0.0,
 										"Release" : 1084.624576675516209,
-										"Saturation" : 0.0,
+										"Saturation" : 0.220472440944882,
 										"Saturation Color" : 0.5
 									}
 
@@ -304,7 +304,7 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "2346.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HvO07yd....C7C........A9r3PVB...TvOc8BG....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEwACHiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.RLz.Bcu8lXgABZocFZfPlb4ABMfT0bkIGHzDCH2.RPxQWcxkVXf.CHf.CHv.BLf.CHv.BLf.CHfDiM2.yM4HiMxPCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.BMf.CHv.BLfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfbCHDUlYgUGazAxMfLUchQWdvUFHw.CHC8VavIWYyM2axABMfPUdvUFH3.BQ44VXsk1XyABLf.CHv.xMf.CHv.BLf.CHv.BLfHyLf.CHv.BLfXCHBkGbgM2bf.CH4.BQxkGHu.xUkQGHw.RLy.RQtElXrUFHEYlYkMFcfDCHwDCHEgGckImagwFHSMDHv.RL1.RQ3QWYx4VXrAxTCAxQgklaf.iK0.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3xMvbSN4jCN4.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK3XCMv.CLvfCHwHCHRUFakE1bkARSuQVYf.iK0.RLx.hTkwVYgMWYfPUZsUFHv3hL2HCLv.CLw.RL2.xTCABQkQWYiQWZu4FHM8FYkABLtTCHwTCHSMDHEEEHBUFarAhQxUVbf.iK0.RL0.xTCARQQAhPkwFafbTXo4FHv3RMfDyLfL0PfTTTffDTfXjbkEGHv.RLz.xTCARQQABRPYDHFIWYwABLfDiLfL0PfTTTffDTFAxStABLfDyLfL0PfTTTfvDTfXjbkEGHw.RLz.xTCARQQABSPYDHFIWYwARLfDiLfL0PfTTTfvDTFAxStABLffCHSMDHEEEHO4FHv.RLv.hUgIWZgQWZu41bf.CHzHCHv.RL3.RSoQVZC8lazI2arwVYx4TXsUFHyHCH...........................................HwPCHe8ERW8USgAGbkQ1WeACHz.x+++++fDCMf70WHc0WMEFbvUFYe8ULfPCH+++++CRL0.xWegzUe0TXvAWYj80Ww.CHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULw.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwLCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULz.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwXCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL2.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECNfPCH+++++CRL0.xWegzUe0TXvAWYj80WwjCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kLfPCH+++++CRLz.xWegzUe0TXvAWYj80Wy.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeQCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UMfPCH+++++CRLz.xWegzUe0TXvAWYj80W1.BMf7++++OHwPCHe8ERW8USgAGbkQ1WecCHz.x+++++fDCMf70WHc0WMEFbvUFYe8ENfPCH+++++CRLz.xWegzUe0TXvAWYj80W4.BMf7++++OHwDCHe8USgAGbkQ1WeACHz.x+++++fDSLf70WMEFbvUFYe8ULfPCH+++++CRLx.xWe0TXvAWYj80Ww.CHz.x+++++fDiLf70WMEFbvUFYe8ULw.BMf7++++OHwHCHe8USgAGbkQ1WeEiLfPCH+++++CRLx.xWe0TXvAWYj80WwLCHz.x+++++fDiLf70WMEFbvUFYe8ULz.BMf7++++OHwHCHe8USgAGbkQ1WeESMfPCH+++++CRLx.xWe0TXvAWYj80WwXCHz.x+++++fDiLf70WMEFbvUFYe8UL2.BMf7++++OHwHCHe8USgAGbkQ1WeECNfPCH+++++CRLx.xWe0TXvAWYj80WwjCHz.x+++++fDSLf70WMEFbvUFYe8kLfPCH+++++CRLw.xWe0TXvAWYj80Wy.BMf7++++OHwDCHe8USgAGbkQ1WeQCHz.x+++++fDSLf70WMEFbvUFYe8UMfPCH+++++CRLw.xWe0TXvAWYj80W1.BMf7++++OHwDCHe8USgAGbkQ1WecCHz.x+++++fDSLf70WMEFbvUFYe8ENfPCH+++++CRLw.xWe0TXvAWYj80W4.BMf7++++OHxbCHe80TTEDUE80WRUzTEIkUEQzWe0zSDkjQIUDQfDCHvnfDTMEUAAA.RDVcsYFVU4FcoQGakQF.H.PF.XB.q..N.rD.SAvV..F.kAfZAnX.OFPjALY.XFflAPZ.tFPrAvKBCi.xHnLBOC.......HP..........jA..................f.1"
+								"blob" : "2346.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HvOgn7u....C7C........A9r3PVB...TvOnImr....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEwACHiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.RLz.Bcu8lXgABZocFZfPlb4ABMfT0bkIGHzDCH2.RPxQWcxkVXf.CHf.CHv.BLf.CHv.BLf.CHfDiM2LSNvHCL2XCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.BMf.CHv.BLfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfbCHDUlYgUGazAxMfLUchQWdvUFHw.CHC8VavIWYyM2axABMfPUdvUFH3.BQ44VXsk1XyABLf.CHv.xMf.CHv.BLf.CHv.BLfHyLf.CHv.BLfXCHBkGbgM2bf.CH4.BQxkGHu.xUkQGHw.RLy.RQtElXrUFHEYlYkMFcfDCHwDCHEgGckImagwFHSMDHv.RL1.RQ3QWYx4VXrAxTCAxQgklaf.iK0.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3hMyDSN4jSNw.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK4.CNv.CLwDCHwHCHRUFakE1bkARSuQVYf.iK0.RLx.hTkwVYgMWYfPUZsUFHv3hL2HCLv.CLw.RL2.xTCABQkQWYiQWZu4FHM8FYkABLtTCHwTCHSMDHEEEHBUFarAhQxUVbf.iK0.RL0.xTCARQQAhPkwFafbTXo4FHv3RMfDyLfL0PfTTTffDTfXjbkEGHv.RLz.xTCARQQABRPYDHFIWYwABLfDiLfL0PfTTTffDTFAxStABLfDyLfL0PfTTTfvDTfXjbkEGHw.RLz.xTCARQQABSPYDHFIWYwARLfDiLfL0PfTTTfvDTFAxStABLffCHSMDHEEEHO4FHv.RLv.hUgIWZgQWZu41bf.CHzHCHv.RL3.RSoQVZC8lazI2arwVYx4TXsUFHyHCH...........................................HwPCHe8ERW8USgAGbkQ1WeACHz.x+++++fDCMf70WHc0WMEFbvUFYe8ULfPCH+++++CRL0.xWegzUe0TXvAWYj80Ww.CHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULw.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwLCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULz.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwXCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL2.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECNfPCH+++++CRL0.xWegzUe0TXvAWYj80WwjCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kLfPCH+++++CRLz.xWegzUe0TXvAWYj80Wy.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeQCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UMfPCH+++++CRLz.xWegzUe0TXvAWYj80W1.BMf7++++OHwPCHe8ERW8USgAGbkQ1WecCHz.x+++++fDCMf70WHc0WMEFbvUFYe8ENfPCH+++++CRLz.xWegzUe0TXvAWYj80W4.BMf7++++OHwDCHe8USgAGbkQ1WeACHz.x+++++fDSLf70WMEFbvUFYe8ULfPCH+++++CRLx.xWe0TXvAWYj80Ww.CHz.x+++++fDiLf70WMEFbvUFYe8ULw.BMf7++++OHwHCHe8USgAGbkQ1WeEiLfPCH+++++CRLx.xWe0TXvAWYj80WwLCHz.x+++++fDiLf70WMEFbvUFYe8ULz.BMf7++++OHwHCHe8USgAGbkQ1WeESMfPCH+++++CRLx.xWe0TXvAWYj80WwXCHz.x+++++fDiLf70WMEFbvUFYe8UL2.BMf7++++OHwHCHe8USgAGbkQ1WeECNfPCH+++++CRLx.xWe0TXvAWYj80WwjCHz.x+++++fDSLf70WMEFbvUFYe8kLfPCH+++++CRLw.xWe0TXvAWYj80Wy.BMf7++++OHwDCHe8USgAGbkQ1WeQCHz.x+++++fDSLf70WMEFbvUFYe8UMfPCH+++++CRLw.xWe0TXvAWYj80W1.BMf7++++OHwDCHe8USgAGbkQ1WecCHz.x+++++fDSLf70WMEFbvUFYe8ENfPCH+++++CRLw.xWe0TXvAWYj80W4.BMf7++++OHxbCHe80TTEDUE80WRUzTEIkUEQzWe0zSDkjQIUDQfDCHwnfDTMEUAAA.RDVcsYFVU4FcoQGakQF.H.PF.XB.q..N.rD.SAvV..F.kAfZAnX.OFPjALY.XFflAPZ.tFPrAvKBCi.xHnLBOC.......HP..........jA..................f.1"
 							}
 
 						}
@@ -342,7 +342,7 @@
 								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -11.0,
+										"Ceiling" : -10.0,
 										"Filters On/Off" : 1.0,
 										"Filters On/Off[1]" : 1.0
 									}
@@ -386,7 +386,7 @@
 								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -5.0,
+										"Ceiling" : -6.0,
 										"Filters On/Off" : 1.0,
 										"Filters On/Off[1]" : 1.0
 									}
@@ -587,7 +587,7 @@
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 245, -852, 1685, -73 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage post-triplewrap_mixbus @savemode 0",
@@ -739,7 +739,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 447.750001899965127, 885.809075306784962, 175.0, 170.0 ],
+					"patching_rect" : [ 303.750001899965127, 906.809075306784962, 175.0, 170.0 ],
 					"presentation_linecount" : 2,
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
@@ -1190,7 +1190,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1294.10579077937291, 33.005149184195034, 58.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 75.111434134470869, 134.0, 25.0 ],
+					"presentation_rect" : [ 101.0, 16.392208389259395, 134.0, 25.0 ],
 					"text" : "mute high dry",
 					"textjustification" : 1
 				}
@@ -1210,7 +1210,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 402.0, 463.000036409258428, 84.5, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 46.080856037385729, 134.0, 25.0 ],
+					"presentation_rect" : [ 101.0, 75.080856037385729, 134.0, 25.0 ],
 					"text" : "mute very low dry",
 					"textjustification" : 1
 				}
@@ -1230,7 +1230,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.477514112192011, 38.35340407755757, 75.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 101.0, 16.392208389259395, 134.0, 25.0 ],
+					"presentation_rect" : [ 101.0, 46.080856037385729, 134.0, 25.0 ],
 					"text" : "mute low dry",
 					"textjustification" : 1
 				}
@@ -1594,29 +1594,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-1116", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-1021", 0 ],
 					"source" : [ "obj-1116", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
-					"source" : [ "obj-1117", 1 ]
+					"destination" : [ "obj-1028", 0 ],
+					"source" : [ "obj-1116", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-1021", 0 ],
 					"source" : [ "obj-1117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1028", 0 ],
+					"source" : [ "obj-1117", 1 ]
 				}
 
 			}
@@ -1782,20 +1782,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1021", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1028", 0 ],
-					"source" : [ "obj-4", 1 ]
 				}
 
 			}
