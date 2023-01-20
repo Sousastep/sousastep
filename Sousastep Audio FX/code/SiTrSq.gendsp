@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -179,8 +179,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.777778963247783, 95.456402583581507, 131.0, 22.0 ],
-					"text" : "scale -100 100 0.5 -0.5",
+					"patching_rect" : [ 318.777778963247783, 95.456402583581507, 111.0, 22.0 ],
+					"text" : "scale -100 100 1 -1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
