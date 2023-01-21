@@ -42,6 +42,79 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-129",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 946.0, 1139.5, 327.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/jeremybernstein/shell"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 835.416078286413267, 1146.0, 100.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"shell" : "(default)"
+					}
+,
+					"text" : "shell"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 14.0,
+					"hint" : "",
+					"id" : "obj-99",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 861.416078286413267, 1064.161889591362979, 74.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 30.020650286413456, 262.751529599873663, 72.0, 22.0 ],
+					"text" : "git status",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.776470588235294, 0.352941176470588, 0.211764705882353, 1.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 837.416078286413267, 1063.161889591362979, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.020650286413456, 259.942915877375867, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 836.416078286413267, 1109.0, 494.0, 22.0 ],
+					"text" : "\"/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio Status/other/git_status.command\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.19 ],
 					"id" : "obj-98",
 					"interval" : 17,
@@ -704,8 +777,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 637.416078286413267, 872.161889591362979, 172.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 30.020650286413456, 206.246068678237805, 113.0, 38.0 ],
+					"presentation_rect" : [ 30.020650286413456, 201.428830260866533, 176.0, 22.0 ],
 					"text" : "open secondary audio FX",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -722,7 +794,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 613.416078286413267, 871.161889591362979, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.020650286413456, 213.246068678237805, 24.0, 24.0 ]
+					"presentation_rect" : [ 4.020650286413456, 201.159292353367277, 24.0, 24.0 ]
 				}
 
 			}
@@ -933,7 +1005,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1346.80734340259005, 101.385959073607864, 70.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.983463488234861, 226.746068678237805, 70.0, 22.0 ],
+					"presentation_rect" : [ 253.484577620781693, 226.746068678237918, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -971,7 +1043,7 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 2074.749852738997106, 249.892612296277207, 30.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.749852738997106, 185.746068678237805, 30.0, 22.0 ],
+					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 30.0, 22.0 ],
 					"text" : "*~ 5"
 				}
 
@@ -1046,7 +1118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1279.30734340259005, 310.027789471650067, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 298.994680642101002, 193.246068678237805, 24.0, 24.0 ]
+					"presentation_rect" : [ 299.495794774647834, 160.246068678237805, 24.0, 24.0 ]
 				}
 
 			}
@@ -1061,7 +1133,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1346.80734340259005, 137.486895056506, 130.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.84646481949801, 250.746068678237805, 132.136998668736851, 22.0 ]
+					"presentation_rect" : [ 191.347578952044842, 250.746068678237918, 132.136998668736851, 22.0 ]
 				}
 
 			}
@@ -1140,7 +1212,7 @@
 					"patching_rect" : [ 1171.614686805180099, 302.527789471650067, 105.69265659740995, 39.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 216.564951510659853, 185.746068678237805, 80.700025286413165, 39.0 ],
+					"presentation_rect" : [ 217.066065643206684, 152.746068678237805, 80.700025286413165, 39.0 ],
 					"text" : "H9K pitch correct",
 					"textjustification" : 1
 				}
@@ -1431,7 +1503,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 613.416078286413267, 843.464685091362981, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.020650286413456, 246.746068678237805, 104.0, 22.0 ],
+					"presentation_rect" : [ 30.020650286413456, 232.090179930370027, 104.0, 22.0 ],
 					"text" : "open visual FX",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -1448,7 +1520,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 589.416078286413267, 842.464685091362981, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.020650286413456, 245.746068678237805, 24.0, 24.0 ]
+					"presentation_rect" : [ 5.020650286413456, 230.551104115371544, 24.0, 24.0 ]
 				}
 
 			}
@@ -1463,8 +1535,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 581.416078286413267, 814.767480591362983, 154.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 30.020650286413456, 170.767480591362983, 100.0, 38.0 ],
+					"presentation_rect" : [ 30.020650286413456, 170.767480591362983, 155.0, 22.0 ],
 					"text" : "open primary audio FX",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -1481,7 +1552,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 555.416078286413267, 813.767480591362983, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.055396023531102, 177.767480591362983, 24.0, 24.0 ]
+					"presentation_rect" : [ 5.055396023531102, 171.767480591362983, 24.0, 24.0 ]
 				}
 
 			}
@@ -3969,6 +4040,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -4703,6 +4781,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-254", 0 ],
 					"source" : [ "obj-533", 0 ]
 				}
@@ -5205,6 +5290,10 @@
 				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
