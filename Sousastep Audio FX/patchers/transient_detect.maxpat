@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,23 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 508.0, 531.0, 56.0, 22.0 ],
+					"restore" : 					{
+						"transient_selector" : [ 0 ]
+					}
+,
+					"text" : "autopattr",
+					"varname" : "u327001448"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 2,
@@ -75,7 +92,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 439.0, 572.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.47026683432523, 265.5, 62.52973316567477, 62.52973316567477 ]
+					"presentation_rect" : [ 27.47026683432523, 265.5, 62.52973316567477, 62.52973316567477 ],
+					"varname" : "transient_selector"
 				}
 
 			}
