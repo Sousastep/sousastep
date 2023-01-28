@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,65 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 205.0, 137.0, 150.0, 20.0 ],
+					"text" : "live.menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.0, 172.904828979295075, 150.0, 20.0 ],
+					"text" : "umenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.376470588235294, 0.384313725490196, 0.4, 1.0 ],
+					"fontsize" : 18.0,
+					"hlttextcolor" : [ 0.874509803921569, 0.854901960784314, 0.890196078431372, 1.0 ],
+					"id" : "obj-3",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 173.0, 161.5, 100.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 3.0, 196.0, 25.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : ""
+						}
+,
+						"hlttextcolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "Gojira", "MF_RingMod", "Fortin_NTS_Suite", "Darkglass_Ultra", "Archetype_Plini", "Archetype_Abasi", "Archetype_Nolly", "ClusterFlux", "Archetype_Cory_Wong", "MangledVerb", "CrushStation", "Archetype_Tim_Henson", "Dry-ish" ],
+							"parameter_longname" : "Presets",
+							"parameter_mmax" : 12,
+							"parameter_shortname" : "Presets",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "Presets"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
@@ -82,9 +141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 173.189739396227196, 156.904828979295104, 226.0, 30.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.208259327239602, 5.08196576848411, 248.633308933559988, 30.0 ],
+					"patching_rect" : [ 377.189739396227196, 194.904828979295104, 226.0, 30.0 ],
 					"textcolor" : [ 0.874509803921569, 0.854901960784314, 0.890196078431372, 1.0 ]
 				}
 
@@ -92,7 +149,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -100,11 +157,25 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-34", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
  ],
+		"parameters" : 		{
+			"obj-3" : [ "Presets", "Presets", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
