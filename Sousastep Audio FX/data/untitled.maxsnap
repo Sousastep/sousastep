@@ -1,0 +1,50 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "untitled",
+	"origin" : "3c4d379d-a969-11ed-b79d-ce86efe8c9b3",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"color" : 		{
+			"value" : 0.5
+		}
+,
+		"normalize" : 		{
+			"value" : 0.0
+		}
+,
+		"gate_attack" : 		{
+			"value" : 0.5
+		}
+,
+		"gate" : 		{
+			"value" : -48.0
+		}
+,
+		"ceiling" : 		{
+			"value" : -6.0
+		}
+,
+		"saturation" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "3c4d379d-a969-11ed-b79d-ce86efe8c9b3",
+		"release" : 		{
+			"value" : 250.0
+		}
+,
+		"loudness" : 		{
+			"value" : 0.0
+		}
+,
+		"lookahead" : 		{
+			"value" : 0.0
+		}
+
+	}
+
+}

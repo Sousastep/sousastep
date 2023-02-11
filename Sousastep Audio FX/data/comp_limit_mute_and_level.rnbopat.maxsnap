@@ -1,0 +1,150 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "comp_limit_mute_and_level.rnbopat",
+	"origin" : "comp_limit_mute_and_level.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"mute_high_mod" : 		{
+			"value" : 0.0
+		}
+,
+		"__sps" : 		{
+			"p_obj-1144" : 			{
+
+			}
+,
+			"compressor" : 			{
+				"__sps" : 				{
+					"Compensation~" : 					{
+
+					}
+,
+					"Compression~" : 					{
+
+					}
+,
+					"Volume&Clip~" : 					{
+
+					}
+,
+					"Lookahead~" : 					{
+
+					}
+
+				}
+,
+				"sustain" : 				{
+					"value" : 25.0
+				}
+,
+				"attack" : 				{
+					"value" : 25.0
+				}
+,
+				"softclip" : 				{
+					"value" : 0.0
+				}
+,
+				"comp" : 				{
+					"value" : 25.0
+				}
+,
+				"volume" : 				{
+					"value" : 0.0
+				}
+,
+				"lookahead" : 				{
+					"value" : 1.0
+				}
+
+			}
+,
+			"color_limiter" : 			{
+				"color" : 				{
+					"value" : 0.5
+				}
+,
+				"normalize" : 				{
+					"value" : 0.0
+				}
+,
+				"gate_attack" : 				{
+					"value" : 0.5
+				}
+,
+				"gate" : 				{
+					"value" : -48.0
+				}
+,
+				"ceiling" : 				{
+					"value" : -6.0
+				}
+,
+				"saturation" : 				{
+					"value" : 0.0
+				}
+,
+				"release" : 				{
+					"value" : 250.0
+				}
+,
+				"lookahead" : 				{
+					"value" : 0.0
+				}
+,
+				"loudness" : 				{
+					"value" : 0.0
+				}
+
+			}
+,
+			"p_obj-1148" : 			{
+
+			}
+,
+			"p_obj-956" : 			{
+
+			}
+,
+			"p_obj-950" : 			{
+
+			}
+,
+			"p_obj-1116" : 			{
+
+			}
+,
+			"p_obj-1117" : 			{
+
+			}
+
+		}
+,
+		"mute_high_dry" : 		{
+			"value" : 0.0
+		}
+,
+		"mute_low_mod" : 		{
+			"value" : 0.0
+		}
+,
+		"mute_low_dry" : 		{
+			"value" : 0.0
+		}
+,
+		"mute_very_low_mod" : 		{
+			"value" : 0.0
+		}
+,
+		"mute_very_low_dry" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "comp_limit_mute_and_level.rnbopat"
+	}
+
+}

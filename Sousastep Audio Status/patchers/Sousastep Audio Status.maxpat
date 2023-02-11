@@ -42,79 +42,6 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-129",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 946.0, 1139.5, 327.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://github.com/jeremybernstein/shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-118",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 835.416078286413267, 1146.0, 100.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"shell" : "(default)"
-					}
-,
-					"text" : "shell"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontsize" : 14.0,
-					"hint" : "",
-					"id" : "obj-99",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 861.416078286413267, 1064.161889591362979, 74.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 30.020650286413456, 262.751529599873663, 72.0, 22.0 ],
-					"text" : "git status",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-104",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.776470588235294, 0.352941176470588, 0.211764705882353, 1.0 ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 837.416078286413267, 1063.161889591362979, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.020650286413456, 259.942915877375867, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-53",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 836.416078286413267, 1109.0, 494.0, 22.0 ],
-					"text" : "\"/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio Status/other/git_status.command\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.19 ],
 					"id" : "obj-98",
 					"interval" : 17,
@@ -1037,14 +964,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-570",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2074.749852738997106, 249.892612296277207, 30.0, 22.0 ],
+					"patching_rect" : [ 2074.749852738997106, 249.892612296277207, 30.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 30.0, 22.0 ],
-					"text" : "*~ 5"
+					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 40.0, 22.0 ],
+					"text" : "*~ 1.7"
 				}
 
 			}
@@ -2054,9 +1982,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.416078286413267, 692.29921000000013, 468.0, 42.0 ],
+					"patching_rect" : [ 639.416078286413267, 692.29921000000013, 468.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.020650286413456, 10.37557814784077, 388.0, 42.0 ]
+					"presentation_rect" : [ 2.020650286413456, 10.37557814784077, 388.0, 53.0 ]
 				}
 
 			}
@@ -4040,13 +3968,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
-					"source" : [ "obj-104", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
@@ -4781,13 +4702,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
-					"source" : [ "obj-53", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-254", 0 ],
 					"source" : [ "obj-533", 0 ]
 				}
@@ -5290,10 +5204,6 @@
 				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
