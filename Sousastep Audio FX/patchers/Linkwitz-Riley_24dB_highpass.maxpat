@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"rect" : [ 664.0, -735.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ -153.0, -829.0, 761.0, 795.0 ],
+						"rect" : [ 59.0, 106.0, 600.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -773,12 +773,11 @@
 								}
 
 							}
- ],
-						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+ ]
 					}
 ,
-					"patching_rect" : [ 50.0, 195.422222222222217, 190.625000000000227, 22.0 ],
-					"text" : "gen~ Linkwitz-Riley_24dB_HP"
+					"patching_rect" : [ 50.0, 195.422222222222217, 204.0, 22.0 ],
+					"text" : "gen~ @title Linkwitz-Riley_24dB_HP"
 				}
 
 			}

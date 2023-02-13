@@ -1,0 +1,26 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "GMaudio_clipper",
+	"origin" : "GMaudio_clipper",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"clipping_headroom_amount_dB" : 		{
+			"value" : 0.0
+		}
+,
+		"highcut_5kHz_enable" : 		{
+			"value" : 1.0
+		}
+,
+		"lowcut_20Hz_enable" : 		{
+			"value" : 1.0
+		}
+,
+		"__presetid" : "GMaudio_clipper"
+	}
+
+}

@@ -1,0 +1,46 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "function_two_curves_wrap",
+	"origin" : "function_two_curves_wrap",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"endX" : 		{
+			"value" : 1.0
+		}
+,
+		"secondCurve" : 		{
+			"value" : 0.0
+		}
+,
+		"endY" : 		{
+			"value" : 0.0
+		}
+,
+		"firstX" : 		{
+			"value" : 0.0
+		}
+,
+		"midX" : 		{
+			"value" : 1.0
+		}
+,
+		"firstY" : 		{
+			"value" : 0.0
+		}
+,
+		"midY" : 		{
+			"value" : 38.571291425199234
+		}
+,
+		"firstCurve" : 		{
+			"value" : 0.645
+		}
+,
+		"__presetid" : "function_two_curves_wrap"
+	}
+
+}

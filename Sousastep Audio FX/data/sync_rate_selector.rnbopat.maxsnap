@@ -1,0 +1,54 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "sync_rate_selector.rnbopat",
+	"origin" : "sync_rate_selector.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"ctrlr_diag-DL" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_diag-DR" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_diag-UR" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_left" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_right" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_L2" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_up" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_diag-UL" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_down" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_L1" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "sync_rate_selector.rnbopat"
+	}
+
+}

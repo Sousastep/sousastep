@@ -1,0 +1,18 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "transient_detect",
+	"origin" : "1d43214d-aafc-11ed-a14d-ce86efe8c9b2",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"transientTrig_onlyPhrase_or_everyArticulation" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "1d43214d-aafc-11ed-a14d-ce86efe8c9b2"
+	}
+
+}

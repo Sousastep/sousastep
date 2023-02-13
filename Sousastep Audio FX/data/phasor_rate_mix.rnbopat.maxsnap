@@ -1,0 +1,14 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "phasor_rate_mix.rnbopat",
+	"origin" : "phasor_rate_mix.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__presetid" : "phasor_rate_mix.rnbopat"
+	}
+
+}

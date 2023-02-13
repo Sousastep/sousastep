@@ -1,0 +1,14 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "taptempo",
+	"origin" : "9e332885-aa92-11ed-a885-ce86efe8c9b2",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__presetid" : "9e332885-aa92-11ed-a885-ce86efe8c9b2"
+	}
+
+}

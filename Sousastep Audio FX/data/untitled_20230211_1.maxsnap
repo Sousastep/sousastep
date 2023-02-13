@@ -1,0 +1,26 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "untitled",
+	"origin" : "c106875b-aa44-11ed-875b-ce86efe8c9b2",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"clipping_headroom_amount_dB" : 		{
+			"value" : 0.0
+		}
+,
+		"highcut_5kHz_enable" : 		{
+			"value" : 0.0
+		}
+,
+		"lowcut_20Hz_enable" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "c106875b-aa44-11ed-875b-ce86efe8c9b2"
+	}
+
+}

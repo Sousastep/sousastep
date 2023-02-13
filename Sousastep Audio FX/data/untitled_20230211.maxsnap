@@ -1,0 +1,97 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "untitled",
+	"origin" : "dd859abb-aa2b-11ed-9abb-ce86efe8c9b3",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"__sps" : 		{
+			"TapTempo" : 			{
+
+			}
+,
+			"p_obj-87" : 			{
+				"regen" : 				{
+					"value" : 50.0
+				}
+,
+				"__sps" : 				{
+					"DelayCalc" : 					{
+
+					}
+,
+					"Input~" : 					{
+
+					}
+,
+					"FilterDelay~" : 					{
+						"__sps" : 						{
+							"Filter~" : 							{
+
+							}
+,
+							"Filter~[1]" : 							{
+
+							}
+,
+							"Filter~[2]" : 							{
+
+							}
+,
+							"Filter~[3]" : 							{
+
+							}
+
+						}
+
+					}
+,
+					"Volume~" : 					{
+
+					}
+
+				}
+,
+				"filter" : 				{
+					"value" : 0.0
+				}
+,
+				"time" : 				{
+					"value" : 50.0
+				}
+,
+				"volume" : 				{
+					"value" : 0.0
+				}
+,
+				"input" : 				{
+					"value" : 1.0
+				}
+,
+				"color" : 				{
+					"value" : 50.0
+				}
+,
+				"fb" : 				{
+					"value" : 1.0
+				}
+,
+				"spread" : 				{
+					"value" : 0.0
+				}
+,
+				"scale" : 				{
+					"value" : 3.0
+				}
+
+			}
+
+		}
+,
+		"__presetid" : "dd859abb-aa2b-11ed-9abb-ce86efe8c9b3"
+	}
+
+}
