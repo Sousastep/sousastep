@@ -1,0 +1,26 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "ctrlr_joystick_axis_offsets.rnbopat",
+	"origin" : "ctrlr_joystick_axis_offsets.rnbopat",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"ctrlr_L3" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_LV" : 		{
+			"value" : 127.0
+		}
+,
+		"ctrlr_LH" : 		{
+			"value" : 127.0
+		}
+,
+		"__presetid" : "ctrlr_joystick_axis_offsets.rnbopat"
+	}
+
+}

@@ -1,0 +1,146 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "freq_mod_envelopes",
+	"origin" : "freq_mod_envelopes",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"high freq mod floor env decay in samples" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "freq_mod_envelopes",
+		"high freq mod ceiling env decay in samples" : 		{
+			"value" : 0.0
+		}
+,
+		"high freq mod ceiling env attack in samples" : 		{
+			"value" : 0.0
+		}
+,
+		"__sps" : 		{
+			"high_freq_mod_floor" : 			{
+				"endX" : 				{
+					"value" : 0.0
+				}
+,
+				"secondCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"endY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"midY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstX" : 				{
+					"value" : 0.0
+				}
+,
+				"midX" : 				{
+					"value" : 0.0
+				}
+,
+				"firstY" : 				{
+					"value" : 0.0
+				}
+
+			}
+,
+			"high_freq_mod_ceiling" : 			{
+				"endX" : 				{
+					"value" : 0.0
+				}
+,
+				"secondCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"endY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"midY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstX" : 				{
+					"value" : 0.0
+				}
+,
+				"midX" : 				{
+					"value" : 0.0
+				}
+,
+				"firstY" : 				{
+					"value" : 0.0
+				}
+
+			}
+,
+			"high_freq_mod_spread" : 			{
+				"endX" : 				{
+					"value" : 0.0
+				}
+,
+				"secondCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"endY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstCurve" : 				{
+					"value" : 0.0
+				}
+,
+				"midY" : 				{
+					"value" : 0.0
+				}
+,
+				"firstX" : 				{
+					"value" : 0.0
+				}
+,
+				"midX" : 				{
+					"value" : 0.0
+				}
+,
+				"firstY" : 				{
+					"value" : 0.0
+				}
+
+			}
+
+		}
+,
+		"high freq mod floor env attack in samples" : 		{
+			"value" : 0.0
+		}
+,
+		"select slide or smEnvFollow" : 		{
+			"value" : 1.0
+		}
+,
+		"select peak or rms" : 		{
+			"value" : 0.0
+		}
+
+	}
+
+}
