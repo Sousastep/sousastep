@@ -1,0 +1,151 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "untitled",
+	"origin" : "77e403d7-acab-11ed-83d7-ce86efe8c9b3",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 1,
+	"snapshot" : 	{
+		"__sps" : 		{
+			"paramEQ2" : 			{
+				"__sps" : 				{
+					"Level~" : 					{
+
+					}
+,
+					"HighMid~" : 					{
+
+					}
+,
+					"HighCut~" : 					{
+
+					}
+,
+					"LowMid~" : 					{
+
+					}
+
+				}
+,
+				"highcut" : 				{
+					"value" : 0.0
+				}
+,
+				"himid" : 				{
+					"value" : 0.0
+				}
+,
+				"level" : 				{
+					"value" : 0.0
+				}
+,
+				"lomid" : 				{
+					"value" : 0.0
+				}
+,
+				"himidfq" : 				{
+					"value" : 0.0
+				}
+,
+				"lomidfq" : 				{
+					"value" : 0.0
+				}
+
+			}
+,
+			"paramEQ1" : 			{
+				"__sps" : 				{
+					"Level~" : 					{
+
+					}
+,
+					"HighMid~" : 					{
+
+					}
+,
+					"HighCut~" : 					{
+
+					}
+,
+					"LowMid~" : 					{
+
+					}
+
+				}
+,
+				"highcut" : 				{
+					"value" : 0.0
+				}
+,
+				"himid" : 				{
+					"value" : 0.0
+				}
+,
+				"level" : 				{
+					"value" : 0.0
+				}
+,
+				"lomid" : 				{
+					"value" : 0.0
+				}
+,
+				"himidfq" : 				{
+					"value" : 0.0
+				}
+,
+				"lomidfq" : 				{
+					"value" : 0.0
+				}
+
+			}
+,
+			"pitchshifter" : 			{
+				"__sps" : 				{
+					"PitchShift~[1]" : 					{
+
+					}
+,
+					"FreqCalc" : 					{
+
+					}
+,
+					"PitchShift~" : 					{
+
+					}
+,
+					"Switch~" : 					{
+
+					}
+,
+					"Mix~" : 					{
+
+					}
+
+				}
+,
+				"spread" : 				{
+					"value" : 0.0
+				}
+,
+				"mix" : 				{
+					"value" : 50.0
+				}
+,
+				"window" : 				{
+					"value" : 80.0
+				}
+,
+				"transp" : 				{
+					"value" : 0.0
+				}
+
+			}
+
+		}
+,
+		"__presetid" : "77e403d7-acab-11ed-83d7-ce86efe8c9b3"
+	}
+
+}

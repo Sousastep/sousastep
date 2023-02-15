@@ -24,7 +24,7 @@
 		"__sps" : 		{
 			"high_freq_mod_floor" : 			{
 				"endX" : 				{
-					"value" : 0.0
+					"value" : 1.0
 				}
 ,
 				"secondCurve" : 				{
@@ -36,11 +36,11 @@
 				}
 ,
 				"firstCurve" : 				{
-					"value" : 0.0
+					"value" : 0.045
 				}
 ,
 				"midY" : 				{
-					"value" : 0.0
+					"value" : 34.208875930504234
 				}
 ,
 				"firstX" : 				{
@@ -48,26 +48,26 @@
 				}
 ,
 				"midX" : 				{
-					"value" : 0.0
+					"value" : 1.0
 				}
 ,
 				"firstY" : 				{
-					"value" : 0.0
+					"value" : 6.591321480228481
 				}
 
 			}
 ,
 			"high_freq_mod_ceiling" : 			{
 				"endX" : 				{
-					"value" : 0.0
+					"value" : 0.999206698610679
 				}
 ,
 				"secondCurve" : 				{
-					"value" : 0.0
+					"value" : -0.355000000000001
 				}
 ,
 				"endY" : 				{
-					"value" : 0.0
+					"value" : 100.0
 				}
 ,
 				"firstCurve" : 				{
@@ -75,7 +75,7 @@
 				}
 ,
 				"midY" : 				{
-					"value" : 0.0
+					"value" : 18.019275045859828
 				}
 ,
 				"firstX" : 				{
@@ -83,18 +83,18 @@
 				}
 ,
 				"midX" : 				{
-					"value" : 0.0
+					"value" : 0.12571719928198
 				}
 ,
 				"firstY" : 				{
-					"value" : 0.0
+					"value" : 14.20995719064938
 				}
 
 			}
 ,
 			"high_freq_mod_spread" : 			{
 				"endX" : 				{
-					"value" : 0.0
+					"value" : 1.0
 				}
 ,
 				"secondCurve" : 				{
@@ -106,11 +106,11 @@
 				}
 ,
 				"firstCurve" : 				{
-					"value" : 0.0
+					"value" : 0.645
 				}
 ,
 				"midY" : 				{
-					"value" : 0.0
+					"value" : 38.571291425199234
 				}
 ,
 				"firstX" : 				{
@@ -118,7 +118,7 @@
 				}
 ,
 				"midX" : 				{
-					"value" : 0.0
+					"value" : 1.0
 				}
 ,
 				"firstY" : 				{
