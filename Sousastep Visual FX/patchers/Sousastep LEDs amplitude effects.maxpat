@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
+			"minor" : 5,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,29 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Medium",
+					"id" : "obj-156",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4952.363987826896846, 158.500417854233092, 95.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1226.888613481483389, 154.671584337256718, 84.0, 21.0 ],
+					"text" : "auto-switch"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-153",
-					"maxclass" : "button",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -199.0, -744.0, 24.0, 24.0 ]
+					"patching_rect" : [ 56.0, -649.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1310.756437270156994, 151.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -4003,7 +4019,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -5018,7 +5034,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -5575,7 +5591,7 @@
 					"patching_rect" : [ -500.903930672149727, -672.0, 198.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "no lfo plz",
+					"text" : "init multiple",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -5623,8 +5639,8 @@
 						"TextboxIndex" : [ 1 ],
 						"color_changer" : [ 0 ],
 						"enable_fractal" : [ 0 ],
-						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
+						"enable_multiple_shape" : [ 1 ],
+						"enable_shader" : [ 0 ],
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"fractal_color_1" : [ 1 ],
@@ -7112,7 +7128,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4924.25, -461.764737035812232, 77.0, 22.0 ],
-					"text" : "loadmess 90"
+					"text" : "loadmess 60"
 				}
 
 			}
@@ -7978,7 +7994,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8153,7 +8169,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8293,7 +8309,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8509,7 +8525,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8625,7 +8641,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -8812,7 +8828,7 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 3,
+							"minor" : 5,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
@@ -9906,7 +9922,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-150", 0 ],
+					"destination" : [ "obj-131", 0 ],
 					"source" : [ "obj-153", 0 ]
 				}
 

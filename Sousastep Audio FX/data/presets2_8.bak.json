@@ -53,6 +53,7 @@
 					"verylow_floor" : [ 0.0 ],
 					"verylow_phase_offset" : [ 18.110236220472501 ],
 					"verylow_power" : [ -100.0 ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 50.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 86.0 ],
@@ -64,7 +65,8 @@
 					"patcher[1]::just_MF-101S" : [ 1 ],
 					"patcher[2]::lowComp_and_highDryFX" : [ 1 ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [ 1 ],
-					"masterbus[1]::masterbus" : [ 1 ]
+					"masterbus[1]::masterbus" : [ 1 ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -120,6 +122,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 26.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 77.0 ],
@@ -131,7 +134,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -187,6 +191,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 45.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 90.0 ],
@@ -198,7 +203,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -254,6 +260,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 34.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 94.0 ],
@@ -265,7 +272,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -321,6 +329,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
@@ -332,7 +341,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -388,6 +398,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 19.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 98.0 ],
@@ -399,7 +410,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -455,6 +467,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 12.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 81.0 ],
@@ -466,7 +479,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -522,6 +536,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 15.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 91.0 ],
@@ -533,7 +548,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -545,50 +561,51 @@
 					"Quadravox_Enable_12th" : [ 0 ],
 					"Quadravox_Enable_12th[1]" : [ 1 ],
 					"Quadravox_Enable_14th" : [ 0 ],
-					"Quadravox_Enable_14th[1]" : [ 0 ],
+					"Quadravox_Enable_14th[1]" : [ 1 ],
 					"Quadravox_Key" : [ "A" ],
 					"Quadravox_Pitch_Tracking_Enable" : [ 1 ],
 					"Quadravox_Scale" : [ "Phrygian" ],
-					"Zslide_down" : [ "Zslide_down", 666.0 ],
+					"Zslide_down" : [ "Zslide_down", 333.0 ],
 					"aux_SnTrSq" : [ 0 ],
-					"aux_duty_cycle" : [ 0.0 ],
-					"aux_phase_offset" : [ 68.5039370078741 ],
-					"aux_power" : [ -5.511811023622144 ],
+					"aux_duty_cycle" : [ 7.874015748031553 ],
+					"aux_phase_offset" : [ -49.60629921259838 ],
+					"aux_power" : [ -8.661417322834737 ],
 					"aux_route_menu" : [ 0 ],
 					"aux_yaxis" : [ 0.0 ],
 					"crossover_freq" : [ 0.219607719050196 ],
 					"drive" : [ 0.0 ],
-					"dry_preamp_enable" : [  ],
+					"dry_preamp_enable" : [ 1 ],
 					"env_glide_type" : [ 0 ],
 					"filter_pole" : [ 0 ],
 					"filter_type" : [ 11 ],
-					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 55.160124134161713, 0, 0.0, 0.194374460020953, 26.590240220083341, 0, -0.4, 1.0, 69.4450660912009, 0, -0.55, "curve" ],
+					"freq_ceiling" : [ 1.0, 0.0, 100.0, 0.0, 72.302054482608739, 0, 0.0, 0.27818592620894, 23.733251828675503, 0, -0.25, 1.0, 100.0, 0, -0.35, "curve" ],
 					"freq_ceiling_slide_down" : [ 22000 ],
 					"freq_ceiling_slide_up" : [ 48 ],
 					"freq_floor" : [ 1.0, 0.0, 100.0, 0.0, 29.447228611491177, 0, -0.45, 0.143722401264328, 15.162286654451993, 0, 0.0, 1.0, 46.589158959938196, 0, 0.35, "curve" ],
-					"freq_floor_slide_down" : [ 26000 ],
+					"freq_floor_slide_down" : [ 16000 ],
 					"freq_floor_slide_up" : [ 480 ],
-					"freq_mod_spread" : [ 1.0, 0.0, 100.0, 0.0, 83.38046384718298, 0, 0.0, 0.186917519593422, 0.0, 0, -0.15, 1.0, 36.654172937085562, 0, 0.5, "curve" ],
+					"freq_mod_spread" : [ 1.0, 0.0, 100.0, 0.0, 39.529850669256071, 0, 0.0, 0.170613171767336, 5.980277127266803, 0, -0.5, 1.0, 54.866798574165443, 0, 0.5, "curve" ],
 					"gate_thresh" : [ 0.0 ],
 					"high_SnTrSq" : [ 1 ],
 					"low_SnTrSq" : [ 0 ],
 					"low_duty_cycle" : [ 0.0 ],
 					"low_floor" : [ 0.0 ],
 					"low_lock" : [ 0 ],
-					"low_phase_offset" : [ 58.267716535433038 ],
+					"low_phase_offset" : [ 26.77165354330711 ],
 					"low_power" : [ -70.866141732283339 ],
-					"moog_rez" : [ 41.266509803921572 ],
-					"mp_enable" : [  ],
+					"moog_rez" : [ 40.732549019607845 ],
+					"mp_enable" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 82 ],
 					"rez_min" : [ 8 ],
-					"tric_enable" : [  ],
+					"tric_enable" : [ 0 ],
 					"very_low_lock" : [ 0 ],
 					"verylow_SnTrSq" : [ 0 ],
 					"verylow_duty_cycle" : [ 0.0 ],
 					"verylow_floor" : [ 0.0 ],
-					"verylow_phase_offset" : [ 100.0 ],
+					"verylow_phase_offset" : [ 49.606299212598543 ],
 					"verylow_power" : [ -84.251968503936979 ],
+					"transient_helper" : [ 0 ],
 					"mix_env_logic::env_bottom" : [ 10.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 74.0 ],
@@ -600,7 +617,8 @@
 					"patcher[1]::just_MF-101S" : [ 1 ],
 					"patcher[2]::lowComp_and_highDryFX" : [ 1 ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [ 1 ],
-					"masterbus[1]::masterbus" : [ 1 ]
+					"masterbus[1]::masterbus" : [ 1 ],
+					"transient_detect::transient_selector" : [ 0 ]
 				}
 
 			}
@@ -656,6 +674,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 3.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 56.0 ],
@@ -667,7 +686,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -723,6 +743,7 @@
 					"verylow_floor" : [  ],
 					"verylow_phase_offset" : [  ],
 					"verylow_power" : [  ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 0.0 ],
 					"mix_env_logic::env_inv" : [ 0 ],
 					"mix_env_logic::env_top" : [ 23.0 ],
@@ -734,7 +755,8 @@
 					"patcher[1]::just_MF-101S" : [  ],
 					"patcher[2]::lowComp_and_highDryFX" : [  ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [  ],
-					"masterbus[1]::masterbus" : [  ]
+					"masterbus[1]::masterbus" : [  ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -790,6 +812,7 @@
 					"verylow_floor" : [ 0.0 ],
 					"verylow_phase_offset" : [ 65.354330708661564 ],
 					"verylow_power" : [ -100.0 ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 4.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 89.0 ],
@@ -801,7 +824,8 @@
 					"patcher[1]::just_MF-101S" : [ 1 ],
 					"patcher[2]::lowComp_and_highDryFX" : [ 1 ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [ 1 ],
-					"masterbus[1]::masterbus" : [ 1 ]
+					"masterbus[1]::masterbus" : [ 1 ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}
@@ -826,7 +850,7 @@
 					"aux_yaxis" : [ 0.0 ],
 					"crossover_freq" : [ 0.053820157306883 ],
 					"drive" : [ 63.779527559055282 ],
-					"dry_preamp_enable" : [ 0 ],
+					"dry_preamp_enable" : [ 1 ],
 					"env_glide_type" : [ 1 ],
 					"filter_pole" : [ 1 ],
 					"filter_type" : [ 11 ],
@@ -845,8 +869,8 @@
 					"low_lock" : [ 0 ],
 					"low_phase_offset" : [ 17.322834645669332 ],
 					"low_power" : [ -47.244094488188907 ],
-					"moog_rez" : [ 65.193725490196073 ],
-					"mp_enable" : [ 0 ],
+					"moog_rez" : [ 64.793254901960793 ],
+					"mp_enable" : [ 1 ],
 					"reverb_delay_input_selector" : [ 1 ],
 					"rez_max" : [ 89 ],
 					"rez_min" : [ 52 ],
@@ -857,6 +881,7 @@
 					"verylow_floor" : [ 0.0 ],
 					"verylow_phase_offset" : [ 37.007874015747888 ],
 					"verylow_power" : [ -42.2637045813103 ],
+					"transient_helper" : [  ],
 					"mix_env_logic::env_bottom" : [ 14.0 ],
 					"mix_env_logic::env_inv" : [ 1 ],
 					"mix_env_logic::env_top" : [ 80.0 ],
@@ -868,7 +893,8 @@
 					"patcher[1]::just_MF-101S" : [ 1 ],
 					"patcher[2]::lowComp_and_highDryFX" : [ 1 ],
 					"post-triplewrap_mixbus::post-triplewrap_mixbus" : [ 1 ],
-					"masterbus[1]::masterbus" : [ 1 ]
+					"masterbus[1]::masterbus" : [ 1 ],
+					"transient_detect::transient_selector" : [  ]
 				}
 
 			}

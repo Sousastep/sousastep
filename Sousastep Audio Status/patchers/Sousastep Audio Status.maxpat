@@ -124,7 +124,9 @@
 					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.36 ],
 					"oncolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.81 ],
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2018.192362075405072, 317.065998264665723, 20.0, 58.0 ]
+					"patching_rect" : [ 2018.192362075405072, 317.065998264665723, 20.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 363.192362075405072, 54.661889591362979, 20.0, 218.084179086874883 ]
 				}
 
 			}
@@ -296,19 +298,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-108",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2330.260037674948308, 443.935920979027742, 156.949683983467366, 37.0 ],
-					"text" : "divide by two because signal doubles"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-106",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -328,43 +317,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 2063.749852738997106, 366.273976371008757, 29.5, 22.0 ],
 					"text" : "+~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2287.050316016532634, 451.435920979027742, 40.0, 22.0 ],
-					"text" : "*~ 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-91",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2287.050316016532634, 310.719226327888805, 45.0, 22.0 ],
-					"text" : "adc~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-93",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2337.749852738997106, 289.719226327888805, 168.0, 64.0 ],
-					"text" : "clip-on mic, EQd in TotalMix. In RME settings, make sure \"EQ for Record\" is checked."
 				}
 
 			}
@@ -623,23 +575,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.19 ],
-					"id" : "obj-107",
-					"interval" : 17,
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.36 ],
-					"oncolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.81 ],
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2261.749852738997106, 346.601603799405666, 20.0, 58.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 366.320625000000291, 54.661889591362979, 21.0, 218.084179086874883 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -891,30 +826,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1346.80734340259005, 312.027789471650067, 47.0, 22.0 ],
 					"text" : "clip 2 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-844",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2287.050316016532634, 371.712832471650131, 34.0, 22.0 ],
-					"text" : "*~ -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-847",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2287.050316016532634, 406.601603799405666, 78.0, 22.0 ],
-					"text" : "delay~ 52 52"
 				}
 
 			}
@@ -2054,9 +1965,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.416078286413267, 692.29921000000013, 468.0, 42.0 ],
+					"patching_rect" : [ 639.416078286413267, 692.29921000000013, 468.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.020650286413456, 10.37557814784077, 388.0, 42.0 ]
+					"presentation_rect" : [ 2.020650286413456, 10.37557814784077, 388.0, 53.0 ]
 				}
 
 			}
@@ -3868,7 +3779,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "HD60 S+", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3911,7 +3822,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)" ],
+					"items" : [ "None", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3951,19 +3862,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 366.666078286413267, 739.5, 137.0, 37.0 ],
 					"text" : "bang when interface disconnects"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-73",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2359.050316016532634, 371.712832471650131, 161.0, 51.0 ],
-					"text" : "SoundRadix auto-align recommends 52 sample delay & phase inversion"
 				}
 
 			}
@@ -5122,20 +5020,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-847", 0 ],
-					"source" : [ "obj-844", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 0 ],
-					"source" : [ "obj-847", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-852", 0 ],
 					"source" : [ "obj-849", 0 ]
 				}
@@ -5215,22 +5099,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
 					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-107", 0 ],
-					"order" : 1,
-					"source" : [ "obj-91", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-844", 0 ],
-					"order" : 0,
-					"source" : [ "obj-91", 0 ]
 				}
 
 			}

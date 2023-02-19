@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 3,
-			"revision" : 1,
+			"minor" : 5,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -84,7 +84,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "Gojira", "MF_RingMod", "Fortin_NTS_Suite", "Darkglass_Ultra", "Archetype_Plini", "Archetype_Abasi", "Archetype_Nolly", "ClusterFlux", "Archetype_Cory_Wong", "MangledVerb", "CrushStation", "Archetype_Tim_Henson", "Dry-ish" ],
+							"parameter_enum" : [ "Rabea", "MF_RingMod", "Fortin_NTS_Suite", "Darkglass_Ultra", "Archetype_Plini", "Archetype_Abasi", "Archetype_Nolly", "ClusterFlux", "Archetype_Cory_Wong", "MangledVerb", "CrushStation", "Archetype_Tim_Henson", "Dry-ish" ],
 							"parameter_longname" : "Presets",
 							"parameter_mmax" : 12,
 							"parameter_shortname" : "Presets",
