@@ -1,0 +1,22 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "ctrlr_free_rate",
+	"origin" : "ctrlr_free_rate",
+	"type" : "rnbo",
+	"subtype" : "",
+	"embed" : 0,
+	"snapshot" : 	{
+		"ctrlr_RV" : 		{
+			"value" : 0.0
+		}
+,
+		"ctrlr_RH" : 		{
+			"value" : 0.0
+		}
+,
+		"__presetid" : "ctrlr_free_rate"
+	}
+
+}
