@@ -465,78 +465,6 @@
 									}
 
 								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "ec7e759f8da18964ad21f015cdc9ff23"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3_20221223.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "1798e727eeb7b3a18e1759cd38ffd6f9"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3_20221223_1.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "2d0888a27e193a200c787397dd95df02"
-									}
-
-								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3_20221223_2.maxsnap",
-										"filepath" : "~/Documents/Max 8/Snapshots",
-										"filepos" : -1,
-										"snapshotfileid" : "49aff4ab5f97c07e5175f49c025ee8af"
-									}
-
-								}
  ]
 						}
 
@@ -948,14 +876,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-570",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2074.749852738997106, 249.892612296277207, 30.0, 22.0 ],
+					"patching_rect" : [ 2074.749852738997106, 249.892612296277207, 30.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 30.0, 22.0 ],
-					"text" : "*~ 5"
+					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 40.0, 22.0 ],
+					"text" : "*~ 1.7"
 				}
 
 			}
@@ -1489,7 +1418,7 @@
 					"patching_rect" : [ 171.0, 836.0, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.055396023531102, 146.767480591362983, 70.0, 22.0 ],
-					"text" : "symbol 128"
+					"text" : "symbol 256"
 				}
 
 			}
@@ -5135,27 +5064,6 @@
 				"name" : "Pro-Q 3_20221031.maxsnap",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Dry FX/data",
 				"patcherrelativepath" : "../../Sousastep Dry FX/data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pro-Q 3_20221223.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pro-Q 3_20221223_1.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pro-Q 3_20221223_2.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
