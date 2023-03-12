@@ -29,6 +29,7 @@ int touchRead_data_average = 0;
 
 void setup() {
   Serial.begin(115200);
+  Serial.println("Teensy is ready!");
   leds.begin();
   test();
 }

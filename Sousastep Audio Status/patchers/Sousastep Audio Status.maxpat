@@ -370,24 +370,6 @@
 									}
 
 								}
-, 								{
-									"filetype" : "C74Snapshot",
-									"version" : 2,
-									"minorversion" : 0,
-									"name" : "Pro-Q 3",
-									"origin" : "Pro-Q 3.auinfo",
-									"type" : "AudioUnit",
-									"subtype" : "MidiEffect",
-									"embed" : 0,
-									"fileref" : 									{
-										"name" : "Pro-Q 3",
-										"filename" : "Pro-Q 3_20221031.maxsnap",
-										"filepath" : "~/Music/_repo/sousastep/Sousastep Dry FX/data",
-										"filepos" : -1,
-										"snapshotfileid" : "3bab2d2ad2bf5871adc6c351c76b4a6d"
-									}
-
-								}
  ]
 						}
 
@@ -568,7 +550,7 @@
 					"patching_rect" : [ 1413.80734340259005, 264.879678482244799, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 253.484577620781693, 226.746068678237918, 70.0, 22.0 ],
-					"text" : "loadmess 0"
+					"text" : "loadmess 2"
 				}
 
 			}
@@ -581,8 +563,8 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1311.406599461462974, 529.743719408636935, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 40.0, 22.0 ],
-					"text" : "*~ 1.7"
+					"presentation_rect" : [ 293.484577620781693, 197.746068678237805, 30.0, 22.0 ],
+					"text" : "*~ 2"
 				}
 
 			}
@@ -3293,7 +3275,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "HD60 S+", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3336,7 +3318,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4416,13 +4398,6 @@
 				"name" : "Pro-Q 3.maxsnap",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio Status/data",
 				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pro-Q 3_20221031.maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Dry FX/data",
-				"patcherrelativepath" : "../../Sousastep Dry FX/data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
