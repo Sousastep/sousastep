@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 829.0, 779.0 ],
+		"rect" : [ 547.0, -873.0, 348.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,17 +51,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 420.0, 172.904828979295075, 150.0, 20.0 ],
-					"text" : "umenu"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"activebgcolor" : [ 0.376470588235294, 0.384313725490196, 0.4, 1.0 ],
 					"fontsize" : 18.0,
 					"hlttextcolor" : [ 0.874509803921569, 0.854901960784314, 0.890196078431372, 1.0 ],
@@ -84,9 +73,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "Rabea", "MF_RingMod", "Fortin_NTS_Suite", "Darkglass_Ultra", "Archetype_Plini", "Archetype_Abasi", "Archetype_Nolly", "ClusterFlux", "Archetype_Cory_Wong", "MangledVerb", "CrushStation", "Archetype_Tim_Henson", "Dry-ish" ],
+							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" ],
 							"parameter_longname" : "Presets",
-							"parameter_mmax" : 12,
+							"parameter_mmax" : 11,
 							"parameter_shortname" : "Presets",
 							"parameter_type" : 2
 						}
@@ -119,30 +108,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 173.0, 105.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 0.79 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.23921568627451, 0.23921568627451, 0.23921568627451, 0.79 ],
-					"bgfillcolor_color1" : [ 0.376470588235294, 0.384313725490196, 0.4, 1.0 ],
-					"bgfillcolor_color2" : [ 0.290196078431373, 0.309803921568627, 0.301960784313725, 1.0 ],
-					"bgfillcolor_proportion" : 0.39,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Ableton Sans Bold",
-					"fontsize" : 18.0,
-					"id" : "obj-34",
-					"items" : [ "Gojira", ",", "MF", "RingMod", ",", "Fortin", "NTS", "Suite", ",", "Darkglass", "Ultra", ",", "Archetype", "Plini", ",", "Archetype", "Abasi", ",", "Archetype", "Nolly", ",", "ClusterFlux", ",", "Archetype", "Cory", "Wong", ",", "MangledVerb", ",", "CrushStation", ",", "Archetype", "Tim", "Henson", ",", "Dry-ish" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 377.189739396227196, 194.904828979295104, 226.0, 30.0 ],
-					"textcolor" : [ 0.874509803921569, 0.854901960784314, 0.890196078431372, 1.0 ]
 				}
 
 			}

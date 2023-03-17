@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -224.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ -196.0, -993.0, 1371.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,133 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-37",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 798.25, 1203.0, 31.75, 31.75 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 469.988526899965109, 502.0, 20.75, 20.75 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-36",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 511.105790779372796, 1203.0, 31.75, 31.75 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 389.230790779372796, 502.0, 20.75, 20.75 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-35",
+					"maxclass" : "dial",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 204.750001899965127, 1203.0, 31.75, 31.75 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 339.23079077937291, 502.0, 20.75, 20.75 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autosave" : 0,
+					"bgmode" : 1,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 4,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 815.735235353376538, 733.809075306784962, 242.0, 170.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 79.60579077937291, 79.33333420753479, 242.0, 170.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"filetype" : "C74Snapshot",
+									"version" : 2,
+									"minorversion" : 0,
+									"name" : "GMaudio Clipper 2.0.amxd",
+									"origin" : "GMaudio Clipper 2.0.amxd",
+									"type" : "amxd",
+									"subtype" : "Undefined",
+									"embed" : 1,
+									"snapshot" : 									{
+										"name" : "GMaudio Clipper 2.0.amxd",
+										"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
+										"valuedictionary" : 										{
+											"parameter_values" : 											{
+
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "Clipper2",
+							"parameter_shortname" : "Clipper2",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"saved_object_attributes" : 					{
+						"autosave" : 0,
+						"parameter_enable" : 1,
+						"patchername" : "GMaudio Clipper 2.0.amxd",
+						"patchername_fallback" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
+						"showheader" : 0
+					}
+,
+					"text" : "amxd~ \"GMaudio Clipper 2.0.amxd\"",
+					"varname" : "Clipper2",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.25, 1070.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-31",
 					"maxclass" : "newobj",
@@ -112,18 +239,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.355790779372796, 871.484994248891326, 39.0, 22.0 ],
-					"text" : "atodb"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -136,18 +251,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 371.25, 842.294069555676288, 39.0, 22.0 ],
-					"text" : "atodb"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 6,
@@ -155,18 +258,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 371.25, 812.809075306784962, 87.0, 22.0 ],
 					"text" : "scale 0 70 0 1."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 318.25, 813.294069555676288, 39.0, 22.0 ],
-					"text" : "atodb"
 				}
 
 			}
@@ -263,7 +354,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 241.25, 1101.484994248891326, 164.0, 24.0 ],
-					"restore" : [ -7.7898385486478 ],
+					"restore" : [ -7.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -378,7 +469,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 714.477499232784339, 696.809075306784962, 83.0, 24.0 ],
+					"patching_rect" : [ 684.477499232784339, 936.809075306784962, 83.0, 24.0 ],
 					"restore" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
@@ -507,24 +598,25 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 699.10579077937291, 893.809075306784848, 77.0, 24.0 ],
+					"patching_rect" : [ 699.477499232784339, 677.809075306784848, 77.0, 24.0 ],
 					"restore" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
-							"name" : "GMaudio Clipper 1.1.amxd",
-							"origin" : "GMaudio Clipper 1.1.amxd",
+							"name" : "GMaudio Clipper 2.0.amxd",
+							"origin" : "GMaudio Clipper 2.0.amxd",
 							"type" : "amxd",
 							"subtype" : "Undefined",
 							"embed" : 1,
 							"snapshot" : 							{
-								"name" : "GMaudio Clipper 1.1.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
+								"name" : "GMaudio Clipper 2.0.amxd",
+								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -1.0,
-										"Filters On/Off" : 1.0,
-										"Filters On/Off[1]" : 1.0
+										"Ceiling" : -5.0,
+										"Input Gain" : 0.0,
+										"Output Gain" : 0.0,
+										"Solo GR" : 0.0
 									}
 
 								}
@@ -635,7 +727,7 @@
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 245, -852, 1685, -73 ]
+						"storage_rect" : [ 222, -852, 1662, -73 ]
 					}
 ,
 					"text" : "pattrstorage post-triplewrap_mixbus @savemode 0",
@@ -657,7 +749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 613.128869807157457, 39.017397878947463, 147.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 511.0, 308.063454559298634, 45.0, 24.0 ],
+					"presentation_rect" : [ 364.0, 212.063454559298634, 45.0, 24.0 ],
 					"suppressinlet" : 1,
 					"text" : "save",
 					"textcolor" : [ 0.898039215686275, 0.788235294117647, 0.996078431372549, 1.0 ]
@@ -677,7 +769,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 770.128869807157571, 32.517397878947463, 36.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 511.0, 338.063454559298634, 45.0, 45.0 ],
+					"presentation_rect" : [ 364.0, 242.063454559298634, 45.0, 45.0 ],
 					"style" : "buttonGold"
 				}
 
@@ -995,41 +1087,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-484",
-					"linecount" : 2,
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 4,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 826.863526899965109, 942.484994248891326, 175.0, 170.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 154.5, 252.526321451103286, 175.0, 170.0 ],
-					"saved_object_attributes" : 					{
-						"autosave" : 0,
-						"parameter_enable" : 0,
-						"patchername" : "GMaudio Clipper 1.1.amxd",
-						"patchername_fallback" : "~/Downloads/GMaudio Clipper 1.1.amxd",
-						"showheader" : 0
-					}
-,
-					"text" : "amxd~ \"GMaudio Clipper 1.1.amxd\"",
-					"varname" : "max~",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"autosave" : 0,
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
 					"id" : "obj-85",
 					"linecount" : 4,
 					"lockeddragscroll" : 0,
@@ -1039,10 +1096,10 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 829.863526899965109, 744.809075306784962, 244.0, 170.0 ],
+					"patching_rect" : [ 814.735235353376538, 936.809075306784962, 244.0, 170.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 121.038280601981796, 80.526321451103286, 244.0, 170.0 ],
+					"presentation_rect" : [ 79.60579077937291, 252.526321451103286, 244.0, 170.0 ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"parameter_enable" : 0,
@@ -1541,7 +1598,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-484", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -1632,30 +1689,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"order" : 1,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
-					"order" : 0,
-					"source" : [ "obj-12", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
+					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-125", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
@@ -1678,22 +1719,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-15", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-28", 1 ],
-					"order" : 1,
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-29", 1 ],
-					"order" : 0,
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -1722,21 +1747,65 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-1", 0 ],
+					"midpoints" : [ 326.5, 234.0, 303.0, 234.0, 303.0, 429.0, 400.416666666666686, 429.0 ],
+					"order" : 0,
 					"source" : [ "obj-19", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
+					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
+					"source" : [ "obj-19", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-31", 1 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"order" : 2,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"order" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"order" : 2,
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -1744,30 +1813,24 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 1 ],
-					"order" : 1,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 1 ],
-					"order" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"order" : 2,
 					"source" : [ "obj-22", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-23", 6 ]
+					"destination" : [ "obj-27", 1 ],
+					"order" : 1,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1810,6 +1873,68 @@
 				"patchline" : 				{
 					"destination" : [ "obj-983", 0 ],
 					"source" : [ "obj-23", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 1 ],
+					"order" : 5,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 1 ],
+					"order" : 4,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 1 ],
+					"order" : 3,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-29", 1 ],
+					"order" : 2,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"order" : 1,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 1 ],
+					"order" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 1 ],
+					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-85", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1908,20 +2033,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-484", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-484", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -1929,14 +2040,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 1 ],
+					"destination" : [ "obj-25", 1 ],
 					"source" : [ "obj-59", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-85", 0 ],
+					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
@@ -1989,15 +2100,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-484", 1 ],
-					"source" : [ "obj-85", 1 ]
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-484", 0 ],
-					"source" : [ "obj-85", 0 ]
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-85", 1 ]
 				}
 
 			}
@@ -2132,6 +2243,7 @@
  ],
 		"parameters" : 		{
 			"obj-125" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-25" : [ "Clipper2", "Clipper2", 0 ],
 			"obj-4" : [ "v low vol", "v low vol", 0 ],
 			"obj-59" : [ "vst~", "vst~", 0 ],
 			"obj-8" : [ "low vol", "low vol", 0 ],
@@ -2156,9 +2268,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "GMaudio Clipper 1.1.amxd",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../Downloads",
+				"name" : "GMaudio Clipper 2.0.amxd",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "amxd",
 				"implicit" : 1
 			}
@@ -2168,6 +2280,10 @@
 				"patcherrelativepath" : "../media",
 				"type" : "svg",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "gma.clipper004~.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "grmeter.js",

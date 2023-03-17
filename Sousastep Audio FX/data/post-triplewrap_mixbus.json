@@ -9,19 +9,20 @@
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
-							"name" : "GMaudio Clipper 1.1.amxd",
-							"origin" : "GMaudio Clipper 1.1.amxd",
+							"name" : "GMaudio Clipper 2.0.amxd",
+							"origin" : "GMaudio Clipper 2.0.amxd",
 							"type" : "amxd",
 							"subtype" : "Undefined",
 							"embed" : 1,
 							"snapshot" : 							{
-								"name" : "GMaudio Clipper 1.1.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 1.1.amxd",
+								"name" : "GMaudio Clipper 2.0.amxd",
+								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
 								"valuedictionary" : 								{
 									"parameter_values" : 									{
-										"Ceiling" : -1.0,
-										"Filters On/Off" : 1.0,
-										"Filters On/Off[1]" : 1.0
+										"Ceiling" : -5.0,
+										"Input Gain" : 0.0,
+										"Output Gain" : 0.0,
+										"Solo GR" : 0.0
 									}
 
 								}
