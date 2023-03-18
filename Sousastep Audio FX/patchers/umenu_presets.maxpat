@@ -73,7 +73,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "six", "seven", "eight", "nine", "ten", "eleven", "twelve" ],
+							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "ten", "eleven", "twelve" ],
 							"parameter_longname" : "Presets",
 							"parameter_mmax" : 11,
 							"parameter_shortname" : "Presets",
