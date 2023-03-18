@@ -5,107 +5,13 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"clip3" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "GMaudio Clipper 2.0.amxd",
-							"origin" : "GMaudio Clipper 2.0.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "GMaudio Clipper 2.0.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -5.0,
-										"Input Gain" : 0.0,
-										"Output Gain" : 0.0,
-										"Solo GR" : 0.0
-									}
-
-								}
-
-							}
-
-						}
- ],
-					"comp1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2344.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HvO3DE6....C7C........A.........TvOO8sN....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEwAAHiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLw.Bcu8lXgABZocFZfPlb4ARZtQGHyMFHz.RUyUlbfPSLfbCHAIGc0IWZgABLf.BLf.CHv.BLf.CHv.BLf.RL1bSNvbiLxXiMfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHz.BLf.CHv.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakAxMfPTYlEVcrQGH2.xT0IFc4AWYfDCLfLzasAmbkM2buIGHz.BU4AWYffCHDkmag0VZiMGHv.BLf.CH2.BLf.CHv.BLf.CHv.hLy.BLf.CHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLtTCHwPCHHk1YnwVZmgFcfzzajUFHv.RLv.RRtAWczAxQgklaf.iK2HCLv.CLvLCHwbCHI4Fb0Q2KOUGcvUGcfvTZtsFHv.RLx.RSIQTRfLDZg4lakwFHv.RLw.xS0QGb0QGHGEVZtABLtfSLwjSN4jiLfDiLfHUYrUVXyUFHM8FYkABLtTCHwHCHRUFakE1bkABUo0VYf.CHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHDLBFi.xHzL.......f.A.........PF...................BVC"
-							}
-
-						}
- ],
-					"comp2" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2338.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HfOzjiW....C7Cf.......A9P7llB...TvOqUXG....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEgA6KiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.RLz.Bcu8lXgABZocFZfz1ajABMfT0bkIGHzDCH2.RPxQWcxkVXf.CHf.CHv.BLf.CHv.BLf.CHfDiM2jCL4TCM3PCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.BMf.CHv.BLfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfbCHDUlYgUGazAxMfLUchQWdvUFHw.CHC8VavIWYyM2axABMfPUdvUFH3.BQ44VXsk1XyABLf.CHv.xMf.CHv.BLf.CHv.BLfHyLf.CHv.BLfXCHBkGbgM2bf.CH4.BQxkGHu.xUkQGHw.RLy.RQtElXrUFHEYlYkMFcfDCHwDCHEgGckImagwFHSMDHv.RL1.RQ3QWYx4VXrAxTCAxQgklaf.iK0.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3RL2XCLv.CL4.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK4DSN4jSN4.RLx.hTkwVYgMWYfzzajUFHw.RLx.hTkwVYgMWYfPUZsUFHv3xL3PCHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHrKB.ifvHbL.......f.A.........PF...................BPC"
-							}
-
-						}
- ],
-					"limit1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Color_Limiter.amxd",
-							"origin" : "Color_Limiter.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "Color_Limiter.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -6.0,
-										"Lookahead" : 0.0,
-										"Loudness" : 0.0,
-										"Release" : 1039.161649214701811,
-										"Saturation" : 0.0,
-										"Saturation Color" : 0.5
-									}
-
-								}
-
-							}
-
-						}
- ],
 					"high_volume" : [ -5.0 ],
 					"low_volume" : [ -6.0 ],
-					"very_low_volume" : [ -7.0 ]
+					"very_low_volume" : [ -7.0 ],
+					"Dry Input Gain[1]" : [ 13.228346456692917 ],
+					"Dry Output Gain[1]" : [ 44.598425196850378 ],
+					"Mod Input Gain[1]" : [ 19.2755905511811 ],
+					"Mod Output Gain[1]" : [ 44.598425196850357 ]
 				}
 
 			}
@@ -113,107 +19,13 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"clip3" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "GMaudio Clipper 2.0.amxd",
-							"origin" : "GMaudio Clipper 2.0.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "GMaudio Clipper 2.0.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -5.0,
-										"Input Gain" : 0.0,
-										"Output Gain" : 0.0,
-										"Solo GR" : 0.0
-									}
-
-								}
-
-							}
-
-						}
- ],
-					"comp1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2344.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HvOaTJ4....C7C........A.........TvOO8sN....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEwAAHiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLw.Bcu8lXgABZocFZfPlb4ARZtQGHyMFHz.RUyUlbfPSLfbCHAIGc0IWZgABLf.BLf.CHv.BLf.CHv.BLf.RL1bSNvbiLxXiMfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHz.BLf.CHv.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakAxMfPTYlEVcrQGH2.xT0IFc4AWYfDCLfLzasAmbkM2buIGHz.BU4AWYffCHDkmag0VZiMGHv.BLf.CH2.BLf.CHv.BLf.CHv.hLy.BLf.CHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLtTCHwPCHHk1YnwVZmgFcfzzajUFHv.RLv.RRtAWczAxQgklaf.iK1.CNv.CLvPCHwbCHI4Fb0Q2KOUGcvUGcfvTZtsFHv.RLx.RSIQTRfLDZg4lakwFHv.RLw.xS0QGb0QGHGEVZtABLtfSLwjSN4jiLfDiLfHUYrUVXyUFHM8FYkABLtTCHwHCHRUFakE1bkABUo0VYf.CHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLfDiBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHDLBFi.xHzL.......f.A.........PF...................BVC"
-							}
-
-						}
- ],
-					"comp2" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2338.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HfOzjiW....C7Cf.......A9P7llB...TvOqUXG....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEgA6KiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.RLz.Bcu8lXgABZocFZfz1ajABMfT0bkIGHzDCH2.RPxQWcxkVXf.CHf.CHv.BLf.CHv.BLf.CHfDiM2jCL4TCM3PCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.BMf.CHv.BLfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfbCHDUlYgUGazAxMfLUchQWdvUFHw.CHC8VavIWYyM2axABMfPUdvUFH3.BQ44VXsk1XyABLf.CHv.xMf.CHv.BLf.CHv.BLfHyLf.CHv.BLfXCHBkGbgM2bf.CH4.BQxkGHu.xUkQGHw.RLy.RQtElXrUFHEYlYkMFcfDCHwDCHEgGckImagwFHSMDHv.RL1.RQ3QWYx4VXrAxTCAxQgklaf.iK0.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3RL2XCLv.CL4.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK4DSN4jSN4.RLx.hTkwVYgMWYfzzajUFHw.RLx.hTkwVYgMWYfPUZsUFHv3xL3PCHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHrKB.ifvHbL.......f.A.........PF...................BPC"
-							}
-
-						}
- ],
-					"limit1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Color_Limiter.amxd",
-							"origin" : "Color_Limiter.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "Color_Limiter.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -6.0,
-										"Lookahead" : 0.0,
-										"Loudness" : 0.0,
-										"Release" : 1039.161649214701811,
-										"Saturation" : 0.0,
-										"Saturation Color" : 0.5
-									}
-
-								}
-
-							}
-
-						}
- ],
 					"high_volume" : [ -5.0 ],
 					"low_volume" : [ -6.0 ],
-					"very_low_volume" : [ -7.0 ]
+					"very_low_volume" : [ -7.0 ],
+					"Dry Input Gain[1]" : [ 13.228346456692918 ],
+					"Dry Output Gain[1]" : [ 44.598425196850378 ],
+					"Mod Input Gain[1]" : [ 8.314960629921261 ],
+					"Mod Output Gain[1]" : [ 44.598425196850357 ]
 				}
 
 			}
@@ -221,107 +33,27 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
-					"clip3" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "GMaudio Clipper 2.0.amxd",
-							"origin" : "GMaudio Clipper 2.0.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "GMaudio Clipper 2.0.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/GMaudio Clipper 2.0.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -5.0,
-										"Input Gain" : 0.0,
-										"Output Gain" : 0.0,
-										"Solo GR" : 0.0
-									}
-
-								}
-
-							}
-
-						}
- ],
-					"comp1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2344.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HvO3DE6....C7C........A.........TvOO8sN....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEwAAHiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.hLw.Bcu8lXgABZocFZfPlb4ARZtQGHyMFHz.RUyUlbfPSLfbCHAIGc0IWZgABLf.BLf.CHv.BLf.CHv.BLf.RL1bSNvbiLxXiMfDCLfDiK03BLtPCL1DCHv.BLf.CHv.BLf.CHv.BLf.BLf.CHz.BLf.CHv.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakAxMfPTYlEVcrQGH2.xT0IFc4AWYfDCLfLzasAmbkM2buIGHz.BU4AWYffCHDkmag0VZiMGHv.BLf.CH2.BLf.CHv.BLf.CHv.hLy.BLf.CHv.hMfHTdvE1byABLfjCHDIWdf7BHWUFcfDCHwLCHE4VXhwVYfTjYlU1XzARLfDSLfTDdzUlbtEFafL0Pf.CHwXCHEgGckImagwFHSMDHGEVZtABLtTCHwPCHHk1YnwVZmgFcfzzajUFHv.RLv.RRtAWczAxQgklaf.iK2HCLv.CLvLCHwbCHI4Fb0Q2KOUGcvUGcfvTZtsFHv.RLx.RSIQTRfLDZg4lakwFHv.RLw.xS0QGb0QGHGEVZtABLtfSLwjSN4jiLfDiLfHUYrUVXyUFHM8FYkABLtTCHwHCHRUFakE1bkABUo0VYf.CHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHDLBFi.xHzL.......f.A.........PF...................BVC"
-							}
-
-						}
- ],
-					"comp2" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Comp TUBE-STA",
-							"origin" : "Comp TUBE-STA.auinfo",
-							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
-							"embed" : 1,
-							"snapshot" : 							{
-								"pluginname" : "Comp TUBE-STA.auinfo",
-								"plugindisplayname" : "Comp TUBE-STA",
-								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1414747201,
-								"version" : 1,
-								"isbank" : 0,
-								"isbase64" : 1,
-								"blob" : "2338.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvA..............HB...P.+.H......HfOzjiW....C7Cf.......A9P7llB...TvOqUXG....F.........vA+.H......f..........I7C.......fB+........r..........L.........PC+........3vO........O7Cf.......D.........DA.........h7C.......vH+........PxO........k7C.......fI+........bxO........n7C.......PJ+........nxO........q7C........K+........zB.........t.........vK..........C.........w.........fL.....HMCM3fDQESTxH8CL.QDQASVSQWYxU1afjjaYMUZjU1XnEVZtE8CSn0TzUlbk8FHOUGcOEgA6KiLfLWYxkVXrkldgQWZu4lN5DlbigVZ1UFHw.CHv.xMf.CH2.RLz.Bcu8lXgABZocFZfz1ajABMfT0bkIGHzDCH2.RPxQWcxkVXf.CHf.CHv.BLf.CHv.BLf.CHfDiM2jCL4TCM3PCHw.CHw3RMt.iKz.iMw.BLf.CHv.BLf.CHv.BLf.CHf.CHv.BMf.CHv.BLfDiMf7jbocVZtEFaPE1Xq4TXsUFH1.xTzUlbk8FHwfCHOIWZmklagwFTxU1bkQmSg0VYfbCHDUlYgUGazAxMfLUchQWdvUFHw.CHC8VavIWYyM2axABMfPUdvUFH3.BQ44VXsk1XyABLf.CHv.xMf.CHv.BLf.CHv.BLfHyLf.CHv.BLfXCHBkGbgM2bf.CH4.BQxkGHu.xUkQGHw.RLy.RQtElXrUFHEYlYkMFcfDCHwDCHEgGckImagwFHSMDHv.RL1.RQ3QWYx4VXrAxTCAxQgklaf.iK0.RLz.BRocFZrk1YnQGHM8FYkARLfDCLfjjavUGcfbTXo4FHv3RL2XCLv.CL4.RL2.RRtAWcz8xS0QGb0QGHLklaqABLfDiLfzTRDkDHCgVXt4VYrABLfDSLf7TczAWczAxQgklaf.iK4DSN4jSN4.RLx.hTkwVYgMWYfzzajUFHw.RLx.hTkwVYgMWYfPUZsUFHv3xL3PCHwbCHSMDHDUFckMFco8lafzzajUFHv3RMfDSMfL0PfTTTfHTYrwFHFIWYwABLtTCHwTCHSMDHEEEHBUFarAxQgklaf.iK0.RLy.xTCARQQABRPAhQxUVbf.CHwPCHSMDHEEEHHAkQfXjbkEGHv.RLx.xTCARQQABRPYDHO4FHv.RLy.xTCARQQABSPAhQxUVbfDCHwPCHSMDHEEEHLAkQfXjbkEGHw.RLx.xTCARQQABSPYDHO4FHv.BNfL0PfTTTf7jaf.CHw.CHVElboEFco8layABLfPiLf.CHwfCHMkFYoMzatQmbuwFakImSg0VYfLiLf...........................................fDCMf70WHc0WMEFbvUFYe8ELfPCH+++++CRLz.xWegzUe0TXvAWYj80Ww.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwDCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULx.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwPCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL0.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEiMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwbCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL3.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESNfPCH+++++CRLz.xWegzUe0TXvAWYj80Wx.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeMCHz.x+++++fDCMf70WHc0WMEFbvUFYe8EMfPCH+++++CRLz.xWegzUe0TXvAWYj80W0.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeYCHz.x+++++fDCMf70WHc0WMEFbvUFYe80MfPCH+++++CRLz.xWegzUe0TXvAWYj80W3.BMf7++++OHwPCHe8ERW8USgAGbkQ1WekCHz.x+++++fDSLf70WMEFbvUFYe8ELfPCH+++++CRLw.xWe0TXvAWYj80Ww.BMf7++++OHwHCHe8USgAGbkQ1WeECLfPCH+++++CRLx.xWe0TXvAWYj80WwDCHz.x+++++fDiLf70WMEFbvUFYe8ULx.BMf7++++OHwHCHe8USgAGbkQ1WeEyLfPCH+++++CRLx.xWe0TXvAWYj80WwPCHz.x+++++fDiLf70WMEFbvUFYe8UL0.BMf7++++OHwHCHe8USgAGbkQ1WeEiMfPCH+++++CRLx.xWe0TXvAWYj80WwbCHz.x+++++fDiLf70WMEFbvUFYe8UL3.BMf7++++OHwHCHe8USgAGbkQ1WeESNfPCH+++++CRLw.xWe0TXvAWYj80Wx.BMf7++++OHwDCHe8USgAGbkQ1WeMCHz.x+++++fDSLf70WMEFbvUFYe8EMfPCH+++++CRLw.xWe0TXvAWYj80W0.BMf7++++OHwDCHe8USgAGbkQ1WeYCHz.x+++++fDSLf70WMEFbvUFYe80MfPCH+++++CRLw.xWe0TXvAWYj80W3.BMf7++++OHwDCHe8USgAGbkQ1WekCHz.x+++++fHyMf70WSQUPTUzWeIUQSUjTVUDQe8USOQTRFkTQDARLf.iBRP0TTEDD.HQX00lYXUkazkFcrUFY.f..Y.fI.rB.3.vR.LE.aA.X.TF.pEfhA7X.QFvjAfY.ZF.oA3Z.wF.uHrKB.ifvHbL.......f.A.........PF...................BPC"
-							}
-
-						}
- ],
-					"limit1" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "Color_Limiter.amxd",
-							"origin" : "Color_Limiter.amxd",
-							"type" : "amxd",
-							"subtype" : "Undefined",
-							"embed" : 1,
-							"snapshot" : 							{
-								"name" : "Color_Limiter.amxd",
-								"origname" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers/Color_Limiter.amxd",
-								"valuedictionary" : 								{
-									"parameter_values" : 									{
-										"Ceiling" : -6.0,
-										"Lookahead" : 0.0,
-										"Loudness" : 0.0,
-										"Release" : 1039.161649214701811,
-										"Saturation" : 0.0,
-										"Saturation Color" : 0.5
-									}
-
-								}
-
-							}
-
-						}
- ],
 					"high_volume" : [ -5.0 ],
 					"low_volume" : [ -6.0 ],
-					"very_low_volume" : [ -7.0 ]
+					"very_low_volume" : [ -7.0 ],
+					"Dry Input Gain[1]" : [ 34.771653543307082 ],
+					"Dry Output Gain[1]" : [ 38.929133858267711 ],
+					"Mod Input Gain[1]" : [ 32.503937007873994 ],
+					"Mod Output Gain[1]" : [ 38.92913385826769 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"high_volume" : [ -5.0 ],
+					"low_volume" : [ -6.0 ],
+					"very_low_volume" : [ -7.0 ],
+					"Dry Input Gain[1]" : [ 42.330708661417312 ],
+					"Dry Output Gain[1]" : [ 35.905511811023615 ],
+					"Mod Input Gain[1]" : [ 40.818897637795246 ],
+					"Mod Output Gain[1]" : [ 32.881889763779483 ]
 				}
 
 			}

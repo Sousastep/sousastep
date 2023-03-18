@@ -221,30 +221,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-110",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "signal" ],
-					"patching_rect" : [ 1817.989880183190053, 243.499601103599161, 85.0, 22.0 ],
-					"text" : "adc~ 21 23 24"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-111",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1894.900743941126166, 243.499601103599161, 126.0, 24.0 ],
-					"text" : "SilentBrass DAW"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-90",
 					"maxclass" : "newobj",
 					"numinlets" : 5,
@@ -653,8 +629,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1871.5, 287.0, 121.5, 22.0 ],
-					"text" : "adc~ 23 24"
+					"patching_rect" : [ 1651.379054942500261, 272.0, 112.864981327185887, 22.0 ],
+					"text" : "adc~ 27 28"
 				}
 
 			}
@@ -665,7 +641,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1981.870797796496845, 286.0, 126.0, 24.0 ],
+					"patching_rect" : [ 1761.749852738997106, 271.0, 126.0, 24.0 ],
 					"text" : "SilentBrass DAW"
 				}
 
@@ -3278,7 +3254,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "HD60 S+", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4140,6 +4116,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-569", 0 ],
 					"source" : [ "obj-572", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-596", 2 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 2 ],
+					"source" : [ "obj-58", 1 ]
 				}
 
 			}
