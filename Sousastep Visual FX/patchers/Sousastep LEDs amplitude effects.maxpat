@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ -809.0, -871.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,48 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3520.0, 1336.0, 89.0, 22.0 ],
+					"text" : "prepend shape"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-107",
+					"items" : [ "sphere", ",", "torus", ",", "cylinder", ",", "opencylinder", ",", "cube", ",", "opencube", ",", "plane", ",", "circle", ",", "cone", ",", "capsule" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 3479.5, 1303.0, 100.0, 22.0 ],
+					"pattrmode" : 1,
+					"presentation" : 1,
+					"presentation_rect" : [ 250.516944539208453, 900.577356606559079, 100.0, 22.0 ],
+					"varname" : "SingleShapeSelection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1150.0, 1083.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1238.888613481483162, 1641.0, 150.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Silom",
 					"id" : "obj-62",
@@ -548,7 +590,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 270.0, -790.0, 133.0, 22.0 ],
-					"text" : "qmetro 1000 @active 1"
+					"text" : "qmetro 1000 @active 0"
 				}
 
 			}
@@ -1945,7 +1987,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1789.871073273628099, -725.265855648559636, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -48. 48000"
 				}
 
 			}
@@ -2250,7 +2292,7 @@
 					"patching_rect" : [ 1458.075485999999728, -733.555400342185976, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 700.616144206670697, 733.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "SOUSASTEP"
+					"text" : "DINGONEK"
 				}
 
 			}
@@ -4066,7 +4108,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5069,7 +5111,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5630,28 +5672,29 @@
 					"patching_rect" : [ 289.459053285714162, -358.063454559298634, 123.0, 22.0 ],
 					"restore" : 					{
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Ableton Sans Medium" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
+						"LineFinal" : [ -48.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 48.0 ],
 						"MultipleShapeSelection" : [ "torus" ],
 						"PositionMatrixDimensionX" : [ 2 ],
 						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"TextPositionY" : [ 0.0 ],
+						"SingleShapeSelection" : [ "sphere" ],
+						"TextPositionY" : [ -0.656 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.87 ],
+						"TextTracking" : [ 1.06 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 1 ],
+						"TextboxIndex" : [ 7 ],
 						"color_changer" : [ 0 ],
 						"enable_fractal" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
 						"enable_shader" : [ 1 ],
 						"enable_single_shape" : [ 0 ],
-						"enable_text" : [ 0 ],
+						"enable_text" : [ 1 ],
 						"fractal_color_1" : [ 1 ],
 						"fractal_color_2" : [ 0 ],
 						"fractal_palette_1" : [ 1 ],
@@ -5660,7 +5703,7 @@
 						"fractal_pallet_2" : [ 0 ],
 						"light_type" : [ "point" ],
 						"multiple_material" : [ 8 ],
-						"text_loop_toggle" : [ 0 ]
+						"text_loop_toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr SousaLED8",
@@ -7929,7 +7972,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8104,7 +8147,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8244,7 +8287,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8460,7 +8503,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8576,7 +8619,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8763,7 +8806,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9563,6 +9606,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-107", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"source" : [ "obj-108", 0 ]
 				}
@@ -10270,6 +10320,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-214", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 2,
+					"source" : [ "obj-217", 0 ]
 				}
 
 			}
@@ -12773,6 +12831,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
 					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-481", 0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
