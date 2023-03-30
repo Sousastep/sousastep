@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-138",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 853.0, 909.966690389517794, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-133",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 305.842431739098174, 88.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -768,7 +792,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 411.357225617171025, 27.0, 226.0, 40.0 ],
+					"patching_rect" : [ 411.357225617171025, 13.0, 226.0, 40.0 ],
 					"text" : "set preferred human interface here",
 					"textjustification" : 1
 				}
@@ -829,7 +853,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 859.0, 922.111111111111313, 58.0, 22.0 ],
+					"patching_rect" : [ 853.0, 871.999999999999886, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1847,7 +1871,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.842431739098174, 71.0, 261.0, 22.0 ],
+					"patching_rect" : [ 305.842431739098174, 57.0, 261.0, 22.0 ],
 					"text" : "loadmess \"DUALSHOCK 4 Wireless Controller\""
 				}
 
@@ -3059,7 +3083,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.942738037837838, 0.438566443243243, 0.082220443243243, 0.65027027027027 ],
+					"bgcolor" : [ 0.957820215135135, 0.316428377297297, 0.055716377297297, 0.800108108108108 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
@@ -3070,7 +3094,7 @@
 					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 180.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.221867799759821, 145.266654292742714, 223.0, 21.0 ],
-					"text" : "attempting to connect in 7 seconds"
+					"text" : "attempting to connect in 10 seconds"
 				}
 
 			}
@@ -3089,7 +3113,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
+					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -3140,7 +3164,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
+					"destination" : [ "obj-138", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -3460,6 +3484,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-130", 0 ],
 					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-133", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-138", 0 ]
 				}
 
 			}
@@ -3971,7 +4009,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-133", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 

@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-15",
+					"index" : 6,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1479.0, 1027.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -85,11 +98,11 @@
 							"pluginname" : "Relayer.vstinfo",
 							"plugindisplayname" : "Relayer",
 							"pluginsavedname" : "",
-							"pluginsaveduniqueid" : 0,
+							"pluginsaveduniqueid" : 1382378593,
 							"version" : 1,
 							"isbank" : 0,
 							"isbase64" : 1,
-							"blob" : "1560.CMlaKA....fQPMDZ....AHUYrEF.AT.A....APTYlEVcrQG..............................T.2UYURzD....vrQ...3wYeXksaaiCE889UXXLuFYwKo1.RJPScV5fllTa2jmYroq0TYIMZIK+8CEo38JY6I1.Fm6gj2CWDOlTm+qG+l3yeZh9y4Wk+6zb0jeH2qtX5zIW9dort9ho9SmbSVwyxrUs45BDBMwJ09xhKlx5veoso3gL465voSlmVWpw1bLWsU1l0L4N8OoSmbmpQU8i18pJYSQkNS8TyU4E6SyQxkumudUwsE0Mcoz14LcvEJcpUU88v9nQczwMcx7p2MzOorwKKxJLXM22xKaatQ1ntJW9blZyXRSjtutPUpjM0lVesRs4Y45+XJ6thMCanNbtprYmKXgMGd5lcmrVOHuNMS+a8n1XJ36kWLE70ebD2ZHlN4q5Na0v5aHV8doNw+0BUcQa0Z0rJGHceYaVspd1b0KoqUSVTTrelH1exMEYalbqLKy6U4K8Y4tz2LozMjFzIbTttgKddU5KpQMxvX6OCXWIKMyVqR2qlm9hFGZCFNT5hYX0.DwQj.QAHJDQQHJFQIHh4SPREFICizgQBwHkXjTLRKFIFiTCH0fAiIRMfTCH0.RMfTCH0.RMfTiSpwI03jZeunnbYirpAmn6XtJWOwyAKwxWSy+MVrIZ4ZYldcruBOIqJsa7ko4CW25hYHBPDGQBDoGemIh8hBYA7PKU3wTQcTfWruHNjaozi6y3fWTLDIBrT5w+Y.yKNJhI5aX2h7YLtWPfuHB54Xcb9dBQnHnOaLpWxntIi5mcK6NXHAiHXLASnAuOAGLkPpAjZ.oFPpAjZ.oFPpAjZbRMNoFmTa7xtiAW1ePNZcTGZe3QCft4LCh6JS3.AtJEhUJxQEiTINJ6ZhEh4mQBzuuqCIHRTDFoBCkgQ5vPg.RHfFHjP.JDPBAnP.IDfBAjP.JDmDhiBwIgFOs2SXl0sS5KKqTRcDyy2OIgGEXXeJcS+eUb8argqK5vtUWuXdPB3yLDcqwdggbAWDILL7iXDGwz8XlWTPfHIgAFlPShAl.hCr0IxzJ8dE8lJKS2yddBNvf3Dq5IFFfq+2AtkoaQ12iGI7S3rHKkoSCAw9.KpmBvADGQBDEfnPDEgnXDk3P8a25PLDgZ.nF.pAfZ.nF.pAfZ.nFbTCNpAG0X7RcOAtASGS+U3arKS+2V4F8AALmBfa+HFTzOsqOwQgAgC4uZeYy67wowvgiquVr+49Diw+bXv3TfLXBdr3UUlqqEPTWWTsWl2bHq4fKeYTisbWR07I4tWk65xYlqhVpAmZ.qk4TN1mx4ggIQwCJbbOcgZS6aWl5N+UOwem1XS.QYNOyfpLNMOIeQsbmrTUMbda.K0Zhr+nfo4CGktBuus4nReXmrtn59pM1AGK17MYPYCN.oWb.27cPwNuhwIr+Xk1t28a2VaN+pGW.gfvl8ue88tCe5w8EBfEG4J.OHpejdmNXRCL1xArVNI9QPRnsBFOmHtPDkDZRkYC1XFwQLFOGHN1OPqlgw34vzJK3IbCiwyQeuARK2FQbeHv7QDCQ.h3HRfn.DEhnHDgRf9I.5m.neBf9I.5m.neBf9I.5m.neBPCCZbf9I.5m.neBbneBbfeBX8SrSR++9I.4mLHbjG.bBaD3.aDvYi3En+CC8CPQH63bcjeBLzOgHNzMANgaBbR2D3X2D3X2D3ibSfS3l.G5l.G6l.G3l.G6l.mzMANkaB7QtIvG5l.efaB7wtIvIcSficS.zMw93G4h3hclGP2E62tssNsH2TLF0+.La.08457ZqU65+npVsSeG0c5KgZOad2sL8AWgeoowLDXNhaMUDCmqV28lEzm9v6v1oxakMlNDfZ4dU.rtqxuQ8l9xnyUaMw8utfG0WB2znguYAyaW3gpB8ZQSpp1b74Ex7eqG7gcGqSO.TMOH6lal8qZcFl8OOKeOKs611Eqa2qxapm8qG+1rdQLUpuY0yDm8rrZRld2s212Jq6u0UtrbUwMUoFW3YCdKGtjz+VYlYesLe9SmOy9tZ9O.N9VdG"
+							"blob" : "1558.CMlaKA....fQPMDZ....AHUYrEF.AT.A....APTYlEVcrQG..............................Tf1UYURzD....vrQ...3wYeXksaaiCE889UXXLuFYwKo1.RJPScV5fllTa2jmYroq0TYIMZIK+8CEo38JY6I1.Fm6gj2CWDOlTm+qG+l3yeZh9y4Wk+6zb0jeH2qtX5zIW9dort9ho9SmbSVwyxrUs45BDBMwJ09xhKlx5veoso3gL465voSlmVWpw1bLWsU1l0L4N8OoSmbmpQU8i18pJYSQkNS8TyU4E6SyQxkumudUwsE0Mcoz14LcvEJcpUU88v9nQczwMcx7p2MzOorwKKxJLXM22xKaatQ1ntJW9blZyXRSjtutPUpjM0lVesRs4Y45+XBtqXyvFpCmqJa14BVXygWWMk05A40oY5eqG0FSAeu7hofu9ii3VCwzIeU2YqFVeCwp2K0I9uVnpKZqVqlU4.o6KaypU0ylqdIcsZxhhh8yDw9StoHayjakYYduJeoOK2k9lIktgzfNgix0MbwyqReQMpQFFa+Y.6JYoYBZU5d07zWtXJGrACGJcwLrZ.h3HRfn.DEhnHDEinDDw7IHoBijgQ5vHgXjRLRJFoEiDiQpAjZvfwDoFPpAjZ.oFPpAjZ.oFPpwI03jZbRsuWTTtrQV0fSzcLWkugVIV9ZZ9uwhMQKWKyzqi8U3IYUociuLMe35VWLCQ.h3HRfH836LQrWTHKfGZoBOlJpiB7h8EwgbKkdbeFG7hhgHQfkRO9OCXdwQQLQeC6VjOiw8BB7EQPOGqiy2SHBEA8YiQ8RF0MYT+raY2ACIXDAiIXBM38I3foDRMfTCH0.RMfTCH0.RMfTiSpwI03jZiW1cL3x9CxQqi5P6COZ.zMmYPbWYBGHvUoPrRQNpXjJwQYWSrPL+LRf98ccHAQhhvHUXnLLRGFJDPBAz.gDBPg.RH.EBHg.THfDBPg3jPbTHNIz3o8dByrtcReYYkRpiXd99II7n.C6Soa5+qhqeiMbcQG1s55EyCR.elgnaM1KLjK3hHgggeDi3HltGy7hBBDIILvvDZRLvDPbfsNQlVo2qn2TYY5d1ySvAFDmXUOwv.b8+NvsLcKx9d7HgeBmEYoLcZHH1GXQ8T.Nf3HRfn.DEhnHDEinDGpe6VGhgHTC.0.PM.TC.0.PM.TC.0fiZvQM3nFiWp6IvMX5X5uBeicY5+1J2nOHf4T.b6Gwfh9oc8INJLHbH+U6KadmONMFNbb80h8O2mXL9mCCFmBjASviEupxbcs.h55hp8x7lCYMGb4KiZrk6RplOI28pbWWNybUzRM3TCXsLmxw9TNOLLIJdPgi6oKTaZe6xT24u5I96zFaBHJy4YFTkwo4I4Kpk6jkppgyaCXoVSj8GELMe3nzU38sMGU5C6j0EU2WswN3XwluICJiN.odrGvMeGTryqXbB6OVos6c+1s0lyu5wEPHHrY+6Weu6vmdbeg.XwQtBvCh5Go2oClz.isb.qkSheDjDZqfwyIhKDQIglTY1fMlQbDiwyAhi8CzpYXLdNLsxBdB2vX7bz2afzxsQD2GBLeDwPDfHNhDHJ.QgHJBQnDneBf9I.5m.neBf9I.5m.neBf9I.5m.zvfFGneBf9I.5m.G5m.G3m.V+D6jz+ueBP9ICBG4A.mvFANvFAb1HdA5+vP+.TDxNNWG4m.C8SHhCcSfS3l.mzMAN1MAN1MA9H2D3DtIvgtIvwtIvAtIvwtIvIcSfS4l.ejaB7gtIvG3l.eraBbR2D3X2D.cSrO9QtHtXm4Azcw9saaqSKxMEiQ8O.yFPcetNu1Z0t9OppU6z2Qcm9Rn1yl2cKSevU3WZZb2n1RbqohX3b05t2rf9zGdG1NUdqrwzg.TK2qBf0cU9Mp2zWFctZqIt+0E7n9R3lFM7MKXd6BOTUnWKZRU0liOuPl+a8fOr6Xc5Afp4AY2byreUqyvr+4Y46Yoc21tXc6dUdS8re832l0KhoR8Mqdl3rmkUSxz6t819VYc+stxkkqJtoJ03BOava4vkj92JyL6qk4ye57Y12Uy+Ap7Y4b."
 						}
 ,
 						"snapshotlist" : 						{
@@ -107,11 +120,11 @@
 										"pluginname" : "Relayer.vstinfo",
 										"plugindisplayname" : "Relayer",
 										"pluginsavedname" : "",
-										"pluginsaveduniqueid" : 0,
+										"pluginsaveduniqueid" : 1382378593,
 										"version" : 1,
 										"isbank" : 0,
 										"isbase64" : 1,
-										"blob" : "1560.CMlaKA....fQPMDZ....AHUYrEF.AT.A....APTYlEVcrQG..............................T.2UYURzD....vrQ...3wYeXksaaiCE889UXXLuFYwKo1.RJPScV5fllTa2jmYroq0TYIMZIK+8CEo38JY6I1.Fm6gj2CWDOlTm+qG+l3yeZh9y4Wk+6zb0jeH2qtX5zIW9dort9ho9SmbSVwyxrUs45BDBMwJ09xhKlx5veoso3gL465voSlmVWpw1bLWsU1l0L4N8OoSmbmpQU8i18pJYSQkNS8TyU4E6SyQxkumudUwsE0Mcoz14LcvEJcpUU88v9nQczwMcx7p2MzOorwKKxJLXM22xKaatQ1ntJW9blZyXRSjtutPUpjM0lVesRs4Y45+XJ6thMCanNbtprYmKXgMGd5lcmrVOHuNMS+a8n1XJ36kWLE70ebD2ZHlN4q5Na0v5aHV8doNw+0BUcQa0Z0rJGHceYaVspd1b0KoqUSVTTrelH1exMEYalbqLKy6U4K8Y4tz2LozMjFzIbTttgKddU5KpQMxvX6OCXWIKMyVqR2qlm9hFGZCFNT5hYX0.DwQj.QAHJDQQHJFQIHh4SPREFICizgQBwHkXjTLRKFIFiTCH0fAiIRMfTCH0.RMfTCH0.RMfTiSpwI03jZeunnbYirpAmn6XtJWOwyAKwxWSy+MVrIZ4ZYldcruBOIqJsa7ko4CW25hYHBPDGQBDoGemIh8hBYA7PKU3wTQcTfWruHNjaozi6y3fWTLDIBrT5w+Y.yKNJhI5aX2h7YLtWPfuHB54Xcb9dBQnHnOaLpWxntIi5mcK6NXHAiHXLASnAuOAGLkPpAjZ.oFPpAjZ.oFPpAjZbRMNoFmTa7xtiAW1ePNZcTGZe3QCft4LCh6JS3.AtJEhUJxQEiTINJ6ZhEh4mQBzuuqCIHRTDFoBCkgQ5vPg.RHfFHjP.JDPBAnP.IDfBAjP.JDmDhiBwIgFOs2SXl0sS5KKqTRcDyy2OIgGEXXeJcS+eUb8argqK5vtUWuXdPB3yLDcqwdggbAWDILL7iXDGwz8XlWTPfHIgAFlPShAl.hCr0IxzJ8dE8lJKS2yddBNvf3Dq5IFFfq+2AtkoaQ12iGI7S3rHKkoSCAw9.KpmBvADGQBDEfnPDEgnXDk3P8a25PLDgZ.nF.pAfZ.nF.pAfZ.nFbTCNpAG0X7RcOAtASGS+U3arKS+2V4F8AALmBfa+HFTzOsqOwQgAgC4uZeYy67wowvgiquVr+49Diw+bXv3TfLXBdr3UUlqqEPTWWTsWl2bHq4fKeYTisbWR07I4tWk65xYlqhVpAmZ.qk4TN1mx4ggIQwCJbbOcgZS6aWl5N+UOwem1XS.QYNOyfpLNMOIeQsbmrTUMbda.K0Zhr+nfo4CGktBuus4nReXmrtn59pM1AGK17MYPYCN.oWb.27cPwNuhwIr+Xk1t28a2VaN+pGW.gfvl8ue88tCe5w8EBfEG4J.OHpejdmNXRCL1xArVNI9QPRnsBFOmHtPDkDZRkYC1XFwQLFOGHN1OPqlgw34vzJK3IbCiwyQeuARK2FQbeHv7QDCQ.h3HRfn.DEhnHDgRf9I.5m.neBf9I.5m.neBf9I.5m.neBPCCZbf9I.5m.neBbneBbfeBX8SrSR++9I.4mLHbjG.bBaD3.aDvYi3En+CC8CPQH63bcjeBLzOgHNzMANgaBbR2D3X2D3X2D3ibSfS3l.G5l.G6l.G3l.G6l.mzMANkaB7QtIvG5l.efaB7wtIvIcSficS.zMw93G4h3hclGP2E62tssNsH2TLF0+.La.08457ZqU65+npVsSeG0c5KgZOad2sL8AWgeoowLDXNhaMUDCmqV28lEzm9v6v1oxakMlNDfZ4dU.rtqxuQ8l9xnyUaMw8utfG0WB2znguYAyaW3gpB8ZQSpp1b74Ex7eqG7gcGqSO.TMOH6lal8qZcFl8OOKeOKs611Eqa2qxapm8qG+1rdQLUpuY0yDm8rrZRld2s212Jq6u0UtrbUwMUoFW3YCdKGtjz+VYlYesLe9SmOy9tZ9O.N9VdG"
+										"blob" : "1558.CMlaKA....fQPMDZ....AHUYrEF.AT.A....APTYlEVcrQG..............................Tf1UYURzD....vrQ...3wYeXksaaiCE889UXXLuFYwKo1.RJPScV5fllTa2jmYroq0TYIMZIK+8CEo38JY6I1.Fm6gj2CWDOlTm+qG+l3yeZh9y4Wk+6zb0jeH2qtX5zIW9dort9ho9SmbSVwyxrUs45BDBMwJ09xhKlx5veoso3gL465voSlmVWpw1bLWsU1l0L4N8OoSmbmpQU8i18pJYSQkNS8TyU4E6SyQxkumudUwsE0Mcoz14LcvEJcpUU88v9nQczwMcx7p2MzOorwKKxJLXM22xKaatQ1ntJW9blZyXRSjtutPUpjM0lVesRs4Y45+XBtqXyvFpCmqJa14BVXygWWMk05A40oY5eqG0FSAeu7hofu9ii3VCwzIeU2YqFVeCwp2K0I9uVnpKZqVqlU4.o6KaypU0ylqdIcsZxhhh8yDw9StoHayjakYYduJeoOK2k9lIktgzfNgix0MbwyqReQMpQFFa+Y.6JYoYBZU5d07zWtXJGrACGJcwLrZ.h3HRfn.DEhnHDEinDDw7IHoBijgQ5vHgXjRLRJFoEiDiQpAjZvfwDoFPpAjZ.oFPpAjZ.oFPpwI03jZbRsuWTTtrQV0fSzcLWkugVIV9ZZ9uwhMQKWKyzqi8U3IYUociuLMe35VWLCQ.h3HRfH836LQrWTHKfGZoBOlJpiB7h8EwgbKkdbeFG7hhgHQfkRO9OCXdwQQLQeC6VjOiw8BB7EQPOGqiy2SHBEA8YiQ8RF0MYT+raY2ACIXDAiIXBM38I3foDRMfTCH0.RMfTCH0.RMfTiSpwI03jZiW1cL3x9CxQqi5P6COZ.zMmYPbWYBGHvUoPrRQNpXjJwQYWSrPL+LRf98ccHAQhhvHUXnLLRGFJDPBAz.gDBPg.RH.EBHg.THfDBPg3jPbTHNIz3o8dByrtcReYYkRpiXd99II7n.C6Soa5+qhqeiMbcQG1s55EyCR.elgnaM1KLjK3hHgggeDi3HltGy7hBBDIILvvDZRLvDPbfsNQlVo2qn2TYY5d1ySvAFDmXUOwv.b8+NvsLcKx9d7HgeBmEYoLcZHH1GXQ8T.Nf3HRfn.DEhnHDEinDGpe6VGhgHTC.0.PM.TC.0.PM.TC.0fiZvQM3nFiWp6IvMX5X5uBeicY5+1J2nOHf4T.b6Gwfh9oc8INJLHbH+U6KadmONMFNbb80h8O2mXL9mCCFmBjASviEupxbcs.h55hp8x7lCYMGb4KiZrk6RplOI28pbWWNybUzRM3TCXsLmxw9TNOLLIJdPgi6oKTaZe6xT24u5I96zFaBHJy4YFTkwo4I4Kpk6jkppgyaCXoVSj8GELMe3nzU38sMGU5C6j0EU2WswN3XwluICJiN.odrGvMeGTryqXbB6OVos6c+1s0lyu5wEPHHrY+6Weu6vmdbeg.XwQtBvCh5Go2oClz.isb.qkSheDjDZqfwyIhKDQIglTY1fMlQbDiwyAhi8CzpYXLdNLsxBdB2vX7bz2afzxsQD2GBLeDwPDfHNhDHJ.QgHJBQnDneBf9I.5m.neBf9I.5m.neBf9I.5m.zvfFGneBf9I.5m.G5m.G3m.V+D6jz+ueBP9ICBG4A.mvFANvFAb1HdA5+vP+.TDxNNWG4m.C8SHhCcSfS3l.mzMAN1MAN1MA9H2D3DtIvgtIvwtIvAtIvwtIvIcSfS4l.ejaB7gtIvG3l.eraBbR2D3X2D.cSrO9QtHtXm4Azcw9saaqSKxMEiQ8O.yFPcetNu1Z0t9OppU6z2Qcm9Rn1yl2cKSevU3WZZb2n1RbqohX3b05t2rf9zGdG1NUdqrwzg.TK2qBf0cU9Mp2zWFctZqIt+0E7n9R3lFM7MKXd6BOTUnWKZRU0liOuPl+a8fOr6Xc5Afp4AY2byreUqyvr+4Y46Yoc21tXc6dUdS8re832l0KhoR8Mqdl3rmkUSxz6t819VYc+stxkkqJtoJ03BOava4vkj92JyL6qk4ye57Y12Uy+Ap7Y4b."
 									}
 ,
 									"fileref" : 									{
@@ -385,7 +398,7 @@
 				"box" : 				{
 					"comment" : "fade out FX type",
 					"id" : "obj-76",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -986,7 +999,7 @@
 				"box" : 				{
 					"comment" : "loop length in bars",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1011,7 +1024,7 @@
 				"box" : 				{
 					"comment" : "one-button looper :)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1533,11 +1546,11 @@
 				"box" : 				{
 					"comment" : "Left audio input",
 					"id" : "obj-1036",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 130.050938608780143, 376.067992757121829, 30.0, 30.0 ]
 				}
 
@@ -1546,11 +1559,11 @@
 				"box" : 				{
 					"comment" : "Right audio input",
 					"id" : "obj-1037",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 162.281407608780228, 376.067992757121829, 30.0, 30.0 ]
 				}
 
@@ -1559,7 +1572,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1038",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1571,7 +1584,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1039",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1857,6 +1870,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -2381,42 +2401,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1023::obj-62" : [ "number[15]", "number[3]", 0 ],
-			"obj-1023::obj-64" : [ "number[16]", "number[4]", 0 ],
-			"obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
-			"obj-813" : [ "feedback[1]", "feedback", 0 ],
-			"obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
-			"obj-901" : [ "master_highpass[1]", "highpass", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "Relayer.maxsnap",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "button_timer.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
