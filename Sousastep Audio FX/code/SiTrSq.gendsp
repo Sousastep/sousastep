@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 381.0, 114.0, 994.0, 735.0 ],
+		"rect" : [ 129.0, -862.0, 994.0, 735.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 588.333336889744032, 422.95857287484364, 67.0, 22.0 ],
-					"text" : "slide 48 48"
+					"patching_rect" : [ 588.333336889744032, 422.95857287484364, 80.0, 22.0 ],
+					"text" : "slide 250 250"
 				}
 
 			}

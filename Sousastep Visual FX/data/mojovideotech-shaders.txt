@@ -1,0 +1,15 @@
+1, BusyBotCircle;
+2, CandyWarp;
+3, EvilEye2;
+4, FluidFlowSNoise;
+5, GridVortex;
+6, IsoLines;
+7, Pinwheel;
+8, PlasmaEmitter;
+9, PolarGradient;
+10, RainbowGlowRing;
+11, SpaceIsThePlace;
+12, SpaceSpore;
+13, VoronoiCubes;
+14, VoronoiDuplex;
+15, VoronoiSpiralVortex;
