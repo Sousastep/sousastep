@@ -374,14 +374,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -758,14 +762,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -1142,14 +1150,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -1526,14 +1538,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -1910,14 +1926,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -2294,14 +2314,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -2678,14 +2702,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -3062,14 +3090,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -3446,14 +3478,18 @@
 					"TextColorRed::slide_down" : [ 64 ],
 					"TextColorRed::slide_up" : [ 1 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -3830,14 +3866,18 @@
 					"TextColorRed::slide_down" : [ 64 ],
 					"TextColorRed::slide_up" : [ 1 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -4214,14 +4254,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.257668711656442, 0.5, 0, 0.35, 0.539877300613497, 1.0, 0, -0.3, 0.773006134969325, 0.513513513513513, 0, 0.4, 1.0, 0.0, 0, -0.3, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -4598,14 +4642,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -4982,14 +5030,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -5366,14 +5418,18 @@
 					"TextColorRed::slide_down" : [ 18 ],
 					"TextColorRed::slide_up" : [ 4 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.6, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -5750,14 +5806,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -6134,14 +6194,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -6518,14 +6582,18 @@
 					"TextColorRed::slide_down" : [ 64 ],
 					"TextColorRed::slide_up" : [ 1 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -6902,14 +6970,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [  ],
-					"mybpatcher::controller6::depth_pattr" : [  ],
-					"mybpatcher::controller5::rate_pattr" : [  ],
-					"mybpatcher::controller4::zoom_pattr" : [  ],
-					"mybpatcher::controller3::R2_pattr" : [  ],
-					"mybpatcher::controller2::R1_pattr" : [  ],
-					"mybpatcher::controller1::C_pattr" : [  ],
-					"mybpatcher::controller0::O_pattr" : [  ]
+					"mybpatcher[1]::controller8::R_pattr" : [  ],
+					"mybpatcher[1]::controller7::shape_pattr" : [  ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [  ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [  ],
+					"mybpatcher[1]::controller4::loops_pattr" : [  ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [  ],
+					"mybpatcher[1]::controller2::rate_pattr" : [  ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [  ],
+					"mybpatcher[1]::controller0::center_pattr" : [  ],
+					"mybpatcher[1]::controller11::invert_pattr" : [  ],
+					"mybpatcher[1]::controller10::B_pattr" : [  ],
+					"mybpatcher[1]::controller9::G_pattr" : [  ]
 				}
 
 			}
@@ -7286,14 +7358,18 @@
 					"TextColorRed::slide_down" : [ 0 ],
 					"TextColorRed::slide_up" : [ 0 ],
 					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"mybpatcher::controller7::gamma_pattr" : [ 0.947435897435897 ],
-					"mybpatcher::controller6::depth_pattr" : [ 52.799999999999997 ],
-					"mybpatcher::controller5::rate_pattr" : [ 0.446153846153846 ],
-					"mybpatcher::controller4::zoom_pattr" : [ 1.100000023841858 ],
-					"mybpatcher::controller3::R2_pattr" : [ 8.030769230769231 ],
-					"mybpatcher::controller2::R1_pattr" : [ 12.738461538461538 ],
-					"mybpatcher::controller1::C_pattr" : [ 1024, 325 ],
-					"mybpatcher::controller0::O_pattr" : [ 589, 147 ]
+					"mybpatcher[1]::controller8::R_pattr" : [ 49.009900990099013 ],
+					"mybpatcher[1]::controller7::shape_pattr" : [ 0.097326732489585 ],
+					"mybpatcher[1]::controller6::offset2_pattr" : [ 0.544554455445545 ],
+					"mybpatcher[1]::controller5::offset1_pattr" : [ 1.0 ],
+					"mybpatcher[1]::controller4::loops_pattr" : [ 2.98019801980198 ],
+					"mybpatcher[1]::controller3::divisions_pattr" : [ 3.702970297029703 ],
+					"mybpatcher[1]::controller2::rate_pattr" : [ 5.0 ],
+					"mybpatcher[1]::controller1::brightness_pattr" : [ 0.009999999776483 ],
+					"mybpatcher[1]::controller0::center_pattr" : [ 529, 475 ],
+					"mybpatcher[1]::controller11::invert_pattr" : [ 0 ],
+					"mybpatcher[1]::controller10::B_pattr" : [ 53.960396039603964 ],
+					"mybpatcher[1]::controller9::G_pattr" : [ 19.306930693069308 ]
 				}
 
 			}
