@@ -1,14 +1,68 @@
-initialize off
-init single
-init multiple
-init shader
-init fractal
-init text
-mult with shade
-fract 2
-fract 3
-big colorful cubes
-five-capsule star at night, sailor's delight
-flashy mcflashface
-hm
-no lfo plz
+1, initialize off;
+2, init single;
+3, init multiple;
+4, init shader;
+5, init fractal;
+6, init text;
+7, mult with shade;
+8, fract 2;
+9, fract 3;
+10, big colorful cubes;
+11, five-capsule;
+12, flashy mcflashface;
+13, hmmmm;
+14, no lfo plz;
+15,;
+16,;
+110, CandyWarp acoustic 1;
+111, CandyWarp;
+112, CandyWarp;
+113, CandyWarp;
+114, CandyWarp;
+115, CandyWarp;
+116, CandyWarp;
+117, CandyWarp;
+118, CandyWarp;
+119, CandyWarp;
+120, Pinwheel acoustic 1;
+121, Pinwheel;
+122, Pinwheel;
+123, Pinwheel;
+124, Pinwheel;
+125, Pinwheel;
+126, Pinwheel;
+127, Pinwheel;
+128, Pinwheel;
+129, Pinwheel;
+130, PolarGradient acoustic 1;
+131, PolarGradient;
+132, PolarGradient;
+133, PolarGradient;
+134, PolarGradient;
+135, PolarGradient;
+136, PolarGradient;
+137, PolarGradient;
+138, PolarGradient;
+139, PolarGradient;
+140, RainbowGlowRing acoustic 1;
+141, RainbowGlowRing;
+142, RainbowGlowRing;
+143, RainbowGlowRing;
+144, RainbowGlowRing;
+145, RainbowGlowRing;
+146, RainbowGlowRing;
+147, RainbowGlowRing;
+148, RainbowGlowRing;
+149, RainbowGlowRing;
+150, SpaceSpore acoustic 1;
+151, SpaceSpore;
+152, SpaceSpore;
+153, SpaceSpore;
+154, SpaceSpore;
+155, SpaceSpore;
+156, SpaceSpore;
+157, SpaceSpore;
+158, SpaceSpore;
+159, SpaceSpore;
+160, Single Circle dub 1;
+161, Single Square dub 1;
