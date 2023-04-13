@@ -42,6 +42,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1264.406599461462974, 564.118719408636935, 70.0, 22.0 ],
+					"text" : "clip~ 0 0.99"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-73",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -784,7 +796,7 @@
 					"patching_rect" : [ 1413.80734340259005, 264.879678482244799, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.983463488234861, 172.42883026086642, 89.0, 28.0 ],
-					"text" : "loadmess 0",
+					"text" : "loadmess 2",
 					"textcolor" : [ 1.0, 0.56078431372549, 0.941176470588235, 1.0 ]
 				}
 
@@ -861,7 +873,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1310.406599461462974, 588.118719408636935, 54.0, 22.0 ],
+					"patching_rect" : [ 1309.406599461462974, 588.118719408636935, 54.0, 22.0 ],
 					"text" : "clip~ 0 1"
 				}
 
@@ -3553,7 +3565,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3647,6 +3659,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
 					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"source" : [ "obj-103", 0 ]
 				}
 
 			}
@@ -4258,15 +4277,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
-					"order" : 0,
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-98", 0 ],
-					"order" : 1,
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -4400,7 +4410,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"order" : 1,
+					"source" : [ "obj-570", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
+					"order" : 0,
 					"source" : [ "obj-570", 0 ]
 				}
 
