@@ -796,7 +796,7 @@
 					"patching_rect" : [ 1413.80734340259005, 264.879678482244799, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.983463488234861, 172.42883026086642, 89.0, 28.0 ],
-					"text" : "loadmess 2",
+					"text" : "loadmess 0",
 					"textcolor" : [ 1.0, 0.56078431372549, 0.941176470588235, 1.0 ]
 				}
 
@@ -3522,7 +3522,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "HD60 S+", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
