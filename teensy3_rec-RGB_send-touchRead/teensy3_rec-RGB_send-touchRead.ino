@@ -11,8 +11,8 @@
 Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28, &Wire);
 
 // Define constants
-const unsigned long OUTPUT_RATE_ACCEL = 8333; // equal to 120 fps
-const unsigned long OUTPUT_RATE_TOUCH = 1000; // Output rate in microseconds
+const unsigned long OUTPUT_RATE_ACCEL = 9000; // equal to 120 fps
+const unsigned long OUTPUT_RATE_TOUCH = 1500; // Output rate in microseconds
 const int MOVING_AVERAGE_WINDOW_SIZE = 10; // Size of the moving average window
 const int config = WS2811_GRB | WS2811_800kHz;
 const int ledsPerStrip = 26;
@@ -166,7 +166,8 @@ void loop()
       accelLastOutputTime = currentTime;
     }
     // serial.println() = "\r\n"
-    aprintf("%d %f %f %f\r\n", touchRead_data_average, eventOrientationX, eventOrientationY, eventOrientationZ);
+    aprintf("\r\n%d %f %f %f", touchRead_data_average, eventOrientationX, eventOrientationY, eventOrientationZ);
+    Serial.flush();
   }
   
 }
