@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -73,7 +73,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "Coki - All Of A Sudden", "EP Dry + dist", "track 1", "a", "s", "d", "f", "g", "h", "j", "k", "l" ],
+							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "a", "s", "d", "f", "g", "h", "j", "k", "l" ],
 							"parameter_longname" : "Presets",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "Presets",

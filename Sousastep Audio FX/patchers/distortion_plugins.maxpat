@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -224.0, -993.0, 1411.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1062.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,104 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 995.0, 942.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 964.0, 942.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 740.0, 958.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 712.0, 950.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 980.0, 910.0, 44.0, 22.0 ],
+					"text" : "sel 3 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 711.0, 911.0, 44.0, 22.0 ],
+					"text" : "sel 2 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bypass",
+					"id" : "obj-9",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 974.0, 993.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bypass",
+					"id" : "obj-5",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 697.456632886604893, 993.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-177",
 					"maxclass" : "newobj",
@@ -158,7 +256,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1161.601365951562002, 411.267207749633656, 309.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 762, 866 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 0, 87, 1440, 866 ]
@@ -305,7 +403,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1941.0, 1351.0, 128.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "only allow two of the four CPU-intensive plugins to be active at once to save CPU"
 				}
 
@@ -1980,7 +2077,7 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "319.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu41UDUlYgUGazIQSkwFYOAQo3ocUNFjBBCCDEc5MviffacQC3EHs1BELXgJR2lZGhAiYjIof3Bu5ZpBBt7+9ed7AUQeupvFqm7ALFsdS.jq.Ql7HxAK4gMP1BPpZ11zxjg0WKOq8FrxqGbHH.4e3RcDMDaef7bW0nMRbWJBg704frj7Qlbtj7uFFmmovXBTl35aAbrKkPZ9DstIi0efH2fl+0ChWRk99t58EN5zkO5EKe9F4UVjFRDVcsYlDMITZFIA.PD...f..U.fF.bB.r.PL.jC.AAPR.3D.1Cv9A.........f.A.........PC..................P.E."
+								"blob" : "537.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu41UDUlYgUGazIQSkwFYOEQ.9gm1UIYvNIPLPX3gKdUeDHYuZBzcgUHlnVV.CIrwMfQ1qE1xRi0VSa2D0Cd0mEeG7MxW.uoc2Enq8zW6Ly+7OSJDOJMMdDyLsPnoFCSjqArGfZg8FqdcE0.YAUmuuF6guMpJhMeMfNA6MOAx97qKu5igmdC1ahfrlS6BHqBK2w1Z5dH6doGwPGdgCQAM3964Z8PU7BogXJYXufnCo22ggNbfCQcav9M3ChT2G+Cu6mdDCbXOGF5vANbnCsczuwjUyUaj..8ydkCbZDznPGGVyOPUZlT.8fVmA33Yimknj4JxSQ6HhbZs4K2K+64H61JWpXuQUkwljwLR0R6UPGzu649ACAbjTXTRN21fZUxJSMpPonBShhZ+PLaLnwZMUYrVncNUQ3YkEx4jm0zrEr7clDhfxKcZBuHmItWJ4qIpi4.necEDWvMrDh0lymd29BsCE4E60Qb4lGqrHpcZL0XskOjthkY1ECoKkEpMzxojtkwsAseUs01oSm2+CTeIGKrDgUWalIQSBklQR..DA...H.PE.nA.m..K.DC.4.PP.jD.NE.zATc.ZC.......HP..........z...................Dv2"
 							}
 
 						}
@@ -2140,7 +2237,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 291.128556100613537, 860.0, 165.0, 22.0 ],
+					"patching_rect" : [ 299.03358171008415, 1049.0, 165.0, 22.0 ],
 					"text" : "r primary_distortion_selection"
 				}
 
@@ -2177,7 +2274,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 291.218273943800909, 918.0, 50.0, 22.0 ]
+					"patching_rect" : [ 299.123299553271522, 1107.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -2501,7 +2598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1010.582097719633111, 918.127207981178799, 225.373715275147106, 35.0 ],
+					"patching_rect" : [ 1018.487123329103724, 1107.127207981178799, 225.373715275147106, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "Tone King Imperial - cab uses a lot of CPU\nArchetype Rabea - mics use a lot of CPU"
 				}
@@ -2582,7 +2679,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 850.166698217391968, 969.000031590461731, 156.0, 22.0 ],
+					"patching_rect" : [ 858.071723826862581, 1158.000031590461731, 156.0, 22.0 ],
 					"text" : "selector~ 3 @ramptime 100"
 				}
 
@@ -2594,7 +2691,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 559.718273943801023, 969.000031590461731, 156.0, 22.0 ],
+					"patching_rect" : [ 567.623299553271636, 1158.000031590461731, 156.0, 22.0 ],
 					"text" : "selector~ 3 @ramptime 100"
 				}
 
@@ -2612,12 +2709,12 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 651.051607277134394, 857.127207981178799, 226.0, 49.0 ],
+					"patching_rect" : [ 658.956632886605007, 1046.127207981178799, 227.0, 49.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Tone King Imperial MKII", "@parameter_enable", 0, "@prefer", "AudioUnit", "@autosave", 0, ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~[2]",
+							"parameter_longname" : "vst~[15]",
 							"parameter_shortname" : "vst~[2]",
 							"parameter_type" : 3
 						}
@@ -2626,6 +2723,7 @@
 ,
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
+						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -2807,7 +2905,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~[1]",
+							"parameter_longname" : "vst~[13]",
 							"parameter_shortname" : "vst~[1]",
 							"parameter_type" : 3
 						}
@@ -2845,7 +2943,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~",
+							"parameter_longname" : "vst~[10]",
 							"parameter_shortname" : "vst~",
 							"parameter_type" : 3
 						}
@@ -2994,11 +3092,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-41",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.200765727960743, 1019.333336114883423, 30.0, 30.0 ]
+					"patching_rect" : [ 858.105791337431356, 1208.333336114883423, 30.0, 30.0 ]
 				}
 
 			}
@@ -3006,11 +3104,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-24",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.718273943801023, 1019.333336114883423, 30.0, 30.0 ]
+					"patching_rect" : [ 567.623299553271636, 1208.333336114883423, 30.0, 30.0 ]
 				}
 
 			}
@@ -3018,11 +3116,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-20",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 928.418273943801069, 346.333325147628784, 30.0, 30.0 ]
 				}
 
@@ -3031,11 +3129,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-19",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 654.166698217391968, 346.333325147628784, 30.0, 30.0 ]
 				}
 
@@ -3065,7 +3163,7 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "9326.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIgSDMETOEQArC..............7B....yO........w3iJptJ...fL+........TC.........1........X.H+.......FDB.......fAh3CMzVK..za7........8N+O.B....Puz+C......za8+.H.....8Z+O......Pu3+Cf.....3KD+.H.....9FwOpn5p..fuR7CSL2L..36D9.H.....9RwO......fuU7Cf.....3qE+.H.....9dwOpn5p..fuX7iPhHB..3aF+TVUUA..99xO......fuv7Cf.....3aL+.H.....9JSOibsB..fuy7Cf.....3KM+.H.....9ViOpp5p..fu17SQfID..3KN........95jOTpW3..fuO4ygtRA..3KT9nfgBA..9F0O......fuR8Cf.....36T9fmbvB..9V0O......fuLB.......3ai........953O.B....fuO9Cf.....3Kj+.D.....9FI.......fuR9Cf.....36j........9RI.......fuUB.......36p........9x5O.B....fusB.......3qq+PCs0B..995O.B....Pvx9Cf.....D7r........AS6O.B....Pv05Sbo1O..Drs9X4gq...Ae6OwjJ+..Pv39yLz0K..Dbt9L1T4C..AqK.......Pv65CFSVG..Dbz+.xfS...AK8Oevm6..PvSC.......DL0........AW8O......PvV+SSOAN..D70+.......Ai8OFkdd..PvY+Cf.....Dr1........ACeOFeJ7..Pvw+C......Dr7+PAuqA..AO+O4r8H..Pvz+Cf.....T7b+.H.....ES2O......Pw08yCbkB..Trc+DAZyA..Ee2O......Pw38C......Tbd+.H.....Eq2O.B....Pw68C......TLe9D1QtB..EK4O......PwS9C......TLk+nS3GA..EW4OlXlY..PwV9CJ0KL..T7k........EiI.......PwY9C......Trl+.H.....EuoOLyLy..Pww9SFYlI..Trr+Dw5EB..EO6OQrdg..Pwz9C......Tbs+jQlYB..Ea6O......Pw29STqWH..TLt+3AtRA..EmK.......Pxz7Cf.....jbM+.......IayO.B....Px27Cf.....jLN87dmyB..ImSOib8B..Px57C......j7N+.......IyC.......Px83C3.....jLU+.H.....IWkO.B....PxVA.......j7U........Ii0O.B....PxY4CNQwN..jrV........Iu0O......Pxb8C......jrb........IOmOcexz..Px08Cf.....jrc+TUUUA..Ie2OUUUU..Px38iJptJ..vb8+.H.....LaO........y26yt6xK..vL9+zgrt...Lm+OLvby...y5+yHWu...v799PNQDA..Ly+Owstg...y8+CCL2L..vr++7wNkA..MSA.......PyU7CEDUD..zrE+HBCJA..MegOjSDQ..PyX3Czh4D..zbF+.A.....MqwO2ofO..Pya7CFHlH..zLG+nQ3HA..M2A.......Pyy3C4DQD..zLM+XQQhB..MWyOQDQD..Py17iDvFB..z7M+HgHh...MiyOPTdX..Py47iAlcF..zrN+LhDuA..Pa6O.B.....z29Cf......Mt........PmqOLyby...z55iKTrG...8t+.H.....Py6OYjol...z89CSL2L...su+LwtCB..P+6OSr6f...zU+yEJzC...s09ne3GA..Pe8O.B.....zX2ScB+H...c1+3QM.A..PqsOvBRw...zaC........M2+.H.....P28O.B.....zd6CSLyL...M8+.ynWC..PauOkLNU...z2+CRxEK...M9........Pm+O.......z5+C...fzLzfCQDULQISzO.QTvbURtAWczARLQ+fDX8TczAWczARLRDjTMAED.HQX00lYOEQGJ5VY0IWXr8EYyA2WxElXkEF.AfPYjkFcuI2TooWY.DPAAL.....ck0FbuAP.IP........fW.AmbkMWYz4TXsUFTx8Fb.DfEEP2auIVXfzVYmEVag4FH3ABakEFY..mbkMWYzAUXzgFTx8Fb.DPTE7BSoIlbgIWduDTcjk1au.kbkMWYzM2KNUVcxEFafPzTP8RPxMFZkQWdvUFHRElXkE1KUMWYx8Bcu8lXgARakcVXsElaffGHrUVXj4BdswF.vIWYyUFcUkDQPI2avAP.IXvZQbvoNuYIbCmbkMWYzYUYxMWZu4FTx8Fb.DvAEDiKv3BL.LWYrU1XzUFYSU1Xzk1atAP.ED......x8VczklamAP.EDP.....AbLTAIUPMAP.BjFY.Dv.E.C.1EFa0UF.Aj.A........y.L.PEjTA0D.AHPZjAP.CTPL.XWXrUWY.DPBD.....lYFLEv..UPRETS.Df.oQF.ATPAw.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAw.SL.XWXrUWY.DPAEDiKv...PEjTA0D.AHPZjAP.ETPLvHC.1EFa0UF.Aj.A.....tdTn+C.PEjTA0D.AHPZjAP.ETPLvLC.1EFa0UF.Aj.A........j.D.PEjTA0D.AHPZjAP.ETPLvPC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPLvTC.1EFa0UF.AbPAzPCLt.C...UPRETS.Df.oQF.ATPAw.yM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAw.CN.XWXrUWY.DPBD.........AP..UPRETS.Df.oQF.ATPAw.SN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.APPAwDC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEDSLv.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSLw.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDSLx.fcgwVckAP.IP.....fLy7H.C.TAIUPMAP.BjFY.DPAEDSLy.fcgwVckAP.IP.........J.C.TAIUPMAP.BjFY.DPAEDSLz.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDSL0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSL1.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSL2.fcgwVckAP.IP...........A.TAIUPMAP.BjFY.DPAEDSL3.fcgwVckAP.IP.....fLyrI.C.TAIUPMAP.BjFY.DPAEDSL4.fcgwVckAP.IP........vL.A.TAIUPMAP.BjFY.D.AEDiL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAwHCL.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ETPLxDC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPLxHC.1EFa0UF.Aj.A........T.D.PEjTA0D.AHPZjAP.ETPLxLC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLxPC.1EFa0UF.ATPAw3BL...TAIUPMAP.BjFY.DPAEDiL0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDiL1.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiL2.fcgwVckAP.IP.....nT355+..TAIUPMAP.BjFY.DPAEDiL4.fcgwVckAP.IP.....v0iBy+..TAIUPMAP.BjFY.D.AEDyL.XWXrUWY.DPAEXiKv...PEjTA0D.AHPZjAP.ETPLy.C.1EFa0UF.Aj.A.....Htdj9K.PEjTA0D.AHPZjAP.ETPLyDC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLyHC.1EFa0UF.Aj.A....fv0Cm.D.PEjTA0D.AHPZjAP.ETPLyLC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLyPC.1EFa0UF.Aj.A....fGEtd+C.PEjTA0D.AHPZjAP.ETPLyTC.1EFa0UF.Aj.A....fT3RNAL.PEjTA0D.AHPZjAP.ETPLybC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0DC.1EFa0UF.Aj.A........P.D.PEjTA0D.AHPZjAP.ETPL0HC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0PC.1EFa0UF.Aj.A..........D.PEjTA0D.AHPZjAP.ETPL0TC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0XC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0bC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0fC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0jC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.CTfL.XWXrUWY.DPBD.....LyLqBv..UPRETS.Df.oQF.ATPAx.CL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAx.SL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAx.iL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAx.yL.XWXrUWY.DPBD.....Lb8H8O..UPRETS.Df.oQF.ATPAx.CM.XWXrUWY.DPBD.....Huzc9O..UPRETS.Df.oQF.ATPAx.SM.XWXrUWY.DPBD.....zLyL9O..UPRETS.Df.oQF.ATPAx.iM.XWXrUWY.DPBD.....d8nP9O..UPRETS.Df.oQF.ATPAx.yM.XWXrUWY.DPBD.....d8nv8O..UPRETS.Df.oQF.ATPAx.CN.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAx.SN.XWXrUWY.DPBD.....dnEY8O..UPRETS.Df.oQF.ATPAxDCL.XWXrUWY.DPBD.....HZQ18O..UPRETS.Df.oQF.ATPAxDSL.XWXrUWY.DPBD.....tc998O..UPRETS.Df.oQF.ATPAxDiL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAxDyL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAxDCM.XWXrUWY.DPBD.....nYlY7O..UPRETS.Df.oQF.ATPAxDSM.XWXrUWY.DPBD.....jAAl9O..UPRETS.Df.oQF.ATPAxDiM.XWXrUWY.DPBD.....jW5l7O..UPRETS.Df.oQF.ATPAxDyM.XWXrUWY.DPBD.....lCsH8O..UPRETS.Df.oQF.ATPAxDCN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAxDSN.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAxHCL.XWXrUWY.DPBD.....dnEY6O..UPRETS.Df.oQF.ATPAxHSL.XWXrUWY.DPBD.....VMdo8O..UPRETS.Df.oQF.ATPAxHiL.XWXrUWY.DPBD.....z1468O..UPRETS.Df.oQF.ATPAxHyL.XWXrUWY.DPBD.....nZ7R9O..UPRETS.Df.oQF.ATPAxHCM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.SL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.iL.XWXrUWY.DPBD.....Jb8H9O..UPRETS.Df.oQF.ATPAy.yL.XWXrUWY.DPBD.....Jamu8O..UPRETS.Df.oQF.ATPAy.CM.XWXrUWY.DPBD.....dnE48O..UPRETS.Df.oQF.ATPAy.SM.XWXrUWY.DPBD.....FY6L9O..UPRETS.Df.oQF.ATPAy.iM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAy.yM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.CN.XWXrUWY.DPBD.....5Qgq8O..UPRETS.Df.oQF.ATPAy.SN.XWXrUWY.DPBD.....dT358O..UPRETS.Df.oQF.ATPAyDCL.XWXrUWY.DPBD.....NJbc9O..UPRETS.Df.oQF.ATPAyDSL.XWXrUWY.DPBD.....VOJb8O..UPRETS.Df.oQF.ATPAyDiL.XWXrUWY.DPBD.....dT358O..UPRETS.Df.oQF.ATPAyDyL.XWXrUWY.DPBD.....5QgK9O..UPRETS.Df.oQF.ATPAyDCM.XWXrUWY.DPBD.....tdT38O..UPRETS.Df.oQF.ATPAyDSM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAyDiM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAyDyM.XWXrUWY.DPBD.....fqGE9O..UPRETS.Df.oQF.ATPAyDCN.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAyDSN.XWXrUWY.DPBD.....NJb88O..UPRETS.Df.oQF.ATPAyHCL.XWXrUWY.DPBD.....T35Q9O..UPRETS.Df.oQF.ATPAyHSL.XWXrUWY.DPBD.....nv0i8O..UPRETS.Df.oQF.ATPAyHiL.XWXrUWY.DPBD.....Jb8n8O..UPRETS.Df.oQF.ATPAyHyL.XWXrUWY.DPBD.....7nv08O..UPRETS.Df.oQF.ATPAyHCM.XWXrUWY.DPBD.....BWOJ9O..UPRETS.Df.oQF.ATPAyHSM.XWXrUWY.DPAE.iK0...PEjTA0D.AHPZjAP.ETvLxXC.1EFa0UF.Aj.A....fv0ih+C.PEjTA0D.AHPZjAP.ETvLxbC.1EFa0UF.Aj.A.....ov0i+C.PEjTA0D.AHPZjAP.ETvLxfC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.Mv.C.1EFa0UF.ATPAw3BL...TAIUPMAP.BjFY.DPAEPCLw.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEPCLx.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEPCLy.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEPCLz.fcgwVckAP.IP......nZ71+..TAIUPMAP.BjFY.DPAEPCL0.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEPCL1.fcgwVckAP.GTPKwHiKv...PEjTA0D.AHPZjAP.ET.MvbC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEPCL3.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEPCL4.fcgwVckAP.IP.........N.C.TAIUPMAP.BjFY.DPAEPSLv.fcgwVckAP.ETPLt.C...UPRETS.Df.oQF.ATPAzDSL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAzDiL.XWXrUWY.DPBD........HBP..UPRETS.Df.oQF.ATPAzDyL.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ET.MwPC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEPSL0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEPSL1.fcgwVckAP.IP.....nrc93+..TAIUPMAP.BjFY.DPAEPSL2.fcgwVckAP.IP.....vy2O0+..TAIUPMAP.BjFY.DPAEPSL3.fcgwVckAP.IP.........J.C.TAIUPMAP.BjFY.DPAEPSL4.fcgwVckAP.ET.Lt.C...UPRETS.Df.oQF.ATPAzHCL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAzHSL.XWXrUWY.DPBD........fCv..UPRETS.Df.oQF.ATPAzHiL.XWXrUWY.DPAEDiKv...PEjTA0D.AHPZjAP.ET.MxLC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.MxPC.1EFa0UF.Aj.A........j.D.PEjTA0D.AHPZjAP.ET.MxTC.1EFa0UF.Aj.A........P.D.PEjTA0D.AHPZjAP.ET.MxXC.1EFa0UF.Aj.A........P.D.PEjTA0D.AHPZjAP.CTPM.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ETPMv.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMvDC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMvHC.1EFa0UF.Aj.A.....lYlI.L.PEjTA0D.AHPZjAP.ETPMvLC.1EFa0UF.Aj.A.....Wjsi+C.PEjTA0D.AHPZjAP.ETPMvPC.1EFa0UF.Aj.A.....LyLy+C.PEjTA0D.AHPZjAP.ETPMvTC.1EFa0UF.Aj.A....fEtdj+C.PEjTA0D.AHPZjAP.ETPMvXC.1EFa0UF.Aj.A.....zLyz+K.PEjTA0D.AHPZjAP.ETPMvbC.1EFa0UF.Aj.A.....CWOt+C.PEjTA0D.AHPZjAP.ETPMvfC.1EFa0UF.Aj.A.....LyLy+C.PEjTA0D.AHPZjAP.ETPMvjC.1EFa0UF.Aj.A....fx14i+C.PEjTA0D.AHPZjAP.ETPMw.C.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPMwDC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMwHC.1EFa0UF.Aj.A.....kXPj+C.PEjTA0D.AHPZjAP.ETPMwLC.1EFa0UF.Aj.A.....LyL6+K.PEjTA0D.AHPZjAP.ETPMwPC.1EFa0UF.Aj.A.....FY6j+C.PEjTA0D.AHPZjAP.ETPMwTC.1EFa0UF.Aj.A.....nYlo+K.PEjTA0D.AHPZjAP.ETPMwXC.1EFa0UF.Aj.A....fhAAl+C.PEjTA0D.AHPZjAP.ETPMwbC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMwfC.1EFa0UF.Aj.A.....4ktk+C.PEjTA0D.AHPZjAP.ETPMwjC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPMx.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMxDC.1EFa0UF.Aj.A.....QKxh+C.PEjTA0D.AHPZjAP.ETPMxHC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMxLC.1EFa0UF.Aj.A....fPfUh+C.PEjTA0D.AHPZjAP.ETPMxPC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPMxTC.1EFa0UF.Aj.A....fvJGh+C.PEjTA0D.AHPZjAP.ETPMxXC.1EFa0UF.Aj.A..........L.PEjTA0D.AHPZjAP.ETPMxbC.1EFa0UF.Aj.A....f2jXn+C.PEjTA0D.AHPZjAP.CTfM.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ETfMv.C.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETfMvDC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMvHC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMvLC.1EFa0UF.Aj.A........dAD.PEjTA0D.AHPZjAP.ETfMvPC.1EFa0UF.Aj.A.....gqGU+C.PEjTA0D.AHPZjAP.ETfMvTC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETfMvXC.1EFa0UF.Aj.A........r.D.PEjTA0D.AHPZjAP.ETfMvbC.1EFa0UF.Aj.A........r.D.PEjTA0D.AHPZjAP.ETfMvfC.1EFa0UF.Aj.A.......PuAD.PEjTA0D.AHPZjAP.ETfMvjC.1EFa0UF.Aj.A.......LQBD.PEjTA0D.AHPZjAP.ETfMw.C.1EFa0UF.Aj.A.....EtdT+C.PEjTA0D.AHPZjAP.ETfMwDC.1EFa0UF.Aj.A....fiBWe+C.PEjTA0D.AHPZjAP.ETfMwHC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMwLC.1EFa0UF.Aj.A.....35Qg+C.PEjTA0D.AHPZjAP.ETfMwPC.1EFa0UF.Aj.A....f+Tii+C.PEjTA0D.AHPZjAP.ETfMwTC.1EFa0UF.Aj.A....famuW+C.PEjTA0D.AHPZjAP.ETfMwXC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEXSL2.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEXSL3.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEXSL4.fcgwVckAP.IP.....v0iB4+..TAIUPMAP.BjFY.DPAEXiLv.fcgwVckAP.IP.....fBWO5+..TAIUPMAP.BjFY.DPAEXiLx.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEXiLy.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEXiLz.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEXiL0.fcgwVckAP.IP......tdTz+..TAIUPMAP.BjFY.DPAEXiL1.fcgwVckAP.IP.........J.A.TAIUPMAP.BjFY.DPAEDiMx.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiMy.fcgwVckAP.IP.........J.A.TAIUPMAP.BjFY.DPAEDiMz.fcgwVckAP.IP.....nYlYx+..TAIUPMAP.BjFY.DPAEDiM0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDiM1.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiM2.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiM3.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSMy.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiMw.fcgwVckAP.IP.........7+.PaoQVZe0VXvAWZtc1b.Dv.vwVcmklaeQWdvUF.AHQAtUVcxEFaeQ1bv8kbgIVYgA.brU2Yo41WtEVakAP.QTPPxMFZkQWdvUFHRElXkEF.vwVcmklaeYWYxMWZu4F.AbPAw3BLt.C..LVXhMWZsMG..Dv.iElXykVa.Dv.o4FYkgG.ATP......XVZrUFTgQGZw.P.BT..lkFakAUXzglL.Df.E...iElXykVa.Dv.o4FYkgG.ATP.A....XVZrUFTgQGZw.P.BT..lkFakAUXzglL.Df.E...iElXykVa.Dv.o4FYkgG.ATP.B....XVZrUFTgQGZw.P.BT..lkFakAUXzglL.Df.E...XUkazkFcrUFY.f..Y.fI.rB.3..P.fD.MAvW.PF.oYPVF3kAfYfXFTlAmYvaFHmA6Y.fFHnAGRRE........BD..........X...................j3A"
+								"blob" : "9330.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIgSDMETOEQArC..............7B....yO........w3iJptJ...fL+........TC.........1........X.H+.......FDB.......fAh3CMzVK..za7........8N+O.B....Puz+C......za8+.H.....8Z+O......Pu3+Cf.....3KD+.H.....9FwOpn5p..fuR7CSL2L..36D9.H.....9RwO......fuU7Cf.....3qE+.H.....9dwOpn5p..fuX7iPhHB..3aF+TVUUA..99xO......fuv7Cf.....3aL+.H.....9JSOibsB..fuy7Cf.....3KM+.H.....9ViOpp5p..fu17SQfID..3KN........95jOTpW3..fuO4ygtRA..3KT9nfgBA..9F0O......fuR8Cf.....36T9fmbvB..9V0O......fuLB.......3ai........953O.B....fuO9Cf.....3Kj+.D.....9FI.......fuR9Cf.....36j........9RI.......fuUB.......36p........9x5O.B....fusB.......3qq+PCs0B..995O.B....Pvx9Cf.....D7r........AS6O.B....Pv05Sbo1O..Drs9X4gq...Ae6OwjJ+..Pv39yLz0K..Dbt9L1T4C..AqK.......Pv65CFSVG..Dbz+.xfS...AK8Oevm6..PvSC.......DL0........AW8O......PvV+SSOAN..D70+.......Ai8OFkdd..PvY+Cf.....Dr1........ACeOFeJ7..Pvw+C......Dr7+PAuqA..AO+O4r8H..Pvz+Cf.....T7b+.H.....ES2O......Pw08yCbkB..Trc+DAZyA..Ee2O......Pw38C......Tbd+.H.....Eq2O.B....Pw68C......TLe9D1QtB..EK4O......PwS9C......TLk+nS3GA..EW4OlXlY..PwV9CJ0KL..T7k........EiI.......PwY9C......Trl+.H.....EuoOLyLy..Pww9SFYlI..Trr+Dw5EB..EO6OQrdg..Pwz9C......Tbs+jQlYB..Ea6O......Pw29STqWH..TLt+3AtRA..EmK.......Pxz7Cf.....jbM+.......IayO.B....Px27Cf.....jLN87dmyB..ImSOib8B..Px57C......j7N+.......IyC.......Px83C3.....jLU+.H.....IWkO.B....PxVA.......j7U........Ii0O.B....PxY4CNQwN..jrV........Iu0O......Pxb8C......jrb........IOmOcexz..Px08Cf.....jrc+TUUUA..Ie2OUUUU..Px38iJptJ..vb8+.H.....LaO........y26yt6xK..vL9+zgrt...Lm+OLvby...y5+yHWu...v799PNQDA..Ly+Owstg...y8+CCL2L..vr++7wNkA..MSA.......PyU7CEDUD..zrE+HBCJA..MegOjSDQ..PyX3Czh4D..zbF+.A.....MqwO2ofO..Pya7CFHlH..zLG+nQ3HA..M2A.......Pyy3C4DQD..zLM+XQQhB..MWyOQDQD..Py17iDvFB..z7M+HgHh...MiyOPTdX..Py47iAlcF..zrN+LhDuA..Pa6O.B.....z29Cf......Mt........PmqOLyby...z55iKTrG...8t+.H.....Py6OYjol...z89CSL2L...su+LwtCB..P+6OSr6f...zU+yEJzC...s09ne3GA..Pe8O.B.....zX2ScB+H...c1+3QM.A..PqsOvBRw...zaC........M2+.H.....P28O.B.....zd6CSLyL...M8+.ynWC..PauOkLNU...z2+CRxEK...M9........Pm+O.......z5+C...fzLzfCQDULQISzO.QTvbURtAWczARLQ+fDX8TczAWczARLRDjTMAED.HQX00lYOEQGN5VY0IWXr8EYyA2WxElXkEF.AfPYjkFcuI2TooWY.DPAAL.....ck0FbuAP.IP........XX.AmbkMWYz4TXsUFTx8Fb.DfEEP2auIVXfzVYmEVag4FH3ABakEFY..mbkMWYzAUXzgFTx8Fb.DPTE7BSoIlbgIWduDTcjk1au.kbkMWYzM2KNUVcxEFafPzTP8RPxMFZkQWdvUFHRElXkE1KUMWYx8Bcu8lXgARakcVXsElaffGHrUVXj4BdswF.vIWYyUFcUkDQPI2avAP.IXvZQbvoNuYIbCmbkMWYzYUYxMWZu4FTx8Fb.DvAEDiKv3BL.LWYrU1XzUFYSU1Xzk1atAP.EDf.....x8VczklamAP.EDP.....AbLTAIUPMAP.BjFY.Dv.E.C.1EFa0UF.Aj.A......Zl49C.PEjTA0D.AHPZjAP.CTPL.XWXrUWY.DPBD.....lYFLEv..UPRETS.Df.oQF.ATPAw.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAw.SL.XWXrUWY.DPAEDiKv...PEjTA0D.AHPZjAP.ETPLvHC.1EFa0UF.Aj.A....f0iBG+C.PEjTA0D.AHPZjAP.ETPLvLC.1EFa0UF.Aj.A........j.D.PEjTA0D.AHPZjAP.ETPLvPC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPLvTC.1EFa0UF.AbPAzPCLt.C...UPRETS.Df.oQF.ATPAw.yM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAw.CN.XWXrUWY.DPBD.........AP..UPRETS.Df.oQF.ATPAw.SN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.APPAwDC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEDSLv.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSLw.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDSLx.fcgwVckAP.IP.....fLy7H.C.TAIUPMAP.BjFY.DPAEDSLy.fcgwVckAP.IP.........J.C.TAIUPMAP.BjFY.DPAEDSLz.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDSL0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSL1.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDSL2.fcgwVckAP.IP...........A.TAIUPMAP.BjFY.DPAEDSL3.fcgwVckAP.IP.....fLyrI.C.TAIUPMAP.BjFY.DPAEDSL4.fcgwVckAP.IP........vL.A.TAIUPMAP.BjFY.D.AEDiL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAwHCL.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ETPLxDC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPLxHC.1EFa0UF.Aj.A........T.D.PEjTA0D.AHPZjAP.ETPLxLC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLxPC.1EFa0UF.ATPAw3BL...TAIUPMAP.BjFY.DPAEDiL0.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEDiL1.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEDiL2.fcgwVckAP.IP.....nT355+..TAIUPMAP.BjFY.DPAEDiL4.fcgwVckAP.IP.....v0iBy+..TAIUPMAP.BjFY.D.AEDyL.XWXrUWY.DPAEXiKv...PEjTA0D.AHPZjAP.ETPLy.C.1EFa0UF.Aj.A.....Htdj9K.PEjTA0D.AHPZjAP.ETPLyDC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLyHC.1EFa0UF.Aj.A....fv0Cm.D.PEjTA0D.AHPZjAP.ETPLyLC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPLyPC.1EFa0UF.Aj.A....fGEtd+C.PEjTA0D.AHPZjAP.ETPLyTC.1EFa0UF.Aj.A....fT3RNAL.PEjTA0D.AHPZjAP.ETPLybC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0DC.1EFa0UF.Aj.A........P.D.PEjTA0D.AHPZjAP.ETPL0HC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0PC.1EFa0UF.Aj.A..........D.PEjTA0D.AHPZjAP.ETPL0TC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0XC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0bC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL0fC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0jC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.CTfL.XWXrUWY.DPBD.....LyLqBv..UPRETS.Df.oQF.ATPAx.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAx.SL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAx.iL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAx.yL.XWXrUWY.DPBD.....Lb8H8O..UPRETS.Df.oQF.ATPAx.CM.XWXrUWY.DPBD.....Huzc9O..UPRETS.Df.oQF.ATPAx.SM.XWXrUWY.DPBD.....zLyL9O..UPRETS.Df.oQF.ATPAx.iM.XWXrUWY.DPBD.....d8nP9O..UPRETS.Df.oQF.ATPAx.yM.XWXrUWY.DPBD.....d8nv8O..UPRETS.Df.oQF.ATPAx.CN.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAx.SN.XWXrUWY.DPBD.....dnEY8O..UPRETS.Df.oQF.ATPAxDCL.XWXrUWY.DPBD.....HZQ18O..UPRETS.Df.oQF.ATPAxDSL.XWXrUWY.DPBD.....tc998O..UPRETS.Df.oQF.ATPAxDiL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAxDyL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAxDCM.XWXrUWY.DPBD.....nYlY7O..UPRETS.Df.oQF.ATPAxDSM.XWXrUWY.DPBD.....jAAl9O..UPRETS.Df.oQF.ATPAxDiM.XWXrUWY.DPBD.....jW5l7O..UPRETS.Df.oQF.ATPAxDyM.XWXrUWY.DPBD.....lCsH8O..UPRETS.Df.oQF.ATPAxDCN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAxDSN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAxHCL.XWXrUWY.DPBD......TMd5O..UPRETS.Df.oQF.ATPAxHSL.XWXrUWY.DPBD.....VMdo8O..UPRETS.Df.oQF.ATPAxHiL.XWXrUWY.DPBD.....z1468O..UPRETS.Df.oQF.ATPAxHyL.XWXrUWY.DPBD.....nZ7R9O..UPRETS.Df.oQF.ATPAxHCM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.SL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.iL.XWXrUWY.DPBD.....Jb8H9O..UPRETS.Df.oQF.ATPAy.yL.XWXrUWY.DPBD.....Jamu8O..UPRETS.Df.oQF.ATPAy.CM.XWXrUWY.DPBD.....dnE48O..UPRETS.Df.oQF.ATPAy.SM.XWXrUWY.DPBD.....FY6L9O..UPRETS.Df.oQF.ATPAy.iM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAy.yM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAy.CN.XWXrUWY.DPBD.....5Qgq8O..UPRETS.Df.oQF.ATPAy.SN.XWXrUWY.DPBD.....dT358O..UPRETS.Df.oQF.ATPAyDCL.XWXrUWY.DPBD.....NJbc9O..UPRETS.Df.oQF.ATPAyDSL.XWXrUWY.DPBD.....VOJb8O..UPRETS.Df.oQF.ATPAyDiL.XWXrUWY.DPBD.....dT358O..UPRETS.Df.oQF.ATPAyDyL.XWXrUWY.DPBD.....5QgK9O..UPRETS.Df.oQF.ATPAyDCM.XWXrUWY.DPBD.....tdT38O..UPRETS.Df.oQF.ATPAyDSM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPAyDiM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAyDyM.XWXrUWY.DPBD.....fqGE9O..UPRETS.Df.oQF.ATPAyDCN.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAyDSN.XWXrUWY.DPBD.....NJb88O..UPRETS.Df.oQF.ATPAyHCL.XWXrUWY.DPBD.....T35Q9O..UPRETS.Df.oQF.ATPAyHSL.XWXrUWY.DPBD.....nv0i8O..UPRETS.Df.oQF.ATPAyHiL.XWXrUWY.DPBD.....Jb8n8O..UPRETS.Df.oQF.ATPAyHyL.XWXrUWY.DPBD.....7nv08O..UPRETS.Df.oQF.ATPAyHCM.XWXrUWY.DPBD.....BWOJ9O..UPRETS.Df.oQF.ATPAyHSM.XWXrUWY.DPAE.iK0...PEjTA0D.AHPZjAP.ETvLxXC.1EFa0UF.Aj.A....fv0ih+C.PEjTA0D.AHPZjAP.ETvLxbC.1EFa0UF.Aj.A.....ov0i+C.PEjTA0D.AHPZjAP.ETvLxfC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.Mv.C.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.MvDC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ET.MvHC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ET.MvLC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ET.MvPC.1EFa0UF.Aj.A.....fpwa+C.PEjTA0D.AHPZjAP.ET.MvTC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.MvXC.1EFa0UF.AbPAsDiLt.C...UPRETS.Df.oQF.ATPAz.yM.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ET.MvfC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ET.MvjC.1EFa0UF.Aj.A........3.L.PEjTA0D.AHPZjAP.ET.Mw.C.1EFa0UF.ATPAw3BL...TAIUPMAP.BjFY.DPAEPSLw.fcgwVckAP.IP.........7+..TAIUPMAP.BjFY.DPAEPSLx.fcgwVckAP.IP........fH.A.TAIUPMAP.BjFY.DPAEPSLy.fcgwVckAP.ET.Lt.C...UPRETS.Df.oQF.ATPAzDCM.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ET.MwTC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ET.MwXC.1EFa0UF.Aj.A....fx14i+C.PEjTA0D.AHPZjAP.ET.MwbC.1EFa0UF.Aj.A.....Oe+T+C.PEjTA0D.AHPZjAP.ET.MwfC.1EFa0UF.Aj.A........n.L.PEjTA0D.AHPZjAP.ET.MwjC.1EFa0UF.ATPAv3BL...TAIUPMAP.BjFY.DPAEPiLv.fcgwVckAP.IP.............TAIUPMAP.BjFY.DPAEPiLw.fcgwVckAP.IP.........N.C.TAIUPMAP.BjFY.DPAEPiLx.fcgwVckAP.ETPLt.C...UPRETS.Df.oQF.ATPAzHyL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPAzHCM.XWXrUWY.DPBD........PBP..UPRETS.Df.oQF.ATPAzHSM.XWXrUWY.DPBD.........AP..UPRETS.Df.oQF.ATPAzHiM.XWXrUWY.DPBD.........AP..UPRETS.Df.oQF.ALPA0.fcgwVckAP.ET.Lt.C...UPRETS.Df.oQF.ATPA0.CL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0.SL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0.iL.XWXrUWY.DPBD.....XlYl.v..UPRETS.Df.oQF.ATPA0.yL.XWXrUWY.DPBD.....bQ1N9O..UPRETS.Df.oQF.ATPA0.CM.XWXrUWY.DPBD.....vLyL+O..UPRETS.Df.oQF.ATPA0.SM.XWXrUWY.DPBD.....V35Q9O..UPRETS.Df.oQF.ATPA0.iM.XWXrUWY.DPBD.....PyLS+u..UPRETS.Df.oQF.ATPA0.yM.XWXrUWY.DPBD.....Lb839O..UPRETS.Df.oQF.ATPA0.CN.XWXrUWY.DPBD.....vLyL+O..UPRETS.Df.oQF.ATPA0.SN.XWXrUWY.DPBD.....JamO9O..UPRETS.Df.oQF.ATPA0DCL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPA0DSL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0DiL.XWXrUWY.DPBD.....ThAQ9O..UPRETS.Df.oQF.ATPA0DyL.XWXrUWY.DPBD.....vLyr+u..UPRETS.Df.oQF.ATPA0DCM.XWXrUWY.DPBD.....XjsS9O..UPRETS.Df.oQF.ATPA0DSM.XWXrUWY.DPBD.....flYl9u..UPRETS.Df.oQF.ATPA0DiM.XWXrUWY.DPBD.....JFDX9O..UPRETS.Df.oQF.ATPA0DyM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0DCN.XWXrUWY.DPBD.....jW5V9O..UPRETS.Df.oQF.ATPA0DSN.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPA0HCL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0HSL.XWXrUWY.DPBD.....DsHK9O..UPRETS.Df.oQF.ATPA0HiL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0HyL.XWXrUWY.DPBD.....BAVI9O..UPRETS.Df.oQF.ATPA0HCM.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA0HSM.XWXrUWY.DPBD.....BqbH9O..UPRETS.Df.oQF.ATPA0HiM.XWXrUWY.DPBD..........v..UPRETS.Df.oQF.ATPA0HyM.XWXrUWY.DPBD.....dShg9O..UPRETS.Df.oQF.ALPA1.fcgwVckAP.ET.Lt.C...UPRETS.Df.oQF.ATPA1.CL.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPA1.SL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA1.iL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA1.yL.XWXrUWY.DPBD........FFP..UPRETS.Df.oQF.ATPA1.CM.XWXrUWY.DPBD.....DtdT8O..UPRETS.Df.oQF.ATPA1.SM.XWXrUWY.DPBD.........+O..UPRETS.Df.oQF.ATPA1.iM.XWXrUWY.DPBD........vBP..UPRETS.Df.oQF.ATPA1.yM.XWXrUWY.DPBD........vBP..UPRETS.Df.oQF.ATPA1.CN.XWXrUWY.DPBD........8FP..UPRETS.Df.oQF.ATPA1.SN.XWXrUWY.DPBD.....BWaGHP..UPRETS.Df.oQF.ATPA1DCL.XWXrUWY.DPBD.....T35Q8O..UPRETS.Df.oQF.ATPA1DSL.XWXrUWY.DPBD.....NJb88O..UPRETS.Df.oQF.ATPA1DiL.XWXrUWY.DPBD.............UPRETS.Df.oQF.ATPA1DyL.XWXrUWY.DPBD.....fqGE9O..UPRETS.Df.oQF.ATPA1DCM.XWXrUWY.DPBD.....9SMN9O..UPRETS.Df.oQF.ATPA1DSM.XWXrUWY.DPBD.....tc9d8O..UPRETS.Df.oQF.ATPA1DiM.XWXrUWY.DPAE.iKv...PEjTA0D.AHPZjAP.ETfMwbC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETfMwfC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMwjC.1EFa0UF.Aj.A.....OJbk+C.PEjTA0D.AHPZjAP.ETfMx.C.1EFa0UF.Aj.A.....Jb8n+C.PEjTA0D.AHPZjAP.ETfMxHC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMxLC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETfMxPC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETfMxTC.1EFa0UF.Aj.A.....35QQ+C.PEjTA0D.AHPZjAP.ETfMxXC.1EFa0UF.Aj.A........n.D.PEjTA0D.AHPZjAP.ETPL1HC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1LC.1EFa0UF.Aj.A........n.D.PEjTA0D.AHPZjAP.ETPL1PC.1EFa0UF.Aj.A....flYlI+C.PEjTA0D.AHPZjAP.ETPL1TC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL1XC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1bC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1fC.1EFa0UF.Aj.A........v+C.PEjTA0D.AHPZjAP.ETPL0LC.1EFa0UF.Aj.A............PEjTA0D.AHPZjAP.ETPL1DC.1EFa0UF.Aj.A........v+C.skFYo8UagAGbo41YyAP.C.Ga0cVZt8Ec4AWY.DfDE3VY0IWXr8EYyA2WxElXkEF.vwVcmklae4VXsUF.ADQAAI2XnUFc4AWYfHUXhUVX..Ga0cVZt8kckI2bo8la.DvAEDiKv3BL..vXgI1bo01b..P.CLVXhMWZsAP.CjlajUFd.DPAA.....fYowVYPEFcnEC.AHPA.XVZrUFTgQGZx.P.BT...LVXhMWZsAP.CjlajUFd.DPAAD....fYowVYPEFcnEC.AHPA.XVZrUFTgQGZx.P.BT...LVXhMWZsAP.CjlajUFd.DPAAH....fYowVYPEFcnEC.AHPA.XVZrUFTgQGZx.P.BT...fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jlAYYfWF.lAhYPYFblAuYfbFrmA.ZffFbHIY........HP..........fA..................PhH"
 							}
 
 						}
@@ -3093,12 +3191,12 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 962.309555360249078, 857.127207981178799, 193.0, 49.0 ],
+					"patching_rect" : [ 970.214580969719691, 1046.127207981178799, 193.0, 49.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Archetype Rabea", "@parameter_enable", 0, "@prefer", "AudioUnit", "@autosave", 0, ";" ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
-							"parameter_longname" : "vst~[13]",
+							"parameter_longname" : "vst~[8]",
 							"parameter_shortname" : "vst~[13]",
 							"parameter_type" : 3
 						}
@@ -3107,7 +3205,6 @@
 ,
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
-						"bypass" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"prefer" : "AudioUnit"
@@ -3252,7 +3349,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -3260,6 +3357,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
+					"order" : 5,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
 					"order" : 3,
 					"source" : [ "obj-116", 0 ]
 				}
@@ -3267,7 +3372,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"order" : 0,
 					"source" : [ "obj-116", 0 ]
 				}
@@ -3275,8 +3380,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 1,
+					"source" : [ "obj-116", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
-					"order" : 2,
+					"order" : 4,
 					"source" : [ "obj-116", 0 ]
 				}
 
@@ -3332,6 +3445,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-139", 1 ]
 				}
@@ -3339,8 +3466,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-140", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -3371,6 +3519,13 @@
 					"destination" : [ "obj-162", 0 ],
 					"order" : 1,
 					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -3559,6 +3714,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-33", 1 ],
 					"source" : [ "obj-22", 3 ]
 				}
@@ -3604,6 +3766,13 @@
 					"destination" : [ "obj-8", 1 ],
 					"midpoints" : [ 818.918273943801069, 460.0, 227.0, 460.0, 227.0, 684.0, 863.280948407309438, 684.0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -3699,6 +3868,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-114", 1 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -3873,6 +4049,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-91", 0 ]
 				}
@@ -3927,51 +4110,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-12" : [ "vst~[13]", "vst~[13]", 0 ],
-			"obj-33" : [ "vst~", "vst~", 0 ],
-			"obj-35" : [ "vst~[1]", "vst~[1]", 0 ],
-			"obj-38" : [ "vst~[3]", "vst~[3]", 0 ],
-			"obj-54" : [ "vst~[5]", "vst~[5]", 0 ],
-			"obj-56" : [ "vst~[6]", "vst~[6]", 0 ],
-			"obj-57" : [ "vst~[7]", "vst~[7]", 0 ],
-			"obj-58" : [ "vst~[2]", "vst~[2]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "distortion_latencies.txt",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "distortion_latencies_2.txt",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "distortion_plugins.json",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
