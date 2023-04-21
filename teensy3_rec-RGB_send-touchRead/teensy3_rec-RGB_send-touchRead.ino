@@ -11,13 +11,14 @@
 Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28, &Wire);
 
 // Define constants
-const unsigned long OUTPUT_RATE_ACCEL = 9000; // equal to 120 fps
-const unsigned long OUTPUT_RATE_TOUCH = 1500; // Output rate in microseconds
+const unsigned long OUTPUT_RATE_ACCEL = 1000000; // Output rate in microseconds
+const unsigned long OUTPUT_RATE_TOUCH = 2000; // Output rate in microseconds
 const int MOVING_AVERAGE_WINDOW_SIZE = 10; // Size of the moving average window
 const int config = WS2811_GRB | WS2811_800kHz;
 const int ledsPerStrip = 26;
 const int numStrips = 8;
 const int numChannels = ledsPerStrip * numStrips * 3;
+const int maxDataLength = numChannels;  // maxDataLength is the maximum length allowed for received data.
 
 // Declare variables
 unsigned long accelLastOutputTime = 0;
@@ -30,18 +31,19 @@ int touchRead_data_average = 0;
 float eventOrientationX = 0;
 float eventOrientationY = 0;
 float eventOrientationZ = 0;
+float linearAccelX = 0;
 char serial_array[numChannels];
 int serial_array_length = 0;
 DMAMEM int displayMemory[ledsPerStrip * 6];
 int drawingMemory[ledsPerStrip * 6];
+char receivedChars[numChannels + 1];
+boolean newData = false;        // newData is used to determine if there is a new command
 
 OctoWS2811 leds(ledsPerStrip, displayMemory, drawingMemory, config);
 
 void setup() 
 {
   Serial.begin(115200);
-
-  // while (!Serial) delay(10);  // wait for serial port to open!
 
   /* Initialise the sensor */
   if(!bno.begin())
@@ -52,8 +54,6 @@ void setup()
   }
 
   bno.setExtCrystalUse(false); // https://protosity.wordpress.com/2016/09/12/bno055-arduino-ros/
-
-  // Serial.println("Teensy is ready!");
 
   leds.begin();
   test();
@@ -100,77 +100,89 @@ int aprintf(char *str, ...) {
   return count;
 }
 
-const int startMarker = 255;
-bool frameStarted = false;
 
 void loop() 
 {
-
-  // https://github.com/natcl/MaxLedStrips/blob/master/teensy/teensy_OctoWS2811_serial/teensy_OctoWS2811_serial.ino
-  int n = Serial.available();
-  // first, check if there's anything available to read
-  if (n > 0)
-  {
-    // if it's more than needed, read only enough to fill the array
-    if (n > numChannels - serial_array_length) n = numChannels - serial_array_length;
-
-    // actually read the data, adding to whatever is already in the array
-    Serial.readBytes(serial_array + serial_array_length, n);
-    serial_array_length = serial_array_length + n;
-
-    // then check if this filled the array and use the data
-    if (serial_array_length >= numChannels)
-    {
-      for (int i = 0; i < ledsPerStrip * numStrips ; i++)
-        leds.setPixel(i, serial_array[i * 3], serial_array[i * 3 + 1], serial_array[i * 3 + 2]);
-
-      leds.show();
-      serial_array_length = 0;
-    }
-  }
-
-  // Check if enough time has elapsed since last output
-  unsigned long currentTime = micros();
+  recvWithStartEndMarkers();                // check to see if we have received any new commands
+  if (newData)  {   processCommand();  }    // if we have a new command do something
 
   // https://forum.arduino.cc/t/demonstration-code-for-several-things-at-the-same-time/217158
+  // Check if enough time has elapsed since last output
+  unsigned long currentTime = micros();
   if (currentTime - touchLastOutputTime >= OUTPUT_RATE_TOUCH)  
   {
     // Read touch sensor data
     touchRead_data = touchRead(touchRead_pin);
 
-    // Update moving average window
-    touchRead_data_sum -= touchRead_data_history[0];
-    for (int i = 0; i < MOVING_AVERAGE_WINDOW_SIZE - 1; i++) {
-      touchRead_data_history[i] = touchRead_data_history[i + 1];
-    }
-    touchRead_data_history[MOVING_AVERAGE_WINDOW_SIZE - 1] = touchRead_data;
-    touchRead_data_sum += touchRead_data;
-    touchRead_data_average = touchRead_data_sum / MOVING_AVERAGE_WINDOW_SIZE;
-    // Output touch sensor moving average
-
     // Update the last output time
     touchLastOutputTime = currentTime;
 
-    // Check if it's time to update accelerometer data
+/*    // Check if it's time to update accelerometer data 
     if (currentTime - accelLastOutputTime >= OUTPUT_RATE_ACCEL) 
     {
       // Get a new sensor event
       sensors_event_t event;
       bno.getEvent(&event);
-
       eventOrientationX = event.orientation.x;
-      eventOrientationY = event.orientation.y;
-      eventOrientationZ = event.orientation.z;
-
+      //eventOrientationY = event.orientation.y;
+      //eventOrientationZ = event.orientation.z;
+      // Possible vector values can be:
+      // - VECTOR_ACCELEROMETER - m/s^2
+      // - VECTOR_MAGNETOMETER  - uT
+      // - VECTOR_GYROSCOPE     - rad/s
+      // - VECTOR_EULER         - degrees
+      // - VECTOR_LINEARACCEL   - m/s^2
+      // - VECTOR_GRAVITY       - m/s^2
+      imu::Vector<3> linearaccel = bno.getVector(Adafruit_BNO055::VECTOR_LINEARACCEL);
+        
+      linearAccelX = linearaccel.x();
       // Update the last output time of the accelerometer
       accelLastOutputTime = currentTime;
     }
+*/
     // serial.println() = "\r\n"
-    aprintf("\r\n%d %f %f %f", touchRead_data_average, eventOrientationX, eventOrientationY, eventOrientationZ);
-    Serial.flush();
+      aprintf("\r\n%d", touchRead_data);
+    // aprintf("\r\n%d %f %f", touchRead_data, eventOrientationX, linearAccelX);
+    // Serial.flush();
   }
-  
 }
+
+void processCommand()
+{
+  for (int i = 0; i < ledsPerStrip * numStrips ; i++)
+    leds.setPixel(i, receivedChars[i * 3], receivedChars[i * 3 + 1], receivedChars[i * 3 + 2]);
+  leds.show();
+  newData = false;
+}
+
+void recvWithStartEndMarkers() 
+{
+  static boolean recvInProgress = false;
+  static int ndx = 0;
+  int startMarker = 254;
+  int endMarker = 255;
+  
+  if (Serial.available() > 0) 
+  {
+    int rc = Serial.read();
+    if (recvInProgress == true) 
+    {
+      if (rc != endMarker) 
+      {
+        if (ndx < maxDataLength) { receivedChars[ndx] = rc; ndx++;  }
+      }
+      else 
+      {
+        receivedChars[ndx] = '\0'; // terminate the string
+        recvInProgress = false;
+        ndx = 0;
+        newData = true;
+      }
+    }
+    else if (rc == startMarker) { recvInProgress = true; }
+  }
+}
+
 
 void test() {
   for (int i = 0; i < ledsPerStrip * numStrips ; i++) {
