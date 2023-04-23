@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-143",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 963.190015374325412, 1342.841773246015691, 51.0, 22.0 ],
+					"text" : "clip -1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-140",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -777,7 +789,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 878.940015374325412, 1330.341772292341375, 82.25, 33.0 ],
+					"patching_rect" : [ 877.940015374325412, 1374.5, 82.25, 33.0 ],
 					"text" : "High LFO no env scaling"
 				}
 
@@ -790,7 +802,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 963.190015374325412, 1335.841772292341375, 35.0, 22.0 ],
+					"patching_rect" : [ 962.190015374325412, 1380.0, 35.0, 22.0 ],
 					"text" : "out 4",
 					"textcolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 				}
@@ -2341,6 +2353,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-143", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"midpoints" : [ 736.856682040992155, 908.0, 496.583303411801808, 908.0 ],
 					"source" : [ "obj-15", 0 ]
@@ -2725,7 +2744,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-143", 0 ],
 					"order" : 1,
 					"source" : [ "obj-54", 0 ]
 				}
