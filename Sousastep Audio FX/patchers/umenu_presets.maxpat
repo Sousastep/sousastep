@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 547.0, -873.0, 348.0, 779.0 ],
+		"rect" : [ 547.0, 87.0, 348.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -73,7 +73,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "a", "s", "d", "f", "g", "h", "j", "k", "l" ],
+							"parameter_enum" : [ "EP Dry", "EP Darkglass", "EP Cory Wong", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "moog saturation", "moog harmony", "d", "f", "g", "h", "j", "k", "l" ],
 							"parameter_longname" : "Presets",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "Presets",

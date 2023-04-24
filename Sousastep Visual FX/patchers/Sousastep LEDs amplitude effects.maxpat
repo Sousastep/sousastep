@@ -40,6 +40,70 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-644",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 353.5, -1206.458161922277895, 68.0, 22.0 ],
+					"text" : "cross~ 160"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-641",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6605.0, -272.0, 70.0, 22.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-598",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6608.0, -241.429913566328366, 20.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1361.0, 34.570086433671634, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bright",
+					"id" : "obj-350",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6552.0, -58.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7425.615330826896752, -161.713159199999978, 34.0, 22.0 ],
+					"text" : "s fps"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-581",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1252,6 +1316,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 115.0, 42.0, 86.0, 22.0 ],
+									"text" : "param bright 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 60.0, 54.0, 29.5, 22.0 ],
+									"text" : "*"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-17",
 									"linecount" : 3,
@@ -1302,7 +1390,7 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1311,6 +1399,20 @@
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 1 ],
+									"source" : [ "obj-5", 0 ]
 								}
 
 							}
@@ -3407,7 +3509,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 392.646100989837123, -918.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"text" : "loadmess 0"
 				}
 
 			}
@@ -5292,7 +5394,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-228",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -5493,13 +5594,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-544",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 49.0 ],
-					"text" : "RainbowGlowRing"
+					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 35.0 ],
+					"text" : "Pinwheel"
 				}
 
 			}
@@ -6371,103 +6472,6 @@
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel" : 0,
-						"UI_Pinwheel::Pinwheel_size" : 0,
-						"UI_Pinwheel::Pinwheel_size::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_size::invert" : 0,
-						"UI_Pinwheel::Pinwheel_size::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_size::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_size::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_size::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_size::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_edge" : 0,
-						"UI_Pinwheel::Pinwheel_edge::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_edge::invert" : 0,
-						"UI_Pinwheel::Pinwheel_edge::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_edge::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_edge::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_edge::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_edge::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_segments" : 0,
-						"UI_Pinwheel::Pinwheel_segments::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_segments::invert" : 0,
-						"UI_Pinwheel::Pinwheel_segments::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_segments::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_segments::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_segments::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_segments::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_rate" : 0,
-						"UI_Pinwheel::Pinwheel_rate::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_rate::invert" : 0,
-						"UI_Pinwheel::Pinwheel_rate::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_rate::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_rate::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_rate::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_rate::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::invert" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::invert" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::invert" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::u352009166" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::invert" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::linkphasor_rate" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::matrixctrl" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::rslider" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::slide_down" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_PolarGradient" : 0,
 						"UI_PolarGradient::PolarGradient_sMin" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::u352009166" : 0,
@@ -10862,23 +10866,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Ableton Sans Medium",
-					"fontsize" : 20.0,
-					"id" : "obj-15",
-					"ignoreclick" : 1,
-					"maxclass" : "jit.fpsgui",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7474.999999999999091, -145.0, 98.0, 46.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1226.888613481483389, 68.752461111487833, 74.0, 46.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-128",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -11000,7 +10987,7 @@
 					"patching_rect" : [ 349.0, -450.468276326431806, 200.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "flashy mcflashface",
+					"text" : "Pinwheel dub 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -11036,7 +11023,7 @@
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
+						"enable_shader" : [ 0 ],
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
@@ -16656,6 +16643,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-691", 0 ],
+					"source" : [ "obj-350", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-374", 0 ],
 					"source" : [ "obj-353", 0 ]
 				}
@@ -18202,16 +18196,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-369", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-441", 0 ],
+					"order" : 0,
 					"source" : [ "obj-581", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-441", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-644", 0 ],
+					"order" : 1,
 					"source" : [ "obj-581", 0 ]
 				}
 
@@ -18328,6 +18322,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-625", 0 ],
 					"source" : [ "obj-597", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-350", 0 ],
+					"source" : [ "obj-598", 0 ]
 				}
 
 			}
@@ -18694,8 +18695,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-598", 0 ],
+					"source" : [ "obj-641", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-638", 1 ],
 					"source" : [ "obj-643", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-369", 0 ],
+					"source" : [ "obj-644", 1 ]
 				}
 
 			}
@@ -19803,16 +19818,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 0,
-					"source" : [ "obj-88", 1 ]
+					"destination" : [ "obj-580", 0 ],
+					"source" : [ "obj-88", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-580", 0 ],
-					"source" : [ "obj-88", 0 ]
+					"destination" : [ "obj-93", 0 ],
+					"order" : 0,
+					"source" : [ "obj-88", 1 ]
 				}
 
 			}

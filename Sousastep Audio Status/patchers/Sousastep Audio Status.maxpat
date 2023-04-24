@@ -42,6 +42,35 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 43.09094697646924, 53.0, 32.0, 22.0 ],
+					"text" : "r fps"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 20.0,
+					"id" : "obj-106",
+					"ignoreclick" : 1,
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 43.09094697646924, 86.0, 135.0, 46.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 327.888613481483389, 242.752461111487833, 74.0, 46.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-103",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -136,7 +165,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1169.156599461462974, 128.179107999999985, 105.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.646301976469431, 230.551104115371544, 120.0, 22.0 ],
+					"presentation_rect" : [ 172.646301976469431, 230.551104115371544, 120.0, 22.0 ],
 					"text" : "Audio Interrupt",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -164,7 +193,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1144.990583461463075, 128.179107999999985, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.585861912992868, 230.551104115371544, 24.0, 24.0 ]
+					"presentation_rect" : [ 278.585861912992868, 230.551104115371544, 24.0, 24.0 ]
 				}
 
 			}
@@ -179,7 +208,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 992.363142461462985, 128.179107999999985, 151.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.031351089477539, 259.942915877375867, 162.0, 22.0 ],
+					"presentation_rect" : [ 125.031351089477539, 259.942915877375867, 162.0, 22.0 ],
 					"text" : "Scheduler in Overdrive",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -207,7 +236,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 968.197126461462972, 128.179107999999985, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 300.677520751953125, 261.566786726985242, 24.0, 24.0 ]
+					"presentation_rect" : [ 278.677520751953125, 261.566786726985242, 24.0, 24.0 ]
 				}
 
 			}
@@ -430,7 +459,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1254.84910879787094, 622.840491345413966, 20.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.320625000000291, 59.085812295681535, 20.0, 218.084179086874883 ]
+					"presentation_rect" : [ 366.320625000000291, 59.085812295681535, 20.0, 178.084179086874883 ]
 				}
 
 			}
@@ -780,7 +809,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1206.906599461462974, 622.840491345413966, 25.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.44888792459551, 59.085812295681535, 21.0, 218.084179086874883 ]
+					"presentation_rect" : [ 339.44888792459551, 59.085812295681535, 21.0, 178.084179086874883 ]
 				}
 
 			}
@@ -3522,7 +3551,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3673,6 +3702,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"source" : [ "obj-105", 0 ]
 				}
 
 			}
