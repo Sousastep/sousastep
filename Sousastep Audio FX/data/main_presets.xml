@@ -1242,12 +1242,12 @@
 		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "1" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
+		<pattr name = "Quadravox_Enable_14th" value = "1" />
 		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
 		<pattr name = "Quadravox_Key" value = "A#" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
+		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "1" />
 		<pattr name = "Quadravox_Scale" value = "Phrygian" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
+		<pattr name = "Zslide_down" value = "Zslide_down 2000." />
 		<pattr name = "aux_SnTrSq" value = "0" />
 		<pattr name = "aux_duty_cycle" value = "0." />
 		<pattr name = "aux_phase_offset" value = "55.905512" />
@@ -1258,13 +1258,13 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "0" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 18.971605 0 0. 1. 75.159043 0 0.045 curve" />
-		<pattr name = "freq_ceiling_slide_down" value = "16000" />
-		<pattr name = "freq_ceiling_slide_up" value = "48" />
+		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 18.971605 0 0. 1. 95.08 0 0.045 curve" />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor" value = "1. 0. 100. 0. 11.352969 0 0. 1. 13.257628 0 0.045 curve" />
-		<pattr name = "freq_floor_slide_down" value = "16000" />
-		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 74.996543 0 0.445 curve" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
+		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 54.788173 0 0. 0.722598 9.735889 0 -0.305 1. 49.036818 0 0.5 curve" />
 		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -1273,7 +1273,7 @@
 		<pattr name = "low_lock" value = "0" />
 		<pattr name = "low_phase_offset" value = "17.322835" />
 		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "30.230118" />
+		<pattr name = "moog_rez" value = "34.04" />
 		<pattr name = "mp_enable" value = "1" />
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "63" />
@@ -1323,6 +1323,101 @@
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
 			<pattr name = "limiter_saturation" value = "0.16" />
+		</patcher>
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
+		<patcher name = "patcher[3]">
+			<pattr name = "just_triC" value = "1" />
+		</patcher>
+	</slot>
+	<slot number = "15">
+		<pattr name = "Distortion_Preset_Selection" value = "2" />
+		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
+		<pattr name = "Q_sense" value = "Q_sense 0." />
+		<pattr name = "Quadravox_Enable_12th" value = "0" />
+		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
+		<pattr name = "Quadravox_Enable_14th" value = "0" />
+		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
+		<pattr name = "Quadravox_Key" value = "Bb" />
+		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
+		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
+		<pattr name = "Zslide_down" value = "Zslide_down 600." />
+		<pattr name = "aux_SnTrSq" value = "0" />
+		<pattr name = "aux_duty_cycle" value = "0." />
+		<pattr name = "aux_phase_offset" value = "55.905512" />
+		<pattr name = "aux_power" value = "0." />
+		<pattr name = "aux_route_menu" value = "0" />
+		<pattr name = "aux_yaxis" value = "0." />
+		<pattr name = "crossover_freq" value = "0.05382" />
+		<pattr name = "env_glide_type" value = "2" />
+		<pattr name = "filter_pole" value = "1" />
+		<pattr name = "filter_type" value = "10" />
+		<pattr name = "freq_ceiling" value = "1. 0. 100. 0.000793 14.21 0 0. 0.063419 18.019275 0 0. 1. 96.110291 0 -0.705 curve" />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor" value = "1. 0. 100. 0. 7.543651 0 0. 1. 25.637911 0 0.645 curve" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
+		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
+		<pattr name = "gate_thresh" value = "0.109935" />
+		<pattr name = "high_SnTrSq" value = "1" />
+		<pattr name = "low_SnTrSq" value = "0" />
+		<pattr name = "low_duty_cycle" value = "0." />
+		<pattr name = "low_floor" value = "0." />
+		<pattr name = "low_lock" value = "0" />
+		<pattr name = "low_phase_offset" value = "17.322835" />
+		<pattr name = "low_power" value = "-47.244094" />
+		<pattr name = "moog_rez" value = "29.093647" />
+		<pattr name = "mp_enable" value = "1" />
+		<pattr name = "reverb_delay_input_selector" value = "0" />
+		<pattr name = "rez_max" value = "60" />
+		<pattr name = "rez_min" value = "0" />
+		<pattr name = "transient_helper" value = "2" />
+		<pattr name = "very_low_lock" value = "0" />
+		<pattr name = "verylow_SnTrSq" value = "0" />
+		<pattr name = "verylow_duty_cycle" value = "0." />
+		<pattr name = "verylow_floor" value = "0." />
+		<pattr name = "verylow_phase_offset" value = "37.007874" />
+		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "delay_and_reverb">
+			<pattr name = "delay_and_reverb" value = "1" />
+		</patcher>
+		<patcher name = "masterbus[1]">
+			<pattr name = "masterbus" value = "1" />
+		</patcher>
+		<patcher name = "patcher">
+			<pattr name = "preamp_and_pitch" value = "1" />
+		</patcher>
+		<patcher name = "transient_detect">
+			<pattr name = "transient_selector" value = "0" />
+		</patcher>
+		<patcher name = "mix_env_logic">
+			<pattr name = "env_bottom" value = "37." />
+			<pattr name = "env_inv" value = "1" />
+			<pattr name = "env_top" value = "99." />
+		</patcher>
+		<patcher name = "just_theDrop">
+			<pattr name = "just_theDrop" value = "1" />
+		</patcher>
+		<patcher name = "crossovers_and_8va">
+			<pattr name = "crossovers" value = "1" />
+		</patcher>
+		<patcher name = "patcher[1]">
+			<pattr name = "just_MF-101S" value = "1" />
+		</patcher>
+		<patcher name = "patcher[2]">
+			<pattr name = "lowComp_and_highDryFX" value = "1" />
+		</patcher>
+		<patcher name = "post-triplewrap_mixbus">
+			<pattr name = "high_volume" value = "-5." />
+			<pattr name = "low_volume" value = "0." />
+			<pattr name = "very_low_volume" value = "0." />
+			<pattr name = "Dry Input Gain[1]" value = "28.72441" />
+			<pattr name = "Dry Output Gain[1]" value = "39.685039" />
+			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
+			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
+			<pattr name = "limiter_saturation" value = "0." />
 		</patcher>
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
