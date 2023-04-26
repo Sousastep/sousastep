@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.702269, 0.811747, 0.303388, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 853.233332300186248, 82.930465414467392, 30.0, 22.0 ],
+					"text" : "r LV"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"addpoints_with_curve" : [ 0.0, -1.0, 0, 0.0, 0.5, 0.0, 0, -0.65, 1.0, 1.0, 0, 0.6 ],
 					"domain" : 1.0,
 					"gridstep_x" : 0.1,
@@ -284,9 +297,9 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 712.699226248755508, 117.930465414467392, 56.0, 22.0 ],
 					"restore" : 					{
-						"env_bottom" : [ 1.0 ],
-						"env_inv" : [ 0 ],
-						"env_top" : [ 100.0 ]
+						"env_bottom" : [ 37.0 ],
+						"env_inv" : [ 1 ],
+						"env_top" : [ 99.0 ]
 					}
 ,
 					"text" : "autopattr",
@@ -976,7 +989,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 802.715891027941325, 117.930465414467392, 36.0, 22.0 ],
+					"patching_rect" : [ 802.715891027941325, 82.930465414467392, 36.0, 22.0 ],
 					"text" : "r LV2"
 				}
 
@@ -1004,7 +1017,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.666672348976135, 178.422516314622953, 123.0, 40.0 ],
+					"patching_rect" : [ 1223.092989163126731, 93.290371962606287, 123.0, 40.0 ],
 					"text" : "easing function",
 					"textjustification" : 1
 				}
@@ -1021,7 +1034,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-111", 0 ]
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -1572,23 +1585,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-19" : [ "function[15]", "function[15]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
