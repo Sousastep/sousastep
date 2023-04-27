@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1062.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,17 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 431.11865200000102, 1472.0, 97.0, 22.0 ],
+					"text" : "s dpad_released"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-138",
 					"maxclass" : "newobj",
@@ -2978,7 +2989,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 759.947851799999626, 1317.0, 159.0, 22.0 ],
+					"patching_rect" : [ 759.947851799999626, 1317.0, 80.0, 22.0 ],
 					"text" : "select 0 2 4 6",
 					"textcolor" : [ 0.043137254901961, 0.0, 0.513725490196078, 1.0 ]
 				}
@@ -3083,18 +3094,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.957820215135135, 0.316428377297297, 0.055716377297297, 0.800108108108108 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 180.0, 35.0 ],
+					"patching_rect" : [ 1523.416078286413267, 1027.29921000000013, 180.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.221867799759821, 145.266654292742714, 223.0, 21.0 ],
-					"text" : "attempting to connect in 10 seconds"
+					"presentation_rect" : [ 4.221867799759821, 145.266654292742714, 223.0, 21.0 ]
 				}
 
 			}
@@ -3113,7 +3121,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "Antlion Wireless Microphone", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
+					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -4217,6 +4225,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-130", 0 ],
+					"order" : 1,
+					"source" : [ "obj-283", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
 					"order" : 0,
 					"source" : [ "obj-283", 4 ]
 				}
@@ -4225,7 +4241,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-275", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-283", 4 ]
 				}
 
@@ -4328,7 +4344,7 @@
 				"patchline" : 				{
 					"color" : [ 0.122555986046791, 0.922992467880249, 0.946839809417725, 1.0 ],
 					"destination" : [ "obj-283", 0 ],
-					"midpoints" : [ 909.447851799999626, 1390.0, 341.750833940471125, 1390.0 ],
+					"midpoints" : [ 830.447851799999626, 1390.0, 341.750833940471125, 1390.0 ],
 					"source" : [ "obj-305", 4 ]
 				}
 
@@ -5137,50 +5153,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "BTT.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "auto-connect_hi_set.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "deadzone.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamectl_bg.png",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "imgbtn.js",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{

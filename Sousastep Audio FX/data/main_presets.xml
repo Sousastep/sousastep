@@ -98,8 +98,8 @@
 		</patcher>
 	</slot>
 	<slot number = "2">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
+		<pattr name = "Distortion_Preset_Selection" value = "6" />
+		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
 		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
@@ -119,10 +119,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling_slide_down" value = "6000" />
-		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor_slide_down" value = "12000" />
-		<pattr name = "freq_floor_slide_up" value = "480" />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
 		<pattr name = "gate_thresh" value = "0.074526" />
 		<pattr name = "high_SnTrSq" value = "2" />
 		<pattr name = "low_SnTrSq" value = "1" />
@@ -131,15 +131,15 @@
 		<pattr name = "low_lock" value = "0" />
 		<pattr name = "low_phase_offset" value = "0." />
 		<pattr name = "low_power" value = "-26.515673" />
-		<pattr name = "moog_rez" value = "27.459294" />
+		<pattr name = "moog_rez" value = "26.68" />
 		<pattr name = "mp_enable" value = "1" />
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "59" />
 		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMDMyMjUyNDk0ODYzMjgKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE0NjY4MzIwNDU0NjI2NwoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDM1Mjk0MTE3NjQ3MDYKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuODU1NzQxMTc2NDcwNTg4CgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzE2MTgwNjQwMjA5MTIKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMjIyNzE4Mzg3NjIzODEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTUwODQxNzIyNjc2NDU5CgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
