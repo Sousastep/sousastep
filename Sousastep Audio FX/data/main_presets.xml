@@ -23,13 +23,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0.000793 14.21 0 0. 0.063419 18.019275 0 0. 1. 96.110291 0 0.095 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2400" />
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 7.543651 0 0. 1. 25.637911 0 0.645 curve" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.109935" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -43,6 +40,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "60" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -118,13 +119,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 18.971605 0 0. 0.932963 71.349725 0 0.1 1. 80.87302 0 0. curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "6000" />
 		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 3.734333 0 0. 1. 22.780922 0 0.4 curve" />
 		<pattr name = "freq_floor_slide_down" value = "12000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 38.571291 0 0.645 curve" />
 		<pattr name = "gate_thresh" value = "0.074526" />
 		<pattr name = "high_SnTrSq" value = "2" />
 		<pattr name = "low_SnTrSq" value = "1" />
@@ -138,6 +136,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "59" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -213,13 +215,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 70.397396 0 0. 0.231042 17.066946 0 -0.5 1. 100. 0 -0.35 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "16000" />
 		<pattr name = "freq_ceiling_slide_up" value = "48" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 25.637911 0 -0.45 0.148961 6.591321 0 0. 1. 33.256546 0 0.35 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 74.996543 0 0. 0.165178 0. 0 -0.5 1. 22.275784 0 0.5 curve" />
 		<pattr name = "gate_thresh" value = "0." />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -233,6 +232,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "82" />
 		<pattr name = "rez_min" value = "8" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "0" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -308,13 +311,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 6.591321 0 0. 1. 100. 0 -0.05 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "6000" />
 		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 0. 0 0. 1. 30.4 0 -0.005 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 52.94968 0 0.45 curve" />
 		<pattr name = "gate_thresh" value = "0." />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -328,6 +328,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "94" />
 		<pattr name = "rez_min" value = "6" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "3" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -403,13 +407,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 24.685581 0 0. 1. 100. 0 -0.5 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "8000" />
 		<pattr name = "freq_ceiling_slide_up" value = "48" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 0. 0 -0.25 1. 36.113535 0 0.15 curve" />
 		<pattr name = "freq_floor_slide_down" value = "12000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 38.571291 0 0.645 curve" />
 		<pattr name = "gate_thresh" value = "0.177187" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -423,6 +424,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "68" />
 		<pattr name = "rez_min" value = "6" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "0" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -498,13 +503,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 8.49598 0 0. 0.063419 10.4 0 0. 1. 100. 0 -0.305 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2000" />
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 0. 0 0. 1. 34.208876 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -518,6 +520,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "89" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -593,13 +599,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "6" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 16.114616 0 0. 1. 100. 0 -0.205 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2000" />
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 0. 0 0. 1. 34.208876 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.101434" />
 		<pattr name = "high_SnTrSq" value = "0" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -613,6 +616,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "89" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -688,13 +695,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "0" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 35.161205 0 0. 0.121039 38.018194 0 0. 1. 100. 0 -0.305 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2000" />
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 18.019275 0 0. 1. 41.827512 0 0.145 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 38.571291 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "0" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -708,6 +712,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "73" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -783,13 +791,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "0" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 27.54257 0 0. 0.105325 31.351888 0 0. 1. 100. 0 -0.305 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2000" />
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 16.114616 0 0. 1. 45.636829 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -803,6 +808,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "80" />
 		<pattr name = "rez_min" value = "20" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -878,13 +887,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 30.4 0 0. 0. 28.494899 0 0. 1. 88.491655 0 0.345 curve" />
-		<pattr name = "freq_ceiling_slide_down" value = "2000" />
-		<pattr name = "freq_ceiling_slide_up" value = "48" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 5.638992 0 0. 1. 17.066946 0 0.045 curve" />
-		<pattr name = "freq_floor_slide_down" value = "2000" />
-		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
 		<pattr name = "gate_thresh" value = "0.150126" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -898,6 +904,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "50" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMDMyMjUyNDk0ODYzMjgKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE0NjY4MzIwNDU0NjI2NwoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDcyNDc1OTYxNzM0MTc1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjgyNDgzMzU0MzI5NzgyNwoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -940,7 +950,7 @@
 			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "28.346457" />
 			<pattr name = "Dry Output Gain[1]" value = "37.03937" />
-			<pattr name = "Mod Input Gain[1]" value = "39.68504" />
+			<pattr name = "Mod Input Gain[1]" value = "48." />
 			<pattr name = "Mod Output Gain[1]" value = "31.748032" />
 			<pattr name = "limiter_saturation" value = "0.1" />
 		</patcher>
@@ -962,7 +972,7 @@
 		<pattr name = "Quadravox_Key" value = "Bb" />
 		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
 		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
+		<pattr name = "Zslide_down" value = "Zslide_down 999." />
 		<pattr name = "aux_SnTrSq" value = "0" />
 		<pattr name = "aux_duty_cycle" value = "0." />
 		<pattr name = "aux_phase_offset" value = "55.905512" />
@@ -973,13 +983,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0.000793 14.21 0 0. 0.063419 18.019275 0 0. 1. 91.348644 0 -0.005 curve" />
-		<pattr name = "freq_ceiling_slide_down" value = "2000" />
-		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 6.591321 0 0. 1. 34.208876 0 0.045 curve" />
-		<pattr name = "freq_floor_slide_down" value = "16000" />
-		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
 		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -988,13 +995,17 @@
 		<pattr name = "low_lock" value = "0" />
 		<pattr name = "low_phase_offset" value = "17.322835" />
 		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "46.530353" />
+		<pattr name = "moog_rez" value = "43.24" />
 		<pattr name = "mp_enable" value = "1" />
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "80" />
 		<pattr name = "rez_min" value = "20" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4yMTc1MDQ3ODUxNDI2NDIKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjA1NTYwODc3NjI5NjE5OAoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNjUxMzIwNzA5MzQyMjQKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDM4NTYxMDQyMTMzMTE2CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk2MTQzNzU2OTQ0MTYxOAoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "1" />
+		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
 		<pattr name = "verylow_duty_cycle" value = "0." />
 		<pattr name = "verylow_floor" value = "0." />
@@ -1013,7 +1024,7 @@
 			<pattr name = "transient_selector" value = "0" />
 		</patcher>
 		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "44." />
+			<pattr name = "env_bottom" value = "41." />
 			<pattr name = "env_inv" value = "1" />
 			<pattr name = "env_top" value = "98." />
 		</patcher>
@@ -1033,8 +1044,8 @@
 			<pattr name = "high_volume" value = "-5." />
 			<pattr name = "low_volume" value = "-6." />
 			<pattr name = "very_low_volume" value = "-7." />
-			<pattr name = "Dry Input Gain[1]" value = "19.275591" />
-			<pattr name = "Dry Output Gain[1]" value = "40.440945" />
+			<pattr name = "Dry Input Gain[1]" value = "37.417323" />
+			<pattr name = "Dry Output Gain[1]" value = "38.929134" />
 			<pattr name = "Mod Input Gain[1]" value = "33.637796" />
 			<pattr name = "Mod Output Gain[1]" value = "37.03937" />
 			<pattr name = "limiter_saturation" value = "0.41" />
@@ -1068,13 +1079,10 @@
 		<pattr name = "env_glide_type" value = "1" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0.000793 14.21 0 0. 0.063419 18.019275 0 0. 1. 100. 0 -0.305 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2000" />
 		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 6.591321 0 0. 1. 34.208876 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -1088,6 +1096,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "80" />
 		<pattr name = "rez_min" value = "5" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -1163,13 +1175,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "0" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 18.971605 0 0. 1. 75.159043 0 0.045 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "16000" />
 		<pattr name = "freq_ceiling_slide_up" value = "48" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 11.352969 0 0. 1. 13.257628 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 74.996543 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -1183,6 +1192,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "63" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -1258,13 +1271,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "0" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0. 18.971605 0 0. 1. 95.08 0 0.045 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2400" />
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 11.352969 0 0. 1. 13.257628 0 0.045 curve" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 54.788173 0 0. 0.722598 9.735889 0 -0.305 1. 49.036818 0 0.5 curve" />
 		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -1278,6 +1288,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "63" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -1353,13 +1367,10 @@
 		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "10" />
-		<pattr name = "freq_ceiling" value = "1. 0. 100. 0.000793 14.21 0 0. 0.063419 18.019275 0 0. 1. 96.110291 0 -0.705 curve" />
 		<pattr name = "freq_ceiling_slide_down" value = "2400" />
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
-		<pattr name = "freq_floor" value = "1. 0. 100. 0. 7.543651 0 0. 1. 25.637911 0 0.645 curve" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "freq_mod_spread" value = "1. 0. 100. 0. 0. 0 0. 1. 12.690192 0 0.445 curve" />
 		<pattr name = "gate_thresh" value = "0.109935" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
@@ -1373,6 +1384,10 @@
 		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "60" />
 		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" value = "" />
+		<pattr name = "rnbo~[3]" value = "" />
+		<pattr name = "rnbo~[4]" value = "" />
+		<pattr name = "rnbo~[5]" value = "" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
