@@ -1,4 +1,6 @@
 *.als binary
 *.jpg binary
 *.png binary
-*.svg bonary
+*.svg binary
+*.tmss binary
+*.tmws binary
