@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 361.0, -826.0, 644.0, 509.0 ],
+		"rect" : [ 7.0, -815.0, 694.0, 727.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-22",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 262.0, 288.510089289982602, 160.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "ms per whole note to beats per minute, converted to int"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 195.0, 393.814105289982649, 83.0, 22.0 ],
+					"patching_rect" : [ 242.0, 389.439105289982706, 83.0, 22.0 ],
 					"text" : "loadmess 140"
 				}
 
@@ -57,7 +71,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 120.500012027973639, 196.206073289982584, 42.0, 22.0 ],
+					"patching_rect" : [ 199.500012027973639, 194.331073289982612, 42.0, 22.0 ],
 					"text" : "edge~"
 				}
 
@@ -69,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.500012027973639, 146.804065289982589, 33.0, 22.0 ],
+					"patching_rect" : [ 199.500012027973639, 145.554065289982617, 33.0, 22.0 ],
 					"text" : ">~ 0"
 				}
 
@@ -81,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.500012027973639, 97.402057289982594, 42.0, 22.0 ],
+					"patching_rect" : [ 199.500012027973639, 96.777057289982608, 42.0, 22.0 ],
 					"text" : "delta~"
 				}
 
@@ -102,25 +116,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"id" : "obj-382",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 183.0, 287.510089289982602, 130.0, 37.0 ],
-					"text" : "ms per whole note to beats per minute"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-362",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.5, 344.412097289982626, 67.0, 22.0 ],
+					"patching_rect" : [ 199.5, 340.662097289982682, 67.0, 22.0 ],
 					"text" : "clip 60 240"
 				}
 
@@ -131,20 +132,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 71.500012027973639, 15.0, 128.0, 20.0 ],
+					"patching_rect" : [ 150.500012027973639, 15.0, 128.0, 20.0 ],
 					"text" : "get BPM from phasor"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-255",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 120.5, 393.814105289982649, 48.0, 22.0 ],
-					"text" : "change"
 				}
 
 			}
@@ -155,7 +144,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 120.5, 295.010089289982602, 59.0, 22.0 ],
+					"patching_rect" : [ 199.5, 291.885089289982659, 59.0, 22.0 ],
 					"text" : "!/ 240000"
 				}
 
@@ -167,7 +156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 120.5, 245.608081289982579, 35.0, 22.0 ],
+					"patching_rect" : [ 199.5, 243.108081289982636, 35.0, 22.0 ],
 					"text" : "timer"
 				}
 
@@ -181,7 +170,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 120.500012027973639, 40.000049289982599, 30.0, 30.0 ]
+					"patching_rect" : [ 199.500012027973639, 40.000049289982599, 30.0, 30.0 ]
 				}
 
 			}
@@ -193,7 +182,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.500012027973639, 443.216113289982673, 30.0, 30.0 ]
+					"patching_rect" : [ 199.500012027973639, 438.216113289982729, 30.0, 30.0 ]
 				}
 
 			}
@@ -222,13 +211,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-606", 0 ],
-					"source" : [ "obj-255", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-255", 0 ],
 					"source" : [ "obj-362", 0 ]
 				}
 
