@@ -13,7 +13,7 @@
 ## square, x, circle, triangle
 
 Pressing `square`, `x`, `circle`, or `triangle` engages delay sends. 
-These sends can be locked open by pressing `R1`, `R2`, or `L2` before releasing `square`, `x`, `circle`, or `triangle`.
+These sends can be locked open by holding `R1`, `R2`, or `L2` while releasing `square`, `x`, `circle`, or `triangle`.
 
 - □ dotted quarter delay
 - x ultratap delay
@@ -57,40 +57,38 @@ Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`
 The d-pad and L1 sets subdivisions of the LFO. 
 Holding L2 changes the values of the d-pad and L1. 
 Certain selections set the swing length to either half or quarter.
-Dotted rhythms and slow triplet rhythms reset their phase on the bar after being pressed. (it'd be better if they reset a quarter noter after being pressed)
+Dotted rhythms and slow triplet rhythms reset their phase on the bar after being pressed. (it'd be better if they reset a quarter note after being pressed)
 
-- L1 quarter triplet (sets swing length to half)
-- up quarter (sets swing length to half)
-- up-left eighth quintuplet
-- left eighth (sets swing length to quarter)
-- down-left 32nd (bit too fast, maybe replace with dotted quarter)
-- down 16th (sets swing length to quarter)
-- down-right 16th triplet
-- right eighth triplet (sets swing length to quarter)
-- up-right dotted eighth
+- L1:            quarter triplet (sets swing length to half)
+- up:            quarter (sets swing length to half)
+- up-left:       eighth quintuplet
+- left:          eighth (sets swing length to quarter)
+- down-left:     32nd (bit too fast, maybe replace with dotted quarter)
+- down:          16th (sets swing length to quarter)
+- down-right:    16th triplet
+- right:         eighth triplet (sets swing length to quarter)
+- up-right:      dotted eighth
 
-d-pad with L2 held:
+With L2:
 
-- L1 half
-- up quarter quintuplet
-- left eighth quintuplet
-- down 32nd quintuplet (also too fast)
-- right 16th quintuplet
+- L1:            half
+- up:            quarter quintuplet
+- left:          eighth quintuplet
+- down:          32nd quintuplet (also too fast)
+- right:         16th quintuplet
 
 The phase of the LFO can be inverted in two ways:
 
 1. by pressing any d-pad button or L1 a second time.
-2. by pressing the `share` button.
-
-The `options` button currently doesn't do anything.
+2. by pressing the `share` button. (The `options` button currently doesn't do anything.)
 
 ## joysticks
 
-- Left Vertical
+### Left Vertical
 Adjusts the transient crossfade's ceiling and floor upwards and downwards 
 as a method of adjusting the mix between the dry tuba sound and the dubstep effect.
 
-- Left Horizontal
+### Left Horizontal
 Holding L3 for half a sec switches LH 
 from adjusting the duty cycle, phase, and pow of the lowpass freq mod LFO, 
 to adjusting the shape of the envelope for the ceiling of the lowpass freq mod LFO.
@@ -98,11 +96,11 @@ These adjustments can be locked in place by holding L3, and unlocked by double-c
 Additionally, while the tuba's not playing, 
 LH controls a bandpass filter frequency and mix for the drum loops in Live. 
 
-- Right Vertical
+### Right Vertical
 Downwards crossfades from sync LFO to free rate LFO
 Upwards increases the amount of swing
 
-- Right Horizontal
+### Right Horizontal
 Left speeds up free rate LFO, right slows down free rate LFO.
 Left increases resonance of lowpass filter. Right decreases resonance.
 Resonance can be locked in place by pressing R3, and unlocked by holding R3.
