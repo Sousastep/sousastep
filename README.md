@@ -1,16 +1,16 @@
-## max patch pics
+# max patch pics
 
 ![Sousastep Visual FX.maxproj](pictures/visual.jpg)
 
 ![Sousastep Audio FX.maxproj](pictures/audio.jpg)
 
-## signal flow diagram
+# signal flow diagram
 
 ![signal flow diagram.maxproj](pictures/signalflow.jpg)
 
-## PS4 controller mappings
+# PS4 controller mappings
 
-# square, x, circle, triangle
+## square, x, circle, triangle
 
 Pressing `square`, `x`, `circle`, or `triangle` engages delay sends. 
 These sends can be locked open by pressing `R1`, `R2`, or `L2` before releasing `square`, `x`, `circle`, or `triangle`.
@@ -52,7 +52,7 @@ Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`
         - double click: down one scene
         - hold: up three scenes
 
-# d-pad
+## d-pad
 
 The d-pad and L1 sets subdivisions of the LFO. 
 Holding L2 changes the values of the d-pad and L1. 
@@ -84,7 +84,7 @@ The phase of the LFO can be inverted in two ways:
 
 The `options` button currently doesn't do anything.
 
-# joysticks
+## joysticks
 
 - Left Vertical
 Adjusts the transient crossfade's ceiling and floor upwards and downwards 
