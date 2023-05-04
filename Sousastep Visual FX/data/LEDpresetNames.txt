@@ -46,7 +46,7 @@
 139, PolarGradient;
 140, RainbowGlowRing acoustic 1;
 141, RainbowGlowRing dub 1;
-142, RainbowGlowRing;
+142, RainbowGlowRing dub 2;
 143, RainbowGlowRing;
 144, RainbowGlowRing;
 145, RainbowGlowRing;

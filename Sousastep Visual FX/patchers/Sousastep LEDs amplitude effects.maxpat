@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 1130.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,105 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-678",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6184.0, -441.0, 113.0, 22.0 ],
+					"text" : "1, 0 1714"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-661",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6204.0, -502.0, 93.0, 22.0 ],
+					"text" : "sprintf \"1, 0\" %s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-642",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6204.0, -257.0, 123.0, 22.0 ],
+					"text" : "scale 0 1 0.624 0.001"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-124",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6163.5, -631.142733395983896, 29.5, 22.0 ],
+					"text" : "140"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-578",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 6245.0, -393.873950660686205, 41.0, 22.0 ],
+					"text" : "line 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-1058",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6268.0, -590.151246377998405, 89.0, 37.0 ],
+					"presentation_linecount" : 2,
+					"text" : "ms per whole note"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1051",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 6204.0, -582.651246377998405, 59.0, 22.0 ],
+					"text" : "!/ 240000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.32156862745098, 1.0 ],
+					"id" : "obj-1050",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6204.0, -631.142733395983896, 82.0, 22.0 ],
+					"text" : "r tempo_BPM"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"autosave" : 0,
 					"id" : "obj-659",
@@ -74,22 +173,15 @@
 ,
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 55.5, -1114.0, 184.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"rnboattrcache" : 					{
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"midY" : 						{
 							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -100,14 +192,8 @@
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -120,6 +206,18 @@
 ,
 						"secondCurve" : 						{
 							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstX" : 						{
+							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -153,7 +251,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.117021276595745, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.079787234042553, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65 ],
 					"domain" : 1.0,
 					"gridstep_x" : 1.0,
 					"id" : "obj-645",
@@ -212,7 +310,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6605.0, -272.0, 70.0, 22.0 ],
+					"patching_rect" : [ 6608.0, -280.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -242,7 +340,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6552.0, -58.0, 150.0, 22.0 ]
+					"patching_rect" : [ 6608.0, -83.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1167,55 +1265,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-766",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 6292.0, 189.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-758",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6159.0, 179.289469333333386, 105.0, 22.0 ],
-					"text" : "pak param bright f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-759",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "jit_gl_texture", "", "", "" ],
-					"patching_rect" : [ 6281.75, 119.286840800000022, 111.0, 22.0 ],
-					"text" : "jit.gl.isf @file Bright"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-757",
-					"maxclass" : "jit.pwindow",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 5850.772737384813809, 152.450941620249296, 286.0, 211.098116759501409 ],
-					"sync" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-756",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1984,7 +2033,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6561.74820538862059, 3.0, 84.0, 22.0 ],
+					"patching_rect" : [ 6570.74820538862059, 62.0, 84.0, 22.0 ],
 					"text" : "loadmess -0.5"
 				}
 
@@ -2174,7 +2223,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6561.74820538862059, 38.0, 150.0, 22.0 ]
+					"patching_rect" : [ 6570.74820538862059, 97.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -4267,7 +4316,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-411",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -4877,6 +4925,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-616",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -5005,13 +5054,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-544",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 35.0 ],
-					"text" : "CandyWarp"
+					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 49.0 ],
+					"text" : "RainbowGlowRing"
 				}
 
 			}
@@ -5786,6 +5835,103 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"UI_CandyWarp" : 0,
+						"UI_CandyWarp::CandyWarp_scale" : 0,
+						"UI_CandyWarp::CandyWarp_scale::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_scale::invert" : 0,
+						"UI_CandyWarp::CandyWarp_scale::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_scale::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_scale::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_scale::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_scale::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_cycle" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::invert" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_thickness" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::invert" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_loops" : 0,
+						"UI_CandyWarp::CandyWarp_loops::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_loops::invert" : 0,
+						"UI_CandyWarp::CandyWarp_loops::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_loops::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_loops::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_loops::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_loops::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_warp" : 0,
+						"UI_CandyWarp::CandyWarp_warp::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_warp::invert" : 0,
+						"UI_CandyWarp::CandyWarp_warp::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_warp::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_warp::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_warp::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_warp::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_hue" : 0,
+						"UI_CandyWarp::CandyWarp_hue::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_hue::invert" : 0,
+						"UI_CandyWarp::CandyWarp_hue::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_hue::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_hue::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_hue::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_hue::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_tint" : 0,
+						"UI_CandyWarp::CandyWarp_tint::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_tint::invert" : 0,
+						"UI_CandyWarp::CandyWarp_tint::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_tint::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_tint::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_tint::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_tint::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_rate" : 0,
+						"UI_CandyWarp::CandyWarp_rate::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_rate::invert" : 0,
+						"UI_CandyWarp::CandyWarp_rate::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_rate::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_rate::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_rate::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_rate::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_Pinwheel" : 0,
 						"UI_Pinwheel::Pinwheel_size" : 0,
 						"UI_Pinwheel::Pinwheel_size::u352009166" : 0,
@@ -6052,103 +6198,6 @@
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_SpaceSpore" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::u352009166" : 0,
@@ -6257,10 +6306,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -176.5, -267.063454559298634, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 234, 87, 1670, 866 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 91, 1440, 870 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -6911,7 +6960,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6064.800859392846178, -603.0, 150.0, 20.0 ],
+					"patching_rect" : [ 5974.800859392846178, -587.058047673066881, 150.0, 20.0 ],
 					"text" : "nah.."
 				}
 
@@ -7782,7 +7831,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3673.871073273628099, -793.265855648559636, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -48. 48000"
 				}
 
 			}
@@ -8087,7 +8136,7 @@
 					"patching_rect" : [ 3342.075485999999728, -801.555400342185976, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.616144206670697, 1322.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "SOUSASTEP"
+					"text" : "DINGONEK"
 				}
 
 			}
@@ -8643,7 +8692,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6097.300859392846178, -686.986313237618674, 85.0, 33.0 ],
+					"patching_rect" : [ 6007.300859392846178, -671.044360910685555, 85.0, 33.0 ],
 					"text" : "generate new displacement"
 				}
 
@@ -8667,7 +8716,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6097.300859392846178, -651.986313237618674, 75.0, 22.0 ],
+					"patching_rect" : [ 6007.300859392846178, -636.044360910685555, 75.0, 22.0 ],
 					"text" : "r phasereset"
 				}
 
@@ -10288,14 +10337,15 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, -450.468276326431806, 200.0, 32.0 ],
+					"patching_rect" : [ 349.0, -450.468276326431806, 200.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "CandyWarp dub 2",
+					"text" : "RainbowGlowRing dub 2",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10311,23 +10361,23 @@
 					"patching_rect" : [ 194.333333333333343, -1328.23507900278787, 123.0, 22.0 ],
 					"restore" : 					{
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Ableton Sans Medium" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
+						"LineFinal" : [ -48.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 48.0 ],
 						"MultipleShapeSelection" : [ "torus" ],
 						"PositionMatrixDimensionX" : [ 2 ],
 						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "sphere" ],
-						"TextPositionY" : [ 0.0 ],
+						"SingleShapeSelection" : [ "opencylinder" ],
+						"TextPositionY" : [ -0.656 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.87 ],
+						"TextTracking" : [ 1.06 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 1 ],
+						"TextboxIndex" : [ 7 ],
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
@@ -10384,7 +10434,7 @@
 
 							}
  ],
-						"text_loop_toggle" : [ 0 ]
+						"text_loop_toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr SousaLED8",
@@ -14293,6 +14343,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1051", 0 ],
+					"source" : [ "obj-1050", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-661", 0 ],
+					"source" : [ "obj-1051", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-106", 0 ]
 				}
@@ -14405,6 +14469,13 @@
 					"destination" : [ "obj-209", 0 ],
 					"order" : 2,
 					"source" : [ "obj-122", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1051", 0 ],
+					"source" : [ "obj-124", 0 ]
 				}
 
 			}
@@ -17501,6 +17572,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-642", 0 ],
+					"source" : [ "obj-578", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-750", 0 ],
 					"source" : [ "obj-580", 0 ]
 				}
@@ -17839,6 +17917,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-678", 0 ],
+					"midpoints" : [ 6352.5, -312.0, 6162.0, -312.0, 6162.0, -470.0, 6193.5, -470.0 ],
+					"order" : 2,
+					"source" : [ "obj-619", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -18014,6 +18101,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-756", 0 ],
+					"source" : [ "obj-642", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-638", 1 ],
 					"source" : [ "obj-643", 0 ]
 				}
@@ -18116,6 +18210,13 @@
 					"destination" : [ "obj-551", 1 ],
 					"order" : 1,
 					"source" : [ "obj-659", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-678", 1 ],
+					"source" : [ "obj-661", 0 ]
 				}
 
 			}
@@ -18250,6 +18351,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-578", 0 ],
+					"source" : [ "obj-678", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-68", 0 ]
 				}
@@ -18364,15 +18472,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-633", 0 ],
-					"order" : 0,
-					"source" : [ "obj-691", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-759", 0 ],
-					"order" : 1,
 					"source" : [ "obj-691", 0 ]
 				}
 
@@ -18713,20 +18812,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-759", 0 ],
-					"source" : [ "obj-758", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-757", 0 ],
-					"source" : [ "obj-759", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -18783,13 +18868,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-763", 0 ],
 					"source" : [ "obj-764", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-758", 2 ],
-					"source" : [ "obj-766", 0 ]
 				}
 
 			}
