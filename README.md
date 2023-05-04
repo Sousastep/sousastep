@@ -23,10 +23,10 @@ These sends can be locked open by holding `R1`, `R2`, or `L2` while releasing `s
 Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`, and `triangle`.
 
 - R1: main pattr preset selectors
-    - □ preset #1
-    - x preset #2
-    - ○ preset #13
-    - △ preset #14
+    - □ single click for fast interpolation / double click for 1-bar interpolation / hold for 2-bar interpolation
+    - x same
+    - ○ same
+    - △ same
 
 - R2
     - □ toggle LFO and metronome between "regular rhythm" and [Risset rhythm](https://github.com/jbaylies/risset-rhythm-metro-and-wah).
