@@ -12,13 +12,13 @@
 
 ## square, x, circle, triangle
 
-Pressing `square`, `x`, `circle`, or `triangle` engages delay sends. 
+Pressing `square`, `x`, or `triangle` engages delay sends. 
 These sends can be locked open by holding `R1`, `R2`, or `L2` while releasing `square`, `x`, `circle`, or `triangle`.
 
 - □ dotted quarter delay
 - x ultratap delay
-- ○ whole note delay
-- △ dotted eighth delay
+- ○ dotted eighth delay
+- △ tap tempo
 
 Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`, and `triangle`.
 
@@ -30,7 +30,7 @@ Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`
 
 - R2
     - □ toggle LFO and metronome between "regular rhythm" and [Risset rhythm](https://github.com/jbaylies/risset-rhythm-metro-and-wah).
-    - x nothin yet
+    - x whole note delay send
     - ○ reverb send. can be held open by releasing `R2` before releasing `circle`
     - △ toggle metronome on/off
 
@@ -45,7 +45,7 @@ Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`
         - double click: stop recording
         - hold: fade out
 
-    - ○ tap tempo
+    - ○ nothin
 
     - △ controls Ableton Live's [scene selection](https://www.ableton.com/en/manual/midi-and-key-remote-control/#relative-session-view-navigation)
         - single click: launch scene
@@ -80,7 +80,7 @@ With L2:
 The phase of the LFO can be inverted in two ways:
 
 1. by pressing any d-pad button or L1 a second time.
-2. by pressing the `share` button. (The `options` button currently doesn't do anything.)
+2. by pressing the `share` button.
 
 ## joysticks
 
@@ -106,4 +106,5 @@ Left increases resonance of lowpass filter. Right decreases resonance.
 Resonance can be locked in place by pressing R3, and unlocked by holding R3.
 While resonance is locked, RH adjusts Ableton Live's crossfade, 
 which is set to fade between drum loops.
+(The `options` button mutes drum loops while held)
 
