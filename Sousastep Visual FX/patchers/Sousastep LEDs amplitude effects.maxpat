@@ -5595,13 +5595,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-544",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 49.0 ],
-					"text" : "RainbowGlowRing"
+					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 35.0 ],
+					"text" : "PolarGradient"
 				}
 
 			}
@@ -12380,7 +12380,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbmodem40590801", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "wlan-debug", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15045,13 +15045,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-107", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-217", 0 ],
-					"source" : [ "obj-108", 0 ]
 				}
 
 			}
@@ -18302,6 +18295,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-536", 0 ],
+					"order" : 3,
+					"source" : [ "obj-581", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-578", 0 ],
+					"order" : 2,
+					"source" : [ "obj-581", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-644", 0 ],
 					"order" : 1,
 					"source" : [ "obj-581", 0 ]
@@ -19651,22 +19660,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-552", 0 ],
 					"source" : [ "obj-788", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-536", 0 ],
-					"order" : 1,
-					"source" : [ "obj-79", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-578", 0 ],
-					"order" : 0,
-					"source" : [ "obj-79", 0 ]
 				}
 
 			}
