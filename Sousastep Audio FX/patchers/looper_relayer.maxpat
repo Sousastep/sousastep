@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -224.0, -1027.0, 1852.0, 993.0 ],
+		"rect" : [ -224.0, -1027.0, 1542.0, 993.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -210,7 +210,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 828.749999850988388, 1032.333318829536438, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.08333346247673, 72.5, 48.0, 22.0 ]
+					"presentation_rect" : [ 99.489772661689585, 230.0, 27.0, 22.0 ],
+					"textcolor" : [ 0.352941176470588, 0.329411764705882, 0.329411764705882, 0.77 ]
 				}
 
 			}
@@ -222,8 +223,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1010.166670560836792, 899.333317637443542, 50.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 71.000004172325134, 4.0, 32.0, 22.0 ],
 					"text" : "0.5"
 				}
 
@@ -242,6 +241,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.18 ],
 					"floatoutput" : 1,
 					"id" : "obj-160",
 					"maxclass" : "dial",
@@ -251,7 +251,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 949.166670560836792, 956.333317637443542, 107.0, 107.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.500004172325134, 30.0, 107.0, 107.0 ],
+					"presentation_rect" : [ 58.68533347399034, 223.0, 36.0, 36.0 ],
 					"size" : 1.0
 				}
 
