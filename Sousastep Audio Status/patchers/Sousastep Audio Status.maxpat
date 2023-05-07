@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1261,7 +1261,7 @@
 					"patching_rect" : [ 171.0, 836.0, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.055396023531102, 146.767480591362983, 70.0, 22.0 ],
-					"text" : "symbol 512"
+					"text" : "symbol 256"
 				}
 
 			}
@@ -1754,8 +1754,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1944,8 +1944,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2134,8 +2134,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2667,8 +2667,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2903,8 +2903,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3139,8 +3139,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3307,8 +3307,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 4,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3551,7 +3551,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
