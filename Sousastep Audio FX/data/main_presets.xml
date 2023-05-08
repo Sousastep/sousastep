@@ -51,6 +51,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -90,9 +93,6 @@
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
 			<pattr name = "limiter_saturation" value = "0." />
 		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
-		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
 		</patcher>
@@ -129,7 +129,7 @@
 		<pattr name = "low_duty_cycle" value = "45.669291" />
 		<pattr name = "low_floor" value = "0." />
 		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "0." />
+		<pattr name = "low_phase_offset" value = "40.944882" />
 		<pattr name = "low_power" value = "-26.515673" />
 		<pattr name = "moog_rez" value = "26.68" />
 		<pattr name = "mp_enable" value = "1" />
@@ -138,15 +138,18 @@
 		<pattr name = "rez_min" value = "0" />
 		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
 		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMDMyMjUyNDk0ODYzMjgKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE0NjY4MzIwNDU0NjI2NwoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDM1Mjk0MTE3NjQ3MDYKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuODU1NzQxMTc2NDcwNTg4CgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzE2MTgwNjQwMjA5MTIKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMjIyNzE4Mzg3NjIzODEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTUwODQxNzIyNjc2NDU5CgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMjQ3MDU4ODIzNTI5NDEKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuODMyNzc2NDcwNTg4MjM1CgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzE2MTgwNjQwMjA5MTIKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMjIyNzE4Mzg3NjIzODEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTUwODQxNzIyNjc2NDU5CgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
 		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
 		<pattr name = "verylow_duty_cycle" value = "0." />
 		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "18.110236" />
+		<pattr name = "verylow_phase_offset" value = "38.582677" />
 		<pattr name = "verylow_power" value = "-100." />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -185,9 +188,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "37.03937" />
 			<pattr name = "Mod Output Gain[1]" value = "38.929134" />
 			<pattr name = "limiter_saturation" value = "0." />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -243,6 +243,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "49.606299" />
 		<pattr name = "verylow_power" value = "-84.251969" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -281,9 +284,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "22.3" />
 			<pattr name = "Mod Output Gain[1]" value = "39.685039" />
 			<pattr name = "limiter_saturation" value = "0.19" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -339,6 +339,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "25.984252" />
 		<pattr name = "verylow_power" value = "-100." />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -377,9 +380,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
 			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
 			<pattr name = "limiter_saturation" value = "0.19" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -435,6 +435,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "18.110236" />
 		<pattr name = "verylow_power" value = "-100." />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -473,9 +476,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "32.881889" />
 			<pattr name = "Mod Output Gain[1]" value = "32.503937" />
 			<pattr name = "limiter_saturation" value = "0." />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -531,6 +531,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -569,9 +572,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
 			<pattr name = "limiter_saturation" value = "" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -627,6 +627,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -665,9 +668,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
 			<pattr name = "limiter_saturation" value = "" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -723,6 +723,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-18.641658" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -761,9 +764,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
 			<pattr name = "limiter_saturation" value = "" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -819,6 +819,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -857,9 +860,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "32.88189" />
 			<pattr name = "Mod Output Gain[1]" value = "38.173228" />
 			<pattr name = "limiter_saturation" value = "" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -915,6 +915,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "0." />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -953,9 +956,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "48." />
 			<pattr name = "Mod Output Gain[1]" value = "31.748032" />
 			<pattr name = "limiter_saturation" value = "0.1" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1011,6 +1011,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -1049,9 +1052,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "33.637796" />
 			<pattr name = "Mod Output Gain[1]" value = "37.03937" />
 			<pattr name = "limiter_saturation" value = "0.41" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1107,6 +1107,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -1145,9 +1148,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "42.708662" />
 			<pattr name = "Mod Output Gain[1]" value = "38.551181" />
 			<pattr name = "limiter_saturation" value = "0.19" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1203,6 +1203,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -1241,9 +1244,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
 			<pattr name = "limiter_saturation" value = "0.16" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1299,6 +1299,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -1337,9 +1340,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
 			<pattr name = "limiter_saturation" value = "0.16" />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1395,6 +1395,9 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
 		</patcher>
@@ -1433,9 +1436,6 @@
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
 			<pattr name = "limiter_saturation" value = "0." />
-		</patcher>
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />

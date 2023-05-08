@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,21 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 841.0, 122.0, 39.0, 22.0 ],
+					"patching_rect" : [ 853.233332300186248, 117.930465414467392, 39.0, 22.0 ],
 					"text" : "/ 255."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-21",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 743.0, 79.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -79,6 +66,7 @@
 , 			{
 				"box" : 				{
 					"addpoints_with_curve" : [ 0.0, -1.0, 0, 0.0, 0.5, 0.0, 0, -0.65, 1.0, 1.0, 0, 0.6 ],
+					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 0.1,
 					"id" : "obj-19",
@@ -323,7 +311,7 @@
 					"patching_rect" : [ 712.699226248755508, 117.930465414467392, 56.0, 22.0 ],
 					"restore" : 					{
 						"env_bottom" : [ 37.0 ],
-						"env_inv" : [ 1 ],
+						"env_inv" : [ 0 ],
 						"env_top" : [ 99.0 ]
 					}
 ,
@@ -1058,7 +1046,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -1083,13 +1071,6 @@
 					"destination" : [ "obj-353", 1 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1624,7 +1605,23 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-19" : [ "function[15]", "function[15]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

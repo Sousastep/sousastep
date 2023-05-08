@@ -94,7 +94,7 @@ from adjusting the duty cycle, phase, and pow of the lowpass freq mod LFO,
 to adjusting the shape of the envelope for the ceiling of the lowpass freq mod LFO.
 These adjustments can be locked in place by holding L3, and unlocked by double-clicking L3.
 Additionally, while the tuba's not playing, 
-LH controls a bandpass filter frequency and mix for the drum loops in Live. 
+LH controls not only a bandpass filter frequency and mix for the drum loops in Live, but also LP and HP filters for the loopers.
 
 ### Right Vertical
 Downwards crossfades from sync LFO to free rate LFO
