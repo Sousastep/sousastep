@@ -66,6 +66,6 @@
 159, SpaceSpore;
 160, Single Circle dub 1;
 161, Single Square dub 1;
-162, cubes and cylinder acoustic;
+162, cubes no cylinder acoustic;
 163, Single Circle acoustic;
 200, Physics Acoustic;
