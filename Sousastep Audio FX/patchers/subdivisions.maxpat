@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 198.0, -861.0, 1372.0, 779.0 ],
+		"rect" : [ 247.0, -822.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -279,7 +279,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 403.0, 175.0, 51.0 ],
+					"patching_rect" : [ 6.0, 417.5, 175.0, 51.0 ],
 					"text" : "engaging dotted rhythms or slow triplet rhythms resets phase"
 				}
 
@@ -292,8 +292,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.636940256184971, 417.5, 77.0, 22.0 ],
-					"text" : "s phasereset",
+					"patching_rect" : [ 183.636940256184971, 432.0, 105.0, 22.0 ],
+					"text" : "s rate_phasereset",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
 
@@ -2592,15 +2592,6 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "syncrate.txt",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 
