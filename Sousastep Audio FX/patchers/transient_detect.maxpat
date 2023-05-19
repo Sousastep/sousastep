@@ -46,7 +46,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 827.0, 498.11919312075338, 70.0, 22.0 ],
-					"text" : "loadmess 2"
+					"text" : "loadmess 0"
 				}
 
 			}
