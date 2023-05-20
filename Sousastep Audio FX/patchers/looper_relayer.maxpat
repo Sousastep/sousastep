@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-162",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 416.0, 848.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 444.0, 848.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 444.661110506662681, 896.97608175710161, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-161",
 					"maxclass" : "newobj",
@@ -263,7 +299,7 @@
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-110",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -476,13 +512,13 @@
 					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-149",
-					"linecount" : 2,
+					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.161110506662681, 860.97608175710161, 135.179786271378362, 35.0 ],
+					"patching_rect" : [ 540.161110506662681, 860.97608175710161, 135.179786271378362, 136.0 ],
 					"suppressinlet" : 1,
-					"text" : "gate opens after tuba's played for 8 bars"
+					"text" : "gate opens after tuba's played for 8 bars. if tuba's not playing when this occurs, then looper send closes. If tuba's playing, then looper send waits until tuba stops playing before closing."
 				}
 
 			}
@@ -491,10 +527,10 @@
 					"id" : "obj-148",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 678.871152337402236, 867.47608175710161, 22.0, 22.0 ],
-					"text" : "t 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 678.871152337402236, 867.47608175710161, 32.0, 22.0 ],
+					"text" : "t b 1"
 				}
 
 			}
@@ -556,8 +592,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 558.0, 665.681569695889266, 100.0, 22.0 ],
-					"text" : "slide~ 480 24000"
+					"patching_rect" : [ 558.0, 665.681569695889266, 107.0, 22.0 ],
+					"text" : "slide~ 1000 48000"
 				}
 
 			}
@@ -666,7 +702,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-103",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -678,7 +714,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-101",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1618,14 +1654,14 @@
 					"outlettype" : [ "signal", "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"volume" : 						{
-							"label" : "volume",
+						"color" : 						{
+							"label" : "color",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"color" : 						{
-							"label" : "color",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1679,7 +1715,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1745,7 +1781,7 @@
 				"box" : 				{
 					"comment" : "fade out FX type",
 					"id" : "obj-76",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2226,7 +2262,7 @@
 				"box" : 				{
 					"comment" : "one-button looper :)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2534,11 +2570,11 @@
 				"box" : 				{
 					"comment" : "Left audio input",
 					"id" : "obj-1036",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 145.050938608780143, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -2547,11 +2583,11 @@
 				"box" : 				{
 					"comment" : "Right audio input",
 					"id" : "obj-1037",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 177.281407608780228, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -2935,6 +2971,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1003", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
@@ -3166,7 +3209,24 @@
 				"patchline" : 				{
 					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-140", 1 ],
+					"order" : 0,
 					"source" : [ "obj-137", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"order" : 1,
+					"source" : [ "obj-137", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-162", 0 ],
+					"order" : 1,
+					"source" : [ "obj-137", 0 ]
 				}
 
 			}
@@ -3175,6 +3235,7 @@
 					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-5", 0 ],
 					"midpoints" : [ 567.5, 757.021415442085072, 546.0, 757.021415442085072, 546.0, 533.021415442085072, 572.621152337402236, 533.021415442085072 ],
+					"order" : 0,
 					"source" : [ "obj-137", 0 ]
 				}
 
@@ -3246,9 +3307,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 1 ],
+					"source" : [ "obj-148", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-140", 0 ],
-					"source" : [ "obj-148", 0 ]
+					"source" : [ "obj-148", 1 ]
 				}
 
 			}
@@ -3285,6 +3353,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-156", 0 ]
 				}
 
 			}
@@ -3443,6 +3518,13 @@
 					"destination" : [ "obj-153", 0 ],
 					"order" : 0,
 					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-162", 0 ]
 				}
 
 			}
@@ -4058,13 +4140,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-94", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-947", 0 ]
 				}
@@ -4232,60 +4307,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
-			"obj-813" : [ "feedback[1]", "feedback", 0 ],
-			"obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
-			"obj-901" : [ "master_highpass[1]", "highpass", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "FilterDelay.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm.sallenkey2~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.43803733587265, 0.602580606937408, 0.706649482250214, 1.0 ]
 	}
 
