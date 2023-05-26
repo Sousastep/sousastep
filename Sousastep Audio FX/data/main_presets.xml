@@ -27,7 +27,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.069414" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -81,11 +80,8 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-3." />
-			<pattr name = "low_volume" value = "-7." />
-			<pattr name = "very_low_volume" value = "-4." />
-			<pattr name = "Dry Input Gain[1]" value = "28.72441" />
-			<pattr name = "Dry Output Gain[1]" value = "39.685039" />
+			<pattr name = "Dry Input Gain[1]" value = "25.7" />
+			<pattr name = "Dry Output Gain[1]" value = "41.574803" />
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
 			<pattr name = "limiter_saturation" value = "0.13" />
@@ -120,13 +116,12 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.074526" />
 		<pattr name = "high_SnTrSq" value = "2" />
 		<pattr name = "low_SnTrSq" value = "1" />
 		<pattr name = "low_duty_cycle" value = "45.669291" />
 		<pattr name = "low_floor" value = "0." />
 		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "40.944882" />
+		<pattr name = "low_phase_offset" value = "-81.889764" />
 		<pattr name = "low_power" value = "-26.515673" />
 		<pattr name = "moog_rez" value = "26.68" />
 		<pattr name = "mp_enable" value = "1" />
@@ -134,15 +129,15 @@
 		<pattr name = "rez_max" value = "59" />
 		<pattr name = "rez_min" value = "0" />
 		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMDMyMjUyNDk0ODYzMjgKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE0NjY4MzIwNDU0NjI2NwoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
 		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
 		<pattr name = "verylow_duty_cycle" value = "0." />
 		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "38.582677" />
+		<pattr name = "verylow_phase_offset" value = "54.330709" />
 		<pattr name = "verylow_power" value = "-100." />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
@@ -174,9 +169,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-7." />
-			<pattr name = "very_low_volume" value = "-4." />
 			<pattr name = "Dry Input Gain[1]" value = "32.125985" />
 			<pattr name = "Dry Output Gain[1]" value = "38.929134" />
 			<pattr name = "Mod Input Gain[1]" value = "40.062992" />
@@ -188,13 +180,13 @@
 		</patcher>
 	</slot>
 	<slot number = "3">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
+		<pattr name = "Distortion_Preset_Selection" value = "1" />
+		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
 		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
+		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
+		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
 		<pattr name = "Quadravox_Key" value = "Bb" />
 		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
 		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
@@ -206,14 +198,13 @@
 		<pattr name = "aux_route_menu" value = "0" />
 		<pattr name = "aux_yaxis" value = "0." />
 		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "env_glide_type" value = "1" />
+		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling_slide_down" value = "16000" />
-		<pattr name = "freq_ceiling_slide_up" value = "48" />
-		<pattr name = "freq_floor_slide_down" value = "16000" />
-		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "gate_thresh" value = "0." />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -221,16 +212,16 @@
 		<pattr name = "low_lock" value = "0" />
 		<pattr name = "low_phase_offset" value = "26.771654" />
 		<pattr name = "low_power" value = "-70.866142" />
-		<pattr name = "moog_rez" value = "41.071686" />
+		<pattr name = "moog_rez" value = "41.4" />
 		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "1" />
+		<pattr name = "reverb_delay_input_selector" value = "0" />
 		<pattr name = "rez_max" value = "82" />
 		<pattr name = "rez_min" value = "8" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "transient_helper" value = "0" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
 		<pattr name = "verylow_duty_cycle" value = "0." />
@@ -238,7 +229,7 @@
 		<pattr name = "verylow_phase_offset" value = "49.606299" />
 		<pattr name = "verylow_power" value = "-84.251969" />
 		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
@@ -250,9 +241,9 @@
 			<pattr name = "preamp_and_pitch" value = "1" />
 		</patcher>
 		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "10." />
+			<pattr name = "env_bottom" value = "29." />
 			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "74." />
+			<pattr name = "env_top" value = "100." />
 		</patcher>
 		<patcher name = "just_theDrop">
 			<pattr name = "just_theDrop" value = "1" />
@@ -267,11 +258,8 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
-			<pattr name = "Dry Input Gain[1]" value = "34.015748" />
-			<pattr name = "Dry Output Gain[1]" value = "40.440945" />
+			<pattr name = "Dry Input Gain[1]" value = "26." />
+			<pattr name = "Dry Output Gain[1]" value = "42." />
 			<pattr name = "Mod Input Gain[1]" value = "22.3" />
 			<pattr name = "Mod Output Gain[1]" value = "39.685039" />
 			<pattr name = "limiter_saturation" value = "0.19" />
@@ -282,7 +270,7 @@
 	</slot>
 	<slot number = "4">
 		<pattr name = "Distortion_Preset_Selection" value = "3" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
+		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
 		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
@@ -299,14 +287,13 @@
 		<pattr name = "aux_route_menu" value = "0" />
 		<pattr name = "aux_yaxis" value = "0." />
 		<pattr name = "crossover_freq" value = "0.206153" />
-		<pattr name = "env_glide_type" value = "1" />
+		<pattr name = "env_glide_type" value = "2" />
 		<pattr name = "filter_pole" value = "1" />
 		<pattr name = "filter_type" value = "11" />
-		<pattr name = "freq_ceiling_slide_down" value = "6000" />
-		<pattr name = "freq_ceiling_slide_up" value = "480" />
-		<pattr name = "freq_floor_slide_down" value = "16000" />
-		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "gate_thresh" value = "0." />
+		<pattr name = "freq_ceiling_slide_down" value = "2400" />
+		<pattr name = "freq_ceiling_slide_up" value = "2400" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -314,15 +301,15 @@
 		<pattr name = "low_lock" value = "0" />
 		<pattr name = "low_phase_offset" value = "24.409449" />
 		<pattr name = "low_power" value = "-61.417323" />
-		<pattr name = "moog_rez" value = "46.324706" />
+		<pattr name = "moog_rez" value = "46." />
 		<pattr name = "mp_enable" value = "0" />
 		<pattr name = "reverb_delay_input_selector" value = "1" />
 		<pattr name = "rez_max" value = "94" />
 		<pattr name = "rez_min" value = "6" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
 		<pattr name = "transient_helper" value = "3" />
 		<pattr name = "very_low_lock" value = "1" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -331,7 +318,7 @@
 		<pattr name = "verylow_phase_offset" value = "25.984252" />
 		<pattr name = "verylow_power" value = "-100." />
 		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
 		<patcher name = "delay_and_reverb">
 			<pattr name = "delay_and_reverb" value = "1" />
@@ -360,11 +347,8 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
-			<pattr name = "Dry Input Gain[1]" value = "34.015748" />
-			<pattr name = "Dry Output Gain[1]" value = "40.440945" />
+			<pattr name = "Dry Input Gain[1]" value = "26." />
+			<pattr name = "Dry Output Gain[1]" value = "42." />
 			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
 			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
 			<pattr name = "limiter_saturation" value = "0.19" />
@@ -399,7 +383,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.177187" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -453,9 +436,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "27.968504" />
 			<pattr name = "Dry Output Gain[1]" value = "36.661417" />
 			<pattr name = "Mod Input Gain[1]" value = "32.881889" />
@@ -492,7 +472,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -546,9 +525,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "" />
-			<pattr name = "low_volume" value = "" />
-			<pattr name = "very_low_volume" value = "" />
 			<pattr name = "Dry Input Gain[1]" value = "" />
 			<pattr name = "Dry Output Gain[1]" value = "" />
 			<pattr name = "Mod Input Gain[1]" value = "" />
@@ -585,7 +561,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "gate_thresh" value = "0.101434" />
 		<pattr name = "high_SnTrSq" value = "0" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -639,9 +614,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "" />
-			<pattr name = "low_volume" value = "" />
-			<pattr name = "very_low_volume" value = "" />
 			<pattr name = "Dry Input Gain[1]" value = "" />
 			<pattr name = "Dry Output Gain[1]" value = "" />
 			<pattr name = "Mod Input Gain[1]" value = "" />
@@ -678,7 +650,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "0" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -732,9 +703,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "" />
-			<pattr name = "low_volume" value = "" />
-			<pattr name = "very_low_volume" value = "" />
 			<pattr name = "Dry Input Gain[1]" value = "" />
 			<pattr name = "Dry Output Gain[1]" value = "" />
 			<pattr name = "Mod Input Gain[1]" value = "" />
@@ -771,7 +739,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "12" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -825,9 +792,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "22.677165" />
 			<pattr name = "Dry Output Gain[1]" value = "41.19685" />
 			<pattr name = "Mod Input Gain[1]" value = "32.88189" />
@@ -864,7 +828,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.093338" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -918,9 +881,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "28.346457" />
 			<pattr name = "Dry Output Gain[1]" value = "37.03937" />
 			<pattr name = "Mod Input Gain[1]" value = "48." />
@@ -957,7 +917,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1011,9 +970,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "37.417323" />
 			<pattr name = "Dry Output Gain[1]" value = "38.929134" />
 			<pattr name = "Mod Input Gain[1]" value = "33.637796" />
@@ -1050,7 +1006,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "480" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "480" />
-		<pattr name = "gate_thresh" value = "0.038431" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1104,9 +1059,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "29.102363" />
 			<pattr name = "Dry Output Gain[1]" value = "40.818898" />
 			<pattr name = "Mod Input Gain[1]" value = "42.708662" />
@@ -1143,7 +1095,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "48" />
 		<pattr name = "freq_floor_slide_down" value = "16000" />
 		<pattr name = "freq_floor_slide_up" value = "96" />
-		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1197,9 +1148,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "25.7" />
 			<pattr name = "Dry Output Gain[1]" value = "42.708661" />
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
@@ -1236,7 +1184,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1290,9 +1237,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-7." />
 			<pattr name = "Dry Input Gain[1]" value = "25.7" />
 			<pattr name = "Dry Output Gain[1]" value = "42.708661" />
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
@@ -1329,7 +1273,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.109935" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1383,9 +1326,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "0." />
-			<pattr name = "very_low_volume" value = "0." />
 			<pattr name = "Dry Input Gain[1]" value = "28.72441" />
 			<pattr name = "Dry Output Gain[1]" value = "39.685039" />
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
@@ -1422,7 +1362,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.102774" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1476,9 +1415,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-4." />
-			<pattr name = "very_low_volume" value = "-3." />
 			<pattr name = "Dry Input Gain[1]" value = "20.409449" />
 			<pattr name = "Dry Output Gain[1]" value = "39.685039" />
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
@@ -1515,7 +1451,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.112343" />
 		<pattr name = "high_SnTrSq" value = "1" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1569,9 +1504,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-9." />
-			<pattr name = "very_low_volume" value = "-3." />
 			<pattr name = "Dry Input Gain[1]" value = "28.72441" />
 			<pattr name = "Dry Output Gain[1]" value = "34.771653" />
 			<pattr name = "Mod Input Gain[1]" value = "43.086615" />
@@ -1608,7 +1540,6 @@
 		<pattr name = "freq_ceiling_slide_up" value = "2400" />
 		<pattr name = "freq_floor_slide_down" value = "2400" />
 		<pattr name = "freq_floor_slide_up" value = "2400" />
-		<pattr name = "gate_thresh" value = "0.081494" />
 		<pattr name = "high_SnTrSq" value = "0" />
 		<pattr name = "low_SnTrSq" value = "0" />
 		<pattr name = "low_duty_cycle" value = "0." />
@@ -1662,9 +1593,6 @@
 			<pattr name = "lowComp_and_highDryFX" value = "1" />
 		</patcher>
 		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "high_volume" value = "-5." />
-			<pattr name = "low_volume" value = "-6." />
-			<pattr name = "very_low_volume" value = "-4." />
 			<pattr name = "Dry Input Gain[1]" value = "15.873228" />
 			<pattr name = "Dry Output Gain[1]" value = "43.464567" />
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />

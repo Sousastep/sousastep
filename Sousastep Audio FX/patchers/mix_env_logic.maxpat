@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 0,
+			"minor" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -66,7 +66,6 @@
 , 			{
 				"box" : 				{
 					"addpoints_with_curve" : [ 0.0, -1.0, 0, 0.0, 0.5, 0.0, 0, -0.65, 1.0, 1.0, 0, 0.6 ],
-					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 0.1,
 					"id" : "obj-19",
@@ -789,7 +788,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 824.965891027941325, 283.762353272234293, 31.0, 22.0 ],
+					"patching_rect" : [ 832.715891027941325, 278.26235327223435, 31.0, 22.0 ],
 					"text" : "* -1."
 				}
 

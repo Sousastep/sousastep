@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 610.0, 1489.0, 74.0, 22.0 ],
+					"text" : "loadmess -3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 373.0, 1275.0, 74.0, 22.0 ],
+					"text" : "loadmess -6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.0, 1322.0, 74.0, 22.0 ],
+					"text" : "loadmess -1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -534,7 +570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.25, 1070.0, 70.0, 22.0 ],
+					"patching_rect" : [ 731.25, 1019.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -721,46 +757,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Silom",
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 232.605790779372796, 1060.484994248891326, 164.0, 24.0 ],
-					"restore" : [ -7.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr very_low_volume",
-					"varname" : "very_low_volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Silom",
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 405.855790779372796, 1060.484994248891326, 126.0, 24.0 ],
-					"restore" : [ -6.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr low_volume",
-					"varname" : "low_volume"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-8",
 					"lastchannelcount" : 0,
 					"maxclass" : "live.gain~",
@@ -812,26 +808,6 @@
 					}
 ,
 					"varname" : "verylowvol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Silom",
-					"id" : "obj-48",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 626.10579077937291, 1060.484994248891326, 130.0, 24.0 ],
-					"restore" : [ -5.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr high_volume",
-					"varname" : "high_volume"
 				}
 
 			}
@@ -1348,11 +1324,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-953",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 113.812272899965137, 403.848327711878937, 30.0, 30.0 ]
 				}
 
@@ -1361,11 +1337,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-963",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 148.812272899965137, 403.848327711878937, 30.0, 30.0 ]
 				}
 
@@ -1374,11 +1350,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-966",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 204.750001899965127, 403.848327711878937, 30.0, 30.0 ]
 				}
 
@@ -1387,11 +1363,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-967",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 239.750001899965127, 403.848327711878937, 30.0, 30.0 ]
 				}
 
@@ -1400,11 +1376,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-975",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 511.105790779372796, 416.27824078748381, 30.0, 30.0 ]
 				}
 
@@ -1413,11 +1389,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-984",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 546.105790779372796, 416.27824078748381, 30.0, 30.0 ]
 				}
 
@@ -1426,11 +1402,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-995",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 595.105775899965124, 416.27824078748381, 30.0, 30.0 ]
 				}
 
@@ -1439,11 +1415,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1005",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.105775899965124, 416.27824078748381, 30.0, 30.0 ]
 				}
 
@@ -1452,11 +1428,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1011",
-					"index" : 9,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 807.10579077937291, 368.000036409258428, 30.0, 30.0 ]
 				}
 
@@ -1465,11 +1441,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1012",
-					"index" : 10,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 892.60579077937291, 368.000036409258428, 30.0, 30.0 ]
 				}
 
@@ -1478,11 +1454,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1013",
-					"index" : 11,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1093.0, 368.000036409258428, 30.0, 30.0 ]
 				}
 
@@ -1491,11 +1467,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1017",
-					"index" : 12,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1178.5, 368.000036409258428, 30.0, 30.0 ]
 				}
 
@@ -1504,7 +1480,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1021",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1516,7 +1492,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1028",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1528,7 +1504,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1029",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1540,7 +1516,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1031",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1552,7 +1528,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1032",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1564,7 +1540,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1038",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2039,8 +2015,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-3", 1 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -2095,13 +2071,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-874", 0 ],
-					"source" : [ "obj-48", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -2118,6 +2087,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -2256,8 +2232,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"source" : [ "obj-9", 1 ]
+					"destination" : [ "obj-874", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -2352,7 +2328,114 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-125" : [ "vst~[1]", "vst~[1]", 0 ],
+			"obj-25" : [ "Clipper2", "Clipper2", 0 ],
+			"obj-4" : [ "v low vol", "v low vol", 0 ],
+			"obj-59" : [ "vst~", "vst~", 0 ],
+			"obj-67" : [ "Dry Input Gain", "Dry Input Gain", 0 ],
+			"obj-68" : [ "Dry Output Gain", "Dry Output Gain", 0 ],
+			"obj-69" : [ "Mod Output Gain", "Mod Output Gain", 0 ],
+			"obj-70" : [ "Mod Input Gain", "Mod Input Gain", 0 ],
+			"obj-8" : [ "low vol", "low vol", 0 ],
+			"obj-85" : [ "max~[2]", "max~[2]", 0 ],
+			"obj-874" : [ "high gain[1]", "high gain", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "Color_Limiter.amxd",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "GMaudio Clipper 2.0.amxd",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "amazing-noises-logo_white-11px.svg",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gma.clipper004~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "grmeter.js",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grmeterbg.js",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "livedial_override.js",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "muteme.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.gen.onepole.gendsp",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.gen.rampsmooth.gendsp",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.gen.smoother.gendsp",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "vs.gen.xfade.gendsp",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
