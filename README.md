@@ -35,22 +35,16 @@ Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`
     - △ toggle metronome on/off
 
 - L2
-    - □ looper 1 control
-        - single click: start recording
-        - double click: stop recording
-        - hold: fade out
+    - □ 8-bar looper control: actually just a delay send, but highly automated. After the first click it'll open the delay send, but it'll only start counting 8 bars once you start playing, and after 8 bars, it'll detect when you stop playing to close the delay send. Once the delay send closes the octaver will be muted and a chorus will be enabled, which gives a good tone for soloing over the loop. The second click will disable the chorus, enable the octaver, and fade out the loop. You may click again to begin recording another loop before the first loop fades out. 
 
-    - x looper 2 control
-        - single click: start recording
-        - double click: stop recording
-        - hold: fade out
+    - x nothing
 
-    - ○ nothin
+    - ○ nothing
 
     - △ controls Ableton Live's [scene selection](https://www.ableton.com/en/manual/midi-and-key-remote-control/#relative-session-view-navigation)
         - single click: launch scene
         - double click: down one scene
-        - hold: up three scenes
+        - hold: launch scene
 
 ## d-pad
 
@@ -85,10 +79,14 @@ The phase of the LFO can be inverted in two ways:
 ## joysticks
 
 ### Left Vertical
+Basically adjusts dry/wet mix.
+
 Adjusts the transient crossfade's ceiling and floor upwards and downwards 
 as a method of adjusting the mix between the dry tuba sound and the dubstep effect.
 
 ### Left Horizontal
+Basically adjusts envelope sensitivity, or duty cycle, and/or LP/HP filters.
+
 Holding L3 for half a sec switches LH 
 from adjusting the duty cycle, phase, and pow of the lowpass freq mod LFO, 
 to adjusting the shape of the envelope for the ceiling of the lowpass freq mod LFO.
