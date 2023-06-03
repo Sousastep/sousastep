@@ -12,7 +12,7 @@ Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28, &Wire);
 
 // Define constants
 const unsigned long OUTPUT_RATE_ACCEL = 1000000; // Output rate in microseconds
-const unsigned long OUTPUT_RATE_TOUCH = 2000; // Output rate in microseconds
+const unsigned long OUTPUT_RATE_TOUCH = 10000; // Output rate in microseconds
 const int MOVING_AVERAGE_WINDOW_SIZE = 10; // Size of the moving average window
 const int config = WS2811_GRB | WS2811_800kHz;
 const int ledsPerStrip = 26;
@@ -107,7 +107,7 @@ void loop()
   if (newData)  {
     processCommand();   // if we have a new command do something
   }
-
+/*
   // https://forum.arduino.cc/t/demonstration-code-for-several-things-at-the-same-time/217158
   // Check if enough time has elapsed since last output
   unsigned long currentTime = micros();
@@ -141,12 +141,13 @@ void loop()
           // Update the last output time of the accelerometer
           accelLastOutputTime = currentTime;
         }
-    */
+    
     // serial.println() = "\r\n"
     aprintf("\r\n%d", touchRead_data);
     // aprintf("\r\n%d %f %f", touchRead_data, eventOrientationX, linearAccelX);
     // Serial.flush();
-  }
+    
+  }*/
 }
 
 void processCommand()

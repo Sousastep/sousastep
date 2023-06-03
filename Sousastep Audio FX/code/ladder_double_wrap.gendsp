@@ -49,7 +49,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2020.727916630107757, 421.000001907348633, 186.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"text" : "no transient helper for visuals",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -153,7 +152,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1846.716489735164032, 1363.048472670509454, 86.565208499245045, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "high freq mod no env scaling",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -172,7 +170,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2001.795739199923901, 1434.748507101557607, 117.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"text" : "this bias makes the visuals a bit more convincing",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -290,7 +287,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1786.387700527699508, 1657.203810101832232, 182.454294595909232, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "LFO outs approach 1 as freq_mix approaches max. This can be useful for controlling audio-reactive visuals.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -537,7 +533,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2922.755628538131077, 820.495875683197482, 106.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "package manager > ease",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -647,7 +642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1141.0, 1927.0, 150.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "no 9, 5, 11"
+					"text" : "no , 5, 11"
 				}
 
 			}
@@ -2417,7 +2412,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1304.127916630108075, 179.275157566864664, 28.0, 23.0 ],
-					"text" : "in 5",
+					"text" : "in 9",
 					"textcolor" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ]
 				}
 

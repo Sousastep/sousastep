@@ -3,3 +3,4 @@
 3, PolarGradient;
 4, RainbowGlowRing;
 5, SpaceSpore;
+6, FluidFlowSNoise;
