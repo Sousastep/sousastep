@@ -75,7 +75,7 @@
 157, SpaceSpore;
 158, SpaceSpore;
 159, SpaceSpore;
-160, FluidFlowSNoise;
+160, FluidFlowSNoisedub 1;
 161, FluidFlowSNoise;
 162, FluidFlowSNoise;
 163, FluidFlowSNoise;
@@ -85,3 +85,13 @@
 167, FluidFlowSNoise;
 168, FluidFlowSNoise;
 169, FluidFlowSNoise;
+170, VoroniDuplex dub 1;
+171, VoroniDuplex; 
+172, VoroniDuplex;
+173, VoroniDuplex;
+174, VoroniDuplex;
+175, VoroniDuplex;
+176, VoroniDuplex;
+177, VoroniDuplex;
+178, VoroniDuplex;
+179, VoroniDuplex;

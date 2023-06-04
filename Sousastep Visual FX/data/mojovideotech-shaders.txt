@@ -4,3 +4,4 @@
 4, RainbowGlowRing;
 5, SpaceSpore;
 6, FluidFlowSNoise;
+7, VoronoiDuplex;
