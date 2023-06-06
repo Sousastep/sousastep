@@ -86,7 +86,7 @@
 168, FluidFlowSNoise;
 169, FluidFlowSNoise;
 170, VoroniDuplex dub 1;
-171, VoroniDuplex; 
+171, VoroniDuplex;
 172, VoroniDuplex;
 173, VoroniDuplex;
 174, VoroniDuplex;
@@ -95,3 +95,13 @@
 177, VoroniDuplex;
 178, VoroniDuplex;
 179, VoroniDuplex;
+180, ButterflyEffect dub 1;
+181, ButterflyEffect;
+182, ButterflyEffect;
+183, ButterflyEffect;
+184, ButterflyEffect;
+185, ButterflyEffect;
+186, ButterflyEffect;
+187, ButterflyEffect;
+188, ButterflyEffect;
+189, ButterflyEffect;

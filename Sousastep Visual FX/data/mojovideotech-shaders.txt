@@ -5,3 +5,4 @@
 5, SpaceSpore;
 6, FluidFlowSNoise;
 7, VoronoiDuplex;
+8, ButterflyEffect;
