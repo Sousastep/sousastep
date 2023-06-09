@@ -65,7 +65,7 @@
 		<patcher name = "mix_env_logic">
 			<pattr name = "env_bottom" value = "18." />
 			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "82." />
+			<pattr name = "env_top" value = "100." />
 		</patcher>
 		<patcher name = "just_theDrop">
 			<pattr name = "just_theDrop" value = "1" />
