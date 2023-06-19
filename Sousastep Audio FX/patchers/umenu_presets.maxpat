@@ -73,7 +73,7 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "EP Dry", "EP Darkglass", "mangled tricera", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "moog saturation", "moog harmony", "dry lows", "Veldt", "Mud", "Video Games", "Tim Henson Native", "k", "l" ],
+							"parameter_enum" : [ "EP Dry", "EP Darkglass", "mangled tricera", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "moog saturation", "moog harmony", "dry lows", "Veldt", "Mud", "Video Games", "Tim Henson Native", "amp mod 1", "l" ],
 							"parameter_longname" : "Presets",
 							"parameter_mmax" : 20,
 							"parameter_shortname" : "Presets",

@@ -4,7 +4,6 @@
 	<slot number = "1">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -92,7 +91,6 @@
 	<slot number = "2">
 		<pattr name = "Distortion_Preset_Selection" value = "5" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -180,7 +178,6 @@
 	<slot number = "3">
 		<pattr name = "Distortion_Preset_Selection" value = "1" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -268,7 +265,6 @@
 	<slot number = "4">
 		<pattr name = "Distortion_Preset_Selection" value = "3" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -356,7 +352,6 @@
 	<slot number = "5">
 		<pattr name = "Distortion_Preset_Selection" value = "3" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "2" />
-		<pattr name = "Q_sense" value = "Q_sense 3." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -444,7 +439,6 @@
 	<slot number = "6">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -532,7 +526,6 @@
 	<slot number = "7">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -620,7 +613,6 @@
 	<slot number = "8">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -708,7 +700,6 @@
 	<slot number = "9">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -796,7 +787,6 @@
 	<slot number = "10">
 		<pattr name = "Distortion_Preset_Selection" value = "4" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -884,7 +874,6 @@
 	<slot number = "11">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -972,7 +961,6 @@
 	<slot number = "12">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -1060,7 +1048,6 @@
 	<slot number = "13">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -1148,7 +1135,6 @@
 	<slot number = "14">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "1" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
 		<pattr name = "Quadravox_Enable_14th" value = "1" />
@@ -1236,7 +1222,6 @@
 	<slot number = "15">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -1324,7 +1309,6 @@
 	<slot number = "16">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "1" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
 		<pattr name = "Quadravox_Enable_14th" value = "1" />
@@ -1412,7 +1396,6 @@
 	<slot number = "17">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -1500,7 +1483,6 @@
 	<slot number = "18">
 		<pattr name = "Distortion_Preset_Selection" value = "2" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "1" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
 		<pattr name = "Quadravox_Enable_14th" value = "1" />
@@ -1588,7 +1570,6 @@
 	<slot number = "19">
 		<pattr name = "Distortion_Preset_Selection" value = "0" />
 		<pattr name = "Distortion_Preset_Selection[1]" value = "2" />
-		<pattr name = "Q_sense" value = "Q_sense 0." />
 		<pattr name = "Quadravox_Enable_12th" value = "0" />
 		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
 		<pattr name = "Quadravox_Enable_14th" value = "0" />
@@ -1668,6 +1649,93 @@
 			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
 			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
 			<pattr name = "limiter_saturation" value = "0." />
+		</patcher>
+		<patcher name = "patcher[3]">
+			<pattr name = "just_triC" value = "1" />
+		</patcher>
+	</slot>
+	<slot number = "20">
+		<pattr name = "Distortion_Preset_Selection" value = "0" />
+		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
+		<pattr name = "Quadravox_Enable_12th" value = "0" />
+		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
+		<pattr name = "Quadravox_Enable_14th" value = "0" />
+		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
+		<pattr name = "Quadravox_Key" value = "Bb" />
+		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
+		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
+		<pattr name = "Zslide_down" value = "Zslide_down 600." />
+		<pattr name = "aux_SnTrSq" value = "0" />
+		<pattr name = "aux_duty_cycle" value = "0." />
+		<pattr name = "aux_phase_offset" value = "55.905512" />
+		<pattr name = "aux_power" value = "0." />
+		<pattr name = "aux_route_menu" value = "0" />
+		<pattr name = "aux_yaxis" value = "0." />
+		<pattr name = "crossover_freq" value = "0.05382" />
+		<pattr name = "env_glide_type" value = "2" />
+		<pattr name = "filter_pole" value = "1" />
+		<pattr name = "filter_type" value = "12" />
+		<pattr name = "freq_ceiling_slide_down" value = "1600" />
+		<pattr name = "freq_ceiling_slide_up" value = "1600" />
+		<pattr name = "freq_floor_slide_down" value = "2400" />
+		<pattr name = "freq_floor_slide_up" value = "2400" />
+		<pattr name = "high_SnTrSq" value = "1" />
+		<pattr name = "low_SnTrSq" value = "0" />
+		<pattr name = "low_duty_cycle" value = "0." />
+		<pattr name = "low_floor" value = "0." />
+		<pattr name = "low_lock" value = "0" />
+		<pattr name = "low_phase_offset" value = "17.322835" />
+		<pattr name = "low_power" value = "-47.244094" />
+		<pattr name = "moog_rez" value = "20.24" />
+		<pattr name = "mp_enable" value = "1" />
+		<pattr name = "reverb_delay_input_selector" value = "0" />
+		<pattr name = "rez_max" value = "45" />
+		<pattr name = "rez_min" value = "0" />
+		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAzNTI5NDExNzY0NzA2CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjA1Mzg3MDU4ODIzNTI5NAoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
+		<pattr name = "transient_helper" value = "2" />
+		<pattr name = "very_low_lock" value = "0" />
+		<pattr name = "verylow_SnTrSq" value = "0" />
+		<pattr name = "verylow_duty_cycle" value = "0." />
+		<pattr name = "verylow_floor" value = "0." />
+		<pattr name = "verylow_phase_offset" value = "37.007874" />
+		<pattr name = "verylow_power" value = "-42.263705" />
+		<patcher name = "distortion_plugins">
+			<pattr name = "distortion_plugins[1]" value = "1" />
+		</patcher>
+		<patcher name = "delay_and_reverb">
+			<pattr name = "delay_and_reverb" value = "1" />
+		</patcher>
+		<patcher name = "masterbus[1]">
+			<pattr name = "masterbus" value = "1" />
+		</patcher>
+		<patcher name = "patcher">
+			<pattr name = "preamp_and_pitch" value = "1" />
+		</patcher>
+		<patcher name = "mix_env_logic">
+			<pattr name = "env_bottom" value = "20." />
+			<pattr name = "env_inv" value = "1" />
+			<pattr name = "env_top" value = "80." />
+		</patcher>
+		<patcher name = "just_theDrop">
+			<pattr name = "just_theDrop" value = "1" />
+		</patcher>
+		<patcher name = "crossovers_and_8va">
+			<pattr name = "crossovers" value = "1" />
+		</patcher>
+		<patcher name = "patcher[1]">
+			<pattr name = "just_MF-101S" value = "1" />
+		</patcher>
+		<patcher name = "patcher[2]">
+			<pattr name = "lowComp_and_highDryFX" value = "1" />
+		</patcher>
+		<patcher name = "post-triplewrap_mixbus">
+			<pattr name = "Mod Input Gain[1]" value = "26." />
+			<pattr name = "Mod Output Gain[1]" value = "37.84252" />
+			<pattr name = "limiter_saturation" value = "0.026" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />

@@ -25,6 +25,7 @@
 67, single shape;
 68, single shape;
 69, single shape;
+70, multiple dub 1;
 110, CandyWarp acoustic 1;
 111, CandyWarp dub strobe;
 112, CandyWarp dub 2;
