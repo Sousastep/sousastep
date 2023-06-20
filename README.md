@@ -23,10 +23,10 @@ These sends can be locked open by holding `R1`, `R2`, or `L2` while releasing `s
 Holding down `R1`, `R2`, or `L2` changes the function of `square`, `x`, `circle`, and `triangle`.
 
 - R1: main pattr preset selectors
-    - □ single click for fast interpolation / double click for 1-bar interpolation / hold for 2-bar interpolation
-    - x same
-    - ○ same
-    - △ same
+    - □ hold selects preset bank 1, click selects 1st preset in bank.
+    - x hold selects preset bank 2, click selects 2nd preset in bank.
+    - ○ hold selects preset bank 3, click selects 3rd preset in bank.
+    - △ hold selects preset bank 4, click selects 4th preset in bank.
 
 - R2
     - □ toggle LFO and metronome between "regular rhythm" and [Risset rhythm](https://github.com/jbaylies/risset-rhythm-metro-and-wah).
@@ -91,12 +91,12 @@ Holding L3 for half a sec switches LH
 from adjusting the duty cycle, phase, and pow of the lowpass freq mod LFO, 
 to adjusting the shape of the envelope for the ceiling of the lowpass freq mod LFO.
 These adjustments can be locked in place by holding L3, and unlocked by double-clicking L3.
-Additionally, while the tuba's not playing, 
+Additionally (if enabled), while the tuba's not playing, 
 LH controls not only a bandpass filter frequency and mix for the drum loops in Live, but also LP and HP filters for the loopers.
 
 ### Right Vertical
-Downwards crossfades from sync LFO to free rate LFO
-Upwards increases the amount of swing
+Downwards crossfades from sync LFO to free rate LFO. 
+Upwards increases the amount of swing.
 
 ### Right Horizontal
 Left speeds up free rate LFO, right slows down free rate LFO.
