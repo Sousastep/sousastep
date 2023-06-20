@@ -39,10 +39,10 @@
 		<pattr name = "rez_max" value = "45" />
 		<pattr name = "rez_min" value = "0" />
 		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAzNTI5NDExNzY0NzA2CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MzIxMTc2NDcwNTg4MgoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
+		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNDkxOTcwODQwNDA4MTkKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzOTkyMzAwNDU3Nzk3NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDE2NTUxNzA2NjY4ODgzCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
+		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4zNDgyOTc4NTg0ODI4NjQKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuNTcxMDUyMDIyNTQzOTYyCgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzc3ODkzODkxNDcyNDYKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDUxMTY5NzM4OTgzNjEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDU2MTM0NDI2NzMzNzIxCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
 		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[7]" value = "" />
+		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
 		<pattr name = "transient_helper" value = "2" />
 		<pattr name = "very_low_lock" value = "0" />
 		<pattr name = "verylow_SnTrSq" value = "0" />
@@ -50,6 +50,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.25" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -82,7 +83,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogIjc0YTA5Yjk3LWYzNjAtMTFlYS05Yjk3LTM0MzYzYmQzZWQ4YyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiQ29tcGVuc2F0aW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIkNvbXByZXNzaW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIlZvbHVtZSZDbGlwfiIgOiAJCQl7CgoJCQl9CiwKCQkJIkxvb2thaGVhZH4iIDogCQkJewoKCQkJfQoKCQl9CiwKCQkic3VzdGFpbiIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJhdHRhY2siIDogCQl7CgkJCSJ2YWx1ZSIgOiAxMDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICI3NGEwOWI5Ny1mMzYwLTExZWEtOWI5Ny0zNDM2M2JkM2VkOGMiLAoJCSJzb2Z0Y2xpcCIgOiAJCXsKCQkJInZhbHVlIiA6IDEuMAoJCX0KLAoJCSJjb21wIiA6IAkJewoJCQkidmFsdWUiIDogNTAuMAoJCX0KLAoJCSJ2b2x1bWUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibG9va2FoZWFkIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQoKCX0KCn0K" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -137,6 +138,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "54.330709" />
 		<pattr name = "verylow_power" value = "-100." />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -169,7 +171,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "35.905512" />
 			<pattr name = "Mod Output Gain[1]" value = "38.929134" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -224,6 +226,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "49.606299" />
 		<pattr name = "verylow_power" value = "-84.251969" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -256,7 +259,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "22.3" />
 			<pattr name = "Mod Output Gain[1]" value = "39.685039" />
-			<pattr name = "limiter_saturation" value = "0.19" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -311,6 +314,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "25.984252" />
 		<pattr name = "verylow_power" value = "-100." />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -343,7 +347,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
 			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
-			<pattr name = "limiter_saturation" value = "0.19" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -398,6 +402,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "18.110236" />
 		<pattr name = "verylow_power" value = "-100." />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -430,7 +435,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "32.881889" />
 			<pattr name = "Mod Output Gain[1]" value = "32.503937" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -485,6 +490,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
@@ -517,7 +523,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "limiter_saturation" value = "" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -572,6 +578,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
@@ -604,7 +611,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "limiter_saturation" value = "" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -659,6 +666,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-18.641658" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
@@ -691,7 +699,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "" />
 			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "limiter_saturation" value = "" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -746,6 +754,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "" />
 		</patcher>
@@ -778,7 +787,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "32.88189" />
 			<pattr name = "Mod Output Gain[1]" value = "38.173228" />
-			<pattr name = "limiter_saturation" value = "" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "" />
@@ -833,6 +842,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "0." />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -865,7 +875,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "24.944882" />
 			<pattr name = "Mod Output Gain[1]" value = "37.795276" />
-			<pattr name = "limiter_saturation" value = "0.1" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -920,6 +930,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -952,7 +963,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "33.637796" />
 			<pattr name = "Mod Output Gain[1]" value = "37.03937" />
-			<pattr name = "limiter_saturation" value = "0.41" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1007,6 +1018,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1039,7 +1051,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "42.708662" />
 			<pattr name = "Mod Output Gain[1]" value = "38.551181" />
-			<pattr name = "limiter_saturation" value = "0.19" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1094,6 +1106,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1126,7 +1139,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1181,6 +1194,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1213,7 +1227,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "limiter_saturation" value = "0.16" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1268,6 +1282,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1300,7 +1315,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1355,6 +1370,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1387,7 +1403,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
 			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1442,6 +1458,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1474,7 +1491,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "43.086615" />
 			<pattr name = "Mod Output Gain[1]" value = "33.26" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1529,6 +1546,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1561,7 +1579,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
 			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "limiter_saturation" value = "0.16" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1616,6 +1634,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "25.984252" />
 		<pattr name = "verylow_power" value = "-100." />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1648,7 +1667,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
 			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
-			<pattr name = "limiter_saturation" value = "0." />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
@@ -1703,6 +1722,7 @@
 		<pattr name = "verylow_floor" value = "0." />
 		<pattr name = "verylow_phase_offset" value = "37.007874" />
 		<pattr name = "verylow_power" value = "-42.263705" />
+		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
 		<patcher name = "distortion_plugins">
 			<pattr name = "distortion_plugins[1]" value = "1" />
 		</patcher>
@@ -1735,7 +1755,7 @@
 		<patcher name = "post-triplewrap_mixbus">
 			<pattr name = "Mod Input Gain[1]" value = "26." />
 			<pattr name = "Mod Output Gain[1]" value = "37.84252" />
-			<pattr name = "limiter_saturation" value = "0.026" />
+			<pattr name = "rnbo_comp" value = "" />
 		</patcher>
 		<patcher name = "patcher[3]">
 			<pattr name = "just_triC" value = "1" />
