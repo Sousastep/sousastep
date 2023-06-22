@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -909,7 +909,7 @@
 					"patching_rect" : [ 1413.80734340259005, 264.879678482244799, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.983463488234861, 172.42883026086642, 89.0, 28.0 ],
-					"text" : "loadmess 0",
+					"text" : "loadmess 2",
 					"textcolor" : [ 1.0, 0.56078431372549, 0.941176470588235, 1.0 ]
 				}
 
@@ -924,7 +924,7 @@
 					"patching_rect" : [ 1311.406599461462974, 529.743719408636935, 53.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 297.484577620781693, 148.42883026086642, 30.0, 22.0 ],
-					"text" : "*~ 4"
+					"text" : "*~ 3"
 				}
 
 			}
@@ -1345,7 +1345,7 @@
 					"patching_rect" : [ 171.0, 836.0, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.055396023531102, 146.767480591362983, 70.0, 22.0 ],
-					"text" : "symbol 256"
+					"text" : "symbol 512"
 				}
 
 			}
@@ -1839,7 +1839,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2029,7 +2029,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2219,7 +2219,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2561,7 +2561,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-572",
-					"items" : [ 32000, ",", 44100, ",", 48000, ",", 64000, ",", 88200, ",", 96000, ",", 128000, ",", 176400, ",", 192000 ],
+					"items" : [ 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2752,7 +2752,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2988,7 +2988,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3224,7 +3224,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3392,7 +3392,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3635,7 +3635,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-204",
-					"items" : [ "None", ",", "ASUS VP28U", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Speakers", ",", "Microsoft Teams Audio", ",", "NDI Audio", ",", "MADIface Pro (79250639)", ",", "VB-Cable" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3678,7 +3678,7 @@
 					"fontsize" : 14.0,
 					"hint" : "",
 					"id" : "obj-206",
-					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "VB-Cable", ",", "MADIface Pro (79250639)", ",", "RME+Antlion" ],
+					"items" : [ "None", ",", "CalDigit Thunderbolt 3 Audio", ",", "NDI Audio", ",", "BlackHole 16ch", ",", "MacBook Pro Microphone", ",", "Microsoft Teams Audio", ",", "MADIface Pro (79250639)", ",", "VB-Cable" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
