@@ -97,7 +97,7 @@
 178, VoroniDuplex;
 179, VoroniDuplex;
 180, ButterflyEffect dub 1;
-181, ButterflyEffect;
+181, ButterflyEffect dub 2;
 182, ButterflyEffect;
 183, ButterflyEffect;
 184, ButterflyEffect;

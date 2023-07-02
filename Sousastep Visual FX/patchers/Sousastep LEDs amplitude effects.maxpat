@@ -320,7 +320,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-782",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -1322,32 +1321,20 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 93.5, -1334.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"firstY" : 						{
 							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1364,8 +1351,20 @@
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6130,7 +6129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.0, 868.062490605615039, 50.0, 35.0 ],
-					"text" : "Pinwheel"
+					"text" : "ButterflyEffect"
 				}
 
 			}
@@ -7677,128 +7676,7 @@
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect" : 0,
-						"UI_ButterflyEffect::Pinwheel_size" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0
+						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0
 					}
 ,
 					"autorestore" : "SousaLED8.json",
@@ -11712,7 +11590,7 @@
 					"patching_rect" : [ 349.0, -450.468276326431806, 200.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "Pinwheel dub 1",
+					"text" : "ButterflyEffect",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -11733,9 +11611,9 @@
 						"LineFinal" : [ 0.0 ],
 						"LineInitial" : [ 0.0 ],
 						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"MultipleShapeSelection" : [ "sphere" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
 						"SingleShapeSelection" : [ "sphere" ],
 						"TextPositionY" : [ 0.0 ],
@@ -11749,7 +11627,7 @@
 						"color_changer" : [ 0 ],
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
+						"enable_shader" : [ 0 ],
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
@@ -21784,10 +21662,6 @@
 			}
 , 			{
 				"name" : "jit.*.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "jit.+.mxo",
 				"type" : "iLaX"
 			}
 , 			{
