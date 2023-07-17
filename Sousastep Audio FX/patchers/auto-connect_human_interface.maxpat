@@ -1899,7 +1899,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2199.916078286413267, 630.0, 198.0, 74.0 ],
+					"patching_rect" : [ 2199.916078286413267, 630.0, 204.0, 74.0 ],
 					"text" : "for some reason, my PS4 controller disconnects after ~15 minutes of inactivity, so I begin checking for the controller after 925 seconds of inactivity"
 				}
 
@@ -3360,19 +3360,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.922563177297297, 0.601945934054054, 0.117673934054054, 0.449837837837838 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2526.416078286413267, 1250.29921000000013, 180.0, 35.0 ],
+					"patching_rect" : [ 2526.416078286413267, 1250.29921000000013, 180.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 4.221867799759821, 145.266654292742714, 223.0, 35.0 ],
-					"text" : "checking controller connectivity in 12 minutes"
+					"presentation_rect" : [ 4.221867799759821, 145.266654292742714, 223.0, 21.0 ]
 				}
 
 			}
@@ -4728,28 +4724,28 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-300", 0 ],
-					"source" : [ "obj-203", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-306", 0 ],
-					"source" : [ "obj-203", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-307", 0 ],
 					"source" : [ "obj-203", 6 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-308", 0 ],
+					"destination" : [ "obj-306", 0 ],
 					"source" : [ "obj-203", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-307", 0 ],
+					"source" : [ "obj-203", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-308", 0 ],
+					"source" : [ "obj-203", 5 ]
 				}
 
 			}
