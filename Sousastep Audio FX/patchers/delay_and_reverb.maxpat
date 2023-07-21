@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -201.0, -993.0, 1886.0, 959.0 ],
+		"rect" : [ 34.0, 90.0, 1406.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-52",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1869.0, 683.0, 141.0, 22.0 ],
+					"text" : "r \"bypass reverb plugins\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "bypass",
+					"id" : "obj-36",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1869.0, 720.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-59",
 					"maxclass" : "message",
@@ -506,7 +531,7 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "1722.VMjLgDqA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DiLyXiKV0zQicUPt3hKl4hKt3BTt3hKt3hKLoGVzMGQt3BTtTmQIoGTtEjKt3BRPUkbQUjXtfjcA8jKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtPDT3QVSt4BRlgjTXI2XwDFdqYzXtASLWQWQVE1ZIglSlgjTUIWTsI1YQUEV1kjPK0jatfjYHIjX3giQYASSFMVYqYTVn41PHgFSwD1bzHUVwTEago2ZFk0ZzHjVzLiTiIWTsI1YQcEV1kjPK0jatfjYHg1XqkjLh8FNrEFZtMDRngTZHImdlIjYtfFR1cmUi01ZrEVYqYTXqkUaHUiKRsTdyHDSyf0TNQiXowjLtLUSy.0TLYGVCsTSt4BRlgjPhIWUxj0azDyU0U0QiU1cVkULUYTXn41PHg2LB4jdpMjS5I1PLIiY4wDdLkGSw.0TYMGVCsTSt4BRlgjPhIWUxj0azDyUm0jQiESRn4jYDk1R1YmTCojKBgDZTYDY1kzUYkWSWoUczDyU1UkQYc1crgTMtHDSz4xTMomKCwjctLDS2A0PLYmXCwDMDMUSxomYBYlKngjc2Y0XssFagU1YwDldM0FR03hPLQmKCsTSt4BRlgjPhIWUxj0azDyU5UkUgYGNwbUdUEiX4sVLgQGNvHFMzDCVn41PHoWRWM1Z2I0PJ4hPHgFTxHFMzvFR03hPigWUWkkb5YlPl4BZHY2cVMVaqwVXkAiUXQWUWgkb3TzXqAiQhUWRn4jYDkFS2MiTLEiKCwjcLkVSwfzTLYmZC0jb5YlPl4BZHoGLFIVLIglSlQzPMY2LBwjb5YlPl4BZHMGLVo0LIglSlQzPLY2LBwjctLDS1IVZMgmZ4wDMPMUSxomYBYlKngzbvXkVyfCLhoWQrIld3TUVyDTaHUiKBwDcLMkSwfUZMECV40DLlMDSw3xPMACUCsTSt4BRlgjTgM2ZFQVYUwVXpgSUYMSPsgTMtHESz4xPK0jatfjYHITXzE0QZglaCgDdhk1R3o1TNMiZo0DdPMDS3wzPMkmYCsTSt4BRlgjPgQWTGoUYmESX5gCLhIyZFMVZmwFR03hPLQmKCwTdlMkSzn1TNQiYS4jdHMDS2I1TMEicRMjRtHDRn4xQgAyXVoEc3TTXzE0QZU1YFMVdiIyU3UkQgUWQFkEZtMDR3IVZKgmZS4DMHkFSz.UdLcGQS0DdLMzRM4lKHYFRBM1YAIiXn41PHECTosjc1I0PJ4hPHglKGkkbq0FR03hPLQmKCsTSt4BRlgDdhYWRGkEZtMDR4gTZKECVS4jcXkWS4YVZLMCQowDL1I0PJ4hPHgFTWgkcI0FR03hTKcmYosTLTkFS4AUdLICUCsTSt4BRlgDdioVTGoEZtMDR24xPLQmKCwjctLDSxfUZLQCSS4jdTMzRM4lKHYFRBMVczXUVn41PHMGT4wDcpMkS24xPNMiYo0jLDMjSxP0PK0jatfjYHgmXxkzUgglaCgzctLDSz4xPK0jatfjYHgGVtgiQhglaCgDdDk1R5Q0PLMiKS0TLXMTS1gUZLAicRMjRtHDRngzUXoWUrgTMtfFS2MCdMkGVC4DMHkWS14xTLQCU4wzc1I0PJ4hPHglKsI1ZqwFR03hPMEicRMjRtHDRn4RahsFMrgTMtfFRBsVLYYFQTEFZqYUVzE0QHAUQFkEZ5YlP3DjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
+								"blob" : "1722.VMjLgDqA...OVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9DiLyXiKV0zQicUPt3hKl4hKt3BTt3hKt3hKLoGVzMGQt3BTtTmQIoGTtEjKt3BRPUkbQUjXtfjcA8jKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtPDT3QVSt4BRlgjTXI2XwDFdqYzXtASLWQWQVE1ZIglSlgjTUIWTsI1YQUEV1kjPK0jatfjYHIjX3giQYASSFMVYqYTVn41PHgFSwD1bzHUVwTEago2ZFk0ZzHjVzLiTiIWTsI1YQcEV1kjPK0jatfjYHg1XqkjLh8FNrEFZtMDRngTZHImdlIjYtfFR1cmUi01ZrEVYqYTXqkUaHUiKRsTdyHDSyf0TNQiXowjLtLUSy.0TLYGVCsTSt4BRlgjPhIWUxj0azDyU0U0QiU1cVkULUYTXn41PHg2LB4jdpMjS5I1PLIiY4wDdLkGSw.0TYMGVCsTSt4BRlgjPhIWUxj0azDyUm0jQiESRn4jYDk1R1YmTCojKBgDZTYDY1kzUYkWSWoUczDyU1UkQYc1crgTMtHDSz4xTMomKCwjctLDS2A0PLYmXCwDMDMUSxomYBYlKngjc2Y0XssFagU1YwDldM0FR03hPLQmKCsTSt4BRlgjPhIWUxj0azDyU5UkUgYGNwbUdUEiX4sVLgQGNvHFMzDCVn41PHoWRWM1Z2I0PJ4hPHgFTxHFMzvFR03hPigWUWkkb5YlPl4BZHY2cVMVaqwVXkAiUXQWUWgkb3TzXqAiQhUWRn4jYDkFS2MiTLEiKCwjcLkVSwfzTLYmZC0jb5YlPl4BZHoGLFIVLIglSlQTZLY2LBwjb5YlPl4BZHMGLVo0LIglSlQzPLY2LBwjctLDS1IVZMgmZ4wDMPMUSxomYBYlKngzbvXkVyfCLhoWQrIld3TUVyDTaHUiKBwDcLMkSwfUZMECV40DLlMDSw3xPMACUCsTSt4BRlgjTgM2ZFQVYUwVXpgSUYMSPsgTMtHESz4xPK0jatfjYHITXzE0QZglaCgDdhk1R3o1TNMiZo0DdPMDS3wzPMkmYCsTSt4BRlgjPgQWTGoUYmESX5gCLhIyZFMVZmwFR03hPLQmKCwTdlMkSzn1TNQiYS4jdHMDS2I1TMEicRMjRtHDRn4xQgAyXVoEc3TTXzE0QZU1YFMVdiIyU3UkQgUWQFkEZtMDR3IVZKgmZS4DMHkFSz.UdLcGQS0DdLMzRM4lKHYFRBM1YAIiXn41PHECTosjc1I0PJ4hPHglKGkkbq0FR03hPLQmKCsTSt4BRlgDdhYWRGkEZtMDR4gTZKECVS4jcXkWS4YVZLMCQowDL1I0PJ4hPHgFTWgkcI0FR03hTKcmYosTLTkFS4AUdLICUCsTSt4BRlgDdioVTGoEZtMDR24xPLQmKCwjctLDSxfUZLQCSS4jdTMzRM4lKHYFRBMVczXUVn41PHMGT4wDcpMkS24xPNMiYo0jLDMjSxP0PK0jatfjYHgmXxkzUgglaCgzctLDSz4xPK0jatfjYHgGVtgiQhglaCgDdDk1R5Q0PLMiKS0TLXMTS1gUZLAicRMjRtHDRngzUXoWUrgTMtfFS2MCdMkGVC4DMHkWS14xTLQCU4wzc1I0PJ4hPHglKsI1ZqwFR03hPMEicRMjRtHDRn4RahsFMrgTMtfFRBsVLYYFQTEFZqYUVzE0QHAUQFkEZ5YlP3DjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKlIUUMQUTPkzUZESQFM1ZQQEV5UjQtDDQlAEMAcEV40zQtDDQ14hK5EjKt3hKt3hKt3hRUACTEEzZh8VVWgkdUYTTmE0UXwyKIMzasA2atUlaz4COuX0TTMCTrU2Yo41TzEFck4C."
 							}
 
 						}
@@ -1397,7 +1422,7 @@
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "", "list", "int", "", "", "" ],
-					"patching_rect" : [ 1491.941295423240263, 755.450079676160385, 145.5, 62.0 ],
+					"patching_rect" : [ 1484.0, 815.450079676160385, 145.5, 62.0 ],
 					"save" : [ "#N", "vst~", "loaduniqueid", 0, 2, 2, "Blackhole", "@parameter_enable", 0, "@prefer", "AudioUnit", "@autosave", 0, ";" ],
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
@@ -1495,11 +1520,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-25",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 225.0, 90.999977215147055, 30.0, 30.0 ]
 				}
 
@@ -1508,11 +1533,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-26",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 375.940479006086093, 90.999977215147055, 30.0, 30.0 ]
 				}
 
@@ -1521,7 +1546,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-27",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1534,7 +1559,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1547,7 +1572,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-30",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1560,7 +1585,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-33",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1573,7 +1598,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-38",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1585,7 +1610,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-45",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2066,6 +2091,46 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 2,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"order" : 3,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-242", 0 ],
+					"order" : 0,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-620", 0 ],
+					"order" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-630", 0 ],
+					"order" : 4,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 6 ],
 					"source" : [ "obj-360", 0 ]
 				}
@@ -2239,6 +2304,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -2495,7 +2567,30 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "delay_and_reverb.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "hold.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
