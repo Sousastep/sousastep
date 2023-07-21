@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ -50.0, -931.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 296.599999999999909, 456.0, 61.0, 22.0 ],
+					"text" : "pipe 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.599999999999909, 447.936545440701366, 54.0, 22.0 ],
+					"patching_rect" : [ 296.599999999999909, 424.936545440701366, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -58,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.57022992385555, 801.936545440701366, 286.255872460156525, 22.0 ],
-					"text" : "0. -0. 0. -0. 0."
+					"text" : "0.984388 -3.937552 5.906328 -3.937552 0.984388"
 				}
 
 			}
@@ -70,7 +82,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.0, 759.936545440701366, 230.0, 22.0 ],
-					"text" : "4. 6. 4. 1."
+					"text" : "-3.96853 5.906084 -3.906573 0.96902"
 				}
 
 			}
@@ -82,7 +94,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 290.599999999999909, 719.936545440701366, 162.970229923855641, 22.0 ],
-					"text" : "1. 4. 6. 4. 1."
+					"text" : "0. 0. 0. 0. 0."
 				}
 
 			}
@@ -188,7 +200,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 398.505881172920454, 476.531723673568308, 280.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : ";\rmax launchbrowser http://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c"
 				}
 
@@ -202,7 +213,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 738.77777766666668, 524.436545440701366, 128.0, 131.0 ],
-					"presentation_linecount" : 9,
 					"suppressinlet" : 1,
 					"text" : "samplerate and SAMPLERATE constants do not seem to work correctly in event [gen]\n\n[dspstate~] used instead",
 					"textjustification" : 1
@@ -216,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 296.599999999999909, 414.0, 77.0, 22.0 ],
+					"patching_rect" : [ 296.599999999999909, 390.0, 77.0, 22.0 ],
 					"text" : "loadmess 85"
 				}
 
@@ -630,6 +640,22 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-102", 0 ]
 				}
@@ -737,16 +763,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"order" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 

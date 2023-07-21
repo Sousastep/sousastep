@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "sidechain_compress_tuba_w_drum",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sidechain_compressor" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Comp DIODE-609",
+							"origin" : "Comp DIODE-609.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Comp DIODE-609.auinfo",
+								"plugindisplayname" : "Comp DIODE-609",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1667784058,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "3392.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1WP.wPu4Fcx8FarUlbfLEcgQWYWMWchQWdvU1U1Ulbyk1atQEc4AWYT4VXsUlDAIGc08TDAvK..............XC...P.+.H......H..........C7Cf.......A+.H......TvO.B......F.........vA+DhxAC...fvO........I.........fB.........r..........L7Cf......PC+.H......3..........O3ScB+H....D.........DA.........R7Cf......vD+.H......PwOQfFc....U7SDnQG...fE.........bA.........X.........PF.........nwO.B......a7Cf.......G.........zA.........d.........vG..........xOtPwd....g7SGx1B...fH9z+71B...LB.........j.........PI+bDFL....XyO........27C........N+........jyO........57C.......vN+........vyO........87C.......fO+........7yO.........8C.......PP.........HD.........CA.........Q.........TD.........FA....fzLzfCRDULQIizOv.DQDELYMEckIWYuARRtk0ToQVYigVXo4VzOLgVSQWYxU1af7Tcz8TDJjmLx.xbkIWZgwVZ5EFco8la5nSXxMFZoYWYfDCLf.CH2.BLfbCH4.xbuU2bgMGckAGHz.RUyUlbfXyLfDiLfnzan4FHBEVdrkVYyABLf.BLf.CHv.BLf.CHv.BLf.RL1fSN4biM4byMfDCLfDiKy3BLtPCM0bCHv.BLf.CHv.BLf.CHv.BLf.BLf.CH1.BLf.CHv.RL0.xPnElbgMFckIWZyQWZiMGH3.CHCgVXxE1XzUlboMGcoM1brHTXyMGeTglbkMGZuwFY6bTYtIWYywRSuQVYx4FeHkFbffzavAxKfPkbgA2NSQWdrU1brXTXyQGeSwVXs0VYjsCHwTCHOIWZmklagwlQgMFcuIWdfDCHw.RL1.xSxk1Yo4VXrAUXislSg0VYfXCHSQWYxU1afDCNf7jbocVZtEFaPIWYyUFcNEVakARL1.hPgM2bfLzasAmbkM2bo8lafbCHSUmXzkGbkARLv.xPu0FbxU1by8lbfPCHTkGbkABNfPTdtEVaoM1bf.CHv.BLfbCHv.BLf.CHv.BLf.CHzbCHv.BLf.CH1.hP4AWXyMGHv.RL2.xPn4RL5.xPu0FbfDFczE1XqABLtTCHwjCHCglKwnCHC8VavIWYyM2axARRtARLfHSNfLDZtDiNfLzasAmbkM2buIGHsE1Zk0RcvAxYgklaf.CHxHCHCglKwnCHC8VavIWYyM2axAhbgQWZuARLfHSMfLDZtDiNfLzasAmbkM2buIGHxU1XuYWYxkGHv.hL1.xPn4RL5.xPu0FbxU1by8lbfPGZxU1bn8FajABLfHSMfLDZtDiNfvTZskFckIGHFE1bzARPzQWXisFHw.RL1.xPn4RL5.BSo0VZzUlbfjjaf.CHxXCHCglKwnCHLkVaoQWYxARagsVYsTGbfbVXo4FHv.hLx.xPn4RL5.BSo0VZzUlbfHWYi8lckIWdf.CHxLCHCglKwnCHLkVaoQWYxABcnIWYyg1arQFHv3RM1fCLv.CL3.RL2.xPn4hL5.xPu0FbfDFczE1XqABLfDSNfLDZtHiNfLzasAmbkM2buIGHI4FHw.hL4.xPn4hL5.xPu0FbxU1by8lbfzVXqUVK0AGHmEVZtABLtHyL4jSN4jSNfHiLfLDZtHiNfLzasAmbkM2buIGHxEFco8FHw.hL0.xPn4hL5.xPu0FbxU1by8lbfHWYi8lckIWdf.CHxXCHCglKxnCHC8VavIWYyM2axABcnIWYyg1arQFHv3hMyHCLv.CLy.hL0.xPn4hL5.BSo0VZzUlbfXTXyQGHAQGcgM1ZfDCHwXCHCglKxnCHLkVaoQWYxARRtABLfHiMfLDZtHiNfvTZskFckIGHsE1Zk0RcvAxYgklaf.CHxHCHCglKxnCHLkVaoQWYxAhbkM1a1Ulb4ABLfHyLfLDZtHiNfvTZskFckIGHzglbkMGZuwFYf.iK0XCNv.CLvfCH0.BQxklckABLtTCHwLCHE4VXhwVYfTjYlU1XzARLfDyLfvTZtsFHCgVXt4VYrMGHw.RLx.BSu81ZggVYgQFHI4FHv.RLz.BSu81ZggVYgQFHzkVakABLfDiLfzTRDkDHCgVXt4VYrABLfDiMfzTYzUlbyARRtQWYxYVXiUFHv.xLfzTZ3ARLfDiLf3zaoMWYfX0arUWakABLtDCH2.BTg4lao41Yf.iK0.RL4.xTCARQQABRPYDHlIWYwUWYtMVdf.CHxbCHSkFYkMFZgklafTTTfHTYrwFHlIWYwUWYtMVdf.iK1fCLv.CLvDCHxHCHSkFYkMFZgklafTTTfHTYrwFHmEVZtABLtXSL1.hL1.xToQVYigVXo4FHEEEHHAkQfXlbkEWck41X4ABLtTCM2jSN4jCNfHiMfLUZjU1XnEVZtARQQABRo0xbnUFalAxYgklaf.iKzjSM4jSN4jCHwTCHSkFYkMFZgklafTTTfjjaf.CHwPCHSkFYkMFZgklafvTZtsFHw.RL1.xToQVYigVXo4FHLk1bzUlaf.CHwXCHSkFYkMFZgklafL2a0I2XkARLfDiMfLEckAGbkQFHC8lazI2arMGHw.RLw.xTzUlbk8FHM8FYkABLfDCLfXUXxkVXzk1atMGHv.RLw.xXgwVZhIWXzk1atABLtXyL1.CLv.CMfTCHjIWZ1UFHv.BMx.BLfDCNfzTZjk1Pu4Fcx8FarUlbNEVakAxLx.B...........................................RLz.xWegzUe0TXvAWYj80Wv.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeECHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULv.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeESLfPCH+++++CRL0.xWegzUe0TXvAWYj80WwHCHz.x+++++fDSMf70WHc0WMEFbvUFYe8ULy.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeECMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwTCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL1.BMf7++++OHwTCHe8ERW8USgAGbkQ1WeEyMfPCH+++++CRL0.xWegzUe0TXvAWYj80WwfCHz.x+++++fDSMf70WHc0WMEFbvUFYe8UL4.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeICHz.x+++++fDCMf70WHc0WMEFbvUFYe80LfPCH+++++CRLz.xWegzUe0TXvAWYj80Wz.BMf7++++OHwPCHe8ERW8USgAGbkQ1WeUCHz.x+++++fDCMf70WHc0WMEFbvUFYe8kMfPCH+++++CRLz.xWegzUe0TXvAWYj80W2.BMf7++++OHwPCHe8ERW8USgAGbkQ1WegCHz.x+++++fDCMf70WHc0WMEFbvUFYe8UNfPCH+++++CRLw.xWe0TXvAWYj80Wv.BMf7++++OHwDCHe8USgAGbkQ1WeECHz.x+++++fDiLf70WMEFbvUFYe8ULv.BMf7++++OHwHCHe8USgAGbkQ1WeESLfPCH+++++CRLx.xWe0TXvAWYj80WwHCHz.x+++++fDiLf70WMEFbvUFYe8ULy.BMf7++++OHwHCHe8USgAGbkQ1WeECMfPCH+++++CRLx.xWe0TXvAWYj80WwTCHz.x+++++fDiLf70WMEFbvUFYe8UL1.BMf7++++OHwHCHe8USgAGbkQ1WeEyMfPCH+++++CRLx.xWe0TXvAWYj80WwfCHz.x+++++fDiLf70WMEFbvUFYe8UL4.BMf7++++OHwDCHe8USgAGbkQ1WeICHz.x+++++fDSLf70WMEFbvUFYe80LfPCH+++++CRLw.xWe0TXvAWYj80Wz.BMf7++++OHwDCHe8USgAGbkQ1WeUCHz.x+++++fDSLf70WMEFbvUFYe8kMfPCH+++++CRLw.xWe0TXvAWYj80W2.BMf7++++OHwDCHe8USgAGbkQ1WegCHz.x+++++fDSLf70WMEFbvUFYe8UNfPCH+++++ChL2.xWeMEUAQUQe8kTEMUQRYUQD80WM8DQIYTREQDHw.BLJHwPuQTZP.fDgUWalgUUtQWZzwVYjA.B.jA.l.vJ.fC.KAvT.rE.fAPY.nl.pHvKBDi.yH.NBni.DIfSBDk.bwP1L3MCfyP4........BD..........Y...................L3N"
+							}
+
+						}
+ ],
+					"sidechain_filter" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Pro-Q 3",
+							"origin" : "Pro-Q 3.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Pro-Q 3.auinfo",
+								"plugindisplayname" : "Pro-Q 3",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1631927376,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1688.hAGaoMGcv.i0AHv.DTfAGfPBJr.CWMWchQWdvUFWsEla0YVXiQWcxUlbeAAEFElXFkFazUlbPwVcmklaSQWXzUFUtEVakQEc4AWYWYWYxMWZu4lDFE0LvIgQgIlQOEQAjajQBMU.....lE.......9C...3OMdV2.A.............f+....9SekovO...f.A..fCD....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3OZO2GAA.............f+....9C...vO.........9C....P...f+..............f+n8beDD..............9C...3O....+.........3O.....A...9C..............9i1y8QP..............3O...f+....7C........f+.....D...3O..............3O...f+....................................9C...3O...f+B....D...DP...f.A.............f+....9C....P..........................................................................................................................................fQQMCbC....7.....QkYVX0wFcfLUYzQWZtc1+++++A....j.....Tx8VKQABJ3jR.....CU2TVE..........eAwCDUlYgUGazAxTkQGco41YRDVcsYFD...B.TA.c.fJ.DD.FAvR.LE.XAPWFTjAWY.W........BD..........M...................F3E"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
