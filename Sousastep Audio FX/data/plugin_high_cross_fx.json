@@ -1,12 +1,12 @@
 {
 	"pattrstorage" : 	{
-		"name" : "high_cross_fx_plugin[1]",
+		"name" : "plugin_high_cross_fx",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"name" : "TriceraChorus",
 				"data" : 				{
-					"high_cross_fx_plugin" : [ 						{
+					"plugin" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
