@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 586.0, -889.0, 1034.0, 804.0 ],
+		"rect" : [ 41.0, -882.0, 1332.0, 804.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -96,7 +96,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 252.0, 156.077780353919479, 69.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -176,7 +176,7 @@
 								}
 ,
 								"depth" : 								{
-									"value" : 50.0
+									"value" : 71.0
 								}
 ,
 								"__sps" : 								{
@@ -199,7 +199,7 @@
 								}
 ,
 								"rate" : 								{
-									"value" : 45.922146482355942
+									"value" : 50.0
 								}
 ,
 								"__presetid" : "chorus"
@@ -250,7 +250,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 645.0, 118.0, 459.0, 613.0 ],
+						"rect" : [ 149.0, -811.0, 459.0, 613.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1719,21 +1719,21 @@
 							"parsestring" : ""
 						}
 ,
-						"rate" : 						{
-							"label" : "rate",
+						"depth" : 						{
+							"label" : "depth",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"depth" : 						{
-							"label" : "depth",
+						"rate" : 						{
+							"label" : "rate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.1.2",
+					"rnboversion" : "1.2.0-dev.70",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2214,13 +2214,15 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "rnbo_chorus.json",
 					"fontname" : "Silom",
 					"id" : "obj-32",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.951638418574476, 251.031723673568308, 271.0, 24.0 ],
+					"patching_rect" : [ 464.951638418574476, 251.031723673568308, 276.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -2228,7 +2230,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"text" : "pattrstorage rnbo_chorus @savemode 0",
+					"text" : "pattrstorage rnbo_chorus @savemode 0 @outputmode 1",
 					"varname" : "rnbo_chorus"
 				}
 
@@ -2827,10 +2829,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rnbo_20200912_1.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
+				"name" : "rnbo_chorus.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

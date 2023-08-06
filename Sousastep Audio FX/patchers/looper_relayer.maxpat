@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -224.0, -1027.0, 1852.0, 993.0 ],
+		"rect" : [ -232.0, -1027.0, 1852.0, 993.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -299,7 +299,7 @@
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-110",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -702,7 +702,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-103",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -714,7 +714,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-101",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1497,9 +1497,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 883.110491465635278, 27.5, 170.932578858555416, 35.0 ],
+					"patching_rect" : [ 883.110491465635278, 27.5, 208.265913304508786, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "single click - start recording\n hold - fade out and clear loop"
+					"text" : "first click - start recording\n second click - fade out and clear loop"
 				}
 
 			}
@@ -1628,7 +1628,7 @@
 					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 4,
+					"numoutlets" : 3,
 					"outletInfo" : 					{
 						"IOInfo" : [ 							{
 								"type" : "signal",
@@ -1642,32 +1642,14 @@
 								"tag" : "out2",
 								"comment" : ""
 							}
-, 							{
-								"type" : "signal",
-								"index" : 3,
-								"tag" : "out3",
-								"comment" : ""
-							}
  ]
 					}
 ,
-					"outlettype" : [ "signal", "signal", "signal", "list" ],
+					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"color" : 						{
-							"label" : "color",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"volume" : 						{
 							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"regen" : 						{
-							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1678,16 +1660,16 @@
 							"parsestring" : ""
 						}
 ,
+						"regen" : 						{
+							"label" : "regen",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"input" : 						{
 							"label" : "input",
 							"isEnum" : 1,
 							"parsestring" : "\"0\" \"1\""
-						}
-,
-						"filter" : 						{
-							"label" : "filter",
-							"isEnum" : 1,
-							"parsestring" : "\"None\" \"LP\" \"HP\" \"BP\" \"Notch\""
 						}
 ,
 						"fb" : 						{
@@ -1698,7 +1680,7 @@
 
 					}
 ,
-					"rnboversion" : "1.1.1",
+					"rnboversion" : "1.2.0-dev.73",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1715,7 +1697,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1781,7 +1763,7 @@
 				"box" : 				{
 					"comment" : "fade out FX type",
 					"id" : "obj-76",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2262,7 +2244,7 @@
 				"box" : 				{
 					"comment" : "one-button looper :)",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2570,11 +2552,11 @@
 				"box" : 				{
 					"comment" : "Left audio input",
 					"id" : "obj-1036",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 145.050938608780143, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -2583,11 +2565,11 @@
 				"box" : 				{
 					"comment" : "Right audio input",
 					"id" : "obj-1037",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 177.281407608780228, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -3003,13 +2985,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-114", 0 ],
 					"source" : [ "obj-112", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
-					"source" : [ "obj-113", 2 ]
 				}
 
 			}
@@ -4307,6 +4282,60 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
+			"obj-813" : [ "feedback[1]", "feedback", 0 ],
+			"obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
+			"obj-901" : [ "master_highpass[1]", "highpass", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "FilterDelay.rnbopat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm.sallenkey2~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_functions.genexpr",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_genexpr",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/code/sm_genexpr",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_stereo.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.43803733587265, 0.602580606937408, 0.706649482250214, 1.0 ]
 	}
 
