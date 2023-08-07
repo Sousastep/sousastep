@@ -1,0 +1,91 @@
+{
+	"pattrstorage" : 	{
+		"name" : "octaver_rnbo_octaver",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"rnbo_octaver" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "untitled",
+							"origin" : "74a09b97-f360-11ea-9b97-34363bd3ed8c",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"__sps" : 								{
+									"Oct2~" : 									{
+
+									}
+,
+									"Tone~" : 									{
+
+									}
+,
+									"Lowpass~" : 									{
+
+									}
+,
+									"Rect~" : 									{
+
+									}
+,
+									"Drive~" : 									{
+
+									}
+,
+									"Oct1~" : 									{
+
+									}
+,
+									"Mix~" : 									{
+
+									}
+
+								}
+,
+								"octave1" : 								{
+									"value" : 100.0
+								}
+,
+								"octave2" : 								{
+									"value" : 0.0
+								}
+,
+								"rectified" : 								{
+									"value" : 0.0
+								}
+,
+								"mix" : 								{
+									"value" : 100.0
+								}
+,
+								"tone" : 								{
+									"value" : 50.0
+								}
+,
+								"drive" : 								{
+									"value" : 0.0
+								}
+,
+								"AM" : 								{
+									"value" : 0.0
+								}
+,
+								"__presetid" : "74a09b97-f360-11ea-9b97-34363bd3ed8c"
+							}
+
+						}
+ ],
+					"preset" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, -882.0, 1332.0, 804.0 ],
+		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 193.343941376425846, 290.0, 77.0, 22.0 ],
+					"text" : "route bypass"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-19",
@@ -1713,8 +1725,8 @@
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 337.928559390789815, 533.473737438285752, 337.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"spread" : 						{
-							"label" : "spread",
+						"rate" : 						{
+							"label" : "rate",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1725,8 +1737,8 @@
 							"parsestring" : ""
 						}
 ,
-						"rate" : 						{
-							"label" : "rate",
+						"spread" : 						{
+							"label" : "spread",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2214,7 +2226,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "rnbo_chorus.json",
 					"fontname" : "Silom",
 					"id" : "obj-32",
 					"linecount" : 2,
@@ -2327,7 +2338,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.343941376425846, 278.473737438285752, 30.0, 30.0 ]
+					"patching_rect" : [ 193.343941376425846, 238.473737438285752, 30.0, 30.0 ]
 				}
 
 			}
@@ -2538,6 +2549,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -2703,7 +2721,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 559.428559390789815, 576.0, 848.0, 576.0, 848.0, 426.0, 811.0, 426.0, 811.0, 261.0, 854.0, 261.0, 854.0, 24.0, 416.5, 24.0 ],
+					"midpoints" : [ 559.428559390789815, 576.0, 848.0, 576.0, 848.0, 426.0, 795.0, 426.0, 795.0, 261.0, 854.0, 261.0, 854.0, 24.0, 416.5, 24.0 ],
 					"source" : [ "obj-53", 2 ]
 				}
 
@@ -2732,7 +2750,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2826,13 +2844,6 @@
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rnbo_chorus.json",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

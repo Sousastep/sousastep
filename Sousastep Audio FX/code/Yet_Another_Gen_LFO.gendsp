@@ -106,7 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1348.0, 1924.5, 143.0, 35.0 ],
+					"patching_rect" : [ 1348.0, 1924.5, 144.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "when free, allow sync LFO low point through"
 				}
@@ -158,7 +158,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 707.833455252647923, 2245.090472774792033, 224.0, 35.0 ],
+					"patching_rect" : [ 707.833455252647923, 2245.090472774792033, 225.0, 35.0 ],
 					"text" : "param @name freesync_transition_type @default 1 @min 1 @max 2"
 				}
 
@@ -210,7 +210,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1432.356682040992382, 1830.5, 88.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "0 triggers free, 1 triggers sync"
 				}
@@ -236,8 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 805.456682124438885, 1772.5, 119.399999916553497, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 805.456682124438885, 1772.5, 120.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "1 when free LFO is at lowest point"
 				}
@@ -290,7 +288,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1244.356682040992382, 1669.840197553242433, 150.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "crossfades between sync LFO and risset LFO"
 				}
@@ -393,8 +390,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1919.999971568584442, 1359.548717653371796, 89.0, 22.0 ],
-					"text" : "rate 2 @sync 0"
+					"patching_rect" : [ 1919.999971568584442, 1359.548717653371796, 104.0, 22.0 ],
+					"text" : "rate 2 @sync lock"
 				}
 
 			}
@@ -405,8 +402,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1785.333307643731587, 1359.548717653371796, 89.0, 22.0 ],
-					"text" : "rate 2 @sync 0"
+					"patching_rect" : [ 1785.333307643731587, 1359.548717653371796, 104.0, 22.0 ],
+					"text" : "rate 2 @sync lock"
 				}
 
 			}
@@ -1534,7 +1531,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 805.633457012971803, 499.175605246595069, 86.0, 22.0 ],
-					"text" : "rate @sync 1"
+					"text" : "rate @sync off"
 				}
 
 			}

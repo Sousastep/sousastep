@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "plugin_high_cross_fx",
+		"name" : "high_cross_fx_plugin",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -27,7 +27,8 @@
 							}
 
 						}
- ]
+ ],
+					"latency" : [ 40 ]
 				}
 
 			}
