@@ -1,11 +1,11 @@
 {
 	"pattrstorage" : 	{
-		"name" : "high_cross_fx_rnbo_or_plugin",
+		"name" : "micropitch_rnbo_or_plugin",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"rnbo_or_plugin" : [ 0 ]
+					"rnbo_or_plugin" : [ 1 ]
 				}
 
 			}

@@ -1,0 +1,71 @@
+{
+	"pattrstorage" : 	{
+		"name" : "harmonizer_rnbo_pitchshift",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"pitchshift" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "pitchshifter",
+							"origin" : "pitchshifter",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"spread" : 								{
+									"value" : 0.0
+								}
+,
+								"__sps" : 								{
+									"PitchShift~[1]" : 									{
+
+									}
+,
+									"FreqCalc" : 									{
+
+									}
+,
+									"PitchShift~" : 									{
+
+									}
+,
+									"Switch~" : 									{
+
+									}
+,
+									"Mix~" : 									{
+
+									}
+
+								}
+,
+								"window" : 								{
+									"value" : 80.0
+								}
+,
+								"__presetid" : "pitchshifter",
+								"transp" : 								{
+									"value" : 7.0
+								}
+,
+								"mix" : 								{
+									"value" : 100.0
+								}
+
+							}
+
+						}
+ ],
+					"preset" : [ 3 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
