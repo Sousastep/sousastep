@@ -2,7 +2,7 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3774280050,
+	"modificationdate" : 3774808736,
 	"viewrect" : [ 307.0, -792.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -45,10 +45,28 @@
 			"rnbo_pitchshift.maxpat" : 			{
 				"kind" : "patcher"
 			}
+,
+			"venmo_qr.maxpat" : 			{
+				"kind" : "patcher"
+			}
 
 		}
 ,
 		"media" : 		{
+			"venmo_qrcode.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"paypal_qrcode.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
 
 		}
 ,
