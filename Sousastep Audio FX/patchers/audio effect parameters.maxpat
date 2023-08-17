@@ -224,7 +224,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1133.5, 564.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 110.0, 92.0, 92.0 ],
+					"presentation_rect" : [ 345.0, 220.0, 92.0, 92.0 ],
 					"varname" : "harmonizer"
 				}
 
@@ -278,7 +278,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1241.0, 564.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 346.0, 220.0, 92.0, 92.0 ],
+					"presentation_rect" : [ 275.0, 110.0, 92.0, 92.0 ],
 					"varname" : "wet_preamp"
 				}
 
