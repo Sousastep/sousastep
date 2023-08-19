@@ -225,8 +225,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1054.007199506284451, 359.504293897637126, 46.0, 22.0 ],
-					"text" : "r share"
+					"patching_rect" : [ 1054.007199506284451, 359.504293897637126, 45.0, 22.0 ],
+					"text" : "r invert"
 				}
 
 			}
