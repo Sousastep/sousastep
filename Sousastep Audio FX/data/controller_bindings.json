@@ -100,23 +100,8 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 26,
-										"out" : 29,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 22,
 										"out" : 20,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 25,
-										"out" : 27,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 21,
-										"out" : 22,
 										"gain" : 1.0
 									}
 , 									{
@@ -130,23 +115,8 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 23,
-										"out" : 26,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 27,
 										"out" : 18,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 28,
-										"out" : 30,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 31,
-										"out" : 29,
 										"gain" : 1.0
 									}
 , 									{
@@ -159,12 +129,43 @@
 										"out" : 16,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 21,
+										"out" : 21,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 23,
+										"out" : 27,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 25,
+										"out" : 26,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 28,
+										"out" : 29,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 26,
+										"out" : 30,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 31,
+										"out" : 30,
+										"gain" : 1.0
+									}
  ]
 							}
 
 						}
  ],
-					"textedit" : [ "Sousastep's default bindings" ]
+					"textedit" : [ "Sousastep's default bindings" ],
+					"dpad & L1 hold or trigger[1]" : [ 0 ]
 				}
 
 			}
@@ -326,7 +327,8 @@
 
 						}
  ],
-					"textedit" : [ "Custom bindings preset. add notes here" ]
+					"textedit" : [ "Custom bindings preset. add notes here" ],
+					"dpad & L1 hold or trigger[1]" : [  ]
 				}
 
 			}
@@ -488,7 +490,8 @@
 
 						}
  ],
-					"textedit" : [ "Custom bindings preset. add notes here" ]
+					"textedit" : [ "Custom bindings preset. add notes here" ],
+					"dpad & L1 hold or trigger[1]" : [  ]
 				}
 
 			}
