@@ -2,7 +2,7 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3775077412,
+	"modificationdate" : 3775508136,
 	"viewrect" : [ -234.0, -979.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -14,6 +14,10 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"crossovers.maxpat" : 			{
+				"kind" : "patcher"
 			}
 ,
 			"Four_Delay_Sends.rnbopat" : 			{
@@ -38,10 +42,6 @@
 				"local" : 1
 			}
 ,
-			"crossovers.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
 			"FilterDelaySend.rnbopat" : 			{
 				"kind" : "rnbopat"
 			}
@@ -59,6 +59,10 @@
 			}
 ,
 			"dummy_selector.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"ProQ3_crossovers.maxpat" : 			{
 				"kind" : "patcher"
 			}
 
