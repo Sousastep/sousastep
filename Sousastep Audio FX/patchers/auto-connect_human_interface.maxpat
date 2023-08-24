@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 961.0, 779.0 ],
+		"rect" : [ -232.0, -993.0, 1441.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,102 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-122",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1197.0, 928.96669038951768, 103.0, 22.0 ],
+					"text" : "scale 0. 1. 0. 255."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1150.0, 932.0, 103.0, 22.0 ],
+					"text" : "scale 0. 1. 0. 255."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1107.0, 934.0, 103.0, 22.0 ],
+					"text" : "scale 0. 1. 0. 255."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-88",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1056.0, 937.0, 103.0, 22.0 ],
+					"text" : "scale 0. 1. 0. 255."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1354.0, 1864.0, 103.0, 22.0 ],
+					"text" : "scale 0. 255. 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1220.778832450000664, 1864.0, 103.0, 22.0 ],
+					"text" : "scale 0. 255. 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1098.778832450000664, 1864.0, 103.0, 22.0 ],
+					"text" : "scale 0. 255. 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 979.77883245000055, 1864.0, 103.0, 22.0 ],
+					"text" : "scale 0. 255. 0. 1."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.178526863455772, 0.331328541040421, 0.978633761405945, 1.0 ],
 					"fontname" : "Arial",
@@ -1937,32 +2033,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-160",
-					"linecount" : 6,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1526.778832450000664, 1817.5, 150.0, 93.0 ],
-					"suppressinlet" : 1,
-					"text" : "sometimes moving the joystic after it hasn't moved in a while results in crackling. this `metro` into `i` is an attempt to fix that..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-149",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1554.778832450000664, 1799.0, 106.0, 22.0 ],
-					"text" : "metro 5 @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-148",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -3842,7 +3912,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 644.195743799808952, 1005.233350912730202, 32.0, 22.0 ],
+					"patching_rect" : [ 1216.195743799808952, 897.999999999999886, 32.0, 22.0 ],
 					"text" : "r RV"
 				}
 
@@ -3854,7 +3924,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 602.021115321012076, 1005.233350912730202, 33.0, 22.0 ],
+					"patching_rect" : [ 1174.021115321012076, 897.999999999999886, 33.0, 22.0 ],
 					"text" : "r RH"
 				}
 
@@ -3866,7 +3936,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 561.054514525026207, 1005.233350912730202, 30.0, 22.0 ],
+					"patching_rect" : [ 1133.054514525026207, 897.999999999999886, 30.0, 22.0 ],
 					"text" : "r LV"
 				}
 
@@ -3878,7 +3948,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 520.919652681355728, 1005.233350912730202, 31.0, 22.0 ],
+					"patching_rect" : [ 1092.919652681355728, 897.999999999999886, 31.0, 22.0 ],
 					"text" : "r LH"
 				}
 
@@ -4188,7 +4258,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1353.778832450000664, 1817.5, 34.0, 22.0 ],
+					"patching_rect" : [ 1353.778832450000664, 1920.5, 34.0, 22.0 ],
 					"text" : "s RV"
 				}
 
@@ -4199,7 +4269,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1220.778832450000664, 1817.5, 35.0, 22.0 ],
+					"patching_rect" : [ 1220.778832450000664, 1920.5, 35.0, 22.0 ],
 					"text" : "s RH"
 				}
 
@@ -4210,7 +4280,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1098.778832450000664, 1817.5, 32.0, 22.0 ],
+					"patching_rect" : [ 1098.778832450000664, 1920.5, 32.0, 22.0 ],
 					"text" : "s LV"
 				}
 
@@ -4221,7 +4291,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 979.77883245000055, 1817.5, 33.0, 22.0 ],
+					"patching_rect" : [ 979.77883245000055, 1920.5, 33.0, 22.0 ],
 					"text" : "s LH"
 				}
 
@@ -4406,6 +4476,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-124",
@@ -4433,7 +4504,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-45",
-					"items" : [ "DUALSHOCK 4 Wireless Controller", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
+					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "Xbox Wireless Controller", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -4491,6 +4562,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-218", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.416962563991547, 0.54139643907547, 0.716947197914124, 1.0 ],
 					"destination" : [ "obj-202", 4 ],
 					"order" : 1,
@@ -4540,6 +4618,13 @@
 					"destination" : [ "obj-46", 0 ],
 					"order" : 0,
 					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-106", 0 ]
 				}
 
 			}
@@ -4669,8 +4754,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-119", 0 ],
 					"source" : [ "obj-121", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-122", 0 ]
 				}
 
 			}
@@ -4690,14 +4789,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-218", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-126", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-215", 0 ],
+					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-127", 0 ]
 				}
 
@@ -4711,7 +4810,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-213", 0 ],
+					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-132", 0 ]
 				}
 
@@ -4774,7 +4873,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-211", 0 ],
+					"destination" : [ "obj-65", 0 ],
 					"source" : [ "obj-148", 0 ]
 				}
 
@@ -6685,6 +6784,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-215", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.939239263534546, 0.906713008880615, 0.0, 1.0 ],
 					"destination" : [ "obj-251", 0 ],
 					"order" : 4,
@@ -6974,7 +7080,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
+					"destination" : [ "obj-122", 0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -7669,7 +7775,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
+					"destination" : [ "obj-120", 0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -7720,7 +7826,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-106", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -7785,7 +7891,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
+					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-57", 0 ]
 				}
 
@@ -7815,8 +7921,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-213", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-65", 0 ]
 				}
 
 			}
@@ -7960,6 +8080,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
 					"source" : [ "obj-89", 0 ]
 				}
@@ -7996,65 +8123,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-217" : [ "delay[1]", "delay", 0 ],
-			"obj-229" : [ "delay", "delay", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "auto-connect_hi_set.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "deadzone.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamectl_bg.png",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Game Controller Project/media",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Max for Live Devices/Game Controller Project/media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "imgbtn.js",
-				"bootpath" : "~/Documents/Max 8/Max for Live Devices/Game Controller Project/code",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Max for Live Devices/Game Controller Project/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "prepends.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
