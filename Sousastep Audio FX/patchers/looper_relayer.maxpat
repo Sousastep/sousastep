@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -290,8 +290,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1118.360173179381945, 621.333317637443542, 155.0, 22.0 ],
-					"text" : "r filtered_when_not_playing"
+					"patching_rect" : [ 1193.360173179381945, 767.652155268355273, 128.0, 22.0 ],
+					"text" : "r \"Tuba Looper Filters\""
 				}
 
 			}
@@ -299,7 +299,7 @@
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-110",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -702,7 +702,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-103",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -714,7 +714,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-101",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1648,8 +1648,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"volume" : 						{
-							"label" : "volume",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1660,8 +1660,8 @@
 							"parsestring" : ""
 						}
 ,
-						"regen" : 						{
-							"label" : "regen",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1680,7 +1680,7 @@
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.73",
+					"rnboversion" : "1.2.0-dev.70",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1697,7 +1697,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1763,7 +1763,7 @@
 				"box" : 				{
 					"comment" : "fade out FX type",
 					"id" : "obj-76",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2244,7 +2244,7 @@
 				"box" : 				{
 					"comment" : "one-button looper :)",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -2552,11 +2552,11 @@
 				"box" : 				{
 					"comment" : "Left audio input",
 					"id" : "obj-1036",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 145.050938608780143, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -2565,11 +2565,11 @@
 				"box" : 				{
 					"comment" : "Right audio input",
 					"id" : "obj-1037",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 177.281407608780228, 454.809846017985819, 30.0, 30.0 ]
 				}
 
@@ -4282,60 +4282,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
-			"obj-813" : [ "feedback[1]", "feedback", 0 ],
-			"obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
-			"obj-901" : [ "master_highpass[1]", "highpass", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "FilterDelay.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm.sallenkey2~.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/code/sm_genexpr",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
-				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.43803733587265, 0.602580606937408, 0.706649482250214, 1.0 ]
 	}
 

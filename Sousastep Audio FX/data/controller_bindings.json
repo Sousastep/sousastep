@@ -159,13 +159,72 @@
 										"out" : 30,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 37,
+										"out" : 46,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 36,
+										"out" : 36,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 37,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 38,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 44,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 45,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 42,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 39,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 41,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 40,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 43,
+										"gain" : 1.0
+									}
  ]
 							}
 
 						}
  ],
 					"textedit" : [ "Sousastep's default bindings" ],
-					"dpad & L1 hold or trigger[1]" : [ 0 ]
+					"dpad & L1 hold or trigger[1]" : [ 0 ],
+					"toggle_1" : [ 1 ],
+					"toggle_2" : [ 0 ],
+					"toggle_3" : [ 0 ],
+					"toggle_4" : [ 0 ]
 				}
 
 			}
@@ -328,7 +387,11 @@
 						}
  ],
 					"textedit" : [ "Custom bindings preset. add notes here" ],
-					"dpad & L1 hold or trigger[1]" : [  ]
+					"dpad & L1 hold or trigger[1]" : [  ],
+					"toggle_1" : [  ],
+					"toggle_2" : [  ],
+					"toggle_3" : [  ],
+					"toggle_4" : [  ]
 				}
 
 			}
@@ -491,7 +554,11 @@
 						}
  ],
 					"textedit" : [ "Custom bindings preset. add notes here" ],
-					"dpad & L1 hold or trigger[1]" : [  ]
+					"dpad & L1 hold or trigger[1]" : [  ],
+					"toggle_1" : [  ],
+					"toggle_2" : [  ],
+					"toggle_3" : [  ],
+					"toggle_4" : [  ]
 				}
 
 			}
