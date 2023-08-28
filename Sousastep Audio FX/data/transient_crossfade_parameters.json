@@ -1,0 +1,22 @@
+{
+	"pattrstorage" : 	{
+		"name" : "transient_crossfade_parameters",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mix_env_logic[1]" : [ 0 ],
+					"transient_helper[1]" : [ 1 ],
+					"env_decay" : [ 1206.029246629768522 ],
+					"noise_gate" : [ 0.153 ],
+					"interpolate_crossfades" : [ 100.0 ],
+					"env_attack" : [ 3.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
