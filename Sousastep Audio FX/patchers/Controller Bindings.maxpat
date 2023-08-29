@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -232.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1084,7 +1084,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 379.733862884638711, 505.25, 172.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0.337255 0.964706 0.74902 1."
 				}
 
@@ -1297,7 +1296,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1932.0, 545.0, 116.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "hover_bang transient_crossfade"
 				}
 
@@ -1387,10 +1385,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3729.356106156151782, 1420.0, 266.0, 169.0 ],
+					"patching_rect" : [ 3729.356106156151782, 1420.0, 274.0, 169.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 10,
-					"presentation_rect" : [ 3.869185631605887, 531.3650813995514, 266.0, 169.0 ],
+					"presentation_rect" : [ 3.869185631605887, 531.3650813995514, 274.0, 169.0 ],
 					"text" : "This determines how diagonals are triggered.\n\nLatch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad\n\nDelay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad"
 				}
 
@@ -3038,8 +3036,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.5, 641.0, 34.0, 22.0 ],
-					"text" : "R1 +"
+					"patching_rect" : [ 583.5, 641.0, 29.5, 22.0 ],
+					"text" : "R1"
 				}
 
 			}
@@ -3050,8 +3048,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 641.0, 36.0, 22.0 ],
-					"text" : "RB +"
+					"patching_rect" : [ 628.0, 641.0, 29.5, 22.0 ],
+					"text" : "RB"
 				}
 
 			}
@@ -3075,7 +3073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.0, 644.5, 48.0, 39.0 ],
+					"patching_rect" : [ 882.0, 644.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 206.0, 105.0, 39.0 ],
 					"text" : "R1",
@@ -3091,8 +3089,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.5, 736.0, 34.0, 22.0 ],
-					"text" : "R2 +"
+					"patching_rect" : [ 583.5, 736.0, 29.5, 22.0 ],
+					"text" : "R2"
 				}
 
 			}
@@ -3103,8 +3101,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 736.0, 34.0, 22.0 ],
-					"text" : "RT +"
+					"patching_rect" : [ 628.0, 736.0, 29.5, 22.0 ],
+					"text" : "RT"
 				}
 
 			}
@@ -3128,7 +3126,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.0, 725.5, 48.0, 39.0 ],
+					"patching_rect" : [ 882.0, 725.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 287.0, 105.0, 39.0 ],
 					"text" : "R2",
@@ -3144,8 +3142,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 583.5, 830.0, 32.0, 22.0 ],
-					"text" : "L2 +"
+					"patching_rect" : [ 583.5, 830.0, 29.5, 22.0 ],
+					"text" : "L2"
 				}
 
 			}
@@ -3156,8 +3154,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 631.0, 830.0, 32.0, 22.0 ],
-					"text" : "LT +"
+					"patching_rect" : [ 631.0, 830.0, 29.5, 22.0 ],
+					"text" : "LT"
 				}
 
 			}
@@ -3182,7 +3180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 882.0, 805.5, 50.0, 39.0 ],
+					"patching_rect" : [ 882.0, 805.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 63.0, 367.0, 105.0, 39.0 ],
 					"text" : "L2",
@@ -3198,8 +3196,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 579.5, 1055.0, 32.0, 22.0 ],
-					"text" : "L2 +"
+					"patching_rect" : [ 579.5, 1055.0, 29.5, 22.0 ],
+					"text" : "L2"
 				}
 
 			}
@@ -3210,8 +3208,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 628.0, 1055.0, 32.0, 22.0 ],
-					"text" : "LT +"
+					"patching_rect" : [ 628.0, 1055.0, 29.5, 22.0 ],
+					"text" : "LT"
 				}
 
 			}
@@ -3235,7 +3233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.0, 1158.0, 48.0, 39.0 ],
+					"patching_rect" : [ 835.0, 1158.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 719.0, 105.0, 39.0 ],
 					"text" : "L2",
@@ -6206,10 +6204,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1864.216109773460857, 781.0, 273.0, 250.0 ],
+					"patching_rect" : [ 1864.216109773460857, 781.0, 274.0, 250.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 15,
-					"presentation_rect" : [ 572.030609188693688, 456.333333492279053, 273.0, 250.0 ],
+					"presentation_rect" : [ 572.030609188693688, 456.333333492279053, 274.0, 250.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -6756,7 +6754,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1771.113938508647607, 1368.661945338508303, 388.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 941, 134, 1478, 1325 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
@@ -8105,7 +8103,7 @@
 					"fontsize" : 13.0,
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
+					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 1, 1, 2, 1, 2, 1, 2, 1, 1, 3, 1, 3, 1, 3 ],
 					"inlabels" : [ "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "Options", "Share", "L1", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "L1", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿" ],
 					"labelwidth" : 313.5,
 					"maxclass" : "crosspatch",
