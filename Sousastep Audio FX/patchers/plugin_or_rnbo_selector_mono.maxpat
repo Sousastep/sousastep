@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 485.0, -1007.0, 1000.0, 828.0 ],
+		"rect" : [ 954.0, 308.0, 1000.0, 828.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -173,7 +173,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 943.008964172680294, 874.543551973372814, 82.0, 21.0 ],
-					"text" : "zl reg 401 416"
+					"text" : "zl reg 405 601"
 				}
 
 			}
@@ -210,7 +210,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.008964172680294, 728.0, 115.0, 22.0 ],
+					"patching_rect" : [ 890.008964172680294, 728.0, 125.0, 22.0 ],
 					"text" : "r #1_open"
 				}
 
@@ -222,7 +222,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 900.758964172680294, 831.075275646941009, 97.0, 22.0 ],
+					"patching_rect" : [ 900.758964172680294, 831.075275646941009, 106.0, 22.0 ],
 					"text" : "title #1"
 				}
 
@@ -321,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 804.008964172680294, 448.554439966716018, 279.0, 22.0 ],
+					"patching_rect" : [ 804.008964172680294, 448.554439966716018, 341.0, 22.0 ],
 					"text" : "script sendbox #1 replace dummy_selector.maxpat"
 				}
 
@@ -514,13 +514,14 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "octaver_comp_rnbo_or_plugin.json",
 					"fontname" : "Silom",
 					"id" : "obj-32",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.460602591254769, 295.031723673568308, 386.0, 24.0 ],
+					"patching_rect" : [ 70.460602591254769, 295.031723673568308, 462.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -662,7 +663,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 308.0, -845.0, 911.0, 779.0 ],
+						"rect" : [ 148.0, -870.0, 911.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1106,6 +1107,14 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"id" : "obj-61",
 									"items" : [ "select", "plugin", "search", "method", ",", "list", "all", "VST", "plugins", ",", "list", "all", "VST3", "plugins", ",", "list", "all", "AU", "plugins", "(mac", "only)" ],
@@ -1138,7 +1147,7 @@
 									"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_angle" : 270.0,
 									"bgfillcolor_autogradient" : 0.0,
-									"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color" : [ 0.3125, 0.3125, 0.3125, 1.0 ],
 									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 									"bgfillcolor_proportion" : 0.5,
@@ -1229,8 +1238,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 971.834634767215675, 858.43891747960015, 287.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 115.951638418574476, 97.0, 71.0, 36.0 ],
+									"presentation_rect" : [ 115.951638418574476, 97.0, 115.0, 21.0 ],
 									"text" : "0 samples"
 								}
 
@@ -1483,6 +1491,14 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"fontsize" : 13.0,
 									"id" : "obj-31",
@@ -1753,7 +1769,7 @@
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
-											"parameter_longname" : "vst~",
+											"parameter_longname" : "vst~[18]",
 											"parameter_shortname" : "vst~",
 											"parameter_type" : 3
 										}
@@ -2492,7 +2508,7 @@
 ,
 					"patching_rect" : [ 111.960602591254769, 435.0, 243.0, 158.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 401.0, 388.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 401.0, 577.0 ],
 					"varname" : "#1",
 					"viewvisibility" : 1
 				}
@@ -2505,7 +2521,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 733.008964172680294, 408.043551973372814, 335.0, 22.0 ],
+					"patching_rect" : [ 733.008964172680294, 408.043551973372814, 371.0, 22.0 ],
 					"text" : "script sendbox #1 replace plugin_selector_mono.maxpat"
 				}
 
@@ -2517,7 +2533,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.508964172680294, 367.532663980029611, 325.0, 22.0 ],
+					"patching_rect" : [ 720.508964172680294, 367.532663980029611, 383.0, 22.0 ],
 					"text" : "script sendbox #1 replace #2.maxpat"
 				}
 
@@ -2595,9 +2611,9 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 636.0, 564.0, 128.0, 128.0 ],
+					"patching_rect" : [ 635.0, 564.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 401.0, 388.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 401.0, 577.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -2976,7 +2992,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-21::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-21::obj-191" : [ "vst~[18]", "vst~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -2989,7 +3005,14 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "octaver_comp_rnbo_or_plugin.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
