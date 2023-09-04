@@ -6,7 +6,8 @@
 				"id" : 1,
 				"data" : 				{
 					"software_or_hardware_delays" : [ 0 ],
-					"delays_input_selection" : [ 0 ]
+					"delays_input_selection" : [ 0 ],
+					"output_volume" : [ -6.0 ]
 				}
 
 			}
