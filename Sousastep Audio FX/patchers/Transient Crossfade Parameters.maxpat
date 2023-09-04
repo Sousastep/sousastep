@@ -416,7 +416,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 68.504517872895576, 431.481690153857926, 112.0, 22.0 ],
+					"patching_rect" : [ 15.5, 477.481690153858153, 112.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -768,13 +768,13 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 77.027596900680237, 214.453814606496167, 479.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 941, 134, 1478, 1325 ],
+						"client_rect" : [ 559, 297, 959, 797 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"text" : "pattrstorage transient_crossfade_parameters @greedy 2 @savemode 0",
+					"text" : "pattrstorage transient_crossfade_parameters @greedy 0 @savemode 0",
 					"varname" : "transient_crossfade_parameters"
 				}
 
