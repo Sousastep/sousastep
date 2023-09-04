@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "delay_sends_settings",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"software_or_hardware_delays" : [ 0 ],
+					"delays_input_selection" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
