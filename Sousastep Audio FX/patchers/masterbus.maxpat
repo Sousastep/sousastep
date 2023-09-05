@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
+		"rect" : [ 34.0, 87.0, 2076.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 323.669202312267316, 1793.0, 69.0, 22.0 ],
+					"text" : "metronome",
+					"varname" : "metronome"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-7",
 					"maxclass" : "newobj",
@@ -869,8 +882,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 843.450659505737349, 1978.83197764773422, 68.0, 22.0 ],
-					"text" : "selector~ 2"
+					"patching_rect" : [ 876.289058617726369, 2021.83197764773422, 156.0, 22.0 ],
+					"text" : "selector~ 2 @ramptime 250"
 				}
 
 			}
@@ -881,8 +894,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 737.450659505737349, 1978.83197764773422, 68.0, 22.0 ],
-					"text" : "selector~ 2"
+					"patching_rect" : [ 737.450659505737349, 1978.83197764773422, 156.0, 22.0 ],
+					"text" : "selector~ 2 @ramptime 250"
 				}
 
 			}
@@ -1148,6 +1161,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"order" : 0,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
 					"order" : 0,
 					"source" : [ "obj-19", 0 ]
@@ -1221,7 +1250,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-505", 1 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-36", 1 ]
 				}
 
@@ -1245,7 +1274,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-552", 1 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-36", 1 ]
 				}
 
@@ -1725,6 +1754,7 @@
 			"obj-1042::obj-895" : [ "master_lowpass[2]", "lowpass", 0 ],
 			"obj-1042::obj-901" : [ "master_highpass[2]", "highpass", 0 ],
 			"obj-15::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-18::obj-9" : [ "metronome", "metro volume", 0 ],
 			"obj-35" : [ "loop mon vol", "looper monitor", 0 ],
 			"obj-36" : [ "main volume", "main out", 0 ],
 			"obj-41::obj-24" : [ "function[21]", "function", 0 ],
@@ -1803,6 +1833,20 @@
 			}
 , 			{
 				"name" : "main_reverb_rnbo_or_plugin.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "metronome.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "metronome_settings.json",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
