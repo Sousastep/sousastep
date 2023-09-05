@@ -1,0 +1,74 @@
+{
+	"pattrstorage" : 	{
+		"name" : "monitor_EQ_rnbo_ParamEQ",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"ParamEQ" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ParamEQ",
+							"origin" : "ParamEQ",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"__sps" : 								{
+									"Level~" : 									{
+
+									}
+,
+									"HighMid~" : 									{
+
+									}
+,
+									"HighCut~" : 									{
+
+									}
+,
+									"LowMid~" : 									{
+
+									}
+
+								}
+,
+								"highcut" : 								{
+									"value" : 0.0
+								}
+,
+								"lomidfq" : 								{
+									"value" : 0.0
+								}
+,
+								"lomid" : 								{
+									"value" : 0.0
+								}
+,
+								"himidfq" : 								{
+									"value" : 0.0
+								}
+,
+								"level" : 								{
+									"value" : 0.0
+								}
+,
+								"himid" : 								{
+									"value" : 0.0
+								}
+,
+								"__presetid" : "ParamEQ"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
