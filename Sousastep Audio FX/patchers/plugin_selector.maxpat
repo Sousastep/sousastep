@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 60.0, -617.0, 547.0, 472.0 ],
+		"rect" : [ 34.0, 87.0, 2073.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -453,7 +453,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Monaco",
-					"hint" : "select wether the menu below should list ass VST, VST3, or AU (mac only) plugins. If you're using a mac, AU's recommended. If you're using Windows, VST3 is preferred.",
+					"hint" : "select wether the menu below should list all VST, VST3, or AU (mac only) plugins. If you're using a mac, AU's recommended. If you're using Windows, VST3 is preferred.",
 					"id" : "obj-61",
 					"items" : [ "select", "plugin", "search", "method", ",", "list", "all", "VST", "plugins", ",", "list", "all", "VST3", "plugins", ",", "list", "all", "AU", "plugins", "(mac", "only)" ],
 					"maxclass" : "umenu",
@@ -576,8 +576,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.834634767215675, 866.43891747960015, 298.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 114.0, 36.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 72.0, 66.0 ],
 					"text" : "please select a plugin :)"
 				}
 
