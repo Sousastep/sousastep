@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -890,6 +890,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.18 ],
 					"floatoutput" : 1,
 					"id" : "obj-160",
+					"ignoreclick" : 1,
 					"maxclass" : "dial",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -1692,14 +1693,14 @@
 							"parsestring" : ""
 						}
 ,
-						"mix" : 						{
-							"label" : "mix",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"regen" : 						{
-							"label" : "regen",
+						"mix" : 						{
+							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1718,7 +1719,7 @@
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.70",
+					"rnboversion" : "1.2.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2270,6 +2271,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.31 ],
 					"id" : "obj-1018",
+					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2329,6 +2331,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.31 ],
 					"id" : "obj-1003",
+					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2439,6 +2442,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-901",
+					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -2465,6 +2469,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-895",
+					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -2491,6 +2496,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-813",
+					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
