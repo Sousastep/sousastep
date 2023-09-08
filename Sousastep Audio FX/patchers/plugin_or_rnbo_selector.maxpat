@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 21.0, -862.0, 1034.0, 715.0 ],
+		"rect" : [ 21.0, 53.0, 1034.0, 715.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -175,7 +175,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 831.008964172680408, 528.543551973372701, 82.0, 21.0 ],
-					"text" : "zl reg 401 416"
+					"text" : "zl reg 401 573"
 				}
 
 			}
@@ -676,13 +676,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 60.0, -617.0, 547.0, 472.0 ],
+						"rect" : [ 34.0, 87.0, 2073.0, 1319.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1116,8 +1116,16 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
-									"hint" : "select wether the menu below should list ass VST, VST3, or AU (mac only) plugins. If you're using a mac, AU's recommended. If you're using Windows, VST3 is preferred.",
+									"hint" : "select wether the menu below should list all VST, VST3, or AU (mac only) plugins. If you're using a mac, AU's recommended. If you're using Windows, VST3 is preferred.",
 									"id" : "obj-61",
 									"items" : [ "select", "plugin", "search", "method", ",", "list", "all", "VST", "plugins", ",", "list", "all", "VST3", "plugins", ",", "list", "all", "AU", "plugins", "(mac", "only)" ],
 									"maxclass" : "umenu",
@@ -1240,8 +1248,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 970.834634767215675, 866.43891747960015, 298.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 72.0, 36.0 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 36.0, 66.0 ],
 									"text" : "0 samples"
 								}
 
@@ -1494,6 +1502,14 @@
 							}
 , 							{
 								"box" : 								{
+									"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_angle" : 270.0,
+									"bgfillcolor_autogradient" : 0.0,
+									"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
+									"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
+									"bgfillcolor_proportion" : 0.5,
+									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"fontsize" : 13.0,
 									"id" : "obj-31",
@@ -2535,7 +2551,7 @@
 ,
 					"patching_rect" : [ 116.960602591254769, 534.043551973372814, 243.0, 155.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 401.0, 388.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 401.0, 545.0 ],
 					"varname" : "#1",
 					"viewvisibility" : 1
 				}
@@ -2665,7 +2681,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 929.0, 497.075275646941122, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 28.0, 401.0, 388.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 401.0, 573.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{

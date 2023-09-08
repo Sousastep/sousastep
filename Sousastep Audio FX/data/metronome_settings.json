@@ -7,7 +7,8 @@
 				"data" : 				{
 					"volume" : [ 0.0 ],
 					"where_click" : [ 0 ],
-					"metro_enable" : [ 0 ]
+					"metro_enable" : [ 0 ],
+					"tap_tempo::init_tempo" : [ 140.0 ]
 				}
 
 			}

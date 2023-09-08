@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 87.0, 858.0, 779.0 ],
+		"rect" : [ 1004.0, 286.0, 524.0, 880.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,10 +55,17 @@
 					"id" : "obj-114",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 186.000007152557373, 469.896261647154688, 83.0, 22.0 ],
-					"text" : "loadmess 140"
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 186.000007152557373, 469.896261647154688, 91.0, 22.0 ],
+					"restore" : [ 60.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr init_tempo",
+					"varname" : "init_tempo"
 				}
 
 			}
@@ -67,6 +74,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-45",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -87,6 +95,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-107",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -107,6 +116,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-21",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -127,6 +137,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -213,10 +224,11 @@
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 16.0,
 					"format" : 6,
+					"hint" : "Displays current tempo. Sets initial tempo after saving metronome setting.",
 					"id" : "obj-416",
 					"maxclass" : "flonum",
-					"maximum" : 240.0,
-					"minimum" : 40.0,
+					"maximum" : 300.0,
+					"minimum" : 60.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -225,8 +237,8 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 5.65365676630995, 32.959416701400983, 53.0, 28.0 ],
 					"textcolor" : [ 0.094117647058824, 0.176470588235294, 0.184313725490196, 0.949019607843137 ],
-					"triangle" : 0,
-					"tricolor" : [ 0.529411764705882, 0.956862745098039, 1.0, 0.949019607843137 ]
+					"tricolor" : [ 0.529411764705882, 0.956862745098039, 1.0, 0.949019607843137 ],
+					"varname" : "tempo"
 				}
 
 			}
@@ -319,6 +331,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-423",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -339,6 +352,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-424",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -359,6 +373,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Ableton Sans Medium",
 					"fontsize" : 12.0,
+					"hint" : "displays tap tempo timings",
 					"id" : "obj-425",
 					"ignoreclick" : 1,
 					"maxclass" : "number",
@@ -420,7 +435,7 @@
 				"box" : 				{
 					"comment" : "Beats per minute",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -446,7 +461,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-416", 0 ],
-					"source" : [ "obj-114", 0 ]
+					"source" : [ "obj-114", 1 ]
 				}
 
 			}
@@ -652,6 +667,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.83 ],
 		"editing_bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.64 ]
 	}

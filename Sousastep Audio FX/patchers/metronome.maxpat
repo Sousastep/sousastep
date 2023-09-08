@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 783.0, 586.0, 1704.0, 728.0 ],
+		"rect" : [ 0.0, 53.0, 2144.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,43 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Metronome Settings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-793",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 943.0, 553.629169879034635, 95.0, 22.0 ],
+					"text" : "s tapped_tempo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-237",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "tap_tempo.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 943.0, 302.0, 57.0, 238.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 29.435879007558469, 19.0, 57.0, 238.0 ],
+					"varname" : "tap_tempo",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-65",
 					"linecount" : 5,
@@ -47,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 17.0, 13.0, 126.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : "window flags nofloat, window flags zoom, window flags grow, window exec, savewindow 0"
 				}
 
@@ -77,7 +112,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.575958482105762, 453.089608653723872, 373.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nozoom, window exec"
 				}
 
@@ -176,7 +210,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1230.575958482105762, 226.089608653723872, 82.0, 21.0 ],
-					"text" : "zl reg 156 276"
+					"text" : "zl reg 256 276"
 				}
 
 			}
@@ -225,9 +259,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1188.325958482105762, 182.621332327292293, 138.0, 22.0 ],
-					"presentation_linecount" : 2,
-					"text" : "title Metronome Settings"
+					"patching_rect" : [ 1170.325958482105762, 188.621332327292293, 61.0, 22.0 ],
+					"text" : "title Metro"
 				}
 
 			}
@@ -369,7 +402,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 695.048361581425524, 258.468276326431692, 126.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 240.571480409164735, 126.0, 20.0 ],
+					"presentation_rect" : [ 117.0, 242.071477309723207, 126.0, 20.0 ],
 					"text" : "save metronome settings"
 				}
 
@@ -441,6 +474,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "metronome_settings.json",
 					"fontname" : "Silom",
 					"id" : "obj-32",
 					"maxclass" : "newobj",
@@ -449,10 +483,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.0, 458.5, 327.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage metronome_settings @savemode 0",
@@ -538,7 +572,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 226.0, 153.47163719332616, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 11.500003099441528, 42.0, 42.0 ],
+					"presentation_rect" : [ 159.0, 13.0, 42.0, 42.0 ],
 					"varname" : "toggle"
 				}
 
@@ -586,7 +620,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 50.0, 160.776663104536055, 109.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 62.857162202682595, 100.0, 22.0 ],
+					"presentation_rect" : [ 130.0, 64.357159103241059, 100.0, 22.0 ],
 					"varname" : "umenu"
 				}
 
@@ -616,7 +650,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 157.0, 319.0, 76.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 40.0, 94.214321305923661, 76.0, 137.0 ],
+					"presentation_rect" : [ 142.0, 95.714318206482133, 76.0, 137.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "metronome",
@@ -669,7 +703,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1343.566994309425354, 226.089608653723872, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 156.666666999999961, 276.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 256.666666999999961, 276.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -730,6 +764,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-793", 0 ],
+					"source" : [ "obj-237", 0 ]
 				}
 
 			}

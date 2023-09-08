@@ -1,0 +1,19 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mixbus",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"very_low_volume" : [ -1.0 ],
+					"low_volume" : [ -6.0 ],
+					"high_volume" : [ -3.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
