@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "rnbo_chorus",
+		"name" : "Post-Crossfade_FX_plugin1_rnbo_chorus",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -20,7 +20,7 @@
 								}
 ,
 								"depth" : 								{
-									"value" : 75.0
+									"value" : 71.0
 								}
 ,
 								"__sps" : 								{
@@ -52,7 +52,7 @@
 						}
  ],
 					"sync" : [ 1 ],
-					"preset" : [ 0 ]
+					"preset" : [ 5 ]
 				}
 
 			}

@@ -259,7 +259,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1867.0, 1080.0, 40.0, 22.0 ],
+					"patching_rect" : [ 1859.0, 945.647004512959029, 40.0, 22.0 ],
 					"text" : "pak i i"
 				}
 
@@ -271,7 +271,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1867.0, 1109.0, 43.0, 22.0 ],
+					"patching_rect" : [ 1859.0, 974.647004512959029, 43.0, 22.0 ],
 					"text" : "zl.sum"
 				}
 
@@ -324,8 +324,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 1607.419451824346652, 848.033976863035377, 186.0, 22.0 ],
-					"text" : "four_plugin_selectors Dry-ish_FX",
+					"patching_rect" : [ 1607.419451824346652, 848.033976863035377, 267.0, 22.0 ],
+					"text" : "four_plugin_selectors Dry-ish_FX rnbo_pitchshift",
 					"varname" : "plugin_or_rnbo_selector[2]"
 				}
 
@@ -378,7 +378,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1754.419451824346652, 1060.799781224797698, 103.0, 35.0 ],
+					"patching_rect" : [ 1746.419451824346652, 926.446785737756727, 103.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "compensate for micropitch latency"
 				}
