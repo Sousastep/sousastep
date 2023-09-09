@@ -2,7 +2,7 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3777042681,
+	"modificationdate" : 3777121983,
 	"viewrect" : [ 1372.0, 342.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -32,6 +32,10 @@
 				"kind" : "patcher"
 			}
 ,
+			"plugin_selector.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
 			"chorus.rnbopat" : 			{
 				"kind" : "rnbopat"
 			}
@@ -54,10 +58,6 @@
 				"kind" : "patcher"
 			}
 ,
-			"plugin_selector.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
 			"dummy_selector.maxpat" : 			{
 				"kind" : "patcher"
 			}
@@ -67,6 +67,10 @@
 			}
 ,
 			"rnbo_compressor_mono.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"rnbo_filterdelay.maxpat" : 			{
 				"kind" : "patcher"
 			}
 
