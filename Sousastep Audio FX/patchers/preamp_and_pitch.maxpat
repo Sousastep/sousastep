@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -232.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1373.0, 1212.999999999999773, 81.0, 22.0 ],
-					"text" : "0 8 8 0"
+					"text" : "0 0 0 0"
 				}
 
 			}
@@ -321,11 +321,11 @@
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 1588.419451824346652, 788.033976863035377, 291.0, 22.0 ],
-					"text" : "plugin_or_rnbo_selector micropitch rnbo_pitchshift",
+					"outlettype" : [ "signal", "signal", "int" ],
+					"patching_rect" : [ 1607.419451824346652, 848.033976863035377, 186.0, 22.0 ],
+					"text" : "four_plugin_selectors Dry-ish_FX",
 					"varname" : "plugin_or_rnbo_selector[2]"
 				}
 
@@ -882,7 +882,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.62912654876709, 0.343424499034882, 0.94638729095459, 1.0 ],
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-4", 2 ]
 				}

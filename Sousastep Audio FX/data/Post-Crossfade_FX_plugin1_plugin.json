@@ -1,0 +1,40 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Post-Crossfade_FX_plugin1_plugin",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "TriceraChorus",
+				"data" : 				{
+					"plugin" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "TriceraChorus",
+							"origin" : "TriceraChorus.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "TriceraChorus.auinfo",
+								"plugindisplayname" : "TriceraChorus",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1634623552,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "2670.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAu..............fE..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.........PA.........U.....fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDTIWZCAA.RDVcsY1SQfvu60fBf.hHgw1YuIWZzgVae4VXsUlH5.hHTIWZiUlbgMDZuIWcyIBKMn.HfHBbx8FY0MFcekFYhnCHhL1as4RY1UlazkFYk4BZ43Bcxk1XkIWXig1axU2bhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHBbrU2Yo41Wi0VZ3IhNfPiLtbCL0LCM3jiM3TCL0fiMrzfBf.hHi0VZ3IhNfPiLtbCL0LCM3jiM3TCL0fiMrzfBf.hHvwVcmklaeMVaog2WyQWXxQ2WkgGbhnCHv3BMxbCL0LSMwDSLzHyMy.yMrzfBf.hHvwVcmklaeMVaog2Wk4FYeUFdvIhNfDiKvvRCJ.BHhLFZsQlH5.BLt.CKMn.HfHhbgQWYhnCHv3hM2DyL0bCNw.CM4biL3LSNrzfBf.hHxEFck80bzElbz8UY3AmH5.BLtLSM4LiL4DiMz.iL3DiM2bCKMn.HfHhbgQWYeUlaj8UY3AmH5.BLtfCN3fiM3TSLvbiLyDSLzvRCJ.BHhHWXzU1Wn8FceM2coQ2XnIhNf.iKvfCMyfyL0XSN1TyM3.iL0fCKMn.HfHBbrU2Yo41WxEFck8EZzM2ceIWYr8VXjIhNf.iK1bSLyTCNvPCN4DSM3XyLrzfBf.hHrQVYvIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHrQVYv80bzElbz8UY3AmH5.BLtbCLyPCM0byLxTSNyTyL1PCKMn.HfHBajUFbeUlaj8UY3AmH5.BLtDyLxHyMvHyM1TCM1PyM3LCKMn.HfHBajUFbeg1az80b2kFciglH5.BLtbCLyPyM1LCL4byM1LCL1HCKMn.HfHBbrU2Yo41WrQVYv8EZzM2ceIWYr8VXjIhNfbCLtLCMzTyMyjyMzXCL4LCNrzfBf.hHiQVYvIhNfPyLtbCNyPCLwPCN4HSM2fSLrzfBf.hHxQVYvIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHxQVYv80bzElbz8UY3AmH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHhbjUFbeUlaj8UY3AmH5.BLtLiL0PCNxXyL1XSNvDyL4fCKMn.HfHhbjUFbeg1az80b2kFciglH5.BLtXSL2HyMwPCNxjCMzPCN3TCKMn.HfHBbrU2Yo41WxQVYv8EZzM2ceIWYr8VXjIhNfXSLtbiL2DCM1DCM3XCNwXCMrzfBf.hHj0VZtIhNfDiKzTCN0PiLw.CN0LSM2XyMrzfBf.hHj0VZt80bzElbz8UY3AmH5.BLtHSLwLCN3.CNwLSLxDyM4XCKMn.HfHBYsklaeUlaj8UY3AmH5.BLtfCL4DyMvLCL0biL3jSLxPCKMn.HfHBYsklaeg1az80b2kFciglH5.BLtPCM4bSL4DCLwDSNvTiM2vRCJ.BHh.Ga0cVZt8EYsklaegFcyc2WxUFauEFYhnCHw3BM0fSMzHSLvfSMyTyM1bCKMn.HfHRYtYmbhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHRYtYmbeMGcgIGceUFdvIhNf.iKybyL0HyMybyM3PyL3TiM3vRCJ.BHhTla1I2Wk4FYeUFdvIhNf.iKz.yM1jCMvPSL2HCN4byLzvRCJ.BHhTla1I2Wn8FceM2coQ2XnIhNf.iKxDCN4.SMzjyL1DyMvTyM3vRCJ.BHh.Ga0cVZt8UYtYmbegFcyc2WxUFauEFYhnCH2TiKvbSNv.iLyfCLybSLvjCKMn.HfHBYz0FdhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYz0FdeMGcgIGceUFdvIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHhPFcsg2Wk4FYeUFdvIhNf.iKxbyLwHCMyjiM3.CL4jCM4vRCJ.BHhPFcsg2Wn8FceM2coQ2XnIhNf.iKyjCL4biMy.SN2biMy.iMxvRCJ.BHh.Ga0cVZt8EYz0FdegFcyc2WxUFauEFYhnCHyjiKvjyM1HSN0PyMwDSNwPCKMn.HfHBYjUFbhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBYjUFbeMGcgIGceUFdvIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHhPFYkA2Wk4FYeUFdvIhNf.iK1bSNxHSL1LCLvjiMzLSM0vRCJ.BHhPFYkA2Wn8FceM2coQ2XnIhNf.iKyPyMyHCMvPyL0DiLyPCMzvRCJ.BHh.Ga0cVZt8EYjUFbegFcyc2WxUFauEFYhnCHxHiLtHCN2LCNz.yLyHCLyDCKMn.HfHBbrU2Yo41Wk4lckIhNf.iKvvRCJ.BHhTla1UlH5.hL2XiKvbSNvDCLv.SN2XSM1vRCJ.BHhP2atUlH5.RKv3BLvHSN2DCLyfiM3bSN2PiLwTCKMn.HfHBcu4VYeg1az80b2kFciglH5.BLtDCMvDCNx.yM2fCNzXyMzDCKMn.HfHBbrU2Yo41Wz8lak8EZzM2ceIWYr8VXjIhNfzBLt.CLxjyMw.yL3XCN2jyMzHSL0vRCJ.BHhjlayQmH5.BLt.CKMn.HfHxb2IGahnCHv3BLrzfBf.hHvwVcmklaekFakYmH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt80a0Q2WrUlckwlH5.hLtfCM4fCM2.yM3LiLyLiMzTVK1vRCJ.BHh.Ga0cVZt8UXiQmchnCHw3BLrzfBf.hHkgGbxU1byk1at8EbkQVXrIhNf.iKvvRCJ.BHh.Ga0cVZt8EZuQ2bhnCHv3BLrzfBf.hHvwVcmklaeQWYsA2aeMWYyMWZu41WykmaiIhNfXVXrMWYrzfBf.hHzMWdtIhNfXVXrMWYrzfBf.hHvwVcmklae0VXtUWXr8Eck0FbuIhNfjCLt.CKMn.HfHBcsAmchnCH4.iKvvRCJ.BHhHGcxclH5.BLt.CKMn.HfHBbxUVZhnCH1jCKMn.HfHBbxUlahnCHhP2auIVXhzfB8gUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.nDPKA7R.wD.MAXS.7DvOAXT.KEPSAHkBU........HP..........fA..................nfG"
+							}
+
+						}
+ ],
+					"latency" : [ 40 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
