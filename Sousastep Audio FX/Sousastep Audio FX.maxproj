@@ -2,7 +2,7 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3777127097,
+	"modificationdate" : 3777121983,
 	"viewrect" : [ 1372.0, 342.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -71,10 +71,6 @@
 			}
 ,
 			"rnbo_filterdelay.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"rnbo_chorus.maxpat" : 			{
 				"kind" : "patcher"
 			}
 
