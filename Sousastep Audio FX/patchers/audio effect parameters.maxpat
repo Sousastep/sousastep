@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 437.0, 1334.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -646,7 +646,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1208.950958482105762, 1133.926131184023689, 76.0, 22.0 ],
-					"text" : "prepend 828"
+					"text" : "prepend 860"
 				}
 
 			}
@@ -733,6 +733,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"id" : "obj-17",
 					"linecount" : 5,
 					"maxclass" : "message",
@@ -921,19 +922,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-65",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.070896176809811, 391.0, 75.0, 35.0 ],
-					"text" : "hover_bang harmonizer"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-64",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -1007,24 +995,6 @@
 					}
 ,
 					"text" : "hover"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"blinkcolor" : [ 0.647058823529412, 0.905882352941176, 0.705882352941177, 0.0 ],
-					"id" : "obj-16",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1108.200958482105762, 443.0, 92.0, 92.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 352.0, 237.0, 146.0, 146.0 ],
-					"varname" : "harmonizer"
 				}
 
 			}
@@ -1110,10 +1080,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 0.0, 0.0, 828.277151639344311, 2119.0 ],
+					"patching_rect" : [ 0.0, 0.0, 828.277151639344311, 2029.906504207029457 ],
 					"pic" : "Macintosh HD:/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/media/Sousastep_signalflow.drawio.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 828.277151639344311, 2119.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 860.277151639344311, 2108.330746631271722 ]
 				}
 
 			}
@@ -1208,14 +1178,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-65", 1 ],
-					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
+					"hidden" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -1619,7 +1583,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"order" : 18,
+					"order" : 17,
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -1643,14 +1607,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
-					"order" : 17,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-65", 0 ],
 					"order" : 16,
 					"source" : [ "obj-55", 0 ]
 				}
@@ -1755,13 +1711,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-65", 0 ]
 				}
 
 			}
