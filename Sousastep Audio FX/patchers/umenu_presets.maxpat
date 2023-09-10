@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -62,7 +62,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 173.0, 161.5, 100.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 3.0, 196.0, 25.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 93.0, 25.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -73,9 +73,9 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "EP Dry", "EP Darkglass", "mangled tricera", "EP Tim Henson", "EP Rabea", "Aquatic Ambience", "So Familia", "Kalaparusha", "nine", "mBitFun", "EP Dry + dist", "track 1", "moog saturation", "moog harmony", "dry lows", "Veldt", "Mud", "Video Games", "Tim Henson Native", "amp mod 1", "l" ],
+							"parameter_enum" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30" ],
 							"parameter_longname" : "Presets",
-							"parameter_mmax" : 20,
+							"parameter_mmax" : 29,
 							"parameter_shortname" : "Presets",
 							"parameter_type" : 2
 						}

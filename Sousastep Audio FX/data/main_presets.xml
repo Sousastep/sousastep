@@ -2,1683 +2,663 @@
 
 <pattrstorage name = "main_presets">
 	<slot number = "1">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.55" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "27.6" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "35" />
-		<pattr name = "rez_min" value = "25" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC40CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzOTkyMzAwNDU3Nzk3NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDE2NTUxNzA2NjY4ODgzCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDEwMzk4Mjc5MDg1NjUKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuOQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDc3Nzg5Mzg5MTQ3MjQ2CgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDA1MTE2OTczODk4MzYxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjA1NjEzNDQyNjczMzcyMQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogIkZvdXJfRGVsYXlfU2VuZHMiLAoJIm9yaWdpbiIgOiAiRm91cl9EZWxheV9TZW5kcyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiZGVsYXk0IiA6IAkJCXsKCQkJCSJyZWdlbiIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiA1MC4wCgkJCQl9CiwKCQkJCSJfX3NwcyIgOiAJCQkJewoJCQkJCSJEZWxheUNhbGMiIDogCQkJCQl7CgoJCQkJCX0KLAoJCQkJCSJJbnB1dH4iIDogCQkJCQl7CgoJCQkJCX0KLAoJCQkJCSJGaWx0ZXJEZWxheX4iIDogCQkJCQl7CgkJCQkJCSJfX3NwcyIgOiAJCQkJCQl7CgkJCQkJCQkiRmlsdGVyfiIgOiAJCQkJCQkJewoKCQkJCQkJCX0KLAoJCQkJCQkJIkZpbHRlcn5bMV0iIDogCQkJCQkJCXsKCgkJCQkJCQl9CiwKCQkJCQkJCSJGaWx0ZXJ+WzJdIiA6IAkJCQkJCQl7CgoJCQkJCQkJfQosCgkJCQkJCQkiRmlsdGVyflszXSIgOiAJCQkJCQkJewoKCQkJCQkJCX0KCgkJCQkJCX0KCgkJCQkJfQosCgkJCQkJIlZvbHVtZX4iIDogCQkJCQl7CgoJCQkJCX0KCgkJCQl9CiwKCQkJCSJmaWx0ZXIiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMC4wCgkJCQl9CiwKCQkJCSJ0aW1lIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDUwLjAKCQkJCX0KLAoJCQkJInZvbHVtZSIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAwLjAKCQkJCX0KLAoJCQkJImNvbG9yIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDUwLjAKCQkJCX0KLAoJCQkJImZiIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDEuMAoJCQkJfQosCgkJCQkic3ByZWFkIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDAuMAoJCQkJfQosCgkJCQkic2NhbGUiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMy4wCgkJCQl9CiwKCQkJCSJzZW5kIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDEuMAoJCQkJfQoKCQkJfQosCgkJCSJkZWxheTMiIDogCQkJewoJCQkJInJlZ2VuIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDUwLjAKCQkJCX0KLAoJCQkJIl9fc3BzIiA6IAkJCQl7CgkJCQkJIkRlbGF5Q2FsYyIgOiAJCQkJCXsKCgkJCQkJfQosCgkJCQkJIklucHV0fiIgOiAJCQkJCXsKCgkJCQkJfQosCgkJCQkJIkZpbHRlckRlbGF5fiIgOiAJCQkJCXsKCQkJCQkJIl9fc3BzIiA6IAkJCQkJCXsKCQkJCQkJCSJGaWx0ZXJ+IiA6IAkJCQkJCQl7CgoJCQkJCQkJfQosCgkJCQkJCQkiRmlsdGVyflsxXSIgOiAJCQkJCQkJewoKCQkJCQkJCX0KLAoJCQkJCQkJIkZpbHRlcn5bMl0iIDogCQkJCQkJCXsKCgkJCQkJCQl9CiwKCQkJCQkJCSJGaWx0ZXJ+WzNdIiA6IAkJCQkJCQl7CgoJCQkJCQkJfQoKCQkJCQkJfQoKCQkJCQl9CiwKCQkJCQkiVm9sdW1lfiIgOiAJCQkJCXsKCgkJCQkJfQoKCQkJCX0KLAoJCQkJImZpbHRlciIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAwLjAKCQkJCX0KLAoJCQkJInRpbWUiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogNTAuMAoJCQkJfQosCgkJCQkidm9sdW1lIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDAuMAoJCQkJfQosCgkJCQkiY29sb3IiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogNTAuMAoJCQkJfQosCgkJCQkiZmIiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMS4wCgkJCQl9CiwKCQkJCSJzcHJlYWQiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMC4wCgkJCQl9CiwKCQkJCSJzY2FsZSIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAzLjAKCQkJCX0KLAoJCQkJInNlbmQiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMC4wCgkJCQl9CgoJCQl9CiwKCQkJImRlbGF5MiIgOiAJCQl7CgkJCQkicmVnZW4iIDogCQkJCXsKCQkJCQkidmFsdWUiIDogNTAuMAoJCQkJfQosCgkJCQkiX19zcHMiIDogCQkJCXsKCQkJCQkiRGVsYXlDYWxjIiA6IAkJCQkJewoKCQkJCQl9CiwKCQkJCQkiSW5wdXR+IiA6IAkJCQkJewoKCQkJCQl9CiwKCQkJCQkiRmlsdGVyRGVsYXl+IiA6IAkJCQkJewoJCQkJCQkiX19zcHMiIDogCQkJCQkJewoJCQkJCQkJIkZpbHRlcn4iIDogCQkJCQkJCXsKCgkJCQkJCQl9CiwKCQkJCQkJCSJGaWx0ZXJ+WzFdIiA6IAkJCQkJCQl7CgoJCQkJCQkJfQosCgkJCQkJCQkiRmlsdGVyflsyXSIgOiAJCQkJCQkJewoKCQkJCQkJCX0KLAoJCQkJCQkJIkZpbHRlcn5bM10iIDogCQkJCQkJCXsKCgkJCQkJCQl9CgoJCQkJCQl9CgoJCQkJCX0KLAoJCQkJCSJWb2x1bWV+IiA6IAkJCQkJewoKCQkJCQl9CgoJCQkJfQosCgkJCQkiZmlsdGVyIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDAuMAoJCQkJfQosCgkJCQkidGltZSIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiA1MC4wCgkJCQl9CiwKCQkJCSJ2b2x1bWUiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMC4wCgkJCQl9CiwKCQkJCSJjb2xvciIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiA1MC4wCgkJCQl9CiwKCQkJCSJmYiIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAxLjAKCQkJCX0KLAoJCQkJInNwcmVhZCIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAwLjAKCQkJCX0KLAoJCQkJInNjYWxlIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDMuMAoJCQkJfQosCgkJCQkic2VuZCIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAwLjAKCQkJCX0KCgkJCX0KLAoJCQkiZGVsYXkxIiA6IAkJCXsKCQkJCSJyZWdlbiIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiA1MC4wCgkJCQl9CiwKCQkJCSJfX3NwcyIgOiAJCQkJewoJCQkJCSJEZWxheUNhbGMiIDogCQkJCQl7CgoJCQkJCX0KLAoJCQkJCSJJbnB1dH4iIDogCQkJCQl7CgoJCQkJCX0KLAoJCQkJCSJGaWx0ZXJEZWxheX4iIDogCQkJCQl7CgkJCQkJCSJfX3NwcyIgOiAJCQkJCQl7CgkJCQkJCQkiRmlsdGVyfiIgOiAJCQkJCQkJewoKCQkJCQkJCX0KLAoJCQkJCQkJIkZpbHRlcn5bMV0iIDogCQkJCQkJCXsKCgkJCQkJCQl9CiwKCQkJCQkJCSJGaWx0ZXJ+WzJdIiA6IAkJCQkJCQl7CgoJCQkJCQkJfQosCgkJCQkJCQkiRmlsdGVyflszXSIgOiAJCQkJCQkJewoKCQkJCQkJCX0KCgkJCQkJCX0KCgkJCQkJfQosCgkJCQkJIlZvbHVtZX4iIDogCQkJCQl7CgoJCQkJCX0KCgkJCQl9CiwKCQkJCSJmaWx0ZXIiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMC4wCgkJCQl9CiwKCQkJCSJ0aW1lIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDUwLjAKCQkJCX0KLAoJCQkJInZvbHVtZSIgOiAJCQkJewoJCQkJCSJ2YWx1ZSIgOiAwLjAKCQkJCX0KLAoJCQkJImNvbG9yIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDUwLjAKCQkJCX0KLAoJCQkJImZiIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDEuMAoJCQkJfQosCgkJCQkic3ByZWFkIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDAuMAoJCQkJfQosCgkJCQkic2NhbGUiIDogCQkJCXsKCQkJCQkidmFsdWUiIDogMy4wCgkJCQl9CiwKCQkJCSJzZW5kIiA6IAkJCQl7CgkJCQkJInZhbHVlIiA6IDAuMAoJCQkJfQoKCQkJfQoKCQl9CiwKCQkidGltZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJkZWxheV9zZW5kXzQiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZGVsYXlfc2VuZF8zIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImRlbGF5X3NlbmRfMiIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJkZWxheV9zZW5kXzEiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiRm91cl9EZWxheV9TZW5kcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "0." />
+			<pattr name = "aux_phase_offset" value = "51.968504" />
+			<pattr name = "aux_duty_cycle" value = "0." />
+			<pattr name = "aux_yaxis" value = "0." />
+			<pattr name = "aux_SnTrSq" value = "0" />
+			<pattr name = "aux_route_menu" value = "0" />
+			<pattr name = "low_power" value = "22.303225" />
+			<pattr name = "low_phase_offset" value = "-52.755906" />
+			<pattr name = "low_SnTrSq" value = "0" />
+			<pattr name = "low_duty_cycle" value = "0." />
+			<pattr name = "low_floor" value = "5.511811" />
+			<pattr name = "verylow_floor" value = "5.511811" />
+			<pattr name = "verylow_duty_cycle" value = "0." />
+			<pattr name = "verylow_SnTrSq" value = "0" />
+			<pattr name = "verylow_power" value = "22.303225" />
+			<pattr name = "verylow_phase_offset" value = "-52.755906" />
+			<pattr name = "rez_min" value = "12" />
+			<pattr name = "rez_max" value = "60" />
+			<pattr name = "high_SnTrSq" value = "1" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "&quot;Sousastep's default preset&quot;" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "0 0 1." />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "0 0 1." />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "1." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "99." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "48." />
-			<pattr name = "Mod Output Gain[1]" value = "37.795275" />
-			<pattr name = "rnbo_comp" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogIjc0YTA5Yjk3LWYzNjAtMTFlYS05Yjk3LTM0MzYzYmQzZWQ4YyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiQ29tcGVuc2F0aW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIkNvbXByZXNzaW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIlZvbHVtZSZDbGlwfiIgOiAJCQl7CgoJCQl9CiwKCQkJIkxvb2thaGVhZH4iIDogCQkJewoKCQkJfQoKCQl9CiwKCQkic3VzdGFpbiIgOiAJCXsKCQkJInZhbHVlIiA6IDE0LjAKCQl9CiwKCQkiYXR0YWNrIiA6IAkJewoJCQkidmFsdWUiIDogOTAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICI3NGEwOWI5Ny1mMzYwLTExZWEtOWI5Ny0zNDM2M2JkM2VkOGMiLAoJCSJzb2Z0Y2xpcCIgOiAJCXsKCQkJInZhbHVlIiA6IDEuMAoJCX0KLAoJCSJjb21wIiA6IAkJewoJCQkidmFsdWUiIDogNTAuMAoJCX0KLAoJCSJ2b2x1bWUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibG9va2FoZWFkIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQoKCX0KCn0K" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "4 0 1." />
 		</patcher>
 	</slot>
 	<slot number = "2">
-		<pattr name = "Distortion_Preset_Selection" value = "5" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "2" />
-		<pattr name = "low_SnTrSq" value = "1" />
-		<pattr name = "low_duty_cycle" value = "45.669291" />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "-81.889764" />
-		<pattr name = "low_power" value = "-26.515673" />
-		<pattr name = "moog_rez" value = "23." />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "50" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMzM0MDAyODIyNTQwODIzCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzOTkyMzAwNDU3Nzk3NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDE2NTUxNzA2NjY4ODgzCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMzM0MDAyODIyNTQwODIzCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjkKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjA3Nzc4OTM4OTE0NzI0NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAwNTExNjk3Mzg5ODM2MQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNTYxMzQ0MjY3MzM3MjEKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "54.330709" />
-		<pattr name = "verylow_power" value = "-100." />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "18." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "82." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "35.905512" />
-			<pattr name = "Mod Output Gain[1]" value = "37.03937" />
-			<pattr name = "rnbo_comp" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogIjc0YTA5Yjk3LWYzNjAtMTFlYS05Yjk3LTM0MzYzYmQzZWQ4YyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiQ29tcGVuc2F0aW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIkNvbXByZXNzaW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIlZvbHVtZSZDbGlwfiIgOiAJCQl7CgoJCQl9CiwKCQkJIkxvb2thaGVhZH4iIDogCQkJewoKCQkJfQoKCQl9CiwKCQkic3VzdGFpbiIgOiAJCXsKCQkJInZhbHVlIiA6IDE0LjAKCQl9CiwKCQkiYXR0YWNrIiA6IAkJewoJCQkidmFsdWUiIDogOTAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICI3NGEwOWI5Ny1mMzYwLTExZWEtOWI5Ny0zNDM2M2JkM2VkOGMiLAoJCSJzb2Z0Y2xpcCIgOiAJCXsKCQkJInZhbHVlIiA6IDEuMAoJCX0KLAoJCSJjb21wIiA6IAkJewoJCQkidmFsdWUiIDogNjQuMAoJCX0KLAoJCSJ2b2x1bWUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibG9va2FoZWFkIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQoKCX0KCn0K" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "3">
-		<pattr name = "Distortion_Preset_Selection" value = "1" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "26.771654" />
-		<pattr name = "low_power" value = "-70.866142" />
-		<pattr name = "moog_rez" value = "41.4" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "82" />
-		<pattr name = "rez_min" value = "8" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "49.606299" />
-		<pattr name = "verylow_power" value = "-84.251969" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "29." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "100." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "22.3" />
-			<pattr name = "Mod Output Gain[1]" value = "39.685039" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "4">
-		<pattr name = "Distortion_Preset_Selection" value = "3" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "C" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 200." />
-		<pattr name = "aux_SnTrSq" value = "1" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "-46.456693" />
-		<pattr name = "aux_power" value = "-5.511811" />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.206153" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "24.409449" />
-		<pattr name = "low_power" value = "-61.417323" />
-		<pattr name = "moog_rez" value = "46." />
-		<pattr name = "mp_enable" value = "0" />
-		<pattr name = "reverb_delay_input_selector" value = "1" />
-		<pattr name = "rez_max" value = "94" />
-		<pattr name = "rez_min" value = "6" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "3" />
-		<pattr name = "very_low_lock" value = "1" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "25.984252" />
-		<pattr name = "verylow_power" value = "-100." />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "4." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "89." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
-			<pattr name = "Mod Output Gain[1]" value = "41.19685" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "5">
-		<pattr name = "Distortion_Preset_Selection" value = "3" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "2" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "C" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "-90." />
-		<pattr name = "aux_power" value = "-5.51" />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.040365" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "3.937008" />
-		<pattr name = "low_power" value = "-100." />
-		<pattr name = "moog_rez" value = "34.04" />
-		<pattr name = "mp_enable" value = "0" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "68" />
-		<pattr name = "rez_min" value = "6" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "1" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "18.110236" />
-		<pattr name = "verylow_power" value = "-100." />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "57." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "100." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "32.881889" />
-			<pattr name = "Mod Output Gain[1]" value = "32.503937" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "6">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "40.779451" />
-		<pattr name = "mp_enable" value = "0" />
-		<pattr name = "reverb_delay_input_selector" value = "1" />
-		<pattr name = "rez_max" value = "89" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "14." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "" />
-			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "7">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "6" />
-		<pattr name = "high_SnTrSq" value = "0" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "40.779451" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "1" />
-		<pattr name = "rez_max" value = "89" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "1" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "14." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "" />
-			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "8">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "0" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "0" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-9.448818" />
-		<pattr name = "moog_rez" value = "33.90651" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "1" />
-		<pattr name = "rez_max" value = "73" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-18.641658" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "0." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "55." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "" />
-			<pattr name = "Mod Output Gain[1]" value = "" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "9">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "0" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "46.974118" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "80" />
-		<pattr name = "rez_min" value = "20" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "1." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "80." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "32.88189" />
-			<pattr name = "Mod Output Gain[1]" value = "38.173228" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "10">
-		<pattr name = "Distortion_Preset_Selection" value = "4" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
-		<pattr name = "Quadravox_Key" value = "A" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "Phrygian" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "23." />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "50" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "0." />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "23." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "24.944882" />
-			<pattr name = "Mod Output Gain[1]" value = "37.795276" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "11">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 999." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "43.24" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "80" />
-		<pattr name = "rez_min" value = "20" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4yMTc1MDQ3ODUxNDI2NDIKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjA1NTYwODc3NjI5NjE5OAoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNjUxMzIwNzA5MzQyMjQKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDM4NTYxMDQyMTMzMTE2CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk2MTQzNzU2OTQ0MTYxOAoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "41." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "33.637796" />
-			<pattr name = "Mod Output Gain[1]" value = "37.03937" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "12">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "11" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "39.505882" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "80" />
-		<pattr name = "rez_min" value = "5" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "1" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "44." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "42.708662" />
-			<pattr name = "Mod Output Gain[1]" value = "38.551181" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "13">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "A#" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "Phrygian" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "23." />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "50" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "1" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "22." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "90." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
-			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "14">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "1" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_14th" value = "1" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
-		<pattr name = "Quadravox_Key" value = "A" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "1" />
-		<pattr name = "Quadravox_Scale" value = "Phrygian" />
-		<pattr name = "Zslide_down" value = "Zslide_down 666." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "18.4" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "40" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNDkxOTcwODQwNDA4MTkKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzOTkyMzAwNDU3Nzk3NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDE2NTUxNzA2NjY4ODgzCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMTMzOTQ0NjYzMDEwNDkKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuNzQ5NzI5OTU3MDgxMzk5CgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzc3ODkzODkxNDcyNDYKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDUxMTY5NzM4OTgzNjEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDU2MTM0NDI2NzMzNzIxCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "56." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "98." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
-			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "rnbo_comp" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogIjc0YTA5Yjk3LWYzNjAtMTFlYS05Yjk3LTM0MzYzYmQzZWQ4YyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiQ29tcGVuc2F0aW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIkNvbXByZXNzaW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIlZvbHVtZSZDbGlwfiIgOiAJCQl7CgoJCQl9CiwKCQkJIkxvb2thaGVhZH4iIDogCQkJewoKCQkJfQoKCQl9CiwKCQkic3VzdGFpbiIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJhdHRhY2siIDogCQl7CgkJCSJ2YWx1ZSIgOiAxMDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICI3NGEwOWI5Ny1mMzYwLTExZWEtOWI5Ny0zNDM2M2JkM2VkOGMiLAoJCSJzb2Z0Y2xpcCIgOiAJCXsKCQkJInZhbHVlIiA6IDEuMAoJCX0KLAoJCSJjb21wIiA6IAkJewoJCQkidmFsdWUiIDogNTAuMAoJCX0KLAoJCSJ2b2x1bWUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibG9va2FoZWFkIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQoKCX0KCn0K" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "15">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "29.093647" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "60" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" value = "" />
-		<pattr name = "rnbo~[3]" value = "" />
-		<pattr name = "rnbo~[4]" value = "" />
-		<pattr name = "rnbo~[5]" value = "" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "37." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "99." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
-			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "16">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "1" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_14th" value = "1" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
-		<pattr name = "Quadravox_Key" value = "A" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "1" />
-		<pattr name = "Quadravox_Scale" value = "Major" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "27.6" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "60" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMDMyMjUyNDk0ODYzMjgKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE0NjY4MzIwNDU0NjI2NwoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMDE0OTM0NDIxNTkxMjYKCQl9CiwKCQkiZW5kWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuODQ3ODc3MTk5MDM1MDMxCgkJfQosCgkJImZpcnN0WCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJtaWRYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNzE2MTgwNjQwMjA5MTIKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4xMjIyNzE4Mzg3NjIzODEKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTUwODQxNzIyNjc2NDU5CgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQ0MjQ0MDIxNTA3ODcwNQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "37." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "99." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "38.551182" />
-			<pattr name = "Mod Output Gain[1]" value = "39.307086" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "17">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "26.68" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "60" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "40." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "99." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "43.086615" />
-			<pattr name = "Mod Output Gain[1]" value = "33.26" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "18">
-		<pattr name = "Distortion_Preset_Selection" value = "2" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_12th" value = "1" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_14th" value = "1" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "1" />
-		<pattr name = "Quadravox_Key" value = "G" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "1" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 2000." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "0" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "34.04" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "63" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAwMTY0NTU0MTk3NjY1CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjk4MDE0OTc0NDMxOTg3NQoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" value = "" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "50." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "100." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "34.393701" />
-			<pattr name = "Mod Output Gain[1]" value = "36.283464" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "19">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "2" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "C" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 333." />
-		<pattr name = "aux_SnTrSq" value = "1" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "-46.456693" />
-		<pattr name = "aux_power" value = "-5.511811" />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.206153" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.91" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "10" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "24.409449" />
-		<pattr name = "low_power" value = "-61.417323" />
-		<pattr name = "moog_rez" value = "46." />
-		<pattr name = "mp_enable" value = "0" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "94" />
-		<pattr name = "rez_min" value = "6" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMzM0MDAyODIyNTQwODIzCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjQKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzOTkyMzAwNDU3Nzk3NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDE2NTUxNzA2NjY4ODgzCgkJfQosCgkJImZpcnN0Q3VydmUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiX19wcmVzZXRpZCIgOiAiZnVuY3Rpb25fd2l0aF90d29fY3VydmVzIgoJfQoKfQo=" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMzM0MDAyODIyNTQwODIzCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjkKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjA3Nzc4OTM4OTE0NzI0NgoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAwNTExNjk3Mzg5ODM2MQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wNTYxMzQ0MjY3MzM3MjEKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "25.984252" />
-		<pattr name = "verylow_power" value = "-100." />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "20." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "80." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "23.433071" />
-			<pattr name = "Mod Output Gain[1]" value = "37.417322" />
-			<pattr name = "rnbo_comp" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogIjc0YTA5Yjk3LWYzNjAtMTFlYS05Yjk3LTM0MzYzYmQzZWQ4YyIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJIl9fc3BzIiA6IAkJewoJCQkiQ29tcGVuc2F0aW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIkNvbXByZXNzaW9ufiIgOiAJCQl7CgoJCQl9CiwKCQkJIlZvbHVtZSZDbGlwfiIgOiAJCQl7CgoJCQl9CiwKCQkJIkxvb2thaGVhZH4iIDogCQkJewoKCQkJfQoKCQl9CiwKCQkic3VzdGFpbiIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJhdHRhY2siIDogCQl7CgkJCSJ2YWx1ZSIgOiAxMDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICI3NGEwOWI5Ny1mMzYwLTExZWEtOWI5Ny0zNDM2M2JkM2VkOGMiLAoJCSJzb2Z0Y2xpcCIgOiAJCXsKCQkJInZhbHVlIiA6IDEuMAoJCX0KLAoJCSJjb21wIiA6IAkJewoJCQkidmFsdWUiIDogNTAuMAoJCX0KLAoJCSJ2b2x1bWUiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibG9va2FoZWFkIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQoKCX0KCn0K" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 	<slot number = "20">
-		<pattr name = "Distortion_Preset_Selection" value = "0" />
-		<pattr name = "Distortion_Preset_Selection[1]" value = "1" />
-		<pattr name = "Quadravox_Enable_12th" value = "0" />
-		<pattr name = "Quadravox_Enable_12th[1]" value = "0" />
-		<pattr name = "Quadravox_Enable_14th" value = "0" />
-		<pattr name = "Quadravox_Enable_14th[1]" value = "0" />
-		<pattr name = "Quadravox_Key" value = "Bb" />
-		<pattr name = "Quadravox_Pitch_Tracking_Enable" value = "0" />
-		<pattr name = "Quadravox_Scale" value = "&quot;Natural Min&quot;" />
-		<pattr name = "Zslide_down" value = "Zslide_down 600." />
-		<pattr name = "aux_SnTrSq" value = "0" />
-		<pattr name = "aux_duty_cycle" value = "0." />
-		<pattr name = "aux_phase_offset" value = "55.905512" />
-		<pattr name = "aux_power" value = "0." />
-		<pattr name = "aux_route_menu" value = "0" />
-		<pattr name = "aux_yaxis" value = "0." />
-		<pattr name = "crossover_freq" value = "0.05382" />
-		<pattr name = "duty_cycle_joystick_center_offset" value = "0.5" />
-		<pattr name = "filter_pole" value = "1" />
-		<pattr name = "filter_type" value = "12" />
-		<pattr name = "high_SnTrSq" value = "1" />
-		<pattr name = "low_SnTrSq" value = "0" />
-		<pattr name = "low_duty_cycle" value = "0." />
-		<pattr name = "low_floor" value = "0." />
-		<pattr name = "low_lock" value = "0" />
-		<pattr name = "low_phase_offset" value = "17.322835" />
-		<pattr name = "low_power" value = "-47.244094" />
-		<pattr name = "moog_rez" value = "20.24" />
-		<pattr name = "mp_enable" value = "1" />
-		<pattr name = "reverb_delay_input_selector" value = "0" />
-		<pattr name = "rez_max" value = "45" />
-		<pattr name = "rez_min" value = "0" />
-		<pattr name = "rnbo~[2]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInNiYi5lbnYuZm9sbG93ZXIiLAoJIm9yaWdpbiIgOiAic2JiLmVudi5mb2xsb3dlciIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgkJInJhbXBzYW1wbGVzIiA6IAkJewoJCQkidmFsdWUiIDogNDgwMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogInNiYi5lbnYuZm9sbG93ZXIiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[3]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4xNQoJCX0KLAoJCSJlbmRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wODQxNzg2NjAyMTAyNzYKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjEzNjIwNjc3MTI3Mjc2OAoJCX0KLAoJCSJmaXJzdFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAyNzAzODg5MjM4MjExOQoJCX0KLAoJCSJtaWRZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wMzY1NjIxODcwMjAxNDUKCQl9CiwKCQkiZmlyc3RDdXJ2ZSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMAoJCX0KLAoJCSJfX3ByZXNldGlkIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiCgl9Cgp9Cg==" />
-		<pattr name = "rnbo~[4]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogLTAuMDAzNTI5NDExNzY0NzA2CgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjA1Mzg3MDU4ODIzNTI5NAoJCX0KLAoJCSJmaXJzdFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkibWlkWCIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMDcxNjE4MDY0MDIwOTEyCgkJfQosCgkJImZpcnN0WSIgOiAJCXsKCQkJInZhbHVlIiA6IDAuMTIyMjcxODM4NzYyMzgxCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE1MDg0MTcyMjY3NjQ1OQoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[5]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIsCgkib3JpZ2luIiA6ICJmdW5jdGlvbl93aXRoX3R3b19jdXJ2ZXMiLAoJInR5cGUiIDogInJuYm8iLAoJInN1YnR5cGUiIDogIiIsCgkiZW1iZWQiIDogMSwKCSJzbmFwc2hvdCIgOiAJewoJCSJlbmRYIiA6IAkJewoJCQkidmFsdWUiIDogMS4wCgkJfQosCgkJInNlY29uZEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJImVuZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjAKCQl9CiwKCQkiZmlyc3RYIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFgiIDogCQl7CgkJCSJ2YWx1ZSIgOiAxLjAKCQl9CiwKCQkiZmlyc3RZIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIm1pZFkiIDogCQl7CgkJCSJ2YWx1ZSIgOiAwLjE5MzIxNDgxMTYyMzkyOAoJCX0KLAoJCSJmaXJzdEN1cnZlIiA6IAkJewoJCQkidmFsdWUiIDogMC4wCgkJfQosCgkJIl9fcHJlc2V0aWQiIDogImZ1bmN0aW9uX3dpdGhfdHdvX2N1cnZlcyIKCX0KCn0K" />
-		<pattr name = "rnbo~[6]" value = "" />
-		<pattr name = "rnbo~[7]" type = "dictionary" value = "ewoJImZpbGV0eXBlIiA6ICJDNzRTbmFwc2hvdCIsCgkidmVyc2lvbiIgOiAyLAoJIm1pbm9ydmVyc2lvbiIgOiAwLAoJIm5hbWUiIDogInVudGl0bGVkIiwKCSJvcmlnaW4iIDogImE1Yzk4MDY5LTA3MDYtMTFlZS04MDY5LWNlODZlZmU4YzliMiIsCgkidHlwZSIgOiAicm5ibyIsCgkic3VidHlwZSIgOiAiIiwKCSJlbWJlZCIgOiAxLAoJInNuYXBzaG90IiA6IAl7CgoJfQoKfQo=" />
-		<pattr name = "transient_helper" value = "2" />
-		<pattr name = "very_low_lock" value = "0" />
-		<pattr name = "verylow_SnTrSq" value = "0" />
-		<pattr name = "verylow_duty_cycle" value = "0." />
-		<pattr name = "verylow_floor" value = "0." />
-		<pattr name = "verylow_phase_offset" value = "37.007874" />
-		<pattr name = "verylow_power" value = "-42.263705" />
-		<patcher name = "distortion_plugins">
-			<pattr name = "distortion_plugins[1]" value = "1" />
+		<patcher name = "mod params">
+			<pattr name = "aux_power" value = "" />
+			<pattr name = "aux_phase_offset" value = "" />
+			<pattr name = "aux_duty_cycle" value = "" />
+			<pattr name = "aux_yaxis" value = "" />
+			<pattr name = "aux_SnTrSq" value = "" />
+			<pattr name = "aux_route_menu" value = "" />
+			<pattr name = "low_power" value = "" />
+			<pattr name = "low_phase_offset" value = "" />
+			<pattr name = "low_SnTrSq" value = "" />
+			<pattr name = "low_duty_cycle" value = "" />
+			<pattr name = "low_floor" value = "" />
+			<pattr name = "verylow_floor" value = "" />
+			<pattr name = "verylow_duty_cycle" value = "" />
+			<pattr name = "verylow_SnTrSq" value = "" />
+			<pattr name = "verylow_power" value = "" />
+			<pattr name = "verylow_phase_offset" value = "" />
+			<pattr name = "rez_min" value = "" />
+			<pattr name = "rez_max" value = "" />
+			<pattr name = "high_SnTrSq" value = "" />
 		</patcher>
-		<patcher name = "delay_and_reverb">
-			<pattr name = "delay_and_reverb" value = "1" />
+		<pattr name = "preset descriptions" value = "" />
+		<patcher name = "sustain fx chooser">
+			<pattr name = "Pre-LPF_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "masterbus[1]">
-			<pattr name = "masterbus" value = "1" />
+		<patcher name = "attack fx chooser">
+			<pattr name = "Dry-ish_FX_plugin_choice" value = "" />
 		</patcher>
-		<patcher name = "patcher">
-			<pattr name = "preamp_and_pitch" value = "1" />
-		</patcher>
-		<patcher name = "mix_env_logic">
-			<pattr name = "env_bottom" value = "20." />
-			<pattr name = "env_inv" value = "1" />
-			<pattr name = "env_top" value = "80." />
-		</patcher>
-		<patcher name = "just_theDrop">
-			<pattr name = "just_theDrop" value = "1" />
-		</patcher>
-		<patcher name = "crossovers_and_8va">
-			<pattr name = "crossovers" value = "1" />
-		</patcher>
-		<patcher name = "patcher[1]">
-			<pattr name = "just_MF-101S" value = "1" />
-		</patcher>
-		<patcher name = "patcher[2]">
-			<pattr name = "lowComp_and_highDryFX" value = "1" />
-		</patcher>
-		<patcher name = "post-triplewrap_mixbus">
-			<pattr name = "Mod Input Gain[1]" value = "26." />
-			<pattr name = "Mod Output Gain[1]" value = "37.84252" />
-			<pattr name = "rnbo_comp" value = "" />
-		</patcher>
-		<patcher name = "patcher[3]">
-			<pattr name = "just_triC" value = "1" />
+		<patcher name = "post-crossfade fx chooser">
+			<pattr name = "Post-Crossfade_FX_plugin_choice" value = "" />
 		</patcher>
 	</slot>
 </pattrstorage>
