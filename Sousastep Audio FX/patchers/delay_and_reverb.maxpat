@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2181.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,45 @@
 		"assistshowspatchername" : 0,
 		"title" : "Delay Sends",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Silom",
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 222.527596900680237, 849.698275661230127, 26.0, 24.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silom",
+					"id" : "obj-66",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 222.527596900680237, 775.736671174752473, 69.0, 24.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silom",
+					"id" : "obj-67",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 222.527596900680237, 738.843924849931682, 69.0, 24.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-101",
@@ -458,7 +497,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.566994309425354, 785.435612346402195, 126.335196274932969, 50.0 ],
+					"patching_rect" : [ 344.566994309425354, 833.435612346402195, 126.335196274932969, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "don't allow autosave until after pattr preset loads"
 				}
@@ -470,9 +509,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.566994309425354, 855.946500339745398, 55.0, 22.0 ],
-					"text" : "pipe 100"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 222.527596900680237, 813.231079167848975, 61.0, 22.0 ],
+					"text" : "delay 100"
 				}
 
 			}
@@ -565,19 +604,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 51.027596900680237, 759.731556714850967, 26.0, 24.0 ],
 					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Silom",
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.027596900680237, 730.199833041282545, 69.0, 24.0 ],
-					"text" : "deferlow"
 				}
 
 			}
@@ -2387,6 +2413,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-732", 1 ],
 					"source" : [ "obj-351", 0 ]
 				}
@@ -2472,7 +2505,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
@@ -2544,16 +2577,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"order" : 0,
-					"source" : [ "obj-49", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"order" : 1,
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -2617,13 +2641,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-49", 0 ],
-					"source" : [ "obj-50", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -2910,6 +2927,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-66", 0 ],
+					"source" : [ "obj-67", 0 ]
 				}
 
 			}
