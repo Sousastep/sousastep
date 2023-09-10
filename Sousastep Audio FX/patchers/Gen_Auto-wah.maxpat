@@ -132,7 +132,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 405.0, 334.0, 143.0, 22.0 ],
-					"text" : "\"audio effect parameters\""
+					"text" : "\"audio effect parameters\"",
+					"varname" : "audio effect parameters"
 				}
 
 			}
@@ -2755,11 +2756,9 @@
 				"box" : 				{
 					"active" : 					{
 						"rnbo~[2]" : 0,
-						"rnbo~[7]" : 0,
 						"delay_and_reverb" : 0,
 						"delay_and_reverb::delay_sends_settings" : 0,
 						"masterbus[1]" : 0,
-						"masterbus[1]::mono_stereo[1]" : 0,
 						"masterbus[1]::plugin_or_rnbo_selector" : 0,
 						"masterbus[1]::plugin_or_rnbo_selector::main_reverb_rnbo_or_plugin" : 0,
 						"masterbus[1]::plugin_or_rnbo_selector[1]" : 0,
@@ -7961,10 +7960,10 @@
  ],
 		"parameters" : 		{
 			"obj-1167" : [ "function[24]", "function[16]", 0 ],
-			"obj-30::obj-1::obj-191" : [ "vst~[29]", "vst~", 0 ],
-			"obj-30::obj-2::obj-191" : [ "vst~[6]", "vst~", 0 ],
-			"obj-30::obj-3::obj-191" : [ "vst~[10]", "vst~", 0 ],
-			"obj-30::obj-4::obj-191" : [ "vst~[9]", "vst~", 0 ],
+			"obj-30::obj-1::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-30::obj-2::obj-191" : [ "vst~[26]", "vst~", 0 ],
+			"obj-30::obj-3::obj-191" : [ "vst~[28]", "vst~", 0 ],
+			"obj-30::obj-4::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-370::obj-62" : [ "number[13]", "number[3]", 0 ],
 			"obj-370::obj-64" : [ "number[12]", "number[4]", 0 ],
 			"obj-39::obj-1155::obj-62" : [ "number[2]", "number[3]", 0 ],
@@ -7994,18 +7993,18 @@
 			"obj-51::obj-73::obj-35" : [ "loop mon vol", "looper monitor", 0 ],
 			"obj-51::obj-73::obj-41::obj-24" : [ "function[21]", "function", 0 ],
 			"obj-51::obj-7::obj-21::obj-191" : [ "vst~[23]", "vst~", 0 ],
-			"obj-59::obj-1::obj-191" : [ "vst~[24]", "vst~", 0 ],
-			"obj-59::obj-2::obj-191" : [ "vst~[25]", "vst~", 0 ],
-			"obj-59::obj-3::obj-191" : [ "vst~[38]", "vst~", 0 ],
-			"obj-59::obj-4::obj-191" : [ "vst~[37]", "vst~", 0 ],
+			"obj-59::obj-1::obj-191" : [ "vst~[31]", "vst~", 0 ],
+			"obj-59::obj-2::obj-191" : [ "vst~[32]", "vst~", 0 ],
+			"obj-59::obj-3::obj-191" : [ "vst~[4]", "vst~", 0 ],
+			"obj-59::obj-4::obj-191" : [ "vst~[3]", "vst~", 0 ],
 			"obj-64::obj-1359" : [ "env decay", "env decay", 0 ],
 			"obj-64::obj-28" : [ "interp Xfades", "interp Xfades", 0 ],
 			"obj-64::obj-35" : [ "env attack", "env attack", 0 ],
 			"obj-683::obj-18::obj-21::obj-191" : [ "vst~[17]", "vst~", 0 ],
-			"obj-683::obj-4::obj-1::obj-191" : [ "vst~[11]", "vst~", 0 ],
-			"obj-683::obj-4::obj-2::obj-191" : [ "vst~[22]", "vst~", 0 ],
-			"obj-683::obj-4::obj-3::obj-191" : [ "vst~[36]", "vst~", 0 ],
-			"obj-683::obj-4::obj-4::obj-191" : [ "vst~[35]", "vst~", 0 ],
+			"obj-683::obj-4::obj-1::obj-191" : [ "vst~[29]", "vst~", 0 ],
+			"obj-683::obj-4::obj-2::obj-191" : [ "vst~[30]", "vst~", 0 ],
+			"obj-683::obj-4::obj-3::obj-191" : [ "vst~[2]", "vst~", 0 ],
+			"obj-683::obj-4::obj-4::obj-191" : [ "vst~[1]", "vst~", 0 ],
 			"obj-683::obj-51::obj-21::obj-191" : [ "vst~[21]", "vst~", 0 ],
 			"obj-683::obj-5::obj-21::obj-191" : [ "vst~[20]", "vst~", 0 ],
 			"obj-6::obj-1103" : [ "low_phase_offset[1]", "low_phase_offset", 0 ],
@@ -8472,6 +8471,13 @@
 			}
 , 			{
 				"name" : "four_plugin_selectors.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "four_plugin_selectors_chooser.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

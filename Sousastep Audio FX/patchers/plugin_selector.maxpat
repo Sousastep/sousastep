@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2073.0, 1319.0 ],
+		"rect" : [ 401.0, 87.0, 1682.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 152.951638418574476, 640.0, 100.0, 22.0 ],
+					"text" : "route (undefined)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 152.951638418574476, 679.0, 107.0, 22.0 ],
+					"text" : "s #1_plugin_name"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"hint" : "open pattrstorage's \"storage window\" (for sanity checks)",
@@ -576,8 +599,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.834634767215675, 866.43891747960015, 298.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 72.0, 66.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 114.0, 36.0 ],
 					"text" : "please select a plugin :)"
 				}
 
@@ -1807,8 +1830,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
-					"midpoints" : [ 162.451638418574476, 924.0, 656.0, 924.0, 656.0, 955.0, 624.0, 955.0, 624.0, 900.0, 1398.0, 900.0, 1398.0, 534.0, 1422.5, 534.0 ],
+					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -1840,6 +1862,23 @@
 				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-73", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"order" : 1,
+					"source" : [ "obj-77", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"midpoints" : [ 243.451638418574476, 924.0, 656.0, 924.0, 656.0, 955.0, 624.0, 955.0, 624.0, 900.0, 1398.0, 900.0, 1398.0, 534.0, 1422.5, 534.0 ],
+					"order" : 0,
+					"source" : [ "obj-77", 1 ]
 				}
 
 			}
