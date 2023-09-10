@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,31 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 794.0, 419.5, 100.0, 22.0 ],
+					"text" : "message time $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Silom",
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 294.0, 112.063447347136616, 69.0, 24.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"autosave" : 0,
 					"color" : [ 0.999996185302734, 0.99993908405304, 0.041033305227757, 1.0 ],
@@ -95,28 +120,27 @@
 ,
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 376.0, 603.0, 396.0, 24.0 ],
-					"presentation_linecount" : 8,
 					"rnboattrcache" : 					{
-						"color" : 						{
-							"label" : "color",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"regen" : 						{
 							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"spread" : 						{
-							"label" : "spread",
+						"color" : 						{
+							"label" : "color",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"volume" : 						{
 							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"spread" : 						{
+							"label" : "spread",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -141,7 +165,7 @@
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.70",
+					"rnboversion" : "1.3.0-dev.7",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1141,7 +1165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 645.0, 657.0, 91.951638418574476, 35.0 ],
+					"patching_rect" : [ 645.0, 657.0, 93.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "loadbang bangs after rnbo loads"
 				}
@@ -1154,7 +1178,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 808.5, 367.078732719618642, 168.0, 21.0 ],
+					"patching_rect" : [ 851.0, 378.078732719618642, 168.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "convert BPM to ms per quarter"
 				}
@@ -1167,7 +1191,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 751.5, 367.078732719618642, 55.0, 22.0 ],
+					"patching_rect" : [ 794.0, 378.078732719618642, 55.0, 22.0 ],
 					"text" : "!/ 60000."
 				}
 
@@ -1180,20 +1204,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.5, 330.89879275517626, 82.0, 22.0 ],
+					"patching_rect" : [ 794.0, 341.89879275517626, 82.0, 22.0 ],
 					"text" : "r tempo_BPM"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-51",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 753.0, 406.89879275517626, 79.0, 22.0 ],
-					"text" : "prepend time"
 				}
 
 			}
@@ -1343,7 +1355,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2186,7 +2198,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 911.0, 140.5, 414.0, 87.0 ],
-					"presentation_linecount" : 6,
 					"text" : "Delay works by recording an input signal, and then playing it back after a period of time. The delayed signal may be played back into the recording again, to create the sound of a repeating, decaying echo. When a filter is inserted into that delay loop, each repeating echo will be further filtered, creating more \"fuzzy\" effects. To produce a stereo delay, a primary delay unit is necessary, in order to shift the first echo of one of the audio channels."
 				}
 
@@ -2235,7 +2246,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-51", 0 ],
+					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-1004", 0 ]
 				}
 
@@ -2264,7 +2275,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
@@ -2275,6 +2286,13 @@
 					"destination" : [ "obj-45", 0 ],
 					"order" : 0,
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -2317,6 +2335,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -2375,13 +2400,6 @@
 					"destination" : [ "obj-32", 0 ],
 					"midpoints" : [ 416.5, 160.014325794620845, 393.451638418574476, 160.014325794620845 ],
 					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 2 ],
-					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -2475,19 +2493,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "FilterDelaySend.rnbopat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
