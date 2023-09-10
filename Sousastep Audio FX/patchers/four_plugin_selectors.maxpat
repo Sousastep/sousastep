@@ -40,17 +40,26 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-54",
-					"maxclass" : "panel",
-					"mode" : 0,
+					"attr" : "ramptime",
+					"id" : "obj-16",
+					"maxclass" : "attrui",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1616.0, 529.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 950.834757999999965, 205.0 ],
-					"proportion" : 0.5
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 118.0, 416.5, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 118.0, 383.0, 66.0, 22.0 ],
+					"text" : "r ramptime"
 				}
 
 			}
@@ -346,7 +355,7 @@
 				"box" : 				{
 					"comment" : "latency in samples",
 					"id" : "obj-42",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -416,7 +425,8 @@
 			}
 , 			{
 				"box" : 				{
-					"columns" : 4,
+					"columns" : 5,
+					"hint" : "Select which plugin is active. #5 bypasses all.",
 					"id" : "obj-19",
 					"maxclass" : "matrixctrl",
 					"numinlets" : 1,
@@ -426,7 +436,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 334.0, 224.0, 179.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 396.082621082621017, 2.0, 163.834757834757966, 34.0 ],
+					"presentation_rect" : [ 413.082621082621017, 0.0, 163.834757834757966, 34.0 ],
 					"rows" : 1
 				}
 
@@ -447,7 +457,7 @@
 				"box" : 				{
 					"comment" : "right out",
 					"id" : "obj-12",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -459,7 +469,7 @@
 				"box" : 				{
 					"comment" : "left out",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -471,7 +481,7 @@
 				"box" : 				{
 					"comment" : "right in",
 					"id" : "obj-10",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -484,7 +494,7 @@
 				"box" : 				{
 					"comment" : "left in",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -498,10 +508,10 @@
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 643.0, 496.0, 148.0, 22.0 ],
-					"text" : "gate~ 4 1 @ramptime 150"
+					"text" : "gate~ 5 5 @ramptime 150"
 				}
 
 			}
@@ -510,10 +520,10 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "signal", "signal", "signal", "signal" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 451.0, 496.0, 148.0, 22.0 ],
-					"text" : "gate~ 4 1 @ramptime 150"
+					"text" : "gate~ 5 5 @ramptime 150"
 				}
 
 			}
@@ -521,11 +531,11 @@
 				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 638.0, 969.0, 166.0, 22.0 ],
-					"text" : "selector~ 4 1 @ramptime 150"
+					"text" : "selector~ 5 5 @ramptime 150"
 				}
 
 			}
@@ -533,11 +543,11 @@
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 5,
+					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 450.0, 969.0, 166.0, 22.0 ],
-					"text" : "selector~ 4 1 @ramptime 150"
+					"text" : "selector~ 5 5 @ramptime 150"
 				}
 
 			}
@@ -641,6 +651,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-54",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1616.0, 529.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 950.834757999999965, 205.0 ],
+					"proportion" : 0.5
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -667,6 +694,45 @@
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 3,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 1,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 2,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -995,6 +1061,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 5 ],
+					"source" : [ "obj-7", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
@@ -1032,6 +1105,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-8", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 5 ],
+					"source" : [ "obj-8", 4 ]
 				}
 
 			}
@@ -1110,6 +1190,32 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-2::obj-191" : [ "vst~[1]", "vst~", 0 ],
+			"obj-3::obj-191" : [ "vst~[3]", "vst~", 0 ],
+			"obj-4::obj-191" : [ "vst~[2]", "vst~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "plugin_selector.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
 	}
 
