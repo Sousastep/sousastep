@@ -35,15 +35,15 @@
 								}
 ,
 								"sustain" : 								{
-									"value" : 100.0
+									"value" : 10.0
 								}
 ,
 								"comp" : 								{
-									"value" : 42.0
+									"value" : 40.0
 								}
 ,
 								"attack" : 								{
-									"value" : 10.0
+									"value" : 100.0
 								}
 ,
 								"__presetid" : "compressor_mono",
@@ -56,7 +56,7 @@
 								}
 ,
 								"lookahead" : 								{
-									"value" : 0.0
+									"value" : 1.0
 								}
 
 							}

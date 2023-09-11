@@ -2,7 +2,7 @@
 	"name" : "Sousastep Audio FX",
 	"version" : 1,
 	"creationdate" : 3727803901,
-	"modificationdate" : 3777214684,
+	"modificationdate" : 3777302684,
 	"viewrect" : [ 891.0, 107.0, 300.0, 1223.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -25,6 +25,10 @@
 			}
 ,
 			"venmo_qr.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"four_plugin_selectors_chooser.maxpat" : 			{
 				"kind" : "patcher"
 			}
 ,
@@ -74,7 +78,15 @@
 				"kind" : "patcher"
 			}
 ,
-			"four_plugin_selectors_chooser.maxpat" : 			{
+			"just_MF-101S.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"Just_sm_ladder.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"just_theDrop.maxpat" : 			{
 				"kind" : "patcher"
 			}
 
