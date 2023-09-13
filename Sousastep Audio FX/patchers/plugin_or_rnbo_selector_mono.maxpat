@@ -107,13 +107,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-79",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 804.008964172680294, 1101.543551973372814, 255.0, 34.0 ],
-					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nozoom, window exec"
+					"patching_rect" : [ 804.008964172680294, 1101.543551973372814, 537.0, 21.0 ],
+					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nozoom, window flags float, window exec"
 				}
 
 			}
@@ -1232,19 +1231,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "octaver_comp_rnbo_or_plugin.json",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",

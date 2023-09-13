@@ -42,6 +42,44 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-40",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ -4235.259741948888404, -1870.5, 112.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "option + m toggles custom menubar"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ -4290.5, -1847.0, 47.0, 22.0 ],
+					"text" : "sel 181"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ -4290.5, -1883.0, 50.5, 22.0 ],
+					"text" : "key"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -356,7 +394,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -3931.0, -1471.0, 118.0, 22.0 ],
+					"patching_rect" : [ -3838.0, -1380.0, 118.0, 22.0 ],
 					"text" : "\"Controller Bindings\"",
 					"varname" : "Controller Bindings"
 				}
@@ -368,7 +406,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -3961.0, -1439.0, 143.0, 22.0 ],
+					"patching_rect" : [ -3868.0, -1348.0, 143.0, 22.0 ],
 					"text" : "\"audio effect parameters\"",
 					"varname" : "audio effect parameters"
 				}
@@ -382,7 +420,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -3913.0, -1605.0, 24.0, 24.0 ]
+					"patching_rect" : [ -3820.0, -1514.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -392,7 +430,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -3965.0, -1545.0, 152.0, 22.0 ],
+					"patching_rect" : [ -3872.0, -1454.0, 152.0, 22.0 ],
 					"text" : "s controller_bindings_open"
 				}
 
@@ -405,7 +443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4011.0, -1568.0, 24.0, 24.0 ]
+					"patching_rect" : [ -3918.0, -1477.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -415,7 +453,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -3987.5, -1517.444417333333377, 184.0, 22.0 ],
+					"patching_rect" : [ -3894.5, -1426.444417333333377, 184.0, 22.0 ],
 					"text" : "s audio_effect_parameters_open"
 				}
 
@@ -526,7 +564,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -4327.5, -1892.0, 70.0, 22.0 ],
+					"patching_rect" : [ -4235.259741948888404, -1813.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -539,7 +577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4276.051510093067009, -1858.0, 229.203994750976562, 79.0 ],
+					"patching_rect" : [ -4183.051510093067009, -1767.0, 229.203994750976562, 79.0 ],
 					"suppressinlet" : 1,
 					"text" : "#X item 5 1 open Audio Effect Parameters;\r#X item 5 2 open Controller Bindings;\r#X item 5 3 open Documentation/G;\r#X item 5 4 -;\r#X item 5 5 About;"
 				}
@@ -556,7 +594,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4432.5, -1774.0, 101.0, 54.0 ],
+					"patching_rect" : [ -4339.5, -1683.0, 101.0, 54.0 ],
 					"suppressinlet" : 1,
 					"text" : "double-click to edit menu specification"
 				}
@@ -570,7 +608,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4327.5, -1851.0, 31.0, 31.0 ]
+					"patching_rect" : [ -4234.5, -1760.0, 31.0, 31.0 ]
 				}
 
 			}
@@ -583,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ -4327.5, -1757.0, 390.0, 23.0 ],
+					"patching_rect" : [ -4234.5, -1666.0, 390.0, 23.0 ],
 					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "SousaFX", ";", "#X", "item", 5, 1, "Audio", "Effect", "Parameters/P", ";", "#X", "item", 5, 2, "Controller", "Bindings/B", ";", "#X", "item", 5, 3, "Documentation/D", ";", "#X", "item", 5, 4, "-", ";", "#X", "item", 5, 5, "About", ";", "#X", "end", ";" ],
 					"text" : "menubar 5"
 				}
@@ -600,7 +638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -3956.5, -1705.0, 54.0, 23.0 ],
+					"patching_rect" : [ -3863.5, -1614.0, 54.0, 23.0 ],
 					"triangle" : 0,
 					"triscale" : 0.9
 				}
@@ -616,7 +654,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4049.5, -1728.0, 53.0, 23.0 ],
+					"patching_rect" : [ -3956.5, -1637.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -631,7 +669,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4142.0, -1728.0, 53.0, 23.0 ],
+					"patching_rect" : [ -4049.0, -1637.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -646,7 +684,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4234.75, -1731.0, 53.0, 23.0 ],
+					"patching_rect" : [ -4141.75, -1640.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -661,7 +699,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4327.5, -1731.0, 53.0, 23.0 ],
+					"patching_rect" : [ -4234.5, -1640.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -675,7 +713,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 6,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ -3956.5, -1678.0, 97.0, 23.0 ],
+					"patching_rect" : [ -3863.5, -1587.0, 97.0, 23.0 ],
 					"text" : "select 1 2 3 4 5"
 				}
 
@@ -689,7 +727,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4468.0, -1851.0, 151.0, 65.0 ],
+					"patching_rect" : [ -4375.0, -1760.0, 151.0, 65.0 ],
 					"suppressinlet" : 1,
 					"text" : "Turn on to enable patchers menus (observe the menu bar),\rturn off to disable"
 				}
@@ -704,7 +742,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ -4410.0, -1586.0, 56.0, 23.0 ],
+					"patching_rect" : [ -4317.0, -1495.0, 56.0, 23.0 ],
 					"text" : "select 1"
 				}
 
@@ -718,7 +756,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -4410.0, -1555.222208666666575, 40.0, 23.0 ],
+					"patching_rect" : [ -4317.0, -1464.222208666666575, 40.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -732,7 +770,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ -4410.0, -1524.444417333333377, 58.0, 23.0 ],
+					"patching_rect" : [ -4317.0, -1433.444417333333377, 58.0, 23.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -745,7 +783,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4410.0, -1493.666625999999951, 102.0, 23.0 ],
+					"patching_rect" : [ -4317.0, -1402.666625999999951, 102.0, 23.0 ],
 					"text" : "about_SousaFX"
 				}
 
@@ -762,7 +800,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -3938.0, -1757.0, 229.703994750976562, 39.0 ]
+					"patching_rect" : [ -3845.0, -1666.0, 229.703994750976562, 39.0 ]
 				}
 
 			}
@@ -775,7 +813,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4327.5, -1707.0, 59.0, 65.0 ],
+					"patching_rect" : [ -4234.5, -1616.0, 59.0, 65.0 ],
 					"suppressinlet" : 1,
 					"text" : "1 if the \nAbout...\nitem is \nchosen",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
@@ -791,7 +829,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4260.75, -1707.0, 104.0, 79.0 ],
+					"patching_rect" : [ -4167.75, -1616.0, 104.0, 79.0 ],
 					"suppressinlet" : 1,
 					"text" : "File menu items (except Close, Midi Setup…, Max Menus, and Quit)",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
@@ -807,7 +845,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4147.0, -1704.0, 71.0, 50.0 ],
+					"patching_rect" : [ -4054.0, -1613.0, 71.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "Any items added to Edit menu",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
@@ -823,7 +861,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -4053.5, -1704.0, 62.0, 50.0 ],
+					"patching_rect" : [ -3960.5, -1613.0, 62.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "Window menu items",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
@@ -4247,7 +4285,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -4351.5, -1845.5, 20.0, 20.0 ],
+					"patching_rect" : [ -4258.5, -1754.5, 20.0, 20.0 ],
 					"rounded" : 60.0,
 					"text" : "1",
 					"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -4339,7 +4377,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ -1085.0, -172.499243626928092, 175.0, 35.0 ],
+					"patching_rect" : [ -1085.0, -172.499243626928092, 177.0, 35.0 ],
 					"text" : "plugin_or_rnbo_selector_mono octaver rnbo_octaver",
 					"varname" : "plugin_or_rnbo_selector_mono"
 				}
@@ -5008,6 +5046,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-893", 0 ],
 					"source" : [ "obj-120", 0 ]
 				}
@@ -5144,7 +5189,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1324", 0 ],
-					"midpoints" : [ -3947.0, -1681.0, -3947.0, -1681.0 ],
+					"midpoints" : [ -3854.0, -1590.0, -3854.0, -1590.0 ],
 					"source" : [ "obj-1310", 0 ]
 				}
 
@@ -5152,7 +5197,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1335", 0 ],
-					"midpoints" : [ -4318.0, -1707.0, -4400.5, -1707.0 ],
+					"midpoints" : [ -4225.0, -1616.0, -4307.5, -1616.0 ],
 					"source" : [ "obj-1321", 0 ]
 				}
 
@@ -5647,6 +5692,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1308", 0 ],
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -6899,7 +6951,7 @@
 		"parameters" : 		{
 			"obj-1167" : [ "function[24]", "function[16]", 0 ],
 			"obj-23::obj-21::obj-191" : [ "vst~[35]", "vst~", 0 ],
-			"obj-30::obj-1::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-30::obj-1::obj-191" : [ "vst~[17]", "vst~", 0 ],
 			"obj-30::obj-2::obj-191" : [ "vst~[26]", "vst~", 0 ],
 			"obj-30::obj-3::obj-191" : [ "vst~[28]", "vst~", 0 ],
 			"obj-30::obj-4::obj-191" : [ "vst~[27]", "vst~", 0 ],
@@ -6966,6 +7018,8 @@
 			"obj-64::obj-35" : [ "env attack", "env attack", 0 ],
 			"obj-67::obj-21::obj-62" : [ "rnbo~[5]", "rnbo~", 0 ],
 			"obj-68::obj-21::obj-62" : [ "rnbo~[1]", "rnbo~", 0 ],
+			"obj-6::obj-21::obj-695" : [ "MF-101S_two", "MF-101S_two", 0 ],
+			"obj-6::obj-21::obj-696" : [ "MF-101S_one", "MF-101S_one", 0 ],
 			"obj-74::obj-1::obj-191" : [ "vst~[6]", "vst~", 0 ],
 			"obj-74::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-74::obj-3::obj-191" : [ "vst~[33]", "vst~", 0 ],
@@ -7096,20 +7150,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Linkwitz-Riley_24dB_highpass.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Linkwitz-Riley_24dB_lowpass.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Modulation Parameters.maxpat",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
 				"patcherrelativepath" : ".",
@@ -7146,6 +7186,20 @@
 			}
 , 			{
 				"name" : "Pre-LPF_FX_plugin4_plugin.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ProQ3_crossovers.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ProQ3crossovers.json",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -7257,23 +7311,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "crossover-calc.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "crossover_plugin_or_gen.json",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "crossovers.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7481,17 +7521,17 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_amp_mod.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "just_MF-101S.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_sm_ladder.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
+				"name" : "just_amp_mod.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -7790,27 +7830,6 @@
 			}
 , 			{
 				"name" : "smFilterPack_env_follow.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smFilterPack_ladder.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smFilterPack_ladder_setup.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smFilterPack_ladder_wrap.gendsp",
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",

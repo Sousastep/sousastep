@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2169.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 883.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"title" : "Audio Effect Parameters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-136",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1231.375, 1060.117420789349126, 121.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "screen width & height"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"hint" : "show storagewindow",
@@ -122,7 +135,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "Pre-LPF_FX", "Post-Crossfade_FX", "Dry-ish_FX", "modulation" ],
 					"patching_rect" : [ 896.494937694703822, 193.623931623931639, 92.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "t Pre-LPF_FX Post-Crossfade_FX Dry-ish_FX modulation"
 				}
 
@@ -304,7 +316,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2127.678507817508944, 822.485050129710544, 234.0, 40.0 ],
-					"presentation_linecount" : 2,
 					"text" : "store a single parameter to this preset, if the preset already exists."
 				}
 
@@ -441,7 +452,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2298.462254298852713, 1461.250290570068955, 52.0, 22.0 ],
-					"text" : "0, 1 100"
+					"text" : "0, 1 150"
 				}
 
 			}
@@ -560,15 +571,15 @@
 					"fontname" : "Silom",
 					"id" : "obj-861",
 					"interp" : 					{
-						"mod params::aux_SnTrSq" : [ 0, 0.0 ],
-						"mod params::aux_route_menu" : [ 0, 0.0 ],
-						"mod params::low_SnTrSq" : [ 0, 0.0 ],
-						"mod params::verylow_SnTrSq" : [ 0, 0.0 ],
-						"mod params::high_SnTrSq" : [ 0, 0.0 ],
 						"preset descriptions" : [ 0, 0.0 ],
 						"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 0, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 0, 0.0 ],
 						"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 0, 0.0 ],
-						"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 0, 0.0 ]
+						"mod params::aux_SnTrSq" : [ 0, 0.0 ],
+						"mod params::aux_route_menu" : [ 0, 0.0 ],
+						"mod params::high_SnTrSq" : [ 0, 0.0 ],
+						"mod params::low_SnTrSq" : [ 0, 0.0 ],
+						"mod params::verylow_SnTrSq" : [ 0, 0.0 ]
 					}
 ,
 					"linecount" : 4,
@@ -578,10 +589,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1813.794199913105331, 1647.661945338508303, 126.0, 70.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 824, 334, 1402, 1079 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 1213, 532, 1870, 1195 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @savemode 0 @chaangemode 1",
@@ -723,7 +734,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2214.809810771184857, 1038.141186277192674, 161.78355214821795, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "main presets is 1-indexed\numenu is 0-indexed "
 				}
 
@@ -736,7 +746,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2214.809810771184857, 1171.734841578698251, 149.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pattr is 1-indexed because\nit won't save preset 0"
 				}
 
@@ -1568,7 +1577,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1208.950958482105762, 1171.734841578698251, 79.0, 22.0 ],
+					"patching_rect" : [ 1206.950958482105762, 1159.808710394674563, 79.0, 22.0 ],
 					"text" : "prepend 0 53"
 				}
 
@@ -1577,25 +1586,13 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-122",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1293.375, 1134.426131184023689, 76.0, 21.0 ],
+					"patching_rect" : [ 1286.375, 1103.5, 129.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "width of fpic"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-121",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1237.375, 1037.0, 102.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "window full height"
+					"text" : "width of fpic + width of vertical scrollbar"
 				}
 
 			}
@@ -1606,8 +1603,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1208.950958482105762, 1133.926131184023689, 76.0, 22.0 ],
-					"text" : "prepend 860"
+					"patching_rect" : [ 1206.950958482105762, 1110.0, 76.0, 22.0 ],
+					"text" : "prepend 885"
 				}
 
 			}
@@ -1618,7 +1615,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1166.950958482105762, 1036.117420789349126, 59.0, 22.0 ],
+					"patching_rect" : [ 1166.950958482105762, 1060.117420789349126, 59.0, 22.0 ],
 					"text" : "unpack i i"
 				}
 
@@ -1631,7 +1628,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1398.075958482105534, 1063.0, 119.0, 116.0 ],
+					"patching_rect" : [ 1226.075958482105534, 909.0, 119.0, 116.0 ],
 					"text" : ";\rmax launchbrowser https://gamedev.stackexchange.com/questions/83570/why-is-the-origin-in-computer-graphics-coordinates-at-the-top-left"
 				}
 
@@ -1645,7 +1642,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1208.950958482105762, 1209.543551973372814, 326.0, 21.0 ],
+					"patching_rect" : [ 1206.950958482105762, 1209.617420789349126, 326.0, 21.0 ],
 					"text" : "window size $1 $2 $3 $4, window flags nozoom, window exec"
 				}
 
@@ -1658,7 +1655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1403.806968861579207, 1011.0, 106.962020758946892, 50.0 ],
+					"patching_rect" : [ 1231.806968861579207, 857.0, 106.962020758946892, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "x, y\n\norigin is TOP LEFT"
 				}
@@ -1673,7 +1670,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1129.950958482105762, 999.308710394674563, 56.0, 21.0 ],
+					"patching_rect" : [ 1129.950958482105762, 1011.308710394674563, 56.0, 21.0 ],
 					"text" : "zl slice 2"
 				}
 

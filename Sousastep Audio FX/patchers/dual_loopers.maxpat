@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Loopers",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontsize" : 9.764214353069889,
@@ -71,13 +72,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-79",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1849.325958482105762, 770.21021836393038, 373.0, 34.0 ],
-					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nozoom, window exec"
+					"patching_rect" : [ 1849.325958482105762, 770.21021836393038, 537.0, 21.0 ],
+					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags float, window flags nozoom, window exec"
 				}
 
 			}
@@ -420,6 +420,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "dual_loopers.json",
 					"fontname" : "Silom",
 					"id" : "obj-17",
 					"maxclass" : "newobj",
@@ -991,11 +992,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 318.675846106207473, 39.999999723890795, 30.0, 30.0 ]
 				}
 
@@ -1004,11 +1005,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-60",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 413.675846106207473, 39.999999723890795, 30.0, 30.0 ]
 				}
 
@@ -1017,7 +1018,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-63",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1029,7 +1030,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-64",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1041,7 +1042,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-71",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1053,7 +1054,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-72",
-					"index" : 0,
+					"index" : 4,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1695,104 +1696,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1041::obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
-			"obj-1041::obj-813" : [ "feedback[1]", "feedback", 0 ],
-			"obj-1041::obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
-			"obj-1041::obj-901" : [ "master_highpass[1]", "highpass", 0 ],
-			"obj-1042::obj-7" : [ "Loop Volume[2]", "Loop Vol", 0 ],
-			"obj-1042::obj-813" : [ "feedback[2]", "feedback", 0 ],
-			"obj-1042::obj-895" : [ "master_lowpass[2]", "lowpass", 0 ],
-			"obj-1042::obj-901" : [ "master_highpass[2]", "highpass", 0 ],
-			"obj-35" : [ "loop mon vol", "looper monitor", 0 ],
-			"obj-41::obj-24" : [ "function[21]", "function", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-1042::obj-7" : 				{
-					"parameter_longname" : "Loop Volume[2]"
-				}
-,
-				"obj-1042::obj-813" : 				{
-					"parameter_longname" : "feedback[2]"
-				}
-,
-				"obj-1042::obj-895" : 				{
-					"parameter_longname" : "master_lowpass[2]"
-				}
-,
-				"obj-1042::obj-901" : 				{
-					"parameter_longname" : "master_highpass[2]"
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "FilterDelay.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "looper_relayer.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sidechained_kick.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm.sallenkey2~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"type" : "GenX",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sm_sallenkey_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
