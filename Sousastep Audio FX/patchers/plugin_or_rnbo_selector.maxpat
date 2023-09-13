@@ -464,7 +464,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 448.008964172680294, 13.0, 116.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -617,7 +617,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Choose between max-native effect, or a plugin. Your selection is auto-saved.",
 					"id" : "obj-1",
-					"items" : [ "RNBO", ",", "plugin" ],
+					"items" : [ "Max", ",", "plugin" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
