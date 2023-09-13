@@ -1135,7 +1135,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 281.660582259430612, 1738.333334445953369, 100.0, 22.0 ],
+					"patching_rect" : [ -486.339417740569388, 1781.333334445953369, 100.0, 22.0 ],
 					"text" : "sidechained_kick"
 				}
 
@@ -2631,7 +2631,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -122.339416310057686, 1829.451369074328341, 162.999997138977051, 20.0 ],
+					"patching_rect" : [ -896.339416310057686, 1918.451369074328341, 162.999997138977051, 20.0 ],
 					"text" : "timeFX / high / low / very low",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -2646,7 +2646,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ -192.699696821433918, 1312.166794320316512, 85.0, 22.0 ],
+					"patching_rect" : [ -966.699696821433918, 1401.166794320316512, 85.0, 22.0 ],
 					"text" : "mc.unpack~ 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -2661,7 +2661,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ -192.699696821433918, 1271.538236621226588, 170.0, 22.0 ],
+					"patching_rect" : [ -966.699696821433918, 1360.538236621226588, 170.0, 22.0 ],
 					"text" : "mc.receive~ very_low_cross 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -3041,7 +3041,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 5.593866362999734, 1312.166794320316512, 85.0, 22.0 ],
+					"patching_rect" : [ -768.406133637000266, 1401.166794320316512, 85.0, 22.0 ],
 					"text" : "mc.unpack~ 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -3056,7 +3056,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 5.593866362999734, 1271.538236621226588, 140.0, 22.0 ],
+					"patching_rect" : [ -768.406133637000266, 1360.538236621226588, 140.0, 22.0 ],
 					"text" : "mc.receive~ low_cross 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -3100,7 +3100,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 186.160582259430839, 1315.500127216549117, 85.0, 22.0 ],
+					"patching_rect" : [ -587.839417740569161, 1404.500127216549117, 85.0, 22.0 ],
 					"text" : "mc.unpack~ 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -3115,7 +3115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 186.160582259430839, 1274.871569517459193, 145.0, 22.0 ],
+					"patching_rect" : [ -587.839417740569161, 1363.871569517459193, 145.0, 22.0 ],
 					"text" : "mc.receive~ high_cross 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -3272,7 +3272,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 0,
-					"patching_rect" : [ -124.839417740569161, 1804.451349285586275, 168.0, 22.0 ],
+					"patching_rect" : [ -898.839417740569161, 1893.451349285586275, 168.0, 22.0 ],
 					"text" : "dac~ 23 24 25 26 27 28 29 30"
 				}
 
@@ -3965,28 +3965,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-7",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "auto-connect_human_interface.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ -3549.0475045123153, -1793.156132571203443, 236.000015735626221, 175.66667366027832 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1032.743474087082177, 449.880620915802638, 236.0, 175.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.0, 0.333333333333333, 0.003921568627451, 1.0 ],
 					"color" : [ 0.203921568627451, 1.0, 0.0, 1.0 ],
 					"id" : "obj-348",
@@ -4127,7 +4105,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 103.536899429152299, 1841.668023305939641, 384.0, 405.0 ],
+					"patching_rect" : [ -670.463100570847701, 1930.668023305939641, 384.0, 405.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 980.980865518958126, 26.843110808204074, 357.525217136248102, 386.30848717673598 ],
 					"varname" : "masterbus[1]",
@@ -4142,7 +4120,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 410.284441349325107, 1495.034656994313536, 105.0, 22.0 ],
+					"patching_rect" : [ -327.715558650674893, 1388.034656994313536, 105.0, 22.0 ],
 					"text" : "delay_and_reverb",
 					"varname" : "delay_and_reverb"
 				}
@@ -4247,7 +4225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -85.339416310057686, 1841.668023305939641, 97.000000357627869, 40.0 ],
+					"patching_rect" : [ -859.339416310057686, 1930.668023305939641, 97.000000357627869, 40.0 ],
 					"text" : "for recording",
 					"textjustification" : 1
 				}
@@ -6950,7 +6928,7 @@
  ],
 		"parameters" : 		{
 			"obj-1167" : [ "function[24]", "function[16]", 0 ],
-			"obj-23::obj-21::obj-191" : [ "vst~[35]", "vst~", 0 ],
+			"obj-23::obj-21::obj-191" : [ "vst~[10]", "vst~", 0 ],
 			"obj-30::obj-1::obj-191" : [ "vst~[17]", "vst~", 0 ],
 			"obj-30::obj-2::obj-191" : [ "vst~[26]", "vst~", 0 ],
 			"obj-30::obj-3::obj-191" : [ "vst~[28]", "vst~", 0 ],
@@ -6991,13 +6969,23 @@
 			"obj-39::obj-327" : [ "delay[1]", "pre delay", 0 ],
 			"obj-39::obj-334" : [ "delay", "post delay", 0 ],
 			"obj-39::obj-394" : [ "function[22]", "function", 0 ],
-			"obj-47::obj-540" : [ "Output Volume", "Output Volume", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-28" : [ "Size", "Size", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-60" : [ "Damp", "Damp", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-62" : [ "Dry", "Dry", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-63" : [ "Early", "Early", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-64" : [ "Tail", "Tail", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-65" : [ "Spread", "Spread", 0 ],
+			"obj-47::obj-153::obj-21::obj-40::obj-66" : [ "Time", "Time", 0 ],
+			"obj-47::obj-156" : [ "Reverb Output Volume", "Reverb Output Volume", 0 ],
+			"obj-47::obj-540" : [ "Delay Output Volume", "Delay Output Volume", 0 ],
 			"obj-48::obj-56" : [ "Xfreq", "cross freq", 0 ],
 			"obj-4::obj-24" : [ "function[2]", "function", 0 ],
-			"obj-51::obj-15::obj-21::obj-191" : [ "vst~[15]", "vst~", 0 ],
+			"obj-51::obj-15::obj-21::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-51::obj-18::obj-9" : [ "metronome", "metro volume", 0 ],
 			"obj-51::obj-47::obj-24" : [ "function[1]", "function", 0 ],
-			"obj-51::obj-6::obj-21::obj-191" : [ "vst~[16]", "vst~", 0 ],
+			"obj-51::obj-6::obj-21::obj-191" : [ "vst~[8]", "vst~", 0 ],
 			"obj-51::obj-73::obj-1041::obj-7" : [ "Loop Volume[1]", "Loop Vol", 0 ],
 			"obj-51::obj-73::obj-1041::obj-813" : [ "feedback[1]", "feedback", 0 ],
 			"obj-51::obj-73::obj-1041::obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
@@ -7008,7 +6996,7 @@
 			"obj-51::obj-73::obj-1042::obj-901" : [ "master_highpass[2]", "highpass", 0 ],
 			"obj-51::obj-73::obj-35" : [ "loop mon vol", "looper monitor", 0 ],
 			"obj-51::obj-73::obj-41::obj-24" : [ "function[21]", "function", 0 ],
-			"obj-51::obj-7::obj-21::obj-191" : [ "vst~[23]", "vst~", 0 ],
+			"obj-51::obj-7::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-59::obj-1::obj-191" : [ "vst~[31]", "vst~", 0 ],
 			"obj-59::obj-2::obj-191" : [ "vst~[32]", "vst~", 0 ],
 			"obj-59::obj-3::obj-191" : [ "vst~[4]", "vst~", 0 ],
@@ -7024,7 +7012,7 @@
 			"obj-74::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-74::obj-3::obj-191" : [ "vst~[33]", "vst~", 0 ],
 			"obj-74::obj-4::obj-191" : [ "vst~[29]", "vst~", 0 ],
-			"obj-76::obj-21::obj-191" : [ "vst~[5]", "vst~", 0 ],
+			"obj-76::obj-21::obj-191" : [ "vst~[11]", "vst~", 0 ],
 			"obj-9::obj-11::obj-21::obj-62" : [ "rnbo~[3]", "rnbo~", 0 ],
 			"obj-9::obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-9::obj-14" : [ "slider", "slider", 0 ],
@@ -7038,9 +7026,14 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-47::obj-156" : 				{
+					"parameter_longname" : "Reverb Output Volume",
+					"parameter_shortname" : "Reverb Output Volume"
+				}
+,
 				"obj-47::obj-540" : 				{
-					"parameter_longname" : "Output Volume",
-					"parameter_shortname" : "Output Volume"
+					"parameter_longname" : "Delay Output Volume",
+					"parameter_shortname" : "Delay Output Volume"
 				}
 ,
 				"obj-51::obj-73::obj-1042::obj-7" : 				{
@@ -7262,9 +7255,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "auto-connect_human_interface.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "bp.Gigaverb.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7805,6 +7797,20 @@
 				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb_gigaverb.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "reverb_rnbo_or_plugin.json",
+				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
