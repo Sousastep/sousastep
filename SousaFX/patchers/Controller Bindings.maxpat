@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2011.0, 1387.0 ],
+		"rect" : [ 1531.0, 53.0, 897.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
@@ -540,7 +541,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.912573683243243, 0.682842575135135, 0.135228575135135, 0.350594594594595 ],
+					"bgcolor" : [ 0.967875, 0.235003, 0.038047, 0.9 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-768",
@@ -551,7 +552,7 @@
 					"patching_rect" : [ 7830.194210486653901, 1298.264369577670095, 180.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.221867799759821, 175.266654292742714, 223.0, 21.0 ],
-					"text" : "attempting to connect in 1 second"
+					"text" : "attempting to connect in 12 seconds"
 				}
 
 			}
@@ -572,7 +573,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-769",
-					"items" : [ "CalDigit Thunderbolt 3 Audio", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
+					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0x4", ",", "Page: 0xff00, Usage: 0xff", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -2396,7 +2397,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.94 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -2409,7 +2410,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 9,
 					"presentation_rect" : [ 100.869185631605887, 531.3650813995514, 289.0, 153.0 ],
-					"text" : "This determines how diagonals are triggered.\n\nLatch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad\n\nDelay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad"
+					"text" : "This determines how diagonals are triggered.\n\nLatch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad\n\nDelay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad",
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -2551,7 +2553,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 5490.0, 2560.0, 122.0, 22.0 ],
-					"restore" : [ 4.000000000000002 ],
+					"restore" : [ 4.000000000000003 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2692,7 +2694,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.94 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -2705,15 +2707,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 17,
 					"presentation_rect" : [ 74.5, 784.0, 250.0, 283.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
 					"text" : "This determines how the dpad and LB react to their modifier key, LT.\n\nHold: Toggling with LT doesn't trigger dpad or LB. This is useful for being able to lock open sends.\n\nTrigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -2936,7 +2931,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.94 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -2949,7 +2944,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 95.0, 539.5, 277.0, 55.0 ],
-					"text" : "Before pressing a diagonal, this is the amount of time you have to press ↑ → ↓ ← before they trigger."
+					"text" : "Before pressing a diagonal, this is the amount of time you have to press ↑ → ↓ ← before they trigger.",
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -3094,7 +3090,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.94 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -3107,7 +3103,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 4,
 					"presentation_rect" : [ 95.0, 614.0, 274.0, 71.0 ],
-					"text" : "After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger."
+					"text" : "After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger.",
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -4456,7 +4453,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -4469,19 +4466,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 547.561669603991504, 1054.5, 331.0, 55.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
 					"text" : "toggle\noff = allow only when tuba's not playing \non = always allow through",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -7188,7 +7174,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.94 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"hidden" : 1,
@@ -7201,15 +7187,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 14,
 					"presentation_rect" : [ 567.030609188693688, 459.333333492279053, 282.0, 234.0 ],
-					"saved_attribute_attributes" : 					{
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
 					"text" : "This determines how the Controller Bindings Preset Selector functions.\n\nCycle: Single-click / double click cycles forward / back through user presets. \nHold to load default preset.\n\nCount: # of button presses in 1 second = user preset #. \nHold to load default preset.\n\nThis is a global parameter that's auto-saved.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -7251,7 +7230,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"bubblepoint" : 0.4,
 					"bubbleside" : 2,
 					"bubbleusescolors" : 1,
@@ -7266,19 +7245,8 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 345.23846048610767, 55.574606306941632, 140.0, 41.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
 					"text" : "Choose a User Preset to edit.",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
 			}
@@ -7391,6 +7359,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.5 ],
 					"fontname" : "Monaco",
 					"id" : "obj-77",
 					"linecount" : 2,
@@ -7411,10 +7380,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.45 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 0.45 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -7747,10 +7716,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1771.113938508647607, 1368.661945338508303, 388.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @savemode 0 @greedy 2",
@@ -7760,7 +7729,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.98 ],
 					"bubblepoint" : 0.4,
 					"bubbleside" : 2,
 					"bubbleusescolors" : 1,
@@ -7774,19 +7743,8 @@
 					"patching_rect" : [ 1834.613938508647607, 1215.17934321745588, 156.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 315.476920972215339, 64.074606306941632, 156.0, 24.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
-						}
-,
-						"textcolor" : 						{
-							"expression" : "themecolor.live_control_fg"
-						}
-
-					}
-,
 					"text" : "save / overwrite:",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -10013,7 +9971,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5672.066661357879639, 401.67259933384139, 169.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "these [thru]s will preserve the patch cables if the bpatcher somehow gets messed up"
 				}
 
@@ -10574,7 +10531,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6897.416003542629369, 996.289205664525525, 100.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "bang if [sel \"_\"] not present in list"
 				}
 
@@ -10588,7 +10544,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 7706.879694200241829, 676.965159577669965, 116.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmax launchbrowser https://discussions.apple.com/thread/253703053"
 				}
 
@@ -10601,7 +10556,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7282.194210486653901, 1252.135011758839937, 299.0, 60.0 ],
-					"presentation_linecount" : 4,
 					"text" : "the human interface object can only detect the controller if the object instantiates after the controller connects, so we reinstantiate the object within a bpatcher before we check if the controller's connected"
 				}
 
@@ -10650,7 +10604,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7503.694210486653901, 677.965159577669965, 204.0, 74.0 ],
-					"presentation_linecount" : 5,
 					"text" : "for some reason, my PS4 controller disconnects after ~15 minutes of inactivity, so I begin checking for the controller after 925 seconds of inactivity"
 				}
 
@@ -11044,7 +10997,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6377.087003513385753, 322.731867835604589, 93.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "there are many [r qlim] objects"
 				}
 
@@ -11352,7 +11304,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5330.290338200240512, 1006.688895993763254, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86"
 				}
 
@@ -11594,7 +11545,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5355.857407747012985, 1074.965159577669965, 150.0, 275.0 ],
-					"presentation_linecount" : 19,
 					"text" : "[ ] 66 1\nx 67 1\no 68 1\n/\\ 69 1\nL1 70 1\nr1 71 1\nL2 72 1 \nR2 73 1\nL2CC 85 255\nR2CC 86 255\nshare 74 1\noption 75\nL3 76\nR3 77\nps 78\ntrackpad 79\nLHV 80 81\nRHV 82 83\nudlr 84 0 2 4 6\n"
 				}
 
@@ -11659,6 +11609,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"candycane2" : [ 0.317647058823529, 0.643137254901961, 1.0, 1.0 ],
 					"candycane3" : [ 0.337254901960784, 0.964705882352941, 0.749019607843137, 1.0 ],
 					"candycane4" : [ 0.486274509803922, 1.0, 0.250980392156863, 1.0 ],
@@ -11874,7 +11825,7 @@
 					"fontsize" : 13.0,
 					"id" : "obj-14",
 					"ignoreclick" : 1,
-					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
+					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 1, 2, 1, 1, 1, 2, 2, 1, 3, 1, 1, 1, 3, 3 ],
 					"inlabels" : [ "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "Menu", "View", "LB", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "LB", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button" ],
 					"labelwidth" : 313.5,
 					"maxclass" : "crosspatch",
@@ -20361,7 +20312,8 @@
 
 			}
  ],
-		"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ]
+		"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.8 ],
+		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 
 }

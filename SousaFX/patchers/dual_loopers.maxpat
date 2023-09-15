@@ -604,7 +604,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 378.675846106207473, 947.549987723890808, 188.0, 22.0 ],
+					"patching_rect" : [ 378.675846106207473, 938.549987723890808, 188.0, 22.0 ],
 					"text" : "r \"enable looper sidechained kick\""
 				}
 
@@ -727,7 +727,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 378.675846106207473, 982.881965371625029, 24.0, 24.0 ]
+					"patching_rect" : [ 378.675846106207473, 973.881965371625029, 24.0, 24.0 ]
 				}
 
 			}

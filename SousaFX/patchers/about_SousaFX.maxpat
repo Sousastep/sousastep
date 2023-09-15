@@ -2,15 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 495.0, 187.0, 450.0, 527.0 ],
+		"rect" : [ 1031.0, 441.0, 450.0, 527.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -61,9 +61,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 5,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1858,7 +1858,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 125.128872275352478, 220.993541374860285, 73.0, 22.0 ],
 									"text" : "random 255"
 								}
@@ -4630,7 +4630,7 @@
 					"presentation_linecount" : 16,
 					"presentation_rect" : [ 110.0, 46.668839778358077, 333.0, 246.0 ],
 					"suppressinlet" : 1,
-					"text" : "Version 0.9.1\n\nSousaFX helps tuba players manipulate audio effects with a game controller attached to their instrument.\n\nSousaFX is free software released under the MIT license. The source code is available on GitHub.\n\nIf you like SousaFX and can make use of it, consider sponsoring or donating.\n\nYou can sponsor the author on either Patreon or GitHub. You can also make a one-time payment through PayPal or Venmo.",
+					"text" : "Version 0.9.2\n\nSousaFX helps tuba players manipulate audio effects with a game controller attached to their instrument.\n\nSousaFX is free software released under the MIT license. The source code is available on GitHub.\n\nIf you like SousaFX and can make use of it, consider sponsoring or donating.\n\nYou can sponsor the author on either Patreon or GitHub. You can also make a one-time payment through PayPal or Venmo.",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -4823,7 +4823,7 @@
 					"comment" : "",
 					"hidden" : 1,
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -5130,7 +5130,76 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "about_credits.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "icon.png",
+				"bootpath" : "~/Documents/Max 9/Packages/av-toolbox/extras",
+				"patcherrelativepath" : "../../../../../Documents/Max 9/Packages/av-toolbox/extras",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_nyboer.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_sousafx.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_surreal.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_tmhglnd.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "licenses.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paypal_qr.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "venmo_qr.maxpat",
+				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

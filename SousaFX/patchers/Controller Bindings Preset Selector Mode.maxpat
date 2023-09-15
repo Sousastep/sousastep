@@ -174,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.0, 348.5, 308.0, 35.0 ],
+					"patching_rect" : [ 627.0, 348.5, 305.0, 35.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -182,7 +182,7 @@
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
-					"text" : "pattrstorage controller_bindings_preset_selector_mode @savemode 0 @greedy 2 @changemode 1",
+					"text" : "pattrstorage controller_bindings_preset_selector_mode @savemode 0 @greedy 2",
 					"varname" : "controller_bindings_preset_selector_mode"
 				}
 
@@ -530,7 +530,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-213",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -895,38 +895,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-176::obj-62" : [ "number[15]", "number[3]", 0 ],
-			"obj-176::obj-64" : [ "number[16]", "number[4]", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "button_timer.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "controller_bindings_preset_selector_mode.json",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
