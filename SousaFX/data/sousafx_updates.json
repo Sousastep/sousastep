@@ -6,7 +6,7 @@
 				"id" : 1,
 				"data" : 				{
 					"last_checked" : [ "Last checked on September 15th, 2023" ],
-					"auto-check" : [ 1 ]
+					"auto-check" : [ 0 ]
 				}
 
 			}
