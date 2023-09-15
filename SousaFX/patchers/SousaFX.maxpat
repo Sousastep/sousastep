@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2008.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -477,7 +477,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2259.909040387346067, 1060.974708357658301, 87.416078286413267, 22.0 ],
-					"text" : "primary"
+					"text" : "none"
 				}
 
 			}
@@ -748,8 +748,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1586.325118673759789, 1229.156110766295342, 494.0, 22.0 ],
-					"text" : "\"/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio Status/other/git_status.command\""
+					"patching_rect" : [ 1586.325118673759789, 1229.156110766295342, 407.0, 22.0 ],
+					"text" : "/Users/jbaylies/Music/_repo/sousastep/SousaFX/other/git_status.command"
 				}
 
 			}
@@ -1531,19 +1531,16 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.090104, 0.0, 0.140651, 1.0 ],
+					"bgcolor" : [ 0.135289, 1.0, 0.036922, 0.1 ],
 					"fontname" : "Chakra Petch",
 					"fontsize" : 36.0,
 					"id" : "obj-222",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1389.325118673759789, 812.455320766295472, 468.0, 78.0 ],
+					"patching_rect" : [ 1389.325118673759789, 812.455320766295472, 468.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 5.553982693887974, 6.108915132952006, 388.0, 78.0 ],
-					"text" : "Loading... Please wait a minute or two...",
+					"presentation_rect" : [ 5.553982693887974, 6.108915132952006, 388.0, 42.0 ],
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
