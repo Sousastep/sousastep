@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 871.0, 223.0, 448.0, 291.0 ],
+		"rect" : [ 439.0, 308.0, 400.0, 291.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Audio Preferences",
+		"title" : "Startup Preferences",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-42",
@@ -422,7 +422,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.048361581425524, 406.242710226177905, 444.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 750, 600 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]

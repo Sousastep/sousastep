@@ -5,9 +5,9 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"very_low_volume" : [ -1.0 ],
-					"low_volume" : [ -6.0 ],
-					"high_volume" : [ -3.0 ]
+					"very_low_volume" : [ -15.0 ],
+					"low_volume" : [ -14.0 ],
+					"high_volume" : [ -6.0 ]
 				}
 
 			}
