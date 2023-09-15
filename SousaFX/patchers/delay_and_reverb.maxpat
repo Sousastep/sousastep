@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1977.0, 1319.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Delay Sends",
+		"title" : "Delay & Reverb Sends",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-163",
@@ -1717,7 +1717,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2155.966303222163788, 1650.74338501465536, 68.0, 20.0 ],
+					"patching_rect" : [ 2162.740482701574365, 1649.74338501465536, 68.0, 20.0 ],
 					"suppressinlet" : 1,
 					"text" : "from H9KR"
 				}
@@ -1730,8 +1730,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 8,
 					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 1979.940479006086207, 1649.74338501465536, 168.0, 22.0 ],
-					"text" : "adc~ 29 30 31 32 33 34 35 36"
+					"patching_rect" : [ 1979.940479006086207, 1649.74338501465536, 168.000000000000455, 22.0 ],
+					"text" : "adc~ 9 10 11 12 13 14 15 16"
 				}
 
 			}
@@ -1813,8 +1813,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 8,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1979.940479006086207, 1609.320621977384235, 168.0, 22.0 ],
-					"text" : "dac~ 33 34 35 36 37 38 39 40"
+					"patching_rect" : [ 1979.940479006086207, 1609.320621977384235, 167.999999999999545, 22.0 ],
+					"text" : "dac~ 5 6 7 8 9 10 11 12"
 				}
 
 			}

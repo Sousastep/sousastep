@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 632.0, 324.0, 1204.0, 1058.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -849,7 +849,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 125.175846106207473, 818.166686296463013, 68.0, 22.0 ],
-					"text" : "dac~ 31 32"
+					"text" : "dac~ 21 22"
 				}
 
 			}
