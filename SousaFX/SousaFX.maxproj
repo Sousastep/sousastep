@@ -2,12 +2,12 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3777600474,
+	"modificationdate" : 3777736969,
 	"viewrect" : [ 240.0, 134.0, 558.0, 985.0 ],
 	"autoorganize" : 1,
-	"hideprojectwindow" : 0,
+	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
-	"autolocalize" : 0,
+	"autolocalize" : 1,
 	"contents" : 	{
 		"patchers" : 		{
 			"SousaFX.maxpat" : 			{
@@ -52,6 +52,11 @@
 			}
 ,
 			"paypal_qr.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"thru.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -106,11 +111,6 @@
 				"local" : 1
 			}
 ,
-			"thru.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"Crossover Selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -143,16 +143,6 @@
 ,
 			"transient_detect.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ParamEQ.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
-			"PlateReverb.rnbopat" : 			{
-				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -236,11 +226,6 @@
 				"local" : 1
 			}
 ,
-			"limiter.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
 			"lowpassfilter_selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -261,11 +246,6 @@
 				"local" : 1
 			}
 ,
-			"octaver.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
 			"phasor_to_BPM.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -283,6 +263,26 @@
 ,
 			"umenu_presets.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"ParamEQ.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"PlateReverb.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"limiter.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"octaver.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -489,6 +489,31 @@
 		}
 ,
 		"media" : 		{
+			"icon.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"paypal_qrcode.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"venmo_qrcode.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"gamectl_bg.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Sousastep_signalflow.drawio.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"amazing-noises-logo_white-11px.svg" : 			{
 				"kind" : "vectorimagefile",
 				"local" : 1
@@ -634,16 +659,6 @@
 				"local" : 1
 			}
 ,
-			"gamectl_bg.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"icon.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"js_dual.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -719,11 +734,6 @@
 				"local" : 1
 			}
 ,
-			"paypal_qrcode.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"RB_on.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -744,11 +754,6 @@
 				"local" : 1
 			}
 ,
-			"Sousastep_signalflow.drawio.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"start_on.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -758,16 +763,66 @@
 				"kind" : "imagefile",
 				"local" : 1
 			}
-,
-			"venmo_qrcode.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
 
 		}
 ,
 		"code" : 		{
+			"imgbtn.js" : 			{
+				"kind" : "javascript",
+				"local" : 1
+			}
+,
+			"SiTrSq.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"Yet_Another_Gen_LFO.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"ladder_double_wrap.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"mixme.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"smFilterPack_env_follow.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"transient_crossfade.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"crossover-calc.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"just_sm_ladder.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"smFilterPack_ladder.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"smFilterPack_ladder_setup.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"smFilterPack_ladder_wrap.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -802,62 +857,12 @@
 				"local" : 1
 			}
 ,
-			"imgbtn.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
-			}
-,
-			"just_sm_ladder.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"ladder_double_wrap.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"livedial_override.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"mixme.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
 			"rate_sync_lock-esque.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"SiTrSq.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"smFilterPack_env_follow.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"smFilterPack_ladder_setup.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"smFilterPack_ladder_wrap.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"smFilterPack_ladder.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"transient_crossfade.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -881,11 +886,6 @@
 				"kind" : "gendsp",
 				"local" : 1
 			}
-,
-			"Yet_Another_Gen_LFO.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
 
 		}
 ,
@@ -900,17 +900,72 @@
 				"local" : 1
 			}
 ,
+			"preset_change_button_mappings.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"syncrate.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"ProQ3crossovers.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin1_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin2_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin3_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin4_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin1_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin2_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin3_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin4_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"controller_bindings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"crossover_plugin_or_gen.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"delay_sends_settings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -955,12 +1010,17 @@
 				"local" : 1
 			}
 ,
-			"distortion_logic_data.txt" : 			{
-				"kind" : "textfile",
+			"reverb_gigaverb.json" : 			{
+				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"distortion_plugins.json" : 			{
+			"reverb_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay_sends_settings.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -980,41 +1040,6 @@
 				"local" : 1
 			}
 ,
-			"dry_preamp_rnbo_ParamEQ.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin1_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin1_rnbo_pitchshift.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin2_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin3_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin4_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"dual_loopers.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1025,42 +1050,7 @@
 				"local" : 1
 			}
 ,
-			"harmonizer_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"harmonizer_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"harmonizer_rnbo_pitchshift.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"high_cross_fx_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"high_cross_fx_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"just_MF-101S.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"just_theDrop.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"just_triC.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1076,11 +1066,6 @@
 			}
 ,
 			"main_limiter_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"main_limiter_rnbo_limiter.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1105,27 +1090,7 @@
 				"local" : 1
 			}
 ,
-			"main_reverb_rnbo_platereverb.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"metronome_settings.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"micropitch_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"micropitch_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"micropitch_rnbo_pitchshift.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1150,16 +1115,6 @@
 				"local" : 1
 			}
 ,
-			"monitor_EQ_rnbo_ParamEQ.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"octaver_comp_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"octaver_comp_rnbo_compressor_mono.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1175,17 +1130,122 @@
 				"local" : 1
 			}
 ,
+			"transient_crossfade_parameters.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"wet_preamp_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"wet_preamp_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"distortion_plugins.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"just_MF-101S.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"harmonizer_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"harmonizer_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"octaver_rnbo_octaver.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"octaver_rnbo_or_plugin.json" : 			{
+			"distortion_logic_data.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"dry_preamp_rnbo_ParamEQ.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
+			"Dry-ish_FX_plugin1_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin1_rnbo_pitchshift.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"harmonizer_rnbo_pitchshift.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"high_cross_fx_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"high_cross_fx_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"just_triC.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"main_limiter_rnbo_limiter.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"main_reverb_rnbo_platereverb.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"micropitch_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"micropitch_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"micropitch_rnbo_pitchshift.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"monitor_EQ_rnbo_ParamEQ.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"octaver_comp_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"octaver_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1200,27 +1260,7 @@
 				"local" : 1
 			}
 ,
-			"Pre-LPF_FX_plugin1_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"Pre-LPF_FX_plugin1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin2_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin3_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin4_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1230,47 +1270,7 @@
 				"local" : 1
 			}
 ,
-			"preset_change_button_mappings.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"ProQ3crossovers.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"reverb_gigaverb.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"reverb_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"reverb_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"syncrate.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"transient_crossfade_parameters.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"wet_preamp_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"wet_preamp_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1305,7 +1305,7 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0,
+	"sortmode" : 1,
 	"viewmode" : 0,
 	"includepackages" : 0
 }
