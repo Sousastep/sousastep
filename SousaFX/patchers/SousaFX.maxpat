@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 439.0, 308.0, 400.0, 291.0 ],
+		"rect" : [ 538.0, 1493.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,49 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Startup Preferences",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-18",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 311.87459368367854, 438.156110766295342, 338.173767897746984, 79.0 ],
+					"suppressinlet" : 1,
+					"text" : "Projects maintain a folder on your hard drive (typically found at\n\n~/Documents/Max 8/Projects (Mac) \n\nor (User Folder)\\My Documents\\Max 8\\Projects (Win))"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 48.37459368367854, 142.602755569309807, 29.5, 22.0 ],
+					"text" : "title"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.135289, 1.0, 0.036922, 0.1 ],
+					"fontname" : "Chakra Petch",
+					"fontsize" : 36.0,
+					"id" : "obj-222",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1389.325118673759789, 812.455320766295472, 468.0, 42.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.553982693887974, 6.108915132952006, 388.0, 42.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
@@ -420,7 +461,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 206.048361581425524, 406.242710226177905, 444.0, 24.0 ],
+					"patching_rect" : [ 206.048361581425524, 386.156110766295342, 444.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -556,7 +597,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.87459368367854, 936.250410068839528, 86.0, 22.0 ],
+					"patching_rect" : [ 25.87459368367854, 1133.335776747621139, 86.0, 22.0 ],
 					"text" : "pack i 53 i 344"
 				}
 
@@ -568,7 +609,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 46.87459368367854, 898.250410068839528, 86.0, 22.0 ],
+					"patching_rect" : [ 25.87459368367854, 1095.335776747621139, 86.0, 22.0 ],
 					"text" : "unpack i i i i"
 				}
 
@@ -595,7 +636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.37459368367854, 847.391468564421984, 40.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 1044.476835243203595, 40.0, 21.0 ],
 					"text" : "round"
 				}
 
@@ -609,7 +650,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.87459368367854, 1003.391468564421984, 439.0, 21.0 ],
+					"patching_rect" : [ 25.87459368367854, 1200.476835243203595, 439.0, 21.0 ],
 					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nozoom, window exec"
 				}
 
@@ -623,7 +664,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.37459368367854, 815.391468564421984, 56.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 1012.476835243203595, 56.0, 21.0 ],
 					"text" : "zl join"
 				}
 
@@ -637,7 +678,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 85.37459368367854, 773.391468564421984, 158.0, 21.0 ],
+					"patching_rect" : [ 64.37459368367854, 970.476835243203595, 158.0, 21.0 ],
 					"text" : "vexpr $f1 + $f2"
 				}
 
@@ -651,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.37459368367854, 744.391468564421984, 158.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 941.476835243203595, 158.0, 21.0 ],
 					"text" : "vexpr $f1 - $f2"
 				}
 
@@ -665,7 +706,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.37459368367854, 671.391468564421984, 86.0, 21.0 ],
+					"patching_rect" : [ 166.37459368367854, 868.476835243203595, 86.0, 21.0 ],
 					"text" : "vexpr $i1 * 0.5"
 				}
 
@@ -679,7 +720,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.37459368367854, 699.391468564421984, 86.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 896.476835243203595, 86.0, 21.0 ],
 					"text" : "vexpr $i1 * 0.5"
 				}
 
@@ -693,7 +734,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.37459368367854, 671.391468564421984, 56.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 868.476835243203595, 56.0, 21.0 ],
 					"text" : "zl slice 2"
 				}
 
@@ -707,7 +748,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 187.37459368367854, 640.391468564421984, 82.0, 21.0 ],
+					"patching_rect" : [ 166.37459368367854, 837.476835243203595, 82.0, 21.0 ],
 					"text" : "zl reg 400 291"
 				}
 
@@ -721,7 +762,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "list", "list" ],
-					"patching_rect" : [ 48.37459368367854, 617.391468564421984, 67.0, 21.0 ],
+					"patching_rect" : [ 27.37459368367854, 814.476835243203595, 67.0, 21.0 ],
 					"text" : "screensize"
 				}
 
@@ -733,7 +774,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 134.37459368367854, 529.911363938185559, 61.0, 22.0 ],
+					"patching_rect" : [ 113.37459368367854, 726.99673061696717, 61.0, 22.0 ],
 					"text" : "b 5"
 				}
 
@@ -745,7 +786,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 134.37459368367854, 493.891468564421984, 58.0, 22.0 ],
+					"patching_rect" : [ 113.37459368367854, 690.976835243203595, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -757,7 +798,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.12459368367854, 596.923192237990179, 137.0, 22.0 ],
+					"patching_rect" : [ 124.12459368367854, 794.00855891677179, 137.0, 22.0 ],
 					"text" : "title Startup Preferences"
 				}
 
@@ -769,7 +810,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 193.37459368367854, 565.925696944968649, 33.0, 22.0 ],
+					"patching_rect" : [ 172.37459368367854, 763.01106362375026, 33.0, 22.0 ],
 					"text" : "front"
 				}
 
@@ -781,7 +822,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.37459368367854, 565.925696944968649, 61.0, 22.0 ],
+					"patching_rect" : [ 52.37459368367854, 763.01106362375026, 61.0, 22.0 ],
 					"text" : "topmost 1"
 				}
 
@@ -927,7 +968,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2259.909040387346067, 1060.974708357658301, 87.416078286413267, 22.0 ],
-					"text" : "none"
+					"text" : "primary"
 				}
 
 			}
@@ -1386,8 +1427,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1305.325118673759789, 1027.974708357658301, 609.0, 35.0 ],
-					"text" : ";\rmax openfile ID_one \"/Users/jbaylies/Music/_repo/sousastep/SousaFX/patchers/audio effect parameters.maxpat\""
+					"patching_rect" : [ 1305.325118673759789, 1027.974708357658301, 299.0, 35.0 ],
+					"text" : ";\rmax openfile ID_one \"audio effect parameters.maxpat\""
 				}
 
 			}
@@ -1942,22 +1983,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1325.325118673759789, 572.156110766295342, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.135289, 1.0, 0.036922, 0.1 ],
-					"fontname" : "Chakra Petch",
-					"fontsize" : 36.0,
-					"id" : "obj-222",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1389.325118673759789, 812.455320766295472, 468.0, 42.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.553982693887974, 6.108915132952006, 388.0, 42.0 ],
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -3852,7 +3877,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.87459368367854, 603.250410068839528, 128.0, 128.0 ],
+					"patching_rect" : [ 311.87459368367854, 800.335776747621139, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 400.0, 291.0 ],
 					"proportion" : 0.5,
@@ -3947,6 +3972,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-35", 1 ],
 					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-327", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}
@@ -5349,7 +5381,7 @@
 			}
 , 			{
 				"name" : "sousafx_audio_preferences.json",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1

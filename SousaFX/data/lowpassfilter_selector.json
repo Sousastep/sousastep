@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"lowpassfilter_selector[1]" : [ 2 ]
+					"lowpassfilter_selector[1]" : [ 1 ]
 				}
 
 			}
