@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 406.0, 125.0, 1532.0, 1185.0 ],
+		"rect" : [ 858.0, 152.0, 1530.0, 1185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -84,7 +84,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 57.0, 589.5, 150.0, 22.0 ]
+					"patching_rect" : [ 57.0, 589.5, 152.0, 22.0 ]
 				}
 
 			}
@@ -191,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1241.0, 985.5, 22.0, 22.0 ],
+					"patching_rect" : [ 1246.0, 1095.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -455,7 +455,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1192.75, 985.5, 29.5, 22.0 ],
+					"patching_rect" : [ 1198.0, 1095.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -467,7 +467,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1144.5, 985.5, 29.5, 22.0 ],
+					"patching_rect" : [ 1150.0, 1095.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -479,7 +479,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1096.25, 985.5, 29.5, 22.0 ],
+					"patching_rect" : [ 1101.0, 1095.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -491,7 +491,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1048.0, 985.5, 29.5, 22.0 ],
+					"patching_rect" : [ 1053.0, 1095.0, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -504,7 +504,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1122.75, 1037.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1128.0, 1146.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -557,7 +557,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 334.0, 268.0, 179.0, 44.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 413.082621082621017, 0.0, 163.834757834757966, 34.0 ],
+					"presentation_rect" : [ 412.0, 0.0, 163.834757834757966, 34.0 ],
 					"rows" : 1
 				}
 
@@ -582,7 +582,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 644.0, 1146.0, 30.0, 30.0 ]
+					"patching_rect" : [ 644.0, 1083.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -701,7 +701,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "#1_plugin1" ],
+					"args" : [ "#1_plugin1", "#2" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -711,14 +711,14 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "plugin_selector.maxpat",
+					"name" : "plugin_or_rnbo_selector.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 156.0, 671.0, 254.0, 175.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.582621082621017, 32.0, 238.0, 175.0 ],
+					"presentation_rect" : [ 0.0, 1.0, 241.0, 204.0 ],
 					"varname" : "plugin_selector",
 					"viewvisibility" : 1
 				}
@@ -1321,7 +1321,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-2::obj-191" : [ "vst~[1]", "vst~", 0 ],
 			"obj-3::obj-191" : [ "vst~[3]", "vst~", 0 ],
 			"obj-4::obj-191" : [ "vst~[2]", "vst~", 0 ],
@@ -1339,49 +1338,56 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "gate_constant_power.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/code",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "gate_constant_power_stereo.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/code",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.background.change.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.slewlimit.ms.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "plugin_or_rnbo_selector.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "plugin_selector.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selector_constant_power.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/code",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "selector_constant_power_stereo.gendsp",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/code",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1

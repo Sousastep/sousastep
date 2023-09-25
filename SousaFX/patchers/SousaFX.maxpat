@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 538.0, 1493.0, 1440.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"title" : "Startup Preferences",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
@@ -463,10 +464,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 206.048361581425524, 386.156110766295342, 444.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage sousafx_audio_preferences @greedy 2 @savemode 0",
@@ -968,7 +969,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2259.909040387346067, 1060.974708357658301, 87.416078286413267, 22.0 ],
-					"text" : "primary"
+					"text" : "none"
 				}
 
 			}
@@ -1213,7 +1214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1611.325118673759789, 1184.31800035765832, 74.0, 22.0 ],
+					"patching_rect" : [ 1609.325118673759789, 1170.423591357658324, 74.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 270.553982693887974, 255.484866584984957, 72.0, 22.0 ],
 					"text" : "git status",
@@ -1230,7 +1231,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.776470588235294, 0.352941176470588, 0.211764705882353, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1587.325118673759789, 1183.31800035765832, 24.0, 24.0 ],
+					"patching_rect" : [ 1585.325118673759789, 1169.423591357658324, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 245.553982693887974, 252.676252862487104, 24.0, 24.0 ]
 				}
@@ -1243,8 +1244,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1586.325118673759789, 1229.156110766295342, 407.0, 22.0 ],
-					"text" : "/Users/jbaylies/Music/_repo/sousastep/SousaFX/other/git_status.command"
+					"patching_rect" : [ 1585.325118673759789, 1213.619100561672212, 494.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "\"/Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/other/git_status.command\""
 				}
 
 			}
@@ -1441,6 +1443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1339.325118673759789, 1074.974708357658301, 609.0, 35.0 ],
+					"presentation_linecount" : 2,
 					"text" : ";\rmax openfile ID_two \"/Users/jbaylies/Music/_repo/sousastep/Sousastep Visual FX/Sousastep Visual FX.maxproj\""
 				}
 

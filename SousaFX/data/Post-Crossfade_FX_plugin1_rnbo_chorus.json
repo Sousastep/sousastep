@@ -5,54 +5,11 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"chorus" : [ 						{
-							"filetype" : "C74Snapshot",
-							"version" : 2,
-							"minorversion" : 0,
-							"name" : "chorus",
-							"origin" : "chorus",
-							"type" : "rnbo",
-							"subtype" : "",
-							"embed" : 1,
-							"snapshot" : 							{
-								"spread" : 								{
-									"value" : 0.0
-								}
-,
-								"depth" : 								{
-									"value" : 71.0
-								}
-,
-								"__sps" : 								{
-									"LFO~" : 									{
-
-									}
-,
-									"TapTempo" : 									{
-
-									}
-,
-									"HiCut~" : 									{
-
-									}
-,
-									"LowCut~" : 									{
-
-									}
-
-								}
-,
-								"rate" : 								{
-									"value" : 50.0
-								}
-,
-								"__presetid" : "chorus"
-							}
-
-						}
- ],
-					"sync" : [ 1 ],
-					"preset" : [ 5 ]
+					"TapMult" : [ 0 ],
+					"depth" : [ "depth", 50.0 ],
+					"rate" : [ "rate", 40.0 ],
+					"spread" : [ "spread", 16.0 ],
+					"sync" : [ 0 ]
 				}
 
 			}

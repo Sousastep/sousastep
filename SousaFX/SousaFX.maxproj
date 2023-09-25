@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3777736969,
-	"viewrect" : [ 240.0, 134.0, 558.0, 985.0 ],
+	"modificationdate" : 3778522685,
+	"viewrect" : [ 1690.0, 121.0, 478.0, 1200.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -123,6 +123,11 @@
 ,
 			"FilterDelay.rnbopat" : 			{
 				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"rnbo_pitchshifter.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -467,11 +472,6 @@
 			}
 ,
 			"rnbo_ParamEQ.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"rnbo_pitchshift.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -895,11 +895,6 @@
 				"local" : 1
 			}
 ,
-			"controller_bindings_preset_selector_mode.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"preset_change_button_mappings.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
@@ -960,7 +955,7 @@
 				"local" : 1
 			}
 ,
-			"controller_bindings.json" : 			{
+			"controller_bindings_preset_selector_mode.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1010,21 +1005,6 @@
 				"local" : 1
 			}
 ,
-			"reverb_gigaverb.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"reverb_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"delay_sends_settings.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"dry_comp_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1040,17 +1020,12 @@
 				"local" : 1
 			}
 ,
-			"dual_loopers.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"global_tempo_source.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
 ,
-			"just_theDrop.json" : 			{
+			"just_MF-101S.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1075,27 +1050,12 @@
 				"local" : 1
 			}
 ,
-			"main_presets.xml" : 			{
-				"kind" : "xmlfile",
-				"local" : 1
-			}
-,
 			"main_reverb_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"main_reverb_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"metronome_settings.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"mixbus.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1130,7 +1090,17 @@
 				"local" : 1
 			}
 ,
-			"transient_crossfade_parameters.json" : 			{
+			"octaver_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"reverb_gigaverb.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"reverb_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1150,7 +1120,42 @@
 				"local" : 1
 			}
 ,
-			"just_MF-101S.json" : 			{
+			"just_theDrop.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"metronome_settings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"controller_bindings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay_sends_settings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"dual_loopers.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"main_presets.xml" : 			{
+				"kind" : "xmlfile",
+				"local" : 1
+			}
+,
+			"mixbus.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"transient_crossfade_parameters.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1241,11 +1246,6 @@
 			}
 ,
 			"octaver_comp_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"octaver_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
