@@ -3,16 +3,16 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+		"rect" : [ 540.0, 258.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 311.0, 30.0, 30.0 ]
+					"patching_rect" : [ 47.0, 143.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 296.0, 30.0, 30.0 ]
+					"patching_rect" : [ 32.0, 128.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.0, 281.0, 30.0, 30.0 ]
+					"patching_rect" : [ 17.0, 113.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 194.0, 30.0, 30.0 ]
+					"patching_rect" : [ 47.0, 48.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 213.0, 179.0, 30.0, 30.0 ]
+					"patching_rect" : [ 32.0, 33.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -109,7 +109,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 198.0, 164.0, 30.0, 30.0 ]
+					"patching_rect" : [ 17.0, 18.0, 30.0, 30.0 ]
 				}
 
 			}
