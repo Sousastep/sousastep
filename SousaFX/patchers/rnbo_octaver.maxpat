@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -232.0, -993.0, 1352.0, 959.0 ],
+		"rect" : [ 34.0, 87.0, 1352.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,8 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 96.0, 99.077780353919479, 137.0, 50.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 96.0, 99.077780353919479, 138.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "load umenu preset name before allowing it to actually set parameters"
 				}
@@ -216,7 +215,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -482,7 +481,6 @@
  ]
 					}
 ,
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 4,
@@ -509,34 +507,10 @@
 					}
 ,
 					"outlettype" : [ "signal", "signal", "", "list" ],
-					"patching_rect" : [ 350.283557234481123, 514.750273469002877, 195.0, 40.0 ],
+					"patching_rect" : [ 350.283557234481123, 514.750273469002877, 344.0, 24.0 ],
 					"rnboattrcache" : 					{
 						"rectified" : 						{
 							"label" : "rectified",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"mix" : 						{
-							"label" : "mix",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"octave2" : 						{
-							"label" : "octave2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"octave1" : 						{
-							"label" : "octave1",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"AM" : 						{
-							"label" : "AM",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -547,15 +521,39 @@
 							"parsestring" : ""
 						}
 ,
+						"AM" : 						{
+							"label" : "AM",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"octave2" : 						{
+							"label" : "octave2",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"tone" : 						{
 							"label" : "tone",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"mix" : 						{
+							"label" : "mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"octave1" : 						{
+							"label" : "octave1",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.70",
+					"rnboversion" : "1.3.0-dev.7",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1227,7 +1225,7 @@
 
 					}
 ,
-					"text" : "rnbo~ octaver @autosave 0 @parameter_enable 0",
+					"text" : "rnbo~ octaver @parameter_enable 0 @autosave 0",
 					"varname" : "rnbo~"
 				}
 
@@ -1960,7 +1958,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 477.116890567814437, 564.0, 555.0, 564.0, 555.0, 263.0, 486.0, 263.0, 486.0, 30.0, 416.5, 30.0 ],
+					"midpoints" : [ 576.450223901147751, 564.0, 555.0, 564.0, 555.0, 263.0, 486.0, 263.0, 486.0, 30.0, 416.5, 30.0 ],
 					"source" : [ "obj-20", 2 ]
 				}
 
@@ -2107,15 +2105,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "Default[1]_20220710_2.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "octaver.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1

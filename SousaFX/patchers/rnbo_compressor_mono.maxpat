@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -300,7 +300,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -518,7 +518,7 @@
 			}
 , 			{
 				"box" : 				{
-					"autosave" : 1,
+					"autosave" : 0,
 					"color" : [ 0.999996185302734, 0.99993908405304, 0.041033305227757, 1.0 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
@@ -554,8 +554,14 @@
 					}
 ,
 					"outlettype" : [ "signal", "list" ],
-					"patching_rect" : [ 354.0, 469.0, 178.0, 24.0 ],
+					"patching_rect" : [ 354.0, 469.0, 417.0, 24.0 ],
 					"rnboattrcache" : 					{
+						"volume" : 						{
+							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"attack" : 						{
 							"label" : "attack",
 							"isEnum" : 0,
@@ -564,12 +570,6 @@
 ,
 						"sustain" : 						{
 							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"volume" : 						{
-							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -583,7 +583,7 @@
 						"lookahead" : 						{
 							"label" : "lookahead",
 							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\" \"10\""
+							"parsestring" : "\"0\" \"1\" \"2\""
 						}
 ,
 						"softclip" : 						{
@@ -594,20 +594,11 @@
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.70",
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_invisible" : 1,
-							"parameter_longname" : "rnbo~[1]",
-							"parameter_shortname" : "rnbo~",
-							"parameter_type" : 3
-						}
-
-					}
-,
+					"rnboversion" : "1.3.0-dev.7",
 					"saved_object_attributes" : 					{
+						"autosave" : 0,
 						"optimization" : "O1",
-						"parameter_enable" : 1,
+						"parameter_enable" : 0,
 						"uuid" : "74a09b97-f360-11ea-9b97-34363bd3ed8c"
 					}
 ,
@@ -620,55 +611,8 @@
 						"type" : "list",
 						"subtype" : "Undefined",
 						"embed" : 1,
-						"snapshot" : 						{
-							"__sps" : 							{
-								"Compensation~" : 								{
-
-								}
-,
-								"Compression~" : 								{
-
-								}
-,
-								"Lookahead~" : 								{
-
-								}
-,
-								"Volume&Clip~" : 								{
-
-								}
-
-							}
-,
-							"sustain" : 							{
-								"value" : 25.0
-							}
-,
-							"comp" : 							{
-								"value" : 25.0
-							}
-,
-							"attack" : 							{
-								"value" : 25.0
-							}
-,
-							"__presetid" : "compressor_mono",
-							"softclip" : 							{
-								"value" : 0.0
-							}
-,
-							"volume" : 							{
-								"value" : 0.0
-							}
-,
-							"lookahead" : 							{
-								"value" : 1.0
-							}
-
-						}
-,
 						"snapshotlist" : 						{
-							"current_snapshot" : 0,
+							"current_snapshot" : -1,
 							"entries" : [ 								{
 									"filetype" : "C74Snapshot",
 									"version" : 2,
@@ -934,7 +878,7 @@
 
 					}
 ,
-					"text" : "rnbo~ compressor_mono",
+					"text" : "rnbo~ compressor_mono @parameter_enable 0 @autosave 0",
 					"varname" : "rnbo~[1]"
 				}
 
@@ -1516,7 +1460,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 851.0, 63.063447347136616, 474.0, 60.0 ],
+					"patching_rect" : [ 851.0, 63.063447347136616, 477.0, 60.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 6,
 					"presentation_rect" : [ 10.0, 36.063447347136616, 337.0, 87.0 ],
@@ -1857,7 +1801,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-62" : [ "rnbo~[1]", "rnbo~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -1871,15 +1814,8 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "_20211127.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "compressor_mono.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1
