@@ -5,11 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"looper monitor mix volume" : [ -4.0 ],
-					"looper1::looper_fade_type" : [ 1 ],
-					"looper1::looper_volume" : [ 0.0 ],
-					"looper2::looper_fade_type" : [ 0 ],
-					"looper2::looper_volume" : [ 0.0 ]
+					"looper monitor mix volume" : [ -4.0 ]
 				}
 
 			}
