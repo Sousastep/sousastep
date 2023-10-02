@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "Audio_Status",
+		"name" : "Audio_Status[1]",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -46,7 +46,9 @@
 					"adstatusIn16" : [ "36 MADI 32" ],
 					"adstatusIn17" : [ "17 MADI 13" ],
 					"adstatusOut24" : [ "21 MADI 17" ],
-					"adstatusOut25" : [ "22 MADI 18" ]
+					"adstatusOut25" : [ "22 MADI 18" ],
+					"mono_or_stereo" : [ 0 ],
+					"main_audio_input_selection" : [ 2 ]
 				}
 
 			}
