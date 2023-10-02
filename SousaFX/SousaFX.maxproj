@@ -2,10 +2,10 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3778633446,
-	"viewrect" : [ 1366.0, 407.0, 478.0, 377.0 ],
+	"modificationdate" : 3779116499,
+	"viewrect" : [ 1003.0, 346.0, 478.0, 377.0 ],
 	"autoorganize" : 1,
-	"hideprojectwindow" : 0,
+	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
 	"autolocalize" : 1,
 	"contents" : 	{
@@ -85,23 +85,18 @@
 				"local" : 1
 			}
 ,
-			"auto-connect_hi_set.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"button_timer_no_double.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"deadzone.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"function_with_two_curves.rnbopat" : 			{
 				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"deadzone.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -261,6 +256,11 @@
 			}
 ,
 			"umenu_presets.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"auto-connect_hi_set.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -1053,11 +1053,6 @@
 				"local" : 1
 			}
 ,
-			"main_presets.xml" : 			{
-				"kind" : "xmlfile",
-				"local" : 1
-			}
-,
 			"main_reverb_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1145,6 +1140,11 @@
 ,
 			"just_theDrop.json" : 			{
 				"kind" : "json",
+				"local" : 1
+			}
+,
+			"main_presets.xml" : 			{
+				"kind" : "xmlfile",
 				"local" : 1
 			}
 ,
