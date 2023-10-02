@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 884.0, 353.0, 1577.0, 1083.0 ],
+		"rect" : [ 636.0, 74.0, 1577.0, 1083.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,7 +61,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 973.146170997067202, 2033.914776666177204, 130.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "load pattr preset before saving is allowed",
 					"textjustification" : 2
@@ -76,8 +75,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1106.972403099319763, 1974.297239334296137, 59.0, 23.0 ],
-					"text" : "del 500"
+					"patching_rect" : [ 1106.972403099319763, 1974.297239334296137, 66.0, 23.0 ],
+					"text" : "del 1500"
 				}
 
 			}

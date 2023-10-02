@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -120,8 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1425.124320063531286, 975.91477666617709, 130.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 1036.0, 864.0, 130.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "load pattr preset before saving is allowed",
 					"textjustification" : 2
@@ -136,8 +135,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1504.575958482105762, 893.937992833455155, 59.0, 23.0 ],
-					"text" : "del 500"
+					"patching_rect" : [ 995.575958482105762, 837.0, 66.0, 23.0 ],
+					"text" : "del 1500"
 				}
 
 			}
@@ -149,7 +148,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1504.575958482105762, 926.666686999999456, 30.0, 23.0 ],
+					"patching_rect" : [ 995.575958482105762, 870.0, 30.0, 23.0 ],
 					"text" : "t 1"
 				}
 
@@ -162,7 +161,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1504.575958482105762, 861.209298666910854, 66.0, 23.0 ],
+					"patching_rect" : [ 995.575958482105762, 804.0, 66.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -175,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1504.575958482105762, 828.480604500366667, 66.0, 23.0 ],
+					"patching_rect" : [ 995.575958482105762, 771.0, 66.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -188,7 +187,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1558.950552165783847, 981.91477666617709, 66.0, 23.0 ],
+					"patching_rect" : [ 1558.950552165783847, 981.914776666177204, 66.0, 23.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -247,7 +246,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "crossover_plugin_or_gen.json",
 					"fontname" : "Monaco",
 					"id" : "obj-55",
 					"maxclass" : "newobj",
@@ -256,10 +254,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.075958482105762, 1201.888866530711084, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 867, 116, 1939, 1332 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 1313, 131, 1981, 1380 ]
 					}
 ,
 					"text" : "pattrstorage crossover_plugin_or_gen @greedy 2 @savemode 0",
