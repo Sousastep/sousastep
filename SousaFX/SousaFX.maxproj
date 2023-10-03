@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3779116499,
-	"viewrect" : [ 1003.0, 346.0, 478.0, 377.0 ],
+	"modificationdate" : 3779192070,
+	"viewrect" : [ 1053.0, 364.0, 478.0, 377.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -90,8 +90,8 @@
 				"local" : 1
 			}
 ,
-			"function_with_two_curves.rnbopat" : 			{
-				"kind" : "rnbopat",
+			"dummy_selector.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -132,6 +132,11 @@
 ,
 			"Modulation Parameters.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"function_with_two_curves.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -335,18 +340,8 @@
 				"local" : 1
 			}
 ,
-			"distortion_plugins.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"drum_loop_vol.amxd" : 			{
 				"kind" : "maxforlive",
-				"local" : 1
-			}
-,
-			"dummy_selector.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,
