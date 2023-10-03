@@ -152,7 +152,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.952792822702703, 0.357141065945946, 0.064551065945946, 0.750162162162162 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 12.0,
 					"id" : "obj-768",
@@ -161,8 +161,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2542.125039836412725, 1351.29921000000013, 202.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 26.0, 223.0, 21.0 ],
-					"text" : "attempting to connect in 9 seconds"
+					"presentation_rect" : [ 2.0, 26.0, 223.0, 21.0 ]
 				}
 
 			}
@@ -183,7 +182,7 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 12.0,
 					"id" : "obj-769",
-					"items" : [ "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "Kensington Expert Mouse", ",", "CalDigit Thunderbolt 3 Audio", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "Headset", ",", "BTM" ],
+					"items" : [ "GamePad-1", ",", "tbwDKPointer  v.0.2.0 ", ",", "Virtual Keyboard  v.0.2.0 ", ",", "CalDigit Thunderbolt 3 Audio", ",", "Kensington Expert Mouse", ",", "Xbox Wireless Controller", ",", "TouchBarUserDevice", ",", "Keyboard Backlight", ",", "Digitizer Usage 0x4", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Page: 0xff00, Usage: 0xff", ",", "Page: 0xff00, Usage: 0x4", ",", "BTM", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -526,18 +525,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 758.708961549999003, 374.766708257934624, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-511",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.106446000000687, 1950.5, 95.0, 22.0 ],
-					"text" : "r dpad_released"
 				}
 
 			}
@@ -921,17 +908,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 995.487793999999667, 1871.0, 29.5, 22.0 ],
 					"text" : "f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-563",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 691.258057500001087, 1871.0, 97.0, 22.0 ],
-					"text" : "s dpad_released"
 				}
 
 			}
@@ -2514,13 +2490,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-512", 0 ],
-					"source" : [ "obj-511", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-480", 0 ],
 					"order" : 0,
 					"source" : [ "obj-512", 0 ]
@@ -3913,7 +3882,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-563", 0 ],
+					"destination" : [ "obj-512", 0 ],
 					"source" : [ "obj-758", 4 ]
 				}
 
