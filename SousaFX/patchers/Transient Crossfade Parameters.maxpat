@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 920.0, 440.0, 346.0, 406.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -117,10 +117,10 @@
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 355, 404, 955, 704 ]
 					}
 ,
-					"text" : "pattrstorage transient_crossfade_parameters @greedy 2 @savemode 0",
+					"text" : "pattrstorage transient_crossfade_parameters @greedy 0 @savemode 0",
 					"varname" : "transient_crossfade_parameters[1]"
 				}
 
@@ -459,7 +459,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1242.0, 933.0, 157.0, 22.0 ],
-					"restore" : [ 100.0 ],
+					"restore" : [ 96.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -573,7 +573,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 863.889977926376105, 752.157661400084862, 94.0, 22.0 ],
-					"restore" : [ 668.465939300288937 ],
+					"restore" : [ 302.071848560589444 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
