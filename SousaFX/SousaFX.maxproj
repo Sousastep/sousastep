@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3779192070,
-	"viewrect" : [ 1053.0, 364.0, 478.0, 377.0 ],
+	"modificationdate" : 3779289514,
+	"viewrect" : [ 979.0, 147.0, 478.0, 1166.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -66,8 +66,7 @@
 ,
 			"audio effect parameters.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"Controller Bindings Preset Selector Mode.maxpat" : 			{
@@ -125,11 +124,6 @@
 				"local" : 1
 			}
 ,
-			"FilterDelaySend.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
 			"Modulation Parameters.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -157,16 +151,6 @@
 ,
 			"mix_env_logic.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"compressor_mono.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
-			"compressor_stereo.rnbopat" : 			{
-				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -262,6 +246,21 @@
 ,
 			"umenu_presets.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"FilterDelaySend.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"compressor_mono.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"compressor_stereo.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -473,6 +472,12 @@
 			"rnbo_platereverb.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"startup_preferences.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}
@@ -819,7 +824,8 @@
 			}
 ,
 			"dialNeedleText.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1
 			}
 ,
 			"envelopefollower.gendsp" : 			{
@@ -888,6 +894,11 @@
 				"local" : 1
 			}
 ,
+			"Dry-ish_FX_plugin1_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"Dry-ish_FX_plugin1_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -908,12 +919,17 @@
 				"local" : 1
 			}
 ,
-			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
+			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"Post-Crossfade_FX_plugin1_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin1_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -953,17 +969,7 @@
 				"local" : 1
 			}
 ,
-			"delay1_rnbo_filterdelay.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"delay1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"delay2_rnbo_filterdelay.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -973,17 +979,7 @@
 				"local" : 1
 			}
 ,
-			"delay3_rnbo_filterdelay.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"delay3_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"delay4_rnbo_filterdelay.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1033,11 +1029,6 @@
 				"local" : 1
 			}
 ,
-			"lows_comp_rnbo_compressor_mono.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"main_limiter_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1083,7 +1074,7 @@
 				"local" : 1
 			}
 ,
-			"octaver_comp_rnbo_compressor_mono.json" : 			{
+			"octaver_comp_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1103,7 +1094,7 @@
 				"local" : 1
 			}
 ,
-			"reverb_gigaverb.json" : 			{
+			"reverb_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1128,12 +1119,52 @@
 				"local" : 1
 			}
 ,
-			"distortion_plugins.json" : 			{
+			"just_theDrop.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
-			"just_theDrop.json" : 			{
+			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay1_rnbo_filterdelay.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay2_rnbo_filterdelay.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay3_rnbo_filterdelay.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay4_rnbo_filterdelay.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"lows_comp_rnbo_compressor_mono.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"octaver_comp_rnbo_compressor_mono.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"reverb_gigaverb.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"distortion_plugins.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1149,21 +1180,6 @@
 			}
 ,
 			"harmonizer_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin1_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin1_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1238,17 +1254,7 @@
 				"local" : 1
 			}
 ,
-			"octaver_comp_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"preamp_and_pitch.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"reverb_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
