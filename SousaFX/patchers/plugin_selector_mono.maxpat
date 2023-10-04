@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1643.0, 1319.0 ],
+		"rect" : [ 837.0, 111.0, 1643.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 246.0, 621.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "newobj",
@@ -122,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 670.0, 95.0, 23.0 ],
+					"patching_rect" : [ 325.0, 683.0, 95.0, 23.0 ],
 					"text" : "pack store 1"
 				}
 
@@ -157,13 +169,11 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-79",
-					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.0, 667.0, 113.0, 113.0 ],
-					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_plugin.json\""
+					"patching_rect" : [ 431.0, 667.0, 113.0, 23.0 ]
 				}
 
 			}
@@ -1231,6 +1241,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -1768,6 +1785,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-68", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-146", 0 ],
 					"source" : [ "obj-68", 5 ]
 				}
@@ -1791,13 +1815,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
 					"source" : [ "obj-68", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-73", 0 ],
-					"source" : [ "obj-68", 2 ]
 				}
 
 			}
