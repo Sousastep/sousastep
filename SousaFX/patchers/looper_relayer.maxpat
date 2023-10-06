@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 139.0, 180.0, 1852.0, 993.0 ],
+		"rect" : [ 207.0, 236.0, 1852.0, 993.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "looper fade out bang",
+					"id" : "obj-40",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1752.0, 1939.333391070365906, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -328,7 +340,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1193.360173179381945, 767.652155268355273, 128.0, 22.0 ],
+					"patching_rect" : [ 1216.000319567753195, 767.652155268355273, 128.0, 22.0 ],
 					"text" : "r \"Tuba Looper Filters\""
 				}
 
@@ -880,7 +892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1072.500319567753195, 804.615047815464322, 58.0, 22.0 ],
+					"patching_rect" : [ 1091.0, 804.615047815464322, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1602,23 +1614,6 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "color",
-					"hint" : "Sets the cutoff frequency (100 Hz to 5 kHz) of the selected filter",
-					"id" : "obj-108",
-					"lock" : 1,
-					"maxclass" : "attrui",
-					"menu_display" : 2,
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 254.871152337402236, 654.241853260863991, 110.0, 22.0 ],
-					"text_width" : 64.0
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "regen",
 					"attr_display" : 1,
 					"hint" : "Sets the amount of delayed signals fed back to the delay lines ",
@@ -1687,14 +1682,14 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"volume" : 						{
-							"label" : "volume",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"regen" : 						{
-							"label" : "regen",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1719,7 +1714,7 @@
 
 					}
 ,
-					"rnboversion" : "1.2.0",
+					"rnboversion" : "1.3.0-dev.7",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2636,42 +2631,12 @@
 					"background" : 1,
 					"fontface" : 0,
 					"fontsize" : 10.0,
-					"id" : "obj-119",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 234.871152337402236, 656.741853260863991, 18.0, 18.0 ],
-					"text" : "7",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
 					"id" : "obj-121",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 202.131327819747639, 613.741853260863991, 18.0, 18.0 ],
 					"text" : "5",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-127",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 366.871152337402236, 656.741853260863991, 18.0, 18.0 ],
-					"text" : "%",
 					"textjustification" : 1
 				}
 
@@ -2931,14 +2896,6 @@
 					"destination" : [ "obj-55", 1 ],
 					"order" : 0,
 					"source" : [ "obj-1075", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-108", 0 ]
 				}
 
 			}
@@ -3702,6 +3659,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-901", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -3740,6 +3704,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-40", 0 ],
+					"source" : [ "obj-58", 1 ]
 				}
 
 			}
@@ -4300,7 +4271,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "FilterDelay.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1
@@ -4308,28 +4279,27 @@
 , 			{
 				"name" : "sm.sallenkey2~.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sm_sallenkey_functions.genexpr",
 				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_genexpr",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sm_sallenkey_stereo.gendsp",
 				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}

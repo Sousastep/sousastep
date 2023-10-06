@@ -175,16 +175,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 2,
-										"out" : 2,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 1,
-										"out" : 1,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 12,
 										"out" : 0,
 										"gain" : 1.0
@@ -195,13 +185,28 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 3,
+										"in" : 0,
 										"out" : 12,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 0,
+										"in" : 1,
 										"out" : 14,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 30,
+										"out" : 22,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 47,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 47,
+										"out" : 48,
 										"gain" : 1.0
 									}
  ]
@@ -213,11 +218,9 @@
 					"dpad & L1 hold or trigger[1]" : [ 0 ],
 					"toggle_1" : [ 1 ],
 					"toggle_2" : [ 1 ],
-					"toggle_3" : [ 0 ],
-					"toggle_4" : [ 0 ],
 					"after_diagonal" : [ 36.000000000000007 ],
-					"before_diagonal" : [ 12.0 ],
-					"diagonal_trigger_mode" : [ 1 ]
+					"before_diagonal" : [ 2.000000000000001 ],
+					"diagonal_trigger_mode" : [ 0 ]
 				}
 
 			}
