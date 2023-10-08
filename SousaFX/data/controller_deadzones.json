@@ -1,0 +1,22 @@
+{
+	"pattrstorage" : 	{
+		"name" : "controller_deadzones",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"left::horizontal" : [ 0.45, 0.55 ],
+					"left::vertical" : [ 0.45, 0.55 ],
+					"left::reach" : [ 33.0 ],
+					"right::horizontal" : [ 0.45, 0.55 ],
+					"right::vertical" : [ 0.45, 0.55 ],
+					"right::reach" : [ 33.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

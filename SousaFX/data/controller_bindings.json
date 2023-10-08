@@ -50,28 +50,8 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 36,
-										"out" : 36,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 29,
-										"out" : 31,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 26,
 										"out" : 30,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 31,
-										"out" : 30,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 28,
-										"out" : 29,
 										"gain" : 1.0
 									}
 , 									{
@@ -185,11 +165,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 1,
-										"out" : 14,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 30,
 										"out" : 22,
 										"gain" : 1.0
@@ -220,13 +195,33 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 39,
-										"out" : 43,
+										"in" : 46,
+										"out" : 33,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 46,
-										"out" : 33,
+										"in" : 3,
+										"out" : 14,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 1,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 2,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 36,
+										"out" : 36,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 43,
+										"out" : 43,
 										"gain" : 1.0
 									}
  ]
@@ -235,11 +230,11 @@
 						}
  ],
 					"textedit" : [ "Sousastep's default bindings" ],
-					"dpad & L1 hold or trigger[1]" : [ 0 ],
-					"toggle_1" : [ 1 ],
+					"dpad & L1 hold or trigger[1]" : [ 1 ],
+					"toggle_1" : [ 0 ],
 					"toggle_2" : [ 1 ],
 					"after_diagonal" : [ 36.000000000000007 ],
-					"before_diagonal" : [ 2.000000000000002 ],
+					"before_diagonal" : [ 2.000000000000026 ],
 					"diagonal_trigger_mode" : [ 0 ]
 				}
 
