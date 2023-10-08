@@ -42,12 +42,1439 @@
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2642.0, 1901.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "int" ],
+					"patching_rect" : [ 2475.0, 984.0, 62.0, 22.0 ],
+					"text" : "t b b b b 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-190",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2607.25, 1734.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-188",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2589.0, 1776.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-187",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2570.75, 2005.0, 72.0, 22.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-184",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2607.25, 1699.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-178",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2534.75, 1897.0, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2534.75, 1862.0, 73.0, 22.0 ],
+					"text" : "random 213"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-175",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 2534.75, 1969.0, 55.0, 22.0 ],
+					"text" : "zl.slice 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"coll_data" : 					{
+						"count" : 213,
+						"data" : [ 							{
+								"key" : 1,
+								"value" : [ "(Organic) machinery." ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "A line has two sides." ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "A very small object - its centre." ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "Abandon desire." ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "Abandon normal instructions." ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "Accept advice." ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "Accretion." ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "Adding on." ]
+							}
+, 							{
+								"key" : 9,
+								"value" : [ "Allow an easement (an easement is the abandonment of a stricture)." ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "Always give yourself credit for having more than personality." ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "Always the first steps." ]
+							}
+, 							{
+								"key" : 12,
+								"value" : [ "Animal noises." ]
+							}
+, 							{
+								"key" : 13,
+								"value" : [ "Are there sections? Consider transitions." ]
+							}
+, 							{
+								"key" : 14,
+								"value" : [ "Ask a computer program to repeat your last action." ]
+							}
+, 							{
+								"key" : 15,
+								"value" : [ "Ask people to work against their better judgement." ]
+							}
+, 							{
+								"key" : 16,
+								"value" : [ "Ask your body." ]
+							}
+, 							{
+								"key" : 17,
+								"value" : [ "Assemble some of the elements in a group and treat the group." ]
+							}
+, 							{
+								"key" : 18,
+								"value" : [ "Back up a few steps What else could you have done?" ]
+							}
+, 							{
+								"key" : 19,
+								"value" : [ "Balance the consistency principle with the inconsistency principle." ]
+							}
+, 							{
+								"key" : 20,
+								"value" : [ "Be dirty." ]
+							}
+, 							{
+								"key" : 21,
+								"value" : [ "Be extravagant." ]
+							}
+, 							{
+								"key" : 22,
+								"value" : [ "Be less critical more often." ]
+							}
+, 							{
+								"key" : 23,
+								"value" : [ "Breathe more deeply." ]
+							}
+, 							{
+								"key" : 24,
+								"value" : [ "Build bridges." ]
+							}
+, 							{
+								"key" : 25,
+								"value" : [ "Burn bridges." ]
+							}
+, 							{
+								"key" : 26,
+								"value" : [ "Call your mother and ask her what to do." ]
+							}
+, 							{
+								"key" : 27,
+								"value" : [ "Cascades." ]
+							}
+, 							{
+								"key" : 28,
+								"value" : [ "Change ambiguities to specifics." ]
+							}
+, 							{
+								"key" : 29,
+								"value" : [ "Change specifics to ambiguities." ]
+							}
+, 							{
+								"key" : 30,
+								"value" : [ "Change instrument roles." ]
+							}
+, 							{
+								"key" : 31,
+								"value" : [ "Change nothing and continue with immaculate consistency." ]
+							}
+, 							{
+								"key" : 32,
+								"value" : [ "Children's voices speaking." ]
+							}
+, 							{
+								"key" : 33,
+								"value" : [ "Children's voices singing." ]
+							}
+, 							{
+								"key" : 34,
+								"value" : [ "Cluster analysis." ]
+							}
+, 							{
+								"key" : 35,
+								"value" : [ "Consider different fading systems." ]
+							}
+, 							{
+								"key" : 36,
+								"value" : [ "Consider transitions." ]
+							}
+, 							{
+								"key" : 37,
+								"value" : [ "Consult other promising sources." ]
+							}
+, 							{
+								"key" : 38,
+								"value" : [ "Consult other unpromising sources." ]
+							}
+, 							{
+								"key" : 39,
+								"value" : [ "Convert a melodic element into a rhythmic element." ]
+							}
+, 							{
+								"key" : 40,
+								"value" : [ "Courage!" ]
+							}
+, 							{
+								"key" : 41,
+								"value" : [ "Cut a vital connection." ]
+							}
+, 							{
+								"key" : 42,
+								"value" : [ "Cut a virtual connection." ]
+							}
+, 							{
+								"key" : 43,
+								"value" : [ "Decorate, decorate." ]
+							}
+, 							{
+								"key" : 44,
+								"value" : [ "Define an area as \"safe\" and use it as an anchor." ]
+							}
+, 							{
+								"key" : 45,
+								"value" : [ "Describe the landscape in which this belongs." ]
+							}
+, 							{
+								"key" : 46,
+								"value" : [ "Destroy nothing." ]
+							}
+, 							{
+								"key" : 47,
+								"value" : [ "Discard an axiom." ]
+							}
+, 							{
+								"key" : 48,
+								"value" : [ "Disciplined self-indulgence." ]
+							}
+, 							{
+								"key" : 49,
+								"value" : [ "Disconnect from desire." ]
+							}
+, 							{
+								"key" : 50,
+								"value" : [ "Discover the recipes you are using and abandon them." ]
+							}
+, 							{
+								"key" : 51,
+								"value" : [ "Discover your formulas and abandon them." ]
+							}
+, 							{
+								"key" : 52,
+								"value" : [ "Display your talent." ]
+							}
+, 							{
+								"key" : 53,
+								"value" : [ "Distorting time." ]
+							}
+, 							{
+								"key" : 54,
+								"value" : [ "Do nothing for as long as possible." ]
+							}
+, 							{
+								"key" : 55,
+								"value" : [ "Do something boring." ]
+							}
+, 							{
+								"key" : 56,
+								"value" : [ "Do something sudden, destructive and unpredictable." ]
+							}
+, 							{
+								"key" : 57,
+								"value" : [ "Do the last thing first." ]
+							}
+, 							{
+								"key" : 58,
+								"value" : [ "Do the washing up." ]
+							}
+, 							{
+								"key" : 59,
+								"value" : [ "Do the words need changing?" ]
+							}
+, 							{
+								"key" : 60,
+								"value" : [ "Do we need holes?" ]
+							}
+, 							{
+								"key" : 61,
+								"value" : [ "Don't avoid what is easy." ]
+							}
+, 							{
+								"key" : 62,
+								"value" : [ "Don't be afraid of things because they're easy to do." ]
+							}
+, 							{
+								"key" : 63,
+								"value" : [ "Don't be frightened of cliches." ]
+							}
+, 							{
+								"key" : 64,
+								"value" : [ "Don't be frightened to display your talents." ]
+							}
+, 							{
+								"key" : 65,
+								"value" : [ "Don't break the silence." ]
+							}
+, 							{
+								"key" : 66,
+								"value" : [ "Don't stress one thing more than another." ]
+							}
+, 							{
+								"key" : 67,
+								"value" : [ "Emphasize differences." ]
+							}
+, 							{
+								"key" : 68,
+								"value" : [ "Emphasize repetitions." ]
+							}
+, 							{
+								"key" : 69,
+								"value" : [ "Emphasize the flaws." ]
+							}
+, 							{
+								"key" : 70,
+								"value" : [ "Faced with a choice, do both!" ]
+							}
+, 							{
+								"key" : 71,
+								"value" : [ "Feed the recording back out of the medium." ]
+							}
+, 							{
+								"key" : 72,
+								"value" : [ "Feedback recordings into an acoustic situation." ]
+							}
+, 							{
+								"key" : 73,
+								"value" : [ "Fill every beat with something." ]
+							}
+, 							{
+								"key" : 74,
+								"value" : [ "First work alone, then work in unusual pairs." ]
+							}
+, 							{
+								"key" : 75,
+								"value" : [ "From nothing to more than nothing." ]
+							}
+, 							{
+								"key" : 76,
+								"value" : [ "Get your neck massaged." ]
+							}
+, 							{
+								"key" : 77,
+								"value" : [ "Ghost echoes." ]
+							}
+, 							{
+								"key" : 78,
+								"value" : [ "Give the game away." ]
+							}
+, 							{
+								"key" : 79,
+								"value" : [ "Give way to your worst impulse." ]
+							}
+, 							{
+								"key" : 80,
+								"value" : [ "Go outside. Shut the door." ]
+							}
+, 							{
+								"key" : 81,
+								"value" : [ "Go slowly all the way round the outside." ]
+							}
+, 							{
+								"key" : 82,
+								"value" : [ "Go to an extreme, move back to a more comfortable place." ]
+							}
+, 							{
+								"key" : 83,
+								"value" : [ "How would someone else do it?" ]
+							}
+, 							{
+								"key" : 84,
+								"value" : [ "How would you explain this to your parents?" ]
+							}
+, 							{
+								"key" : 85,
+								"value" : [ "How would you have done it?" ]
+							}
+, 							{
+								"key" : 86,
+								"value" : [ "Humanize something that is free of error." ]
+							}
+, 							{
+								"key" : 87,
+								"value" : [ "Idiot glee." ]
+							}
+, 							{
+								"key" : 88,
+								"value" : [ "Imagine the music as a moving chain or caterpillar." ]
+							}
+, 							{
+								"key" : 89,
+								"value" : [ "Imagine the music as a series of disconnected events." ]
+							}
+, 							{
+								"key" : 90,
+								"value" : [ "In total darkness." ]
+							}
+, 							{
+								"key" : 91,
+								"value" : [ "In a very large room, very quietly." ]
+							}
+, 							{
+								"key" : 92,
+								"value" : [ "Infinitesimal gradations." ]
+							}
+, 							{
+								"key" : 93,
+								"value" : [ "Instead of changing the thing, change the world around it." ]
+							}
+, 							{
+								"key" : 94,
+								"value" : [ "Credibility of intentions." ]
+							}
+, 							{
+								"key" : 95,
+								"value" : [ "Nobility of intentions." ]
+							}
+, 							{
+								"key" : 96,
+								"value" : [ "Humility of intentions." ]
+							}
+, 							{
+								"key" : 97,
+								"value" : [ "Is it finished?" ]
+							}
+, 							{
+								"key" : 98,
+								"value" : [ "Is something missing?" ]
+							}
+, 							{
+								"key" : 99,
+								"value" : [ "Is the style right?" ]
+							}
+, 							{
+								"key" : 100,
+								"value" : [ "Is the tuning appropriate?" ]
+							}
+, 							{
+								"key" : 101,
+								"value" : [ "It is quite possible (after all)." ]
+							}
+, 							{
+								"key" : 102,
+								"value" : [ "It is simply a matter or work." ]
+							}
+, 							{
+								"key" : 103,
+								"value" : [ "Just carry on." ]
+							}
+, 							{
+								"key" : 104,
+								"value" : [ "Left channel, right channel, centre channel." ]
+							}
+, 							{
+								"key" : 105,
+								"value" : [ "List the qualities it has List those you'd like." ]
+							}
+, 							{
+								"key" : 106,
+								"value" : [ "Listen in total darkness." ]
+							}
+, 							{
+								"key" : 107,
+								"value" : [ "Listen in a very large room, very quietly." ]
+							}
+, 							{
+								"key" : 108,
+								"value" : [ "listen to the quiet voice." ]
+							}
+, 							{
+								"key" : 109,
+								"value" : [ "Look at a very small object, look at its centre." ]
+							}
+, 							{
+								"key" : 110,
+								"value" : [ "Look at the order in which you do things." ]
+							}
+, 							{
+								"key" : 111,
+								"value" : [ "Look closely at the most embarrassing details and amplify." ]
+							}
+, 							{
+								"key" : 112,
+								"value" : [ "Lost in useless territory." ]
+							}
+, 							{
+								"key" : 113,
+								"value" : [ "Lowest common denominator check: single beat; single note; single riff." ]
+							}
+, 							{
+								"key" : 114,
+								"value" : [ "Magnify the most difficult details." ]
+							}
+, 							{
+								"key" : 115,
+								"value" : [ "Make a blank valuable by putting it in an excquisite frame." ]
+							}
+, 							{
+								"key" : 116,
+								"value" : [ "Make a sudden, destructive unpredictable action. Incorporate." ]
+							}
+, 							{
+								"key" : 117,
+								"value" : [ "Make an exhaustive list of everything you might do and do the last thing on the list." ]
+							}
+, 							{
+								"key" : 118,
+								"value" : [ "Make it more sensual." ]
+							}
+, 							{
+								"key" : 119,
+								"value" : [ "Make it more banal." ]
+							}
+, 							{
+								"key" : 120,
+								"value" : [ "Make what's perfect more human." ]
+							}
+, 							{
+								"key" : 121,
+								"value" : [ "Mechanize something idiosyncratic." ]
+							}
+, 							{
+								"key" : 122,
+								"value" : [ "Move towards the impossible." ]
+							}
+, 							{
+								"key" : 123,
+								"value" : [ "Move towards the unimportant." ]
+							}
+, 							{
+								"key" : 124,
+								"value" : [ "Mute and continue." ]
+							}
+, 							{
+								"key" : 125,
+								"value" : [ "Not building a wall but making a brick." ]
+							}
+, 							{
+								"key" : 126,
+								"value" : [ "Once the search is in progress, something will be found." ]
+							}
+, 							{
+								"key" : 127,
+								"value" : [ "Only a part, not the whole." ]
+							}
+, 							{
+								"key" : 128,
+								"value" : [ "Only one element of each kind." ]
+							}
+, 							{
+								"key" : 129,
+								"value" : [ "Overtly resist change." ]
+							}
+, 							{
+								"key" : 130,
+								"value" : [ "Pae White's non-blank graphic metacard." ]
+							}
+, 							{
+								"key" : 131,
+								"value" : [ "Pay attention to distractions." ]
+							}
+, 							{
+								"key" : 132,
+								"value" : [ "Picture of a man spotlighted." ]
+							}
+, 							{
+								"key" : 133,
+								"value" : [ "Put in earplugs." ]
+							}
+, 							{
+								"key" : 134,
+								"value" : [ "Question the heroic approach." ]
+							}
+, 							{
+								"key" : 135,
+								"value" : [ "Rearrange." ]
+							}
+, 							{
+								"key" : 136,
+								"value" : [ "Remember those quiet evenings." ]
+							}
+, 							{
+								"key" : 137,
+								"value" : [ "Remove a restriction." ]
+							}
+, 							{
+								"key" : 138,
+								"value" : [ "Remove ambiguities and convert to specifics." ]
+							}
+, 							{
+								"key" : 139,
+								"value" : [ "Remove specifics and convert to ambiguities." ]
+							}
+, 							{
+								"key" : 140,
+								"value" : [ "Remove the middle, extend the edges." ]
+							}
+, 							{
+								"key" : 141,
+								"value" : [ "Repetition is a form of change." ]
+							}
+, 							{
+								"key" : 142,
+								"value" : [ "Retrace your steps." ]
+							}
+, 							{
+								"key" : 143,
+								"value" : [ "Revaluation (a warm feeling)." ]
+							}
+, 							{
+								"key" : 144,
+								"value" : [ "Reverse." ]
+							}
+, 							{
+								"key" : 145,
+								"value" : [ "Short circuit." ]
+							}
+, 							{
+								"key" : 146,
+								"value" : [ "Shut the door and listen from outside." ]
+							}
+, 							{
+								"key" : 147,
+								"value" : [ "Simple subtraction." ]
+							}
+, 							{
+								"key" : 148,
+								"value" : [ "Simply a matter of work." ]
+							}
+, 							{
+								"key" : 149,
+								"value" : [ "Slow preparation, fast execution." ]
+							}
+, 							{
+								"key" : 150,
+								"value" : [ "Spectrum analysis." ]
+							}
+, 							{
+								"key" : 151,
+								"value" : [ "State the problem in words as simply as possible." ]
+							}
+, 							{
+								"key" : 152,
+								"value" : [ "Steal a solution." ]
+							}
+, 							{
+								"key" : 153,
+								"value" : [ "Take a break." ]
+							}
+, 							{
+								"key" : 154,
+								"value" : [ "Take away as much mystery as possible What is left?" ]
+							}
+, 							{
+								"key" : 155,
+								"value" : [ "Take away the elements in order of apparent non-importance." ]
+							}
+, 							{
+								"key" : 156,
+								"value" : [ "Take away the important parts." ]
+							}
+, 							{
+								"key" : 157,
+								"value" : [ "Tape your mouth." ]
+							}
+, 							{
+								"key" : 158,
+								"value" : [ "The inconsistency principle." ]
+							}
+, 							{
+								"key" : 159,
+								"value" : [ "The most important thing is the thing most easily forgotten." ]
+							}
+, 							{
+								"key" : 160,
+								"value" : [ "The tape is now the music." ]
+							}
+, 							{
+								"key" : 161,
+								"value" : [ "Think inside the work." ]
+							}
+, 							{
+								"key" : 162,
+								"value" : [ "Think outside the work." ]
+							}
+, 							{
+								"key" : 163,
+								"value" : [ "Think of the radio." ]
+							}
+, 							{
+								"key" : 164,
+								"value" : [ "Tidy up." ]
+							}
+, 							{
+								"key" : 165,
+								"value" : [ "Towards the insignificant." ]
+							}
+, 							{
+								"key" : 166,
+								"value" : [ "Trust in the you of now." ]
+							}
+, 							{
+								"key" : 167,
+								"value" : [ "Try faking it." ]
+							}
+, 							{
+								"key" : 168,
+								"value" : [ "Turn it upside down." ]
+							}
+, 							{
+								"key" : 169,
+								"value" : [ "Twist the spine." ]
+							}
+, 							{
+								"key" : 170,
+								"value" : [ "Use \"unqualified\" people." ]
+							}
+, 							{
+								"key" : 171,
+								"value" : [ "Use an old idea." ]
+							}
+, 							{
+								"key" : 172,
+								"value" : [ "Use an unacceptable color." ]
+							}
+, 							{
+								"key" : 173,
+								"value" : [ "Use cliches." ]
+							}
+, 							{
+								"key" : 174,
+								"value" : [ "Use fewer notes." ]
+							}
+, 							{
+								"key" : 175,
+								"value" : [ "Use filters." ]
+							}
+, 							{
+								"key" : 176,
+								"value" : [ "Use something nearby as a model." ]
+							}
+, 							{
+								"key" : 177,
+								"value" : [ "Use your own ideas." ]
+							}
+, 							{
+								"key" : 178,
+								"value" : [ "Voice your suspicions." ]
+							}
+, 							{
+								"key" : 179,
+								"value" : [ "Water." ]
+							}
+, 							{
+								"key" : 180,
+								"value" : [ "Fire." ]
+							}
+, 							{
+								"key" : 181,
+								"value" : [ "Earh." ]
+							}
+, 							{
+								"key" : 182,
+								"value" : [ "Wind." ]
+							}
+, 							{
+								"key" : 183,
+								"value" : [ "Heart." ]
+							}
+, 							{
+								"key" : 184,
+								"value" : [ "What are the sections sections of?" ]
+							}
+, 							{
+								"key" : 185,
+								"value" : [ "What context would look right?" ]
+							}
+, 							{
+								"key" : 186,
+								"value" : [ "What do you do?" ]
+							}
+, 							{
+								"key" : 187,
+								"value" : [ "Now, what do you do best?" ]
+							}
+, 							{
+								"key" : 188,
+								"value" : [ "What else is this like?" ]
+							}
+, 							{
+								"key" : 189,
+								"value" : [ "What is the reality of the situation?" ]
+							}
+, 							{
+								"key" : 190,
+								"value" : [ "What is the simplest solution?" ]
+							}
+, 							{
+								"key" : 191,
+								"value" : [ "What mistakes did you make last time?" ]
+							}
+, 							{
+								"key" : 192,
+								"value" : [ "What most recently impressed you?" ]
+							}
+, 							{
+								"key" : 193,
+								"value" : [ "What can you learn from it?" ]
+							}
+, 							{
+								"key" : 194,
+								"value" : [ "How is it similar?" ]
+							}
+, 							{
+								"key" : 195,
+								"value" : [ "What could you take from it?" ]
+							}
+, 							{
+								"key" : 196,
+								"value" : [ "What to increase? What to reduce? What to maintain?" ]
+							}
+, 							{
+								"key" : 197,
+								"value" : [ "What were the branch points in the evolution of this entity?" ]
+							}
+, 							{
+								"key" : 198,
+								"value" : [ "What were you really thinking about just now? Incorporate." ]
+							}
+, 							{
+								"key" : 199,
+								"value" : [ "What would make this really successful?" ]
+							}
+, 							{
+								"key" : 200,
+								"value" : [ "What would your closest friend do?" ]
+							}
+, 							{
+								"key" : 201,
+								"value" : [ "What wouldn't you do? Do that." ]
+							}
+, 							{
+								"key" : 202,
+								"value" : [ "When is it for?" ]
+							}
+, 							{
+								"key" : 203,
+								"value" : [ "Who is it for?" ]
+							}
+, 							{
+								"key" : 204,
+								"value" : [ "Where is the edge?" ]
+							}
+, 							{
+								"key" : 205,
+								"value" : [ "Which parts can be grouped?" ]
+							}
+, 							{
+								"key" : 206,
+								"value" : [ "Who would make this really successful?" ]
+							}
+, 							{
+								"key" : 207,
+								"value" : [ "Work at a different speed." ]
+							}
+, 							{
+								"key" : 208,
+								"value" : [ "Would anyone want it?" ]
+							}
+, 							{
+								"key" : 209,
+								"value" : [ "You are an engineer." ]
+							}
+, 							{
+								"key" : 210,
+								"value" : [ "You can only make one dot at a time." ]
+							}
+, 							{
+								"key" : 211,
+								"value" : [ "You don't have to be ashamed of using your own ideas." ]
+							}
+, 							{
+								"key" : 212,
+								"value" : [ "Your mistake was a hidden intention." ]
+							}
+, 							{
+								"key" : 213,
+								"value" : [ " " ]
+							}
+ ]
+					}
+,
+					"id" : "obj-114",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 2534.75, 1934.0, 179.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"embed" : 1,
+						"precision" : 6
+					}
+,
+					"text" : "coll brian-eno-oblique-strategies"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2976.5, 1356.0, 33.0, 22.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-94",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2930.5, 1274.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-147",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2397.0, 1707.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-146",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2344.0, 841.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-133",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2344.0, 1011.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2344.0, 970.0, 33.0, 22.0 ],
+					"text" : "== 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2344.0, 889.0, 126.0, 22.0 ],
+					"text" : "qmetro 333 @active 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-91",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 2344.0, 930.0, 92.0, 22.0 ],
+					"text" : "counter 0 0 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-160",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2976.5, 1274.0, 23.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 479.0, 40.0, 61.0, 61.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.207843137254902, 0.207843137254902, 0.207843137254902, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.207843137254902, 0.207843137254902, 0.207843137254902, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Monaco",
+					"fontsize" : 18.0,
+					"id" : "obj-58",
+					"items" : [ "SousaFX", ",", "SousaFX", "&", "VFX", ",", "BasicFX", ",", "BasicFX", "+", "VFX" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1925.0, 1748.0, 130.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 168.0, 70.0, 298.0, 31.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.133333333333333, 1.0, 0.035294117647059, 0.0 ],
+					"fontname" : "Monaco",
+					"fontsize" : 26.0,
+					"id" : "obj-222",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2397.0, 1496.0, 485.0, 39.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 9.0, 103.0, 286.0, 71.0 ],
+					"text" : "Loading SousaFX in 3 seconds",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-291",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 721.818156003952026, 1253.619873046875, 29.5, 22.0 ],
+					"text" : "t i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-285",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 779.521857976913452, 1326.851829707622528, 109.09090518951416, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "emote folder name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-283",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 875.9259113073349, 1449.074049890041351, 109.999996066093445, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "# of pngs in folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-281",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 821.296282589435577, 1449.074049890041351, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-267",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 691.31815642118454, 1506.183216691017151, 119.0, 22.0 ],
+					"text" : "qmetro 70 @active 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-266",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 833.244081079959869, 1506.183216691017151, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-264",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 767.244081079959869, 1556.695885419845581, 85.0, 22.0 ],
+					"text" : "counter 0 0 99"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-260",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 635.707046329975128, 900.031191945075989, 58.0, 22.0 ],
+					"text" : "b 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-259",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 635.707046329975128, 849.518523216247559, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-258",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 716.318156003952026, 1354.64521050453186, 334.0, 22.0 ],
+					"text" : "sprintf \\\"~/Documents/Max 8/Projects/sousastep/emotes/%s\\\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-254",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 721.818156003952026, 1102.081866860389709, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-252",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 721.818156003952026, 1152.59453558921814, 49.0, 22.0 ],
+					"text" : "t b i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-246",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 721.818156003952026, 1203.10720431804657, 49.0, 22.0 ],
+					"text" : "random"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-235",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 610.707046747207642, 971.740743398666382, 41.000001072883606, 22.0 ],
+					"text" : "types"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-236",
+					"items" : [ "3x-00-frames", ",", "3x-01-frames", ",", "3x-02-frames", ",", "3x-03-frames", ",", "3x-04-frames", ",", "3x-05-frames", ",", "3x-06-frames", ",", "3x-07-frames", ",", "3x-08-frames", ",", "3x-09-frames", ",", "3x-10-frames" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 675.818156003952026, 1304.13254177570343, 100.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-237",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 702.373711884021759, 1001.056529402732849, 150.0, 22.0 ],
+					"text" : "conformpath max absolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-244",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 702.373711884021759, 1051.569198131561279, 39.0, 22.0 ],
+					"text" : "folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-234",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 702.373711884021759, 950.543860673904419, 275.0, 22.0 ],
+					"text" : "\"~/Documents/Max 8/Projects/sousastep/emotes/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-216",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 622.222211837768555, 1354.64521050453186, 67.0, 22.0 ],
+					"text" : "types PNG"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-189",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 716.318156003952026, 1405.157879233360291, 150.0, 22.0 ],
+					"text" : "conformpath max absolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-194",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 716.318156003952026, 1455.670547962188721, 39.0, 22.0 ],
+					"text" : "folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-172",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 767.244081079959869, 1708.333304822444916, 71.0, 22.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-170",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "int", "bang" ],
+					"patching_rect" : [ 767.244081079959869, 1607.4073805809021, 40.0, 22.0 ],
+					"text" : "t b i b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-148",
+					"maxclass" : "newobj",
+					"numinlets" : 7,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 767.244081079959869, 1658.333305656909943, 162.0, 22.0 ],
+					"text" : "combine read \" \" 3x- i - i .png"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-80",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3184.0, 1669.0, 33.0, 22.0 ],
+					"patching_rect" : [ 2930.5, 1326.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -59,7 +1486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3184.0, 1596.0, 33.0, 22.0 ],
+					"patching_rect" : [ 2930.5, 1228.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -83,7 +1510,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2863.0, 1877.0, 31.0, 22.0 ],
+					"patching_rect" : [ 2848.666666666666515, 1878.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -107,32 +1534,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2859.0, 1840.0, 57.0, 22.0 ],
+					"patching_rect" : [ 2848.666666666666515, 1840.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2547.0, 1954.0, 185.0, 22.0 ],
-					"text" : "set Loading... Hold your horses..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2397.0, 1720.0, 48.0, 22.0 ],
-					"text" : "del 100"
 				}
 
 			}
@@ -141,10 +1544,10 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 2439.0, 1669.0, 40.0, 22.0 ],
-					"text" : "b 3"
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "int", "int" ],
+					"patching_rect" : [ 2718.0, 1335.0, 62.0, 22.0 ],
+					"text" : "t b b b 0 0"
 				}
 
 			}
@@ -155,7 +1558,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2433.0, 1125.0, 67.0, 22.0 ],
+					"patching_rect" : [ 2610.0, 1115.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -168,7 +1571,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "wclose" ],
-					"patching_rect" : [ 2433.0, 1091.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2610.0, 1065.0, 52.0, 22.0 ],
 					"text" : "t wclose"
 				}
 
@@ -180,8 +1583,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2433.0, 1053.0, 55.0, 22.0 ],
-					"text" : "del 2500"
+					"patching_rect" : [ 2610.0, 1027.0, 55.0, 22.0 ],
+					"text" : "del 7000"
 				}
 
 			}
@@ -192,8 +1595,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2486.0, 1227.0, 55.0, 22.0 ],
-					"text" : "del 1000"
+					"patching_rect" : [ 2485.75, 1115.0, 55.0, 22.0 ],
+					"text" : "del 5000"
 				}
 
 			}
@@ -204,7 +1607,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2486.0, 1264.5, 246.0, 22.0 ],
+					"patching_rect" : [ 2486.0, 1157.0, 246.0, 22.0 ],
 					"text" : "set Closing \\\"Startup Preferences\\\" window..."
 				}
 
@@ -240,11 +1643,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 11.595186999999999,
 					"id" : "obj-34",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 50.0, 953.0, 550.0, 21.0 ],
+					"patching_rect" : [ 50.0, 953.0, 257.272718071937561, 47.0 ],
 					"text" : "window size $1 $2 $3 $4, window flags nogrow, window flags nofloat, window flags nozoom, window exec"
 				}
 
@@ -343,7 +1747,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 189.0, 726.0, 82.0, 21.0 ],
-					"text" : "zl reg 553 241"
+					"text" : "zl reg 554 255"
 				}
 
 			}
@@ -441,7 +1845,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2734.0, 1788.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2734.0, 1762.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -455,19 +1859,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2882.0, 1571.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-167",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 2650.5, 1634.0, 32.0, 22.0 ],
-					"text" : "t 0 1"
+					"patching_rect" : [ 2942.5, 1081.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -478,7 +1870,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2784.0, 1827.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2784.0, 1856.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -490,7 +1882,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2439.0, 1633.0, 34.0, 22.0 ],
+					"patching_rect" : [ 2718.0, 1299.0, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -502,7 +1894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 2734.0, 1590.0, 32.0, 22.0 ],
+					"patching_rect" : [ 2894.5, 1008.0, 32.0, 22.0 ],
 					"text" : "t 1 0"
 				}
 
@@ -516,7 +1908,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2842.599999999999909, 1629.0, 61.0, 23.0 ],
+					"patching_rect" : [ 3031.5, 1278.0, 61.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 479.0, 24.0, 61.0, 23.0 ],
 					"text" : "pause",
@@ -591,22 +1983,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2784.0, 1927.0, 249.0, 22.0 ],
-					"text" : "combine \"set \" \"Loading \" s \" in \" i \" \" seconds"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-160",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 3184.0, 1634.0, 23.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 479.0, 40.0, 61.0, 61.0 ]
+					"patching_rect" : [ 2784.0, 1927.0, 253.0, 22.0 ],
+					"text" : "combine \"set \" \"Loading \" s \" in \" i \" \" seconds."
 				}
 
 			}
@@ -617,7 +1995,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2905.599999999999909, 1669.0, 69.0, 22.0 ],
+					"patching_rect" : [ 2936.0, 1418.0, 69.0, 22.0 ],
 					"text" : "metro 1000"
 				}
 
@@ -629,7 +2007,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 2905.599999999999909, 1707.0, 79.0, 22.0 ],
+					"patching_rect" : [ 2936.0, 1456.0, 79.0, 22.0 ],
 					"text" : "counter 1 5 0"
 				}
 
@@ -648,36 +2026,17 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.133333333333333, 1.0, 0.035294117647059, 0.0 ],
-					"fontname" : "Chakra Petch",
-					"fontsize" : 36.0,
-					"id" : "obj-222",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2397.0, 1496.0, 468.0, 78.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 120.0, 515.0, 42.0 ],
-					"text" : "Loading SousaFX in 2 seconds",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.207843137254902, 0.207843137254902, 0.207843137254902, 1.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"id" : "obj-122",
 					"maxclass" : "comment",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1300.5, 138.0, 189.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 51.0, 20.0, 110.0, 39.0 ],
-					"suppressinlet" : 1,
 					"text" : "Choose audio interface",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 2
@@ -724,7 +2083,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2377.0, 1316.0, 149.0, 22.0 ],
+					"patching_rect" : [ 2486.0, 1205.0, 149.0, 22.0 ],
 					"text" : "s startup_status_comment"
 				}
 
@@ -837,42 +2196,15 @@
 					"fontsize" : 13.0,
 					"id" : "obj-60",
 					"maxclass" : "comment",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1627.0, 1752.0, 296.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 9.0, 66.0, 152.0, 39.0 ],
-					"suppressinlet" : 1,
 					"text" : "Choose which rig to load on startup",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 2
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.207843137254902, 0.207843137254902, 0.207843137254902, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.207843137254902, 0.207843137254902, 0.207843137254902, 1.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
-					"fontsize" : 18.0,
-					"id" : "obj-58",
-					"items" : [ "SousaFX", ",", "SousaFX", "&", "VFX", ",", "BasicFX", ",", "BasicFX", "+", "VFX" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1925.0, 1748.0, 130.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 168.0, 70.0, 298.0, 31.0 ],
-					"varname" : "umenu"
 				}
 
 			}
@@ -2133,20 +3465,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2377.0, 1264.5, 77.0, 22.0 ],
-					"text" : "set Success!"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2344.0, 1194.0, 52.0, 22.0 ],
-					"text" : "r loaded"
+					"patching_rect" : [ 2384.0, 1103.0, 71.0, 22.0 ],
+					"text" : "set Loaded!"
 				}
 
 			}
@@ -2157,20 +3477,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2567.0, 2082.0, 199.0, 22.0 ],
+					"patching_rect" : [ 2378.0, 2132.0, 199.0, 22.0 ],
 					"text" : "bgfillcolor 0.135289 1. 0.036922 0.1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2605.0, 1899.0, 81.0, 22.0 ],
-					"text" : "set Loading..."
 				}
 
 			}
@@ -3324,6 +4632,22 @@
 			}
 , 			{
 				"box" : 				{
+					"autofit" : 1,
+					"background" : 1,
+					"id" : "obj-134",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 767.244081079959869, 1759.259229898452759, 71.0, 76.851850569248199 ],
+					"pic" : "3x-7-0.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
 					"bgcolor" : [ 0.135289, 1.0, 0.036922, 0.1 ],
@@ -3335,7 +4659,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2344.0, 1912.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 553.0, 241.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 553.0, 254.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -3344,32 +4668,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-110", 0 ],
-					"order" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
-					"order" : 1,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 2,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-199", 0 ],
-					"order" : 3,
+					"destination" : [ "obj-114", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -3456,22 +4755,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-167", 0 ],
-					"source" : [ "obj-11", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-11", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
+					"destination" : [ "obj-147", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-171", 0 ],
+					"source" : [ "obj-11", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-11", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 1 ],
+					"source" : [ "obj-11", 1 ]
 				}
 
 			}
@@ -3500,6 +4806,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-175", 0 ],
+					"source" : [ "obj-114", 0 ]
 				}
 
 			}
@@ -3568,6 +4881,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-126", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-222", 0 ],
 					"source" : [ "obj-127", 0 ]
 				}
@@ -3596,8 +4916,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-131", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"source" : [ "obj-133", 0 ]
 				}
 
 			}
@@ -3703,6 +5037,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"source" : [ "obj-146", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"midpoints" : [ 2406.5, 1731.0, 2331.0, 1731.0, 2331.0, 837.0, 2353.5, 837.0 ],
+					"source" : [ "obj-147", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-172", 0 ],
+					"source" : [ "obj-148", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-144", 0 ],
 					"source" : [ "obj-149", 0 ]
 				}
@@ -3797,6 +5153,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
+					"order" : 1,
+					"source" : [ "obj-160", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"order" : 0,
 					"source" : [ "obj-160", 0 ]
 				}
 
@@ -3819,6 +5184,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-159", 4 ],
+					"midpoints" : [ 2945.5, 1800.0, 2922.0, 1800.0, 2922.0, 1899.0, 2949.5, 1899.0 ],
 					"order" : 1,
 					"source" : [ "obj-162", 0 ]
 				}
@@ -3836,6 +5202,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"order" : 2,
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-184", 0 ],
+					"order" : 4,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -3879,31 +5253,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-169", 0 ],
-					"source" : [ "obj-167", 1 ]
+					"destination" : [ "obj-122", 0 ],
+					"order" : 5,
+					"source" : [ "obj-169", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-171", 0 ],
-					"order" : 1,
-					"source" : [ "obj-167", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"order" : 0,
-					"source" : [ "obj-167", 0 ]
+					"destination" : [ "obj-14", 0 ],
+					"order" : 4,
+					"source" : [ "obj-169", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-169", 0 ]
 				}
 
@@ -3911,7 +5278,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-163", 0 ],
-					"order" : 1,
+					"order" : 0,
+					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"order" : 2,
+					"source" : [ "obj-169", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 3,
 					"source" : [ "obj-169", 0 ]
 				}
 
@@ -3925,8 +5308,57 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-148", 5 ],
+					"source" : [ "obj-170", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-148", 0 ],
+					"source" : [ "obj-170", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-188", 1 ],
+					"source" : [ "obj-170", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"source" : [ "obj-171", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-172", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-187", 0 ],
+					"source" : [ "obj-175", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-178", 0 ],
+					"source" : [ "obj-177", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"source" : [ "obj-178", 0 ]
 				}
 
 			}
@@ -3939,8 +5371,103 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
+					"source" : [ "obj-184", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"source" : [ "obj-187", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-188", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-194", 0 ],
+					"source" : [ "obj-189", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-169", 0 ],
+					"order" : 0,
+					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-188", 0 ],
+					"order" : 1,
+					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-192", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-192", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-188", 0 ],
+					"source" : [ "obj-192", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-199", 0 ],
+					"source" : [ "obj-192", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-266", 0 ],
+					"order" : 0,
+					"source" : [ "obj-194", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-281", 0 ],
+					"order" : 1,
+					"source" : [ "obj-194", 1 ]
 				}
 
 			}
@@ -4006,6 +5533,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-213", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-194", 0 ],
+					"source" : [ "obj-216", 0 ]
 				}
 
 			}
@@ -4148,6 +5682,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"source" : [ "obj-234", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-244", 0 ],
+					"source" : [ "obj-235", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-258", 0 ],
+					"source" : [ "obj-236", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-244", 0 ],
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-230", 0 ],
 					"order" : 1,
 					"source" : [ "obj-238", 0 ]
@@ -4202,6 +5764,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-236", 0 ],
+					"source" : [ "obj-244", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-254", 0 ],
+					"source" : [ "obj-244", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-291", 0 ],
+					"source" : [ "obj-246", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-262", 0 ],
 					"source" : [ "obj-249", 0 ]
 				}
@@ -4216,8 +5799,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-246", 1 ],
+					"source" : [ "obj-252", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-246", 0 ],
+					"source" : [ "obj-252", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-249", 0 ],
 					"source" : [ "obj-253", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-252", 0 ],
+					"source" : [ "obj-254", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-189", 0 ],
+					"source" : [ "obj-258", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"source" : [ "obj-259", 0 ]
 				}
 
 			}
@@ -4244,6 +5862,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-216", 0 ],
+					"source" : [ "obj-260", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-234", 0 ],
+					"source" : [ "obj-260", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-260", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-265", 1 ],
 					"order" : 0,
 					"source" : [ "obj-262", 0 ]
@@ -4260,8 +5899,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-170", 0 ],
+					"source" : [ "obj-264", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-264", 4 ],
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-264", 0 ],
+					"source" : [ "obj-267", 0 ]
 				}
 
 			}
@@ -4313,14 +5973,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"source" : [ "obj-3", 0 ]
+					"destination" : [ "obj-148", 3 ],
+					"source" : [ "obj-291", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-160", 0 ],
+					"destination" : [ "obj-236", 0 ],
+					"source" : [ "obj-291", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -4641,22 +6308,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-64", 1 ],
-					"order" : 1,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"order" : 0,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-63", 0 ]
 				}
@@ -4804,13 +6455,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
@@ -4903,6 +6547,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
@@ -4912,6 +6563,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-92", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-94", 0 ]
 				}
 
 			}
@@ -4932,6 +6590,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-213", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
@@ -4939,6 +6604,13 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "3x-7-0.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/emotes/3x-07-frames",
+				"patcherrelativepath" : "../../emotes/3x-07-frames",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sousafx_startup_preferences.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
