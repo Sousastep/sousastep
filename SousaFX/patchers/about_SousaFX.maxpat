@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 952.0, 291.0, 450.0, 527.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -469,17 +469,13 @@
 					"fontsize" : 12.0,
 					"gradient" : 1,
 					"id" : "obj-188",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1965.125098502757737, 999.561298076923094, 152.0, 38.0 ],
+					"patching_rect" : [ 1965.125098502757737, 999.561298076923094, 152.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 283.625098502757737, 378.561298076923208, 129.0, 38.0 ],
-					"text" : "You are on the latest version",
-					"textjustification" : 0,
+					"presentation_rect" : [ 283.625098502757737, 378.561298076923208, 129.0, 23.0 ],
 					"varname" : "click_to_update"
 				}
 
@@ -493,7 +489,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1965.125098502757737, 1122.5, 117.0, 73.0 ],
-					"presentation_linecount" : 5,
 					"text" : ";\rmax launchbrowser https://github.com/Sousastep/sousastep/tags"
 				}
 
@@ -507,7 +502,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2126.0, 175.471808120462811, 129.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "allow auto-save after pattrstorage initializes"
 				}
@@ -665,8 +659,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2120.539397408745117, 318.302958344610602, 63.0, 21.0 ],
-					"text" : "writeagain"
+					"patching_rect" : [ 2120.539397408745117, 318.302958344610602, 453.0, 21.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/sousafx_updates.json\""
 				}
 
 			}
@@ -701,22 +695,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1847.048361581425524, 242.756901664259431, 26.0, 23.0 ],
-					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Silom",
-					"id" : "obj-40",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1847.048361581425524, 211.693454317122814, 69.0, 23.0 ],
-					"text" : "loadbang"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1847.048361581425524, 242.756901664259431, 79.0, 23.0 ],
+					"text" : "loadmess 1"
 				}
 
 			}
@@ -735,7 +716,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "sousafx_updates.json",
 					"fontname" : "Silom",
 					"id" : "obj-41",
 					"maxclass" : "newobj",
@@ -744,10 +724,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1847.0, 383.725177990691122, 373.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 750, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage sousafx_updates @greedy 2 @savemode 0",
@@ -1165,7 +1145,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1374.0, 245.809917355371908, 76.0, 63.0 ],
-					"presentation_linecount" : 7,
 					"text" : ";\rmax launchbrowser discord://discord.com/channels/289378508247924738/289378711533387777/1139298759155658812"
 				}
 
@@ -1192,7 +1171,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1393.0, 404.5, 114.0, 34.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "get list of version tags from github api"
 				}
@@ -1219,7 +1197,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1228.0, 486.0, 130.0, 48.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "output only first occurance, which is the latest version number"
 				}
@@ -1448,11 +1425,12 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "dictionary", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "dictionary", "", "", "", "" ],
 					"patching_rect" : [ 1306.0, 371.0, 50.5, 21.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
+						"legacy" : 1,
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
@@ -1520,8 +1498,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3316,7 +3294,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 125.128872275352478, 220.993541374860285, 73.0, 22.0 ],
 									"text" : "random 255"
 								}
@@ -6281,7 +6259,7 @@
 					"comment" : "",
 					"hidden" : 1,
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -7217,13 +7195,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-160", 0 ],
-					"source" : [ "obj-40", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -7565,104 +7536,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "about_credits.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "icon.png",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license_nyboer.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license_sousafx.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license_surreal.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license_tmhglnd.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "licenses.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "paypal_qr.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "paypal_qrcode.png",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sousafx_updates.json",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "venmo_qr.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "venmo_qrcode.jpg",
-				"bootpath" : "~/Music/_repo/sousastep/SousaFX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "JPEG",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
