@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 817.750001192092896, 415.790371962606514, 48.0, 22.0 ],
-					"text" : "change"
+					"patching_rect" : [ 817.750001192092896, 415.790371962606514, 68.0, 22.0 ],
+					"text" : "change 0.5"
 				}
 
 			}
@@ -57,8 +57,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 736.750001192092896, 415.790371962606514, 48.0, 22.0 ],
-					"text" : "change"
+					"patching_rect" : [ 736.750001192092896, 415.790371962606514, 68.0, 22.0 ],
+					"text" : "change 0.5"
 				}
 
 			}
@@ -2148,7 +2148,13 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
