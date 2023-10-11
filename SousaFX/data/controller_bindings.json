@@ -185,11 +185,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 36,
-										"out" : 35,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 46,
 										"out" : 34,
 										"gain" : 1.0
@@ -220,8 +215,13 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 43,
+										"in" : 46,
 										"out" : 43,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 35,
 										"gain" : 1.0
 									}
  ]
@@ -231,11 +231,37 @@
  ],
 					"textedit" : [ "Sousastep's default bindings" ],
 					"dpad & L1 hold or trigger[1]" : [ 1 ],
-					"toggle_1" : [ 0 ],
-					"toggle_2" : [ 1 ],
 					"after_diagonal" : [ 36.000000000000007 ],
-					"before_diagonal" : [ 2.000000000000026 ],
-					"diagonal_trigger_mode" : [ 0 ]
+					"before_diagonal" : [ 2.000000000000028 ],
+					"diagonal_trigger_mode" : [ 0 ],
+					"invert-DrumClipBandpass" : [ 0 ],
+					"invert-TubaLooperFilters" : [ 0 ],
+					"invert-DrumClipCrossfade" : [ 1 ],
+					"invert-drumcliptremolodutycycle" : [ 0 ],
+					"invert-drumclipreverbparam" : [ 0 ],
+					"invert-drumclipdelayparam" : [ 0 ],
+					"invert-DrumClipStutter" : [ 0 ],
+					"invert-DrumClipReverbSend" : [ 0 ],
+					"invert-DrumClipTremoloFadein" : [ 0 ],
+					"invert-DrumClipDelaySend" : [ 0 ],
+					"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : [ 1 ],
+					"patcher::controller_deadzones" : [ 1 ],
+					"crossfade_sync_&_free_LFO::invert_control" : [ 0 ],
+					"crossfade_sync_&_free_LFO::maintain control after tuba stops playing bassline" : [ 0 ],
+					"crossfade_sync_&_free_LFO::value to set control to when tuba starts soloing" : [ 0.0 ],
+					"crossfade_sync_&_free_LFO::maintain control while tuba's soloing" : [ 0 ],
+					"ceiling_evn_curve::invert_control" : [ 0 ],
+					"ceiling_evn_curve::maintain control after tuba stops playing bassline" : [ 1 ],
+					"ceiling_evn_curve::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"ceiling_evn_curve::maintain control while tuba's soloing" : [ 0 ],
+					"LPF_resonance_amount::invert_control" : [ 0 ],
+					"LPF_resonance_amount::maintain control after tuba stops playing bassline" : [ 1 ],
+					"LPF_resonance_amount::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LPF_resonance_amount::maintain control while tuba's soloing" : [ 0 ],
+					"crossfade_envelope_position::invert_control" : [ 0 ],
+					"crossfade_envelope_position::maintain control after tuba stops playing bassline" : [ 1 ],
+					"crossfade_envelope_position::value to set control to when tuba starts soloing" : [ 0.0 ],
+					"crossfade_envelope_position::maintain control while tuba's soloing" : [ 0 ]
 				}
 
 			}
