@@ -255,12 +255,12 @@
 					"ceiling_evn_curve::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"ceiling_evn_curve::maintain control while tuba's soloing" : [ 0 ],
 					"LPF_resonance_amount::invert_control" : [ 0 ],
-					"LPF_resonance_amount::maintain control after tuba stops playing bassline" : [ 1 ],
+					"LPF_resonance_amount::maintain control after tuba stops playing bassline" : [ 0 ],
 					"LPF_resonance_amount::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"LPF_resonance_amount::maintain control while tuba's soloing" : [ 0 ],
 					"crossfade_envelope_position::invert_control" : [ 0 ],
 					"crossfade_envelope_position::maintain control after tuba stops playing bassline" : [ 1 ],
-					"crossfade_envelope_position::value to set control to when tuba starts soloing" : [ 0.0 ],
+					"crossfade_envelope_position::value to set control to when tuba starts soloing" : [ 1.0 ],
 					"crossfade_envelope_position::maintain control while tuba's soloing" : [ 0 ]
 				}
 
