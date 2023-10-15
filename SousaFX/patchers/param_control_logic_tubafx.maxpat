@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.090196078431373, 0.513725490196078, 0.537254901960784, 1.0 ],
+					"id" : "obj-247",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1017.0, 2290.0, 31.0, 22.0 ],
+					"text" : "s #2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-120",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -1039,7 +1051,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 90.0, 327.0, 262.0, 26.0 ],
 					"suppressinlet" : 1,
-					"text" : "is control inside joystick's deadzone?",
+					"text" : "is control within deadzone?",
 					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
 				}
 
@@ -1759,18 +1771,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-1137",
-					"index" : 0,
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1017.0, 2252.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-973",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1897,7 +1897,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1137", 0 ],
+					"destination" : [ "obj-247", 0 ],
 					"order" : 1,
 					"source" : [ "obj-102", 0 ]
 				}
@@ -2656,7 +2656,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1137", 0 ],
+					"destination" : [ "obj-247", 0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 

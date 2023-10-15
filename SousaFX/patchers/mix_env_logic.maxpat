@@ -105,8 +105,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 800.715891027941325, 112.744080872572511, 173.0, 22.0 ],
-					"text" : "r \"crossfade envelope position\""
+					"patching_rect" : [ 800.715891027941325, 112.744080872572511, 199.0, 22.0 ],
+					"text" : "r \"Envelope Crossfade Position (bi)\""
 				}
 
 			}
@@ -580,7 +580,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.433332300186294, 271.537787343774767, 137.0, 33.0 ],
+					"patching_rect" : [ 853.965891027941325, 271.037787343774767, 137.0, 33.0 ],
 					"text" : "inverts axis when hi / lo vals are swapped."
 				}
 
@@ -1012,7 +1012,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 832.715891027941325, 278.26235327223435, 31.0, 22.0 ],
+					"patching_rect" : [ 824.965891027941325, 277.037787343774767, 31.0, 22.0 ],
 					"text" : "* -1."
 				}
 

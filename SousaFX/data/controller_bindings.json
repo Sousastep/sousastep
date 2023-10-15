@@ -8,7 +8,7 @@
 					"crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 50,
-								"numouts" : 50,
+								"numouts" : 53,
 								"connections" : [ 									{
 										"in" : 37,
 										"out" : 46,
@@ -175,26 +175,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 45,
-										"out" : 47,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 47,
-										"out" : 49,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 34,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 33,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 3,
 										"out" : 14,
 										"gain" : 1.0
@@ -220,8 +200,33 @@
 										"gain" : 1.0
 									}
 , 									{
+										"in" : 46,
+										"out" : 50,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 51,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 39,
-										"out" : 35,
+										"out" : 52,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 47,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 47,
+										"out" : 49,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 43,
+										"out" : 38,
 										"gain" : 1.0
 									}
  ]
@@ -234,34 +239,56 @@
 					"after_diagonal" : [ 36.000000000000007 ],
 					"before_diagonal" : [ 2.000000000000028 ],
 					"diagonal_trigger_mode" : [ 0 ],
-					"invert-DrumClipBandpass" : [ 0 ],
-					"invert-TubaLooperFilters" : [ 0 ],
-					"invert-DrumClipCrossfade" : [ 1 ],
-					"invert-drumcliptremolodutycycle" : [ 0 ],
-					"invert-drumclipreverbparam" : [ 0 ],
-					"invert-drumclipdelayparam" : [ 0 ],
-					"invert-DrumClipStutter" : [ 0 ],
-					"invert-DrumClipReverbSend" : [ 0 ],
-					"invert-DrumClipTremoloFadein" : [ 0 ],
-					"invert-DrumClipDelaySend" : [ 0 ],
 					"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : [ 1 ],
+					"Ableton Drum Clip Crossfade (bi)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Crossfade (bi)::when to relinquish control" : [ 0 ],
+					"Tuba Looper Filters (bi)::invert_control" : [ 0 ],
+					"Tuba Looper Filters (bi)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Filters (bi)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Stutter Enable (uni)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Stutter Enable (uni)::when to relinquish control" : [ 1 ],
+					"Ableton Drum Clip Reverb Send (uni)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Reverb Send (uni)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Delay Send (uni)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Delay Send (uni)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Tremolo Amnt (uni)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Tremolo Amnt (uni)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Reverb Param (bi)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Reverb Param (bi)::when to relinquish control" : [ 0 ],
+					"Ableton Drum Clip Delay Param (bi)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Delay Param (bi)::when to relinquish control" : [ 0 ],
 					"patcher::controller_deadzones" : [ 1 ],
-					"crossfade_sync_&_free_LFO::invert_control" : [ 0 ],
-					"crossfade_sync_&_free_LFO::maintain control after tuba stops playing bassline" : [ 0 ],
-					"crossfade_sync_&_free_LFO::value to set control to when tuba starts soloing" : [ 0.0 ],
-					"crossfade_sync_&_free_LFO::maintain control while tuba's soloing" : [ 0 ],
-					"ceiling_evn_curve::invert_control" : [ 0 ],
-					"ceiling_evn_curve::maintain control after tuba stops playing bassline" : [ 1 ],
-					"ceiling_evn_curve::value to set control to when tuba starts soloing" : [ 0.5 ],
-					"ceiling_evn_curve::maintain control while tuba's soloing" : [ 0 ],
-					"LPF_resonance_amount::invert_control" : [ 0 ],
-					"LPF_resonance_amount::maintain control after tuba stops playing bassline" : [ 0 ],
-					"LPF_resonance_amount::value to set control to when tuba starts soloing" : [ 0.5 ],
-					"LPF_resonance_amount::maintain control while tuba's soloing" : [ 0 ],
-					"crossfade_envelope_position::invert_control" : [ 0 ],
-					"crossfade_envelope_position::maintain control after tuba stops playing bassline" : [ 1 ],
-					"crossfade_envelope_position::value to set control to when tuba starts soloing" : [ 1.0 ],
-					"crossfade_envelope_position::maintain control while tuba's soloing" : [ 0 ]
+					"Ableton Drum Clip Tremolo Duty (bi)::invert_control" : [ 0 ],
+					"Ableton Drum Clip Tremolo Duty (bi)::when to relinquish control" : [ 0 ],
+					"LFO Sync-Free Crossfade (uni)::invert_control" : [ 0 ],
+					"LFO Sync-Free Crossfade (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Sync-Free Crossfade (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LFO Sync-Free Crossfade (uni)::maintain control while tuba's soloing" : [ 0 ],
+					"LFO Ceiling Envelope Curve (bi)::invert_control" : [ 1 ],
+					"LFO Ceiling Envelope Curve (bi)::maintain control after tuba stops playing bassline" : [ 1 ],
+					"LFO Ceiling Envelope Curve (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LFO Ceiling Envelope Curve (bi)::maintain control while tuba's soloing" : [ 0 ],
+					"LPF Resonance Amount (either)::invert_control" : [ 0 ],
+					"LPF Resonance Amount (either)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LPF Resonance Amount (either)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LPF Resonance Amount (either)::maintain control while tuba's soloing" : [ 0 ],
+					"Envelope Crossfade Position (bi)::invert_control" : [ 0 ],
+					"Envelope Crossfade Position (bi)::maintain control after tuba stops playing bassline" : [ 1 ],
+					"Envelope Crossfade Position (bi)::value to set control to when tuba starts soloing" : [ 1.0 ],
+					"Envelope Crossfade Position (bi)::maintain control while tuba's soloing" : [ 0 ],
+					"LFO Duty Cycle (bi)::invert_control" : [ 0 ],
+					"LFO Duty Cycle (bi)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Duty Cycle (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LFO Duty Cycle (bi)::maintain control while tuba's soloing" : [ 0 ],
+					"LFO Swing Amount (uni)::invert_control" : [ 0 ],
+					"LFO Swing Amount (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Swing Amount (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LFO Swing Amount (uni)::maintain control while tuba's soloing" : [ 0 ],
+					"LFO Free Speed (bi)::invert_control" : [ 0 ],
+					"LFO Free Speed (bi)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Free Speed (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"LFO Free Speed (bi)::maintain control while tuba's soloing" : [ 0 ]
 				}
 
 			}

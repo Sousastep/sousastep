@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 207.0, 236.0, 1852.0, 993.0 ],
+		"rect" : [ 34.0, 53.0, 2492.0, 1353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-75",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 739.0, 855.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-40",
@@ -77,7 +89,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1348.000319567753195, 214.991487017985946, 129.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -340,8 +352,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1216.000319567753195, 767.652155268355273, 128.0, 22.0 ],
-					"text" : "r \"Tuba Looper Filters\""
+					"patching_rect" : [ 1216.000319567753195, 767.652155268355273, 149.0, 22.0 ],
+					"text" : "r \"Tuba Looper Filters (bi)\""
 				}
 
 			}
@@ -551,7 +563,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 758.820533296374833, 938.771735484900091, 209.129167230350959, 93.0 ],
+					"patching_rect" : [ 833.0, 999.0, 209.129167230350959, 93.0 ],
 					"suppressinlet" : 1,
 					"text" : "once the looper send opens,\n\nafter the tuba's played for 8 bars and then stops playing, \n\nautomatically close the looper send."
 				}
@@ -566,7 +578,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.161110506662681, 860.97608175710161, 135.179786271378362, 136.0 ],
+					"patching_rect" : [ 563.121152337402236, 896.97608175710161, 135.179786271378362, 136.0 ],
 					"suppressinlet" : 1,
 					"text" : "gate opens after tuba's played for 8 bars. if tuba's not playing when this occurs, then looper send closes. If tuba's playing, then looper send waits until tuba stops playing before closing."
 				}
@@ -579,7 +591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 678.871152337402236, 867.47608175710161, 32.0, 22.0 ],
+					"patching_rect" : [ 700.300938608780598, 924.0, 32.0, 22.0 ],
 					"text" : "t b 1"
 				}
 
@@ -606,7 +618,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 690.871152337401782, 914.306272507325502, 52.0, 22.0 ],
+					"patching_rect" : [ 728.930705194256916, 974.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -680,7 +692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 701.820533296374833, 967.636463257549394, 55.0, 22.0 ],
+					"patching_rect" : [ 728.930705194256916, 1028.0, 98.0, 22.0 ],
 					"text" : "onebang"
 				}
 
@@ -692,7 +704,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 791.0712173709735, 508.021415442085072, 22.0, 22.0 ],
+					"patching_rect" : [ 789.610491465635278, 533.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -1682,8 +1694,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"regen" : 						{
-							"label" : "regen",
+						"mix" : 						{
+							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1694,8 +1706,8 @@
 							"parsestring" : ""
 						}
 ,
-						"mix" : 						{
-							"label" : "mix",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2985,24 +2997,6 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-123", 1 ],
-					"order" : 1,
-					"source" : [ "obj-115", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-148", 0 ],
-					"order" : 2,
-					"source" : [ "obj-115", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-6", 0 ],
 					"order" : 0,
 					"source" : [ "obj-115", 0 ]
@@ -3011,9 +3005,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-75", 0 ],
+					"order" : 1,
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-140", 0 ],
-					"midpoints" : [ 800.5712173709735, 648.021415442085072, 723.0, 648.021415442085072, 723.0, 900.021415442085072, 700.371152337401782, 900.021415442085072 ],
+					"midpoints" : [ 799.110491465635278, 648.021415442085072, 723.0, 648.021415442085072, 723.0, 900.021415442085072, 738.430705194256916, 900.021415442085072 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -3043,7 +3045,7 @@
 				"patchline" : 				{
 					"color" : [ 0.548421919345856, 0.0, 0.893835783004761, 1.0 ],
 					"destination" : [ "obj-1014", 0 ],
-					"midpoints" : [ 711.320533296374833, 1009.021415442085072, 516.0, 1009.021415442085072, 516.0, 809.021415442085072, 426.0, 809.021415442085072, 426.0, 453.021415442085072, 494.0, 453.021415442085072, 494.0, 257.021415442085072, 650.0, 257.021415442085072, 650.0, 221.021415442085072, 673.371152337402236, 221.021415442085072 ],
+					"midpoints" : [ 738.430705194256916, 1080.021415442085072, 516.0, 1080.021415442085072, 516.0, 809.021415442085072, 426.0, 809.021415442085072, 426.0, 453.021415442085072, 494.0, 453.021415442085072, 494.0, 257.021415442085072, 650.0, 257.021415442085072, 650.0, 221.021415442085072, 673.371152337402236, 221.021415442085072 ],
 					"source" : [ "obj-123", 0 ]
 				}
 
@@ -3884,6 +3886,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-74", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-123", 1 ],
+					"source" : [ "obj-75", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-148", 0 ],
+					"source" : [ "obj-75", 0 ]
 				}
 
 			}

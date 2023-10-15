@@ -1,0 +1,17 @@
+37, "Envelope Crossfade Position (bi)";
+38, "LFO Ceiling Envelope Curve (bi)";
+39, "LFO Duty Cycle (bi)";
+40, "LFO Swing Amount (uni)";
+41, "LPF Resonance Amount (either)";
+42, "LFO Free Speed (bi)";
+43, "LFO Sync-Free Crossfade (uni)";
+44, "Ableton Drum Clip Crossfade (bi)";
+45, "Tuba Looper Filters (bi)";
+46, "Ableton Drum Clip Filters (bi)";
+47, "Ableton Drum Clip Stutter Enable (uni)";
+48, "Ableton Drum Clip Reverb Send (uni)";
+49, "Ableton Drum Clip Delay Send (uni)";
+50, "Ableton Drum Clip Tremolo Amnt (uni)";
+51, "Ableton Drum Clip Delay Param (bi)";
+52, "Ableton Drum Clip Reverb Param (bi)";
+53, "Ableton Drum Clip Tremolo Duty (bi)";
