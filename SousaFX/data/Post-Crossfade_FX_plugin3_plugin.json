@@ -1,0 +1,40 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Post-Crossfade_FX_plugin3_plugin",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "Rotary Mod",
+				"data" : 				{
+					"plugin" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Rotary Mod",
+							"origin" : "Rotary Mod.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "MidiEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Rotary Mod.auinfo",
+								"plugindisplayname" : "Rotary Mod",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1383363193,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "1407.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOAAq...............E..............P..........H..........C..........A.........T..........F.........vA.........f..........I.........fB.........r..........L.........PC.........3..........O..........D.........DA.........R.........vD.....HMCM3PDQESTxD8CPDELUkjavUGcQ+fDV8TczAWczIgTzIWdP.fDgUWal8TDCf9dMn.HfHRXrc1axkFcn01WtEVakIhNfHhTuQWXxkmHrzfBf.hHvI2ajU2Xz8UZjIhNfHxXu0lKkYWYtQWZjUlKnkiKx8FcgIWdhvRCJ.BHhXWYxMWZu4lH5.hHxHBKMn.HfHRask1bhnCHyLiKwLSLzbyL0PSLxTSN2bCKMn.HfHBc4AWYhnCHv3BLrzfBf.hHxMGbjIhNfPiKvfCLv.CLz.CL0PyLxDyLrzfBf.hHnMGbjIhNf.iKw.CLvPSM0.iLwfSM3HSL0vRCJ.BHhf1bvQ1WyQWXxQ2WkgGbhnCHv3BLrzfBf.hHnMGbj8UYtQ1WkgGbhnCHw3BLrzfBf.hHxgVa3IhNfLCMtfCMv.CLvDSMxTCN2fSNrzfBf.hHz8lakIhNf.iKw.CLv.CLv.SLzjCLwDiMwvRCJ.BHhPVauQlH5.BLt.CKMn.HfHxbs8FYhnCHv3BLrzfBf.hHsIWXzIhNf.iKzjCLv.CLvLSNyLSNvXSM1vRCJ.BHhz1bxMlH5.BLt.CKMn.HfHBbrU2Yo41Wsw1XqIhNf.iKvvRCJ.BHh.Ga0cVZt8UZrUlchnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WuUGcewVY1UFahnCHx3BNzjCNzbCL2fyLxLyL1PSYsXCKMn.HfHBbrU2Yo41WgMFc1IhNfDiKvvRCJ.BHhTFdvIWYyMWZu41WvUFYgwlH5.BLt.CKMn.HfHhXxE1ZhnCHv3BLrzfBf.hHlM2bvIhNfDiKvvRCJ.BHh.Ga0cVZt8Eck0Fbu80bkM2bo8laeMWdtMlH5.hYgw1bkwRCJ.BHhP2b44lH5.hYgw1bkwRCJ.BHh.Ga0cVZt8Uag4Vcgw1WzUVav8lH5.RLx.iKvvRCJ.BHhPWavYmH5.BLt.CKMn.HfHhbzI2YhnCHv3BLrzfBf.hHvIWYoIhNfHCKMn.HfHBbxUlahnCHhHTXyMGHSQWZrwFHR8FcgIWdhzfB8A..........................................................................................................................................................................................................................................................................................................................................PA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jV.XDPGA7Q.gD.IAXR.rDvKAXS.6DPOAHTAt........HP..........fA..................TvK"
+							}
+
+						}
+ ],
+					"latency" : [ 8 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

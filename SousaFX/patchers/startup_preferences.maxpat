@@ -1171,7 +1171,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 9.0, 103.0, 286.0, 71.0 ],
-					"text" : "Loading SousaFX in 3 seconds",
+					"text" : "Loading SousaFX in 2 seconds",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 

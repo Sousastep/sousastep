@@ -247,7 +247,7 @@
 					"Ableton Drum Clip Filters (bi)::invert_control" : [ 0 ],
 					"Ableton Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],
 					"Ableton Drum Clip Stutter Enable (uni)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Stutter Enable (uni)::when to relinquish control" : [ 1 ],
+					"Ableton Drum Clip Stutter Enable (uni)::when to relinquish control" : [ 0 ],
 					"Ableton Drum Clip Reverb Send (uni)::invert_control" : [ 0 ],
 					"Ableton Drum Clip Reverb Send (uni)::when to relinquish control" : [ 0 ],
 					"Ableton Drum Clip Delay Send (uni)::invert_control" : [ 0 ],

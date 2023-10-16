@@ -7,8 +7,14 @@
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 0, 0, 1.0 ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 0 ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [ 0 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 4, 0, 1.0 ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 1 ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [ 1 ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 0, 0, 1.0 ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 0 ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [ 1 ],
 					"mod params::aux_power" : [ 0.0 ],
 					"mod params::aux_phase_offset" : [ 48.818897700787353 ],
 					"mod params::aux_duty_cycle" : [ 0.0 ],
@@ -60,7 +66,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [ 1 ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [ 1 ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [ 1 ]
 				}
 
 			}
@@ -70,8 +77,14 @@
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 1, 0, 1.0 ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 0, 0, 1.0 ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 1, 0, 1.0 ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [ 0.0 ],
 					"mod params::aux_phase_offset" : [ 51.968504000000003 ],
 					"mod params::aux_duty_cycle" : [ 0.0 ],
@@ -123,7 +136,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [ 1 ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [ 1 ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -133,8 +147,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -186,7 +206,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -196,8 +217,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -249,7 +276,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -259,8 +287,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -312,7 +346,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -322,8 +357,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -375,7 +416,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -385,8 +427,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -438,7 +486,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -448,8 +497,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -501,7 +556,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -511,8 +567,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -564,7 +626,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -574,8 +637,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -627,7 +696,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -637,8 +707,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -690,7 +766,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -700,8 +777,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -753,7 +836,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -763,8 +847,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -816,7 +906,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -826,8 +917,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -879,7 +976,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -889,8 +987,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -942,7 +1046,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -952,8 +1057,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -1005,7 +1116,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -1015,8 +1127,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -1068,7 +1186,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -1078,8 +1197,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -1131,7 +1256,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -1141,8 +1267,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -1194,7 +1326,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}
@@ -1204,8 +1337,14 @@
 				"data" : 				{
 					"preset descriptions" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
+					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [  ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [  ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [  ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [  ],
+					"attack fx chooser::Dry-ish_FX_randomize" : [  ],
 					"mod params::aux_power" : [  ],
 					"mod params::aux_phase_offset" : [  ],
 					"mod params::aux_duty_cycle" : [  ],
@@ -1257,7 +1396,8 @@
 					"four_plugin_selectors::plugin_selector[2]::Pre-LPF_FX_plugin3_plugin" : [  ],
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
-					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
 				}
 
 			}

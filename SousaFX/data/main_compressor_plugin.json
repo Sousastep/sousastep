@@ -1,0 +1,40 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main_compressor_plugin",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"name" : "Shadow Hills Mastering Compressor",
+				"data" : 				{
+					"plugin" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "Shadow Hills Mastering Compressor",
+							"origin" : "Shadow Hills Mastering Compressor.auinfo",
+							"type" : "AudioUnit",
+							"subtype" : "AudioEffect",
+							"embed" : 1,
+							"snapshot" : 							{
+								"pluginname" : "Shadow Hills Mastering Compressor.auinfo",
+								"plugindisplayname" : "Shadow Hills Mastering Compressor",
+								"pluginsavedname" : "",
+								"pluginsaveduniqueid" : 1884249155,
+								"version" : 1,
+								"isbank" : 0,
+								"isbase64" : 1,
+								"blob" : "797.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu4FVU4FcoQGakQlDBI2c38TDBPHTsQmb..f.7A..BPH...vG....D.....fP4AWX+.H..7Cf..vO.B..+.H..7jP4EyO.B..+.H..7Cf..vO.B..OQEZw7yT58F...............vSG4VL9fbVK3SgPJqOEBor9THjxRjP4EyO.B..+.H..7Cf..vO.B..DQEZw3C8dyI................QREVL+jQlZ5CyL2rOLyby9vLyMSTPzEiOLyby+.H..7Cf..vO.B..DIUYw7Cf...................QG4VL+.grV3SgPJqOEBor9THjxN0PFEC.....................TIWXw7C...vO.B..+.H..7Cf..PSzIWL.....................7jP4IyO.B..+.H..7Cf..vO.B..OQEZx7yT58F...............vSG4lL9fbVK3SgPJqOEBor9THjxRjP4IyO.B..+.H..7Cf..vO.B..DQEZx3C8dyI................QRElL+jQlZ5CyL2rOLyby9vLyMSTPzIiOLyby+.H..7Cf..vO.B..DIUYx7Cf...................QG4lL+.grV3SgPJqOEBor9THjxN0PFIC.....................TIWXx7C...vO.B..+.H..7Cf..PSzImL+....7C...vO....+....vTZts1O.B..+.H..7Cf..vO.B..q0TZ34yo5v0O.B..+.H..7Cf..vTCgDT8z+MrzS2qWVOcudY8z85kITXtsF.....................qUVdIA....................fUUIkY9vDTa5CSPsoOLA0l9vDTaJQX0YFdRLERMMDD...B.TA.Z.vI.vB.w.PN.DD.JAvSBbs.bKP3........BD..........M...................BLN"
+							}
+
+						}
+ ],
+					"latency" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
