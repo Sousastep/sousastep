@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 53.0, 1997.0, 1387.0 ],
+		"rect" : [ 1663.0, 53.0, 897.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3264,7 +3264,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5906.0, 438.0, 145.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 169.0, 145.0, 23.0 ],
+					"presentation_rect" : [ 690.0, 242.0, 145.0, 23.0 ],
 					"text" : "calibrate deadzones"
 				}
 
@@ -5434,7 +5434,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5562.666832447052002, 175.042990174621991, 318.0, 333.957009825378009 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -4.0, 5.0, 318.0, 333.957009825378009 ],
+					"presentation_rect" : [ 1.0, -3.0, 318.0, 333.957009825378009 ],
 					"varname" : "controller_connector_bpatcher",
 					"viewvisibility" : 1
 				}
@@ -5535,10 +5535,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1603.0, 1396.360045343131787, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -5678,7 +5678,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4793.0, 564.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.0, 110.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 710.0, 183.0, 40.0, 40.0 ],
 					"rightvalue" : 255,
 					"topvalue" : 0
 				}
@@ -5698,7 +5698,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4860.0, 564.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 110.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 777.0, 183.0, 40.0, 40.0 ],
 					"rightvalue" : 255,
 					"topvalue" : 0
 				}
@@ -5719,7 +5719,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4789.0, 561.0, 12.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 89.0, 107.0, 12.0, 11.0 ],
+					"presentation_rect" : [ 706.0, 180.0, 12.0, 11.0 ],
 					"varname" : "dpad_se"
 				}
 
@@ -5739,7 +5739,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4755.0, 561.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 107.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 672.0, 180.0, 11.0, 11.0 ],
 					"varname" : "dpad_sw"
 				}
 
@@ -5759,7 +5759,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4790.0, 526.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 72.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 707.0, 145.0, 11.0, 11.0 ],
 					"varname" : "dpad_ne"
 				}
 
@@ -5779,7 +5779,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4755.0, 526.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 72.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 672.0, 145.0, 11.0, 11.0 ],
 					"varname" : "dpad_nw"
 				}
 
@@ -5799,7 +5799,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4770.0, 552.0, 15.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 98.0, 15.0, 22.0 ],
+					"presentation_rect" : [ 687.0, 171.0, 15.0, 22.0 ],
 					"varname" : "dpad_D"
 				}
 
@@ -5819,7 +5819,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4770.0, 522.0, 15.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 68.0, 15.0, 21.0 ],
+					"presentation_rect" : [ 687.0, 141.0, 15.0, 21.0 ],
 					"varname" : "dpad_U"
 				}
 
@@ -5839,7 +5839,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4783.0, 540.0, 21.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 83.0, 86.0, 21.0, 16.0 ],
+					"presentation_rect" : [ 700.0, 159.0, 21.0, 16.0 ],
 					"varname" : "dpad_R"
 				}
 
@@ -5859,7 +5859,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4752.0, 540.0, 21.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 86.0, 21.0, 16.0 ],
+					"presentation_rect" : [ 669.0, 159.0, 21.0, 16.0 ],
 					"varname" : "dpad_L"
 				}
 
@@ -5879,7 +5879,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4860.0, 564.0, 41.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 160.0, 110.0, 41.0, 41.0 ],
+					"presentation_rect" : [ 777.0, 183.0, 41.0, 41.0 ],
 					"varname" : "jsb_R"
 				}
 
@@ -5899,7 +5899,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4793.0, 564.0, 41.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 93.0, 110.0, 41.0, 41.0 ],
+					"presentation_rect" : [ 710.0, 183.0, 41.0, 41.0 ],
 					"varname" : "jsb_L"
 				}
 
@@ -5919,7 +5919,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4820.0, 525.0, 22.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 71.0, 22.0, 10.0 ],
+					"presentation_rect" : [ 737.0, 144.0, 22.0, 10.0 ],
 					"varname" : "back"
 				}
 
@@ -5939,7 +5939,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4852.0, 525.0, 22.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 152.0, 71.0, 22.0, 10.0 ],
+					"presentation_rect" : [ 769.0, 144.0, 22.0, 10.0 ],
 					"varname" : "start"
 				}
 
@@ -5959,7 +5959,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4893.0, 501.0, 44.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 47.0, 44.0, 13.0 ],
+					"presentation_rect" : [ 810.0, 120.0, 44.0, 13.0 ],
 					"varname" : "RB"
 				}
 
@@ -5979,7 +5979,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4755.0, 502.0, 45.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 55.0, 48.0, 45.0, 13.0 ],
+					"presentation_rect" : [ 672.0, 121.0, 45.0, 13.0 ],
 					"varname" : "LB"
 				}
 
@@ -5999,7 +5999,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4926.0, 539.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 226.0, 85.0, 19.0, 19.0 ],
+					"presentation_rect" : [ 843.0, 158.0, 19.0, 19.0 ],
 					"varname" : "col_R"
 				}
 
@@ -6019,7 +6019,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4886.0, 539.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.0, 85.0, 19.0, 19.0 ],
+					"presentation_rect" : [ 803.0, 158.0, 19.0, 19.0 ],
 					"varname" : "col_L"
 				}
 
@@ -6039,7 +6039,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4906.0, 560.0, 18.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.0, 106.0, 18.0, 19.0 ],
+					"presentation_rect" : [ 823.0, 179.0, 18.0, 19.0 ],
 					"varname" : "col_D"
 				}
 
@@ -6059,7 +6059,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4907.0, 519.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 65.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 824.0, 138.0, 18.0, 18.0 ],
 					"varname" : "col_U"
 				}
 
@@ -6079,7 +6079,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4894.0, 491.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.0, 36.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 811.0, 109.0, 42.0, 18.0 ],
 					"varname" : "RT"
 				}
 
@@ -6099,7 +6099,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4757.0, 492.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.0, 37.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 674.0, 110.0, 42.0, 18.0 ],
 					"varname" : "LT"
 				}
 
@@ -6117,7 +6117,7 @@
 					"patching_rect" : [ 4735.0, 492.0, 223.0, 156.0 ],
 					"pic" : "gamectl_bg.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 40.0, 223.0, 156.0 ]
+					"presentation_rect" : [ 652.0, 113.0, 223.0, 156.0 ]
 				}
 
 			}
@@ -7447,7 +7447,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 17,
 					"presentation_rect" : [ 77.0, 816.0, 250.0, 283.0 ],
-					"text" : "This determines how the dpad and LB react to their modifier key, LT.\n\nHold: Toggling with LT doesn't trigger dpad or LB. This is useful for being able to lock open sends.\n\nTrigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
+					"text" : "This determines how the dpad and L1 react to their modifier key, L2.\n\nHold: Toggling with L2 doesn't trigger dpad or L1. This is useful for being able to lock open sends.\n\nTrigger: If dpad or L1 is pressed, toggling with L2 will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
@@ -8753,7 +8753,7 @@
 					"patching_rect" : [ 882.0, 644.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 218.0, 105.0, 39.0 ],
-					"text" : "RB",
+					"text" : "R1",
 					"textcolor" : [ 0.337255, 0.964706, 0.74902, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8806,7 +8806,7 @@
 					"patching_rect" : [ 882.0, 725.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 299.0, 105.0, 39.0 ],
-					"text" : "RT",
+					"text" : "R2",
 					"textcolor" : [ 0.486275, 1.0, 0.25098, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8860,7 +8860,7 @@
 					"patching_rect" : [ 882.0, 805.5, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 159.0, 379.0, 105.0, 39.0 ],
-					"text" : "LT",
+					"text" : "L2",
 					"textcolor" : [ 0.972549, 1.0, 0.356863, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8913,7 +8913,7 @@
 					"patching_rect" : [ 834.0, 1192.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 107.0, 751.0, 105.0, 39.0 ],
-					"text" : "LT",
+					"text" : "L2",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10531,15 +10531,15 @@
 					"fontsize" : 16.0,
 					"gradient" : 1,
 					"id" : "obj-47",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2011.6400000000001, 2755.231877003147474, 46.0, 48.0 ],
+					"patching_rect" : [ 2011.6400000000001, 2755.231877003147474, 46.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 632.0, 735.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12974,7 +12974,7 @@
 					"fontsize" : 13.0,
 					"id" : "obj-14",
 					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
-					"inlabels" : [ "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "Menu", "View", "LB", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "LB", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button" ],
+					"inlabels" : [ "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "Options", "Share", "L1", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "L1", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿" ],
 					"labelwidth" : 313.5,
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,

@@ -1,0 +1,30 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gamepadLEDVFX",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gamepadLEDhue::invert" : [ 0.0 ],
+					"gamepadLEDhue::linkphasor_rate" : [ 32.0 ],
+					"gamepadLEDhue::matrixctrl" : [ 4, 0, 1.0 ],
+					"gamepadLEDhue::rslider" : [ 0.0, 1.0 ],
+					"gamepadLEDhue::slide_down" : [ 0 ],
+					"gamepadLEDhue::slide_up" : [ 0 ],
+					"gamepadLEDhue::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"gamepadLEDlightness::invert" : [ 0.0 ],
+					"gamepadLEDlightness::linkphasor_rate" : [ 1.0 ],
+					"gamepadLEDlightness::matrixctrl" : [ 3, 0, 1.0 ],
+					"gamepadLEDlightness::rslider" : [ 0.0, 0.792664622224734 ],
+					"gamepadLEDlightness::slide_down" : [ 0 ],
+					"gamepadLEDlightness::slide_up" : [ 0 ],
+					"gamepadLEDlightness::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.7, "curve" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

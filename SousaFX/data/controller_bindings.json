@@ -20,11 +20,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 39,
-										"out" : 44,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 44,
 										"out" : 42,
 										"gain" : 1.0
@@ -229,6 +224,11 @@
 										"out" : 38,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 43,
+										"out" : 44,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -282,7 +282,7 @@
 					"LFO Duty Cycle (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"LFO Duty Cycle (bi)::maintain control while tuba's soloing" : [ 0 ],
 					"LFO Swing Amount (uni)::invert_control" : [ 0 ],
-					"LFO Swing Amount (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Swing Amount (uni)::maintain control after tuba stops playing bassline" : [ 1 ],
 					"LFO Swing Amount (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"LFO Swing Amount (uni)::maintain control while tuba's soloing" : [ 0 ],
 					"LFO Free Speed (bi)::invert_control" : [ 0 ],

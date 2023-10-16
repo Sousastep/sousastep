@@ -53,12 +53,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-492",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1073.0, 548.0, 50.0, 22.0 ],
-					"text" : "xbox"
+					"patching_rect" : [ 1073.0, 548.0, 50.0, 35.0 ],
+					"text" : "playstation"
 				}
 
 			}
@@ -365,14 +366,14 @@
 					"fontname" : "Monaco",
 					"fontsize" : 16.0,
 					"id" : "obj-27",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 656.0, 467.0, 172.0, 46.0 ],
+					"patching_rect" : [ 656.0, 467.0, 172.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 313.5, 26.0 ],
-					"text" : "Xbox One Elite 2 Controller",
+					"text" : "PS4 Controller",
+					"textcolor" : [ 0.874509803921569, 0.823529411764706, 0.905882352941176, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -509,11 +510,11 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "dummy_selector.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 3,
+					"name" : "gamepadLEDVFX.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "", "", "" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 464.0, 25.0, 314.0, 313.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 21.0, 314.0, 313.0 ],
@@ -613,7 +614,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 762.0, 649.0, 88.533209617076182, 22.0 ],
-					"text" : "xboxone"
+					"text" : "ps4"
 				}
 
 			}
@@ -2291,8 +2292,59 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-146::obj-135::obj-133" : [ "scale_invert[1]", "Phase-Inversion", 1 ],
+			"obj-146::obj-137::obj-133" : [ "scale_invert[45]", "Phase-Inversion", 1 ],
+			"obj-146::obj-645" : [ "function", "function", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-146::obj-135::obj-133" : 				{
+					"parameter_longname" : "scale_invert[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
-				"name" : "dummy_selector.maxpat",
+				"name" : "function_visualizer_clear_line.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "function_visualizer_floats.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "function_with_two_curves.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "gamepadLEDVFX.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scale_GUI_gen.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
