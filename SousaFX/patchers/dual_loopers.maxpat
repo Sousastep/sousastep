@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
-		"bglocked" : 0,
+		"rect" : [ -1.0, 53.0, 2560.0, 1387.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "Loopers",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 890.0, 649.0, 34.0, 22.0 ],
+					"text" : "AND"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-115",
 					"maxclass" : "newobj",
@@ -111,7 +123,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
 					"patching_rect" : [ 1641.5, 232.5, 219.0, 67.0 ],
-					"presentation_linecount" : 4,
 					"text" : "filterdesign @topology chebyshev-1 @frequency 121 @order 12 @response lowpass @passband_ripple 0.8"
 				}
 
@@ -125,7 +136,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1742.5, 725.5, 190.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : ";\rmax launchbrowser https://www.kickstart-plugin.com/"
 				}
 
@@ -278,7 +288,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 0.0, 1.0, 0, 0.0, 55.555555555555557, 0.017452830188679, 0, -0.7, 55.555555555555557, 0.017452830188679, 0, -0.7, 379.629629629629619, 0.536320754716981, 0, 0.6, 379.629629629629619, 0.536320754716981, 0, 0.6, 1000.0, 1.0, 0, -0.795, 1000.0, 1.0, 0, -0.795 ],
+					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 55.555555555555557, 0.017452830188679, 0, -0.7, 379.629629629629619, 0.536320754716981, 0, 0.6, 1000.0, 1.0, 0, -0.795 ],
 					"classic_curve" : 1,
 					"id" : "obj-108",
 					"maxclass" : "function",
@@ -338,7 +348,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1500.5, 175.5, 108.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "drum loop clips loopback from Live"
 				}
@@ -382,72 +391,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-91",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 845.0, 618.0, 22.0, 22.0 ],
-					"text" : "t 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-89",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 890.0, 663.0, 29.5, 22.0 ],
-					"text" : "i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-88",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 880.0, 505.0, 29.5, 22.0 ],
-					"text" : "t i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-80",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 923.0, 586.0, 29.5, 22.0 ],
-					"text" : "i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 845.0, 550.0, 44.0, 22.0 ],
-					"text" : "sel 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 923.0, 505.0, 33.0, 22.0 ],
+					"patching_rect" : [ 890.0, 444.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -459,24 +408,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 923.0, 463.0, 103.0, 22.0 ],
+					"patching_rect" : [ 890.0, 405.0, 103.0, 22.0 ],
 					"text" : "r solo_fx_enabled"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-53",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1150.0, 759.0, 232.0, 50.0 ],
-					"presentation_linecount" : 3,
-					"suppressinlet" : 1,
-					"text" : "we want the \"looper sidechained kick\" to be enabled while the looper's looping, so just keep it on always"
 				}
 
 			}
@@ -488,7 +421,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 543.0, 136.0, 21.0 ],
+					"patching_rect" : [ 916.0, 485.0, 136.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "is tuba playing bassline?"
 				}
@@ -502,7 +435,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 923.0, 541.0, 24.0, 24.0 ]
+					"patching_rect" : [ 890.0, 483.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -540,7 +473,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 879.0, 759.0, 229.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "enable main ducker only while tuba's playing bassline"
 				}
@@ -1134,18 +1066,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1168.0, 337.0, 267.0, 22.0 ],
 					"text" : "r \"enable sidechained kick w/ looper intelligence\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.0, 618.0, 52.0, 22.0 ],
-					"text" : "gate 1 0"
 				}
 
 			}
@@ -1765,6 +1685,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 1 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
@@ -2026,7 +1953,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -2130,16 +2057,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"order" : 0,
-					"source" : [ "obj-62", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
-					"midpoints" : [ 1177.5, 435.46805411887749, 889.5, 435.46805411887749 ],
+					"destination" : [ "obj-14", 1 ],
 					"order" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
@@ -2147,8 +2065,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"source" : [ "obj-67", 0 ]
+					"destination" : [ "obj-44", 0 ],
+					"order" : 0,
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -2196,20 +2115,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"source" : [ "obj-77", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-77", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
@@ -2226,13 +2131,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-67", 1 ],
-					"source" : [ "obj-80", 0 ]
 				}
 
 			}
@@ -2305,27 +2203,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"source" : [ "obj-88", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-88", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
@@ -2335,13 +2212,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
-					"source" : [ "obj-91", 0 ]
 				}
 
 			}

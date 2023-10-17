@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 728.0, 563.0, 1201.0, 779.0 ],
+		"rect" : [ 60.0, 601.0, 1201.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,36 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 475.0, 677.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 7.0,
+					"id" : "obj-2",
+					"items" : [ "never", "bypass", ",", "bypass", "when", "tuba's", "playing", "bassline", ",", "bypass", "when", "tuba's", "soloing" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 406.0, 610.0, 60.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.0, 58.0, 119.0, 17.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-46",
@@ -113,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 486.5, 514.0, 146.0, 22.0 ],
+					"patching_rect" : [ 342.5, 514.0, 146.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -234,18 +264,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 550.0, 610.0, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -281,24 +299,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 819.0, 681.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 57.0, 16.0, 16.0 ],
+					"presentation_rect" : [ -1.0, 58.0, 16.0, 16.0 ],
 					"varname" : "toggle[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hint" : "0 = bypass FX when tuba's playing bass line\n1 = bypass FX when tuba's soloing",
-					"id" : "obj-18",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 550.0, 573.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 204.0, 57.0, 16.0, 16.0 ],
-					"varname" : "toggle"
 				}
 
 			}
@@ -705,15 +707,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-18", 0 ]
+					"destination" : [ "obj-150", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-150", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 2,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -728,22 +747,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 1,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"order" : 0,
-					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -820,7 +823,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -829,6 +832,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-44", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
