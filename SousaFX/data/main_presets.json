@@ -6,14 +6,15 @@
 				"id" : 1,
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
+					"bleed[1]" : [ -24.0 ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 0, 0, 1.0 ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2 ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [ 1 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 4, 0, 1.0 ],
-					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 0 ],
+					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 1 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [ 1 ],
 					"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 0, 0, 1.0 ],
-					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 0 ],
+					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 2 ],
 					"attack fx chooser::Dry-ish_FX_randomize" : [ 1 ],
 					"mod params::aux_power" : [ 0.0 ],
 					"mod params::aux_phase_offset" : [ 48.818897700787353 ],
@@ -67,7 +68,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [ 1 ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [ 1 ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [ 1 ],
+					"sidechained_kick_params::sidechained_kick_params" : [ 1 ]
 				}
 
 			}
@@ -76,6 +78,7 @@
 				"id" : 2,
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 1, 0, 1.0 ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -137,7 +140,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [ 1 ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -146,6 +150,7 @@
 				"id" : 3,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -207,7 +212,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -216,6 +222,7 @@
 				"id" : 4,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -277,7 +284,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -286,6 +294,7 @@
 				"id" : 5,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -347,7 +356,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -356,6 +366,7 @@
 				"id" : 6,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -417,7 +428,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -426,6 +438,7 @@
 				"id" : 7,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -487,7 +500,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -496,6 +510,7 @@
 				"id" : 8,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -557,7 +572,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -566,6 +582,7 @@
 				"id" : 9,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -627,7 +644,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -636,6 +654,7 @@
 				"id" : 10,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -697,7 +716,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -706,6 +726,7 @@
 				"id" : 11,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -767,7 +788,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -776,6 +798,7 @@
 				"id" : 12,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -837,7 +860,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -846,6 +870,7 @@
 				"id" : 13,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -907,7 +932,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -916,6 +942,7 @@
 				"id" : 14,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -977,7 +1004,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -986,6 +1014,7 @@
 				"id" : 15,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1047,7 +1076,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -1056,6 +1086,7 @@
 				"id" : 16,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1117,7 +1148,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -1126,6 +1158,7 @@
 				"id" : 17,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1187,7 +1220,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -1196,6 +1230,7 @@
 				"id" : 18,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1257,7 +1292,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -1266,6 +1302,7 @@
 				"id" : 19,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1327,7 +1364,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}
@@ -1336,6 +1374,7 @@
 				"id" : 20,
 				"data" : 				{
 					"preset descriptions" : [  ],
+					"bleed[1]" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [  ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [  ],
@@ -1397,7 +1436,8 @@
 					"four_plugin_selectors::plugin_selector[3]::Pre-LPF_FX_plugin4_plugin" : [  ],
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
-					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ]
+					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
+					"sidechained_kick_params::sidechained_kick_params" : [  ]
 				}
 
 			}

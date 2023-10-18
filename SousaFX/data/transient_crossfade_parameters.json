@@ -8,7 +8,7 @@
 					"transient_helper" : [ 1 ],
 					"env_decay" : [ 1070.133619435202945 ],
 					"noise_gate" : [ 0.153 ],
-					"interpolate_crossfades" : [ 70.0 ],
+					"interpolate_crossfades" : [ 34.0 ],
 					"env_attack" : [ 3.0 ],
 					"lock_low_mod" : [ 1 ],
 					"lock_very_low_mod" : [ 1 ],

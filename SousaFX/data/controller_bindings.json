@@ -283,7 +283,7 @@
 					"Envelope Crossfade Position (bi)::value to set control to when tuba starts soloing" : [ 1.0 ],
 					"Envelope Crossfade Position (bi)::maintain control while tuba's soloing" : [ 0 ],
 					"LFO Duty Cycle (bi)::invert_control" : [ 0 ],
-					"LFO Duty Cycle (bi)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"LFO Duty Cycle (bi)::maintain control after tuba stops playing bassline" : [ 1 ],
 					"LFO Duty Cycle (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"LFO Duty Cycle (bi)::maintain control while tuba's soloing" : [ 0 ],
 					"LFO Swing Amount (uni)::invert_control" : [ 0 ],
