@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2485.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -183,7 +183,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7108.0, 4155.450792725891915, 129.0, 52.0 ],
-					"presentation_linecount" : 2,
 					"text" : "get tempo from either tap or ableton"
 				}
 
@@ -1771,10 +1770,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1742.0, 1849.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -3032,8 +3031,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -14091,6 +14090,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "hover_bang_ubutton.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "icon.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
@@ -14525,8 +14531,8 @@
 			}
 , 			{
 				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_genexpr",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
+				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}

@@ -286,8 +286,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 768.0, 287.0, 112.0, 22.0 ],
-					"text" : "r #1_stutter_enable"
+					"patching_rect" : [ 751.0, 287.0, 169.0, 22.0 ],
+					"text" : "r #1\" Stutter Enable (trig)\""
 				}
 
 			}
@@ -298,8 +298,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 286.0, 61.0, 220.0, 22.0 ],
-					"text" : "r \"bang sets random stutter subdivision\""
+					"patching_rect" : [ 286.0, 61.0, 222.0, 22.0 ],
+					"text" : "r #1\" Stutter Random Rhythm (trig)\""
 				}
 
 			}
@@ -373,7 +373,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 233.0, 936.0, 30.0, 30.0 ]
 				}
 
@@ -386,7 +386,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 185.0, 936.0, 30.0, 30.0 ]
 				}
 

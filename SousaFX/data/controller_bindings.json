@@ -8,43 +8,8 @@
 					"crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 50,
-								"numouts" : 53,
+								"numouts" : 61,
 								"connections" : [ 									{
-										"in" : 37,
-										"out" : 46,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 39,
-										"out" : 45,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 44,
-										"out" : 42,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 41,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 40,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 45,
-										"out" : 39,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 39,
-										"out" : 37,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 26,
 										"out" : 30,
 										"gain" : 1.0
@@ -165,11 +130,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 44,
-										"out" : 48,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 3,
 										"out" : 14,
 										"gain" : 1.0
@@ -185,38 +145,33 @@
 										"gain" : 1.0
 									}
 , 									{
+										"in" : 29,
+										"out" : 25,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 36,
 										"out" : 36,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 46,
-										"out" : 43,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 50,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 46,
-										"out" : 51,
+										"in" : 37,
+										"out" : 54,
 										"gain" : 1.0
 									}
 , 									{
 										"in" : 39,
-										"out" : 52,
+										"out" : 37,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 45,
-										"out" : 47,
+										"in" : 39,
+										"out" : 53,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 47,
-										"out" : 49,
+										"in" : 39,
+										"out" : 56,
 										"gain" : 1.0
 									}
 , 									{
@@ -226,12 +181,92 @@
 									}
 , 									{
 										"in" : 43,
+										"out" : 43,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 40,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 57,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 59,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 39,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 42,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 41,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 52,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 58,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 60,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 47,
+										"out" : 55,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 28,
 										"out" : 44,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 29,
-										"out" : 25,
+										"in" : 28,
+										"out" : 26,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 48,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 49,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 40,
+										"out" : 45,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 46,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 45,
+										"out" : 47,
 										"gain" : 1.0
 									}
  ]
@@ -244,28 +279,29 @@
 					"after_diagonal" : [ 36.000000000000007 ],
 					"before_diagonal" : [ 2.000000000000028 ],
 					"diagonal_trigger_mode" : [ 0 ],
+					"controller_connector_bpatcher::gamepadLEDVFX::gamepadLEDVFX" : [ 1 ],
 					"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : [ 1 ],
-					"Ableton Drum Clip Crossfade (bi)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Crossfade (bi)::when to relinquish control" : [ 0 ],
-					"Tuba Looper Filters (bi)::invert_control" : [ 0 ],
-					"Tuba Looper Filters (bi)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Filters (bi)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Stutter Enable (uni)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Stutter Enable (uni)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Reverb Send (uni)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Reverb Send (uni)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Delay Send (uni)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Delay Send (uni)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Tremolo Amnt (uni)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Tremolo Amnt (uni)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Reverb Param (bi)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Reverb Param (bi)::when to relinquish control" : [ 0 ],
-					"Ableton Drum Clip Delay Param (bi)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Delay Param (bi)::when to relinquish control" : [ 0 ],
+					"Drum Clip Crossfade (bi)::invert_control" : [ 0 ],
+					"Drum Clip Crossfade (bi)::when to relinquish control" : [ 0 ],
+					"Looper Filters (bi)::invert_control" : [ 0 ],
+					"Looper Filters (bi)::when to relinquish control" : [ 0 ],
+					"Drum Clip Filters (bi)::invert_control" : [ 0 ],
+					"Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],
+					"Drum Clip Stutter Enable (trig)::invert_control" : [ 0 ],
+					"Drum Clip Stutter Enable (trig)::when to relinquish control" : [ 0 ],
+					"Drum Clip Reverb Send (uni)::invert_control" : [ 0 ],
+					"Drum Clip Reverb Send (uni)::when to relinquish control" : [ 0 ],
+					"Drum Clip Delay Send (uni)::invert_control" : [ 0 ],
+					"Drum Clip Delay Send (uni)::when to relinquish control" : [ 0 ],
+					"Drum Clip Tremolo Depth (uni)::invert_control" : [ 0 ],
+					"Drum Clip Tremolo Depth (uni)::when to relinquish control" : [ 0 ],
+					"Drum Clip Reverb Param (bi)::invert_control" : [ 0 ],
+					"Drum Clip Reverb Param (bi)::when to relinquish control" : [ 0 ],
+					"Drum Clip Delay Param (bi)::invert_control" : [ 0 ],
+					"Drum Clip Delay Param (bi)::when to relinquish control" : [ 0 ],
 					"patcher::controller_deadzones" : [ 1 ],
-					"Ableton Drum Clip Tremolo Duty (bi)::invert_control" : [ 0 ],
-					"Ableton Drum Clip Tremolo Duty (bi)::when to relinquish control" : [ 0 ],
+					"Drum Clip Tremolo Duty (bi)::invert_control" : [ 0 ],
+					"Drum Clip Tremolo Duty (bi)::when to relinquish control" : [ 0 ],
 					"LFO Sync-Free Crossfade (uni)::invert_control" : [ 0 ],
 					"LFO Sync-Free Crossfade (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
 					"LFO Sync-Free Crossfade (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
@@ -293,7 +329,23 @@
 					"LFO Free Speed (bi)::invert_control" : [ 0 ],
 					"LFO Free Speed (bi)::maintain control after tuba stops playing bassline" : [ 0 ],
 					"LFO Free Speed (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
-					"LFO Free Speed (bi)::maintain control while tuba's soloing" : [ 0 ]
+					"LFO Free Speed (bi)::maintain control while tuba's soloing" : [ 0 ],
+					"Looper Stutter Random Rhythm (trig)::invert_control" : [ 0 ],
+					"Looper Stutter Random Rhythm (trig)::when to relinquish control" : [ 0 ],
+					"Looper Stutter Enable (trig)::invert_control" : [ 0 ],
+					"Looper Stutter Enable (trig)::when to relinquish control" : [ 0 ],
+					"Looper Tremolo Duty (uni)::invert_control" : [ 0 ],
+					"Looper Tremolo Duty (uni)::when to relinquish control" : [ 0 ],
+					"Looper Tremolo Depth (uni)::invert_control" : [ 0 ],
+					"Looper Tremolo Depth (uni)::when to relinquish control" : [ 0 ],
+					"Looper Delay Send 1 (uni)::invert_control" : [ 0 ],
+					"Looper Delay Send 1 (uni)::when to relinquish control" : [ 0 ],
+					"Looper Delay Send 2 (uni)::invert_control" : [ 0 ],
+					"Looper Delay Send 2 (uni)::when to relinquish control" : [ 0 ],
+					"Looper Delay Send 3 (uni)::invert_control" : [ 0 ],
+					"Looper Delay Send 3 (uni)::when to relinquish control" : [ 0 ],
+					"Looper Delay Send 4 (uni)::invert_control" : [ 0 ],
+					"Looper Delay Send 4 (uni)::when to relinquish control" : [ 0 ]
 				}
 
 			}
