@@ -1,3 +1,48 @@
+[![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) 
+
+# :studio_microphone: Introduction
+
+Thank you for checking out SousaFX, an exciting new rig that caters to tuba players who are interested in electronic music performance. SousaFX was born of a desire to play dubstep with a sousaphone. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as resonant low pass filters, loopers, reverb and delay sends, stutter, square-wave tremolo, envelope crossfades, continuous accelerandos, sidechain kick compression, plugin preset selectors, and more! The SousaFX rig can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
+
+# :gear: Requirements
+
+1. One tuba.
+
+1. A sufficiently powerful Mac or Windows computer. SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent gaming PC with Windows 11.
+
+1. One game controller that can be paired with the computer, and tied or velcroed to the tuba.
+
+1. A USB audio interface with one headphone output, two line-level outputs, and one XLR microphone input or two line-level inputs.
+
+1. An XLR microphone with an XLR cable, or a Yamaha SilentBrass™ mute with the PersonalStudio™ and an 1/8" Stereo TRS to Dual 1/4" Mono TS Y-Splitter cable.
+
+1. Headphones, or In Ear Monitors.
+
+# :floppy_disk: Installation
+
+1. SousaFX is a Max Project that runs within the Max application. Download Max for free from [![Cycling '74](https://img.shields.io/badge/Cycling_'74-111111?logo=cycling74&style=flat-square)](https://cycling74.com/downloads)
+
+> [!NOTE]
+> Despite the fact that the free version of Max disallows saving after a 30-day trial, SousaFX will continue to function as intended because it uses pattrstorage to save its preferences and presets, which Cycling '74 graciously does not disable after the trial.
+
+2.  Download the sousastep repository and place it gently in `~/Documents/Max 8/Projects/`: [![GitHub all releases](https://img.shields.io/github/downloads/Sousastep/sousastep/total?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags) [![GitHub repo size](https://img.shields.io/github/repo-size/Sousastep/sousastep?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags)
+
+3.  Optionally, for thoughtful quotes whenever the rig boots, download [this repository](https://github.com/zzkt/oblique-strategies) and place it in `~/Documents/Max 8/Projects/sousastep/submodules/`
+
+> [!IMPORTANT]
+> When installing newer versions of SousaFX, copy your presets from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` into the new version's `/SousaFX/data/` folder.
+
+> [!NOTE]
+> Consider installing [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=black&style=flat-square)](https://git-scm.com/downloads), and [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) the sousastep repository, which will allow you to pull updates instead of having to download and replace files.
+> ```bash
+> cd ~/Documents/Max\ 8/Projects/; 
+> git clone --recurse-submodules https://github.com/Sousastep/sousastep.git
+> ```
+
+4.  Open `~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj`
+
+
+
 # max patch pics
 
 ![Sousastep Visual FX.maxproj](pictures/visual.jpg)
