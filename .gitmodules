@@ -1,0 +1,3 @@
+[submodule "submodules/oblique-strategies"]
+	path = submodules/oblique-strategies
+	url = https://github.com/zzkt/oblique-strategies.git

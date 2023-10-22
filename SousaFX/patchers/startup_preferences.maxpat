@@ -42,6 +42,320 @@
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-295",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2695.5, 1718.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-293",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2652.0, 3051.0, 75.0, 22.0 ],
+					"text" : "prepend line"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-291",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2831.0, 3051.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-287",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2884.0, 2979.0, 39.0, 22.0 ],
+					"text" : "query"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-284",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2802.0, 2674.0, 62.0, 22.0 ],
+					"text" : "settitle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-278",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2780.0, 2627.0, 29.5, 22.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-276",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 2780.0, 2581.0, 42.0, 22.0 ],
+					"text" : "t b b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-275",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2992.0, 2844.0, 31.0, 22.0 ],
+					"text" : "t b s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-274",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2880.0, 2910.0, 531.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-272",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2991.0, 2808.0, 80.0, 22.0 ],
+					"text" : "prepend read"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-270",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "bang", "int" ],
+					"patching_rect" : [ 2810.0, 2979.0, 40.0, 22.0 ],
+					"text" : "text"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-263",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2991.0, 2731.0, 513.0, 22.0 ],
+					"text" : "sprintf \\\"~/Documents/Max 8/Projects/sousastep/submodules/oblique-strategies/strategies/%s\\\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-268",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 2991.0, 2774.0, 150.0, 22.0 ],
+					"text" : "conformpath max absolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-261",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 3059.0, 2248.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-257",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3059.0, 2206.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-198",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2820.0, 2627.0, 35.0, 22.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-202",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2780.0, 2547.0, 61.0, 22.0 ],
+					"text" : "savebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-204",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3134.0, 2689.0, 109.09090518951416, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "emote folder name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-205",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2918.0, 2504.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-206",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 2918.0, 2565.0, 29.5, 22.0 ],
+					"text" : "t b i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-207",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2918.0, 2627.0, 49.0, 22.0 ],
+					"text" : "random"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-208",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2880.0, 2688.0, 241.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-191",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3072.0, 2393.0, 71.0, 22.0 ],
+					"text" : "types TEXT"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 2880.0, 2442.0, 39.0, 22.0 ],
+					"text" : "folder"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-174",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 2880.0, 2348.0, 150.0, 22.0 ],
+					"text" : "conformpath max absolute"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-97",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2880.0, 2302.0, 454.0, 22.0 ],
+					"presentation_linecount" : 3,
+					"text" : "\"~/Documents/Max 8/Projects/sousastep/submodules/oblique-strategies/strategies/\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -343,7 +657,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1287.0, 1320.0, 45.0, 22.0 ],
+					"patching_rect" : [ 1297.568156003952026, 1953.0, 45.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -362,7 +676,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 791.750829994678497, 1258.0, 35.0, 22.0 ],
+					"patching_rect" : [ 634.0, 1826.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -374,7 +688,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 791.750829994678497, 1227.0, 61.0, 22.0 ],
+					"patching_rect" : [ 634.0, 1795.0, 61.0, 22.0 ],
 					"text" : "savebang"
 				}
 
@@ -386,7 +700,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 751.818156003952026, 1171.056529402732849, 29.5, 22.0 ],
+					"patching_rect" : [ 594.0, 1739.0, 29.5, 22.0 ],
 					"text" : "- 2"
 				}
 
@@ -399,7 +713,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1071.0, 1396.0, 50.0, 22.0 ]
+					"patching_rect" : [ 1081.568156003952026, 2029.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -410,7 +724,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1071.0, 1354.64521050453186, 261.0, 22.0 ],
+					"patching_rect" : [ 1081.568156003952026, 1988.0, 261.0, 22.0 ],
 					"text" : "list.lookup 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 99"
 				}
 
@@ -423,7 +737,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 598.0, 1455.670547962188721, 74.51266872882843, 74.51266872882843 ]
+					"patching_rect" : [ 608.568156003952026, 2089.0, 74.51266872882843, 74.51266872882843 ]
 				}
 
 			}
@@ -435,19 +749,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 722.0, 853.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2642.0, 1901.0, 50.0, 22.0 ]
+					"patching_rect" : [ 564.0, 1421.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -470,7 +772,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2607.25, 1734.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2884.0, 1761.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -482,20 +784,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2589.0, 1776.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2866.0, 1803.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-187",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2570.75, 2005.0, 72.0, 22.0 ],
-					"text" : "prepend set"
 				}
 
 			}
@@ -506,7 +796,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2607.25, 1699.0, 34.0, 22.0 ],
+					"patching_rect" : [ 2884.0, 1726.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -518,7 +808,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2534.75, 1897.0, 29.5, 22.0 ],
+					"patching_rect" : [ 2652.0, 3016.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -530,894 +820,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2534.75, 1862.0, 73.0, 22.0 ],
+					"patching_rect" : [ 2652.0, 2975.0, 73.0, 22.0 ],
 					"text" : "random 213"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-175",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2534.75, 1969.0, 55.0, 22.0 ],
-					"text" : "zl.slice 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"coll_data" : 					{
-						"count" : 213,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ "(Organic) machinery." ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ "A line has two sides." ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ "A very small object - its centre." ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ "Abandon desire." ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ "Abandon normal instructions." ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ "Accept advice." ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ "Accretion." ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ "Adding on." ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ "Allow an easement (an easement is the abandonment of a stricture)." ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ "Always give yourself credit for having more than personality." ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ "Always the first steps." ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ "Animal noises." ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ "Are there sections? Consider transitions." ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ "Ask a computer program to repeat your last action." ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ "Ask people to work against their better judgement." ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ "Ask your body." ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ "Assemble some of the elements in a group and treat the group." ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ "Back up a few steps What else could you have done?" ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ "Balance the consistency principle with the inconsistency principle." ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ "Be dirty." ]
-							}
-, 							{
-								"key" : 21,
-								"value" : [ "Be extravagant." ]
-							}
-, 							{
-								"key" : 22,
-								"value" : [ "Be less critical more often." ]
-							}
-, 							{
-								"key" : 23,
-								"value" : [ "Breathe more deeply." ]
-							}
-, 							{
-								"key" : 24,
-								"value" : [ "Build bridges." ]
-							}
-, 							{
-								"key" : 25,
-								"value" : [ "Burn bridges." ]
-							}
-, 							{
-								"key" : 26,
-								"value" : [ "Call your mother and ask her what to do." ]
-							}
-, 							{
-								"key" : 27,
-								"value" : [ "Cascades." ]
-							}
-, 							{
-								"key" : 28,
-								"value" : [ "Change ambiguities to specifics." ]
-							}
-, 							{
-								"key" : 29,
-								"value" : [ "Change specifics to ambiguities." ]
-							}
-, 							{
-								"key" : 30,
-								"value" : [ "Change instrument roles." ]
-							}
-, 							{
-								"key" : 31,
-								"value" : [ "Change nothing and continue with immaculate consistency." ]
-							}
-, 							{
-								"key" : 32,
-								"value" : [ "Children's voices speaking." ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ "Children's voices singing." ]
-							}
-, 							{
-								"key" : 34,
-								"value" : [ "Cluster analysis." ]
-							}
-, 							{
-								"key" : 35,
-								"value" : [ "Consider different fading systems." ]
-							}
-, 							{
-								"key" : 36,
-								"value" : [ "Consider transitions." ]
-							}
-, 							{
-								"key" : 37,
-								"value" : [ "Consult other promising sources." ]
-							}
-, 							{
-								"key" : 38,
-								"value" : [ "Consult other unpromising sources." ]
-							}
-, 							{
-								"key" : 39,
-								"value" : [ "Convert a melodic element into a rhythmic element." ]
-							}
-, 							{
-								"key" : 40,
-								"value" : [ "Courage!" ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ "Cut a vital connection." ]
-							}
-, 							{
-								"key" : 42,
-								"value" : [ "Cut a virtual connection." ]
-							}
-, 							{
-								"key" : 43,
-								"value" : [ "Decorate, decorate." ]
-							}
-, 							{
-								"key" : 44,
-								"value" : [ "Define an area as \"safe\" and use it as an anchor." ]
-							}
-, 							{
-								"key" : 45,
-								"value" : [ "Describe the landscape in which this belongs." ]
-							}
-, 							{
-								"key" : 46,
-								"value" : [ "Destroy nothing." ]
-							}
-, 							{
-								"key" : 47,
-								"value" : [ "Discard an axiom." ]
-							}
-, 							{
-								"key" : 48,
-								"value" : [ "Disciplined self-indulgence." ]
-							}
-, 							{
-								"key" : 49,
-								"value" : [ "Disconnect from desire." ]
-							}
-, 							{
-								"key" : 50,
-								"value" : [ "Discover the recipes you are using and abandon them." ]
-							}
-, 							{
-								"key" : 51,
-								"value" : [ "Discover your formulas and abandon them." ]
-							}
-, 							{
-								"key" : 52,
-								"value" : [ "Display your talent." ]
-							}
-, 							{
-								"key" : 53,
-								"value" : [ "Distorting time." ]
-							}
-, 							{
-								"key" : 54,
-								"value" : [ "Do nothing for as long as possible." ]
-							}
-, 							{
-								"key" : 55,
-								"value" : [ "Do something boring." ]
-							}
-, 							{
-								"key" : 56,
-								"value" : [ "Do something sudden, destructive and unpredictable." ]
-							}
-, 							{
-								"key" : 57,
-								"value" : [ "Do the last thing first." ]
-							}
-, 							{
-								"key" : 58,
-								"value" : [ "Do the washing up." ]
-							}
-, 							{
-								"key" : 59,
-								"value" : [ "Do the words need changing?" ]
-							}
-, 							{
-								"key" : 60,
-								"value" : [ "Do we need holes?" ]
-							}
-, 							{
-								"key" : 61,
-								"value" : [ "Don't avoid what is easy." ]
-							}
-, 							{
-								"key" : 62,
-								"value" : [ "Don't be afraid of things because they're easy to do." ]
-							}
-, 							{
-								"key" : 63,
-								"value" : [ "Don't be frightened of cliches." ]
-							}
-, 							{
-								"key" : 64,
-								"value" : [ "Don't be frightened to display your talents." ]
-							}
-, 							{
-								"key" : 65,
-								"value" : [ "Don't break the silence." ]
-							}
-, 							{
-								"key" : 66,
-								"value" : [ "Don't stress one thing more than another." ]
-							}
-, 							{
-								"key" : 67,
-								"value" : [ "Emphasize differences." ]
-							}
-, 							{
-								"key" : 68,
-								"value" : [ "Emphasize repetitions." ]
-							}
-, 							{
-								"key" : 69,
-								"value" : [ "Emphasize the flaws." ]
-							}
-, 							{
-								"key" : 70,
-								"value" : [ "Faced with a choice, do both!" ]
-							}
-, 							{
-								"key" : 71,
-								"value" : [ "Feed the recording back out of the medium." ]
-							}
-, 							{
-								"key" : 72,
-								"value" : [ "Feedback recordings into an acoustic situation." ]
-							}
-, 							{
-								"key" : 73,
-								"value" : [ "Fill every beat with something." ]
-							}
-, 							{
-								"key" : 74,
-								"value" : [ "First work alone, then work in unusual pairs." ]
-							}
-, 							{
-								"key" : 75,
-								"value" : [ "From nothing to more than nothing." ]
-							}
-, 							{
-								"key" : 76,
-								"value" : [ "Get your neck massaged." ]
-							}
-, 							{
-								"key" : 77,
-								"value" : [ "Ghost echoes." ]
-							}
-, 							{
-								"key" : 78,
-								"value" : [ "Give the game away." ]
-							}
-, 							{
-								"key" : 79,
-								"value" : [ "Give way to your worst impulse." ]
-							}
-, 							{
-								"key" : 80,
-								"value" : [ "Go outside. Shut the door." ]
-							}
-, 							{
-								"key" : 81,
-								"value" : [ "Go slowly all the way round the outside." ]
-							}
-, 							{
-								"key" : 82,
-								"value" : [ "Go to an extreme, move back to a more comfortable place." ]
-							}
-, 							{
-								"key" : 83,
-								"value" : [ "How would someone else do it?" ]
-							}
-, 							{
-								"key" : 84,
-								"value" : [ "How would you explain this to your parents?" ]
-							}
-, 							{
-								"key" : 85,
-								"value" : [ "How would you have done it?" ]
-							}
-, 							{
-								"key" : 86,
-								"value" : [ "Humanize something that is free of error." ]
-							}
-, 							{
-								"key" : 87,
-								"value" : [ "Idiot glee." ]
-							}
-, 							{
-								"key" : 88,
-								"value" : [ "Imagine the music as a moving chain or caterpillar." ]
-							}
-, 							{
-								"key" : 89,
-								"value" : [ "Imagine the music as a series of disconnected events." ]
-							}
-, 							{
-								"key" : 90,
-								"value" : [ "In total darkness." ]
-							}
-, 							{
-								"key" : 91,
-								"value" : [ "In a very large room, very quietly." ]
-							}
-, 							{
-								"key" : 92,
-								"value" : [ "Infinitesimal gradations." ]
-							}
-, 							{
-								"key" : 93,
-								"value" : [ "Instead of changing the thing, change the world around it." ]
-							}
-, 							{
-								"key" : 94,
-								"value" : [ "Credibility of intentions." ]
-							}
-, 							{
-								"key" : 95,
-								"value" : [ "Nobility of intentions." ]
-							}
-, 							{
-								"key" : 96,
-								"value" : [ "Humility of intentions." ]
-							}
-, 							{
-								"key" : 97,
-								"value" : [ "Is it finished?" ]
-							}
-, 							{
-								"key" : 98,
-								"value" : [ "Is something missing?" ]
-							}
-, 							{
-								"key" : 99,
-								"value" : [ "Is the style right?" ]
-							}
-, 							{
-								"key" : 100,
-								"value" : [ "Is the tuning appropriate?" ]
-							}
-, 							{
-								"key" : 101,
-								"value" : [ "It is quite possible (after all)." ]
-							}
-, 							{
-								"key" : 102,
-								"value" : [ "It is simply a matter or work." ]
-							}
-, 							{
-								"key" : 103,
-								"value" : [ "Just carry on." ]
-							}
-, 							{
-								"key" : 104,
-								"value" : [ "Left channel, right channel, centre channel." ]
-							}
-, 							{
-								"key" : 105,
-								"value" : [ "List the qualities it has List those you'd like." ]
-							}
-, 							{
-								"key" : 106,
-								"value" : [ "Listen in total darkness." ]
-							}
-, 							{
-								"key" : 107,
-								"value" : [ "Listen in a very large room, very quietly." ]
-							}
-, 							{
-								"key" : 108,
-								"value" : [ "listen to the quiet voice." ]
-							}
-, 							{
-								"key" : 109,
-								"value" : [ "Look at a very small object, look at its centre." ]
-							}
-, 							{
-								"key" : 110,
-								"value" : [ "Look at the order in which you do things." ]
-							}
-, 							{
-								"key" : 111,
-								"value" : [ "Look closely at the most embarrassing details and amplify." ]
-							}
-, 							{
-								"key" : 112,
-								"value" : [ "Lost in useless territory." ]
-							}
-, 							{
-								"key" : 113,
-								"value" : [ "Lowest common denominator check: single beat; single note; single riff." ]
-							}
-, 							{
-								"key" : 114,
-								"value" : [ "Magnify the most difficult details." ]
-							}
-, 							{
-								"key" : 115,
-								"value" : [ "Make a blank valuable by putting it in an excquisite frame." ]
-							}
-, 							{
-								"key" : 116,
-								"value" : [ "Make a sudden, destructive unpredictable action. Incorporate." ]
-							}
-, 							{
-								"key" : 117,
-								"value" : [ "Make an exhaustive list of everything you might do and do the last thing on the list." ]
-							}
-, 							{
-								"key" : 118,
-								"value" : [ "Make it more sensual." ]
-							}
-, 							{
-								"key" : 119,
-								"value" : [ "Make it more banal." ]
-							}
-, 							{
-								"key" : 120,
-								"value" : [ "Make what's perfect more human." ]
-							}
-, 							{
-								"key" : 121,
-								"value" : [ "Mechanize something idiosyncratic." ]
-							}
-, 							{
-								"key" : 122,
-								"value" : [ "Move towards the impossible." ]
-							}
-, 							{
-								"key" : 123,
-								"value" : [ "Move towards the unimportant." ]
-							}
-, 							{
-								"key" : 124,
-								"value" : [ "Mute and continue." ]
-							}
-, 							{
-								"key" : 125,
-								"value" : [ "Not building a wall but making a brick." ]
-							}
-, 							{
-								"key" : 126,
-								"value" : [ "Once the search is in progress, something will be found." ]
-							}
-, 							{
-								"key" : 127,
-								"value" : [ "Only a part, not the whole." ]
-							}
-, 							{
-								"key" : 128,
-								"value" : [ "Only one element of each kind." ]
-							}
-, 							{
-								"key" : 129,
-								"value" : [ "Overtly resist change." ]
-							}
-, 							{
-								"key" : 130,
-								"value" : [ "Pae White's non-blank graphic metacard." ]
-							}
-, 							{
-								"key" : 131,
-								"value" : [ "Pay attention to distractions." ]
-							}
-, 							{
-								"key" : 132,
-								"value" : [ "Picture of a man spotlighted." ]
-							}
-, 							{
-								"key" : 133,
-								"value" : [ "Put in earplugs." ]
-							}
-, 							{
-								"key" : 134,
-								"value" : [ "Question the heroic approach." ]
-							}
-, 							{
-								"key" : 135,
-								"value" : [ "Rearrange." ]
-							}
-, 							{
-								"key" : 136,
-								"value" : [ "Remember those quiet evenings." ]
-							}
-, 							{
-								"key" : 137,
-								"value" : [ "Remove a restriction." ]
-							}
-, 							{
-								"key" : 138,
-								"value" : [ "Remove ambiguities and convert to specifics." ]
-							}
-, 							{
-								"key" : 139,
-								"value" : [ "Remove specifics and convert to ambiguities." ]
-							}
-, 							{
-								"key" : 140,
-								"value" : [ "Remove the middle, extend the edges." ]
-							}
-, 							{
-								"key" : 141,
-								"value" : [ "Repetition is a form of change." ]
-							}
-, 							{
-								"key" : 142,
-								"value" : [ "Retrace your steps." ]
-							}
-, 							{
-								"key" : 143,
-								"value" : [ "Revaluation (a warm feeling)." ]
-							}
-, 							{
-								"key" : 144,
-								"value" : [ "Reverse." ]
-							}
-, 							{
-								"key" : 145,
-								"value" : [ "Short circuit." ]
-							}
-, 							{
-								"key" : 146,
-								"value" : [ "Shut the door and listen from outside." ]
-							}
-, 							{
-								"key" : 147,
-								"value" : [ "Simple subtraction." ]
-							}
-, 							{
-								"key" : 148,
-								"value" : [ "Simply a matter of work." ]
-							}
-, 							{
-								"key" : 149,
-								"value" : [ "Slow preparation, fast execution." ]
-							}
-, 							{
-								"key" : 150,
-								"value" : [ "Spectrum analysis." ]
-							}
-, 							{
-								"key" : 151,
-								"value" : [ "State the problem in words as simply as possible." ]
-							}
-, 							{
-								"key" : 152,
-								"value" : [ "Steal a solution." ]
-							}
-, 							{
-								"key" : 153,
-								"value" : [ "Take a break." ]
-							}
-, 							{
-								"key" : 154,
-								"value" : [ "Take away as much mystery as possible What is left?" ]
-							}
-, 							{
-								"key" : 155,
-								"value" : [ "Take away the elements in order of apparent non-importance." ]
-							}
-, 							{
-								"key" : 156,
-								"value" : [ "Take away the important parts." ]
-							}
-, 							{
-								"key" : 157,
-								"value" : [ "Tape your mouth." ]
-							}
-, 							{
-								"key" : 158,
-								"value" : [ "The inconsistency principle." ]
-							}
-, 							{
-								"key" : 159,
-								"value" : [ "The most important thing is the thing most easily forgotten." ]
-							}
-, 							{
-								"key" : 160,
-								"value" : [ "The tape is now the music." ]
-							}
-, 							{
-								"key" : 161,
-								"value" : [ "Think inside the work." ]
-							}
-, 							{
-								"key" : 162,
-								"value" : [ "Think outside the work." ]
-							}
-, 							{
-								"key" : 163,
-								"value" : [ "Think of the radio." ]
-							}
-, 							{
-								"key" : 164,
-								"value" : [ "Tidy up." ]
-							}
-, 							{
-								"key" : 165,
-								"value" : [ "Towards the insignificant." ]
-							}
-, 							{
-								"key" : 166,
-								"value" : [ "Trust in the you of now." ]
-							}
-, 							{
-								"key" : 167,
-								"value" : [ "Try faking it." ]
-							}
-, 							{
-								"key" : 168,
-								"value" : [ "Turn it upside down." ]
-							}
-, 							{
-								"key" : 169,
-								"value" : [ "Twist the spine." ]
-							}
-, 							{
-								"key" : 170,
-								"value" : [ "Use \"unqualified\" people." ]
-							}
-, 							{
-								"key" : 171,
-								"value" : [ "Use an old idea." ]
-							}
-, 							{
-								"key" : 172,
-								"value" : [ "Use an unacceptable color." ]
-							}
-, 							{
-								"key" : 173,
-								"value" : [ "Use cliches." ]
-							}
-, 							{
-								"key" : 174,
-								"value" : [ "Use fewer notes." ]
-							}
-, 							{
-								"key" : 175,
-								"value" : [ "Use filters." ]
-							}
-, 							{
-								"key" : 176,
-								"value" : [ "Use something nearby as a model." ]
-							}
-, 							{
-								"key" : 177,
-								"value" : [ "Use your own ideas." ]
-							}
-, 							{
-								"key" : 178,
-								"value" : [ "Voice your suspicions." ]
-							}
-, 							{
-								"key" : 179,
-								"value" : [ "Water." ]
-							}
-, 							{
-								"key" : 180,
-								"value" : [ "Fire." ]
-							}
-, 							{
-								"key" : 181,
-								"value" : [ "Earh." ]
-							}
-, 							{
-								"key" : 182,
-								"value" : [ "Wind." ]
-							}
-, 							{
-								"key" : 183,
-								"value" : [ "Heart." ]
-							}
-, 							{
-								"key" : 184,
-								"value" : [ "What are the sections sections of?" ]
-							}
-, 							{
-								"key" : 185,
-								"value" : [ "What context would look right?" ]
-							}
-, 							{
-								"key" : 186,
-								"value" : [ "What do you do?" ]
-							}
-, 							{
-								"key" : 187,
-								"value" : [ "Now, what do you do best?" ]
-							}
-, 							{
-								"key" : 188,
-								"value" : [ "What else is this like?" ]
-							}
-, 							{
-								"key" : 189,
-								"value" : [ "What is the reality of the situation?" ]
-							}
-, 							{
-								"key" : 190,
-								"value" : [ "What is the simplest solution?" ]
-							}
-, 							{
-								"key" : 191,
-								"value" : [ "What mistakes did you make last time?" ]
-							}
-, 							{
-								"key" : 192,
-								"value" : [ "What most recently impressed you?" ]
-							}
-, 							{
-								"key" : 193,
-								"value" : [ "What can you learn from it?" ]
-							}
-, 							{
-								"key" : 194,
-								"value" : [ "How is it similar?" ]
-							}
-, 							{
-								"key" : 195,
-								"value" : [ "What could you take from it?" ]
-							}
-, 							{
-								"key" : 196,
-								"value" : [ "What to increase? What to reduce? What to maintain?" ]
-							}
-, 							{
-								"key" : 197,
-								"value" : [ "What were the branch points in the evolution of this entity?" ]
-							}
-, 							{
-								"key" : 198,
-								"value" : [ "What were you really thinking about just now? Incorporate." ]
-							}
-, 							{
-								"key" : 199,
-								"value" : [ "What would make this really successful?" ]
-							}
-, 							{
-								"key" : 200,
-								"value" : [ "What would your closest friend do?" ]
-							}
-, 							{
-								"key" : 201,
-								"value" : [ "What wouldn't you do? Do that." ]
-							}
-, 							{
-								"key" : 202,
-								"value" : [ "When is it for?" ]
-							}
-, 							{
-								"key" : 203,
-								"value" : [ "Who is it for?" ]
-							}
-, 							{
-								"key" : 204,
-								"value" : [ "Where is the edge?" ]
-							}
-, 							{
-								"key" : 205,
-								"value" : [ "Which parts can be grouped?" ]
-							}
-, 							{
-								"key" : 206,
-								"value" : [ "Who would make this really successful?" ]
-							}
-, 							{
-								"key" : 207,
-								"value" : [ "Work at a different speed." ]
-							}
-, 							{
-								"key" : 208,
-								"value" : [ "Would anyone want it?" ]
-							}
-, 							{
-								"key" : 209,
-								"value" : [ "You are an engineer." ]
-							}
-, 							{
-								"key" : 210,
-								"value" : [ "You can only make one dot at a time." ]
-							}
-, 							{
-								"key" : 211,
-								"value" : [ "You don't have to be ashamed of using your own ideas." ]
-							}
-, 							{
-								"key" : 212,
-								"value" : [ "Your mistake was a hidden intention." ]
-							}
-, 							{
-								"key" : 213,
-								"value" : [ " " ]
-							}
- ]
-					}
-,
-					"id" : "obj-114",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 2534.75, 1934.0, 179.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"precision" : 6
-					}
-,
-					"text" : "coll brian-eno-oblique-strategies"
 				}
 
 			}
@@ -1555,7 +959,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2397.0, 1496.0, 485.0, 39.0 ],
+					"patching_rect" : [ 2397.0, 1561.0, 485.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 318.0, 39.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1569,7 +973,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 791.750829994678497, 1312.0, 109.09090518951416, 21.0 ],
+					"patching_rect" : [ 802.568156003952026, 1945.0, 109.09090518951416, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "emote folder name"
 				}
@@ -1582,7 +986,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 875.9259113073349, 1449.074049890041351, 109.999996066093445, 21.0 ],
+					"patching_rect" : [ 886.568156003952026, 2082.0, 109.999996066093445, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "# of pngs in folder"
 				}
@@ -1596,7 +1000,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 821.296282589435577, 1449.074049890041351, 50.0, 22.0 ]
+					"patching_rect" : [ 831.568156003952026, 2082.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -1607,7 +1011,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 691.31815642118454, 1506.183216691017151, 119.0, 22.0 ],
+					"patching_rect" : [ 701.568156003952026, 2139.0, 119.0, 22.0 ],
 					"text" : "qmetro 70 @active 1"
 				}
 
@@ -1619,7 +1023,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 833.244081079959869, 1506.183216691017151, 29.5, 22.0 ],
+					"patching_rect" : [ 843.568156003952026, 2139.0, 29.5, 22.0 ],
 					"text" : "- 1"
 				}
 
@@ -1631,7 +1035,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 767.244081079959869, 1556.695885419845581, 85.0, 22.0 ],
+					"patching_rect" : [ 777.568156003952026, 2190.0, 85.0, 22.0 ],
 					"text" : "counter 0 0 99"
 				}
 
@@ -1643,7 +1047,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 635.707046329975128, 900.031191945075989, 58.0, 22.0 ],
+					"patching_rect" : [ 478.0, 1468.0, 58.0, 22.0 ],
 					"text" : "b 3"
 				}
 
@@ -1655,7 +1059,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 635.707046329975128, 849.518523216247559, 58.0, 22.0 ],
+					"patching_rect" : [ 478.0, 1418.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -1667,7 +1071,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 716.318156003952026, 1354.64521050453186, 334.0, 22.0 ],
+					"patching_rect" : [ 726.568156003952026, 1988.0, 334.0, 22.0 ],
 					"text" : "sprintf \\\"~/Documents/Max 8/Projects/sousastep/emotes/%s\\\""
 				}
 
@@ -1679,7 +1083,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 721.818156003952026, 1102.081866860389709, 54.0, 22.0 ],
+					"patching_rect" : [ 564.0, 1670.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1691,7 +1095,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 721.818156003952026, 1139.056529402732849, 29.5, 22.0 ],
+					"patching_rect" : [ 564.0, 1707.0, 29.5, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -1703,7 +1107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 721.818156003952026, 1203.10720431804657, 49.0, 22.0 ],
+					"patching_rect" : [ 564.0, 1771.0, 49.0, 22.0 ],
 					"text" : "random"
 				}
 
@@ -1715,7 +1119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 610.707046747207642, 971.740743398666382, 41.000001072883606, 22.0 ],
+					"patching_rect" : [ 453.0, 1540.0, 41.000001072883606, 22.0 ],
 					"text" : "types"
 				}
 
@@ -1729,7 +1133,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 675.818156003952026, 1304.13254177570343, 100.0, 22.0 ]
+					"patching_rect" : [ 686.568156003952026, 1937.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -1740,7 +1144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 702.373711884021759, 1001.056529402732849, 150.0, 22.0 ],
+					"patching_rect" : [ 544.0, 1569.0, 150.0, 22.0 ],
 					"text" : "conformpath max absolute"
 				}
 
@@ -1752,7 +1156,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 702.373711884021759, 1051.569198131561279, 39.0, 22.0 ],
+					"patching_rect" : [ 544.0, 1620.0, 39.0, 22.0 ],
 					"text" : "folder"
 				}
 
@@ -1764,7 +1168,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 702.373711884021759, 950.543860673904419, 275.0, 22.0 ],
+					"patching_rect" : [ 544.0, 1519.0, 275.0, 22.0 ],
 					"text" : "\"~/Documents/Max 8/Projects/sousastep/emotes/\""
 				}
 
@@ -1776,7 +1180,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 622.222211837768555, 1354.64521050453186, 67.0, 22.0 ],
+					"patching_rect" : [ 632.568156003952026, 1988.0, 67.0, 22.0 ],
 					"text" : "types PNG"
 				}
 
@@ -1788,7 +1192,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 716.318156003952026, 1405.157879233360291, 150.0, 22.0 ],
+					"patching_rect" : [ 726.568156003952026, 2038.0, 150.0, 22.0 ],
 					"text" : "conformpath max absolute"
 				}
 
@@ -1800,7 +1204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 716.318156003952026, 1455.670547962188721, 39.0, 22.0 ],
+					"patching_rect" : [ 726.568156003952026, 2089.0, 39.0, 22.0 ],
 					"text" : "folder"
 				}
 
@@ -1812,7 +1216,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 767.244081079959869, 1708.333304822444916, 71.0, 22.0 ],
+					"patching_rect" : [ 777.568156003952026, 2341.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -1824,7 +1228,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "bang" ],
-					"patching_rect" : [ 767.244081079959869, 1591.0, 40.0, 22.0 ],
+					"patching_rect" : [ 777.568156003952026, 2224.0, 40.0, 22.0 ],
 					"text" : "t b i b"
 				}
 
@@ -1836,7 +1240,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 767.244081079959869, 1658.333305656909943, 162.0, 22.0 ],
+					"patching_rect" : [ 777.568156003952026, 2291.0, 162.0, 22.0 ],
 					"text" : "combine read \" \" 3x- i - i .png"
 				}
 
@@ -1884,7 +1288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2848.666666666666515, 1878.0, 31.0, 22.0 ],
+					"patching_rect" : [ 3126.0, 1905.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -1896,7 +1300,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2784.0, 1994.0, 71.0, 22.0 ],
+					"patching_rect" : [ 3061.0, 2021.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -1908,7 +1312,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2848.666666666666515, 1840.0, 57.0, 22.0 ],
+					"patching_rect" : [ 3126.0, 1867.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -2219,7 +1623,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2734.0, 1762.0, 52.0, 22.0 ],
+					"patching_rect" : [ 3011.0, 1789.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -2244,7 +1648,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2784.0, 1856.0, 22.0, 22.0 ],
+					"patching_rect" : [ 3061.0, 1883.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -2297,7 +1701,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2784.0, 2046.0, 149.0, 22.0 ],
+					"patching_rect" : [ 3061.0, 2073.0, 149.0, 22.0 ],
 					"text" : "s startup_status_comment"
 				}
 
@@ -2309,7 +1713,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "second" ],
-					"patching_rect" : [ 3016.0, 1840.0, 54.0, 22.0 ],
+					"patching_rect" : [ 3293.0, 1867.0, 54.0, 22.0 ],
 					"text" : "t second"
 				}
 
@@ -2321,7 +1725,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "seconds" ],
-					"patching_rect" : [ 2936.0, 1840.0, 60.0, 22.0 ],
+					"patching_rect" : [ 3213.0, 1867.0, 60.0, 22.0 ],
 					"text" : "t seconds"
 				}
 
@@ -2333,7 +1737,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 2971.0, 1800.0, 44.0, 22.0 ],
+					"patching_rect" : [ 3248.0, 1827.0, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -2345,7 +1749,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2971.0, 1762.0, 33.0, 22.0 ],
+					"patching_rect" : [ 3248.0, 1789.0, 33.0, 22.0 ],
 					"text" : "== 1"
 				}
 
@@ -2357,7 +1761,7 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2784.0, 1927.0, 253.0, 22.0 ],
+					"patching_rect" : [ 3061.0, 1954.0, 253.0, 22.0 ],
 					"text" : "combine \"set \" \"Loading \" s \" in \" i \" \" seconds."
 				}
 
@@ -5013,8 +4417,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 767.244081079959869, 1759.259229898452759, 215.0, 212.0 ],
-					"pic" : "3x-10-1.png",
+					"patching_rect" : [ 777.568156003952026, 2392.0, 215.0, 212.0 ],
+					"pic" : "3x-99-70.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -5041,13 +4445,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-114", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-100", 0 ]
@@ -5180,13 +4577,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-112", 0 ],
 					"source" : [ "obj-113", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-175", 0 ],
-					"source" : [ "obj-114", 0 ]
 				}
 
 			}
@@ -5563,7 +4953,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-159", 4 ],
-					"midpoints" : [ 2945.5, 1800.0, 2922.0, 1800.0, 2922.0, 1899.0, 2949.5, 1899.0 ],
+					"midpoints" : [ 2945.5, 1507.0, 3201.0, 1507.0, 3201.0, 1899.0, 3226.5, 1899.0 ],
 					"order" : 1,
 					"source" : [ "obj-162", 0 ]
 				}
@@ -5572,7 +4962,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5588,7 +4978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-184", 0 ],
-					"order" : 4,
+					"order" : 3,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5603,7 +4993,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-171", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-164", 0 ]
 				}
 
@@ -5611,7 +5001,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-164", 0 ]
 				}
 
@@ -5743,8 +5133,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-187", 0 ],
-					"source" : [ "obj-175", 1 ]
+					"destination" : [ "obj-185", 0 ],
+					"source" : [ "obj-174", 0 ]
 				}
 
 			}
@@ -5757,7 +5147,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 0 ],
+					"destination" : [ "obj-293", 0 ],
 					"source" : [ "obj-178", 0 ]
 				}
 
@@ -5778,8 +5168,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-151", 0 ],
-					"source" : [ "obj-187", 0 ]
+					"destination" : [ "obj-205", 0 ],
+					"source" : [ "obj-185", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-208", 0 ],
+					"source" : [ "obj-185", 0 ]
 				}
 
 			}
@@ -5817,6 +5214,13 @@
 					"destination" : [ "obj-188", 0 ],
 					"order" : 1,
 					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"source" : [ "obj-191", 0 ]
 				}
 
 			}
@@ -5873,6 +5277,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-208", 0 ],
+					"order" : 0,
+					"source" : [ "obj-198", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"order" : 1,
+					"source" : [ "obj-198", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-329", 0 ],
 					"source" : [ "obj-199", 0 ]
 				}
@@ -5912,6 +5332,48 @@
 				"patchline" : 				{
 					"destination" : [ "obj-329", 0 ],
 					"source" : [ "obj-201", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 0 ],
+					"source" : [ "obj-202", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-206", 0 ],
+					"source" : [ "obj-205", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-207", 1 ],
+					"source" : [ "obj-206", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-207", 0 ],
+					"source" : [ "obj-206", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-208", 0 ],
+					"source" : [ "obj-207", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-263", 0 ],
+					"source" : [ "obj-208", 1 ]
 				}
 
 			}
@@ -6241,6 +5703,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-261", 0 ],
+					"source" : [ "obj-257", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-189", 0 ],
 					"source" : [ "obj-258", 0 ]
 				}
@@ -6297,6 +5766,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"source" : [ "obj-261", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"source" : [ "obj-261", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-265", 1 ],
 					"order" : 0,
 					"source" : [ "obj-262", 0 ]
@@ -6308,6 +5791,13 @@
 					"destination" : [ "obj-269", 0 ],
 					"order" : 1,
 					"source" : [ "obj-262", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-268", 0 ],
+					"source" : [ "obj-263", 0 ]
 				}
 
 			}
@@ -6341,6 +5831,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-272", 0 ],
+					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-271", 0 ],
 					"source" : [ "obj-269", 0 ]
 				}
@@ -6355,6 +5852,28 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-151", 0 ],
+					"midpoints" : [ 2819.5, 3024.0, 2865.0, 3024.0, 2865.0, 2055.0, 3070.5, 2055.0 ],
+					"source" : [ "obj-270", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-287", 0 ],
+					"source" : [ "obj-270", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-291", 0 ],
+					"source" : [ "obj-270", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-265", 0 ],
 					"source" : [ "obj-271", 0 ]
 				}
@@ -6362,8 +5881,78 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-275", 0 ],
+					"source" : [ "obj-272", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-274", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 1 ],
+					"source" : [ "obj-275", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-275", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-198", 0 ],
+					"source" : [ "obj-276", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-278", 0 ],
+					"source" : [ "obj-276", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-284", 0 ],
+					"source" : [ "obj-276", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-278", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-289", 0 ],
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-284", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-287", 0 ]
 				}
 
 			}
@@ -6382,6 +5971,27 @@
 					"midpoints" : [ 1522.5, 702.0, 1440.5, 702.0 ],
 					"order" : 1,
 					"source" : [ "obj-289", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 1 ],
+					"source" : [ "obj-291", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-293", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-295", 0 ]
 				}
 
 			}
@@ -7011,6 +6621,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-174", 0 ],
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-213", 0 ],
 					"source" : [ "obj-98", 0 ]
 				}
@@ -7018,9 +6635,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "3x-10-1.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/emotes/3x-10-frames",
-				"patcherrelativepath" : "../../emotes/3x-10-frames",
+				"name" : "3x-99-100.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/emotes/3x-99-frames",
+				"patcherrelativepath" : "../../emotes/3x-99-frames",
 				"type" : "PNG",
 				"implicit" : 1
 			}
