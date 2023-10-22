@@ -170,18 +170,8 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 39,
-										"out" : 56,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 43,
 										"out" : 38,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 43,
-										"out" : 43,
 										"gain" : 1.0
 									}
 , 									{
@@ -192,11 +182,6 @@
 , 									{
 										"in" : 44,
 										"out" : 57,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 45,
-										"out" : 59,
 										"gain" : 1.0
 									}
 , 									{
@@ -240,11 +225,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 28,
-										"out" : 26,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 44,
 										"out" : 48,
 										"gain" : 1.0
@@ -269,6 +249,26 @@
 										"out" : 47,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 43,
+										"out" : 56,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 36,
+										"out" : 43,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 47,
+										"out" : 59,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 31,
+										"out" : 28,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -279,11 +279,10 @@
 					"after_diagonal" : [ 36.000000000000007 ],
 					"before_diagonal" : [ 2.000000000000028 ],
 					"diagonal_trigger_mode" : [ 0 ],
-					"controller_connector_bpatcher::gamepadLEDVFX::gamepadLEDVFX" : [ 1 ],
 					"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : [ 1 ],
 					"Drum Clip Crossfade (bi)::invert_control" : [ 0 ],
 					"Drum Clip Crossfade (bi)::when to relinquish control" : [ 0 ],
-					"Looper Filters (bi)::invert_control" : [ 0 ],
+					"Looper Filters (bi)::invert_control" : [ 1 ],
 					"Looper Filters (bi)::when to relinquish control" : [ 0 ],
 					"Drum Clip Filters (bi)::invert_control" : [ 0 ],
 					"Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],

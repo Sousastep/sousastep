@@ -5,11 +5,15 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"looper monitor mix volume" : [ -2.5 ],
+					"pre-loop env thresh" : [ 0.216997518610422 ],
 					"looper1::looper_fade_type" : [ 1 ],
 					"looper1::looper_volume" : [ 0.0 ],
 					"looper2::looper_fade_type" : [ 1 ],
-					"looper2::looper_volume" : [ 0.0 ]
+					"looper2::looper_volume" : [ 0.0 ],
+					"sousaFX_tremolo::syncrate" : [ 5.0 ],
+					"sousaFX_tremolo::duty" : [ 0.0 ],
+					"sousaFX_tremolo::phase" : [ 0.0 ],
+					"sousaFX_tremolo::smooth[1]" : [ 25.196850393700775 ]
 				}
 
 			}
