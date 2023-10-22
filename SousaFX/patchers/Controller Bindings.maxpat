@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 1663.0, 53.0, 897.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1668.0, 1783.0, 228.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "If so, then direct to live_scene_selection. Else, use for menuing."
 				}
@@ -5879,10 +5878,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1603.0, 1396.360045343131787, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -10781,12 +10780,11 @@
 					"fontsize" : 16.0,
 					"gradient" : 1,
 					"id" : "obj-47",
-					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2017.0, 2846.717300435002471, 26.0, 88.0 ],
+					"patching_rect" : [ 1954.0, 2846.717300435002471, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
 					"text" : "16th",
@@ -11435,11 +11433,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 28,
-										"out" : 26,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 44,
 										"out" : 48,
 										"gain" : 1.0
@@ -11477,6 +11470,11 @@
 , 									{
 										"in" : 47,
 										"out" : 59,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 31,
+										"out" : 28,
 										"gain" : 1.0
 									}
  ]
