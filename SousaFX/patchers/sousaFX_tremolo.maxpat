@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1355.0, 179.0, 1162.0, 1211.0 ],
+		"rect" : [ 1355.0, 179.0, 664.0, 1211.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -119,7 +119,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 588.0, 491.0, 140.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 95.0, 311.75, 28.0 ],
+					"presentation_rect" : [ 2.0, 96.0, 311.75, 28.0 ],
 					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -174,6 +174,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 19.0, 62.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_initial" : [ 100 ],
 							"parameter_initial_enable" : 1,
@@ -186,6 +190,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "depth"
 				}
 
@@ -389,6 +394,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 186.0, 19.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "smooth",
 							"parameter_mmax" : 100.0,
@@ -399,6 +408,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "smooth"
 				}
 
@@ -417,20 +427,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-36",
-					"maxclass" : "live.scope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 532.0, 166.0, 184.0, 68.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 130.0, 311.75, 36.0 ],
-					"range" : [ -0.1, 1.1 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-35",
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
@@ -438,7 +434,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 429.0, 803.0, 184.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 90.0, 311.75, 38.0 ],
+					"presentation_rect" : [ 2.0, 69.0, 312.0, 59.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
@@ -455,6 +451,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 125.0, 19.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "duty cycle[1]",
 							"parameter_mmax" : 100.0,
@@ -466,6 +466,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "dutycycle"
 				}
 
@@ -506,6 +507,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 64.0, 19.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "phase offset[1]",
 							"parameter_mmax" : 100.0,
@@ -517,6 +522,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "phaseoffset"
 				}
 
@@ -593,6 +599,10 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 19.0, 66.75, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
 						"valueof" : 						{
 							"parameter_longname" : "MIDI syncrate",
 							"parameter_shortname" : "MIDI syncrate",
@@ -602,6 +612,7 @@
 
 					}
 ,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "MIDI syncrate"
 				}
 
@@ -887,16 +898,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"order" : 0,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-640", 0 ],
-					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
 

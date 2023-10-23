@@ -8,7 +8,7 @@
 					"crosspatch" : [ 						{
 							"data" : 							{
 								"numins" : 50,
-								"numouts" : 61,
+								"numouts" : 66,
 								"connections" : [ 									{
 										"in" : 26,
 										"out" : 30,
@@ -82,26 +82,6 @@
 , 									{
 										"in" : 9,
 										"out" : 9,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 7,
-										"out" : 8,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 6,
-										"out" : 7,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 5,
-										"out" : 6,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 4,
-										"out" : 5,
 										"gain" : 1.0
 									}
 , 									{
@@ -288,7 +268,7 @@
 					"Looper Filters (bi)::when to relinquish control" : [ 0 ],
 					"Looper Filters (bi)::curve[1]" : [ 0.0 ],
 					"Looper Filters (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"Drum Clip Filters (bi)::invert_control" : [ 0 ],
+					"Drum Clip Filters (bi)::invert_control" : [ 1 ],
 					"Drum Clip Filters (bi)::when to relinquish control" : [ 0 ],
 					"Drum Clip Filters (bi)::curve[1]" : [ 0.0 ],
 					"Drum Clip Filters (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
@@ -298,17 +278,17 @@
 					"Drum Clip Stutter Enable (trig)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
 					"Drum Clip Reverb Send (uni)::invert_control" : [ 0 ],
 					"Drum Clip Reverb Send (uni)::when to relinquish control" : [ 0 ],
-					"Drum Clip Reverb Send (uni)::curve[1]" : [ 0.0 ],
-					"Drum Clip Reverb Send (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Drum Clip Reverb Send (uni)::curve[1]" : [ -78.740157480314792 ],
+					"Drum Clip Reverb Send (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.787401574803148, "curve" ],
 					"Drum Clip Delay Send (uni)::invert_control" : [ 0 ],
 					"Drum Clip Delay Send (uni)::when to relinquish control" : [ 0 ],
 					"Drum Clip Delay Send (uni)::curve[1]" : [ 0.0 ],
 					"Drum Clip Delay Send (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
 					"Drum Clip Tremolo Depth (uni)::invert_control" : [ 0 ],
 					"Drum Clip Tremolo Depth (uni)::when to relinquish control" : [ 0 ],
-					"Drum Clip Tremolo Depth (uni)::curve[1]" : [ 0.0 ],
-					"Drum Clip Tremolo Depth (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"Drum Clip Reverb Param (bi)::invert_control" : [ 0 ],
+					"Drum Clip Tremolo Depth (uni)::curve[1]" : [ -81.102362204724443 ],
+					"Drum Clip Tremolo Depth (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.811023622047244, "curve" ],
+					"Drum Clip Reverb Param (bi)::invert_control" : [ 1 ],
 					"Drum Clip Reverb Param (bi)::when to relinquish control" : [ 0 ],
 					"Drum Clip Reverb Param (bi)::curve[1]" : [ 0.0 ],
 					"Drum Clip Reverb Param (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
@@ -321,12 +301,12 @@
 					"Drum Clip Tremolo Duty (bi)::when to relinquish control" : [ 0 ],
 					"Drum Clip Tremolo Duty (bi)::curve[1]" : [ 0.0 ],
 					"Drum Clip Tremolo Duty (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"LFO Sync-Free Crossfade (uni)::invert_control" : [ 1 ],
+					"LFO Sync-Free Crossfade (uni)::invert_control" : [ 0 ],
 					"LFO Sync-Free Crossfade (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
 					"LFO Sync-Free Crossfade (uni)::value to set control to when tuba starts soloing" : [ 0.0 ],
 					"LFO Sync-Free Crossfade (uni)::maintain control while tuba's soloing" : [ 0 ],
-					"LFO Sync-Free Crossfade (uni)::curve[1]" : [ 51.968503937007846 ],
-					"LFO Sync-Free Crossfade (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.519685039370078, "curve" ],
+					"LFO Sync-Free Crossfade (uni)::curve[1]" : [ -64.566929133858395 ],
+					"LFO Sync-Free Crossfade (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.645669291338584, "curve" ],
 					"LFO Ceiling Envelope Curve (bi)::invert_control" : [ 1 ],
 					"LFO Ceiling Envelope Curve (bi)::maintain control after tuba stops playing bassline" : [ 1 ],
 					"LFO Ceiling Envelope Curve (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
@@ -357,12 +337,12 @@
 					"LFO Swing Amount (uni)::maintain control while tuba's soloing" : [ 0 ],
 					"LFO Swing Amount (uni)::curve[1]" : [ 0.0 ],
 					"LFO Swing Amount (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"LFO Free Speed (bi)::invert_control" : [ 0 ],
+					"LFO Free Speed (bi)::invert_control" : [ 1 ],
 					"LFO Free Speed (bi)::maintain control after tuba stops playing bassline" : [ 1 ],
 					"LFO Free Speed (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
 					"LFO Free Speed (bi)::maintain control while tuba's soloing" : [ 0 ],
-					"LFO Free Speed (bi)::curve[1]" : [ 0.0 ],
-					"LFO Free Speed (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"LFO Free Speed (bi)::curve[1]" : [ 72.440944881889678 ],
+					"LFO Free Speed (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.724409448818897, "curve" ],
 					"Looper Stutter Random Rhythm (trig)::invert_control" : [ 0 ],
 					"Looper Stutter Random Rhythm (trig)::when to relinquish control" : [ 0 ],
 					"Looper Stutter Random Rhythm (trig)::curve[1]" : [ 0.0 ],
@@ -394,7 +374,37 @@
 					"Looper Delay Send 4 (uni)::invert_control" : [ 0 ],
 					"Looper Delay Send 4 (uni)::when to relinquish control" : [ 0 ],
 					"Looper Delay Send 4 (uni)::curve[1]" : [ 0.0 ],
-					"Looper Delay Send 4 (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"Looper Delay Send 4 (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Main Input Filters (bi)::invert_control" : [ 0 ],
+					"Main Input Filters (bi)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"Main Input Filters (bi)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"Main Input Filters (bi)::maintain control while tuba's soloing" : [ 0 ],
+					"Main Input Filters (bi)::curve[1]" : [ 0.0 ],
+					"Main Input Filters (bi)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Main Input Stutter Random Rhythm (trig)::invert_control" : [ 0 ],
+					"Main Input Stutter Random Rhythm (trig)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"Main Input Stutter Random Rhythm (trig)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"Main Input Stutter Random Rhythm (trig)::maintain control while tuba's soloing" : [ 0 ],
+					"Main Input Stutter Random Rhythm (trig)::curve[1]" : [ 0.0 ],
+					"Main Input Stutter Random Rhythm (trig)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Main Input Stutter Enable (trig)::invert_control" : [ 0 ],
+					"Main Input Stutter Enable (trig)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"Main Input Stutter Enable (trig)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"Main Input Stutter Enable (trig)::maintain control while tuba's soloing" : [ 0 ],
+					"Main Input Stutter Enable (trig)::curve[1]" : [ 0.0 ],
+					"Main Input Stutter Enable (trig)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Main Input Tremolo Duty (uni)::invert_control" : [ 0 ],
+					"Main Input Tremolo Duty (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"Main Input Tremolo Duty (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"Main Input Tremolo Duty (uni)::maintain control while tuba's soloing" : [ 0 ],
+					"Main Input Tremolo Duty (uni)::curve[1]" : [ 0.0 ],
+					"Main Input Tremolo Duty (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"Main Input Tremolo Depth (uni)::invert_control" : [ 0 ],
+					"Main Input Tremolo Depth (uni)::maintain control after tuba stops playing bassline" : [ 0 ],
+					"Main Input Tremolo Depth (uni)::value to set control to when tuba starts soloing" : [ 0.5 ],
+					"Main Input Tremolo Depth (uni)::maintain control while tuba's soloing" : [ 0 ],
+					"Main Input Tremolo Depth (uni)::curve[1]" : [ 0.0 ],
+					"Main Input Tremolo Depth (uni)::function[1]" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
 				}
 
 			}

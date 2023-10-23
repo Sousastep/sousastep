@@ -1,0 +1,21 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Main Inputs stutter tremolo filters",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sousaFX_tremolo::syncrate" : [ 3.0 ],
+					"sousaFX_tremolo::duty" : [ 0.0 ],
+					"sousaFX_tremolo::phase" : [ 0.0 ],
+					"sousaFX_tremolo::smooth[1]" : [ 24.409448818897616 ],
+					"stutterstep::stutter volume[1]" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

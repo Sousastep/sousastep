@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ -224.0, -993.0, 1307.0, 959.0 ],
+		"rect" : [ 134.0, 159.0, 1307.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -100,57 +100,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-192",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1348.0, 1924.5, 144.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "when free, allow sync LFO low point through"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-190",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1432.356682040992382, 1883.0, 72.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "1 when free"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-188",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1393.483364963531585, 1883.0, 33.0, 22.0 ],
-					"text" : "== 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-187",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1297.856682040992382, 1931.0, 43.0, 22.0 ],
-					"text" : "latch"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.874509803921569, 0.666666666666667, 0.996078431372549, 1.0 ],
 					"id" : "obj-183",
 					"linecount" : 2,
@@ -204,32 +153,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
-					"id" : "obj-160",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1432.356682040992382, 1830.5, 88.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "0 triggers free, 1 triggers sync"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-159",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1393.483364963531585, 1837.0, 33.0, 22.0 ],
-					"text" : "== 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
 					"id" : "obj-152",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -249,32 +172,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 931.356682040992382, 1779.0, 37.0, 22.0 ],
-					"text" : "== -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-148",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1278.856682040992382, 1756.5, 123.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "1 when sync LFO is at lowest point"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-146",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1237.356682040992382, 1763.0, 37.0, 22.0 ],
 					"text" : "== -1"
 				}
 
@@ -303,7 +200,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1291.556681909862164, 2226.616679447037768, 80.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "0 = free rate, 1 = sync rate"
+					"text" : "1 = free rate, 0 = sync rate"
 				}
 
 			}
@@ -478,7 +375,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1785.333307643731587, 1731.509549217618314, 76.0, 22.0 ],
+					"patching_rect" : [ 1785.333307643731587, 1853.0, 76.0, 22.0 ],
 					"text" : "mix"
 				}
 
@@ -2744,13 +2641,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-187", 0 ],
-					"source" : [ "obj-146", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -2758,7 +2648,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-154", 1 ],
+					"destination" : [ "obj-154", 0 ],
 					"source" : [ "obj-151", 0 ]
 				}
 
@@ -2779,7 +2669,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-154", 0 ],
+					"destination" : [ "obj-154", 1 ],
 					"source" : [ "obj-155", 0 ]
 				}
 
@@ -2795,13 +2685,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-162", 2 ],
 					"source" : [ "obj-157", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-188", 0 ],
-					"source" : [ "obj-159", 0 ]
 				}
 
 			}
@@ -2898,13 +2781,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-180", 0 ],
 					"source" : [ "obj-183", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-187", 1 ],
-					"source" : [ "obj-188", 0 ]
 				}
 
 			}
@@ -3173,17 +3049,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-159", 0 ],
-					"order" : 1,
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-31", 2 ],
 					"midpoints" : [ 2196.666664838790894, 2007.0, 1274.533307512601368, 2007.0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -3576,7 +3444,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
+					"destination" : [ "obj-31", 1 ],
 					"order" : 0,
 					"source" : [ "obj-76", 0 ]
 				}
@@ -3619,7 +3487,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
+					"destination" : [ "obj-175", 1 ],
 					"order" : 1,
 					"source" : [ "obj-81", 0 ]
 				}
@@ -3627,15 +3495,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-175", 1 ],
-					"order" : 2,
-					"source" : [ "obj-81", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 1 ],
+					"destination" : [ "obj-31", 0 ],
 					"order" : 0,
 					"source" : [ "obj-81", 0 ]
 				}

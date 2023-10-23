@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 935.0, 94.0, 921.0, 1114.0 ],
+		"rect" : [ 403.0, 219.0, 1366.0, 1127.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -303,7 +303,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1122.0, 1434.0, 118.0, 22.0 ],
+					"patching_rect" : [ 945.0, 1368.0, 118.0, 22.0 ],
 					"text" : "r \"Looper Filters (bi)\""
 				}
 
@@ -324,9 +324,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 769.0, 1496.0, 79.0, 45.0 ],
+					"patching_rect" : [ 737.0, 1476.0, 79.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 325.0, 559.0, 73.0, 42.0 ],
+					"presentation_rect" : [ 320.5, 225.0, 73.0, 42.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -348,9 +348,10 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 595.0, 1060.0, 267.0, 150.0 ],
+					"patching_rect" : [ 535.0, 1069.0, 233.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 39.205219386360113, 274.678016140281329, 267.0, 150.0 ],
+					"presentation_rect" : [ 65.0, 282.0, 267.0, 112.0 ],
+					"varname" : "stutterstep",
 					"viewvisibility" : 1
 				}
 
@@ -393,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 936.0, 1203.0, 92.0, 22.0 ],
+					"patching_rect" : [ 876.0, 1173.0, 92.0, 22.0 ],
 					"text" : "r~ main_phasor",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -407,7 +408,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 944.0, 1171.0, 76.0, 21.0 ],
+					"patching_rect" : [ 884.0, 1141.0, 76.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "1-bar phasor"
 				}
@@ -430,9 +431,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 636.0, 1247.0, 319.0, 173.0 ],
+					"patching_rect" : [ 576.0, 1217.0, 319.0, 173.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.893008537046398, 428.000000000000057, 319.0, 173.0 ],
+					"presentation_rect" : [ 39.0, 412.0, 319.0, 173.0 ],
 					"varname" : "sousaFX_tremolo",
 					"viewvisibility" : 1
 				}
@@ -1116,7 +1117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 496.0, 1660.0, 186.0, 21.0 ],
+					"patching_rect" : [ 503.0, 1678.0, 186.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "loopbacked to be recorded in Live"
 				}
@@ -1128,7 +1129,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 551.0, 1636.0, 68.0, 22.0 ],
+					"patching_rect" : [ 558.0, 1654.0, 68.0, 22.0 ],
 					"text" : "dac~ 21 22"
 				}
 

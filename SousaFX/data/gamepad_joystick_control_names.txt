@@ -23,3 +23,8 @@
 59, "Drum Clip Delay Param (bi)";
 60, "Drum Clip Reverb Send (uni)";
 61, "Drum Clip Reverb Param (bi)";
+62, "Main Input Filters (bi)";
+63, "Main Input Stutter Random Rhythm (trig)";
+64, "Main Input Stutter Enable (trig)";
+65, "Main Input Tremolo Duty (uni)";
+66, "Main Input Tremolo Depth (uni)";
