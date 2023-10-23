@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 936.0, 53.0, 2062.0, 1387.0 ],
+		"rect" : [ 498.0, 53.0, 2062.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,129 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
+		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 761.0, 927.5, 120.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.0, 207.0, 120.0, 26.0 ],
+					"suppressinlet" : 1,
+					"text" : "is tuba soloing?",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 314.0, 466.0, 117.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.0, 247.0, 117.0, 26.0 ],
+					"suppressinlet" : 1,
+					"text" : "is tuba playing?",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 807.0, 476.0, 288.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 75.0, 288.0, 288.0, 26.0 ],
+					"suppressinlet" : 1,
+					"text" : "is control within deadzone?",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"id" : "obj-80",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1088.0, 1188.0, 152.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 74.0, 33.0, 107.0, 26.0 ],
+					"text" : "non-inverted",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"hidden" : 1,
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 948.0, 1191.0, 126.0, 26.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 74.0, 33.0, 107.0, 26.0 ],
+					"text" : "inverted",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"hidden" : 1,
+					"id" : "obj-20",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1318.0, 607.0, 376.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 74.0, 75.0, 314.0, 45.0 ],
+					"text" : "relinquish control only when tuba starts playing bassline AND control hits deadzone",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 16.0,
+					"id" : "obj-28",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1318.0, 565.0, 361.0, 45.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 74.0, 75.0, 314.0, 45.0 ],
+					"text" : "relinquish control immediately when tuba starts playing bassline",
+					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"activedialcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"id" : "obj-40",
@@ -293,23 +415,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 761.0, 927.5, 120.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 207.0, 120.0, 26.0 ],
-					"suppressinlet" : 1,
-					"text" : "is tuba soloing?",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-146",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -550,25 +655,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"hidden" : 1,
-					"id" : "obj-20",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1318.0, 607.0, 376.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 74.0, 75.0, 314.0, 45.0 ],
-					"text" : "relinquish control only when tuba starts playing bassline AND control hits deadzone",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-25",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -583,24 +669,6 @@
 ,
 					"text" : "pattr \"when to relinquish control\"",
 					"varname" : "when to relinquish control"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"id" : "obj-28",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1318.0, 565.0, 361.0, 45.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 74.0, 75.0, 314.0, 45.0 ],
-					"text" : "relinquish control immediately when tuba starts playing bassline",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
 				}
 
 			}
@@ -634,22 +702,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"id" : "obj-80",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1088.0, 1188.0, 152.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 33.0, 107.0, 26.0 ],
-					"text" : "non-inverted",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"attr" : "hidden",
 					"id" : "obj-74",
 					"maxclass" : "attrui",
@@ -671,23 +723,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1113.0, 1262.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"hidden" : 1,
-					"id" : "obj-18",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 948.0, 1191.0, 126.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 33.0, 107.0, 26.0 ],
-					"text" : "inverted",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
 				}
 
 			}
@@ -787,23 +822,6 @@
 					"patching_rect" : [ 807.0, 554.0, 241.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "is tuba playing AND control within deadzone?"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 314.0, 466.0, 117.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 247.0, 117.0, 26.0 ],
-					"suppressinlet" : 1,
-					"text" : "is tuba playing?",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
 				}
 
 			}
@@ -1153,23 +1171,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 612.0, 803.0, 44.0, 44.0 ],
 					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 16.0,
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 807.0, 476.0, 288.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 288.0, 288.0, 26.0 ],
-					"suppressinlet" : 1,
-					"text" : "is control within deadzone?",
-					"textcolor" : [ 0.964705882352941, 0.933333333333333, 1.0, 1.0 ]
 				}
 
 			}
@@ -2489,7 +2490,7 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.176470588235294, 0.176470588235294, 0.176470588235294, 1.0 ],
+		"bgcolor" : [ 0.176470588235294, 0.176470588235294, 0.176470588235294, 0.98 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 

@@ -2,7 +2,7 @@
 
 # :studio_microphone: Introduction
 
-Thank you for checking out SousaFX, an exciting new rig that caters to tuba players who are interested in electronic music performance. SousaFX was born of a desire to play dubstep with a sousaphone. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as resonant low pass filters, loopers, reverb and delay sends, stutter, square-wave tremolo, envelope crossfades, continuous accelerandos, sidechain kick compression, plugin preset selectors, and more! The SousaFX rig can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
+Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as resonant low pass filters, loopers, reverb and delay sends, stutter, square-wave tremolo, envelope crossfades, continuous accelerandos, sidechain kick compression, plugin preset selectors, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
 
 # :gear: Requirements
 
@@ -20,26 +20,56 @@ Thank you for checking out SousaFX, an exciting new rig that caters to tuba play
 
 # :floppy_disk: Installation
 
-1. SousaFX is a Max Project that runs within the Max application. Download Max for free from [![Cycling '74](https://img.shields.io/badge/Cycling_'74-111111?logo=cycling74&style=flat-square)](https://cycling74.com/downloads)
+1. SousaFX is a Max Project that runs within the Max application. Download Max for free from [![Cycling '74](https://img.shields.io/badge/Cycling_'74-111111?logo=cycling74&style=flat-square)](https://cycling74.com/downloads) 
 
 > [!NOTE]
 > Despite the fact that the free version of Max disallows saving after a 30-day trial, SousaFX will continue to function as intended because it uses pattrstorage to save its preferences and presets, which Cycling '74 graciously does not disable after the trial.
 
-2.  Download the sousastep repository and place it gently in `~/Documents/Max 8/Projects/`: [![GitHub all releases](https://img.shields.io/github/downloads/Sousastep/sousastep/total?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags) [![GitHub repo size](https://img.shields.io/github/repo-size/Sousastep/sousastep?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags)
+2.  The SousaFX Max Project lives within the `sousastep` repository along with a few other projects. Download the `sousastep` repository and place it gently in `~/Documents/Max 8/Projects/` [![GitHub all releases](https://img.shields.io/github/downloads/Sousastep/sousastep/total?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags) [![GitHub repo size](https://img.shields.io/github/repo-size/Sousastep/sousastep?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags)
 
-3.  Optionally, for thoughtful quotes whenever the rig boots, download [this repository](https://github.com/zzkt/oblique-strategies) and place it in `~/Documents/Max 8/Projects/sousastep/submodules/`
+3.  Optionally, for thoughtful quotes whenever SousaFX boots, download [this repository](https://github.com/zzkt/oblique-strategies) and place it in `~/Documents/Max 8/Projects/sousastep/submodules/`
 
 > [!IMPORTANT]
-> When installing newer versions of SousaFX, copy your presets from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` into the new version's `/SousaFX/data/` folder.
+> When installing new versions of SousaFX, copy your presets from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` into the new version's `/SousaFX/data/` folder.
 
 > [!NOTE]
-> Consider installing [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=black&style=flat-square)](https://git-scm.com/downloads), and [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) the sousastep repository, which will allow you to pull updates instead of having to download and replace files.
+> Consider installing [![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=black&style=flat-square)](https://git-scm.com/downloads), and [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) the sousastep repository, which allows you to pull updates instead of having to download and replace files.
 > ```bash
 > cd ~/Documents/Max\ 8/Projects/; 
 > git clone --recurse-submodules https://github.com/Sousastep/sousastep.git
 > ```
 
-4.  Open `~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj`
+# :steam_locomotive: Startup
+
+1. Open `~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj`. The Startup Preferences window will appear. Click the pause button, select your preferred audio interface and rig, then unpause. The selected rig will load momentarily.
+
+<p align="center" width="100%">
+  <img src="./pictures/startup-preferences.gif" alt="SousaFX Startup Preferences" />
+</p>
+
+> [!NOTE]
+> The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've [built an LED sousa bell](https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html). The two startup preferences are auto-saved.
+
+# :potable_water: Signal Flow
+
+![effects chain](pictures/effects-chain.gif)
+
+2. After SousaFX's Startup Preferences loads the rig, in the menu bar, under SousaFX, click Controller Bindings.
+
+# :joystick: Controller Bindings
+
+![controller bindings](pictures/controller-bindings.gif)
+
+Here you can see everything the controller's attached to.
+
+If you have a controller with an LED like the PS4 controller, the LED color can be controlled by the tuba's envelope or LFO. 
+
+
+
+
+
+
+
 
 
 
