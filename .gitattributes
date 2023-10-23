@@ -1,6 +1,8 @@
 *.als binary
 *.jpg binary
+*.gif binary
 *.png binary
 *.svg binary
 *.tmss binary
 *.tmws binary
+*.mp3 binary
