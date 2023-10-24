@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 1948.0, 1122.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
+		"title" : "Main Input Stutter, Tremolo, Filters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 369.0, 192.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-343",
 					"linecount" : 2,
@@ -48,7 +60,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
 					"patching_rect" : [ 782.0, 430.0, 262.5, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dialog @mode 2 @label \"Restoring the current preset will discard unsaved changes.\""
 				}
 
@@ -216,16 +227,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 782.0, 695.0, 462.0, 23.0 ],
+					"patching_rect" : [ 782.0, 695.0, 520.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage #1\" stutter tremolo filters\" @greedy 0 @savemode 0",
-					"varname" : "0 stutter tremolo filters"
+					"varname" : "Main Input stutter tremolo filters"
 				}
 
 			}
@@ -316,11 +327,12 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-43",
+					"linecount" : 11,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1055.0, 651.0, 92.0, 23.0 ]
+					"patching_rect" : [ 1055.0, 651.0, 92.0, 173.0 ]
 				}
 
 			}
@@ -346,7 +358,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 4.0, 126.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : "window flags nofloat, window flags zoom, window flags grow, window exec, savewindow 0"
 				}
 
@@ -522,8 +533,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 897.0, 180.0, 22.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 135.0, 897.0, 222.0, 22.0 ],
 					"text" : "title #1\" Stutter, Tremolo, Filters\""
 				}
 
@@ -572,7 +582,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 465.0, 478.0, 94.0, 22.0 ],
+					"patching_rect" : [ 465.0, 478.0, 137.0, 22.0 ],
 					"text" : "r #1\" Filters (bi)\""
 				}
 
@@ -821,7 +831,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"order" : 0,
+					"source" : [ "obj-22", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-200", 1 ],
+					"order" : 1,
 					"source" : [ "obj-22", 1 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1574.0, 53.0, 971.0, 1387.0 ],
+		"rect" : [ 1125.0, 53.0, 937.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4608.0, 3324.0, 255.0, 23.0 ],
+					"patching_rect" : [ 4657.0, 3324.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 540.0, 1330.160939992635804, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -79,7 +79,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4779.0, 3282.0, 255.0, 23.0 ],
+					"patching_rect" : [ 4748.0, 3282.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 540.0, 1350.12737759234119, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -162,8 +162,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4496.0, 3155.0, 350.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 f \"Main Input Tremolo Depth (uni)\"",
+					"patching_rect" : [ 4496.0, 3155.0, 310.0, 22.0 ],
+					"text" : "param_control_logic 0 f \"Main Input Tremolo Depth (uni)\"",
 					"varname" : "Main Input Tremolo Depth (uni)"
 				}
 
@@ -175,8 +175,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4447.0, 3197.0, 353.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0.5 f \"Main Input Tremolo Duty (uni)\"",
+					"patching_rect" : [ 4447.0, 3197.0, 313.0, 22.0 ],
+					"text" : "param_control_logic 0.5 f \"Main Input Tremolo Duty (uni)\"",
 					"varname" : "Main Input Tremolo Duty (uni)"
 				}
 
@@ -188,8 +188,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4393.0, 3240.0, 372.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 > 0.1 \"Main Input Stutter Enable (trig)\"",
+					"patching_rect" : [ 4393.0, 3240.0, 332.0, 22.0 ],
+					"text" : "param_control_logic 0 > 0.1 \"Main Input Stutter Enable (trig)\"",
 					"varname" : "Main Input Stutter Enable (trig)"
 				}
 
@@ -201,8 +201,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4330.0, 3282.0, 424.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 > 0.1 \"Main Input Stutter Random Rhythm (trig)\"",
+					"patching_rect" : [ 4330.0, 3282.0, 385.0, 22.0 ],
+					"text" : "param_control_logic 0 > 0.1 \"Main Input Stutter Random Rhythm (trig)\"",
 					"varname" : "Main Input Stutter Random Rhythm (trig)"
 				}
 
@@ -214,8 +214,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4275.0, 3324.0, 307.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0.5 f \"Main Input Filters (bi)\"",
+					"patching_rect" : [ 4275.0, 3324.0, 358.0, 22.0 ],
+					"text" : "param_control_logic 0.5 f \"Main Input Filters (bi)\"",
 					"varname" : "Main Input Filters (bi)"
 				}
 
@@ -6045,10 +6045,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1607.0, 1714.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -10954,7 +10954,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "eighth",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -11622,6 +11622,31 @@
 , 									{
 										"in" : 31,
 										"out" : 28,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 38,
+										"out" : 63,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 41,
+										"out" : 62,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 43,
+										"out" : 61,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 43,
+										"out" : 64,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 48,
+										"out" : 65,
 										"gain" : 1.0
 									}
  ]
