@@ -2,7 +2,7 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3780368832,
+	"modificationdate" : 3781122032,
 	"viewrect" : [ 979.0, 1527.0, 478.0, 779.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -478,6 +478,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"param control logic.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}

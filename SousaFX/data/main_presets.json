@@ -7,13 +7,13 @@
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
 					"bleed[1]" : [ -30.0 ],
-					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 2, 0, 1.0 ],
+					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 0, 0, 1.0 ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2 ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [ 1 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 4, 0, 1.0 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 1 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [ 1 ],
-					"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 3, 0, 1.0 ],
+					"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 0, 0, 1.0 ],
 					"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 2 ],
 					"attack fx chooser::Dry-ish_FX_randomize" : [ 1 ],
 					"mod params::aux_power" : [ 0.0 ],
@@ -36,7 +36,7 @@
 					"mod params::rez_min" : [ 30 ],
 					"mod params::rez_max" : [ 71 ],
 					"mod params::wah_or_trem" : [ 0 ],
-					"mod params::high_phase_offset[1]" : [ 51.968503937007846 ],
+					"mod params::high_phase_offset[1]" : [ 47.244094488188956 ],
 					"mod params::high_duty_cycle" : [ 12.598425196850393 ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [ 1 ],
@@ -69,7 +69,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [ 1 ],
-					"sidechained_kick_params::sidechained_kick_params" : [ 1 ]
+					"sidechained_kick_params::sidechained_kick_params" : [ 1 ],
+					"patcher::Main Input stutter tremolo filters" : [ 1 ]
 				}
 
 			}
@@ -141,7 +142,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [ 1 ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -213,7 +215,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -285,7 +288,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -357,7 +361,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -429,7 +434,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -501,7 +507,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -573,7 +580,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -645,7 +653,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -717,7 +726,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -789,7 +799,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -861,7 +872,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -933,7 +945,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1005,7 +1018,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1077,7 +1091,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1149,7 +1164,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1221,7 +1237,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1293,7 +1310,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1365,7 +1383,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}
@@ -1437,7 +1456,8 @@
 					"lowpassfilter_selector::lowpassfilter_selector[2]" : [  ],
 					"SousaFX_Audio_Status::Audio_Status[1]" : [  ],
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
-					"sidechained_kick_params::sidechained_kick_params" : [  ]
+					"sidechained_kick_params::sidechained_kick_params" : [  ],
+					"patcher::Main Input stutter tremolo filters" : [  ]
 				}
 
 			}

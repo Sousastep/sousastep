@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1125.0, 53.0, 937.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2100.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,40 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"bubbleusescolors" : 1,
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-153",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4884.0, 5424.0, 183.0, 40.0 ],
+					"suppressinlet" : 1,
+					"text" : "\"bang when tuba's not playing\"",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"bubbleside" : 2,
+					"bubbleusescolors" : 1,
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-144",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5086.0, 5424.0, 183.0, 40.0 ],
+					"suppressinlet" : 1,
+					"text" : "\"bang when tuba's playing\"",
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "Main Input Filters (bi)", "Main Inputs" ],
 					"bgmode" : 0,
@@ -162,8 +196,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4496.0, 3155.0, 310.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Main Input Tremolo Depth (uni)\"",
+					"patching_rect" : [ 4496.0, 3155.0, 312.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Tremolo Depth (uni)\"",
 					"varname" : "Main Input Tremolo Depth (uni)"
 				}
 
@@ -175,8 +209,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4447.0, 3197.0, 313.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Main Input Tremolo Duty (uni)\"",
+					"patching_rect" : [ 4447.0, 3197.0, 315.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Main Input Tremolo Duty (uni)\"",
 					"varname" : "Main Input Tremolo Duty (uni)"
 				}
 
@@ -188,8 +222,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4393.0, 3240.0, 332.0, 22.0 ],
-					"text" : "param_control_logic 0 > 0.1 \"Main Input Stutter Enable (trig)\"",
+					"patching_rect" : [ 4393.0, 3240.0, 334.0, 22.0 ],
+					"text" : "\"param control logic\" 0 > 0.1 \"Main Input Stutter Enable (trig)\"",
 					"varname" : "Main Input Stutter Enable (trig)"
 				}
 
@@ -201,8 +235,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4330.0, 3282.0, 385.0, 22.0 ],
-					"text" : "param_control_logic 0 > 0.1 \"Main Input Stutter Random Rhythm (trig)\"",
+					"patching_rect" : [ 4330.0, 3282.0, 387.0, 22.0 ],
+					"text" : "\"param control logic\" 0 > 0.1 \"Main Input Stutter Random Rhythm (trig)\"",
 					"varname" : "Main Input Stutter Random Rhythm (trig)"
 				}
 
@@ -214,8 +248,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4275.0, 3324.0, 358.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Main Input Filters (bi)\"",
+					"patching_rect" : [ 4275.0, 3324.0, 354.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Main Input Filters (bi)\"",
 					"varname" : "Main Input Filters (bi)"
 				}
 
@@ -1318,8 +1352,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3774.0, 3747.0, 318.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Looper Delay Send 4 (uni)\"",
+					"patching_rect" : [ 3774.0, 3747.0, 287.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Looper Delay Send 4 (uni)\"",
 					"varname" : "Looper Delay Send 4 (uni)"
 				}
 
@@ -1331,8 +1365,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3725.0, 3789.0, 318.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Looper Delay Send 3 (uni)\"",
+					"patching_rect" : [ 3725.0, 3789.0, 287.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Looper Delay Send 3 (uni)\"",
 					"varname" : "Looper Delay Send 3 (uni)"
 				}
 
@@ -1344,8 +1378,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3676.0, 3831.0, 318.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Looper Delay Send 2 (uni)\"",
+					"patching_rect" : [ 3676.0, 3831.0, 287.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Looper Delay Send 2 (uni)\"",
 					"varname" : "Looper Delay Send 2 (uni)"
 				}
 
@@ -1357,8 +1391,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3627.0, 3873.0, 318.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Looper Delay Send 1 (uni)\"",
+					"patching_rect" : [ 3627.0, 3873.0, 287.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Looper Delay Send 1 (uni)\"",
 					"varname" : "Looper Delay Send 1 (uni)"
 				}
 
@@ -1370,8 +1404,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3576.0, 3915.0, 325.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Looper Tremolo Depth (uni)\"",
+					"patching_rect" : [ 3576.0, 3915.0, 294.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Looper Tremolo Depth (uni)\"",
 					"varname" : "Looper Tremolo Depth (uni)"
 				}
 
@@ -1383,8 +1417,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3527.0, 3957.0, 334.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Looper Tremolo Duty (uni)\"",
+					"patching_rect" : [ 3527.0, 3957.0, 314.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Looper Tremolo Duty (uni)\"",
 					"varname" : "Looper Tremolo Duty (uni)"
 				}
 
@@ -1396,8 +1430,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3473.0, 4000.0, 346.0, 22.0 ],
-					"text" : "param_control_logic 0 > 0.1 \"Looper Stutter Enable (trig)\"",
+					"patching_rect" : [ 3473.0, 4000.0, 333.0, 22.0 ],
+					"text" : "\"param control logic\" 0 > 0.1 \"Looper Stutter Enable (trig)\"",
 					"varname" : "Looper Stutter Enable (trig)"
 				}
 
@@ -1406,11 +1440,12 @@
 				"box" : 				{
 					"color" : [ 0.7725, 0.3216, 0.5961, 0.9 ],
 					"id" : "obj-195",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3410.0, 4042.0, 366.0, 22.0 ],
-					"text" : "param_control_logic 0 > 0.1 \"Looper Stutter Random Rhythm (trig)\"",
+					"patching_rect" : [ 3410.0, 4042.0, 327.0, 35.0 ],
+					"text" : "\"param control logic\" 0 > 0.1 \"Looper Stutter Random Rhythm (trig)\"",
 					"varname" : "Looper Stutter Random Rhythm (trig)"
 				}
 
@@ -2964,8 +2999,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3229.0, 4168.0, 351.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 \"LFO Free Speed (bi)\"",
+					"patching_rect" : [ 3229.0, 4168.0, 313.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"LFO Free Speed (bi)\"",
 					"varname" : "LFO Free Speed (bi)"
 				}
 
@@ -2977,8 +3012,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3106.0, 4253.0, 340.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 \"LFO Swing Amount (uni)\"",
+					"patching_rect" : [ 3106.0, 4253.0, 314.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"LFO Swing Amount (uni)\"",
 					"varname" : "LFO Swing Amount (uni)"
 				}
 
@@ -2990,8 +3025,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3048.0, 4295.0, 335.119999999999891, 22.0 ],
-					"text" : "param_control_logic_tubafx 0.5 \"LFO Duty Cycle (bi)\"",
+					"patching_rect" : [ 3048.0, 4295.0, 320.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"LFO Duty Cycle (bi)\"",
 					"varname" : "LFO Duty Cycle (bi)"
 				}
 
@@ -3236,8 +3271,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2923.0, 4379.0, 363.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0.5 \"Envelope Crossfade Position (bi)\"",
+					"patching_rect" : [ 2923.0, 4379.0, 332.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Envelope Crossfade Position (bi)\"",
 					"varname" : "Envelope Crossfade Position (bi)"
 				}
 
@@ -3358,8 +3393,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3292.0, 4126.0, 363.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 \"LPF Resonance Amount (either)\"",
+					"patching_rect" : [ 3292.0, 4126.0, 318.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"LPF Resonance Amount (either)\"",
 					"varname" : "LPF Resonance Amount (either)"
 				}
 
@@ -3371,8 +3406,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2986.0, 4337.0, 361.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0.5 \"LFO Ceiling Envelope Curve (bi)\"",
+					"patching_rect" : [ 2986.0, 4337.0, 330.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"LFO Ceiling Envelope Curve (bi)\"",
 					"varname" : "LFO Ceiling Envelope Curve (bi)"
 				}
 
@@ -3384,8 +3419,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3165.0, 4210.0, 348.0, 22.0 ],
-					"text" : "param_control_logic_tubafx 0 \"LFO Sync-Free Crossfade (uni)\"",
+					"patching_rect" : [ 3165.0, 4210.0, 314.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"LFO Sync-Free Crossfade (uni)\"",
 					"varname" : "LFO Sync-Free Crossfade (uni)"
 				}
 
@@ -3397,8 +3432,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4029.0, 3536.0, 304.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Drum Clip Tremolo Duty (bi)\"",
+					"patching_rect" : [ 4029.0, 3536.0, 306.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Tremolo Duty (bi)\"",
 					"varname" : "Drum Clip Tremolo Duty (bi)"
 				}
 
@@ -3917,8 +3952,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4132.0, 3451.0, 302.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Drum Clip Delay Param (bi)\"",
+					"patching_rect" : [ 4132.0, 3451.0, 304.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Delay Param (bi)\"",
 					"varname" : "Drum Clip Delay Param (bi)"
 				}
 
@@ -3991,8 +4026,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4236.0, 3367.0, 310.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Drum Clip Reverb Param (bi)\"",
+					"patching_rect" : [ 4236.0, 3367.0, 312.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Reverb Param (bi)\"",
 					"varname" : "Drum Clip Reverb Param (bi)"
 				}
 
@@ -4126,8 +4161,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3976.0, 3578.0, 308.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Drum Clip Tremolo Depth (uni)\"",
+					"patching_rect" : [ 3976.0, 3578.0, 310.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Drum Clip Tremolo Depth (uni)\"",
 					"varname" : "Drum Clip Tremolo Depth (uni)"
 				}
 
@@ -4163,12 +4198,15 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-702",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5340.0, 5470.0, 168.0, 40.0 ],
+					"patching_rect" : [ 5318.0, 5451.0, 212.0, 54.0 ],
+					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
-					"text" : "looper_ends_fadeout_bang"
+					"text" : "looper_ends_fadeout_bang\nis not aware of when tuba's playing",
+					"textjustification" : 1
 				}
 
 			}
@@ -4179,12 +4217,14 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-701",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5156.0, 5530.0, 168.0, 40.0 ],
+					"patching_rect" : [ 5127.0, 5533.0, 228.0, 54.0 ],
 					"suppressinlet" : 1,
-					"text" : "looper_begins_fadeout_bang"
+					"text" : "looper_begins_fadeout_bang\nis not aware of when tuba's playing",
+					"textjustification" : 1
 				}
 
 			}
@@ -4195,12 +4235,14 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-700",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4982.0, 5472.0, 183.0, 40.0 ],
+					"patching_rect" : [ 4984.0, 5456.0, 183.0, 54.0 ],
 					"suppressinlet" : 1,
-					"text" : "looper_finished_recording_bang"
+					"text" : "looper_finished_recording_bang\nis aware of when tuba's playing",
+					"textjustification" : 1
 				}
 
 			}
@@ -4344,8 +4386,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4082.0, 3494.0, 291.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Drum Clip Delay Send (uni)\"",
+					"patching_rect" : [ 4082.0, 3494.0, 293.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Drum Clip Delay Send (uni)\"",
 					"varname" : "Drum Clip Delay Send (uni)"
 				}
 
@@ -4357,8 +4399,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4184.0, 3409.0, 299.0, 22.0 ],
-					"text" : "param_control_logic 0 f \"Drum Clip Reverb Send (uni)\"",
+					"patching_rect" : [ 4184.0, 3409.0, 301.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Drum Clip Reverb Send (uni)\"",
 					"varname" : "Drum Clip Reverb Send (uni)"
 				}
 
@@ -4411,7 +4453,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5404.0, 5692.0, 137.0, 151.0 ],
 					"suppressinlet" : 1,
-					"text" : "if the tuba's soloing when the looper finishes fading out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper finishes fading out, disable the solo fx immediately.",
+					"text" : "if the tuba's still soloing when the looper finishes fading out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper finishes fading out, disable the solo fx immediately.",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
@@ -4472,7 +4514,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5010.0, 5846.0, 52.0, 22.0 ],
-					"text" : "gate 2 0"
+					"text" : "gate 2 1"
 				}
 
 			}
@@ -5271,7 +5313,7 @@
 							"parameter_initial" : [ 127.0, 0.0, 127.0, 0.0, 127.0, 0, 63.0, 0.0, 0, 127.0, 127.0, 0, "linear" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
-							"parameter_longname" : "function[34]",
+							"parameter_longname" : "function[44]",
 							"parameter_shortname" : "function[16]",
 							"parameter_type" : 3
 						}
@@ -9491,8 +9533,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3919.0, 3620.0, 329.0, 22.0 ],
-					"text" : "param_control_logic 0 > 0.1 \"Drum Clip Stutter Enable (trig)\"",
+					"patching_rect" : [ 3919.0, 3620.0, 331.0, 22.0 ],
+					"text" : "\"param control logic\" 0 > 0.1 \"Drum Clip Stutter Enable (trig)\"",
 					"varname" : "Drum Clip Stutter Enable (trig)"
 				}
 
@@ -9504,8 +9546,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3873.0, 3662.0, 320.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Drum Clip Filters (bi)\"",
+					"patching_rect" : [ 3873.0, 3662.0, 304.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Filters (bi)\"",
 					"varname" : "Drum Clip Filters (bi)"
 				}
 
@@ -9517,8 +9559,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3355.0, 4084.0, 361.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Looper Filters (bi)\"",
+					"patching_rect" : [ 3355.0, 4084.0, 308.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Looper Filters (bi)\"",
 					"varname" : "Looper Filters (bi)"
 				}
 
@@ -9584,8 +9626,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3824.0, 3704.0, 320.0, 22.0 ],
-					"text" : "param_control_logic 0.5 f \"Drum Clip Crossfade (bi)\"",
+					"patching_rect" : [ 3824.0, 3704.0, 289.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Crossfade (bi)\"",
 					"varname" : "Drum Clip Crossfade (bi)"
 				}
 
@@ -10954,7 +10996,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 89.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -11625,21 +11667,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 38,
-										"out" : 63,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 41,
-										"out" : 62,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 43,
-										"out" : 61,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 43,
 										"out" : 64,
 										"gain" : 1.0
@@ -11647,6 +11674,16 @@
 , 									{
 										"in" : 48,
 										"out" : 65,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 38,
+										"out" : 63,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 61,
 										"gain" : 1.0
 									}
  ]
