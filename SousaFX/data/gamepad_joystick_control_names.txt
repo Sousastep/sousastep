@@ -8,7 +8,7 @@
 44, "Looper Filters (bi)";
 45, "Looper Stutter Random Rhythm (trig)";
 46, "Looper Stutter Enable (trig)";
-47, "Looper Tremolo Duty (uni)";
+47, "Looper Tremolo Duty (bi)";
 48, "Looper Tremolo Depth (uni)";
 49, "Looper Delay Send 1 (uni)";
 50, "Looper Delay Send 2 (uni)";
@@ -26,5 +26,5 @@
 62, "Main Input Filters (bi)";
 63, "Main Input Stutter Random Rhythm (trig)";
 64, "Main Input Stutter Enable (trig)";
-65, "Main Input Tremolo Duty (uni)";
+65, "Main Input Tremolo Duty (bi)";
 66, "Main Input Tremolo Depth (uni)";

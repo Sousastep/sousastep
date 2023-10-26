@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1355.0, 179.0, 664.0, 1211.0 ],
+		"rect" : [ 612.0, 179.0, 1407.0, 1211.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -238,8 +238,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 352.0, 140.0, 22.0 ],
-					"text" : "r #1\" Tremolo Duty (uni)\""
+					"patching_rect" : [ 473.0, 352.0, 133.0, 22.0 ],
+					"text" : "r #1\" Tremolo Duty (bi)\""
 				}
 
 			}
