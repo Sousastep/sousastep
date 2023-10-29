@@ -6,24 +6,27 @@ Thanks for checking out SousaFX, a rig that caters to tuba players who are inter
 
 # :gear: Requirements
 
-1. One tuba.
+1. tuba
 
-1. A sufficiently powerful Mac or Windows computer. SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent gaming PC with Windows 11.
+1. game controller
 
-1. One game controller that can be paired with the computer, and tied or velcroed to the tuba.
+1. USB audio interface
 
-1. A USB audio interface with one headphone output, two line-level outputs, and one XLR microphone input or two line-level inputs.
+1. XLR microphone & XLR cable, or Yamaha SilentBrass™ mute & PersonalStudio™
 
-1. An XLR microphone with an XLR cable, or a Yamaha SilentBrass™ mute with the PersonalStudio™ and an 1/8" Stereo TRS to Dual 1/4" Mono TS Y-Splitter cable.
+1. headphones, or in-ear monitors
 
-1. Headphones, or In Ear Monitors.
+1. mac or windows computer
+
+> [!NOTE]
+> SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent PC with Windows 11.
 
 # :floppy_disk: Installation
 
 1. SousaFX is a Max Project that runs within the Max application. Download Max for free from [![Cycling '74](https://img.shields.io/badge/Cycling_'74-111111?logo=cycling74&style=flat-square)](https://cycling74.com/downloads) 
 
 > [!NOTE]
-> Despite the fact that the free version of Max disallows saving after a 30-day trial, SousaFX will continue to function as intended because it uses pattrstorage to save its preferences and presets, which Cycling '74 graciously does not disable after the trial.
+> Despite the fact that the free version of Max disallows saving patches after a 30-day trial, SousaFX will continue to function as intended because it uses [`pattrstorage`](https://docs.cycling74.com/max8/refpages/pattrstorage) to store its preferences and presets.
 
 2.  The SousaFX Max Project lives within the `sousastep` repository along with a few other projects. Download the `sousastep` repository and place it gently in `~/Documents/Max 8/Projects/` [![GitHub all releases](https://img.shields.io/github/downloads/Sousastep/sousastep/total?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags) [![GitHub repo size](https://img.shields.io/github/repo-size/Sousastep/sousastep?logo=github&style=flat-square)](https://github.com/Sousastep/sousastep/tags)
 
