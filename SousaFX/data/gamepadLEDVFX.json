@@ -5,6 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"LCH or HSL" : [ 0 ],
+					"drum to viz" : [ 0 ],
 					"gamepadLEDhue::invert" : [ 0.0 ],
 					"gamepadLEDhue::linkphasor_rate" : [ 32.0 ],
 					"gamepadLEDhue::matrixctrl" : [ 4, 0, 1.0 ],
@@ -15,10 +17,17 @@
 					"gamepadLEDlightness::invert" : [ 0.0 ],
 					"gamepadLEDlightness::linkphasor_rate" : [ 1.0 ],
 					"gamepadLEDlightness::matrixctrl" : [ 3, 0, 1.0 ],
-					"gamepadLEDlightness::rslider" : [ 0.0, 0.792664622224734 ],
+					"gamepadLEDlightness::rslider" : [ 0.039324340040459, 0.684183621590198 ],
 					"gamepadLEDlightness::slide_down" : [ 0 ],
 					"gamepadLEDlightness::slide_up" : [ 0 ],
-					"gamepadLEDlightness::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.7, "curve" ]
+					"gamepadLEDlightness::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.7, "curve" ],
+					"gamepadLEDchroma::invert" : [ 0.0 ],
+					"gamepadLEDchroma::linkphasor_rate" : [ 1.0 ],
+					"gamepadLEDchroma::matrixctrl" : [ 1, 0, 1.0 ],
+					"gamepadLEDchroma::rslider" : [ 0.045351062297934, 0.708290510620095 ],
+					"gamepadLEDchroma::slide_down" : [ 48 ],
+					"gamepadLEDchroma::slide_up" : [ 32 ],
+					"gamepadLEDchroma::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.2, "curve" ]
 				}
 
 			}

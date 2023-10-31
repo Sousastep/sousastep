@@ -6,8 +6,8 @@
 				"id" : 1,
 				"data" : 				{
 					"preset descriptions" : [ "Sousastep's default preset" ],
-					"bleed[1]" : [ -30.0 ],
-					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 0, 0, 1.0 ],
+					"bleed[1]" : [ -36.047244094488178 ],
+					"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 3, 0, 1.0 ],
 					"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2 ],
 					"sustain fx chooser::Pre-LPF_FX_randomize" : [ 1 ],
 					"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 4, 0, 1.0 ],
