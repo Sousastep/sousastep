@@ -42,17 +42,6 @@
 		"title" : "Main Input Stutter, Tremolo, Filters",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "meter~",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 369.0, 192.0, 80.0, 13.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-343",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -229,10 +218,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 782.0, 695.0, 520.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage #1\" stutter tremolo filters\" @greedy 0 @savemode 0",
@@ -332,7 +321,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1055.0, 651.0, 92.0, 173.0 ]
+					"patching_rect" : [ 1055.0, 651.0, 95.0, 173.0 ]
 				}
 
 			}
@@ -831,16 +820,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 0,
-					"source" : [ "obj-22", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-200", 1 ],
-					"order" : 1,
 					"source" : [ "obj-22", 1 ]
 				}
 
