@@ -1,0 +1,27 @@
+{
+	"pattrstorage" : 	{
+		"name" : "MIDIstatus",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"MIDI MAP OUT::Drum Clip Stutter Enable (trig) MIDIOUT" : [ 61 ],
+					"MIDI MAP OUT[1]::syncrate_coll MIDIOUT" : [ 60 ],
+					"MIDI MAP OUT[2]::Drum Clip Reverb Send (uni) MIDIOUT" : [ 70 ],
+					"MIDI MAP OUT[3]::Drum Clip Delay Send (uni) MIDIOUT" : [ 71 ],
+					"MIDI MAP OUT[4]::Drum Clip Tremolo Duty (bi) MIDIOUT" : [ 72 ],
+					"MIDI MAP OUT[5]::Drum Clip Tremolo Depth (uni) MIDIOUT" : [ 73 ],
+					"MIDI MAP OUT[6]::Drum Clip Reverb Param (bi) MIDIOUT" : [ 74 ],
+					"MIDI MAP OUT[7]::Drum Clip Crossfade (bi) MIDIOUT" : [ 51 ],
+					"MIDI MAP OUT[8]::mute_drumloops MIDIOUT" : [ 90 ],
+					"MIDI MAP OUT[9]::Drum Clip Delay Param (bi) MIDIOUT" : [ 75 ],
+					"MIDI MAP OUT[10]::Drum Clip Filters (bi) MIDIOUT" : [ 53 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

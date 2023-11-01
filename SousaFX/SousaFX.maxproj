@@ -2,7 +2,7 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3781122032,
+	"modificationdate" : 3781651883,
 	"viewrect" : [ 979.0, 1527.0, 478.0, 779.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 1,
@@ -104,6 +104,11 @@
 				"local" : 1
 			}
 ,
+			"param control logic.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"prepends.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -179,11 +184,6 @@
 				"local" : 1
 			}
 ,
-			"dummy_selector.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"four_plugin_selectors.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -224,11 +224,6 @@
 				"local" : 1
 			}
 ,
-			"muteme.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"phasor_to_BPM.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -245,6 +240,16 @@
 			}
 ,
 			"umenu_presets.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dummy_selector.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"muteme.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -480,7 +485,7 @@
 				"toplevel" : 1
 			}
 ,
-			"param control logic.maxpat" : 			{
+			"MIDI MAP OUT.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
