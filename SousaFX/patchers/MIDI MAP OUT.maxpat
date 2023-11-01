@@ -273,7 +273,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 1.0, 339.0, 23.0 ],
 					"text" : "#1",
-					"textcolor" : [ 0.847058823529412, 0.831372549019608, 0.819607843137255, 1.0 ]
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -310,7 +310,7 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Monaco",
-					"hint" : "MIDI CC Number",
+					"hint" : "MIDI CC Output #",
 					"id" : "obj-708",
 					"maxclass" : "number",
 					"maximum" : 127,
