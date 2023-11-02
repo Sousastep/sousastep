@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 311.0, 53.0, 2080.0, 1324.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -218,10 +218,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 782.0, 695.0, 520.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage #1\" stutter tremolo filters\" @greedy 0 @savemode 0",
@@ -316,11 +316,12 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-43",
+					"linecount" : 11,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1055.0, 651.0, 95.0, 23.0 ]
+					"patching_rect" : [ 1055.0, 651.0, 95.0, 173.0 ]
 				}
 
 			}
@@ -876,7 +877,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-200", 2 ],
+					"destination" : [ "obj-200", 1 ],
 					"source" : [ "obj-3", 1 ]
 				}
 

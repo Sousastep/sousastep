@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2157.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -112,7 +112,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 618.0, 2238.0, 52.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "+~ 0.75"
 				}
 
@@ -127,7 +126,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 586.0, 2272.0, 51.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "cycle~"
 				}
 
@@ -256,7 +254,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1350.5, 1943.0, 190.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "drum loop clips go out of ableton, into max, out of max, and back into ableton. "
 				}
@@ -272,7 +269,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1316.5, 2041.0, 183.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "delay compensation in samples / length of 1 bar in samples = phasor offset"
 				}
@@ -323,7 +319,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1308.5, 2008.0, 209.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "lookahead: 0 ms at 48 kHz = 0 samples"
 				}
@@ -353,7 +348,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1309.5, 2102.0, 153.0, 64.0 ],
-					"presentation_linecount" : 4,
 					"suppressinlet" : 1,
 					"text" : "while the phasor rises, counting is enabled. when the phasor resets, counting resets"
 				}
@@ -369,7 +363,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1248.5, 2266.0, 150.0, 79.0 ],
-					"presentation_linecount" : 5,
 					"suppressinlet" : 1,
 					"text" : "a non-zero signal will enable counting and a zero signal will reset the count to minimum and stop counting"
 				}
@@ -546,7 +539,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1316.5, 2188.0, 173.0, 69.0 ],
-					"presentation_linecount" : 4,
 					"text" : "count maximum sets the number of samples recorded (think of it as the loop size)"
 				}
 
@@ -561,8 +553,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1091.5, 2177.0, 105.0, 54.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 1091.5, 2177.0, 107.0, 54.0 ],
 					"text" : "stop writing by sending -1 signal"
 				}
 
@@ -1362,10 +1353,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2273.0, 1428.0, 347.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage dual_loopers @greedy 0 @savemode 0",
@@ -2272,6 +2263,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
+					"source" : [ "obj-15", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"source" : [ "obj-15", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
 					"source" : [ "obj-15", 1 ]
 				}
 
@@ -2691,7 +2696,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -2699,7 +2704,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -2774,7 +2779,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 1 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -2782,7 +2787,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 1 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
