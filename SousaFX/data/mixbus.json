@@ -5,8 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"very_low_volume" : [ -6.0 ],
-					"low_volume" : [ -6.0 ],
+					"very_low_volume" : [ -7.0 ],
+					"low_volume" : [ -9.0 ],
 					"high_volume" : [ -6.0 ]
 				}
 

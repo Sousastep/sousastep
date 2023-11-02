@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 387.0, 353.0, 1179.0, 558.0 ],
+		"rect" : [ 470.0, 249.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "MIDI Status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 976.0, 1208.0, 50.0, 22.0 ],
+					"text" : "90 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "hidden",
 					"id" : "obj-105",
@@ -139,8 +151,7 @@
 					"presentation_rect" : [ 366.0, 425.0, 238.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Output to Stop Drum Loop",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -175,8 +186,7 @@
 					"presentation_rect" : [ 366.0, 469.0, 191.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Number Display Format",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -247,8 +257,7 @@
 					"presentation_rect" : [ 366.0, 365.0, 263.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI CC Output # for Selecting Next Scene",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -265,8 +274,7 @@
 					"presentation_rect" : [ 366.0, 322.0, 264.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI CC Output # for Selecting Previous Scene",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -283,8 +291,7 @@
 					"presentation_rect" : [ 366.0, 279.0, 209.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI CC Output # for Scene Launch",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -301,8 +308,7 @@
 					"presentation_rect" : [ 366.0, 235.0, 167.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Scene Action for Hold",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -319,8 +325,7 @@
 					"presentation_rect" : [ 366.0, 191.0, 170.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Scene Action for Double Click",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -337,8 +342,7 @@
 					"presentation_rect" : [ 366.0, 147.0, 162.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Scene Action for Single Click",
-					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
 			}
@@ -456,8 +460,7 @@
 					"presentation_rect" : [ 435.5, 74.0, 125.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Output Channel for controlling DAW:",
-					"textcolor" : [ 0.796078431372549, 0.650980392156863, 1.0, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.796078431372549, 0.650980392156863, 1.0, 1.0 ]
 				}
 
 			}
@@ -474,8 +477,7 @@
 					"presentation_rect" : [ 294.0, 19.0, 211.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Output Port for controlling DAW:",
-					"textcolor" : [ 0.796078431372549, 0.650980392156863, 1.0, 1.0 ],
-					"textjustification" : 0
+					"textcolor" : [ 0.796078431372549, 0.650980392156863, 1.0, 1.0 ]
 				}
 
 			}
@@ -2955,10 +2957,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 212.0, 333.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage MIDIstatus @greedy 0 @savemode 0",
@@ -4938,6 +4940,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 2 ],
+					"order" : 0,
+					"source" : [ "obj-715", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 1 ],
+					"order" : 1,
 					"source" : [ "obj-715", 0 ]
 				}
 

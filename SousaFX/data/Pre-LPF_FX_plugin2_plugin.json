@@ -4,26 +4,26 @@
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
-				"name" : "MBitFun",
+				"name" : "NA 808",
 				"data" : 				{
 					"plugin" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
 							"minorversion" : 0,
-							"name" : "MBitFun",
-							"origin" : "MBitFun.auinfo",
+							"name" : "NA 808",
+							"origin" : "NA 808.auinfo",
 							"type" : "AudioUnit",
-							"subtype" : "MidiEffect",
+							"subtype" : "AudioEffect",
 							"embed" : 1,
 							"snapshot" : 							{
-								"pluginname" : "MBitFun.auinfo",
-								"plugindisplayname" : "MBitFun",
+								"pluginname" : "NA 808.auinfo",
+								"plugindisplayname" : "NA 808",
 								"pluginsavedname" : "",
-								"pluginsaveduniqueid" : 1632790596,
+								"pluginsaveduniqueid" : 1312305208,
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "552.hAGaoMGcv.i0AHv.DTfAGfPBJr.CT4VXsUFWsEla0YVXiQWcxUlbTQVXzEFUzkGbkc0b0IFc4AWYWYWYxMWZu41UDUlYgUGazIQSkwFYOEQ.Mhm1UIYrNMLLPX3qRnJF4Q.ovHhVmzBzIHsEjpTiHpsh5USiahEFajiCBX.IVYmYdIXlYdI3IfGB3RZoN3oOe2+c+2YYHpOkF0WXOuPkysVgJMGB8.RiPuglGlysPxAesWyme86SB8Pc4.oIlhKYO.I8d+y693sWvLiigDn5ryogdmoXWI4sAB1poYhkVD2Jzah1xrqCisxm1txGD65vib3wNjztFSpwcVyqrjTwUVh3OUR5PItFtA64PRPM9PZsd3CjsWEl5+mh.G10gG4PRMwjZpwQ0ulM9NaB96EAkGTF9RtIWnUPGnwNPXzngihM5TC6lAYLUJe0tVVz+BO.ebS0FwibSYtyRDVsYJdExC51de+fdP3.sxZzRIZvptjTJcPgwvU1XCG+CLZHjOKaW1BKNBUFgUIkray4ISDoY1XlhKKGyXYQpPMSqkWwLazT9tu4RTgzJhY3LN97KVWHtQr6wq8k5EWWMejcoQbKNS9.ctHwlEAzo5ByBd4JxWJjXR7qIVaqVsd5WbZIEatDgUWalIQSBklQR..DA...H.PE.nA.m..K.DC.4.PP.jD.NEv2APd.oC.......HP..........z...................Df6"
+								"blob" : "552.hAGaoMGcv.C1AHv.DTfAGfPBJrvDTTgEWvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIgSsEDYOAAK...............A.bR2R9C...v.ympZ+....PfWqR1O....F3UhE7Cf..fzLzfCQDULQISzO.QTvTURtAWczE8CRX0S0QGb0QmDNgCL3.A.RDVclg2SQDPBVMjLg.P....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BONEDNvfCHrE1bzUURWkFYzgVOhTyL1HBHrE1bzUURHUVZmgFc8HhMvTiH9vCTAIUPMARZj0iHDIWZ1UlHfXWXrUWY8HRMtHCLv.CLvHCN1DCLxHSN0HxK9vCTAIUPMARZj0iHLUlckwlHfXWXrUWY8HBMt.SN4jSN4jCLzXyLxTiM3HxK9vCTAIUPMARZj0iHT8lakIBH1EFa0UVOhTiKy.CLv.CLwjCL2LCM3XyLh7hO7.UPRETSfjFY8HBbucWYxIBH1EFa0UVOhDiKvHxK9vyKNEDNvfiO.fUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.jF.XBPm.7I.gB.o.XJ.rBvq.XK.6BPu.Hb.OC.......HP..........fA..................D.1"
 							}
 
 						}

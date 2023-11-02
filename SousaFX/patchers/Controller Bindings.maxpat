@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 996.0, 1387.0 ],
+		"rect" : [ 1449.0, 53.0, 996.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -814,17 +814,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 170.75, 285.0, 17.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-748",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 488.0, 2296.0, 32.0, 22.0 ],
-					"text" : "print"
 				}
 
 			}
@@ -4916,10 +4905,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1607.0, 1714.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -10281,11 +10270,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 18,
-										"out" : 23,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 21,
 										"out" : 21,
 										"gain" : 1.0
@@ -10298,11 +10282,6 @@
 , 									{
 										"in" : 19,
 										"out" : 19,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 27,
-										"out" : 18,
 										"gain" : 1.0
 									}
 , 									{
@@ -10523,6 +10502,16 @@
 , 									{
 										"in" : 49,
 										"out" : 34,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 27,
+										"out" : 23,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 18,
+										"out" : 18,
 										"gain" : 1.0
 									}
  ]
@@ -18785,16 +18774,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-748", 0 ],
-					"order" : 0,
-					"source" : [ "obj-965", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-971", 0 ],
-					"order" : 1,
 					"source" : [ "obj-965", 0 ]
 				}
 

@@ -35,11 +35,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 18,
-										"out" : 23,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 21,
 										"out" : 21,
 										"gain" : 1.0
@@ -52,11 +47,6 @@
 , 									{
 										"in" : 19,
 										"out" : 19,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 27,
-										"out" : 18,
 										"gain" : 1.0
 									}
 , 									{
@@ -277,6 +267,16 @@
 , 									{
 										"in" : 49,
 										"out" : 34,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 27,
+										"out" : 23,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 18,
+										"out" : 18,
 										"gain" : 1.0
 									}
  ]
@@ -1011,7 +1011,8 @@
 					"Main Input Tremolo Depth (uni)::available transition options[3]::when to relinquish var2" : [ 1 ],
 					"Main Input Tremolo Depth (uni)::available transition options[3]::when to relinquish var1[1]" : [ 2 ],
 					"Main Input Tremolo Depth (uni)::available transition options[3]::when to relinquish var2[1]" : [ 0 ],
-					"Main Input Tremolo Depth (uni)::available transition options[3]::when to control" : [ 2 ]
+					"Main Input Tremolo Depth (uni)::available transition options[3]::when to control" : [ 2 ],
+					"patcher[1]::MIDIstatus" : [ 1 ]
 				}
 
 			}

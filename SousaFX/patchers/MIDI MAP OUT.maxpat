@@ -335,8 +335,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 479.0, 132.0, 22.0 ],
-					"text" : "pack i i"
+					"patching_rect" : [ 156.0, 479.0, 40.0, 22.0 ],
+					"text" : "pak i i"
 				}
 
 			}
@@ -397,7 +397,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-469", 0 ],
+					"destination" : [ "obj-469", 1 ],
 					"order" : 0,
 					"source" : [ "obj-1277", 0 ]
 				}
@@ -412,7 +412,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-469", 0 ],
+					"destination" : [ "obj-469", 1 ],
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -462,7 +462,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-469", 1 ],
+					"destination" : [ "obj-469", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
