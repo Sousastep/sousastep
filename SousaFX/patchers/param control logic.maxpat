@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 2157.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -585,13 +585,17 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-121",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 639.0, 979.0, 24.0, 24.0 ]
+					"patching_rect" : [ 638.0, 979.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1202.0, 360.0, 37.0, 37.0 ]
 				}
 
 			}
@@ -741,8 +745,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2488.0, 584.0, 219.0, 22.0 ],
-					"text" : "s #3\" bang when control hits deadzone\""
+					"patching_rect" : [ 2456.5, 584.0, 181.0, 22.0 ],
+					"text" : "s #3\" is control within deadzone\""
 				}
 
 			}
@@ -752,8 +756,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 74.5, 1384.0, 234.0, 22.0 ],
-					"text" : "s #3\" bang when control hits default value\""
+					"patching_rect" : [ 74.5, 1384.0, 254.0, 22.0 ],
+					"text" : "s #3\" bang when control passes default value\""
 				}
 
 			}
@@ -1166,15 +1170,19 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
+					"fontname" : "Monaco",
 					"id" : "obj-58",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 665.0, 974.0, 122.0, 35.0 ],
+					"patching_rect" : [ 664.0, 974.0, 172.0, 36.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1241.0, 361.0, 172.0, 36.0 ],
 					"suppressinlet" : 1,
-					"text" : "1 establishes control\n0 relinquishes control"
+					"text" : "1 control established\n0 control relinquished",
+					"textcolor" : [ 0.894117647058824, 0.925490196078431, 0.917647058823529, 1.0 ]
 				}
 
 			}
@@ -1328,31 +1336,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-80",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2455.0, 617.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-78",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2488.0, 618.0, 185.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "bang when control hits deadzone"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1449,7 +1432,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 379.5, 1265.0, 191.0, 21.0 ],
+					"patching_rect" : [ 388.5, 1265.5, 191.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "bang if control passes default value"
 				}
@@ -2693,13 +2676,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-29", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-29", 1 ]
 				}
@@ -3027,15 +3003,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"order" : 0,
-					"source" : [ "obj-76", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
-					"order" : 1,
 					"source" : [ "obj-76", 0 ]
 				}
 

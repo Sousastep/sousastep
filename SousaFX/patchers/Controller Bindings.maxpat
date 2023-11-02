@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1449.0, 53.0, 996.0, 1387.0 ],
+		"rect" : [ 1663.0, 53.0, 897.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -139,7 +139,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2373.090909090909008, 2714.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2373.0, 2740.0, 107.0, 22.0 ],
 					"text" : "s mute_drumloops"
 				}
 
@@ -150,7 +150,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2418.090909090909008, 2682.0, 91.0, 22.0 ],
+					"patching_rect" : [ 2418.0, 2707.0, 91.0, 22.0 ],
 					"text" : "s mute_loopers"
 				}
 
@@ -4905,10 +4905,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1607.0, 1714.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -6722,7 +6722,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 17,
 					"presentation_rect" : [ 288.0, 1024.228064793224803, 250.0, 283.0 ],
-					"text" : "This determines how the dpad and LB react to their modifier key, LT.\n\nHold: Toggling with LT doesn't trigger dpad or LB. This is useful for being able to lock open sends.\n\nTrigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
+					"text" : "This determines how the dpad and L1 react to their modifier key, L2.\n\nHold: Toggling with L2 doesn't trigger dpad or L1. This is useful for being able to lock open sends.\n\nTrigger: If dpad or L1 is pressed, toggling with L2 will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
 
@@ -8028,7 +8028,7 @@
 					"patching_rect" : [ 881.0, 668.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 246.0, 49.0, 39.0 ],
-					"text" : "RB",
+					"text" : "R1",
 					"textcolor" : [ 0.337255, 0.964706, 0.74902, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8081,7 +8081,7 @@
 					"patching_rect" : [ 881.0, 760.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.0, 351.0, 49.0, 39.0 ],
-					"text" : "RT",
+					"text" : "R2",
 					"textcolor" : [ 0.486275, 1.0, 0.25098, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8135,7 +8135,7 @@
 					"patching_rect" : [ 881.0, 858.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.0, 457.0, 49.0, 39.0 ],
-					"text" : "LT",
+					"text" : "L2",
 					"textcolor" : [ 0.972549, 1.0, 0.356863, 1.0 ],
 					"textjustification" : 1
 				}
@@ -8188,7 +8188,7 @@
 					"patching_rect" : [ 838.0, 1292.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 111.0, 937.0, 105.0, 39.0 ],
-					"text" : "LT",
+					"text" : "L2",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ],
 					"textjustification" : 1
 				}
@@ -9814,7 +9814,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 95.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12175,7 +12175,7 @@
 					"fontsize" : 13.0,
 					"id" : "obj-14",
 					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
-					"inlabels" : [ "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "Menu", "View", "LB", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "LB", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button" ],
+					"inlabels" : [ "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "◻", "X", "◯", "△", "Options", "Share", "L1", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "L1", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿", "vertical ↕", "up ↑", "down ↓", "horizontal ↔", "left ←", "right →", "button ⦿" ],
 					"labelwidth" : 313.5,
 					"maxclass" : "crosspatch",
 					"numinlets" : 1,
