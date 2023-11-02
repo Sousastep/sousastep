@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 564.0, 1527.0, 956.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 707.0, 228.875, 48.0, 22.0 ],
+					"text" : "change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 707.0, 197.75, 73.0, 22.0 ],
+					"text" : "speedlim 50"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "dry right",
 					"id" : "obj-35",
@@ -465,7 +489,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 751.0, 287.0, 169.0, 22.0 ],
+					"patching_rect" : [ 707.0, 166.625, 169.0, 22.0 ],
 					"text" : "r #1\" Stutter Enable (trig)\""
 				}
 
@@ -540,7 +564,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 819.012470694697186, 326.205008232591354, 24.0, 24.0 ],
+					"patching_rect" : [ 707.0, 260.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 13.0, 13.0, 63.0, 63.0 ],
 					"uncheckedcolor" : [ 0.27843137254902, 0.27843137254902, 0.27843137254902, 1.0 ]
@@ -679,7 +703,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 739.25, 329.205008232591354, 81.0, 21.0 ],
+					"patching_rect" : [ 624.0, 261.5, 81.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 5.0, 81.0, 21.0 ],
 					"suppressinlet" : 1,
@@ -1294,7 +1318,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 663.76249596706657, 159.5, 165.0, 50.0 ],
+					"patching_rect" : [ 709.0, 107.5, 165.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "while the phasor rises, counting is enabled. when the phasor resets, counting resets"
 				}
@@ -1922,7 +1946,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 828.512470694697186, 379.0, 149.5, 379.0 ],
+					"midpoints" : [ 716.5, 379.0, 149.5, 379.0 ],
 					"order" : 2,
 					"source" : [ "obj-28", 0 ]
 				}
@@ -1972,6 +1996,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
 					"source" : [ "obj-301", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -2121,7 +2159,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
