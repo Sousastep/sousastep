@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 269.0, 368.666666666666686, 50.0, 22.0 ],
+					"text" : "route -1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -93,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 269.0, 410.0, 40.0, 22.0 ],
+					"patching_rect" : [ 269.0, 430.000000000000057, 40.0, 22.0 ],
 					"text" : "t i i i"
 				}
 
@@ -105,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 269.0, 375.0, 80.0, 22.0 ],
+					"patching_rect" : [ 269.0, 399.333333333333371, 80.0, 22.0 ],
 					"text" : "speedlim 200"
 				}
 
@@ -296,7 +308,7 @@
 					"patching_rect" : [ 364.0, 229.0, 172.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 99.0, 1.0, 339.0, 23.0 ],
-					"text" : "drum loop volume MIDI",
+					"text" : "#1",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
@@ -320,7 +332,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 221.25, 291.0, 222.0, 22.0 ],
-					"restore" : [ 30 ],
+					"restore" : [ -1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -333,12 +345,13 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontname" : "Monaco",
 					"hint" : "MIDI CC Output #",
 					"id" : "obj-708",
 					"maxclass" : "number",
 					"maximum" : 127,
-					"minimum" : 0,
+					"minimum" : -1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -371,7 +384,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 156.0, 241.400000000000034, 40.0, 22.0 ],
 					"text" : "* #2"
 				}
@@ -419,6 +432,13 @@
 					"destination" : [ "obj-8", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1277", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-14", 1 ]
 				}
 
 			}
@@ -544,7 +564,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-14", 0 ],
 					"source" : [ "obj-708", 0 ]
 				}
 
@@ -570,7 +590,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
