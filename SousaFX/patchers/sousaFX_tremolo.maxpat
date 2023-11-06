@@ -119,7 +119,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 588.0, 491.0, 140.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 96.0, 311.75, 28.0 ],
+					"presentation_rect" : [ 2.0, 83.0, 301.0, 28.0 ],
 					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -164,6 +164,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -172,8 +173,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 141.0, 494.0, 62.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 19.0, 62.0, 48.0 ],
+					"presentation_rect" : [ 0.0, 2.0, 62.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -384,6 +389,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-38",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -392,8 +398,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 458.5, 631.0, 61.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 186.0, 19.0, 61.0, 48.0 ],
+					"presentation_rect" : [ 184.0, 2.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -427,6 +437,8 @@
 			}
 , 			{
 				"box" : 				{
+					"activebgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"id" : "obj-35",
 					"maxclass" : "live.scope~",
 					"numinlets" : 2,
@@ -434,13 +446,14 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 429.0, 803.0, 184.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 69.0, 312.0, 59.0 ],
+					"presentation_rect" : [ 2.0, 52.0, 301.0, 59.0 ],
 					"range" : [ -0.1, 1.1 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-34",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -449,8 +462,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 473.0, 460.0, 61.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 125.0, 19.0, 61.0, 48.0 ],
+					"presentation_rect" : [ 123.0, 2.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -497,6 +514,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -505,8 +523,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 399.0, 339.0, 61.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 19.0, 61.0, 48.0 ],
+					"presentation_rect" : [ 62.0, 2.0, 61.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
@@ -589,6 +611,7 @@
 			}
 , 			{
 				"box" : 				{
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-103",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -597,15 +620,19 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 657.0, 303.0, 66.75, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.0, 19.0, 66.75, 48.0 ],
+					"presentation_rect" : [ 245.0, 2.0, 58.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
+						"activeneedlecolor" : 						{
+							"expression" : "themecolor.live_value_arc"
+						}
+,
 						"textcolor" : 						{
 							"expression" : ""
 						}
 ,
 						"valueof" : 						{
 							"parameter_longname" : "MIDI syncrate",
-							"parameter_shortname" : "MIDI syncrate",
+							"parameter_shortname" : "subdivision",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -1201,7 +1228,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-103" : [ "MIDI syncrate", "MIDI syncrate", 0 ],
+			"obj-103" : [ "MIDI syncrate", "subdivision", 0 ],
 			"obj-18" : [ "phase offset[1]", "phase offset", 0 ],
 			"obj-34" : [ "duty cycle[1]", "duty cycle", 0 ],
 			"obj-38" : [ "smooth", "smooth", 0 ],

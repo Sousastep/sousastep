@@ -195,11 +195,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 45,
-										"out" : 49,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 40,
 										"out" : 45,
 										"gain" : 1.0
@@ -279,6 +274,11 @@
 										"out" : 18,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 48,
+										"out" : 49,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -331,7 +331,7 @@
 					"Looper Filters (bi)::available transition options[1]::when to control" : [ 0 ],
 					"Looper Filters (bi)::available transition options[2]::when to relinquish var1" : [ 2 ],
 					"Looper Filters (bi)::available transition options[2]::when to relinquish var2" : [ 0 ],
-					"Looper Filters (bi)::available transition options[2]::when to relinquish var1[1]" : [ 0 ],
+					"Looper Filters (bi)::available transition options[2]::when to relinquish var1[1]" : [ 1 ],
 					"Looper Filters (bi)::available transition options[2]::when to relinquish var2[1]" : [ 1 ],
 					"Looper Filters (bi)::available transition options[2]::when to control" : [ 3 ],
 					"Looper Filters (bi)::available transition options[3]::when to relinquish var1" : [ 2 ],
@@ -402,10 +402,10 @@
 					"Drum Clip Reverb Send (uni)::available transition options[1]::when to relinquish var2[1]" : [ 0 ],
 					"Drum Clip Reverb Send (uni)::available transition options[1]::when to control" : [ 0 ],
 					"Drum Clip Reverb Send (uni)::available transition options[2]::when to relinquish var1" : [ 2 ],
-					"Drum Clip Reverb Send (uni)::available transition options[2]::when to relinquish var2" : [ 0 ],
+					"Drum Clip Reverb Send (uni)::available transition options[2]::when to relinquish var2" : [ 1 ],
 					"Drum Clip Reverb Send (uni)::available transition options[2]::when to relinquish var1[1]" : [ 2 ],
 					"Drum Clip Reverb Send (uni)::available transition options[2]::when to relinquish var2[1]" : [ 1 ],
-					"Drum Clip Reverb Send (uni)::available transition options[2]::when to control" : [ 3 ],
+					"Drum Clip Reverb Send (uni)::available transition options[2]::when to control" : [ 0 ],
 					"Drum Clip Reverb Send (uni)::available transition options[3]::when to relinquish var1" : [ 2 ],
 					"Drum Clip Reverb Send (uni)::available transition options[3]::when to relinquish var2" : [ 1 ],
 					"Drum Clip Reverb Send (uni)::available transition options[3]::when to relinquish var1[1]" : [ 0 ],
