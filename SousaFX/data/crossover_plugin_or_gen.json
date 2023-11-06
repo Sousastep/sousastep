@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"gen_or_plugin" : [ 1 ],
+					"gen_or_plugin" : [ 0 ],
 					"freq" : [ 95.0 ]
 				}
 

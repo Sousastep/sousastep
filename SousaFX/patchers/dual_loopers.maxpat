@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 840.0, 118.0, 1258.0, 1244.0 ],
+		"rect" : [ 529.0, 1493.0, 1040.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,7 +51,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1402.0, 267.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1448.0, 273.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 258.0, 431.5, 104.5, 104.5 ]
 				}
@@ -461,7 +461,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "active[6]",
+							"parameter_longname" : "active[2]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "Active",
 							"parameter_type" : 2
@@ -1866,10 +1866,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2273.0, 1428.0, 347.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage dual_loopers @greedy 0 @savemode 0",
@@ -2440,8 +2440,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 536.0 ],
-					"xoffset" : -2726.0,
-					"yoffset" : -1585.0
+					"xoffset" : -1464.0,
+					"yoffset" : -102.0
 				}
 
 			}
@@ -3482,7 +3482,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -3490,7 +3490,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -3572,7 +3572,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 1 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -3580,7 +3580,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 1 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
