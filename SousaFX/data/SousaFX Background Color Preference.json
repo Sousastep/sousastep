@@ -1,0 +1,20 @@
+{
+	"pattrstorage" : 	{
+		"name" : "SousaFX Background Color Preference",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"hue" : [ 0.871584699453552 ],
+					"sat" : [ 0.407103825136612 ],
+					"lite" : [ 0.095628415300546 ],
+					"trans" : [ 0.830555555555556 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
