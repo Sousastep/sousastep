@@ -759,10 +759,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 582.0, 383.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_or_plugin @greedy 2 @savemode 0",
@@ -983,8 +983,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1469.0, 286.0, 332.0, 22.0 ],
-					"text" : "script sendbox #1 replace plugin_selector.maxpat"
+					"patching_rect" : [ 1469.0, 286.0, 309.0, 22.0 ],
+					"text" : "script sendbox #1 replace plugin_selector_mono.maxpat"
 				}
 
 			}
@@ -1065,7 +1065,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "#2.maxpat",
+					"name" : "dummy_selector.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
@@ -1081,9 +1081,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
+						"rect" : [ 540.0, 258.0, 640.0, 480.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1117,7 +1117,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 252.0, 311.0, 30.0, 30.0 ]
+									"patching_rect" : [ 47.0, 143.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1129,7 +1129,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 237.0, 296.0, 30.0, 30.0 ]
+									"patching_rect" : [ 32.0, 128.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1141,7 +1141,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 222.0, 281.0, 30.0, 30.0 ]
+									"patching_rect" : [ 17.0, 113.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1154,7 +1154,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 228.0, 194.0, 30.0, 30.0 ]
+									"patching_rect" : [ 47.0, 48.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1167,7 +1167,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 213.0, 179.0, 30.0, 30.0 ]
+									"patching_rect" : [ 32.0, 33.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1180,7 +1180,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 198.0, 164.0, 30.0, 30.0 ]
+									"patching_rect" : [ 17.0, 18.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1944,6 +1944,19 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "20231105_231711.jpg",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
