@@ -661,23 +661,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 12.571428571428571,
-					"id" : "obj-49",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1315.0, -93.0, 234.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 34.0, 4.0, 131.0, 22.0 ],
-					"suppressinlet" : 1,
-					"text" : "when to control:",
-					"textcolor" : [ 0.827450980392157, 1.0, 0.831372549019608, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-47",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -874,15 +857,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-27",
 					"items" : [ "never", ",", "always", ",", "only", "while", "playing", ",", "only", "while", "not", "playing" ],
 					"maxclass" : "umenu",
@@ -892,7 +875,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1301.0, -124.0, 219.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 167.0, 4.0, 193.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 6.0, 281.0, 23.0 ],
 					"varname" : "umenu[4]"
 				}
 
@@ -1116,15 +1099,15 @@
 , 			{
 				"box" : 				{
 					"arrow" : 0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-106",
 					"ignoreclick" : 1,
 					"items" : [ "establish", "control", "when", "tuba", "starts", "playing", ",", "establish", "control", "when", "tuba", "stops", "playing" ],
@@ -1135,7 +1118,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1259.0, 735.0, 403.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 38.0, 396.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 41.5, 281.0, 23.0 ],
 					"varname" : "umenu[3]"
 				}
 
@@ -1150,7 +1133,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-104",
 					"items" : [ "immediately", "establish", "control", ",", "wait", "until", "control", "hits", "deadzone", "to", "establish", ",", "wait", "until", "control", "hits", "default", "value", "to", "establish" ],
 					"maxclass" : "umenu",
@@ -1160,7 +1143,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1181.0, 832.0, 403.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 66.0, 396.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 66.5, 281.0, 23.0 ],
 					"varname" : "umenu[2]"
 				}
 
@@ -1175,7 +1158,7 @@
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-103",
 					"items" : [ "immediately", "relinquish", "control", ",", "wait", "until", "control", "hits", "deadzone", "to", "relinquish", ",", "wait", "until", "control", "hits", "default", "value", "to", "relinquish" ],
 					"maxclass" : "umenu",
@@ -1185,7 +1168,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 441.0, 832.0, 403.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 127.0, 396.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 127.0, 281.0, 23.0 ],
 					"varname" : "umenu"
 				}
 
@@ -1193,15 +1176,15 @@
 , 			{
 				"box" : 				{
 					"arrow" : 0,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
+					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-100",
 					"ignoreclick" : 1,
 					"items" : [ "relinquish", "control", "when", "tuba", "starts", "playing", ",", "relinquish", "control", "when", "tuba", "stops", "playing" ],
@@ -1212,7 +1195,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 509.0, 726.0, 403.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 99.0, 396.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 102.0, 281.0, 23.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -1375,6 +1358,21 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 828.0, 57.0, 170.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 12.571428571428571,
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1315.0, -93.0, 234.0, 22.0 ],
+					"suppressinlet" : 1,
+					"text" : "when to control:",
+					"textcolor" : [ 0.827450980392157, 1.0, 0.831372549019608, 1.0 ]
 				}
 
 			}
@@ -2299,6 +2297,19 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.227450980392157, 0.227450980392157, 0.227450980392157, 1.0 ],
