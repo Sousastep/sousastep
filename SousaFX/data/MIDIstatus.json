@@ -5,7 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"MIDI output port" : [ "USB MIDI Device Port 1" ],
+					"MIDI output port" : [ "from Max 1" ],
 					"MIDI CC output channel" : [ 1 ],
 					"scene_select_singleclick" : [ 1 ],
 					"scene_select_doubleclick" : [ 2 ],
@@ -15,7 +15,7 @@
 					"midi note out next scene" : [ 35 ],
 					"midi note number display format" : [ 0 ],
 					"scene selection output channel" : [ 5 ],
-					"midi tempo in port" : [ "USB MIDI Device Port 2" ],
+					"midi tempo in port" : [ "to Max 1" ],
 					"midi tempo in 1" : [ 41 ],
 					"midi tempo in 2" : [ 42 ],
 					"MIDI tempo input channel" : [ 5 ],
