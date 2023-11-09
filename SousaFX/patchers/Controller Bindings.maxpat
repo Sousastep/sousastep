@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1747.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-535",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1678.0, 2168.0, 142.0, 22.0 ],
+					"text" : "s \"mute and clear looper\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-529",
@@ -391,7 +402,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1474.0, 3026.5, 133.0, 21.5 ],
+					"patching_rect" : [ 1457.0, 3035.75, 133.0, 21.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 540.0, 791.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -414,7 +425,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1459.0, 3011.5, 133.0, 21.5 ],
+					"patching_rect" : [ 1457.0, 3012.25, 133.0, 21.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 391.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -12345,7 +12356,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 476.0, 829.0, 1380.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 109.0, 853.0, 1380.0 ],
+					"presentation_rect" : [ 1.0, 109.0, 853.0, 1379.999999999999091 ],
 					"varname" : "crosspatch[1]"
 				}
 
@@ -16586,6 +16597,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-339", 0 ],
+					"order" : 1,
 					"source" : [ "obj-460", 1 ]
 				}
 
@@ -16595,6 +16607,14 @@
 					"destination" : [ "obj-48", 0 ],
 					"order" : 0,
 					"source" : [ "obj-460", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-535", 0 ],
+					"order" : 0,
+					"source" : [ "obj-460", 1 ]
 				}
 
 			}

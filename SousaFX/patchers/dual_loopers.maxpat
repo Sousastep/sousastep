@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1098.0, 452.0, 364.0, 536.0 ],
+		"rect" : [ 40.0, 72.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,42 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "loopers",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1007.0, 261.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-535",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1007.0, 227.0, 140.0, 22.0 ],
+					"text" : "r \"mute and clear looper\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 1007.0, 302.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -485,7 +521,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "looper_relayer.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "bang", "bang" ],
@@ -2083,7 +2119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 893.0, 282.0, 34.0, 22.0 ],
+					"patching_rect" : [ 893.0, 261.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -2186,7 +2222,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "looper_relayer.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "bang", "bang" ],
@@ -2276,13 +2312,36 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 536.0 ],
-					"xoffset" : -1498.0,
-					"yoffset" : -822.0
+					"xoffset" : -525.0,
+					"yoffset" : -514.0
 				}
 
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1041", 3 ],
+					"order" : 0,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1042", 3 ],
+					"order" : 1,
+					"source" : [ "obj-1", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -2881,6 +2940,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
@@ -3261,7 +3327,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 0 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -3269,7 +3335,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -3322,6 +3388,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-535", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-92", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
@@ -3351,7 +3424,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 1 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -3359,7 +3432,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 1 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -3604,7 +3677,8 @@
 				"boxes" : [ "obj-138", "obj-115" ]
 			}
  ],
-		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ]
+		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
+		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 
 }
