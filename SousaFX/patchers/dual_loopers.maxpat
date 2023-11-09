@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1111.0, 658.0, 364.0, 536.0 ],
+		"rect" : [ 1098.0, 452.0, 364.0, 536.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1601,7 +1601,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 577.0, 1069.0, 233.0, 111.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.5, 249.0, 194.0, 59.0 ],
+					"presentation_rect" : [ 18.0, 246.0, 205.0, 77.0 ],
 					"varname" : "stutterstep",
 					"viewvisibility" : 1
 				}
@@ -1685,7 +1685,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 618.0, 1217.0, 319.0, 173.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.5, 325.0, 308.0, 110.0 ],
+					"presentation_rect" : [ 28.5, 332.0, 308.0, 110.0 ],
 					"varname" : "sousaFX_tremolo",
 					"viewvisibility" : 1
 				}
@@ -2032,7 +2032,7 @@
 					"patching_rect" : [ 2614.0, 1076.0, 163.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 254.0, 250.0, 89.0, 57.0 ],
+					"presentation_rect" : [ 247.5, 256.0, 89.0, 57.0 ],
 					"text" : "save looper settings",
 					"textjustification" : 1
 				}
@@ -2276,8 +2276,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 536.0 ],
-					"xoffset" : -1954.0,
-					"yoffset" : -368.0
+					"xoffset" : -1498.0,
+					"yoffset" : -822.0
 				}
 
 			}
