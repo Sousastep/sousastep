@@ -141,8 +141,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4611.0, 3040.0, 301.0, 22.0 ],
-					"text" : "\"param control logic\" 0 f \"Main Input Stutter Accel (uni)\"",
+					"patching_rect" : [ 4611.0, 3040.0, 311.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Main Input Stutter Accel (uni)\"",
 					"varname" : "Main Input Stutter Accel (uni)"
 				}
 
@@ -154,8 +154,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4542.0, 3110.0, 282.0, 22.0 ],
-					"text" : "\"param control logic\" 0 f \"Looper Stutter Accel (uni)\"",
+					"patching_rect" : [ 4542.0, 3110.0, 292.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Looper Stutter Accel (uni)\"",
 					"varname" : "Looper Stutter Accel (uni)"
 				}
 
@@ -167,8 +167,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4575.0, 3074.0, 298.0, 22.0 ],
-					"text" : "\"param control logic\" 0 f \"Drum Clip Stutter Accel (uni)\"",
+					"patching_rect" : [ 4575.0, 3074.0, 308.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Stutter Accel (uni)\"",
 					"varname" : "Drum Clip Stutter Accel (uni)"
 				}
 
@@ -6735,7 +6735,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 5684.0, 2626.0, 122.0, 22.0 ],
-					"restore" : [ 2.000000000000028 ],
+					"restore" : [ 2.000000000000029 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -9981,7 +9981,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 95.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10681,6 +10681,16 @@
 										"out" : 61,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 46,
+										"out" : 67,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 46,
+										"out" : 66,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -10730,7 +10740,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
 					"id" : "obj-865",
 					"maxclass" : "button",
@@ -12356,7 +12366,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 476.0, 829.0, 1380.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 109.0, 853.0, 1379.999999999999091 ],
+					"presentation_rect" : [ 1.0, 109.0, 853.0, 1380.0 ],
 					"varname" : "crosspatch[1]"
 				}
 

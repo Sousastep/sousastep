@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 690.0, 441.0, 1179.0, 779.0 ],
+		"rect" : [ 690.0, 417.0, 1179.0, 606.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -134,8 +134,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1022.0, 344.5, 48.0, 22.0 ],
-					"text" : "del 100"
+					"patching_rect" : [ 1022.0, 344.5, 55.0, 22.0 ],
+					"text" : "del 3000"
 				}
 
 			}
@@ -159,7 +159,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 976.0, 1208.0, 50.0, 22.0 ],
-					"text" : "0 0"
+					"text" : "61 28"
 				}
 
 			}
@@ -236,7 +236,6 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 8.518196047691738,
-					"hidden" : 1,
 					"id" : "obj-51",
 					"linecount" : 13,
 					"maxclass" : "comment",
@@ -1620,7 +1619,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1902.0, 66.0, 140.0, 22.0 ],
-					"restore" : [ "USB MIDI Device Port 2" ],
+					"restore" : [ "to Max 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2123,7 +2122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1162.0, 303.5, 54.0, 22.0 ],
+					"patching_rect" : [ 1022.0, 303.5, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -2147,8 +2146,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 713.0, 463.0, 240.0, 22.0 ],
-					"text" : "76"
+					"patching_rect" : [ 713.0, 463.0, 249.0, 22.0 ],
+					"text" : "61 60 70 71 72 73 74 51 90 75 53 30 0 50 76"
 				}
 
 			}
@@ -2382,7 +2381,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 455.0, 849.0, 130.0, 22.0 ],
-					"restore" : [ "USB MIDI Device Port 1" ],
+					"restore" : [ "from Max 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3389,7 +3388,6 @@
 					"bgcolor" : [ 0.097734555602074, 0.097734555602074, 0.097734555602074, 1.0 ],
 					"border" : 1,
 					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
 					"id" : "obj-39",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4201,7 +4199,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -4294,7 +4292,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -4308,7 +4306,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
 
