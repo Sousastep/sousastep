@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1168.0, 197.0, 925.0, 882.0 ],
+		"rect" : [ 819.0, 445.0, 925.0, 882.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 108.0, 35.0, 115.0, 22.0 ],
+					"patching_rect" : [ 108.0, 35.0, 141.0, 22.0 ],
 					"text" : "r #1_ducker_enable"
 				}
 
@@ -54,11 +54,11 @@
 				"box" : 				{
 					"id" : "obj-112",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 255.0, 72.0, 69.0, 22.0 ],
-					"text" : "r kick_duck"
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 255.0, 72.0, 76.0, 22.0 ],
+					"text" : "r~ kick_duck"
 				}
 
 			}
@@ -126,11 +126,11 @@
 				"box" : 				{
 					"comment" : "Compressed R",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 184.0, 171.0, 30.0, 30.0 ]
 				}
 
@@ -139,11 +139,11 @@
 				"box" : 				{
 					"comment" : "compressed L",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 44.0, 171.0, 30.0, 30.0 ]
 				}
 
@@ -152,7 +152,7 @@
 				"box" : 				{
 					"comment" : "L",
 					"id" : "obj-608",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -164,7 +164,7 @@
 				"box" : 				{
 					"comment" : "R",
 					"id" : "obj-622",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -246,8 +246,6 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"toolbaradditions" : [ "audiomute" ]
 	}
 

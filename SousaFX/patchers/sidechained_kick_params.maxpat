@@ -244,10 +244,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 682.0, 1113.0, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage sidechained_kick_params @greedy 2 @savemode 0",
@@ -709,8 +709,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 957.0, 673.0, 71.0, 22.0 ],
-					"text" : "s kick_duck"
+					"patching_rect" : [ 957.0, 673.0, 78.0, 22.0 ],
+					"text" : "s~ kick_duck"
 				}
 
 			}
