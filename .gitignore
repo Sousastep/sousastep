@@ -24,15 +24,8 @@ Temporary Items
 
 # The above is from https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
 
-# un-ignore DS_Store to save file icons
-!/SousaVFX/.DS_Store
-!/SousaFX/.DS_Store
-!/SousaLive\ Project/.DS_Store
-
-
 # https://stackoverflow.com/a/65429032/13631346
-# Icon?
-# un-ignore to save file icons
+Icon?
 ![iI]con[_a-zA-Z0-9]
 
 # Media folders
