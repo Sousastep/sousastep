@@ -1,5 +1,5 @@
 # General
-.DS_Store
+.DS_Store 
 .AppleDouble
 .LSOverride
 
@@ -24,30 +24,36 @@ Temporary Items
 
 # The above is from https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
 
+# un-ignore DS_Store to save file icons
+!/SousaVFX/.DS_Store
+!/SousaFX/.DS_Store
+!/SousaLive\ Project/.DS_Store
+
+
 # https://stackoverflow.com/a/65429032/13631346
-Icon?
+# Icon?
+# un-ignore to save file icons
 ![iI]con[_a-zA-Z0-9]
 
 # Media folders
-/Sousastep Visual FX/media
-/Sousastep Live Project/Samples
-/Sousastep Live Project/Clips
-/Sousastep Live Project/Backup
-/Sousastep Live Project/Sousastep EP bounces
-Sousastep Live Project/bounce
-Sousastep Live Project/Presets/Audio Effects/Max Audio Effect/Imported
+/SousaFX/media/startup/emotes
+/SousaLive\ Project/Samples/Recorded
+/SousaLive\ Project/Samples/Recorded
+/SousaLive\ Project/Samples
+/SousaLive\ Project/Clips
+/SousaLive\ Project/Backup
+/SousaLive\ Project/Sousastep EP bounces
+/SousaLive\ Project/bounce
 
 # bug in Live 11.2.10 https://www.reddit.com/r/ableton/comments/11ko7pd/comment/jb97vv0/?context=3
 /Sousastep Live Project/Ableton Folder Info/
 
 # GMaudio Devices https://maxforlive.com/library/device/6953/gmaudio-clipper
 # https://discord.com/channels/792548621806600212/792553300258979901/1076973931300397186
-/Sousastep\ Audio\ FX/patchers/GMaudio\ Clipper\ 1.1.amxd
-/Sousastep\ Audio\ FX/patchers/GMaudio\ Clipper\ 2.0.amxd
-/Sousastep\ Audio\ FX/patchers/GMaudio\ Clipper\ 2.0.amxd.maxpat
-/Sousastep\ Audio\ FX/patchers/GMaudio\ Clipper\ 1.1.amxd.maxpat
+/SousaFX/patchers/GMaudio\ Clipper\ 1.1.amxd
+/SousaFX/patchers/GMaudio\ Clipper\ 2.0.amxd
+/SousaFX/patchers/GMaudio\ Clipper\ 2.0.amxd.maxpat
+/SousaFX/patchers/GMaudio\ Clipper\ 1.1.amxd.maxpat
 
-# custom
-/emotes/3x-99-frames
 
 

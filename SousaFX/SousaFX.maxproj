@@ -2,9 +2,9 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3781651883,
+	"modificationdate" : 3782486474,
 	"viewrect" : [ 979.0, 1527.0, 478.0, 779.0 ],
-	"autoorganize" : 1,
+	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
 	"autolocalize" : 1,
@@ -84,13 +84,23 @@
 				"local" : 1
 			}
 ,
+			"MIDI MAP OUT.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"prepends.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"button_timer_no_double.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"function_with_two_curves.rnbopat" : 			{
-				"kind" : "rnbopat",
+			"dummy_selector.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -109,17 +119,22 @@
 				"local" : 1
 			}
 ,
-			"prepends.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"Crossover Selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"ProQ3_crossovers.maxpat" : 			{
+			"Linkwitz-Riley_24dB_highpass.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Linkwitz-Riley_24dB_lowpass.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"crossovers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -131,6 +146,11 @@
 ,
 			"Modulation Parameters.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"function_with_two_curves.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -244,7 +264,7 @@
 				"local" : 1
 			}
 ,
-			"dummy_selector.maxpat" : 			{
+			"ProQ3_crossovers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -321,21 +341,6 @@
 ,
 			"Color_Limiter.amxd" : 			{
 				"kind" : "maxforlive",
-				"local" : 1
-			}
-,
-			"crossovers.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Linkwitz-Riley_24dB_highpass.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Linkwitz-Riley_24dB_lowpass.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -483,11 +488,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"MIDI MAP OUT.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 
 		}
@@ -774,6 +774,11 @@
 				"local" : 1
 			}
 ,
+			"crossover-calc.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"SiTrSq.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -800,11 +805,6 @@
 			}
 ,
 			"transient_crossfade.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"crossover-calc.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -896,11 +896,6 @@
 ,
 			"syncrate.txt" : 			{
 				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"ProQ3crossovers.json" : 			{
-				"kind" : "json",
 				"local" : 1
 			}
 ,
@@ -1125,6 +1120,11 @@
 			}
 ,
 			"wet_preamp_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"ProQ3crossovers.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
