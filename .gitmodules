@@ -1,7 +1,4 @@
-[submodule "Defaults/oblique-strategies"]
-	path = Defaults/oblique-strategies
-	url = https://github.com/zzkt/oblique-strategies.git
-	ignore = all
 [submodule "default/oblique-strategies"]
 	path = default/oblique-strategies
 	url = https://github.com/zzkt/oblique-strategies.git
+	ignore = all
