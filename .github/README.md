@@ -1,25 +1,40 @@
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) 
 
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
+
 # :studio_microphone: Introduction
 
 Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as resonant low pass filters, loopers, reverb and delay sends, stutter, square-wave tremolo, envelope crossfades, continuous accelerandos, sidechain kick compression, plugin preset selectors, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
 
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
+
 # :gear: Requirements
 
-1. tuba
+1. mac or windows computer
 
 1. game controller
 
 1. USB audio interface
 
-1. XLR microphone & XLR cable, or Yamaha SilentBrass™ mute & PersonalStudio™
+1. XLR microphone, or Yamaha SilentBrass™ mute & PersonalStudio™
 
-1. headphones, or in-ear monitors
+1. headphones, in-ear monitors, or loudspeaker
 
-1. mac or windows computer
+1. a tuba
+
+
+
 
 > [!NOTE]
 > SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent PC with Windows 11.
+
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
 
 # :floppy_disk: Installation
 
@@ -42,49 +57,56 @@ Thanks for checking out SousaFX, a rig that caters to tuba players who are inter
 > git clone --recurse-submodules https://github.com/Sousastep/sousastep.git
 > ```
 
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
+
 # :steam_locomotive: Startup
 
 1. Open `~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj`. The Startup Preferences window will appear. Click the pause button, select your preferred audio interface and rig, then unpause. The selected rig will load momentarily.
 
 <p align="center" width="100%">
-  <img src="./pictures/startup-preferences.gif" alt="SousaFX Startup Preferences" />
+  <img src="../pictures/startup-preferences.gif" alt="SousaFX Startup Preferences" />
 </p>
 
 > [!NOTE]
 > The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've [built an LED sousa bell](https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html). The two startup preferences are auto-saved.
 
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
+
 # :potable_water: Signal Flow
 
-![effects chain](media/documentation/effects-chain.gif)
+![effects chain](../default/documentation/effects-chain.gif)
 
 2. After SousaFX's Startup Preferences loads the rig, in the menu bar, under SousaFX, click Controller Bindings.
 
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
+
 # :joystick: Controller Bindings
 
-![controller bindings](media/documentation/controller-bindings.gif)
+![controller bindings](../default/documentation/controller-bindings.gif)
 
 Here you can see everything the controller's attached to.
 
 If you have a controller with an LED like the PS4 controller, the LED color can be controlled by the tuba's envelope or LFO. 
 
-
-
-
-
-
-
-
-
+<p align="center" width="100%">
+  <img src="../default/icons/rainbow.png" alt="rainbow" />
+</p>
 
 # max patch pics
 
-![Sousastep Visual FX.maxproj](media/documentation/visual.jpg)
+![Sousastep Visual FX.maxproj](../default/documentation/visual.jpg)
 
-![Sousastep Audio FX.maxproj](media/documentation/audio.jpg)
+![Sousastep Audio FX.maxproj](../default/documentation/audio.jpg)
 
 # signal flow diagram
 
-![signal flow diagram.maxproj](media/documentation/signalflow.jpg)
+![signal flow diagram.maxproj](../default/documentation/signalflow.jpg)
 
 # PS4 controller mappings
 

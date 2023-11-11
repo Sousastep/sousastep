@@ -6,3 +6,8 @@
 *.tmss binary
 *.tmws binary
 *.mp3 binary
+*.aiff binary
+*.wav binary
+*.asd binary
+
+

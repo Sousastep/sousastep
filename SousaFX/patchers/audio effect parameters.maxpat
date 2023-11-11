@@ -2300,10 +2300,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -14459,13 +14459,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "SiTrSq.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "SousaFX Background Color Preference.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -14498,13 +14491,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Yet_Another_Gen_LFO.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -14568,13 +14554,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "crossover-calc.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -14782,31 +14761,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gate_constant_power.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gate_constant_power_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "global_tempo_source.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "go.background.change.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -14875,13 +14833,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ladder_double_wrap.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -15043,13 +14994,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mixme.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -15221,20 +15165,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "selector_constant_power.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "selector_constant_power_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "sidechained_kick.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -15260,13 +15190,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/Sousastep Extended Instrument/patchers",
 				"patcherrelativepath" : "../../../Sousastep Extended Instrument/patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "smFilterPack_env_follow.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -15343,13 +15266,6 @@
 				"name" : "thru.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "transient_crossfade.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
