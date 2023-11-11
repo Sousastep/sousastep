@@ -45,19 +45,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 479.0, 566.0, 60.0, 22.0 ],
+					"patching_rect" : [ 146.0, 552.0, 60.0, 22.0 ],
 					"text" : "zl.change"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-79",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 478.0, 639.0, 101.0, 22.0 ]
 				}
 
 			}
@@ -68,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 201.0, 326.0, 29.5, 22.0 ],
+					"patching_rect" : [ 911.5, 119.0, 29.5, 22.0 ],
 					"text" : "600"
 				}
 
@@ -139,8 +128,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 146.0, 282.0, 133.0, 22.0 ],
-					"text" : "qmetro 1000 @active 1"
+					"patching_rect" : [ 856.5, 75.0, 133.0, 22.0 ],
+					"text" : "qmetro 1000 @active 0"
 				}
 
 			}
@@ -151,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 514.600000000000023, 69.0, 22.0 ],
+					"patching_rect" : [ 856.5, 308.0, 69.0, 22.0 ],
 					"text" : "0.1 0.1 100"
 				}
 
@@ -163,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 553.399999999999977, 63.0, 22.0 ],
+					"patching_rect" : [ 856.5, 346.0, 63.0, 22.0 ],
 					"text" : "prepend 1"
 				}
 
@@ -175,7 +164,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 592.199999999999932, 93.0, 22.0 ],
+					"patching_rect" : [ 856.5, 385.0, 93.0, 22.0 ],
 					"text" : "prepend rumble"
 				}
 
@@ -188,7 +177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 201.0, 475.799999999999955, 50.0, 22.0 ]
+					"patching_rect" : [ 911.5, 269.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -199,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 215.0, 365.0, 204.0, 60.0 ],
+					"patching_rect" : [ 925.5, 158.0, 204.0, 60.0 ],
 					"text" : "game controllers disconnect after ~15 minutes of inactivity, so to keep it connected, we send a soft rumble  to the controller every 10 minutes"
 				}
 
@@ -211,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 146.0, 475.800000000000011, 34.0, 22.0 ],
+					"patching_rect" : [ 856.5, 269.0, 34.0, 22.0 ],
 					"text" : "sel 0"
 				}
 
@@ -223,7 +212,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 146.0, 437.0, 92.0, 22.0 ],
+					"patching_rect" : [ 856.5, 230.0, 92.0, 22.0 ],
 					"text" : "counter 1 600 0"
 				}
 
@@ -380,25 +369,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-105",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 502.0, 477.0, 41.0, 22.0 ],
-					"text" : "set $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 527.0, 63.0, 22.0 ],
-					"text" : "prepend 1"
+					"patching_rect" : [ 146.0, 512.5, 67.0, 22.0 ],
+					"text" : "prepend -1"
 				}
 
 			}
@@ -409,7 +386,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 479.0, 600.0, 72.0, 22.0 ],
+					"patching_rect" : [ 146.0, 591.5, 72.0, 22.0 ],
 					"text" : "prepend led"
 				}
 
@@ -443,7 +420,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 479.0, 44.0, 192.0, 393.0 ],
+					"patching_rect" : [ 146.0, 102.0, 192.0, 393.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 21.0, 314.0, 423.0 ],
 					"varname" : "gamepadLEDVFX",
@@ -1192,8 +1169,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 146.0, 630.999999999999886, 289.0, 23.0 ],
-					"text" : "gamepad"
+					"patching_rect" : [ 146.0, 631.0, 215.0, 23.0 ],
+					"text" : "gamepad @keepalive 1 @interval 8"
 				}
 
 			}
@@ -1473,29 +1450,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"order" : 1,
-					"source" : [ "obj-105", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-110", 1 ]
 				}
@@ -1517,7 +1471,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 1 ],
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -1947,15 +1901,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"midpoints" : [ 327.5, 730.0, 303.0, 730.0, 303.0, 666.0, 454.0, 666.0, 454.0, 459.0, 511.5, 459.0 ],
-					"order" : 0,
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"source" : [ "obj-4", 3 ]
 				}
@@ -1971,7 +1916,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 

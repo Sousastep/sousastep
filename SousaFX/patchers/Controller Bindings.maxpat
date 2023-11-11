@@ -6735,7 +6735,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 5684.0, 2626.0, 122.0, 22.0 ],
-					"restore" : [ 2.000000000000029 ],
+					"restore" : [ 2.000000000000028 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -9981,7 +9981,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 95.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10740,7 +10740,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.862745098039216, 0.862745098039216, 0.862745098039216, 1.0 ],
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
 					"id" : "obj-865",
 					"maxclass" : "button",
@@ -12285,7 +12285,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5567.0, 493.0, 318.0, 333.957009825378009 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 318.0, 425.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 307.0, 425.0 ],
 					"varname" : "controller_connector_bpatcher",
 					"viewvisibility" : 1
 				}

@@ -6,13 +6,13 @@
 
 # :studio_microphone: Introduction
 
-Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as resonant low pass filters, loopers, reverb and delay sends, stutter, square-wave tremolo, envelope crossfades, continuous accelerandos, sidechain kick compression, plugin preset selectors, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
+Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as loopers, stutter, envelope crossfades, continuous accelerandos, sidechain kick compression, auto-filters, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
 
 <p align="center" width="100%">
   <img src="./media/rainbow.png" alt="rainbow" />
 </p>
 
-# :gear: Requirements
+# :gear: Hardware Requirements
 
 1. mac or windows computer
 
@@ -27,8 +27,6 @@ Thanks for checking out SousaFX, a rig that caters to tuba players who are inter
 1. a tuba
 
 
-
-
 > [!NOTE]
 > SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent PC with Windows 11.
 
@@ -36,7 +34,7 @@ Thanks for checking out SousaFX, a rig that caters to tuba players who are inter
   <img src="./media/rainbow.png" alt="rainbow" />
 </p>
 
-# :floppy_disk: Installation
+# :floppy_disk: Software Installation
 
 1. SousaFX is a Max Project that runs within the Max application. Download Max for free from [![Cycling '74](https://img.shields.io/badge/Cycling_'74-111111?logo=cycling74&style=flat-square)](https://cycling74.com/downloads) 
 
