@@ -26,7 +26,6 @@ Thanks for checking out SousaFX, a rig that caters to tuba players who are inter
 
 1. a tuba
 
-
 > [!NOTE]
 > SousaFX is tested on a minimum-spec M1 Macbook Pro with macOS 14, and a decent PC with Windows 11.
 

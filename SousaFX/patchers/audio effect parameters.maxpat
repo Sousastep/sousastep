@@ -5697,11 +5697,11 @@
 					"id" : "obj-1309",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 4718.0, 50.0, 390.0, 23.0 ],
-					"save" : [ "#N", "menubar", 5, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "SousaFX", ";", "#X", "item", 5, 1, "Controller", "Bindings/B", ";", "#X", "item", 5, 2, "Max", "Audio", "Status/M", ";", "#X", "item", 5, 3, "Audio", "IO", "Status/A", ";", "#X", "item", 5, 4, "Envelope", "Crossfade/E", ";", "#X", "item", 5, 5, "Modulation/D", ";", "#X", "item", 5, 6, "Delay", "&", "Reverb", "Sends/S", ";", "#X", "item", 5, 7, "Monitor", "Mix/I", ";", "#X", "item", 5, 8, "Metronome/T", ";", "#X", "item", 5, 9, "Loopers/L", ";", "#X", "item", 5, 10, "Post-Crossfade", "FX/F", ";", "#X", "item", 5, 11, "Attack", "FX/G", ";", "#X", "item", 5, 12, "Sustain", "FX/J", ";", "#X", "item", 5, 13, "Kick", "Ducker/K", ";", "#X", "item", 5, 14, "MIDI", "Status/U", ";", "#X", "item", 5, 15, "-", ";", "#X", "item", 5, 16, "About", ";", "#X", "end", ";" ],
-					"text" : "menubar 5"
+					"numoutlets" : 6,
+					"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
+					"patching_rect" : [ 4718.0, 50.0, 71.5, 23.0 ],
+					"save" : [ "#N", "menubar", 6, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "SousaFX", ";", "#X", "item", 5, 1, "Controller", "Bindings/B", ";", "#X", "item", 5, 2, "Max", "Audio", "Status/M", ";", "#X", "item", 5, 3, "Audio", "IO", "Status/A", ";", "#X", "item", 5, 4, "Envelope", "Crossfade/E", ";", "#X", "item", 5, 5, "Modulation/D", ";", "#X", "item", 5, 6, "Delay", "&", "Reverb", "Sends/S", ";", "#X", "item", 5, 7, "Monitor", "Mix/I", ";", "#X", "item", 5, 8, "Metronome/T", ";", "#X", "item", 5, 9, "Loopers/L", ";", "#X", "item", 5, 10, "Post-Crossfade", "FX/F", ";", "#X", "item", 5, 11, "Attack", "FX/G", ";", "#X", "item", 5, 12, "Sustain", "FX/J", ";", "#X", "item", 5, 13, "Kick", "Ducker/K", ";", "#X", "item", 5, 14, "MIDI", "Status/U", ";", "#X", "item", 5, 15, "-", ";", "#X", "item", 5, 16, "About", ";", "#X", "menutitle", 6, "💙", ";", "#X", "item", 6, 1, "test1/1", ";", "#X", "item", 6, 2, "test2/2", ";", "#X", "end", ";" ],
+					"text" : "menubar 6"
 				}
 
 			}
@@ -16673,7 +16673,7 @@
 				"boxes" : [ "obj-320", "obj-347", "obj-350", "obj-366" ]
 			}
  ],
-		"bgcolor" : [ 0.0, 0.0, 0.105882352941176, 0.660746812386157 ],
+		"bgcolor" : [ 0.019607843137255, 0.0, 0.082352941176471, 0.830555555555556 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 

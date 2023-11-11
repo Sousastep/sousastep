@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3782486474,
-	"viewrect" : [ 979.0, 1527.0, 478.0, 779.0 ],
+	"modificationdate" : 3782567733,
+	"viewrect" : [ 1102.0, 475.0, 478.0, 779.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -1291,14 +1291,6 @@
 	}
 ,
 	"searchpath" : 	{
-		"0" : 		{
-			"bootpath" : "~/Documents/Max 8/Projects/sousastep/emotes",
-			"projectrelativepath" : "../emotes",
-			"label" : "",
-			"recursive" : 1,
-			"enabled" : 1,
-			"includeincollective" : 0
-		}
 
 	}
 ,
