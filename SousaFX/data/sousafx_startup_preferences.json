@@ -5,9 +5,9 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"preferred audio interface" : [ "" ],
+					"preferred audio interface" : [ "\"MADIface Pro (79250639)\"" ],
 					"preferred rig" : [ 0 ],
-					"paused" : [ 1 ]
+					"paused" : [ 0 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1003.0, 251.0, 1292.0, 1115.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,30 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-296",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1994.0, 882.0, 48.0, 22.0 ],
+					"text" : "del 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-288",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1436.0, 845.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-302",
 					"maxclass" : "button",
@@ -704,11 +728,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-274",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2922.0, 1082.0, 512.0, 22.0 ]
+					"patching_rect" : [ 2922.0, 1082.0, 512.0, 35.0 ]
 				}
 
 			}
@@ -2100,7 +2125,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1038.0, 978.0, 143.0, 22.0 ],
+					"patching_rect" : [ 1008.0, 991.0, 143.0, 22.0 ],
 					"text" : "s autosave_startup_prefs"
 				}
 
@@ -3107,7 +3132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1131.0, 858.0, 54.0, 22.0 ],
+					"patching_rect" : [ 1131.0, 860.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -3119,7 +3144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1131.0, 826.0, 70.0, 22.0 ],
+					"patching_rect" : [ 1131.0, 828.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -3131,7 +3156,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1175.0, 894.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1175.469775999999911, 902.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -3178,7 +3203,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1226.0, 986.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1231.0, 978.0, 72.0, 22.0 ],
 					"text" : "prepend set"
 				}
 
@@ -3250,7 +3275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1994.0, 885.5, 22.0, 22.0 ],
+					"patching_rect" : [ 1994.0, 852.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -4577,7 +4602,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3624.0, 2108.0, 215.0, 212.0 ],
-					"pic" : "SousaFX-maxproj-icon.png",
+					"pic" : "3x-12-6.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -5140,6 +5165,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-288", 0 ],
+					"order" : 4,
+					"source" : [ "obj-160", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-79", 0 ],
 					"order" : 1,
 					"source" : [ "obj-160", 0 ]
@@ -5534,7 +5567,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 1 ],
+					"destination" : [ "obj-296", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -6431,6 +6464,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-288", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-239", 0 ],
 					"midpoints" : [ 1163.5, 1396.0, 1251.5, 1396.0 ],
@@ -6459,6 +6499,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-270", 0 ],
 					"source" : [ "obj-293", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 1 ],
+					"source" : [ "obj-296", 0 ]
 				}
 
 			}
@@ -7164,16 +7211,16 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "SousaFX-maxproj-icon.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/icons",
-				"patcherrelativepath" : "../../default/icons",
+				"name" : "3x-12-6.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/emotes/3x-12-frames",
+				"patcherrelativepath" : "../../default/startup/emotes/3x-12-frames",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sousafx_startup_preferences.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 548.0, 1493.0, 751.0, 847.0 ],
+		"rect" : [ 1075.0, 53.0, 1485.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,81 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-420",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5208.5, 381.0, 141.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/index.html"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-416",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5257.5, 218.0, 115.0, 62.0 ],
+					"text" : ";\rmax launchbrowser https://discord.gg/feBwTZt84d"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-407",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5232.5, 297.0, 150.0, 62.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/Sousastep/sousastep/issues/new"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-383",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 5209.0, 164.0, 116.0, 22.0 ],
+					"text" : "select 1 3 5 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-382",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 5149.0, 482.0, 116.0, 22.0 ],
+					"text" : "select 1 3 5 6 7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-367",
+					"maxclass" : "newobj",
+					"numinlets" : 10,
+					"numoutlets" : 10,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 4955.0, 482.0, 158.0, 22.0 ],
+					"text" : "select 1 2 3 4 5 6 7 8 9"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-368",
 					"linecount" : 8,
@@ -1634,7 +1709,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5379.0, -24.0, 380.0, 456.0 ],
+					"patching_rect" : [ 5395.0, 117.0, 287.0, 456.0 ],
 					"suppressinlet" : 1,
 					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation/!;\n#X item 5 2 🦅 Attack/#;\n#X item 5 3 🪴 Sustain/$;\n#X item 5 4 ⚔️ Envelope Crossfade/@;\n#X item 5 5 📬 Post-Crossfade/%;\n#X item 5 6 ⏳ Delay & Reverb Sends/^;\n#X item 5 7 ♻️ Loopers/&;\n#X item 5 8 🥾 Kick Ducker/*;\n#X item 5 9 🎧 Monitor Mix/(;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation/~;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
 				}
@@ -3249,7 +3324,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5082.0, 397.0, 58.0, 35.0 ],
+					"patching_rect" : [ 5227.0, 538.0, 58.0, 35.0 ],
 					"text" : ";\rdsp open"
 				}
 
@@ -4649,8 +4724,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -4892,22 +4967,11 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5362.0, 567.0, 119.0, 22.0 ],
-					"text" : "s audio_status_open"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-100",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5354.0, 605.0, 136.0, 22.0 ],
+					"patching_rect" : [ 4503.0, 1086.0, 136.0, 22.0 ],
 					"text" : "SousaFX_Audio_Status",
 					"varname" : "SousaFX_Audio_Status"
 				}
@@ -5205,7 +5269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4718.0, -154.0, 112.0, 35.0 ],
+					"patching_rect" : [ 4955.0, -72.0, 112.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "option + m toggles custom menubar",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -5219,7 +5283,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 4662.0, -134.0, 47.0, 22.0 ],
+					"patching_rect" : [ 4899.0, -52.0, 47.0, 22.0 ],
 					"text" : "sel 181"
 				}
 
@@ -5231,7 +5295,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 4662.0, -170.0, 50.5, 22.0 ],
+					"patching_rect" : [ 4899.0, -88.0, 50.5, 22.0 ],
 					"text" : "key"
 				}
 
@@ -5552,7 +5616,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5338.0, 705.0, 118.0, 22.0 ],
+					"patching_rect" : [ 5227.0, 645.0, 118.0, 22.0 ],
 					"text" : "\"Controller Bindings\"",
 					"varname" : "Controller Bindings"
 				}
@@ -5564,7 +5628,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5338.0, 673.0, 152.0, 22.0 ],
+					"patching_rect" : [ 5227.0, 613.0, 152.0, 22.0 ],
 					"text" : "s controller_bindings_open"
 				}
 
@@ -5640,41 +5704,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4718.0, -98.0, 70.0, 22.0 ],
+					"patching_rect" : [ 4777.0, -66.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-1358",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4770.0, -54.0, 229.203994750976562, 79.0 ],
-					"suppressinlet" : 1,
-					"text" : "#X item 5 1 open Audio Effect Parameters;\r#X item 5 2 open Controller Bindings;\r#X item 5 3 open Documentation/G;\r#X item 5 4 -;\r#X item 5 5 About;",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1289",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4614.0, 30.0, 101.0, 54.0 ],
-					"suppressinlet" : 1,
-					"text" : "double-click to edit menu specification",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -5686,7 +5717,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4718.0, -46.0, 31.0, 31.0 ]
+					"patching_rect" : [ 4777.0, -14.0, 31.0, 31.0 ]
 				}
 
 			}
@@ -5707,23 +5738,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1310",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 5090.0, 102.0, 54.0, 23.0 ],
-					"triangle" : 0,
-					"triscale" : 0.9
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-1312",
@@ -5732,7 +5746,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4998.0, 78.0, 53.0, 23.0 ],
+					"patching_rect" : [ 4898.0, 279.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -5747,7 +5761,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4906.0, 78.0, 53.0, 23.0 ],
+					"patching_rect" : [ 4820.0, 267.0, 53.0, 23.0 ],
 					"triscale" : 0.9
 				}
 
@@ -5777,38 +5791,8 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4718.0, 74.0, 53.0, 23.0 ],
+					"patching_rect" : [ 4675.0, 74.0, 53.0, 23.0 ],
 					"triscale" : 0.9
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1324",
-					"maxclass" : "newobj",
-					"numinlets" : 17,
-					"numoutlets" : 17,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 5090.0, 139.0, 266.0, 23.0 ],
-					"text" : "select 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1334",
-					"linecount" : 4,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4578.0, -46.0, 151.0, 65.0 ],
-					"suppressinlet" : 1,
-					"text" : "Turn on to enable patchers menus (observe the menu bar),\rturn off to disable",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -5835,7 +5819,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4638.0, 250.0, 40.0, 23.0 ],
+					"patching_rect" : [ 4638.0, 271.0, 40.0, 23.0 ],
 					"text" : "open"
 				}
 
@@ -5849,7 +5833,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4638.0, 282.0, 58.0, 23.0 ],
+					"patching_rect" : [ 4638.0, 303.0, 58.0, 23.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -5862,25 +5846,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4638.0, 310.0, 102.0, 23.0 ],
+					"patching_rect" : [ 4638.0, 331.0, 102.0, 23.0 ],
 					"text" : "about_SousaFX",
 					"varname" : "about_SousaFX"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"border" : 0,
-					"filename" : "helpargs.js",
-					"id" : "obj-1340",
-					"ignoreclick" : 1,
-					"jsarguments" : [ "menubar" ],
-					"maxclass" : "jsui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 5073.0, -24.0, 229.703994750976562, 39.0 ]
 				}
 
 			}
@@ -5893,7 +5861,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4718.0, 98.0, 59.0, 65.0 ],
+					"patching_rect" : [ 4685.0, 98.0, 59.0, 65.0 ],
 					"suppressinlet" : 1,
 					"text" : "1 if the \nAbout...\nitem is \nchosen",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -5925,7 +5893,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4902.0, 102.0, 71.0, 50.0 ],
+					"patching_rect" : [ 4816.0, 291.0, 71.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "Any items added to Edit menu",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -5941,7 +5909,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4994.0, 102.0, 62.0, 50.0 ],
+					"patching_rect" : [ 4894.0, 303.0, 62.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "Window menu items",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -10478,13 +10446,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1310", 0 ],
-					"source" : [ "obj-1309", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1312", 0 ],
 					"source" : [ "obj-1309", 3 ]
 				}
@@ -10513,16 +10474,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"source" : [ "obj-131", 0 ]
+					"destination" : [ "obj-367", 0 ],
+					"source" : [ "obj-1309", 4 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1324", 0 ],
-					"midpoints" : [ 5099.5, 126.0, 5099.5, 126.0 ],
-					"source" : [ "obj-1310", 0 ]
+					"destination" : [ "obj-382", 0 ],
+					"source" : [ "obj-1309", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-383", 0 ],
+					"source" : [ "obj-1309", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-131", 0 ]
 				}
 
 			}
@@ -10536,122 +10510,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1335", 0 ],
-					"midpoints" : [ 4727.5, 100.0, 4647.5, 100.0 ],
+					"midpoints" : [ 4684.5, 181.0, 4647.5, 181.0 ],
 					"source" : [ "obj-1321", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 1 ],
-					"source" : [ "obj-1324", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1336", 0 ],
-					"source" : [ "obj-1324", 15 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-172", 0 ],
-					"source" : [ "obj-1324", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-185", 1 ],
-					"source" : [ "obj-1324", 12 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-207", 1 ],
-					"source" : [ "obj-1324", 13 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 1 ],
-					"source" : [ "obj-1324", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 1 ],
-					"source" : [ "obj-1324", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
-					"source" : [ "obj-1324", 7 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 1 ],
-					"source" : [ "obj-1324", 8 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 1 ],
-					"source" : [ "obj-1324", 11 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-64", 1 ],
-					"source" : [ "obj-1324", 10 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-71", 1 ],
-					"source" : [ "obj-1324", 9 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 1 ],
-					"source" : [ "obj-1324", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
-					"source" : [ "obj-1324", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 1 ],
-					"order" : 1,
-					"source" : [ "obj-1324", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1324", 2 ]
 				}
 
 			}
@@ -13220,6 +13080,69 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 1 ],
+					"source" : [ "obj-367", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 1 ],
+					"source" : [ "obj-367", 7 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"source" : [ "obj-367", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 1 ],
+					"source" : [ "obj-367", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 1 ],
+					"source" : [ "obj-367", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 1 ],
+					"source" : [ "obj-367", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 1 ],
+					"source" : [ "obj-367", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 1 ],
+					"source" : [ "obj-367", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"source" : [ "obj-367", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-64", 1 ],
 					"source" : [ "obj-37", 1 ]
 				}
@@ -13315,6 +13238,69 @@
 				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-381", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-172", 0 ],
+					"source" : [ "obj-382", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-207", 1 ],
+					"source" : [ "obj-382", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 1 ],
+					"source" : [ "obj-382", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-382", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 1 ],
+					"source" : [ "obj-382", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1336", 0 ],
+					"source" : [ "obj-383", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-407", 0 ],
+					"source" : [ "obj-383", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-416", 0 ],
+					"source" : [ "obj-383", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-420", 0 ],
+					"source" : [ "obj-383", 0 ]
 				}
 
 			}
@@ -16080,12 +16066,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "helpargs.js",
-				"bootpath" : "C74:/help/resources",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
