@@ -1,4 +1,4 @@
-[![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) 
+[![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
 
 <p align="center" width="100%">
   <img src="./media/rainbow.png" alt="rainbow" />
@@ -6,7 +6,7 @@
 
 # :studio_microphone: Introduction
 
-Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as loopers, stutter, envelope crossfades, continuous accelerandos, sidechain kick compression, auto-filters, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
+Thanks for checking out SousaFX, a rig that caters to tuba players who are interested in electronic music performance. A game controller tied to the side of the tuba controls a wide range of fine-tuned effects such as loopers, stutter, envelope crossfades, continuous accelerandos, sidechain kick compression, auto-filters, variable latency compensation, etc. SousaFX can also integrate with Ableton Live (and other DAWs) to sync with drum loops and backing tracks.
 
 <p align="center" width="100%">
   <img src="./media/rainbow.png" alt="rainbow" />
