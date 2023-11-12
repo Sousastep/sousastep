@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 548.0, 1493.0, 751.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1628,15 +1628,15 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
+					"fontname" : "Monaco",
 					"id" : "obj-386",
-					"linecount" : 20,
+					"linecount" : 29,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5370.0, 139.0, 207.0, 309.0 ],
+					"patching_rect" : [ 5379.0, -24.0, 380.0, 456.0 ],
 					"suppressinlet" : 1,
-					"text" : "#X about About SousaFX…;\r#X closeitem;\r#X menutitle 5 SousaFX;\r#X item 5 1 Controller Bindings/B;\r#X item 5 2 Max Audio Status/M;\r#X item 5 3 Audio IO Status/A;\r#X item 5 4 Envelope Crossfade/E;\r#X item 5 5 Modulation/D;\r#X item 5 6 Delay & Reverb Sends/S;\r#X item 5 7 Monitor Mix/I;\r#X item 5 8 Metronome/T;\r#X item 5 9 Loopers/L;\r#X item 5 10 Post-Crossfade FX/F;\r#X item 5 11 Attack FX/G;\r#X item 5 12 Sustain FX/J;\r#X item 5 13 Kick Ducker/K;\r#X item 5 14 MIDI Status/U;\r#X item 5 15 -;\r#X item 5 16 About;\r#X end;\r"
+					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation/!;\n#X item 5 2 🦅 Attack/#;\n#X item 5 3 🪴 Sustain/$;\n#X item 5 4 ⚔️ Envelope Crossfade/@;\n#X item 5 5 📬 Post-Crossfade/%;\n#X item 5 6 ⏳ Delay & Reverb Sends/^;\n#X item 5 7 ♻️ Loopers/&;\n#X item 5 8 🥾 Kick Ducker/*;\n#X item 5 9 🎧 Monitor Mix/(;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation/~;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
 				}
 
 			}
@@ -4649,8 +4649,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -5697,11 +5697,11 @@
 					"id" : "obj-1309",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "int", "int", "int", "int", "int", "int" ],
-					"patching_rect" : [ 4718.0, 50.0, 71.5, 23.0 ],
-					"save" : [ "#N", "menubar", 6, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "SousaFX", ";", "#X", "item", 5, 1, "Controller", "Bindings/B", ";", "#X", "item", 5, 2, "Max", "Audio", "Status/M", ";", "#X", "item", 5, 3, "Audio", "IO", "Status/A", ";", "#X", "item", 5, 4, "Envelope", "Crossfade/E", ";", "#X", "item", 5, 5, "Modulation/D", ";", "#X", "item", 5, 6, "Delay", "&", "Reverb", "Sends/S", ";", "#X", "item", 5, 7, "Monitor", "Mix/I", ";", "#X", "item", 5, 8, "Metronome/T", ";", "#X", "item", 5, 9, "Loopers/L", ";", "#X", "item", 5, 10, "Post-Crossfade", "FX/F", ";", "#X", "item", 5, 11, "Attack", "FX/G", ";", "#X", "item", 5, 12, "Sustain", "FX/J", ";", "#X", "item", 5, 13, "Kick", "Ducker/K", ";", "#X", "item", 5, 14, "MIDI", "Status/U", ";", "#X", "item", 5, 15, "-", ";", "#X", "item", 5, 16, "About", ";", "#X", "menutitle", 6, "💙", ";", "#X", "item", 6, 1, "test1/1", ";", "#X", "item", 6, 2, "test2/2", ";", "#X", "end", ";" ],
-					"text" : "menubar 6"
+					"numoutlets" : 7,
+					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int" ],
+					"patching_rect" : [ 4777.0, 30.0, 380.0, 23.0 ],
+					"save" : [ "#N", "menubar", 7, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "🔊", "FX", ";", "#X", "item", 5, 1, "🌊", "Modulation/!", ";", "#X", "item", 5, 2, "🦅", "Attack/#", ";", "#X", "item", 5, 3, "🪴", "Sustain/$", ";", "#X", "item", 5, 4, "⚔️", "Envelope", "Crossfade/@", ";", "#X", "item", 5, 5, "📬", "Post-Crossfade/%", ";", "#X", "item", 5, 6, "⏳", "Delay", "&", "Reverb", "Sends/^", ";", "#X", "item", 5, 7, "♻️", "Loopers/&", ";", "#X", "item", 5, 8, "🥾", "Kick", "Ducker/*", ";", "#X", "item", 5, 9, "🎧", "Monitor", "Mix/(", ";", "#X", "menutitle", 6, "⚙️", "Settings", ";", "#X", "item", 6, 1, "🎮", "Controller", "Bindings/B", ";", "#X", "item", 6, 2, "-", ";", "#X", "item", 6, 3, "🥁", "Tempo/T", ";", "#X", "item", 6, 4, "-", ";", "#X", "item", 6, 5, "🎛", "MIDI", "IO/{", ";", "#X", "item", 6, 6, "🎙", "Audio", "IO/}", ";", "#X", "item", 6, 7, "🔈", "Audio", "Status.../|", ";", "#X", "menutitle", 7, "🛟", "Support", ";", "#X", "item", 7, 1, "📙", "Documentation/~", ";", "#X", "item", 7, 2, "-", ";", "#X", "item", 7, 3, "🐞", "Report", "a", "Bug", ";", "#X", "item", 7, 4, "-", ";", "#X", "item", 7, 5, "👾", "Join", "the", "Discord", ";", "#X", "item", 7, 6, "-", ";", "#X", "item", 7, 7, "🥺", "Donate", ";", "#X", "end", ";" ],
+					"text" : "menubar 7"
 				}
 
 			}
@@ -5880,7 +5880,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5110.0, 50.0, 229.703994750976562, 39.0 ]
+					"patching_rect" : [ 5073.0, -24.0, 229.703994750976562, 39.0 ]
 				}
 
 			}
@@ -6670,7 +6670,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5362.0, 103.0, 200.0, 22.0 ],
+					"patching_rect" : [ 5087.851997375488281, -85.0, 200.0, 22.0 ],
 					"text" : "s~ primary_audio_FX_are_engaged"
 				}
 
@@ -6682,7 +6682,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5362.0, 67.0, 41.0, 22.0 ],
+					"patching_rect" : [ 5087.851997375488281, -121.0, 41.0, 22.0 ],
 					"text" : "sig~ 1"
 				}
 
@@ -9689,7 +9689,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1147.0, 1210.0, 29.0, 22.0 ],
+					"patching_rect" : [ 1341.0, 1182.0, 29.0, 22.0 ],
 					"text" : "thru"
 				}
 
@@ -15085,7 +15085,7 @@
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
-			"obj-234::obj-144" : [ "bars per risset loop", "bars per risset loop", 0 ],
+			"obj-234::obj-144" : [ "bars per risset loop", "bars per accel loop", 0 ],
 			"obj-248::obj-21::obj-191" : [ "vst~[40]", "vst~", 0 ],
 			"obj-251::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-274" : [ "number", "number", 0 ],
@@ -15733,8 +15733,8 @@
 			}
 , 			{
 				"name" : "SousaFX Background Color Preference.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
+				"patcherrelativepath" : "../../default/presets",
 				"type" : "JSON",
 				"implicit" : 1
 			}
