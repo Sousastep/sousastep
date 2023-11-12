@@ -129,7 +129,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 856.5, 75.0, 133.0, 22.0 ],
-					"text" : "qmetro 1000 @active 0"
+					"text" : "qmetro 1000 @active 1"
 				}
 
 			}
@@ -1169,8 +1169,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 146.0, 631.0, 215.0, 23.0 ],
-					"text" : "gamepad @keepalive 1 @interval 8"
+					"patching_rect" : [ 146.0, 631.0, 132.0, 23.0 ],
+					"text" : "gamepad @interval 8"
 				}
 
 			}
@@ -1445,6 +1445,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-740", 0 ],
 					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2110,16 +2117,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "dummy_selector.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
