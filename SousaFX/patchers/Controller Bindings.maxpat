@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1653.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,26 +42,38 @@
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 0.513725490196078, 0.086274509803922, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 1.0, 0.513725490196078, 0.086274509803922, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Monaco",
+					"id" : "obj-176",
+					"items" : [ "Latch", ",", "Trigger" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2065.0, 2421.0, 100.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 120.0, 1003.0, 82.0, 23.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"varname" : "dpad & L1 hold or trigger"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-535",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1678.0, 2168.0, 142.0, 22.0 ],
 					"text" : "s \"mute and clear looper\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-529",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1021.0, 1431.0, 150.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 352.5, 1530.0, 150.0, 21.0 ],
-					"suppressinlet" : 1
 				}
 
 			}
@@ -402,7 +414,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1457.0, 3035.75, 133.0, 21.5 ],
+					"patching_rect" : [ 1597.0, 3026.25, 133.0, 21.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 540.0, 791.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -425,7 +437,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1457.0, 3012.25, 133.0, 21.5 ],
+					"patching_rect" : [ 1597.0, 3002.25, 133.0, 21.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 391.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -6888,7 +6900,7 @@
 					"patching_rect" : [ 2980.0, 1154.0, 250.0, 283.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 17,
-					"presentation_rect" : [ 288.0, 1024.228064793224803, 250.0, 283.0 ],
+					"presentation_rect" : [ 207.5, 998.499999999999545, 250.0, 283.0 ],
 					"text" : "This determines how the dpad and LB react to their modifier key, LT.\n\nHold: Toggling with LT doesn't trigger dpad or LB. This is useful for being able to lock open sends.\n\nTrigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.\n\nThis parameter is saved with the bindings' user presets.",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
@@ -8064,14 +8076,14 @@
 				"box" : 				{
 					"fontface" : 0,
 					"fontname" : "Monaco",
-					"fontsize" : 166.0,
+					"fontsize" : 230.0,
 					"id" : "obj-296",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.0, 1195.0, 114.0, 214.0 ],
+					"patching_rect" : [ 877.0, 1195.0, 159.0, 294.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 197.0, 831.0, 114.0, 214.0 ],
+					"presentation_rect" : [ 147.0, 819.0, 159.0, 294.0 ],
 					"text" : "{",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ]
 				}
@@ -8354,7 +8366,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 838.0, 1292.0, 71.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 111.0, 937.0, 105.0, 39.0 ],
+					"presentation_rect" : [ 100.0, 961.0, 76.0, 39.0 ],
 					"text" : "LT",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ],
 					"textjustification" : 1
@@ -8576,7 +8588,7 @@
 					"patching_rect" : [ 789.0, 1571.0, 108.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 103.200001537799835, 1217.60001814365387, 108.0, 46.0 ],
+					"presentation_rect" : [ 97.5, 1371.852941176469812, 108.0, 46.0 ],
 					"suppressinlet" : 1,
 					"text" : "Right Joystick",
 					"textcolor" : [ 0.337254901960784, 0.964705882352941, 0.749019607843137, 1.0 ],
@@ -8596,7 +8608,7 @@
 					"patching_rect" : [ 789.0, 1435.0, 108.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 103.399998724460602, 1049.600015640258789, 108.0, 46.0 ],
+					"presentation_rect" : [ 97.5, 1177.088235294117112, 108.0, 46.0 ],
 					"suppressinlet" : 1,
 					"text" : "Left Joystick",
 					"textcolor" : [ 0.317647058823529, 0.643137254901961, 1.0, 1.0 ],
@@ -9074,32 +9086,6 @@
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3593.0, 1650.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.513725490196078, 0.086274509803922, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 1.0, 0.513725490196078, 0.086274509803922, 1.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
-					"id" : "obj-176",
-					"items" : [ "Latch", ",", "Trigger" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2065.0, 2421.0, 100.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 129.0, 978.0, 100.0, 23.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "dpad & L1 hold or trigger"
 				}
 
 			}

@@ -48,7 +48,8 @@
 					"MIDI MAP OUT[11]::drum loop volume MIDI MIDIOUT" : [ 30 ],
 					"MIDI MAP OUT[12]::mute_octaver_midi MIDIOUT" : [ 0 ],
 					"MIDI MAP OUT[13]::Talkback Mic Mute [ v ] MIDIOUT" : [ 50 ],
-					"MIDI MAP OUT[14]::Drum Clip Stutter Accel (uni) MIDIOUT" : [ 76 ]
+					"MIDI MAP OUT[14]::Drum Clip Stutter Accel (uni) MIDIOUT" : [ 76 ],
+					"MIDI MAP OUT[15]::Drum Clip Stutter Gated or Thru MIDIOUT" : [ 77 ]
 				}
 
 			}
