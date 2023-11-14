@@ -40,7 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.76078431372549, 1.0, 1.0 ],
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1648.0, 229.0, 29.5, 22.0 ],
+					"text" : "+ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"appearance" : 1,
 					"id" : "obj-22",
 					"maxclass" : "live.dial",
@@ -48,7 +60,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1716.0, 222.0, 25.0, 36.0 ],
+					"patching_rect" : [ 1703.0, 215.0, 25.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 247.0, 4.0, 40.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
@@ -78,8 +90,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1589.0, 229.0, 56.0, 22.0 ],
-					"text" : "+~ 0.014"
+					"patching_rect" : [ 1589.0, 229.0, 36.0, 22.0 ],
+					"text" : "+~ 0."
 				}
 
 			}
@@ -87,11 +99,11 @@
 				"box" : 				{
 					"id" : "obj-1227",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1589.0, 265.0, 72.0, 22.0 ],
-					"text" : "pong~ 1 0 1"
+					"patching_rect" : [ 1589.0, 272.0, 36.0, 22.0 ],
+					"text" : "%~ 1"
 				}
 
 			}
@@ -116,7 +128,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.76078431372549, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"appearance" : 1,
 					"id" : "obj-159",
 					"maxclass" : "live.dial",
@@ -238,7 +250,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.76078431372549, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"appearance" : 1,
 					"id" : "obj-106",
 					"maxclass" : "live.dial",
@@ -300,7 +312,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.76078431372549, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"appearance" : 1,
 					"id" : "obj-145",
 					"maxclass" : "live.dial",
@@ -345,7 +357,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1555.0, 131.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1544.0, 177.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1092,6 +1104,10 @@
 							"expression" : ""
 						}
 ,
+						"activetextcolor" : 						{
+							"expression" : "themecolor.live_control_fg_on"
+						}
+,
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_initial" : [ 0 ],
@@ -1114,7 +1130,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.92549, 1.0, 1.0 ],
-					"activebgoncolor" : [ 0.0, 1.0, 0.505882352941176, 1.0 ],
+					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -1136,6 +1152,10 @@
 ,
 						"activebgoncolor" : 						{
 							"expression" : "themecolor.live_macro_assignment"
+						}
+,
+						"activetextcolor" : 						{
+							"expression" : "themecolor.live_control_fg_on"
 						}
 ,
 						"valueof" : 						{
@@ -2291,7 +2311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1601.0, 153.0, 92.0, 22.0 ],
+					"patching_rect" : [ 1589.0, 181.0, 92.0, 22.0 ],
 					"text" : "r~ main_phasor"
 				}
 
@@ -3379,7 +3399,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1232", 1 ],
+					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -3841,6 +3861,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1232", 1 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}

@@ -36,20 +36,63 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
   <img src="./media/rainbow.png" alt="rainbow" />
 </p>
 
-# :floppy_disk: Software Installation
+# :floppy_disk: Installation
 
-1. [Download Max](https://cycling74.com/downloads) from Cycling '74.
+1. [Download Max](https://cycling74.com/downloads) from Cycling '74. 
+
+    Open Max, click "Menubar > Max > Preferences...", and set the following preferences:
+        
+    - Interface > Restore Windows on Launch [uncheck]
+    
+    - RNBO > Start RNBO Server on Launch [uncheck]
+
+    - Mixer > Enable Mixer Parallel Processing [check]
 
 > [!NOTE]
 > SousaFX remains fully operational after Max's 30-day trial ends.
 
 2. [Download sousastep](https://github.com/Sousastep/sousastep/releases/latest) to your `~/Documents/Max 8/Projects/` folder. 
 
-> [!NOTE]
-> Optionally, for thoughtful quotes whenever SousaFX boots, download [oblique-strategies](https://github.com/zzkt/oblique-strategies) to `~/Documents/Max 8/Projects/sousastep/default/`
-
 > [!IMPORTANT]
 > When updating to new versions of SousaFX, copy all user preset files from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` to the new version's `sousastep/SousaFX/data/` folder.
+
+## Optional Software
+
+3. For thoughtful quotes whenever SousaFX boots, download [oblique-strategies](https://github.com/zzkt/oblique-strategies) to `~/Documents/Max 8/Projects/sousastep/default/`
+
+4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
+
+5. To open the "SousaPlayback template Project", [download Live Suite](https://www.ableton.com/en/trial/) from Ableton.
+
+    Open Live, click "Menubar > Live > Settings...", and set the following preferences:
+
+    - Audio > Audio Device [set preferred interface]
+
+    - Audio > In/Out Sample Rate [48000]
+
+    - Audio > Buffer Size [256]
+
+    - Link Tempo MIDI > MIDI Ports
+
+        - In: from Max 1 - Remote [check]
+
+        - Out: to Max 1 - Track [check]
+
+> [!NOTE]
+> SousaPlayback uses a number of custom Max For Live devices which unfortunately won't function once Live Suite's 30-day trial runs out.
+
+## Optional Plugins
+
+6.  [Sonobus](https://sonobus.net/#download), for networked jamming with folks in the same continent.
+
+7.  [Jamtaba](https://github.com/elieserdejesus/JamTaba/releases), for networked jamming with folks in different continents.
+
+> [!NOTE]
+> Sonobus or Jamtaba may be placed in SousaPlayback's "NETWORK" track.
+
+8.  [Kilohearts Essentials](https://kilohearts.com/products/kilohearts_essentials) "A free collection of extremely useful effects."
+
+9.  [Melda Production](https://www.meldaproduction.com/MFreeFxBundle) "The biggest and the most powerful free plugins pack available."
 
 <p align="center" width="100%">
   <img src="./media/rainbow.png" alt="rainbow" />
