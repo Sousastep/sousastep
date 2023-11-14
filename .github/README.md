@@ -38,6 +38,8 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 
 # :floppy_disk: Installation
 
+## Required
+
 1. [Download Max](https://cycling74.com/downloads) from Cycling '74. 
 
     Open Max, click "Menubar > Max > Preferences...", and set the following preferences:
@@ -56,13 +58,9 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 > [!IMPORTANT]
 > When updating to new versions of SousaFX, copy all user preset files from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` to the new version's `sousastep/SousaFX/data/` folder.
 
-## Optional Software
+## Optional
 
-3. For thoughtful quotes whenever SousaFX boots, download [oblique-strategies](https://github.com/zzkt/oblique-strategies) to `~/Documents/Max 8/Projects/sousastep/default/`
-
-4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
-
-5. To open the "SousaPlayback template Project", [download Live Suite](https://www.ableton.com/en/trial/) from Ableton.
+3. To open the "SousaPlayback template Project", [download Live Suite](https://www.ableton.com/en/trial/) from Ableton.
 
     Open Live, click "Menubar > Live > Settings...", and set the following preferences:
 
@@ -81,7 +79,9 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 > [!NOTE]
 > SousaPlayback uses a number of custom Max For Live devices which unfortunately won't function once Live Suite's 30-day trial runs out.
 
-## Optional Plugins
+4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
+
+5. For thoughtful quotes whenever SousaFX boots, download [oblique-strategies](https://github.com/zzkt/oblique-strategies) to `~/Documents/Max 8/Projects/sousastep/default/`
 
 6.  [Sonobus](https://sonobus.net/#download), for networked jamming with folks in the same continent.
 
