@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 582.0, 1493.0, 1372.0, 813.0 ],
+		"rect" : [ 705.0, 324.0, 1372.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -263,7 +263,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1530.500319567753195, 1372.0, 50.0, 62.0 ],
+					"patching_rect" : [ 1444.500319567753195, 1375.0, 50.0, 62.0 ],
 					"text" : "0.756863 0.556863 1."
 				}
 
@@ -276,7 +276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1468.477845853938334, 1372.0, 50.0, 62.0 ],
+					"patching_rect" : [ 1381.500319567753195, 1375.0, 50.0, 62.0 ],
 					"text" : "0.239216 1. 0.301961"
 				}
 
@@ -289,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1380.522793281568056, 1372.0, 75.932578858555416, 35.0 ],
+					"patching_rect" : [ 1294.500319567753195, 1375.0, 75.932578858555416, 35.0 ],
 					"text" : "1. 0.286275 0.309804 1."
 				}
 
@@ -302,7 +302,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1294.500319567753195, 1372.0, 74.0, 49.0 ],
+					"patching_rect" : [ 1506.500319567753195, 1375.0, 74.0, 49.0 ],
 					"text" : "0.917647 0.929412 0.894118 1."
 				}
 
@@ -410,7 +410,7 @@
 
 					}
 ,
-					"tricolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"tricolor" : [ 0.917647, 0.929412, 0.894118, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -525,7 +525,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 514.5, 1201.0, 115.0, 22.0 ],
-					"restore" : [ -6.807086614173302 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1222,6 +1222,12 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 99.131327819747639, 860.97608175710161, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
+						"mix" : 						{
+							"label" : "mix",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"volume" : 						{
 							"label" : "volume",
 							"isEnum" : 0,
@@ -1230,12 +1236,6 @@
 ,
 						"regen" : 						{
 							"label" : "regen",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"mix" : 						{
-							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2429,7 +2429,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-80", 0 ],
+					"destination" : [ "obj-82", 0 ],
 					"source" : [ "obj-12", 1 ]
 				}
 
@@ -2464,7 +2464,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-82", 0 ],
+					"destination" : [ "obj-84", 0 ],
 					"source" : [ "obj-13", 1 ]
 				}
 
@@ -2645,15 +2645,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-19", 0 ]
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
-					"source" : [ "obj-19", 1 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -3115,15 +3115,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
-					"source" : [ "obj-9", 1 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-9", 0 ]
+					"destination" : [ "obj-80", 0 ],
+					"source" : [ "obj-9", 1 ]
 				}
 
 			}
@@ -3315,7 +3315,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

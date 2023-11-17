@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 577.0, 597.0, 1182.0, 748.0 ],
+		"rect" : [ 326.0, 284.0, 2138.0, 1068.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2045,42 +2045,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-16",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 958.0, 973.0, 55.0, 22.0 ],
-					"text" : "del 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 958.0, 942.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 958.0, 910.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -2159,7 +2123,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 958.0, 1077.0, 29.5, 22.0 ],
-					"text" : "i 0"
+					"text" : "i"
 				}
 
 			}
@@ -2170,7 +2134,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 905.0, 1188.0, 245.0, 22.0 ],
+					"patching_rect" : [ 823.0, 1183.0, 245.0, 22.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -2189,7 +2153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 955.0, 1233.0, 215.0, 21.0 ],
+					"patching_rect" : [ 873.0, 1228.0, 215.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 701.0, 214.0, 117.0, 35.0 ],
@@ -2213,7 +2177,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 897.0, 1233.0, 71.0, 32.0 ],
+					"patching_rect" : [ 815.0, 1228.0, 71.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 822.0, 216.0, 78.0, 32.0 ],
 					"varname" : "number"
@@ -2573,9 +2537,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 599.0, 1715.0, 55.0, 22.0 ],
-					"text" : "del 1000"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 551.0, 1350.0, 61.0, 22.0 ],
+					"text" : "pipe 1000"
 				}
 
 			}
@@ -2586,7 +2550,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 1681.0, 54.0, 22.0 ],
+					"patching_rect" : [ 551.0, 1310.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -2598,7 +2562,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 599.0, 1645.0, 77.0, 22.0 ],
+					"patching_rect" : [ 551.0, 1274.0, 77.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -3199,10 +3163,11 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-49",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 1321.0, 191.0, 21.0 ],
+					"patching_rect" : [ 380.0, 1313.5, 118.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "bang if control passes default value"
 				}
@@ -3963,13 +3928,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-110", 0 ]
 				}
@@ -4022,13 +3980,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-121", 0 ],
 					"source" : [ "obj-119", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -4284,13 +4235,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-161", 0 ],
 					"source" : [ "obj-159", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-16", 0 ]
 				}
 
 			}
@@ -4717,7 +4661,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-1082", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -5210,8 +5154,8 @@
 			}
 , 			{
 				"name" : "Max_4zXnGO9MMI.jpg",
-				"bootpath" : "~/Downloads/Sunnyside Electric artwork",
-				"patcherrelativepath" : "../../../../../../Downloads/Sunnyside Electric artwork",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
