@@ -33,19 +33,24 @@
 					"mod params::verylow_SnTrSq" : [ 0 ],
 					"mod params::verylow_duty_cycle" : [ 0.0 ],
 					"mod params::verylow_floor" : [ 5.511811 ],
-					"mod params::rez_min" : [ 30 ],
+					"mod params::rez_min" : [ 33 ],
 					"mod params::rez_max" : [ 71 ],
 					"mod params::wah_or_trem" : [ 0 ],
 					"mod params::high_phase_offset[1]" : [ 47.244094488188956 ],
 					"mod params::high_duty_cycle" : [ 12.598425196850393 ],
+					"mod params::enable auto-wah" : [ 1 ],
+					"mod params::LPFresonance" : [ 39.77007874015748 ],
+					"mod params::function-ceiling" : [ 1.0, 0.0, 1.0, 0.0, 0.005116973898361, 0, 0.0, 0.077048190728119, 0.134751205433295, 0, 0.0, 1.0, 0.8, 0, 0.0, "curve" ],
+					"mod params::function-floor" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.139923004577976, 0.016551706668883, 0, 0.0, 1.0, 0.177100219594472, 0, 0.0, "curve" ],
+					"mod params::transient_detect::transient_definition" : [ 0 ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [ 1 ],
 					"metronome[1]::metronome_settings[1]" : [ 1 ],
 					"Loopers::dual_loopers[1]" : [ 1 ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [ 1 ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [ 1 ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [ 1 ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [ 1 ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [ 1 ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [ 1 ],
@@ -70,7 +75,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [ 1 ],
 					"sidechained_kick_params::sidechained_kick_params" : [ 1 ],
 					"patcher::Main Input stutter tremolo filters" : [ 1 ],
-					"patcher[1]::monitor_mix" : [ 1 ]
+					"patcher[1]::monitor_mix" : [ 1 ],
+					"patcher[2]::SousaFX Background Color Preference" : [ 1 ]
 				}
 
 			}
@@ -111,14 +117,19 @@
 					"mod params::wah_or_trem" : [ 0 ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [ 1 ],
 					"metronome[1]::metronome_settings[1]" : [ 1 ],
 					"Loopers::dual_loopers[1]" : [ 1 ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [ 1 ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [ 1 ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [ 1 ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [ 1 ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [ 1 ],
@@ -143,7 +154,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -184,14 +196,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -216,7 +233,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -257,14 +275,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -289,7 +312,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -330,14 +354,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -362,7 +391,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -403,14 +433,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -435,7 +470,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -476,14 +512,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -508,7 +549,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -549,14 +591,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -581,7 +628,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -622,14 +670,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -654,7 +707,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -695,14 +749,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -727,7 +786,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -768,14 +828,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -800,7 +865,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -841,14 +907,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -873,7 +944,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -914,14 +986,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -946,7 +1023,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -987,14 +1065,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1019,7 +1102,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1060,14 +1144,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1092,7 +1181,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1133,14 +1223,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1165,7 +1260,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1206,14 +1302,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1238,7 +1339,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1279,14 +1381,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1311,7 +1418,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1352,14 +1460,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1384,7 +1497,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
@@ -1425,14 +1539,19 @@
 					"mod params::wah_or_trem" : [  ],
 					"mod params::high_phase_offset[1]" : [  ],
 					"mod params::high_duty_cycle" : [  ],
+					"mod params::enable auto-wah" : [  ],
+					"mod params::LPFresonance" : [  ],
+					"mod params::function-ceiling" : [  ],
+					"mod params::function-floor" : [  ],
+					"mod params::transient_detect::transient_definition" : [  ],
 					"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
 					"metronome[1]::metronome_settings[1]" : [  ],
 					"Loopers::dual_loopers[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin[1]" : [  ],
-					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono[2]::octaver_comp_rnbo_or_plugin" : [  ],
+					"plugin_or_rnbo_selector_mono[1]::lows_comp_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[1]::dry_preamp_rnbo_or_plugin" : [  ],
-					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin[1]" : [  ],
+					"plugin_or_rnbo_selector_mono::octaver_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector::Dry-ish_FX_plugin1_rnbo_or_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Dry-ish_FX_plugin2_plugin" : [  ],
 					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Dry-ish_FX_plugin3_plugin" : [  ],
@@ -1457,7 +1576,8 @@
 					"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : [  ],
 					"sidechained_kick_params::sidechained_kick_params" : [  ],
 					"patcher::Main Input stutter tremolo filters" : [  ],
-					"patcher[1]::monitor_mix" : [  ]
+					"patcher[1]::monitor_mix" : [  ],
+					"patcher[2]::SousaFX Background Color Preference" : [  ]
 				}
 
 			}
