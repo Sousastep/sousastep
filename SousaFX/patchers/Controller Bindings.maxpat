@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-579",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1605.0, 1509.0, 157.0, 22.0 ],
+					"text" : "s controller_bindings_saved"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-456",
@@ -5266,10 +5277,10 @@
 					"id" : "obj-470",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1811.0, 1562.0, 45.0, 23.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 1811.0, 1562.0, 59.0, 23.0 ],
+					"text" : "t b b b"
 				}
 
 			}
@@ -16772,14 +16783,21 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-468", 0 ],
-					"source" : [ "obj-470", 0 ]
+					"source" : [ "obj-470", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-476", 0 ],
-					"source" : [ "obj-470", 1 ]
+					"source" : [ "obj-470", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-579", 0 ],
+					"source" : [ "obj-470", 0 ]
 				}
 
 			}

@@ -299,6 +299,7 @@
 					"after_diagonal" : [ 36.000000000000007 ],
 					"before_diagonal" : [ 2.000000000000028 ],
 					"diagonal_trigger_mode" : [ 0 ],
+					"controller_connector_bpatcher::gamepadLEDVFX::gamepadLEDVFX" : [ 1 ],
 					"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : [ 1 ],
 					"Drum Clip Crossfade (bi)::invert_control" : [ 0 ],
 					"Drum Clip Crossfade (bi)::curve[1]" : [ 0.0 ],

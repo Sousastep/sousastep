@@ -40,6 +40,17 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 400.0, 722.0, 70.0, 22.0 ],
+					"text" : "s #1_saved"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-59",
 					"maxclass" : "newobj",
@@ -195,7 +206,6 @@
 					"numoutlets" : 32,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 1550.0, 531.5, 296.0, 93.0 ],
-					"presentation_linecount" : 8,
 					"text" : "route AUAudioFilePlayer AUBandpass AUDelay AUDistortion AUDynamicsProcessor AUFilter AUGraphicEQ AUHighShelfFilter AUHipass AULowpass AULowShelfFilter AUMatrixReverb AUMIDISynth AUMultibandCompressor AUNBandEQ AUNetReceive AUNetSend AUNewPitch AUParametricEQ AUPeakLimiter AUPitch AUReverb2 AURogerBeep AURoundTripAAC AUSampleDelay AUSampler AUScheduledSoundPlayer AUSoundFieldPanner AUSoundIsolation AUSpeechSynthesis AUSphericalHeadPanner"
 				}
 
@@ -281,10 +291,10 @@
 					"id" : "obj-68",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 6,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 285.0, 711.0, 71.5, 23.0 ],
-					"text" : "b 6"
+					"numoutlets" : 7,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang" ],
+					"patching_rect" : [ 285.0, 711.0, 82.0, 23.0 ],
+					"text" : "b 7"
 				}
 
 			}
@@ -331,11 +341,12 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-79",
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 427.0, 814.0, 113.0, 23.0 ]
+					"patching_rect" : [ 427.0, 814.0, 113.0, 113.0 ]
 				}
 
 			}
@@ -742,7 +753,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 968.0, 1005.0, 287.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.951638418574476, 97.0, 71.0, 21.0 ]
+					"presentation_rect" : [ 115.951638418574476, 97.0, 73.0, 21.0 ]
 				}
 
 			}
@@ -1787,6 +1798,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-68", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-68", 6 ]
 				}
 
 			}

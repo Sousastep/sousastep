@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 691.0, 522.0, 1061.0, 739.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Sidechained Kick Parameters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1077.0, 1037.0, 222.0, 22.0 ],
+					"text" : "s \"Sidechained Kick Parameters_saved\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-426",
@@ -300,10 +311,10 @@
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 886.0, 961.0, 45.0, 23.0 ],
-					"text" : "t b b"
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "bang" ],
+					"patching_rect" : [ 886.0, 961.0, 59.0, 23.0 ],
+					"text" : "t b b b"
 				}
 
 			}
@@ -343,10 +354,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 682.0, 1113.0, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 87, 1440, 866 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 0, 87, 1440, 866 ]
 					}
 ,
 					"text" : "pattrstorage sidechained_kick_params @greedy 2 @savemode 0",
@@ -1527,6 +1538,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-360", 0 ],
 					"source" : [ "obj-379", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-38", 2 ]
 				}
 
 			}

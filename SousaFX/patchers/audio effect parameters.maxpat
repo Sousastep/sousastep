@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 564.0, 53.0, 1996.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -696,7 +696,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
-					"text" : "1020 453 1540 986"
+					"text" : "805 617 1755 822"
 				}
 
 			}
@@ -4185,8 +4185,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -5065,8 +5065,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 4348.0, 2688.0, 276.0, 22.0 ],
-					"text" : "four_plugin_selectors Pre-LPF_FX rnbo_overdrive",
+					"patching_rect" : [ 4348.0, 2688.0, 347.0, 22.0 ],
+					"text" : "four_plugin_selectors Pre-LPF_FX rnbo_overdrive \"Sustain FX\"",
 					"varname" : "four_plugin_selectors"
 				}
 
@@ -7374,8 +7374,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 4696.0, 2696.0, 278.0, 22.0 ],
-					"text" : "four_plugin_selectors Dry-ish_FX rnbo_pitchshifter",
+					"patching_rect" : [ 4696.0, 2696.0, 342.0, 22.0 ],
+					"text" : "four_plugin_selectors Dry-ish_FX rnbo_pitchshifter \"Attack FX\"",
 					"varname" : "plugin_or_rnbo_selector[2]"
 				}
 
@@ -7788,8 +7788,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2404.0, 2961.0, 115.0, 22.0 ],
-					"text" : "s modulation_saved"
+					"patching_rect" : [ 2404.0, 2961.0, 189.0, 22.0 ],
+					"text" : "s \"Modulation Parameters_saved\""
 				}
 
 			}
@@ -14632,15 +14632,15 @@
 			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[17]", "vst~", 0 ],
 			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[16]", "vst~", 0 ],
 			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[15]", "vst~", 0 ],
-			"obj-222::obj-1::obj-21::obj-191" : [ "vst~[60]", "vst~", 0 ],
-			"obj-222::obj-2::obj-191" : [ "vst~[57]", "vst~", 0 ],
-			"obj-222::obj-3::obj-191" : [ "vst~[59]", "vst~", 0 ],
-			"obj-222::obj-4::obj-191" : [ "vst~[58]", "vst~", 0 ],
+			"obj-222::obj-1::obj-21::obj-191" : [ "vst~[43]", "vst~", 0 ],
+			"obj-222::obj-2::obj-191" : [ "vst~[40]", "vst~", 0 ],
+			"obj-222::obj-3::obj-191" : [ "vst~[42]", "vst~", 0 ],
+			"obj-222::obj-4::obj-191" : [ "vst~[41]", "vst~", 0 ],
 			"obj-224::obj-21::obj-191" : [ "vst~[19]", "vst~", 0 ],
-			"obj-225::obj-1::obj-21::obj-191" : [ "vst~[39]", "vst~", 0 ],
-			"obj-225::obj-2::obj-191" : [ "vst~[36]", "vst~", 0 ],
-			"obj-225::obj-3::obj-191" : [ "vst~[38]", "vst~", 0 ],
-			"obj-225::obj-4::obj-191" : [ "vst~[37]", "vst~", 0 ],
+			"obj-225::obj-1::obj-21::obj-191" : [ "vst~[47]", "vst~", 0 ],
+			"obj-225::obj-2::obj-191" : [ "vst~[44]", "vst~", 0 ],
+			"obj-225::obj-3::obj-191" : [ "vst~[46]", "vst~", 0 ],
+			"obj-225::obj-4::obj-191" : [ "vst~[45]", "vst~", 0 ],
 			"obj-226::obj-21::obj-191" : [ "vst~[22]", "vst~", 0 ],
 			"obj-227::obj-21::obj-191" : [ "vst~[20]", "vst~", 0 ],
 			"obj-231::obj-21::obj-191" : [ "vst~[23]", "vst~", 0 ],

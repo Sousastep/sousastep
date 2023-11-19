@@ -92,8 +92,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 127.5, 50.0, 171.0, 22.0 ],
-					"text" : "\"floating window positioner\" #1"
+					"patching_rect" : [ 127.5, 50.0, 188.0, 22.0 ],
+					"text" : "\"floating window positioner\" #1 #3"
 				}
 
 			}
