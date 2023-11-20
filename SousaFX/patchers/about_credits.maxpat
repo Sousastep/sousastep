@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 412.0, -618.0, 640.0, 480.0 ],
+		"rect" : [ 889.0, 706.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,41 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 32.0, 217.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 32.0, 304.0, 52.0, 22.0 ],
+					"patching_rect" : [ 32.0, 251.0, 99.0, 22.0 ],
+					"text" : "s Licenses_open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 25.053182713441775,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 32.0, 284.0, 99.0, 36.0 ],
 					"text" : "licenses"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 268.0, 51.0, 22.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 32.0, 232.0, 35.0, 22.0 ],
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"align" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0 ],
 					"bgfillcolor_angle" : 270,
 					"bgfillcolor_autogradient" : 0,
@@ -96,8 +97,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 32.0, 180.913291359068921, 94.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 148.913291359068921, 219.0, 23.0 ],
-					"textcolor" : [ 0.847059, 0.847059, 0.847059, 1.0 ]
+					"presentation_rect" : [ 1.0, 29.0, 202.0, 23.0 ],
+					"textcolor" : [ 0.847059, 0.847059, 0.847059, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
@@ -122,9 +124,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 32.0, 45.913291359068921, 110.0, 23.0 ],
+					"patching_rect" : [ 34.0, 54.0, 110.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 13.913291359068921, 110.0, 23.0 ],
+					"presentation_rect" : [ 107.0, -1.0, 110.0, 23.0 ],
 					"textcolor" : [ 0.847059, 0.847059, 0.847059, 1.0 ]
 				}
 
@@ -148,16 +150,16 @@
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
 					"id" : "obj-9",
-					"linecount" : 11,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 34.0, 31.668839778358077, 369.0, 186.0 ],
+					"patching_rect" : [ 34.0, 31.668839778358077, 369.0, 51.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 11,
-					"presentation_rect" : [ 0.0, 0.0, 369.0, 186.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 1.0, 1.0, 369.0, 51.0 ],
 					"suppressinlet" : 1,
-					"text" : "Author and maintainer:\n\n\nMany thanks to:\nRyan Holsopple\nBriggan Krauss\nDouglas Geers\nCycling '74\n& the Baylies family!\n\n\n",
+					"text" : "Copyright 2023 \n\n",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -165,65 +167,65 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
-					"midpoints" : [ 41.5, 76.0, 23.5, 76.0 ],
+					"midpoints" : [ 43.5, 154.0, 23.5, 154.0 ],
 					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "license_nyboer.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "license_sousafx.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "license_surreal.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "license_tmhglnd.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "licenses.maxpat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

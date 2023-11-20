@@ -74,7 +74,7 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
         - Out: to Max 1 - Track [check]
 
 > [!NOTE]
-> SousaPlayback uses a number of custom Max For Live devices which unfortunately won't function once Live Suite's 30-day trial runs out.
+> SousaPlayback uses a number of custom Max For Live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live add-on.
 
 4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
 
@@ -90,6 +90,9 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 8.  [Kilohearts Essentials](https://kilohearts.com/products/kilohearts_essentials) "A free collection of extremely useful effects."
 
 9.  [Melda Production](https://www.meldaproduction.com/MFreeFxBundle) "The biggest and the most powerful free plugins pack available."
+
+10. [Why Reaper](https://whyreaper.com/plugins-resources/) "free and/or inexpensive resources for professional computer-based music production"
+
 
 
 <a href="#steam_locomotive-startup">![rainbow](./media/rainbow.png)</a>

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 306.0, 88.0, 1643.0, 1318.0 ],
+		"rect" : [ 305.0, 88.0, 1643.0, 1318.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -667,7 +667,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1965.125098502757737, 999.561298076923094, 152.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.625098502757737, 378.561298076923208, 129.0, 23.0 ],
+					"presentation_rect" : [ 281.0, 380.0, 129.0, 23.0 ],
 					"varname" : "click_to_update"
 				}
 
@@ -719,7 +719,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1238.625, 29.0, 95.0, 21.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -756,7 +756,7 @@
 					"patching_rect" : [ 1237.200078802206235, 1167.0, 129.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 283.625098502757737, 328.542483507592806, 129.0, 52.0 ],
+					"presentation_rect" : [ 281.0, 330.0, 129.0, 52.0 ],
 					"readonly" : 1,
 					"text" : "Last checked on September 15th, 2023",
 					"varname" : "textedit"
@@ -1092,7 +1092,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1308.625, 65.0, 25.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 412.0, 307.0, 23.0, 23.0 ],
+					"presentation_rect" : [ 409.0, 308.0, 23.0, 23.0 ],
 					"uncheckedcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ],
 					"varname" : "auto-check[1]"
 				}
@@ -1119,7 +1119,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1308.625, 173.0, 131.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 283.625098502757737, 307.0, 135.0, 23.0 ],
+					"presentation_rect" : [ 281.0, 308.0, 135.0, 23.0 ],
 					"text" : "Check for updates",
 					"varname" : "click_to_check"
 				}
@@ -5804,7 +5804,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 861.628872275352478, 41.000000000000114, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.379581000000002, 450.913291000000015, 335.379580999999973, 69.0 ],
+					"presentation_rect" : [ 208.0, 405.0, 224.0, 69.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{
@@ -5832,9 +5832,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 110.0, 447.0, 332.75916230366488, 55.668839778358063 ],
+					"patching_rect" : [ 110.0, 445.0, 223.0, 58.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 450.913291359068921, 329.75916230366488, 66.755548419289084 ],
+					"presentation_rect" : [ 209.0, 406.0, 222.0, 67.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -5848,7 +5848,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 99.0, 10.0, 5.0, 492.668839778358063 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 10.0, 5.0, 509.913291000000072 ]
+					"presentation_rect" : [ 99.0, 10.0, 5.0, 475.0 ]
 				}
 
 			}
@@ -6229,7 +6229,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 0.0, 0.0, 450.0, 518.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 450.0, 527.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 450.0, 492.0 ],
 					"proportion" : 0.39,
 					"pt1" : [ 0.95959595959596, 0.651515151515151 ],
 					"pt2" : [ 0.04040404040404, 0.383838383838384 ],
@@ -7453,7 +7453,104 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "about_credits.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "icon.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_nyboer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_sousafx.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_surreal.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_tmhglnd.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "licenses.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paypal_qr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "paypal_qrcode.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousafx_updates.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "venmo_qr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
