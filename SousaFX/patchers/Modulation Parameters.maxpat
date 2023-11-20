@@ -39,7 +39,7 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
-		"title" : "Modulation Parameters",
+		"title" : "modulation parameters",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-182",
@@ -208,7 +208,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3465.457806353588239, 1007.0, 116.0, 22.0 ],
-					"restore" : [ 1.0, 0.0, 1.0, 0.0, 0.005116973898361, 0, 0.0, 0.077048190728119, 0.134751205433295, 0, 0.0, 1.0, 0.8, 0, 0.0, "curve" ],
+					"restore" : [ 1.0, 0.0, 1.0, 0.0, 0.005116973898361, 0, 0.0, 0.077048190728119, 0.134751205433295, 0, 0.0, 1.0, 0.8, 0, -0.436489838513234, "curve" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -723,7 +723,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1212.0, 639.0, 114.0, 22.0 ],
-					"restore" : [ 39.77007874015748 ],
+					"restore" : [ 33.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -968,7 +968,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 182.0, 323.0, 1372.0, 986.0 ],
+						"rect" : [ 840.0, 402.0, 1674.0, 986.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1003,7 +1003,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 927.400000000000091, 167.406134371957137, 89.0, 22.0 ],
+									"patching_rect" : [ 915.0, 124.0, 89.0, 22.0 ],
 									"text" : "prepend visible"
 								}
 
@@ -1015,7 +1015,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 28.0, 570.0, 35.0, 22.0 ],
+									"patching_rect" : [ 16.0, 527.0, 35.0, 22.0 ],
 									"text" : "reset"
 								}
 
@@ -1028,7 +1028,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 750.299999999999955, 61.0, 112.0, 35.0 ],
+									"patching_rect" : [ 738.0, 18.0, 112.0, 35.0 ],
 									"suppressinlet" : 1,
 									"text" : "code adapted from  Max for Live LFO"
 								}
@@ -1043,7 +1043,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 389.0, 621.822492697175903, 65.0, 65.0 ],
+									"patching_rect" : [ 377.0, 579.0, 65.0, 65.0 ],
 									"text" : ";\rmax launchbrowser discord://discord.com/channels/289378508247924738/289379337528934401/1047895226066419791"
 								}
 
@@ -1055,7 +1055,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 79.899999999999977, 480.0, 54.0, 22.0 ],
+									"patching_rect" : [ 68.0, 437.0, 54.0, 22.0 ],
 									"text" : "deferlow"
 								}
 
@@ -1069,7 +1069,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 568.5, 49.5, 30.0, 30.0 ],
+									"patching_rect" : [ 557.0, 7.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -1079,12 +1079,11 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-14",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 695.5, 354.713653575678677, 675.0, 40.0 ],
+									"patching_rect" : [ 684.0, 312.0, 759.0, 24.0 ],
 									"text" : "jit.gl.graph \"LFO Visualizer\" @circpoints 1 @position 0 0 0 @antialias 1 @color 0.639 0.478 0.7 0.9 @scale 2.6 0.8 0.8 @layer 6"
 								}
 
@@ -1098,7 +1097,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 695.5, 320.124537487828434, 245.0, 24.0 ],
+									"patching_rect" : [ 684.0, 277.0, 245.0, 24.0 ],
 									"text" : "jit.catch~ 1 @mode 2 @downsample 240"
 								}
 
@@ -1110,7 +1109,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 79.899999999999977, 442.0, 58.0, 22.0 ],
+									"patching_rect" : [ 68.0, 399.0, 58.0, 22.0 ],
 									"text" : "loadbang"
 								}
 
@@ -1122,7 +1121,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 79.899999999999977, 704.60408958130472, 293.0, 22.0 ],
+									"patching_rect" : [ 68.0, 662.0, 293.0, 22.0 ],
 									"text" : "jit.gl.sketch \"LFO Visualizer\" @scale 2.6 1 1 @layer 1"
 								}
 
@@ -1135,7 +1134,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 79.899999999999977, 517.822492697176017, 302.0, 169.0 ],
+									"patching_rect" : [ 68.0, 475.0, 302.0, 169.0 ],
 									"text" : "reset, glcolor 0.424647 0.420786 0.361922 1, moveto -1. -1. 0., lineto 1. -1. 0., lineto 1. 1. 0, lineto -1. 1. 0, lineto -1. -1. 0, moveto -1. -0.75. 0., lineto 1. -0.75 0., moveto 1. 0.75 0, lineto -1. 0.75 0, moveto -1. -0.5. 0., lineto 1. -0.5 0., moveto 1. 0.5 0, lineto -1. 0.5 0, moveto -1. -0.25. 0., lineto 1. -0.25 0., moveto 1. 0.25 0, lineto -1. 0.25 0, moveto -1 0 0, lineto 1 0 0, moveto -0.75 -1 0, lineto -0.75 1 0, moveto 0.75 -1 0, lineto 0.75 1 0, moveto -0.5 -1 0, lineto -0.5 1 0, moveto 0.5 -1 0, lineto 0.5 1 0, moveto -0.25 -1 0, lineto -0.25 1 0, moveto 0.25 -1 0, lineto 0.25 1 0, moveto 0 -1 0, lineto 0 1 0"
 								}
 
@@ -1148,7 +1147,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 750.299999999999955, 101.406134371957137, 116.0, 89.0 ],
+									"patching_rect" : [ 738.0, 58.0, 116.0, 89.0 ],
 									"text" : ";\rmax launchbrowser https://www.ableton.com/en/manual/max-for-live-devices/#28-2-3-lfo"
 								}
 
@@ -1162,7 +1161,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 624.5, 49.5, 30.0, 30.0 ],
+									"patching_rect" : [ 613.0, 7.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -1175,7 +1174,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 624.5, 92.802044790652374, 24.0, 24.0 ]
+									"patching_rect" : [ 613.0, 50.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1187,7 +1186,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 720.5, 272.010223953261857, 30.0, 30.0 ]
+									"patching_rect" : [ 709.0, 229.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -1200,7 +1199,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 284.299999999999955, 49.5, 30.0, 30.0 ],
+									"patching_rect" : [ 272.0, 7.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -1210,12 +1209,11 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 646.5, 610.248350102780137, 690.0, 40.0 ],
+									"patching_rect" : [ 635.0, 567.0, 774.0, 24.0 ],
 									"text" : "jit.gl.graph \"LFO Visualizer\" @circpoints 1 @position 0 0 0 @antialias 1 @color 0. 0.879 0.104 0.9 @scale 2.6 0.8 0.8 @layer 3"
 								}
 
@@ -1229,7 +1227,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 646.5, 575.659234014929893, 245.0, 24.0 ],
+									"patching_rect" : [ 635.0, 533.0, 245.0, 24.0 ],
 									"text" : "jit.catch~ 1 @mode 2 @downsample 240"
 								}
 
@@ -1243,7 +1241,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 397.699999999999932, 49.5, 30.0, 30.0 ],
+									"patching_rect" : [ 386.0, 7.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -1257,7 +1255,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 662.700000000000045, 490.481001839229407, 245.0, 24.0 ],
+									"patching_rect" : [ 651.0, 447.0, 245.0, 24.0 ],
 									"text" : "jit.catch~ 1 @mode 2 @downsample 240"
 								}
 
@@ -1267,12 +1265,11 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-36",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 662.700000000000045, 525.07011792707965, 686.0, 40.0 ],
+									"patching_rect" : [ 651.0, 482.0, 770.0, 24.0 ],
 									"text" : "jit.gl.graph \"LFO Visualizer\" @circpoints 1 @position 0 0 0 @antialias 1 @color 0.939 1 0.378 0.9 @scale 2.6 0.8 0.8 @layer 4"
 								}
 
@@ -1282,12 +1279,11 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-4",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 679.099999999999909, 439.891885751379164, 686.0, 40.0 ],
+									"patching_rect" : [ 667.0, 397.0, 770.0, 24.0 ],
 									"text" : "jit.gl.graph \"LFO Visualizer\" @circpoints 1 @position 0 0 0 @antialias 1 @color 0.839 0.278 1 0.9 @scale 2.6 0.8 0.8 @layer 5"
 								}
 
@@ -1301,7 +1297,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 679.099999999999909, 405.30276966352892, 245.0, 24.0 ],
+									"patching_rect" : [ 667.0, 362.0, 245.0, 24.0 ],
 									"text" : "jit.catch~ 1 @mode 2 @downsample 240"
 								}
 
@@ -1315,7 +1311,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 511.099999999999909, 49.5, 30.0, 30.0 ],
+									"patching_rect" : [ 499.0, 7.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -1329,7 +1325,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.5, 169.670593962998964, 87.0, 24.0 ],
+									"patching_rect" : [ 46.0, 127.0, 87.0, 24.0 ],
 									"text" : "framesize $1"
 								}
 
@@ -1343,7 +1339,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "bang", "" ],
-									"patching_rect" : [ 720.5, 234.708179162609497, 437.0, 24.0 ],
+									"patching_rect" : [ 709.0, 192.0, 437.0, 24.0 ],
 									"text" : "jit.world \"LFO Visualizer\" @erase_color 0.01 0.01 0.01 0. @size 1066 337"
 								}
 
@@ -1357,7 +1353,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 7,
 									"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "erase" ],
-									"patching_rect" : [ 613.43333333333328, 166.406134371957137, 111.0, 24.0 ],
+									"patching_rect" : [ 601.0, 123.0, 111.0, 24.0 ],
 									"text" : "t b b b b b b erase"
 								}
 
@@ -1371,7 +1367,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 629.900000000000091, 695.426582278480623, 737.0, 24.0 ],
+									"patching_rect" : [ 618.0, 652.0, 751.0, 24.0 ],
 									"text" : "jit.gl.graph \"LFO Visualizer\" @circpoints 1 @position 0 0 0 @antialias 1 @color 0.278 0.839 1 0.9 @scale 2.6 0.8 0.8 @layer 2"
 								}
 
@@ -1385,8 +1381,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 624.5, 130.104089581304748, 61.0, 24.0 ],
-									"text" : "metro 17"
+									"patching_rect" : [ 613.0, 87.0, 69.0, 24.0 ],
+									"text" : "qmetro 17"
 								}
 
 							}
@@ -1399,7 +1395,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 629.900000000000091, 660.83746619063038, 245.0, 24.0 ],
+									"patching_rect" : [ 618.0, 618.0, 245.0, 24.0 ],
 									"text" : "jit.catch~ 1 @mode 2 @downsample 240"
 								}
 
@@ -1413,7 +1409,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 57.5, 49.0, 30.0, 30.0 ],
+									"patching_rect" : [ 46.0, 6.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.435294117647059, 0.772549019607843, 0.192156862745098, 1.0 ]
 								}
 
@@ -1427,7 +1423,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 170.899999999999977, 49.0, 30.0, 30.0 ],
+									"patching_rect" : [ 159.0, 6.0, 30.0, 30.0 ],
 									"tricolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 								}
 
@@ -4152,6 +4148,12 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 2271.66666666666606, 961.63932029800344, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
@@ -4190,12 +4192,6 @@
 ,
 						"firstX" : 						{
 							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -4252,6 +4248,12 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3192.531180691696136, 1260.854101142602303, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
@@ -4290,12 +4292,6 @@
 ,
 						"firstX" : 						{
 							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -4365,6 +4361,12 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3751.853134652646986, 1249.972724256382207, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
@@ -4403,12 +4405,6 @@
 ,
 						"firstX" : 						{
 							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5190,7 +5186,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.077048190728119, 0.134751205433295, 0, 0.0, 1.0, 0.8, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.077048190728119, 0.134751205433295, 0, 0.0, 1.0, 0.8, 0, -0.436489838513234 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -6706,6 +6702,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-114",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -6811,7 +6808,7 @@
 					"patching_rect" : [ 1672.0, 1316.5, 103.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 411.0, 8.0, 61.0, 35.0 ],
+					"presentation_rect" : [ 411.0, 8.0, 62.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "show LFO visualizer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -6992,6 +6989,7 @@
 			}
 , 			{
 				"box" : 				{
+					"alpha" : 0.96,
 					"background" : 1,
 					"id" : "obj-103",
 					"maxclass" : "fpic",
