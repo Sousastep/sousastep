@@ -481,7 +481,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1190.0, 131.0, 53.0, 22.0 ],
-					"restore" : [ 60.629921259842625 ],
+					"restore" : [ 80.31496062992133 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -500,7 +500,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1098.0, 117.0, 65.0, 22.0 ],
-					"restore" : [ 89.999999999999929 ],
+					"restore" : [ 119.34562469561881 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -550,7 +550,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 720.0, 245.0, 72.0, 22.0 ],
-					"restore" : [ 0.703226304414943 ],
+					"restore" : [ 0.80379746835443 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

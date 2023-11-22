@@ -857,10 +857,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1099,10 +1099,10 @@
 , 			{
 				"box" : 				{
 					"arrow" : 0,
-					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1125,10 +1125,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.86 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.86 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1150,10 +1150,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.86 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.95 ],
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 0.86 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1176,10 +1176,10 @@
 , 			{
 				"box" : 				{
 					"arrow" : 0,
-					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.95 ],
+					"bgfillcolor_color" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -2297,19 +2297,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"bgcolor" : [ 0.227450980392157, 0.227450980392157, 0.227450980392157, 1.0 ],
