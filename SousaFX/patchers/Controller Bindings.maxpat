@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -921,8 +921,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4393.0, 3240.0, 334.0, 22.0 ],
-					"text" : "\"param control logic\" 0 > 0.1 \"Main Input Stutter Enable (trig)\"",
+					"patching_rect" : [ 4393.0, 3240.0, 336.0, 22.0 ],
+					"text" : "\"param control logic\" 0 eztrig \"Main Input Stutter Enable (trig)\"",
 					"varname" : "Main Input Stutter Enable (trig)"
 				}
 
@@ -931,12 +931,11 @@
 				"box" : 				{
 					"color" : [ 0.6392, 1.0, 0.3373, 0.9 ],
 					"id" : "obj-519",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4330.0, 3282.0, 341.0, 35.0 ],
-					"text" : "\"param control logic\" 0 > 0.1 \"Main Input Stutter Random Rhythm (trig)\"",
+					"patching_rect" : [ 4330.0, 3282.0, 389.0, 22.0 ],
+					"text" : "\"param control logic\" 0 eztrig \"Main Input Stutter Random Rhythm (trig)\"",
 					"varname" : "Main Input Stutter Random Rhythm (trig)"
 				}
 
@@ -2116,12 +2115,11 @@
 				"box" : 				{
 					"color" : [ 0.5451, 0.298, 1.0, 0.9 ],
 					"id" : "obj-199",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3479.0, 3994.0, 291.0, 35.0 ],
-					"text" : "\"param control logic\" 0 > 0.1 \"Looper Stutter Enable (trig)\"",
+					"patching_rect" : [ 3479.0, 3994.0, 318.0, 22.0 ],
+					"text" : "\"param control logic\" 0 eztrig \"Looper Stutter Enable (trig)\"",
 					"varname" : "Looper Stutter Enable (trig)"
 				}
 
@@ -2130,12 +2128,11 @@
 				"box" : 				{
 					"color" : [ 0.4078, 0.3255, 1.0, 0.9 ],
 					"id" : "obj-195",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3410.0, 4042.0, 307.0, 35.0 ],
-					"text" : "\"param control logic\" 0 > 0.1 \"Looper Stutter Random Rhythm (trig)\"",
+					"patching_rect" : [ 3410.0, 4042.0, 370.0, 22.0 ],
+					"text" : "\"param control logic\" 0 eztrig \"Looper Stutter Random Rhythm (trig)\"",
 					"varname" : "Looper Stutter Random Rhythm (trig)"
 				}
 
@@ -8779,8 +8776,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3919.0, 3620.0, 331.0, 22.0 ],
-					"text" : "\"param control logic\" 0 > 0.1 \"Drum Clip Stutter Enable (trig)\"",
+					"patching_rect" : [ 3919.0, 3620.0, 334.0, 22.0 ],
+					"text" : "\"param control logic\" 0 eztrig \"Drum Clip Stutter Enable (trig)\"",
 					"varname" : "Drum Clip Stutter Enable (trig)"
 				}
 
