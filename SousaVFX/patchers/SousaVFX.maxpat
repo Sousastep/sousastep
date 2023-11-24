@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 1008.0, 53.0, 1552.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,74 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-828",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -52.0, -1612.0, 52.0, 22.0 ],
+					"text" : "adc~ 23"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-825",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 286.0, -1334.0, 52.0, 22.0 ],
+					"text" : "adc~ 22"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-824",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 487.0, -1255.0, 52.0, 22.0 ],
+					"text" : "adc~ 21"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-823",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -10.353899010162877, -1548.0, 52.0, 22.0 ],
+					"text" : "adc~ 18"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-816",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ -280.0, -1592.171624443489236, 78.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "talkback mic"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-888",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ -226.166667342185974, -1232.171618602234048, 24.0, 24.0 ],
+					"patching_rect" : [ -329.166667342185974, -1277.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1187.166708111763, 13.208343505859375, 24.0, 24.0 ]
 				}
@@ -60,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ -329.166667342185974, -1400.0, 150.0, 50.0 ],
+					"patching_rect" : [ -329.166667342185974, -1405.0, 150.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "send drum clip loopback to visuals when tuba fx patches aren't open"
 				}
@@ -97,7 +158,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ -270.166667342185974, -1271.282729170280618, 118.0, 22.0 ],
+					"patching_rect" : [ -270.166667342185974, -1276.0, 118.0, 22.0 ],
 					"text" : "mc.lores~ 550 0.707"
 				}
 
@@ -109,8 +170,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ -270.166667342185974, -1349.504950306373757, 68.0, 22.0 ],
-					"text" : "adc~ 49 50"
+					"patching_rect" : [ -270.166667342185974, -1355.0, 70.0, 22.0 ],
+					"text" : "adc~ 7 8"
 				}
 
 			}
@@ -121,7 +182,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ -270.166667342185974, -1310.393839738327188, 70.0, 22.0 ],
+					"patching_rect" : [ -270.166667342185974, -1315.0, 70.0, 22.0 ],
 					"text" : "mc.pack~ 2"
 				}
 
@@ -133,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -530.000016450881958, -1497.005000731903465, 35.0, 22.0 ],
+					"patching_rect" : [ -280.0, -1525.171624443489236, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -145,8 +206,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -530.000016450881958, -1563.671622893768699, 45.0, 22.0 ],
-					"text" : "adc~ 2"
+					"patching_rect" : [ -280.0, -1559.171624443489236, 52.0, 22.0 ],
+					"text" : "adc~ 24"
 				}
 
 			}
@@ -396,9 +457,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ -136.0, -1639.671624443489463, 176.0, 22.0 ],
-					"text" : "mc.receive~ delays_n_reverb 2",
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -72.0, -1641.0, 146.0, 22.0 ],
+					"text" : "receive~ delays_n_reverb",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
 
@@ -1565,10 +1626,28 @@
 					}
 ,
 					"outlettype" : [ "signal", "list" ],
-					"patching_rect" : [ 93.5, -1334.0, 184.0, 49.0 ],
+					"patching_rect" : [ 82.233243552208251, -1342.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
 						"firstY" : 						{
 							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1585,32 +1664,14 @@
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endY" : 						{
-							"label" : "endY",
+						"secondCurve" : 						{
+							"label" : "secondCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"endX" : 						{
 							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1756,7 +1817,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -6.0, -1525.171624443489236, 72.0, 22.0 ],
+					"patching_rect" : [ 14.646100989837123, -1519.0, 72.0, 22.0 ],
 					"text" : "r~ tuba_env"
 				}
 
@@ -5159,7 +5220,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.233243552208251, -1448.171624443489236, 165.0, 22.0 ],
+					"patching_rect" : [ 69.233243552208251, -1471.0, 165.0, 22.0 ],
 					"text" : "loadmess rampsamples 3600"
 				}
 
@@ -7944,10 +8005,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -176.5, -267.063454559298634, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -8088,17 +8149,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-204",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ -247.0, -1648.83829178567521, 53.0, 20.0 ],
-					"text" : "OBS LB"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-160",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -8106,18 +8156,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 108.912857437628873, -1519.0, 78.0, 22.0 ],
 					"text" : "selector~ 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-152",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ -256.25, -1622.83829178567521, 68.0, 22.0 ],
-					"text" : "adc~ 19 20"
 				}
 
 			}
@@ -16401,7 +16439,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-198", 0 ]
 				}
 
@@ -16409,7 +16447,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-208", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-198", 0 ]
 				}
 
@@ -18992,6 +19030,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-659", 0 ],
+					"source" : [ "obj-559", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-563", 0 ]
 				}
@@ -19660,6 +19705,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-669", 0 ],
 					"source" : [ "obj-658", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"order" : 0,
+					"source" : [ "obj-659", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-551", 1 ],
+					"order" : 1,
+					"source" : [ "obj-659", 0 ]
 				}
 
 			}
@@ -20955,8 +21016,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-369", 0 ],
+					"order" : 0,
+					"source" : [ "obj-823", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-807", 1 ],
+					"order" : 1,
+					"source" : [ "obj-823", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-55", 1 ],
+					"source" : [ "obj-824", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-551", 0 ],
+					"source" : [ "obj-825", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-819", 1 ],
 					"source" : [ "obj-826", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-807", 0 ],
+					"source" : [ "obj-828", 0 ]
 				}
 
 			}
@@ -21081,7 +21179,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-805", 0 ],
+					"destination" : [ "obj-807", 0 ],
 					"source" : [ "obj-871", 0 ]
 				}
 
@@ -21867,6 +21965,10 @@
 					"parameter_longname" : "scale_invert[120]"
 				}
 ,
+				"obj-89::obj-133" : 				{
+					"parameter_longname" : "scale_invert[45]"
+				}
+,
 				"obj-96::obj-133" : 				{
 					"parameter_longname" : "scale_invert[46]"
 				}
@@ -21882,78 +21984,78 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "1999-Mojo-768x512.jpg",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/mojovideotech-shaders",
-				"patcherrelativepath" : "../../mojovideotech-shaders",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/mojovideotech-shaders",
+				"patcherrelativepath" : "../mojovideotech-shaders",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "LEDpresetNames.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SousaLED8.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_ButterflyEffect.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_CandyWarp.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_FluidFlowSNoise.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_Pinwheel.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_PolarGradient.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_RainbowGlowRing.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_SpaceSpore.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UI_VoronoiDuplex.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -21963,15 +22065,15 @@
 			}
 , 			{
 				"name" : "function_visualizer_clear_line.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "function_visualizer_floats.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -21987,48 +22089,52 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "jit.+.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "jit.gl.isf.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "map_audio_presets_to_visual_presets.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "materials.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mojovideotech-shaders.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "prepends.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "remappedLEDcoordinates.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/data",
-				"patcherrelativepath" : "../../Sousastep Visual FX/data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scale_GUI_gen.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/Sousastep Visual FX/patchers",
-				"patcherrelativepath" : "../../Sousastep Visual FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
