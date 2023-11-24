@@ -34,3 +34,6 @@ Icon?
 
 # Ableton Live Backups
 /default/SousaPlayback\ template\ Project/Backup
+
+# user presets folder. Defaults are stored in /default/presets
+/SousaFX/data
