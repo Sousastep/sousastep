@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1973.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -728,12 +728,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-274",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2922.0, 1082.0, 512.0, 35.0 ]
+					"patching_rect" : [ 2922.0, 1082.0, 512.0, 22.0 ]
 				}
 
 			}
@@ -1178,7 +1177,7 @@
 					"fontsize" : 18.0,
 					"hint" : "Select rig. Selection is auto-saved.",
 					"id" : "obj-58",
-					"items" : [ "SousaFX", ",", "SousaFX", "&", "VFX", ",", "BasicFX", ",", "BasicFX", "&", "VFX" ],
+					"items" : [ "SousaFX", ",", "SousaFX", "&", "VFX", ",", "BasicFX", ",", "BasicFX", "&", "VFX", ",", "just", "VFX" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2177,10 +2176,10 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1566.0, 2626.0, 159.0, 22.0 ],
-					"text" : "gate 4 0"
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 1566.0, 2626.0, 281.0, 22.0 ],
+					"text" : "gate 5 0"
 				}
 
 			}
@@ -3536,7 +3535,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 994.0, 3110.0, 179.0, 22.0 ],
+					"patching_rect" : [ 903.0, 3182.0, 179.0, 22.0 ],
 					"text" : "s this_audio_FX_patch_is_open"
 				}
 
@@ -3548,7 +3547,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 914.0, 3034.0, 227.0, 22.0 ],
+					"patching_rect" : [ 823.0, 3106.0, 227.0, 22.0 ],
 					"text" : "r check_which_audio_FX_patch_is_open"
 				}
 
@@ -3560,7 +3559,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1266.0, 2978.0, 90.0, 22.0 ],
+					"patching_rect" : [ 1175.0, 3050.0, 90.0, 22.0 ],
 					"text" : "loadmess none"
 				}
 
@@ -3572,7 +3571,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1114.0, 3074.0, 87.416078286413267, 22.0 ],
+					"patching_rect" : [ 1023.0, 3146.0, 87.416078286413267, 22.0 ],
 					"text" : "none"
 				}
 
@@ -3584,7 +3583,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "secondary" ],
-					"patching_rect" : [ 1182.0, 2978.0, 71.0, 22.0 ],
+					"patching_rect" : [ 1091.0, 3050.0, 71.0, 22.0 ],
 					"text" : "t secondary"
 				}
 
@@ -3596,7 +3595,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "primary" ],
-					"patching_rect" : [ 1114.0, 2978.0, 55.0, 22.0 ],
+					"patching_rect" : [ 1023.0, 3050.0, 55.0, 22.0 ],
 					"text" : "t primary"
 				}
 
@@ -4602,7 +4601,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3624.0, 2108.0, 215.0, 212.0 ],
-					"pic" : "3x-12-6.png",
+					"pic" : "3x-7-0.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -4756,7 +4755,7 @@
 				"patchline" : 				{
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-64", 1 ],
-					"midpoints" : [ 2653.75, 2568.900007665157318, 1715.5, 2568.900007665157318 ],
+					"midpoints" : [ 2653.75, 2568.900007665157318, 1837.5, 2568.900007665157318 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -6902,6 +6901,14 @@
 				"patchline" : 				{
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-182", 0 ],
+					"source" : [ "obj-64", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-182", 0 ],
 					"order" : 0,
 					"source" : [ "obj-64", 3 ]
 				}
@@ -7211,9 +7218,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "3x-12-6.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/emotes/3x-12-frames",
-				"patcherrelativepath" : "../../default/startup/emotes/3x-12-frames",
+				"name" : "3x-7-0.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/emotes/3x-07-frames",
+				"patcherrelativepath" : "../../default/startup/emotes/3x-07-frames",
 				"type" : "PNG",
 				"implicit" : 1
 			}
