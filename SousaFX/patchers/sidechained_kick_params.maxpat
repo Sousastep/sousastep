@@ -42,6 +42,19 @@
 		"title" : "Sidechained Kick Parameters",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 1.0, 0.0, 0.32156862745098, 1.0 ],
+					"id" : "obj-796",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1125.0, 337.0, 82.0, 22.0 ],
+					"text" : "r tempo_BPM"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -354,10 +367,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 682.0, 1113.0, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 87, 1440, 866 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 0, 87, 1440, 866 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage sidechained_kick_params @greedy 2 @savemode 0",
@@ -897,18 +910,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1125.0, 371.0, 52.0, 22.0 ],
 					"text" : "!/ 60000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-371",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 9,
-					"outlettype" : [ "int", "int", "float", "float", "float", "", "int", "float", "" ],
-					"patching_rect" : [ 1083.0, 338.0, 103.0, 22.0 ],
-					"text" : "transport"
 				}
 
 			}
@@ -1469,13 +1470,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-370", 0 ],
-					"source" : [ "obj-371", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-373", 0 ],
 					"source" : [ "obj-372", 0 ]
 				}
@@ -1805,6 +1799,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-370", 0 ],
+					"source" : [ "obj-796", 0 ]
 				}
 
 			}
