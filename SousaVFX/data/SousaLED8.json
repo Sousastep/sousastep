@@ -5,6 +5,7 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -33,6 +34,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -852,7 +854,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -860,6 +863,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -888,6 +892,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -1707,7 +1712,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -1715,6 +1721,7 @@
 			"3" : 			{
 				"id" : 3,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -1743,6 +1750,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -2562,7 +2570,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -2570,6 +2579,7 @@
 			"4" : 			{
 				"id" : 4,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -2598,6 +2608,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -3417,7 +3428,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -3425,6 +3437,7 @@
 			"5" : 			{
 				"id" : 5,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -3453,6 +3466,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -4272,7 +4286,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -4280,6 +4295,7 @@
 			"6" : 			{
 				"id" : 6,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Charter Black" ],
 					"FontStyle" : [ "normal" ],
@@ -4308,6 +4324,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -5127,7 +5144,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -5135,6 +5153,7 @@
 			"7" : 			{
 				"id" : 7,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -5163,6 +5182,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -5982,7 +6002,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -5990,6 +6011,7 @@
 			"8" : 			{
 				"id" : 8,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -6018,6 +6040,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -6837,7 +6860,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -6845,6 +6869,7 @@
 			"9" : 			{
 				"id" : 9,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Damascus Semi Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -6873,6 +6898,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -7692,7 +7718,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -7700,6 +7727,7 @@
 			"10" : 			{
 				"id" : 10,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Savoye LET Plain" ],
 					"FontStyle" : [ "normal" ],
@@ -7728,6 +7756,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 4 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -8547,7 +8576,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -8555,6 +8585,7 @@
 			"11" : 			{
 				"id" : 11,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Bradley Hand Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -8583,6 +8614,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -9402,7 +9434,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -9410,6 +9443,7 @@
 			"12" : 			{
 				"id" : 12,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -9438,6 +9472,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -10257,7 +10292,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -10265,6 +10301,7 @@
 			"13" : 			{
 				"id" : 13,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -10293,6 +10330,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 4 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -11112,7 +11150,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -11120,6 +11159,7 @@
 			"14" : 			{
 				"id" : 14,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Avenir Heavy Oblique" ],
 					"FontStyle" : [ "normal" ],
@@ -11148,6 +11188,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -11967,7 +12008,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -11975,6 +12017,7 @@
 			"15" : 			{
 				"id" : 15,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -12003,6 +12046,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -12822,7 +12866,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -12830,6 +12875,7 @@
 			"16" : 			{
 				"id" : 16,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -12858,6 +12904,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -13677,7 +13724,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -13685,6 +13733,7 @@
 			"17" : 			{
 				"id" : 17,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Savoye LET Plain" ],
 					"FontStyle" : [ "normal" ],
@@ -13713,6 +13762,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 9 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -14532,7 +14582,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -14540,6 +14591,7 @@
 			"18" : 			{
 				"id" : 18,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -14568,6 +14620,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [  ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -15387,7 +15440,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -15395,6 +15449,7 @@
 			"19" : 			{
 				"id" : 19,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -15423,6 +15478,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -16242,7 +16298,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -16250,6 +16307,7 @@
 			"20" : 			{
 				"id" : 20,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -16278,6 +16336,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 1 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -17097,7 +17156,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -17105,6 +17165,7 @@
 			"21" : 			{
 				"id" : 21,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -17133,6 +17194,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -17952,7 +18014,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -17960,6 +18023,7 @@
 			"60" : 			{
 				"id" : 60,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -17988,6 +18052,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -18807,7 +18872,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -18815,6 +18881,7 @@
 			"61" : 			{
 				"id" : 61,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -18843,6 +18910,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -19662,7 +19730,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -19670,6 +19739,7 @@
 			"62" : 			{
 				"id" : 62,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Savoye LET Plain" ],
 					"FontStyle" : [ "normal" ],
@@ -19698,6 +19768,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 4 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -20517,7 +20588,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -20525,6 +20597,7 @@
 			"63" : 			{
 				"id" : 63,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -20553,6 +20626,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -21372,7 +21446,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -21380,6 +21455,7 @@
 			"70" : 			{
 				"id" : 70,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -21408,6 +21484,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 2 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -22227,7 +22304,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -22235,6 +22313,7 @@
 			"110" : 			{
 				"id" : 110,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -22263,6 +22342,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -23082,7 +23162,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -23090,6 +23171,7 @@
 			"111" : 			{
 				"id" : 111,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -23118,6 +23200,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -23937,7 +24020,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -23945,6 +24029,7 @@
 			"112" : 			{
 				"id" : 112,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -23973,6 +24058,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -24792,7 +24878,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -24800,6 +24887,7 @@
 			"120" : 			{
 				"id" : 120,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -24828,6 +24916,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -25647,7 +25736,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -25655,6 +25745,7 @@
 			"121" : 			{
 				"id" : 121,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -25683,6 +25774,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -26502,7 +26594,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -26510,6 +26603,7 @@
 			"130" : 			{
 				"id" : 130,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -26538,6 +26632,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -27357,7 +27452,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -27365,6 +27461,7 @@
 			"131" : 			{
 				"id" : 131,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -27393,6 +27490,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -28212,7 +28310,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -28220,6 +28319,7 @@
 			"140" : 			{
 				"id" : 140,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -28248,6 +28348,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -29067,7 +29168,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -29075,6 +29177,7 @@
 			"141" : 			{
 				"id" : 141,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -29103,6 +29206,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -29922,7 +30026,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -29930,6 +30035,7 @@
 			"142" : 			{
 				"id" : 142,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -29958,6 +30064,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -30777,7 +30884,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -30785,6 +30893,7 @@
 			"150" : 			{
 				"id" : 150,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -30813,6 +30922,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -31632,7 +31742,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -31640,6 +31751,7 @@
 			"151" : 			{
 				"id" : 151,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -31668,6 +31780,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -32487,7 +32600,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -32495,6 +32609,7 @@
 			"152" : 			{
 				"id" : 152,
 				"data" : 				{
+					"Audio IO Status" : [ 0 ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Medium" ],
 					"FontStyle" : [ "normal" ],
@@ -32515,7 +32630,7 @@
 					"TextboxIndex" : [ 7 ],
 					"bouncy_shape_selector" : [ 0 ],
 					"color_changer" : [ 0 ],
-					"enable_half_speed_vfx" : [  ],
+					"enable_half_speed_vfx" : [ 0 ],
 					"enable_multiple_shape" : [ 0 ],
 					"enable_shader" : [ 0 ],
 					"enable_single_shape" : [ 0 ],
@@ -32523,6 +32638,53 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "function_with_two_curves",
+							"origin" : "function_with_two_curves",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"__presetid" : "function_with_two_curves",
+								"midY" : 								{
+									"value" : 0.0
+								}
+,
+								"firstY" : 								{
+									"value" : 0.0
+								}
+,
+								"midX" : 								{
+									"value" : 0.079787234042553
+								}
+,
+								"firstX" : 								{
+									"value" : 0.0
+								}
+,
+								"firstCurve" : 								{
+									"value" : 0.0
+								}
+,
+								"endY" : 								{
+									"value" : 1.0
+								}
+,
+								"endX" : 								{
+									"value" : 1.0
+								}
+,
+								"secondCurve" : 								{
+									"value" : -0.65
+								}
+
+							}
+
+						}
+ ],
 					"text_loop_toggle" : [ 1 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -33084,10 +33246,10 @@
 					"UI_SpaceSpore::SpaceSpore_R2::slide_down" : [ 0 ],
 					"UI_SpaceSpore::SpaceSpore_R2::slide_up" : [ 0 ],
 					"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
-					"UI_SpaceSpore::SpaceSpore_zoom::invert" : [ 0.0 ],
+					"UI_SpaceSpore::SpaceSpore_zoom::invert" : [ 1.0 ],
 					"UI_SpaceSpore::SpaceSpore_zoom::linkphasor_rate" : [ 1.0 ],
-					"UI_SpaceSpore::SpaceSpore_zoom::matrixctrl" : [ 3, 0, 1.0 ],
-					"UI_SpaceSpore::SpaceSpore_zoom::rslider" : [ 0.06, 0.153832062932469 ],
+					"UI_SpaceSpore::SpaceSpore_zoom::matrixctrl" : [ 2, 0, 1.0 ],
+					"UI_SpaceSpore::SpaceSpore_zoom::rslider" : [ 0.0, 0.864985289314424 ],
 					"UI_SpaceSpore::SpaceSpore_zoom::slide_down" : [ 3 ],
 					"UI_SpaceSpore::SpaceSpore_zoom::slide_up" : [ 3 ],
 					"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
@@ -33128,10 +33290,10 @@
 					"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
 					"ISF_shader_brightness::invert" : [ 0.0 ],
 					"ISF_shader_brightness::linkphasor_rate" : [ 1.0 ],
-					"ISF_shader_brightness::matrixctrl" : [ 3, 0, 1.0 ],
-					"ISF_shader_brightness::rslider" : [ 0.1563, 0.91 ],
-					"ISF_shader_brightness::slide_down" : [ 0 ],
-					"ISF_shader_brightness::slide_up" : [ 0 ],
+					"ISF_shader_brightness::matrixctrl" : [ 2, 0, 1.0 ],
+					"ISF_shader_brightness::rslider" : [ 0.0, 0.91 ],
+					"ISF_shader_brightness::slide_down" : [ 1 ],
+					"ISF_shader_brightness::slide_up" : [ 1 ],
 					"ISF_shader_brightness::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
 					"bouncy_shape_force::invert" : [ 0.0 ],
 					"bouncy_shape_force::linkphasor_rate" : [ 1.0 ],
@@ -33342,7 +33504,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [ 1 ]
 				}
 
 			}
@@ -33350,6 +33513,7 @@
 			"160" : 			{
 				"id" : 160,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -33378,6 +33542,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -34197,7 +34362,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [  ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [  ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [  ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -34205,6 +34371,7 @@
 			"170" : 			{
 				"id" : 170,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -34233,6 +34400,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -35052,7 +35220,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.5, 0.5 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -35060,6 +35229,7 @@
 			"180" : 			{
 				"id" : 180,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -35088,6 +35258,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -35907,7 +36078,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.232179452279634, 0.780611177709785 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.239263803680982, 0.472972972972973, 0, 0.45, 0.503067484662577, 1.0, 0, -0.55, 0.754601226993865, 0.5, 0, 0.6, 1.0, 0.0, 0, -0.4, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.239263803680982, 0.472972972972973, 0, 0.45, 0.503067484662577, 1.0, 0, -0.55, 0.754601226993865, 0.5, 0, 0.6, 1.0, 0.0, 0, -0.4, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
@@ -35915,6 +36087,7 @@
 			"181" : 			{
 				"id" : 181,
 				"data" : 				{
+					"Audio IO Status" : [  ],
 					"FontLightingOnOff" : [ 0 ],
 					"FontName" : [ "Ableton Sans Bold" ],
 					"FontStyle" : [ "normal" ],
@@ -35943,6 +36116,7 @@
 					"light_type" : [ "point" ],
 					"multiple_material" : [ 8 ],
 					"physics_videoplane_toggle" : [ 0 ],
+					"rnbo~[3]" : [  ],
 					"text_loop_toggle" : [ 0 ],
 					"light_brightness::invert" : [ 0.0 ],
 					"light_brightness::linkphasor_rate" : [ 1.0 ],
@@ -36762,7 +36936,8 @@
 					"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : [ 0.581729343213137, 0.581729343213137 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : [ 0 ],
 					"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : [ 0 ],
-					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+					"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"SousaFX_Audio_Status::Audio_Status[1]" : [  ]
 				}
 
 			}
