@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 772.0, 75.0, 1552.0, 1387.0 ],
+		"rect" : [ 825.0, 78.0, 1196.0, 1225.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-204",
+					"maxclass" : "jit.fpsgui",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 7557.317253351211548, 484.146353006362915, 80.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1269.512225389480591, 301.00001072883606, 43.0, 35.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-863",
 					"maxclass" : "button",
@@ -1877,14 +1893,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 82.233243552208251, -1342.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endY" : 						{
-							"label" : "endY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1895,14 +1905,8 @@
 							"parsestring" : ""
 						}
 ,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
+						"firstX" : 						{
+							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1913,14 +1917,26 @@
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"firstX" : 						{
-							"label" : "firstX",
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5785,7 +5801,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-512",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -5941,6 +5956,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-411",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -7808,103 +7824,103 @@
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_FluidFlowSNoise" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::u352009166" : 0,
@@ -12109,7 +12125,7 @@
 					"patching_rect" : [ 349.0, -450.468276326431806, 205.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 31.0 ],
-					"text" : "RainbowGlowRing",
+					"text" : "SpaceSpore dub 2",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -13407,7 +13423,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : "<empty>",
+					"items" : "COM3",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -21591,6 +21607,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 2,
+					"source" : [ "obj-88", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-204", 0 ],
 					"order" : 1,
 					"source" : [ "obj-88", 1 ]
 				}
@@ -21614,7 +21638,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-88", 1 ]
 				}
 
@@ -22496,10 +22520,6 @@
 			}
 , 			{
 				"name" : "jit.*.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "jit.+.mxe64",
 				"type" : "mx64"
 			}
 , 			{
