@@ -47,6 +47,16 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 
     - Mixer > Enable Mixer Parallel Processing [check]
 
+    Click "Menubar > File > Show Package Manager", and install the following packages:
+
+    - ease
+
+    - link
+
+    - RNBO Guitar Pedals
+
+    - RNBO Synth Building Blocks
+
 > [!NOTE]
 > SousaFX remains fully operational after Max's 30-day trial ends.
 
