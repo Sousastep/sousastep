@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1190.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1557.5, 1634.0, 61.0, 22.0 ],
-					"text" : "pipe 2000"
+					"text" : "pipe 6000"
 				}
 
 			}
@@ -10213,7 +10213,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "\"dotted eighth\"",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10967,14 +10967,14 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
 					"id" : "obj-865",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"outlinecolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2007.0, 1502.0, 36.0, 36.0 ],
 					"presentation" : 1,
