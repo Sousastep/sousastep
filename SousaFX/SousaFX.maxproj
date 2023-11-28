@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3782567733,
-	"viewrect" : [ 1102.0, 475.0, 478.0, 779.0 ],
+	"modificationdate" : 3784043325,
+	"viewrect" : [ 1231.0, 260.0, 478.0, 779.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -99,8 +99,8 @@
 				"local" : 1
 			}
 ,
-			"dummy_selector.maxpat" : 			{
-				"kind" : "patcher",
+			"function_with_two_curves.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -149,12 +149,12 @@
 				"local" : 1
 			}
 ,
-			"function_with_two_curves.rnbopat" : 			{
-				"kind" : "rnbopat",
+			"transient_detect.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"transient_detect.maxpat" : 			{
+			"ProQ3_crossovers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -200,6 +200,11 @@
 			}
 ,
 			"sidechained_kick.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dummy_selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -260,11 +265,6 @@
 			}
 ,
 			"umenu_presets.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"ProQ3_crossovers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -371,11 +371,6 @@
 ,
 			"GMaudio Clipper 2.0.amxd" : 			{
 				"kind" : "maxforlive",
-				"local" : 1
-			}
-,
-			"just_darkglass.maxpat" : 			{
-				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -924,17 +919,12 @@
 				"local" : 1
 			}
 ,
-			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
+			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"Post-Crossfade_FX_plugin1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin1_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -955,6 +945,11 @@
 			}
 ,
 			"Pre-LPF_FX_plugin4_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"ProQ3crossovers.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1021,11 +1016,6 @@
 ,
 			"global_tempo_source.txt" : 			{
 				"kind" : "textfile",
-				"local" : 1
-			}
-,
-			"just_MF-101S.json" : 			{
-				"kind" : "json",
 				"local" : 1
 			}
 ,
@@ -1124,7 +1114,7 @@
 				"local" : 1
 			}
 ,
-			"ProQ3crossovers.json" : 			{
+			"just_MF-101S.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1134,7 +1124,12 @@
 				"local" : 1
 			}
 ,
-			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
+			"Post-Crossfade_FX_plugin1_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin1_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}

@@ -38,3 +38,6 @@ Icon?
 # user presets folder. Defaults are stored in /default/presets
 SousaFX/data/*
 !SousaFX/data/.gitkeep
+
+# non-template
+/default/SousaPlayback\ template\ Project/SousastepPlayback.als

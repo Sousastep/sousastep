@@ -103,6 +103,10 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 
 10. [Why Reaper](https://whyreaper.com/plugins-resources/) "free and/or inexpensive resources for professional computer-based music production"
 
+11. [ToneLib BassDrive](https://tonelib.net/tl-bassdrive.html) (free) "Designed based on the famous pedal bearing the same name, TL BassDrive is ready to unleash the true power of the lowest guitar frequencies."
+
+12. [Valhalla Super Massive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) (free) "ValhallaSupermassive has been designed from the ground up for MASSIVE delays and reverbs."
+
 
 
 <a href="#steam_locomotive-startup">![rainbow](./media/rainbow.png)</a>

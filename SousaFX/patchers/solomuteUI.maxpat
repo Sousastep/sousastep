@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 611.0, 485.0, 640.0, 480.0 ],
+		"rect" : [ 1770.0, 279.0, 232.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.0, 51.0, 111.0, 93.0 ],
+					"patching_rect" : [ 282.0, 51.0, 112.0, 93.0 ],
 					"suppressinlet" : 1,
 					"text" : "#1 = channel name, displayed\n\n#2 = group name. soloing only affects group"
 				}
@@ -66,6 +66,7 @@
 			}
 , 			{
 				"box" : 				{
+					"dbperled" : 6,
 					"id" : "obj-3",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
