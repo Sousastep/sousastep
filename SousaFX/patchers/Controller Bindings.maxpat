@@ -42,6 +42,30 @@
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-629",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2317.0, 2674.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-626",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2317.0, 2706.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-624",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -10213,7 +10237,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10967,14 +10991,14 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
 					"id" : "obj-865",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.87843137254902, 0.87843137254902, 0.87843137254902, 1.0 ],
+					"outlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2007.0, 1502.0, 36.0, 36.0 ],
 					"presentation" : 1,
@@ -13928,13 +13952,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-492", 0 ],
-					"source" : [ "obj-16", 35 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.4353, 1.0, 0.702, 0.9 ],
 					"destination" : [ "obj-509", 0 ],
 					"source" : [ "obj-16", 66 ]
@@ -13992,6 +14009,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-62", 0 ],
 					"source" : [ "obj-16", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-629", 0 ],
+					"source" : [ "obj-16", 35 ]
 				}
 
 			}
@@ -18303,6 +18327,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-477", 0 ],
 					"source" : [ "obj-624", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-492", 0 ],
+					"source" : [ "obj-626", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-626", 0 ],
+					"source" : [ "obj-629", 0 ]
 				}
 
 			}

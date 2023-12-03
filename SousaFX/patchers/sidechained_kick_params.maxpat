@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 691.0, 522.0, 1061.0, 739.0 ],
+		"rect" : [ 1272.0, 123.0, 1264.0, 1287.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,8 +39,150 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
-		"title" : "Sidechained Kick Parameters",
+		"title" : "sidechained kick parameters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 534.0, 388.0, 133.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr stutter-intelligence",
+					"varname" : "stutter-intelligence"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 467.0, 466.0, 33.0, 22.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.68 ],
+					"checkedcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+					"hint" : "When enabled, kick drum is sidechained to the bassline. This parameter is not saved and always initializes off.",
+					"id" : "obj-48",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 467.0, 431.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 195.0, 137.0, 35.0, 35.0 ],
+					"varname" : "toggle[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 0.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-44",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 495.0, 425.5, 154.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 232.0, 137.0, 154.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "disable sidechain kick when drum clip stutter enabled",
+					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 369.0, 416.0, 29.5, 22.0 ],
+					"text" : "OR"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 369.0, 340.0, 33.0, 22.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 354.0, 451.0, 34.0, 22.0 ],
+					"text" : "AND"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 400.0, 375.0, 124.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "if stutter enabled then disable kick ducker"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 369.0, 381.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 369.0, 305.25, 185.0, 22.0 ],
+					"text" : "r \"Drum Clip Stutter Enable (trig)\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 1.0, 0.0, 0.32156862745098, 1.0 ],
 					"id" : "obj-796",
@@ -252,7 +394,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 682.0, 805.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 24.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 345.0, 9.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -265,7 +407,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 629.0, 807.0, 51.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 299.0, 25.0, 51.0, 21.0 ],
+					"presentation_rect" : [ 299.0, 10.0, 51.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Restore:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -285,7 +427,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 886.0, 910.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 232.0, 24.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 232.0, 9.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -298,7 +440,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 848.0, 911.5, 36.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 25.0, 36.0, 21.0 ],
+					"presentation_rect" : [ 201.0, 10.0, 36.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Save:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -649,7 +791,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1302.0, 188.0, 66.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 321.885823662859593, 74.0, 53.0, 48.0 ],
+					"presentation_rect" : [ 323.0, 37.0, 53.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -716,7 +858,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1207.0, 188.0, 66.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.857783984374464, 74.0, 43.0, 48.0 ],
+					"presentation_rect" : [ 263.0, 37.0, 43.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -752,7 +894,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1121.0, 155.0, 78.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 194.0, 74.0, 49.0, 48.0 ],
+					"presentation_rect" : [ 195.0, 37.0, 49.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
 							"expression" : ""
@@ -810,7 +952,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 75.0, 480.0, 34.0, 22.0 ],
+					"patching_rect" : [ 72.0, 522.0, 34.0, 22.0 ],
 					"text" : "AND"
 				}
 
@@ -821,7 +963,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 503.0, 141.0, 22.0 ],
+					"patching_rect" : [ 392.0, 536.0, 141.0, 22.0 ],
 					"text" : "s timeFX_ducker_enable"
 				}
 
@@ -1111,7 +1253,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 75.0, 382.0, 33.0, 22.0 ],
+					"patching_rect" : [ 72.0, 424.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -1123,7 +1265,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 343.0, 103.0, 22.0 ],
+					"patching_rect" : [ 72.0, 385.0, 103.0, 22.0 ],
 					"text" : "r solo_fx_enabled"
 				}
 
@@ -1136,7 +1278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 101.0, 423.0, 136.0, 21.0 ],
+					"patching_rect" : [ 98.0, 465.0, 136.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "is tuba playing bassline?"
 				}
@@ -1150,7 +1292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 75.0, 421.0, 24.0, 24.0 ]
+					"patching_rect" : [ 72.0, 463.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1162,7 +1304,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 353.0, 448.0, 24.0, 24.0 ]
+					"patching_rect" : [ 354.0, 494.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1174,7 +1316,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 75.0, 516.0, 24.0, 24.0 ]
+					"patching_rect" : [ 72.0, 558.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1187,7 +1329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 511.0, 159.0, 35.0 ],
+					"patching_rect" : [ 105.0, 553.0, 159.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "enable main ducker only while tuba's playing bassline"
 				}
@@ -1200,7 +1342,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 353.0, 322.0, 267.0, 22.0 ],
+					"patching_rect" : [ 354.0, 223.0, 267.0, 22.0 ],
 					"text" : "r \"enable sidechained kick w/ looper intelligence\""
 				}
 
@@ -1211,7 +1353,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 550.0, 143.0, 22.0 ],
+					"patching_rect" : [ 354.0, 576.0, 143.0, 22.0 ],
 					"text" : "s loopers_ducker_enable"
 				}
 
@@ -1222,7 +1364,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 550.0, 129.0, 22.0 ],
+					"patching_rect" : [ 72.0, 592.0, 129.0, 22.0 ],
 					"text" : "s main_ducker_enable"
 				}
 
@@ -1236,10 +1378,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 385.0, 375.0, 133.0, 35.0 ],
+					"patching_rect" : [ 395.0, 257.625, 133.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 196.0, 131.0, 133.0, 35.0 ],
+					"presentation_rect" : [ 197.0, 94.0, 133.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "enable sidechained kick w/ looper intelligence:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -1257,9 +1399,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 353.0, 380.0, 24.0, 24.0 ],
+					"patching_rect" : [ 354.0, 263.125, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 331.0, 131.0, 35.0, 35.0 ],
+					"presentation_rect" : [ 332.0, 94.0, 35.0, 35.0 ],
 					"varname" : "toggle"
 				}
 
@@ -1313,6 +1455,23 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-358", 1 ],
+					"midpoints" : [ 363.5, 484.0, 249.0, 484.0, 249.0, 503.0, 96.5, 503.0 ],
+					"order" : 1,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-392", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -1341,8 +1500,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-384", 2 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1374,6 +1547,13 @@
 					"destination" : [ "obj-7", 2 ],
 					"order" : 1,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -1659,17 +1839,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-358", 1 ],
-					"midpoints" : [ 362.5, 435.0, 249.0, 435.0, 249.0, 465.0, 99.5, 465.0 ],
-					"order" : 1,
-					"source" : [ "obj-402", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-392", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-402", 0 ]
 				}
 
@@ -1783,6 +1953,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
@@ -1790,8 +1974,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-50", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
