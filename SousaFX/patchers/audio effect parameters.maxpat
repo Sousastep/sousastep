@@ -266,7 +266,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1498,7 +1498,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
-					"text" : "1004 524 1524 1057"
+					"text" : "467 439 1646 1065"
 				}
 
 			}
@@ -3736,7 +3736,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"id" : "obj-353",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -15656,6 +15656,9 @@
  ],
 		"parameters" : 		{
 			"obj-114::obj-21::obj-191" : [ "vst~[13]", "vst~", 0 ],
+			"obj-166::obj-21::obj-192" : [ "Resonance[8]", "Sat", 0 ],
+			"obj-166::obj-21::obj-26" : [ "Reso", "Reso", 0 ],
+			"obj-166::obj-21::obj-41" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-168::obj-2::obj-191" : [ "vst~[25]", "vst~", 0 ],
 			"obj-168::obj-3::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-168::obj-4::obj-191" : [ "vst~[26]", "vst~", 0 ],
@@ -15737,6 +15740,7 @@
 			"obj-169::obj-919::obj-36" : [ "curve[6]", "curve", 0 ],
 			"obj-169::obj-925::obj-114" : [ "function[95]", "function", 0 ],
 			"obj-169::obj-925::obj-36" : [ "curve[5]", "curve", 0 ],
+			"obj-176::obj-13" : [ "low Xfade offset", "low Xfade offset", 0 ],
 			"obj-176::obj-1359" : [ "env decay", "env decay", 0 ],
 			"obj-176::obj-28" : [ "interp Xfades", "interp Xfades", 0 ],
 			"obj-176::obj-35" : [ "env attack", "env attack", 0 ],
@@ -15889,6 +15893,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-166::obj-21::obj-41" : 				{
+					"parameter_longname" : "live.menu[6]"
+				}
+,
 				"obj-169::obj-1102::obj-36" : 				{
 					"parameter_longname" : "curve[12]"
 				}
@@ -16019,6 +16027,16 @@
 ,
 				"obj-169::obj-925::obj-36" : 				{
 					"parameter_longname" : "curve[5]"
+				}
+,
+				"obj-176::obj-13" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "low Xfade offset",
+					"parameter_modmode" : 0,
+					"parameter_range" : [ -100.0, 100.0 ],
+					"parameter_shortname" : "low Xfade offset",
+					"parameter_type" : 0,
+					"parameter_unitstyle" : 5
 				}
 ,
 				"obj-194::obj-103::obj-114" : 				{
@@ -16392,6 +16410,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MIDI MAP OUT hires.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -16809,10 +16834,66 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "eight_filters.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "eztrig.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.diode.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.k35lp.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.ladder.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.reson.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.svf-as.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.svf-eg.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.zdf-svf.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -17381,6 +17462,27 @@
 			}
 , 			{
 				"name" : "smFilterPack_env_follow.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder_setup.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder_wrap.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",

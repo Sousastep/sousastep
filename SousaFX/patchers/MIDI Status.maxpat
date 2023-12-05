@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 441.0, 210.0, 1461.0, 992.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,8 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
-		"title" : "MIDI Status",
+		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1116.833333333333258, 1205.500025898218155, 115.0, 22.0 ],
+					"text" : "r \"midi out main PB\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
@@ -171,7 +183,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 723.0, 1448.0, 61.0, 22.0 ],
-					"text" : "pipe 1000"
+					"text" : "pipe 4000"
 				}
 
 			}
@@ -230,7 +242,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 734.75, 362.5, 29.5, 22.0 ],
+					"patching_rect" : [ 734.75, 381.699999999999932, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -699,7 +711,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "MIDI MAP OUT.maxpat",
+					"name" : "MIDI MAP OUT hires.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -795,18 +807,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 767.0, 290.0, 61.0, 22.0 ],
 					"text" : "savebang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.0, 1208.0, 50.0, 22.0 ],
-					"text" : "60 4"
 				}
 
 			}
@@ -2789,18 +2789,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 713.0, 463.0, 265.0, 22.0 ],
-					"text" : "61 60 70 71 72 73 74 51 90 75 53 30 0 50 76 77"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "Talkback Mic Mute [ v ]", 127.0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -2978,7 +2966,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1141.0, 1229.0, 172.0, 22.0 ],
+					"patching_rect" : [ 1141.0, 1252.333350598812103, 172.0, 22.0 ],
 					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -3002,7 +2990,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1217.0, 1268.0, 47.0, 23.0 ],
+					"patching_rect" : [ 1217.5, 1299.166675299406052, 47.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 555.5, 80.0, 52.0, 23.0 ],
 					"varname" : "number"
@@ -3016,8 +3004,8 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 1036.0, 1273.0, 82.0, 22.0 ],
-					"text" : "midiformat"
+					"patching_rect" : [ 1036.0, 1347.0, 116.0, 22.0 ],
+					"text" : "midiformat @hires 1"
 				}
 
 			}
@@ -3167,7 +3155,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1057.0, 1151.0, 116.0, 22.0 ],
+					"patching_rect" : [ 1068.333333333333258, 1158.666701197624207, 116.0, 22.0 ],
 					"text" : "r \"midi out main CC\""
 				}
 
@@ -3209,7 +3197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1801.0, 741.313762626262587, 95.0, 64.0 ],
+					"patching_rect" : [ 1790.166720926761627, 788.0, 95.0, 64.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI loopback thru Max to Live's drum loop bus stop button",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -3255,7 +3243,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1760.0, 940.0, 97.0, 21.0 ],
+					"patching_rect" : [ 1743.0, 989.0, 97.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "stops drum loops",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -3281,7 +3269,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1746.0, 832.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1729.0, 867.0, 29.5, 22.0 ],
 					"text" : "f 50"
 				}
 
@@ -3293,7 +3281,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1746.0, 912.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1729.0, 948.0, 34.0, 22.0 ],
 					"text" : "pack"
 				}
 
@@ -3305,7 +3293,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 1746.0, 775.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1729.0, 827.0, 47.0, 22.0 ],
 					"text" : "sel 127"
 				}
 
@@ -3317,7 +3305,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 1746.0, 874.0, 101.0, 22.0 ],
+					"patching_rect" : [ 1729.0, 908.0, 101.0, 22.0 ],
 					"text" : "makenote 50 100"
 				}
 
@@ -3329,7 +3317,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1746.0, 737.0, 53.0, 22.0 ],
+					"patching_rect" : [ 1729.0, 786.0, 53.0, 22.0 ],
 					"text" : "route 50"
 				}
 
@@ -4998,6 +4986,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-21", 5 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-336", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -5222,15 +5217,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
-					"order" : 1,
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 1 ],
-					"order" : 0,
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -5646,15 +5632,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 2 ],
-					"order" : 0,
-					"source" : [ "obj-715", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 1 ],
-					"order" : 1,
 					"source" : [ "obj-715", 0 ]
 				}
 
@@ -5816,6 +5793,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
+					"midpoints" : [ 1738.5, 1048.0, 1551.0, 1048.0, 1551.0, 1140.0, 1045.5, 1140.0 ],
 					"source" : [ "obj-883", 0 ]
 				}
 
