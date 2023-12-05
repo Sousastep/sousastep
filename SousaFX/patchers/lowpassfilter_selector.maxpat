@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 548.0, 1493.0, 1032.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,85 @@
 		"assistshowspatchername" : 0,
 		"title" : "lowpass filter selector",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 104.0, 300.0, 29.5, 22.0 ],
+					"text" : "!= 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "hidden",
+					"id" : "obj-67",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 104.0, 341.800000000000011, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-201",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 152.0, 383.600000000000023, 85.0, 22.0 ],
+					"text" : "r main_hovers"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 152.0, 467.200000000000045, 241.0, 22.0 ],
+					"text" : "regexp outlinecolor @substitute bordercolor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 16,
+					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"id" : "obj-64",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 104.0, 509.000000000000057, 148.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 31.0, 241.0, 30.0 ],
+					"proportion" : 0.5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 152.0, 425.400000000000034, 208.0, 22.0 ],
+					"text" : "hover_bang \"Modulation Parameters\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Silom",
 					"id" : "obj-24",
@@ -449,8 +528,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 742.0, 364.575275646941122, 577.0, 23.0 ],
-					"text" : "\"~/Documents/Max 8/Projects/sousastep/SousaFX/data/lowpassfilter_selector.json\""
+					"patching_rect" : [ 742.0, 364.575275646941122, 621.0, 23.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/lowpassfilter_selector.json\""
 				}
 
 			}
@@ -717,7 +796,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 222.172325614417559, 151.0, 22.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -754,7 +833,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Choose between max-native effect, or a plugin. Your selection is auto-saved.",
 					"id" : "obj-1",
-					"items" : [ "Surreal", "Machines", "Ladder", ",", "Moog", "MF-101S", ",", "Cytomic", "The", "Drop" ],
+					"items" : [ "gen~", "filters", ",", "Moog", "MF-101S", ",", "Cytomic", "The", "Drop" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -911,7 +990,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 300.000804982200009, 695.543551973372814, 301.0, 140.0 ],
+					"patching_rect" : [ 300.000804982200009, 695.543551973372814, 299.999195017800048, 147.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 28.0, 401.0, 157.0 ],
 					"varname" : "LPFpatch",
@@ -1062,6 +1141,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"order" : 3,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
 					"order" : 2,
 					"source" : [ "obj-1", 0 ]
@@ -1136,6 +1223,13 @@
 					"destination" : [ "obj-22", 0 ],
 					"midpoints" : [ 25.5, 123.0, 924.0, 123.0, 924.0, 351.0, 1680.0, 351.0, 1680.0, 701.0, 1743.5, 701.0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-65", 0 ],
+					"source" : [ "obj-201", 0 ]
 				}
 
 			}
@@ -1578,6 +1672,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-65", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-67", 0 ],
+					"source" : [ "obj-68", 0 ]
 				}
 
 			}
