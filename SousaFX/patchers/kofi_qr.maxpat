@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1051.0, 423.0, 1270.0, 891.0 ],
+		"rect" : [ 408.0, 53.0, 2152.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Venmo QR Code",
+		"title" : "ko-fi qr code",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-121",
@@ -46,8 +46,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 508.0, 207.0, 107.0, 22.0 ],
-					"text" : "loadmess 459 594"
+					"patching_rect" : [ 520.0, 125.0, 107.0, 22.0 ],
+					"text" : "loadmess 481 481"
 				}
 
 			}
@@ -58,7 +58,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 624.0, 207.0, 63.0, 22.0 ],
+					"patching_rect" : [ 634.0, 125.0, 63.0, 22.0 ],
 					"text" : "closebang"
 				}
 
@@ -70,8 +70,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 508.0, 248.0, 257.0, 22.0 ],
-					"text" : "\"floating window positioner\" \"Venmo QR Code\""
+					"patching_rect" : [ 520.0, 166.0, 248.0, 22.0 ],
+					"text" : "\"floating window positioner\" \"Ko-Fi QR Code\""
 				}
 
 			}
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 508.0, 291.0, 67.0, 22.0 ],
+					"patching_rect" : [ 520.0, 209.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -97,10 +97,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 4.0, 5.0, 459.272727272727252, 594.352941176470608 ],
-					"pic" : "Macintosh HD:/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/media/venmo_qrcode.jpg",
+					"patching_rect" : [ 4.0, 5.0, 481.352941176470608, 481.352941176470608 ],
+					"pic" : "kofi_qrcode.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 459.272727272727252, 594.352941176470608 ]
+					"presentation_rect" : [ 0.0, 0.0, 481.352941176470608, 481.352941176470608 ]
 				}
 
 			}

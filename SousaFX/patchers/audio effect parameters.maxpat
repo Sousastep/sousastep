@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 412.0, 53.0, 2148.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,76 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-531",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 309.0, 1324.5, 63.0, 22.0 ],
+					"text" : "closebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-530",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 309.0, 1361.5, 94.0, 22.0 ],
+					"text" : "s sousafx_close"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-529",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4135.0, 2044.0, 41.0, 22.0 ],
+					"text" : "del 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-526",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4135.0, 2080.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-525",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4135.0, 2129.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-524",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4135.0, 2165.0, 247.0, 22.0 ],
+					"text" : "s \"keep track of how much the tuba's played\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-201",
 					"maxclass" : "newobj",
@@ -266,7 +336,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "link", ",", "live" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1492,13 +1562,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
-					"text" : "467 439 1646 1065"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 102.0 ],
+					"text" : "1039 479 1520 960 0 53 2152 1440"
 				}
 
 			}
@@ -3200,7 +3270,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4272.5, 2116.0, 110.0, 22.0 ],
+					"patching_rect" : [ 4276.5, 2129.0, 110.0, 22.0 ],
 					"text" : "s \"is tuba playing?\""
 				}
 
@@ -3213,7 +3283,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4232.5, 2115.0, 24.0, 24.0 ]
+					"patching_rect" : [ 4229.5, 2128.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -3736,7 +3806,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"id" : "obj-353",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -9232,18 +9302,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-49",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5006.0, 1638.318129525913264, 897.0, 21.0 ],
-					"suppressinlet" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -11510,6 +11568,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-525", 1 ],
+					"order" : 2,
+					"source" : [ "obj-197", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -11634,6 +11700,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-475", 0 ],
 					"order" : 0,
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-529", 0 ],
+					"order" : 2,
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -14649,6 +14723,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-524", 0 ],
+					"source" : [ "obj-525", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-525", 0 ],
+					"source" : [ "obj-526", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-513", 0 ],
 					"source" : [ "obj-527", 0 ]
 				}
@@ -14656,8 +14744,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-526", 0 ],
+					"source" : [ "obj-529", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-55", 0 ],
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-530", 0 ],
+					"source" : [ "obj-531", 0 ]
 				}
 
 			}
@@ -15187,6 +15289,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-239", 0 ],
 					"order" : 0,
+					"source" : [ "obj-76", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-525", 1 ],
+					"order" : 2,
 					"source" : [ "obj-76", 0 ]
 				}
 
@@ -17064,6 +17174,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "kofi_qr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kofi_qrcode.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ladder_double_wrap.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
@@ -17320,20 +17444,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "paypal_qr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "paypal_qrcode.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
-				"patcherrelativepath" : "../media",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "phasor_to_BPM.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -17528,6 +17638,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stats",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
