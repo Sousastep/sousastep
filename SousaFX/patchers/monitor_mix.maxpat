@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1057.0, 399.0, 1222.0, 996.0 ],
+		"rect" : [ 530.0, 213.0, 1281.0, 1071.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,7 +39,7 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
-		"title" : "Monitor Mix",
+		"title" : "monitor mix",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-20",
@@ -98,7 +98,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 20.0, 126.0, 76.0 ],
-					"presentation_linecount" : 5,
 					"text" : "window flags nofloat, window flags zoom, window flags grow, window exec, savewindow 0"
 				}
 
@@ -221,7 +220,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 827.0, 753.0, 156.0, 22.0 ],
-					"restore" : [ -9.0 ],
+					"restore" : [ -6.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -309,7 +308,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1122.5, 137.0, 102.0, 22.0 ],
-					"restore" : [ 13.0 ],
+					"restore" : [ 14.740157480314966 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -327,8 +326,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 287.0, 292.0, 99.0, 22.0 ],
-					"restore" : [ 9.732283464566928 ],
+					"patching_rect" : [ 239.0, 291.0, 99.0, 22.0 ],
+					"restore" : [ 8.976377952755911 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
