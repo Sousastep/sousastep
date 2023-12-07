@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1052.0, 407.0, 964.0, 779.0 ],
+		"rect" : [ 582.0, 1527.0, 964.0, 779.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -852,7 +852,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1690.0, 660.0, 25.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 18.0, 36.0, 36.0 ],
+					"presentation_rect" : [ 178.0, 18.0, 39.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_arc"
