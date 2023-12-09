@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 673.0, 156.0, 1364.0, 1225.0 ],
+		"rect" : [ 838.0, 130.0, 1655.0, 1225.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,296 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-910",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -30.420475895704463, -1570.0, 30.0, 22.0 ],
+					"text" : "*~ 4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-907",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -491.0, -1550.0, 73.959053285714162, 20.0 ],
+					"text" : "idle phasor"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "enable internal phasor for idling",
+					"id" : "obj-905",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ -491.0, -1524.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 953.0, 24.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-903",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -430.0, -1471.0, 148.0, 22.0 ],
+					"text" : "gate~ 1 0 @ramptime 250"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-902",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ -430.0, -1525.171624443489236, 79.0, 22.0 ],
+					"text" : "phasor~ 0.25"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-901",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -430.0, -1420.0, 94.0, 22.0 ],
+					"text" : "s~ main_phasor",
+					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-900",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 402.0, 233.0, 127.0, 33.0 ],
+					"text" : "4. add ISF shader preset bank"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-899",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 346.0, 202.0, 183.0, 22.0 ],
+					"text" : "if $i1 >= 190 & $i1 <= 199 then 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-898",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "UI_ColorDiffusionFlow.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3441.0, 153.0, 393.0, 428.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 736.191946286332723, 376.507084399024961, 393.0, 428.0 ],
+					"varname" : "UI_ColorDiffusionFlow",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-895",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 812.0, 736.0, 127.0, 33.0 ],
+					"text" : "3. add ISF shader UI maxpat to this switch"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-881",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1243.500011205673218, 2965.0, 89.0, 22.0 ],
+					"text" : "r ISF_selection"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-882",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 1243.500011205673218, 3002.0, 34.0, 22.0 ],
+					"text" : "sel 9"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-883",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1273.500011205673218, 3040.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-885",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1243.500011205673218, 3040.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-886",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1395.500011205673218, 3153.0, 127.0, 22.0 ],
+					"text" : "s object_active_status"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-887",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1080.0, 3256.0, 71.0, 22.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-888",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1129.500011205673218, 3155.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-889",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1244.500011205673218, 3122.0, 119.0, 22.0 ],
+					"text" : "list.lookup hide show"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-890",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1395.500011205673218, 3122.0, 210.0, 22.0 ],
+					"text" : "prepend active UI_ColorDiffusionFlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-891",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1244.500011205673218, 3071.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-892",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1129.500011205673218, 3187.0, 258.0, 22.0 ],
+					"text" : "combine \"script \" hide \" UI_ColorDiffusionFlow\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-880",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 919.0, 3042.0, 150.0, 20.0 ],
+					"text" : "2. add Isf shader name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-879",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 508.5, 859.0, 150.0, 20.0 ],
+					"text" : "1. add Isf shader name"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-876",
 					"maxclass" : "newobj",
@@ -1483,7 +1773,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ -28.587142562371127, -1566.235079002787643, 52.0, 22.0 ],
+					"patching_rect" : [ -28.587142562371127, -1606.0, 52.0, 22.0 ],
 					"text" : "adc~ 18"
 				}
 
@@ -1795,18 +2085,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-797",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1113.500011205673218, 2923.350072224934593, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-798",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2026,18 +2304,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-742",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1113.500011205673218, 2648.350072224934593, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-743",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2239,18 +2505,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1364.366027511718357, 2302.350072224934593, 127.0, 22.0 ],
 					"text" : "s object_active_status"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-202",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1106.000011205673218, 2365.350072224934593, 71.0, 22.0 ],
-					"text" : "fromsymbol"
 				}
 
 			}
@@ -2874,14 +3128,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 82.233243552208251, -1342.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2892,8 +3140,20 @@
 							"parsestring" : ""
 						}
 ,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"secondCurve" : 						{
 							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2904,20 +3164,14 @@
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
+						"endX" : 						{
+							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3063,8 +3317,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 14.646100989837123, -1538.0, 72.0, 22.0 ],
-					"text" : "r~ tuba_env"
+					"patching_rect" : [ 14.646100989837123, -1538.0, 94.0, 22.0 ],
+					"text" : "r~ tuba_env_viz"
 				}
 
 			}
@@ -6466,8 +6720,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.233243552208251, -1460.0, 159.0, 22.0 ],
-					"text" : "loadmess rampsamples 960"
+					"patching_rect" : [ 83.233243552208251, -1460.0, 165.0, 22.0 ],
+					"text" : "loadmess rampsamples 4800"
 				}
 
 			}
@@ -6573,8 +6827,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 187.912857437628873, 71.038319656399608, 166.0, 22.0 ],
-					"text" : "if $i1 < 110 || $i1 > 189 then 0"
+					"patching_rect" : [ 96.0, 202.0, 166.0, 22.0 ],
+					"text" : "if $i1 < 110 || $i1 > 199 then 0"
 				}
 
 			}
@@ -6705,18 +6959,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-519",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1119.500011205673218, 2084.350072224934593, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-520",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -6782,7 +7024,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-512",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -6861,18 +7102,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-451",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1113.500011205673218, 1831.35007222493482, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-493",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -6938,6 +7167,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-411",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -7011,18 +7241,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1357.866027511718357, 1496.35007222493482, 127.0, 22.0 ],
 					"text" : "s object_active_status"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-364",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1113.000011205673218, 1554.35007222493482, 71.0, 22.0 ],
-					"text" : "fromsymbol"
 				}
 
 			}
@@ -7155,7 +7373,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -411.0, -337.0, 151.0, 22.0 ],
-					"text" : "loadmess \"changemode 0\""
+					"text" : "loadmess \"changemode 1\""
 				}
 
 			}
@@ -7166,7 +7384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 288.858169937628873, 212.704991091437819, 48.0, 22.0 ],
+					"patching_rect" : [ 242.0, 276.0, 48.0, 22.0 ],
 					"text" : "change"
 				}
 
@@ -7398,18 +7616,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-246",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1102.000011205673218, 1290.0, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-247",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -7567,18 +7773,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-592",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1066.000011205673218, 1003.0, 71.0, 22.0 ],
-					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-584",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -7608,7 +7802,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1079.500011205673218, 3041.0, 67.0, 22.0 ],
+					"patching_rect" : [ 1080.0, 3290.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -7618,11 +7812,11 @@
 				"box" : 				{
 					"id" : "obj-552",
 					"maxclass" : "newobj",
-					"numinlets" : 9,
+					"numinlets" : 10,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 691.0, 735.0, 103.0, 22.0 ],
-					"text" : "switch 8"
+					"patching_rect" : [ 691.0, 735.0, 113.5, 22.0 ],
+					"text" : "switch 9"
 				}
 
 			}
@@ -7805,7 +7999,7 @@
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 252.0, -694.0, 776.0, 560.0 ],
+						"rect" : [ 1354.0, 623.0, 776.0, 560.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -8354,8 +8548,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 283.200000000000045, 1653.0, 390.0, 22.0 ],
-					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -7.69 @scale 4 4 1"
+					"patching_rect" : [ 283.200000000000045, 1653.0, 373.0, 22.0 ],
+					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -9 @scale 4 4 1"
 				}
 
 			}
@@ -8805,103 +8999,103 @@
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_R1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_R2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_zoom::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_depth::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_gamma::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::u352009166" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::invert" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::linkphasor_rate" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::matrixctrl" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::rslider" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::slide_down" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::slide_up" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_SpaceSpore::SpaceSpore_ColorY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_FluidFlowSNoise" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::u352009166" : 0,
@@ -9240,7 +9434,128 @@
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0
+						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::u352009166" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::invert" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::linkphasor_rate" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::matrixctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::rslider" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_down" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_up" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::function" : 0
 					}
 ,
 					"fontname" : "Silom",
@@ -9251,10 +9566,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ -176.5, -267.063454559298634, 257.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -13107,7 +13422,7 @@
 					"patching_rect" : [ 349.0, -450.468276326431806, 205.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 31.0 ],
-					"text" : "RainbowGlowRing dub 2",
+					"text" : "SpaceSpore acoustic 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -13149,7 +13464,7 @@
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
-						"live.numbox" : [ 8.0 ],
+						"live.numbox" : [ 7.0 ],
 						"multiple_material" : [ 8 ],
 						"physics_videoplane_toggle" : [ 0 ],
 						"rnbo~[3]" : [ 							{
@@ -17786,13 +18101,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"source" : [ "obj-202", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-157", 0 ],
 					"source" : [ "obj-207", 0 ]
 				}
@@ -18076,14 +18384,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-244", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"midpoints" : [ 1111.500011205673218, 1476.0, 1089.000011205673218, 1476.0 ],
-					"source" : [ "obj-246", 0 ]
 				}
 
 			}
@@ -18639,7 +18939,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-246", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-321", 0 ]
 				}
 
@@ -18899,14 +19199,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-361", 0 ],
 					"source" : [ "obj-362", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"midpoints" : [ 1122.500011205673218, 1755.0, 1089.000011205673218, 1755.0 ],
-					"source" : [ "obj-364", 0 ]
 				}
 
 			}
@@ -19245,7 +19537,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-364", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-410", 0 ]
 				}
 
@@ -19457,14 +19749,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"midpoints" : [ 1123.000011205673218, 2007.0, 1089.000011205673218, 2007.0 ],
-					"source" : [ "obj-451", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-445", 0 ],
 					"source" : [ "obj-453", 0 ]
 				}
@@ -19541,7 +19825,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-558", 0 ],
-					"order" : 8,
+					"order" : 9,
 					"source" : [ "obj-462", 0 ]
 				}
 
@@ -19566,6 +19850,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-759", 0 ],
 					"order" : 7,
+					"source" : [ "obj-462", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-899", 0 ],
+					"order" : 8,
 					"source" : [ "obj-462", 0 ]
 				}
 
@@ -19930,7 +20222,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-451", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-510", 0 ]
 				}
 
@@ -20011,14 +20303,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"midpoints" : [ 1129.000011205673218, 2148.0, 1089.000011205673218, 2148.0 ],
-					"source" : [ "obj-519", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
@@ -20072,7 +20356,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-519", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-525", 0 ]
 				}
 
@@ -20318,7 +20602,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-592", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-557", 0 ]
 				}
 
@@ -20526,14 +20810,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-144", 3 ],
 					"source" : [ "obj-591", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"midpoints" : [ 1075.500011205673218, 2148.0, 1089.000011205673218, 2148.0 ],
-					"source" : [ "obj-592", 0 ]
 				}
 
 			}
@@ -20892,7 +21168,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-202", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-635", 0 ]
 				}
 
@@ -21634,13 +21910,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"source" : [ "obj-742", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-757", 0 ],
 					"source" : [ "obj-743", 0 ]
 				}
@@ -21798,7 +22067,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-742", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-757", 0 ]
 				}
 
@@ -22076,13 +22345,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-553", 0 ],
-					"source" : [ "obj-797", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-802", 0 ],
 					"source" : [ "obj-798", 0 ]
 				}
@@ -22159,7 +22421,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-797", 0 ],
+					"destination" : [ "obj-887", 0 ],
 					"source" : [ "obj-802", 0 ]
 				}
 
@@ -22341,16 +22603,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-369", 0 ],
-					"order" : 0,
-					"source" : [ "obj-823", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-807", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-910", 0 ],
 					"source" : [ "obj-823", 0 ]
 				}
 
@@ -22813,8 +23066,117 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-882", 0 ],
+					"source" : [ "obj-881", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-883", 0 ],
+					"source" : [ "obj-882", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-885", 0 ],
+					"source" : [ "obj-882", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-891", 0 ],
+					"source" : [ "obj-883", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-891", 0 ],
+					"source" : [ "obj-885", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-553", 0 ],
+					"source" : [ "obj-887", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-892", 0 ],
+					"source" : [ "obj-888", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-888", 0 ],
+					"order" : 1,
+					"source" : [ "obj-889", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-892", 1 ],
+					"order" : 0,
+					"source" : [ "obj-889", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-99", 0 ],
 					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-886", 0 ],
+					"source" : [ "obj-890", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-889", 0 ],
+					"order" : 1,
+					"source" : [ "obj-891", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-890", 0 ],
+					"order" : 0,
+					"source" : [ "obj-891", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-887", 0 ],
+					"source" : [ "obj-892", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-552", 9 ],
+					"source" : [ "obj-898", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-496", 0 ],
+					"source" : [ "obj-899", 0 ]
 				}
 
 			}
@@ -22823,6 +23185,27 @@
 					"destination" : [ "obj-38", 0 ],
 					"midpoints" : [ 7478.448663365501488, 1551.000000357627869, 7455.0, 1551.000000357627869, 7455.0, 1412.999999642372131, 7697.333338499069214, 1412.999999642372131, 7697.333338499069214, 1277.666666388511658, 7546.948663365501488, 1277.666666388511658 ],
 					"source" : [ "obj-90", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-903", 1 ],
+					"source" : [ "obj-902", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-901", 0 ],
+					"source" : [ "obj-903", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-903", 0 ],
+					"source" : [ "obj-905", 0 ]
 				}
 
 			}
@@ -22855,6 +23238,22 @@
 					"destination" : [ "obj-780", 0 ],
 					"order" : 0,
 					"source" : [ "obj-91", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-369", 0 ],
+					"order" : 0,
+					"source" : [ "obj-910", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-807", 1 ],
+					"order" : 1,
+					"source" : [ "obj-910", 0 ]
 				}
 
 			}
@@ -23028,6 +23427,16 @@
 			"obj-782::obj-53::obj-133" : [ "scale_invert[122]", "Phase-Inversion", 1 ],
 			"obj-782::obj-5::obj-133" : [ "scale_invert[120]", "Phase-Inversion", 1 ],
 			"obj-869" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-898::obj-1::obj-133" : [ "scale_invert[128]", "Phase-Inversion", 1 ],
+			"obj-898::obj-2::obj-133" : [ "scale_invert[129]", "Phase-Inversion", 1 ],
+			"obj-898::obj-3::obj-133" : [ "scale_invert[130]", "Phase-Inversion", 1 ],
+			"obj-898::obj-4::obj-133" : [ "scale_invert[131]", "Phase-Inversion", 1 ],
+			"obj-898::obj-58::obj-133" : [ "scale_invert[136]", "Phase-Inversion", 1 ],
+			"obj-898::obj-59::obj-133" : [ "scale_invert[135]", "Phase-Inversion", 1 ],
+			"obj-898::obj-5::obj-133" : [ "scale_invert[132]", "Phase-Inversion", 1 ],
+			"obj-898::obj-602::obj-133" : [ "scale_invert[127]", "Phase-Inversion", 1 ],
+			"obj-898::obj-6::obj-133" : [ "scale_invert[133]", "Phase-Inversion", 1 ],
+			"obj-898::obj-7::obj-133" : [ "scale_invert[134]", "Phase-Inversion", 1 ],
 			"obj-89::obj-133" : [ "scale_invert[45]", "Phase-Inversion", 1 ],
 			"obj-96::obj-133" : [ "scale_invert[46]", "Phase-Inversion", 1 ],
 			"obj-98::obj-133" : [ "scale_invert[48]", "Phase-Inversion", 1 ],
@@ -23492,6 +23901,46 @@
 					"parameter_longname" : "scale_invert[120]"
 				}
 ,
+				"obj-898::obj-1::obj-133" : 				{
+					"parameter_longname" : "scale_invert[128]"
+				}
+,
+				"obj-898::obj-2::obj-133" : 				{
+					"parameter_longname" : "scale_invert[129]"
+				}
+,
+				"obj-898::obj-3::obj-133" : 				{
+					"parameter_longname" : "scale_invert[130]"
+				}
+,
+				"obj-898::obj-4::obj-133" : 				{
+					"parameter_longname" : "scale_invert[131]"
+				}
+,
+				"obj-898::obj-58::obj-133" : 				{
+					"parameter_longname" : "scale_invert[136]"
+				}
+,
+				"obj-898::obj-59::obj-133" : 				{
+					"parameter_longname" : "scale_invert[135]"
+				}
+,
+				"obj-898::obj-5::obj-133" : 				{
+					"parameter_longname" : "scale_invert[132]"
+				}
+,
+				"obj-898::obj-602::obj-133" : 				{
+					"parameter_longname" : "scale_invert[127]"
+				}
+,
+				"obj-898::obj-6::obj-133" : 				{
+					"parameter_longname" : "scale_invert[133]"
+				}
+,
+				"obj-898::obj-7::obj-133" : 				{
+					"parameter_longname" : "scale_invert[134]"
+				}
+,
 				"obj-89::obj-133" : 				{
 					"parameter_longname" : "scale_invert[45]"
 				}
@@ -23553,6 +24002,13 @@
 			}
 , 			{
 				"name" : "UI_CandyWarp.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "UI_ColorDiffusionFlow.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -23647,6 +24103,10 @@
 			}
 , 			{
 				"name" : "jit.*.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "jit.+.mxe64",
 				"type" : "mx64"
 			}
 , 			{

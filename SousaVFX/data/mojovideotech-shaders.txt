@@ -6,3 +6,4 @@
 6, FluidFlowSNoise;
 7, VoronoiDuplex;
 8, ButterflyEffect;
+9, ColorDiffusionFlow;

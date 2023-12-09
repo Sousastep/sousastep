@@ -59,7 +59,7 @@
 140, RainbowGlowRing acoustic 1;
 141, RainbowGlowRing dub 1;
 142, RainbowGlowRing dub 2;
-143, RainbowGlowRing;
+143, RainbowGlowRing idling;
 144, RainbowGlowRing;
 145, RainbowGlowRing;
 146, RainbowGlowRing;
@@ -106,3 +106,13 @@
 187, ButterflyEffect;
 188, ButterflyEffect;
 189, ButterflyEffect;
+190, ColorDiffusionFlow idle;
+191, ColorDiffusionFlow dub;
+192, ColorDiffusionFlow;
+193, ColorDiffusionFlow;
+194, ColorDiffusionFlow;
+195, ColorDiffusionFlow;
+196, ColorDiffusionFlow;
+197, ColorDiffusionFlow;
+198, ColorDiffusionFlow;
+199, ColorDiffusionFlow;
