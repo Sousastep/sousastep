@@ -301,23 +301,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-79",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1107.0, 1361.0, 76.0, 23.0 ],
-					"text" : "LHCtoRGB"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-74",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -330,23 +313,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 958.0, 1361.0, 76.0, 23.0 ],
-					"text" : "LHCtoRGB"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-70",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -354,23 +320,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 786.0, 1263.0, 88.0, 22.0 ],
 					"text" : "pak 0.5 0.5 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-71",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 799.0, 1361.0, 76.0, 23.0 ],
-					"text" : "LHCtoRGB"
 				}
 
 			}
@@ -395,23 +344,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 634.0, 1263.0, 88.0, 22.0 ],
 					"text" : "pak 0.5 0.5 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.304029, 0.250694, 0.285628, 1.0 ],
-					"color" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-855",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 652.0, 1361.0, 76.0, 23.0 ],
-					"text" : "LHCtoRGB"
 				}
 
 			}
@@ -1680,13 +1612,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "LHCtoRGB.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "function_visualizer_clear_line.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
