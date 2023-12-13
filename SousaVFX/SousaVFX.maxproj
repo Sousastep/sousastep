@@ -2,7 +2,7 @@
 	"name" : "SousaVFX",
 	"version" : 1,
 	"creationdate" : 3782485106,
-	"modificationdate" : 3783717929,
+	"modificationdate" : 3785275343,
 	"viewrect" : [ 409.0, 233.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"LHCtoRGB.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 
 		}

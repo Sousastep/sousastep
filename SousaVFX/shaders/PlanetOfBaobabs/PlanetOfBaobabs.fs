@@ -27,8 +27,8 @@
       "NAME": "size",
       "TYPE": "float",
       "DEFAULT": 2.5,
-      "MIN": 1,
-      "MAX": 4
+      "MIN": 4,
+      "MAX": 12
     },
     {
       "NAME": "depth",

@@ -7,3 +7,14 @@
 7, VoronoiDuplex;
 8, ButterflyEffect;
 9, ColorDiffusionFlow;
+10, DimensionMorphingTopography;
+11, PlanetOfBaobabs;
+12, Electrocardiogram;
+13, Poly Star;
+14, PNoiseWaveFactory;
+15, MandalaScope;
+16, Puddlez;
+17, HexTruchWarpFlow2;
+18, FantasyEventHorizon;
+19, Spiral;
+20, SineWarpGradient;

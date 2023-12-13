@@ -30,7 +30,7 @@
       		"NAME": 	"zoom",
       		"TYPE": 	"float",
       		"MIN": 		1.0,
-      		"MAX": 		5.0,
+      		"MAX": 		50.0,
       		"DEFAULT": 	2.25
     	},
      	{
