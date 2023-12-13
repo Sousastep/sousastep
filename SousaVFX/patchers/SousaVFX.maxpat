@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 596.0, 123.0, 1821.0, 1225.0 ],
+		"rect" : [ 467.0, 109.0, 1278.0, 1225.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,11 +40,50 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"floatoutput" : 1,
+					"id" : "obj-238",
+					"maxclass" : "slider",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6342.0, 759.0, 20.0, 140.0 ],
+					"size" : 1.0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6132.0, 461.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6132.0, 504.0, 83.0, 22.0 ],
+					"text" : "loadmess 140"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-48",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -3315,7 +3354,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6218.0, 485.0, 107.333331942558289, 33.0 ],
+					"patching_rect" : [ 6204.0, 457.0, 107.333331942558289, 33.0 ],
 					"suppressinlet" : 1,
 					"text" : "convert BPM to ms per whole note"
 				}
@@ -3650,7 +3689,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 181.0, -547.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1014.185748504503181, 149.474611305503004, 100.0, 22.0 ]
+					"presentation_rect" : [ 1087.685756819351354, 86.770843505859375, 100.0, 22.0 ]
 				}
 
 			}
@@ -3734,7 +3773,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6228.0, 569.0, 59.0, 22.0 ],
+					"patching_rect" : [ 6228.0, 556.0, 59.0, 22.0 ],
 					"text" : "!/ 240000"
 				}
 
@@ -3747,7 +3786,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6228.0, 529.0, 82.0, 22.0 ],
+					"patching_rect" : [ 6228.0, 504.0, 82.0, 22.0 ],
 					"text" : "r tempo_BPM"
 				}
 
@@ -3789,20 +3828,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ -45.5, -1201.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"midX" : 						{
+							"label" : "midX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endY" : 						{
 							"label" : "endY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3813,20 +3846,26 @@
 							"parsestring" : ""
 						}
 ,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
+						"firstX" : 						{
+							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"endX" : 						{
 							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9708,7 +9747,188 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::function_visualizer_clear_line" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::function_visualizer_clear_line::function_visualizer_floats::function" : 0
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::u352009166" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::invert" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::linkphasor_rate" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::matrixctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::rslider" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::slide_down" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::slide_up" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::function" : 0
 					}
 ,
 					"fontname" : "Silom",
@@ -9722,7 +9942,7 @@
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 583, 69, 2434, 1326 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -11074,7 +11294,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3683.0, -478.0, 117.0, 22.0 ],
-					"text" : "1., -48. 48000"
+					"text" : "0., 0. 0"
 				}
 
 			}
@@ -11379,7 +11599,7 @@
 					"patching_rect" : [ 3351.0, -487.0, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.616144206670697, 1322.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "DINGONEK"
+					"text" : "SOUSASTEP"
 				}
 
 			}
@@ -13567,15 +13787,14 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, -135.0, 205.0, 53.0 ],
+					"patching_rect" : [ 358.0, -135.0, 205.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 31.0 ],
-					"text" : "PlanetOfBaobabs idle",
+					"text" : "Single Square dub 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -13592,32 +13811,32 @@
 					"restore" : 					{
 						"Audio IO Status" : [ 0 ],
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Medium" ],
+						"FontName" : [ "Ableton Sans Bold" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ -48.0 ],
-						"LineInitial" : [ 1.0 ],
-						"LineSeconds" : [ 48.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"LineFinal" : [ 0.0 ],
+						"LineInitial" : [ 0.0 ],
+						"LineSeconds" : [ 0.0 ],
+						"MultipleShapeSelection" : [ "sphere" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "opencylinder" ],
-						"TextPositionY" : [ -0.656 ],
+						"SingleShapeSelection" : [ "cube" ],
+						"TextPositionY" : [ 0.0 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 1.82 ],
-						"TextScaleY" : [ 1.87 ],
-						"TextTracking" : [ 1.06 ],
+						"TextScaleX" : [ 0.1 ],
+						"TextScaleY" : [ 0.0 ],
+						"TextTracking" : [ 0.0 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 7 ],
+						"TextboxIndex" : [ 1 ],
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
 						"enable_shader" : [ 0 ],
-						"enable_single_shape" : [ 0 ],
+						"enable_single_shape" : [ 1 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
-						"live.numbox" : [ 15.0 ],
+						"live.numbox" : [ 27.0 ],
 						"multiple_material" : [ 8 ],
 						"physics_videoplane_toggle" : [ 0 ],
 						"rnbo~[3]" : [ 							{
@@ -13660,14 +13879,14 @@
 									}
 ,
 									"secondCurve" : 									{
-										"value" : -0.795
+										"value" : -0.745
 									}
 
 								}
 
 							}
  ],
-						"text_loop_toggle" : [ 1 ]
+						"text_loop_toggle" : [ 0 ]
 					}
 ,
 					"text" : "autopattr SousaLED8",
@@ -18513,6 +18732,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-642", 0 ],
+					"source" : [ "obj-238", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"midpoints" : [ 6796.5, 12.791682481765747, 6959.58154758317778, 12.791682481765747, 6959.58154758317778, -109.874987244606018, 6922.5, -109.874987244606018 ],
 					"order" : 0,
@@ -20264,13 +20490,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-580", 0 ],
-					"source" : [ "obj-569", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-268", 0 ],
 					"source" : [ "obj-572", 0 ]
 				}
@@ -20317,6 +20536,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-642", 0 ],
 					"source" : [ "obj-578", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1051", 0 ],
+					"source" : [ "obj-58", 0 ]
 				}
 
 			}
@@ -21211,6 +21437,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
@@ -23690,13 +23923,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "LHCtoRGB.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
