@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 632.0, 53.0, 1928.0, 1387.0 ],
+		"rect" : [ 555.0, 53.0, 477.0, 847.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,8 +72,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5202.0, 2086.0, 159.0, 50.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 5202.0, 2086.0, 161.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "gonna leave this hardcoded instead of adding it to a pattr preset"
 				}
@@ -87,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5304.0, 2511.0, 115.0, 50.0 ],
+					"patching_rect" : [ 5304.0, 2511.0, 116.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "these clicks help set filter delay offsets in OBS"
 				}
@@ -114,7 +113,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4740.0, 3484.0, 42.0, 50.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "noise gate env",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -635,7 +633,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1844,7 +1842,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
-					"text" : "1020 453 1540 986"
+					"text" : "128 292 1312 608"
 				}
 
 			}
@@ -16145,8 +16143,6 @@
 			"obj-169::obj-219::obj-36" : [ "curve[8]", "curve", 0 ],
 			"obj-169::obj-221::obj-114" : [ "function[92]", "function", 0 ],
 			"obj-169::obj-221::obj-36" : [ "curve[2]", "curve", 0 ],
-			"obj-169::obj-226::obj-146::obj-54" : [ "function[74]", "function", 0 ],
-			"obj-169::obj-226::obj-146::obj-645" : [ "function", "function", 0 ],
 			"obj-169::obj-229::obj-114" : [ "function[105]", "function", 0 ],
 			"obj-169::obj-229::obj-36" : [ "curve[15]", "curve", 0 ],
 			"obj-169::obj-240::obj-114" : [ "function[91]", "function", 0 ],
@@ -16234,7 +16230,6 @@
 			"obj-208::obj-22::obj-145" : [ "accel[2]", "accel", 0 ],
 			"obj-208::obj-22::obj-153" : [ "live.button[2]", "live.button", 0 ],
 			"obj-208::obj-22::obj-159" : [ "live.dial[1]", "window", 0 ],
-			"obj-208::obj-22::obj-191" : [ "live.menu[5]", "live.menu", 0 ],
 			"obj-208::obj-22::obj-22" : [ "offset[1]", "offset", 0 ],
 			"obj-208::obj-22::obj-36" : [ "active[13]", "Active", 0 ],
 			"obj-208::obj-22::obj-38" : [ "active[12]", "Active", 0 ],
@@ -16295,7 +16290,6 @@
 			"obj-233::obj-15::obj-145" : [ "accel[1]", "accel", 0 ],
 			"obj-233::obj-15::obj-153" : [ "live.button[1]", "live.button", 0 ],
 			"obj-233::obj-15::obj-159" : [ "live.dial", "window", 0 ],
-			"obj-233::obj-15::obj-191" : [ "live.menu[2]", "live.menu", 0 ],
 			"obj-233::obj-15::obj-22" : [ "offset", "offset", 0 ],
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
@@ -16320,7 +16314,6 @@
 			"obj-534::obj-145" : [ "accel[4]", "accel", 0 ],
 			"obj-534::obj-153" : [ "live.button[4]", "live.button", 0 ],
 			"obj-534::obj-159" : [ "live.dial[18]", "window", 0 ],
-			"obj-534::obj-191" : [ "live.menu[8]", "live.menu", 0 ],
 			"obj-534::obj-22" : [ "offset[3]", "offset", 0 ],
 			"obj-534::obj-36" : [ "active[17]", "Active", 0 ],
 			"obj-534::obj-38" : [ "active[16]", "Active", 0 ],
@@ -16584,10 +16577,6 @@
 					"parameter_longname" : "depth / mix[1]"
 				}
 ,
-				"obj-208::obj-22::obj-191" : 				{
-					"parameter_longname" : "live.menu[5]"
-				}
-,
 				"obj-208::obj-22::obj-36" : 				{
 					"parameter_longname" : "active[13]"
 				}
@@ -16676,10 +16665,6 @@
 					"parameter_longname" : "live.dial"
 				}
 ,
-				"obj-233::obj-15::obj-191" : 				{
-					"parameter_longname" : "live.menu[2]"
-				}
-,
 				"obj-233::obj-15::obj-22" : 				{
 					"parameter_longname" : "offset"
 				}
@@ -16733,10 +16718,6 @@
 ,
 				"obj-534::obj-159" : 				{
 					"parameter_longname" : "live.dial[18]"
-				}
-,
-				"obj-534::obj-191" : 				{
-					"parameter_longname" : "live.menu[8]"
 				}
 ,
 				"obj-534::obj-22" : 				{
@@ -17339,6 +17320,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "dummy_selector.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ease.mxo",
 				"type" : "iLaX"
 			}
@@ -17442,20 +17430,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamepadLEDVFX.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamepadLEDVFX.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
