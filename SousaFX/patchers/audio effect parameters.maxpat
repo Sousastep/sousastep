@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 55.0, 885.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,30 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-553",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 6725.0, 3126.0, 29.5, 22.0 ],
+					"text" : "t f f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-535",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 6963.0, 3413.0, 29.5, 22.0 ],
+					"text" : "t f f"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-550",
 					"maxclass" : "newobj",
@@ -633,7 +657,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1836,13 +1860,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 12,
+					"linecount" : 19,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 169.0 ],
-					"text" : "904 376 1268 912 585 1514 1377 2248 1300 442 1616 830"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 263.0 ],
+					"text" : "1232 665 1752 1198 905 83 1269 619 967 679 1461 963 1434 168 2384 373 1282 128 1674 448"
 				}
 
 			}
@@ -2830,7 +2854,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 16.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -2917,7 +2941,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -5269,8 +5293,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -7294,8 +7318,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6984.0, 3468.0, 69.0, 22.0 ],
-					"text" : ">= 0.08333"
+					"patching_rect" : [ 6973.5, 3453.0, 63.0, 22.0 ],
+					"text" : ">= 0.0625"
 				}
 
 			}
@@ -7306,7 +7330,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6948.0, 3508.0, 32.0, 22.0 ],
+					"patching_rect" : [ 6950.0, 3496.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -7319,7 +7343,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6964.0, 3424.0, 101.0, 22.0 ],
+					"patching_rect" : [ 6963.0, 3368.0, 101.0, 22.0 ],
 					"text" : "r main_sync_rate"
 				}
 
@@ -7470,8 +7494,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6744.0, 3160.0, 69.0, 22.0 ],
-					"text" : ">= 0.08333"
+					"patching_rect" : [ 6744.0, 3160.0, 63.0, 22.0 ],
+					"text" : ">= 0.0625"
 				}
 
 			}
@@ -7495,7 +7519,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6724.0, 3116.0, 101.0, 22.0 ],
+					"patching_rect" : [ 6725.0, 3091.0, 101.0, 22.0 ],
 					"text" : "r main_sync_rate"
 				}
 
@@ -10430,16 +10454,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1120", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1122", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1121", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-535", 0 ],
 					"source" : [ "obj-1122", 0 ]
 				}
 
@@ -11715,16 +11730,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-272", 1 ],
-					"order" : 1,
-					"source" : [ "obj-195", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-317", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-553", 0 ],
 					"source" : [ "obj-195", 0 ]
 				}
 
@@ -15024,6 +15030,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1120", 0 ],
+					"source" : [ "obj-535", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1121", 1 ],
+					"source" : [ "obj-535", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-543", 0 ],
 					"source" : [ "obj-539", 0 ]
 				}
@@ -15380,6 +15400,20 @@
 					"destination" : [ "obj-306", 0 ],
 					"order" : 0,
 					"source" : [ "obj-552", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-272", 1 ],
+					"source" : [ "obj-553", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-317", 0 ],
+					"source" : [ "obj-553", 1 ]
 				}
 
 			}
@@ -16131,6 +16165,9 @@
  ],
 		"parameters" : 		{
 			"obj-114::obj-21::obj-191" : [ "vst~[13]", "vst~", 0 ],
+			"obj-166::obj-21::obj-192" : [ "Resonance[8]", "Sat", 0 ],
+			"obj-166::obj-21::obj-26" : [ "Reso", "Reso", 0 ],
+			"obj-166::obj-21::obj-41" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-168::obj-2::obj-191" : [ "vst~[25]", "vst~", 0 ],
 			"obj-168::obj-3::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-168::obj-4::obj-191" : [ "vst~[26]", "vst~", 0 ],
@@ -16373,6 +16410,10 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-166::obj-21::obj-41" : 				{
+					"parameter_longname" : "live.menu[6]"
+				}
+,
 				"obj-169::obj-1102::obj-36" : 				{
 					"parameter_longname" : "curve[12]"
 				}
@@ -17349,10 +17390,66 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "eight_filters.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "eztrig.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.diode.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.k35lp.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.ladder.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.reson.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.svf-as.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.svf-eg.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fc.zdf-svf.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -17907,6 +18004,27 @@
 			}
 , 			{
 				"name" : "smFilterPack_env_follow.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder_setup.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "smFilterPack_ladder_wrap.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
