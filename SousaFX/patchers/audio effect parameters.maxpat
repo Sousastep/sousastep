@@ -369,8 +369,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1900.0, 2153.0, 61.0, 22.0 ],
-					"text" : "pipe 6000"
+					"patching_rect" : [ 1900.0, 2153.0, 68.0, 22.0 ],
+					"text" : "pipe 12000"
 				}
 
 			}
@@ -657,7 +657,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "link", ",", "live", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1860,13 +1860,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 19,
+					"linecount" : 23,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 263.0 ],
-					"text" : "1232 665 1752 1198 905 83 1269 619 967 679 1461 963 1434 168 2384 373 1282 128 1674 448"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 317.0 ],
+					"text" : "1751 596 2271 1129 1368 509 1604 662 1371 682 1607 835 1374 855 1610 1008 1379 1028 1615 1181 30 234 1396 1408"
 				}
 
 			}
@@ -5293,8 +5293,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -16284,6 +16284,7 @@
 			"obj-208::obj-22::obj-153" : [ "live.button[2]", "live.button", 0 ],
 			"obj-208::obj-22::obj-159" : [ "live.dial[1]", "window", 0 ],
 			"obj-208::obj-22::obj-22" : [ "offset[1]", "offset", 0 ],
+			"obj-208::obj-22::obj-235" : [ "volume dip[1]", "vol dip", 0 ],
 			"obj-208::obj-22::obj-36" : [ "active[13]", "Active", 0 ],
 			"obj-208::obj-22::obj-38" : [ "active[12]", "Active", 0 ],
 			"obj-208::obj-22::obj-42" : [ "stutter volume[1]", "stutter volume", 0 ],
@@ -16345,6 +16346,7 @@
 			"obj-233::obj-15::obj-153" : [ "live.button[1]", "live.button", 0 ],
 			"obj-233::obj-15::obj-159" : [ "live.dial", "window", 0 ],
 			"obj-233::obj-15::obj-22" : [ "offset", "offset", 0 ],
+			"obj-233::obj-15::obj-235" : [ "volume dip", "vol dip", 0 ],
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
@@ -16370,6 +16372,7 @@
 			"obj-534::obj-153" : [ "live.button[4]", "live.button", 0 ],
 			"obj-534::obj-159" : [ "live.dial[18]", "window", 0 ],
 			"obj-534::obj-22" : [ "offset[3]", "offset", 0 ],
+			"obj-534::obj-235" : [ "volume dip[2]", "vol dip", 0 ],
 			"obj-534::obj-36" : [ "active[17]", "Active", 0 ],
 			"obj-534::obj-38" : [ "active[16]", "Active", 0 ],
 			"obj-534::obj-42" : [ "stutter volume[3]", "stutter volume", 0 ],
@@ -16632,6 +16635,10 @@
 					"parameter_longname" : "depth / mix[1]"
 				}
 ,
+				"obj-208::obj-22::obj-235" : 				{
+					"parameter_longname" : "volume dip[1]"
+				}
+,
 				"obj-208::obj-22::obj-36" : 				{
 					"parameter_longname" : "active[13]"
 				}
@@ -16777,6 +16784,10 @@
 ,
 				"obj-534::obj-22" : 				{
 					"parameter_longname" : "offset[3]"
+				}
+,
+				"obj-534::obj-235" : 				{
+					"parameter_longname" : "volume dip[2]"
 				}
 ,
 				"obj-534::obj-36" : 				{
@@ -17183,6 +17194,27 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ai1.jpg",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ai2.jpg",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ai3.jpg",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
@@ -17634,6 +17666,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "license.sousafx",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "license_nyboer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -17932,6 +17971,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "real.jpg",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "reverb_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -18073,13 +18119,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "stats",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "stutter tremolo filters.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -18109,7 +18148,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 876.0, 908.0, 338.0, 347.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -625,7 +625,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 180.0, 335.0, 315.0, 72.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 24.0, 284.0, 61.0 ],
+					"presentation_rect" : [ 9.5, 24.0, 319.0, 61.0 ],
 					"varname" : "stutterstep",
 					"viewvisibility" : 1
 				}
