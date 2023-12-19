@@ -634,8 +634,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 2372.0, 2207.0, 142.0, 22.0 ],
-					"text" : "mc.tapout~ 10 @chans 8"
+					"patching_rect" : [ 2372.0, 2207.0, 85.0, 22.0 ],
+					"text" : "mc.tapout~ 10"
 				}
 
 			}
@@ -646,8 +646,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 2372.0, 2171.0, 135.0, 22.0 ],
-					"text" : "mc.tapin~ 10 @chans 8"
+					"patching_rect" : [ 2372.0, 2171.0, 78.0, 22.0 ],
+					"text" : "mc.tapin~ 10"
 				}
 
 			}
@@ -659,7 +659,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2703.0, 1563.0, 169.0, 122.0 ],
+					"patching_rect" : [ 2703.0, 1563.0, 172.0, 122.0 ],
 					"suppressinlet" : 1,
 					"text" : "the looper input and main input share the time fx sends. \n\nif either the looper or main delay send are mapped to a joystick axis instead of a button, then the delay send will also feedback upon itself"
 				}
