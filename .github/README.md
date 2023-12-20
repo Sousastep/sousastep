@@ -57,17 +57,17 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 
     - RNBO Synth Building Blocks
 
+2. [Download sousastep](https://github.com/Sousastep/sousastep/releases/latest) to your `~/Documents/Max 8/Projects/` folder. 
+
 > [!NOTE]
 > SousaFX remains fully operational after Max's 30-day trial ends.
-
-2. [Download sousastep](https://github.com/Sousastep/sousastep/releases/latest) to your `~/Documents/Max 8/Projects/` folder. 
 
 > [!IMPORTANT]
 > When updating to new versions of SousaFX, copy all user preset files from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` to the new version's `sousastep/SousaFX/data/` folder.
 
 ## Optional
 
-3. To open the "SousaPlayback template Project", [download Live Suite](https://www.ableton.com/en/trial/) from Ableton.
+3. To open the SousaPlayback template project (`~/Documents/Max 8/Projects/sousastep/default/SousaPlayback template Project/SousaPlayback template.als`), [download Live Suite](https://www.ableton.com/en/trial/) from Ableton.
 
     Open Live, click "Menubar > Live > Settings...", and set the following preferences:
 
@@ -84,7 +84,7 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
         - Out: to Max 1 - Track [check]
 
 > [!NOTE]
-> SousaPlayback uses a number of custom Max For Live devices that require Ableton Live 11/12 Suite or Standard with the Max for Live add-on.
+> The SousaPlayback template project requires Ableton Live 11/12 Suite or Standard with the Max for Live add-on.
 
 4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 1636.0, 502.0, 316.0, 388.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,6 +61,7 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
+					"activeneedlecolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"hint" : "adjust the sensitivity of the incoming envelope",
@@ -75,6 +76,10 @@
 					"presentation_rect" : [ 10.724228120505359, 202.849113265519833, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -136,7 +141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1545.5, 933.0, 148.0, 22.0 ],
-					"restore" : [ 100.0 ],
+					"restore" : [ 10.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -150,6 +155,7 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
+					"activeneedlecolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"hint" : "lean lows crossfade envelope towards attack or sustain FX",
@@ -164,6 +170,10 @@
 					"presentation_rect" : [ 248.0, 217.0, 56.275771879494641, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -709,6 +719,7 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
+					"activeneedlecolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"hint" : "crossfade envelope attack",
@@ -723,6 +734,10 @@
 					"presentation_rect" : [ 10.724228120505359, 15.583959488843675, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -763,6 +778,7 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
+					"activeneedlecolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"hint" : "interpolate between linear and equal-power crossfades",
@@ -777,6 +793,10 @@
 					"presentation_rect" : [ 10.724228120505359, 296.481690153857926, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
 							"expression" : ""
 						}
 ,
@@ -1053,6 +1073,7 @@
 , 			{
 				"box" : 				{
 					"activedialcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
+					"activeneedlecolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"hint" : "crossfade envelope decay",
@@ -1067,6 +1088,10 @@
 					"presentation_rect" : [ 10.724228120505359, 109.216536377181754, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"activedialcolor" : 						{
+							"expression" : ""
+						}
+,
+						"activeneedlecolor" : 						{
 							"expression" : ""
 						}
 ,

@@ -42,6 +42,221 @@
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-654",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 888.0, 3408.0, 259.0, 22.0 ],
+					"text" : "r crosspatch_output_connection_list_continued"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-652",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4497.0, 2663.0, 261.0, 22.0 ],
+					"text" : "s crosspatch_output_connection_list_continued"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-651",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "", "", "", "", "", "" ],
+					"patching_rect" : [ 888.0, 3446.0, 86.0, 22.0 ],
+					"text" : "route 1 2 3 4 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Main Input Reverb Send (uni)", "Delay & Reverb Sends" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-628",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 516.0, 3648.0, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 191.0, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Main Input Delay Send 4 (uni)", "Delay & Reverb Sends" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-639",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 433.0, 3610.0, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 170.75, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Main Input Delay Send 3 (uni)", "Delay & Reverb Sends" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-640",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 368.0, 3573.0, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 150.5, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Main Input Delay Send 2 (uni)", "Delay & Reverb Sends" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-644",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 287.0, 3536.0, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 130.25, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Main Input Delay Send 1 (uni)", "Delay & Reverb Sends" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-645",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 194.0, 3498.0, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 110.0, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.4275, 1.0, 0.9 ],
+					"id" : "obj-646",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 572.0, 3531.0, 306.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Delay Send 2 (uni)\"",
+					"varname" : "LFO Swing Amount (uni)[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.4353, 0.8902, 0.9 ],
+					"id" : "obj-647",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 647.0, 3570.0, 306.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Delay Send 3 (uni)\"",
+					"varname" : "LFO Duty Cycle (bi)[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.4471, 0.6039, 0.9 ],
+					"id" : "obj-648",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 808.0, 3646.0, 304.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Reverb Send (uni)\"",
+					"varname" : "Envelope Crossfade Position (bi)[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.4431, 0.749, 0.9 ],
+					"id" : "obj-649",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 727.0, 3608.0, 306.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Delay Send 4 (uni)\"",
+					"varname" : "LFO Ceiling Envelope Curve (bi)[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0353, 0.4078, 1.0, 0.9 ],
+					"id" : "obj-650",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 496.0, 3493.0, 306.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"Main Input Delay Send 1 (uni)\"",
+					"varname" : "LFO Sync-Free Crossfade (uni)[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-637",
 					"linecount" : 3,
@@ -589,18 +804,6 @@
 					"patching_rect" : [ 4575.0, 3074.0, 308.0, 22.0 ],
 					"text" : "\"param control logic\" 0.5 f \"Drum Clip Stutter Accel (uni)\"",
 					"varname" : "Drum Clip Stutter Accel (uni)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-640",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 666.0, 3855.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -1350,121 +1553,6 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Delay & Reverb Sends", "Delay & Reverb Sends" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-274",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hover_bang_ubutton.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3998.0, 4166.0, 255.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 542.0, 191.0, 285.0, 17.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "Delay & Reverb Sends", "Delay & Reverb Sends" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-161",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hover_bang_ubutton.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3820.0, 4319.0, 255.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 542.0, 110.0, 285.0, 17.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "Delay & Reverb Sends", "Delay & Reverb Sends" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-196",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hover_bang_ubutton.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3869.0, 4293.0, 255.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 542.0, 130.25, 285.0, 17.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "Delay & Reverb Sends", "Delay & Reverb Sends" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-213",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hover_bang_ubutton.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3918.0, 4268.0, 255.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 542.0, 149.5, 285.0, 18.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "Delay & Reverb Sends", "Delay & Reverb Sends" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-233",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "hover_bang_ubutton.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3983.0, 4140.0, 255.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 542.0, 170.75, 285.0, 17.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-747",
 					"maxclass" : "comment",
@@ -1511,12 +1599,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-705",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 205.0, 2788.0, 696.0, 22.0 ],
-					"text" : "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 4 6 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 8 8 8 8 8 8 8 8 8 5 5 5 5 5 4 8 5"
+					"patching_rect" : [ 205.0, 2788.0, 619.0, 35.0 ],
+					"text" : "5 5 5 5 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 4 6 3 3 3 3 3 3 4 4 4 4 4 4 4 4 4 8 8 8 8 8 8 8 8 8 5 5 5 5 5 4 8 5"
 				}
 
 			}
@@ -4538,7 +4627,7 @@
 					"numinlets" : 37,
 					"numoutlets" : 37,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 3880.0, 2641.0, 636.0, 22.0 ],
+					"patching_rect" : [ 3880.0, 2630.0, 636.0, 22.0 ],
 					"text" : "route 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68",
 					"varname" : "route"
 				}
@@ -8389,7 +8478,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.0, 1195.0, 159.0, 294.0 ],
+					"patching_rect" : [ 832.0, 1186.0, 159.0, 294.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 147.0, 819.0, 159.0, 294.0 ],
 					"text" : "{",
@@ -8672,7 +8761,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 838.0, 1292.0, 71.0, 39.0 ],
+					"patching_rect" : [ 789.0, 1330.0, 71.0, 39.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 100.0, 961.0, 76.0, 39.0 ],
 					"text" : "LT",
@@ -8893,7 +8982,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 789.0, 1571.0, 108.0, 46.0 ],
+					"patching_rect" : [ 780.0, 1746.0, 108.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 97.5, 1371.852941176469812, 108.0, 46.0 ],
@@ -8913,7 +9002,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 789.0, 1435.0, 108.0, 46.0 ],
+					"patching_rect" : [ 789.0, 1533.0, 108.0, 46.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 97.5, 1177.088235294117112, 108.0, 46.0 ],
@@ -10275,7 +10364,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "half",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10746,11 +10835,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 17,
-										"out" : 15,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 14,
 										"out" : 13,
 										"gain" : 1.0
@@ -10975,6 +11059,16 @@
 										"out" : 12,
 										"gain" : 1.0
 									}
+, 									{
+										"in" : 16,
+										"out" : 34,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 17,
+										"out" : 35,
+										"gain" : 1.0
+									}
  ]
 							}
 
@@ -11137,18 +11231,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.905882352941176, 0.552941176470588, 0.0, 1.0 ],
-					"id" : "obj-389",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1008.0, 2704.0, 85.0, 22.0 ],
-					"text" : "s reverb_send"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-892",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -11201,65 +11283,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 1335.0, 2755.0, 34.0, 22.0 ],
 					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 956.0, 2734.0, 91.0, 22.0 ],
-					"text" : "prepend delay4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 938.0, 2767.0, 91.0, 22.0 ],
-					"text" : "prepend delay3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 922.0, 2800.0, 91.0, 22.0 ],
-					"text" : "prepend delay2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 906.0, 2832.0, 91.0, 22.0 ],
-					"text" : "prepend delay1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 956.0, 2865.0, 85.0, 22.0 ],
-					"text" : "s delay_sends"
 				}
 
 			}
@@ -11361,7 +11384,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 968.0, 2921.0, 106.666665375232697, 35.0 ],
+					"patching_rect" : [ 1075.333334624767303, 2788.0, 106.666665375232697, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "allow subdivisions to select presets"
 				}
@@ -11375,7 +11398,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 940.0, 2926.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1047.333334624767303, 2793.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -12644,8 +12667,8 @@
 					"numins" : 50,
 					"numoutlets" : 2,
 					"numouts" : 69,
-					"outcolormap" : [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5 ],
-					"outlabels" : [ "Delay send 1", "Delay send 2", "Delay send 3", "Delay send 4", "Reverb send", "Preset 1", "Preset 2", "Preset 3", "Preset 4", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "-----", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "16th quintuplet", "32nd quintuplet", "-----", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (uni)", "Drum Clip Stutter Accel (uni)", "Main Input Stutter Accel (uni)" ],
+					"outcolormap" : [ 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5 ],
+					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Preset 1", "Preset 2", "Preset 3", "Preset 4", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "-----", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "16th quintuplet", "32nd quintuplet", "-----", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (uni)", "Drum Clip Stutter Accel (uni)", "Main Input Stutter Accel (uni)" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 476.0, 829.0, 1380.0 ],
@@ -12682,7 +12705,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 406.0, 3922.0, 104.0, 213.942857142857122 ],
+					"patching_rect" : [ 440.0, 3888.0, 104.0, 213.942857142857122 ],
 					"pic" : "20231105_231713.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 859.0, 1520.0 ]
@@ -13918,44 +13941,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-389", 0 ],
-					"source" : [ "obj-16", 5 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-16", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-16", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-16", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.2863, 1.0, 1.0, 0.9 ],
 					"destination" : [ "obj-457", 0 ],
 					"source" : [ "obj-16", 69 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
-					"source" : [ "obj-16", 4 ]
 				}
 
 			}
@@ -14040,6 +14028,41 @@
 				"patchline" : 				{
 					"destination" : [ "obj-629", 0 ],
 					"source" : [ "obj-16", 35 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-646", 0 ],
+					"source" : [ "obj-16", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-647", 0 ],
+					"source" : [ "obj-16", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-648", 0 ],
+					"source" : [ "obj-16", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-649", 0 ],
+					"source" : [ "obj-16", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-650", 0 ],
+					"source" : [ "obj-16", 1 ]
 				}
 
 			}
@@ -16603,13 +16626,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-433", 0 ],
 					"source" : [ "obj-431", 1 ]
 				}
@@ -16698,13 +16714,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-443", 0 ],
 					"source" : [ "obj-441", 1 ]
 				}
@@ -16785,13 +16794,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-451", 0 ],
 					"source" : [ "obj-450", 0 ]
 				}
@@ -16840,13 +16842,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-881", 0 ],
 					"source" : [ "obj-458", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
-					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -18497,13 +18492,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-638", 0 ],
-					"source" : [ "obj-640", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-250", 1 ],
 					"source" : [ "obj-643", 0 ]
 				}
@@ -18528,9 +18516,51 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-646", 1 ],
+					"source" : [ "obj-651", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-647", 1 ],
+					"source" : [ "obj-651", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-648", 1 ],
+					"source" : [ "obj-651", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-649", 1 ],
+					"source" : [ "obj-651", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-650", 1 ],
+					"source" : [ "obj-651", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-636", 0 ],
 					"midpoints" : [ 2368.5, 1116.0, 2346.0, 1116.0, 2346.0, 1157.0, 2369.5, 1157.0 ],
 					"source" : [ "obj-653", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-651", 0 ],
+					"source" : [ "obj-654", 0 ]
 				}
 
 			}
@@ -19738,6 +19768,13 @@
 					"color" : [ 0.7255, 1.0, 0.2706, 0.9 ],
 					"destination" : [ "obj-525", 1 ],
 					"source" : [ "obj-967", 28 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-652", 0 ],
+					"source" : [ "obj-967", 36 ]
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2089.0, 1319.0 ],
+		"rect" : [ 563.0, 1527.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -667,7 +667,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1248.0, -158.0, 126.0, 22.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -686,7 +686,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1288.0, 691.0, 168.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -888,7 +888,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 477.0, 787.0, 168.0, 22.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1098,7 +1098,6 @@
 			}
 , 			{
 				"box" : 				{
-					"arrow" : 0,
 					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
@@ -1109,7 +1108,6 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-106",
-					"ignoreclick" : 1,
 					"items" : [ "establish", "control", "when", "tuba", "starts", "playing", ",", "establish", "control", "when", "tuba", "stops", "playing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1159,6 +1157,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
+					"hidden" : 1,
 					"id" : "obj-103",
 					"items" : [ "immediately", "relinquish", "control", ",", "wait", "until", "control", "hits", "deadzone", "to", "relinquish", ",", "wait", "until", "control", "hits", "default", "value", "to", "relinquish" ],
 					"maxclass" : "umenu",
@@ -1175,7 +1174,6 @@
 			}
 , 			{
 				"box" : 				{
-					"arrow" : 0,
 					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
@@ -1185,8 +1183,8 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
+					"hidden" : 1,
 					"id" : "obj-100",
-					"ignoreclick" : 1,
 					"items" : [ "relinquish", "control", "when", "tuba", "starts", "playing", ",", "relinquish", "control", "when", "tuba", "stops", "playing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
