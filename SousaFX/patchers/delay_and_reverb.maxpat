@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 441.0, 88.0, 1655.0, 1287.0 ],
+		"rect" : [ 529.0, 1493.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"title" : "delay & reverb sends",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2098.0, 981.0, 183.0, 22.0 ],
+					"text" : "r \"Main Input Delay Send 4 (uni)\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1970.0, 951.0, 183.0, 22.0 ],
+					"text" : "r \"Main Input Delay Send 3 (uni)\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1843.0, 921.0, 183.0, 22.0 ],
+					"text" : "r \"Main Input Delay Send 2 (uni)\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-36",
 					"maxclass" : "newobj",
@@ -130,8 +166,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3144.0, 2272.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 3144.0, 2272.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -142,8 +178,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3064.0, 2273.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 3064.0, 2273.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -154,8 +190,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2983.0, 2273.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2983.0, 2273.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -166,8 +202,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2903.0, 2274.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2903.0, 2274.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -178,8 +214,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2822.0, 2274.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2822.0, 2274.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -190,8 +226,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2742.0, 2274.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2742.0, 2274.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -202,8 +238,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2661.0, 2275.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2661.0, 2275.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -214,8 +250,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2581.0, 2275.0, 40.0, 22.0 ],
-					"text" : "*~ 1.1"
+					"patching_rect" : [ 2581.0, 2275.0, 47.0, 22.0 ],
+					"text" : "*~ 1.15"
 				}
 
 			}
@@ -659,7 +695,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2703.0, 1563.0, 172.0, 122.0 ],
+					"patching_rect" : [ 2703.0, 1563.0, 173.0, 122.0 ],
 					"suppressinlet" : 1,
 					"text" : "the looper input and main input share the time fx sends. \n\nif either the looper or main delay send are mapped to a joystick axis instead of a button, then the delay send will also feedback upon itself"
 				}
@@ -2387,25 +2423,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-406",
-					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 1850.860472052211435, 948.088472640219607, 191.0, 22.0 ],
-					"text" : "route delay1 delay2 delay3 delay4"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-366",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1850.860472052211435, 901.436297969430598, 83.0, 22.0 ],
-					"text" : "r delay_sends"
+					"patching_rect" : [ 1715.0, 890.0, 183.0, 22.0 ],
+					"text" : "r \"Main Input Delay Send 1 (uni)\""
 				}
 
 			}
@@ -3024,7 +3048,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2148.860482701574256, 1012.839035505211314, 97.880000000000109, 27.581943351368409 ],
+					"patching_rect" : [ 2098.060479006086098, 1016.209028324315796, 97.880000000000109, 27.581943351368409 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.360466727529911, 199.239035505211177, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[4]",
@@ -3073,7 +3097,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2021.360477376892959, 1012.839035505211314, 97.880000000000109, 27.581943351368409 ],
+					"patching_rect" : [ 1970.060479006086098, 1016.209028324315796, 97.880000000000109, 27.581943351368409 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.360466727529911, 167.439035505211223, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[5]",
@@ -3122,7 +3146,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1893.860472052211662, 1012.839035505211314, 97.880000000000109, 27.581943351368409 ],
+					"patching_rect" : [ 1843.060479006086098, 1016.209028324315796, 97.880000000000109, 27.581943351368409 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.360466727529911, 135.639035505211268, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[3]",
@@ -3171,7 +3195,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1766.360466727529911, 1012.839035505211314, 97.880000000000109, 27.581943351368409 ],
+					"patching_rect" : [ 1715.060479006086098, 1016.209028324315796, 97.880000000000109, 27.581943351368409 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 179.360466727529911, 103.839035505211314, 100.880000000000109, 29.581943351368409 ],
 					"varname" : "hold[6]",
@@ -4588,8 +4612,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-406", 0 ],
+					"destination" : [ "obj-251", 0 ],
 					"source" : [ "obj-366", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-482", 0 ],
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -4610,29 +4641,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-251", 0 ],
-					"source" : [ "obj-406", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-482", 0 ],
-					"source" : [ "obj-406", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-627", 0 ],
-					"source" : [ "obj-406", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-631", 0 ],
-					"source" : [ "obj-406", 2 ]
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -4740,6 +4750,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-631", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}

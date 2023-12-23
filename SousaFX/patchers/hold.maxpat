@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1081.0, 445.0, 807.0, 659.0 ],
+		"rect" : [ 1081.0, 1527.0, 807.0, 659.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,8 +45,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 94.0, 80.433759038668398, 72.0, 22.0 ],
-					"text" : "append 80"
+					"patching_rect" : [ 94.0, 80.433759038668398, 65.0, 22.0 ],
+					"text" : "append 30"
 				}
 
 			}
