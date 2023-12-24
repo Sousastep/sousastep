@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 467.0, 109.0, 1278.0, 1225.0 ],
+		"rect" : [ -1919.0, 51.0, 1450.0, 1148.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,22 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-69",
+					"maxclass" : "number~",
+					"mode" : 2,
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "float" ],
+					"patching_rect" : [ -262.0, -1191.0, 56.0, 22.0 ],
+					"sig" : 0.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"floatoutput" : 1,
 					"id" : "obj-238",
@@ -3828,14 +3844,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ -45.5, -1201.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endY" : 						{
-							"label" : "endY",
+						"endX" : 						{
+							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3846,14 +3856,8 @@
 							"parsestring" : ""
 						}
 ,
-						"firstX" : 						{
-							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endX" : 						{
-							"label" : "endX",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3864,14 +3868,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7594,7 +7610,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-411",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -8961,103 +8976,6 @@
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::u352009166" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::invert" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_SpaceSpore" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::u352009166" : 0,
@@ -11294,7 +11212,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3683.0, -478.0, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -48. 48000"
 				}
 
 			}
@@ -11599,7 +11517,7 @@
 					"patching_rect" : [ 3351.0, -487.0, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.616144206670697, 1322.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "SOUSASTEP"
+					"text" : "DINGONEK"
 				}
 
 			}
@@ -13787,14 +13705,15 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 358.0, -135.0, 205.0, 31.0 ],
+					"patching_rect" : [ 358.0, -135.0, 205.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 31.0 ],
-					"text" : "Single Square dub 1",
+					"text" : "RainbowGlowRing idling",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -13811,32 +13730,32 @@
 					"restore" : 					{
 						"Audio IO Status" : [ 0 ],
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Ableton Sans Medium" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "sphere" ],
-						"PositionMatrixDimensionX" : [ 3 ],
-						"PositionMatrixDimensionY" : [ 3 ],
+						"LineFinal" : [ -48.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 48.0 ],
+						"MultipleShapeSelection" : [ "torus" ],
+						"PositionMatrixDimensionX" : [ 2 ],
+						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "cube" ],
-						"TextPositionY" : [ 0.0 ],
+						"SingleShapeSelection" : [ "opencylinder" ],
+						"TextPositionY" : [ -0.656 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.87 ],
+						"TextTracking" : [ 1.06 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 1 ],
+						"TextboxIndex" : [ 7 ],
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
 						"enable_shader" : [ 0 ],
-						"enable_single_shape" : [ 1 ],
+						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
-						"live.numbox" : [ 27.0 ],
+						"live.numbox" : [ 7.0 ],
 						"multiple_material" : [ 8 ],
 						"physics_videoplane_toggle" : [ 0 ],
 						"rnbo~[3]" : [ 							{
@@ -13879,14 +13798,14 @@
 									}
 ,
 									"secondCurve" : 									{
-										"value" : -0.745
+										"value" : -0.795
 									}
 
 								}
 
 							}
  ],
-						"text_loop_toggle" : [ 0 ]
+						"text_loop_toggle" : [ 1 ]
 					}
 ,
 					"text" : "autopattr SousaLED8",
@@ -22728,7 +22647,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-69", 0 ],
+					"order" : 0,
+					"source" : [ "obj-902", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-903", 1 ],
+					"order" : 1,
 					"source" : [ "obj-902", 0 ]
 				}
 
