@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 529.0, 1493.0, 1440.0, 847.0 ],
+		"rect" : [ 1703.0, 56.0, 792.0, 734.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "mix bus",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 819.0, 1573.0, 61.0, 22.0 ],
+					"text" : "pipe 5000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -138,7 +150,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 553.0, 1554.0, 262.5, 35.0 ],
+					"patching_rect" : [ 577.0, 1429.0, 262.5, 35.0 ],
 					"text" : "dialog @mode 2 @label \"Restoring the current preset will discard unsaved changes.\""
 				}
 
@@ -154,7 +166,7 @@
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 553.0, 1516.0, 24.0, 24.0 ],
+					"patching_rect" : [ 577.0, 1391.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 696.0, 24.0, 24.0 ]
 				}
@@ -167,7 +179,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 500.0, 1518.0, 51.0, 21.0 ],
+					"patching_rect" : [ 524.0, 1393.0, 51.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 184.0, 697.0, 51.0, 21.0 ],
 					"suppressinlet" : 1,
@@ -1974,7 +1986,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
+					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -2063,6 +2075,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-196", 0 ],
 					"source" : [ "obj-33", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}

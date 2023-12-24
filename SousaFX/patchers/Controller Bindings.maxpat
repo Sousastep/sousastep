@@ -42,12 +42,24 @@
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-658",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 4878.0, 4139.0, 58.0, 22.0 ],
+					"text" : "change 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-233",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4877.0, 4078.0, 228.0, 22.0 ],
+					"patching_rect" : [ 4878.0, 4076.0, 228.0, 22.0 ],
 					"text" : "r \"auto-mute octaver while tuba's soloing\""
 				}
 
@@ -59,7 +71,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4877.0, 4110.0, 34.0, 22.0 ],
+					"patching_rect" : [ 4878.0, 4108.0, 34.0, 22.0 ],
 					"text" : "AND"
 				}
 
@@ -10388,7 +10400,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "half",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10969,11 +10981,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 44,
-										"out" : 48,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 40,
 										"out" : 45,
 										"gain" : 1.0
@@ -11029,11 +11036,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 48,
-										"out" : 49,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 39,
 										"out" : 61,
 										"gain" : 1.0
@@ -11069,11 +11071,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 0,
-										"out" : 4,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 37,
 										"out" : 54,
 										"gain" : 1.0
@@ -11091,6 +11088,16 @@
 , 									{
 										"in" : 17,
 										"out" : 35,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 47,
+										"out" : 51,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 0,
+										"out" : 3,
 										"gain" : 1.0
 									}
  ]
@@ -16825,7 +16832,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-546", 1 ],
+					"destination" : [ "obj-658", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -18599,6 +18606,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-651", 0 ],
 					"source" : [ "obj-654", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-546", 1 ],
+					"source" : [ "obj-658", 0 ]
 				}
 
 			}
