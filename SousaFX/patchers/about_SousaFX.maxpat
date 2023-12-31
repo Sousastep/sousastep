@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 36.0, 69.0, 1531.0, 1371.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -504,7 +504,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 7.0, 151.0, 187.0, 25.0 ],
+									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
 									"text" : "91.091335 %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
@@ -633,7 +633,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 130.0, 340.0, 24.0 ],
+									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
 									"text" : "Rank: Iron Scientist 3",
 									"textcolor" : [ 0.95450692, 0.67229308, 0.823141993597605, 1.0 ],
 									"textjustification" : 1
@@ -741,7 +741,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 4686.0, 2910.0, 154.0, 16.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 154.0, 340.0, 19.0 ],
+									"presentation_rect" : [ 7.0, 154.0, 300.0, 19.0 ],
 									"size" : 1.0
 								}
 
@@ -786,13 +786,13 @@
 								"box" : 								{
 									"fontname" : "Ableton Sans Light",
 									"id" : "obj-297",
-									"linecount" : 12,
+									"linecount" : 16,
 									"maxclass" : "comment",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 4949.0, 2199.0, 227.0, 179.0 ],
+									"patching_rect" : [ 4949.0, 2199.0, 227.0, 237.0 ],
 									"suppressinlet" : 1,
-									"text" : "0 - Iron Cadet Clef 1\n2 - Bronze\n31 - Silver\n167 - Gold\n554 - Platinum\n1405 - Diamond\n3008 - Legendary\n5726 - Almighty\n10000 - Mythic\n16352 - Immortal\n25000 - Immortal Tuba Warrior 3\n50000 - Immortal Tuba Warrior 52"
+									"text" : "0 - Iron Cadet Clef 1\n2 - Bronze\n31 - Silver\n167 - Gold\n554 - Platinum\n1405 - Diamond\n3008 - Legendary\n5726 - Almighty\n10000 - Mythic\n16352 - Immortal\n25000 - Immortal Tuba Warrior 3\n50000 - Immortal Tuba Warrior 52\n\nApprentice Squire Knight Sergeant Lieutenant Captain Scientist Colossus \"Tuba Warrior\""
 								}
 
 							}
@@ -915,7 +915,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 102.0, 340.0, 24.0 ],
+									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
 									"text" : "0.58 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
@@ -4552,7 +4552,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1755.0, 3086.0, 417.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 77.0, 347.0, 21.0 ],
+									"presentation_rect" : [ 0.0, 77.0, 323.0, 21.0 ],
 									"text" : "You've played for 0 minutes today.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
@@ -4633,8 +4633,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1808.0, 3048.0, 650.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 34.0, 469.0, 21.0 ],
-									"text" : "SousaFX has launched 47 times since installed on March 11th 2023",
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 0.0, 34.0, 323.0, 36.0 ],
+									"text" : "SousaFX has launched 50 times since installed on March 11th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4904,7 +4905,7 @@
 									"patching_rect" : [ 1853.0, 3278.0, 728.0, 156.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 12,
-									"presentation_rect" : [ 0.0, -2.0, 347.0, 186.0 ],
+									"presentation_rect" : [ 0.0, -2.0, 323.0, 186.0 ],
 									"text" : "\t\tSousaFX is a paid software product.\nAfter 30 days a license key is required.\n\n\n\nThis message is shown instead of crippling the evaluation version of SousaFX because technological enforcement of licensing policy is not \tin anyone's best interests.\n\n\t\tPurchase a SousaFX license key online \nvia the links below.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
@@ -13774,7 +13775,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 622.3182957393484, 263.0, 34.0 ],
+					"patching_rect" : [ 72.5, 621.0, 263.0, 34.0 ],
 					"text" : ";\rmax launchbrowser https://venmo.com/sousastep"
 				}
 
@@ -13793,19 +13794,6 @@
 					"suppressinlet" : 1,
 					"text" : "About SousaFX",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-38",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 579.0, 329.0, 34.0 ],
-					"text" : ";\rmax launchbrowser https://www.paypal.com/paypalme/jbaylies"
 				}
 
 			}
