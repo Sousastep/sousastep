@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 60.0, 601.0, 1201.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -196,7 +196,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 819.0, 720.0, 29.5, 22.0 ],
+					"patching_rect" : [ 867.0, 715.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -282,7 +282,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 852.0, 668.0, 289.0, 50.0 ],
+					"patching_rect" : [ 900.0, 663.0, 289.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "0 = return to original preset when un-bypassing\n\n1 = randomize FX when un-bypassing"
 				}
@@ -297,7 +297,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 819.0, 681.0, 24.0, 24.0 ],
+					"patching_rect" : [ 867.0, 676.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -1.0, 58.0, 16.0, 16.0 ],
 					"varname" : "toggle[1]"

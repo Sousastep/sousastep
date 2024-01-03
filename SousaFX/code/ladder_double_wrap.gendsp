@@ -75,7 +75,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1346.0, 2144.0, 79.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "equal-power crossfade",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -190,7 +189,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1107.0, 2181.0, 63.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "linear crossfade",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -2347,8 +2345,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1071.676480549273947, 2683.545938021435632, 80.0, 22.0 ],
-					"text" : "slide 28 2400"
+					"patching_rect" : [ 1071.676480549273947, 2683.545938021435632, 93.0, 22.0 ],
+					"text" : "slide 1920 2400"
 				}
 
 			}
@@ -2485,8 +2483,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 905.343145388064841, 2683.545938021435632, 80.0, 22.0 ],
-					"text" : "slide 28 2400"
+					"patching_rect" : [ 905.343145388064841, 2683.545938021435632, 93.0, 22.0 ],
+					"text" : "slide 1920 2400"
 				}
 
 			}

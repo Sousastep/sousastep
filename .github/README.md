@@ -2,6 +2,8 @@
 
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&color=029900)](https://makeapullrequest.com) 
 
+[![](https://img.shields.io/static/v1?label=Support%20on%20Ko-Fi&message=%E2%9D%A4&logo=Kofi)](https://ko-fi.com/sousafx) [![](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=%E2%9D%A4&logo=Patreon)](https://patreon.com/sousastep) [![](https://img.shields.io/static/v1?label=Support%20on%20Github&message=%E2%9D%A4&logo=Github)](https://github.com/sponsors/jbaylies) [![](https://img.shields.io/static/v1?label=Support%20via%20Venmo&message=%E2%9D%A4&logo=Venmo)](https://venmo.com/sousastep)
+
 </div>
 
 
