@@ -2,8 +2,6 @@
 
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://linktr.ee/sousastep) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&color=029900)](https://makeapullrequest.com) 
 
-[![](https://img.shields.io/static/v1?label=Support%20on%20Ko-Fi&message=%E2%9D%A4&logo=Kofi)](https://ko-fi.com/sousafx) [![](https://img.shields.io/static/v1?label=Support%20on%20Patreon&message=%E2%9D%A4&logo=Patreon)](https://patreon.com/sousastep) [![](https://img.shields.io/static/v1?label=Support%20on%20Github&message=%E2%9D%A4&logo=Github)](https://github.com/sponsors/jbaylies) [![](https://img.shields.io/static/v1?label=Support%20via%20Venmo&message=%E2%9D%A4&logo=Venmo)](https://venmo.com/sousastep)
-
 </div>
 
 
@@ -121,24 +119,11 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 > The rig choices include SousaFX, which is the main rig, BasicFX, which is just a compressor and distortion effect, and VFX, which you'll only need if you've followed my tutorial on [how to build an LED sousaphone bell](https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html).
 
 
-<a href="#sound-sousafx">![rainbow](./media/rainbow.png)</a>
 
-# :sound: SousaFX
+<a href="#books-documentation">![rainbow](./media/rainbow.png)</a>
 
-![effects chain](./media/effects-chain.gif)
+# :books: Documentation
 
-2. After SousaFX's Startup Preferences loads the rig, in the menu bar, under SousaFX, click Controller Bindings.
-
-
-<a href="#joystick-controller-bindings">![rainbow](./media/rainbow.png)</a>
-
-# :joystick: Controller Bindings
-
-![controller bindings](./media/controller-bindings.gif)
-
-Here you can see everything the controller's attached to.
-
-If you have a controller with an LED like the PS4 controller, the LED color can be controlled by the tuba's envelope or LFO. 
-
+To learn more about SousaFX, check out the [official documentation](https://sousastep.github.io/SousaFX-docs/en/master/index.html).
 
 <a href="#">![rainbow](./media/rainbow.png)</a>
