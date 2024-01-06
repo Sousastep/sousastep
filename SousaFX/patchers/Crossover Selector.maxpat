@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 429.0, 675.0, 562.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Crossover Selector",
+		"title" : "crossover selector",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Monaco",
@@ -497,10 +497,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.075958482105762, 1201.888866530711084, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 583, 69, 1034, 197 ]
 					}
 ,
 					"text" : "pattrstorage crossover_plugin_or_gen @greedy 2 @savemode 0",
@@ -611,15 +611,16 @@
 			}
 , 			{
 				"box" : 				{
+					"appearance" : 3,
 					"id" : "obj-56",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 658.388527134693504, 676.077780353919479, 60.305736432653248, 48.0 ],
+					"patching_rect" : [ 658.388527134693504, 676.077780353919479, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.388527134693504, 164.077780353919479, 60.305736432653248, 48.0 ],
+					"presentation_rect" : [ 241.0, 120.0, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Xfreq",
@@ -798,7 +799,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "crossovers.maxpat",
+					"name" : "ProQ3_crossovers.maxpat",
 					"numinlets" : 7,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
@@ -846,7 +847,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1463.575958482105762, 136.510887993343204, 112.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -978,7 +979,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1115.566994309425354, 502.075275646941122, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 27.0, 562.666666666666629, 217.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 594.0, 264.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0,
 					"saved_attribute_attributes" : 					{

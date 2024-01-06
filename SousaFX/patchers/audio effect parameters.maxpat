@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1687.0, 53.0, 873.0, 1387.0 ],
+		"rect" : [ 1438.0, 53.0, 967.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1071,7 +1071,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2126,8 +2126,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5208.5, 381.0, 141.0, 76.0 ],
-					"text" : ";\rmax launchbrowser https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/index.html"
+					"patching_rect" : [ 5208.5, 381.0, 116.5, 76.0 ],
+					"text" : ";\rmax launchbrowser https://sousastep.github.io/SousaFX-docs/en/master/"
 				}
 
 			}
@@ -2196,13 +2196,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 49.0 ],
-					"text" : "0 53 2560 1440"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
+					"text" : "1057 509 1503 931"
 				}
 
 			}
@@ -5438,10 +5438,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 513, 258, 913, 758 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 1020, 87, 1878, 1406 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -9239,7 +9239,7 @@
 					"patching_rect" : [ 2464.0, 2153.0, 189.0, 102.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 655.0, 75.0, 198.0, 183.0 ],
-					"text" : "Sousastep's default preset",
+					"text" : "Max-native default preset.",
 					"varname" : "textedit[1]"
 				}
 
@@ -9315,7 +9315,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2400.0, 2117.0, 145.0, 22.0 ],
-					"restore" : [ "Sousastep's default preset" ],
+					"restore" : [ "Max-native default preset." ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -16724,7 +16724,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-114::obj-21::obj-191" : [ "vst~[13]", "vst~", 0 ],
 			"obj-166::obj-21::obj-192" : [ "Resonance[8]", "Sat", 0 ],
 			"obj-166::obj-21::obj-26" : [ "Reso", "Reso", 0 ],
 			"obj-166::obj-21::obj-41" : [ "live.menu[5]", "live.menu", 0 ],
@@ -16755,8 +16754,6 @@
 			"obj-169::obj-219::obj-36" : [ "curve[8]", "curve", 0 ],
 			"obj-169::obj-221::obj-114" : [ "function[92]", "function", 0 ],
 			"obj-169::obj-221::obj-36" : [ "curve[2]", "curve", 0 ],
-			"obj-169::obj-226::obj-146::obj-54" : [ "function[74]", "function", 0 ],
-			"obj-169::obj-226::obj-146::obj-645" : [ "function", "function", 0 ],
 			"obj-169::obj-229::obj-114" : [ "function[105]", "function", 0 ],
 			"obj-169::obj-229::obj-36" : [ "curve[15]", "curve", 0 ],
 			"obj-169::obj-240::obj-114" : [ "function[91]", "function", 0 ],
@@ -16835,10 +16832,8 @@
 			"obj-194::obj-1144::obj-115" : [ "active[10]", "Active", 0 ],
 			"obj-194::obj-1148::obj-114" : [ "solo[5]", "Solo", 0 ],
 			"obj-194::obj-1148::obj-115" : [ "active[9]", "Active", 0 ],
-			"obj-194::obj-11::obj-21::obj-191" : [ "vst~[32]", "vst~", 0 ],
 			"obj-194::obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-194::obj-14" : [ "slider", "slider", 0 ],
-			"obj-194::obj-39::obj-21::obj-191" : [ "vst~[33]", "vst~", 0 ],
 			"obj-194::obj-4" : [ "v low vol", "v low vol", 0 ],
 			"obj-194::obj-8" : [ "low vol", "low vol", 0 ],
 			"obj-194::obj-874" : [ "high gain[1]", "high vol", 0 ],
@@ -16875,14 +16870,9 @@
 			"obj-222::obj-2::obj-191" : [ "vst~[40]", "vst~", 0 ],
 			"obj-222::obj-3::obj-191" : [ "vst~[42]", "vst~", 0 ],
 			"obj-222::obj-4::obj-191" : [ "vst~[41]", "vst~", 0 ],
-			"obj-224::obj-21::obj-191" : [ "vst~[19]", "vst~", 0 ],
 			"obj-225::obj-2::obj-191" : [ "vst~[44]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[46]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[45]", "vst~", 0 ],
-			"obj-226::obj-21::obj-191" : [ "vst~[22]", "vst~", 0 ],
-			"obj-227::obj-21::obj-191" : [ "vst~[20]", "vst~", 0 ],
-			"obj-231::obj-21::obj-191" : [ "vst~[23]", "vst~", 0 ],
-			"obj-232::obj-21::obj-191" : [ "vst~[24]", "vst~", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
 			"obj-233::obj-1041::obj-138::obj-27" : [ "smooth[5]", "smooth", 0 ],
 			"obj-233::obj-1041::obj-4::obj-114" : [ "solo", "Solo", 0 ],
@@ -16922,8 +16912,6 @@
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
 			"obj-234::obj-144" : [ "bars per risset loop", "bars per accel loop", 0 ],
-			"obj-248::obj-21::obj-191" : [ "vst~[21]", "vst~", 0 ],
-			"obj-251::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-274" : [ "number", "number", 0 ],
 			"obj-353" : [ "bleed", "bleed", 0 ],
 			"obj-366" : [ "live.numbox", "live.numbox", 0 ],
@@ -16933,7 +16921,6 @@
 			"obj-404::obj-9" : [ "resonance", "resonance", 0 ],
 			"obj-408::obj-3" : [ "Presets", "Presets", 0 ],
 			"obj-467::obj-12" : [ "main monitor volume", "main monitor volume", 0 ],
-			"obj-467::obj-247::obj-21::obj-191" : [ "vst~[35]", "vst~", 0 ],
 			"obj-467::obj-4" : [ "soloing boost", "soloing boost", 0 ],
 			"obj-467::obj-7" : [ "gain compensation", "gain compensation", 0 ],
 			"obj-467::obj-9" : [ "metronome", "metronome", 0 ],
@@ -17566,6 +17553,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Linkwitz-Riley_24dB_highpass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Linkwitz-Riley_24dB_lowpass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "MIDI MAP OUT hires.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -17664,10 +17665,24 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ParamEQ.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Pictogrammers-Material-Midi.512.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "PlateReverb.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
 				"implicit" : 1
 			}
 , 			{
@@ -17735,27 +17750,6 @@
 			}
 , 			{
 				"name" : "Pre-LPF_FX_plugin4_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pro-Q 3.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ProQ3_crossovers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ProQ3crossovers.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -17832,6 +17826,12 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bell.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "button_timer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -17850,6 +17850,20 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "compressor_mono.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "compressor_stereo.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
 				"implicit" : 1
 			}
 , 			{
@@ -17881,9 +17895,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "crossover-calc.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "crossover_plugin_or_gen.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "crossovers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17972,7 +18000,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dry_comp_plugin.json",
+				"name" : "dry_comp_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -17986,7 +18014,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dry_preamp_plugin.json",
+				"name" : "dry_preamp_rnbo_ParamEQ.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18008,6 +18036,13 @@
 			}
 , 			{
 				"name" : "dual_loopers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dummy_selector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -18120,20 +18155,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gamepadLEDVFX.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamepadLEDVFX.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "gamepad_joystick_control_names.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -18201,6 +18222,12 @@
 				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "highcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
+				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -18322,6 +18349,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "limiter.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "link.phasor~.mxo",
 				"type" : "iLaX"
 			}
@@ -18347,7 +18381,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lows_comp_plugin.json",
+				"name" : "lows_comp_rnbo_compressor_mono.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18361,7 +18395,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_compressor_plugin.json",
+				"name" : "main_compressor_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18375,7 +18409,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_limiter_plugin.json",
+				"name" : "main_limiter_rnbo_limiter.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18396,14 +18430,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_reverb_plugin.json",
+				"name" : "main_reverb_rnbo_or_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_reverb_rnbo_or_plugin.json",
+				"name" : "main_reverb_rnbo_platereverb.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18452,7 +18486,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mod_comp_plugin.json",
+				"name" : "mod_comp_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18466,7 +18500,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "monitor_EQ_plugin.json",
+				"name" : "monitor_EQ_rnbo_ParamEQ.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18494,7 +18528,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_comp_plugin.json",
+				"name" : "octaver.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "octaver_comp_rnbo_compressor_mono.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18508,7 +18549,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_plugin.json",
+				"name" : "octaver_rnbo_octaver.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18799,7 +18840,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wet_preamp_plugin.json",
+				"name" : "wet_preamp_rnbo_ParamEQ.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",

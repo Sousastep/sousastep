@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -232.0, -993.0, 1852.0, 959.0 ],
+		"rect" : [ 662.0, 317.0, 1852.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -90,7 +90,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-29",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -114,11 +114,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1091.0, 154.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -202,9 +202,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 32.599999999999909, 1057.0, 281.0, 62.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 235.599999999999909, 57.252305561171397, 281.0, 62.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.live_control_fg"
@@ -225,7 +222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.099999999999909, 698.0, 152.0, 107.0 ],
+					"patching_rect" : [ 108.933333333333394, 593.936545440701366, 152.0, 107.0 ],
 					"suppressinlet" : 1,
 					"text" : "need to initialize crossover around 8000 Hz before switching down to <100 Hz or else lowpass won't pass anything. this makes a loud noise so we mute the output until it's loaded"
 				}
@@ -506,7 +503,7 @@
 					"patching_rect" : [ 317.57022992385555, 698.0, 564.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 564.0, 48.0 ],
-					"text" : "crossover frequency: 95 Hz",
+					"text" : "crossover frequency: 8000 Hz",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -545,7 +542,7 @@
 					"patching_rect" : [ 379.400000000000091, 233.252305561171397, 97.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 34.400000000000091, 57.252305561171397, 138.0, 20.0 ],
-					"text" : "bypass regular lowpass"
+					"text" : "bypass lows' lowpass"
 				}
 
 			}
@@ -573,7 +570,7 @@
 					"patching_rect" : [ 205.400000000000091, 191.0, 104.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 36.400000000000091, 87.0, 148.0, 20.0 ],
-					"text" : "bypass octaver's  lowpass"
+					"text" : "bypass octaver's lowpass"
 				}
 
 			}
@@ -728,11 +725,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-57",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 120.933333333333394, 158.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -741,11 +738,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-64",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 314.970229923855641, 158.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -754,11 +751,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-94",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 507.405849031557409, 157.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -767,11 +764,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-102",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 626.405849031557409, 157.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -780,11 +777,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-144",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.863400172920592, 157.999945894504663, 30.0, 30.0 ]
 				}
 
@@ -793,11 +790,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-221",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 849.863400172920592, 158.028531520713841, 30.0, 30.0 ]
 				}
 
@@ -806,7 +803,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-245",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -818,7 +815,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-289",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -830,7 +827,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-337",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -842,7 +839,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-338",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -854,7 +851,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-401",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -866,7 +863,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-449",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1406,6 +1403,29 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "Linkwitz-Riley_24dB_highpass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Linkwitz-Riley_24dB_lowpass.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "crossover-calc.gendsp",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"saved_attribute_attributes" : 		{
 			"locked_bgcolor" : 			{

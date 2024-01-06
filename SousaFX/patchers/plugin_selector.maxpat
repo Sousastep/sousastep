@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1154.0, 87.0, 1372.0, 1313.0 ],
+		"rect" : [ 911.0, 1564.0, 644.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -323,8 +323,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 833.0, 191.5, 75.0, 22.0 ],
-					"text" : "0.2 0.2 0.2 1"
+					"patching_rect" : [ 833.0, 191.5, 175.0, 22.0 ],
+					"text" : "0.301961 0.301961 0.301961 1"
 				}
 
 			}
@@ -434,8 +434,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.0, 130.5, 75.0, 22.0 ],
-					"text" : "0.2 0.2 0.2 1"
+					"patching_rect" : [ 21.0, 130.5, 175.0, 22.0 ],
+					"text" : "0.301961 0.301961 0.301961 1"
 				}
 
 			}
@@ -458,7 +458,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -561,8 +561,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 407.0, 500.0, 75.0, 22.0 ],
-					"text" : "0.2 0.2 0.2 1"
+					"patching_rect" : [ 407.0, 500.0, 175.0, 22.0 ],
+					"text" : "0.301961 0.301961 0.301961 1"
 				}
 
 			}
@@ -881,7 +881,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -957,7 +957,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -1042,6 +1042,7 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"fontname" : "Monaco",
 					"id" : "obj-14",
 					"maxclass" : "comment",
@@ -1049,7 +1050,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 977.0, 925.0, 298.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.951638418574476, 97.349710982658962, 114.0, 21.0 ]
+					"presentation_rect" : [ 116.951638418574476, 95.512283236994222, 114.0, 21.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}

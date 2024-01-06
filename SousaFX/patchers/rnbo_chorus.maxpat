@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1081.0, 330.0, 1372.0, 1007.0 ],
+		"rect" : [ 563.0, 1527.0, 1008.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 124.0, 411.0, 73.0, 22.0 ],
+					"text" : "r tap_tempo"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1024.0, 770.0, 148.0, 22.0 ],
+					"patching_rect" : [ 1020.0, 589.0, 148.0, 22.0 ],
 					"text" : "loadmess \"RNBO Chorus\""
 				}
 
@@ -56,7 +68,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1024.0, 842.0, 107.0, 22.0 ],
+					"patching_rect" : [ 1020.0, 661.0, 107.0, 22.0 ],
 					"text" : "s #1_plugin_name"
 				}
 
@@ -238,7 +250,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 311.0, 331.0, 606.0, 23.0 ]
+					"patching_rect" : [ 311.0, 331.0, 606.0, 23.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_chorus.json\""
 				}
 
 			}
@@ -276,7 +289,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 473.0, 46.0, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.875 0.013672 1."
 				}
 
@@ -345,7 +357,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -360,14 +372,16 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 241.0, 109.0, 141.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.173767897747439, 133.0, 157.0, 22.0 ],
-					"text" : "save chorus settings",
+					"presentation_rect" : [ 97.173767897747439, 149.0, 35.0, 22.0 ],
+					"text" : "save",
 					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"hint" : "Rate Sync On/Off",
 					"id" : "obj-40",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -376,7 +390,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 550.0, 520.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.173767897747439, 70.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 29.0, 65.0, 23.0, 23.0 ],
 					"varname" : "sync"
 				}
 
@@ -990,12 +1004,11 @@
 			}
 , 			{
 				"box" : 				{
-					"hidden" : 1,
 					"id" : "obj-43",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 3,
-					"outlettype" : [ "bang", "", "" ],
+					"outlettype" : [ "", "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -1007,7 +1020,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 649.0, 79.0, 566.0, 323.0 ],
+						"rect" : [ 996.0, 1820.0, 566.0, 323.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1065,8 +1078,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 390.0, 170.0, 120.0, 23.0 ],
-									"text" : "bgcolor 0.2 0.2 0.2 1."
+									"patching_rect" : [ 390.0, 170.0, 106.0, 23.0 ],
+									"text" : "bgcolor 0. 0. 0. 0.7"
 								}
 
 							}
@@ -1141,54 +1154,6 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-10",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 170.0, 24.0, 24.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 170.0, 39.0, 23.0 ],
-									"text" : "gate"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-4",
-									"maxclass" : "number",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 100.0, 50.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-2",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"patching_rect" : [ 110.0, 130.0, 53.0, 23.0 ],
-									"text" : "== 2048"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-78",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -1235,18 +1200,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 250.0, 60.0, 30.0, 30.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-37",
-									"maxclass" : "button",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 50.0, 200.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1313,24 +1266,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"linecount" : 2,
+									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 20.0, 107.0, 35.0 ],
-									"text" : "Hit any key while holding the alt key"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 4,
-									"outlettype" : [ "int", "int", "int", "int" ],
-									"patching_rect" : [ 70.0, 60.0, 50.5, 23.0 ],
-									"text" : "key"
+									"patching_rect" : [ 50.0, 20.0, 107.0, 78.0 ],
+									"text" : "Hit any key while holding the alt key doesn't do anything because i removed it"
 								}
 
 							}
@@ -1361,36 +1302,8 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-4", 0 ],
-									"source" : [ "obj-1", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 1 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-5", 0 ],
-									"source" : [ "obj-10", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
 									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -1445,27 +1358,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-36", 0 ],
-									"source" : [ "obj-37", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
-									"source" : [ "obj-5", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"source" : [ "obj-6", 0 ]
 								}
@@ -1488,7 +1380,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 239.25, 447.0, 44.0, 22.0 ],
+					"patching_rect" : [ 207.5, 453.0, 44.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1503,6 +1395,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"hint" : "Tempo tapping multiplier",
 					"id" : "obj-46",
@@ -1512,9 +1413,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 220.0, 407.0, 45.5, 20.0 ],
+					"patching_rect" : [ 220.0, 407.0, 45.5, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.173767897747439, 40.0, 45.5, 20.0 ],
+					"presentation_rect" : [ 122.173767897747439, 40.0, 51.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "x 1", "x 2", "/ 2" ],
@@ -1535,6 +1436,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.701960784313725 ],
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"hint" : "Click the Tap Tempo message box at least 3 times to tap tempo, or hit any key while holding the alt key.",
 					"id" : "obj-48",
@@ -1545,7 +1448,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.0, 447.0, 63.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.173767897747439, 40.0, 63.5, 20.0 ],
+					"presentation_rect" : [ 57.173767897747439, 40.5, 63.5, 20.0 ],
 					"text" : "Tap Tempo",
 					"texton" : "Tap Tempo",
 					"textoncolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -1556,6 +1459,8 @@
 				"box" : 				{
 					"attr" : "spread",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts the amount of offset between the left and right channel of the LFO",
 					"id" : "obj-50",
 					"lock" : 1,
@@ -1564,9 +1469,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 532.0, 110.0, 22.0 ],
+					"patching_rect" : [ 299.0, 557.0, 115.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.173767897747439, 109.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 57.173767897747439, 120.69130434782609, 116.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "spread"
 				}
@@ -1576,7 +1481,8 @@
 				"box" : 				{
 					"attr" : "rate",
 					"attr_display" : 1,
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.3 ],
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Sets the frequency of the LFO",
 					"id" : "obj-52",
 					"lock" : 1,
@@ -1585,9 +1491,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 478.0, 110.0, 22.0 ],
+					"patching_rect" : [ 278.0, 478.0, 116.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.173767897747439, 61.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 57.173767897747439, 65.34347826086956, 116.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "rate"
 				}
@@ -1619,6 +1525,8 @@
 				"box" : 				{
 					"attr" : "depth",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts the amount of modulation ",
 					"id" : "obj-54",
 					"lock" : 1,
@@ -1627,9 +1535,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 278.0, 508.0, 110.0, 22.0 ],
+					"patching_rect" : [ 278.0, 508.0, 116.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 57.173767897747439, 85.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 57.173767897747439, 93.017391304347825, 116.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "depth"
 				}
@@ -1657,7 +1565,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 879.0, 777.0, 94.0, 21.0 ],
+					"patching_rect" : [ 875.0, 596.0, 94.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "report 0 latency"
 				}
@@ -1670,7 +1578,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 802.0, 777.0, 70.0, 22.0 ],
+					"patching_rect" : [ 798.0, 596.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -1684,7 +1592,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 802.0, 599.0, 30.0, 30.0 ]
+					"patching_rect" : [ 798.0, 418.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1696,7 +1604,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.0, 837.0, 30.0, 30.0 ]
+					"patching_rect" : [ 798.0, 656.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1759,7 +1667,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 945.0, 168.0, 402.0, 87.0 ],
+					"patching_rect" : [ 635.0, 147.0, 402.0, 87.0 ],
 					"text" : "Chorus is a type of modulation effect used to thicken and color a signal enough to sound as if there are multiple instruments playing. The effect is achieved by taking a signal and mixing it with one or more modulated copies of itself. The modulations are produced by an LFO that controls short delay variations of the original signal. Stereo modulation can be obtained by shifting the phase of one channel of the LFO."
 				}
 
@@ -1768,14 +1676,16 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 18.0,
+					"hint" : "Chorus is a type of modulation effect used to thicken and color a signal enough to sound as if there are multiple instruments playing. The effect is achieved by taking a signal and mixing it with one or more modulated copies of itself. The modulations are produced by an LFO that controls short delay variations of the original signal. Stereo modulation can be obtained by shifting the phase of one channel of the LFO.",
 					"id" : "obj-49",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 945.0, 142.0, 129.0, 27.0 ],
+					"patching_rect" : [ 635.0, 121.0, 121.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 47.0, -1.0, 129.0, 27.0 ],
+					"presentation_rect" : [ 55.0, -1.0, 121.0, 28.0 ],
 					"text" : "RNBO Chorus"
 				}
 
@@ -1784,13 +1694,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
+					"hint" : "Chorus is a type of modulation effect used to thicken and color a signal enough to sound as if there are multiple instruments playing. The effect is achieved by taking a signal and mixing it with one or more modulated copies of itself. The modulations are produced by an LFO that controls short delay variations of the original signal. Stereo modulation can be obtained by shifting the phase of one channel of the LFO.",
 					"id" : "obj-28",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1105.0, 148.0, 169.0, 20.0 ],
+					"patching_rect" : [ 795.0, 127.0, 161.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 27.0, 18.0, 169.0, 20.0 ],
+					"presentation_rect" : [ 35.0, 18.0, 161.0, 21.0 ],
 					"text" : "Classic stereo chorus effect"
 				}
 
@@ -1799,16 +1711,14 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-55",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 523.0, 41.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 17.173767897747439, 40.0, 38.0, 29.0 ],
+					"patching_rect" : [ 575.0, 523.0, 49.0, 31.0 ],
 					"text" : "Sync On/Off",
 					"textjustification" : 1
 				}
@@ -1823,7 +1733,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 388.0, 535.0, 18.0, 18.0 ],
+					"patching_rect" : [ 408.0, 559.5, 18.0, 18.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -1946,6 +1856,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-26", 1 ]
 				}
@@ -1990,8 +1907,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 2 ],
-					"hidden" : 1,
-					"midpoints" : [ 559.5, 583.0, 418.0, 583.0, 418.0, 410.0, 273.75, 410.0 ],
+					"midpoints" : [ 559.5, 570.0, 484.0, 570.0, 484.0, 441.0, 242.0, 441.0 ],
 					"order" : 1,
 					"source" : [ "obj-40", 0 ]
 				}
@@ -2006,16 +1922,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"hidden" : 1,
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
-					"hidden" : 1,
 					"source" : [ "obj-43", 2 ]
 				}
 
@@ -2037,7 +1944,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
-					"hidden" : 1,
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -2045,7 +1951,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"hidden" : 1,
 					"source" : [ "obj-48", 0 ]
 				}
 

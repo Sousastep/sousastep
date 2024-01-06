@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 909.0, 306.0, 1410.0, 959.0 ],
+		"rect" : [ 880.0, 1631.0, 682.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -238,7 +238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.664803725067031, 347.861167073040065, 606.0, 23.0 ]
+					"patching_rect" : [ 300.664803725067031, 347.861167073040065, 376.335196274932969, 23.0 ]
 				}
 
 			}
@@ -329,6 +329,8 @@
 				"box" : 				{
 					"attr" : "spread",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts a pitch detuning (in cents) between the left and right channels",
 					"id" : "obj-15",
 					"lock" : 1,
@@ -337,9 +339,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 523.0, 110.0, 22.0 ],
+					"patching_rect" : [ 41.0, 523.0, 115.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 99.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 55.0, 85.0, 115.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "spread"
 				}
@@ -349,6 +351,8 @@
 				"box" : 				{
 					"attr" : "mix",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts the balance between the input and processed signals",
 					"id" : "obj-20",
 					"lock" : 1,
@@ -357,9 +361,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 547.0, 110.0, 22.0 ],
+					"patching_rect" : [ 41.0, 547.0, 116.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 123.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 55.0, 109.0, 115.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "mix"
 				}
@@ -369,6 +373,8 @@
 				"box" : 				{
 					"attr" : "window",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts a quality factor in terms of time window. As the value is increased, transposition quality increases accordingly, at the cost of an increasing latency.",
 					"id" : "obj-22",
 					"lock" : 1,
@@ -377,9 +383,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 475.0, 110.0, 22.0 ],
+					"patching_rect" : [ 41.0, 475.0, 116.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 51.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 55.0, 37.0, 115.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "window"
 				}
@@ -389,6 +395,8 @@
 				"box" : 				{
 					"attr" : "transp",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
 					"hint" : "Adjusts the pitch shifting (in semi-tones) applied to the input signals",
 					"id" : "obj-24",
 					"lock" : 1,
@@ -397,9 +405,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 41.0, 499.0, 110.0, 22.0 ],
+					"patching_rect" : [ 41.0, 499.0, 115.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 75.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 55.0, 61.0, 115.0, 23.0 ],
 					"text_width" : 64.0,
 					"varname" : "transp"
 				}
@@ -445,11 +453,12 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.71 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
+					"fontname" : "Monaco",
 					"fontsize" : 10.512151719659835,
 					"gradient" : 1,
 					"id" : "obj-67",
@@ -457,11 +466,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 231.0, 126.0, 124.0, 20.0 ],
+					"patching_rect" : [ 231.0, 126.0, 136.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 26.0, 147.0, 115.0, 32.0 ],
-					"text" : "save pitchshifter settings"
+					"presentation_rect" : [ 95.0, 133.0, 34.0, 22.0 ],
+					"text" : "save"
 				}
 
 			}
@@ -569,31 +577,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-42",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 550.0, 19.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 126.0, 19.0, 18.0 ],
-					"text" : "4",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-37",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 526.0, 18.0, 18.0 ],
+					"patching_rect" : [ 151.0, 526.0, 23.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 102.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 171.0, 87.0, 23.0, 19.0 ],
 					"text" : "ct",
 					"textjustification" : 1
 				}
@@ -603,65 +595,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-39",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 501.5, 18.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 78.0, 18.0, 18.0 ],
-					"text" : "2",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-47",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 526.0, 19.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 102.0, 19.0, 18.0 ],
-					"text" : "3",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-51",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.0, 478.0, 18.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 54.0, 18.0, 18.0 ],
-					"text" : "1",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-56",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 550.0, 19.0, 18.0 ],
+					"patching_rect" : [ 151.0, 550.0, 17.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 126.0, 19.0, 18.0 ],
+					"presentation_rect" : [ 171.0, 111.0, 17.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -671,14 +613,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-61",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 478.0, 22.0, 18.0 ],
+					"patching_rect" : [ 151.0, 478.0, 21.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 54.0, 22.0, 18.0 ],
+					"presentation_rect" : [ 171.0, 39.0, 21.0, 19.0 ],
 					"text" : "ms",
 					"textjustification" : 1
 				}
@@ -688,31 +631,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-62",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 41.0, 449.0, 110.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 35.0, 110.0, 18.0 ],
-					"text" : "Parameters",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 151.0, 502.0, 18.0, 18.0 ],
+					"patching_rect" : [ 151.0, 502.0, 23.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 78.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 171.0, 63.0, 23.0, 19.0 ],
 					"text" : "st",
 					"textjustification" : 1
 				}
@@ -736,14 +663,16 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 18.0,
+					"hint" : "A pitch shifter is a sound effects unit that raises or lowers the pitch of an audio signal by a preset interval, generally expressed in semi-tones. Combining the pitch-shifted signal with the original signal results in a two or more note harmony. This type of effect is often called a harmonizer, and can be found in many existing hardware devices. A stereo pitch shifting can be obtained by slightly detuning each of the left and right audio channels. This Rnbo patch uses a common technique derived from the Doppler effect",
 					"id" : "obj-65",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.0, 28.0, 168.0, 27.0 ],
+					"patching_rect" : [ 700.0, 28.0, 163.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 1.0, 168.0, 27.0 ],
+					"presentation_rect" : [ 35.0, -2.0, 163.0, 28.0 ],
 					"text" : "RNBO PitchShifter"
 				}
 
@@ -752,13 +681,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
+					"hint" : "A pitch shifter is a sound effects unit that raises or lowers the pitch of an audio signal by a preset interval, generally expressed in semi-tones. Combining the pitch-shifted signal with the original signal results in a two or more note harmony. This type of effect is often called a harmonizer, and can be found in many existing hardware devices. A stereo pitch shifting can be obtained by slightly detuning each of the left and right audio channels. This Rnbo patch uses a common technique derived from the Doppler effect.",
 					"id" : "obj-66",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 920.0, 34.5, 162.0, 20.0 ],
+					"patching_rect" : [ 920.0, 34.5, 155.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 19.0, 162.0, 20.0 ],
+					"presentation_rect" : [ 35.0, 16.0, 155.0, 21.0 ],
 					"text" : "Classic stereo pitch shifter"
 				}
 

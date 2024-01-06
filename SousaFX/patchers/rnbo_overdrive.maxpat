@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1122.0, 246.0, 1364.0, 1139.0 ],
+		"rect" : [ 563.0, 1527.0, 1008.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -347,7 +347,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -360,11 +360,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 431.0, 104.0, 160.0, 22.0 ],
+					"patching_rect" : [ 431.0, 104.0, 35.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 124.0, 136.0, 108.0, 36.0 ],
-					"text" : "save overdrive settings",
+					"presentation_rect" : [ 152.0, 140.0, 49.0, 22.0 ],
+					"text" : "save",
 					"textjustification" : 1
 				}
 
@@ -373,6 +372,9 @@
 				"box" : 				{
 					"attr" : "treble",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Boosts or attenuates high frequencies, using a shelving EQ, with a cutoff frequency of 3,3 kHz.",
 					"id" : "obj-27",
 					"lock" : 1,
@@ -381,9 +383,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 531.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 531.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 144.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 141.0, 104.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "treble"
 				}
@@ -393,6 +395,9 @@
 				"box" : 				{
 					"attr" : "highcut",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Applies a highpass filtering before distorting the signal.",
 					"id" : "obj-8",
 					"lock" : 1,
@@ -401,9 +406,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 379.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 379.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 61.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 121.0, 58.0, 110.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "highcut"
 				}
@@ -413,6 +418,9 @@
 				"box" : 				{
 					"attr" : "mix",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Adjusts the balance between the original and processed signals.",
 					"id" : "obj-14",
 					"lock" : 1,
@@ -421,9 +429,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 635.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 635.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 110.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 121.0, 107.0, 110.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "mix"
 				}
@@ -433,6 +441,9 @@
 				"box" : 				{
 					"attr" : "volume",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Adjusts the output volume of the processed signals.",
 					"id" : "obj-21",
 					"lock" : 1,
@@ -441,9 +452,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 611.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 611.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 85.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 121.0, 82.0, 110.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "volume"
 				}
@@ -453,6 +464,9 @@
 				"box" : 				{
 					"attr" : "midfreq",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Sets the center frequency of a peak EQ used to boost or attenuate [500Hz 2kHz] mid frequencies.",
 					"id" : "obj-18",
 					"lock" : 1,
@@ -461,9 +475,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 483.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 483.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 90.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 87.0, 104.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "midfreq"
 				}
@@ -473,6 +487,9 @@
 				"box" : 				{
 					"attr" : "mid",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Boosts or attenuates mid frequencies, using a peak EQ whose central frequency is set by the Mid Freq parameter.",
 					"id" : "obj-23",
 					"lock" : 1,
@@ -481,9 +498,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 507.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 507.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 117.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 114.0, 104.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "mid"
 				}
@@ -493,6 +510,9 @@
 				"box" : 				{
 					"attr" : "bass",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Boosts or attenuates low frequencies, using a peak EQ, with a center frequency of 100 Hz.",
 					"id" : "obj-31",
 					"lock" : 1,
@@ -501,9 +521,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 459.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 459.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 63.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 60.0, 104.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "bass"
 				}
@@ -513,6 +533,9 @@
 				"box" : 				{
 					"attr" : "lowcut",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Applies a lowpass filtering before distorting the signal.",
 					"id" : "obj-34",
 					"lock" : 1,
@@ -521,9 +544,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 355.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 355.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 36.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 121.0, 33.0, 110.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "lowcut"
 				}
@@ -555,6 +578,9 @@
 				"box" : 				{
 					"attr" : "drive",
 					"attr_display" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
 					"hint" : "Adjusts the amount of distortion.",
 					"id" : "obj-36",
 					"lock" : 1,
@@ -563,9 +589,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 50.0, 419.563447347136616, 110.0, 22.0 ],
+					"patching_rect" : [ 50.0, 419.563447347136616, 114.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 36.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 2.0, 33.0, 104.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -674,14 +700,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-50",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 381.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 381.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 63.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 227.0, 60.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -691,14 +718,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-52",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 461.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 461.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 65.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 104.0, 62.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -708,14 +736,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-57",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 510.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 510.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 118.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 104.0, 115.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -725,14 +754,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 534.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 534.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 145.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 104.0, 142.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -742,14 +772,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 638.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 638.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 112.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 227.0, 109.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -759,14 +790,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 614.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 614.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 87.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 227.0, 84.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -776,14 +808,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-64",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 486.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 486.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 92.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 104.0, 89.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -807,14 +840,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 358.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 358.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 227.0, 39.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 227.0, 36.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -824,14 +858,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 0,
+					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 422.563447347136616, 18.0, 18.0 ],
+					"patching_rect" : [ 160.0, 422.563447347136616, 16.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.0, 38.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 104.0, 35.0, 16.0, 19.0 ],
 					"text" : "%",
 					"textjustification" : 1
 				}
@@ -841,14 +876,16 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
 					"fontsize" : 18.0,
+					"hint" : "Overdrive in music generally refers to non-linear distortion of a sound signal which has the particularity of introducing new frequencies into that signal. Overdrive is a vast and tough subject, and there are many ways to design non-linear functions. In the present patch, we've chosen a simple \"soft-to hard clipping\" non-linear signal distortion, which allows for exploring from light overdrive to more heavy \"fuzz\"-like effects. ",
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 917.0, 61.063447347136616, 151.0, 27.0 ],
+					"patching_rect" : [ 917.0, 61.063447347136616, 143.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.5, -3.0, 151.0, 27.0 ],
+					"presentation_rect" : [ 42.5, -3.0, 143.0, 28.0 ],
 					"text" : "RNBO Overdrive"
 				}
 
@@ -857,13 +894,15 @@
 				"box" : 				{
 					"background" : 1,
 					"fontface" : 1,
+					"fontname" : "Ableton Sans Bold",
+					"hint" : "Overdrive in music generally refers to non-linear distortion of a sound signal which has the particularity of introducing new frequencies into that signal. Overdrive is a vast and tough subject, and there are many ways to design non-linear functions. In the present patch, we've chosen a simple \"soft-to hard clipping\" non-linear signal distortion, which allows for exploring from light overdrive to more heavy \"fuzz\"-like effects. ",
 					"id" : "obj-75",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 67.563447347136616, 183.0, 20.0 ],
+					"patching_rect" : [ 1077.0, 67.563447347136616, 175.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.5, 14.0, 183.0, 20.0 ],
+					"presentation_rect" : [ 26.5, 14.0, 175.0, 21.0 ],
 					"text" : "Classic stereo overdrive effect"
 				}
 
