@@ -60,7 +60,7 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 2. [Download sousastep](https://github.com/Sousastep/sousastep/releases/latest) to your `~/Documents/Max 8/Projects/` folder. 
 
 > [!NOTE]
-> SousaFX remains fully operational after Max's 30-day trial ends.
+> SousaFX remains fully operational after [Max's 30-day trial ends](https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2).
 
 > [!IMPORTANT]
 > When updating to new versions of SousaFX, copy all user preset files from `~/Documents/Max 8/Projects/sousastep/SousaFX/data/` to the new version's `sousastep/SousaFX/data/` folder.
@@ -88,24 +88,22 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 
 4.  [Download Black Octopus Sound's](https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/) excellent free samples and place `Black Octopus Sound - Free Samples Bundle` into `~/Documents/Max 8/Projects/sousastep/SousaFX/default/SousaPlayback template Project/Clips/`
 
-5. For thoughtful quotes whenever SousaFX boots, download [oblique-strategies](https://github.com/zzkt/oblique-strategies) to `~/Documents/Max 8/Projects/sousastep/default/`
+5.  [Sonobus](https://sonobus.net/#download), for networked jamming with folks in the same continent.
 
-6.  [Sonobus](https://sonobus.net/#download), for networked jamming with folks in the same continent.
-
-7.  [Jamtaba](https://github.com/elieserdejesus/JamTaba/releases), for networked jamming with folks in different continents.
+6.  [Jamtaba](https://github.com/elieserdejesus/JamTaba/releases), for networked jamming with folks in different continents.
 
 > [!NOTE]
 > Sonobus or Jamtaba may be placed in SousaPlayback's "NETWORK" track.
 
-8.  [Kilohearts Essentials](https://kilohearts.com/products/kilohearts_essentials) "A free collection of extremely useful effects."
+7.  [Kilohearts Essentials](https://kilohearts.com/products/kilohearts_essentials) "A free collection of extremely useful effects."
 
-9.  [Melda Production](https://www.meldaproduction.com/MFreeFxBundle) "The biggest and the most powerful free plugins pack available."
+8.  [Melda Production](https://www.meldaproduction.com/MFreeFxBundle) "The biggest and the most powerful free plugins pack available."
 
-10. [Why Reaper](https://whyreaper.com/plugins-resources/) "free and/or inexpensive resources for professional computer-based music production"
+9. [Why Reaper](https://whyreaper.com/plugins-resources/) "free and/or inexpensive resources for professional computer-based music production"
 
-11. [ToneLib BassDrive](https://tonelib.net/tl-bassdrive.html) (free) "Designed based on the famous pedal bearing the same name, TL BassDrive is ready to unleash the true power of the lowest guitar frequencies."
+10. [ToneLib BassDrive](https://tonelib.net/tl-bassdrive.html) (free) "Designed based on the famous pedal bearing the same name, TL BassDrive is ready to unleash the true power of the lowest guitar frequencies."
 
-12. [Valhalla Super Massive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) (free) "ValhallaSupermassive has been designed from the ground up for MASSIVE delays and reverbs."
+11. [Valhalla Super Massive](https://valhalladsp.com/shop/reverb/valhalla-supermassive/) (free) "ValhallaSupermassive has been designed from the ground up for MASSIVE delays and reverbs."
 
 
 
