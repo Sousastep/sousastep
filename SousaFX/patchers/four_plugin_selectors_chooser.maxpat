@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
+		"rect" : [ 34.0, 87.0, 1824.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,34 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 11.0,
+					"id" : "obj-6",
+					"maxclass" : "live.menu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 475.0, 592.0, 162.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 64.0, 153.0, 17.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "never bypass", "bypass when looper's inactive", "bypass when looper's looping" ],
+							"parameter_longname" : "live.menu",
+							"parameter_mmax" : 2,
+							"parameter_shortname" : "live.menu",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.menu"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -47,24 +75,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 475.0, 677.0, 34.0, 22.0 ],
 					"text" : "sel 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"fontsize" : 7.0,
-					"id" : "obj-2",
-					"items" : [ "never", "bypass", ",", "bypass", "when", "tuba's", "playing", "bassline", ",", "bypass", "when", "tuba's", "soloing" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 406.0, 610.0, 60.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 58.0, 119.0, 17.0 ],
-					"varname" : "umenu"
 				}
 
 			}
@@ -143,8 +153,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 342.5, 514.0, 146.0, 22.0 ],
-					"restore" : [ 0 ],
+					"patching_rect" : [ 411.5, 514.0, 146.0, 22.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -290,6 +300,8 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.278099358081818, 0.278099358081818, 0.278099358081818, 1.0 ],
+					"checkedcolor" : [ 0.75990104675293, 0.87909722328186, 0.887128472328186, 1.0 ],
 					"hint" : "0 = return to original preset when un-bypassing\n1 = randomize FX when un-bypassing",
 					"id" : "obj-23",
 					"maxclass" : "toggle",
@@ -299,7 +311,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 867.0, 676.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 58.0, 16.0, 16.0 ],
+					"presentation_rect" : [ 6.0, 64.0, 16.0, 16.0 ],
+					"uncheckedcolor" : [ 0.537254901960784, 0.537254901960784, 0.537254901960784, 1.0 ],
 					"varname" : "toggle[1]"
 				}
 
@@ -534,7 +547,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 566.0, 447.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 86.0, 2.0, 134.0, 23.0 ],
+					"presentation_rect" : [ 6.0, 12.0, 214.0, 23.0 ],
 					"textjustification" : 2
 				}
 
@@ -596,20 +609,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 566.0, 111.0, 150.0, 22.0 ],
 					"text" : "r #1_plugin1_plugin_name"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-22",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 547.0, 235.0, 50.0 ],
-					"suppressinlet" : 1,
-					"text" : "0 = bypass FX when tuba's playing bass line\n\n1 = bypass FX when tuba's soloing"
 				}
 
 			}
@@ -714,30 +713,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-26", 0 ],
-					"order" : 1,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"order" : 0,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
-					"order" : 2,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -823,7 +798,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-43", 1 ]
 				}
 
@@ -839,6 +814,30 @@
 				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"order" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"order" : 2,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -950,6 +949,20 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-6" : [ "live.menu", "live.menu", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "prepends.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",

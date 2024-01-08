@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
-		"bglocked" : 1,
+		"rect" : [ 0.0, 53.0, 1892.0, 1387.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -737,7 +737,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Main Input Stutter Accel (uni)", "Main Input Stutter, Tremolo, Filters" ],
+					"args" : [ "Main Input Stutter Accel (bi)", "Main Input Stutter, Tremolo, Filters" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -760,7 +760,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Looper Stutter Accel (uni)", "loopers" ],
+					"args" : [ "Looper Stutter Accel (bi)", "loopers" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -783,7 +783,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Drum Clip Stutter Accel (uni)", "MIDI Status" ],
+					"args" : [ "Drum Clip Stutter Accel (bi)", "MIDI Status" ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -811,9 +811,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4611.0, 3040.0, 311.0, 22.0 ],
-					"text" : "\"param control logic\" 0.5 f \"Main Input Stutter Accel (uni)\"",
-					"varname" : "Main Input Stutter Accel (uni)"
+					"patching_rect" : [ 4611.0, 3040.0, 304.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Main Input Stutter Accel (bi)\"",
+					"varname" : "Main Input Stutter Accel (bi)"
 				}
 
 			}
@@ -824,9 +824,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4542.0, 3110.0, 292.0, 22.0 ],
-					"text" : "\"param control logic\" 0.5 f \"Looper Stutter Accel (uni)\"",
-					"varname" : "Looper Stutter Accel (uni)"
+					"patching_rect" : [ 4542.0, 3110.0, 286.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Looper Stutter Accel (bi)\"",
+					"varname" : "Looper Stutter Accel (bi)"
 				}
 
 			}
@@ -837,9 +837,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4575.0, 3074.0, 308.0, 22.0 ],
-					"text" : "\"param control logic\" 0.5 f \"Drum Clip Stutter Accel (uni)\"",
-					"varname" : "Drum Clip Stutter Accel (uni)"
+					"patching_rect" : [ 4575.0, 3074.0, 302.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"Drum Clip Stutter Accel (bi)\"",
+					"varname" : "Drum Clip Stutter Accel (bi)"
 				}
 
 			}
@@ -1037,7 +1037,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4091.0, 4089.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3329.0, 4428.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 540.0, 811.029411764705856, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1465,7 +1465,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3841.0, 4395.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3410.0, 4593.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 411.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1488,7 +1488,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3826.0, 4370.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3395.0, 4568.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 371.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1511,7 +1511,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 3811.0, 4344.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3380.0, 4542.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 351.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1534,7 +1534,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4043.0, 4242.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3368.0, 4510.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 331.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1557,7 +1557,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4028.0, 4217.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3353.0, 4485.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 311.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -1580,7 +1580,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 4013.0, 4191.0, 255.0, 23.0 ],
+					"patching_rect" : [ 3338.0, 4459.0, 255.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 542.0, 291.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
@@ -2572,7 +2572,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 582.0, 1527.0, 1266.0, 779.0 ],
+						"rect" : [ 484.0, 243.0, 1266.0, 779.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2600,6 +2600,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -2644,7 +2645,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 474.0, 1206.0, 753.0, 22.0 ],
-									"text" : "script sendbox \"Main Input Stutter Accel (uni)\" color 0, script sendbox \"Main Input Stutter Accel (uni)\" bordercolor 0.2863 1. 1. 0.9"
+									"text" : "script sendbox \"Main Input Stutter Accel (bi)\" color 0, script sendbox \"Main Input Stutter Accel (bi)\" bordercolor 0.2863 1. 1. 0.9"
 								}
 
 							}
@@ -5284,7 +5285,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6875.0, 3391.0, 37.0, 22.0 ],
+					"patching_rect" : [ 6879.0, 3228.0, 37.0, 22.0 ],
 					"text" : "r U-R"
 				}
 
@@ -5296,7 +5297,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6609.0, 3389.0, 35.0, 22.0 ],
+					"patching_rect" : [ 6589.0, 3228.0, 35.0, 22.0 ],
 					"text" : "r U-L"
 				}
 
@@ -5308,7 +5309,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6875.0, 3493.0, 37.0, 22.0 ],
+					"patching_rect" : [ 6879.0, 3332.0, 37.0, 22.0 ],
 					"text" : "r D-R"
 				}
 
@@ -5320,7 +5321,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6609.0, 3491.0, 35.0, 22.0 ],
+					"patching_rect" : [ 6589.0, 3330.0, 35.0, 22.0 ],
 					"text" : "r D-L"
 				}
 
@@ -5332,7 +5333,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6587.0, 3440.0, 32.0, 22.0 ],
+					"patching_rect" : [ 6559.0, 3279.0, 32.0, 22.0 ],
 					"text" : "r left"
 				}
 
@@ -5344,7 +5345,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6890.0, 3440.0, 39.0, 22.0 ],
+					"patching_rect" : [ 6908.0, 3279.0, 39.0, 22.0 ],
 					"text" : "r right"
 				}
 
@@ -5356,7 +5357,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6688.0, 3316.0, 29.0, 22.0 ],
+					"patching_rect" : [ 6682.5, 3155.0, 29.0, 22.0 ],
 					"text" : "r up"
 				}
 
@@ -5368,7 +5369,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6784.0, 3567.0, 45.0, 22.0 ],
+					"patching_rect" : [ 6778.5, 3406.0, 45.0, 22.0 ],
 					"text" : "r down"
 				}
 
@@ -7964,7 +7965,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6709.0, 3485.0, 28.0, 34.0 ],
+					"patching_rect" : [ 6689.0, 3324.0, 28.0, 34.0 ],
 					"text" : "↙",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -7978,7 +7979,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6772.0, 3487.0, 28.0, 30.0 ],
+					"patching_rect" : [ 6776.0, 3326.0, 28.0, 30.0 ],
 					"text" : "↘",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -7992,7 +7993,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6709.0, 3385.0, 28.0, 30.0 ],
+					"patching_rect" : [ 6689.0, 3224.0, 28.0, 30.0 ],
 					"text" : "↖",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8006,7 +8007,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6772.0, 3385.0, 28.0, 34.0 ],
+					"patching_rect" : [ 6776.0, 3222.0, 28.0, 34.0 ],
 					"text" : "↗",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8020,7 +8021,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6633.0, 3440.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6605.0, 3279.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8032,7 +8033,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6724.0, 3567.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6718.5, 3406.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8044,7 +8045,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6833.0, 3440.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6851.0, 3279.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8056,7 +8057,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6724.0, 3316.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6718.5, 3155.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8246,7 +8247,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6798.0, 3434.0, 29.0, 30.0 ],
+					"patching_rect" : [ 6816.0, 3273.0, 29.0, 30.0 ],
 					"text" : "→",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8261,7 +8262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6736.0, 3530.0, 26.0, 30.0 ],
+					"patching_rect" : [ 6730.5, 3369.0, 26.0, 30.0 ],
 					"text" : "↓",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8276,7 +8277,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6685.0, 3434.0, 29.0, 30.0 ],
+					"patching_rect" : [ 6657.0, 3273.0, 29.0, 30.0 ],
 					"text" : "←",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8291,7 +8292,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6737.0, 3348.0, 26.0, 30.0 ],
+					"patching_rect" : [ 6731.5, 3187.0, 26.0, 30.0 ],
 					"text" : "↑",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ]
 				}
@@ -8330,7 +8331,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6818.0, 3493.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6822.0, 3332.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8379,7 +8380,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6652.0, 3491.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6632.0, 3330.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8428,7 +8429,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6818.0, 3391.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6822.0, 3228.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8477,7 +8478,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 6652.0, 3389.0, 50.0, 22.0 ]
+					"patching_rect" : [ 6632.0, 3228.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -10400,7 +10401,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "eighth",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12699,7 +12700,7 @@
 					"numoutlets" : 2,
 					"numouts" : 69,
 					"outcolormap" : [ 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5 ],
-					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Preset 1", "Preset 2", "Preset 3", "Preset 4", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "-----", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "16th quintuplet", "32nd quintuplet", "-----", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (uni)", "Drum Clip Stutter Accel (uni)", "Main Input Stutter Accel (uni)" ],
+					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Preset 1", "Preset 2", "Preset 3", "Preset 4", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "-----", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "16th quintuplet", "32nd quintuplet", "-----", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (bi)", "Drum Clip Stutter Accel (bi)", "Main Input Stutter Accel (bi)" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 476.0, 829.0, 1380.0 ],
