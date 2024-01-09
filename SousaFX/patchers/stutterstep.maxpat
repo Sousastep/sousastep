@@ -222,7 +222,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "determines how much the stutter volume will decrease as the acceleration increases from neutral",
 					"id" : "obj-235",
@@ -1271,7 +1271,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "positive offset can improve transients at the beginning of the loop by shifting them outside of the window.",
 					"id" : "obj-22",
@@ -1352,7 +1352,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.",
 					"id" : "obj-159",
@@ -1449,7 +1449,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "stutter subdivision selector",
 					"id" : "obj-106",
@@ -1500,7 +1500,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "slow down and speed up the stutter FX",
 					"id" : "obj-145",
@@ -1829,8 +1829,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1690.0, 418.0, 178.0, 22.0 ],
-					"text" : "r #1\" Stutter Accel (uni)\""
+					"patching_rect" : [ 1690.0, 418.0, 129.0, 22.0 ],
+					"text" : "r #1\" Stutter Accel (bi)\""
 				}
 
 			}
@@ -2239,7 +2239,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -2289,8 +2288,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.92549, 1.0, 1.0 ],
-					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",

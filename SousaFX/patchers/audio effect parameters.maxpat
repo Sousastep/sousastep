@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 885.0, 53.0, 1089.0, 1387.0 ],
+		"rect" : [ 1252.0, 53.0, 882.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -260,7 +260,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 965.0, 346.0, 80.0, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 753.5, 2034.754156769596193, 80.0, 95.0 ],
+					"presentation_rect" : [ 764.5, 2052.0, 56.0, 75.0 ],
 					"varname" : "restart"
 				}
 
@@ -286,6 +286,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-564",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -294,7 +295,7 @@
 					"patching_rect" : [ 936.0, 305.0, 72.0, 87.562945368171029 ],
 					"pic" : "restarthighlight.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 753.0, 2033.0, 81.0, 98.5083135391924 ]
+					"presentation_rect" : [ 763.5, 2060.0, 57.0, 69.320665083135395 ]
 				}
 
 			}
@@ -400,7 +401,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-463",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -409,7 +409,7 @@
 					"patching_rect" : [ 1002.0, 376.0, 72.0, 87.562945368171029 ],
 					"pic" : "restartlight.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 758.25, 2039.0, 72.0, 87.562945368171029 ]
+					"presentation_rect" : [ 768.5, 2066.0, 48.0, 58.375296912114017 ]
 				}
 
 			}
@@ -2458,13 +2458,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 16,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
-					"text" : "1057 509 1503 931"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 223.0 ],
+					"text" : "631 460 1151 993 271 507 717 929 750 125 1151 310 1265 509 1889 1063"
 				}
 
 			}
