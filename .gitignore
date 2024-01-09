@@ -43,3 +43,6 @@ SousaFX/data/*
 
 # non-template
 /default/SousaPlayback\ template\ Project/SousastepPlayback.als
+
+# built docs
+/SousaFX/.docs

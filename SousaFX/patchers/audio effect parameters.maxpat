@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1252.0, 53.0, 882.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,20 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-471",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 835.0, 832.0, 231.0, 35.0 ],
+					"presentation_linecount" : 7,
+					"text" : ";\rmax relaunchmax restart_sousafx.maxpat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-629",
 					"maxclass" : "newobj",
@@ -500,7 +514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 815.0, 594.0, 229.0, 35.0 ],
+					"patching_rect" : [ 754.5, 606.0, 229.0, 35.0 ],
 					"text" : "dialog @mode 2 @label \"Quit SousaFX? Unsaved changes will be lost.\""
 				}
 
@@ -513,7 +527,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 883.0, 548.0, 258.0, 35.0 ],
+					"patching_rect" : [ 822.5, 551.0, 258.0, 35.0 ],
 					"text" : "dialog @mode 2 @label \"Relaunch SousaFX? Unsaved changes will be lost.\""
 				}
 
@@ -525,7 +539,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.0, 771.0, 54.0, 22.0 ],
+					"patching_rect" : [ 754.5, 776.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -537,7 +551,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.0, 504.0, 54.0, 22.0 ],
+					"patching_rect" : [ 754.5, 509.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -549,7 +563,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 815.0, 656.0, 42.0, 22.0 ],
+					"patching_rect" : [ 754.5, 661.0, 42.0, 22.0 ],
 					"text" : "t b b 0"
 				}
 
@@ -562,7 +576,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 815.0, 811.0, 54.0, 35.0 ],
+					"patching_rect" : [ 754.5, 816.0, 54.0, 35.0 ],
 					"text" : ";\rmax quit"
 				}
 
@@ -574,19 +588,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.0, 504.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-592",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.0, 771.0, 54.0, 22.0 ],
+					"patching_rect" : [ 822.5, 509.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -598,7 +600,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 883.0, 656.0, 42.0, 22.0 ],
+					"patching_rect" : [ 822.5, 661.0, 42.0, 22.0 ],
 					"text" : "t b b 0"
 				}
 
@@ -610,21 +612,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 947.0, 712.0, 52.0, 22.0 ],
+					"patching_rect" : [ 897.5, 739.0, 52.0, 22.0 ],
 					"text" : "gate 1 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-588",
-					"linecount" : 5,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 883.0, 811.0, 149.0, 76.0 ],
-					"text" : ";\rmax relaunchmax \"~/Documents/Max 8/Projects/sousastep/SousaFX/SousaFX.maxproj\""
 				}
 
 			}
@@ -1076,7 +1065,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 980.0, 656.0, 63.0, 22.0 ],
+					"patching_rect" : [ 930.5, 697.0, 63.0, 22.0 ],
 					"text" : "closebang"
 				}
 
@@ -1087,7 +1076,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 947.0, 771.0, 94.0, 22.0 ],
+					"patching_rect" : [ 897.5, 798.0, 94.0, 22.0 ],
 					"text" : "s sousafx_close"
 				}
 
@@ -5886,8 +5875,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -16244,6 +16233,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-471", 0 ],
+					"source" : [ "obj-591", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-530", 0 ],
 					"source" : [ "obj-591", 1 ]
 				}
@@ -16253,20 +16249,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-590", 0 ],
 					"source" : [ "obj-591", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-592", 0 ],
-					"source" : [ "obj-591", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-588", 0 ],
-					"source" : [ "obj-592", 0 ]
 				}
 
 			}
@@ -19317,7 +19299,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

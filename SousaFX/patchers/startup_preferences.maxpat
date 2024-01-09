@@ -123,7 +123,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 562.0, 282.0, 146.0, 62.0 ],
+					"patching_rect" : [ 562.0, 282.0, 150.0, 62.0 ],
 					"text" : "dialog @mode 4 @label \"The signal vector size is not 256. Would you like to set it to 256?\""
 				}
 
@@ -148,7 +148,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3291.0, 1948.0, 61.0, 22.0 ],
-					"text" : "pipe 1000"
+					"text" : "pipe 3000"
 				}
 
 			}
@@ -341,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
-					"patching_rect" : [ 886.0, 282.0, 119.0, 76.0 ],
+					"patching_rect" : [ 886.0, 282.0, 122.0, 76.0 ],
 					"text" : "dialog @mode 4 @label \"The sample rate is not 48 kHz. Would you like to set it to 48 kHz?\""
 				}
 
@@ -1763,8 +1763,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2724.0, 2019.0, 55.0, 22.0 ],
-					"text" : "del 7000"
+					"patching_rect" : [ 2724.0, 2019.0, 61.0, 22.0 ],
+					"text" : "del 12000"
 				}
 
 			}
@@ -1776,7 +1776,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 2798.0, 2056.0, 55.0, 22.0 ],
-					"text" : "del 5000"
+					"text" : "del 7000"
 				}
 
 			}
@@ -4774,7 +4774,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3640.5, 2408.0, 215.0, 212.0 ],
-					"pic" : "frame0058.png",
+					"pic" : "frame0091.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -7519,17 +7519,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "frame0058.png",
+				"name" : "frame0091.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_004151536",
 				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_004151536",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sousafx_startup_preferences.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
