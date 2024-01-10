@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 626.0, 1593.0, 1179.0, 626.0 ],
+		"rect" : [ 498.0, 623.0, 1179.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 527.0, 627.0, 142.0, 22.0 ],
+					"text" : "s \"Risset Ext FX DryWet\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-27",
 					"maxclass" : "newobj",
@@ -2937,7 +2948,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "drum loop volume MIDI", 127.0 ],
+					"args" : [ "Risset Ext FX DryWet", 127.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
