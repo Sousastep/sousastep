@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 880.0, 1631.0, 682.0, 779.0 ],
+		"rect" : [ 61.0, 560.0, 682.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.0, 222.0, 61.0, 22.0 ],
+					"text" : "pipe 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -68,7 +80,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.173767897747439, 227.243098335740569, 94.0, 21.0 ],
+					"patching_rect" : [ 27.125406316321914, 130.5, 94.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Default preset #"
 				}
@@ -108,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 27.125406316321914, 253.306545682877186, 81.0, 23.0 ],
+					"patching_rect" : [ 27.125406316321914, 156.5, 81.0, 23.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -136,10 +148,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.125406316321914, 392.274822009308878, 405.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_pitchshifter @greedy 2 @savemode 0",
@@ -234,11 +246,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-60",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.664803725067031, 347.861167073040065, 376.335196274932969, 23.0 ]
+					"patching_rect" : [ 300.664803725067031, 347.861167073040065, 376.335196274932969, 53.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_pitchshifter.json\""
 				}
 
 			}
@@ -906,6 +920,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
 					"source" : [ "obj-31", 0 ]
 				}
@@ -962,7 +983,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 548.0, 1493.0, 1440.0, 847.0 ],
+		"rect" : [ 626.0, 1593.0, 1179.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -701,7 +701,7 @@
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "Drum Clip Stutter Accel (uni)", 127.0 ],
+					"args" : [ "Drum Clip Stutter Accel (bi)", 127.0 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,

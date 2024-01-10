@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 1686.0, 53.0, 874.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,29 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontsize" : 20.999503029248874,
+					"id" : "obj-562",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5208.5, 319.5, 132.0, 32.0 ],
+					"text" : "docsbrowser"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-470",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5208.5, 291.0, 132.0, 22.0 ],
+					"text" : "s Documentation_open"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-471",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -49,7 +72,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.0, 832.0, 231.0, 35.0 ],
-					"presentation_linecount" : 7,
 					"text" : ";\rmax relaunchmax restart_sousafx.maxpat"
 				}
 
@@ -2253,7 +2275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5571.0, 615.0, 57.0, 22.0 ],
+					"patching_rect" : [ 5443.0, 515.0, 57.0, 22.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -2265,7 +2287,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 5571.0, 651.0, 209.0, 22.0 ],
+					"patching_rect" : [ 5443.0, 551.0, 209.0, 22.0 ],
 					"text" : "sel \"adding device\" \"removing device\""
 				}
 
@@ -2277,7 +2299,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5571.0, 578.0, 55.0, 22.0 ],
+					"patching_rect" : [ 5443.0, 478.0, 55.0, 22.0 ],
 					"text" : "zl.slice 2"
 				}
 
@@ -2289,7 +2311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 5496.0, 542.0, 169.0, 22.0 ],
+					"patching_rect" : [ 5368.0, 442.0, 169.0, 22.0 ],
 					"text" : "console @classfilter gamepad"
 				}
 
@@ -2371,26 +2393,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-420",
-					"linecount" : 5,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5208.5, 381.0, 116.5, 76.0 ],
-					"text" : ";\rmax launchbrowser https://sousastep.github.io/SousaFX-docs/en/master/"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-416",
 					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5257.5, 218.0, 116.0, 62.0 ],
+					"patching_rect" : [ 5257.5, 128.5, 116.0, 62.0 ],
 					"text" : ";\rmax launchbrowser https://discord.gg/feBwTZt84d"
 				}
 
@@ -2403,7 +2412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5232.5, 297.0, 150.0, 62.0 ],
+					"patching_rect" : [ 5232.5, 207.5, 150.0, 62.0 ],
 					"text" : ";\rmax launchbrowser https://github.com/Sousastep/sousastep/issues/new"
 				}
 
@@ -2415,7 +2424,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 5209.0, 164.0, 116.0, 22.0 ],
+					"patching_rect" : [ 5208.5, 74.5, 116.0, 22.0 ],
 					"text" : "select 1 3 5 7"
 				}
 
@@ -4010,7 +4019,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5405.0, -46.0, 287.0, 471.0 ],
+					"patching_rect" : [ 5554.0, -96.0, 287.0, 471.0 ],
 					"suppressinlet" : 1,
 					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X saveas 9;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation;\n#X item 5 2 🦅 Attack;\n#X item 5 3 🪴 Sustain;\n#X item 5 4 ⚔️ Envelope Crossfade;\n#X item 5 5 📬 Post-Crossfade;\n#X item 5 6 ⏳ Delay & Reverb Sends;\n#X item 5 7 ♻️ Loopers;\n#X item 5 8 🥾 Kick Ducker;\n#X item 5 9 🎧 Monitor Mix;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
 				}
@@ -5875,8 +5884,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -14344,7 +14353,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-420", 0 ],
+					"destination" : [ "obj-470", 0 ],
 					"source" : [ "obj-383", 0 ]
 				}
 
@@ -18443,6 +18452,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "docsbrowser.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "dry_comp_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -19180,8 +19196,8 @@
 			}
 , 			{
 				"name" : "sm.sallenkey2~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep Extended Instrument/patchers",
-				"patcherrelativepath" : "../../../Sousastep Extended Instrument/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19215,15 +19231,15 @@
 			}
 , 			{
 				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
-				"patcherrelativepath" : "../other",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_genexpr",
 				"type" : "GenX",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "sm_sallenkey_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/Sousastep Extended Instrument/code",
-				"patcherrelativepath" : "../../../Sousastep Extended Instrument/code",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -19299,8 +19315,7 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -19344,6 +19359,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "weblight.png",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{

@@ -42,6 +42,109 @@
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-314",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2713.5, 2019.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-313",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2697.0, 1990.0, 61.0, 22.0 ],
+					"text" : "del 14000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-311",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2691.625, 1460.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-286",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2691.625, 1424.0, 34.0, 22.0 ],
+					"text" : "sel 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-310",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3032.0, 2180.0, 120.0, 22.0 ],
+					"text" : "r startup-pref-hide-UI"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "hidden",
+					"id" : "obj-302",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3032.0, 2243.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-281",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3032.0, 2212.0, 33.0, 22.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.133333333333333, 1.0, 0.035294117647059, 0.0 ],
+					"fontname" : "Monaco",
+					"fontsize" : 10.935214211076286,
+					"hidden" : 1,
+					"id" : "obj-172",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3032.0, 2275.0, 237.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 219.0, 234.0, 201.0, 20.0 ],
+					"text" : "Loading. Please hold...",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-309",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -130,36 +233,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-281",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2744.0, 1930.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-148",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 3291.0, 1948.0, 61.0, 22.0 ],
-					"text" : "pipe 3000"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-135",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3291.0, 1911.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2970.0, 2264.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -264,7 +343,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-300",
-					"items" : [ "frame0001.png", ",", "frame0002.png", ",", "frame0003.png", ",", "frame0004.png", ",", "frame0005.png", ",", "frame0006.png", ",", "frame0007.png", ",", "frame0008.png", ",", "frame0009.png", ",", "frame0010.png", ",", "frame0011.png", ",", "frame0012.png", ",", "frame0013.png", ",", "frame0014.png", ",", "frame0015.png", ",", "frame0016.png", ",", "frame0017.png", ",", "frame0018.png", ",", "frame0019.png", ",", "frame0020.png", ",", "frame0021.png", ",", "frame0022.png", ",", "frame0023.png", ",", "frame0024.png", ",", "frame0025.png", ",", "frame0026.png", ",", "frame0027.png", ",", "frame0028.png", ",", "frame0029.png", ",", "frame0030.png", ",", "frame0031.png", ",", "frame0032.png", ",", "frame0033.png", ",", "frame0034.png", ",", "frame0035.png", ",", "frame0036.png", ",", "frame0037.png", ",", "frame0038.png", ",", "frame0039.png", ",", "frame0040.png", ",", "frame0041.png", ",", "frame0042.png", ",", "frame0043.png", ",", "frame0044.png", ",", "frame0045.png", ",", "frame0046.png", ",", "frame0047.png", ",", "frame0048.png", ",", "frame0049.png", ",", "frame0050.png", ",", "frame0051.png", ",", "frame0052.png", ",", "frame0053.png", ",", "frame0054.png", ",", "frame0055.png", ",", "frame0056.png", ",", "frame0057.png", ",", "frame0058.png", ",", "frame0059.png", ",", "frame0060.png", ",", "frame0061.png", ",", "frame0062.png", ",", "frame0063.png", ",", "frame0064.png", ",", "frame0065.png", ",", "frame0066.png", ",", "frame0067.png", ",", "frame0068.png", ",", "frame0069.png", ",", "frame0070.png", ",", "frame0071.png", ",", "frame0072.png", ",", "frame0073.png", ",", "frame0074.png", ",", "frame0075.png", ",", "frame0076.png", ",", "frame0077.png", ",", "frame0078.png", ",", "frame0079.png", ",", "frame0080.png", ",", "frame0081.png", ",", "frame0082.png", ",", "frame0083.png", ",", "frame0084.png", ",", "frame0085.png", ",", "frame0086.png", ",", "frame0087.png", ",", "frame0088.png", ",", "frame0089.png", ",", "frame0090.png", ",", "frame0091.png", ",", "frame0092.png", ",", "frame0093.png", ",", "frame0094.png", ",", "frame0095.png", ",", "frame0096.png", ",", "frame0097.png", ",", "frame0098.png", ",", "frame0099.png", ",", "frame0100.png", ",", "frame0101.png", ",", "frame0102.png", ",", "frame0103.png", ",", "frame0104.png", ",", "frame0105.png", ",", "frame0106.png", ",", "frame0107.png", ",", "frame0108.png", ",", "frame0109.png", ",", "frame0110.png", ",", "frame0111.png", ",", "frame0112.png", ",", "frame0113.png", ",", "frame0114.png", ",", "frame0115.png", ",", "frame0116.png", ",", "frame0117.png", ",", "frame0118.png", ",", "frame0119.png", ",", "frame0120.png", ",", "frame0121.png", ",", "frame0122.png", ",", "frame0123.png", ",", "frame0124.png", ",", "frame0125.png", ",", "frame0126.png", ",", "frame0127.png", ",", "frame0128.png", ",", "frame0129.png", ",", "frame0130.png", ",", "frame0131.png", ",", "frame0132.png", ",", "frame0133.png", ",", "frame0134.png", ",", "frame0135.png", ",", "frame0136.png", ",", "frame0137.png", ",", "frame0138.png", ",", "frame0139.png", ",", "frame0140.png", ",", "frame0141.png", ",", "frame0142.png", ",", "frame0143.png", ",", "frame0144.png", ",", "frame0145.png", ",", "frame0146.png", ",", "frame0147.png", ",", "frame0148.png", ",", "frame0149.png", ",", "frame0150.png", ",", "frame0151.png", ",", "frame0152.png", ",", "frame0153.png", ",", "frame0154.png", ",", "frame0155.png", ",", "frame0156.png", ",", "frame0157.png", ",", "frame0158.png", ",", "frame0159.png", ",", "frame0160.png", ",", "frame0161.png", ",", "frame0162.png", ",", "frame0163.png", ",", "frame0164.png", ",", "frame0165.png", ",", "frame0166.png", ",", "frame0167.png", ",", "frame0168.png", ",", "frame0169.png", ",", "frame0170.png", ",", "frame0171.png", ",", "frame0172.png", ",", "frame0173.png", ",", "frame0174.png", ",", "frame0175.png", ",", "frame0176.png", ",", "frame0177.png", ",", "frame0178.png", ",", "frame0179.png", ",", "frame0180.png", ",", "frame0181.png", ",", "frame0182.png", ",", "frame0183.png", ",", "frame0184.png", ",", "frame0185.png", ",", "frame0186.png", ",", "frame0187.png", ",", "frame0188.png", ",", "frame0189.png", ",", "frame0190.png", ",", "frame0191.png", ",", "frame0192.png", ",", "frame0193.png", ",", "frame0194.png", ",", "frame0195.png", ",", "frame0196.png", ",", "frame0197.png", ",", "frame0198.png", ",", "frame0199.png", ",", "frame0200.png", ",", "frame0201.png", ",", "frame0202.png", ",", "frame0203.png", ",", "frame0204.png", ",", "frame0205.png", ",", "frame0206.png", ",", "frame0207.png", ",", "frame0208.png", ",", "frame0209.png", ",", "frame0210.png", ",", "frame0211.png", ",", "frame0212.png", ",", "frame0213.png", ",", "frame0214.png", ",", "frame0215.png", ",", "frame0216.png", ",", "frame0217.png", ",", "frame0218.png", ",", "frame0219.png", ",", "frame0220.png", ",", "frame0221.png", ",", "frame0222.png", ",", "frame0223.png", ",", "frame0224.png", ",", "frame0225.png", ",", "frame0226.png", ",", "frame0227.png", ",", "frame0228.png", ",", "frame0229.png", ",", "frame0230.png", ",", "frame0231.png", ",", "frame0232.png", ",", "frame0233.png", ",", "frame0234.png", ",", "frame0235.png", ",", "frame0236.png", ",", "frame0237.png", ",", "frame0238.png", ",", "frame0239.png", ",", "frame0240.png", ",", "frame0241.png", ",", "frame0242.png", ",", "frame0243.png", ",", "frame0244.png", ",", "frame0245.png", ",", "frame0246.png", ",", "frame0247.png", ",", "frame0248.png", ",", "frame0249.png", ",", "frame0250.png", ",", "frame0251.png", ",", "frame0252.png", ",", "frame0253.png", ",", "frame0254.png", ",", "frame0255.png", ",", "frame0256.png", ",", "frame0257.png", ",", "frame0258.png", ",", "frame0259.png", ",", "frame0260.png", ",", "frame0261.png", ",", "frame0262.png", ",", "frame0263.png", ",", "frame0264.png", ",", "frame0265.png", ",", "frame0266.png", ",", "frame0267.png", ",", "frame0268.png", ",", "frame0269.png", ",", "frame0270.png", ",", "frame0271.png", ",", "frame0272.png", ",", "frame0273.png", ",", "frame0274.png", ",", "frame0275.png", ",", "frame0276.png", ",", "frame0277.png", ",", "frame0278.png", ",", "frame0279.png", ",", "frame0280.png", ",", "frame0281.png", ",", "frame0282.png", ",", "frame0283.png", ",", "frame0284.png", ",", "frame0285.png", ",", "frame0286.png", ",", "frame0287.png", ",", "frame0288.png", ",", "frame0289.png", ",", "frame0290.png", ",", "frame0291.png", ",", "frame0292.png", ",", "frame0293.png", ",", "frame0294.png", ",", "frame0295.png", ",", "frame0296.png", ",", "frame0297.png", ",", "frame0298.png", ",", "frame0299.png", ",", "frame0300.png", ",", "frame0301.png", ",", "frame0302.png", ",", "frame0303.png", ",", "frame0304.png", ",", "frame0305.png", ",", "frame0306.png", ",", "frame0307.png", ",", "frame0308.png", ",", "frame0309.png", ",", "frame0310.png", ",", "frame0311.png", ",", "frame0312.png", ",", "frame0313.png", ",", "frame0314.png", ",", "frame0315.png", ",", "frame0316.png", ",", "frame0317.png", ",", "frame0318.png", ",", "frame0319.png", ",", "frame0320.png", ",", "frame0321.png", ",", "frame0322.png", ",", "frame0323.png", ",", "frame0324.png", ",", "frame0325.png", ",", "frame0326.png", ",", "frame0327.png", ",", "frame0328.png", ",", "frame0329.png", ",", "frame0330.png", ",", "frame0331.png", ",", "frame0332.png", ",", "frame0333.png", ",", "frame0334.png", ",", "frame0335.png", ",", "frame0336.png", ",", "frame0337.png", ",", "frame0338.png", ",", "frame0339.png", ",", "frame0340.png", ",", "frame0341.png", ",", "frame0342.png", ",", "frame0343.png", ",", "frame0344.png", ",", "frame0345.png", ",", "frame0346.png", ",", "frame0347.png", ",", "frame0348.png", ",", "frame0349.png", ",", "frame0350.png", ",", "frame0351.png", ",", "frame0352.png", ",", "frame0353.png", ",", "frame0354.png", ",", "frame0355.png", ",", "frame0356.png", ",", "frame0357.png", ",", "frame0358.png", ",", "frame0359.png", ",", "frame0360.png", ",", "frame0361.png", ",", "frame0362.png", ",", "frame0363.png", ",", "frame0364.png", ",", "frame0365.png", ",", "frame0366.png", ",", "frame0367.png", ",", "frame0368.png", ",", "frame0369.png", ",", "frame0370.png", ",", "frame0371.png", ",", "frame0372.png", ",", "frame0373.png", ",", "frame0374.png", ",", "frame0375.png", ",", "frame0376.png", ",", "frame0377.png", ",", "frame0378.png", ",", "frame0379.png", ",", "frame0380.png", ",", "frame0381.png", ",", "frame0382.png", ",", "frame0383.png", ",", "frame0384.png", ",", "frame0385.png", ",", "frame0386.png", ",", "frame0387.png", ",", "frame0388.png", ",", "frame0389.png", ",", "frame0390.png", ",", "frame0391.png", ",", "frame0392.png", ",", "frame0393.png", ",", "frame0394.png", ",", "frame0395.png", ",", "frame0396.png", ",", "frame0397.png", ",", "frame0398.png", ",", "frame0399.png", ",", "frame0400.png" ],
+					"items" : [ "frame0001.png", ",", "frame0002.png", ",", "frame0003.png", ",", "frame0004.png", ",", "frame0005.png", ",", "frame0006.png", ",", "frame0007.png", ",", "frame0008.png", ",", "frame0009.png", ",", "frame0010.png", ",", "frame0011.png", ",", "frame0012.png", ",", "frame0013.png", ",", "frame0014.png", ",", "frame0015.png", ",", "frame0016.png", ",", "frame0017.png", ",", "frame0018.png", ",", "frame0019.png", ",", "frame0020.png", ",", "frame0021.png", ",", "frame0022.png", ",", "frame0023.png", ",", "frame0024.png", ",", "frame0025.png", ",", "frame0026.png", ",", "frame0027.png", ",", "frame0028.png", ",", "frame0029.png", ",", "frame0030.png", ",", "frame0031.png", ",", "frame0032.png", ",", "frame0033.png", ",", "frame0034.png", ",", "frame0035.png", ",", "frame0036.png", ",", "frame0037.png", ",", "frame0038.png", ",", "frame0039.png", ",", "frame0040.png", ",", "frame0041.png", ",", "frame0042.png", ",", "frame0043.png", ",", "frame0044.png", ",", "frame0045.png", ",", "frame0046.png", ",", "frame0047.png", ",", "frame0048.png", ",", "frame0049.png", ",", "frame0050.png", ",", "frame0051.png", ",", "frame0052.png", ",", "frame0053.png", ",", "frame0054.png", ",", "frame0055.png", ",", "frame0056.png", ",", "frame0057.png", ",", "frame0058.png", ",", "frame0059.png", ",", "frame0060.png", ",", "frame0061.png", ",", "frame0062.png", ",", "frame0063.png", ",", "frame0064.png", ",", "frame0065.png", ",", "frame0066.png", ",", "frame0067.png", ",", "frame0068.png", ",", "frame0069.png", ",", "frame0070.png", ",", "frame0071.png", ",", "frame0072.png", ",", "frame0073.png", ",", "frame0074.png", ",", "frame0075.png", ",", "frame0076.png", ",", "frame0077.png", ",", "frame0078.png", ",", "frame0079.png", ",", "frame0080.png", ",", "frame0081.png", ",", "frame0082.png", ",", "frame0083.png", ",", "frame0084.png", ",", "frame0085.png", ",", "frame0086.png", ",", "frame0087.png", ",", "frame0088.png", ",", "frame0089.png", ",", "frame0090.png", ",", "frame0091.png", ",", "frame0092.png", ",", "frame0093.png", ",", "frame0094.png", ",", "frame0095.png", ",", "frame0096.png", ",", "frame0097.png", ",", "frame0098.png", ",", "frame0099.png", ",", "frame0100.png", ",", "frame0101.png", ",", "frame0102.png", ",", "frame0103.png", ",", "frame0104.png", ",", "frame0105.png", ",", "frame0106.png", ",", "frame0107.png", ",", "frame0108.png", ",", "frame0109.png", ",", "frame0110.png", ",", "frame0111.png", ",", "frame0112.png", ",", "frame0113.png", ",", "frame0114.png", ",", "frame0115.png", ",", "frame0116.png", ",", "frame0117.png", ",", "frame0118.png", ",", "frame0119.png", ",", "frame0120.png", ",", "frame0121.png", ",", "frame0122.png", ",", "frame0123.png", ",", "frame0124.png", ",", "frame0125.png", ",", "frame0126.png", ",", "frame0127.png", ",", "frame0128.png", ",", "frame0129.png", ",", "frame0130.png", ",", "frame0131.png", ",", "frame0132.png", ",", "frame0133.png", ",", "frame0134.png", ",", "frame0135.png", ",", "frame0136.png", ",", "frame0137.png", ",", "frame0138.png", ",", "frame0139.png", ",", "frame0140.png", ",", "frame0141.png", ",", "frame0142.png", ",", "frame0143.png", ",", "frame0144.png", ",", "frame0145.png", ",", "frame0146.png", ",", "frame0147.png", ",", "frame0148.png", ",", "frame0149.png", ",", "frame0150.png", ",", "frame0151.png", ",", "frame0152.png", ",", "frame0153.png", ",", "frame0154.png", ",", "frame0155.png", ",", "frame0156.png", ",", "frame0157.png", ",", "frame0158.png", ",", "frame0159.png", ",", "frame0160.png", ",", "frame0161.png", ",", "frame0162.png", ",", "frame0163.png", ",", "frame0164.png", ",", "frame0165.png", ",", "frame0166.png", ",", "frame0167.png", ",", "frame0168.png", ",", "frame0169.png", ",", "frame0170.png", ",", "frame0171.png", ",", "frame0172.png", ",", "frame0173.png", ",", "frame0174.png", ",", "frame0175.png", ",", "frame0176.png", ",", "frame0177.png", ",", "frame0178.png", ",", "frame0179.png", ",", "frame0180.png", ",", "frame0181.png", ",", "frame0182.png", ",", "frame0183.png", ",", "frame0184.png", ",", "frame0185.png", ",", "frame0186.png", ",", "frame0187.png", ",", "frame0188.png", ",", "frame0189.png", ",", "frame0190.png", ",", "frame0191.png", ",", "frame0192.png", ",", "frame0193.png", ",", "frame0194.png", ",", "frame0195.png", ",", "frame0196.png", ",", "frame0197.png", ",", "frame0198.png", ",", "frame0199.png", ",", "frame0200.png", ",", "frame0201.png", ",", "frame0202.png", ",", "frame0203.png", ",", "frame0204.png", ",", "frame0205.png", ",", "frame0206.png", ",", "frame0207.png", ",", "frame0208.png", ",", "frame0209.png", ",", "frame0210.png", ",", "frame0211.png", ",", "frame0212.png", ",", "frame0213.png", ",", "frame0214.png", ",", "frame0215.png", ",", "frame0216.png", ",", "frame0217.png", ",", "frame0218.png", ",", "frame0219.png", ",", "frame0220.png", ",", "frame0221.png", ",", "frame0222.png", ",", "frame0223.png", ",", "frame0224.png", ",", "frame0225.png", ",", "frame0226.png", ",", "frame0227.png", ",", "frame0228.png", ",", "frame0229.png", ",", "frame0230.png", ",", "frame0231.png", ",", "frame0232.png", ",", "frame0233.png", ",", "frame0234.png", ",", "frame0235.png", ",", "frame0236.png", ",", "frame0237.png", ",", "frame0238.png", ",", "frame0239.png", ",", "frame0240.png", ",", "frame0241.png", ",", "frame0242.png", ",", "frame0243.png", ",", "frame0244.png", ",", "frame0245.png", ",", "frame0246.png", ",", "frame0247.png", ",", "frame0248.png", ",", "frame0249.png", ",", "frame0250.png", ",", "frame0251.png", ",", "frame0252.png", ",", "frame0253.png", ",", "frame0254.png", ",", "frame0255.png", ",", "frame0256.png", ",", "frame0257.png", ",", "frame0258.png", ",", "frame0259.png", ",", "frame0260.png", ",", "frame0261.png", ",", "frame0262.png", ",", "frame0263.png", ",", "frame0264.png", ",", "frame0265.png", ",", "frame0266.png", ",", "frame0267.png", ",", "frame0268.png", ",", "frame0269.png", ",", "frame0270.png", ",", "frame0271.png", ",", "frame0272.png", ",", "frame0273.png", ",", "frame0274.png", ",", "frame0275.png", ",", "frame0276.png", ",", "frame0277.png", ",", "frame0278.png", ",", "frame0279.png" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -293,7 +372,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2724.0, 2098.0, 54.0, 22.0 ],
+					"patching_rect" : [ 2724.0, 2086.75, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -740,7 +819,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2928.0, 2060.0, 145.0, 22.0 ],
+					"patching_rect" : [ 2937.0, 2043.0, 145.0, 22.0 ],
 					"text" : "s startup-UI-panel-fillcolor"
 				}
 
@@ -822,7 +901,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1334.0, 2338.0, 120.0, 22.0 ],
+					"patching_rect" : [ 1334.0, 2275.0, 120.0, 22.0 ],
 					"text" : "r startup-pref-hide-UI"
 				}
 
@@ -1232,7 +1311,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "int" ],
-					"patching_rect" : [ 2746.0, 1948.0, 232.000003457069397, 22.0 ],
+					"patching_rect" : [ 2746.0, 1948.000000000000455, 232.000003457069397, 22.0 ],
 					"text" : "t b b b b 0"
 				}
 
@@ -1317,7 +1396,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2746.0, 1732.0, 24.0, 24.0 ]
+					"patching_rect" : [ 2746.0, 1766.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1328,7 +1407,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2746.0, 1900.0, 34.0, 22.0 ],
+					"patching_rect" : [ 2746.0, 1911.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -1340,8 +1419,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2746.0, 1860.0, 33.0, 22.0 ],
-					"text" : "== 3"
+					"patching_rect" : [ 2746.0, 1875.0, 33.0, 22.0 ],
+					"text" : "== 9"
 				}
 
 			}
@@ -1352,7 +1431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2746.0, 1780.0, 126.0, 22.0 ],
+					"patching_rect" : [ 2746.0, 1804.0, 126.0, 22.0 ],
 					"text" : "qmetro 333 @active 0"
 				}
 
@@ -1364,7 +1443,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 2746.0, 1820.0, 92.0, 22.0 ],
+					"patching_rect" : [ 2746.0, 1839.0, 92.0, 22.0 ],
 					"text" : "counter 0 0 100"
 				}
 
@@ -1724,10 +1803,10 @@
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 5,
-					"outlettype" : [ "int", "bang", "int", "int", "int" ],
-					"patching_rect" : [ 2620.0, 1460.0, 62.0, 22.0 ],
-					"text" : "t 1 b 0 0 0"
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "bang", "int", "int" ],
+					"patching_rect" : [ 2620.0, 1460.0, 52.0, 22.0 ],
+					"text" : "t 1 b 0 0"
 				}
 
 			}
@@ -1738,7 +1817,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2724.0, 2170.0, 67.0, 22.0 ],
+					"patching_rect" : [ 2724.0, 2164.25, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -1751,7 +1830,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "wclose" ],
-					"patching_rect" : [ 2724.0, 2132.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2724.0, 2125.5, 52.0, 22.0 ],
 					"text" : "t wclose"
 				}
 
@@ -1763,8 +1842,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2724.0, 2019.0, 61.0, 22.0 ],
-					"text" : "del 12000"
+					"patching_rect" : [ 2697.0, 2048.0, 55.0, 22.0 ],
+					"text" : "del 2000"
 				}
 
 			}
@@ -4774,7 +4853,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3640.5, 2408.0, 215.0, 212.0 ],
-					"pic" : "frame0091.png",
+					"pic" : "frame0078.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -4901,13 +4980,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-267", 0 ],
-					"source" : [ "obj-11", 4 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-11", 3 ]
 				}
@@ -4917,7 +4989,7 @@
 				"patchline" : 				{
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-64", 1 ],
-					"midpoints" : [ 2640.25, 2568.900007665157318, 1837.5, 2568.900007665157318 ],
+					"midpoints" : [ 2640.5, 2568.900007665157318, 1837.5, 2568.900007665157318 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -5092,14 +5164,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-281", 0 ],
+					"destination" : [ "obj-192", 0 ],
 					"source" : [ "obj-133", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-148", 0 ],
+					"destination" : [ "obj-302", 0 ],
 					"source" : [ "obj-135", 0 ]
 				}
 
@@ -5214,13 +5286,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-160", 0 ],
 					"source" : [ "obj-147", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-267", 0 ],
-					"source" : [ "obj-148", 0 ]
 				}
 
 			}
@@ -5394,7 +5459,7 @@
 				"patchline" : 				{
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-165", 0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5412,6 +5477,14 @@
 					"destination" : [ "obj-184", 0 ],
 					"midpoints" : [ 3003.5, 1413.799996972084045, 3199.5, 1413.799996972084045 ],
 					"order" : 0,
+					"source" : [ "obj-162", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-286", 0 ],
+					"order" : 4,
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -5667,13 +5740,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
-					"source" : [ "obj-192", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-192", 2 ]
 				}
@@ -5690,6 +5756,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-192", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-313", 0 ],
+					"source" : [ "obj-192", 0 ]
 				}
 
 			}
@@ -6653,7 +6726,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-192", 0 ],
+					"destination" : [ "obj-302", 0 ],
 					"source" : [ "obj-281", 0 ]
 				}
 
@@ -6669,6 +6742,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-270", 0 ],
 					"source" : [ "obj-284", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-311", 0 ],
+					"source" : [ "obj-286", 0 ]
 				}
 
 			}
@@ -6785,6 +6865,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-172", 0 ],
+					"source" : [ "obj-302", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-316", 0 ],
 					"source" : [ "obj-303", 0 ]
 				}
@@ -6829,6 +6916,43 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-281", 0 ],
+					"source" : [ "obj-310", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-311", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"order" : 1,
+					"source" : [ "obj-313", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-314", 0 ],
+					"order" : 0,
+					"source" : [ "obj-313", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-314", 0 ]
 				}
 
 			}
@@ -7519,10 +7643,17 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "frame0091.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_004151536",
-				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_004151536",
+				"name" : "frame0100.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_003804122",
+				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_003804122",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousafx_startup_preferences.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
+				"patcherrelativepath" : "../../default/presets",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

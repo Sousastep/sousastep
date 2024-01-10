@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 1527.0, 1008.0, 779.0 ],
+		"rect" : [ 48.0, 102.0, 1008.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 37.0, 223.0, 61.0, 22.0 ],
+					"text" : "pipe 2000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
@@ -80,7 +92,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 210.0, 94.0, 21.0 ],
+					"patching_rect" : [ 37.0, 135.0, 94.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Default preset #"
 				}
@@ -120,7 +132,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 236.0, 81.0, 23.0 ],
+					"patching_rect" : [ 37.0, 161.0, 81.0, 23.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -148,10 +160,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 37.0, 375.0, 361.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_chorus @greedy 2 @savemode 0",
@@ -1481,7 +1493,7 @@
 				"box" : 				{
 					"attr" : "rate",
 					"attr_display" : 1,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.3 ],
 					"fontname" : "Monaco",
 					"hint" : "Sets the frequency of the LFO",
 					"id" : "obj-52",
@@ -1800,7 +1812,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -1879,6 +1891,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
