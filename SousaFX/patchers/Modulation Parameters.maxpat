@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 650.0, 210.0, 1363.0, 1197.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -130,7 +130,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 936.037328605934817, -187.5, 344.325371970564447, 35.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "0 = don't randomize LPF LFO shape\n1 = randomize LPF LFO shape when looper begins fading out"
 				}
@@ -173,20 +172,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2387.0, 537.0, 118.0, 22.0 ],
-					"text" : "s Q_amount-pattrset"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-208",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2451.0, 392.0, 72.0, 22.0 ],
-					"text" : "r Q_amount"
+					"patching_rect" : [ 1641.0, 872.812841396390695, 74.0, 22.0 ],
+					"text" : "s Q_amount"
 				}
 
 			}
@@ -1766,46 +1753,13 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-155",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 2327.0, 423.0, 92.0, 22.0 ],
-					"restore" : [ 0.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr Q_amount",
-					"varname" : "Q_amount"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-104",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2451.0, 423.0, 72.0, 22.0 ],
+					"patching_rect" : [ 1641.0, 821.311101314793632, 72.0, 22.0 ],
 					"text" : "prepend set"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-90",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2387.0, 502.0, 50.0, 22.0 ],
-					"varname" : "number[3]"
 				}
 
 			}
@@ -2685,25 +2639,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1263.0, 119.0, 129.0, 21.0 ],
 					"text" : "script show function[11]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1212.0, 639.0, 114.0, 22.0 ],
-					"restore" : [ 67.5 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr LPFresonance",
-					"varname" : "LPFresonance"
 				}
 
 			}
@@ -6005,30 +5940,6 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 2271.66666666666606, 961.63932029800344, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"endY" : 						{
 							"label" : "endY",
 							"isEnum" : 0,
@@ -6041,6 +5952,12 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
@@ -6049,6 +5966,24 @@
 ,
 						"firstCurve" : 						{
 							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6105,30 +6040,6 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3192.531180691696136, 1260.854101142602303, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"endY" : 						{
 							"label" : "endY",
 							"isEnum" : 0,
@@ -6141,6 +6052,12 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
@@ -6149,6 +6066,24 @@
 ,
 						"firstCurve" : 						{
 							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6218,30 +6153,6 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3751.853134652646986, 1249.972724256382207, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"endY" : 						{
 							"label" : "endY",
 							"isEnum" : 0,
@@ -6254,6 +6165,12 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
@@ -6262,6 +6179,24 @@
 ,
 						"firstCurve" : 						{
 							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7050,29 +6985,6 @@
 					"outlettype" : [ "", "int", "int" ],
 					"patching_rect" : [ 1349.433333992958069, 541.09081217609878, 61.0, 22.0 ],
 					"text" : "change 0."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-344",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1534.333327889442444, 778.24123354621247, 112.0, 22.0 ],
-					"text" : "prepend Q_amount"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-62",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1532.833327889442444, 872.812841396390695, 121.0, 22.0 ],
-					"text" : "s sm_ladder_params"
 				}
 
 			}
@@ -8889,7 +8801,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
+					"destination" : [ "obj-207", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -9461,13 +9373,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
-					"source" : [ "obj-155", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-921", 0 ],
 					"source" : [ "obj-156", 0 ]
 				}
@@ -9900,13 +9805,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-104", 0 ],
-					"source" : [ "obj-208", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-141", 0 ],
 					"source" : [ "obj-209", 0 ]
 				}
@@ -10334,13 +10232,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-599", 0 ],
 					"source" : [ "obj-34", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 0 ],
-					"source" : [ "obj-344", 0 ]
 				}
 
 			}
@@ -10800,16 +10691,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-104", 0 ],
+					"order" : 0,
 					"source" : [ "obj-557", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-344", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-12", 0 ],
+					"order" : 2,
 					"source" : [ "obj-557", 1 ]
 				}
 
@@ -11566,13 +11457,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-207", 0 ],
-					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-376", 0 ],
 					"source" : [ "obj-901", 0 ]
 				}
@@ -11617,16 +11501,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-104", 0 ],
+					"order" : 0,
 					"source" : [ "obj-93", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-344", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-12", 0 ],
+					"order" : 2,
 					"source" : [ "obj-93", 0 ]
 				}
 
@@ -11643,13 +11527,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-337", 0 ],
 					"source" : [ "obj-930", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-557", 0 ],
-					"source" : [ "obj-94", 1 ]
 				}
 
 			}

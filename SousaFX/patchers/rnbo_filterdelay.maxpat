@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 391.0, 250.0, 1410.0, 959.0 ],
+		"rect" : [ 173.0, 280.0, 1410.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,14 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-22",
-					"maxclass" : "message",
-					"numinlets" : 2,
+					"attr" : "time",
+					"id" : "obj-51",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 794.0, 419.5, 100.0, 22.0 ],
-					"text" : "message time $1"
+					"parameter_enable" : 0,
+					"patching_rect" : [ 724.0, 380.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -121,14 +122,14 @@
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 376.0, 603.0, 396.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"regen" : 						{
-							"label" : "regen",
+						"color" : 						{
+							"label" : "color",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"color" : 						{
-							"label" : "color",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -141,6 +142,12 @@
 ,
 						"spread" : 						{
 							"label" : "spread",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"time" : 						{
+							"label" : "time",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1178,7 +1185,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 851.0, 378.078732719618642, 168.0, 21.0 ],
+					"patching_rect" : [ 781.0, 341.0, 168.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "convert BPM to ms per quarter"
 				}
@@ -1191,7 +1198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 794.0, 378.078732719618642, 55.0, 22.0 ],
+					"patching_rect" : [ 724.0, 341.0, 55.0, 22.0 ],
 					"text" : "!/ 60000."
 				}
 
@@ -1204,7 +1211,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 794.0, 341.89879275517626, 82.0, 22.0 ],
+					"patching_rect" : [ 724.0, 305.0, 82.0, 22.0 ],
 					"text" : "r tempo_BPM"
 				}
 
@@ -1354,8 +1361,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1583,7 +1590,7 @@
 							"version" : 2,
 							"minorversion" : 0,
 							"name" : "FilterDelaySend",
-							"origin" : "74a09b97-f360-11ea-9b97-34363bd3ed8c",
+							"origin" : "FilterDelaySend",
 							"type" : "rnbo",
 							"subtype" : "",
 							"embed" : 1,
@@ -1629,16 +1636,8 @@
 									"value" : 0.0
 								}
 ,
-								"fb" : 								{
-									"value" : 1.0
-								}
-,
-								"scale" : 								{
-									"value" : 3.0
-								}
-,
-								"spread" : 								{
-									"value" : 0.0
+								"time" : 								{
+									"value" : 352.941176470588232
 								}
 ,
 								"volume" : 								{
@@ -1649,7 +1648,19 @@
 									"value" : 50.0
 								}
 ,
-								"__presetid" : "74a09b97-f360-11ea-9b97-34363bd3ed8c"
+								"fb" : 								{
+									"value" : 1.0
+								}
+,
+								"spread" : 								{
+									"value" : 0.0
+								}
+,
+								"scale" : 								{
+									"value" : 3.0
+								}
+,
+								"__presetid" : "FilterDelaySend"
 							}
 
 						}
@@ -2246,7 +2257,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-1004", 0 ]
 				}
 
@@ -2341,13 +2352,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
-					"source" : [ "obj-22", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -2400,6 +2404,13 @@
 					"destination" : [ "obj-32", 0 ],
 					"midpoints" : [ 416.5, 160.014325794620845, 393.451638418574476, 160.014325794620845 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -2495,7 +2506,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "FilterDelaySend.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1
