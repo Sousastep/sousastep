@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 861.0, 126.0, 1018.0, 1232.0 ],
+		"rect" : [ 242.0, 87.0, 1018.0, 1232.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -371,6 +371,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"dbperled" : 6,
 					"id" : "obj-99",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -386,6 +387,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"dbperled" : 6,
 					"id" : "obj-98",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -892,20 +894,20 @@
 							"parsestring" : ""
 						}
 ,
-						"volume" : 						{
-							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"sustain" : 						{
-							"label" : "sustain",
-							"isEnum" : 0,
-							"parsestring" : ""
+						"lookahead" : 						{
+							"label" : "lookahead",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\" \"2\""
 						}
 ,
 						"comp" : 						{
 							"label" : "comp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -916,22 +918,22 @@
 							"parsestring" : ""
 						}
 ,
-						"himidfq" : 						{
-							"label" : "himidfq",
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
-						}
-,
-						"lookahead" : 						{
-							"label" : "lookahead",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\" \"2\""
 						}
 ,
 						"softclip" : 						{
 							"label" : "softclip",
 							"isEnum" : 1,
 							"parsestring" : "\"0\" \"1\""
+						}
+,
+						"himidfq" : 						{
+							"label" : "himidfq",
+							"isEnum" : 0,
+							"parsestring" : ""
 						}
 
 					}

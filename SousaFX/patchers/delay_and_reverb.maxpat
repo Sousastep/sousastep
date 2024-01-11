@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 952.0, 555.0, 1191.0, 796.0 ],
+		"rect" : [ 738.0, 217.0, 1331.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -53,7 +53,6 @@
 			}
 , 			{
 				"box" : 				{
-					"align" : 1,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 24.0,
@@ -68,7 +67,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 179.0, 99.0, 202.0, 21.0 ],
 					"text" : "Main | Loop",
-					"textjustification" : 1,
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1112,7 +1110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2703.0, 1563.0, 176.0, 122.0 ],
+					"patching_rect" : [ 2703.0, 1563.0, 179.0, 122.0 ],
 					"suppressinlet" : 1,
 					"text" : "the looper input and main input share the time fx sends. \n\nif either the looper or main delay send are mapped to a joystick axis instead of a button, then the delay send will also feedback upon itself"
 				}
@@ -2340,8 +2338,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1485.0, 1960.0, 83.0, 22.0 ],
-					"text" : "r reverb_send"
+					"patching_rect" : [ 1485.0, 1960.0, 181.0, 22.0 ],
+					"text" : "r \"Main Input Reverb Send (uni)\""
 				}
 
 			}

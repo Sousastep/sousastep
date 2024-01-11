@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1686.0, 53.0, 874.0, 1387.0 ],
-		"bglocked" : 1,
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -41,6 +41,71 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 72.0,
+					"hint" : "",
+					"id" : "obj-592",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 88.0, 1459.0, 414.0, 276.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 60.0, 34.0, 417.0, 276.0 ],
+					"text" : "Starting Audio Engine...",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 314.232006058053912,
+					"grad1" : [ 0.0, 0.0, 0.0, 0.77 ],
+					"grad2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-577",
+					"ignoreclick" : 0,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 124.0, 1329.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 860.0, 2256.709575142675931 ],
+					"proportion" : 0.5,
+					"pt1" : [ 0.055555555555556, 0.055555555555556 ],
+					"pt2" : [ 0.984848484848485, 1.01010101010101 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "hidden",
+					"id" : "obj-580",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 124.0, 1276.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-420",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 48.0, 645.0, 166.0, 22.0 ],
+					"text" : "r startup-prefs-window-closed"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 20.999503029248874,
 					"id" : "obj-562",
@@ -1363,7 +1428,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "link", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -14136,6 +14201,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-580", 0 ],
+					"source" : [ "obj-365", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.701961, 0.701961, 0.701961, 0.512934602649007 ],
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-367", 0 ]
@@ -14700,6 +14772,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-56", 0 ],
 					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-320", 0 ],
+					"source" : [ "obj-420", 0 ]
 				}
 
 			}
@@ -16177,6 +16256,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-577", 0 ],
+					"order" : 0,
+					"source" : [ "obj-580", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-592", 0 ],
+					"order" : 1,
+					"source" : [ "obj-580", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-593", 0 ],
 					"source" : [ "obj-581", 1 ]
 				}
@@ -17163,92 +17258,130 @@
 			"obj-168::obj-3::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-168::obj-4::obj-191" : [ "vst~[26]", "vst~", 0 ],
 			"obj-169::obj-1102::obj-114" : [ "function[102]", "function", 0 ],
+			"obj-169::obj-1102::obj-178" : [ "curves[9]", "curves", 0 ],
 			"obj-169::obj-1102::obj-36" : [ "curve[12]", "curve", 0 ],
 			"obj-169::obj-1138::obj-114" : [ "function[101]", "function", 0 ],
+			"obj-169::obj-1138::obj-178" : [ "curves[10]", "curves", 0 ],
 			"obj-169::obj-1138::obj-36" : [ "curve[11]", "curve", 0 ],
 			"obj-169::obj-1139::obj-114" : [ "function[100]", "function", 0 ],
+			"obj-169::obj-1139::obj-178" : [ "curves[11]", "curves", 0 ],
 			"obj-169::obj-1139::obj-36" : [ "curve[10]", "curve", 0 ],
 			"obj-169::obj-1140::obj-114" : [ "function[99]", "function", 0 ],
+			"obj-169::obj-1140::obj-178" : [ "curves[12]", "curves", 0 ],
 			"obj-169::obj-1140::obj-36" : [ "curve[9]", "curve", 0 ],
 			"obj-169::obj-1155::obj-62" : [ "number[4]", "number[3]", 0 ],
 			"obj-169::obj-1155::obj-64" : [ "number[3]", "number[4]", 0 ],
 			"obj-169::obj-11::obj-114" : [ "function[59]", "function", 0 ],
+			"obj-169::obj-11::obj-178" : [ "curves", "curves", 0 ],
 			"obj-169::obj-11::obj-36" : [ "curve[57]", "curve", 0 ],
 			"obj-169::obj-195::obj-114" : [ "function[94]", "function", 0 ],
+			"obj-169::obj-195::obj-178" : [ "curves[17]", "curves", 0 ],
 			"obj-169::obj-195::obj-36" : [ "curve[4]", "curve", 0 ],
 			"obj-169::obj-199::obj-114" : [ "function[93]", "function", 0 ],
+			"obj-169::obj-199::obj-178" : [ "curves[18]", "curves", 0 ],
 			"obj-169::obj-199::obj-36" : [ "curve[3]", "curve", 0 ],
 			"obj-169::obj-203::obj-114" : [ "function[58]", "function", 0 ],
+			"obj-169::obj-203::obj-178" : [ "curves[1]", "curves", 0 ],
 			"obj-169::obj-203::obj-36" : [ "curve[20]", "curve", 0 ],
 			"obj-169::obj-214::obj-176::obj-62" : [ "number[2]", "number[3]", 0 ],
 			"obj-169::obj-214::obj-176::obj-64" : [ "number[1]", "number[4]", 0 ],
 			"obj-169::obj-219::obj-114" : [ "function[98]", "function", 0 ],
+			"obj-169::obj-219::obj-178" : [ "curves[13]", "curves", 0 ],
 			"obj-169::obj-219::obj-36" : [ "curve[8]", "curve", 0 ],
 			"obj-169::obj-221::obj-114" : [ "function[92]", "function", 0 ],
+			"obj-169::obj-221::obj-178" : [ "curves[19]", "curves", 0 ],
 			"obj-169::obj-221::obj-36" : [ "curve[2]", "curve", 0 ],
 			"obj-169::obj-226::obj-146::obj-54" : [ "function[74]", "function", 0 ],
 			"obj-169::obj-226::obj-146::obj-645" : [ "function", "function", 0 ],
 			"obj-169::obj-229::obj-114" : [ "function[105]", "function", 0 ],
+			"obj-169::obj-229::obj-178" : [ "curves[6]", "curves", 0 ],
 			"obj-169::obj-229::obj-36" : [ "curve[15]", "curve", 0 ],
 			"obj-169::obj-240::obj-114" : [ "function[91]", "function", 0 ],
+			"obj-169::obj-240::obj-178" : [ "curves[20]", "curves", 0 ],
 			"obj-169::obj-240::obj-36" : [ "curve[1]", "curve", 0 ],
 			"obj-169::obj-244::obj-114" : [ "function[90]", "function", 0 ],
+			"obj-169::obj-244::obj-178" : [ "curves[21]", "curves", 0 ],
 			"obj-169::obj-244::obj-36" : [ "curve[88]", "curve", 0 ],
 			"obj-169::obj-247::obj-114" : [ "function[89]", "function", 0 ],
+			"obj-169::obj-247::obj-178" : [ "curves[22]", "curves", 0 ],
 			"obj-169::obj-247::obj-36" : [ "curve[87]", "curve", 0 ],
 			"obj-169::obj-253::obj-114" : [ "function[88]", "function", 0 ],
+			"obj-169::obj-253::obj-178" : [ "curves[23]", "curves", 0 ],
 			"obj-169::obj-253::obj-36" : [ "curve[86]", "curve", 0 ],
 			"obj-169::obj-257::obj-114" : [ "function[87]", "function", 0 ],
+			"obj-169::obj-257::obj-178" : [ "curves[24]", "curves", 0 ],
 			"obj-169::obj-257::obj-36" : [ "curve[85]", "curve", 0 ],
 			"obj-169::obj-327" : [ "delay[1]", "pre delay", 0 ],
 			"obj-169::obj-332::obj-114" : [ "function[57]", "function", 0 ],
+			"obj-169::obj-332::obj-178" : [ "curves[2]", "curves", 0 ],
 			"obj-169::obj-332::obj-36" : [ "curve[19]", "curve", 0 ],
 			"obj-169::obj-334" : [ "delay", "post delay", 0 ],
 			"obj-169::obj-365::obj-114" : [ "function[108]", "function", 0 ],
+			"obj-169::obj-365::obj-178" : [ "curves[3]", "curves", 0 ],
 			"obj-169::obj-365::obj-36" : [ "curve[18]", "curve", 0 ],
 			"obj-169::obj-457::obj-114" : [ "function[50]", "function", 0 ],
+			"obj-169::obj-457::obj-178" : [ "curves[32]", "curves", 0 ],
 			"obj-169::obj-457::obj-36" : [ "curve[77]", "curve", 0 ],
 			"obj-169::obj-489::obj-114" : [ "function[51]", "function", 0 ],
+			"obj-169::obj-489::obj-178" : [ "curves[31]", "curves", 0 ],
 			"obj-169::obj-489::obj-36" : [ "curve[78]", "curve", 0 ],
 			"obj-169::obj-509::obj-114" : [ "function[45]", "function", 0 ],
+			"obj-169::obj-509::obj-178" : [ "curves[29]", "curves", 0 ],
 			"obj-169::obj-509::obj-36" : [ "curve[80]", "curve", 0 ],
 			"obj-169::obj-512::obj-114" : [ "function[53]", "function", 0 ],
+			"obj-169::obj-512::obj-178" : [ "curves[28]", "curves", 0 ],
 			"obj-169::obj-512::obj-36" : [ "curve[81]", "curve", 0 ],
 			"obj-169::obj-514::obj-114" : [ "function[52]", "function", 0 ],
+			"obj-169::obj-514::obj-178" : [ "curves[30]", "curves", 0 ],
 			"obj-169::obj-514::obj-36" : [ "curve[79]", "curve", 0 ],
 			"obj-169::obj-516::obj-114" : [ "function[54]", "function", 0 ],
+			"obj-169::obj-516::obj-178" : [ "curves[27]", "curves", 0 ],
 			"obj-169::obj-516::obj-36" : [ "curve[82]", "curve", 0 ],
 			"obj-169::obj-519::obj-114" : [ "function[55]", "function", 0 ],
+			"obj-169::obj-519::obj-178" : [ "curves[26]", "curves", 0 ],
 			"obj-169::obj-519::obj-36" : [ "curve[83]", "curve", 0 ],
 			"obj-169::obj-525::obj-114" : [ "function[56]", "function", 0 ],
+			"obj-169::obj-525::obj-178" : [ "curves[25]", "curves", 0 ],
 			"obj-169::obj-525::obj-36" : [ "curve[84]", "curve", 0 ],
 			"obj-169::obj-530::obj-531::obj-13" : [ "reach[1]", "reach", 0 ],
 			"obj-169::obj-530::obj-534::obj-13" : [ "reach", "reach", 0 ],
 			"obj-169::obj-646::obj-114" : [ "function[15]", "function", 0 ],
+			"obj-169::obj-646::obj-178" : [ "curves[37]", "curves", 0 ],
 			"obj-169::obj-646::obj-36" : [ "curve[27]", "curve", 0 ],
 			"obj-169::obj-647::obj-114" : [ "function[12]", "function", 0 ],
+			"obj-169::obj-647::obj-178" : [ "curves[36]", "curves", 0 ],
 			"obj-169::obj-647::obj-36" : [ "curve[21]", "curve", 0 ],
 			"obj-169::obj-648::obj-114" : [ "function[17]", "function", 0 ],
+			"obj-169::obj-648::obj-178" : [ "curves[35]", "curves", 0 ],
 			"obj-169::obj-648::obj-36" : [ "curve[28]", "curve", 0 ],
 			"obj-169::obj-649::obj-114" : [ "function[13]", "function", 0 ],
+			"obj-169::obj-649::obj-178" : [ "curves[34]", "curves", 0 ],
 			"obj-169::obj-649::obj-36" : [ "curve[22]", "curve", 0 ],
 			"obj-169::obj-650::obj-114" : [ "function[16]", "function", 0 ],
+			"obj-169::obj-650::obj-178" : [ "curves[33]", "curves", 0 ],
 			"obj-169::obj-650::obj-36" : [ "curve[26]", "curve", 0 ],
 			"obj-169::obj-659::obj-114" : [ "function[106]", "function", 0 ],
+			"obj-169::obj-659::obj-178" : [ "curves[5]", "curves", 0 ],
 			"obj-169::obj-659::obj-36" : [ "curve[16]", "curve", 0 ],
 			"obj-169::obj-660::obj-114" : [ "function[107]", "function", 0 ],
+			"obj-169::obj-660::obj-178" : [ "curves[4]", "curves", 0 ],
 			"obj-169::obj-660::obj-36" : [ "curve[17]", "curve", 0 ],
 			"obj-169::obj-737::obj-114" : [ "function[104]", "function", 0 ],
+			"obj-169::obj-737::obj-178" : [ "curves[7]", "curves", 0 ],
 			"obj-169::obj-737::obj-36" : [ "curve[14]", "curve", 0 ],
 			"obj-169::obj-760::obj-114" : [ "function[103]", "function", 0 ],
+			"obj-169::obj-760::obj-178" : [ "curves[8]", "curves", 0 ],
 			"obj-169::obj-760::obj-36" : [ "curve[13]", "curve", 0 ],
 			"obj-169::obj-762::obj-644::obj-62" : [ "number[15]", "number[3]", 0 ],
 			"obj-169::obj-762::obj-644::obj-64" : [ "number[16]", "number[4]", 0 ],
 			"obj-169::obj-918::obj-114" : [ "function[97]", "function", 0 ],
+			"obj-169::obj-918::obj-178" : [ "curves[14]", "curves", 0 ],
 			"obj-169::obj-918::obj-36" : [ "curve[7]", "curve", 0 ],
 			"obj-169::obj-919::obj-114" : [ "function[96]", "function", 0 ],
+			"obj-169::obj-919::obj-178" : [ "curves[15]", "curves", 0 ],
 			"obj-169::obj-919::obj-36" : [ "curve[6]", "curve", 0 ],
 			"obj-169::obj-925::obj-114" : [ "function[95]", "function", 0 ],
+			"obj-169::obj-925::obj-178" : [ "curves[16]", "curves", 0 ],
 			"obj-169::obj-925::obj-36" : [ "curve[5]", "curve", 0 ],
 			"obj-176::obj-13" : [ "low Xfade offset", "low Xfade offset", 0 ],
 			"obj-176::obj-1359" : [ "env decay", "env decay", 0 ],
@@ -17291,11 +17424,18 @@
 			"obj-208::obj-22::obj-42" : [ "stutter volume[1]", "stutter volume", 0 ],
 			"obj-208::obj-3::obj-1" : [ "filter sweep", "filter sweep", 0 ],
 			"obj-208::obj-3::obj-27" : [ "smooth[7]", "smooth", 0 ],
-			"obj-221::obj-153::obj-21::obj-191" : [ "vst~[14]", "vst~", 0 ],
-			"obj-221::obj-156" : [ "Reverb Output Volume", "Reverb Output Volume", 0 ],
-			"obj-221::obj-540" : [ "Delay Output Volume", "Delay Output Volume", 0 ],
-			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[17]", "vst~", 0 ],
-			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[16]", "vst~", 0 ],
+			"obj-221::obj-115" : [ "max dub send", "max send", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-23" : [ "bypass[10]", "bypass", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-28" : [ "Size[10]", "Size", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-3" : [ "Regen[10]", "Regen", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-60" : [ "Damp[10]", "Damp", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-62" : [ "Dry[10]", "Dry", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-63" : [ "Early[10]", "Early", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-64" : [ "Tail[10]", "Tail", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-65" : [ "Spread[10]", "Spread", 0 ],
+			"obj-221::obj-153::obj-21::obj-40::obj-66" : [ "Time[10]", "Time", 0 ],
+			"obj-221::obj-156" : [ "Reverb Output Volume", "Rev Vol", 0 ],
+			"obj-221::obj-540" : [ "Delay Output Volume", "Del Vol", 0 ],
 			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[15]", "vst~", 0 ],
 			"obj-222::obj-1::obj-21::obj-41::obj-1" : [ "Phase[1]", "Phase", 0 ],
 			"obj-222::obj-1::obj-21::obj-41::obj-2" : [ "Divisions[1]", "Divisions", 0 ],
@@ -17354,8 +17494,8 @@
 			"obj-404::obj-9" : [ "resonance", "resonance", 0 ],
 			"obj-408::obj-3" : [ "Presets", "Presets", 0 ],
 			"obj-467::obj-12" : [ "main monitor volume", "main monitor volume", 0 ],
-			"obj-467::obj-4" : [ "soloing boost", "soloing boost", 0 ],
-			"obj-467::obj-7" : [ "gain compensation", "gain compensation", 0 ],
+			"obj-467::obj-32" : [ "playback bus", "playback bus", 0 ],
+			"obj-467::obj-7" : [ "gain compensation", "solo gain compensation", 0 ],
 			"obj-467::obj-9" : [ "metronome", "metronome", 0 ],
 			"obj-534::obj-105" : [ "function[9]", "function", 0 ],
 			"obj-534::obj-106" : [ "MIDI syncrate[7]", "sync", 0 ],
@@ -17413,100 +17553,200 @@
 					"parameter_longname" : "live.menu[7]"
 				}
 ,
+				"obj-169::obj-1102::obj-178" : 				{
+					"parameter_longname" : "curves[9]"
+				}
+,
 				"obj-169::obj-1102::obj-36" : 				{
 					"parameter_longname" : "curve[12]"
+				}
+,
+				"obj-169::obj-1138::obj-178" : 				{
+					"parameter_longname" : "curves[10]"
 				}
 ,
 				"obj-169::obj-1138::obj-36" : 				{
 					"parameter_longname" : "curve[11]"
 				}
 ,
+				"obj-169::obj-1139::obj-178" : 				{
+					"parameter_longname" : "curves[11]"
+				}
+,
 				"obj-169::obj-1139::obj-36" : 				{
 					"parameter_longname" : "curve[10]"
+				}
+,
+				"obj-169::obj-1140::obj-178" : 				{
+					"parameter_longname" : "curves[12]"
 				}
 ,
 				"obj-169::obj-1140::obj-36" : 				{
 					"parameter_longname" : "curve[9]"
 				}
 ,
+				"obj-169::obj-195::obj-178" : 				{
+					"parameter_longname" : "curves[17]"
+				}
+,
 				"obj-169::obj-195::obj-36" : 				{
 					"parameter_longname" : "curve[4]"
+				}
+,
+				"obj-169::obj-199::obj-178" : 				{
+					"parameter_longname" : "curves[18]"
 				}
 ,
 				"obj-169::obj-199::obj-36" : 				{
 					"parameter_longname" : "curve[3]"
 				}
 ,
+				"obj-169::obj-203::obj-178" : 				{
+					"parameter_longname" : "curves[1]"
+				}
+,
 				"obj-169::obj-203::obj-36" : 				{
 					"parameter_longname" : "curve[20]"
+				}
+,
+				"obj-169::obj-219::obj-178" : 				{
+					"parameter_longname" : "curves[13]"
 				}
 ,
 				"obj-169::obj-219::obj-36" : 				{
 					"parameter_longname" : "curve[8]"
 				}
 ,
+				"obj-169::obj-221::obj-178" : 				{
+					"parameter_longname" : "curves[19]"
+				}
+,
 				"obj-169::obj-221::obj-36" : 				{
 					"parameter_longname" : "curve[2]"
+				}
+,
+				"obj-169::obj-229::obj-178" : 				{
+					"parameter_longname" : "curves[6]"
 				}
 ,
 				"obj-169::obj-229::obj-36" : 				{
 					"parameter_longname" : "curve[15]"
 				}
 ,
+				"obj-169::obj-240::obj-178" : 				{
+					"parameter_longname" : "curves[20]"
+				}
+,
 				"obj-169::obj-240::obj-36" : 				{
 					"parameter_longname" : "curve[1]"
+				}
+,
+				"obj-169::obj-244::obj-178" : 				{
+					"parameter_longname" : "curves[21]"
 				}
 ,
 				"obj-169::obj-244::obj-36" : 				{
 					"parameter_longname" : "curve[88]"
 				}
 ,
+				"obj-169::obj-247::obj-178" : 				{
+					"parameter_longname" : "curves[22]"
+				}
+,
 				"obj-169::obj-247::obj-36" : 				{
 					"parameter_longname" : "curve[87]"
+				}
+,
+				"obj-169::obj-253::obj-178" : 				{
+					"parameter_longname" : "curves[23]"
 				}
 ,
 				"obj-169::obj-253::obj-36" : 				{
 					"parameter_longname" : "curve[86]"
 				}
 ,
+				"obj-169::obj-257::obj-178" : 				{
+					"parameter_longname" : "curves[24]"
+				}
+,
 				"obj-169::obj-257::obj-36" : 				{
 					"parameter_longname" : "curve[85]"
+				}
+,
+				"obj-169::obj-332::obj-178" : 				{
+					"parameter_longname" : "curves[2]"
 				}
 ,
 				"obj-169::obj-332::obj-36" : 				{
 					"parameter_longname" : "curve[19]"
 				}
 ,
+				"obj-169::obj-365::obj-178" : 				{
+					"parameter_longname" : "curves[3]"
+				}
+,
 				"obj-169::obj-365::obj-36" : 				{
 					"parameter_longname" : "curve[18]"
+				}
+,
+				"obj-169::obj-457::obj-178" : 				{
+					"parameter_longname" : "curves[32]"
 				}
 ,
 				"obj-169::obj-457::obj-36" : 				{
 					"parameter_longname" : "curve[77]"
 				}
 ,
+				"obj-169::obj-489::obj-178" : 				{
+					"parameter_longname" : "curves[31]"
+				}
+,
 				"obj-169::obj-489::obj-36" : 				{
 					"parameter_longname" : "curve[78]"
+				}
+,
+				"obj-169::obj-509::obj-178" : 				{
+					"parameter_longname" : "curves[29]"
 				}
 ,
 				"obj-169::obj-509::obj-36" : 				{
 					"parameter_longname" : "curve[80]"
 				}
 ,
+				"obj-169::obj-512::obj-178" : 				{
+					"parameter_longname" : "curves[28]"
+				}
+,
 				"obj-169::obj-512::obj-36" : 				{
 					"parameter_longname" : "curve[81]"
+				}
+,
+				"obj-169::obj-514::obj-178" : 				{
+					"parameter_longname" : "curves[30]"
 				}
 ,
 				"obj-169::obj-514::obj-36" : 				{
 					"parameter_longname" : "curve[79]"
 				}
 ,
+				"obj-169::obj-516::obj-178" : 				{
+					"parameter_longname" : "curves[27]"
+				}
+,
 				"obj-169::obj-516::obj-36" : 				{
 					"parameter_longname" : "curve[82]"
 				}
 ,
+				"obj-169::obj-519::obj-178" : 				{
+					"parameter_longname" : "curves[26]"
+				}
+,
 				"obj-169::obj-519::obj-36" : 				{
 					"parameter_longname" : "curve[83]"
+				}
+,
+				"obj-169::obj-525::obj-178" : 				{
+					"parameter_longname" : "curves[25]"
 				}
 ,
 				"obj-169::obj-525::obj-36" : 				{
@@ -17517,48 +17757,96 @@
 					"parameter_longname" : "reach[1]"
 				}
 ,
+				"obj-169::obj-646::obj-178" : 				{
+					"parameter_longname" : "curves[37]"
+				}
+,
 				"obj-169::obj-646::obj-36" : 				{
 					"parameter_longname" : "curve[27]"
+				}
+,
+				"obj-169::obj-647::obj-178" : 				{
+					"parameter_longname" : "curves[36]"
 				}
 ,
 				"obj-169::obj-647::obj-36" : 				{
 					"parameter_longname" : "curve[21]"
 				}
 ,
+				"obj-169::obj-648::obj-178" : 				{
+					"parameter_longname" : "curves[35]"
+				}
+,
 				"obj-169::obj-648::obj-36" : 				{
 					"parameter_longname" : "curve[28]"
+				}
+,
+				"obj-169::obj-649::obj-178" : 				{
+					"parameter_longname" : "curves[34]"
 				}
 ,
 				"obj-169::obj-649::obj-36" : 				{
 					"parameter_longname" : "curve[22]"
 				}
 ,
+				"obj-169::obj-650::obj-178" : 				{
+					"parameter_longname" : "curves[33]"
+				}
+,
 				"obj-169::obj-650::obj-36" : 				{
 					"parameter_longname" : "curve[26]"
+				}
+,
+				"obj-169::obj-659::obj-178" : 				{
+					"parameter_longname" : "curves[5]"
 				}
 ,
 				"obj-169::obj-659::obj-36" : 				{
 					"parameter_longname" : "curve[16]"
 				}
 ,
+				"obj-169::obj-660::obj-178" : 				{
+					"parameter_longname" : "curves[4]"
+				}
+,
 				"obj-169::obj-660::obj-36" : 				{
 					"parameter_longname" : "curve[17]"
+				}
+,
+				"obj-169::obj-737::obj-178" : 				{
+					"parameter_longname" : "curves[7]"
 				}
 ,
 				"obj-169::obj-737::obj-36" : 				{
 					"parameter_longname" : "curve[14]"
 				}
 ,
+				"obj-169::obj-760::obj-178" : 				{
+					"parameter_longname" : "curves[8]"
+				}
+,
 				"obj-169::obj-760::obj-36" : 				{
 					"parameter_longname" : "curve[13]"
+				}
+,
+				"obj-169::obj-918::obj-178" : 				{
+					"parameter_longname" : "curves[14]"
 				}
 ,
 				"obj-169::obj-918::obj-36" : 				{
 					"parameter_longname" : "curve[7]"
 				}
 ,
+				"obj-169::obj-919::obj-178" : 				{
+					"parameter_longname" : "curves[15]"
+				}
+,
 				"obj-169::obj-919::obj-36" : 				{
 					"parameter_longname" : "curve[6]"
+				}
+,
+				"obj-169::obj-925::obj-178" : 				{
+					"parameter_longname" : "curves[16]"
 				}
 ,
 				"obj-169::obj-925::obj-36" : 				{
@@ -17665,6 +17953,42 @@
 ,
 				"obj-208::obj-3::obj-27" : 				{
 					"parameter_longname" : "smooth[7]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-23" : 				{
+					"parameter_longname" : "bypass[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-28" : 				{
+					"parameter_longname" : "Size[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-3" : 				{
+					"parameter_longname" : "Regen[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-60" : 				{
+					"parameter_longname" : "Damp[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-62" : 				{
+					"parameter_longname" : "Dry[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-63" : 				{
+					"parameter_longname" : "Early[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-64" : 				{
+					"parameter_longname" : "Tail[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-65" : 				{
+					"parameter_longname" : "Spread[10]"
+				}
+,
+				"obj-221::obj-153::obj-21::obj-40::obj-66" : 				{
+					"parameter_longname" : "Time[10]"
 				}
 ,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
@@ -17977,27 +18301,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Dry-ish_FX_plugin2_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dry-ish_FX_plugin3_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Dry-ish_FX_plugin4_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "FilterDelay.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -18138,27 +18441,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Post-Crossfade_FX_plugin2_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Post-Crossfade_FX_plugin3_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Post-Crossfade_FX_plugin4_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Pre-LPF_FX_plugin1_rnbo_or_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -18167,27 +18449,6 @@
 			}
 , 			{
 				"name" : "Pre-LPF_FX_plugin1_rnbo_overdrive.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pre-LPF_FX_plugin2_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pre-LPF_FX_plugin3_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Pre-LPF_FX_plugin4_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18281,6 +18542,12 @@
 				"name" : "bell.svg",
 				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bp.Gigaverb.maxpat",
+				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -18396,7 +18663,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "delay2_plugin.json",
+				"name" : "delay2_rnbo_filterdelay.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18410,7 +18677,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "delay3_plugin.json",
+				"name" : "delay3_rnbo_filterdelay.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -18646,13 +18913,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "global_tempo_source.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -19127,7 +19387,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "reverb_plugin.json",
+				"name" : "reverb_gigaverb.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -19231,8 +19491,8 @@
 			}
 , 			{
 				"name" : "sm_sallenkey_functions.genexpr",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_genexpr",
-				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_genexpr",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
+				"patcherrelativepath" : "../other",
 				"type" : "GenX",
 				"implicit" : 1
 			}
@@ -19300,6 +19560,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "swirldark.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "swirlight.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "syncrate.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -19359,13 +19633,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "weblight.png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../Downloads",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
