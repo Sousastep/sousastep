@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 498.0, 623.0, 1179.0, 626.0 ],
+		"rect" : [ 0.0, 53.0, 2254.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,42 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "playback bus monitor mix vol", 127.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-102",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "MIDI MAP OUT.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 109.0, 762.313762626262587, 360.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.333333909511566, 609.0, 355.333343923091888, 25.3333340883255 ],
+					"varname" : "playback bus monitor mix vol",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-77",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 436.0, 1138.0, 178.0, 22.0 ],
+					"text" : "r \"playback bus monitor mix vol\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
@@ -903,7 +939,7 @@
 					"patching_rect" : [ 524.0, 38.0, 154.0, 143.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 13,
-					"presentation_rect" : [ 705.0, 362.0, 152.0, 143.0 ],
+					"presentation_rect" : [ 689.0, 475.0, 152.0, 143.0 ],
 					"text" : "⣿⣿⣿⠟⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢋⣩⣉⢻\n⣿⣿⣿⠀⣿⣶⣕⣈⠹⠿⠿⠿⠿⠟⠛⣛⢋⣰⠣⣿⣿⠀⣿\n⣿⣿⣿⡀⣿⣿⣿⣧⢻⣿⣶⣷⣿⣿⣿⣿⣿⣿⠿⠶⡝⠀⣿\n⣿⣿⣿⣷⠘⣿⣿⣿⢏⣿⣿⣋⣀⣈⣻⣿⣿⣷⣤⣤⣿⡐⢿\n⣿⣿⣿⣿⣆⢩⣝⣫⣾⣿⣿⣿⣿⡟⠿⠿⠦⠀⠸⠿⣻⣿⡄⢻\n⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⠇⣼\n⣿⣿⣿⣿⣿⣿⡄⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣰\n⣿⣿⣿⣿⣿⣿⠇⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⣿\n⣿⣿⣿⣿⣿⠏⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿\n⣿⣿⣿⣿⠟⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⣿\n⣿⣿⣿⠋⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⣿\n⣿⣿⠋⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸\n⣿⠏⣼⣿⣿⣿⣿⣿⣿⣿⣿",
 					"textcolor" : [ 0.796078431372549, 0.650980392156863, 1.0, 1.0 ]
 				}
@@ -4043,7 +4079,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 523.0, 38.0, 155.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 690.0, 349.0, 182.0, 169.0 ],
+					"presentation_rect" : [ 674.0, 462.0, 182.0, 169.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4139,7 +4175,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 317.0, 947.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 798.0, 88.0, 371.333344399929047, 528.666682422161102 ],
+					"presentation_rect" : [ 798.0, 88.0, 371.0, 452.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4159,7 +4195,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.0, 902.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 48.0, 627.333352029323578, 568.666683614253998 ],
+					"presentation_rect" : [ 8.5, 48.0, 627.0, 603.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4179,7 +4215,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 287.0, 917.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 793.0, 6.5, 381.333344697952271, 614.666684985160828 ],
+					"presentation_rect" : [ 793.0, 6.5, 381.0, 538.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4199,7 +4235,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 257.0, 887.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 7.0, 637.333352327346802, 614.666684985160828 ],
+					"presentation_rect" : [ 4.0, 7.0, 637.0, 649.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4219,7 +4255,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 864.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1179.333368480205536, 626.666685342788696 ],
+					"presentation_rect" : [ 0.0, 0.0, 1179.0, 661.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
