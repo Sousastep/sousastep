@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 544.0, 204.0, 1451.0, 1148.0 ],
+		"rect" : [ 580.0, 284.0, 1082.0, 1093.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4739,7 +4739,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2720.0, 188.0, 219.0, 696.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 925.685740189655576, 310.822387626627915, 206.999999999999886, 708.629391196467168 ],
+					"presentation_rect" : [ 925.685740189655576, 310.822387626627915, 257.0, 709.0 ],
 					"varname" : "UI_SpaceSpore",
 					"viewvisibility" : 1
 				}
@@ -5668,8 +5668,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 978.0, 1956.0, 373.0, 22.0 ],
-					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -9 @scale 4 4 1"
+					"patching_rect" : [ 978.0, 1956.0, 383.0, 22.0 ],
+					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -7.8 @scale 4 4 1"
 				}
 
 			}
@@ -10774,7 +10774,7 @@
 						"light_type" : [ "point" ],
 						"multiple_material" : [ 8 ],
 						"physics_videoplane_toggle" : [ 0 ],
-						"text_loop_toggle" : [ 1 ],
+						"text_loop_toggle" : [ 0 ],
 						"umenu" : [ 2 ]
 					}
 ,
@@ -10820,6 +10820,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 0.0 ],
 					"blinkcolor" : [ 0.011765, 0.396078, 0.752941, 1.0 ],
+					"hint" : "save VFX preset",
 					"id" : "obj-222",
 					"maxclass" : "button",
 					"numinlets" : 1,
