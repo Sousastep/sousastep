@@ -46,3 +46,9 @@ SousaFX/data/*
 
 # built docs
 /SousaFX/.docs
+
+# dotenv environment variables file
+.env
+.env.test
+SousaVFX/code/.env
+SousaVFX/code/.env.test
