@@ -38,7 +38,7 @@
 119, CandyWarp;
 120, Pinwheel acoustic 1;
 121, Pinwheel dub 1;
-122, Pinwheel;
+122, Pinwheel idle;
 123, Pinwheel;
 124, Pinwheel;
 125, Pinwheel;
@@ -70,7 +70,7 @@
 151, SpaceSpore dub 1;
 152, SpaceSpore dub 2;
 153, SpaceSpore dub 3;
-154, SpaceSpore;
+154, SpaceSpore idle;
 155, SpaceSpore;
 156, SpaceSpore;
 157, SpaceSpore;

@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "show_audio_status",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gen_or_plugin" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

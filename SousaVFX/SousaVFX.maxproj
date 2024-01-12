@@ -2,7 +2,7 @@
 	"name" : "SousaVFX",
 	"version" : 1,
 	"creationdate" : 3782485106,
-	"modificationdate" : 3785275343,
+	"modificationdate" : 3787431013,
 	"viewrect" : [ 409.0, 233.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,47 @@
 				"toplevel" : 1
 			}
 ,
+			"floating window positioner.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+					"projectrelativepath" : "../SousaFX/patchers"
+				}
+
+			}
+,
 			"LHCtoRGB.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"audio_enabler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"audio_status.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
+			}
+,
+			"dummy.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -33,6 +73,10 @@
 		}
 ,
 		"code" : 		{
+			"two_segments.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
 
 		}
 ,
