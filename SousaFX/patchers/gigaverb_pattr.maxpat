@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 763.0, 471.0, 1200.0, 896.0 ],
+		"rect" : [ 1242.0, 484.0, 1200.0, 896.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -215,7 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 312.0, 339.0, 606.0, 23.0 ]
+					"patching_rect" : [ 312.0, 339.0, 606.0, 23.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_gigaverb.json\""
 				}
 
 			}
@@ -253,7 +254,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.0, 54.0, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.875 0.013672 1."
 				}
 
@@ -315,7 +315,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 242.0, 117.0, 113.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1113.0, 489.0, 115.0, 20.0 ],
+					"presentation_rect" : [ 115.5, 216.333333333333314, 115.0, 20.0 ],
 					"text" : "save gigaverb settings"
 				}
 
