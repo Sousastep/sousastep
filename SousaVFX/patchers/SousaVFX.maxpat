@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 580.0, 284.0, 1082.0, 1093.0 ],
+		"rect" : [ 0.0, 43.0, 2560.0, 1397.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -663,6 +663,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -1858,7 +1860,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8252.0, 787.0, 80.0, 62.0 ],
+					"patching_rect" : [ 8261.0, 941.0, 80.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1269.512225389480591, 301.00001072883606, 115.0, 62.0 ]
 				}
@@ -2180,7 +2182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8047.0, 917.0, 150.0, 20.0 ],
+					"patching_rect" : [ 7989.0, 972.0, 150.0, 20.0 ],
 					"suppressinlet" : 1,
 					"text" : "30 second rotation"
 				}
@@ -2194,7 +2196,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8018.0, 917.0, 24.0, 24.0 ]
+					"patching_rect" : [ 7960.0, 972.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2217,7 +2219,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7943.0, 1020.0, 79.0, 22.0 ],
+					"patching_rect" : [ 7962.0, 1020.0, 79.0, 22.0 ],
 					"text" : "0, 208 30000"
 				}
 
@@ -2845,7 +2847,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8344.0, 723.0, 34.0, 22.0 ],
+					"patching_rect" : [ 8353.0, 877.0, 34.0, 22.0 ],
 					"text" : "s fps"
 				}
 
@@ -3679,7 +3681,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8191.0, 2147.0, 167.0, 87.0 ],
+					"patching_rect" : [ 8100.0, 1880.0, 167.0, 87.0 ],
 					"suppressinlet" : 1,
 					"text" : "DON'T LEAVE THE TEENSYDUINO APP OPEN WHILE PLUGGING IN THE TEENSY OR ELSE TEENSYDUINO WILL MESS UP THE SERIAL DATA",
 					"textcolor" : [ 0.976470588235294, 1.0, 0.996078431372549, 1.0 ]
@@ -9979,7 +9981,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8111.0, 750.0, 49.0, 22.0 ],
+					"patching_rect" : [ 8120.0, 904.0, 49.0, 22.0 ],
 					"text" : "s rbang"
 				}
 
@@ -9991,7 +9993,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "bang", "" ],
-					"patching_rect" : [ 7663.0, 676.0, 866.0, 22.0 ],
+					"patching_rect" : [ 7672.0, 830.0, 866.0, 22.0 ],
 					"text" : "jit.world w @drawto async @windowposition 810 320 @enable 0 @dim 256 256 @size 256 256 @sync 0 @floating 1 @erase_color 0. 0. 0. 0. @output_texture 1"
 				}
 
@@ -10774,7 +10776,7 @@
 						"light_type" : [ "point" ],
 						"multiple_material" : [ 8 ],
 						"physics_videoplane_toggle" : [ 0 ],
-						"text_loop_toggle" : [ 0 ],
+						"text_loop_toggle" : [ 1 ],
 						"umenu" : [ 2 ]
 					}
 ,
@@ -12153,7 +12155,7 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 7903.0, 613.0, 24.0, 24.0 ],
+					"patching_rect" : [ 7912.0, 767.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1197.422741520884301, 63.004953848044806, 46.0, 46.0 ]
 				}
@@ -15062,7 +15064,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
-					"midpoints" : [ 8417.5, 1206.634194229767218, 8592.182665413449286, 1206.634194229767218, 8592.182665413449286, 665.333334922790527, 7672.5, 665.333334922790527 ],
+					"midpoints" : [ 8417.5, 1206.634194229767218, 8592.182665413449286, 1206.634194229767218, 8592.182665413449286, 756.333334922790527, 7681.5, 756.333334922790527 ],
 					"source" : [ "obj-165", 0 ]
 				}
 
@@ -16210,7 +16212,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-231", 0 ],
-					"midpoints" : [ 8341.5, 1220.166256521300966, 8613.322998958454264, 1220.166256521300966, 8613.322998958454264, 597.333336591720581, 7912.5, 597.333336591720581 ],
+					"midpoints" : [ 8341.5, 1220.166256521300966, 8613.322998958454264, 1220.166256521300966, 8613.322998958454264, 731.333336591720581, 7921.5, 731.333336591720581 ],
 					"source" : [ "obj-332", 0 ]
 				}
 
@@ -20613,10 +20615,6 @@
 				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.+.mxe64",
-				"type" : "mx64"
-			}
-, 			{
 				"name" : "jit.gl.isf.mxe64",
 				"type" : "mx64"
 			}
@@ -21177,7 +21175,7 @@
 				"multi" : 0
 			}
  ],
-		"bgcolor" : [ 0.329411764705882, 0.643137254901961, 0.76078431372549, 1.0 ]
+		"bgcolor" : [ 0.27843137254902, 0.545098039215686, 0.643137254901961, 1.0 ]
 	}
 
 }
