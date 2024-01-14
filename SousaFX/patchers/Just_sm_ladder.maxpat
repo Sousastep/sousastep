@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1736.0, 1015.0 ],
+		"rect" : [ 548.0, -1139.0, 1672.0, 973.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1277.0, 199.0, 333.0, 35.0 ],
+					"text" : ";\rmax launchbrowser c74max://packagemanager/smFilterPack"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-18",
 					"maxclass" : "newobj",
@@ -177,7 +190,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1382.0, 147.5, 99.0, 22.0 ],
+					"patching_rect" : [ 1289.0, 55.0, 99.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.0, 46.0, 99.0, 22.0 ],
 					"text" : "about sm.Ladder"
@@ -441,7 +454,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1382.0, 185.5, 185.0, 62.0 ],
+					"patching_rect" : [ 1342.0, 110.0, 185.0, 62.0 ],
 					"text" : ";\rmax launchbrowser https://cycling74.com/articles/an-interview-with-surreal-machines"
 				}
 
@@ -599,6 +612,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
+					"order" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"order" : 1,
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -805,50 +827,50 @@
 			}
 , 			{
 				"name" : "fc.diode.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.k35lp.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.ladder.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.reson.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.svf-as.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.svf-eg.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fc.zdf-svf.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
+				"bootpath" : "~/Documents/Max 8/Packages/gen-filters/patchers",
+				"patcherrelativepath" : "../../../../Packages/gen-filters/patchers",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
