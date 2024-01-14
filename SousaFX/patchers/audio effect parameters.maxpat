@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 1176.0, -1387.0, 876.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -77,7 +77,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 5633.0, 5164.0, 162.0, 38.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "VFX env out"
 				}
@@ -890,7 +889,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.079787234042553, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.795 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.047872340425532, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.745 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 1.0,
@@ -1741,7 +1740,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 120.0, 1344.999999999999545, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 860.0, 2256.709574999999859 ],
+					"presentation_rect" : [ 605.0, 196.0, 860.0, 2256.709574999999859 ],
 					"proportion" : 0.5,
 					"pt1" : [ 0.055555555555556, 0.055555555555556 ],
 					"pt2" : [ 0.984848484848485, 1.01010101010101 ],
@@ -4096,13 +4095,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 16,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 50.0, 223.0 ],
-					"text" : "631 460 1151 993 271 507 717 929 750 125 1151 310 1265 509 1889 1063"
+					"patching_rect" : [ 1842.0, 636.0, 50.0, 62.0 ],
+					"text" : "916 692 1152 845"
 				}
 
 			}
@@ -11780,7 +11779,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2393.0, 1351.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.0, 830.0, 146.0, 146.0 ],
+					"presentation_rect" : [ 206.0, 830.0, 146.0, 146.0 ],
 					"varname" : "lows_comp"
 				}
 
@@ -11798,7 +11797,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2281.0, 1351.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 830.0, 146.0, 146.0 ],
+					"presentation_rect" : [ 72.0, 830.0, 146.0, 146.0 ],
 					"varname" : "octaver_comp"
 				}
 
@@ -12093,7 +12092,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1901.0, 1351.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 584.0, 125.0, 125.0 ],
+					"presentation_rect" : [ 3.0, 590.0, 112.0, 112.0 ],
 					"varname" : "Modulation Parameters[3]"
 				}
 
@@ -19198,6 +19197,7 @@
 			"obj-222::obj-2::obj-191" : [ "vst~[40]", "vst~", 0 ],
 			"obj-222::obj-3::obj-191" : [ "vst~[42]", "vst~", 0 ],
 			"obj-222::obj-4::obj-191" : [ "vst~[41]", "vst~", 0 ],
+			"obj-224::obj-21::obj-191" : [ "vst~[49]", "vst~", 0 ],
 			"obj-225::obj-2::obj-191" : [ "vst~[44]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[46]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[45]", "vst~", 0 ],
@@ -20211,6 +20211,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Pro-Q 3.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "SiTrSq.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
@@ -20687,22 +20694,22 @@
 			}
 , 			{
 				"name" : "go.unit.blackman.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.unit.trapezoid.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "go.unit.triangle.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/GeneratingSoundAndOrganizingTime/patchers",
-				"patcherrelativepath" : "../../../../Packages/GeneratingSoundAndOrganizingTime/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
+				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
@@ -20786,13 +20793,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license.sousafx",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -21399,7 +21399,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wet_preamp_rnbo_ParamEQ.json",
+				"name" : "wet_preamp_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
