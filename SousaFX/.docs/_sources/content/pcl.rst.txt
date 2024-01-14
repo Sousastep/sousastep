@@ -1,0 +1,28 @@
+Parameter Control Logic
+=======================
+
+Gamepad/parameter mappings can be relinquished and established 
+automatically based on wether or not the tuba's playing. 
+Relinquishing and establishing can either happen immediately 
+when the tuba starts or stops playing, or they can wait 
+until the gamepad's respective joystick axis 
+touches its :ref:`deadzone or default value <Deadzones>`.
+
+The aformentioned settings can be chosen per each of the four main :ref:`looper states <Loopers>`.
+
+- idle, prepared: Playing bassline
+
+- recording: Recording bassline
+
+- looping: Looping bassline while soloing.
+
+- fading out: Fading out bassline while soloing.
+
+The control can be inverted, and curved as well.
+
+These settings are saved within the :ref:`controller bindings <Controller Bindings>` presets.
+
+.. image:: media/param-control-logic.png
+   :width: 100%
+   :align: center
+   :alt: param-control-logic.png

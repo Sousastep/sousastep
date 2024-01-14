@@ -1,0 +1,326 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Main Stutter Tremolo &amp; Filters &mdash; SousaFX 0.9.3 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Kick Ducker" href="duck.html" />
+    <link rel="prev" title="Loopers" href="loop.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SousaFX
+          
+
+          
+            
+            <img src="../_static/icon.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="startup.html">Startup</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="MaxOrPluginSelector.html">Max or Plugin Selector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fxbanks.html">FX Banks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="loop.html">Loopers</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Main Stutter Tremolo &amp; Filters</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#stutter">Stutter</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tremolo">Tremolo</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#filter">Filter</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bindings.html">Controller Bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="SousaFX.html">SousaFX</a> &raquo;</li>
+        
+          <li><a href="fx.html">Audio Effects</a> &raquo;</li>
+        
+      <li>Main Stutter Tremolo &amp; Filters</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="main-stutter-tremolo-filters">
+<h1>Main Stutter Tremolo &amp; Filters<a class="headerlink" href="#main-stutter-tremolo-filters" title="Permalink to this heading">¶</a></h1>
+<p>Six parameters here are available in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>. Both the stutter and tremolo’s subdivisions are attached to the binding’s subdivisions.</p>
+<a class="reference internal image-reference" href="../_images/mainstutter.png"><img alt="loopers" class="align-center" src="../_images/mainstutter.png" style="width: 65%;" /></a>
+<div class="section" id="stutter">
+<h2>Stutter<a class="headerlink" href="#stutter" title="Permalink to this heading">¶</a></h2>
+<p>Inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hb0XLX0b4Y4&amp;t=972s" rel="noopener noreferrer" target="_blank">Pioneer’s Stutter FX</a>.</p>
+<div class="section" id="parameters">
+<h3>Parameters<a class="headerlink" href="#parameters" title="Permalink to this heading">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">stutter:</th><td class="field-body">Toggle stutter on and off. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Enable</span> <span class="pre">(trig)</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">button:</th><td class="field-body">Selects a random subdivision. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Random</span> <span class="pre">Rhythm</span> <span class="pre">(trig)</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">vol dip:</th><td class="field-body">Determines how much the stutter volume will decrease as the acceleration increases from neutral.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">offset:</th><td class="field-body">Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">window:</th><td class="field-body">Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">accel:</th><td class="field-body">Slow down and speed up the stutter FX. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Accel</span> <span class="pre">(bi)</span></code></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">stutter volume:</th><td class="field-body">The volume of the stutter.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">subdiv menu:</th><td class="field-body">The rhythm of the subdivision. Attached to binding’s subdivisions.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">sync:</th><td class="field-body">Same as the subdiv menu.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">gated or thru:</th><td class="field-body">Should the input be gated by the stutter,
+or always pass through regardless of if the stutter is occuring?
+This may be hardcoded to change dynamically. Don’t worry about it.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="tremolo">
+<h2>Tremolo<a class="headerlink" href="#tremolo" title="Permalink to this heading">¶</a></h2>
+<p>A simple, musical, square-wave tremolo.</p>
+<div class="section" id="id1">
+<h3>Parameters<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">depth mix:</th><td class="field-body"><p class="first">Amount of tremolo. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span> <span class="pre">(uni)</span></code></p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">duty cycle:</th><td class="field-body"><p class="first">The fraction of one period in which the signal is active. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span> <span class="pre">(bi)</span></code></p>
+<div class="last figure align-left" id="id3">
+<a class="reference internal image-reference" href="../_images/PWM_duty_cycle_with_label.gif"><img alt="duty" src="../_images/PWM_duty_cycle_with_label.gif" style="width: 80%;" /></a>
+<p class="caption"><span class="caption-text"><a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Duty_cycle&amp;oldid=1180108380" rel="noopener noreferrer" target="_blank">Wikipedia - Duty Cycle</a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="filter">
+<h2>Filter<a class="headerlink" href="#filter" title="Permalink to this heading">¶</a></h2>
+<p>Also inspired by Pioneer, a DJ filter.</p>
+<div class="section" id="id2">
+<h3>Parameters<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h3>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">filter sweep:</th><td class="field-body">Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct <a class="reference external" href="https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology" rel="noopener noreferrer" target="_blank">Sallen Key filter</a> by <span class="xref std std-ref">Surreal Machines</span>. Bound to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Filters</span> <span class="pre">(bi)</span></code></td>
+</tr>
+<tr class="field-even field"><th class="field-name">smooth:</th><td class="field-body">Smooths the filter frequency modulation. If mapped to a joystick, lower values follow the joystick more closely, while higher values glide towards the joystick.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="duck.html" class="btn btn-neutral float-right" title="Kick Ducker" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="loop.html" class="btn btn-neutral float-left" title="Loopers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,368 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>SousaPlayback &mdash; SousaFX 0.9.3 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="SousaVFX" href="sousavfx.html" />
+    <link rel="prev" title="Modding" href="modding.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SousaFX
+          
+
+          
+            
+            <img src="../_static/icon.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="startup.html">Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SousaFX.html">SousaFX</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">SousaPlayback</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#main-track-list">Main Track List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#return-track-list">Return Track List</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>SousaPlayback</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sousaplayback">
+<h1>SousaPlayback<a class="headerlink" href="#sousaplayback" title="Permalink to this heading">¶</a></h1>
+<a class="reference internal image-reference" href="../_images/SousaPlaybacktemplate.png" id="sousaplaybacktemplate"><img alt="SousaPlaybacktemplate" class="align-center" id="sousaplaybacktemplate" src="../_images/SousaPlaybacktemplate.png" style="width: 100%;" /></a>
+<div class="section" id="main-track-list">
+<h2>Main Track List<a class="headerlink" href="#main-track-list" title="Permalink to this heading">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">talkback mic</p>
+<blockquote>
+<div><ul class="simple">
+<li>This track has a simple channel strip for a <a class="reference external" href="https://www.sweetwater.com/insync/talkback-mic/" rel="noopener noreferrer" target="_blank">talkback mic</a>.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">playback bus</p>
+<blockquote>
+<div><ul>
+<li><p class="first">reference tracks</p>
+<blockquote>
+<div><p>This audio track is available for any <a class="reference external" href="https://www.sweetwater.com/insync/reference-track/" rel="noopener noreferrer" target="_blank">reference tracks</a> that you may want to add.</p>
+</div></blockquote>
+</li>
+<li><p class="first">backing tracks</p>
+<blockquote>
+<div><ul>
+<li><p class="first">stems</p>
+<blockquote>
+<div><p>This audio track is available for any <a class="reference external" href="https://www.jamzone.com/blog/1234-great-performance-thorough-practice-the-pros-of-using-backing-tracks-as-a-musician.html" rel="noopener noreferrer" target="_blank">backing tracks</a> that you may want to add.</p>
+</div></blockquote>
+</li>
+<li><p class="first">automation</p>
+<blockquote>
+<div><p>A MIDI device that lets you automate two aspects of SousaFX:
+The <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus mutes and gains</span></a>, and
+the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Preset number</span></a>.</p>
+<p>This device also sends BPM data to SousaFX.</p>
+</div></blockquote>
+</li>
+<li><p class="first">tempo</p>
+<blockquote>
+<div><p>Automate this tempo device instead of live’s main tempo so that the tempo automation is more easily viewable.</p>
+</div></blockquote>
+</li>
+<li><p class="first">click</p>
+<blockquote>
+<div><p>A MIDI track with a drum rack that lets you program custom <a class="reference external" href="https://www.sweetwater.com/insync/click-track/" rel="noopener noreferrer" target="_blank">click tracks</a> if needed.</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">drum bus</p>
+<blockquote>
+<div><p>Group percussion and send thru EQ, filters, reverb, tremolo, delay, risset, compressor, glue comp. The Drum Bus’s external audio output is intended to be routed to SousaFX to control the <a class="reference internal" href="duck.html#kick-ducker"><span class="std std-ref">ducker</span></a>.</p>
+<ul>
+<li><p class="first">perc 1</p>
+<blockquote>
+<div><p>kick and snare clips w/ Stutter</p>
+</div></blockquote>
+</li>
+<li><p class="first">perc 2</p>
+<blockquote>
+<div><p>percussion clips w/ Beat Repeat, Stutter, Auto Pan</p>
+</div></blockquote>
+</li>
+<li><p class="first">perc 3</p>
+<blockquote>
+<div><p>percussion clips w/ Beat Repeat, Stutter</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Twelve parameters pertaining to the percussion bus tracks are <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bound to SousaFX</span></a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li>mute drumloops</li>
+<li>toggle continuous accelerando</li>
+<li>scene selection</li>
+<li>Drum Clip Crossfade (bi)</li>
+<li>Drum Clip Filters (bi)</li>
+<li>Drum Clip Stutter Enable (trig)</li>
+<li>Drum Clip Tremolo Depth (uni)</li>
+<li>Drum Clip Tremolo Duty (bi)</li>
+<li>Drum Clip Delay Send (uni)</li>
+<li>Drum Clip Delay Param (bi)</li>
+<li>Drum Clip Reverb Send (uni)</li>
+<li>Drum Clip Reverb Param (bi)</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">sousa mic</p>
+<blockquote>
+<div><p>Record the uneffected tuba mic into this track, and playback the recorded clip into SousaFX to allow yourself to fine-tune the effects and bindings without having to play the tuba.</p>
+<p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“prerecorded mic” input</span></a>, and SousaFX’s Audio IO Status’ input menu should be set to <code class="docutils literal notranslate"><span class="pre">prerecorded</span> <span class="pre">mic</span></code>.</p>
+</div></blockquote>
+</li>
+<li><p class="first">silentbrass</p>
+<blockquote>
+<div><p>Record the uneffected silentbrass mic into this track, and playback the recorded clip into SousaFX to allow yourself to fine-tune the effects and bindings without having to play the tuba.</p>
+<p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“prerecorded silentbrass” inputs</span></a>, and SousaFX’s Audio IO Status’ input menu should be set to <code class="docutils literal notranslate"><span class="pre">prerecorded</span> <span class="pre">silentbrass</span></code>.</p>
+</div></blockquote>
+</li>
+<li><p class="first">MAIN REC</p>
+<blockquote>
+<div><p>Records the main “front of house” output. Doesn’t record SousaFX.</p>
+</div></blockquote>
+</li>
+<li><p class="first">sync signal</p>
+<blockquote>
+<div><p>Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 <a class="reference internal" href="metro.html#audio-input-or-live-link"><span class="std std-ref">in lieu of Live Link</span></a>.</p>
+<p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“phasor~ from Ableton” input</span></a>. To enable phasor sync, Set SousaFX’s Metronome’s Tempo Source to <code class="docutils literal notranslate"><span class="pre">Ableton's</span> <span class="pre">Tempo</span></code>, set the Live Link menu to Audio Input, and press Ableton’s play button.</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="return-track-list">
+<h2>Return Track List<a class="headerlink" href="#return-track-list" title="Permalink to this heading">¶</a></h2>
+<ol class="upperalpha">
+<li><p class="first">Monitor</p>
+<blockquote>
+<div><p>This track’s “Audio To: Ext. Out” should be routed to your audio interface’s headphone output.</p>
+<p>The monitor mix, adjusted via the A sends from talkback mic, playback bus, click, MAIN REC, and NETWORK tracks.</p>
+<p>The “playback bus” monitor send volume is also saved in SousaFX’s <a class="reference internal" href="monitor.html#monitor-mix"><span class="std std-ref">Monitor Mix</span></a>.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Network</p>
+<blockquote>
+<div><p>Place <a class="reference internal" href="install.html#recommended-free-plugins"><span class="std std-ref">network jamming plugins</span></a> here.</p>
+</div></blockquote>
+</li>
+<li><p class="first">Main Out</p>
+<blockquote>
+<div><p>This track’s “Audio To: Ext. Out” should be routed to your audio interface’s main output.</p>
+<p>The “front of house” mix, adjusted via the C sends from talkback mic, playback bus, MAIN REC, and NETWORK tracks.</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>All of SousaPlayback’s MIDI Mappings correspond to <a class="reference internal" href="midi.html#midi-preferences"><span class="std std-ref">SousaFX’s MIDI Preferences</span></a> by default.</p>
+<a class="last reference internal image-reference" href="../_images/SousaPlaybacktemplateMIDI.png"><img alt="SousaPlayback template MIDI" class="align-center" src="../_images/SousaPlaybacktemplateMIDI.png" style="width: 95%;" /></a>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="sousavfx.html" class="btn btn-neutral float-right" title="SousaVFX" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modding.html" class="btn btn-neutral float-left" title="Modding" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

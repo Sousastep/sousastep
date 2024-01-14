@@ -1,0 +1,275 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hardware &mdash; SousaFX 0.9.3 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Installation" href="install.html" />
+    <link rel="prev" title="SousaFX Documentation" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SousaFX
+          
+
+          
+            
+            <img src="../_static/icon.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#recommendations">Recommendations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#benchmarks">Benchmarks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="startup.html">Startup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="SousaFX.html">SousaFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Hardware</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="hardware">
+<h1>Hardware<a class="headerlink" href="#hardware" title="Permalink to this heading">¶</a></h1>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li>mac or windows computer</li>
+<li>audio interface</li>
+<li>headphones, in-ear monitors, or loudspeaker</li>
+<li>XLR microphone, or Yamaha SilentBrass™ mute &amp; PersonalStudio™</li>
+<li>tuba</li>
+<li>wireless game controller</li>
+<li>velcro straps to attach the controller to the tuba</li>
+</ul>
+</div>
+<div class="section" id="recommendations">
+<h2>Recommendations<a class="headerlink" href="#recommendations" title="Permalink to this heading">¶</a></h2>
+<p>Any m-series mac is recommended.</p>
+<p>If you haven’t optimized your computer for audio performance yet, <a class="reference external" href="https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&amp;query=optimize" rel="noopener noreferrer" target="_blank">these Ableton articles are worth checking out</a>.</p>
+<p>The <a class="reference external" href="https://www.rme-audio.de/downloads/bface_pro_fs_e.pdf" rel="noopener noreferrer" target="_blank">RME Babyface Pro</a> is an end-game audio interface, but any interface with a mic input, main output, and monitor output will do, such as the <a class="reference external" href="https://fael-downloads-prod.focusrite.com/customer/prod/downloads/scarlett_solo_studio_4th_gen_user_guide_v3-pdf-en.pdf" rel="noopener noreferrer" target="_blank">Focusrite Scarlett Solo 4th Gen</a>. The more <a class="reference external" href="https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/" rel="noopener noreferrer" target="_blank">loopback</a> channels, the better, though, because SousaFX and SousaPlayback can make good use of them.</p>
+<p>If you’re performing live you may also want to invest in a DI such as the <a class="reference external" href="https://www.radialeng.com/product/trim-two" rel="noopener noreferrer" target="_blank">TrimTwo</a> or <a class="reference external" href="https://www.eventideaudio.com/pedals/mixinglink/" rel="noopener noreferrer" target="_blank">MixingLink</a>, which will prevent the venue’s mixing board from accidentally sending phantom power into your cherished interface.</p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=mHoljbkyAEs" rel="noopener noreferrer" target="_blank">In ear monitors</a> are vastly preferrable to headphones or speakers for being able to hear yourself while performing live.</p>
+<p>SousaFX is developed and tested with a PS4 controller, and an Xbox Elite 2 controller. If I had to recommend one of them then it’d be the Xbox controller. However, <a class="reference external" href="https://github.com/libsdl-org/SDL/blob/SDL2/src/joystick/SDL_gamecontrollerdb.h" rel="noopener noreferrer" target="_blank">all gamepads listed here are supported</a>.</p>
+<p>If you’re using a <a class="reference external" href="https://usa.yamaha.com/products/musical_instruments/winds/silent_brass/silent_brass_sbj_series/index.html" rel="noopener noreferrer" target="_blank">SilentBrass mute</a> you’ll need an <a class="reference external" href="https://www.sweetwater.com/store/search?s=3.5mm+trs+to+dual+1%2F4+ts" rel="noopener noreferrer" target="_blank">eighth inch TRS to dual quarter inch TS cable</a> to properly connect the PersonalStudio’s headphone output to the audio interface’s line inputs.</p>
+</div>
+<div class="section" id="benchmarks">
+<h2>Benchmarks<a class="headerlink" href="#benchmarks" title="Permalink to this heading">¶</a></h2>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name" colspan="2">m1 macbook pro, 8 cores:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body">SousaFX takes three minutes to start, and idles around 4.8 GB RAM, 9% CPU.</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">windows 11, DDR4 2666, i7-9700K:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body">SousaFX takes five minutes to start, and idles around 4.5 GB RAM, 14% CPU.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/rig1.jpg"><img alt="1" class="align-center" src="../_images/rig1.jpg" style="width: 40%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/rig3.jpg"><img alt="3" class="align-center" src="../_images/rig3.jpg" style="width: 60%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="install.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="SousaFX Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

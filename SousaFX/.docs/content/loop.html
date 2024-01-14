@@ -1,0 +1,279 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Loopers &mdash; SousaFX 0.9.3 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Main Stutter Tremolo &amp; Filters" href="mainstutter.html" />
+    <link rel="prev" title="Delay and Reverb Sends" href="delay.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SousaFX
+          
+
+          
+            
+            <img src="../_static/icon.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="startup.html">Startup</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="MaxOrPluginSelector.html">Max or Plugin Selector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fxbanks.html">FX Banks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Loopers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mainstutter.html">Main Stutter Tremolo &amp; Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bindings.html">Controller Bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="SousaFX.html">SousaFX</a> &raquo;</li>
+        
+          <li><a href="fx.html">Audio Effects</a> &raquo;</li>
+        
+      <li>Loopers</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="loopers">
+<h1>Loopers<a class="headerlink" href="#loopers" title="Permalink to this heading">¶</a></h1>
+<p>A simple “one-button” looper followed by a handful of effects.</p>
+<a class="reference internal image-reference" href="../_images/loopers.png"><img alt="loopers" class="align-center" src="../_images/loopers.png" style="width: 60%;" /></a>
+<p>The looper has five states.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Idle</li>
+<li>Prepared</li>
+<li>Recording</li>
+<li>Looping</li>
+<li>Fading Out</li>
+</ol>
+</div></blockquote>
+<p>Hitting the button (called <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> in the bindings)
+advances the looper state from Idle to Prepared,
+and playing tuba advances from Prepared to Recording.
+After 8 bars or so, the looper automatically stops Recording
+and starts Looping. Hitting the button a second time
+begins Fading Out the looper over the course of 8 bars.
+A second loop can be recorded while the first’s fading out.</p>
+<p>Below the two loopers are the post-loop <a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">Stutter, Tremolo, &amp; Filters</span></a>. The following <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> are available:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Enable</span> <span class="pre">(trig)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span> <span class="pre">(bi)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Random</span> <span class="pre">Rhythm</span> <span class="pre">(trig)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Filters</span> <span class="pre">(bi)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span> <span class="pre">(bi)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span> <span class="pre">(uni)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">1</span> <span class="pre">(uni)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">2</span> <span class="pre">(uni)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">3</span> <span class="pre">(uni)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">4</span> <span class="pre">(uni)</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">loopers</span> <span class="pre">tremolo</span> <span class="pre">and</span> <span class="pre">stutter</span> <span class="pre">subdivision</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">mute</span> <span class="pre">loopers</span></code></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="mainstutter.html" class="btn btn-neutral float-right" title="Main Stutter Tremolo &amp; Filters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="delay.html" class="btn btn-neutral float-left" title="Delay and Reverb Sends" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

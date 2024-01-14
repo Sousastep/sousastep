@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XC8M12NVX5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XC8M12NVX5');
+    </script>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Max or Plugin Selector &mdash; SousaFX 0.9.3 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/design-tabs.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/dark_mode_js/default_dark.js"></script>
+        <script src="../_static/dark_mode_js/theme_switcher.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/general.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/dark_mode_css/dark.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Modulation Parameters" href="modparms.html" />
+    <link rel="prev" title="Audio Effects" href="fx.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> SousaFX
+          
+
+          
+            
+            <img src="../_static/icon.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="startup.html">Startup</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Max or Plugin Selector</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#selectable-effects">Selectable Effects</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#latency-compensation">Latency Compensation</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="fxbanks.html">FX Banks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
+<li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
+<li class="toctree-l3"><a class="reference internal" href="loop.html">Loopers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mainstutter.html">Main Stutter Tremolo &amp; Filters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bindings.html">Controller Bindings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modding.html">Modding</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">SousaFX</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="SousaFX.html">SousaFX</a> &raquo;</li>
+        
+          <li><a href="fx.html">Audio Effects</a> &raquo;</li>
+        
+      <li>Max or Plugin Selector</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="max-or-plugin-selector">
+<h1>Max or Plugin Selector<a class="headerlink" href="#max-or-plugin-selector" title="Permalink to this heading">¶</a></h1>
+<p>Many effects in SousaFX are presented in a way
+that lets you choose between a max-native effect
+or an external audio plugin.</p>
+<p>To choose, first turn off the audio engine by clicking the blue power button in the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">main window</span></a>. Click the effect’s main menu to select Max or Plugin, then click the power button again to turn the audio engine back on. Your choice is auto-saved.</p>
+<a class="reference internal image-reference" href="../_images/maxselected.png"><img alt="maxselected" class="align-center" src="../_images/maxselected.png" style="width: 100%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/pluginselected.png"><img alt="pluginselected" class="align-center" src="../_images/pluginselected.png" style="width: 100%;" /></a>
+<p>This selector is available for every effect in SousaFX
+except for the following:</p>
+<ul class="simple">
+<li><a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">LFO</span></a></li>
+<li><a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Crossfade</span></a></li>
+<li><a class="reference internal" href="loop.html#loopers"><span class="std std-ref">Loopers</span></a></li>
+<li><a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">Stutter, Tremolo, Filters</span></a></li>
+<li><a class="reference internal" href="duck.html#kick-ducker"><span class="std std-ref">Kick Ducker</span></a></li>
+<li><a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">FX Banks</span></a> slots 2 - 4.</li>
+</ul>
+<div class="section" id="selectable-effects">
+<h2>Selectable Effects<a class="headerlink" href="#selectable-effects" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li>Sustain EQ</li>
+<li>Attack EQ</li>
+<li>Octaver</li>
+<li><a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">Sustain FX</span></a> slot 1</li>
+<li><a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">Attack FX</span></a> slot 1</li>
+<li><a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">Post-crossfade FX</span></a> slot 1</li>
+<li><a class="reference internal" href="modparms.html#lowpass-filter-selector"><span class="std std-ref">Low Pass Filter</span></a>;
+only plugins supported are
+<a class="reference external" href="https://software.moogmusic.com/store/mf-101s" rel="noopener noreferrer" target="_blank">MF-101S</a> and
+<a class="reference external" href="https://cytomic.com/product/drop/" rel="noopener noreferrer" target="_blank">The Drop</a></li>
+<li><a class="reference internal" href="crossover.html#crossover"><span class="std std-ref">crossover filter</span></a>;
+only plugin supported is <a class="reference external" href="https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in" rel="noopener noreferrer" target="_blank">ProQ3</a></li>
+<li>octaver compressor</li>
+<li>low crossover compressor</li>
+<li>high crossover <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">attack compressor</span></a></li>
+<li>high crossover <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">sustain compressor</span></a></li>
+<li>four <a class="reference internal" href="delay.html#delay-and-reverb-sends"><span class="std std-ref">delay sends</span></a>;
+also supports external routing</li>
+<li><a class="reference internal" href="delay.html#delay-and-reverb-sends"><span class="std std-ref">reverb send</span></a></li>
+<li>main reverb</li>
+<li>main compressor</li>
+<li>main limiter</li>
+<li><a class="reference internal" href="monitor.html#monitor-mix"><span class="std std-ref">monitor mix EQ</span></a></li>
+</ul>
+</div>
+<div class="section" id="latency-compensation">
+<h2>Latency Compensation<a class="headerlink" href="#latency-compensation" title="Permalink to this heading">¶</a></h2>
+<p>Latency compensation is recalculated whenever a plugin loads,
+or an FX Bank selection changes. This ensures the lowest possible latency depending on which effects are in use. If a plugin parameter changes its plugin’s latency after said plugin loads, you must manually trigger a recalculation by clicking “check latency”.</p>
+<a class="reference internal image-reference" href="../_images/latency.png"><img alt="latency compensation" class="align-center" src="../_images/latency.png" style="width: 100%;" /></a>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="modparms.html" class="btn btn-neutral float-right" title="Modulation Parameters" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="fx.html" class="btn btn-neutral float-left" title="Audio Effects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+ 
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
