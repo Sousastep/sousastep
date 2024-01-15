@@ -30,9 +30,9 @@ Icon?
 
 # Media folders
 /default/startup/emotes
-/default/SousaPlayback\ template\ Project/Clips/Black\ Octopus\ Sound\ -\ Free\ Samples\ Bundle
-/default/SousaPlayback\ template\ Project/Samples/Recorded
-/default/SousaPlayback template Project/Clips/Collab
+/SousaPlayback\ Project/Clips/Black\ Octopus\ Sound\ -\ Free\ Samples\ Bundle
+/SousaPlayback\ Project/Samples/Recorded
+/SousaPlayback Project/Clips/Collab
 
 # Ableton Live Backups
 /default/SousaPlayback\ template\ Project/Backup
@@ -40,9 +40,6 @@ Icon?
 # user presets folder. Defaults are stored in /default/presets
 SousaFX/data/*
 !SousaFX/data/.gitkeep
-
-# non-template
-/default/SousaPlayback\ template\ Project/SousastepPlayback.als
 
 # allow built docs for ez github releases
 # /SousaFX/.docs
