@@ -11,7 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 1425.0, -1387.0, 885.0, 1387.0 ],
-		"bglocked" : 0,
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -2087,8 +2087,6 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 965.0, 346.0, 80.0, 95.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 764.5, 2052.0, 56.0, 75.0 ],
 					"varname" : "restart"
 				}
 
@@ -2121,9 +2119,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 936.0, 305.0, 72.0, 87.562945368171029 ],
-					"pic" : "restarthighlight.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 763.5, 2060.0, 57.0, 69.320665083135395 ]
+					"pic" : "restarthighlight.png"
 				}
 
 			}
@@ -2235,9 +2231,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 1002.0, 376.0, 72.0, 87.562945368171029 ],
-					"pic" : "restartlight.png",
-					"presentation" : 1,
-					"presentation_rect" : [ 768.5, 2066.0, 48.0, 58.375296912114017 ]
+					"pic" : "restartlight.png"
 				}
 
 			}
