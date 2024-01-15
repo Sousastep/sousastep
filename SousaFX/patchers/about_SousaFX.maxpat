@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 529.0, 1493.0, 1440.0, 847.0 ],
+		"rect" : [ 536.0, -1193.0, 1440.0, 1123.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -556,7 +556,6 @@
 									"fontname" : "Monaco",
 									"fontsize" : 13.0,
 									"gradient" : 1,
-									"hidden" : 1,
 									"id" : "obj-399",
 									"ignoreclick" : 1,
 									"maxclass" : "message",
@@ -566,7 +565,7 @@
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
-									"text" : "75.408803 %",
+									"text" : "8.54539 %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -687,7 +686,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
-									"hidden" : 1,
 									"id" : "obj-359",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -695,8 +693,8 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
-									"text" : "Rank: Iron Tuba Warrior 3",
-									"textcolor" : [ 0.820322196139729, 0.67229308, 0.95450692, 1.0 ],
+									"text" : "Rank: Bronze Squire 1",
+									"textcolor" : [ 0.95450692, 0.816990727601506, 0.67229308, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -790,11 +788,10 @@
 									"bgcolor" : [ 0.580392156862745, 0.580392156862745, 0.580392156862745, 0.81 ],
 									"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 									"floatoutput" : 1,
-									"hidden" : 1,
 									"hint" : "progress to next rank",
 									"id" : "obj-317",
 									"ignoreclick" : 1,
-									"knobcolor" : [ 0.820322196139729, 0.67229308, 0.95450692, 1.0 ],
+									"knobcolor" : [ 0.95450692, 0.816990727601506, 0.67229308, 1.0 ],
 									"maxclass" : "slider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -957,7 +954,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
-									"hidden" : 1,
 									"id" : "obj-275",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -965,7 +961,7 @@
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
-									"text" : "1.63 hrs on record.",
+									"text" : "2.66 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1698,7 +1694,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-151",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2118,6 +2113,7 @@
 									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-1",
 									"items" : [ "Still", "evaluating..." ],
 									"maxclass" : "umenu",
@@ -2488,6 +2484,7 @@
 									"patching_rect" : [ 3580.0, 3437.0, 384.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, -2.0, 347.0, 21.0 ],
+									"text" : "Licensed to sousastep on December 18th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4594,7 +4591,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-324",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4661,7 +4657,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-307",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4684,7 +4679,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 0.0, 34.0, 323.0, 36.0 ],
-									"text" : "SousaFX has launched 55 times since installed on March 11th 2023",
+									"text" : "SousaFX has launched 90 times since installed on March 11th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4946,6 +4941,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-216",
 									"linecount" : 10,
 									"maxclass" : "comment",
@@ -7878,8 +7874,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 754.5, 237.0, 34.0 ],
-					"text" : ";\rmax launchbrowser https://ko-fi.com/sousafx"
+					"patching_rect" : [ 70.0, 754.5, 266.0, 34.0 ],
+					"text" : ";\rmax launchbrowser https://ko-fi.com/sousafx/shop"
 				}
 
 			}
@@ -13736,8 +13732,6 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 110.0, 362.0, 77.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 110.0, 410.0, 77.0, 28.0 ],
 					"textcolor" : [ 0.847059, 0.847059, 0.847059, 1.0 ],
 					"varname" : "github"
 				}
@@ -13755,8 +13749,9 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Monaco",
 					"fontsize" : 16.0,
+					"hint" : "GitHub",
 					"id" : "obj-35",
-					"items" : "Patreon",
+					"items" : "GitHub",
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"menumode" : 2,
@@ -13809,8 +13804,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 665.636591478696801, 268.0, 34.0 ],
-					"text" : ";\rmax launchbrowser https://patreon.com/sousastep"
+					"patching_rect" : [ 70.0, 665.636591478696801, 299.0, 34.0 ],
+					"text" : ";\rmax launchbrowser https://github.com/sponsors/jbaylies/"
 				}
 
 			}
@@ -15111,6 +15106,117 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "AND.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "about_credits.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "icon.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kofi_qr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "kofi_qrcode.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license.sousafx",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_nyboer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_sousafx.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_surreal.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license_tmhglnd.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "licenses.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousafx_updates.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "venmo_qr.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]
 	}
 
