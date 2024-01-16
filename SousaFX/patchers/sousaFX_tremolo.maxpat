@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 612.0, 179.0, 1407.0, 1211.0 ],
+		"rect" : [ 34.0, 87.0, 600.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -184,8 +184,6 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_initial" : [ 100 ],
-							"parameter_initial_enable" : 1,
 							"parameter_longname" : "depth / mix",
 							"parameter_mmax" : 100.0,
 							"parameter_shortname" : "depth / mix",
