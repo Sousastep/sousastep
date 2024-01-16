@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1188.0, 579.0, 289.0, 387.0 ],
+		"rect" : [ 1191.0, -674.0, 422.0, 420.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -126,7 +126,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 822.0, 545.0, 133.0, 22.0 ],
-					"restore" : [ -8.81889763779526 ],
+					"restore" : [ -7.71653543307086 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -157,7 +157,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 569.0, 188.0, 71.0, 51.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "main in w/o loopers",
 					"textjustification" : 1
@@ -359,7 +358,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 217.0, 520.0, 99.0, 22.0 ],
-					"restore" : [ -24.024360236220502 ],
+					"restore" : [ -70.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -390,7 +389,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1183.0, 191.0, 102.0, 22.0 ],
-					"restore" : [ 17.763779527559066 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1067,10 +1066,10 @@
 					"presentation_rect" : [ 41.0, 13.0, 160.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "solo boost",
+							"parameter_longname" : "solo boost volume",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "solo boost",
+							"parameter_shortname" : "solo boost volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}

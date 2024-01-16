@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2254.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -61,29 +61,6 @@
 					"presentation_rect" : [ 19.333333909511566, 609.0, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "playback bus monitor mix vol",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 436.0, 1138.0, 178.0, 22.0 ],
-					"text" : "r \"playback bus monitor mix vol\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-54",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 527.0, 627.0, 142.0, 22.0 ],
-					"text" : "s \"Risset Ext FX DryWet\""
 				}
 
 			}
@@ -778,7 +755,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.0, -67.0, 119.0, 22.0 ],
-					"text" : "loadmess 1179. 626."
+					"text" : "loadmess 1179. 661."
 				}
 
 			}
