@@ -40,6 +40,58 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-193",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1366.75, 355.0, 220.5, 122.0 ],
+					"presentation_linecount" : 8,
+					"suppressinlet" : 1,
+					"text" : "don't allow single click when looper prepared, recording, fading \n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1244.0, 405.0, 112.0, 22.0 ],
+					"text" : "list.lookup 1 0 0 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1155.0, 405.0, 52.0, 22.0 ],
+					"text" : "gate 1 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "set mute",
+					"id" : "obj-191",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2431.0, 2640.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "looper state",
 					"id" : "obj-189",
 					"index" : 0,
@@ -413,7 +465,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2625.0, 603.0, 46.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 206.0, 46.0, 21.0 ],
+					"presentation_rect" : [ 98.0, 178.5, 46.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -766,30 +818,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1280.0, 2081.5, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "Looper", "loopgroup" ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-4",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "solomuteUI.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 908.0, 2208.0, 131.0, 75.0 ],
-					"varname" : "solomuteUI",
-					"viewvisibility" : 1
+					"patching_rect" : [ 1755.0, 862.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1050,7 +1079,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 453.0, 3000.0, 80.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 174.0, 135.0, 30.0 ]
+					"presentation_rect" : [ 9.0, 174.0, 87.0, 30.0 ]
 				}
 
 			}
@@ -1686,7 +1715,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1187.0, 302.0, 208.265913304508786, 35.0 ],
+					"patching_rect" : [ 1223.0, 295.0, 208.265913304508786, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "first click - start recording\n second click - fade out and clear loop"
 				}
@@ -2339,7 +2368,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1152.0, 304.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1188.0, 297.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2572,7 +2601,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-111", 1 ],
+					"destination" : [ "obj-192", 1 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -2882,14 +2911,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-7", 1 ],
 					"source" : [ "obj-113", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -2966,6 +2995,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -3375,6 +3411,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-111", 1 ],
+					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"order" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -3391,7 +3434,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 2 ],
+					"destination" : [ "obj-191", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
 
@@ -3473,20 +3516,6 @@
 					"destination" : [ "obj-180", 1 ],
 					"order" : 1,
 					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 1 ],
-					"source" : [ "obj-4", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -3771,7 +3800,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-126", 0 ],
+					"order" : 1,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-189", 0 ],
+					"order" : 0,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -4042,8 +4080,6 @@
 			"obj-105" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-138::obj-1" : [ "filter sweep", "filter sweep", 0 ],
 			"obj-138::obj-27" : [ "smooth", "smooth", 0 ],
-			"obj-4::obj-114" : [ "solo", "Solo", 0 ],
-			"obj-4::obj-115" : [ "active", "Active", 0 ],
 			"obj-7" : [ "Loop Volume[1]", "volume", 0 ],
 			"obj-8" : [ "live.menu", "live.menu", 0 ],
 			"obj-813" : [ "feedback[1]", "feedback", 0 ],
@@ -4095,20 +4131,6 @@
 				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
 				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "solomute.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "solomuteUI.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
