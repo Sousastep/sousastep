@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 536.0, -1193.0, 1440.0, 1123.0 ],
+		"rect" : [ 100.0, 125.0, 1440.0, 1123.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "about sousafx",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1342.0, 97.0, 53.0, 21.0 ],
+					"text" : "del 1000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -565,7 +577,7 @@
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
-									"text" : "8.54539 %",
+									"text" : "14.682005 %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -693,8 +705,8 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
-									"text" : "Rank: Bronze Squire 1",
-									"textcolor" : [ 0.95450692, 0.816990727601506, 0.67229308, 1.0 ],
+									"text" : "Rank: Bronze Knight 1",
+									"textcolor" : [ 0.95450692, 0.920900984237315, 0.67229308, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -791,7 +803,7 @@
 									"hint" : "progress to next rank",
 									"id" : "obj-317",
 									"ignoreclick" : 1,
-									"knobcolor" : [ 0.95450692, 0.816990727601506, 0.67229308, 1.0 ],
+									"knobcolor" : [ 0.95450692, 0.920900984237315, 0.67229308, 1.0 ],
 									"maxclass" : "slider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -961,7 +973,7 @@
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
-									"text" : "2.66 hrs on record.",
+									"text" : "3.99 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4598,7 +4610,7 @@
 									"patching_rect" : [ 1755.0, 3086.0, 417.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 77.0, 323.0, 21.0 ],
-									"text" : "You've played for 0 minutes today.",
+									"text" : "You've played for 12 minutes today.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4679,7 +4691,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 0.0, 34.0, 323.0, 36.0 ],
-									"text" : "SousaFX has launched 90 times since installed on March 11th 2023",
+									"text" : "SousaFX has launched 101 times since installed on March 11th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -7979,18 +7991,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-84",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1467.0, 499.0, 34.0, 21.0 ],
-					"text" : "0 9 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -8044,7 +8044,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2095.0, 722.0, 50.0, 21.0 ],
-					"text" : "0.9.4"
+					"text" : "0.9.2"
 				}
 
 			}
@@ -8423,12 +8423,13 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
+					"fontsize" : 14.069441777361698,
 					"id" : "obj-105",
 					"linecount" : 9,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1590.0, 415.5, 140.162588652481872, 132.0 ],
+					"patching_rect" : [ 1564.700078802206008, 369.5, 168.0, 158.0 ],
 					"suppressinlet" : 1,
 					"text" : "how to update version: \n\nedit and save this loadmess\n\ngit commit -m \"message\"\ngit tag v#.#.#\ngit push\ngit push origin --tags"
 				}
@@ -8442,7 +8443,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1732.200078802206235, 398.0, 87.0, 21.0 ],
-					"text" : "loadmess 0.9.2"
+					"text" : "loadmess 0.9.3"
 				}
 
 			}
@@ -8561,7 +8562,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 303.0, 295.0, 129.0, 52.0 ],
 					"readonly" : 1,
-					"text" : "Last checked on September 15th, 2023",
+					"text" : "Last checked on January 17th, 2024",
 					"varname" : "textedit"
 				}
 
@@ -8574,7 +8575,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1387.0, 1098.0, 106.0, 21.0 ],
-					"restore" : [ "Last checked on September 15th, 2023" ],
+					"restore" : [ "Last checked on January 17th, 2024" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -8853,7 +8854,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1341.625, 66.0, 54.0, 21.0 ],
+					"patching_rect" : [ 1341.625, 61.0, 54.0, 21.0 ],
 					"text" : "deferlow"
 				}
 
@@ -10500,7 +10501,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 833.756281975052161, 554.278292469980897, 33.0, 22.0 ],
-									"text" : "== 6"
+									"text" : ">= 5"
 								}
 
 							}
@@ -13876,6 +13877,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-132", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
 					"order" : 1,
 					"source" : [ "obj-102", 0 ]
@@ -14185,7 +14193,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-132", 1 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-134", 0 ]
 				}
 
@@ -14463,7 +14471,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-180", 0 ],
-					"midpoints" : [ 1246.5, 1118.0, 1194.0, 1118.0, 1194.0, 560.0, 1575.0, 560.0, 1575.0, 366.0, 1968.0, 366.0, 1968.0, 144.0, 2141.5, 144.0 ],
+					"midpoints" : [ 1246.5, 1118.0, 1194.0, 1118.0, 1194.0, 560.0, 1553.0, 560.0, 1553.0, 366.0, 1968.0, 366.0, 1968.0, 144.0, 2141.5, 144.0 ],
 					"order" : 0,
 					"source" : [ "obj-178", 0 ]
 				}
@@ -15017,13 +15025,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-86", 0 ],
 					"source" : [ "obj-83", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"source" : [ "obj-84", 0 ]
 				}
 
 			}
