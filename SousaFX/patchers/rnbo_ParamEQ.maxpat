@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 904.0, 430.0, 1245.0, 941.0 ],
+		"rect" : [ 161.0, 87.0, 934.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -59,7 +59,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 157.0, 296.5, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.875 0.013672 1."
 				}
 
@@ -126,7 +125,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "bang" ],
 					"patching_rect" : [ 251.0, 330.5, 262.5, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "dialog @mode 2 @label \"Restoring the current preset will discard unsaved changes.\""
 				}
 
@@ -152,7 +150,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 699.0, 243.0, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.875 0.013672 1."
 				}
 
@@ -212,11 +209,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-21",
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 869.0, 510.0, 113.0, 23.0 ]
+					"patching_rect" : [ 869.0, 510.0, 113.0, 113.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_ParamEQ.json\""
 				}
 
 			}
@@ -437,7 +436,7 @@
 								}
 ,
 								"lomid" : 								{
-									"value" : -4.0
+									"value" : 0.0
 								}
 ,
 								"himidfq" : 								{
@@ -710,20 +709,20 @@
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 347.0, 838.0, 358.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"himid" : 						{
-							"label" : "himid",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"level" : 						{
 							"label" : "level",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"lomid" : 						{
-							"label" : "lomid",
+						"himid" : 						{
+							"label" : "himid",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"lomidfq" : 						{
+							"label" : "lomidfq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -734,8 +733,8 @@
 							"parsestring" : ""
 						}
 ,
-						"lomidfq" : 						{
-							"label" : "lomidfq",
+						"lomid" : 						{
+							"label" : "lomid",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1760,6 +1759,19 @@
 
 			}
  ],
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "ParamEQ.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",

@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -250.0, -1387.0, 1471.0, 1387.0 ],
-		"bglocked" : 0,
+		"rect" : [ -250.0, -1387.0, 2529.0, 1387.0 ],
+		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -4738,7 +4738,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5910.0, 756.0, 145.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 44.0, 627.0, 145.0, 23.0 ],
+					"presentation_rect" : [ 78.0, 177.0, 145.0, 23.0 ],
 					"text" : "calibrate deadzones"
 				}
 
@@ -5601,7 +5601,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1607.0, 1714.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 654, -1032, 1054, -34 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
@@ -5713,7 +5713,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4797.0, 882.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 568.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 98.0, 118.0, 40.0, 40.0 ],
 					"rightvalue" : 255,
 					"topvalue" : 0
 				}
@@ -5733,7 +5733,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4864.0, 882.0, 40.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.0, 568.0, 40.0, 40.0 ],
+					"presentation_rect" : [ 165.0, 118.0, 40.0, 40.0 ],
 					"rightvalue" : 255,
 					"topvalue" : 0
 				}
@@ -5754,7 +5754,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4793.0, 879.0, 12.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 565.0, 12.0, 11.0 ],
+					"presentation_rect" : [ 94.0, 115.0, 12.0, 11.0 ],
 					"varname" : "dpad_se"
 				}
 
@@ -5774,7 +5774,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4759.0, 879.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 565.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 60.0, 115.0, 11.0, 11.0 ],
 					"varname" : "dpad_sw"
 				}
 
@@ -5794,7 +5794,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4794.0, 844.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 530.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 95.0, 80.0, 11.0, 11.0 ],
 					"varname" : "dpad_ne"
 				}
 
@@ -5814,7 +5814,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4759.0, 844.0, 11.0, 11.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 530.0, 11.0, 11.0 ],
+					"presentation_rect" : [ 60.0, 80.0, 11.0, 11.0 ],
 					"varname" : "dpad_nw"
 				}
 
@@ -5834,7 +5834,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4774.0, 870.0, 15.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 556.0, 15.0, 22.0 ],
+					"presentation_rect" : [ 75.0, 106.0, 15.0, 22.0 ],
 					"varname" : "dpad_D"
 				}
 
@@ -5854,7 +5854,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4774.0, 840.0, 15.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 526.0, 15.0, 21.0 ],
+					"presentation_rect" : [ 75.0, 76.0, 15.0, 21.0 ],
 					"varname" : "dpad_U"
 				}
 
@@ -5874,7 +5874,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4787.0, 858.0, 21.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 54.0, 544.0, 21.0, 16.0 ],
+					"presentation_rect" : [ 88.0, 94.0, 21.0, 16.0 ],
 					"varname" : "dpad_R"
 				}
 
@@ -5894,7 +5894,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4756.0, 858.0, 21.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 544.0, 21.0, 16.0 ],
+					"presentation_rect" : [ 57.0, 94.0, 21.0, 16.0 ],
 					"varname" : "dpad_L"
 				}
 
@@ -5914,7 +5914,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4864.0, 882.0, 41.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 131.0, 568.0, 41.0, 41.0 ],
+					"presentation_rect" : [ 165.0, 118.0, 41.0, 41.0 ],
 					"varname" : "jsb_R"
 				}
 
@@ -5934,7 +5934,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4797.0, 882.0, 41.0, 41.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 568.0, 41.0, 41.0 ],
+					"presentation_rect" : [ 98.0, 118.0, 41.0, 41.0 ],
 					"varname" : "jsb_L"
 				}
 
@@ -5954,7 +5954,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4824.0, 843.0, 22.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 529.0, 22.0, 10.0 ],
+					"presentation_rect" : [ 125.0, 79.0, 22.0, 10.0 ],
 					"varname" : "back"
 				}
 
@@ -5974,7 +5974,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4856.0, 843.0, 22.0, 10.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 123.0, 529.0, 22.0, 10.0 ],
+					"presentation_rect" : [ 157.0, 79.0, 22.0, 10.0 ],
 					"varname" : "start"
 				}
 
@@ -5994,7 +5994,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4897.0, 819.0, 44.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 164.0, 505.0, 44.0, 13.0 ],
+					"presentation_rect" : [ 198.0, 55.0, 44.0, 13.0 ],
 					"varname" : "RB"
 				}
 
@@ -6014,7 +6014,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4759.0, 820.0, 45.0, 13.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 26.0, 506.0, 45.0, 13.0 ],
+					"presentation_rect" : [ 60.0, 56.0, 45.0, 13.0 ],
 					"varname" : "LB"
 				}
 
@@ -6034,7 +6034,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4930.0, 857.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 197.0, 543.0, 19.0, 19.0 ],
+					"presentation_rect" : [ 231.0, 93.0, 19.0, 19.0 ],
 					"varname" : "col_R"
 				}
 
@@ -6054,7 +6054,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4890.0, 857.0, 19.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.0, 543.0, 19.0, 19.0 ],
+					"presentation_rect" : [ 191.0, 93.0, 19.0, 19.0 ],
 					"varname" : "col_L"
 				}
 
@@ -6074,7 +6074,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4910.0, 878.0, 18.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 177.0, 564.0, 18.0, 19.0 ],
+					"presentation_rect" : [ 211.0, 114.0, 18.0, 19.0 ],
 					"varname" : "col_D"
 				}
 
@@ -6094,7 +6094,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4911.0, 837.0, 18.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 178.0, 523.0, 18.0, 18.0 ],
+					"presentation_rect" : [ 212.0, 73.0, 18.0, 18.0 ],
 					"varname" : "col_U"
 				}
 
@@ -6114,7 +6114,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4898.0, 809.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 494.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 199.0, 44.0, 42.0, 18.0 ],
 					"varname" : "RT"
 				}
 
@@ -6134,7 +6134,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 4761.0, 810.0, 42.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 28.0, 495.0, 42.0, 18.0 ],
+					"presentation_rect" : [ 62.0, 45.0, 42.0, 18.0 ],
 					"varname" : "LT"
 				}
 
@@ -6152,7 +6152,7 @@
 					"patching_rect" : [ 4739.0, 810.0, 223.0, 156.0 ],
 					"pic" : "gamectl_bg.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 498.0, 223.0, 156.0 ]
+					"presentation_rect" : [ 40.0, 48.0, 223.0, 156.0 ]
 				}
 
 			}
@@ -6965,7 +6965,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5686.0, 2582.0, 93.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 666.0, 93.0, 29.0 ],
+					"presentation_rect" : [ 116.5, 629.0, 93.0, 29.0 ],
 					"suppressinlet" : 1,
 					"text" : "↗ ↘ ↙ ↖",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -6987,7 +6987,7 @@
 					"patching_rect" : [ 6301.0, 3672.0, 289.0, 153.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 9,
-					"presentation_rect" : [ 82.0, 695.0, 289.0, 153.0 ],
+					"presentation_rect" : [ 198.5, 655.0, 289.0, 153.0 ],
 					"text" : "This determines how diagonals are triggered.\n\nLatch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad\n\nDelay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
@@ -7496,7 +7496,7 @@
 					"patching_rect" : [ 5401.0, 2708.0, 277.0, 55.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 82.0, 701.0, 277.0, 55.0 ],
+					"presentation_rect" : [ 198.5, 664.0, 277.0, 55.0 ],
 					"text" : "Before pressing a diagonal, this is the amount of time you have to press ↑ → ↓ ← before they trigger.",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
@@ -7554,7 +7554,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 5718.0, 2643.0, 61.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 716.0, 72.0, 59.0 ],
+					"presentation_rect" : [ 124.5, 679.0, 72.0, 59.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.maxwindow_posttext"
@@ -7628,7 +7628,7 @@
 					"patching_rect" : [ 6784.0, 3691.0, 274.0, 71.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 84.0, 777.0, 274.0, 71.0 ],
+					"presentation_rect" : [ 200.5, 740.0, 274.0, 71.0 ],
 					"text" : "After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger.",
 					"textcolor" : [ 0.874509803921569, 0.92156862745098, 0.925490196078431, 1.0 ]
 				}
@@ -7646,7 +7646,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 6617.0, 3761.0, 91.0, 59.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 783.0, 72.0, 59.0 ],
+					"presentation_rect" : [ 124.5, 746.0, 72.0, 59.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.maxwindow_posttext"
@@ -7761,7 +7761,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 6550.0, 3578.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 692.0, 77.0, 22.0 ],
+					"presentation_rect" : [ 122.5, 655.0, 77.0, 22.0 ],
 					"varname" : "diagonal trigger mode"
 				}
 
@@ -10351,7 +10351,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12564,7 +12564,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5567.0, 493.0, 318.0, 333.957009825378009 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 307.0, 425.0 ],
+					"presentation_rect" : [ 4.0, 7.0, 296.0, 35.0 ],
 					"varname" : "controller_connector_bpatcher",
 					"viewvisibility" : 1
 				}

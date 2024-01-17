@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 451.0, 109.0, 1504.0, 1233.0 ],
+		"rect" : [ -147.0, -1235.0, 1372.0, 1131.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-85",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 779.0, 535.0, 29.5, 22.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 146.0, 590.0, 131.0, 22.0 ],
+					"text" : "prepend senddevice -1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-86",
 					"maxclass" : "message",
@@ -115,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 146.0, 552.0, 60.0, 22.0 ],
+					"patching_rect" : [ 146.0, 500.0, 60.0, 22.0 ],
 					"text" : "zl.change"
 				}
 
@@ -358,7 +382,6 @@
 					"patching_rect" : [ 671.0, 566.0, 172.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 2.0, 313.5, 26.0 ],
-					"text" : "PS4 Controller",
 					"textcolor" : [ 0.874509803921569, 0.823529411764706, 0.905882352941176, 1.0 ],
 					"textjustification" : 1
 				}
@@ -407,7 +430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 954.0, 811.0, 362.0, 22.0 ],
+					"patching_rect" : [ 954.0, 813.0, 362.0, 22.0 ],
 					"text" : "script sendbox gamepadLEDVFX replace dummy_selector.maxpat"
 				}
 
@@ -443,7 +466,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 512.5, 67.0, 22.0 ],
+					"patching_rect" : [ 146.0, 465.0, 67.0, 22.0 ],
 					"text" : "prepend -1"
 				}
 
@@ -455,7 +478,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 591.5, 72.0, 22.0 ],
+					"patching_rect" : [ 146.0, 536.0, 72.0, 22.0 ],
 					"text" : "prepend led"
 				}
 
@@ -467,7 +490,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 932.0, 868.0, 67.0, 22.0 ],
+					"patching_rect" : [ 916.0, 855.0, 67.0, 22.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -484,12 +507,12 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "gamepadLEDVFX.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
+					"name" : "dummy_selector.maxpat",
+					"numinlets" : 3,
+					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 102.0, 192.0, 393.0 ],
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 146.0, 58.0, 192.0, 393.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 21.0, 314.0, 423.0 ],
 					"varname" : "gamepadLEDVFX",
@@ -1519,7 +1542,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -1547,7 +1570,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
+					"destination" : [ "obj-78", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -1573,20 +1596,6 @@
 					"destination" : [ "obj-71", 0 ],
 					"order" : 0,
 					"source" : [ "obj-117", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-132", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"source" : [ "obj-134", 0 ]
 				}
 
 			}
@@ -2202,6 +2211,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
 					"source" : [ "obj-80", 0 ]
 				}
@@ -2223,45 +2239,16 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-146::obj-54" : [ "function[74]", "function", 0 ],
-			"obj-146::obj-645" : [ "function", "function", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-85", 0 ]
 				}
 
 			}
-,
-			"inherited_shortname" : 1
-		}
-,
+ ],
 		"dependency_cache" : [ 			{
-				"name" : "AND.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "function_with_two_curves.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamepadLEDVFX.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "gamepadLEDVFX.maxpat",
+				"name" : "dummy_selector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

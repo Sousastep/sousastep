@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -216.0, -1387.0, 2181.0, 1353.0 ],
+		"rect" : [ 94.0, -1387.0, 2181.0, 1353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1366.75, 355.0, 220.5, 122.0 ],
-					"presentation_linecount" : 8,
 					"suppressinlet" : 1,
 					"text" : "don't allow single click when looper prepared, recording, fading \n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
 				}
@@ -112,7 +111,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1412.0, 928.5, 130.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "bang when button held while looper prepared"
 				}
@@ -149,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1234.0, 1024.0, 31.0, 22.0 ],
+					"patching_rect" : [ 1158.0, 1025.0, 31.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -164,7 +162,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1180.0, 851.0, 108.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "open when looper prepared"
 				}
@@ -180,7 +177,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1356.0, 851.0, 108.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "close when looper recording"
 				}
@@ -244,7 +240,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1853.0, 704.0, 108.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "bang when button held, mute looper"
 				}
@@ -260,7 +255,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1643.0, 650.5, 108.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "open when looper finishes recording and starts looping"
 				}
@@ -291,7 +285,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1599.0, 801.0, 129.0, 35.0 ],
-					"presentation_linecount" : 7,
 					"suppressinlet" : 1,
 					"text" : "unmute when looper prepared / recording"
 				}
@@ -306,8 +299,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1804.0, 809.0, 127.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 1804.0, 809.0, 130.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "mute when button held while looper looping"
 				}
@@ -323,7 +315,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 889.0, 1490.0, 100.864518581604216, 93.0 ],
-					"presentation_linecount" : 6,
 					"suppressinlet" : 1,
 					"text" : "when action button pressed, check if tuba's playing. if tuba's playing, start counting."
 				}
@@ -348,7 +339,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1047.0, 1024.0, 45.0, 22.0 ],
+					"patching_rect" : [ 1045.0, 989.0, 45.0, 22.0 ],
 					"text" : "b 2"
 				}
 
@@ -408,10 +399,10 @@
 					"id" : "obj-161",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "int", "int", "int", "int" ],
-					"patching_rect" : [ 2625.0, 647.0, 50.5, 22.0 ],
-					"text" : "t i i i i"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "int" ],
+					"patching_rect" : [ 2625.0, 647.0, 40.0, 22.0 ],
+					"text" : "t i i i"
 				}
 
 			}
@@ -507,7 +498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2534.0, 942.0, 29.5, 22.0 ],
+					"patching_rect" : [ 2569.0, 801.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -1089,7 +1080,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1022.0, 1177.0, 185.0, 22.0 ],
+					"patching_rect" : [ 969.0, 1181.0, 185.0, 22.0 ],
 					"text" : "s looper_started_recording_bang"
 				}
 
@@ -1497,7 +1488,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 928.0, 985.0, 114.500319567753195, 79.0 ],
+					"patching_rect" : [ 926.0, 950.0, 114.500319567753195, 79.0 ],
 					"suppressinlet" : 1,
 					"text" : "after looper send opens, the counter will start counting bars once the tuba starts playing"
 				}
@@ -1849,26 +1840,26 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 805.0, 2012.0, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"volume" : 						{
-							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"regen" : 						{
-							"label" : "regen",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"mix" : 						{
 							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
+						"volume" : 						{
+							"label" : "volume",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"beats" : 						{
 							"label" : "beats",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2615,6 +2606,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.691269874572754, 0.0, 0.692967176437378, 1.0 ],
 					"destination" : [ "obj-145", 0 ],
 					"source" : [ "obj-1007", 4 ]
 				}
@@ -2679,6 +2671,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.142671182751656, 1.0, 0.024962928146124, 1.0 ],
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-1014", 3 ]
 				}
@@ -2950,7 +2943,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1075", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -2959,6 +2952,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-134", 2 ],
 					"order" : 0,
+					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-90", 0 ],
+					"order" : 1,
 					"source" : [ "obj-117", 0 ]
 				}
 
@@ -3220,27 +3221,20 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-117", 0 ],
-					"source" : [ "obj-161", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-161", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-89", 0 ],
+					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-161", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 0 ],
+					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -3283,7 +3277,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-167", 0 ],
-					"midpoints" : [ 1056.5, 1164.0, 857.5, 1164.0 ],
+					"midpoints" : [ 1054.5, 1164.0, 857.5, 1164.0 ],
 					"source" : [ "obj-169", 0 ]
 				}
 
@@ -3640,6 +3634,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.0, 0.0, 0.700676321983337, 1.0 ],
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-62", 1 ]
 				}
@@ -3779,6 +3774,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.692101359367371, 0.0, 0.014248237013817, 1.0 ],
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-77", 1 ]
 				}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 462.0, -760.0, 744.0, 591.0 ],
+		"rect" : [ 827.0, -836.0, 744.0, 591.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -85,7 +85,7 @@
 					"patching_rect" : [ 358.750855483741248, 127.410489385771257, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 150 ],
+							"parameter_initial" : [ 1000 ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number[15]",
@@ -127,8 +127,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 184.542091597184935, 542.043667455880495, 150.0, 20.0 ],
-					"text" : "hold for more than 150 ms"
+					"patching_rect" : [ 166.542091597184935, 542.043667455880495, 168.0, 20.0 ],
+					"text" : "hold for more than 1000 ms"
 				}
 
 			}
