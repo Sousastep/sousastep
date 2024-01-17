@@ -43,10 +43,7 @@ SousaPlayback
 
 Steps 7 - 9 are only necessary the first time SousaPlayback starts.
 
-6. Open ``~/Documents/​Max 8/​Projects/
-   ​sousastep/​default/
-   ​SousaPlayback template Project/
-   ​SousaPlayback template.als``.
+6. Open open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaPlayback Project/​SousaPlayback.als``.
 
 7. If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 

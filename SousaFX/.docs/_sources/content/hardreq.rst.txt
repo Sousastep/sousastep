@@ -43,10 +43,13 @@ Benchmarks
 
    SousaFX takes three minutes to start, and idles around 4.8 GB RAM, 9% CPU.
 
-:windows 11, DDR4 2666, i7-9700K:
+:windows 11, DDR4 2666, i7-9700K, 8 cores:
 
-   SousaFX takes five minutes to start, and idles around 4.5 GB RAM, 14% CPU.
+   Five minutes to start, idles around 4.5 GB RAM, 14% CPU.
 
+:2012 macbook pro, DDR3 1600, 4 cores:
+
+   Ten minutes.
 
 Examples
 --------

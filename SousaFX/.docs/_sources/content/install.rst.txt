@@ -45,7 +45,7 @@ SousaFX
 SousaPlayback
 -------------
 
-7. To open the SousaPlayback template project ``~/Documents/​Max 8/​Projects/​sousastep/​default/​SousaPlayback template Project/​SousaPlayback template.als``, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
+7. To open the SousaPlayback Project, `download Live Suite <https://www.ableton.com/en/trial/>`_ from Ableton.
 
     Go to Live's settings: ``Menubar > Live > Settings...``, and set the following:
 

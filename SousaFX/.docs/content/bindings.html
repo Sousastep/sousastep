@@ -115,7 +115,9 @@
 <li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
 <li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mailinglist.html">Mailing List</a></li>
 <li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="tickets.html">Tickets</a></li>
 </ul>
 
             
@@ -188,12 +190,60 @@
 <li class="toctree-l1"><a class="reference internal" href="deadzones.html">Deadzones</a></li>
 </ul>
 </div>
-<p>The controller bindings window uses <a class="reference external" href="https://docs.cycling74.com/max8/refpages/crosspatchobject" rel="noopener noreferrer" target="_blank">max’s crosspatch</a> to connect gamepad inputs with effect parameters.</p>
-<p>To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click “save / overwrite”.</p>
-<p>The bindings are mapped to be ergonomic for having the controller on the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB’s bindings, to allow for a second bank of subdivisions.</p>
+<p>The controller bindings window uses Max’s <a class="reference external" href="https://docs.cycling74.com/max8/refpages/crosspatch" rel="noopener noreferrer" target="_blank">crosspatch</a> object to connect gamepad inputs with effect parameters.</p>
+<p>To create a binding, click one circle and drag the connection to a circle on the other side of crosspatch. To delete a binding, click the connection and press the delete key. To save bindings, click “save / overwrite”. The factory presets can not be overwritten.</p>
+<p>There are two factory preset slots for the default preset and a blank preset. The five user preset slots are empty, so the factory presets may be copied to the user preset by selecting the factory preset first, then selecting the empty user preset and saving.</p>
+<p>The bindings are mapped to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB’s assignments, to allow for a second bank of subdivisions.</p>
 <p>Click the parameter labels to open their <a class="reference internal" href="pcl.html#parameter-control-logic"><span class="std std-ref">control logic settings</span></a>.</p>
 <p>Click to the right of the parameter labels to open the parameters window that they apply to.</p>
 <a class="reference internal image-reference" href="../_images/bindings.png"><img alt="bindings window" class="align-center" src="../_images/bindings.png" style="width: 100%;" /></a>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Latch / Delay:</th><td class="field-body"><p class="first">This determines how diagonals are triggered.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Latch: after triggering a diagonal, ↑ → ↓ ← can not trigger without first releasing the dpad</li>
+<li>Delay: ↑ → ↓ ← can trigger after a diagonal without releasing the dpad</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">pre-delay:</th><td class="field-body"><p class="first">Before pressing a diagonal, this is the amount of time you have to hold ↑ → ↓ ← before they trigger.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">post-delay:</th><td class="field-body"><p class="first">After releasing a diagonal, this is the amount of time you have to release ↑ → ↓ ← before they trigger. Only available in Delay mode.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">cycle / count:</th><td class="field-body"><p class="first">This determines how the Controller Bindings Preset Selector functions. This is a global parameter that’s auto-saved.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Cycle: Single-click &amp; double click will cycle forward &amp; back through user presets.</li>
+<li>Count: # of button presses in 1 second sets user preset #.</li>
+</ul>
+</div></blockquote>
+<p>Hold the button to load the default preset.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name" colspan="2">top-right toggle:</th></tr>
+<tr class="field-odd field"><td>&#160;</td><td class="field-body"><p class="first">Enable to have the crosspatch object highlight conections that are in-use. This is useful for debugging, but uses a lot of CPU, so disable it while performing.</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name" colspan="2">latch / trigger:</th></tr>
+<tr class="field-even field"><td>&#160;</td><td class="field-body"><p class="first">This determines how the dpad and LB react to their modifier key, LT.</p>
+<ul class="simple">
+<li>Hold: Toggling with LT doesn’t trigger dpad or LB. This is useful for being able to lock open sends.</li>
+<li>Trigger: If dpad or LB is pressed, toggling with LT will trigger them. This is useful for switching between subdivisions.</li>
+</ul>
+<p>This parameter is saved with the bindings’ user presets.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Presets 1 - 4:</th><td class="field-body"><p class="first last">These four bindings can select each of the first 16 <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Presets</span></a>. Clicking them selects a preset, and holding them for more than 1 second sets the preset bank. Holding preset 1 sets preset bank 1 (presets 1 - 4), holding preset 2 sets preset bank 2 (presets 5 - 8), holding Preset 3 sets preset bank 3 (presets 9 - 12), and holding preset 4 sets preset bank 4 (presets 13 - 16).</p>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 

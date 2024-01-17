@@ -348,17 +348,17 @@ distributed under the Apache 2.0 license.
     
     For SousaFX to comply with the license I must inform you that I recolored the following icons:
     
-      - https://iconduck.com/icons/92336/weather-sunset-down
+      - `weather sunset down <https://iconduck.com/icons/92336/weather-sunset-down>`_
       
-      - https://iconduck.com/icons/91258/select-color
+      - `select colors <https://iconduck.com/icons/91258/select-color>`_
       
-      - https://iconduck.com/icons/91094/restart
+      - `restart <https://iconduck.com/icons/91094/restart>`_
       
-      - https://iconduck.com/icons/90226/midi
+      - `midi <https://iconduck.com/icons/90226/midi>`_
       
-      - https://iconduck.com/icons/90175/metronome
+      - `metronome <https://iconduck.com/icons/90175/metronome>`_
       
-      - https://iconduck.com/icons/86936/arrow-decision-auto-outline
+      - `arrow decision auto outline <https://iconduck.com/icons/86936/arrow-decision-auto-outline>`_
 
 
 icofont/LICENSE
@@ -385,7 +385,7 @@ The IcoFont authority reserves the right to change or modify the above license t
 
 .. important::
 
-    For SousaFX to comply with the license I must inform you that I recolored the following icon: https://iconduck.com/icons/249084/swirl
+    For SousaFX to comply with the license I must inform you that I recolored the following icon: `swirl <https://iconduck.com/icons/249084/swirl>`_
 
 
 KDE/oxygen-icons
@@ -397,5 +397,5 @@ https://github.com/KDE/oxygen-icons
 
 .. important::
 
-    For SousaFX to comply with the license I must inform you that I recolored the following icon: https://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-games-config-options-icon.html
+    For SousaFX to comply with the license I must inform you that I recolored the following icon: `action games config options <https://www.iconarchive.com/show/oxygen-icons-by-oxygen-icons.org/Actions-games-config-options-icon.html>`_
 
