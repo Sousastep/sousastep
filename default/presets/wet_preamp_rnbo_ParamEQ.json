@@ -1,0 +1,74 @@
+{
+	"pattrstorage" : 	{
+		"name" : "wet_preamp_rnbo_ParamEQ[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"ParamEQ" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "ParamEQ",
+							"origin" : "ParamEQ",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"__sps" : 								{
+									"Level~" : 									{
+
+									}
+,
+									"HighMid~" : 									{
+
+									}
+,
+									"HighCut~" : 									{
+
+									}
+,
+									"LowMid~" : 									{
+
+									}
+
+								}
+,
+								"highcut" : 								{
+									"value" : 0.0
+								}
+,
+								"lomidfq" : 								{
+									"value" : 150.0
+								}
+,
+								"lomid" : 								{
+									"value" : -2.0
+								}
+,
+								"himidfq" : 								{
+									"value" : 2200.0
+								}
+,
+								"level" : 								{
+									"value" : 0.0
+								}
+,
+								"himid" : 								{
+									"value" : 9.0
+								}
+,
+								"__presetid" : "ParamEQ"
+							}
+
+						}
+ ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

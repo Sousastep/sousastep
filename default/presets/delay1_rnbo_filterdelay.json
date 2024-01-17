@@ -1,0 +1,97 @@
+{
+	"pattrstorage" : 	{
+		"name" : "delay1_rnbo_filterdelay",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"pitchshift" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "FilterDelaySend",
+							"origin" : "FilterDelaySend",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"regen" : 								{
+									"value" : 70.0
+								}
+,
+								"__sps" : 								{
+									"DelayCalc" : 									{
+
+									}
+,
+									"FilterDelay~" : 									{
+										"__sps" : 										{
+											"Filter~" : 											{
+
+											}
+,
+											"Filter~[1]" : 											{
+
+											}
+,
+											"Filter~[2]" : 											{
+
+											}
+,
+											"Filter~[3]" : 											{
+
+											}
+
+										}
+
+									}
+,
+									"Volume~" : 									{
+
+									}
+
+								}
+,
+								"filter" : 								{
+									"value" : 1.0
+								}
+,
+								"time" : 								{
+									"value" : 428.571428571428555
+								}
+,
+								"volume" : 								{
+									"value" : -6.0
+								}
+,
+								"color" : 								{
+									"value" : 78.0
+								}
+,
+								"fb" : 								{
+									"value" : 1.0
+								}
+,
+								"spread" : 								{
+									"value" : 12.0
+								}
+,
+								"scale" : 								{
+									"value" : 3.0
+								}
+,
+								"__presetid" : "FilterDelaySend"
+							}
+
+						}
+ ],
+					"preset" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

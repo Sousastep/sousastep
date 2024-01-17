@@ -1,0 +1,36 @@
+{
+	"pattrstorage" : 	{
+		"name" : "dual_loopers[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"pre-loop env thresh" : [ 0.216997518610422 ],
+					"looper1::looper_volume" : [ 0.0 ],
+					"looper1::fade-out" : [ 1.0 ],
+					"looper1::beats-per-loop" : [ 32.0 ],
+					"looper1::DJfilter::smooth_freq_mod" : [ 78.593807896277241 ],
+					"stutterstep::stutter volume[1]" : [ 0.0 ],
+					"stutterstep::inthru" : [ 0.0 ],
+					"stutterstep::window" : [ 6.0 ],
+					"stutterstep::offset[1]" : [ 0.013937007874016 ],
+					"stutterstep::bypass_hipass" : [ 0 ],
+					"stutterstep::accel-vol-dip" : [ 100.0 ],
+					"looper2::looper_volume" : [ 0.0 ],
+					"looper2::fade-out" : [ 2.0 ],
+					"looper2::beats-per-loop" : [ 32.0 ],
+					"looper2::DJfilter::smooth_freq_mod" : [ 78.593807896277241 ],
+					"DJfilter::smooth_freq_mod" : [ 21.344361429481385 ],
+					"sousaFX_tremolo::syncrate" : [ 3.0 ],
+					"sousaFX_tremolo::duty" : [ 0.0 ],
+					"sousaFX_tremolo::phase" : [ 0.0 ],
+					"sousaFX_tremolo::smooth[1]" : [ 25.196850393700775 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Post-Crossfade_FX_plugin1_rnbo_or_plugin",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"rnbo_or_plugin" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,91 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main_reverb_rnbo_platereverb[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"platereverb" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "PlateReverb",
+							"origin" : "PlateReverb",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"__sps" : 								{
+									"CombR~" : 									{
+
+									}
+,
+									"CombL~" : 									{
+
+									}
+,
+									"RoomB~" : 									{
+
+									}
+,
+									"Mix~" : 									{
+
+									}
+,
+									"Blur~" : 									{
+
+									}
+,
+									"Shuffle~" : 									{
+
+									}
+,
+									"Damp~" : 									{
+
+									}
+,
+									"RoomA~" : 									{
+
+									}
+
+								}
+,
+								"diff" : 								{
+									"value" : 60.0
+								}
+,
+								"size" : 								{
+									"value" : 20.0
+								}
+,
+								"decay" : 								{
+									"value" : 20.0
+								}
+,
+								"damp" : 								{
+									"value" : 85.0
+								}
+,
+								"jitter" : 								{
+									"value" : 50.0
+								}
+,
+								"mix" : 								{
+									"value" : 5.0
+								}
+,
+								"__presetid" : "PlateReverb"
+							}
+
+						}
+ ],
+					"preset" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

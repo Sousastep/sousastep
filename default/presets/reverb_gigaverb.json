@@ -1,0 +1,25 @@
+{
+	"pattrstorage" : 	{
+		"name" : "reverb_gigaverb[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bpGigaverb::Damp" : [ 0.7 ],
+					"bpGigaverb::Dry" : [ 1.0 ],
+					"bpGigaverb::Early" : [ 0.25 ],
+					"bpGigaverb::Regen" : [ 0.5 ],
+					"bpGigaverb::Size" : [ 74.999999999999986 ],
+					"bpGigaverb::Spread" : [ 23.0 ],
+					"bpGigaverb::Tail" : [ 0.25 ],
+					"bpGigaverb::Time" : [ 11.000000000000002 ],
+					"bpGigaverb::bypass" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

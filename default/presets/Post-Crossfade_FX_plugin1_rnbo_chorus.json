@@ -1,0 +1,21 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Post-Crossfade_FX_plugin1_rnbo_chorus",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"TapMult" : [ 0 ],
+					"depth" : [ "depth", 18.0 ],
+					"rate" : [ "rate", 50.0 ],
+					"spread" : [ "spread", 59.0 ],
+					"sync" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

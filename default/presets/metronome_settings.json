@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "metronome_settings[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"where_click" : [ 0 ],
+					"metro_enable" : [ 0 ],
+					"bars-per-risset-loop" : [ 12.0 ],
+					"risset-accel-or-decel" : [ 0 ],
+					"phasor direct or link" : [ 0 ],
+					"auto-set tempo source" : [ 0 ],
+					"tempo source" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

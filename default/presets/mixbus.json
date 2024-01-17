@@ -1,0 +1,28 @@
+{
+	"pattrstorage" : 	{
+		"name" : "mixbus[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"very_low_volume" : [ -5.0 ],
+					"low_volume" : [ -8.0 ],
+					"high_volume" : [ 0.0 ],
+					"auto-mute octaver while tuba's soloing" : [ 0 ],
+					"attack_low::muted" : [ 0.0 ],
+					"attack_octave::muted" : [ 1.0 ],
+					"sustain_octave::muted" : [ 1.0 ],
+					"attackFX::muted" : [ 0.0 ],
+					"sustainFX::muted" : [ 0.0 ],
+					"plugin_or_rnbo_selector::mod_comp_rnbo_or_plugin" : [ 1 ],
+					"plugin_or_rnbo_selector[1]::dry_comp_rnbo_or_plugin" : [ 1 ],
+					"sustain_low::muted" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

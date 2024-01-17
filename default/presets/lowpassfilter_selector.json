@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "lowpassfilter_selector[2]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"lowpassfilter_selector[1]" : [ 0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

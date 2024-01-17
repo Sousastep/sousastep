@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "crossover_plugin_or_gen",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"gen_or_plugin" : [ 0 ],
+					"freq" : [ 95.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
