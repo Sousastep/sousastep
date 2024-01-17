@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -250.0, -1387.0, 875.0, 1387.0 ],
+		"rect" : [ -250.0, -1387.0, 1471.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -738,17 +738,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-535",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1689.0, 2159.5, 142.0, 22.0 ],
-					"text" : "s \"mute and clear looper\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "Main Input Stutter Accel (bi)", "Main Input Stutter, Tremolo, Filters" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -1365,20 +1354,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
-					"id" : "obj-482",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1673.0, 2101.0, 228.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "If so, then direct to live_scene_selection. Else, use for menuing."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
 					"id" : "obj-473",
 					"maxclass" : "comment",
 					"numinlets" : 0,
@@ -1398,18 +1373,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1617.0, 2018.0, 29.5, 22.0 ],
 					"text" : "< 4"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-460",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1617.0, 2108.0, 52.0, 22.0 ],
-					"text" : "gate 2 1"
 				}
 
 			}
@@ -5638,7 +5601,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1607.0, 1714.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 654, -1032, 1054, -34 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
@@ -10388,7 +10351,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "half",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10879,16 +10842,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 12,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 15,
-										"out" : 3,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 30,
 										"out" : 22,
 										"gain" : 1.0
@@ -11074,18 +11027,18 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 47,
-										"out" : 51,
+										"in" : 46,
+										"out" : 38,
 										"gain" : 1.0
 									}
 , 									{
 										"in" : 0,
-										"out" : 3,
+										"out" : 2,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 46,
-										"out" : 38,
+										"in" : 47,
+										"out" : 49,
 										"gain" : 1.0
 									}
  ]
@@ -11197,7 +11150,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1430.0, 2719.0, 99.0, 22.0 ],
+					"patching_rect" : [ 1396.0, 3537.0, 99.0, 22.0 ],
 					"text" : "s \"looper control\""
 				}
 
@@ -16880,38 +16833,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-156", 0 ],
-					"order" : 1,
-					"source" : [ "obj-460", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-339", 0 ],
-					"order" : 1,
-					"source" : [ "obj-460", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"order" : 0,
-					"source" : [ "obj-460", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-535", 0 ],
-					"order" : 0,
-					"source" : [ "obj-460", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-250", 2 ],
 					"source" : [ "obj-462", 0 ]
 				}
@@ -19305,7 +19226,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-460", 1 ],
+					"destination" : [ "obj-156", 0 ],
+					"order" : 1,
+					"source" : [ "obj-80", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"order" : 0,
 					"source" : [ "obj-80", 0 ]
 				}
 
