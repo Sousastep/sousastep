@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 642.0, 573.0, 1545.0, 779.0 ],
+		"rect" : [ 642.0, 87.0, 1545.0, 1265.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,38 +39,6 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-37",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 403.0, 37.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "???"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 37.0, 426.0, 62.0, 22.0 ],
-					"restore" : [ "drive", 25.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr drive",
-					"varname" : "drive"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -135,6 +103,7 @@
 					"patching_rect" : [ 414.0, 476.0, 56.0, 22.0 ],
 					"restore" : 					{
 						"bass" : [ "bass", 0.0 ],
+						"drive" : [ "drive", 25.0 ],
 						"highcut" : [ "highcut", 0.0 ],
 						"lowcut" : [ "lowcut", 0.0 ],
 						"mid" : [ "mid", 0.0 ],
@@ -638,7 +607,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 33.0, 104.0, 22.0 ],
 					"text_width" : 64.0,
-					"varname" : "attrui"
+					"varname" : "drive"
 				}
 
 			}
@@ -1091,13 +1060,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-31", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
-					"source" : [ "obj-33", 1 ]
 				}
 
 			}
