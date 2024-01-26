@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 738.0, 217.0, 1331.0, 750.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"title" : "delay & reverb sends",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-81",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3176.0, 2519.0, 55.0, 22.0 ],
+					"text" : "del 1500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3146.0, 2478.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-212",
 					"maxclass" : "button",
@@ -250,7 +274,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-119",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -267,6 +290,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-118",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -287,7 +311,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 936.0, 1518.0, 87.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -381,7 +405,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3146.0, 2318.0, 120.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 1.072047244094487 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -402,6 +426,8 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 3196.0, 2350.0, 51.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 360.0, 231.915443608176361, 51.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "max dub send",
@@ -1110,7 +1136,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2703.0, 1563.0, 179.0, 122.0 ],
+					"patching_rect" : [ 2703.0, 1563.0, 180.0, 122.0 ],
 					"suppressinlet" : 1,
 					"text" : "the looper input and main input share the time fx sends. \n\nif either the looper or main delay send are mapped to a joystick axis instead of a button, then the delay send will also feedback upon itself"
 				}
@@ -2493,7 +2519,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 923.290038999999979, 2018.0, 150.0, 22.0 ],
-					"restore" : [ -3.0 ],
+					"restore" : [ -9.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3912,7 +3938,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-227", 1 ],
-					"order" : 7,
+					"order" : 8,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3920,7 +3946,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-228", 1 ],
-					"order" : 6,
+					"order" : 7,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3928,7 +3954,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-229", 1 ],
-					"order" : 5,
+					"order" : 6,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3936,7 +3962,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-230", 1 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3944,7 +3970,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-232", 1 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3952,7 +3978,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-233", 1 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3960,7 +3986,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-234", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -3969,6 +3995,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-235", 1 ],
 					"order" : 0,
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
 					"source" : [ "obj-115", 0 ]
 				}
 
@@ -5201,6 +5235,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-732", 1 ],
 					"source" : [ "obj-351", 0 ]
 				}
@@ -6116,6 +6157,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"source" : [ "obj-81", 0 ]
 				}
 
 			}
