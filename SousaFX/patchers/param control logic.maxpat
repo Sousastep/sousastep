@@ -41,6 +41,66 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 2731.0, 58.5, 29.5, 22.0 ],
+					"text" : "t i i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-157",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2698.0, 130.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2806.0, 162.0, 220.0, 22.0 ],
+					"text" : "set \"This control is mapped to a button.\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-155",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 2806.0, 126.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-154",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 2806.0, 87.0, 33.0, 22.0 ],
+					"text" : ">= 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-151",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -164,6 +224,7 @@
 					"bordercolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-178",
+					"ignoreclick" : 1,
 					"maxclass" : "live.menu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -610,8 +671,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3006.0, 520.0, 292.0, 22.0 ],
-					"text" : "set \"This control is not mapped to any joystick's axis.\""
+					"patching_rect" : [ 3006.0, 520.0, 180.0, 22.0 ],
+					"text" : "set \"This control is not mapped.\""
 				}
 
 			}
@@ -650,7 +711,7 @@
 					"patching_rect" : [ 2906.0, 558.0, 403.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 283.0, 486.0, 26.0 ],
-					"text" : "This control is not mapped to any joystick's axis.",
+					"text" : "This control is not mapped.",
 					"textcolor" : [ 0.894117647058824, 0.925490196078431, 0.917647058823529, 1.0 ]
 				}
 
@@ -1453,6 +1514,7 @@
 					"format" : 6,
 					"hint" : "value to set when control relinquished",
 					"id" : "obj-8",
+					"ignoreclick" : 1,
 					"maxclass" : "flonum",
 					"maximum" : 1.0,
 					"minimum" : 0.0,
@@ -1782,6 +1844,7 @@
 					"activedialcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
 					"hint" : "Curve amount.",
 					"id" : "obj-36",
+					"ignoreclick" : 1,
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -2061,6 +2124,7 @@
 				"box" : 				{
 					"hint" : "Invert control.",
 					"id" : "obj-57",
+					"ignoreclick" : 1,
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
@@ -2630,7 +2694,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2698.0, 126.0, 30.0, 30.0 ]
+					"patching_rect" : [ 2731.0, 17.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -2730,7 +2794,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2197.0, 402.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2196.0, 424.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -2742,7 +2806,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2146.0, 402.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2145.0, 424.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -2754,7 +2818,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2197.0, 342.0, 179.0, 22.0 ],
+					"patching_rect" : [ 2196.0, 386.0, 179.0, 22.0 ],
 					"text" : "r \"bang when tuba's not playing\""
 				}
 
@@ -2766,7 +2830,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2146.0, 307.0, 159.0, 22.0 ],
+					"patching_rect" : [ 2145.0, 351.0, 159.0, 22.0 ],
 					"text" : "r \"bang when tuba's playing\""
 				}
 
@@ -3086,7 +3150,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
+					"destination" : [ "obj-158", 0 ],
 					"source" : [ "obj-1099", 0 ]
 				}
 
@@ -3511,6 +3575,57 @@
 				"patchline" : 				{
 					"destination" : [ "obj-150", 0 ],
 					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-155", 0 ],
+					"order" : 0,
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"order" : 1,
+					"source" : [ "obj-154", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"source" : [ "obj-155", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-154", 0 ],
+					"source" : [ "obj-158", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-157", 1 ],
+					"source" : [ "obj-158", 0 ]
 				}
 
 			}
