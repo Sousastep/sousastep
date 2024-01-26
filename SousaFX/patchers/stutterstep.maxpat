@@ -47,7 +47,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1453.5, 467.346526079049909, 211.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "only allow accel when stutter enabled"
 				}
@@ -73,7 +72,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1723.0, 510.0, 29.5, 22.0 ],
-					"text" : "f"
+					"text" : "0.5"
 				}
 
 			}
@@ -87,7 +86,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 565.5, 284.0, 165.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "speedlim prevents spurious triggering which can occur with quick joystick movements"
 				}
@@ -1576,7 +1574,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1690.0, 725.0, 25.0, 36.0 ],
+					"patching_rect" : [ 1690.0, 725.0, 46.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 178.0, 18.0, 39.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
@@ -4776,14 +4774,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-174", 0 ],
-					"source" : [ "obj-186", 1 ]
+					"source" : [ "obj-186", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-186", 0 ]
+					"source" : [ "obj-186", 1 ]
 				}
 
 			}
