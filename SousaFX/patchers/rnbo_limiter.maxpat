@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 5,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 610.0, 177.0, 1621.0, 1173.0 ],
+		"rect" : [ 120.0, 175.0, 1621.0, 1173.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 858.0, 787.0, 66.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 858.0, 832.0, 131.0, 23.0 ],
+					"text" : "#1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 858.0, 876.0, 642.0, 23.0 ],
+					"text" : "sprintf write \\\"~/Documents/Max 8/Projects/sousastep/SousaFX/data/%s_rnbo_limiter.json\\\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"format" : 6,
 					"id" : "obj-8",
@@ -231,16 +270,21 @@
 ,
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 275.0, 659.5, 333.0, 24.0 ],
-					"presentation_linecount" : 7,
 					"rnboattrcache" : 					{
-						"lookahead" : 						{
-							"label" : "lookahead",
+						"release" : 						{
+							"label" : "release",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"release" : 						{
-							"label" : "release",
+						"gain" : 						{
+							"label" : "gain",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"lookahead" : 						{
+							"label" : "lookahead",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -256,16 +300,10 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
-,
-						"gain" : 						{
-							"label" : "gain",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
 
 					}
 ,
-					"rnboversion" : "1.2.0-dev.70",
+					"rnboversion" : "1.2.4",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -282,32 +320,8 @@
 						"type" : "list",
 						"subtype" : "Undefined",
 						"embed" : 1,
-						"snapshot" : 						{
-							"release" : 							{
-								"value" : 300.0
-							}
-,
-							"__presetid" : "74a09b97-f360-11ea-9b97-34363bd3ed8c",
-							"attack" : 							{
-								"value" : 1.5
-							}
-,
-							"thresh" : 							{
-								"value" : -0.3
-							}
-,
-							"gain" : 							{
-								"value" : 0.0
-							}
-,
-							"lookahead" : 							{
-								"value" : 1.5
-							}
-
-						}
-,
 						"snapshotlist" : 						{
-							"current_snapshot" : 0,
+							"current_snapshot" : -1,
 							"entries" : [ 								{
 									"filetype" : "C74Snapshot",
 									"version" : 2,
@@ -510,8 +524,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 778.86189107903499, 998.609504027487787, 81.0, 24.0 ],
-					"text" : "writeagain"
+					"patching_rect" : [ 778.86189107903499, 998.609504027487787, 81.0, 24.0 ]
 				}
 
 			}
@@ -564,10 +577,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 461.284971751907847, 1064.031723673568194, 402.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_limiter @savemode 0 @outputmode 1",
@@ -778,7 +791,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 613.0, 747.0, 63.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "Gain  reduction"
 				}
 
@@ -812,7 +824,7 @@
 					"patching_rect" : [ 225.0, 348.5, 400.0, 87.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 6.0, 32.5, 337.0, 100.0 ],
+					"presentation_rect" : [ 6.0, 32.5, 340.0, 100.0 ],
 					"text" : "Limiting is a type of safety dynamic range compression that allows signals below a specified input level to pass unaffected while attenuating the peaks of stronger signals that exceed this threshold. This example uses the peak limiter patch present in the Gen examples library (which was inspired by the standard Max object, omx.peakilim~) and shows how Gen patching or GenExpr code can be implemented in Rnbo."
 				}
 
@@ -994,6 +1006,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-35", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-39", 0 ]
@@ -1083,6 +1109,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-73", 1 ]
 				}
@@ -1105,22 +1138,9 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "limiter.rnbopat",
-				"bootpath" : "~/Music/_repo/sousastep/Sousastep Audio FX/patchers",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
 				"implicit" : 1

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 6,
+			"minor" : 6,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1352.0, 959.0 ],
+		"rect" : [ 782.0, 323.0, 1514.0, 959.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 801.951638418574476, 37.577780353919479, 66.0, 23.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 801.951638418574476, 82.577780353919479, 131.0, 23.0 ],
+					"text" : "#1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 801.951638418574476, 126.577780353919479, 642.0, 23.0 ],
+					"text" : "sprintf write \\\"~/Documents/Max 8/Projects/sousastep/SousaFX/data/%s_rnbo_octaver.json\\\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-4",
@@ -214,8 +253,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 6,
+							"minor" : 6,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -509,14 +548,8 @@
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 350.283557234481123, 514.750273469002877, 344.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"rectified" : 						{
-							"label" : "rectified",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"drive" : 						{
-							"label" : "drive",
+						"tone" : 						{
+							"label" : "tone",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -527,14 +560,20 @@
 							"parsestring" : ""
 						}
 ,
+						"octave1" : 						{
+							"label" : "octave1",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"octave2" : 						{
 							"label" : "octave2",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"tone" : 						{
-							"label" : "tone",
+						"drive" : 						{
+							"label" : "drive",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -545,15 +584,15 @@
 							"parsestring" : ""
 						}
 ,
-						"octave1" : 						{
-							"label" : "octave1",
+						"rectified" : 						{
+							"label" : "rectified",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.0-dev.7",
+					"rnboversion" : "1.2.4",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1394,8 +1433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 739.528557745701619, 155.609504027487787, 81.0, 24.0 ],
-					"text" : "writeagain"
+					"patching_rect" : [ 739.951638418574476, 157.17898759874322, 81.0, 24.0 ]
 				}
 
 			}
@@ -1448,10 +1486,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 502.951638418574476, 221.031723673568308, 409.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_octaver @savemode 0 @outputmode 1",
@@ -1882,7 +1920,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 749.028557745701619, 203.014325794620845, 512.451638418574476, 203.014325794620845 ],
+					"midpoints" : [ 749.451638418574476, 203.014325794620845, 512.451638418574476, 203.014325794620845 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -1975,6 +2013,27 @@
 					"destination" : [ "obj-20", 0 ],
 					"hidden" : 1,
 					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
