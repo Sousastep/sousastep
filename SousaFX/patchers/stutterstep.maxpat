@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 341.0, 87.0, 1405.0, 959.0 ],
+		"rect" : [ 531.0, 308.0, 1405.0, 959.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-197",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1552.0, 742.5, 73.0, 22.0 ],
+					"text" : "round 0.001"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-209",
 					"maxclass" : "newobj",
@@ -95,8 +107,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "stop" ],
-					"patching_rect" : [ 1672.5, 410.0, 54.0, 22.0 ],
-					"text" : "t b i stop"
+					"patching_rect" : [ 1672.5, 410.0, 58.0, 22.0 ],
+					"text" : "t b 1 stop"
 				}
 
 			}
@@ -323,7 +335,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "determines how much the stutter volume will decrease as the acceleration increases from neutral",
 					"id" : "obj-235",
@@ -719,7 +731,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1807.0, 1079.0, 74.0, 22.0 ],
-					"text" : "slide~ 33 33"
+					"text" : "slide~ 50 50"
 				}
 
 			}
@@ -959,7 +971,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1723.0, 512.0, 73.0, 22.0 ],
+					"patching_rect" : [ 1817.5, 701.5, 73.0, 22.0 ],
 					"text" : "round 0.001"
 				}
 
@@ -1360,7 +1372,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "positive offset can improve transients at the beginning of the loop by shifting them outside of the window.",
 					"id" : "obj-22",
@@ -1441,7 +1453,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.",
 					"id" : "obj-159",
@@ -1538,7 +1550,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "stutter subdivision selector",
 					"id" : "obj-106",
@@ -1589,7 +1601,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "slow down and speed up the stutter FX",
 					"id" : "obj-145",
@@ -2089,7 +2101,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1461.0, 1223.0, 87.0, 22.0 ],
-					"text" : "slide~ 333 333"
+					"text" : "slide~ 400 400"
 				}
 
 			}
@@ -2328,7 +2340,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -2378,8 +2389,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.92549, 1.0, 1.0 ],
-					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -4302,41 +4312,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"order" : 3,
-					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-105", 0 ],
-					"order" : 0,
-					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"order" : 1,
-					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-228", 0 ],
-					"midpoints" : [ 1827.0, 792.0, 1866.0, 792.0, 1866.0, 990.0, 1795.5, 990.0 ],
-					"order" : 2,
-					"source" : [ "obj-129", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"order" : 4,
+					"destination" : [ "obj-183", 0 ],
 					"source" : [ "obj-129", 0 ]
 				}
 
@@ -4422,16 +4398,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-129", 0 ],
+					"order" : 0,
 					"source" : [ "obj-145", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-129", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-197", 0 ],
+					"order" : 1,
 					"source" : [ "obj-145", 1 ]
 				}
 
@@ -4687,7 +4663,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-183", 0 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-174", 0 ]
 				}
 
@@ -4785,7 +4761,41 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-103", 0 ],
+					"order" : 3,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"order" : 0,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"order" : 1,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-228", 0 ],
+					"midpoints" : [ 1827.0, 792.0, 1866.0, 792.0, 1866.0, 990.0, 1795.5, 990.0 ],
+					"order" : 2,
+					"source" : [ "obj-183", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"order" : 4,
 					"source" : [ "obj-183", 0 ]
 				}
 
@@ -4885,6 +4895,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-122", 0 ],
+					"source" : [ "obj-197", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-182", 1 ],
 					"source" : [ "obj-198", 1 ]
 				}
@@ -4906,15 +4923,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-122", 0 ],
-					"midpoints" : [ 1699.5, 594.0, 1561.5, 594.0 ],
-					"order" : 2,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-128", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
@@ -4926,6 +4934,15 @@
 					"destination" : [ "obj-129", 0 ],
 					"midpoints" : [ 1699.5, 584.0, 1827.0, 584.0 ],
 					"order" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-197", 0 ],
+					"midpoints" : [ 1699.5, 594.0, 1561.5, 594.0 ],
+					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
 
