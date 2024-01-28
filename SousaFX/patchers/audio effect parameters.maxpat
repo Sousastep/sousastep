@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 932.0, 53.0, 1091.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1102,7 +1102,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.047872340425532, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.295 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.856382978723404, 1.0, 0, -0.745, 1.0, 1.0, 0, 0.0 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 1.0,
@@ -1117,7 +1117,7 @@
 					"patching_rect" : [ 5891.0, 4244.0, 200.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.047872340425532, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.295, "curve" ],
+							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.856382978723404, 1.0, 0, -0.745, 1.0, 1.0, 0, 0.0, "curve" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[31]",
@@ -4302,13 +4302,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1055 482 1505 957"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 116.0 ],
+					"text" : "1032 237 1552 770 1122 831 1486 1367"
 				}
 
 			}
@@ -6534,7 +6534,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"id" : "obj-353",
@@ -7129,7 +7129,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"id" : "obj-109",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -7178,7 +7178,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"id" : "obj-44",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -12044,7 +12044,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1901.0, 1674.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -12062,7 +12062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1901.0, 1566.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -12080,7 +12080,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1901.0, 1459.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -12295,7 +12295,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1901.0, 1351.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -12477,7 +12477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1582.0, 1351.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -12491,7 +12491,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"id" : "obj-65",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -20503,6 +20503,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Pre-LPF_FX_plugin3_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pre-LPF_FX_plugin4_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Pro-Q 3.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../Snapshots",
@@ -20818,8 +20832,8 @@
 			}
 , 			{
 				"name" : "dual_loopers.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
