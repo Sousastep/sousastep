@@ -225,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 156.0, 196.0, 65.0, 22.0 ],
+					"patching_rect" : [ 178.0, 196.0, 65.0, 22.0 ],
 					"text" : "change -1."
 				}
 
@@ -345,7 +345,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"fontname" : "Monaco",
 					"hint" : "MIDI CC Output #",
 					"id" : "obj-708",
@@ -392,13 +391,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1277", 0 ],
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-10", 0 ]
@@ -543,7 +535,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-1277", 0 ],
 					"source" : [ "obj-548", 0 ]
 				}
 
