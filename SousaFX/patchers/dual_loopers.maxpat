@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 734.0, -1161.0, 1514.0, 1109.0 ],
+		"rect" : [ 1049.0, 297.0, 1407.0, 1012.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1119,7 +1119,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 339.0, 1105.0, 34.0, 22.0 ],
+					"patching_rect" : [ 339.0, 1078.0, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -1691,7 +1691,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 339.0, 1054.0, 89.0, 22.0 ],
+					"patching_rect" : [ 339.0, 1010.0, 89.0, 22.0 ],
 					"text" : "r mute_loopers"
 				}
 
@@ -1917,7 +1917,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.0-dev.7",
+					"rnboversion" : "1.2.4",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2635,7 +2635,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 536.0 ],
 					"xoffset" : -482.0,
-					"yoffset" : -740.0
+					"yoffset" : -358.0
 				}
 
 			}
