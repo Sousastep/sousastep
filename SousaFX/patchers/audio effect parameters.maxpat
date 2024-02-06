@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1739.0, 542.0, 821.0, 898.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6109.0, 4244.0, 150.0, 93.0 ],
+					"patching_rect" : [ 6109.0, 4244.0, 151.0, 93.0 ],
 					"suppressinlet" : 1,
 					"text" : "this function should be tied to the noise gate somehow.\n\nor maybe the input to dynamic smoother should be post-noise gate"
 				}
@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2323.0, 1987.0, 150.0, 50.0 ],
+					"patching_rect" : [ 2323.0, 1987.0, 153.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "\"dist\" is a holdover from when this pattrstorage only selected distortion fx"
 				}
@@ -2697,8 +2697,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4408.0, 5758.0, 100.0, 22.0 ],
-					"text" : "slide~ 480 48000"
+					"patching_rect" : [ 4408.0, 5758.0, 87.0, 22.0 ],
+					"text" : "slide~ 48 4800"
 				}
 
 			}
@@ -2757,8 +2757,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4408.0, 5716.0, 29.5, 22.0 ],
-					"text" : "/~ 2"
+					"patching_rect" : [ 4408.0, 5716.0, 44.0, 22.0 ],
+					"text" : "*~ 100"
 				}
 
 			}
@@ -3345,7 +3345,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "live", ",", "link" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4378,13 +4378,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 19,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1098 452 2490 1358"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 263.0 ],
+					"text" : "1062 170 1582 703 904 825 1268 1361 1145 645 1687 928 1312 886 1628 1274 1266 1104 1667 1289"
 				}
 
 			}
@@ -5372,7 +5372,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 16.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -5459,7 +5459,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -21419,8 +21419,8 @@
 			}
 , 			{
 				"name" : "monitor_mix.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
