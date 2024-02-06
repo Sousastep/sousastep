@@ -42,12 +42,24 @@
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-472",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 5155.5, 4163.0, 62.0, 22.0 ],
+					"text" : "change -1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-656",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 5108.0, 3931.0, 55.0, 22.0 ],
+					"patching_rect" : [ 5108.0, 3931.0, 71.5, 22.0 ],
 					"text" : "onebang"
 				}
 
@@ -5737,7 +5749,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5098.0, 4172.0, 105.0, 22.0 ],
+					"patching_rect" : [ 5155.5, 4201.0, 105.0, 22.0 ],
 					"text" : "s solo_fx_enabled"
 				}
 
@@ -11074,7 +11086,7 @@
 					"patching_rect" : [ 1958.0, 3165.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "eighth",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -17937,6 +17949,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"source" : [ "obj-472", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1144", 0 ],
 					"source" : [ "obj-474", 0 ]
 				}
@@ -21259,16 +21278,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-157", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-45", 1 ],
+					"order" : 1,
 					"source" : [ "obj-992", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
-					"order" : 1,
+					"destination" : [ "obj-472", 0 ],
+					"order" : 0,
 					"source" : [ "obj-992", 0 ]
 				}
 
