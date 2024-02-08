@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1558.0, 279.0, 890.0, 721.0 ],
+		"rect" : [ 418.0, -1198.0, 890.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -87,6 +87,7 @@
 				"box" : 				{
 					"dbperled" : 6,
 					"id" : "obj-3",
+					"interval" : 100,
 					"maxclass" : "meter~",
 					"numinlets" : 1,
 					"numoutlets" : 1,
