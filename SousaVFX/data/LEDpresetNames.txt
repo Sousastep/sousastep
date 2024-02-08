@@ -19,13 +19,14 @@
 61, Single Square dub 1;
 62, cubes no cylinder acoustic;
 63, Single Circle acoustic;
-64, single shape;
+64, single cube acoustic;
 65, single shape;
 66, single shape;
 67, single shape;
 68, single shape;
 69, single shape;
 70, multiple dub 1;
+80, dingonek text effect 1;
 110, CandyWarp acoustic 1;
 111, CandyWarp dub strobe;
 112, CandyWarp dub 2;
@@ -87,7 +88,7 @@
 168, FluidFlowSNoise;
 169, FluidFlowSNoise;
 170, VoroniDuplex dub 1;
-171, VoroniDuplex;
+171, VoroniDuplex acoustic 1;
 172, VoroniDuplex;
 173, VoroniDuplex;
 174, VoroniDuplex;
@@ -98,7 +99,7 @@
 179, VoroniDuplex;
 180, ButterflyEffect dub 1;
 181, ButterflyEffect dub 2;
-182, ButterflyEffect;
+182, ButterflyEffect acoustic 1;
 183, ButterflyEffect;
 184, ButterflyEffect;
 185, ButterflyEffect;
@@ -109,7 +110,7 @@
 190, ColorDiffusionFlow idle;
 191, ColorDiffusionFlow dub;
 192, ColorDiffusionFlow dub 2;
-193, ColorDiffusionFlow;
+193, ColorDiffusionFlow acoustic;
 194, ColorDiffusionFlow;
 195, ColorDiffusionFlow;
 196, ColorDiffusionFlow;
@@ -128,3 +129,4 @@
 209, DimensionMorphingTopography;
 210, PlanetOfBaobabs idle;
 211, PlanetOfBaobabs dub;
+212, PlanetOfBaobabs acoustic;
