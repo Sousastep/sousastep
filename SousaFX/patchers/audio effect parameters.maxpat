@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ -529.0, -1387.0, 2023.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,306 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 72.0,
+					"hidden" : 1,
+					"hint" : "",
+					"id" : "obj-592",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.0, 1610.0, 414.0, 276.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 43.540983200073242, 28.5, 417.0, 276.0 ],
+					"text" : "Starting Audio Engine...",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 314.232006058053912,
+					"grad1" : [ 0.0, 0.0, 0.0, 0.77 ],
+					"grad2" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"hidden" : 1,
+					"id" : "obj-577",
+					"ignoreclick" : 0,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 236.0, 1451.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 958.0, 2257.0 ],
+					"proportion" : 0.5,
+					"pt1" : [ 0.055555555555556, 0.055555555555556 ],
+					"pt2" : [ 0.984848484848485, 1.01010101010101 ],
+					"rounded" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-693",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 3899.0, 4152.5, 254.0, 22.0 ],
+					"restore" : [ 2 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"post-crossfade FX routing while soloing\"",
+					"varname" : "post-crossfade FX routing while soloing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-692",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 3743.0, 4018.0, 182.0, 22.0 ],
+					"restore" : [ 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"post-crossfade FX routing\"",
+					"varname" : "post-crossfade FX routing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-691",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3640.0, 4238.5, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-690",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3660.0, 4195.5, 22.0, 22.0 ],
+					"text" : "t 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-689",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3629.0, 4195.5, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-688",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 3825.0, 4152.5, 52.0, 22.0 ],
+					"text" : "gate 2 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-687",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 3760.0, 4122.5, 52.0, 22.0 ],
+					"text" : "gate 2 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-686",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 3637.0, 4124.5, 44.0, 22.0 ],
+					"text" : "sel 0 3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-671",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 3637.0, 4086.5, 62.0, 22.0 ],
+					"text" : "change -1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-684",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3637.0, 4053.5, 117.0, 22.0 ],
+					"text" : "r looper_status_max"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-685",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3656.0, 3968.5, 74.0, 79.0 ],
+					"presentation_linecount" : 5,
+					"suppressinlet" : 1,
+					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-669",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3946.0, 4051.0, 150.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 432.0, 1536.0, 142.0, 50.0 ],
+					"suppressinlet" : 1,
+					"text" : "Idle, prepared, recording:\n\nLooping, fading:",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 2
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-667",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3806.0, 4247.5, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-666",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 3760.0, 4247.5, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.83 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.83 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Light",
+					"hint" : "while looper's looping, choose whether the Post-crossfade FX is post-Sustain, Attack, or Both.",
+					"id" : "obj-658",
+					"items" : [ "Attack", "FX", ",", "Sustain", "FX", ",", "Both" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3858.0, 4106.5, 147.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 578.0, 1563.0, 84.0, 23.0 ],
+					"varname" : "umenu[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.83 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.83 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Ableton Sans Light",
+					"hint" : "choose whether the Post-Crossfade FX affects Sustain, Attack, or Both.",
+					"id" : "obj-222",
+					"items" : [ "Attack", "FX", ",", "Sustain", "FX", ",", "Both" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3793.0, 4064.5, 147.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 578.0, 1536.0, 84.0, 23.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-619",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3779.0, 4301.5, 164.0, 22.0 ],
+					"text" : "s \"post-crossfade FX routing\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-662",
@@ -559,7 +859,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1197,6 +1497,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[31]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -1231,7 +1532,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1992,48 +2293,6 @@
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 120.0, 1174.599999999999909, 34.0, 22.0 ],
 					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 72.0,
-					"hidden" : 1,
-					"hint" : "",
-					"id" : "obj-592",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 1610.0, 414.0, 276.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 43.540983200073242, 28.5, 417.0, 276.0 ],
-					"text" : "Starting Audio Engine...",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 314.232006058053912,
-					"grad1" : [ 0.0, 0.0, 0.0, 0.77 ],
-					"grad2" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"hidden" : 1,
-					"id" : "obj-577",
-					"ignoreclick" : 0,
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 236.0, 1451.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 958.0, 2257.0 ],
-					"proportion" : 0.5,
-					"pt1" : [ 0.055555555555556, 0.055555555555556 ],
-					"pt2" : [ 0.984848484848485, 1.01010101010101 ],
-					"rounded" : 0
 				}
 
 			}
@@ -3345,7 +3604,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "internal", ",", "live", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4400,7 +4659,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4809,7 +5068,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5026,7 +5285,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5372,7 +5631,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 16.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -5451,6 +5710,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_units" : "%i %",
@@ -5459,7 +5719,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -6046,6 +6306,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "number",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "number",
 							"parameter_type" : 3
 						}
@@ -6640,6 +6901,7 @@
 							"parameter_longname" : "bleed",
 							"parameter_mmax" : -6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "bleed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -7597,21 +7859,53 @@
 						"patcher[2]" : 0,
 						"patcher[2]::SousaFX Background Color Preference" : 0,
 						"patcher" : 0,
-						"patcher::Main Input stutter tremolo filters" : 0
+						"patcher::Main Input stutter tremolo filters" : 0,
+						"stutterLFO" : 0,
+						"stutterLFO::stutter volume[1]" : 0,
+						"stutterLFO::inthru" : 0,
+						"stutterLFO::window" : 0,
+						"stutterLFO::offset[1]" : 0,
+						"stutterLFO::bypass_hipass" : 0,
+						"stutterLFO::accel-vol-dip" : 0
 					}
 ,
 					"fontname" : "Monaco",
 					"id" : "obj-303",
+					"interp" : 					{
+						"preset descriptions" : [ 0, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 2, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_randomize" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_randomize" : [ 2, 0.0 ],
+						"mod params::aux_SnTrSq" : [ 2, 0.0 ],
+						"mod params::aux_route_menu" : [ 2, 0.0 ],
+						"mod params::high_SnTrSq" : [ 2, 0.0 ],
+						"mod params::low_SnTrSq" : [ 2, 0.0 ],
+						"mod params::verylow_SnTrSq" : [ 2, 0.0 ],
+						"mod params::wah_or_trem" : [ 2, 0.0 ],
+						"mod params::enable auto-wah" : [ 2, 0.0 ],
+						"mod params::filter-type" : [ 2, 0.0 ],
+						"mod params::high_SnTrSq_randomize" : [ 2, 0.0 ],
+						"mod params::transient_detect::transient_definition" : [ 2, 0.0 ],
+						"post-crossfade FX routing" : [ 2, 0.0 ],
+						"post-crossfade FX routing while soloing" : [ 2, 0.0 ]
+					}
+,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 561, -1353, 1518, -34 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 657, -1292, 1670, -34 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -7669,7 +7963,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1816.0, 2749.0, 101.0, 23.0 ],
+					"patching_rect" : [ 1815.0, 2757.0, 101.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -7762,7 +8056,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7806,8 +8100,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -8515,7 +8809,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4607.0, 4143.0, 50.0, 22.0 ]
+					"patching_rect" : [ 4576.615382823619257, 4143.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -9573,8 +9867,8 @@
 					"id" : "obj-194",
 					"maxclass" : "newobj",
 					"numinlets" : 12,
-					"numoutlets" : 8,
-					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "", "" ],
+					"numoutlets" : 9,
+					"outlettype" : [ "signal", "signal", "signal", "signal", "signal", "signal", "", "", "int" ],
 					"patching_rect" : [ 4096.0, 3908.0, 499.615382823619484, 22.0 ],
 					"text" : "post-triplewrap_mixbus.maxpat",
 					"varname" : "post-triplewrap_mixbus"
@@ -9674,7 +9968,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 3949.0, 4065.0, 70.0, 22.0 ],
+					"patching_rect" : [ 3942.5, 3965.0, 70.0, 22.0 ],
 					"text" : "mc.pack~ 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -9688,7 +9982,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3949.0, 4097.0, 157.0, 22.0 ],
+					"patching_rect" : [ 3942.5, 3997.0, 157.0, 22.0 ],
 					"text" : "mc.send~ very_low_cross 2",
 					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
 				}
@@ -10754,20 +11048,6 @@
 					"patching_rect" : [ 4670.0, 4384.0, 141.0, 22.0 ],
 					"text" : "delay_and_reverb",
 					"varname" : "delay_and_reverb"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-222",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "signal", "int" ],
-					"patching_rect" : [ 4439.0, 4093.0, 187.0, 35.0 ],
-					"text" : "four_plugin_selectors Post-Crossfade_FX rnbo_chorus",
-					"varname" : "plugin_or_rnbo_selector"
 				}
 
 			}
@@ -14132,6 +14412,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-137", 0 ],
+					"source" : [ "obj-194", 8 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
+					"destination" : [ "obj-158", 0 ],
+					"order" : 0,
+					"source" : [ "obj-194", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.055308815091848, 0.0, 0.632234513759613, 1.0 ],
 					"destination" : [ "obj-158", 0 ],
 					"order" : 0,
@@ -14145,6 +14441,15 @@
 					"destination" : [ "obj-158", 0 ],
 					"order" : 0,
 					"source" : [ "obj-194", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
+					"destination" : [ "obj-183", 0 ],
+					"order" : 0,
+					"source" : [ "obj-194", 5 ]
 				}
 
 			}
@@ -14169,7 +14474,8 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-222", 1 ],
+					"destination" : [ "obj-208", 1 ],
+					"order" : 1,
 					"source" : [ "obj-194", 5 ]
 				}
 
@@ -14177,7 +14483,8 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-222", 0 ],
+					"destination" : [ "obj-208", 0 ],
+					"order" : 1,
 					"source" : [ "obj-194", 4 ]
 				}
 
@@ -14602,43 +14909,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-137", 0 ],
-					"source" : [ "obj-222", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-158", 0 ],
-					"order" : 0,
-					"source" : [ "obj-222", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-183", 0 ],
-					"order" : 0,
-					"source" : [ "obj-222", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-208", 1 ],
-					"order" : 1,
-					"source" : [ "obj-222", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.0, 0.65227997303009, 0.712988018989563, 1.0 ],
-					"destination" : [ "obj-208", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-687", 1 ],
 					"source" : [ "obj-222", 0 ]
 				}
 
@@ -18772,6 +19043,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-688", 1 ],
+					"source" : [ "obj-658", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-657", 1 ],
 					"order" : 1,
 					"source" : [ "obj-659", 0 ]
@@ -18841,8 +19119,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-619", 0 ],
+					"source" : [ "obj-666", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-619", 0 ],
+					"source" : [ "obj-667", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-67", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-686", 0 ],
+					"source" : [ "obj-671", 0 ]
 				}
 
 			}
@@ -18896,6 +19195,117 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-671", 0 ],
+					"source" : [ "obj-684", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-666", 0 ],
+					"order" : 0,
+					"source" : [ "obj-686", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-667", 0 ],
+					"order" : 0,
+					"source" : [ "obj-686", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-689", 0 ],
+					"order" : 1,
+					"source" : [ "obj-686", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-690", 0 ],
+					"order" : 1,
+					"source" : [ "obj-686", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-666", 1 ],
+					"source" : [ "obj-687", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-666", 0 ],
+					"source" : [ "obj-687", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-667", 0 ],
+					"source" : [ "obj-688", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-667", 1 ],
+					"source" : [ "obj-688", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-691", 0 ],
+					"source" : [ "obj-689", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-691", 0 ],
+					"source" : [ "obj-690", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-687", 0 ],
+					"order" : 1,
+					"source" : [ "obj-691", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-688", 0 ],
+					"order" : 0,
+					"source" : [ "obj-691", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-222", 0 ],
+					"source" : [ "obj-692", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-658", 0 ],
+					"source" : [ "obj-693", 1 ]
 				}
 
 			}
@@ -19587,26 +19997,32 @@
 			"obj-176::obj-28" : [ "interp Xfades", "interp Xfades", 0 ],
 			"obj-176::obj-35" : [ "env attack", "env attack", 0 ],
 			"obj-178::obj-56" : [ "Xfreq", "cross freq", 0 ],
-			"obj-194::obj-103::obj-114" : [ "solo[7]", "Solo", 0 ],
-			"obj-194::obj-103::obj-115" : [ "active[5]", "Active", 0 ],
-			"obj-194::obj-1116::obj-114" : [ "solo[4]", "Solo", 0 ],
-			"obj-194::obj-1116::obj-115" : [ "active[8]", "Active", 0 ],
-			"obj-194::obj-1117::obj-114" : [ "solo[3]", "Solo", 0 ],
-			"obj-194::obj-1117::obj-115" : [ "active[7]", "Active", 0 ],
-			"obj-194::obj-1144::obj-114" : [ "solo[6]", "Solo", 0 ],
-			"obj-194::obj-1144::obj-115" : [ "active[10]", "Active", 0 ],
-			"obj-194::obj-1148::obj-114" : [ "solo[5]", "Solo", 0 ],
-			"obj-194::obj-1148::obj-115" : [ "active[9]", "Active", 0 ],
-			"obj-194::obj-11::obj-21::obj-191" : [ "vst~[54]", "vst~", 0 ],
+			"obj-194::obj-103::obj-114" : [ "solo[5]", "Solo", 0 ],
+			"obj-194::obj-103::obj-115" : [ "active[22]", "Active", 0 ],
+			"obj-194::obj-1116::obj-114" : [ "solo[2]", "Solo", 0 ],
+			"obj-194::obj-1116::obj-115" : [ "active[19]", "Active", 0 ],
+			"obj-194::obj-1117::obj-114" : [ "solo[1]", "Solo", 0 ],
+			"obj-194::obj-1117::obj-115" : [ "active[18]", "Active", 0 ],
+			"obj-194::obj-1144::obj-114" : [ "solo[4]", "Solo", 0 ],
+			"obj-194::obj-1144::obj-115" : [ "active[21]", "Active", 0 ],
+			"obj-194::obj-1148::obj-114" : [ "solo[3]", "Solo", 0 ],
+			"obj-194::obj-1148::obj-115" : [ "active[20]", "Active", 0 ],
+			"obj-194::obj-11::obj-21::obj-191" : [ "vst~[17]", "vst~", 0 ],
 			"obj-194::obj-12" : [ "slider[1]", "slider[1]", 0 ],
 			"obj-194::obj-14" : [ "slider", "slider", 0 ],
-			"obj-194::obj-39::obj-21::obj-191" : [ "vst~[55]", "vst~", 0 ],
+			"obj-194::obj-222::obj-1::obj-21::obj-41::obj-1" : [ "Phase[1]", "Phase", 0 ],
+			"obj-194::obj-222::obj-1::obj-21::obj-41::obj-2" : [ "Divisions[1]", "Divisions", 0 ],
+			"obj-194::obj-222::obj-1::obj-21::obj-46" : [ "TapMult", "TapMult", 0 ],
+			"obj-194::obj-222::obj-2::obj-191" : [ "vst~[4]", "vst~", 0 ],
+			"obj-194::obj-222::obj-3::obj-191" : [ "vst~[10]", "vst~", 0 ],
+			"obj-194::obj-222::obj-4::obj-191" : [ "vst~[5]", "vst~", 0 ],
+			"obj-194::obj-39::obj-21::obj-191" : [ "vst~[16]", "vst~", 0 ],
 			"obj-194::obj-4" : [ "v low vol", "v low vol", 0 ],
 			"obj-194::obj-8" : [ "low vol", "low vol", 0 ],
 			"obj-194::obj-874" : [ "high gain[1]", "high vol", 0 ],
 			"obj-194::obj-9" : [ "slider[2]", "slider[2]", 0 ],
-			"obj-194::obj-950::obj-114" : [ "solo[2]", "Solo", 0 ],
-			"obj-194::obj-950::obj-115" : [ "active[4]", "Active", 0 ],
+			"obj-194::obj-950::obj-114" : [ "solo", "Solo", 0 ],
+			"obj-194::obj-950::obj-115" : [ "active", "Active", 0 ],
 			"obj-208::obj-200::obj-103" : [ "MIDI syncrate[5]", "subdivision", 0 ],
 			"obj-208::obj-200::obj-18" : [ "phase offset[2]", "phase offset", 0 ],
 			"obj-208::obj-200::obj-34" : [ "duty cycle[2]", "duty cycle", 0 ],
@@ -19632,12 +20048,6 @@
 			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[51]", "vst~", 0 ],
 			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[52]", "vst~", 0 ],
 			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[15]", "vst~", 0 ],
-			"obj-222::obj-1::obj-21::obj-41::obj-1" : [ "Phase[1]", "Phase", 0 ],
-			"obj-222::obj-1::obj-21::obj-41::obj-2" : [ "Divisions[1]", "Divisions", 0 ],
-			"obj-222::obj-1::obj-21::obj-46" : [ "TapMult", "TapMult", 0 ],
-			"obj-222::obj-2::obj-191" : [ "vst~[4]", "vst~", 0 ],
-			"obj-222::obj-3::obj-191" : [ "vst~[6]", "vst~", 0 ],
-			"obj-222::obj-4::obj-191" : [ "vst~[5]", "vst~", 0 ],
 			"obj-224::obj-21::obj-191" : [ "vst~[49]", "vst~", 0 ],
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
@@ -20073,51 +20483,43 @@
 				}
 ,
 				"obj-194::obj-103::obj-114" : 				{
-					"parameter_longname" : "solo[7]"
-				}
-,
-				"obj-194::obj-103::obj-115" : 				{
-					"parameter_longname" : "active[5]"
-				}
-,
-				"obj-194::obj-1116::obj-114" : 				{
-					"parameter_longname" : "solo[4]"
-				}
-,
-				"obj-194::obj-1116::obj-115" : 				{
-					"parameter_longname" : "active[8]"
-				}
-,
-				"obj-194::obj-1117::obj-114" : 				{
-					"parameter_longname" : "solo[3]"
-				}
-,
-				"obj-194::obj-1117::obj-115" : 				{
-					"parameter_longname" : "active[7]"
-				}
-,
-				"obj-194::obj-1144::obj-114" : 				{
-					"parameter_longname" : "solo[6]"
-				}
-,
-				"obj-194::obj-1144::obj-115" : 				{
-					"parameter_longname" : "active[10]"
-				}
-,
-				"obj-194::obj-1148::obj-114" : 				{
 					"parameter_longname" : "solo[5]"
 				}
 ,
-				"obj-194::obj-1148::obj-115" : 				{
-					"parameter_longname" : "active[9]"
+				"obj-194::obj-103::obj-115" : 				{
+					"parameter_longname" : "active[22]"
 				}
 ,
-				"obj-194::obj-950::obj-114" : 				{
+				"obj-194::obj-1116::obj-114" : 				{
 					"parameter_longname" : "solo[2]"
 				}
 ,
-				"obj-194::obj-950::obj-115" : 				{
-					"parameter_longname" : "active[4]"
+				"obj-194::obj-1116::obj-115" : 				{
+					"parameter_longname" : "active[19]"
+				}
+,
+				"obj-194::obj-1117::obj-114" : 				{
+					"parameter_longname" : "solo[1]"
+				}
+,
+				"obj-194::obj-1117::obj-115" : 				{
+					"parameter_longname" : "active[18]"
+				}
+,
+				"obj-194::obj-1144::obj-114" : 				{
+					"parameter_longname" : "solo[4]"
+				}
+,
+				"obj-194::obj-1144::obj-115" : 				{
+					"parameter_longname" : "active[21]"
+				}
+,
+				"obj-194::obj-1148::obj-114" : 				{
+					"parameter_longname" : "solo[3]"
+				}
+,
+				"obj-194::obj-1148::obj-115" : 				{
+					"parameter_longname" : "active[20]"
 				}
 ,
 				"obj-208::obj-200::obj-103" : 				{
@@ -21356,8 +21758,8 @@
 			}
 , 			{
 				"name" : "metronome_settings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
