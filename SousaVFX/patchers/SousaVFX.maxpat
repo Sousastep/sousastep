@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 3,
+			"minor" : 6,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-92",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1365.0, 1299.0, 150.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 2103.0, 1255.0, 601.0, 21.0 ],
+					"suppressinlet" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "newobj",
@@ -539,6 +553,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "displace",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "displace",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -567,6 +582,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "umenu",
 							"parameter_mmax" : 3,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "umenu",
 							"parameter_type" : 2
 						}
@@ -2656,8 +2672,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4618,7 +4634,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-616",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -4784,8 +4799,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5416,103 +5431,6 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"UI_CandyWarp" : 0,
-						"UI_CandyWarp::CandyWarp_scale" : 0,
-						"UI_CandyWarp::CandyWarp_scale::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_scale::invert" : 0,
-						"UI_CandyWarp::CandyWarp_scale::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_scale::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_scale::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_scale::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_scale::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_cycle" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::invert" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_thickness" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::invert" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_loops" : 0,
-						"UI_CandyWarp::CandyWarp_loops::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_loops::invert" : 0,
-						"UI_CandyWarp::CandyWarp_loops::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_loops::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_loops::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_loops::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_loops::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_warp" : 0,
-						"UI_CandyWarp::CandyWarp_warp::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_warp::invert" : 0,
-						"UI_CandyWarp::CandyWarp_warp::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_warp::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_warp::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_warp::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_warp::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_hue" : 0,
-						"UI_CandyWarp::CandyWarp_hue::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_hue::invert" : 0,
-						"UI_CandyWarp::CandyWarp_hue::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_hue::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_hue::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_hue::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_hue::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_tint" : 0,
-						"UI_CandyWarp::CandyWarp_tint::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_tint::invert" : 0,
-						"UI_CandyWarp::CandyWarp_tint::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_tint::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_tint::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_tint::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_tint::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_CandyWarp::CandyWarp_rate" : 0,
-						"UI_CandyWarp::CandyWarp_rate::u352009166" : 0,
-						"UI_CandyWarp::CandyWarp_rate::invert" : 0,
-						"UI_CandyWarp::CandyWarp_rate::linkphasor_rate" : 0,
-						"UI_CandyWarp::CandyWarp_rate::matrixctrl" : 0,
-						"UI_CandyWarp::CandyWarp_rate::rslider" : 0,
-						"UI_CandyWarp::CandyWarp_rate::slide_down" : 0,
-						"UI_CandyWarp::CandyWarp_rate::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line" : 0,
-						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_Pinwheel" : 0,
 						"UI_Pinwheel::Pinwheel_size" : 0,
 						"UI_Pinwheel::Pinwheel_size::u352009166" : 0,
@@ -6749,7 +6667,6 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::function" : 0
 					}
 ,
-					"autorestore" : "SousaLED8.json",
 					"fontname" : "Silom",
 					"id" : "obj-105",
 					"maxclass" : "newobj",
@@ -9846,8 +9763,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10343,14 +10260,15 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1044.0, -147.0, 203.0, 32.0 ],
+					"patching_rect" : [ 1044.0, -147.0, 203.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "init shader acoustic",
+					"text" : "CandyWarp dub strobe",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10376,7 +10294,7 @@
 						"PositionMatrixDimensionX" : [ 2 ],
 						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "opencylinder" ],
+						"SingleShapeSelection" : [ "sphere" ],
 						"TextPositionY" : [ 0.0 ],
 						"TextPositionZ" : [ 0.0 ],
 						"TextScaleX" : [ 0.1 ],
@@ -10389,7 +10307,7 @@
 						"displace" : [ 70.0 ],
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
+						"enable_shader" : [ 0 ],
 						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
@@ -12553,8 +12471,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12728,8 +12646,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12868,8 +12786,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13084,8 +13002,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13200,8 +13118,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13387,8 +13305,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 3,
+							"minor" : 6,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
