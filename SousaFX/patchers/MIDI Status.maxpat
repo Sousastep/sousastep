@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,13 +42,72 @@
 		"title" : "midi status",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-133",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 575.0, 1388.0, 29.5, 22.0 ],
+					"text" : "b 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-130",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 575.0, 1354.0, 55.0, 22.0 ],
+					"text" : "del 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 585.5, 1441.0, 108.0, 22.0 ],
+					"text" : "s \"Scene Selector\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "Scene Selector", 127.0 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-84",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "MIDI MAP OUT.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 109.0, 795.999999999999773, 360.0, 25.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.0, 640.0, 355.333343923091888, 25.3333340883255 ],
+					"varname" : "playback bus monitor mix vol[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 810.0, 1268.333368837833405, 22.0, 22.0 ],
-					"text" : "t 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "int" ],
+					"patching_rect" : [ 798.0, 1341.0, 32.0, 22.0 ],
+					"text" : "t b 1"
 				}
 
 			}
@@ -59,7 +118,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 1162.333368837833405, 145.0, 22.0 ],
+					"patching_rect" : [ 798.0, 1235.0, 145.0, 22.0 ],
 					"text" : "r audio_driver_start_bang"
 				}
 
@@ -71,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 1198.333368837833405, 54.0, 22.0 ],
+					"patching_rect" : [ 798.0, 1271.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -83,7 +142,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 810.0, 1234.333368837833405, 55.0, 22.0 ],
+					"patching_rect" : [ 798.0, 1307.0, 55.0, 22.0 ],
 					"text" : "del 5000"
 				}
 
@@ -104,7 +163,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 762.313762626262587, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 759.941176470588061, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.333333909511566, 609.0, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "playback bus monitor mix vol",
@@ -242,7 +301,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 810.0, 1432.0, 52.0, 22.0 ],
+					"patching_rect" : [ 811.0, 1453.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -528,7 +587,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 727.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 723.88235294117635, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.333333909511566, 577.333350539207458, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "MIDI MAP OUT[15]",
@@ -727,7 +786,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 685.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 687.823529411764639, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 545.0, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[14]",
@@ -743,7 +802,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 133.0, -67.0, 119.0, 22.0 ],
-					"text" : "loadmess 1179. 661."
+					"text" : "loadmess 1179. 684."
 				}
 
 			}
@@ -2292,25 +2351,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-125",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1018.0, 917.0, 209.0, 22.0 ],
-					"restore" : [ 5 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr \"scene selection output channel\"",
-					"varname" : "scene selection output channel"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2815,7 +2855,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 645.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 651.764705882352928, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 511.947368421052772, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[13]",
@@ -2939,7 +2979,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 609.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 615.705882352941217, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 478.643724696356344, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[12]",
@@ -2963,7 +3003,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 573.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 579.647058823529505, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 445.340080971659972, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[11]",
@@ -3761,7 +3801,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 538.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 543.58823529411768, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 412.036437246963601, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[10]",
@@ -3785,7 +3825,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 432.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 435.411764705882376, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 312.125506072874487, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[9]",
@@ -3809,7 +3849,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 503.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 507.529411764705912, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 378.732793522267229, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[8]",
@@ -3833,7 +3873,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 467.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 471.470588235294144, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 345.429149797570801, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[7]",
@@ -3857,7 +3897,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 396.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 399.352941176470608, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 278.821862348178115, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[6]",
@@ -3881,7 +3921,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 361.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 363.29411764705884, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 245.518218623481772, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[5]",
@@ -3905,7 +3945,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 325.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 327.235294117647072, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 212.214574898785401, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[4]",
@@ -3929,7 +3969,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 290.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 291.176470588235304, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 178.910931174089058, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[3]",
@@ -3953,7 +3993,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 254.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 255.117647058823536, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 145.607287449392686, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[2]",
@@ -3977,7 +4017,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 219.0, 360.0, 25.0 ],
+					"patching_rect" : [ 109.0, 219.058823529411768, 360.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 112.303643724696343, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[1]",
@@ -4160,7 +4200,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 272.0, 902.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.5, 48.0, 627.0, 603.0 ],
+					"presentation_rect" : [ 8.5, 48.0, 627.0, 626.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4200,7 +4240,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 257.0, 887.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 7.0, 637.0, 649.0 ],
+					"presentation_rect" : [ 4.0, 7.0, 637.0, 672.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4220,7 +4260,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 244.0, 864.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 1179.0, 661.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 1179.0, 684.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -4434,6 +4474,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-133", 0 ],
+					"source" : [ "obj-130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-134", 0 ],
 					"source" : [ "obj-132", 1 ]
 				}
@@ -4444,6 +4491,21 @@
 					"destination" : [ "obj-176", 0 ],
 					"midpoints" : [ 1784.166719555854797, 1564.833369374275208, 1830.166720926761627, 1564.833369374275208 ],
 					"source" : [ "obj-132", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-650", 0 ],
+					"midpoints" : [ 584.5, 1426.0, 1023.0, 1426.0, 1023.0, 951.0, 1267.0, 951.0, 1267.0, 817.0, 1334.5, 817.0 ],
+					"source" : [ "obj-133", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-133", 1 ]
 				}
 
 			}
@@ -5314,8 +5376,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
+					"destination" : [ "obj-130", 0 ],
 					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-54", 1 ]
 				}
 
 			}

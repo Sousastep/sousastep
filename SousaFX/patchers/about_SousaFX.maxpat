@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 358.0, 894.0, 468.0, 475.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -120,7 +120,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1965.125098502757737, 999.561298076923094, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 345.0, 121.0, 23.0 ],
+					"presentation_rect" : [ 346.0, 360.0, 88.0, 23.0 ],
 					"textjustification" : 1,
 					"varname" : "click_to_update"
 				}
@@ -205,13 +205,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 175.0, 124.0, 2492.0, 1319.0 ],
+						"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -580,7 +580,6 @@
 									"fontname" : "Monaco",
 									"fontsize" : 13.0,
 									"gradient" : 1,
-									"hidden" : 1,
 									"id" : "obj-399",
 									"ignoreclick" : 1,
 									"maxclass" : "message",
@@ -590,7 +589,7 @@
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
-									"text" : "30.65897 %",
+									"text" : "89.103948 %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -711,7 +710,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
-									"hidden" : 1,
 									"id" : "obj-359",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -719,8 +717,8 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
-									"text" : "Rank: Bronze Captain 1",
-									"textcolor" : [ 0.717577613909774, 0.95450692, 0.67229308, 1.0 ],
+									"text" : "Rank: Bronze Captain 2",
+									"textcolor" : [ 0.95450692, 0.67229308, 0.85679408226792, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -814,11 +812,10 @@
 									"bgcolor" : [ 0.580392156862745, 0.580392156862745, 0.580392156862745, 0.81 ],
 									"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 									"floatoutput" : 1,
-									"hidden" : 1,
 									"hint" : "progress to next rank",
 									"id" : "obj-317",
 									"ignoreclick" : 1,
-									"knobcolor" : [ 0.717577613909774, 0.95450692, 0.67229308, 1.0 ],
+									"knobcolor" : [ 0.95450692, 0.67229308, 0.85679408226792, 1.0 ],
 									"maxclass" : "slider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -981,7 +978,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
-									"hidden" : 1,
 									"id" : "obj-275",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -989,7 +985,7 @@
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
-									"text" : "11.05 hrs on record.",
+									"text" : "12.88 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1545,8 +1541,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 3640.0, 1299.0, 52.0, 25.0 ],
-									"text" : "zl.rot 1"
+									"patching_rect" : [ 3640.0, 1299.0, 48.0, 25.0 ],
+									"text" : "zl.rot -1"
 								}
 
 							}
@@ -1665,7 +1661,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 3603.0, 1513.0, 65.0, 25.0 ],
+									"patching_rect" : [ 3641.0, 1523.0, 65.0, 25.0 ],
 									"text" : "change 0"
 								}
 
@@ -1677,7 +1673,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 3603.0, 1584.0, 65.0, 25.0 ],
+									"patching_rect" : [ 3641.0, 1594.0, 65.0, 25.0 ],
 									"text" : "change 0"
 								}
 
@@ -1689,7 +1685,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "float", "float" ],
-									"patching_rect" : [ 3603.0, 1620.0, 37.0, 25.0 ],
+									"patching_rect" : [ 3641.0, 1630.0, 37.0, 25.0 ],
 									"text" : "t f f"
 								}
 
@@ -1701,7 +1697,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3570.0, 1691.0, 59.0, 25.0 ],
+									"patching_rect" : [ 3608.0, 1701.0, 59.0, 25.0 ],
 									"text" : "gate 1 0"
 								}
 
@@ -1713,7 +1709,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 3570.0, 1656.0, 37.0, 25.0 ],
+									"patching_rect" : [ 3608.0, 1666.0, 37.0, 25.0 ],
 									"text" : "> 2."
 								}
 
@@ -1722,7 +1718,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-151",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1730,8 +1725,8 @@
 									"patching_rect" : [ 1716.0, 3123.0, 427.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
-									"presentation_rect" : [ 181.0, 186.0, 130.0, 66.0 ],
-									"text" : "SousaFX has been open, with audio on, for 122 hours total.",
+									"presentation_rect" : [ 181.0, 186.0, 131.0, 66.0 ],
+									"text" : "SousaFX has been open, with audio on, for 14 hours total.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1744,7 +1739,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 3570.0, 1727.0, 394.0, 42.0 ],
+									"patching_rect" : [ 3608.0, 1737.0, 394.0, 42.0 ],
 									"text" : "sprintf set SousaFX has been open\\\\\\, with audio on\\\\\\, for %i hours total."
 								}
 
@@ -1756,7 +1751,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 3603.0, 1548.0, 37.0, 25.0 ],
+									"patching_rect" : [ 3641.0, 1558.0, 37.0, 25.0 ],
 									"text" : "/ 60"
 								}
 
@@ -1768,7 +1763,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 3603.0, 1477.0, 37.0, 25.0 ],
+									"patching_rect" : [ 3641.0, 1487.0, 37.0, 25.0 ],
 									"text" : "/ 60"
 								}
 
@@ -2145,6 +2140,7 @@
 									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-1",
 									"items" : [ "Still", "evaluating..." ],
 									"maxclass" : "umenu",
@@ -2515,6 +2511,7 @@
 									"patching_rect" : [ 3580.0, 3437.0, 384.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, -2.0, 347.0, 21.0 ],
+									"text" : "Licensed to sousastep on December 18th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -3158,7 +3155,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3552,7 +3549,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3960,7 +3957,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 1,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4621,7 +4618,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-324",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4629,7 +4625,7 @@
 									"patching_rect" : [ 1755.0, 3086.0, 417.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 77.0, 323.0, 21.0 ],
-									"text" : "You've played for 0 minutes today.",
+									"text" : "You've played for 20 minutes today.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4688,7 +4684,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-307",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4711,7 +4706,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 0.0, 34.0, 323.0, 36.0 ],
-									"text" : "SousaFX has launched 141 times since installed on March 11th 2023",
+									"text" : "SousaFX has launched 152 times since installed on March 11th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4973,6 +4968,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-216",
 									"linecount" : 10,
 									"maxclass" : "comment",
@@ -8072,7 +8068,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2095.0, 722.0, 50.0, 21.0 ],
-					"text" : "0.9.2"
+					"text" : "0.9.3"
 				}
 
 			}
@@ -8590,7 +8586,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 303.0, 329.0, 129.0, 52.0 ],
 					"readonly" : 1,
-					"text" : "Last checked on January 17th, 2024",
+					"text" : "Last checked on February 18th, 2024",
 					"varname" : "textedit"
 				}
 
@@ -8603,7 +8599,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1387.0, 1098.0, 106.0, 21.0 ],
-					"restore" : [ "Last checked on January 17th, 2024" ],
+					"restore" : [ "Last checked on February 18th, 2024" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -9429,7 +9425,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

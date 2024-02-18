@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -529.0, -1387.0, 2023.0, 1387.0 ],
+		"rect" : [ 1190.0, 53.0, 1370.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-699",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 6098.0, 4101.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
@@ -226,7 +238,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3656.0, 3968.5, 74.0, 79.0 ],
-					"presentation_linecount" : 5,
 					"suppressinlet" : 1,
 					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
 				}
@@ -865,7 +876,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 677.0, 79.0, 625.0, 398.0 ],
+						"rect" : [ 999.0, 887.0, 625.0, 398.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1538,7 +1549,7 @@
 						}
 ,
 						"classnamespace" : "dsp.gen",
-						"rect" : [ 1009.0, 704.0, 600.0, 450.0 ],
+						"rect" : [ 1009.0, 704.0, 785.0, 558.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3219,7 +3230,7 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
-					"patching_rect" : [ 5285.0, 4502.0, 326.0, 70.0 ],
+					"patching_rect" : [ 5290.0, 4432.0, 326.0, 70.0 ],
 					"varname" : "stutterLFO",
 					"viewvisibility" : 1
 				}
@@ -3269,7 +3280,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 5191.0, 2326.0, 37.0, 22.0 ],
-					"text" : "*~ 12"
+					"text" : "*~ 10"
 				}
 
 			}
@@ -3604,7 +3615,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "live", ",", "link" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4637,13 +4648,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 19,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 263.0 ],
-					"text" : "1062 170 1582 703 904 825 1268 1361 1145 645 1687 928 1312 886 1628 1274 1266 1104 1667 1289"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 143.0 ],
+					"text" : "912 65 1432 598 1274 654 1638 1190 912 657 1228 1045"
 				}
 
 			}
@@ -5631,7 +5642,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 16.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -5719,7 +5730,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -7816,15 +7827,6 @@
 						"plugin_or_rnbo_selector[2]::plugin_selector[3]::Dry-ish_FX_plugin4_plugin" : 0,
 						"plugin_or_rnbo_selector[4]" : 0,
 						"plugin_or_rnbo_selector[4]::wet_preamp_rnbo_or_plugin" : 0,
-						"plugin_or_rnbo_selector" : 0,
-						"plugin_or_rnbo_selector::plugin_selector" : 0,
-						"plugin_or_rnbo_selector::plugin_selector::Post-Crossfade_FX_plugin1_rnbo_or_plugin" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[1]" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[1]::Post-Crossfade_FX_plugin2_plugin" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[2]" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[2]::Post-Crossfade_FX_plugin3_plugin" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[3]" : 0,
-						"plugin_or_rnbo_selector::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : 0,
 						"delay_and_reverb" : 0,
 						"delay_and_reverb::delay_sends_settings[1]" : 0,
 						"post-triplewrap_mixbus" : 0,
@@ -7873,6 +7875,8 @@
 					"id" : "obj-303",
 					"interp" : 					{
 						"preset descriptions" : [ 0, 0.0 ],
+						"post-crossfade FX routing" : [ 2, 0.0 ],
+						"post-crossfade FX routing while soloing" : [ 2, 0.0 ],
 						"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 2, 0.0 ],
 						"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2, 0.0 ],
 						"sustain fx chooser::Pre-LPF_FX_randomize" : [ 2, 0.0 ],
@@ -7891,9 +7895,7 @@
 						"mod params::enable auto-wah" : [ 2, 0.0 ],
 						"mod params::filter-type" : [ 2, 0.0 ],
 						"mod params::high_SnTrSq_randomize" : [ 2, 0.0 ],
-						"mod params::transient_detect::transient_definition" : [ 2, 0.0 ],
-						"post-crossfade FX routing" : [ 2, 0.0 ],
-						"post-crossfade FX routing while soloing" : [ 2, 0.0 ]
+						"mod params::transient_detect::transient_definition" : [ 2, 0.0 ]
 					}
 ,
 					"maxclass" : "newobj",
@@ -7902,10 +7904,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 561, -1353, 1518, -34 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 657, -1292, 1670, -34 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -8785,7 +8787,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4692.0, 3992.0, 50.0, 22.0 ]
+					"patching_rect" : [ 4563.5, 4077.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8797,7 +8799,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4600.0, 3992.0, 50.0, 22.0 ]
+					"patching_rect" : [ 4496.0, 4077.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -8809,7 +8811,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4576.615382823619257, 4143.0, 50.0, 22.0 ]
+					"patching_rect" : [ 4632.0, 4077.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -19306,6 +19308,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-658", 0 ],
 					"source" : [ "obj-693", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-773", 0 ],
+					"source" : [ "obj-699", 0 ]
 				}
 
 			}
