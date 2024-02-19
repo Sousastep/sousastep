@@ -20,8 +20,8 @@
 62, cubes no cylinder acoustic;
 63, Single Circle acoustic;
 64, single cube acoustic;
-65, single shape;
-66, single shape;
+65, single cube dub;
+66, single circle dub;
 67, single shape;
 68, single shape;
 69, single shape;

@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 1342.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1027,8 +1027,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8046.0, -97.0, 117.0, 76.0 ],
-					"text" : ";\rmax launchbrowser https://www.youtube.com/watch?v=IVxMg74zFts"
+					"patching_rect" : [ 8046.0, -97.0, 117.0, 77.0 ],
+					"text" : ";\r\nmax launchbrowser https://www.youtube.com/watch?v=IVxMg74zFts"
 				}
 
 			}
@@ -1214,7 +1214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1641.0, 1356.0, 150.0, 60.0 ],
+					"patching_rect" : [ 1641.0, 1356.0, 150.0, 62.0 ],
 					"text" : "bang out previous isf shader name before storing current isf shader name"
 				}
 
@@ -1226,7 +1226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1942.0, 1032.0, 374.0, 181.0 ],
+					"patching_rect" : [ 1942.0, 1032.0, 374.0, 186.0 ],
 					"text" : "what should happen when switching ISF shaders\n\nthe previous shader UI is hidden\nthe previous shader's pattrstorage params are deactivated\nthe next shader UI is shown\nthe next shader's pattrstorage params are activated\n\n\nbut what if a non-ISF shader preset is loaded?\n\nthe previous shader UI is hidden\nthe previous shader's pattrstorage params are deactivated\n"
 				}
 
@@ -1417,7 +1417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8402.0, 1430.0, 78.0, 49.0 ],
+					"patching_rect" : [ 8402.0, 1430.0, 78.0, 50.0 ],
 					"text" : "zl group 624 @zlmaxsize 624"
 				}
 
@@ -1531,7 +1531,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1567.0, 1058.0, 198.0, 51.0 ],
+					"patching_rect" : [ 1567.0, 1058.0, 198.0, 52.0 ],
 					"text" : "2. add ISF shader UI maxpat to this switch"
 				}
 
@@ -1608,9 +1608,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2217.0, -222.0, 80.0, 80.0 ],
+					"patching_rect" : [ 2217.0, -222.0, 85.0, 81.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1269.512225389480591, 21.0, 64.0, 80.0 ],
+					"presentation_rect" : [ 1269.512225389480591, 21.0, 85.0, 81.0 ],
 					"suppressinlet" : 1,
 					"text" : "🔈"
 				}
@@ -2203,7 +2203,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7391.0, 1024.0, 167.0, 64.0 ],
+					"patching_rect" : [ 7391.0, 1024.0, 168.0, 64.0 ],
 					"suppressinlet" : 1,
 					"text" : "with an opaque bell cover, this can be all the way up. without a bell cover, bright LEDs are fatiguing to look at."
 				}
@@ -2655,7 +2655,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7381.0, 1172.0, 176.0, 35.0 ],
+					"patching_rect" : [ 7381.0, 1172.0, 177.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "clamp allows 254 and 255 to be used as start & end markers"
 				}
@@ -2673,7 +2673,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3291,7 +3291,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7436.0, 1341.0, 97.333327770233154, 62.0 ],
+					"patching_rect" : [ 7436.0, 1341.0, 97.333327770233154, 64.0 ],
 					"text" : "jit.rota @anchor_x 128 @anchor_y 128 @theta -0.5"
 				}
 
@@ -3429,8 +3429,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7858.0, 2385.0, 129.0, 102.0 ],
-					"text" : ";\rmax launchbrowser discord://discord.com/channels/289378508247924738/289378711533387777/1097717305502335076"
+					"patching_rect" : [ 7858.0, 2385.0, 129.0, 105.0 ],
+					"text" : ";\r\nmax launchbrowser discord://discord.com/channels/289378508247924738/289378711533387777/1097717305502335076"
 				}
 
 			}
@@ -3580,8 +3580,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7559.0, 3251.0, 123.0, 76.0 ],
-					"text" : ";\rmax launchbrowser https://cycling74.com/forums/how-to-measure-rate-of-change"
+					"patching_rect" : [ 7559.0, 3251.0, 123.0, 77.0 ],
+					"text" : ";\r\nmax launchbrowser https://cycling74.com/forums/how-to-measure-rate-of-change"
 				}
 
 			}
@@ -3734,7 +3734,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5735.0, 1689.0, 131.0, 35.0 ],
+					"patching_rect" : [ 5735.0, 1689.0, 131.0, 36.0 ],
 					"text" : "import_material purple.potomous.jitmtl"
 				}
 
@@ -3907,7 +3907,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5286.0, 1822.0, 56.0, 35.0 ],
+					"patching_rect" : [ 5286.0, 1822.0, 56.0, 36.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -4244,10 +4244,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, -1008.0, 237.0, 175.0 ],
+					"patching_rect" : [ 99.0, -1008.0, 237.0, 174.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 469.584410306582981, 642.87201744934805, 194.0, 175.0 ],
+					"presentation_rect" : [ 469.584410306582981, 642.87201744934805, 194.0, 174.0 ],
 					"text" : "matrixctrl order: \n1. phasor\n2. tuba_env\n3. loLFO\n4. hiLFO\n5. rate-mult phasor\n6. left / right accel",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -4337,7 +4337,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1216.0, 76.0, 150.0, 114.0 ],
+					"patching_rect" : [ 1216.0, 76.0, 150.0, 117.0 ],
 					"text" : "you need a way to separate your dubstep VFX from the acoustic tuba VFX...\n\nkeeping track of them manually is probably the best way to go for now..."
 				}
 
@@ -4350,8 +4350,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1307.0, -227.0, 116.0, 89.0 ],
-					"text" : ";\rmax launchbrowser https://cycling74.com/forums/why-is-coll-object-out-putting-symbol"
+					"patching_rect" : [ 1307.0, -227.0, 116.0, 91.0 ],
+					"text" : ";\r\nmax launchbrowser https://cycling74.com/forums/why-is-coll-object-out-putting-symbol"
 				}
 
 			}
@@ -4391,7 +4391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1205.0, 1893.0, 153.0, 60.0 ],
+					"patching_rect" : [ 1205.0, 1893.0, 153.0, 62.0 ],
 					"text" : "position and scale moves videoplane further back so that text and shapes appear in front"
 				}
 
@@ -4478,7 +4478,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 698.0, 142.0, 100.0 ],
+					"patching_rect" : [ 1077.0, 698.0, 142.0, 103.0 ],
 					"text" : "pattrstorage has \"banks\" of presets for each ISF shader\n\nCandyWarp = 110 - 119\nPinWheel = 120 - 129\netc."
 				}
 
@@ -4538,7 +4538,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 781.0, -41.0, 195.0, 47.0 ],
+					"patching_rect" : [ 781.0, -41.0, 195.0, 48.0 ],
 					"text" : "allows SousaLED_preset_number to update before pattrstorage preset number"
 				}
 
@@ -4611,8 +4611,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1041.0, 1603.0, 117.0, 116.0 ],
-					"text" : ";\rmax launchbrowser https://discord.com/channels/289378508247924738/289379337528934401/1093521042640752751"
+					"patching_rect" : [ 1041.0, 1603.0, 117.0, 119.0 ],
+					"text" : ";\r\nmax launchbrowser https://discord.com/channels/289378508247924738/289379337528934401/1093521042640752751"
 				}
 
 			}
@@ -4634,6 +4634,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-616",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -4682,8 +4683,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7840.0, 1773.0, 116.0, 76.0 ],
-					"text" : ";\rmax launchbrowser https://www.youtube.com/watch?v=tOPObpGnrIA&t=710s"
+					"patching_rect" : [ 7840.0, 1773.0, 116.0, 77.0 ],
+					"text" : ";\r\nmax launchbrowser https://www.youtube.com/watch?v=tOPObpGnrIA&t=710s"
 				}
 
 			}
@@ -4756,7 +4757,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1178.0, 1580.0, 101.0, 33.0 ],
+					"patching_rect" : [ 1178.0, 1580.0, 101.0, 34.0 ],
 					"text" : "Apply a limiter to color intensities.."
 				}
 
@@ -4800,7 +4801,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5318,8 +5319,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 854.0, 1434.0, 116.0, 62.0 ],
-					"text" : ";\rmax launchbrowser https://isf.vidvox.net/isf-for-jitter"
+					"patching_rect" : [ 854.0, 1434.0, 116.0, 64.0 ],
+					"text" : ";\r\nmax launchbrowser https://isf.vidvox.net/isf-for-jitter"
 				}
 
 			}
@@ -5410,7 +5411,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 747.0, -154.0, 48.0, 24.0 ],
+					"patching_rect" : [ 747.0, -154.0, 48.0, 23.0 ],
 					"text" : "del 10"
 				}
 
@@ -5423,7 +5424,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, -124.0, 81.0, 24.0 ],
+					"patching_rect" : [ 746.0, -124.0, 81.0, 23.0 ],
 					"text" : "writeagain"
 				}
 
@@ -5431,6 +5432,103 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
+						"UI_CandyWarp" : 0,
+						"UI_CandyWarp::CandyWarp_scale" : 0,
+						"UI_CandyWarp::CandyWarp_scale::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_scale::invert" : 0,
+						"UI_CandyWarp::CandyWarp_scale::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_scale::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_scale::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_scale::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_scale::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_cycle" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::invert" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_thickness" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::invert" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_loops" : 0,
+						"UI_CandyWarp::CandyWarp_loops::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_loops::invert" : 0,
+						"UI_CandyWarp::CandyWarp_loops::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_loops::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_loops::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_loops::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_loops::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_warp" : 0,
+						"UI_CandyWarp::CandyWarp_warp::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_warp::invert" : 0,
+						"UI_CandyWarp::CandyWarp_warp::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_warp::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_warp::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_warp::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_warp::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_hue" : 0,
+						"UI_CandyWarp::CandyWarp_hue::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_hue::invert" : 0,
+						"UI_CandyWarp::CandyWarp_hue::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_hue::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_hue::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_hue::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_hue::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_tint" : 0,
+						"UI_CandyWarp::CandyWarp_tint::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_tint::invert" : 0,
+						"UI_CandyWarp::CandyWarp_tint::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_tint::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_tint::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_tint::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_tint::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_CandyWarp::CandyWarp_rate" : 0,
+						"UI_CandyWarp::CandyWarp_rate::u352009166" : 0,
+						"UI_CandyWarp::CandyWarp_rate::invert" : 0,
+						"UI_CandyWarp::CandyWarp_rate::linkphasor_rate" : 0,
+						"UI_CandyWarp::CandyWarp_rate::matrixctrl" : 0,
+						"UI_CandyWarp::CandyWarp_rate::rslider" : 0,
+						"UI_CandyWarp::CandyWarp_rate::slide_down" : 0,
+						"UI_CandyWarp::CandyWarp_rate::slide_up" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_Pinwheel" : 0,
 						"UI_Pinwheel::Pinwheel_size" : 0,
 						"UI_Pinwheel::Pinwheel_size::u352009166" : 0,
@@ -6673,7 +6771,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.0, 36.0, 257.0, 24.0 ],
+					"patching_rect" : [ 519.0, 36.0, 257.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -6706,7 +6804,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.0, -154.0, 119.0, 24.0 ],
+					"patching_rect" : [ 523.0, -154.0, 119.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "storagewindow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.890196078431372 ],
@@ -6734,7 +6832,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, -124.0, 104.0, 24.0 ],
+					"patching_rect" : [ 535.0, -124.0, 104.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.890196078431372 ]
@@ -6768,13 +6866,16 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "connect to LED bell manually",
 					"id" : "obj-193",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8062.0, 1014.0, 24.0, 24.0 ]
+					"patching_rect" : [ 8062.0, 1014.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1017.185740189655462, 7.252461111487833, 24.0, 24.0 ]
 				}
 
 			}
@@ -6800,8 +6901,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7666.0, 1570.0, 116.0, 89.0 ],
-					"text" : ";\rmax launchbrowser https://forum.arduino.cc/t/serial-input-basics-updated/382007/3"
+					"patching_rect" : [ 7666.0, 1570.0, 116.0, 91.0 ],
+					"text" : ";\r\nmax launchbrowser https://forum.arduino.cc/t/serial-input-basics-updated/382007/3"
 				}
 
 			}
@@ -7335,8 +7436,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7587.0, 3316.0, 116.0, 102.0 ],
-					"text" : ";\rmax launchbrowser https://www.reddit.com/r/MaxMSP/comments/enj8af/comment/fe0iq7a/?context=3"
+					"patching_rect" : [ 7587.0, 3316.0, 116.0, 105.0 ],
+					"text" : ";\r\nmax launchbrowser https://www.reddit.com/r/MaxMSP/comments/enj8af/comment/fe0iq7a/?context=3"
 				}
 
 			}
@@ -7962,7 +8063,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3883.0, -610.0, 83.432250999999951, 47.0 ],
+					"patching_rect" : [ 3883.0, -610.0, 83.432250999999951, 48.0 ],
 					"text" : "counts # of characters in message"
 				}
 
@@ -8148,7 +8249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5405.0, -513.0, 87.0, 33.0 ],
+					"patching_rect" : [ 5405.0, -513.0, 87.0, 34.0 ],
 					"text" : "font lighting on/off"
 				}
 
@@ -8175,7 +8276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5717.0, -389.0, 38.0, 33.0 ],
+					"patching_rect" : [ 5717.0, -389.0, 38.0, 34.0 ],
 					"text" : "text align"
 				}
 
@@ -8316,7 +8417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5405.0, -443.0, 105.0, 21.0 ],
+					"patching_rect" : [ 5405.0, -443.0, 105.0, 22.0 ],
 					"text" : "lighting_enable $1"
 				}
 
@@ -8330,7 +8431,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5181.0, -447.0, 107.0, 21.0 ],
+					"patching_rect" : [ 5181.0, -447.0, 107.0, 22.0 ],
 					"text" : "pak scale 1. 1. 1."
 				}
 
@@ -8344,7 +8445,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4745.0, -310.0, 111.999999999999545, 21.0 ],
+					"patching_rect" : [ 4745.0, -310.0, 111.999999999999545, 22.0 ],
 					"text" : "pak position 0. 0. 0."
 				}
 
@@ -8800,7 +8901,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7454.0, -190.0, 85.0, 33.0 ],
+					"patching_rect" : [ 7454.0, -190.0, 85.0, 34.0 ],
 					"text" : "generate new displacement"
 				}
 
@@ -9764,7 +9865,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10102,7 +10203,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7862.0, 1509.0, 78.0, 49.0 ],
+					"patching_rect" : [ 7862.0, 1509.0, 78.0, 50.0 ],
 					"text" : "zl group 624 @zlmaxsize 624"
 				}
 
@@ -10268,7 +10369,7 @@
 					"patching_rect" : [ 1044.0, -147.0, 203.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "CandyWarp dub strobe",
+					"text" : "Single Circle acoustic",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10290,9 +10391,9 @@
 						"LineFinal" : [ 0.0 ],
 						"LineInitial" : [ 0.0 ],
 						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"MultipleShapeSelection" : [ "sphere" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
 						"SingleShapeSelection" : [ "sphere" ],
 						"TextPositionY" : [ 0.0 ],
@@ -10308,7 +10409,7 @@
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
 						"enable_shader" : [ 0 ],
-						"enable_single_shape" : [ 0 ],
+						"enable_single_shape" : [ 1 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
 						"physics_videoplane_toggle" : [ 0 ],
@@ -10517,7 +10618,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6453.0, 2608.0, 184.0, 45.0 ],
+					"patching_rect" : [ 6453.0, 2608.0, 185.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.881537014755168, 612.94739247190796, 231.0, 26.0 ],
 					"text" : "Position Matrix Rotation Offset",
@@ -10571,7 +10672,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6262.0, 2608.0, 184.0, 45.0 ],
+					"patching_rect" : [ 6262.0, 2608.0, 185.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 196.798203641685404, 691.822392573813886, 246.166666746139526, 26.0 ],
 					"text" : "Position Matrix Rotation Amount",
@@ -11059,7 +11160,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 5550.0, 3272.0, 100.0, 62.0 ],
+					"patching_rect" : [ 5550.0, 3272.0, 100.0, 64.0 ],
 					"text" : "jit.expr @expr snorm[0]*in[1]\\, snorm[1]*in[1]\\, norm[2]*in[1]"
 				}
 
@@ -11502,7 +11603,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "open", "" ],
-					"patching_rect" : [ 8296.0, 1653.0, 49.0, 21.0 ],
+					"patching_rect" : [ 8296.0, 1653.0, 49.0, 22.0 ],
 					"text" : "t open l"
 				}
 
@@ -11553,7 +11654,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : "COM3",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11624,7 +11725,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8058.0, 1626.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.685740189655462, 25.0, 37.0, 22.0 ],
+					"presentation_rect" : [ 1010.685740189655462, 34.570086433671634, 37.0, 22.0 ],
 					"text" : "open"
 				}
 
@@ -12472,7 +12573,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12647,7 +12748,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12787,7 +12888,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13003,7 +13104,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13119,7 +13220,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13306,7 +13407,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -19966,8 +20067,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
+				"name" : "ease.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "floating window positioner.maxpat",
@@ -20004,16 +20105,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.*.mxo",
-				"type" : "iLaX"
+				"name" : "jit.*.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.+.mxo",
-				"type" : "iLaX"
+				"name" : "jit.+.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "jit.gl.isf.mxo",
-				"type" : "iLaX"
+				"name" : "jit.gl.isf.mxe64",
+				"type" : "mx64"
 			}
 , 			{
 				"name" : "map_audio_presets_to_visual_presets.txt",
