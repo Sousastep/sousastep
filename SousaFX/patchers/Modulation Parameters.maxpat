@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -48,7 +48,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1551.0, 845.0, 50.0, 22.0 ],
-					"text" : "64.5"
+					"text" : "47."
 				}
 
 			}
@@ -331,6 +331,7 @@
 							"parameter_exponent" : 3.21,
 							"parameter_longname" : "floor env smooth",
 							"parameter_mmax" : 1000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "env smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -355,7 +356,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1053,7 +1054,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1763,6 +1764,7 @@
 							"parameter_exponent" : 3.21,
 							"parameter_longname" : "ceiling env smooth",
 							"parameter_mmax" : 1000.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "env smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -1831,7 +1833,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2323.0, 84.0, 85.0, 22.0 ],
-					"restore" : [ 3 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1850,8 +1852,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3271.0, 409.0, 153.0, 26.0 ],
-					"text" : "r~ tuba_env_no_sck"
+					"patching_rect" : [ 3271.0, 409.0, 93.0, 26.0 ],
+					"text" : "r~ tuba_env"
 				}
 
 			}
@@ -2109,7 +2111,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.149039485337805, 0.0, 0, 0.0, 1.0, 0.413367704569953, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.149039485337805, 0.0, 0, 0.0, 1.0, 0.325, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -2135,6 +2137,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[11]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function[11]",
 							"parameter_type" : 3
 						}
@@ -2882,7 +2885,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3934,6 +3937,7 @@
 							"parameter_longname" : "duty cycle",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "duty cycle",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -3997,6 +4001,7 @@
 							"parameter_longname" : "phase offset",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "phase offset",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -4154,7 +4159,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1369.549416115424719, 348.0, 79.0, 22.0 ],
-					"restore" : [ 29 ],
+					"restore" : [ 47 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5160,6 +5165,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[25]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5196,6 +5202,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[26]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5232,6 +5239,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[27]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5339,6 +5347,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[28]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5397,6 +5406,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[29]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5433,6 +5443,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[30]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -5952,8 +5963,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 2271.66666666666606, 961.63932029800344, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5964,8 +5981,8 @@
 							"parsestring" : ""
 						}
 ,
-						"firstX" : 						{
-							"label" : "firstX",
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5976,14 +5993,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5994,8 +6005,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6052,8 +6063,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3192.531180691696136, 1260.854101142602303, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6064,8 +6081,8 @@
 							"parsestring" : ""
 						}
 ,
-						"firstX" : 						{
-							"label" : "firstX",
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6076,14 +6093,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6094,8 +6105,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6165,8 +6176,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3751.853134652646986, 1249.972724256382207, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6177,8 +6194,8 @@
 							"parsestring" : ""
 						}
 ,
-						"firstX" : 						{
-							"label" : "firstX",
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6189,14 +6206,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6207,8 +6218,8 @@
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -6859,7 +6870,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.128086618790808, 0.104810304025544, 0, 0.0, 1.0, 0.8, 0, -0.257069686021681 ],
+					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.128086618790808, 0.104810304025544, 0, 0.0, 1.0, 0.8, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -6885,6 +6896,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[8]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function[8]",
 							"parameter_type" : 3
 						}
@@ -6965,6 +6977,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[19]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function[19]",
 							"parameter_type" : 3
 						}
@@ -7071,6 +7084,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Resonance",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Rez",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7314,6 +7328,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "low_floor[1]",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "floor",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7382,6 +7397,7 @@
 							"parameter_longname" : "low_duty_cycle[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7448,6 +7464,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "low_SnTrSq[1]",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "low_SnTrSq",
 							"parameter_type" : 2
 						}
@@ -7521,6 +7538,7 @@
 							"parameter_longname" : "low_phase_offset[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7577,6 +7595,7 @@
 							"parameter_longname" : "low_power[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7665,6 +7684,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "low_floor",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "floor",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7733,6 +7753,7 @@
 							"parameter_longname" : "low_duty_cycle",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7799,6 +7820,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_longname" : "low_SnTrSq",
 							"parameter_mmax" : 2,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "low_SnTrSq",
 							"parameter_type" : 2
 						}
@@ -7888,6 +7910,7 @@
 							"parameter_longname" : "live.dial[16]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7942,6 +7965,7 @@
 							"parameter_longname" : "live.dial[15]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -7996,6 +8020,7 @@
 							"parameter_longname" : "live.dial[14]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -8050,6 +8075,7 @@
 							"parameter_longname" : "live.dial[13]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "y-axis",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -8104,6 +8130,7 @@
 							"parameter_longname" : "live.dial[11]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "depth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -8212,6 +8239,7 @@
 							"parameter_longname" : "low_phase_offset",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -8268,6 +8296,7 @@
 							"parameter_longname" : "low_power",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5

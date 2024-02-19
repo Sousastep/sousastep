@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 998.0, 507.0, 775.0, 637.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,8 +38,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "SousaFX Documentation — SousaFX 0.9.3 documentation",
+		"title" : "SousaVFX — SousaFX 0.9.3 documentation",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 885.0, 72.0, 97.0, 22.0 ],
+					"text" : "r set_docs_page"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"dragtrack" : 1,
 					"handoff" : "",
@@ -283,14 +295,15 @@
 					"gradient" : 1,
 					"id" : "obj-34",
 					"ignoreclick" : 1,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 956.0, 566.0, 24.0 ],
+					"patching_rect" : [ 349.0, 956.0, 566.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 8.0, 1560.0, 24.0 ],
-					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/index.html"
+					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
 				}
 
 			}
@@ -395,7 +408,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 842.0, 72.5, 415.0, 23.0 ],
+					"patching_rect" : [ 842.0, 41.0, 415.0, 23.0 ],
 					"text" : "~/Documents/Max%208/Projects/sousastep/SousaFX/.docs/index.html"
 				}
 
@@ -562,12 +575,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-11",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 230.0, 497.0, 22.0 ],
-					"text" : "url file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/index.html"
+					"patching_rect" : [ 320.0, 230.0, 497.0, 49.0 ],
+					"text" : "url file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
 				}
 
 			}
@@ -582,7 +596,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 35.0, 766.0, 596.0 ],
 					"rendermode" : 0,
-					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/index.html"
+					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
 				}
 
 			}
@@ -793,6 +807,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 1 ],
 					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

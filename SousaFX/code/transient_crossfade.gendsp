@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,39 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.325490196078431, 0.0, 0.545098039215686, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Medium",
+					"fontsize" : 12.0,
+					"id" : "obj-42",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1466.0, 1943.0, 82.0, 21.0 ],
+					"presentation_linecount" : 2,
+					"suppressinlet" : 1,
+					"text" : "noise gate IO",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.945098039215686, 0.917647058823529, 0.917647058823529, 1.0 ],
+					"color" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ],
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1486.0, 1919.0, 42.0, 22.0 ],
+					"text" : "out 22",
+					"textcolor" : [ 0.345098039215686, 0.0, 0.572549019607843, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 1.0, 1.0 ],
 					"color" : [ 0.094117647058824, 0.07843137254902, 0.243137254901961, 1.0 ],
@@ -1752,8 +1785,8 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 10,
-					"numoutlets" : 15,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 803.0, 1886.493616058264706, 171.0, 22.0 ],
 					"text" : "gen @file ladder_double_wrap",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1767,8 +1800,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 10,
-					"numoutlets" : 15,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 16,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 622.0, 1886.493616058264706, 171.0, 22.0 ],
 					"text" : "gen @file ladder_double_wrap",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -2443,6 +2476,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-7", 13 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-7", 15 ]
 				}
 
 			}

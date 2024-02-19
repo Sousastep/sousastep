@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -529.0, -1387.0, 2023.0, 1387.0 ],
+		"rect" : [ 1009.0, 618.0, 736.0, 574.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,244 @@
 		"assistshowspatchername" : 0,
 		"title" : "mix bus",
 		"boxes" : [ 			{
+				"box" : 				{
+					"hint" : "Lower the volume of the Octaver's sustain path.",
+					"id" : "obj-73",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1836.0, 1218.0, 80.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 374.0, 495.5, 33.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 0.12,
+							"parameter_longname" : "Octaver Sustain Trim",
+							"parameter_mmax" : 0.0,
+							"parameter_mmin" : -144.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "Octaver",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.dial[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "Lowers the volume of the Low's sustain path.",
+					"id" : "obj-72",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1700.0, 1218.0, 80.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 374.0, 422.75, 33.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 0.12,
+							"parameter_longname" : "Low Sustain Trim",
+							"parameter_mmax" : 0.0,
+							"parameter_mmin" : -144.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "Low",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.dial[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "Lowers the volume of the High's sustain path.",
+					"id" : "obj-68",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1556.0, 1218.0, 80.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 374.0, 350.5, 33.0, 48.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_exponent" : 0.12,
+							"parameter_longname" : "High Sustain Trim",
+							"parameter_mmax" : 0.0,
+							"parameter_mmin" : -144.0,
+							"parameter_modmode" : 3,
+							"parameter_shortname" : "High",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.dial"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-65",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1788.0, 1179.0, 115.0, 22.0 ],
+					"restore" : [ -4.999999999999998 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr VeryLoDryTrim",
+					"varname" : "VeryLoDryTrim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1664.0, 1179.0, 91.0, 22.0 ],
+					"restore" : [ -4.999999999999998 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr LoDryTrim",
+					"varname" : "LoDryTrim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1521.0, 1179.0, 89.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr HiDryTrim",
+					"varname" : "HiDryTrim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-895",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1836.0, 1278.0, 39.0, 22.0 ],
+					"text" : "dbtoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-893",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1700.0, 1278.0, 39.0, 22.0 ],
+					"text" : "dbtoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-890",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1556.0, 1278.0, 39.0, 22.0 ],
+					"text" : "dbtoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.403921568627451, 0.831372549019608, 0.454901960784314, 1.0 ],
+					"id" : "obj-1130",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1836.0, 1314.0, 135.0, 22.0 ],
+					"text" : "prepend VeryLoDryTrim",
+					"textcolor" : [ 0.007843137254902, 0.2, 0.023529411764706, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.333333333333333, 0.003921568627451, 1.0 ],
+					"color" : [ 0.203921568627451, 1.0, 0.0, 1.0 ],
+					"id" : "obj-211",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1700.0, 1370.0, 143.0, 22.0 ],
+					"text" : "s gen_ladder_triple_wrap"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.403921568627451, 0.831372549019608, 0.454901960784314, 1.0 ],
+					"id" : "obj-270",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1700.0, 1314.0, 111.0, 22.0 ],
+					"text" : "prepend LoDryTrim",
+					"textcolor" : [ 0.007843137254902, 0.2, 0.023529411764706, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.403921568627451, 0.831372549019608, 0.454901960784314, 1.0 ],
+					"id" : "obj-267",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1556.0, 1314.0, 109.0, 22.0 ],
+					"text" : "prepend HiDryTrim",
+					"textcolor" : [ 0.007843137254902, 0.2, 0.023529411764706, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "newobj",
@@ -168,7 +406,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "int" ],
 					"patching_rect" : [ 1418.0, 698.0, 193.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "four_plugin_selectors Post-Crossfade_FX rnbo_chorus",
 					"varname" : "plugin_or_rnbo_selector[2]"
 				}
@@ -199,7 +436,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 312.867617676688269, 1345.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 434.5, 24.0, 24.0 ]
+					"presentation_rect" : [ 134.0, 435.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -212,7 +449,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 218.867617676688269, 1347.0, 92.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 113.0, 436.0, 92.0, 21.0 ],
+					"presentation_rect" : [ 40.0, 436.0, 92.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Open low comp:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -232,7 +469,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 249.0, 1314.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 507.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 134.0, 507.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -246,7 +483,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 146.0, 1315.5, 101.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 92.0, 508.5, 113.0, 21.0 ],
+					"presentation_rect" : [ 19.0, 509.0, 113.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Open octaver comp:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -340,7 +577,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 551.0, -627.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 564.0, 508.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 301.0, 530.0, 24.0, 24.0 ],
 					"varname" : "toggle"
 				}
 
@@ -665,7 +902,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 644.0, -74.0, 125.0, 67.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 368.0, 413.0, 125.0, 67.5 ],
+					"presentation_rect" : [ 408.0, 413.0, 125.0, 67.5 ],
 					"varname" : "sustain_low",
 					"viewvisibility" : 1
 				}
@@ -833,7 +1070,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 875.0, 1649.0, 304.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 373, -1338, 2933, -19 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 257, 400, 708, 528 ]
@@ -964,7 +1201,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 257.0, 845.0, 15.735235353376538, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.0, 485.0, 10.0, 69.0 ],
+					"presentation_rect" : [ 570.0, 485.0, 10.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
@@ -998,7 +1235,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 518.0, 984.0, 15.735235353376538, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.0, 413.0, 10.0, 68.0 ],
+					"presentation_rect" : [ 570.0, 413.0, 10.0, 68.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
@@ -1032,7 +1269,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 1025.0, 910.0, 15.735235353376538, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.0, 341.0, 10.0, 67.0 ],
+					"presentation_rect" : [ 570.0, 341.0, 10.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ 1 ],
@@ -1322,7 +1559,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 553.0, 970.0, 141.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.0, 413.0, 48.0, 68.0 ],
+					"presentation_rect" : [ 576.0, 413.0, 48.0, 68.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "low vol",
@@ -1352,7 +1589,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 164.0, 970.0, 141.0, 126.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.0, 485.0, 48.0, 69.0 ],
+					"presentation_rect" : [ 576.0, 485.0, 48.0, 69.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "v low vol",
@@ -1389,7 +1626,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1522.0, 414.5, 123.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 369.0, 341.0, 123.0, 67.0 ],
+					"presentation_rect" : [ 409.0, 341.0, 123.0, 67.0 ],
 					"varname" : "sustainFX",
 					"viewvisibility" : 1
 				}
@@ -1414,7 +1651,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1119.0, 414.0, 123.0, 67.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 341.0, 123.0, 67.0 ],
+					"presentation_rect" : [ 166.0, 341.0, 125.0, 67.0 ],
 					"varname" : "attackFX",
 					"viewvisibility" : 1
 				}
@@ -1465,7 +1702,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 232.0, -76.0, 124.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 369.0, 485.0, 124.0, 69.0 ],
+					"presentation_rect" : [ 409.0, 485.0, 124.0, 69.0 ],
 					"varname" : "sustain_octave",
 					"viewvisibility" : 1
 				}
@@ -1490,7 +1727,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 89.0, -76.0, 124.0, 69.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 239.0, 485.0, 124.0, 69.0 ],
+					"presentation_rect" : [ 166.0, 485.0, 124.0, 69.0 ],
 					"varname" : "attack_octave",
 					"viewvisibility" : 1
 				}
@@ -1515,7 +1752,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 514.0, -75.0, 121.0, 68.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 242.0, 413.0, 121.0, 68.0 ],
+					"presentation_rect" : [ 166.0, 413.0, 124.0, 68.0 ],
 					"varname" : "attack_low",
 					"viewvisibility" : 1
 				}
@@ -1533,7 +1770,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1257.0, 931.0, 84.0, 135.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 509.0, 341.0, 49.0, 67.0 ],
+					"presentation_rect" : [ 576.0, 341.0, 49.0, 67.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "high gain[1]",
@@ -1934,6 +2171,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-1130", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.063404090702534, 0.288815945386887, 0.700839459896088, 1.0 ],
 					"destination" : [ "obj-42", 3 ],
 					"order" : 0,
@@ -2217,8 +2461,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-267", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-270", 0 ]
 				}
 
 			}
@@ -2403,6 +2661,13 @@
 					"destination" : [ "obj-434", 0 ],
 					"order" : 1,
 					"source" : [ "obj-435", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-68", 0 ],
+					"source" : [ "obj-44", 1 ]
 				}
 
 			}
@@ -2610,6 +2875,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-64", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-65", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"source" : [ "obj-66", 0 ]
 				}
@@ -2638,6 +2917,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-890", 0 ],
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-69", 1 ]
 				}
@@ -2654,6 +2940,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-874", 0 ],
 					"source" : [ "obj-71", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-893", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-895", 0 ],
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -2710,6 +3010,27 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1038", 0 ],
 					"source" : [ "obj-874", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-890", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-893", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1130", 0 ],
+					"source" : [ "obj-895", 0 ]
 				}
 
 			}
@@ -2806,6 +3127,9 @@
 			"obj-222::obj-4::obj-191" : [ "vst~[3]", "vst~", 0 ],
 			"obj-39::obj-21::obj-191" : [ "vst~[1]", "vst~", 0 ],
 			"obj-4" : [ "v low vol", "v low vol", 0 ],
+			"obj-68" : [ "High Sustain Trim", "High", 0 ],
+			"obj-72" : [ "Low Sustain Trim", "Low", 0 ],
+			"obj-73" : [ "Octaver Sustain Trim", "Octaver", 0 ],
 			"obj-8" : [ "low vol", "low vol", 0 ],
 			"obj-874" : [ "high gain[1]", "high vol", 0 ],
 			"obj-9" : [ "slider[2]", "slider[2]", 0 ],
@@ -2889,6 +3213,13 @@
 			}
 , 			{
 				"name" : "Post-Crossfade_FX_plugin2_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Post-Crossfade_FX_plugin3_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
