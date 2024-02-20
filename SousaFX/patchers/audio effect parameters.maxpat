@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2131.0, 1387.0 ],
+		"rect" : [ 555.0, 53.0, 885.0, 847.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -827,7 +827,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2323.0, 1987.0, 153.0, 50.0 ],
+					"patching_rect" : [ 2155.0, 2008.0, 153.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : "\"dist\" is a holdover from when this pattrstorage only selected distortion fx"
 				}
@@ -3839,7 +3839,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4872,13 +4872,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 7,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 102.0 ],
-					"text" : "190 471 710 1004 1559 795 1875 1183"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
+					"text" : "1674 785 2075 1358"
 				}
 
 			}
@@ -7921,7 +7921,13 @@
 						"patcher[2]::SousaFX Background Color Preference" : 0,
 						"patcher" : 0,
 						"patcher::Main Input stutter tremolo filters" : 0,
-						"stutterLFO" : 0
+						"stutterLFO" : 0,
+						"stutterLFO::stutter volume[1]" : 0,
+						"stutterLFO::inthru" : 0,
+						"stutterLFO::window" : 0,
+						"stutterLFO::offset[1]" : 0,
+						"stutterLFO::bypass_hipass" : 0,
+						"stutterLFO::accel-vol-dip" : 0
 					}
 ,
 					"fontname" : "Monaco",
@@ -11355,7 +11361,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2188.0, 2045.0, 151.0, 22.0 ],
+					"patching_rect" : [ 2156.0, 2062.5, 151.0, 22.0 ],
 					"text" : "r set_dist_preset_selection"
 				}
 
@@ -11597,29 +11603,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-981",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 2156.0, 2001.0, 152.0, 22.0 ],
-					"text" : "r get_dist_preset_selection"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-868",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1896.0, 2289.0, 161.0, 22.0 ],
-					"text" : "s distortion_preset_selection"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-867",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -11663,19 +11646,6 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2156.0, 2233.0, 29.5, 22.0 ],
 					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 3,
-					"id" : "obj-455",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2016.0, 2001.0, 146.458403911564346, 24.0 ],
-					"text" : "loadbang from visuals"
 				}
 
 			}
@@ -19224,7 +19194,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -19233,14 +19203,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-507", 0 ],
 					"order" : 0,
-					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-868", 0 ],
-					"order" : 1,
 					"source" : [ "obj-90", 0 ]
 				}
 
@@ -19322,13 +19284,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-307", 0 ],
 					"source" : [ "obj-98", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-275", 0 ],
-					"source" : [ "obj-981", 0 ]
 				}
 
 			}
@@ -20509,8 +20464,8 @@
 			}
 , 			{
 				"name" : "Post-Crossfade_FX_plugin1_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -21753,6 +21708,14 @@
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "zero.announce.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zero.resolve.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
