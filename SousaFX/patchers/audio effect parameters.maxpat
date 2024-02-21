@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 555.0, 53.0, 885.0, 847.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -841,7 +841,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4506.0, 75.0, 50.0, 22.0 ],
-					"text" : "0"
+					"text" : "1"
 				}
 
 			}
@@ -3839,7 +3839,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4872,13 +4872,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 20,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1674 785 2075 1358"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 277.0 ],
+					"text" : "1057 193 1577 726 1205 117 1569 653 1659 191 2201 474 1314 978 1630 1366 1450 998 1851 1183"
 				}
 
 			}
@@ -5866,7 +5866,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 16.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -5954,7 +5954,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -7927,21 +7927,41 @@
 						"stutterLFO::window" : 0,
 						"stutterLFO::offset[1]" : 0,
 						"stutterLFO::bypass_hipass" : 0,
-						"stutterLFO::accel-vol-dip" : 0
+						"stutterLFO::accel-vol-dip" : 0,
+						"envelope_parameters" : 0,
+						"envelope_parameters::main_env_params" : 0
 					}
 ,
 					"fontname" : "Monaco",
 					"id" : "obj-303",
+					"interp" : 					{
+						"preset descriptions" : [ 2, 0.0 ],
+						"post-crossfade FX routing" : [ 2, 0.0 ],
+						"post-crossfade FX routing while soloing" : [ 2, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_plugin_choice" : [ 2, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_when_to_bypass" : [ 2, 0.0 ],
+						"sustain fx chooser::Pre-LPF_FX_randomize" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_plugin_choice" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_when_to_bypass" : [ 2, 0.0 ],
+						"post-crossfade fx chooser::Post-Crossfade_FX_randomize" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_plugin_choice" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_when_to_bypass" : [ 2, 0.0 ],
+						"attack fx chooser::Dry-ish_FX_randomize" : [ 2, 0.0 ],
+						"mod params::aux_SnTrSq" : [ 2, 0.0 ],
+						"mod params::high_SnTrSq" : [ 2, 0.0 ],
+						"mod params::low_SnTrSq" : [ 2, 0.0 ]
+					}
+,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 1675, 90, 2468, 1361 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -8136,8 +8156,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -20401,8 +20421,8 @@
 			}
 , 			{
 				"name" : "Main Input stutter tremolo filters.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets",
-				"patcherrelativepath" : "../../default/presets",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
