@@ -40,6 +40,78 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-177",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1119.0, -1059.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 459.0, -1023.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 459.0, -981.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 975.0, -734.0, 55.0, 22.0 ],
+					"text" : "del 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 975.0, -766.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 975.0, -799.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-392",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -182,9 +254,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1549.0, -890.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 983.0, 53.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1549.0, -890.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -396,10 +466,10 @@
 					"id" : "obj-602",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 650.0, -1180.0, 22.0, 22.0 ],
-					"text" : "t 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 650.0, -1180.0, 32.0, 22.0 ],
+					"text" : "t 1 0"
 				}
 
 			}
@@ -603,7 +673,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "int", "clear" ],
-					"patching_rect" : [ 1262.0, -641.0, 68.0, 22.0 ],
+					"patching_rect" : [ 1147.0, -641.0, 68.0, 22.0 ],
 					"text" : "t b 14 clear"
 				}
 
@@ -2232,7 +2302,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-898",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -4695,8 +4764,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1332.0, -761.0, 115.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 739.766962482756298, 197.091255177280459, 115.0, 20.0 ],
 					"text" : "jump to next preset"
 				}
 
@@ -4708,8 +4775,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1128.0, -899.0, 163.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 739.766962482756298, 144.091255177280459, 163.0, 20.0 ],
 					"text" : "enable auto-preset switching"
 				}
 
@@ -5105,6 +5170,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-228",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -6060,6 +6126,103 @@
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel" : 0,
+						"UI_Pinwheel::Pinwheel_size" : 0,
+						"UI_Pinwheel::Pinwheel_size::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_size::invert" : 0,
+						"UI_Pinwheel::Pinwheel_size::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_size::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_size::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_size::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_size::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_edge" : 0,
+						"UI_Pinwheel::Pinwheel_edge::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_edge::invert" : 0,
+						"UI_Pinwheel::Pinwheel_edge::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_edge::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_edge::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_edge::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_edge::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_segments" : 0,
+						"UI_Pinwheel::Pinwheel_segments::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_segments::invert" : 0,
+						"UI_Pinwheel::Pinwheel_segments::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_segments::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_segments::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_segments::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_segments::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_rate" : 0,
+						"UI_Pinwheel::Pinwheel_rate::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_rate::invert" : 0,
+						"UI_Pinwheel::Pinwheel_rate::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_rate::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_rate::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_rate::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_rate::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::invert" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::invert" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::invert" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::u352009166" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::invert" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::linkphasor_rate" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::matrixctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::rslider" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::slide_down" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::slide_up" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_PolarGradient" : 0,
 						"UI_PolarGradient::PolarGradient_sMin" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::u352009166" : 0,
@@ -6762,127 +6925,6 @@
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_DimensionMorphingTopography" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::u352009166" : 0,
@@ -7321,9 +7363,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1104.0, -901.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 713.766962482756298, 142.091255177280459, 24.0, 24.0 ]
+					"patching_rect" : [ 1104.0, -901.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -7455,9 +7495,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1306.0, -761.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 713.766962482756298, 195.091255177280459, 24.0, 24.0 ]
+					"patching_rect" : [ 1306.0, -761.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -8391,7 +8429,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4369.0, -490.0, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -48. 48000"
 				}
 
 			}
@@ -8696,7 +8734,7 @@
 					"patching_rect" : [ 4037.0, -499.0, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.616144206670697, 1322.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "SOUSASTEP"
+					"text" : "DINGONEK"
 				}
 
 			}
@@ -10669,14 +10707,15 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1044.0, -147.0, 203.0, 32.0 ],
+					"patching_rect" : [ 1044.0, -147.0, 203.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "Pinwheel idle",
+					"text" : "ColorDiffusionFlow idle",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10693,23 +10732,23 @@
 					"restore" : 					{
 						"Audio IO Status" : [ 0 ],
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Ableton Sans Medium" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
+						"LineFinal" : [ -48.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 48.0 ],
 						"MultipleShapeSelection" : [ "torus" ],
 						"PositionMatrixDimensionX" : [ 2 ],
 						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "sphere" ],
-						"TextPositionY" : [ 0.0 ],
+						"SingleShapeSelection" : [ "opencylinder" ],
+						"TextPositionY" : [ -0.656 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.87 ],
+						"TextTracking" : [ 1.06 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 1 ],
+						"TextboxIndex" : [ 7 ],
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"displace" : [ 70.0 ],
@@ -14550,6 +14589,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-364", 0 ],
 					"order" : 1,
 					"source" : [ "obj-101", 0 ]
@@ -14908,6 +14954,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-540", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-540", 0 ],
 					"order" : 1,
 					"source" : [ "obj-150", 0 ]
 				}
@@ -15100,6 +15153,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-164", 0 ],
 					"source" : [ "obj-176", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-136", 0 ],
+					"source" : [ "obj-177", 0 ]
 				}
 
 			}
@@ -17728,7 +17788,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-136", 0 ],
+					"destination" : [ "obj-177", 1 ],
 					"source" : [ "obj-589", 1 ]
 				}
 
@@ -17847,6 +17907,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"source" : [ "obj-602", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"order" : 2,
 					"source" : [ "obj-602", 0 ]
@@ -17952,6 +18019,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-177", 0 ],
+					"order" : 0,
+					"source" : [ "obj-611", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"order" : 2,
 					"source" : [ "obj-611", 0 ]
@@ -17969,6 +18044,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-599", 0 ],
+					"order" : 1,
 					"source" : [ "obj-611", 1 ]
 				}
 
@@ -18051,6 +18127,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-528", 0 ],
+					"order" : 0,
+					"source" : [ "obj-623", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"order" : 1,
 					"source" : [ "obj-623", 0 ]
 				}
 
@@ -18065,6 +18150,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-524", 0 ],
+					"order" : 0,
+					"source" : [ "obj-625", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"order" : 1,
 					"source" : [ "obj-625", 0 ]
 				}
 
@@ -18550,6 +18644,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-712", 0 ],
 					"source" : [ "obj-705", 0 ]
 				}
@@ -18684,6 +18785,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-724", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-73", 0 ]
 				}
 
 			}
@@ -18853,6 +18961,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-794", 0 ],
 					"source" : [ "obj-787", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
