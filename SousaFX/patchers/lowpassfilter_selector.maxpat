@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 1079.0, 627.0, 401.0, 185.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -101,7 +101,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 104.0, 509.000000000000057, 148.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 31.0, 241.0, 30.0 ],
+					"presentation_rect" : [ 0.0, 32.0, 241.0, 30.0 ],
 					"proportion" : 0.5
 				}
 
@@ -427,10 +427,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 468.0, 409.575275646941122, 419.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage lowpassfilter_selector @greedy 2 @savemode 0",
@@ -852,7 +852,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

@@ -42,6 +42,18 @@
 		"title" : "midi status",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-151",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1216.5, 523.0, 239.0, 22.0 ],
+					"text" : "r \"auto-launch scene after looper fades out\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-133",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -59,8 +71,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 575.0, 1354.0, 55.0, 22.0 ],
-					"text" : "del 2000"
+					"patching_rect" : [ 575.0, 1354.0, 48.0, 22.0 ],
+					"text" : "del 200"
 				}
 
 			}
@@ -143,7 +155,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 798.0, 1307.0, 55.0, 22.0 ],
-					"text" : "del 5000"
+					"text" : "del 3000"
 				}
 
 			}
@@ -1746,13 +1758,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 4.0,
+					"fontsize" : 14.764735632840621,
 					"id" : "obj-181",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2106.0, 904.0, 31.0, 13.0 ],
+					"patching_rect" : [ 2115.0, 878.0, 89.0, 25.0 ],
 					"text" : "r numformat"
 				}
 
@@ -2427,12 +2439,12 @@
 			}
 , 			{
 				"box" : 				{
-					"fontsize" : 4.0,
+					"fontsize" : 13.302635825712743,
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2144.0, 146.0, 31.0, 13.0 ],
+					"patching_rect" : [ 2144.0, 140.548387096774206, 83.0, 23.0 ],
 					"text" : "s numformat"
 				}
 
@@ -3704,10 +3716,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 212.0, 333.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage MIDIstatus @greedy 0 @savemode 0",
@@ -4597,6 +4609,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-146", 1 ],
 					"source" : [ "obj-148", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-650", 0 ],
+					"source" : [ "obj-151", 0 ]
 				}
 
 			}

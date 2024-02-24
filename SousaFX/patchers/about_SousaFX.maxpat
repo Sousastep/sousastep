@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 358.0, 894.0, 468.0, 475.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -580,6 +580,7 @@
 									"fontname" : "Monaco",
 									"fontsize" : 13.0,
 									"gradient" : 1,
+									"hidden" : 1,
 									"id" : "obj-399",
 									"ignoreclick" : 1,
 									"maxclass" : "message",
@@ -589,7 +590,6 @@
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
-									"text" : "89.103948 %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -710,6 +710,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
+									"hidden" : 1,
 									"id" : "obj-359",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -717,8 +718,7 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
-									"text" : "Rank: Bronze Captain 2",
-									"textcolor" : [ 0.95450692, 0.67229308, 0.85679408226792, 1.0 ],
+									"textcolor" : [ 0.67229308, 0.95450692, 0.836529921475668, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -812,10 +812,11 @@
 									"bgcolor" : [ 0.580392156862745, 0.580392156862745, 0.580392156862745, 0.81 ],
 									"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"hint" : "progress to next rank",
 									"id" : "obj-317",
 									"ignoreclick" : 1,
-									"knobcolor" : [ 0.95450692, 0.67229308, 0.85679408226792, 1.0 ],
+									"knobcolor" : [ 0.67229308, 0.95450692, 0.836529921475668, 1.0 ],
 									"maxclass" : "slider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -978,6 +979,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 14.369322152341018,
+									"hidden" : 1,
 									"id" : "obj-275",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -985,7 +987,6 @@
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
-									"text" : "12.88 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1718,15 +1719,14 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-151",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1716.0, 3123.0, 427.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 181.0, 186.0, 131.0, 66.0 ],
-									"text" : "SousaFX has been open, with audio on, for 14 hours total.",
+									"presentation_rect" : [ 181.0, 186.0, 131.0, 21.0 ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1799,8 +1799,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "int", "int" ],
-									"patching_rect" : [ 3004.0, 2003.0, 65.0, 25.0 ],
-									"text" : "change 1"
+									"patching_rect" : [ 3004.0, 2003.0, 60.0, 25.0 ],
+									"text" : "change -1"
 								}
 
 							}
@@ -2140,7 +2140,6 @@
 									"bgfillcolor_type" : "color",
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-1",
 									"items" : [ "Still", "evaluating..." ],
 									"maxclass" : "umenu",
@@ -2511,7 +2510,6 @@
 									"patching_rect" : [ 3580.0, 3437.0, 384.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, -2.0, 347.0, 21.0 ],
-									"text" : "Licensed to sousastep on December 18th 2023",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4618,6 +4616,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-324",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4625,7 +4624,7 @@
 									"patching_rect" : [ 1755.0, 3086.0, 417.0, 21.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 77.0, 323.0, 21.0 ],
-									"text" : "You've played for 20 minutes today.",
+									"text" : "You've played for 0 minutes today.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4684,6 +4683,7 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-307",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4704,9 +4704,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1808.0, 3048.0, 650.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 0.0, 34.0, 323.0, 36.0 ],
-									"text" : "SousaFX has launched 152 times since installed on March 11th 2023",
+									"presentation_rect" : [ 0.0, 34.0, 323.0, 21.0 ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4968,7 +4966,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 12.0,
-									"hidden" : 1,
 									"id" : "obj-216",
 									"linecount" : 10,
 									"maxclass" : "comment",
@@ -7478,7 +7475,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-317", 0 ],
+									"order" : 0,
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-323", 0 ],
+									"order" : 1,
 									"source" : [ "obj-58", 0 ]
 								}
 
@@ -7765,7 +7771,48 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-151", 0 ],
+									"order" : 5,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-270", 0 ],
+									"order" : 4,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-275", 0 ],
+									"order" : 1,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-359", 0 ],
+									"order" : 2,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-399", 0 ],
+									"order" : 0,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-87", 0 ],
+									"order" : 3,
 									"source" : [ "obj-93", 0 ]
 								}
 
@@ -8586,7 +8633,7 @@
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 303.0, 329.0, 129.0, 52.0 ],
 					"readonly" : 1,
-					"text" : "Last checked on February 18th, 2024",
+					"text" : "Last checked on January 17th, 2024",
 					"varname" : "textedit"
 				}
 
@@ -8599,7 +8646,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1387.0, 1098.0, 106.0, 21.0 ],
-					"restore" : [ "Last checked on February 18th, 2024" ],
+					"restore" : [ "Last checked on January 17th, 2024" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -8708,10 +8755,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1998.0, 386.0, 373.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage sousafx_updates @greedy 2 @savemode 0",
