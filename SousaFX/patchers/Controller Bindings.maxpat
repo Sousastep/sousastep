@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 250.0, 1498.0, 1440.0, 847.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,30 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-773",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5796.5, 1643.0, 155.0, 22.0 ],
+					"text" : "which_FX SousaFX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-766",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 5884.0, 1423.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-814",
 					"maxclass" : "newobj",
@@ -6674,10 +6698,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1624.0, 1718.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -11977,11 +12001,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 2,
-										"out" : 63,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 37,
 										"out" : 54,
 										"gain" : 1.0
@@ -12044,6 +12063,11 @@
 , 									{
 										"in" : 44,
 										"out" : 3,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 38,
+										"out" : 63,
 										"gain" : 1.0
 									}
  ]
@@ -20753,6 +20777,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-785", 0 ],
+					"source" : [ "obj-766", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-807", 0 ],
 					"source" : [ "obj-767", 0 ]
 				}
@@ -21036,7 +21067,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-783", 0 ],
+					"destination" : [ "obj-773", 1 ],
 					"order" : 0,
 					"source" : [ "obj-802", 0 ]
 				}
@@ -21044,8 +21075,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-804", 0 ],
+					"destination" : [ "obj-783", 0 ],
 					"order" : 1,
+					"source" : [ "obj-802", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-804", 0 ],
+					"order" : 2,
 					"source" : [ "obj-802", 0 ]
 				}
 
