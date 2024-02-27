@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1655.0, 55.0, 904.0, 1385.0 ],
+		"rect" : [ 1184.0, 53.0, 1042.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,24 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-546",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 1075.0, 293.0, 100.0, 25.0 ],
+					"pic" : "sousafx_logo.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 5.0, 243.0, 60.75 ],
+					"xoffset" : -9.449999999999999,
+					"yoffset" : -3.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-108",
 					"maxclass" : "newobj",
@@ -738,10 +756,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 1610.0, 414.0, 276.0 ],
+					"patching_rect" : [ 200.0, 1610.0, 415.0, 276.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 33.0, 119.700721363492619, 417.0, 276.0 ],
+					"presentation_rect" : [ 40.0, 111.401442726985238, 418.0, 276.0 ],
 					"text" : "Starting Audio Engine...",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -1086,7 +1104,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4506.0, 75.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -4084,7 +4102,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "link", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4312,7 +4330,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 598.0, 1482.0, 317.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 49.0, 113.0, 21.0 ]
+					"presentation_rect" : [ -2.0, 61.0, 113.0, 21.0 ]
 				}
 
 			}
@@ -4491,8 +4509,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 365.0, 1064.0, 174.0, 22.0 ],
-					"text" : "combine \"set SousaFX v\" 0.0.2"
+					"patching_rect" : [ 365.0, 1064.0, 121.0, 22.0 ],
+					"text" : "combine \"set v\" 0.0.2"
 				}
 
 			}
@@ -4509,7 +4527,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 554.0, 1470.0, 317.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 49.0, 209.0, 36.0 ]
+					"presentation_rect" : [ -2.0, 61.0, 209.0, 36.0 ]
 				}
 
 			}
@@ -4584,7 +4602,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 365.0, 1164.0, 274.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 49.0, 209.0, 21.0 ],
+					"presentation_rect" : [ 7.0, 61.0, 209.0, 21.0 ],
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
@@ -4888,7 +4906,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5116.0, 1061.0, 92.0, 92.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 443.0, 13.700721363492619, 104.0, 104.0 ],
+					"presentation_rect" : [ 702.0, 762.0, 104.0, 104.0 ],
 					"varname" : "MIDI Status"
 				}
 
@@ -5117,13 +5135,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 3,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 49.0 ],
-					"text" : "0 53 2560 1440"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
+					"text" : "1055 482 1505 957"
 				}
 
 			}
@@ -6077,7 +6095,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 48.0, 901.0, 57.5, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 9.0, 57.5, 42.0 ]
+					"presentation_rect" : [ 499.0, 33.0, 57.5, 42.0 ]
 				}
 
 			}
@@ -6093,7 +6111,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.0, 1053.0, 60.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 14.0, 27.540983200073242, 31.926803588867188 ],
+					"presentation_rect" : [ 513.0, 38.0, 27.540983200073242, 31.926803588867188 ],
 					"togglemode" : 1
 				}
 
@@ -6109,9 +6127,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 268.0, 934.0, 59.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 16.0, 62.0, 29.0 ],
+					"presentation_rect" : [ 490.0, 68.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -6167,7 +6185,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 162.0, 936.0, 104.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 17.0, 67.0, 26.0 ],
+					"presentation_rect" : [ 529.0, 69.0, 67.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -6193,13 +6211,13 @@
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
-							"parameter_units" : "%i %",
+							"parameter_units" : "%i%",
 							"parameter_unitstyle" : 9
 						}
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -8208,10 +8226,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -8406,8 +8424,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -12819,7 +12837,7 @@
 					"patching_rect" : [ 5206.0, 1053.0, 100.0, 100.0 ],
 					"pic" : "Pictogrammers-Material-Midi.512.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 471.0, 42.0, 50.0, 50.0 ]
+					"presentation_rect" : [ 730.0, 790.0, 50.0, 50.0 ]
 				}
 
 			}
@@ -21935,6 +21953,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sousafx_logo.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sousafx_updates.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
@@ -22076,7 +22101,7 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.0, 0.219607843137255, 1.0, 0.097222222222222 ],
+		"bgcolor" : [ 0.117647058823529, 0.062745098039216, 0.129411764705882, 0.990892531876138 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 
