@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,66 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-397",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 993.0, -1190.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-422",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 884.0, -882.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-410",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1062.0, -1220.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-420",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1010.0, -598.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-403",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 767.75, -1181.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-177",
 					"maxclass" : "newobj",
@@ -248,13 +308,16 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "enable auto-preset switching for idle animations",
 					"id" : "obj-136",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1549.0, -890.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1549.0, -890.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 721.055812611691863, 139.338262050650883, 24.0, 24.0 ]
 				}
 
 			}
@@ -302,7 +365,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1549.0, -841.0, 133.0, 22.0 ],
-					"text" : "qmetro 1000 @active 1"
+					"text" : "qmetro 1000 @active 0"
 				}
 
 			}
@@ -348,7 +411,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 536.0, -580.5, 153.0, 103.0 ],
+					"patching_rect" : [ 536.0, -580.5, 153.0, 100.0 ],
 					"text" : "randomize and initialize Acoustic VFX preset when looper starts looping\n\nrandomize and initialize Wobble VFX preset when looper stops looping"
 				}
 
@@ -409,7 +472,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 868.0, -540.0, 29.5, 22.0 ],
-					"text" : "i"
+					"text" : "8"
 				}
 
 			}
@@ -432,7 +495,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 648.5, -647.0, 113.0, 34.0 ],
+					"patching_rect" : [ 648.5, -647.0, 113.0, 33.0 ],
 					"text" : "1. idle / rec looper\n2. looping"
 				}
 
@@ -444,7 +507,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, -721.0, 68.0, 34.0 ],
+					"patching_rect" : [ 862.0, -721.0, 68.0, 33.0 ],
 					"text" : "1. sousafx\n2. basicfx"
 				}
 
@@ -637,7 +700,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.0, -669.0, 126.0, 34.0 ],
+					"patching_rect" : [ 442.0, -669.0, 126.0, 33.0 ],
 					"text" : "open gate only if Wobble FX are in use"
 				}
 
@@ -650,7 +713,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 949.0, -652.0, 36.0, 22.0 ],
-					"text" : "urn 6"
+					"text" : "urn 5"
 				}
 
 			}
@@ -731,8 +794,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 949.0, -533.0, 202.0, 22.0 ],
-					"text" : "list.lookup 122 143 154 190 200 210"
+					"patching_rect" : [ 949.0, -533.0, 179.0, 22.0 ],
+					"text" : "list.lookup 122 143 154 190 210"
 				}
 
 			}
@@ -743,7 +806,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 934.0, -1157.0, 129.0, 48.0 ],
+					"patching_rect" : [ 934.0, -1157.0, 129.0, 47.0 ],
 					"text" : "if tuba doesn't play for 30 seconds then init idle VFX preset"
 				}
 
@@ -755,7 +818,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 921.0, -1182.0, 61.0, 22.0 ],
+					"patching_rect" : [ 921.0, -1190.0, 61.0, 22.0 ],
 					"text" : "del 30000"
 				}
 
@@ -791,7 +854,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1225.0, -1383.0, 543.0, 444.0 ],
+					"patching_rect" : [ 1225.0, -1383.0, 1083.0, 361.0 ],
 					"text" : "three sets of VFX presets:\n\n1. Wobble\n2. Acoustic\n3. Idle\n\nFor BasicFX, use Acoustic presets while tuba's playing.\n\nFor SousaFX, use Wobble presets while looper's idle or recording, and use Acoustic presets while looper's looping.\n\nIdle presets should begin after a short period of inactivity for post-soundcheck pre-show, and intermissions.\n\n\n\n"
 				}
 
@@ -829,7 +892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.0, -1476.0, 322.0, 25.0 ],
+					"patching_rect" : [ 544.0, -1476.0, 322.0, 24.0 ],
 					"text" : "zero.resolve @type _osc._udp @name SousaVFX"
 				}
 
@@ -927,7 +990,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 882.0, -652.0, 43.0, 22.0 ],
-					"text" : "urn 14"
+					"text" : "urn 13"
 				}
 
 			}
@@ -1823,8 +1886,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8046.0, -97.0, 117.0, 77.0 ],
-					"text" : ";\r\nmax launchbrowser https://www.youtube.com/watch?v=IVxMg74zFts"
+					"patching_rect" : [ 8046.0, -97.0, 117.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://www.youtube.com/watch?v=IVxMg74zFts"
 				}
 
 			}
@@ -2010,7 +2073,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1641.0, 1356.0, 150.0, 62.0 ],
+					"patching_rect" : [ 1641.0, 1356.0, 150.0, 60.0 ],
 					"text" : "bang out previous isf shader name before storing current isf shader name"
 				}
 
@@ -2022,7 +2085,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1942.0, 1032.0, 374.0, 186.0 ],
+					"patching_rect" : [ 1942.0, 1032.0, 374.0, 181.0 ],
 					"text" : "what should happen when switching ISF shaders\n\nthe previous shader UI is hidden\nthe previous shader's pattrstorage params are deactivated\nthe next shader UI is shown\nthe next shader's pattrstorage params are activated\n\n\nbut what if a non-ISF shader preset is loaded?\n\nthe previous shader UI is hidden\nthe previous shader's pattrstorage params are deactivated\n"
 				}
 
@@ -2213,7 +2276,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8402.0, 1430.0, 78.0, 50.0 ],
+					"patching_rect" : [ 8402.0, 1430.0, 78.0, 49.0 ],
 					"text" : "zl group 624 @zlmaxsize 624"
 				}
 
@@ -2237,7 +2300,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.5, -926.0, 141.0, 34.0 ],
+					"patching_rect" : [ 530.5, -926.0, 141.0, 33.0 ],
 					"text" : "idle phasor. only use if sousaFX isn't running."
 				}
 
@@ -2327,7 +2390,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1567.0, 1058.0, 198.0, 52.0 ],
+					"patching_rect" : [ 1567.0, 1058.0, 198.0, 51.0 ],
 					"text" : "2. add ISF shader UI maxpat to this switch"
 				}
 
@@ -2404,9 +2467,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2217.0, -222.0, 85.0, 81.0 ],
+					"patching_rect" : [ 2217.0, -222.0, 85.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1269.512225389480591, 21.0, 85.0, 81.0 ],
+					"presentation_rect" : [ 1269.512225389480591, 21.0, 85.0, 80.0 ],
 					"suppressinlet" : 1,
 					"text" : "🔈"
 				}
@@ -2835,7 +2898,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-782",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -3274,7 +3336,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3892,7 +3954,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 7436.0, 1341.0, 97.333327770233154, 64.0 ],
+					"patching_rect" : [ 7436.0, 1341.0, 97.333327770233154, 62.0 ],
 					"text" : "jit.rota @anchor_x 128 @anchor_y 128 @theta -0.5"
 				}
 
@@ -4030,8 +4092,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7858.0, 2385.0, 129.0, 105.0 ],
-					"text" : ";\r\nmax launchbrowser discord://discord.com/channels/289378508247924738/289378711533387777/1097717305502335076"
+					"patching_rect" : [ 7858.0, 2385.0, 129.0, 102.0 ],
+					"text" : ";\rmax launchbrowser discord://discord.com/channels/289378508247924738/289378711533387777/1097717305502335076"
 				}
 
 			}
@@ -4181,8 +4243,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7559.0, 3251.0, 123.0, 77.0 ],
-					"text" : ";\r\nmax launchbrowser https://cycling74.com/forums/how-to-measure-rate-of-change"
+					"patching_rect" : [ 7559.0, 3251.0, 123.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://cycling74.com/forums/how-to-measure-rate-of-change"
 				}
 
 			}
@@ -4335,7 +4397,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5735.0, 1689.0, 131.0, 36.0 ],
+					"patching_rect" : [ 5735.0, 1689.0, 131.0, 35.0 ],
 					"text" : "import_material purple.potomous.jitmtl"
 				}
 
@@ -4508,7 +4570,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5286.0, 1822.0, 56.0, 36.0 ],
+					"patching_rect" : [ 5286.0, 1822.0, 56.0, 35.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -4841,10 +4903,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -239.0, -1195.0, 237.0, 174.0 ],
+					"patching_rect" : [ -239.0, -1195.0, 237.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 7,
-					"presentation_rect" : [ 469.584410306582981, 642.87201744934805, 194.0, 174.0 ],
+					"presentation_rect" : [ 469.584410306582981, 642.87201744934805, 194.0, 175.0 ],
 					"text" : "matrixctrl order: \n1. phasor\n2. tuba_env\n3. loLFO\n4. hiLFO\n5. rate-mult phasor\n6. left / right accel",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -4934,7 +4996,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1216.0, 76.0, 150.0, 117.0 ],
+					"patching_rect" : [ 1216.0, 76.0, 150.0, 114.0 ],
 					"text" : "you need a way to separate your dubstep VFX from the acoustic tuba VFX...\n\nkeeping track of them manually is probably the best way to go for now..."
 				}
 
@@ -4947,8 +5009,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1307.0, -227.0, 116.0, 91.0 ],
-					"text" : ";\r\nmax launchbrowser https://cycling74.com/forums/why-is-coll-object-out-putting-symbol"
+					"patching_rect" : [ 1307.0, -227.0, 116.0, 89.0 ],
+					"text" : ";\rmax launchbrowser https://cycling74.com/forums/why-is-coll-object-out-putting-symbol"
 				}
 
 			}
@@ -4988,7 +5050,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1205.0, 1893.0, 153.0, 62.0 ],
+					"patching_rect" : [ 1205.0, 1893.0, 153.0, 60.0 ],
 					"text" : "position and scale moves videoplane further back so that text and shapes appear in front"
 				}
 
@@ -5075,7 +5137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1077.0, 698.0, 142.0, 103.0 ],
+					"patching_rect" : [ 1077.0, 698.0, 142.0, 100.0 ],
 					"text" : "pattrstorage has \"banks\" of presets for each ISF shader\n\nCandyWarp = 110 - 119\nPinWheel = 120 - 129\netc."
 				}
 
@@ -5135,7 +5197,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 781.0, -41.0, 195.0, 48.0 ],
+					"patching_rect" : [ 781.0, -41.0, 195.0, 47.0 ],
 					"text" : "allows SousaLED_preset_number to update before pattrstorage preset number"
 				}
 
@@ -5208,8 +5270,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1041.0, 1603.0, 117.0, 119.0 ],
-					"text" : ";\r\nmax launchbrowser https://discord.com/channels/289378508247924738/289379337528934401/1093521042640752751"
+					"patching_rect" : [ 1041.0, 1603.0, 117.0, 116.0 ],
+					"text" : ";\rmax launchbrowser https://discord.com/channels/289378508247924738/289379337528934401/1093521042640752751"
 				}
 
 			}
@@ -5280,8 +5342,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7840.0, 1773.0, 116.0, 77.0 ],
-					"text" : ";\r\nmax launchbrowser https://www.youtube.com/watch?v=tOPObpGnrIA&t=710s"
+					"patching_rect" : [ 7840.0, 1773.0, 116.0, 76.0 ],
+					"text" : ";\rmax launchbrowser https://www.youtube.com/watch?v=tOPObpGnrIA&t=710s"
 				}
 
 			}
@@ -5354,7 +5416,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1178.0, 1580.0, 101.0, 34.0 ],
+					"patching_rect" : [ 1178.0, 1580.0, 101.0, 33.0 ],
 					"text" : "Apply a limiter to color intensities.."
 				}
 
@@ -5398,7 +5460,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5916,8 +5978,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 854.0, 1434.0, 116.0, 64.0 ],
-					"text" : ";\r\nmax launchbrowser https://isf.vidvox.net/isf-for-jitter"
+					"patching_rect" : [ 854.0, 1434.0, 116.0, 62.0 ],
+					"text" : ";\rmax launchbrowser https://isf.vidvox.net/isf-for-jitter"
 				}
 
 			}
@@ -6008,7 +6070,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 747.0, -154.0, 48.0, 23.0 ],
+					"patching_rect" : [ 747.0, -154.0, 48.0, 24.0 ],
 					"text" : "del 10"
 				}
 
@@ -6021,7 +6083,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 746.0, -124.0, 81.0, 23.0 ],
+					"patching_rect" : [ 746.0, -124.0, 81.0, 24.0 ],
 					"text" : "writeagain"
 				}
 
@@ -6804,127 +6866,6 @@
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect" : 0,
-						"UI_ButterflyEffect::Pinwheel_size" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::u352009166" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::invert" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::linkphasor_rate" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::matrixctrl" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_DimensionMorphingTopography" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::u352009166" : 0,
@@ -7247,7 +7188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 519.0, 36.0, 257.0, 23.0 ],
+					"patching_rect" : [ 519.0, 36.0, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
@@ -7280,7 +7221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.0, -154.0, 119.0, 23.0 ],
+					"patching_rect" : [ 523.0, -154.0, 119.0, 24.0 ],
 					"style" : "messageGold",
 					"text" : "storagewindow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.890196078431372 ],
@@ -7308,7 +7249,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 535.0, -124.0, 104.0, 23.0 ],
+					"patching_rect" : [ 535.0, -124.0, 104.0, 24.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.890196078431372 ]
@@ -7357,13 +7298,16 @@
 			}
 , 			{
 				"box" : 				{
+					"hint" : "enable auto-preset switching for live acoustic VFX presets",
 					"id" : "obj-599",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1104.0, -901.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1104.0, -901.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 689.766962482756298, 139.338262050650883, 24.0, 24.0 ]
 				}
 
 			}
@@ -7375,8 +7319,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7666.0, 1570.0, 116.0, 91.0 ],
-					"text" : ";\r\nmax launchbrowser https://forum.arduino.cc/t/serial-input-basics-updated/382007/3"
+					"patching_rect" : [ 7666.0, 1570.0, 116.0, 89.0 ],
+					"text" : ";\rmax launchbrowser https://forum.arduino.cc/t/serial-input-basics-updated/382007/3"
 				}
 
 			}
@@ -7531,7 +7475,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1104.0, -852.0, 133.0, 22.0 ],
-					"text" : "qmetro 1000 @active 1"
+					"text" : "qmetro 1000 @active 0"
 				}
 
 			}
@@ -7542,8 +7486,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 868.0, -477.0, 355.0, 22.0 ],
-					"text" : "list.lookup 110 120 130 16 140 14 150 171 182 193 212 63 64 80"
+					"patching_rect" : [ 868.0, -477.0, 331.0, 22.0 ],
+					"text" : "list.lookup 110 120 130 16 140 14 150 171 182 212 63 64 80"
 				}
 
 			}
@@ -7825,8 +7769,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7587.0, 3316.0, 116.0, 105.0 ],
-					"text" : ";\r\nmax launchbrowser https://www.reddit.com/r/MaxMSP/comments/enj8af/comment/fe0iq7a/?context=3"
+					"patching_rect" : [ 7587.0, 3316.0, 116.0, 102.0 ],
+					"text" : ";\rmax launchbrowser https://www.reddit.com/r/MaxMSP/comments/enj8af/comment/fe0iq7a/?context=3"
 				}
 
 			}
@@ -8452,7 +8396,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3883.0, -610.0, 83.432250999999951, 48.0 ],
+					"patching_rect" : [ 3883.0, -610.0, 83.432250999999951, 47.0 ],
 					"text" : "counts # of characters in message"
 				}
 
@@ -8638,7 +8582,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5405.0, -513.0, 87.0, 34.0 ],
+					"patching_rect" : [ 5405.0, -513.0, 87.0, 33.0 ],
 					"text" : "font lighting on/off"
 				}
 
@@ -8665,7 +8609,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5717.0, -389.0, 38.0, 34.0 ],
+					"patching_rect" : [ 5717.0, -389.0, 38.0, 33.0 ],
 					"text" : "text align"
 				}
 
@@ -8806,7 +8750,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5405.0, -443.0, 105.0, 22.0 ],
+					"patching_rect" : [ 5405.0, -443.0, 105.0, 21.0 ],
 					"text" : "lighting_enable $1"
 				}
 
@@ -8820,7 +8764,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5181.0, -447.0, 107.0, 22.0 ],
+					"patching_rect" : [ 5181.0, -447.0, 107.0, 21.0 ],
 					"text" : "pak scale 1. 1. 1."
 				}
 
@@ -8834,7 +8778,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4745.0, -310.0, 111.999999999999545, 22.0 ],
+					"patching_rect" : [ 4745.0, -310.0, 111.999999999999545, 21.0 ],
 					"text" : "pak position 0. 0. 0."
 				}
 
@@ -9271,7 +9215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7454.0, -190.0, 85.0, 34.0 ],
+					"patching_rect" : [ 7454.0, -190.0, 85.0, 33.0 ],
 					"text" : "generate new displacement"
 				}
 
@@ -10211,7 +10155,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10549,7 +10493,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7862.0, 1509.0, 78.0, 50.0 ],
+					"patching_rect" : [ 7862.0, 1509.0, 78.0, 49.0 ],
 					"text" : "zl group 624 @zlmaxsize 624"
 				}
 
@@ -11506,7 +11450,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 5550.0, 3272.0, 100.0, 64.0 ],
+					"patching_rect" : [ 5550.0, 3272.0, 100.0, 62.0 ],
 					"text" : "jit.expr @expr snorm[0]*in[1]\\, snorm[1]*in[1]\\, norm[2]*in[1]"
 				}
 
@@ -11949,7 +11893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "open", "" ],
-					"patching_rect" : [ 8296.0, 1653.0, 49.0, 22.0 ],
+					"patching_rect" : [ 8296.0, 1653.0, 49.0, 21.0 ],
 					"text" : "t open l"
 				}
 
@@ -12000,7 +11944,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : "COM3",
+					"items" : [ "wlan-debug", ",", "Bluetooth-Incoming-Port", ",", "usbserial-DK0FZDII", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12895,7 +12839,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13070,7 +13014,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13210,7 +13154,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13426,7 +13370,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13542,7 +13486,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13729,7 +13673,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15209,6 +15153,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-403", 0 ],
+					"order" : 0,
+					"source" : [ "obj-180", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-602", 0 ],
 					"source" : [ "obj-180", 0 ]
 				}
@@ -15217,6 +15169,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-611", 0 ],
+					"order" : 1,
 					"source" : [ "obj-180", 1 ]
 				}
 
@@ -16788,6 +16741,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-584", 1 ],
+					"order" : 1,
+					"source" : [ "obj-397", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-589", 0 ],
+					"order" : 0,
+					"source" : [ "obj-397", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-399", 1 ],
 					"source" : [ "obj-398", 0 ]
 				}
@@ -16892,6 +16861,13 @@
 					"destination" : [ "obj-607", 0 ],
 					"order" : 1,
 					"source" : [ "obj-419", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-540", 0 ],
+					"source" : [ "obj-420", 0 ]
 				}
 
 			}
@@ -17789,6 +17765,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-177", 1 ],
+					"order" : 0,
+					"source" : [ "obj-589", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-410", 0 ],
+					"order" : 1,
 					"source" : [ "obj-589", 1 ]
 				}
 
@@ -17810,6 +17795,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-136", 0 ],
+					"order" : 0,
+					"source" : [ "obj-590", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-410", 0 ],
+					"order" : 1,
 					"source" : [ "obj-590", 1 ]
 				}
 
@@ -17830,6 +17824,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-422", 0 ],
+					"order" : 0,
+					"source" : [ "obj-592", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-638", 0 ],
 					"source" : [ "obj-592", 1 ]
 				}
@@ -17838,6 +17840,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-642", 0 ],
+					"order" : 1,
 					"source" : [ "obj-592", 0 ]
 				}
 
@@ -20815,8 +20818,8 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ease.mxe64",
-				"type" : "mx64"
+				"name" : "ease.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "floating window positioner.maxpat",
@@ -20853,16 +20856,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jit.*.mxe64",
-				"type" : "mx64"
+				"name" : "jit.*.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jit.+.mxe64",
-				"type" : "mx64"
+				"name" : "jit.+.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "jit.gl.isf.mxe64",
-				"type" : "mx64"
+				"name" : "jit.gl.isf.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "mojovideotech-shaders.txt",
@@ -20934,12 +20937,12 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "zero.announce.mxe64",
-				"type" : "mx64"
+				"name" : "zero.announce.mxo",
+				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zero.resolve.mxe64",
-				"type" : "mx64"
+				"name" : "zero.resolve.mxo",
+				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0,
