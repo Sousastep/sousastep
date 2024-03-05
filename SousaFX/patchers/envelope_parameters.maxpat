@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 837.0, 287.0, 1080.0, 958.0 ],
+		"rect" : [ 529.0, 1493.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 797.0, 594.0, 92.0, 22.0 ],
+					"patching_rect" : [ 690.0, 533.0, 92.0, 22.0 ],
 					"text" : "r VFXdoc_open"
 				}
 
@@ -85,7 +85,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 783.0, 914.0, 165.0, 21.0 ],
+					"patching_rect" : [ 1025.0, 613.0, 165.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 147.0, 165.0, 21.0 ],
 					"viewvisibility" : 1
@@ -108,7 +108,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 783.0, 840.0, 165.0, 21.0 ],
+					"patching_rect" : [ 1025.0, 539.0, 165.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 90.0, 165.0, 21.0 ],
 					"viewvisibility" : 1
@@ -131,7 +131,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 783.0, 865.0, 165.0, 21.0 ],
+					"patching_rect" : [ 1025.0, 564.0, 165.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 109.0, 165.0, 21.0 ],
 					"viewvisibility" : 1
@@ -154,7 +154,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 783.0, 815.0, 165.0, 21.0 ],
+					"patching_rect" : [ 1025.0, 514.0, 165.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 71.0, 165.0, 21.0 ],
 					"viewvisibility" : 1
@@ -177,22 +177,10 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 783.0, 888.0, 165.0, 21.0 ],
+					"patching_rect" : [ 1025.0, 587.0, 165.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 207.0, 128.0, 165.0, 21.0 ],
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 797.0, 627.0, 29.5, 22.0 ],
-					"text" : "b 2"
 				}
 
 			}
@@ -202,19 +190,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 797.0, 733.0, 99.0, 22.0 ],
+					"patching_rect" : [ 690.0, 603.0, 99.0, 22.0 ],
 					"text" : "s set_docs_page"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 807.0, 663.0, 132.0, 22.0 ],
-					"text" : "s Documentation_open"
 				}
 
 			}
@@ -227,8 +204,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 797.0, 697.0, 481.0, 23.0 ],
-					"text" : "~/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
+					"patching_rect" : [ 690.0, 567.0, 88.0, 23.0 ],
+					"text" : "sousavfx.html"
 				}
 
 			}
@@ -493,10 +470,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 658.0, 417.0, 369.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage main_env_params @greedy 0 @savemode 0",
@@ -644,7 +621,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 64.0, 285.0, 125.0, 22.0 ],
-					"restore" : [ 399.999999999999886 ],
+					"restore" : [ 399.999999999999773 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -827,20 +804,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-21", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -1038,43 +1001,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-1" : [ "Main Env Sens", "Main", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "floating window positioner.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hover_bang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "hover_bang_ubutton.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ]
 	}
 

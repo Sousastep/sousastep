@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 998.0, 507.0, 775.0, 637.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,15 +38,98 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "SousaVFX — SousaFX 0.9.3 documentation",
+		"title" : "Attributions — SousaFX 0.9.3 documentation",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 223.0, 132.0, 22.0 ],
+					"text" : "s Documentation_open"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 315.0, 188.5, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 315.0, 153.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 315.0, 110.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 342.0, 110.0, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "", "bang" ],
+					"patching_rect" : [ 1236.0, 64.0, 41.0, 22.0 ],
+					"text" : "t b s b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 828.0, 98.0, 439.0, 22.0 ],
+					"text" : "combine ~/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/ file"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 885.0, 72.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1236.0, 4.0, 97.0, 22.0 ],
 					"text" : "r set_docs_page"
 				}
 
@@ -76,7 +159,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1162.0, 1006.0, 54.0, 22.0 ],
+					"patching_rect" : [ 853.0, 1194.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -88,7 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1162.0, 942.0, 54.0, 22.0 ],
+					"patching_rect" : [ 853.0, 1130.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -118,7 +201,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1162.0, 973.0, 48.0, 22.0 ],
+					"patching_rect" : [ 853.0, 1161.0, 48.0, 22.0 ],
 					"text" : "del 100"
 				}
 
@@ -237,33 +320,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 698.0, 898.5, 380.0, 21.0 ],
+					"patching_rect" : [ 732.0, 888.0, 380.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "https://sousastep.github.io/SousaFX-docs/en/master/index.html"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 656.0, 110.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 656.0, 72.0, 32.0, 22.0 ],
-					"text" : "t b b"
 				}
 
 			}
@@ -274,7 +333,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 524.0, 898.0, 155.0, 22.0 ],
+					"patching_rect" : [ 558.0, 887.0, 155.0, 22.0 ],
 					"text" : "regexp %20 @substitute \" \""
 				}
 
@@ -295,15 +354,14 @@
 					"gradient" : 1,
 					"id" : "obj-34",
 					"ignoreclick" : 1,
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 956.0, 566.0, 40.0 ],
+					"patching_rect" : [ 349.0, 956.0, 566.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 8.0, 1560.0, 24.0 ],
-					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
+					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/content/attrib.html"
 				}
 
 			}
@@ -326,7 +384,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 153.0, 40.0, 28.0 ],
+					"patching_rect" : [ 239.0, 188.5, 40.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 87.0, 4.0, 40.0, 28.0 ],
 					"text" : ">",
@@ -354,7 +412,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 153.0, 40.0, 28.0 ],
+					"patching_rect" : [ 185.0, 188.5, 40.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 54.0, 4.0, 40.0, 28.0 ],
 					"text" : "<",
@@ -370,7 +428,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 798.0, 196.5, 71.0, 22.0 ],
+					"patching_rect" : [ 762.0, 232.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
 				}
 
@@ -382,7 +440,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 842.0, 135.5, 31.0, 22.0 ],
+					"patching_rect" : [ 806.0, 165.0, 31.0, 22.0 ],
 					"text" : "t b s"
 				}
 
@@ -394,7 +452,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 798.0, 166.5, 117.0, 22.0 ],
+					"patching_rect" : [ 762.0, 199.0, 117.0, 22.0 ],
 					"text" : "combine \"url file://\" s"
 				}
 
@@ -408,7 +466,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 842.0, 41.0, 415.0, 23.0 ],
+					"patching_rect" : [ 806.0, 63.0, 415.0, 23.0 ],
 					"text" : "~/Documents/Max%208/Projects/sousastep/SousaFX/.docs/index.html"
 				}
 
@@ -422,7 +480,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 842.0, 104.5, 140.0, 23.0 ],
+					"patching_rect" : [ 806.0, 131.0, 140.0, 23.0 ],
 					"text" : "conformpath max boot"
 				}
 
@@ -520,7 +578,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 153.0, 48.0, 28.0 ],
+					"patching_rect" : [ 806.0, 24.0, 48.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 4.0, 48.0, 28.0 ],
 					"text" : "home",
@@ -538,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 196.0, 55.0, 23.0 ],
+					"patching_rect" : [ 239.0, 231.5, 55.0, 23.0 ],
 					"text" : "forward"
 				}
 
@@ -552,7 +610,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 202.0, 196.0, 39.0, 23.0 ],
+					"patching_rect" : [ 185.0, 231.5, 39.0, 23.0 ],
 					"text" : "back"
 				}
 
@@ -574,19 +632,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"linecount" : 3,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 230.0, 497.0, 49.0 ],
-					"text" : "url file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "jweb",
 					"numinlets" : 1,
@@ -596,7 +641,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 35.0, 766.0, 596.0 ],
 					"rendermode" : 0,
-					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/sousavfx.html"
+					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/attrib.html"
 				}
 
 			}
@@ -630,7 +675,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -666,13 +711,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-16", 1 ],
+					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-16", 1 ]
 				}
 
@@ -700,15 +754,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-2", 1 ]
+					"destination" : [ "obj-22", 1 ],
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -735,7 +782,21 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 1 ],
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -765,13 +826,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-39", 0 ],
 					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -812,7 +866,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-36", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -828,6 +882,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-16", 2 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -882,6 +943,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-6", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"source" : [ "obj-6", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-65", 0 ]
 				}
@@ -920,7 +1002,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
