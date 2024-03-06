@@ -42,6 +42,20 @@
 		"title" : "loopers",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.84 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-68",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1377.5, 2052.5, 108.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "BPM to ms per bar"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 1.0, 0.968627450980392, 0.0, 1.0 ],
 					"id" : "obj-66",
 					"maxclass" : "newobj",
@@ -59,7 +73,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1177.0, 2158.0, 108.0, 22.0 ],
+					"patching_rect" : [ 1177.0, 2133.0, 108.0, 22.0 ],
 					"text" : "r phasor_from_live"
 				}
 
@@ -1911,7 +1925,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1274.0, 2109.0, 33.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 2105.0, 33.0, 22.0 ],
 					"text" : "* 48."
 				}
 
@@ -1924,7 +1938,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1316.0, 2109.0, 134.0, 21.0 ],
+					"patching_rect" : [ 1348.5, 2105.5, 134.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "ms to samples at 48 kHz"
 				}
@@ -2084,7 +2098,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1156.0, 2069.0, 107.0, 21.0 ],
+					"patching_rect" : [ 1178.0, 2097.0, 107.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "BPM to ms per bar"
 				}
@@ -2098,7 +2112,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1274.0, 2029.0, 82.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 1997.0, 82.0, 22.0 ],
 					"text" : "r tempo_BPM"
 				}
 
@@ -2110,7 +2124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1274.0, 2069.0, 62.0, 22.0 ],
+					"patching_rect" : [ 1305.0, 2052.0, 62.0, 22.0 ],
 					"text" : "!/ 240000."
 				}
 
