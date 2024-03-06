@@ -31,3 +31,5 @@
 67, "Looper Stutter Accel (bi)";
 68, "Drum Clip Stutter Accel (bi)";
 69, "Main Input Stutter Accel (bi)";
+70, "LFO Manual Wah (uni)";
+71, "LFO Auto-Wah Amount (uni)";
