@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 336.0, 53.0, 1639.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4090,7 +4090,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "live", ",", "internal" ],
+					"items" : [ "internal", ",", "live", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6117,7 +6117,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 490.0, 68.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -6205,7 +6205,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -8203,7 +8203,6 @@
 						"mod params::low_SnTrSq" : [ 2, 0.0 ],
 						"mod params::verylow_SnTrSq" : [ 2, 0.0 ],
 						"mod params::wah_or_trem" : [ 2, 0.0 ],
-						"mod params::enable auto-wah" : [ 2, 0.0 ],
 						"mod params::filter-type" : [ 2, 0.0 ],
 						"mod params::high_SnTrSq_randomize" : [ 2, 0.0 ]
 					}
@@ -19746,6 +19745,9 @@
 			"obj-169::obj-660::obj-114" : [ "function[17]", "function", 0 ],
 			"obj-169::obj-660::obj-178" : [ "curves[106]", "curves", 0 ],
 			"obj-169::obj-660::obj-36" : [ "curve[97]", "curve", 0 ],
+			"obj-169::obj-672::obj-114" : [ "function[105]", "function", 0 ],
+			"obj-169::obj-672::obj-178" : [ "curves[110]", "curves", 0 ],
+			"obj-169::obj-672::obj-36" : [ "curve[102]", "curve", 0 ],
 			"obj-169::obj-737::obj-114" : [ "function[14]", "function", 0 ],
 			"obj-169::obj-737::obj-178" : [ "curves[103]", "curves", 0 ],
 			"obj-169::obj-737::obj-36" : [ "curve[94]", "curve", 0 ],
@@ -19754,6 +19756,9 @@
 			"obj-169::obj-760::obj-36" : [ "curve[93]", "curve", 0 ],
 			"obj-169::obj-762::obj-644::obj-62" : [ "number[5]", "number[3]", 0 ],
 			"obj-169::obj-762::obj-644::obj-64" : [ "number[6]", "number[4]", 0 ],
+			"obj-169::obj-771::obj-114" : [ "function[104]", "function", 0 ],
+			"obj-169::obj-771::obj-178" : [ "curves[109]", "curves", 0 ],
+			"obj-169::obj-771::obj-36" : [ "curve[101]", "curve", 0 ],
 			"obj-169::obj-918::obj-114" : [ "function[99]", "function", 0 ],
 			"obj-169::obj-918::obj-178" : [ "curves[96]", "curves", 0 ],
 			"obj-169::obj-918::obj-36" : [ "curve[87]", "curve", 0 ],
@@ -19922,6 +19927,7 @@
 			"obj-72::obj-75" : [ "duty cycle", "duty cycle", 0 ],
 			"obj-72::obj-76" : [ "function[29]", "function", 0 ],
 			"obj-72::obj-766" : [ "low_SnTrSq[1]", "low_SnTrSq", 0 ],
+			"obj-72::obj-85" : [ "env sens[1]", "env sens", 0 ],
 			"obj-72::obj-88" : [ "ceiling env smooth", "env smooth", 0 ],
 			"obj-93::obj-6" : [ "live.menu", "live.menu", 0 ],
 			"obj-94::obj-6" : [ "live.menu[1]", "live.menu", 0 ],
@@ -20200,6 +20206,14 @@
 					"parameter_longname" : "curve[97]"
 				}
 ,
+				"obj-169::obj-672::obj-178" : 				{
+					"parameter_longname" : "curves[110]"
+				}
+,
+				"obj-169::obj-672::obj-36" : 				{
+					"parameter_longname" : "curve[102]"
+				}
+,
 				"obj-169::obj-737::obj-178" : 				{
 					"parameter_longname" : "curves[103]"
 				}
@@ -20214,6 +20228,14 @@
 ,
 				"obj-169::obj-760::obj-36" : 				{
 					"parameter_longname" : "curve[93]"
+				}
+,
+				"obj-169::obj-771::obj-178" : 				{
+					"parameter_longname" : "curves[109]"
+				}
+,
+				"obj-169::obj-771::obj-36" : 				{
+					"parameter_longname" : "curve[101]"
 				}
 ,
 				"obj-169::obj-918::obj-178" : 				{
@@ -20673,6 +20695,12 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "M4L.bal1~.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Tools resources",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
