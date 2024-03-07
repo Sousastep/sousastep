@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1972.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -94,7 +94,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5081.0, 2964.0, 255.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 540.0, 1512.0, 285.0, 17.0 ],
+					"presentation_rect" : [ 540.0, 1492.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -117,7 +117,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 5044.0, 2998.0, 255.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 540.0, 1492.0, 285.0, 17.0 ],
+					"presentation_rect" : [ 540.0, 1512.0, 285.0, 17.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -157,7 +157,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4970.0, 2828.0, 215.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "\"LFO Manual Wah (uni)\" \"LFO Auto-Wah Amount (uni)\""
 				}
@@ -6913,7 +6912,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 637.0, 53.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 216.0, 53.0, 96.0 ],
+					"presentation_rect" : [ 243.0, 220.0, 53.0, 96.0 ],
 					"text" : "{",
 					"textcolor" : [ 0.337255, 0.964706, 0.74902, 1.0 ]
 				}
@@ -9706,7 +9705,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 729.0, 53.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 320.0, 53.0, 96.0 ],
+					"presentation_rect" : [ 243.0, 339.0, 53.0, 96.0 ],
 					"text" : "{",
 					"textcolor" : [ 0.486275, 1.0, 0.25098, 1.0 ]
 				}
@@ -9723,7 +9722,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 933.0, 827.0, 53.0, 96.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 249.0, 426.0, 53.0, 96.0 ],
+					"presentation_rect" : [ 243.0, 456.0, 53.0, 96.0 ],
 					"text" : "{",
 					"textcolor" : [ 0.972549, 1.0, 0.356863, 1.0 ]
 				}
@@ -9812,7 +9811,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 668.0, 71.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.0, 246.0, 49.0, 39.0 ],
+					"presentation_rect" : [ 207.0, 250.0, 49.0, 39.0 ],
 					"text" : "RB",
 					"textcolor" : [ 0.337255, 0.964706, 0.74902, 1.0 ],
 					"textjustification" : 1
@@ -9865,7 +9864,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 760.0, 71.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 351.0, 49.0, 39.0 ],
+					"presentation_rect" : [ 208.0, 370.0, 49.0, 39.0 ],
 					"text" : "RT",
 					"textcolor" : [ 0.486275, 1.0, 0.25098, 1.0 ],
 					"textjustification" : 1
@@ -9919,7 +9918,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 881.0, 858.0, 71.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.0, 457.0, 49.0, 39.0 ],
+					"presentation_rect" : [ 208.0, 487.0, 49.0, 39.0 ],
 					"text" : "LT",
 					"textcolor" : [ 0.972549, 1.0, 0.356863, 1.0 ],
 					"textjustification" : 1
