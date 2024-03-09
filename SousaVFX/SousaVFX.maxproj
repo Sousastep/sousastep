@@ -2,10 +2,10 @@
 	"name" : "SousaVFX",
 	"version" : 1,
 	"creationdate" : 3782485106,
-	"modificationdate" : 3787431013,
+	"modificationdate" : 3792860595,
 	"viewrect" : [ 409.0, 233.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
-	"hideprojectwindow" : 0,
+	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
 	"autolocalize" : 0,
 	"contents" : 	{
@@ -14,6 +14,16 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"audio_enabler.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"dummy.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"floating window positioner.maxpat" : 			{
@@ -36,27 +46,7 @@
 
 			}
 ,
-			"audio_enabler.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
-			}
-,
 			"audio_status.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
-			}
-,
-			"dummy.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
@@ -96,8 +86,8 @@
 ,
 	"searchpath" : 	{
 		"0" : 		{
-			"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-			"projectrelativepath" : "../SousaFX/data",
+			"bootpath" : "./data",
+			"projectrelativepath" : "../../../../../../../Applications/data",
 			"label" : "SousaFX Data",
 			"recursive" : 1,
 			"enabled" : 1,
