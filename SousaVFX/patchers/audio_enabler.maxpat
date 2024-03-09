@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,14 +40,48 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"hint" : "Disable if SousaVFX is running on the same computer as SousaFX. Enable if SousaVFX is running on a different computer.",
+					"id" : "obj-103",
+					"items" : [ "Hide", "audio", "status", ",", "Show", "audio", "status" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 303.0, 202.0, 129.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 3.0, 108.540983200073242, 21.0 ],
+					"saved_attribute_attributes" : 					{
+						"bgfillcolor" : 						{
+							"expression" : "themecolor.live_control_text_bg"
+						}
+
+					}
+,
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"varname" : "umenu[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-40",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 202.0, 134.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 128.0, 202.0, 134.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "load pattr preset before saving is allowed",
 					"textjustification" : 2
@@ -62,7 +96,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 88.0, 175.0, 73.0, 22.0 ],
+					"patching_rect" : [ 88.0, 175.0, 73.0, 23.0 ],
 					"text" : "del 10000"
 				}
 
@@ -75,7 +109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 88.0, 208.0, 30.0, 22.0 ],
+					"patching_rect" : [ 88.0, 208.0, 30.0, 23.0 ],
 					"text" : "t 1"
 				}
 
@@ -88,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.0, 142.0, 66.0, 22.0 ],
+					"patching_rect" : [ 88.0, 142.0, 66.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -101,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 88.0, 109.0, 66.0, 22.0 ],
+					"patching_rect" : [ 88.0, 109.0, 66.0, 23.0 ],
 					"text" : "loadbang"
 				}
 
@@ -114,7 +148,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 256.0, 333.0, 66.0, 22.0 ],
+					"patching_rect" : [ 256.0, 333.0, 66.0, 23.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -126,7 +160,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 356.0, 94.0, 20.0 ],
+					"patching_rect" : [ 75.0, 356.0, 94.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Default preset #"
 				}
@@ -140,7 +174,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 432.0, 66.0, 22.0 ],
+					"patching_rect" : [ 349.0, 432.0, 66.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -153,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 277.0, 377.0, 45.0, 22.0 ],
+					"patching_rect" : [ 277.0, 377.0, 45.0, 23.0 ],
 					"text" : "t b b"
 				}
 
@@ -166,7 +200,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 382.0, 81.0, 22.0 ],
+					"patching_rect" : [ 75.0, 382.0, 81.0, 23.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -179,7 +213,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 238.0, 432.0, 95.0, 22.0 ],
+					"patching_rect" : [ 238.0, 432.0, 95.0, 23.0 ],
 					"text" : "pack store 1"
 				}
 
@@ -192,12 +226,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 75.0, 521.0, 322.0, 22.0 ],
+					"patching_rect" : [ 75.0, 521.0, 383.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage show_audio_status @greedy 0 @savemode 0",
@@ -226,7 +260,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 419.0, 115.0, 22.0 ],
+					"patching_rect" : [ 92.0, 419.0, 115.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "storagewindow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.890196078431372 ],
@@ -255,7 +289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 451.0, 101.0, 22.0 ],
+					"patching_rect" : [ 101.0, 451.0, 101.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -270,7 +304,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 349.0, 477.0, 476.0, 22.0 ],
+					"patching_rect" : [ 349.0, 477.0, 592.0, 23.0 ],
 					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaVFX/data/show_audio_status.json\""
 				}
 
@@ -286,13 +320,13 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "audio_status.maxpat",
+					"name" : "dummy.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 481.0, 109.0, 181.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 12.0, 181.0, 49.0 ],
+					"presentation_rect" : [ 2.0, 12.0, 181.0, 151.0 ],
 					"varname" : "show_status",
 					"viewvisibility" : 1
 				}
@@ -306,7 +340,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 257.0, 158.0, 112.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -326,41 +360,6 @@
 					"outlettype" : [ "bang", "bang", "" ],
 					"patching_rect" : [ 359.0, 244.0, 44.0, 22.0 ],
 					"text" : "sel 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
-					"bgfillcolor_angle" : 270.0,
-					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
-					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
-					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_proportion" : 0.5,
-					"bgfillcolor_type" : "color",
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"hint" : "Disable if SousaVFX is running on the same computer as SousaFX. Enable if SousaVFX is running on a different computer.",
-					"id" : "obj-103",
-					"items" : [ "Hide", "audio", "status", ",", "Show", "audio", "status" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 303.0, 202.0, 129.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 3.0, 108.540983200073242, 20.0 ],
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
-						}
-
-					}
-,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"varname" : "umenu[1]"
 				}
 
 			}
@@ -546,7 +545,6 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-869" : [ "live.numbox", "live.numbox", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -560,16 +558,17 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "audio_status.maxpat",
+				"name" : "dummy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
-				"type" : "TEXT",
+				"name" : "show_audio_status.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
