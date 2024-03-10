@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 886.0, 467.0, 1019.0, 763.0 ],
+		"rect" : [ 968.0, 460.0, 625.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,194 @@
 		"title" : "audio io status",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-80",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1048.0, 1258.05224609375, 105.0, 22.0 ],
+					"restore" : [ "18 MADI 14" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr adstatusIn18",
+					"varname" : "adstatusIn18"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
+					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontface" : 0,
+					"fontname" : "Lato Bold",
+					"fontsize" : 12.0,
+					"id" : "obj-81",
+					"ignoreclick" : 1,
+					"items" : "external octaver receive mono",
+					"maxclass" : "umenu",
+					"menumode" : 2,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 840.0, 1257.55224609375, 190.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 13.0, 383.242713873981074, 176.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato",
+					"fontsize" : 12.0,
+					"id" : "obj-82",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 1319.0, 1264.05224609375, 100.0, 23.0 ],
+					"text" : "adstatus input 18"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
+					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontface" : 0,
+					"fontname" : "Lato",
+					"fontsize" : 12.0,
+					"hint" : "",
+					"id" : "obj-83",
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1205.0, 1262.05224609375, 107.939551999999821, 23.0 ],
+					"pattrmode" : 1,
+					"prefix_mode" : 2,
+					"presentation" : 1,
+					"presentation_rect" : [ 185.0, 383.242713873981074, 122.62908935546875, 23.0 ],
+					"prototypename" : "Lato9",
+					"varname" : "umenu[12]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 2000.0, 1147.943249553957685, 114.0, 22.0 ],
+					"restore" : [ "40 MADI 36" ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr adstatusOut13",
+					"varname" : "adstatusOut13"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"allowdrag" : 0,
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
+					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontface" : 0,
+					"fontname" : "Lato Bold",
+					"fontsize" : 12.0,
+					"id" : "obj-43",
+					"ignoreclick" : 1,
+					"items" : "external octaver send mono",
+					"maxclass" : "umenu",
+					"menumode" : 2,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 1697.0, 1166.943249553957685, 162.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 339.0, 383.242713873981074, 168.0, 23.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Lato",
+					"fontsize" : 12.0,
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 2402.0, 1149.943249553957685, 108.0, 23.0 ],
+					"text" : "adstatus output 13"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.8, 0.8, 0.8, 0.0 ],
+					"bgfillcolor_color1" : [ 0.752941, 0.729412, 0.666667, 1.0 ],
+					"bgfillcolor_color2" : [ 0.866667, 0.831373, 0.741176, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"fontface" : 0,
+					"fontname" : "Lato",
+					"fontsize" : 12.0,
+					"hint" : "",
+					"id" : "obj-79",
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 2152.0, 1183.943249553957685, 102.939551999999821, 23.0 ],
+					"pattrmode" : 1,
+					"prefix_mode" : 2,
+					"presentation" : 1,
+					"presentation_rect" : [ 496.0, 383.242713873981074, 122.939544677734375, 23.0 ],
+					"prototypename" : "Lato9",
+					"varname" : "umenu[13]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -56,26 +244,11 @@
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"fontname" : "Ableton Sans Light",
-					"id" : "obj-68",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1053.154399514263787, 1253.0, 259.0, 20.0 ],
-					"suppressinlet" : 1,
-					"text" : "removed 18 and didn't want to refactor further",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"fontname" : "Ableton Sans Light",
 					"id" : "obj-63",
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2012.0, 1299.0, 259.0, 20.0 ],
+					"patching_rect" : [ 2012.0, 1417.0, 259.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "removed 26 and didn't want to refactor further",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -127,9 +300,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1816.0, 1361.0, 164.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1479.0, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 402.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 340.0, 402.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -157,9 +330,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1816.0, 1393.0, 164.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1511.0, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 420.0, 148.0, 22.0 ]
+					"presentation_rect" : [ 340.0, 420.0, 148.0, 23.0 ]
 				}
 
 			}
@@ -187,9 +360,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1816.0, 1426.0, 164.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1544.0, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 438.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 340.0, 438.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -217,9 +390,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1816.0, 1458.0, 164.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1576.0, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 456.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 340.0, 456.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -247,9 +420,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1816.0, 1491.0, 164.0, 22.0 ],
+					"patching_rect" : [ 1816.0, 1609.0, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 340.0, 474.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 340.0, 474.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -260,7 +433,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1985.715439951426561, 2478.0, 150.0, 20.0 ],
+					"patching_rect" : [ 1985.715439951426561, 2478.0, 150.0, 21.0 ],
 					"suppressinlet" : 1,
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -273,8 +446,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1982.0, 1501.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1982.0, 1619.0, 114.0, 22.0 ],
+					"restore" : [ "28 MADI 24" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -292,8 +465,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1983.0, 1467.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1983.0, 1585.0, 114.0, 22.0 ],
+					"restore" : [ "27 MADI 23" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -313,7 +486,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2403.0, 1513.0, 108.0, 22.0 ],
+					"patching_rect" : [ 2403.0, 1631.0, 108.0, 23.0 ],
 					"text" : "adstatus output 31"
 				}
 
@@ -327,7 +500,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2403.0, 1480.0, 108.0, 22.0 ],
+					"patching_rect" : [ 2403.0, 1598.0, 108.0, 23.0 ],
 					"text" : "adstatus output 30"
 				}
 
@@ -347,17 +520,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-54",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2145.0, 1489.0, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2145.0, 1607.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 475.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 475.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[50]"
 				}
@@ -378,17 +551,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-55",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2145.0, 1466.0, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2145.0, 1584.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 457.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 457.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[51]"
 				}
@@ -401,8 +574,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1983.0, 1432.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1983.0, 1550.0, 114.0, 22.0 ],
+					"restore" : [ "26 MADI 22" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -420,8 +593,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1984.0, 1398.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1984.0, 1516.0, 114.0, 22.0 ],
+					"restore" : [ "25 MADI 21" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -439,8 +612,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1984.0, 1363.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1984.0, 1481.0, 114.0, 22.0 ],
+					"restore" : [ "24 MADI 20" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -460,7 +633,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2404.0, 1448.0, 108.0, 22.0 ],
+					"patching_rect" : [ 2404.0, 1566.0, 108.0, 23.0 ],
 					"text" : "adstatus output 29"
 				}
 
@@ -474,7 +647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2404.0, 1415.0, 108.0, 22.0 ],
+					"patching_rect" : [ 2404.0, 1533.0, 108.0, 23.0 ],
 					"text" : "adstatus output 28"
 				}
 
@@ -488,7 +661,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2404.0, 1382.0, 108.0, 22.0 ],
+					"patching_rect" : [ 2404.0, 1500.0, 108.0, 23.0 ],
 					"text" : "adstatus output 27"
 				}
 
@@ -508,17 +681,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-64",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2146.0, 1434.0, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2146.0, 1552.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 439.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 439.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[52]"
 				}
@@ -539,17 +712,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-66",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2146.0, 1411.0, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2146.0, 1529.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 420.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 420.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[53]"
 				}
@@ -570,17 +743,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-67",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2146.0, 1388.0, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2146.0, 1506.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 402.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 402.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[54]"
 				}
@@ -610,9 +783,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1395.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1475.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 492.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 492.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -640,9 +813,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1278.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1358.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 402.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 402.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -670,9 +843,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1301.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1381.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 420.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 420.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -700,9 +873,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1324.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1404.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 438.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 438.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -730,9 +903,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1347.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1427.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 456.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 456.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -760,9 +933,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 897.0, 1370.5, 164.0, 22.0 ],
+					"patching_rect" : [ 887.0, 1450.5, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 474.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 474.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -773,7 +946,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1083.0, 1409.0, 105.0, 22.0 ],
+					"patching_rect" : [ 1073.0, 1488.5, 105.0, 22.0 ],
 					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -792,8 +965,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1084.0, 1384.0, 105.0, 22.0 ],
-					"restore" : [ "8 Dante rx 8" ],
+					"patching_rect" : [ 1074.0, 1463.5, 105.0, 22.0 ],
+					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -811,8 +984,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1085.0, 1358.0, 105.0, 22.0 ],
-					"restore" : [ "7 Dante rx 7" ],
+					"patching_rect" : [ 1075.0, 1437.5, 105.0, 22.0 ],
+					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -830,8 +1003,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1086.0, 1333.0, 105.0, 22.0 ],
-					"restore" : [ "6 Dante rx 6" ],
+					"patching_rect" : [ 1076.0, 1412.5, 105.0, 22.0 ],
+					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -849,8 +1022,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1087.0, 1307.0, 105.0, 22.0 ],
-					"restore" : [ "5 Dante rx 5" ],
+					"patching_rect" : [ 1077.0, 1386.5, 105.0, 22.0 ],
+					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -868,8 +1041,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1087.0, 1282.0, 105.0, 22.0 ],
-					"restore" : [ "4 Dante rx 4" ],
+					"patching_rect" : [ 1077.0, 1361.5, 105.0, 22.0 ],
+					"restore" : [ "Off" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -889,7 +1062,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1415.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1494.5, 100.0, 23.0 ],
 					"text" : "adstatus input 24"
 				}
 
@@ -909,17 +1082,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-26",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1413.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1492.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 492.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 492.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[43]"
 				}
@@ -934,7 +1107,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1390.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1469.5, 100.0, 23.0 ],
 					"text" : "adstatus input 23"
 				}
 
@@ -948,7 +1121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1367.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1446.5, 100.0, 23.0 ],
 					"text" : "adstatus input 22"
 				}
 
@@ -962,7 +1135,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1344.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1423.5, 100.0, 23.0 ],
 					"text" : "adstatus input 21"
 				}
 
@@ -976,7 +1149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1321.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1400.5, 100.0, 23.0 ],
 					"text" : "adstatus input 20"
 				}
 
@@ -990,7 +1163,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1354.0, 1298.0, 100.0, 22.0 ],
+					"patching_rect" : [ 1344.0, 1377.5, 100.0, 23.0 ],
 					"text" : "adstatus input 19"
 				}
 
@@ -1010,17 +1183,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-35",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1388.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1467.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 474.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 474.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[44]"
 				}
@@ -1041,17 +1214,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-36",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1365.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1444.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 456.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 456.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[45]"
 				}
@@ -1072,17 +1245,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-37",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1342.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1421.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 438.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 438.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[46]"
 				}
@@ -1103,17 +1276,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-38",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1319.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1398.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 420.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 420.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[47]"
 				}
@@ -1134,17 +1307,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-39",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1240.0, 1296.0, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1230.0, 1375.5, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 402.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 402.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[48]"
 				}
@@ -1169,7 +1342,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1774.0, 416.0, 66.0, 22.0 ],
+					"patching_rect" : [ 1774.0, 416.0, 66.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1182,7 +1355,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1774.0, 385.0, 45.0, 22.0 ],
+					"patching_rect" : [ 1774.0, 385.0, 45.0, 23.0 ],
 					"text" : "t b b"
 				}
 
@@ -1207,7 +1380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1774.0, 448.0, 45.0, 22.0 ],
+					"patching_rect" : [ 1774.0, 448.0, 45.0, 23.0 ],
 					"text" : "write"
 				}
 
@@ -1354,7 +1527,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1423.84375, 400.323337129622701, 185.0, 22.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 3 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1384,7 +1557,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1346.624593683678086, 438.323337129622701, 150.0, 87.0 ],
+					"patching_rect" : [ 1346.624593683678086, 438.323337129622701, 150.0, 93.0 ],
 					"suppressinlet" : 1,
 					"text" : "Notes for TotalMix:\n\nfor \"velcro mic live\", \ndisable AN 1's EQ, \nleave Low Cut enabled,  \nset Gain to +10",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -1494,7 +1667,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1468.789397408745117, 204.110515824513982, 66.0, 22.0 ],
+					"patching_rect" : [ 1468.789397408745117, 204.110515824513982, 66.0, 23.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1507,7 +1680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "bang", "bang", "bang", "bang", "bang" ],
-					"patching_rect" : [ 1399.124593683678086, 140.906102023483072, 61.0, 22.0 ],
+					"patching_rect" : [ 1399.124593683678086, 140.906102023483072, 61.0, 23.0 ],
 					"text" : "b 5"
 				}
 
@@ -1520,7 +1693,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1195.25, 153.969549370619688, 81.0, 22.0 ],
+					"patching_rect" : [ 1195.25, 153.969549370619688, 81.0, 23.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1533,7 +1706,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1358.124593683678086, 204.110515824513982, 95.0, 22.0 ],
+					"patching_rect" : [ 1358.124593683678086, 204.110515824513982, 95.0, 23.0 ],
 					"text" : "pack store 1"
 				}
 
@@ -1546,7 +1719,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1195.25, 292.93782569705138, 347.0, 22.0 ],
+					"patching_rect" : [ 1195.25, 292.93782569705138, 347.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
@@ -1580,7 +1753,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1212.726920972215339, 190.742577710795331, 115.0, 22.0 ],
+					"patching_rect" : [ 1212.726920972215339, 190.742577710795331, 115.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "storagewindow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.890196078431372 ],
@@ -1609,7 +1782,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1221.226920972215339, 222.51560605097086, 101.0, 22.0 ],
+					"patching_rect" : [ 1221.226920972215339, 222.51560605097086, 101.0, 23.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1624,7 +1797,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1468.789397408745117, 248.524170760782681, 549.0, 22.0 ],
+					"patching_rect" : [ 1468.789397408745117, 248.524170760782681, 549.0, 23.0 ],
 					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/Audio_Status.json\""
 				}
 
@@ -1662,8 +1835,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1990.0, 1214.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1990.0, 1332.0, 114.0, 22.0 ],
+					"restore" : [ "22 MADI 18" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1681,8 +1854,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1991.0, 1186.5, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1991.0, 1305.0, 114.0, 22.0 ],
+					"restore" : [ "21 MADI 17" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1702,7 +1875,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2403.0, 1223.5, 108.0, 22.0 ],
+					"patching_rect" : [ 2403.0, 1342.0, 108.0, 23.0 ],
 					"text" : "adstatus output 25"
 				}
 
@@ -1716,7 +1889,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2403.0, 1190.5, 108.0, 22.0 ],
+					"patching_rect" : [ 2403.0, 1309.0, 108.0, 23.0 ],
 					"text" : "adstatus output 24"
 				}
 
@@ -1736,17 +1909,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-563",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2151.0, 1242.5, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2151.0, 1361.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 206.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 206.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[40]"
 				}
@@ -1767,17 +1940,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-564",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2151.0, 1219.5, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2151.0, 1338.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 188.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 188.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[41]"
 				}
@@ -1807,9 +1980,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1177.0, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1295.0, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 187.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 187.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -1837,9 +2010,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1200.0, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1318.0, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 205.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 205.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -1862,10 +2035,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1399.124593683678086, 100.468276326431578, 180.0, 21.0 ],
+					"patching_rect" : [ 1399.124593683678086, 100.468276326431578, 180.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 276.0, 16.0, 79.745693206787109, 45.0 ],
+					"presentation_rect" : [ 276.0, 16.0, 81.0, 50.0 ],
 					"text" : "save Audio Status settings",
 					"textjustification" : 1
 				}
@@ -1879,7 +2052,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1107.826919327127143, 222.51560605097086, 69.0, 22.0 ],
+					"patching_rect" : [ 1107.826919327127143, 222.51560605097086, 69.0, 24.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1892,7 +2065,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1048.447039222822241, 1209.085420474510101, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "17 MADI 13" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1911,7 +2084,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1049.23159927139568, 1183.645847075712481, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "36 MADI 32" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1930,7 +2103,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1050.016159319969574, 1158.206273676914861, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "35 MADI 31" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1949,7 +2122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1050.800719368543014, 1132.766700278117469, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "34 MADI 30" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1968,7 +2141,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1051.585279417116453, 1107.327126879320076, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "33 MADI 29" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1987,7 +2160,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1052.369839465690347, 1081.887553480522456, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "32 MADI 28" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2006,7 +2179,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1053.154399514263787, 1056.447980081725063, 104.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "31 MADI 27" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2025,7 +2198,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1053.938959562837681, 1031.008406682927443, 105.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "30 MADI 26" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2044,7 +2217,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1054.72351961141112, 1005.568833284130051, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "29 MADI 25" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2063,7 +2236,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1055.50807965998456, 980.129259885332431, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "50 MADI 46" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2082,7 +2255,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1056.292639708558454, 954.689686486535038, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "49 MADI 45" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2101,7 +2274,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1057.077199757131893, 929.250113087737532, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "38 MADI 34" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2120,7 +2293,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1057.861759805705333, 903.810539688940025, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "37 MADI 33" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2139,7 +2312,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1058.646319854279227, 878.370966290142405, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "4 Instr. 2" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2158,7 +2331,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1059.430879902852666, 852.931392891345013, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "3 Instr. 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2177,7 +2350,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1060.215439951426561, 827.491819492547393, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "39 MADI 35" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2196,7 +2369,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1061.0, 802.05224609375, 98.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "1 Mic/Line 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2214,8 +2387,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1991.0, 1159.0, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"patching_rect" : [ 1991.0, 1277.0, 114.0, 22.0 ],
+					"restore" : [ "18 MADI 14" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2234,7 +2407,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1999.369839465690347, 1090.887553480522456, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "36 MADI 32" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2253,7 +2426,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2000.154399514263787, 1065.447980081725063, 113.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "35 MADI 31" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2272,7 +2445,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2000.938959562837681, 1040.008406682927443, 114.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "34 MADI 30" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2291,7 +2464,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2001.72351961141112, 1014.568833284130051, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "33 MADI 29" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2310,7 +2483,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2002.50807965998456, 989.129259885332431, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "32 MADI 28" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2329,7 +2502,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2003.292639708558454, 963.689686486535038, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "31 MADI 27" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2348,7 +2521,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2004.077199757131893, 938.250113087737532, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "30 MADI 26" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2367,7 +2540,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2004.861759805705333, 912.810539688940025, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "29 MADI 25" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2386,7 +2559,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2005.646319854279227, 887.370966290142405, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "4 Phones 4" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2405,7 +2578,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2006.430879902852666, 861.931392891345013, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "3 Phones 3" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2424,7 +2597,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2007.215439951426561, 836.491819492547393, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "2 Analog 2" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2443,7 +2616,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2008.0, 811.05224609375, 107.0, 22.0 ],
-					"restore" : [ "Off" ],
+					"restore" : [ "1 Analog 1" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2463,7 +2636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2404.0, 1158.5, 108.0, 22.0 ],
+					"patching_rect" : [ 2404.0, 1277.0, 108.0, 23.0 ],
 					"text" : "adstatus output 23"
 				}
 
@@ -2483,17 +2656,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-465",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1187.5, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1306.0, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 151.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 151.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[22]"
 				}
@@ -2523,9 +2696,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1150.0, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1268.0, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 150.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 150.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2553,9 +2726,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1140.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1140.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 365.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 365.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -2568,7 +2741,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1215.05224609375, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1215.05224609375, 100.0, 23.0 ],
 					"text" : "adstatus input 17"
 				}
 
@@ -2588,17 +2761,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-439",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1213.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1213.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 366.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 366.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[39]"
 				}
@@ -2613,7 +2786,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 607.0, 18.759223038178561, 418.0, 583.0 ],
+					"patching_rect" : [ 607.0, 18.759223038178561, 418.0, 651.0 ],
 					"text" : "17 inputs\n=========\n\n1        live mic in\n23       prerecorded mic in\n3  4     live silentbrass in\n27 28    prerecorded silentbrass in\n\n17       phasor from live\n\n29 30    hardware delay receive\n31 32 \n33 34 \n35 36 \n\n49 50    drum to extract kick from and sidechain to tuba\n         also for risset buffer\n\n\n23 outputs\n==========\n\n5 6      monitor mix\n\n7 8      main out\n         MADIface Pro's main XLR outs\n         to FF800 for folk's headphone monitors\n         loopbacked to be recorded in Live\n\n33 34    hardware delay sends\n35 36 \n37 38 \n39 40 \n\n23 24    high cross fx\n25 26    time fx\n27 28    lows\n29 30    very lows\n31 32    loopers\n\n18       metronome\n\n21 22    drums post-risset buffer",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -2846,9 +3019,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1038.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1038.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 292.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 292.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2876,9 +3049,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1015.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1015.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 274.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 274.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2906,9 +3079,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 992.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 992.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 257.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 257.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2936,9 +3109,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 969.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 969.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 239.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 239.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2966,9 +3139,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 946.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 946.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 221.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 221.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -2996,9 +3169,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 923.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 923.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 133.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 133.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3026,9 +3199,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 900.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 900.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 115.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 115.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3056,9 +3229,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1061.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1061.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 310.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 310.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3086,9 +3259,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1084.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1084.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 328.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 328.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3116,9 +3289,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 1107.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 1107.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 346.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 346.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3146,9 +3319,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 877.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 877.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 97.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 97.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3176,9 +3349,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 1697.0, 854.05224609375, 153.0, 22.0 ],
+					"patching_rect" : [ 1697.0, 854.05224609375, 153.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 339.0, 79.0, 141.0, 22.0 ]
+					"presentation_rect" : [ 339.0, 79.0, 141.0, 23.0 ]
 				}
 
 			}
@@ -3191,7 +3364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 1100.0, 112.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 1100.0, 112.0, 23.0 ],
 					"text" : "adstatus output 12"
 				}
 
@@ -3205,7 +3378,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 1067.0, 112.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 1067.0, 112.0, 23.0 ],
 					"text" : "adstatus output 11"
 				}
 
@@ -3219,7 +3392,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 1034.0, 112.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 1034.0, 112.0, 23.0 ],
 					"text" : "adstatus output 10"
 				}
 
@@ -3233,7 +3406,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 1002.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 1002.0, 107.0, 23.0 ],
 					"text" : "adstatus output 9"
 				}
 
@@ -3247,7 +3420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 969.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 969.0, 107.0, 23.0 ],
 					"text" : "adstatus output 8"
 				}
 
@@ -3261,7 +3434,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 936.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 936.0, 107.0, 23.0 ],
 					"text" : "adstatus output 7"
 				}
 
@@ -3275,7 +3448,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 904.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 904.0, 107.0, 23.0 ],
 					"text" : "adstatus output 6"
 				}
 
@@ -3289,7 +3462,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 871.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 871.0, 107.0, 23.0 ],
 					"text" : "adstatus output 5"
 				}
 
@@ -3303,7 +3476,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 838.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 838.0, 107.0, 23.0 ],
 					"text" : "adstatus output 4"
 				}
 
@@ -3317,7 +3490,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 805.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 805.0, 107.0, 23.0 ],
 					"text" : "adstatus output 3"
 				}
 
@@ -3331,7 +3504,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 773.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 773.0, 107.0, 23.0 ],
 					"text" : "adstatus output 2"
 				}
 
@@ -3345,7 +3518,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 2402.0, 740.0, 107.0, 22.0 ],
+					"patching_rect" : [ 2402.0, 740.0, 107.0, 23.0 ],
 					"text" : "adstatus output 1"
 				}
 
@@ -3365,17 +3538,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-333",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1124.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1124.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 349.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 349.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[11]"
 				}
@@ -3396,17 +3569,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-334",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1101.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1101.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 331.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 331.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[10]"
 				}
@@ -3427,17 +3600,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-335",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1078.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1078.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 313.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 313.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[9]"
 				}
@@ -3458,17 +3631,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-336",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1055.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1055.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 295.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 295.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[8]"
 				}
@@ -3489,17 +3662,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-337",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1032.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1032.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 277.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 277.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[7]"
 				}
@@ -3520,17 +3693,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-338",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 1009.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 1009.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 259.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 259.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[6]"
 				}
@@ -3551,17 +3724,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-340",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 986.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 986.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 241.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 241.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[5]"
 				}
@@ -3582,17 +3755,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-344",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 963.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 963.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 223.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 223.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[4]"
 				}
@@ -3613,17 +3786,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-346",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 940.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 940.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 133.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 133.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[3]"
 				}
@@ -3644,17 +3817,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-347",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 917.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 917.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 115.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 115.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[2]"
 				}
@@ -3675,17 +3848,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-349",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 894.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 894.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 97.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 97.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[1]"
 				}
@@ -3706,17 +3879,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-350",
-					"items" : [ "Off", ",", 1, "Dante tx 1", ",", 2, "Dante tx 2", ",", 3, "Dante tx 3", ",", 4, "Dante tx 4", ",", 5, "Dante tx 5", ",", 6, "Dante tx 6", ",", 7, "Dante tx 7", ",", 8, "Dante tx 8" ],
+					"items" : [ "Off", ",", 1, "Analog 1", ",", 2, "Analog 2", ",", 3, "Phones 3", ",", 4, "Phones 4", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2152.0, 871.05224609375, 102.939551999999821, 22.0 ],
+					"patching_rect" : [ 2152.0, 871.05224609375, 102.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 496.0, 79.0, 122.939544677734375, 22.0 ],
+					"presentation_rect" : [ 496.0, 79.0, 122.939544677734375, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu"
 				}
@@ -3730,9 +3903,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1704.0, 808.05224609375, 139.0, 27.0 ],
+					"patching_rect" : [ 1704.0, 808.05224609375, 139.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 463.0, 27.0, 139.0, 27.0 ],
+					"presentation_rect" : [ 463.0, 27.0, 139.0, 28.0 ],
 					"text" : "Output Mapping",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -3762,9 +3935,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 954.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 954.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 221.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 221.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3792,9 +3965,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 931.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 931.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 203.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 203.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3822,9 +3995,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 908.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 908.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 185.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 185.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3852,9 +4025,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 885.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 885.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 167.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 167.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3882,9 +4055,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 862.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 862.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 149.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 149.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3912,9 +4085,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 839.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 839.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 131.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 131.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3942,9 +4115,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 816.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 816.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 113.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 113.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -3972,9 +4145,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 977.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 977.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 239.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 239.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4002,9 +4175,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1000.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1000.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 257.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 257.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4032,9 +4205,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1023.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1023.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 275.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 275.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4062,9 +4235,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1046.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1046.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 293.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 293.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4092,9 +4265,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1069.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1069.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 311.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 311.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4122,9 +4295,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1092.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1092.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 329.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 329.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4152,9 +4325,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 1115.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 1115.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 347.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 347.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4182,9 +4355,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 793.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 793.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 96.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 96.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4212,9 +4385,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"parameter_mappable" : 0,
-					"patching_rect" : [ 732.0, 770.766700278117469, 164.0, 22.0 ],
+					"patching_rect" : [ 732.0, 770.766700278117469, 164.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 79.0, 167.0, 22.0 ]
+					"presentation_rect" : [ 13.0, 79.0, 167.0, 23.0 ]
 				}
 
 			}
@@ -4227,7 +4400,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1190.05224609375, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1190.05224609375, 105.0, 23.0 ],
 					"text" : "adstatus input 16"
 				}
 
@@ -4241,7 +4414,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1166.943249553957685, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1166.943249553957685, 105.0, 23.0 ],
 					"text" : "adstatus input 15"
 				}
 
@@ -4255,7 +4428,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1143.834253014165142, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1143.834253014165142, 105.0, 23.0 ],
 					"text" : "adstatus input 14"
 				}
 
@@ -4269,7 +4442,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1120.725256474372827, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1120.725256474372827, 105.0, 23.0 ],
 					"text" : "adstatus input 13"
 				}
 
@@ -4283,7 +4456,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1097.616259934580285, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1097.616259934580285, 105.0, 23.0 ],
 					"text" : "adstatus input 12"
 				}
 
@@ -4297,7 +4470,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1074.507263394787969, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1074.507263394787969, 105.0, 23.0 ],
 					"text" : "adstatus input 11"
 				}
 
@@ -4311,7 +4484,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1051.398266854995654, 105.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1051.398266854995654, 105.0, 23.0 ],
 					"text" : "adstatus input 10"
 				}
 
@@ -4325,7 +4498,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1028.289270315203339, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1028.289270315203339, 100.0, 23.0 ],
 					"text" : "adstatus input 9"
 				}
 
@@ -4339,7 +4512,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 1005.180273775410797, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 1005.180273775410797, 100.0, 23.0 ],
 					"text" : "adstatus input 8"
 				}
 
@@ -4353,7 +4526,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 982.071277235618481, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 982.071277235618481, 100.0, 23.0 ],
 					"text" : "adstatus input 7"
 				}
 
@@ -4367,7 +4540,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 958.962280695826053, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 958.962280695826053, 100.0, 23.0 ],
 					"text" : "adstatus input 6"
 				}
 
@@ -4381,7 +4554,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 935.853284156033624, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 935.853284156033624, 100.0, 23.0 ],
 					"text" : "adstatus input 5"
 				}
 
@@ -4395,7 +4568,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 912.744287616241309, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 912.744287616241309, 100.0, 23.0 ],
 					"text" : "adstatus input 4"
 				}
 
@@ -4409,7 +4582,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 889.635291076448993, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 889.635291076448993, 100.0, 23.0 ],
 					"text" : "adstatus input 3"
 				}
 
@@ -4423,7 +4596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 866.526294536656451, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 866.526294536656451, 100.0, 23.0 ],
 					"text" : "adstatus input 2"
 				}
 
@@ -4437,7 +4610,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 1318.75, 843.417297996864136, 100.0, 22.0 ],
+					"patching_rect" : [ 1318.75, 843.417297996864136, 100.0, 23.0 ],
 					"text" : "adstatus input 1"
 				}
 
@@ -4457,17 +4630,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-402",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1188.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1188.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 348.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 348.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[38]"
 				}
@@ -4488,17 +4661,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-404",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1165.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1165.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 330.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 330.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[37]"
 				}
@@ -4519,17 +4692,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-405",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1142.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1142.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 312.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 312.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[36]"
 				}
@@ -4550,17 +4723,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-406",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1119.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1119.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 294.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 294.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[35]"
 				}
@@ -4581,17 +4754,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-408",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1096.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1096.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 276.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 276.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[34]"
 				}
@@ -4612,17 +4785,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-409",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1073.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1073.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 258.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 258.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[33]"
 				}
@@ -4643,17 +4816,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-410",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1050.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1050.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 240.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 240.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[32]"
 				}
@@ -4674,17 +4847,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-411",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1027.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1027.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 222.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 222.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[31]"
 				}
@@ -4705,17 +4878,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-412",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 1004.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 1004.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 204.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 204.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[30]"
 				}
@@ -4736,17 +4909,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-413",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 981.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 981.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 186.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 186.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[29]"
 				}
@@ -4767,17 +4940,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-414",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 958.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 958.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 168.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 168.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[28]"
 				}
@@ -4798,17 +4971,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-415",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 935.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 935.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 150.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 150.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[27]"
 				}
@@ -4829,17 +5002,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-416",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 912.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 912.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 132.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 132.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[26]"
 				}
@@ -4860,17 +5033,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-417",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 889.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 889.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 114.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 114.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[25]"
 				}
@@ -4891,17 +5064,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-418",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 866.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 866.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 97.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 97.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[24]"
 				}
@@ -4922,17 +5095,17 @@
 					"fontsize" : 12.0,
 					"hint" : "",
 					"id" : "obj-419",
-					"items" : [ "Off", ",", 1, "Dante rx 1", ",", 2, "Dante rx 2", ",", 3, "Dante rx 3", ",", 4, "Dante rx 4", ",", 5, "Dante rx 5", ",", 6, "Dante rx 6", ",", 7, "Dante rx 7", ",", 8, "Dante rx 8" ],
+					"items" : [ "Off", ",", 1, "Mic/Line 1", ",", 2, "Mic/Line 2", ",", 3, "Instr. 1", ",", 4, "Instr. 2", ",", 5, "MADI 1", ",", 6, "MADI 2", ",", 7, "MADI 3", ",", 8, "MADI 4", ",", 9, "MADI 5", ",", 10, "MADI 6", ",", 11, "MADI 7", ",", 12, "MADI 8", ",", 13, "MADI 9", ",", 14, "MADI 10", ",", 15, "MADI 11", ",", 16, "MADI 12", ",", 17, "MADI 13", ",", 18, "MADI 14", ",", 19, "MADI 15", ",", 20, "MADI 16", ",", 21, "MADI 17", ",", 22, "MADI 18", ",", 23, "MADI 19", ",", 24, "MADI 20", ",", 25, "MADI 21", ",", 26, "MADI 22", ",", 27, "MADI 23", ",", 28, "MADI 24", ",", 29, "MADI 25", ",", 30, "MADI 26", ",", 31, "MADI 27", ",", 32, "MADI 28", ",", 33, "MADI 29", ",", 34, "MADI 30", ",", 35, "MADI 31", ",", 36, "MADI 32", ",", 37, "MADI 33", ",", 38, "MADI 34", ",", 39, "MADI 35", ",", 40, "MADI 36", ",", 41, "MADI 37", ",", 42, "MADI 38", ",", 43, "MADI 39", ",", 44, "MADI 40", ",", 45, "MADI 41", ",", 46, "MADI 42", ",", 47, "MADI 43", ",", 48, "MADI 44", ",", 49, "MADI 45", ",", 50, "MADI 46", ",", 51, "MADI 47", ",", 52, "MADI 48", ",", 53, "MADI 49", ",", 54, "MADI 50", ",", 55, "MADI 51", ",", 56, "MADI 52", ",", 57, "MADI 53", ",", 58, "MADI 54", ",", 59, "MADI 55", ",", 60, "MADI 56", ",", 61, "MADI 57", ",", 62, "MADI 58", ",", 63, "MADI 59", ",", 64, "MADI 60", ",", 65, "MADI 61", ",", 66, "MADI 62", ",", 67, "MADI 63", ",", 68, "MADI 64", ",", 69, "Reverb", ",", 70, "Reverb" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1205.0, 843.417297996864136, 107.939551999999821, 22.0 ],
+					"patching_rect" : [ 1205.0, 843.417297996864136, 107.939551999999821, 23.0 ],
 					"pattrmode" : 1,
 					"prefix_mode" : 2,
 					"presentation" : 1,
-					"presentation_rect" : [ 185.0, 79.0, 122.62908935546875, 22.0 ],
+					"presentation_rect" : [ 185.0, 79.0, 122.62908935546875, 23.0 ],
 					"prototypename" : "Lato9",
 					"varname" : "umenu[23]"
 				}
@@ -4946,9 +5119,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 748.5, 724.0, 135.0, 27.0 ],
+					"patching_rect" : [ 748.5, 724.0, 135.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 25.0, 123.0, 27.0 ],
+					"presentation_rect" : [ 19.0, 25.0, 123.0, 28.0 ],
 					"text" : "Input Mapping",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -5996,6 +6169,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-40", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-418", 0 ],
 					"source" : [ "obj-400", 0 ]
 				}
@@ -6577,8 +6757,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-72", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"source" : [ "obj-82", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-82", 0 ],
+					"source" : [ "obj-83", 0 ]
 				}
 
 			}
