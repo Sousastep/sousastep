@@ -54,19 +54,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-541",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 5209.0, 2056.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-455",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -4200,7 +4187,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5233,13 +5220,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1162 643 1398 796"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 143.0 ],
+					"text" : "106 382 626 915 1071 235 1307 388 588 95 1538 300 116 730 848 1295"
 				}
 
 			}
@@ -8294,7 +8281,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 257, 400, 708, 528 ]
@@ -8492,8 +8479,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -18720,16 +18707,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-541", 0 ],
-					"order" : 0,
-					"source" : [ "obj-632", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-694", 0 ],
-					"order" : 1,
 					"source" : [ "obj-632", 0 ]
 				}
 
@@ -19985,7 +19963,11 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-226::obj-21::obj-43" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
 			"obj-226::obj-21::obj-44" : [ "live.dial[9]", "sub mix", 0 ],
+			"obj-226::obj-21::obj-46" : [ "live.numbox[4]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-72" : [ "live.numbox[5]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-73" : [ "live.numbox[6]", "live.numbox[3]", 0 ],
 			"obj-227::obj-21::obj-191" : [ "vst~[30]", "vst~", 0 ],
 			"obj-231::obj-21::obj-191" : [ "vst~[21]", "vst~", 0 ],
 			"obj-232::obj-21::obj-191" : [ "vst~[22]", "vst~", 0 ],
@@ -20536,8 +20518,39 @@
 					"parameter_longname" : "smooth[7]"
 				}
 ,
+				"obj-226::obj-21::obj-43" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.numbox[3]",
+					"parameter_modmode" : 4,
+					"parameter_range" : [ 10, 200 ],
+					"parameter_shortname" : "live.numbox[3]",
+					"parameter_type" : 1,
+					"parameter_units" : "%",
+					"parameter_unitstyle" : 3
+				}
+,
 				"obj-226::obj-21::obj-44" : 				{
 					"parameter_longname" : "live.dial[9]"
+				}
+,
+				"obj-226::obj-21::obj-46" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.numbox[4]",
+					"parameter_modmode" : 4,
+					"parameter_range" : [ 10, 200 ],
+					"parameter_type" : 1,
+					"parameter_units" : "%",
+					"parameter_unitstyle" : 3
+				}
+,
+				"obj-226::obj-21::obj-72" : 				{
+					"parameter_longname" : "live.numbox[5]",
+					"parameter_unitstyle" : 8
+				}
+,
+				"obj-226::obj-21::obj-73" : 				{
+					"parameter_longname" : "live.numbox[6]",
+					"parameter_range" : [ 0, 200 ]
 				}
 ,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
@@ -21818,6 +21831,13 @@
 				"name" : "octaver_comp_rnbo_or_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "octaver_custom1.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
