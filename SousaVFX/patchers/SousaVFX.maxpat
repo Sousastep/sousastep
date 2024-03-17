@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1215.0, 847.0 ],
+		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,54 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-489",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1670.0, -1692.0, 197.0, 22.0 ],
+					"text" : "r \"LFO Ceiling Envelope Curve (bi)\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-485",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1670.0, -1645.0, 66.0, 22.0 ],
+					"text" : "s velocityX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-425",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3612.0, -1199.0, 64.0, 22.0 ],
+					"text" : "r velocityX"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-158",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 7307.0, 501.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-152",
 					"maxclass" : "newobj",
@@ -300,7 +348,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 6820.0, 632.0, 99.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3929,7 +3977,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7752.0, 3560.0, 66.0, 22.0 ],
+					"patching_rect" : [ 7752.0, 3578.0, 66.0, 22.0 ],
 					"text" : "s velocityX"
 				}
 
@@ -10750,7 +10798,7 @@
 					"patching_rect" : [ 1044.0, -147.0, 203.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "init shader dub",
+					"text" : "Single Square dub 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10771,11 +10819,11 @@
 						"LineFinal" : [ 0.0 ],
 						"LineInitial" : [ 0.0 ],
 						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"MultipleShapeSelection" : [ "sphere" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "sphere" ],
+						"SingleShapeSelection" : [ "cube" ],
 						"TextPositionY" : [ 0.0 ],
 						"TextPositionZ" : [ 0.0 ],
 						"TextScaleX" : [ 0.1 ],
@@ -10789,7 +10837,7 @@
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
 						"enable_shader" : [ 1 ],
-						"enable_single_shape" : [ 0 ],
+						"enable_single_shape" : [ 1 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
 						"physics_videoplane_toggle" : [ 0 ],
@@ -15047,6 +15095,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-518", 0 ],
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-386", 2 ],
 					"source" : [ "obj-159", 0 ]
 				}
@@ -17303,6 +17358,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-485", 0 ],
+					"source" : [ "obj-489", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 2 ],
 					"source" : [ "obj-49", 0 ]
 				}
@@ -18539,13 +18601,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-668", 0 ],
 					"source" : [ "obj-671", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
-					"source" : [ "obj-672", 0 ]
 				}
 
 			}
