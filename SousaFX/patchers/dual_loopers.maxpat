@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2226.0, 1387.0 ],
+		"rect" : [ 1045.0, 493.0, 375.0, 573.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,83 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "loopers",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-200",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1028.0, 1164.5, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
+					"checkedcolor" : [ 0.07843137254902, 0.811764705882353, 0.905882352941176, 1.0 ],
+					"hint" : "play random 8-bar riser backing track in Ableton Live when looper starts fading out.",
+					"id" : "obj-190",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1028.0, 1122.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 43.0, 528.0, 24.0, 24.0 ],
+					"varname" : "toggle[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1029.0, 1197.5, 119.0, 22.0 ],
+					"text" : "s \"play random riser\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.81 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.81 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"hint" : "choose wether to play new drum clips in Ableton Live after the looper fades out.",
+					"id" : "obj-182",
+					"items" : [ "none", ",", "auto-launch", "scene", "after", "looper", "fades", "out", ",", "randomize", "clips", "after", "looper", "fades", "out" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1097.0, 1014.5, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.0, 529.0, 100.0, 22.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-168",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1130.0, 1127.5, 226.0, 22.0 ],
+					"text" : "s \"randomize clips after looper fades out\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.84 ],
 					"fontname" : "Ableton Sans Light",
@@ -299,7 +376,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
 					"checkedcolor" : [ 0.07843137254902, 0.811764705882353, 0.905882352941176, 1.0 ],
-					"hint" : "looper auto-records after tuba drops below noise gate a certain number of times",
+					"hint" : "looper auto-records after tuba drops below noise gate a certain number of times /after/ the looper finishes fading out.",
 					"id" : "obj-170",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -382,7 +459,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1124.0, 1221.0, 241.0, 22.0 ],
+					"patching_rect" : [ 1097.0, 1164.5, 241.0, 22.0 ],
 					"text" : "s \"auto-launch scene after looper fades out\""
 				}
 
@@ -394,33 +471,15 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1004.0, 1117.0, 259.0, 22.0 ],
-					"restore" : [ 1 ],
+					"patching_rect" : [ 1005.0, 977.5, 203.0, 22.0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
 					}
 ,
-					"text" : "pattr \"auto-launch scene after looper fades out\"",
-					"varname" : "auto-launch scene after looper fades out"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
-					"checkedcolor" : [ 0.07843137254902, 0.811764705882353, 0.905882352941176, 1.0 ],
-					"hint" : "auto-launch next scene after looper fades out",
-					"id" : "obj-3",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1124.0, 1152.0, 24.0, 24.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 528.0, 24.0, 24.0 ],
-					"varname" : "toggle"
+					"text" : "pattr \"do what after looper fades out\"",
+					"varname" : "do what after looper fades out"
 				}
 
 			}
@@ -429,10 +488,10 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1124.0, 1187.0, 52.0, 22.0 ],
-					"text" : "gate 1 0"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1097.0, 1089.5, 52.0, 22.0 ],
+					"text" : "gate 2 0"
 				}
 
 			}
@@ -444,7 +503,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1157.0, 1153.0, 205.0, 22.0 ],
+					"patching_rect" : [ 1130.0, 1052.5, 205.0, 22.0 ],
 					"text" : "r looper_almost_done_fadeout_bang"
 				}
 
@@ -1199,7 +1258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1629.0, 1062.0, 150.0, 21.0 ],
+					"patching_rect" : [ 1649.0, 1083.0, 150.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "ti4gO"
 				}
@@ -2821,7 +2880,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 690.0, 1153.0, 173.0, 22.0 ],
+					"patching_rect" : [ 690.0, 1146.0, 173.0, 22.0 ],
 					"text" : "s looper_begins_fadeout_bang"
 				}
 
@@ -3025,12 +3084,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 1369.0, 961.0, 251.0, 222.0 ],
+					"patching_rect" : [ 1389.0, 982.0, 251.0, 222.0 ],
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -938.0,
-					"yoffset" : -68.0
+					"xoffset" : -826.0,
+					"yoffset" : -618.0
 				}
 
 			}
@@ -3038,7 +3097,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 3 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -3046,7 +3105,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 3 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -3322,7 +3381,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-182", 0 ],
 					"source" : [ "obj-119", 1 ]
 				}
 
@@ -3546,6 +3605,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-168", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-144", 0 ],
 					"source" : [ "obj-140", 2 ]
 				}
@@ -3722,6 +3788,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
+					"order" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-200", 1 ],
+					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -3860,6 +3935,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-182", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-192", 1 ],
 					"source" : [ "obj-183", 0 ]
 				}
@@ -3906,6 +3988,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-15", 1 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-200", 0 ],
+					"source" : [ "obj-190", 0 ]
 				}
 
 			}
@@ -4020,6 +4109,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"source" : [ "obj-200", 0 ]
 				}
 
 			}
@@ -4232,13 +4328,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -4305,7 +4394,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 916.5, 1150.805540979413763, 993.627484524781948, 1150.805540979413763, 993.627484524781948, 1105.805540979413763, 1042.627484524781948, 1105.805540979413763, 1042.627484524781948, 669.805540979413763, 828.627484524781948, 669.805540979413763, 828.627484524781948, 608.805540979413763, 876.5, 608.805540979413763 ],
+					"midpoints" : [ 916.5, 1150.805540979413763, 993.627484524781948, 1150.805540979413763, 993.627484524781948, 960.805540979413763, 1042.627484524781948, 960.805540979413763, 1042.627484524781948, 669.805540979413763, 828.627484524781948, 669.805540979413763, 828.627484524781948, 608.805540979413763, 876.5, 608.805540979413763 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -4435,7 +4524,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
-					"midpoints" : [ 106.5, 1265.5, 2162.5, 1265.5 ],
+					"midpoints" : [ 106.5, 1329.5, 2162.5, 1329.5 ],
 					"order" : 0,
 					"source" : [ "obj-48", 0 ]
 				}
@@ -4472,7 +4561,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -4480,7 +4569,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -4552,7 +4641,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -4560,7 +4649,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 1 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
 
