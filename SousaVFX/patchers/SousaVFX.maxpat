@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1440.0, 847.0 ],
+		"rect" : [ 529.0, 1493.0, 1440.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,30 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-493",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1940.0, 1222.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-156",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1649.0, 1131.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-489",
 					"maxclass" : "newobj",
@@ -1864,7 +1888,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1649.0, 1129.0, 89.0, 22.0 ],
+					"patching_rect" : [ 1649.0, 1097.0, 89.0, 22.0 ],
 					"text" : "r ISF_selection"
 				}
 
@@ -1936,7 +1960,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1940.0, 1222.0, 152.0, 22.0 ],
+					"patching_rect" : [ 1940.0, 1191.0, 152.0, 22.0 ],
 					"text" : "r current_isf_shader_name"
 				}
 
@@ -2474,7 +2498,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-898",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -6885,127 +6908,6 @@
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_DimensionMorphingTopography" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::u352009166" : 0,
@@ -7330,10 +7232,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 36.0, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -8513,7 +8415,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4369.0, -490.0, 117.0, 22.0 ],
-					"text" : "0., 0. 0"
+					"text" : "1., -48. 48000"
 				}
 
 			}
@@ -8818,7 +8720,7 @@
 					"patching_rect" : [ 4037.0, -499.0, 200.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.616144206670697, 1322.056523693022655, 212.932251000000178, 22.0 ],
-					"text" : "SOUSASTEP"
+					"text" : "DINGONEK"
 				}
 
 			}
@@ -10791,14 +10693,15 @@
 					"fontsize" : 20.0,
 					"gradient" : 1,
 					"id" : "obj-40",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1044.0, -147.0, 203.0, 32.0 ],
+					"patching_rect" : [ 1044.0, -147.0, 203.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "Single Square dub 1",
+					"text" : "ColorDiffusionFlow dub 2",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10814,30 +10717,30 @@
 					"patching_rect" : [ -140.0, -1231.0, 123.0, 22.0 ],
 					"restore" : 					{
 						"FontLightingOnOff" : [ 0 ],
-						"FontName" : [ "Ableton Sans Bold" ],
+						"FontName" : [ "Ableton Sans Medium" ],
 						"FontStyle" : [ "normal" ],
-						"LineFinal" : [ 0.0 ],
-						"LineInitial" : [ 0.0 ],
-						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "sphere" ],
-						"PositionMatrixDimensionX" : [ 3 ],
-						"PositionMatrixDimensionY" : [ 3 ],
+						"LineFinal" : [ -48.0 ],
+						"LineInitial" : [ 1.0 ],
+						"LineSeconds" : [ 48.0 ],
+						"MultipleShapeSelection" : [ "torus" ],
+						"PositionMatrixDimensionX" : [ 2 ],
+						"PositionMatrixDimensionY" : [ 2 ],
 						"PositionMatrixShape" : [ "plane" ],
-						"SingleShapeSelection" : [ "cube" ],
-						"TextPositionY" : [ 0.0 ],
+						"SingleShapeSelection" : [ "opencylinder" ],
+						"TextPositionY" : [ -0.656 ],
 						"TextPositionZ" : [ 0.0 ],
-						"TextScaleX" : [ 0.1 ],
-						"TextScaleY" : [ 0.0 ],
-						"TextTracking" : [ 0.0 ],
+						"TextScaleX" : [ 1.82 ],
+						"TextScaleY" : [ 1.87 ],
+						"TextTracking" : [ 1.06 ],
 						"TextZthickness" : [ 0.0 ],
-						"TextboxIndex" : [ 1 ],
+						"TextboxIndex" : [ 7 ],
 						"bouncy_shape_selector" : [ 0 ],
 						"color_changer" : [ 0 ],
 						"displace" : [ 70.0 ],
 						"enable_half_speed_vfx" : [ 0 ],
 						"enable_multiple_shape" : [ 0 ],
-						"enable_shader" : [ 1 ],
-						"enable_single_shape" : [ 1 ],
+						"enable_shader" : [ 0 ],
+						"enable_single_shape" : [ 0 ],
 						"enable_text" : [ 0 ],
 						"light_type" : [ "point" ],
 						"physics_videoplane_toggle" : [ 0 ],
@@ -12082,7 +11985,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15088,6 +14991,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-943", 0 ],
+					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-157", 0 ]
 				}
@@ -17397,6 +17307,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-105", 0 ],
 					"source" : [ "obj-492", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-940", 0 ],
+					"source" : [ "obj-493", 0 ]
 				}
 
 			}
@@ -19728,7 +19645,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-940", 0 ],
+					"destination" : [ "obj-493", 0 ],
 					"source" : [ "obj-918", 0 ]
 				}
 
@@ -19905,7 +19822,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-943", 0 ],
+					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-942", 0 ]
 				}
 
