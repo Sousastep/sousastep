@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 1180.0, 268.0, 1179.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,18 @@
 		"title" : "midi status",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-195",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1276.0, 1754.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-198",
 					"maxclass" : "comment",
@@ -51,7 +63,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 385.0, 568.0, 238.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "MIDI Note Output to randomize clips",
+					"text" : "MIDI Note Output to play random riser",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
 				}
 
@@ -5194,6 +5206,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 4 ],
 					"source" : [ "obj-193", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-227", 0 ],
+					"source" : [ "obj-195", 0 ]
 				}
 
 			}

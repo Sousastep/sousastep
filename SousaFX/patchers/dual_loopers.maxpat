@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 777.0, 108.0, 1529.0, 1232.0 ],
+		"rect" : [ 1098.0, 438.0, 364.0, 564.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,26 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "loopers",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 996.0, 1076.5, 83.0, 35.0 ],
+					"restore" : [ 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"play random riser\"",
+					"varname" : "play random riser"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-201",
 					"maxclass" : "newobj",
@@ -3100,8 +3120,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -1067.0,
-					"yoffset" : -790.0
+					"xoffset" : -1136.0,
+					"yoffset" : -219.0
 				}
 
 			}
@@ -4338,6 +4358,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-190", 0 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -4404,7 +4431,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 916.5, 1150.805540979413763, 993.627484524781948, 1150.805540979413763, 993.627484524781948, 960.805540979413763, 1042.627484524781948, 960.805540979413763, 1042.627484524781948, 669.805540979413763, 828.627484524781948, 669.805540979413763, 828.627484524781948, 608.805540979413763, 876.5, 608.805540979413763 ],
+					"midpoints" : [ 916.5, 1154.805540979413763, 977.627484524781948, 1154.805540979413763, 977.627484524781948, 960.805540979413763, 1042.627484524781948, 960.805540979413763, 1042.627484524781948, 669.805540979413763, 828.627484524781948, 669.805540979413763, 828.627484524781948, 608.805540979413763, 876.5, 608.805540979413763 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
