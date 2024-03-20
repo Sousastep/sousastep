@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 600.0, 779.0 ],
+		"rect" : [ 1308.0, 126.0, 1153.0, 1192.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.023529411764706, 0.0, 1.0, 1.0 ],
+					"id" : "obj-836",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 614.0, 216.0, 145.0, 22.0 ],
+					"text" : "r main_sync_rate_symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.023529411764706, 0.0, 1.0, 1.0 ],
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 447.0, 216.0, 101.0, 22.0 ],
+					"text" : "r main_sync_rate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
@@ -117,10 +143,10 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 588.0, 491.0, 140.0, 28.0 ],
+					"patching_rect" : [ 493.0, 283.0, 140.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.0, 83.0, 301.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "\"half triplet\"",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -133,7 +159,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 141.0, 414.0, 147.0, 22.0 ],
+					"patching_rect" : [ 141.0, 414.0, 171.0, 22.0 ],
 					"text" : "r #1\" Tremolo Depth (uni)\""
 				}
 
@@ -186,6 +212,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "depth / mix",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "depth / mix",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -241,21 +268,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 352.0, 133.0, 22.0 ],
+					"patching_rect" : [ 473.0, 352.0, 157.0, 22.0 ],
 					"text" : "r #1\" Tremolo Duty (bi)\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.023529411764706, 0.0, 1.0, 1.0 ],
-					"id" : "obj-911",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 723.0, 258.0, 86.0, 22.0 ],
-					"text" : "r syncrate_coll"
 				}
 
 			}
@@ -266,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 46.0, 150.0, 21.0 ],
+					"patching_rect" : [ 399.0, 104.5, 150.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "phasor~ 1n @lock 1"
 				}
@@ -280,7 +294,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 430.5, 594.0, 75.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 25.196850393700775 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -317,7 +331,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 554.0, 400.0, 59.0, 22.0 ],
+					"patching_rect" : [ 571.0, 395.0, 59.0, 22.0 ],
 					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -331,33 +345,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 626.0, 258.0, 81.0, 22.0 ],
-					"restore" : [ 3.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr syncrate",
-					"varname" : "syncrate"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-10",
-					"index" : 0,
+					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 473.0, 110.0, 30.0, 30.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 365.0, 100.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -409,6 +404,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "smooth",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -474,6 +470,7 @@
 							"parameter_longname" : "duty cycle[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "duty cycle",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -535,6 +532,7 @@
 							"parameter_longname" : "phase offset[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "phase offset",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -602,251 +600,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 657.0, 455.0, 71.0, 22.0 ],
+					"patching_rect" : [ 614.0, 249.0, 71.0, 22.0 ],
 					"text" : "fromsymbol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
-					"id" : "obj-103",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 657.0, 303.0, 66.75, 48.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 2.0, 58.0, 48.0 ],
-					"saved_attribute_attributes" : 					{
-						"activeneedlecolor" : 						{
-							"expression" : "themecolor.live_value_arc"
-						}
-,
-						"textcolor" : 						{
-							"expression" : ""
-						}
-,
-						"valueof" : 						{
-							"parameter_longname" : "MIDI syncrate",
-							"parameter_shortname" : "subdivision",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 0
-						}
-
-					}
-,
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "MIDI syncrate"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.580392156862745, 0.301960784313725, 1.0 ],
-					"coll_data" : 					{
-						"count" : 42,
-						"data" : [ 							{
-								"key" : 1,
-								"value" : [ "whole", 1 ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ "half", 0.5 ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ "quarter", 0.25 ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ "eighth", 0.125 ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ "16th", 0.0625 ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ "32nd", 0.03125 ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ "64th", 0.015625 ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ "whole triplet", 0.666667 ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ "half triplet", 0.333333 ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ "quarter triplet", 0.166667 ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ "eighth triplet", 0.083333 ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ "16th triplet", 0.041667 ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ "32nd triplet", 0.020833 ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ "64th triplet", 0.010417 ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ "dotted whole", 1.5 ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ "dotted half", 0.75 ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ "dotted quarter", 0.375 ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ "dotted eighth", 0.1875 ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ "dotted 16th", 0.09375 ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ "dotted 32nd", 0.046875 ]
-							}
-, 							{
-								"key" : 21,
-								"value" : [ "dotted 64th", 0.023438 ]
-							}
-, 							{
-								"key" : 22,
-								"value" : [ "whole quintuplet", 0.8 ]
-							}
-, 							{
-								"key" : 23,
-								"value" : [ "half quintuplet", 0.4 ]
-							}
-, 							{
-								"key" : 24,
-								"value" : [ "quarter quintuplet", 0.2 ]
-							}
-, 							{
-								"key" : 25,
-								"value" : [ "eighth quintuplet", 0.1 ]
-							}
-, 							{
-								"key" : 26,
-								"value" : [ "16th quintuplet", 0.05 ]
-							}
-, 							{
-								"key" : 27,
-								"value" : [ "32nd quintuplet", 0.025 ]
-							}
-, 							{
-								"key" : 28,
-								"value" : [ "64th quintuplet", 0.0125 ]
-							}
-, 							{
-								"key" : 29,
-								"value" : [ "dotted whole quintuplet", 1.2 ]
-							}
-, 							{
-								"key" : 30,
-								"value" : [ "dotted half quintuplet", 0.6 ]
-							}
-, 							{
-								"key" : 31,
-								"value" : [ "dotted quarter quintuplet", 0.3 ]
-							}
-, 							{
-								"key" : 32,
-								"value" : [ "dotted eighth quintuplet", 0.15 ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ "dotted 16th quintuplet", 0.075 ]
-							}
-, 							{
-								"key" : 34,
-								"value" : [ "dotted 32nd quintuplet", 0.00375 ]
-							}
-, 							{
-								"key" : 35,
-								"value" : [ "dotted 64th quintuplet", 0.01875 ]
-							}
-, 							{
-								"key" : 36,
-								"value" : [ "whole septuplet", 0.571429 ]
-							}
-, 							{
-								"key" : 37,
-								"value" : [ "half septuplet", 0.285714 ]
-							}
-, 							{
-								"key" : 38,
-								"value" : [ "quarter septuplet", 0.142857 ]
-							}
-, 							{
-								"key" : 39,
-								"value" : [ "eighth septuplet", 0.071429 ]
-							}
-, 							{
-								"key" : 40,
-								"value" : [ "16th septuplet", 0.035714 ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ "32nd septuplet", 0.017857 ]
-							}
-, 							{
-								"key" : 42,
-								"value" : [ "64th septuplet", 0.008929 ]
-							}
- ]
-					}
-,
-					"color" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ],
-					"id" : "obj-301",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 657.0, 375.0, 50.5, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"precision" : 6
-					}
-,
-					"text" : "coll",
-					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 0.580392156862745, 0.301960784313725, 1.0 ],
-					"color" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ],
-					"id" : "obj-173",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"patching_rect" : [ 657.0, 414.0, 63.0, 22.0 ],
-					"text" : "unpack s f",
-					"textcolor" : [ 0.109803921568627, 0.0, 0.545098039215686, 1.0 ]
 				}
 
 			}
@@ -867,11 +622,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 151.125, 799.0, 30.0, 30.0 ]
 				}
 
@@ -880,11 +635,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 222.125, 799.0, 30.0, 30.0 ]
 				}
 
@@ -893,7 +648,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -905,7 +660,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -916,22 +671,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-640", 0 ],
 					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-301", 0 ],
-					"source" : [ "obj-103", 0 ]
 				}
 
 			}
@@ -974,21 +715,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"source" : [ "obj-173", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-640", 1 ],
-					"midpoints" : [ 710.5, 447.0, 834.0, 447.0, 834.0, 246.0, 456.5, 246.0 ],
-					"source" : [ "obj-173", 1 ]
 				}
 
 			}
@@ -1050,6 +776,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-640", 1 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -1080,13 +813,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-173", 0 ],
-					"source" : [ "obj-301", 0 ]
 				}
 
 			}
@@ -1219,32 +945,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
-					"source" : [ "obj-911", 0 ]
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-836", 0 ]
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-103" : [ "MIDI syncrate", "subdivision", 0 ],
-			"obj-18" : [ "phase offset[1]", "phase offset", 0 ],
-			"obj-34" : [ "duty cycle[1]", "duty cycle", 0 ],
-			"obj-38" : [ "smooth", "smooth", 0 ],
-			"obj-42" : [ "depth / mix", "depth / mix", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
