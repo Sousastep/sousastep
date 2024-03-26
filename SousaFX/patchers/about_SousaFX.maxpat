@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -205,7 +205,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -307,8 +307,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 3221.0, 1431.0, 102.0, 25.0 ],
-									"text" : "list.lookup 1 0 1 0"
+									"patching_rect" : [ 3221.0, 1431.0, 110.0, 25.0 ],
+									"text" : "list.lookup 1 0 1 0 1"
 								}
 
 							}
@@ -718,7 +718,7 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
-									"textcolor" : [ 0.872192987621688, 0.95450692, 0.67229308, 1.0 ],
+									"textcolor" : [ 0.67229308, 0.95450692, 0.823194062603492, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -816,7 +816,7 @@
 									"hint" : "progress to next rank",
 									"id" : "obj-317",
 									"ignoreclick" : 1,
-									"knobcolor" : [ 0.872192987621688, 0.95450692, 0.67229308, 1.0 ],
+									"knobcolor" : [ 0.67229308, 0.95450692, 0.823194062603492, 1.0 ],
 									"maxclass" : "slider",
 									"numinlets" : 1,
 									"numoutlets" : 1,
@@ -3153,7 +3153,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3547,7 +3547,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3955,7 +3955,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 1,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4704,7 +4704,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1808.0, 3048.0, 650.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 34.0, 316.0, 21.0 ],
+									"presentation_rect" : [ 0.0, 34.0, 477.0, 21.0 ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -8755,10 +8755,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1998.0, 386.0, 373.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage sousafx_updates @greedy 2 @savemode 0",
@@ -9472,7 +9472,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
