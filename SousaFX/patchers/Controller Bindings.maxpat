@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1198.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2024.0, 1797.0, 228.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "before releasing a new version of SousaFX, update the default preset"
 				}
@@ -1546,7 +1545,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1846.0, 1284.0, 156.0, 74.0 ],
+					"patching_rect" : [ 1846.0, 1283.0, 156.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 242.0, 15.0, 152.0, 74.0 ],
 					"varname" : "patcher[2]",
@@ -2267,7 +2266,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2065.0, 2421.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 120.0, 1003.0, 82.0, 23.0 ],
+					"presentation_rect" : [ 120.0, 1017.0, 82.0, 23.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "dpad & L1 hold or trigger"
 				}
@@ -7039,7 +7038,11 @@
 						"Controller Bindings Preset Selector Mode" : 0,
 						"Controller Bindings Preset Selector Mode::controller_bindings_preset_selector_mode" : 0,
 						"patcher" : 0,
-						"patcher::controller_deadzones" : 0
+						"patcher::controller_deadzones" : 0,
+						"patcher[1]" : 0,
+						"patcher[1]::MIDIstatus" : 0,
+						"patcher[2]" : 0,
+						"patcher[2]::controller_bindings_preset_initial" : 0
 					}
 ,
 					"fontname" : "Monaco",
@@ -7050,10 +7053,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1624.0, 1718.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 1239, 273, 2519, 1337 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 889, 1373 ]
+						"storage_rect" : [ 1085, 135, 2049, 1175 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -9746,7 +9749,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 832.0, 1186.0, 159.0, 294.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 147.0, 819.0, 159.0, 294.0 ],
+					"presentation_rect" : [ 147.0, 833.0, 159.0, 294.0 ],
 					"text" : "{",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ]
 				}
@@ -10029,7 +10032,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 789.0, 1330.0, 71.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 961.0, 76.0, 39.0 ],
+					"presentation_rect" : [ 100.0, 975.0, 76.0, 39.0 ],
 					"text" : "LT",
 					"textcolor" : [ 1.0, 0.513725, 0.086275, 1.0 ],
 					"textjustification" : 1
@@ -11797,7 +11800,6 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Monaco",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-102",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -11910,6 +11912,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 610.0, 43.0, 189.0, 56.0 ],
+					"readonly" : 1,
 					"text" : "Sousastep's default bindings",
 					"varname" : "textedit[1]"
 				}
@@ -11938,7 +11941,7 @@
 					"restore" : [ 						{
 							"data" : 							{
 								"numins" : 50,
-								"numouts" : 71,
+								"numouts" : 69,
 								"connections" : [ 									{
 										"in" : 26,
 										"out" : 30,
@@ -11947,6 +11950,11 @@
 , 									{
 										"in" : 23,
 										"out" : 27,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 25,
+										"out" : 26,
 										"gain" : 1.0
 									}
 , 									{
@@ -11992,6 +12000,11 @@
 , 									{
 										"in" : 9,
 										"out" : 9,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 30,
+										"out" : 22,
 										"gain" : 1.0
 									}
 , 									{
@@ -12110,6 +12123,16 @@
 										"gain" : 1.0
 									}
 , 									{
+										"in" : 27,
+										"out" : 23,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 18,
+										"out" : 18,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 39,
 										"out" : 61,
 										"gain" : 1.0
@@ -12132,6 +12155,16 @@
 , 									{
 										"in" : 45,
 										"out" : 59,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 2,
+										"out" : 63,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 48,
+										"out" : 1,
 										"gain" : 1.0
 									}
 , 									{
@@ -12160,53 +12193,13 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 47,
-										"out" : 1,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 25,
-										"out" : 22,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 18,
-										"out" : 23,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 27,
-										"out" : 18,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 48,
+										"in" : 0,
 										"out" : 2,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 44,
-										"out" : 3,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 0,
-										"out" : 63,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 2,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 41,
-										"out" : 49,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 47,
-										"out" : 51,
+										"out" : 49,
 										"gain" : 1.0
 									}
  ]
@@ -12243,6 +12236,7 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Monaco",
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-863",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -12260,6 +12254,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-865",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -13654,6 +13649,7 @@
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"id" : "obj-14",
+					"ignoreclick" : 1,
 					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
 					"inlabels" : [ "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "Menu", "View", "LB", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "LB", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button" ],
 					"labelwidth" : 313.5,
@@ -13661,8 +13657,8 @@
 					"numinlets" : 1,
 					"numins" : 50,
 					"numoutlets" : 2,
-					"numouts" : 71,
-					"outcolormap" : [ 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 4, 0, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5, 3, 3 ],
+					"numouts" : 69,
+					"outcolormap" : [ 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 4, 0, 8, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5 ],
 					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Preset 1", "Preset 2", "Preset 3", "Preset 4", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "-----", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "16th quintuplet", "32nd quintuplet", "-----", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (bi)", "Drum Clip Stutter Accel (bi)", "Main Input Stutter Accel (bi)", "LFO Auto-Wah Amount (uni)", "LFO Manual Wah (uni)" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
