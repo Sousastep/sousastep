@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1191.0, -674.0, 422.0, 420.0 ],
+		"rect" : [ 1135.0, 526.0, 289.0, 387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -66,8 +66,6 @@
 					"panelcolor" : [ 1.0, 1.0, 1.0, 0.45 ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1224.0, 230.0, 59.0, 80.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 27.0, 92.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"panelcolor" : 						{
 							"expression" : ""
@@ -76,6 +74,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "gain compensation",
 							"parameter_mmax" : 24.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "solo gain compensation",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -100,13 +99,12 @@
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 879.0, 584.0, 89.0, 68.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 146.0, 33.0, 82.0, 68.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "playback bus",
 							"parameter_mmax" : 0.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "playback bus",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -126,7 +124,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 822.0, 545.0, 133.0, 22.0 ],
-					"restore" : [ -7.71653543307086 ],
+					"restore" : [ -10.47244094488191 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -446,12 +444,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1242.0, 475.0, 114.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 207.0, 13.0, 86.0, 107.0 ],
+					"presentation_rect" : [ 96.0, 9.0, 86.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "metronome",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "metronome",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -618,10 +617,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 1482.0, 340.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage monitor_mix @greedy 2 @savemode 0",
@@ -1062,14 +1061,13 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 347.0, 583.0, 160.0, 131.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 41.0, 13.0, 160.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "solo boost volume",
+							"parameter_longname" : "main monitor volume",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
-							"parameter_shortname" : "solo boost volume",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "main monitor volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
