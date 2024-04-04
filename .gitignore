@@ -43,6 +43,8 @@ Icon?
 # user presets folder. Defaults are stored in /default/presets
 SousaFX/data/*
 !SousaFX/data/.gitkeep
+SousaVFX/data/*
+!SousaVFX/data/.gitkeep
 
 # allow built docs for ez github releases
 # /SousaFX/.docs
