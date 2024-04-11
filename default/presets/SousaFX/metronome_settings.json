@@ -9,7 +9,7 @@
 					"metro_enable" : [ 0 ],
 					"bars-per-risset-loop" : [ 12.0 ],
 					"risset-accel-or-decel" : [ 0 ],
-					"phasor direct or link" : [ 0 ],
+					"phasor direct or link" : [ 1 ],
 					"auto-set tempo source" : [ 0 ],
 					"tempo source" : [ 1 ]
 				}

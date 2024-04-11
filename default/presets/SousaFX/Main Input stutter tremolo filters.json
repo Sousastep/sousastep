@@ -11,10 +11,10 @@
 					"sousaFX_tremolo::smooth[1]" : [ 29.133858267716494 ],
 					"stutterstep::stutter volume[1]" : [ -4.0 ],
 					"stutterstep::inthru" : [ 1.0 ],
-					"stutterstep::window" : [ 17.0 ],
+					"stutterstep::window" : [ 20.0 ],
 					"stutterstep::offset[1]" : [ 0.011732283464567 ],
 					"stutterstep::bypass_hipass" : [ 0 ],
-					"stutterstep::accel-vol-dip" : [ 98.0 ],
+					"stutterstep::accel-vol-dip" : [ 88.0 ],
 					"DJfilter::smooth_freq_mod" : [ 135.605611254585995 ]
 				}
 

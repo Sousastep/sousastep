@@ -10,7 +10,8 @@
 					"stutterLFO::window" : [ 10.0 ],
 					"stutterLFO::offset[1]" : [ 0.03 ],
 					"stutterLFO::bypass_hipass" : [ 1 ],
-					"stutterLFO::accel-vol-dip" : [ 84.0 ]
+					"stutterLFO::accel-vol-dip" : [ 84.0 ],
+					"stutterLFO::subdiv-behavior" : [ 0 ]
 				}
 
 			}

@@ -1,11 +1,11 @@
 {
 	"pattrstorage" : 	{
-		"name" : "octaver_rnbo_or_plugin",
+		"name" : "controller_bindings_preset_initial",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"rnbo_or_plugin" : [ 3 ]
+					"init_preset" : [ 0 ]
 				}
 
 			}

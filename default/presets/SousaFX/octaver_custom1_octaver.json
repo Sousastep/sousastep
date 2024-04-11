@@ -1,0 +1,23 @@
+{
+	"pattrstorage" : 	{
+		"name" : "octaver_custom1_octaver",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"submix" : [ 79.527559055118076 ],
+					"pitchslideup" : [ 4800 ],
+					"pitchslidedown" : [ 9600 ],
+					"pitchquantize" : [ 1 ],
+					"lowrange" : [ 20.0 ],
+					"highrange" : [ 200.0 ],
+					"enablesweepdown" : [ 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
