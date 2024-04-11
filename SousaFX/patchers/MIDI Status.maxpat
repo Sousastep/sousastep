@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1127.0, 215.0, 1179.0, 684.0 ],
+		"rect" : [ 743.0, 431.0, 1179.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1152,9 +1152,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 976.5, 378.0, 55.0, 22.0 ],
-					"text" : "del 3000"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1024.5, 387.0, 61.0, 22.0 ],
+					"text" : "pipe 3000"
 				}
 
 			}
@@ -3111,7 +3111,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 976.5, 337.0, 54.0, 22.0 ],
+					"patching_rect" : [ 1070.0, 348.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -3123,7 +3123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 1162.0, 344.5, 32.0, 22.0 ],
+					"patching_rect" : [ 1161.0, 311.0, 32.0, 22.0 ],
 					"text" : "t 1 1"
 				}
 
@@ -3980,10 +3980,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 212.0, 333.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage MIDIstatus @greedy 0 @savemode 0",
@@ -5599,7 +5599,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -5736,13 +5736,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-5", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"source" : [ "obj-50", 0 ]
 				}
 
 			}
