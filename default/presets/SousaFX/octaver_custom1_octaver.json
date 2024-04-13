@@ -11,7 +11,7 @@
 					"pitchquantize" : [ 1 ],
 					"lowrange" : [ 20.0 ],
 					"highrange" : [ 200.0 ],
-					"enablesweepdown" : [ 1 ]
+					"enablesweepdown" : [ 0 ]
 				}
 
 			}
