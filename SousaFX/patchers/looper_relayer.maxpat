@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 1493.0, 1372.0, 813.0 ],
+		"rect" : [ 563.0, 1493.0, 934.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "looper state",
+					"hint" : "looper going to begin fading out on downbeat or immediately depending on tempo mode != ableton",
+					"id" : "obj-98",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2894.0, 3052.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-124",
 					"maxclass" : "number",
@@ -2032,6 +2045,12 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 805.0, 2012.0, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
+						"beats" : 						{
+							"label" : "beats",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"fb" : 						{
 							"label" : "fb",
 							"isEnum" : 1,
@@ -2044,14 +2063,8 @@
 							"parsestring" : "\"0\" \"1\""
 						}
 ,
-						"beats" : 						{
-							"label" : "beats",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"volume" : 						{
-							"label" : "volume",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2062,8 +2075,8 @@
 							"parsestring" : ""
 						}
 ,
-						"regen" : 						{
-							"label" : "regen",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3087,6 +3100,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 1 ],
+					"order" : 1,
+					"source" : [ "obj-111", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-98", 0 ],
+					"order" : 0,
 					"source" : [ "obj-111", 1 ]
 				}
 
