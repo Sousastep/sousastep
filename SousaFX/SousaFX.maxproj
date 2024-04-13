@@ -2,7 +2,7 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3787679213,
+	"modificationdate" : 3795813648,
 	"viewrect" : [ 1231.0, 1527.0, 478.0, 779.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -99,8 +99,8 @@
 				"local" : 1
 			}
 ,
-			"function_with_two_curves.rnbopat" : 			{
-				"kind" : "rnbopat",
+			"dummy_selector.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -151,6 +151,11 @@
 ,
 			"Modulation Parameters.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"function_with_two_curves.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -295,11 +300,6 @@
 			}
 ,
 			"umenu_presets.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"dummy_selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -486,6 +486,11 @@
 			}
 ,
 			"restart_sousafx.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"max_send.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -794,6 +799,16 @@
 				"local" : 1
 			}
 ,
+			"mixme.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
+			"smFilterPack_env_follow.gendsp" : 			{
+				"kind" : "gendsp",
+				"local" : 1
+			}
+,
 			"smFilterPack_ladder.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
@@ -805,16 +820,6 @@
 			}
 ,
 			"smFilterPack_ladder_wrap.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"mixme.gendsp" : 			{
-				"kind" : "gendsp",
-				"local" : 1
-			}
-,
-			"smFilterPack_env_follow.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
 			}
@@ -894,32 +899,12 @@
 				"local" : 1
 			}
 ,
-			"syncrate.txt" : 			{
-				"kind" : "textfile",
-				"local" : 1
-			}
-,
 			"ProQ3crossovers.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"Dry-ish_FX_plugin1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin2_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin3_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Dry-ish_FX_plugin4_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -935,21 +920,6 @@
 			}
 ,
 			"Pre-LPF_FX_plugin1_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin2_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin3_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"Pre-LPF_FX_plugin4_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -979,7 +949,17 @@
 				"local" : 1
 			}
 ,
+			"delay2_rnbo_filterdelay.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"delay2_rnbo_or_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"delay3_rnbo_filterdelay.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1016,11 +996,6 @@
 ,
 			"dual_loopers.json" : 			{
 				"kind" : "json",
-				"local" : 1
-			}
-,
-			"global_tempo_source.txt" : 			{
-				"kind" : "textfile",
 				"local" : 1
 			}
 ,
@@ -1099,7 +1074,7 @@
 				"local" : 1
 			}
 ,
-			"reverb_plugin.json" : 			{
+			"reverb_gigaverb.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1130,6 +1105,50 @@
 			}
 ,
 			"just_theDrop.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"syncrate.txt" : 			{
+				"kind" : "textfile"
+			}
+,
+			"Dry-ish_FX_plugin2_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin3_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Dry-ish_FX_plugin4_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin2_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin3_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"Pre-LPF_FX_plugin4_plugin.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"global_tempo_source.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"reverb_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1184,22 +1203,7 @@
 				"local" : 1
 			}
 ,
-			"delay2_rnbo_filterdelay.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"delay3_rnbo_filterdelay.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"delay4_rnbo_filterdelay.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"reverb_gigaverb.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1245,8 +1249,7 @@
 			}
 ,
 			"high_cross_fx_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
+				"kind" : "json"
 			}
 ,
 			"just_triC.json" : 			{
