@@ -43,11 +43,11 @@
 								}
 ,
 								"sustain" : 								{
-									"value" : 70.0
+									"value" : 47.0
 								}
 ,
 								"attack" : 								{
-									"value" : 0.0
+									"value" : 100.0
 								}
 ,
 								"__presetid" : "compressor_stereo",
@@ -56,7 +56,7 @@
 								}
 ,
 								"comp" : 								{
-									"value" : 20.0
+									"value" : 40.0
 								}
 ,
 								"himid" : 								{

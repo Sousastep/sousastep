@@ -6,7 +6,7 @@
 				"id" : 1,
 				"data" : 				{
 					"preferred audio interface" : [ "\"MADIface Pro (79250639)\"" ],
-					"paused" : [ 1 ],
+					"paused" : [ 0 ],
 					"FX rig" : [ 2 ],
 					"VFX rig" : [ 0 ],
 					"playback rig" : [ 1 ],
