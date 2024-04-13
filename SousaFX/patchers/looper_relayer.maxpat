@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 53.0, 1847.0, 1353.0 ],
+		"rect" : [ 563.0, 1493.0, 1372.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-124",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1653.0, 276.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1653.0, 359.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1764.0, 417.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-116",
@@ -48,7 +84,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1838.0, 219.0, 133.0, 64.0 ],
-					"presentation_linecount" : 5,
 					"suppressinlet" : 1,
 					"text" : "if tempo source is Ableton then quantize looper fadeout to beat one."
 				}
@@ -188,7 +223,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2096.0, 2524.0, 42.0, 22.0 ],
-					"text" : "> 0.98"
+					"text" : "> 0.92"
 				}
 
 			}
@@ -1249,7 +1284,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 964.0, 1213.0, 107.0, 22.0 ],
+					"patching_rect" : [ 964.0, 1237.0, 107.0, 22.0 ],
 					"text" : "r~ pre-loop_thresh"
 				}
 
@@ -1997,6 +2032,18 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 805.0, 2012.0, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
+						"fb" : 						{
+							"label" : "fb",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\""
+						}
+,
+						"input" : 						{
+							"label" : "input",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\""
+						}
+,
 						"beats" : 						{
 							"label" : "beats",
 							"isEnum" : 0,
@@ -2020,22 +2067,10 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
-,
-						"input" : 						{
-							"label" : "input",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\""
-						}
-,
-						"fb" : 						{
-							"label" : "fb",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\""
-						}
 
 					}
 ,
-					"rnboversion" : "1.2.6",
+					"rnboversion" : "1.2.7-eventide.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -4045,7 +4080,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-124", 0 ],
+					"order" : 1,
+					"source" : [ "obj-805", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
+					"order" : 0,
 					"source" : [ "obj-805", 0 ]
 				}
 
@@ -4276,7 +4320,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"order" : 1,
+					"source" : [ "obj-97", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
+					"order" : 0,
 					"source" : [ "obj-97", 0 ]
 				}
 
@@ -4369,8 +4422,7 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
