@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 206.0, 144.0, 1617.0, 1296.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,103 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-582",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1633.0, -99.0, 103.0, 22.0 ],
+					"text" : "s kick&snare_env"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-580",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1723.0, -179.0, 47.0, 22.0 ],
+					"text" : "r rbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-581",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 1633.0, -139.0, 65.0, 22.0 ],
+					"text" : "peakamp~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-569",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1633.0, -179.0, 70.0, 22.0 ],
+					"text" : "+~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-566",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1633.0, -295.0, 99.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "Kick & Snare in from Ableton"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-559",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1684.0, -218.0, 35.0, 22.0 ],
+					"text" : "abs~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-558",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1633.0, -218.0, 35.0, 22.0 ],
+					"text" : "abs~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-551",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1633.0, -258.0, 70.0, 22.0 ],
+					"text" : "adc~ 30 31"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-816",
 					"linecount" : 8,
@@ -108,7 +205,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1390.666708111763, -1708.000050902366638, 119.0, 22.0 ],
+					"patching_rect" : [ 2065.0, -204.0, 119.0, 22.0 ],
 					"text" : "s flashbang_enabled"
 				}
 
@@ -337,7 +434,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1670.0, -1692.0, 197.0, 22.0 ],
+					"patching_rect" : [ 2256.0, 14.0, 197.0, 22.0 ],
 					"text" : "r \"LFO Ceiling Envelope Curve (bi)\""
 				}
 
@@ -348,7 +445,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1670.0, -1645.0, 66.0, 22.0 ],
+					"patching_rect" : [ 2256.0, 61.0, 66.0, 22.0 ],
 					"text" : "s velocityX"
 				}
 
@@ -535,7 +632,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 459.0, -1023.0, 22.0, 22.0 ],
+					"patching_rect" : [ 217.0, -721.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -547,7 +644,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 459.0, -981.0, 22.0, 22.0 ],
+					"patching_rect" : [ 217.0, -662.0, 22.0, 22.0 ],
 					"text" : "t 1"
 				}
 
@@ -794,7 +891,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 381.0, -981.0, 29.5, 22.0 ],
+					"patching_rect" : [ 139.0, -715.5, 29.5, 22.0 ],
 					"text" : "- 1"
 				}
 
@@ -1118,7 +1215,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 442.0, -669.0, 126.0, 33.0 ],
+					"patching_rect" : [ 200.0, -350.0, 126.0, 33.0 ],
 					"text" : "open gate only if Wobble FX are in use"
 				}
 
@@ -1405,7 +1502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 381.0, -709.0, 33.0, 22.0 ],
+					"patching_rect" : [ 139.0, -390.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -1417,7 +1514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 381.0, -669.0, 52.0, 22.0 ],
+					"patching_rect" : [ 139.0, -350.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
 				}
 
@@ -1429,7 +1526,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 427.0, -709.0, 47.0, 22.0 ],
+					"patching_rect" : [ 185.0, -390.0, 47.0, 22.0 ],
 					"text" : "r rbang"
 				}
 
@@ -1441,7 +1538,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.0, -1636.0, 47.0, 22.0 ],
+					"patching_rect" : [ 1873.0, -170.0, 47.0, 22.0 ],
 					"text" : "r rbang"
 				}
 
@@ -1502,7 +1599,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1341.5, -1579.0, 309.0, 22.0 ],
+					"patching_rect" : [ 2167.0, -61.0, 309.0, 22.0 ],
 					"text" : "s~ Phasor_with_phase_offset_and_rate_multiplier_scale",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1515,7 +1612,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1351.5, -1626.0, 52.0, 22.0 ],
+					"patching_rect" : [ 2167.0, -118.0, 52.0, 22.0 ],
 					"text" : "adc~ 20"
 				}
 
@@ -1527,7 +1624,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 575.0, -794.0, 52.0, 22.0 ],
+					"patching_rect" : [ 333.0, -475.0, 52.0, 22.0 ],
 					"text" : "adc~ 19"
 				}
 
@@ -1541,7 +1638,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1331.5, -1655.0, 273.0, 22.0 ],
+					"patching_rect" : [ 2241.0, -118.0, 273.0, 22.0 ],
 					"text" : "r~ Phasor_with_phase_offset_and_rate_multiplier",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1556,7 +1653,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 555.0, -821.0, 92.0, 22.0 ],
+					"patching_rect" : [ 313.0, -502.0, 92.0, 22.0 ],
 					"text" : "r~ main_phasor",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1597,7 +1694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1056.0, -1790.0, 127.0, 22.0 ],
+					"patching_rect" : [ 1909.5, -288.5, 127.0, 22.0 ],
 					"text" : "r~ tuba_env_w_delrev",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1612,7 +1709,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 182.0, -692.0, 178.0, 22.0 ],
+					"patching_rect" : [ -60.0, -373.0, 178.0, 22.0 ],
 					"text" : "r~ Low_Amp_Mod_w_tuba_env",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1627,7 +1724,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 233.0, -623.0, 180.0, 22.0 ],
+					"patching_rect" : [ -9.0, -304.0, 180.0, 22.0 ],
 					"text" : "r~ High_Freq_Mod_w_tuba_env",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -1648,7 +1745,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 702.0, -1981.0, 177.0, 62.0 ],
+					"patching_rect" : [ 427.0, -1894.0, 177.0, 62.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1087.602406816585699, 7.252461111487833, 177.0, 101.0 ],
 					"varname" : "patcher",
@@ -2026,7 +2123,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4921.0, 418.0, 395.0, 631.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 809.0, 393.0, 395.0, 631.0 ],
+					"presentation_rect" : [ 831.685740189655462, 388.622006703208172, 395.0, 631.0 ],
 					"varname" : "UI_PlanetOfBaobabs",
 					"viewvisibility" : 1
 				}
@@ -2501,7 +2598,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1216.0, -1749.0, 100.0, 20.0 ],
+					"patching_rect" : [ 2020.0, -247.0, 100.0, 20.0 ],
 					"text" : "enable flashbang"
 				}
 
@@ -2515,7 +2612,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1188.0, -1751.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1992.0, -249.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 830.126937094626555, 139.338262050650883, 24.0, 24.0 ]
 				}
@@ -2528,7 +2625,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1188.0, -1662.0, 78.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -160.0, 78.0, 22.0 ],
 					"text" : "selector~ 1 0"
 				}
 
@@ -2541,7 +2638,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1157.0, -1483.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1961.0, 19.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2554,7 +2651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 1188.0, -1511.0, 44.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -9.0, 44.0, 22.0 ],
 					"text" : "edge~"
 				}
 
@@ -2568,7 +2665,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1188.0, -1541.0, 38.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -39.0, 38.0, 22.0 ],
 					"text" : ">~ 0."
 				}
 
@@ -2583,7 +2680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1188.0, -1571.0, 44.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -69.0, 44.0, 22.0 ],
 					"text" : "delta~"
 				}
 
@@ -2597,7 +2694,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1188.0, -1631.0, 80.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -129.0, 80.0, 22.0 ],
 					"text" : "slide~ 0 4800"
 				}
 
@@ -2609,7 +2706,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1188.0, -1601.0, 102.0, 22.0 ],
+					"patching_rect" : [ 1992.0, -99.0, 102.0, 22.0 ],
 					"text" : "thresh~ 0.02 0.15"
 				}
 
@@ -2620,7 +2717,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1188.0, -1482.0, 70.0, 22.0 ],
+					"patching_rect" : [ 1992.0, 20.0, 70.0, 22.0 ],
 					"text" : "s flashbang"
 				}
 
@@ -2705,7 +2802,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.5, -926.0, 141.0, 33.0 ],
+					"patching_rect" : [ 289.0, -607.0, 141.0, 33.0 ],
 					"text" : "idle phasor. only use if sousaFX isn't running."
 				}
 
@@ -2719,7 +2816,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 402.0, -900.0, 24.0, 24.0 ],
+					"patching_rect" : [ 160.0, -581.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 877.580261965249974, 139.338262050650883, 24.0, 24.0 ]
 				}
@@ -2732,7 +2829,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 402.0, -852.0, 148.0, 22.0 ],
+					"patching_rect" : [ 160.0, -533.0, 148.0, 22.0 ],
 					"text" : "gate~ 1 0 @ramptime 250"
 				}
 
@@ -2744,7 +2841,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 531.0, -885.0, 79.0, 22.0 ],
+					"patching_rect" : [ 289.0, -566.0, 79.0, 22.0 ],
 					"text" : "phasor~ 0.25"
 				}
 
@@ -2757,7 +2854,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 402.0, -744.0, 129.0, 22.0 ],
+					"patching_rect" : [ 160.0, -425.0, 129.0, 22.0 ],
 					"text" : "s~ main_phasor_scale",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -2770,7 +2867,6 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"hidden" : 1,
 					"id" : "obj-898",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -2872,7 +2968,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 987.0, -1791.0, 52.0, 22.0 ],
+					"patching_rect" : [ 1840.5, -289.5, 52.0, 22.0 ],
 					"text" : "adc~ 23"
 				}
 
@@ -2884,7 +2980,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 209.0, -659.0, 52.0, 22.0 ],
+					"patching_rect" : [ -33.0, -340.0, 52.0, 22.0 ],
 					"text" : "adc~ 22"
 				}
 
@@ -2896,7 +2992,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 312.0, -591.0, 52.0, 22.0 ],
+					"patching_rect" : [ 70.0, -272.0, 52.0, 22.0 ],
 					"text" : "adc~ 21"
 				}
 
@@ -3041,7 +3137,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1293.0, -1897.0, 150.0, 21.0 ],
+					"patching_rect" : [ 2188.0, -396.0, 150.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "half speed high lfo"
 				}
@@ -3054,7 +3150,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1288.0, -1859.0, 219.0, 21.0 ],
+					"patching_rect" : [ 2183.0, -358.0, 219.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "run high_freq_mod_hixed at half speed"
 				}
@@ -3068,7 +3164,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1248.0, -1865.0, 33.0, 33.0 ],
+					"patching_rect" : [ 2143.0, -364.0, 33.0, 33.0 ],
 					"varname" : "enable_half_speed_vfx"
 				}
 
@@ -3079,7 +3175,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1248.0, -1808.0, 141.0, 22.0 ],
+					"patching_rect" : [ 2143.0, -307.0, 141.0, 22.0 ],
 					"text" : "s enable_half_speed_vfx"
 				}
 
@@ -3341,7 +3437,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, -937.0, 100.0, 22.0 ]
+					"patching_rect" : [ 139.0, -618.0, 100.0, 22.0 ]
 				}
 
 			}
@@ -5116,7 +5212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 952.0, -1860.0, 33.0, 22.0 ],
+					"patching_rect" : [ 1957.0, -411.0, 33.0, 22.0 ],
 					"text" : "+~ 1"
 				}
 
@@ -5128,7 +5224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 952.0, -1902.0, 198.0, 22.0 ],
+					"patching_rect" : [ 1957.0, -453.0, 198.0, 22.0 ],
 					"text" : "r~ primary_audio_FX_are_engaged"
 				}
 
@@ -5284,6 +5380,7 @@
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
+					"hidden" : 1,
 					"id" : "obj-411",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
@@ -6650,6 +6747,103 @@
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::u352009166" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::invert" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_SpaceSpore" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::u352009166" : 0,
@@ -6974,6 +7168,8 @@
 						"UI_ButterflyEffect::Pinwheel_size::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_size::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_size::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6986,6 +7182,8 @@
 						"UI_ButterflyEffect::Pinwheel_edge::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_edge::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_edge::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6998,6 +7196,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7010,6 +7210,8 @@
 						"UI_ButterflyEffect::Pinwheel_rate::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7022,6 +7224,8 @@
 						"UI_ButterflyEffect::Pinwheel_color1_hue::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_hue::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_hue::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7034,6 +7238,8 @@
 						"UI_ButterflyEffect::Pinwheel_color1_light::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_light::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_light::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7046,6 +7252,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments[1]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[1]::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[1]::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7058,6 +7266,8 @@
 						"UI_ButterflyEffect::Pinwheel_rate[1]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[1]::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[1]::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7070,6 +7280,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments[2]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[2]::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[2]::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7082,131 +7294,12 @@
 						"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[2]::live.menu" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[2]::param_ctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::u352009166" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::invert" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::linkphasor_rate" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::matrixctrl" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::rslider" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_down" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
 						"UI_DimensionMorphingTopography" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::u352009166" : 0,
@@ -7531,10 +7624,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 36.0, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -8147,7 +8240,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 312.0, -521.0, 64.0, 22.0 ],
+					"patching_rect" : [ 70.0, -202.0, 64.0, 22.0 ],
 					"text" : "snapshot~"
 				}
 
@@ -8159,7 +8252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 157.0, -521.0, 64.0, 22.0 ],
+					"patching_rect" : [ -85.0, -202.0, 64.0, 22.0 ],
 					"text" : "snapshot~"
 				}
 
@@ -8170,7 +8263,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 312.0, -484.0, 124.0, 22.0 ],
+					"patching_rect" : [ 70.0, -165.0, 124.0, 22.0 ],
 					"text" : "s high_LFO"
 				}
 
@@ -8181,7 +8274,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 157.0, -484.0, 124.0, 22.0 ],
+					"patching_rect" : [ -85.0, -165.0, 124.0, 22.0 ],
 					"text" : "s low_LFO"
 				}
 
@@ -10456,7 +10549,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1044.0, -1547.0, 120.0, 22.0 ],
+					"patching_rect" : [ 1844.0, -96.0, 120.0, 22.0 ],
 					"text" : "s dry_tuba_envelope"
 				}
 
@@ -10468,7 +10561,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1044.0, -1584.0, 65.0, 22.0 ],
+					"patching_rect" : [ 1844.0, -133.0, 65.0, 22.0 ],
 					"text" : "peakamp~"
 				}
 
@@ -11000,7 +11093,7 @@
 					"patching_rect" : [ 1044.0, -147.0, 203.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "RainbowGlowRing idling",
+					"text" : "ColorDiffusionFlow idle",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -12284,7 +12377,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -18064,6 +18157,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-558", 0 ],
+					"source" : [ "obj-551", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-559", 0 ],
+					"source" : [ "obj-551", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-617", 0 ],
 					"source" : [ "obj-552", 0 ]
 				}
@@ -18092,6 +18199,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-569", 0 ],
+					"source" : [ "obj-558", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-569", 1 ],
+					"source" : [ "obj-559", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-162", 0 ],
 					"source" : [ "obj-563", 0 ]
 				}
@@ -18115,6 +18236,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-567", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-581", 0 ],
+					"source" : [ "obj-569", 0 ]
 				}
 
 			}
@@ -18194,6 +18322,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-172", 3 ],
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-581", 0 ],
+					"source" : [ "obj-580", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-582", 0 ],
+					"source" : [ "obj-581", 0 ]
 				}
 
 			}
@@ -20340,161 +20482,314 @@
  ],
 		"parameters" : 		{
 			"obj-111::obj-133" : [ "scale_invert[25]", "Phase-Inversion", 1 ],
+			"obj-111::obj-23" : [ "live.menu[131]", "live.menu", 0 ],
 			"obj-117::obj-133" : [ "scale_invert[14]", "Phase-Inversion", 1 ],
+			"obj-117::obj-23" : [ "live.menu[132]", "live.menu", 0 ],
 			"obj-121::obj-133" : [ "scale_invert[53]", "Phase-Inversion", 1 ],
+			"obj-121::obj-23" : [ "live.menu[147]", "live.menu", 0 ],
 			"obj-122::obj-133" : [ "scale_invert[47]", "Phase-Inversion", 1 ],
+			"obj-122::obj-23" : [ "live.menu[152]", "live.menu", 0 ],
 			"obj-197::obj-133" : [ "scale_invert[26]", "Phase-Inversion", 1 ],
+			"obj-197::obj-23" : [ "live.menu[133]", "live.menu", 0 ],
 			"obj-198::obj-133" : [ "scale_invert[71]", "Phase-Inversion", 1 ],
+			"obj-198::obj-23" : [ "live.menu[113]", "live.menu", 0 ],
 			"obj-224::obj-133" : [ "scale_invert[69]", "Phase-Inversion", 1 ],
+			"obj-224::obj-23" : [ "live.menu[115]", "live.menu", 0 ],
 			"obj-227::obj-133" : [ "scale_invert[70]", "Phase-Inversion", 1 ],
+			"obj-227::obj-23" : [ "live.menu[114]", "live.menu", 0 ],
 			"obj-228::obj-2::obj-133" : [ "scale_invert[57]", "Phase-Inversion", 1 ],
+			"obj-228::obj-2::obj-23" : [ "live.menu[104]", "live.menu", 0 ],
 			"obj-228::obj-3::obj-133" : [ "scale_invert[58]", "Phase-Inversion", 1 ],
+			"obj-228::obj-3::obj-23" : [ "live.menu[103]", "live.menu", 0 ],
 			"obj-228::obj-4::obj-133" : [ "scale_invert[60]", "Phase-Inversion", 1 ],
+			"obj-228::obj-4::obj-23" : [ "live.menu[102]", "live.menu", 0 ],
 			"obj-228::obj-51::obj-133" : [ "scale_invert[93]", "Phase-Inversion", 1 ],
+			"obj-228::obj-51::obj-23" : [ "live.menu[100]", "live.menu", 0 ],
 			"obj-228::obj-53::obj-133" : [ "scale_invert[38]", "Phase-Inversion", 1 ],
+			"obj-228::obj-53::obj-23" : [ "live.menu[99]", "live.menu", 0 ],
 			"obj-228::obj-55::obj-133" : [ "scale_invert[43]", "Phase-Inversion", 1 ],
+			"obj-228::obj-55::obj-23" : [ "live.menu[98]", "live.menu", 0 ],
 			"obj-228::obj-57::obj-133" : [ "scale_invert[94]", "Phase-Inversion", 1 ],
+			"obj-228::obj-57::obj-23" : [ "live.menu[97]", "live.menu", 0 ],
 			"obj-228::obj-5::obj-133" : [ "scale_invert[72]", "Phase-Inversion", 1 ],
+			"obj-228::obj-5::obj-23" : [ "live.menu[101]", "live.menu", 0 ],
 			"obj-230::obj-133" : [ "scale_invert[9]", "Phase-Inversion", 1 ],
+			"obj-230::obj-23" : [ "live.menu[137]", "live.menu", 0 ],
 			"obj-232::obj-133" : [ "scale_invert[7]", "Phase-Inversion", 1 ],
+			"obj-232::obj-23" : [ "live.menu[138]", "live.menu", 0 ],
 			"obj-233::obj-133" : [ "scale_invert[8]", "Phase-Inversion", 1 ],
+			"obj-233::obj-23" : [ "live.menu[139]", "live.menu", 0 ],
 			"obj-23::obj-133" : [ "scale_invert[12]", "Phase-Inversion", 1 ],
+			"obj-23::obj-23" : [ "live.menu[136]", "live.menu", 0 ],
 			"obj-25::obj-1::obj-133" : [ "scale_invert[15]", "Phase-Inversion", 1 ],
+			"obj-25::obj-1::obj-23" : [ "live.menu[95]", "live.menu", 0 ],
 			"obj-25::obj-2::obj-133" : [ "scale_invert[73]", "Phase-Inversion", 1 ],
+			"obj-25::obj-2::obj-23" : [ "live.menu[94]", "live.menu", 0 ],
 			"obj-25::obj-3::obj-133" : [ "scale_invert[74]", "Phase-Inversion", 1 ],
+			"obj-25::obj-3::obj-23" : [ "live.menu[93]", "live.menu", 0 ],
 			"obj-25::obj-4::obj-133" : [ "scale_invert[19]", "Phase-Inversion", 1 ],
+			"obj-25::obj-4::obj-23" : [ "live.menu[92]", "live.menu", 0 ],
 			"obj-25::obj-54::obj-133" : [ "scale_invert[77]", "Phase-Inversion", 1 ],
+			"obj-25::obj-54::obj-23" : [ "live.menu[83]", "live.menu", 0 ],
 			"obj-25::obj-55::obj-133" : [ "scale_invert[76]", "Phase-Inversion", 1 ],
+			"obj-25::obj-55::obj-23" : [ "live.menu[84]", "live.menu", 0 ],
 			"obj-25::obj-56::obj-133" : [ "scale_invert[22]", "Phase-Inversion", 1 ],
+			"obj-25::obj-56::obj-23" : [ "live.menu[85]", "live.menu", 0 ],
 			"obj-25::obj-57::obj-133" : [ "scale_invert[21]", "Phase-Inversion", 1 ],
+			"obj-25::obj-57::obj-23" : [ "live.menu[86]", "live.menu", 0 ],
 			"obj-25::obj-58::obj-133" : [ "scale_invert[75]", "Phase-Inversion", 1 ],
+			"obj-25::obj-58::obj-23" : [ "live.menu[87]", "live.menu", 0 ],
 			"obj-25::obj-59::obj-133" : [ "scale_invert[63]", "Phase-Inversion", 1 ],
+			"obj-25::obj-59::obj-23" : [ "live.menu[88]", "live.menu", 0 ],
 			"obj-25::obj-5::obj-133" : [ "scale_invert[20]", "Phase-Inversion", 1 ],
+			"obj-25::obj-5::obj-23" : [ "live.menu[91]", "live.menu", 0 ],
 			"obj-25::obj-602::obj-133" : [ "scale_invert[13]", "Phase-Inversion", 1 ],
+			"obj-25::obj-602::obj-23" : [ "live.menu[96]", "live.menu", 0 ],
 			"obj-25::obj-6::obj-133" : [ "scale_invert[61]", "Phase-Inversion", 1 ],
+			"obj-25::obj-6::obj-23" : [ "live.menu[90]", "live.menu", 0 ],
 			"obj-25::obj-7::obj-133" : [ "scale_invert[62]", "Phase-Inversion", 1 ],
+			"obj-25::obj-7::obj-23" : [ "live.menu[89]", "live.menu", 0 ],
 			"obj-269" : [ "displace", "displace", 0 ],
 			"obj-272::obj-133" : [ "scale_invert[44]", "Phase-Inversion", 1 ],
+			"obj-272::obj-23" : [ "live.menu[151]", "live.menu", 0 ],
 			"obj-296" : [ "umenu", "umenu", 0 ],
 			"obj-2::obj-133" : [ "scale_invert[10]", "Phase-Inversion", 1 ],
+			"obj-2::obj-23" : [ "live.menu[134]", "live.menu", 0 ],
 			"obj-31::obj-133" : [ "scale_invert[92]", "Phase-Inversion", 1 ],
+			"obj-31::obj-23" : [ "live.menu[66]", "live.menu", 0 ],
 			"obj-336::obj-133" : [ "scale_invert[27]", "Phase-Inversion", 1 ],
+			"obj-336::obj-23" : [ "live.menu[128]", "live.menu", 0 ],
 			"obj-338::obj-133" : [ "scale_invert[28]", "Phase-Inversion", 1 ],
+			"obj-338::obj-23" : [ "live.menu[129]", "live.menu", 0 ],
 			"obj-339::obj-133" : [ "scale_invert[54]", "Phase-Inversion", 1 ],
+			"obj-339::obj-23" : [ "live.menu[148]", "live.menu", 0 ],
 			"obj-340::obj-133" : [ "scale_invert[29]", "Phase-Inversion", 1 ],
+			"obj-340::obj-23" : [ "live.menu[130]", "live.menu", 0 ],
 			"obj-343::obj-133" : [ "scale_invert[55]", "Phase-Inversion", 1 ],
+			"obj-343::obj-23" : [ "live.menu[149]", "live.menu", 0 ],
 			"obj-345::obj-133" : [ "scale_invert[56]", "Phase-Inversion", 1 ],
+			"obj-345::obj-23" : [ "live.menu[150]", "live.menu", 0 ],
 			"obj-358::obj-133" : [ "scale_invert[30]", "Phase-Inversion", 1 ],
+			"obj-358::obj-23" : [ "live.menu[127]", "live.menu", 0 ],
 			"obj-362::obj-133" : [ "scale_invert[17]", "Phase-Inversion", 1 ],
+			"obj-362::obj-23" : [ "live.menu[126]", "live.menu", 0 ],
 			"obj-366::obj-133" : [ "scale_invert[31]", "Phase-Inversion", 1 ],
+			"obj-366::obj-23" : [ "live.menu[125]", "live.menu", 0 ],
 			"obj-371::obj-133" : [ "scale_invert[52]", "Phase-Inversion", 1 ],
+			"obj-371::obj-23" : [ "live.menu[146]", "live.menu", 0 ],
 			"obj-411::obj-1::obj-133" : [ "scale_invert[79]", "Phase-Inversion", 1 ],
+			"obj-411::obj-1::obj-23" : [ "live.menu[81]", "live.menu", 0 ],
 			"obj-411::obj-2::obj-133" : [ "scale_invert[80]", "Phase-Inversion", 1 ],
+			"obj-411::obj-2::obj-23" : [ "live.menu[80]", "live.menu", 0 ],
 			"obj-411::obj-3::obj-133" : [ "scale_invert[81]", "Phase-Inversion", 1 ],
+			"obj-411::obj-3::obj-23" : [ "live.menu[79]", "live.menu", 0 ],
 			"obj-411::obj-4::obj-133" : [ "scale_invert[82]", "Phase-Inversion", 1 ],
+			"obj-411::obj-4::obj-23" : [ "live.menu[78]", "live.menu", 0 ],
 			"obj-411::obj-5::obj-133" : [ "scale_invert[83]", "Phase-Inversion", 1 ],
+			"obj-411::obj-5::obj-23" : [ "live.menu[77]", "live.menu", 0 ],
 			"obj-411::obj-602::obj-133" : [ "scale_invert[78]", "Phase-Inversion", 1 ],
+			"obj-411::obj-602::obj-23" : [ "live.menu[82]", "live.menu", 0 ],
 			"obj-411::obj-6::obj-133" : [ "scale_invert[84]", "Phase-Inversion", 1 ],
+			"obj-411::obj-6::obj-23" : [ "live.menu[76]", "live.menu", 0 ],
 			"obj-411::obj-7::obj-133" : [ "scale_invert[85]", "Phase-Inversion", 1 ],
+			"obj-411::obj-7::obj-23" : [ "live.menu[75]", "live.menu", 0 ],
 			"obj-430::obj-133" : [ "scale_invert[41]", "Phase-Inversion", 1 ],
+			"obj-430::obj-23" : [ "live.menu[116]", "live.menu", 0 ],
 			"obj-431::obj-133" : [ "scale_invert[37]", "Phase-Inversion", 1 ],
+			"obj-431::obj-23" : [ "live.menu[117]", "live.menu", 0 ],
 			"obj-432::obj-133" : [ "scale_invert[39]", "Phase-Inversion", 1 ],
+			"obj-432::obj-23" : [ "live.menu[118]", "live.menu", 0 ],
 			"obj-450::obj-133" : [ "scale_invert[42]", "Phase-Inversion", 1 ],
+			"obj-450::obj-23" : [ "live.menu[119]", "live.menu", 0 ],
 			"obj-453::obj-133" : [ "scale_invert[64]", "Phase-Inversion", 1 ],
+			"obj-453::obj-23" : [ "live.menu[120]", "live.menu", 0 ],
 			"obj-454::obj-133" : [ "scale_invert[65]", "Phase-Inversion", 1 ],
+			"obj-454::obj-23" : [ "live.menu[121]", "live.menu", 0 ],
 			"obj-467::obj-133" : [ "scale_invert[66]", "Phase-Inversion", 1 ],
+			"obj-467::obj-23" : [ "live.menu[122]", "live.menu", 0 ],
 			"obj-468::obj-133" : [ "scale_invert[67]", "Phase-Inversion", 1 ],
+			"obj-468::obj-23" : [ "live.menu[123]", "live.menu", 0 ],
 			"obj-469::obj-133" : [ "scale_invert[68]", "Phase-Inversion", 1 ],
+			"obj-469::obj-23" : [ "live.menu[124]", "live.menu", 0 ],
 			"obj-47::obj-133" : [ "scale_invert[49]", "Phase-Inversion", 1 ],
+			"obj-47::obj-23" : [ "live.menu[143]", "live.menu", 0 ],
 			"obj-48::obj-1::obj-133" : [ "scale_invert[149]", "Phase-Inversion", 1 ],
+			"obj-48::obj-1::obj-23" : [ "live.menu[13]", "live.menu", 0 ],
 			"obj-48::obj-2::obj-133" : [ "scale_invert[150]", "Phase-Inversion", 1 ],
+			"obj-48::obj-2::obj-23" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-48::obj-3::obj-133" : [ "scale_invert[151]", "Phase-Inversion", 1 ],
+			"obj-48::obj-3::obj-23" : [ "live.menu[11]", "live.menu", 0 ],
 			"obj-48::obj-4::obj-133" : [ "scale_invert[152]", "Phase-Inversion", 1 ],
+			"obj-48::obj-4::obj-23" : [ "live.menu[10]", "live.menu", 0 ],
 			"obj-48::obj-54::obj-133" : [ "scale_invert[161]", "Phase-Inversion", 1 ],
+			"obj-48::obj-54::obj-23" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-48::obj-55::obj-133" : [ "scale_invert[160]", "Phase-Inversion", 1 ],
+			"obj-48::obj-55::obj-23" : [ "live.menu[2]", "live.menu", 0 ],
 			"obj-48::obj-56::obj-133" : [ "scale_invert[159]", "Phase-Inversion", 1 ],
+			"obj-48::obj-56::obj-23" : [ "live.menu[3]", "live.menu", 0 ],
 			"obj-48::obj-57::obj-133" : [ "scale_invert[158]", "Phase-Inversion", 1 ],
+			"obj-48::obj-57::obj-23" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-48::obj-58::obj-133" : [ "scale_invert[157]", "Phase-Inversion", 1 ],
+			"obj-48::obj-58::obj-23" : [ "live.menu[5]", "live.menu", 0 ],
 			"obj-48::obj-59::obj-133" : [ "scale_invert[156]", "Phase-Inversion", 1 ],
+			"obj-48::obj-59::obj-23" : [ "live.menu[6]", "live.menu", 0 ],
 			"obj-48::obj-5::obj-133" : [ "scale_invert[153]", "Phase-Inversion", 1 ],
+			"obj-48::obj-5::obj-23" : [ "live.menu[9]", "live.menu", 0 ],
 			"obj-48::obj-602::obj-133" : [ "scale_invert[148]", "Phase-Inversion", 1 ],
+			"obj-48::obj-602::obj-23" : [ "live.menu[14]", "live.menu", 0 ],
 			"obj-48::obj-6::obj-133" : [ "scale_invert[154]", "Phase-Inversion", 1 ],
+			"obj-48::obj-6::obj-23" : [ "live.menu[8]", "live.menu", 0 ],
 			"obj-48::obj-7::obj-133" : [ "scale_invert[155]", "Phase-Inversion", 1 ],
+			"obj-48::obj-7::obj-23" : [ "live.menu[7]", "live.menu", 0 ],
 			"obj-48::obj-82::obj-133" : [ "scale_invert[162]", "Phase-Inversion", 1 ],
+			"obj-48::obj-82::obj-23" : [ "live.menu", "live.menu", 0 ],
 			"obj-49::obj-133" : [ "scale_invert[50]", "Phase-Inversion", 1 ],
+			"obj-49::obj-23" : [ "live.menu[144]", "live.menu", 0 ],
 			"obj-4::obj-133" : [ "scale_invert[11]", "Phase-Inversion", 1 ],
+			"obj-4::obj-23" : [ "live.menu[135]", "live.menu", 0 ],
 			"obj-50::obj-133" : [ "scale_invert[51]", "Phase-Inversion", 1 ],
+			"obj-50::obj-23" : [ "live.menu[145]", "live.menu", 0 ],
 			"obj-512::obj-19" : [ "C[1]", "C", 0 ],
 			"obj-512::obj-2::obj-133" : [ "scale_invert[86]", "Phase-Inversion", 1 ],
+			"obj-512::obj-2::obj-23" : [ "live.menu[74]", "live.menu", 0 ],
 			"obj-512::obj-3::obj-133" : [ "scale_invert[87]", "Phase-Inversion", 1 ],
+			"obj-512::obj-3::obj-23" : [ "live.menu[73]", "live.menu", 0 ],
 			"obj-512::obj-4::obj-133" : [ "scale_invert[88]", "Phase-Inversion", 1 ],
+			"obj-512::obj-4::obj-23" : [ "live.menu[72]", "live.menu", 0 ],
 			"obj-512::obj-51::obj-133" : [ "scale_invert[96]", "Phase-Inversion", 1 ],
+			"obj-512::obj-51::obj-23" : [ "live.menu[67]", "live.menu", 0 ],
 			"obj-512::obj-52::obj-133" : [ "scale_invert[95]", "Phase-Inversion", 1 ],
+			"obj-512::obj-52::obj-23" : [ "live.menu[68]", "live.menu", 0 ],
 			"obj-512::obj-5::obj-133" : [ "scale_invert[89]", "Phase-Inversion", 1 ],
+			"obj-512::obj-5::obj-23" : [ "live.menu[71]", "live.menu", 0 ],
 			"obj-512::obj-6::obj-133" : [ "scale_invert[90]", "Phase-Inversion", 1 ],
+			"obj-512::obj-6::obj-23" : [ "live.menu[70]", "live.menu", 0 ],
 			"obj-512::obj-7::obj-133" : [ "scale_invert[91]", "Phase-Inversion", 1 ],
+			"obj-512::obj-7::obj-23" : [ "live.menu[69]", "live.menu", 0 ],
 			"obj-616::obj-1::obj-133" : [ "scale_invert[18]", "Phase-Inversion", 1 ],
+			"obj-616::obj-1::obj-23" : [ "live.menu[111]", "live.menu", 0 ],
 			"obj-616::obj-2::obj-133" : [ "scale_invert[33]", "Phase-Inversion", 1 ],
+			"obj-616::obj-2::obj-23" : [ "live.menu[110]", "live.menu", 0 ],
 			"obj-616::obj-3::obj-133" : [ "scale_invert[34]", "Phase-Inversion", 1 ],
+			"obj-616::obj-3::obj-23" : [ "live.menu[109]", "live.menu", 0 ],
 			"obj-616::obj-4::obj-133" : [ "scale_invert[35]", "Phase-Inversion", 1 ],
+			"obj-616::obj-4::obj-23" : [ "live.menu[108]", "live.menu", 0 ],
 			"obj-616::obj-5::obj-133" : [ "scale_invert[32]", "Phase-Inversion", 1 ],
+			"obj-616::obj-5::obj-23" : [ "live.menu[107]", "live.menu", 0 ],
 			"obj-616::obj-602::obj-133" : [ "scale_invert[16]", "Phase-Inversion", 1 ],
+			"obj-616::obj-602::obj-23" : [ "live.menu[112]", "live.menu", 0 ],
 			"obj-616::obj-6::obj-133" : [ "scale_invert[36]", "Phase-Inversion", 1 ],
+			"obj-616::obj-6::obj-23" : [ "live.menu[106]", "live.menu", 0 ],
 			"obj-616::obj-7::obj-133" : [ "scale_invert[59]", "Phase-Inversion", 1 ],
+			"obj-616::obj-7::obj-23" : [ "live.menu[105]", "live.menu", 0 ],
 			"obj-656::obj-133" : [ "scale_invert[97]", "Phase-Inversion", 1 ],
+			"obj-656::obj-23" : [ "live.menu[65]", "live.menu", 0 ],
 			"obj-720::obj-2::obj-133" : [ "scale_invert[99]", "Phase-Inversion", 1 ],
+			"obj-720::obj-2::obj-23" : [ "live.menu[63]", "live.menu", 0 ],
 			"obj-720::obj-33::obj-133" : [ "scale_invert[108]", "Phase-Inversion", 1 ],
+			"obj-720::obj-33::obj-23" : [ "live.menu[54]", "live.menu", 0 ],
 			"obj-720::obj-34::obj-133" : [ "scale_invert[107]", "Phase-Inversion", 1 ],
+			"obj-720::obj-34::obj-23" : [ "live.menu[55]", "live.menu", 0 ],
 			"obj-720::obj-3::obj-133" : [ "scale_invert[100]", "Phase-Inversion", 1 ],
+			"obj-720::obj-3::obj-23" : [ "live.menu[62]", "live.menu", 0 ],
 			"obj-720::obj-4::obj-133" : [ "scale_invert[101]", "Phase-Inversion", 1 ],
+			"obj-720::obj-4::obj-23" : [ "live.menu[61]", "live.menu", 0 ],
 			"obj-720::obj-51::obj-133" : [ "scale_invert[103]", "Phase-Inversion", 1 ],
+			"obj-720::obj-51::obj-23" : [ "live.menu[59]", "live.menu", 0 ],
 			"obj-720::obj-53::obj-133" : [ "scale_invert[104]", "Phase-Inversion", 1 ],
+			"obj-720::obj-53::obj-23" : [ "live.menu[58]", "live.menu", 0 ],
 			"obj-720::obj-55::obj-133" : [ "scale_invert[105]", "Phase-Inversion", 1 ],
+			"obj-720::obj-55::obj-23" : [ "live.menu[57]", "live.menu", 0 ],
 			"obj-720::obj-57::obj-133" : [ "scale_invert[106]", "Phase-Inversion", 1 ],
+			"obj-720::obj-57::obj-23" : [ "live.menu[56]", "live.menu", 0 ],
 			"obj-720::obj-5::obj-133" : [ "scale_invert[102]", "Phase-Inversion", 1 ],
+			"obj-720::obj-5::obj-23" : [ "live.menu[60]", "live.menu", 0 ],
 			"obj-748::obj-133" : [ "scale_invert[98]", "Phase-Inversion", 1 ],
+			"obj-748::obj-23" : [ "live.menu[64]", "live.menu", 0 ],
 			"obj-766::obj-2::obj-133" : [ "scale_invert[109]", "Phase-Inversion", 1 ],
+			"obj-766::obj-2::obj-23" : [ "live.menu[53]", "live.menu", 0 ],
 			"obj-766::obj-3::obj-133" : [ "scale_invert[110]", "Phase-Inversion", 1 ],
+			"obj-766::obj-3::obj-23" : [ "live.menu[52]", "live.menu", 0 ],
 			"obj-766::obj-4::obj-133" : [ "scale_invert[111]", "Phase-Inversion", 1 ],
+			"obj-766::obj-4::obj-23" : [ "live.menu[51]", "live.menu", 0 ],
 			"obj-766::obj-51::obj-133" : [ "scale_invert[113]", "Phase-Inversion", 1 ],
+			"obj-766::obj-51::obj-23" : [ "live.menu[49]", "live.menu", 0 ],
 			"obj-766::obj-53::obj-133" : [ "scale_invert[114]", "Phase-Inversion", 1 ],
+			"obj-766::obj-53::obj-23" : [ "live.menu[48]", "live.menu", 0 ],
 			"obj-766::obj-55::obj-133" : [ "scale_invert[115]", "Phase-Inversion", 1 ],
+			"obj-766::obj-55::obj-23" : [ "live.menu[47]", "live.menu", 0 ],
 			"obj-766::obj-57::obj-133" : [ "scale_invert[116]", "Phase-Inversion", 1 ],
+			"obj-766::obj-57::obj-23" : [ "live.menu[46]", "live.menu", 0 ],
 			"obj-766::obj-5::obj-133" : [ "scale_invert[112]", "Phase-Inversion", 1 ],
+			"obj-766::obj-5::obj-23" : [ "live.menu[50]", "live.menu", 0 ],
 			"obj-782::obj-2::obj-133" : [ "scale_invert[117]", "Phase-Inversion", 1 ],
+			"obj-782::obj-2::obj-23" : [ "live.menu[45]", "live.menu", 0 ],
 			"obj-782::obj-33::obj-133" : [ "scale_invert[124]", "Phase-Inversion", 1 ],
+			"obj-782::obj-33::obj-23" : [ "live.menu[38]", "live.menu", 0 ],
 			"obj-782::obj-34::obj-133" : [ "scale_invert[123]", "Phase-Inversion", 1 ],
+			"obj-782::obj-34::obj-23" : [ "live.menu[39]", "live.menu", 0 ],
 			"obj-782::obj-38::obj-133" : [ "scale_invert[126]", "Phase-Inversion", 1 ],
+			"obj-782::obj-38::obj-23" : [ "live.menu[36]", "live.menu", 0 ],
 			"obj-782::obj-39::obj-133" : [ "scale_invert[125]", "Phase-Inversion", 1 ],
+			"obj-782::obj-39::obj-23" : [ "live.menu[37]", "live.menu", 0 ],
 			"obj-782::obj-3::obj-133" : [ "scale_invert[118]", "Phase-Inversion", 1 ],
+			"obj-782::obj-3::obj-23" : [ "live.menu[44]", "live.menu", 0 ],
 			"obj-782::obj-4::obj-133" : [ "scale_invert[119]", "Phase-Inversion", 1 ],
+			"obj-782::obj-4::obj-23" : [ "live.menu[43]", "live.menu", 0 ],
 			"obj-782::obj-51::obj-133" : [ "scale_invert[121]", "Phase-Inversion", 1 ],
+			"obj-782::obj-51::obj-23" : [ "live.menu[41]", "live.menu", 0 ],
 			"obj-782::obj-53::obj-133" : [ "scale_invert[122]", "Phase-Inversion", 1 ],
+			"obj-782::obj-53::obj-23" : [ "live.menu[40]", "live.menu", 0 ],
 			"obj-782::obj-5::obj-133" : [ "scale_invert[120]", "Phase-Inversion", 1 ],
+			"obj-782::obj-5::obj-23" : [ "live.menu[42]", "live.menu", 0 ],
 			"obj-898::obj-1::obj-133" : [ "scale_invert[128]", "Phase-Inversion", 1 ],
+			"obj-898::obj-1::obj-23" : [ "live.menu[34]", "live.menu", 0 ],
 			"obj-898::obj-2::obj-133" : [ "scale_invert[129]", "Phase-Inversion", 1 ],
+			"obj-898::obj-2::obj-23" : [ "live.menu[33]", "live.menu", 0 ],
 			"obj-898::obj-3::obj-133" : [ "scale_invert[130]", "Phase-Inversion", 1 ],
+			"obj-898::obj-3::obj-23" : [ "live.menu[32]", "live.menu", 0 ],
 			"obj-898::obj-4::obj-133" : [ "scale_invert[131]", "Phase-Inversion", 1 ],
+			"obj-898::obj-4::obj-23" : [ "live.menu[31]", "live.menu", 0 ],
 			"obj-898::obj-58::obj-133" : [ "scale_invert[136]", "Phase-Inversion", 1 ],
+			"obj-898::obj-58::obj-23" : [ "live.menu[26]", "live.menu", 0 ],
 			"obj-898::obj-59::obj-133" : [ "scale_invert[135]", "Phase-Inversion", 1 ],
+			"obj-898::obj-59::obj-23" : [ "live.menu[27]", "live.menu", 0 ],
 			"obj-898::obj-5::obj-133" : [ "scale_invert[132]", "Phase-Inversion", 1 ],
+			"obj-898::obj-5::obj-23" : [ "live.menu[30]", "live.menu", 0 ],
 			"obj-898::obj-602::obj-133" : [ "scale_invert[127]", "Phase-Inversion", 1 ],
+			"obj-898::obj-602::obj-23" : [ "live.menu[35]", "live.menu", 0 ],
 			"obj-898::obj-6::obj-133" : [ "scale_invert[133]", "Phase-Inversion", 1 ],
+			"obj-898::obj-6::obj-23" : [ "live.menu[29]", "live.menu", 0 ],
 			"obj-898::obj-7::obj-133" : [ "scale_invert[134]", "Phase-Inversion", 1 ],
+			"obj-898::obj-7::obj-23" : [ "live.menu[28]", "live.menu", 0 ],
 			"obj-89::obj-133" : [ "scale_invert[45]", "Phase-Inversion", 1 ],
+			"obj-89::obj-23" : [ "live.menu[140]", "live.menu", 0 ],
 			"obj-96::obj-133" : [ "scale_invert[46]", "Phase-Inversion", 1 ],
+			"obj-96::obj-23" : [ "live.menu[141]", "live.menu", 0 ],
 			"obj-972::obj-19::obj-133" : [ "scale_invert[147]", "Phase-Inversion", 1 ],
+			"obj-972::obj-19::obj-23" : [ "live.menu[15]", "live.menu", 0 ],
 			"obj-972::obj-1::obj-133" : [ "scale_invert[138]", "Phase-Inversion", 1 ],
+			"obj-972::obj-1::obj-23" : [ "live.menu[24]", "live.menu", 0 ],
 			"obj-972::obj-2::obj-133" : [ "scale_invert[139]", "Phase-Inversion", 1 ],
+			"obj-972::obj-2::obj-23" : [ "live.menu[23]", "live.menu", 0 ],
 			"obj-972::obj-3::obj-133" : [ "scale_invert[140]", "Phase-Inversion", 1 ],
+			"obj-972::obj-3::obj-23" : [ "live.menu[22]", "live.menu", 0 ],
 			"obj-972::obj-4::obj-133" : [ "scale_invert[141]", "Phase-Inversion", 1 ],
+			"obj-972::obj-4::obj-23" : [ "live.menu[21]", "live.menu", 0 ],
 			"obj-972::obj-58::obj-133" : [ "scale_invert[146]", "Phase-Inversion", 1 ],
+			"obj-972::obj-58::obj-23" : [ "live.menu[16]", "live.menu", 0 ],
 			"obj-972::obj-59::obj-133" : [ "scale_invert[145]", "Phase-Inversion", 1 ],
+			"obj-972::obj-59::obj-23" : [ "live.menu[17]", "live.menu", 0 ],
 			"obj-972::obj-5::obj-133" : [ "scale_invert[142]", "Phase-Inversion", 1 ],
+			"obj-972::obj-5::obj-23" : [ "live.menu[20]", "live.menu", 0 ],
 			"obj-972::obj-602::obj-133" : [ "scale_invert[137]", "Phase-Inversion", 1 ],
+			"obj-972::obj-602::obj-23" : [ "live.menu[25]", "live.menu", 0 ],
 			"obj-972::obj-6::obj-133" : [ "scale_invert[143]", "Phase-Inversion", 1 ],
+			"obj-972::obj-6::obj-23" : [ "live.menu[19]", "live.menu", 0 ],
 			"obj-972::obj-7::obj-133" : [ "scale_invert[144]", "Phase-Inversion", 1 ],
+			"obj-972::obj-7::obj-23" : [ "live.menu[18]", "live.menu", 0 ],
 			"obj-98::obj-133" : [ "scale_invert[48]", "Phase-Inversion", 1 ],
+			"obj-98::obj-23" : [ "live.menu[142]", "live.menu", 0 ],
 			"parameterbanks" : 			{
 
 			}
@@ -20504,612 +20799,1224 @@
 					"parameter_longname" : "scale_invert[25]"
 				}
 ,
+				"obj-111::obj-23" : 				{
+					"parameter_longname" : "live.menu[131]"
+				}
+,
 				"obj-117::obj-133" : 				{
 					"parameter_longname" : "scale_invert[14]"
+				}
+,
+				"obj-117::obj-23" : 				{
+					"parameter_longname" : "live.menu[132]"
 				}
 ,
 				"obj-121::obj-133" : 				{
 					"parameter_longname" : "scale_invert[53]"
 				}
 ,
+				"obj-121::obj-23" : 				{
+					"parameter_longname" : "live.menu[147]"
+				}
+,
 				"obj-122::obj-133" : 				{
 					"parameter_longname" : "scale_invert[47]"
+				}
+,
+				"obj-122::obj-23" : 				{
+					"parameter_longname" : "live.menu[152]"
 				}
 ,
 				"obj-197::obj-133" : 				{
 					"parameter_longname" : "scale_invert[26]"
 				}
 ,
+				"obj-197::obj-23" : 				{
+					"parameter_longname" : "live.menu[133]"
+				}
+,
 				"obj-198::obj-133" : 				{
 					"parameter_longname" : "scale_invert[71]"
+				}
+,
+				"obj-198::obj-23" : 				{
+					"parameter_longname" : "live.menu[113]"
 				}
 ,
 				"obj-224::obj-133" : 				{
 					"parameter_longname" : "scale_invert[69]"
 				}
 ,
+				"obj-224::obj-23" : 				{
+					"parameter_longname" : "live.menu[115]"
+				}
+,
 				"obj-227::obj-133" : 				{
 					"parameter_longname" : "scale_invert[70]"
+				}
+,
+				"obj-227::obj-23" : 				{
+					"parameter_longname" : "live.menu[114]"
 				}
 ,
 				"obj-228::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[57]"
 				}
 ,
+				"obj-228::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[104]"
+				}
+,
 				"obj-228::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[58]"
+				}
+,
+				"obj-228::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[103]"
 				}
 ,
 				"obj-228::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[60]"
 				}
 ,
+				"obj-228::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[102]"
+				}
+,
 				"obj-228::obj-51::obj-133" : 				{
 					"parameter_longname" : "scale_invert[93]"
+				}
+,
+				"obj-228::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[100]"
 				}
 ,
 				"obj-228::obj-53::obj-133" : 				{
 					"parameter_longname" : "scale_invert[38]"
 				}
 ,
+				"obj-228::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[99]"
+				}
+,
 				"obj-228::obj-55::obj-133" : 				{
 					"parameter_longname" : "scale_invert[43]"
+				}
+,
+				"obj-228::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[98]"
 				}
 ,
 				"obj-228::obj-57::obj-133" : 				{
 					"parameter_longname" : "scale_invert[94]"
 				}
 ,
+				"obj-228::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[97]"
+				}
+,
 				"obj-228::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[72]"
+				}
+,
+				"obj-228::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[101]"
 				}
 ,
 				"obj-230::obj-133" : 				{
 					"parameter_longname" : "scale_invert[9]"
 				}
 ,
+				"obj-230::obj-23" : 				{
+					"parameter_longname" : "live.menu[137]"
+				}
+,
 				"obj-232::obj-133" : 				{
 					"parameter_longname" : "scale_invert[7]"
+				}
+,
+				"obj-232::obj-23" : 				{
+					"parameter_longname" : "live.menu[138]"
 				}
 ,
 				"obj-233::obj-133" : 				{
 					"parameter_longname" : "scale_invert[8]"
 				}
 ,
+				"obj-233::obj-23" : 				{
+					"parameter_longname" : "live.menu[139]"
+				}
+,
 				"obj-23::obj-133" : 				{
 					"parameter_longname" : "scale_invert[12]"
+				}
+,
+				"obj-23::obj-23" : 				{
+					"parameter_longname" : "live.menu[136]"
 				}
 ,
 				"obj-25::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[15]"
 				}
 ,
+				"obj-25::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[95]"
+				}
+,
 				"obj-25::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[73]"
+				}
+,
+				"obj-25::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[94]"
 				}
 ,
 				"obj-25::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[74]"
 				}
 ,
+				"obj-25::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[93]"
+				}
+,
 				"obj-25::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[19]"
+				}
+,
+				"obj-25::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[92]"
 				}
 ,
 				"obj-25::obj-54::obj-133" : 				{
 					"parameter_longname" : "scale_invert[77]"
 				}
 ,
+				"obj-25::obj-54::obj-23" : 				{
+					"parameter_longname" : "live.menu[83]"
+				}
+,
 				"obj-25::obj-55::obj-133" : 				{
 					"parameter_longname" : "scale_invert[76]"
+				}
+,
+				"obj-25::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[84]"
 				}
 ,
 				"obj-25::obj-56::obj-133" : 				{
 					"parameter_longname" : "scale_invert[22]"
 				}
 ,
+				"obj-25::obj-56::obj-23" : 				{
+					"parameter_longname" : "live.menu[85]"
+				}
+,
 				"obj-25::obj-57::obj-133" : 				{
 					"parameter_longname" : "scale_invert[21]"
+				}
+,
+				"obj-25::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[86]"
 				}
 ,
 				"obj-25::obj-58::obj-133" : 				{
 					"parameter_longname" : "scale_invert[75]"
 				}
 ,
+				"obj-25::obj-58::obj-23" : 				{
+					"parameter_longname" : "live.menu[87]"
+				}
+,
 				"obj-25::obj-59::obj-133" : 				{
 					"parameter_longname" : "scale_invert[63]"
+				}
+,
+				"obj-25::obj-59::obj-23" : 				{
+					"parameter_longname" : "live.menu[88]"
 				}
 ,
 				"obj-25::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[20]"
 				}
 ,
+				"obj-25::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[91]"
+				}
+,
 				"obj-25::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[13]"
+				}
+,
+				"obj-25::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[96]"
 				}
 ,
 				"obj-25::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[61]"
 				}
 ,
+				"obj-25::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[90]"
+				}
+,
 				"obj-25::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[62]"
+				}
+,
+				"obj-25::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[89]"
 				}
 ,
 				"obj-272::obj-133" : 				{
 					"parameter_longname" : "scale_invert[44]"
 				}
 ,
+				"obj-272::obj-23" : 				{
+					"parameter_longname" : "live.menu[151]"
+				}
+,
 				"obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[10]"
+				}
+,
+				"obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[134]"
 				}
 ,
 				"obj-31::obj-133" : 				{
 					"parameter_longname" : "scale_invert[92]"
 				}
 ,
+				"obj-31::obj-23" : 				{
+					"parameter_longname" : "live.menu[66]"
+				}
+,
 				"obj-336::obj-133" : 				{
 					"parameter_longname" : "scale_invert[27]"
+				}
+,
+				"obj-336::obj-23" : 				{
+					"parameter_longname" : "live.menu[128]"
 				}
 ,
 				"obj-338::obj-133" : 				{
 					"parameter_longname" : "scale_invert[28]"
 				}
 ,
+				"obj-338::obj-23" : 				{
+					"parameter_longname" : "live.menu[129]"
+				}
+,
 				"obj-339::obj-133" : 				{
 					"parameter_longname" : "scale_invert[54]"
+				}
+,
+				"obj-339::obj-23" : 				{
+					"parameter_longname" : "live.menu[148]"
 				}
 ,
 				"obj-340::obj-133" : 				{
 					"parameter_longname" : "scale_invert[29]"
 				}
 ,
+				"obj-340::obj-23" : 				{
+					"parameter_longname" : "live.menu[130]"
+				}
+,
 				"obj-343::obj-133" : 				{
 					"parameter_longname" : "scale_invert[55]"
+				}
+,
+				"obj-343::obj-23" : 				{
+					"parameter_longname" : "live.menu[149]"
 				}
 ,
 				"obj-345::obj-133" : 				{
 					"parameter_longname" : "scale_invert[56]"
 				}
 ,
+				"obj-345::obj-23" : 				{
+					"parameter_longname" : "live.menu[150]"
+				}
+,
 				"obj-358::obj-133" : 				{
 					"parameter_longname" : "scale_invert[30]"
+				}
+,
+				"obj-358::obj-23" : 				{
+					"parameter_longname" : "live.menu[127]"
 				}
 ,
 				"obj-362::obj-133" : 				{
 					"parameter_longname" : "scale_invert[17]"
 				}
 ,
+				"obj-362::obj-23" : 				{
+					"parameter_longname" : "live.menu[126]"
+				}
+,
 				"obj-366::obj-133" : 				{
 					"parameter_longname" : "scale_invert[31]"
+				}
+,
+				"obj-366::obj-23" : 				{
+					"parameter_longname" : "live.menu[125]"
 				}
 ,
 				"obj-371::obj-133" : 				{
 					"parameter_longname" : "scale_invert[52]"
 				}
 ,
+				"obj-371::obj-23" : 				{
+					"parameter_longname" : "live.menu[146]"
+				}
+,
 				"obj-411::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[79]"
+				}
+,
+				"obj-411::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[81]"
 				}
 ,
 				"obj-411::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[80]"
 				}
 ,
+				"obj-411::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[80]"
+				}
+,
 				"obj-411::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[81]"
+				}
+,
+				"obj-411::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[79]"
 				}
 ,
 				"obj-411::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[82]"
 				}
 ,
+				"obj-411::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[78]"
+				}
+,
 				"obj-411::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[83]"
+				}
+,
+				"obj-411::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[77]"
 				}
 ,
 				"obj-411::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[78]"
 				}
 ,
+				"obj-411::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[82]"
+				}
+,
 				"obj-411::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[84]"
+				}
+,
+				"obj-411::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[76]"
 				}
 ,
 				"obj-411::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[85]"
 				}
 ,
+				"obj-411::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[75]"
+				}
+,
 				"obj-430::obj-133" : 				{
 					"parameter_longname" : "scale_invert[41]"
+				}
+,
+				"obj-430::obj-23" : 				{
+					"parameter_longname" : "live.menu[116]"
 				}
 ,
 				"obj-431::obj-133" : 				{
 					"parameter_longname" : "scale_invert[37]"
 				}
 ,
+				"obj-431::obj-23" : 				{
+					"parameter_longname" : "live.menu[117]"
+				}
+,
 				"obj-432::obj-133" : 				{
 					"parameter_longname" : "scale_invert[39]"
+				}
+,
+				"obj-432::obj-23" : 				{
+					"parameter_longname" : "live.menu[118]"
 				}
 ,
 				"obj-450::obj-133" : 				{
 					"parameter_longname" : "scale_invert[42]"
 				}
 ,
+				"obj-450::obj-23" : 				{
+					"parameter_longname" : "live.menu[119]"
+				}
+,
 				"obj-453::obj-133" : 				{
 					"parameter_longname" : "scale_invert[64]"
+				}
+,
+				"obj-453::obj-23" : 				{
+					"parameter_longname" : "live.menu[120]"
 				}
 ,
 				"obj-454::obj-133" : 				{
 					"parameter_longname" : "scale_invert[65]"
 				}
 ,
+				"obj-454::obj-23" : 				{
+					"parameter_longname" : "live.menu[121]"
+				}
+,
 				"obj-467::obj-133" : 				{
 					"parameter_longname" : "scale_invert[66]"
+				}
+,
+				"obj-467::obj-23" : 				{
+					"parameter_longname" : "live.menu[122]"
 				}
 ,
 				"obj-468::obj-133" : 				{
 					"parameter_longname" : "scale_invert[67]"
 				}
 ,
+				"obj-468::obj-23" : 				{
+					"parameter_longname" : "live.menu[123]"
+				}
+,
 				"obj-469::obj-133" : 				{
 					"parameter_longname" : "scale_invert[68]"
+				}
+,
+				"obj-469::obj-23" : 				{
+					"parameter_longname" : "live.menu[124]"
 				}
 ,
 				"obj-47::obj-133" : 				{
 					"parameter_longname" : "scale_invert[49]"
 				}
 ,
+				"obj-47::obj-23" : 				{
+					"parameter_longname" : "live.menu[143]"
+				}
+,
 				"obj-48::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[149]"
+				}
+,
+				"obj-48::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[13]"
 				}
 ,
 				"obj-48::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[150]"
 				}
 ,
+				"obj-48::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[12]"
+				}
+,
 				"obj-48::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[151]"
+				}
+,
+				"obj-48::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[11]"
 				}
 ,
 				"obj-48::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[152]"
 				}
 ,
+				"obj-48::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[10]"
+				}
+,
 				"obj-48::obj-54::obj-133" : 				{
 					"parameter_longname" : "scale_invert[161]"
+				}
+,
+				"obj-48::obj-54::obj-23" : 				{
+					"parameter_longname" : "live.menu[1]"
 				}
 ,
 				"obj-48::obj-55::obj-133" : 				{
 					"parameter_longname" : "scale_invert[160]"
 				}
 ,
+				"obj-48::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[2]"
+				}
+,
 				"obj-48::obj-56::obj-133" : 				{
 					"parameter_longname" : "scale_invert[159]"
+				}
+,
+				"obj-48::obj-56::obj-23" : 				{
+					"parameter_longname" : "live.menu[3]"
 				}
 ,
 				"obj-48::obj-57::obj-133" : 				{
 					"parameter_longname" : "scale_invert[158]"
 				}
 ,
+				"obj-48::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[4]"
+				}
+,
 				"obj-48::obj-58::obj-133" : 				{
 					"parameter_longname" : "scale_invert[157]"
+				}
+,
+				"obj-48::obj-58::obj-23" : 				{
+					"parameter_longname" : "live.menu[5]"
 				}
 ,
 				"obj-48::obj-59::obj-133" : 				{
 					"parameter_longname" : "scale_invert[156]"
 				}
 ,
+				"obj-48::obj-59::obj-23" : 				{
+					"parameter_longname" : "live.menu[6]"
+				}
+,
 				"obj-48::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[153]"
+				}
+,
+				"obj-48::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[9]"
 				}
 ,
 				"obj-48::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[148]"
 				}
 ,
+				"obj-48::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[14]"
+				}
+,
 				"obj-48::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[154]"
+				}
+,
+				"obj-48::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[8]"
 				}
 ,
 				"obj-48::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[155]"
 				}
 ,
+				"obj-48::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[7]"
+				}
+,
 				"obj-48::obj-82::obj-133" : 				{
 					"parameter_longname" : "scale_invert[162]"
+				}
+,
+				"obj-48::obj-82::obj-23" : 				{
+					"parameter_longname" : "live.menu"
 				}
 ,
 				"obj-49::obj-133" : 				{
 					"parameter_longname" : "scale_invert[50]"
 				}
 ,
+				"obj-49::obj-23" : 				{
+					"parameter_longname" : "live.menu[144]"
+				}
+,
 				"obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[11]"
+				}
+,
+				"obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[135]"
 				}
 ,
 				"obj-50::obj-133" : 				{
 					"parameter_longname" : "scale_invert[51]"
 				}
 ,
+				"obj-50::obj-23" : 				{
+					"parameter_longname" : "live.menu[145]"
+				}
+,
 				"obj-512::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[86]"
+				}
+,
+				"obj-512::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[74]"
 				}
 ,
 				"obj-512::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[87]"
 				}
 ,
+				"obj-512::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[73]"
+				}
+,
 				"obj-512::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[88]"
+				}
+,
+				"obj-512::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[72]"
 				}
 ,
 				"obj-512::obj-51::obj-133" : 				{
 					"parameter_longname" : "scale_invert[96]"
 				}
 ,
+				"obj-512::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[67]"
+				}
+,
 				"obj-512::obj-52::obj-133" : 				{
 					"parameter_longname" : "scale_invert[95]"
+				}
+,
+				"obj-512::obj-52::obj-23" : 				{
+					"parameter_longname" : "live.menu[68]"
 				}
 ,
 				"obj-512::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[89]"
 				}
 ,
+				"obj-512::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[71]"
+				}
+,
 				"obj-512::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[90]"
+				}
+,
+				"obj-512::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[70]"
 				}
 ,
 				"obj-512::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[91]"
 				}
 ,
+				"obj-512::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[69]"
+				}
+,
 				"obj-616::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[18]"
+				}
+,
+				"obj-616::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[111]"
 				}
 ,
 				"obj-616::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[33]"
 				}
 ,
+				"obj-616::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[110]"
+				}
+,
 				"obj-616::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[34]"
+				}
+,
+				"obj-616::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[109]"
 				}
 ,
 				"obj-616::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[35]"
 				}
 ,
+				"obj-616::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[108]"
+				}
+,
 				"obj-616::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[32]"
+				}
+,
+				"obj-616::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[107]"
 				}
 ,
 				"obj-616::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[16]"
 				}
 ,
+				"obj-616::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[112]"
+				}
+,
 				"obj-616::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[36]"
+				}
+,
+				"obj-616::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[106]"
 				}
 ,
 				"obj-616::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[59]"
 				}
 ,
+				"obj-616::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[105]"
+				}
+,
 				"obj-656::obj-133" : 				{
 					"parameter_longname" : "scale_invert[97]"
+				}
+,
+				"obj-656::obj-23" : 				{
+					"parameter_longname" : "live.menu[65]"
 				}
 ,
 				"obj-720::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[99]"
 				}
 ,
+				"obj-720::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[63]"
+				}
+,
 				"obj-720::obj-33::obj-133" : 				{
 					"parameter_longname" : "scale_invert[108]"
+				}
+,
+				"obj-720::obj-33::obj-23" : 				{
+					"parameter_longname" : "live.menu[54]"
 				}
 ,
 				"obj-720::obj-34::obj-133" : 				{
 					"parameter_longname" : "scale_invert[107]"
 				}
 ,
+				"obj-720::obj-34::obj-23" : 				{
+					"parameter_longname" : "live.menu[55]"
+				}
+,
 				"obj-720::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[100]"
+				}
+,
+				"obj-720::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[62]"
 				}
 ,
 				"obj-720::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[101]"
 				}
 ,
+				"obj-720::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[61]"
+				}
+,
 				"obj-720::obj-51::obj-133" : 				{
 					"parameter_longname" : "scale_invert[103]"
+				}
+,
+				"obj-720::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[59]"
 				}
 ,
 				"obj-720::obj-53::obj-133" : 				{
 					"parameter_longname" : "scale_invert[104]"
 				}
 ,
+				"obj-720::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[58]"
+				}
+,
 				"obj-720::obj-55::obj-133" : 				{
 					"parameter_longname" : "scale_invert[105]"
+				}
+,
+				"obj-720::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[57]"
 				}
 ,
 				"obj-720::obj-57::obj-133" : 				{
 					"parameter_longname" : "scale_invert[106]"
 				}
 ,
+				"obj-720::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[56]"
+				}
+,
 				"obj-720::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[102]"
+				}
+,
+				"obj-720::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[60]"
 				}
 ,
 				"obj-748::obj-133" : 				{
 					"parameter_longname" : "scale_invert[98]"
 				}
 ,
+				"obj-748::obj-23" : 				{
+					"parameter_longname" : "live.menu[64]"
+				}
+,
 				"obj-766::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[109]"
+				}
+,
+				"obj-766::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[53]"
 				}
 ,
 				"obj-766::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[110]"
 				}
 ,
+				"obj-766::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[52]"
+				}
+,
 				"obj-766::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[111]"
+				}
+,
+				"obj-766::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[51]"
 				}
 ,
 				"obj-766::obj-51::obj-133" : 				{
 					"parameter_longname" : "scale_invert[113]"
 				}
 ,
+				"obj-766::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[49]"
+				}
+,
 				"obj-766::obj-53::obj-133" : 				{
 					"parameter_longname" : "scale_invert[114]"
+				}
+,
+				"obj-766::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[48]"
 				}
 ,
 				"obj-766::obj-55::obj-133" : 				{
 					"parameter_longname" : "scale_invert[115]"
 				}
 ,
+				"obj-766::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[47]"
+				}
+,
 				"obj-766::obj-57::obj-133" : 				{
 					"parameter_longname" : "scale_invert[116]"
+				}
+,
+				"obj-766::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[46]"
 				}
 ,
 				"obj-766::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[112]"
 				}
 ,
+				"obj-766::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[50]"
+				}
+,
 				"obj-782::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[117]"
+				}
+,
+				"obj-782::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[45]"
 				}
 ,
 				"obj-782::obj-33::obj-133" : 				{
 					"parameter_longname" : "scale_invert[124]"
 				}
 ,
+				"obj-782::obj-33::obj-23" : 				{
+					"parameter_longname" : "live.menu[38]"
+				}
+,
 				"obj-782::obj-34::obj-133" : 				{
 					"parameter_longname" : "scale_invert[123]"
+				}
+,
+				"obj-782::obj-34::obj-23" : 				{
+					"parameter_longname" : "live.menu[39]"
 				}
 ,
 				"obj-782::obj-38::obj-133" : 				{
 					"parameter_longname" : "scale_invert[126]"
 				}
 ,
+				"obj-782::obj-38::obj-23" : 				{
+					"parameter_longname" : "live.menu[36]"
+				}
+,
 				"obj-782::obj-39::obj-133" : 				{
 					"parameter_longname" : "scale_invert[125]"
+				}
+,
+				"obj-782::obj-39::obj-23" : 				{
+					"parameter_longname" : "live.menu[37]"
 				}
 ,
 				"obj-782::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[118]"
 				}
 ,
+				"obj-782::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[44]"
+				}
+,
 				"obj-782::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[119]"
+				}
+,
+				"obj-782::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[43]"
 				}
 ,
 				"obj-782::obj-51::obj-133" : 				{
 					"parameter_longname" : "scale_invert[121]"
 				}
 ,
+				"obj-782::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[41]"
+				}
+,
 				"obj-782::obj-53::obj-133" : 				{
 					"parameter_longname" : "scale_invert[122]"
+				}
+,
+				"obj-782::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[40]"
 				}
 ,
 				"obj-782::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[120]"
 				}
 ,
+				"obj-782::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[42]"
+				}
+,
 				"obj-898::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[128]"
+				}
+,
+				"obj-898::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[34]"
 				}
 ,
 				"obj-898::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[129]"
 				}
 ,
+				"obj-898::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[33]"
+				}
+,
 				"obj-898::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[130]"
+				}
+,
+				"obj-898::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[32]"
 				}
 ,
 				"obj-898::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[131]"
 				}
 ,
+				"obj-898::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[31]"
+				}
+,
 				"obj-898::obj-58::obj-133" : 				{
 					"parameter_longname" : "scale_invert[136]"
+				}
+,
+				"obj-898::obj-58::obj-23" : 				{
+					"parameter_longname" : "live.menu[26]"
 				}
 ,
 				"obj-898::obj-59::obj-133" : 				{
 					"parameter_longname" : "scale_invert[135]"
 				}
 ,
+				"obj-898::obj-59::obj-23" : 				{
+					"parameter_longname" : "live.menu[27]"
+				}
+,
 				"obj-898::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[132]"
+				}
+,
+				"obj-898::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[30]"
 				}
 ,
 				"obj-898::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[127]"
 				}
 ,
+				"obj-898::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[35]"
+				}
+,
 				"obj-898::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[133]"
+				}
+,
+				"obj-898::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[29]"
 				}
 ,
 				"obj-898::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[134]"
 				}
 ,
+				"obj-898::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[28]"
+				}
+,
 				"obj-89::obj-133" : 				{
 					"parameter_longname" : "scale_invert[45]"
+				}
+,
+				"obj-89::obj-23" : 				{
+					"parameter_longname" : "live.menu[140]"
 				}
 ,
 				"obj-96::obj-133" : 				{
 					"parameter_longname" : "scale_invert[46]"
 				}
 ,
+				"obj-96::obj-23" : 				{
+					"parameter_longname" : "live.menu[141]"
+				}
+,
 				"obj-972::obj-19::obj-133" : 				{
 					"parameter_longname" : "scale_invert[147]"
+				}
+,
+				"obj-972::obj-19::obj-23" : 				{
+					"parameter_longname" : "live.menu[15]"
 				}
 ,
 				"obj-972::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[138]"
 				}
 ,
+				"obj-972::obj-1::obj-23" : 				{
+					"parameter_longname" : "live.menu[24]"
+				}
+,
 				"obj-972::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[139]"
+				}
+,
+				"obj-972::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[23]"
 				}
 ,
 				"obj-972::obj-3::obj-133" : 				{
 					"parameter_longname" : "scale_invert[140]"
 				}
 ,
+				"obj-972::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[22]"
+				}
+,
 				"obj-972::obj-4::obj-133" : 				{
 					"parameter_longname" : "scale_invert[141]"
+				}
+,
+				"obj-972::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[21]"
 				}
 ,
 				"obj-972::obj-58::obj-133" : 				{
 					"parameter_longname" : "scale_invert[146]"
 				}
 ,
+				"obj-972::obj-58::obj-23" : 				{
+					"parameter_longname" : "live.menu[16]"
+				}
+,
 				"obj-972::obj-59::obj-133" : 				{
 					"parameter_longname" : "scale_invert[145]"
+				}
+,
+				"obj-972::obj-59::obj-23" : 				{
+					"parameter_longname" : "live.menu[17]"
 				}
 ,
 				"obj-972::obj-5::obj-133" : 				{
 					"parameter_longname" : "scale_invert[142]"
 				}
 ,
+				"obj-972::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[20]"
+				}
+,
 				"obj-972::obj-602::obj-133" : 				{
 					"parameter_longname" : "scale_invert[137]"
+				}
+,
+				"obj-972::obj-602::obj-23" : 				{
+					"parameter_longname" : "live.menu[25]"
 				}
 ,
 				"obj-972::obj-6::obj-133" : 				{
 					"parameter_longname" : "scale_invert[143]"
 				}
 ,
+				"obj-972::obj-6::obj-23" : 				{
+					"parameter_longname" : "live.menu[19]"
+				}
+,
 				"obj-972::obj-7::obj-133" : 				{
 					"parameter_longname" : "scale_invert[144]"
 				}
 ,
+				"obj-972::obj-7::obj-23" : 				{
+					"parameter_longname" : "live.menu[18]"
+				}
+,
 				"obj-98::obj-133" : 				{
 					"parameter_longname" : "scale_invert[48]"
+				}
+,
+				"obj-98::obj-23" : 				{
+					"parameter_longname" : "live.menu[142]"
 				}
 
 			}
@@ -21253,6 +22160,10 @@
 			}
 , 			{
 				"name" : "jit.*.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jit.+.mxo",
 				"type" : "iLaX"
 			}
 , 			{
