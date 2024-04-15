@@ -52,7 +52,7 @@
 ,
 								"__presetid" : "compressor_stereo",
 								"softclip" : 								{
-									"value" : 1.0
+									"value" : 0.0
 								}
 ,
 								"comp" : 								{

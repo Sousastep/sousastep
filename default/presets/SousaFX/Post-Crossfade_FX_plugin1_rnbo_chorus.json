@@ -6,10 +6,10 @@
 				"id" : 1,
 				"data" : 				{
 					"TapMult" : [ 0 ],
-					"depth" : [ "depth", 18.0 ],
-					"rate" : [ "rate", 50.0 ],
-					"spread" : [ "spread", 59.0 ],
-					"sync" : [ 1 ]
+					"depth" : [ "depth", 33.0 ],
+					"rate" : [ "rate", 12.0 ],
+					"spread" : [ "spread", 68.0 ],
+					"sync" : [ 0 ]
 				}
 
 			}
