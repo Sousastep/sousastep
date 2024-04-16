@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main_env_params",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"Main Env Sens" : [ 179.999999999999972 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
