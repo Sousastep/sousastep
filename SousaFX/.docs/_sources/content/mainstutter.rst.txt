@@ -16,43 +16,43 @@ Inspired by `Pioneer's Stutter FX <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t
 Parameters
 ~~~~~~~~~~
 
-:stutter:
+- stutter
 
-   Toggle stutter on and off. Bound to ``Main Input Stutter Enable (trig)``
+   Toggle stutter on and off. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Enable``
 
-:button: 
+- button 
 
-   Selects a random subdivision. Bound to ``Main Input Stutter Random Rhythm (trig)``
+   Selects a random subdivision. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Random Rhythm``
 
-:vol dip:
+- vol dip
 
    Determines how much the stutter volume will decrease as the acceleration increases from neutral.
 
-:offset:
+- offset
 
    Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.
 
-:window:
+- window
 
    Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.
 
-:accel:
+- accel
 
-   Slow down and speed up the stutter FX. Bound to ``Main Input Stutter Accel (bi)``
+   Slow down and speed up the stutter FX. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Accel``
 
-:stutter volume:
+- stutter volume
 
    The volume of the stutter.
 
-:subdiv menu:
+- subdiv menu
 
    The rhythm of the subdivision. Attached to binding's subdivisions.
 
-:sync:
+- sync
 
    Same as the subdiv menu.
 
-:gated or thru:
+- gated or thru
 
    Should the input be gated by the stutter, 
    or always pass through regardless of if the stutter is occuring? 
@@ -66,13 +66,13 @@ A simple, musical, square-wave tremolo.
 Parameters
 ~~~~~~~~~~
 
-:depth mix: 
+- depth mix 
 
-   Amount of tremolo. Bound to ``Main Input Tremolo Depth (uni)``
+   Amount of tremolo. :ref:`Bound <Controller Bindings>` to ``Main Input Tremolo Depth``
 
-:duty cycle: 
+- duty cycle 
 
-   The fraction of one period in which the signal is active. Bound to ``Main Input Tremolo Duty (bi)``
+   The fraction of one period in which the signal is active. :ref:`Bound <Controller Bindings>` to ``Main Input Tremolo Duty``
 
    .. figure:: media/PWM_duty_cycle_with_label.gif
       :width: 80%
@@ -89,11 +89,11 @@ Also inspired by Pioneer, a DJ filter.
 Parameters
 ~~~~~~~~~~
 
-:filter sweep:
+- filter sweep
 
-   Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <SousaFX Max Patches>`. Bound to ``Main Input Filters (bi)``
+   Bypass at 50%. Approaching 100% is a lowpass sweep up, and approaching 0% is a highpass sweep down. The filters are an MS20-like 24 dB/oct `Sallen Key filter <https://en.wikipedia.org/wiki/Sallen%E2%80%93Key_topology>`_ by :ref:`Surreal Machines <Patches>`. :ref:`Bound <Controller Bindings>` to ``Main Input Filters``
 
-:smooth:
+- smooth
 
    Smooths the filter frequency modulation. If mapped to a joystick, lower values follow the joystick more closely, while higher values glide towards the joystick.
 

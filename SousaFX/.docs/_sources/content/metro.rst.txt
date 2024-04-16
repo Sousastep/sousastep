@@ -1,10 +1,14 @@
 Metronome
 =========
 
+Here you can set SousaFX's tempo source, enable the click, choose which beats the click plays on, and set the length of the continuous accelerando.
+
 .. image:: media/metro.png
-   :width: 80%
+   :width: 90%
    :align: center
    :alt: metro
+
+|
 
 Tempo Source
 ------------
@@ -36,12 +40,12 @@ When the Tempo Source is Ableton's Tempo, this setting selects wether Ableton's 
 
 Live Link is simple to set up, but gets offbeat if the tempo changes suddenly. It also needs to be `enabled <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ in Ableton Live every time you start Live.
 
-The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have loopback its audio from Live to Max.
+The "phasor1n" Max For Live device sends a 1-bar-long phasor audio signal out of Live and into Max. It's always in time, but you have to loopback its audio from Live to Max.
 
-"Click On" menu
----------------
+Clicks
+------
 
-Picks which beats the metronome should emit a click on.
+This menu picks which beats the metronome should emit a click on.
 
 - 1 & 3
 
@@ -50,11 +54,13 @@ Picks which beats the metronome should emit a click on.
 Continuous Accelerando
 ----------------------
 
-This is an experimental feature that affects the Metronome, Modulation, Loopers, and Drum Clips.
+This is an experimental feature that affects the Metronome, Modulation, Loopers, and Drum Clips. It is only enabled when the Tempo Source is Ableton.
 
 "Bars Per Accel Loop" sets how long it takes for a continuous accelerando to reach its original tempo.
 
 When Continuous Accelerando is toggled off, the number of seconds remaining in the accel loop is displayed, and the accel ceases once the original tempo is reached.
+
+To set up this effect, SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output must be routed to SousaFX's "drum tracks L / R" input, and SousaFX's "Drum Clips Risset L / R" output must be routed to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio From" input.
 
 .. note::
    

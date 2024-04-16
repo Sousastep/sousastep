@@ -3,15 +3,9 @@ SousaVFX
 
 SousaFX integrates with SousaVFX via five 
 audio-rate control signals to provide 
-visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/en/master/content/tutorials/LED-sousa-bell.html>`_. 
+visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/content/tutorials/LED-sousa-bell.html>`_. 
 SousaVFX may run on the same computer 
 as SousaFX, or on a separate computer. 
-For example, I have SousaFX on my mac, 
-and send those five signals to my RME MADIface 
-via USB, then to the Eventide H9000R via MADI, 
-then from MADI to Dante thru the H9000R, 
-to Dante Via on my windows PC via ethernet, 
-to SousaVFX.
 
 .. note::
 
@@ -33,7 +27,7 @@ Startup
 1. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaVFX/​SousaVFX.maxproj``
 
 2.	If SousaVFX is running on the same computer as SousaFX, 
-	then the following :ref:`Audio IO <Audio IO>` may be set to Off.
+	then the following :ref:`Audio IO <Audio IO Status>` may be set to Off.
 		
 		- Main 1-bar Phasor
 		
@@ -49,7 +43,7 @@ Startup
 	then SousaFX's aformentioned audio outputs must be routed 
 	to SousaVFX's audio inputs of the same name.
 
-Screenshots
------------
+Pictures
+--------
    
 :ref:`More pictures of SousaVFX. <Screenshots>`

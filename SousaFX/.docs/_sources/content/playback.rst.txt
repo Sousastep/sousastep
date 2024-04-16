@@ -1,6 +1,8 @@
 SousaPlayback
 =============
 
+SousaPlayback is a template for Ableton Live that handles a talkback mic, reference tracks, backing tracks, drum loops & FX, riser clips, count-ins, recordings, and network jamming plugins. It tightly syncs to SousaFX & SousaVFX via various gamepad parameters and audio envelopes.
+
 .. _SousaPlaybackTemplate:
 
 .. image:: media/SousaPlaybacktemplate.png
@@ -8,12 +10,16 @@ SousaPlayback
    :align: center
    :alt: SousaPlaybacktemplate
 
+You may want to save a copy of SousaPlayback to ``~/Music/Ableton/Projects/``, and set it to auto-launch via :ref:`SousaFX's Startup Preferences <startupprefs>`. That way you won't have to worry about copying the project file when :ref:`updating <updating>` SousaFX.
+
 Main Track List
 ---------------
 
+.. _talkbacktrack:
+
 1. talkback mic
 
-	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_.
+	- This track has a simple channel strip for a `talkback mic <https://www.sweetwater.com/insync/talkback-mic/>`_. This channel is sidechained to several compressors on other tracks to mute audio while you're speaking. It's auto-muted when the tuba starts playing, and must be manually unmuted when the tuba stops playing. The "v" key mutes and unmutes the track.
 
 2. playback bus
 
@@ -33,37 +39,51 @@ Main Track List
 			The :ref:`Mix Bus mutes and gains <Mix Bus>`, and 
 			the :ref:`Main Preset number <Main Window>`.
 
-			This device also sends BPM data to SousaFX.
+			This device also sends :ref:`BPM data <Tempo Source>` to SousaFX.
+
+.. _autolink:
 
 		- tempo
 
-			Automate this tempo device instead of live's main tempo so that the tempo automation is more easily viewable.
+			The "tempo_auto" device allows you to automate Live's (and SousaFX's) tempo via clips. It also allows Live Link to be enabled on startup.
+
+			.. image:: media/amxd_tempo-auto.png
 
 		- click
 
 			A MIDI track with a drum rack that lets you program custom `click tracks <https://www.sweetwater.com/insync/click-track/>`_ if needed.
 
+			.. image:: media/click.png
+
+	- drum SC vox
+
+		Sidechains the talkback mic to the drum bus before sending it to Return Track A and C.
+
 	- drum bus
 
-		Group percussion and send thru EQ, filters, reverb, tremolo, delay, risset, compressor, glue comp. The Drum Bus's external audio output is intended to be routed to SousaFX to control the :ref:`ducker <Kick Ducker>`.
+		Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.
+
+		- risers
+
+			For looper-length risers to :ref:`auto-play <risers>` prior to "the drop".
 
 		- perc 1
 
-			kick and snare clips w/ Stutter
+			For kick/snare clips w/ Stutter. The "Ext. Audio Effect" Device's "Audio To" can correspond to SousaVFX's :ref:`Kick&Snare L/R audio input <Audio IO Status>` to allow the VFX to react to the kick and snare.
 
 		- perc 2
 
-			percussion clips w/ Beat Repeat, Stutter, Auto Pan
+			For percussion clips w/ Beat Repeat, Stutter, Auto Pan.
 
 		- perc 3
 
-			percussion clips w/ Beat Repeat, Stutter
+			For percussion clips w/ Beat Repeat, Stutter.
 
-		Twelve parameters pertaining to the percussion bus tracks are :ref:`bound to SousaFX <Controller Bindings>`. 
+		Twelve drum bus effect parameters are :ref:`bound to SousaFX <Controller Bindings>`. 
 
 			- mute drumloops
 
-			- toggle continuous accelerando
+			- toggle :ref:`continuous accelerando <Continuous Accelerando>`
 
 			- scene selection
 
@@ -97,11 +117,15 @@ Main Track List
 
 	This track's "Audio To: Ext. Out" should loopback to SousaFX's :ref:`"prerecorded silentbrass" inputs <Input Mapping>`, and SousaFX's Audio IO Status' input menu should be set to ``prerecorded silentbrass``.
 
-5. MAIN REC
+5. SousaFX
 
-	Records the main "front of house" output. Doesn't record SousaFX.
+	Records SousaFX.
 
-6. sync signal
+6. MON REC
+
+	Records SousaFX and Return Track A.
+
+7. sync signal
 
 	Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 :ref:`in lieu of Live Link <Audio Input or Live Link>`.
 
@@ -118,15 +142,19 @@ A. Monitor
 
 	The "playback bus" monitor send volume is also saved in SousaFX's :ref:`Monitor Mix <Monitor Mix>`.
 
+.. _NETWORK:
+
 B. Network
 
-	Place :ref:`network jamming plugins <Recommended Free Plugins>` here.
+	Place :ref:`network jamming plugins <freeplugins>` here.
 
 C. Main Out
 
 	This track's "Audio To: Ext. Out" should be routed to your audio interface's main output.
 
 	The "front of house" mix, adjusted via the C sends from talkback mic, playback bus, MAIN REC, and NETWORK tracks.
+
+.. _sousaPlaybackMIDI:
 
 .. note::
 

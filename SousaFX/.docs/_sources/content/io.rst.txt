@@ -1,113 +1,158 @@
 Audio IO Status
 ===============
 
-To start, only three channels need to be set up: The Live Mic input, and the Monitor L & R outputs.
-
-Assign the Live Mic input to the audio interface input that your tuba's mic is connected to.
-
-Assign the Monitor L & R outputs to your audio interface's headphone outputs.
-
 .. image:: media/io.png
    :width: 100%
    :align: center
    :alt: io.png
 
+|
+
+The menu to the right of "Input Mapping" sets the main input to SousaFX. Its options are as follows:
+
+- Silentbrass Live 
+  
+    from "live silentbrass L / R", which connects to the interface's line inputs.
+
+- Silentbrass Prerecorded 
+  
+    from "prerecorded silentbrass L / R", which connects to SousaPlayback's "silentbrass" track.
+
+- Mic Live 
+  
+    from "live mic", which connects to the interface's tuba mic input.
+
+- Mic Prerecorded 
+  
+    from "prerecorded mic", which connects to SousaPlayback's "sousa mic" track.
+
+- Mic Live Pitch Correct 
+  
+    from "pitch correct", which I use with a custom algorithm on the Eventide H9000.
+
+
+
 Input Mapping
 -------------
 
-The input menu sets the main input to SousaFX. "live mic" and "live silentbrass" come from the audio interface's physical inputs, and "prerecorded mic", "prerecorded silentbrass" come from ableton.
+- live mic 
+  
+    Connects to the audio interface's tuba mic input.
 
-- live mic: tuba mic input
+- prerecorded mic 
+  
+    Connects to SousaPlayback's "sousa mic" track.
 
-- prerecorded mic: prerecorded tuba mic from ableton
+- live silentbrass L / R 
+  
+    Connects to the audio interface's line inputs.
 
-- live silentbrass L: silentbrass input
+- prerecorded silentbrass L / R 
+  
+    Connects to SousaPlayback's "silentbrass" track.
 
-- live silentbrass R: silentbrass input
+- drum tracks L / R 
+  
+    Connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio To" output.
 
-- prerecorded silentbrass L: prerecorded silentbrass from ableton
+- external delay receive 1 - 4, L / R 
+  
+    4 stereo channels of external delay receives. 
 
-- prerecorded silentbrass R: prerecorded silentbrass from ableton
+- phasor~ from Ableton 
+  
+    Connects to SousaPlayback's "sync signal" track.
 
-- drum tracks L: drum bus from ableton
+- external octaver receive mono 
+  
+    When the Octaver is set to "ext fx", this input receives audio from the Octaver.
 
-- drum tracks R: drum bus from ableton
+- Main 1-bar Phasor 
+  
+    This and the next 5 inputs are only needed by :ref:`SousaVFX <SousaVFX>` if it's running on a different computer than SousaFX.
 
-- external delay receive 1 L: 4 stereo channels of delay receives.
+- Phasor offset rate 
+  
+    VFX only.
 
-- external delay receive 1 R
+- high_freq_mod_mixed 
+  
+    VFX only.
 
-- external delay receive 2 L
+- low_amp_mod_mixed 
+  
+    VFX only.
 
-- external delay receive 2 R
+- tuba + timefx env 
+  
+    VFX only.
 
-- external delay receive 3 L
+- talkback_mic 
+  
+    Connects to the interface's talkback mic input.
 
-- external delay receive 3 R
+- pitch correct 
+  
+    Connects to an external pitch correction FX.
 
-- external delay receive 4 L
+- harmonizer sustain L / R 
+  
+    Connects to an external harmonizer FX.
 
-- external delay receive 4 R
+- harmonizer attack L / R 
+  
+    Connects to an external harmonizer FX.
 
-- phasor~ from Ableton: sync signal
+- kick&snare L / R
+    
+    Connects to SousaPlayback's "perc 1" track to allow VFX to respond to kick and snare.
 
-- talkback_mic
-
-- tuba_env: this and the following are sent to SousaVFX if it's running on a different computer.
-
-- main_phasor
-
-- phasor_with_phase_offset
-
-- high_freq_mod_mixed
-
-- low_amp_mod_mixed
-
-- delays_n_reverb
 
 Output Mapping
 --------------
 
 The output menu sets whether the main outputs are mono or stereo.
 
-- Main L: Front Of House output
+- Main L / R 
+  
+    connects to the interface's main output, AKA "Front Of House" output
 
-- Main R: Front Of House output
+- Monitor L / R 
+  
+    connects to the interface's headphone output, AKA "monitor mix" output
 
-- Monitor L: monitor mix
+- Metronome Click 
+  
+    allows SousaFX's metronome to be mixed independently if there're multiple monitor mixes. 
 
-- Monitor R: monitor mix
+- Drum Clips Risset L / R 
+  
+    connects to SousaPlayback's "drum bus" track's "Risset Ext FX" device's "Audio From" input.
 
-- Metronome Click: external metronome 
+- external delay send 1 - 4, L / R 
+  
+    4 stereo channels of external delay sends.
 
-- Drum Clips Risset L: to ableton drum bus
+- external octaver send mono 
+  
+    When the Octaver is set to "ext fx", this output sends audio to the Octaver.
 
-- Drum Clips Risset R: to ableton drum bus
+- Main 1-bar Phasor 
+  
+    this and the following are sent to :ref:`SousaVFX <SousaVFX>` if it's running on a different computer.
 
-- external delay send 1 L: 4 stereo channels of delay sends.
+- Phasor offset rate 
+  
+    VFX only.
 
-- external delay send 1 R
+- high_freq_mod_mixed 
+  
+    VFX only.
 
-- external delay send 2 L
+- low_amp_mod_mixed 
+  
+    VFX only.
 
-- external delay send 2 R
-
-- external delay send 3 L
-
-- external delay send 3 R
-
-- external delay send 4 L
-
-- external delay send 4 R
-
-- tuba_env: this and the following are received by SousaVFX if it's running on a different computer.
-
-- main_phasor
-
-- phasor_with_phase_offset
-
-- high_freq_mod_mixed
-
-- low_amp_mod_mixed
-
-- delays_n_reverb
+- tuba + timefx env 
+  
+    VFX only.

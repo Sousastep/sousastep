@@ -8,4 +8,5 @@ Settings
    midi.rst
    metro.rst
    monitor.rst
+   bgcolor.rst
 

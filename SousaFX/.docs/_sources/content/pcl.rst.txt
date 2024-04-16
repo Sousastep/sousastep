@@ -1,10 +1,10 @@
 Parameter Control Logic
 =======================
 
-Gamepad/parameter mappings can be relinquished and established 
+Bindings can be relinquished and established 
 automatically based on wether or not the tuba's playing. 
-Relinquishing and establishing can either happen immediately 
-when the tuba starts or stops playing, or they can wait 
+This can happen either immediately 
+when the tuba starts or stops playing, or it can wait 
 until the gamepad's respective joystick axis 
 touches its :ref:`deadzone or default value <Deadzones>`.
 
@@ -18,7 +18,7 @@ The aformentioned settings can be chosen per each of the four main :ref:`looper 
 
 - fading out: Fading out bassline while soloing.
 
-The control can be inverted, and curved as well.
+The control can be inverted, and curved as well. The "uni/bi" menu allows the curve to be unipolar or bipolar.
 
 These settings are saved within the :ref:`controller bindings <Controller Bindings>` presets.
 

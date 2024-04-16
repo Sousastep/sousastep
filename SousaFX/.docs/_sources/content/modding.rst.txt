@@ -1,7 +1,7 @@
 Modding
 =======
 
-Modding SousaFX is tough. Feature requests are encouraged, and can be submitted via `GitHub Issues <https://github.com/Sousastep/sousastep/issues>`_!
+Modding SousaFX is tough. Feature requests are encouraged, and can be submitted via `GitHub <https://github.com/Sousastep/sousastep/issues>`_.
 
 Here are some notes for peeking around SousaFX:
 

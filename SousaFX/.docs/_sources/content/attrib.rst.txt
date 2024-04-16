@@ -10,6 +10,9 @@ Docs
 
 - `Dark theme provided by MrDogeBro <https://github.com/MrDogeBro/sphinx_rtd_dark_mode>`_.
 
+- :ref:`EULA <End User License Agreement For SousaFX>`
+  copied from `Reaper <https://www.reaper.fm/>`_
+
 Patches
 -------
 
@@ -43,23 +46,29 @@ Patches
 
 - `Rusty Allred <https://web.archive.org/web/20071003115434/http://www.planetanalog.com/article/printableArticle.jhtml?articleID=12802683>`_, `Trond Lossius <https://github.com/jamoma/JamomaCore/blob/master/DSP/extensions/FilterLib/source/TTLowpassLinkwitzRiley4.cpp>`_, `Timothy Place <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial>`_, `J Curtis <https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c>`_ // 4th-order `Linkwitz Riley <https://www.linkwitzlab.com/publications.htm#17%20-%20Active%20Crossover%20Networks%20for%20Noncoincident%20Drivers>`_ Crossover Filter
 
+- `Chapelier Fou <https://www.chapelierfoumusic.com>`_ // `random clip launcher <https://www.maxforlive.com/library/device/3624/random-clip-launcher-audio>`_
+
+- `Alexander Panos <https://alexanderpanos.com/about>`_ // `octave synth <https://discord.com/channels/289378508247924738/289378711533387777/1216486861493633094>`_
+
 Media
 -----
 
-- Black Octopus Sound // `Free Samples Bundle <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_
+- `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
 
 - Austin Andrews // `Material Design Icons <https://iconduck.com/sets/material-design-icons>`_
 
 - Luan Himmlisch // `Icofont Icon Set <https://iconduck.com/icons/249084/swirl>`_
 
-- `zzkt <https://github.com/zzkt/oblique-strategies>`_ // `do it home <https://curatorsintl.org/records/20290-do-it-home>`_ & `Prompts for Programmers <https://web.archive.org/web/20230817122306/https://kevinlawler.com/prompts>`_
-
-- Prestige System //
+- :ref:`Prestige System <Prestige System>` //
 
 	- `Tuba Warrior Fandom <https://tuba-warriors.fandom.com/wiki/Heavy_Tuba_Gunner#Navigation>`_
 
-	- `Halo Infinite <https://www.halopedia.org/Rank_(Halo_Infinite)>`_
+	- `Halo Infinite <https://www.halopedia.org/Rank_(Halo_Infinite)>`_, `Valorant <https://www.ign.com/wikis/valorant/Valorant_Ranks%3A_Ascendant%2C_Immortal%2C_Radiant_Explained>`_, `DOTA 2 <https://www.esports.net/wiki/guides/dota-2-ranks/>`_
 
-	- `Valorant <https://www.ign.com/wikis/valorant/Valorant_Ranks%3A_Ascendant%2C_Immortal%2C_Radiant_Explained>`_
+3rd Party Licenses
+------------------
 
-	- `DOTA 2 <https://www.esports.net/wiki/guides/dota-2-ranks/>`_
+.. toctree::
+   :maxdepth: 2
+
+   thirdpartylicenses.rst

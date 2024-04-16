@@ -1,11 +1,6 @@
 SousaFX
 =======
 
-.. image:: media/sousafx.png
-   :align: center
-   :width: 100%
-   :alt: sousafx.png
-
 .. toctree::
    :maxdepth: 2
 

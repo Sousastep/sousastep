@@ -39,7 +39,7 @@ Payment may be sent via any of the following platforms. Please be sure to includ
 
 When you complete your purchase, send an email to sousastep@gmail.com and a license key will be emailed to you ASAP. License purchases are non-refundable. Be sure that email from sousastep@gmail.com is not going into your spam folder.
 
-Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs,git  please email sousastep@gmail.com
+Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs, please email sousastep@gmail.com
 
 .. image:: media/window-about-nolicense.png
    :width: 70%

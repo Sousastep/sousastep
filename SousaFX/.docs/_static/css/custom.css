@@ -30,16 +30,3 @@ code {
 p {
     text-align: justify;
 }
-
-/* chatgpt: how would I change the field lists' text-align to justify in custom.css ?
-
-    dl.field-list {
-        text-align: justify;
-    }
-
-I tried it and it resulted in no change. No worries. Could you try again?
-
-dl.field-list > dt, dl.field-list > dd {
-    text-align: justify;
-}
- */

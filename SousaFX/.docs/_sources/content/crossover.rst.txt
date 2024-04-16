@@ -7,7 +7,7 @@ There are two kinds of crossovers available in sousafx, each with two stereo hig
 
 |
 
-The first crossover is a :ref:`4th-order Linkwitz Riley crossover <SousaFX Max Patches>` that's native to Max.
+The first crossover is a :ref:`4th-order Linkwitz Riley crossover <Patches>` that's native to Max.
 
 .. image:: media/crossovergen.png
    :width: 60%
