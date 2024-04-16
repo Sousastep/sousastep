@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1103.0, 804.0, 732.0, 565.0 ],
+		"rect" : [ 208.0, 71.0, 1627.0, 1298.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1061,7 +1061,16 @@
 						"plugin_or_rnbo_selector" : 0,
 						"plugin_or_rnbo_selector::mod_comp_rnbo_or_plugin" : 0,
 						"plugin_or_rnbo_selector[1]" : 0,
-						"plugin_or_rnbo_selector[1]::dry_comp_rnbo_or_plugin" : 0
+						"plugin_or_rnbo_selector[1]::dry_comp_rnbo_or_plugin" : 0,
+						"plugin_or_rnbo_selector[2]" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector::Post-Crossfade_FX_plugin1_rnbo_or_plugin" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[1]" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[1]::Post-Crossfade_FX_plugin2_plugin" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[2]" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[2]::Post-Crossfade_FX_plugin3_plugin" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[3]" : 0,
+						"plugin_or_rnbo_selector[2]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : 0
 					}
 ,
 					"fontname" : "Monaco",
@@ -1070,9 +1079,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 875.0, 1649.0, 304.0, 23.0 ],
+					"patching_rect" : [ 875.0, 1650.0, 304.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 1278, 242, 2353, 1227 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
