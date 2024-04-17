@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 543.0, 104.0, 1617.0, 1296.0 ],
+		"rect" : [ 562.0, 106.0, 1617.0, 1296.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,91 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-693",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "main_vfx_env_sens.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1804.0, -503.0, 63.0, 90.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 940.685740189655576, 0.570086433671634, 63.0, 90.0 ],
+					"varname" : "main_vfx_env_sens",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.996078431372549, 0.043137254901961, 1.0 ],
+					"id" : "obj-653",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1889.0, -103.0, 32.0, 22.0 ],
+					"text" : "r ms"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-650",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1855.0, -163.0, 49.0, 22.0 ],
+					"text" : "+~ 0.01"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-546",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1804.0, -396.5, 39.0, 22.0 ],
+					"text" : "dbtoa"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-444",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1804.0, -320.0, 34.0, 22.0 ],
+					"text" : "*~ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-158",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1789.0, -335.0, 34.0, 22.0 ],
+					"text" : "*~ 1."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-731",
 					"maxclass" : "newobj",
@@ -142,7 +227,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 917.0, -248.0, 141.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "it takes 50 ms for the fade FX to engage completely"
 				}
 
@@ -1652,18 +1736,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-254",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1873.0, -170.0, 47.0, 22.0 ],
-					"text" : "r rbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-253",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -1813,7 +1885,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1909.5, -288.5, 127.0, 22.0 ],
+					"patching_rect" : [ 1910.0, -374.0, 127.0, 22.0 ],
 					"text" : "r~ tuba_env_w_delrev",
 					"textcolor" : [ 0.647058823529412, 1.0, 0.725490196078431, 1.0 ]
 				}
@@ -3088,7 +3160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1840.5, -289.5, 52.0, 22.0 ],
+					"patching_rect" : [ 1841.0, -375.0, 52.0, 22.0 ],
 					"text" : "adc~ 23"
 				}
 
@@ -4999,7 +5071,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 786.0, -41.5, 136.75, 47.0 ],
+					"patching_rect" : [ 786.0, -41.5, 141.0, 47.0 ],
 					"text" : "we esitmate that it takes max 100 ms to load a ISF shader"
 				}
 
@@ -5900,11 +5972,11 @@
 						"UI_CandyWarp::CandyWarp_scale::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_scale::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_scale::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_scale::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_scale::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_scale::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_scale::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_scale::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_scale::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_scale::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_scale::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5915,11 +5987,11 @@
 						"UI_CandyWarp::CandyWarp_cycle::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_cycle::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_cycle::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_cycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5930,11 +6002,11 @@
 						"UI_CandyWarp::CandyWarp_thickness::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_thickness::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_thickness::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_thickness::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5945,11 +6017,11 @@
 						"UI_CandyWarp::CandyWarp_loops::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_loops::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_loops::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_loops::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_loops::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_loops::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_loops::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_loops::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_loops::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_loops::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_loops::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5960,11 +6032,11 @@
 						"UI_CandyWarp::CandyWarp_warp::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_warp::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_warp::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_warp::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_warp::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_warp::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_warp::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_warp::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_warp::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_warp::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_warp::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5975,11 +6047,11 @@
 						"UI_CandyWarp::CandyWarp_hue::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_hue::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_hue::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_hue::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_hue::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_hue::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_hue::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_hue::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_hue::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_hue::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -5990,11 +6062,11 @@
 						"UI_CandyWarp::CandyWarp_tint::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_tint::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_tint::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_tint::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_tint::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_tint::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_tint::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_tint::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_tint::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_tint::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_tint::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6005,11 +6077,11 @@
 						"UI_CandyWarp::CandyWarp_rate::linkphasor_rate" : 0,
 						"UI_CandyWarp::CandyWarp_rate::matrixctrl" : 0,
 						"UI_CandyWarp::CandyWarp_rate::param_ctrl" : 0,
+						"UI_CandyWarp::CandyWarp_rate::pitch_range_high" : 0,
+						"UI_CandyWarp::CandyWarp_rate::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_rate::rslider" : 0,
 						"UI_CandyWarp::CandyWarp_rate::slide_down" : 0,
 						"UI_CandyWarp::CandyWarp_rate::slide_up" : 0,
-						"UI_CandyWarp::CandyWarp_rate::pitch_range_high" : 0,
-						"UI_CandyWarp::CandyWarp_rate::pitch_range_low" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_CandyWarp::CandyWarp_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6021,11 +6093,11 @@
 						"UI_Pinwheel::Pinwheel_size::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_size::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_size::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_size::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_size::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_size::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_size::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_size::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_size::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_size::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_size::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6036,11 +6108,11 @@
 						"UI_Pinwheel::Pinwheel_edge::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_edge::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_edge::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_edge::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_edge::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_edge::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_edge::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_edge::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_edge::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_edge::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_edge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6051,11 +6123,11 @@
 						"UI_Pinwheel::Pinwheel_segments::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_segments::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_segments::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_segments::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_segments::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_segments::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_segments::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_segments::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_segments::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_segments::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_segments::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6066,11 +6138,11 @@
 						"UI_Pinwheel::Pinwheel_rate::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_rate::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_rate::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_rate::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_rate::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_rate::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_rate::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_rate::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_rate::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_rate::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_rate::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6081,11 +6153,11 @@
 						"UI_Pinwheel::Pinwheel_color1_hue::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_color1_hue::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_color1_hue::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_color1_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6096,11 +6168,11 @@
 						"UI_Pinwheel::Pinwheel_color1_light::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_color1_light::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_color1_light::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_color1_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6111,11 +6183,11 @@
 						"UI_Pinwheel::Pinwheel_color2_hue::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_color2_hue::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_color2_hue::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_color2_hue::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6126,11 +6198,11 @@
 						"UI_Pinwheel::Pinwheel_color2_light::linkphasor_rate" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::matrixctrl" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::param_ctrl" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::pitch_range_high" : 0,
+						"UI_Pinwheel::Pinwheel_color2_light::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::rslider" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::slide_down" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::slide_up" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::pitch_range_high" : 0,
-						"UI_Pinwheel::Pinwheel_color2_light::pitch_range_low" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_Pinwheel::Pinwheel_color2_light::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6142,6 +6214,8 @@
 						"UI_PolarGradient::PolarGradient_sMin::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_sMin::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_sMin::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_sMin::slide_up" : 0,
@@ -6155,6 +6229,8 @@
 						"UI_PolarGradient::PolarGradient_sMax::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_sMax::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_sMax::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_sMax::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_sMax::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_sMax::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_sMax::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_sMax::slide_up" : 0,
@@ -6168,6 +6244,8 @@
 						"UI_PolarGradient::PolarGradient_rate::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_rate::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_rate::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_rate::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_rate::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_rate::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_rate::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_rate::slide_up" : 0,
@@ -6181,6 +6259,8 @@
 						"UI_PolarGradient::PolarGradient_scale::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_scale::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_scale::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_scale::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_scale::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_scale::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_scale::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_scale::slide_up" : 0,
@@ -6194,6 +6274,8 @@
 						"UI_PolarGradient::PolarGradient_brightness::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_brightness::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_brightness::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_brightness::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_brightness::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_brightness::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_brightness::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_brightness::slide_up" : 0,
@@ -6207,6 +6289,8 @@
 						"UI_PolarGradient::PolarGradient_Rloops::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Rloops::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Rloops::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Rloops::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Rloops::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Rloops::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Rloops::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Rloops::slide_up" : 0,
@@ -6220,6 +6304,8 @@
 						"UI_PolarGradient::PolarGradient_Gloops::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Gloops::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Gloops::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Gloops::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Gloops::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Gloops::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Gloops::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Gloops::slide_up" : 0,
@@ -6233,6 +6319,8 @@
 						"UI_PolarGradient::PolarGradient_Bloops::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Bloops::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Bloops::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Bloops::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Bloops::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Bloops::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Bloops::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Bloops::slide_up" : 0,
@@ -6246,6 +6334,8 @@
 						"UI_PolarGradient::PolarGradient_Rs::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Rs::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Rs::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Rs::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Rs::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Rs::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Rs::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Rs::slide_up" : 0,
@@ -6259,6 +6349,8 @@
 						"UI_PolarGradient::PolarGradient_Gs::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Gs::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Gs::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Gs::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Gs::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Gs::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Gs::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Gs::slide_up" : 0,
@@ -6272,6 +6364,8 @@
 						"UI_PolarGradient::PolarGradient_Bs::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Bs::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Bs::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Bs::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Bs::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Bs::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Bs::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Bs::slide_up" : 0,
@@ -6285,6 +6379,8 @@
 						"UI_PolarGradient::PolarGradient_Rg::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Rg::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Rg::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Rg::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Rg::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Rg::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Rg::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Rg::slide_up" : 0,
@@ -6298,6 +6394,8 @@
 						"UI_PolarGradient::PolarGradient_Gg::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Gg::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Gg::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Gg::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Gg::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Gg::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Gg::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Gg::slide_up" : 0,
@@ -6311,6 +6409,8 @@
 						"UI_PolarGradient::PolarGradient_Bg::linkphasor_rate" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::matrixctrl" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::param_ctrl" : 0,
+						"UI_PolarGradient::PolarGradient_Bg::pitch_range_high" : 0,
+						"UI_PolarGradient::PolarGradient_Bg::pitch_range_low" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::rslider" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::slide_down" : 0,
 						"UI_PolarGradient::PolarGradient_Bg::slide_up" : 0,
@@ -6325,6 +6425,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_noise::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_noise::slide_up" : 0,
@@ -6338,6 +6440,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_rate::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_rate::slide_up" : 0,
@@ -6351,6 +6455,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius1::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius1::slide_up" : 0,
@@ -6364,6 +6470,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_radius2::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_radius2::slide_up" : 0,
@@ -6377,6 +6485,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_amp::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_amp::slide_up" : 0,
@@ -6390,6 +6500,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_mult::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_mult::slide_up" : 0,
@@ -6403,6 +6515,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_warp::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_warp::slide_up" : 0,
@@ -6416,6 +6530,8 @@
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::linkphasor_rate" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::matrixctrl" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::param_ctrl" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::pitch_range_high" : 0,
+						"UI_RainbowGlowRing::RainbowGlowRing_glow::pitch_range_low" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::rslider" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_down" : 0,
 						"UI_RainbowGlowRing::RainbowGlowRing_glow::slide_up" : 0,
@@ -6430,6 +6546,8 @@
 						"UI_SpaceSpore::SpaceSpore_R1::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_R1::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_R1::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_R1::slide_up" : 0,
@@ -6443,6 +6561,8 @@
 						"UI_SpaceSpore::SpaceSpore_R2::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_R2::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_R2::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_R2::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_R2::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_R2::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_R2::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_R2::slide_up" : 0,
@@ -6456,6 +6576,8 @@
 						"UI_SpaceSpore::SpaceSpore_zoom::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_zoom::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_zoom::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_zoom::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_zoom::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_zoom::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_zoom::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_zoom::slide_up" : 0,
@@ -6469,6 +6591,8 @@
 						"UI_SpaceSpore::SpaceSpore_rate::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_rate::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_rate::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_rate::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_rate::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_rate::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_rate::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_rate::slide_up" : 0,
@@ -6482,6 +6606,8 @@
 						"UI_SpaceSpore::SpaceSpore_depth::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_depth::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_depth::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_depth::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_depth::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_depth::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_depth::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_depth::slide_up" : 0,
@@ -6495,6 +6621,8 @@
 						"UI_SpaceSpore::SpaceSpore_gamma::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_gamma::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_gamma::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_gamma::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_gamma::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_gamma::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_gamma::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_gamma::slide_up" : 0,
@@ -6508,6 +6636,8 @@
 						"UI_SpaceSpore::SpaceSpore_ColorX::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorX::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorX::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_ColorX::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_ColorX::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorX::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorX::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorX::slide_up" : 0,
@@ -6521,6 +6651,8 @@
 						"UI_SpaceSpore::SpaceSpore_ColorY::linkphasor_rate" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorY::matrixctrl" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorY::param_ctrl" : 0,
+						"UI_SpaceSpore::SpaceSpore_ColorY::pitch_range_high" : 0,
+						"UI_SpaceSpore::SpaceSpore_ColorY::pitch_range_low" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorY::rslider" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorY::slide_down" : 0,
 						"UI_SpaceSpore::SpaceSpore_ColorY::slide_up" : 0,
@@ -6535,6 +6667,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_size::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_size::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_size::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_size::slide_up" : 0,
@@ -6548,6 +6682,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_edge::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_edge::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_edge::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_edge::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_edge::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_edge::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_edge::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_edge::slide_up" : 0,
@@ -6561,6 +6697,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_segments::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_segments::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_segments::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments::slide_up" : 0,
@@ -6574,6 +6712,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_rate::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_rate::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_rate::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate::slide_up" : 0,
@@ -6587,6 +6727,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color1_hue::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color1_hue::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_hue::slide_up" : 0,
@@ -6600,6 +6742,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color1_light::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color1_light::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color1_light::slide_up" : 0,
@@ -6613,6 +6757,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color2_hue::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color2_hue::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_hue::slide_up" : 0,
@@ -6626,6 +6772,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color2_light::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_color2_light::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_color2_light::slide_up" : 0,
@@ -6639,6 +6787,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_segments[1]::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_segments[1]::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_segments[1]::slide_up" : 0,
@@ -6652,6 +6802,8 @@
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::linkphasor_rate" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::matrixctrl" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::param_ctrl" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_rate[1]::pitch_range_high" : 0,
+						"UI_FluidFlowSNoise::Pinwheel_rate[1]::pitch_range_low" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::rslider" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::slide_down" : 0,
 						"UI_FluidFlowSNoise::Pinwheel_rate[1]::slide_up" : 0,
@@ -6666,6 +6818,8 @@
 						"UI_VoronoiDuplex::Pinwheel_size::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_size::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_size::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_size::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_size::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_size::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_size::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_size::slide_up" : 0,
@@ -6679,6 +6833,8 @@
 						"UI_VoronoiDuplex::Pinwheel_edge::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_edge::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_edge::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_edge::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_edge::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_edge::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_edge::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_edge::slide_up" : 0,
@@ -6692,6 +6848,8 @@
 						"UI_VoronoiDuplex::Pinwheel_segments::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_segments::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_segments::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_segments::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_segments::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_segments::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_segments::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_segments::slide_up" : 0,
@@ -6705,6 +6863,8 @@
 						"UI_VoronoiDuplex::Pinwheel_rate::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_rate::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_rate::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_rate::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_rate::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_rate::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_rate::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_rate::slide_up" : 0,
@@ -6718,6 +6878,8 @@
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color1_hue::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color1_hue::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_hue::slide_up" : 0,
@@ -6731,6 +6893,8 @@
 						"UI_VoronoiDuplex::Pinwheel_color1_light::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_light::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_light::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color1_light::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color1_light::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_light::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_light::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color1_light::slide_up" : 0,
@@ -6744,6 +6908,8 @@
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color2_hue::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color2_hue::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_hue::slide_up" : 0,
@@ -6757,6 +6923,8 @@
 						"UI_VoronoiDuplex::Pinwheel_color2_light::linkphasor_rate" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::matrixctrl" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::param_ctrl" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color2_light::pitch_range_high" : 0,
+						"UI_VoronoiDuplex::Pinwheel_color2_light::pitch_range_low" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::rslider" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::slide_down" : 0,
 						"UI_VoronoiDuplex::Pinwheel_color2_light::slide_up" : 0,
@@ -6771,6 +6939,8 @@
 						"UI_ButterflyEffect::Pinwheel_size::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_size::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_size::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_size::slide_up" : 0,
@@ -6784,6 +6954,8 @@
 						"UI_ButterflyEffect::Pinwheel_edge::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_edge::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_edge::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_edge::slide_up" : 0,
@@ -6797,6 +6969,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments::slide_up" : 0,
@@ -6810,6 +6984,8 @@
 						"UI_ButterflyEffect::Pinwheel_rate::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate::slide_up" : 0,
@@ -6823,6 +6999,8 @@
 						"UI_ButterflyEffect::Pinwheel_color1_hue::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_hue::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_hue::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_hue::slide_up" : 0,
@@ -6836,6 +7014,8 @@
 						"UI_ButterflyEffect::Pinwheel_color1_light::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_light::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_color1_light::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_color1_light::slide_up" : 0,
@@ -6849,6 +7029,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments[1]::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[1]::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[1]::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[1]::slide_up" : 0,
@@ -6862,6 +7044,8 @@
 						"UI_ButterflyEffect::Pinwheel_rate[1]::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[1]::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[1]::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[1]::slide_up" : 0,
@@ -6875,6 +7059,8 @@
 						"UI_ButterflyEffect::Pinwheel_segments[2]::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[2]::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_segments[2]::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_segments[2]::slide_up" : 0,
@@ -6888,6 +7074,8 @@
 						"UI_ButterflyEffect::Pinwheel_rate[2]::linkphasor_rate" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::matrixctrl" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::param_ctrl" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[2]::pitch_range_high" : 0,
+						"UI_ButterflyEffect::Pinwheel_rate[2]::pitch_range_low" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::rslider" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_down" : 0,
 						"UI_ButterflyEffect::Pinwheel_rate[2]::slide_up" : 0,
@@ -6902,11 +7090,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6917,11 +7105,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_rate2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6932,11 +7120,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_loopcycle::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6947,11 +7135,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6962,11 +7150,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_color2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6977,11 +7165,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle1::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -6992,11 +7180,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_cycle2::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7007,11 +7195,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_nudge::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7022,11 +7210,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthX::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7037,11 +7225,11 @@
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::linkphasor_rate" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::matrixctrl" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::param_ctrl" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::pitch_range_high" : 0,
+						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::rslider" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_down" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::slide_up" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::pitch_range_high" : 0,
-						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::pitch_range_low" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_ColorDiffusionFlow::ColorDiffusionFlow_depthY::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
@@ -7053,6 +7241,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rX::slide_up" : 0,
@@ -7066,6 +7256,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rY::slide_up" : 0,
@@ -7079,6 +7271,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rZ::slide_up" : 0,
@@ -7092,6 +7286,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_zoom::slide_up" : 0,
@@ -7105,6 +7301,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendX::slide_up" : 0,
@@ -7118,6 +7316,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_blendY::slide_up" : 0,
@@ -7131,6 +7331,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_subdivisions::slide_up" : 0,
@@ -7144,6 +7346,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_light::slide_up" : 0,
@@ -7157,6 +7361,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_rate::slide_up" : 0,
@@ -7170,6 +7376,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_cycle::slide_up" : 0,
@@ -7183,6 +7391,8 @@
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::linkphasor_rate" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::matrixctrl" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::param_ctrl" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::pitch_range_high" : 0,
+						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::pitch_range_low" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::rslider" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::slide_down" : 0,
 						"UI_DimensionMorphingTopography::DimensionMorphingTopography_roto::slide_up" : 0,
@@ -7197,6 +7407,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetX::slide_up" : 0,
@@ -7210,6 +7422,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_offsetY::slide_up" : 0,
@@ -7223,6 +7437,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_rotation::slide_up" : 0,
@@ -7236,6 +7452,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_size::slide_up" : 0,
@@ -7249,6 +7467,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_depth::slide_up" : 0,
@@ -7262,6 +7482,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_density::slide_up" : 0,
@@ -7275,6 +7497,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue1::slide_up" : 0,
@@ -7288,6 +7512,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue2::slide_up" : 0,
@@ -7301,6 +7527,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue3::slide_up" : 0,
@@ -7314,6 +7542,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_hue4::slide_up" : 0,
@@ -7327,6 +7557,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness1::slide_up" : 0,
@@ -7340,6 +7572,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness2::slide_up" : 0,
@@ -7353,6 +7587,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness3::slide_up" : 0,
@@ -7366,6 +7602,8 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_brightness4::slide_up" : 0,
@@ -7379,13 +7617,20 @@
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::linkphasor_rate" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::matrixctrl" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::param_ctrl" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::pitch_range_high" : 0,
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::pitch_range_low" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::rslider" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::slide_down" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::slide_up" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats" : 0,
 						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::u515005383" : 0,
-						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::function" : 0
+						"UI_PlanetOfBaobabs::PlanetOfBaobabs_saturation::function_visualizer_clear_line::function_visualizer_floats::function" : 0,
+						"patcher" : 0,
+						"patcher::show_audio_status" : 0,
+						"main_vfx_env_sens" : 0,
+						"main_vfx_env_sens::show_audio_status" : 0,
+						"main_vfx_env_sens::main_vfx_env_sens" : 0
 					}
 ,
 					"fontname" : "Silom",
@@ -7396,10 +7641,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 519.0, 36.0, 257.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 974, 235, 2089, 1335 ],
+						"client_rect" : [ 1246, 569, 1646, 1352 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaLED8 @savemode 0",
@@ -10321,7 +10566,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1844.0, -96.0, 120.0, 22.0 ],
+					"patching_rect" : [ 1807.0, -22.0, 120.0, 22.0 ],
 					"text" : "s dry_tuba_envelope"
 				}
 
@@ -10333,8 +10578,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1844.0, -133.0, 65.0, 22.0 ],
-					"text" : "peakamp~"
+					"patching_rect" : [ 1807.0, -59.0, 98.0, 22.0 ],
+					"text" : "peakamp~ 5.555"
 				}
 
 			}
@@ -10864,7 +11109,7 @@
 					"patching_rect" : [ 1044.0, -147.0, 203.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 940.685740189655576, 113.257413802047154, 247.000016629695892, 32.0 ],
-					"text" : "Pinwheel acoustic 1",
+					"text" : "VoroniDuplex dub 1",
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"textjustification" : 1
 				}
@@ -10885,9 +11130,9 @@
 						"LineFinal" : [ 0.0 ],
 						"LineInitial" : [ 0.0 ],
 						"LineSeconds" : [ 0.0 ],
-						"MultipleShapeSelection" : [ "torus" ],
-						"PositionMatrixDimensionX" : [ 2 ],
-						"PositionMatrixDimensionY" : [ 2 ],
+						"MultipleShapeSelection" : [ "sphere" ],
+						"PositionMatrixDimensionX" : [ 3 ],
+						"PositionMatrixDimensionY" : [ 3 ],
 						"PositionMatrixShape" : [ "plane" ],
 						"SingleShapeSelection" : [ "sphere" ],
 						"TextPositionY" : [ 0.0 ],
@@ -12146,7 +12391,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "wlan-debug", ",", "Bluetooth-Incoming-Port", ",", "usbserial-DK0FZDII", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -15154,6 +15399,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-650", 0 ],
+					"order" : 1,
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-909", 1 ],
+					"order" : 0,
+					"source" : [ "obj-158", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-386", 2 ],
 					"source" : [ "obj-159", 0 ]
 				}
@@ -15904,13 +16165,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-605", 0 ],
 					"source" : [ "obj-253", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-446", 0 ],
-					"source" : [ "obj-254", 0 ]
 				}
 
 			}
@@ -17178,6 +17432,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-650", 0 ],
+					"order" : 1,
+					"source" : [ "obj-444", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-909", 1 ],
+					"order" : 0,
+					"source" : [ "obj-444", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-455", 2 ],
 					"source" : [ "obj-445", 0 ]
 				}
@@ -17879,6 +18149,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-158", 1 ],
+					"order" : 1,
+					"source" : [ "obj-546", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-444", 1 ],
+					"order" : 0,
+					"source" : [ "obj-546", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-518", 0 ],
 					"source" : [ "obj-548", 0 ]
 				}
@@ -17893,16 +18179,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-446", 0 ],
-					"order" : 1,
-					"source" : [ "obj-55", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-909", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-444", 0 ],
 					"source" : [ "obj-55", 0 ]
 				}
 
@@ -18679,6 +18956,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-446", 0 ],
+					"source" : [ "obj-650", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-446", 1 ],
+					"source" : [ "obj-653", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-634", 0 ],
 					"source" : [ "obj-655", 0 ]
 				}
@@ -18809,6 +19100,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-818", 0 ],
 					"source" : [ "obj-692", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-546", 0 ],
+					"source" : [ "obj-693", 0 ]
 				}
 
 			}
@@ -19322,16 +19620,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-446", 0 ],
-					"order" : 1,
-					"source" : [ "obj-828", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-909", 1 ],
-					"order" : 0,
+					"destination" : [ "obj-158", 0 ],
 					"source" : [ "obj-828", 0 ]
 				}
 
@@ -20372,6 +20661,7 @@
 			"obj-616::obj-7::obj-23" : [ "live.menu[105]", "live.menu", 0 ],
 			"obj-616::obj-7::obj-51" : [ "live.numbox[211]", "live.numbox", 0 ],
 			"obj-616::obj-7::obj-53" : [ "live.numbox[210]", "live.numbox", 0 ],
+			"obj-693::obj-555" : [ "tuba env sens", "tuba env sens", 0 ],
 			"obj-720::obj-2::obj-133" : [ "scale_invert[99]", "Phase-Inversion", 1 ],
 			"obj-720::obj-2::obj-23" : [ "live.menu[63]", "live.menu", 0 ],
 			"obj-720::obj-2::obj-51" : [ "live.numbox[126]", "live.numbox", 0 ],
@@ -23150,6 +23440,13 @@
 , 			{
 				"name" : "jit.gl.isf.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "main_vfx_env_sens.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "mojovideotech-shaders.txt",
