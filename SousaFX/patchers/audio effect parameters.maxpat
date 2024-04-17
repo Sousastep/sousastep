@@ -983,30 +983,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-702",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5625.0, 4301.0, 54.0, 22.0 ],
-					"text" : "clip~ 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-700",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5625.0, 4340.0, 128.0, 22.0 ],
-					"text" : "average~ @mode rms"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-678",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2614,18 +2590,6 @@
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 5905.0, 4608.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-807",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5625.0, 4259.0, 68.0, 22.0 ],
-					"text" : "maximum~"
 				}
 
 			}
@@ -4564,7 +4528,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5597,13 +5561,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1127 109 2355 1302"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 102.0 ],
+					"text" : "31 868 551 1401 30 319 431 504 138 617 762 1312"
 				}
 
 			}
@@ -8673,7 +8637,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1716.0, 2909.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 1246, 569, 1646, 1352 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
@@ -16459,15 +16423,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-648", 0 ],
-					"order" : 0,
-					"source" : [ "obj-349", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-807", 1 ],
-					"order" : 1,
 					"source" : [ "obj-349", 0 ]
 				}
 
@@ -19389,6 +19344,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-203", 1 ],
+					"order" : 0,
+					"source" : [ "obj-659", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-203", 0 ],
+					"order" : 1,
 					"source" : [ "obj-659", 0 ]
 				}
 
@@ -19462,13 +19426,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-807", 0 ],
-					"source" : [ "obj-670", 0 ]
 				}
 
 			}
@@ -19687,22 +19644,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
-					"source" : [ "obj-700", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-713", 0 ],
 					"source" : [ "obj-701", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-700", 0 ],
-					"source" : [ "obj-702", 0 ]
 				}
 
 			}
@@ -20028,13 +19971,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-670", 0 ],
 					"source" : [ "obj-806", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-702", 0 ],
-					"source" : [ "obj-807", 0 ]
 				}
 
 			}
@@ -21566,8 +21502,8 @@
 			}
 , 			{
 				"name" : "Post-Crossfade_FX_plugin1_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
+				"patcherrelativepath" : "../../default/presets/SousaFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -22192,13 +22128,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "license.sousafx",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "limiter.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -22281,8 +22210,8 @@
 			}
 , 			{
 				"name" : "main_presets.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
