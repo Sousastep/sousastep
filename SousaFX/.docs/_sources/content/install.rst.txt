@@ -123,11 +123,11 @@ Installation
 
 14. In SousaPlayback, ensure that the Main and Monitor :ref:`return tracks <Return Track List>` are routed to the audio interface's Main and Headphone/Aux outputs, respectively.
 
-15. If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
+.. note:: If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
-16. `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ should auto-enable thanks to the M4L device in the :ref:`"tempo" track <autolink>`.
+.. important:: `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ should auto-enable thanks to the M4L device in the :ref:`"tempo" track <autolink>`, but unfortunately Live Link is not super stable, so if your audio interface has an available `loopback <https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/>`_ channel then setting up SousaPlayback's :ref:`sync track <syncsig>` is recommended.
 
-17. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
+15. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
 
     .. image:: media/ioopen.png
        :width: 40%
@@ -140,4 +140,4 @@ Installation
     
     c. If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
-18. Now, it's time for a :ref:`soundcheck <Soundcheck>`.
+Now, it's time for a :ref:`soundcheck <Soundcheck>`.

@@ -30,7 +30,7 @@
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/design-tabs.js?v=36754332"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
@@ -59,8 +59,6 @@
               <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Hardware</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#requirements">Requirements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#recommendations">Recommendations</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#benchmarks">Benchmarks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a></li>
 </ul>
 </li>
@@ -102,33 +100,40 @@
 <h1>Hardware<a class="headerlink" href="#hardware" title="Link to this heading"></a></h1>
 <section id="requirements">
 <h2>Requirements<a class="headerlink" href="#requirements" title="Link to this heading"></a></h2>
-<ul class="simple">
-<li><p>mac or windows computer</p></li>
-<li><p>audio interface</p></li>
-<li><p>headphones, in-ear monitors, or loudspeaker</p></li>
-<li><p>XLR microphone, or Yamaha SilentBrass™ mute &amp; PersonalStudio™</p></li>
-<li><p>tuba</p></li>
-<li><p>wireless game controller</p></li>
-<li><p>velcro straps to attach the controller to the tuba</p></li>
-</ul>
-</section>
-<section id="recommendations">
-<h2>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>mac or windows computer</p>
 <p>Any m-series mac is recommended.</p>
-<p>If you haven’t optimized your computer for audio performance yet, <a class="reference external" href="https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&amp;query=optimize" rel="noopener noreferrer" target="_blank">these Ableton articles are worth checking out</a>.</p>
-<p>The <a class="reference external" href="https://www.rme-audio.de/downloads/bface_pro_fs_e.pdf" rel="noopener noreferrer" target="_blank">RME Babyface Pro</a> is an end-game audio interface, but any interface with a mic input, main output, and monitor output will do, such as the <a class="reference external" href="https://fael-downloads-prod.focusrite.com/customer/prod/downloads/scarlett_solo_studio_4th_gen_user_guide_v3-pdf-en.pdf" rel="noopener noreferrer" target="_blank">Focusrite Scarlett Solo 4th Gen</a>. The more <a class="reference external" href="https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/" rel="noopener noreferrer" target="_blank">loopback</a> channels the better, though, because SousaFX and SousaPlayback can make good use of them.</p>
-<p>If you’re performing live you may also want to invest in a DI such as the <a class="reference external" href="https://www.radialeng.com/product/trim-two" rel="noopener noreferrer" target="_blank">TrimTwo</a> or <a class="reference external" href="https://www.eventideaudio.com/pedals/mixinglink/" rel="noopener noreferrer" target="_blank">MixingLink</a>, which will prevent the venue’s mixing board from accidentally sending phantom power into your cherished interface.</p>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=mHoljbkyAEs" rel="noopener noreferrer" target="_blank">In ear monitors</a> are vastly preferrable to headphones or speakers for being able to hear yourself while performing live.</p>
-<p>SousaFX is developed and tested with a PS4 controller, and an Xbox Elite 2 controller. If I had to recommend one of them then it’d be the Xbox controller. However, <a class="reference external" href="https://github.com/libsdl-org/SDL/blob/SDL2/src/joystick/SDL_gamecontrollerdb.h" rel="noopener noreferrer" target="_blank">all gamepads listed here are supported</a>.</p>
-<p>If you’re using a <a class="reference external" href="https://usa.yamaha.com/products/musical_instruments/winds/silent_brass/silent_brass_sbj_series/index.html" rel="noopener noreferrer" target="_blank">SilentBrass mute</a> you’ll need an <a class="reference external" href="https://www.sweetwater.com/store/search?s=3.5mm+trs+to+dual+1%2F4+ts" rel="noopener noreferrer" target="_blank">eighth inch TRS to dual quarter inch TS cable</a> to properly connect the PersonalStudio’s headphone output to the audio interface’s line inputs.</p>
-</section>
-<section id="benchmarks">
-<h2>Benchmarks<a class="headerlink" href="#benchmarks" title="Link to this heading"></a></h2>
 <ul class="simple">
-<li><p>m1 macbook pro, 8 cores: SousaFX takes three minutes to start, and idles around 4.8 GB RAM, 9% CPU.</p></li>
+<li><p>m1 macbook pro, 8 cores: SousaFX takes two minutes to start, and idles around 4.8 GB RAM, 9% CPU.</p></li>
 <li><p>windows 11, DDR4 2666, i7-9700K, 8 cores: Five minutes to start, idles around 4.5 GB RAM, 14% CPU.</p></li>
-<li><p>2012 macbook pro, DDR3 1600, 4 cores: Ten minutes.</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To optimize your computer for audio performance, <a class="reference external" href="https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&amp;query=optimize" rel="noopener noreferrer" target="_blank">check out these articles</a>.</p>
+</div>
+</li>
+<li><p>audio interface</p>
+<p>The <a class="reference external" href="https://www.rme-usa.com/babyface-pro.html" rel="noopener noreferrer" target="_blank">RME Babyface Pro</a> is highly recommended.</p>
+<p>The <a class="reference external" href="https://us.focusrite.com/products/scarlett-4i4" rel="noopener noreferrer" target="_blank">Focusrite Scarlett 4i4 4th Gen</a> is decent.</p>
+<p>You may also want to invest in a DI such as the <a class="reference external" href="https://www.radialeng.com/product/trim-two" rel="noopener noreferrer" target="_blank">TrimTwo</a> or <a class="reference external" href="https://www.eventideaudio.com/pedals/mixinglink/" rel="noopener noreferrer" target="_blank">MixingLink</a> to prevent venues’ mixing boards from accidentally sending phantom power into your interface.</p>
+</li>
+<li><p>headphones, in-ear monitors, or loudspeaker</p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=mHoljbkyAEs" rel="noopener noreferrer" target="_blank">In ear monitors</a> are vastly preferrable to headphones or speakers for being able to hear yourself while performing live.</p>
+</li>
+<li><p>XLR microphone, or Yamaha SilentBrass™ mute &amp; PersonalStudio™</p>
+<p>If you’re using a <a class="reference external" href="https://usa.yamaha.com/products/musical_instruments/winds/silent_brass/silent_brass_sbj_series/index.html" rel="noopener noreferrer" target="_blank">SilentBrass mute</a> you’ll need an <a class="reference external" href="https://www.sweetwater.com/store/search?s=3.5mm+trs+to+dual+1%2F4+ts" rel="noopener noreferrer" target="_blank">eighth inch TRS to dual quarter inch TS cable</a> to connect the PersonalStudio’s headphone output to the audio interface’s line inputs.</p>
+</li>
+<li><p>tuba</p>
+<p>A <a class="reference external" href="https://edu.sousastep.quest/content/tutorials/LED-sousa-bell.html" rel="noopener noreferrer" target="_blank">LED sousaphone bell</a> is optional.</p>
+</li>
+<li><p>wireless game controller</p>
+<p>SousaFX is developed and tested with a PS4 controller, and an Xbox Elite 2 controller. The Xbox’s layout is more ergonomic than Playstation, and the Playstation’s buttons are more responsive than Xbox.</p>
+<p><a class="reference external" href="https://github.com/libsdl-org/SDL/blob/SDL2/src/joystick/SDL_gamecontrollerdb.h" rel="noopener noreferrer" target="_blank">All gamepads listed here are supported</a>.</p>
+</li>
+<li><p>velcro straps to attach the controller to the tuba</p>
+<p>I used to use <a class="reference external" href="http://www.ashbeedesign.com/2013/01/recycle-lettuce-wrap-for-cord-control.html" rel="noopener noreferrer" target="_blank">lettuce wraps</a>, now I use <a class="reference external" href="https://www.monoprice.com/search/index?keyword=velcro" rel="noopener noreferrer" target="_blank">monoprice’s cable ties</a>.</p>
+</li>
+</ol>
 </section>
 <section id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Link to this heading"></a></h2>

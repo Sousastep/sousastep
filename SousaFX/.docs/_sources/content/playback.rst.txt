@@ -41,6 +41,8 @@ Main Track List
 
 			This device also sends :ref:`BPM data <Tempo Source>` to SousaFX.
 
+			.. image:: media/amxd_automator.png
+
 .. _autolink:
 
 		- tempo
@@ -125,11 +127,15 @@ Main Track List
 
 	Records SousaFX and Return Track A.
 
+.. _syncsig:
+
 7. sync signal
 
 	Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 :ref:`in lieu of Live Link <Audio Input or Live Link>`.
 
-	This track's "Audio To: Ext. Out" should loopback to SousaFX's :ref:`"phasor~ from Ableton" input <Input Mapping>`. To enable phasor sync, Set SousaFX's Metronome's Tempo Source to ``Ableton's Tempo``, set the Live Link menu to Audio Input, and press Ableton's play button.
+	.. image:: media/amxd_phasor1n.png
+
+	This track's "Audio To: Ext. Out" should loopback to SousaFX's :ref:`"phasor~ from Ableton" input <Input Mapping>`. To enable this, Set SousaFX's Metronome's :ref:`Tempo Source <Audio Input or Live Link>` to "Ableton's Tempo", set the Live Link menu to Audio Input, and turn off auto-link in SousaPlayback's :ref:`tempo track <autolink>`.
 
 Return Track List
 -----------------

@@ -30,7 +30,7 @@
         <script src="../_static/jquery.js?v=5d32c60e"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
         <script src="../_static/design-tabs.js?v=36754332"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
@@ -133,6 +133,7 @@
 The <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus mutes and gains</span></a>, and
 the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Preset number</span></a>.</p>
 <p>This device also sends <a class="reference internal" href="metro.html#tempo-source"><span class="std std-ref">BPM data</span></a> to SousaFX.</p>
+<img alt="../_images/amxd_automator.png" src="../_images/amxd_automator.png" />
 </div></blockquote>
 </li>
 </ul>
@@ -234,10 +235,13 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 <div><p>Records SousaFX and Return Track A.</p>
 </div></blockquote>
 </li>
+</ol>
+<ol class="arabic" id="syncsig" start="7">
 <li><p>sync signal</p>
 <blockquote>
 <div><p>Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 <a class="reference internal" href="metro.html#audio-input-or-live-link"><span class="std std-ref">in lieu of Live Link</span></a>.</p>
-<p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“phasor~ from Ableton” input</span></a>. To enable phasor sync, Set SousaFX’s Metronome’s Tempo Source to <code class="docutils literal notranslate"><span class="pre">Ableton's</span> <span class="pre">Tempo</span></code>, set the Live Link menu to Audio Input, and press Ableton’s play button.</p>
+<img alt="../_images/amxd_phasor1n.png" src="../_images/amxd_phasor1n.png" />
+<p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“phasor~ from Ableton” input</span></a>. To enable this, Set SousaFX’s Metronome’s <a class="reference internal" href="metro.html#audio-input-or-live-link"><span class="std std-ref">Tempo Source</span></a> to “Ableton’s Tempo”, set the Live Link menu to Audio Input, and turn off auto-link in SousaPlayback’s <a class="reference internal" href="#autolink"><span class="std std-ref">tempo track</span></a>.</p>
 </div></blockquote>
 </li>
 </ol>
