@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 0.0, 100.0, 1539.0, 1340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,7 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
-		"title" : "Attributions — SousaFX 0.9.3 documentation",
+		"title" : "SousaFX Documentation — SousaFX 0.9.4 documentation",
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-37",
@@ -361,7 +361,7 @@
 					"patching_rect" : [ 349.0, 956.0, 566.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 121.0, 8.0, 1560.0, 24.0 ],
-					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/content/attrib.html"
+					"text" : "file:///Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaFX/.docs/index.html"
 				}
 
 			}
@@ -641,7 +641,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 35.0, 766.0, 596.0 ],
 					"rendermode" : 0,
-					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/content/attrib.html"
+					"url" : "file:///Users/jbaylies/Documents/Max%208/Projects/sousastep/SousaFX/.docs/index.html"
 				}
 
 			}
@@ -1007,7 +1007,16 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

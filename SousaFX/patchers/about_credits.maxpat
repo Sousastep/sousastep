@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1531.0, 360.0, 414.0, 494.0 ],
+		"rect" : [ 1720.0, 402.0, 625.0, 494.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -266,8 +266,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 71.0, 313.0, 253.0, 35.0 ],
-					"text" : ";\rmax launchbrowser https://linktr.ee/sousastep"
+					"patching_rect" : [ 71.0, 313.0, 299.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://www.sousastep.quest/links/"
 				}
 
 			}
