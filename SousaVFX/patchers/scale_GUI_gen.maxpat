@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 106.0, 297.0, 1285.0, 1053.0 ],
+		"rect" : [ 1282.0, 323.0, 1285.0, 1053.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -345,7 +345,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1526.0, 428.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 42.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 46.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -384,7 +384,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1474.200000000000045, 428.0, 44.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 54.0, 44.0, 15.0 ],
+					"presentation_rect" : [ 3.0, 58.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -736,7 +736,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 392.0, 277.0, 100.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.475003764825829, 30.0, 170.0, 19.0 ],
+					"presentation_rect" : [ 4.0, 34.0, 170.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : ""
@@ -980,7 +980,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 894.5, 442.0, 45.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 47.0, 42.33333283662796, 18.0 ],
+					"presentation_rect" : [ 4.0, 51.0, 42.33333283662796, 18.0 ],
 					"textcolor" : [ 0.584313725490196, 1.0, 1.0, 1.0 ],
 					"tricolor" : [ 0.584313725490196, 1.0, 1.0, 1.0 ],
 					"varname" : "linkphasor_rate"
