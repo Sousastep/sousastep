@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1272.0, 123.0, 1264.0, 1287.0 ],
+		"rect" : [ 1083.0, 560.0, 1188.0, 819.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,13 +42,24 @@
 		"title" : "sidechained kick parameters",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-664",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1007.0, 318.0, 108.0, 22.0 ],
+					"text" : "s~ kick_duck_VFX"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 534.0, 388.0, 133.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -152,7 +163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 400.0, 375.0, 124.0, 35.0 ],
+					"patching_rect" : [ 400.0, 375.0, 126.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "if stutter enabled then disable kick ducker"
 				}
@@ -598,7 +609,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1125.0, 462.0, 78.0, 22.0 ],
-					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 55.555555555555557, 0.017452830188679, 0, -0.7, 379.629629629629619, 0.536320754716981, 0, 0.6, 1000.0, 1.0, 0, -0.795, "curve" ],
+					"restore" : [ 1000.0, 0.0, 1.0, 0.0, 1.0, 0, 0.0, 111.111111111111114, 0.0, 0, -0.7, 277.777777777777771, 0.481132075471698, 0, 0.55, 1000.0, 1.0, 0, -0.795, "curve" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -617,7 +628,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1281.0, 149.0, 61.0, 22.0 ],
-					"restore" : [ 35.748031496063021 ],
+					"restore" : [ 40.157480314960601 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -636,7 +647,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1190.0, 131.0, 53.0, 22.0 ],
-					"restore" : [ 80.31496062992133 ],
+					"restore" : [ 74.015748031496145 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -655,7 +666,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1098.0, 117.0, 65.0, 22.0 ],
-					"restore" : [ 119.34562469561881 ],
+					"restore" : [ 157.074084244009526 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -805,6 +816,7 @@
 							"parameter_longname" : "slide down",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "slide down",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -871,6 +883,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "resonance",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "resonance",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -909,6 +922,7 @@
 							"parameter_longname" : "cutoff freq",
 							"parameter_mmax" : 5000.0,
 							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "cutoff freq",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 3
@@ -1141,7 +1155,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 55.555555555555557, 0.017452830188679, 0, -0.7, 379.629629629629619, 0.536320754716981, 0, 0.6, 1000.0, 1.0, 0, -0.795 ],
+					"addpoints_with_curve" : [ 0.0, 1.0, 0, 0.0, 111.111111111111114, 0.0, 0, -0.7, 277.777777777777771, 0.481132075471698, 0, 0.55, 1000.0, 1.0, 0, -0.795 ],
 					"bgcolor" : [ 0.156862745098039, 0.156862745098039, 0.156862745098039, 0.68 ],
 					"classic_curve" : 1,
 					"id" : "obj-380",
@@ -1161,6 +1175,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[21]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -1651,6 +1666,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-373", 0 ],
+					"order" : 1,
+					"source" : [ "obj-372", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-664", 0 ],
+					"order" : 0,
 					"source" : [ "obj-372", 0 ]
 				}
 
