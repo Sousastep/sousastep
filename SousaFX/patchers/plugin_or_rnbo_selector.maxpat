@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 955.0, 214.0, 1392.0, 1162.0 ],
+		"rect" : [ 269.0, 271.0, 954.0, 1162.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 239.0, 225.0, 54.0, 22.0 ],
+					"patching_rect" : [ 278.0, 225.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -83,18 +83,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 437.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-37",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1392.0, 89.5, 54.0, 22.0 ],
-					"text" : "deferlow"
 				}
 
 			}
@@ -938,7 +926,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 309.0, 532.0, 700.0, 23.0 ]
+					"patching_rect" : [ 309.0, 532.0, 700.0, 23.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_or_plugin.json\""
 				}
 
 			}
@@ -1385,7 +1374,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
+					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -1894,29 +1883,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
-					"order" : 1,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 1 ],
-					"order" : 0,
-					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"source" : [ "obj-37", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-38", 0 ]
 				}
@@ -2039,6 +2005,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"midpoints" : [ 1402.5, 188.0, 241.0, 188.0, 241.0, 219.0, 173.5, 219.0 ],
+					"order" : 1,
+					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-77", 1 ]
 				}
@@ -2046,8 +2021,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"midpoints" : [ 1402.5, 188.0, 241.0, 188.0, 241.0, 219.0, 248.5, 219.0 ],
+					"destination" : [ "obj-8", 1 ],
+					"midpoints" : [ 1402.5, 188.0, 241.0, 188.0, 241.0, 219.0, 295.5, 219.0 ],
+					"order" : 0,
 					"source" : [ "obj-77", 0 ]
 				}
 
@@ -2069,7 +2045,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -2077,6 +2053,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
+					"order" : 1,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
 					"order" : 0,
 					"source" : [ "obj-84", 0 ]
 				}
