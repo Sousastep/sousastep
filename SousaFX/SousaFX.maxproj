@@ -2,8 +2,8 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3795813648,
-	"viewrect" : [ 1231.0, 1527.0, 478.0, 779.0 ],
+	"modificationdate" : 3796486967,
+	"viewrect" : [ 1407.0, 557.0, 478.0, 779.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
@@ -214,6 +214,11 @@
 				"local" : 1
 			}
 ,
+			"max_send.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"plugin_or_rnbo_selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -279,11 +284,6 @@
 				"local" : 1
 			}
 ,
-			"octaver.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
 			"phasor_to_BPM.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -301,6 +301,11 @@
 ,
 			"umenu_presets.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"octaver.rnbopat" : 			{
+				"kind" : "rnbopat",
 				"local" : 1
 			}
 ,
@@ -486,11 +491,6 @@
 			}
 ,
 			"restart_sousafx.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"max_send.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -834,10 +834,6 @@
 				"local" : 1
 			}
 ,
-			"crossover.gendsp" : 			{
-				"kind" : "gendsp"
-			}
-,
 			"dialNeedleText.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
@@ -1064,11 +1060,6 @@
 				"local" : 1
 			}
 ,
-			"octaver_rnbo_octaver.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"octaver_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1107,6 +1098,10 @@
 			"just_theDrop.json" : 			{
 				"kind" : "json",
 				"local" : 1
+			}
+,
+			"octaver_rnbo_octaver.json" : 			{
+				"kind" : "json"
 			}
 ,
 			"syncrate.txt" : 			{
