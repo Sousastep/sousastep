@@ -7,7 +7,7 @@
 				"data" : 				{
 					"stutterLFO::stutter volume[1]" : [ 0.0 ],
 					"stutterLFO::inthru" : [ 1.0 ],
-					"stutterLFO::window" : [ 10.0 ],
+					"stutterLFO::window" : [ 16.0 ],
 					"stutterLFO::offset[1]" : [ 0.03 ],
 					"stutterLFO::bypass_hipass" : [ 1 ],
 					"stutterLFO::accel-vol-dip" : [ 84.0 ],
