@@ -42,17 +42,6 @@
 		"title" : "sidechained kick parameters",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-664",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1007.0, 318.0, 108.0, 22.0 ],
-					"text" : "s~ kick_duck_VFX"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-50",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -1666,15 +1655,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-373", 0 ],
-					"order" : 1,
-					"source" : [ "obj-372", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-664", 0 ],
-					"order" : 0,
 					"source" : [ "obj-372", 0 ]
 				}
 
