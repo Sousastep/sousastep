@@ -14,10 +14,10 @@ as SousaFX, or on a separate computer.
 	or `Touchdesigner <https://derivative.ca/>`_ 
 	would also play nicely with SousaFX's control signals.
 
-.. figure:: media/vfx3.png
+.. figure:: media/vfx1.png
    :align: center
-   :width: 60%
-   :alt: vfx3
+   :width: 100%
+   :alt: SousaVFX
 
    ISF shader preset
 
@@ -41,7 +41,7 @@ Startup
 
 	If SousaVFX and SousaFX are running on different computers, 
 	then SousaFX's aformentioned audio outputs must be routed 
-	to SousaVFX's audio inputs of the same name.
+	to SousaVFX's audio inputs of the same name, and SousaPlayback's "perc 1" track's "Ext. Audio Effect" device's "Audio To" output must be routed to SousaVFX's "Audio IO" window's "Kick & Snare L/R" input.
 
 Pictures
 --------

@@ -4,7 +4,7 @@ Hardware
 Requirements
 ------------
 
-1. mac or windows computer
+1. mac or windows computer:
 
    Any m-series mac is recommended.
 
@@ -14,7 +14,9 @@ Requirements
 
    .. note:: To optimize your computer for audio performance, `check out these articles <https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&query=optimize>`_.
 
-2. audio interface
+|
+
+2. audio interface:
 
    The `RME Babyface Pro <https://www.rme-usa.com/babyface-pro.html>`_ is highly recommended.
 
@@ -22,25 +24,35 @@ Requirements
 
    You may also want to invest in a DI such as the `TrimTwo <https://www.radialeng.com/product/trim-two>`_ or `MixingLink <https://www.eventideaudio.com/pedals/mixinglink/>`_ to prevent venues' mixing boards from accidentally sending phantom power into your interface.
 
-3. headphones, in-ear monitors, or loudspeaker
+|
+
+3. headphones, in-ear monitors, or loudspeaker:
 
    `In ear monitors <https://www.youtube.com/watch?v=mHoljbkyAEs>`_ are vastly preferrable to headphones or speakers for being able to hear yourself while performing live.
 
-4. XLR microphone, or Yamaha SilentBrass™ mute & PersonalStudio™
+|
+
+4. XLR microphone, or Yamaha SilentBrass™ mute & PersonalStudio™:
 
    If you're using a `SilentBrass mute <https://usa.yamaha.com/products/musical_instruments/winds/silent_brass/silent_brass_sbj_series/index.html>`_ you'll need an `eighth inch TRS to dual quarter inch TS cable <https://www.sweetwater.com/store/search?s=3.5mm+trs+to+dual+1%2F4+ts>`_ to connect the PersonalStudio's headphone output to the audio interface's line inputs.
 
-5. tuba
+|
+
+5. tuba:
 
    A `LED sousaphone bell <https://edu.sousastep.quest/content/tutorials/LED-sousa-bell.html>`_ is optional.
 
-6. wireless game controller
+|
+
+6. wireless game controller:
 
    SousaFX is developed and tested with a PS4 controller, and an Xbox Elite 2 controller. The Xbox's layout is more ergonomic than Playstation, and the Playstation's buttons are more responsive than Xbox. 
 
    `All gamepads listed here are supported <https://github.com/libsdl-org/SDL/blob/SDL2/src/joystick/SDL_gamecontrollerdb.h>`_.
 
-7. velcro straps to attach the controller to the tuba
+|
+
+7. velcro straps to attach the controller to the tuba:
 
    I used to use `lettuce wraps <http://www.ashbeedesign.com/2013/01/recycle-lettuce-wrap-for-cord-control.html>`_, now I use `monoprice's cable ties <https://www.monoprice.com/search/index?keyword=velcro>`_.
 
@@ -49,15 +61,9 @@ Examples
 --------
 
 .. image:: media/rig1.jpg
-   :width: 40%
-   :align: center
-   :alt: 1
 
 |
 
 .. image:: media/rig3.jpg
-   :width: 60%
-   :align: center
-   :alt: 3
 
 |

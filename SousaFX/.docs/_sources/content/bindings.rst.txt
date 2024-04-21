@@ -9,7 +9,9 @@ Controller Bindings
 
 The controller bindings window uses Max's `crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch>`_ object to connect gamepad inputs with effect parameters.
 
-There are two factory preset slots for the default preset and a blank preset. The five user preset slots are empty, so the factory presets may be copied to the user preset by selecting the factory preset first, then selecting the empty user preset and saving. The factory presets can not be modified.
+There are two factory preset slots, and five user preset slots. Factory presets may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.
+
+.. important:: The factory presets can't be modified.
 
 To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
 

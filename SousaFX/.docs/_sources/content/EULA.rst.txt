@@ -23,7 +23,7 @@ License Grants and Purchase
 
     iii) You are an educational or other non-profit organization.
 
-1.3  To purchase one of the licenses specified above, visit our web site at https://sousastep.github.io/SousaFX-docs/en/master/content/purchase.html
+1.3  To purchase one of the licenses specified above, visit our web site at https://doc.sousastep.quest/content/purchase.html
 
 1.4  Those interested in licensing SousaFX for any other purpose should contact Sousastep at sousastep@gmail.com
 

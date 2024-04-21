@@ -65,6 +65,8 @@ Main Track List
 
 		Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.
 
+.. riserstrack::
+
 		- risers
 
 			For looper-length risers to :ref:`auto-play <risers>` prior to "the drop".
@@ -153,6 +155,12 @@ A. Monitor
 B. Network
 
 	Place :ref:`network jamming plugins <freeplugins>` here.
+
+	.. note::
+
+		To mute yourself in JamTaba's monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to hear your audio even though the input channel won't show a signal.
+
+		.. image:: media/jtba.png
 
 C. Main Out
 

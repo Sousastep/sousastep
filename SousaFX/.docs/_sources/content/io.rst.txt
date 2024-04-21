@@ -156,3 +156,12 @@ The output menu sets whether the main outputs are mono or stereo.
 - tuba + timefx env 
   
     VFX only.
+
+|
+
+.. image:: media/ioall.png
+   :width: 100%
+   :align: center
+   :alt: io.png
+
+|

@@ -115,33 +115,33 @@
 <li><p><a class="reference internal" href="loop.html#loopers"><span class="std std-ref">Looper</span></a> can auto-record after main audio input drops below the noise gate a certain number of times.</p></li>
 <li><p>After the looper’s done fading out, the auto-preset change now waits until the tuba stops playing.</p></li>
 <li><p><a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Drum and looper mute buttons</span></a> now unmute when held, and toggle mute when single-clicked.</p></li>
-<li><p>Main output is now sidechained to the talkback mic, which must be manually unmuted after the tuba stops playing.</p></li>
+<li><p>Main output is now sidechained to the <a class="reference internal" href="playback.html#talkbacktrack"><span class="std std-ref">talkback mic</span></a>, which must be manually unmuted after the tuba stops playing.</p></li>
 <li><p><a class="reference internal" href="modparms.html#select-lowpass-filter-type"><span class="std std-ref">Lowpass filter type</span></a> can randomize when looper finishes fading out.</p></li>
 <li><p>Initial preset can be set for the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> and <a class="reference internal" href="main.html#main-presets"><span class="std std-ref">main presets</span></a>.</p></li>
 <li><p>Refactor envelopes and add <a class="reference internal" href="mainenv.html#main-envelope"><span class="std std-ref">main envelope sensitivity</span></a> parameter.</p></li>
 <li><p>Allow <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">RNBO compressors’</span></a> sidechain EQ’s midfreq to boost up to 36 dB.</p></li>
 <li><p>Allow <a class="reference internal" href="fxbanks.html#postxfadefx"><span class="std std-ref">post-crossfade FX</span></a> to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.</p></li>
 <li><p>Add <a class="reference internal" href="basicfx.html#basicfx"><span class="std std-ref">BasicFX</span></a> for using SousaVFX without SousaFX.</p></li>
-<li><p>Allow the <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Modulation Parameters’</span></a> function’s breakpoint positions to be adjusted and saved to the main preset.</p></li>
+<li><p>Allow the <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Modulation Parameters’</span></a> function’s breakpoint positions to be adjusted and saved to the <a class="reference internal" href="main.html#main-presets"><span class="std std-ref">main preset</span></a>.</p></li>
 </ul>
 </section>
 <section id="sousaplayback">
 <h3>Sousa​Playback<a class="headerlink" href="#sousaplayback" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>Allow <a class="reference internal" href="playback.html#autolink"><span class="std std-ref">Live Link</span></a> to be enabled automatically on startup.</p></li>
-<li><p>On startup, play first scene, and select second scene.</p></li>
+<li><p>When SousaFX starts up, SousaPlayback’s first scene auto-plays, and second scene’s selected.</p></li>
 <li><p>Next scene can <a class="reference internal" href="loop.html#cliptrigger"><span class="std std-ref">auto-play</span></a> when SousaFX’s looper finishes fading out.</p></li>
 <li><p>Clips can <a class="reference internal" href="loop.html#cliptrigger"><span class="std std-ref">randomize</span></a> when SousaFX’s looper finishes fading out.</p></li>
 <li><p>Talkback mic <a class="reference internal" href="playback.html#talkbacktrack"><span class="std std-ref">auto-mutes</span></a> itself when tuba starts playing.</p></li>
-<li><p>New track to auto-play risers when <a class="reference internal" href="loop.html#risers"><span class="std std-ref">SousaFX’s looper</span></a> starts fading out.</p></li>
+<li><p><span class="xref std std-ref">Risers</span> can auto-play when <a class="reference internal" href="loop.html#risers"><span class="std std-ref">SousaFX’s looper</span></a> starts fading out.</p></li>
 </ul>
 </section>
 <section id="sousavfx">
 <h3>Sousa​VFX<a class="headerlink" href="#sousavfx" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>Remove Twitch bot. Will return later.</p></li>
-<li><p>Improve efficiency by using <code class="docutils literal notranslate"><span class="pre">xray.jit.cellvalue</span></code> instead of <code class="docutils literal notranslate"><span class="pre">getcell</span></code></p></li>
 <li><p>Allow Kick &amp; Snare envelope to affect params.</p></li>
+<li><p>Replace scaling abstraction’s one-row matrix with menu.</p></li>
 </ul>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -159,15 +159,17 @@
 </section>
 <section id="known-bugs">
 <h2>Known Bugs<a class="headerlink" href="#known-bugs" title="Link to this heading"></a></h2>
+<ul class="simple">
+<li><p>the <a class="reference internal" href="prestige.html#prestige-system"><span class="std std-ref">About SousaFX</span></a> window shows “0 0” as install date on first boot.</p></li>
+<li><p>if you <a class="reference internal" href="MaxOrPluginSelector.html#selectable-effects"><span class="std std-ref">reinstantiate an effect</span></a> after saving its first user preset without rebooting SousaFX, the effect will reload its default preset.</p></li>
+<li><p>if an <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">FX Bank</span></a> is set to “bypass when looper’s inactive”, it must be manually unbypassed before saving a main preset.</p></li>
+<li><p>plugin selectors can only clear plugin slot by manually deleting json file in data folder.</p></li>
+<li><p><a class="reference internal" href="pcl.html#parameter-control-logic"><span class="std std-ref">Param Control Logic’s</span></a> “This control is mapped to the joystick” message won’t update when switching presets. It will update when manually adding and removing connections.</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Feel free to submit bug reports or feature requests to <a class="reference external" href="https://github.com/Sousastep/sousastep/issues" rel="noopener noreferrer" target="_blank">GitHub Issues</a></p>
 </div>
-<ul class="simple">
-<li><p>plugin selectors can only clear plugin slot by manually deleting json file in data folder.</p></li>
-<li><p>the About window shows “0 0” as install date on first boot.</p></li>
-<li><p><a class="reference internal" href="pcl.html#parameter-control-logic"><span class="std std-ref">Param Control Logic’s</span></a> “This control is mapped to the joystick” message is only correct on load and won’t update when switching presets. It will update when manually adding and removing connections.</p></li>
-</ul>
 </section>
 </section>
 
