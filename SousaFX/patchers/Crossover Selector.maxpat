@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 429.0, 675.0, 562.0, 245.0 ],
+		"rect" : [ 1139.0, 650.0, 562.0, 245.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,244 @@
 		"assistshowspatchername" : 0,
 		"title" : "crossover selector",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 114.075958482105762, 477.075275646941122, 162.0, 22.0 ],
+					"text" : "s \"bypass octaver's lowpass\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 336.075958482105762, 503.075275646941122, 138.0, 22.0 ],
+					"text" : "s \"bypass lows lowpass\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-72",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 527.075958482105762, 497.075275646941122, 178.0, 22.0 ],
+					"text" : "s \"bypass Sustain FX highpass\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-73",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 743.075958482105762, 502.075275646941122, 170.0, 22.0 ],
+					"text" : "s \"bypass Attack FX highpass\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 112.075958482105762, 389.075275646941122, 180.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"bypass octaver's lowpass\"",
+					"varname" : "bypass octaver's lowpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 333.075958482105762, 419.075275646941122, 156.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"bypass lows lowpass\"",
+					"varname" : "bypass lows lowpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 520.075958482105762, 419.075275646941122, 196.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"bypass Sustain FX highpass\"",
+					"varname" : "bypass Sustain FX highpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 732.075958482105762, 416.075275646941122, 188.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"bypass Attack FX highpass\"",
+					"varname" : "bypass Attack FX highpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 842.075958482105762, 448.075275646941122, 66.0, 47.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 241.0, 138.0, 148.0, 33.0 ],
+					"text" : "bypass Attack FX highpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 816.075958482105762, 459.075275646941122, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 215.0, 143.0, 24.0, 24.0 ],
+					"varname" : "toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.075958482105762, 443.075275646941122, 71.0, 74.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 241.0, 98.0, 138.0, 33.0 ],
+					"text" : "bypass Sustain FX highpass (mutes lows)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 608.075958482105762, 461.075275646941122, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 215.0, 103.0, 24.0, 24.0 ],
+					"varname" : "toggle[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 350.075958482105762, 461.075275646941122, 97.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 49.0, 98.0, 138.0, 20.0 ],
+					"text" : "bypass lows' lowpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 333.075958482105762, 465.075275646941122, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 23.0, 96.0, 24.0, 24.0 ],
+					"varname" : "toggle[2]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.075958482105762, 435.075275646941122, 104.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 51.0, 145.0, 148.0, 20.0 ],
+					"text" : "bypass octaver's lowpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 112.075958482105762, 439.075275646941122, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 23.0, 143.0, 24.0, 24.0 ],
+					"varname" : "toggle[3]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-426",
@@ -497,10 +735,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.075958482105762, 1201.888866530711084, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage crossover_plugin_or_gen @greedy 2 @savemode 0",
@@ -620,12 +858,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 658.388527134693504, 676.077780353919479, 50.0, 63.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 241.0, 120.0, 50.0, 63.0 ],
+					"presentation_rect" : [ 241.0, 178.0, 50.0, 63.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Xfreq",
 							"parameter_mmax" : 130.0,
 							"parameter_mmin" : 80.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "cross freq",
 							"parameter_steps" : 11,
 							"parameter_type" : 1,
@@ -799,7 +1038,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ProQ3_crossovers.maxpat",
+					"name" : "crossovers.maxpat",
 					"numinlets" : 7,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
@@ -847,7 +1086,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1463.575958482105762, 136.510887993343204, 112.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1032,6 +1271,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-13", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 4 ],
 					"source" : [ "obj-15", 0 ]
 				}
@@ -1041,6 +1294,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 5 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
@@ -1060,8 +1327,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-73", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-72", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -1095,6 +1376,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"order" : 1,
 					"source" : [ "obj-32", 0 ]
@@ -1106,6 +1394,13 @@
 					"destination" : [ "obj-46", 0 ],
 					"order" : 0,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-70", 0 ],
+					"source" : [ "obj-38", 0 ]
 				}
 
 			}
