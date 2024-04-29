@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 582.0, 1527.0, 1372.0, 779.0 ],
+		"rect" : [ 563.0, 1527.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1324.0, 1210.0, 80.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "1 = free rate, 0 = sync rate"
 				}
@@ -398,7 +397,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1303.0, 1145.0, 141.0, 47.0 ],
+					"patching_rect" : [ 1303.0, 1145.0, 142.0, 47.0 ],
 					"text" : "phasor with phase offset and (outside of gen~) rate multiplier for visuals"
 				}
 
@@ -519,8 +518,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.139887502493821, 2849.333342432975769, 80.0, 22.0 ],
-					"text" : "slide 180 180"
+					"patching_rect" : [ 157.0, 2849.0, 80.0, 22.0 ],
+					"text" : "slide 240 240"
 				}
 
 			}
@@ -1221,8 +1220,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 553.139887502493821, 2849.333342432975769, 80.0, 22.0 ],
-					"text" : "slide 180 180"
+					"patching_rect" : [ 554.0, 2849.0, 80.0, 22.0 ],
+					"text" : "slide 240 240"
 				}
 
 			}
