@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1135.0, 526.0, 289.0, 387.0 ],
+		"rect" : [ 1135.0, 526.0, 1425.0, 766.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,73 @@
 		"title" : "monitor mix",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1330.0, 692.0, 139.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"solo trim main out\"",
+					"varname" : "solo trim main out[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"appearance" : 2,
+					"fontname" : "Monaco",
+					"fontsize" : 11.0,
+					"hint" : "MIDI mapped to Ableton Live's \"playack bus\" track's monitor mix volume send.",
+					"id" : "obj-4",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"panelcolor" : [ 1.0, 1.0, 1.0, 0.45 ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 1339.0, 741.0, 50.0, 80.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 213.0, 34.0, 71.0, 80.0 ],
+					"saved_attribute_attributes" : 					{
+						"panelcolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_longname" : "solo trim main out",
+							"parameter_mmax" : 0.0,
+							"parameter_mmin" : -24.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "solo trim main out",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "solo trim main out"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-765",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1339.0, 826.0, 144.0, 22.0 ],
+					"text" : "s \"solo FOH trim amount\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -65,7 +132,9 @@
 					"outlettype" : [ "", "float" ],
 					"panelcolor" : [ 1.0, 1.0, 1.0, 0.45 ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1224.0, 230.0, 59.0, 80.0 ],
+					"patching_rect" : [ 1224.5, 230.5, 103.5, 80.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 76.0, 34.0, 88.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"panelcolor" : 						{
 							"expression" : ""
@@ -124,7 +193,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 822.0, 545.0, 133.0, 22.0 ],
-					"restore" : [ -10.47244094488191 ],
+					"restore" : [ -7.71653543307086 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -141,7 +210,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 822.0, 668.0, 180.0, 22.0 ],
+					"patching_rect" : [ 798.5, 681.0, 180.0, 22.0 ],
 					"text" : "s \"playback bus monitor mix vol\""
 				}
 
@@ -444,7 +513,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1242.0, 475.0, 114.0, 137.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 96.0, 9.0, 86.0, 107.0 ],
+					"presentation_rect" : [ 6.0, 15.0, 86.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "metronome",
@@ -617,10 +686,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 1482.0, 340.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage monitor_mix @greedy 2 @savemode 0",
@@ -794,7 +863,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1293.0, 230.0, 212.0, 81.0 ],
+					"patching_rect" : [ 1334.0, 230.0, 212.0, 81.0 ],
 					"suppressinlet" : 1,
 					"text" : "the monitor boost for the solo bypasses the main reverb, comp, and limiter. Set this dial to copensate for the difference in gain."
 				}
@@ -899,30 +968,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-203",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 540.0, 456.0, 114.0, 22.0 ],
-					"text" : "delay~ 10000 0 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-201",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 347.0, 456.0, 114.0, 22.0 ],
-					"text" : "delay~ 10000 0 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"args" : [ "monitor_EQ", "rnbo_ParamEQ" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -950,7 +995,7 @@
 				"box" : 				{
 					"comment" : "metronome",
 					"id" : "obj-458",
-					"index" : 6,
+					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -969,19 +1014,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 841.0, 198.0, 30.0, 30.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-460",
-					"index" : 5,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1065.0, 405.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1061,20 +1093,22 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 347.0, 583.0, 160.0, 131.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 125.0, 15.0, 123.0, 107.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "main monitor volume",
+							"parameter_longname" : "solo monitor boost",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "main monitor volume",
+							"parameter_shortname" : "solo monitor boost",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
 
 					}
 ,
-					"varname" : "solo boost"
+					"varname" : "solo monitor boost"
 				}
 
 			}
@@ -1241,28 +1275,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"source" : [ "obj-201", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-12", 1 ],
-					"source" : [ "obj-203", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
 					"source" : [ "obj-207", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-201", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-209", 0 ]
 				}
 
@@ -1328,16 +1348,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 1,
-					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-440", 0 ],
-					"order" : 0,
 					"source" : [ "obj-32", 1 ]
 				}
 
@@ -1419,6 +1430,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-397", 0 ],
 					"source" : [ "obj-398", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-440", 0 ],
+					"source" : [ "obj-4", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-765", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
@@ -1564,22 +1589,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-201", 1 ],
-					"order" : 1,
-					"source" : [ "obj-460", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 1 ],
-					"order" : 0,
-					"source" : [ "obj-460", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-363", 0 ],
 					"source" : [ "obj-461", 0 ]
 				}
@@ -1596,6 +1605,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-362", 0 ],
 					"source" : [ "obj-464", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-5", 1 ]
 				}
 
 			}
