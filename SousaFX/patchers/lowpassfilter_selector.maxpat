@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1079.0, 627.0, 401.0, 185.0 ],
+		"rect" : [ 1014.0, 841.0, 403.0, 187.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "lowpass filter selector",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-26",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1768.583333333333258, 427.0, 103.0, 22.0 ],
+					"text" : "Just_H3K.maxpat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-68",
 					"maxclass" : "newobj",
@@ -94,6 +106,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
 					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"hidden" : 1,
 					"id" : "obj-64",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -427,7 +440,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 468.0, 409.575275646941122, 419.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 159, 552, 443 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 257, 400, 708, 528 ]
@@ -771,7 +784,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1323.0, 222.172325614417559, 151.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 3 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -786,11 +799,11 @@
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 1734.0, 421.0, 54.0, 22.0 ],
-					"text" : "sel 0 1 2"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 1734.833333333333258, 391.0, 64.0, 22.0 ],
+					"text" : "sel 0 1 2 3"
 				}
 
 			}
@@ -808,7 +821,7 @@
 					"fontsize" : 10.0,
 					"hint" : "Choose between max-native effect, or a plugin. Your selection is auto-saved.",
 					"id" : "obj-1",
-					"items" : [ "gen~", "filters", ",", "Moog", "MF-101S", ",", "Cytomic", "The", "Drop" ],
+					"items" : [ "gen~", "filters", ",", "Moog", "MF-101S", ",", "Cytomic", "The", "Drop", ",", "Eventide", "H3000" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -852,7 +865,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1253,6 +1266,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"order" : 0,
 					"source" : [ "obj-27", 0 ]
@@ -1279,6 +1299,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 1 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"source" : [ "obj-3", 3 ]
 				}
 
 			}
