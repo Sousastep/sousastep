@@ -59,7 +59,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 610.0, 207.0, 50.0, 62.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.875 0.013672 1."
 				}
 
@@ -107,7 +106,7 @@
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -318,7 +317,7 @@
 				"box" : 				{
 					"comment" : "plugin latency in samples",
 					"id" : "obj-4",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -402,7 +401,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 314.0, 806.0, 98.0, 29.0 ],
+					"patching_rect" : [ 356.0, 805.0, 98.0, 29.0 ],
 					"restore" : [ 						{
 							"filetype" : "C74Snapshot",
 							"version" : 2,
@@ -420,7 +419,7 @@
 								"version" : 1,
 								"isbank" : 0,
 								"isbase64" : 1,
-								"blob" : "7691.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEwArA..............rC..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A.........f.........DH.........BB........vf.........PH.........EB........fg.........bH.........HB........Ph.........nH.........KB.........i.........zH.........NB........vi..........I.........QB........fj.........LI.........TB........Pk.........XI.........WB.........l.........jI.........ZB........vl.........vI.........cB........fm.........7I.........fB........Pn.........HJ.........iB.........o.........TJ.........lB........vo.........fJ.........oB........fp.........rJ.........rB........Pq.........3J.........uB.........r.........DK.........xB........vr.........PK.........0B........fs.........bK.........3B........Pt.........nK.........6B.........u.........zK.........9B........vu..........L.........AC........fv.........LL.........DC........Pw.........XL.........GC.........x.........jL.........JC........vx.........vL.........MC........fy.........7L.........PC........Pz.........HM.........SC.........0.........TM.........VC........v0.........fM.........YC........f1.........rM.........bC........P2.........3M.........eC.........3.........DN.........hC........v3.........PN.........kC........f4.........bN.........nC........P5.........nN.........qC....fzLzfCRDULQIizOv.DQDELUkjavUGcYMUZjU1XnEVZtE8CSX0S0QGb0QmDFE1Xx.A.RDVcsY1SQTQm60fBf.hHvwVcmklaIQjH5.hHFE1XxHBKMn.HfHBbrU2Yo4lUkImH5.hHw3BLtPiHrzfBf.hHyQWavIhNf.iKvvRCJ.BHhPWavUlH5.RLt.CKMn.HfHBcsA2ahnCHwDSNtjSN4jSNxLyMvXCL0TCKMn.HfHRazImahnCHz3BLrzfBf.hHsQmbjIhNfPiKvvRCJ.BHhzVaogmH5.RLt.CKMn.HfHRZmElahnCHwHiKvvRCJ.BHh71Yg4lH5.RKwHiKv.CLv.CL4TyL1bCMyHCKMn.HfHhYmQGbhnCHw3BLrzfBf.hHlcVXsIhNfDiKvvRCJ.BHhX1YxQmH5.hLt.CLv.CLvHyL3PSL3TyM4vRCJ.BHhX1YzMmH5.RLt.CKMn.HfHhYmQWahnCHv3RN4jSN4jCNxDSL3XCL1TyMrzfBf.hHlcFcxIhNf.iKvvRCJ.BHhzVa3gmH5.BLt.CKMn.HfHRaskFahnCHv3BLrzfBf.hHs0VZnIhNfDiKvvRCJ.BHhX1YggmH5.BLt.CKMn.HfHhYmEFahnCHv3BLw.CLw.CLv.yLwfiL3fCNrzfBf.hHlcVXnIhNfDiKvvRCJ.BHhX1YxgmH5.BLt.CKMn.HfHhYmIGahnCHv3BL4jSN4jSN3XSM3fSN0PSNyvRCJ.BHhX1YxglH5.hLv3BLv.CLvTyMxHCLzTSNrzfBf.hHlclXrIhNfHCLt.CKMn.HfHhYmIFZhnCHv3RLv.CLv.CLvDCM4.SLwXSLrzfBf.hHlcFc3IhNf.iKvvRCJ.BHhX1YzwlH5.BLtPCLv.CLv.CL0jiMvPiMzTCKMn.HfHhYmQGZhnCHv3BNv.CLv.CLwDSNx.SNxjCKMn.HfHBYwDVahnCHv3RLxTCLv.CLxjCNvHyLxHCMrzfBf.hHjISXsIhNf.iKwHSMv.CLvHSN3.iLyHiLzvRCJ.BHhPVLtIlH5.BLtHSMv.CLv.iL4fCLxLiLxPCKMn.HfHBYx3lXhnCHv3hL0.CLv.CLxjCNvHyLxHCMrzfBf.hHjESagIhNf.iKvvRCJ.BHhPlLsElH5.BLt.CKMn.HfHBYwXVXhnCHv3BLrzfBf.hHjIiYgIhNf.iKvvRCJ.BHhPVLrAmH5.BLt.CKMn.HfHBYxvFbhnCHv3BLrzfBf.hHjECZlIhNfbSN4jiK4jSN0DSL2DCN2TCKMn.HfHBYxflYhnCH2jSN43RN4jSMwDyMwfyM0vRCJ.BHhPVLn0lH5.BLt.CKMn.HfHBYxfVahnCHv3BLrzfBf.hHjECY3IhNf.iKvvRCJ.BHhPVLjwlH5.BLt.CKMn.HfHBYwPFZhnCHv3hMv.CLv.CLxLCNzDCN0bSNrzfBf.hHjICY3IhNf.iKvvRCJ.BHhPlLjwlH5.BLt.CKMn.HfHBYxPFZhnCHv3hMv.CLv.CLxLCNzDCN0bSNrzfBf.hHjECa3IhNf.iKvvRCJ.BHhPVLrwlH5.BLtPCLv.CLv.CL0jiMvPiMzTCKMn.HfHBYwvFZhnCHv3BNv.CLv.CLwDSNx.SNxjCKMn.HfHBYxvFdhnCHv3BLrzfBf.hHjICarIhNf.iKz.CLv.CLv.SM4XCLzXCM0vRCJ.BHhPlLrglH5.BLtfCLv.CLv.SLwjiLvjiL4vRCJ.BHhPVLgklH5.BLt.CKMn.HfHBYxDVZhnCHv3BLrzfBf.hHjESaoIhNf.iKvvRCJ.BHhPlLsklH5.BLt.CKMn.HfHBYwXVZhnCHv3BLrzfBf.hHjIiYoIhNf.iKvvRCJ.BHhvVLyglH5.BLt.CKMn.HfHBaxLGZhnCHv3BLrzfBf.hHrEiYxIhNfDiK4jSN4jSN2XSL0fSLzHSLrzfBf.hHrIiYxIhNfDiK4jSN4jSN2XSL0fSLzHSLrzfBf.hHrEiXzIhNfDiKv.CLv.CLwDSNx.SNxjCKMn.HfHBaxHFchnCHw3BLv.CLv.SLwjiLvjiL4vRCJ.BHhvVLl0lH5.BLt.CKMn.HfHBaxXVahnCHv3BLrzfBf.hHrECcnIhNfzBMv3BLrzfBf.hHrICcnIhNfzBMv3BLrzfBf.hHrESa3IhNf.iKvvRCJ.BHhvVLswlH5.BLt.SN4jSN4jyMwXCN2bSNybyLrzfBf.hHrESanIhNfHCLt.CLv.CL0biLx.CM0jCKMn.HfHBawHFahnCHx.iKvvRCJ.BHhvVLhglH5.BLtDCLv.CLv.CLwPSNvDSL1DCKMn.HfHBaxzFdhnCHv3BLrzfBf.hHrISarIhNf.iKvjSN4jSN4bSL1fyM2jyL2LCKMn.HfHBaxzFZhnCHx.iKv.CLv.SM2HiLvPSM4vRCJ.BHhvlLhwlH5.hLv3BLrzfBf.hHrIiXnIhNf.iKw.CLv.CLv.SLzjCLwDiMwvRCJ.BHhvVLsklH5.BLt.CKMn.HfHBaxzVZhnCHv3BLrzfBf.hHrECchIhNfDiKvvRCJ.BHhvlLzIlH5.RLt.CKMn.HfHBawPmbhnCHv3BLrzfBf.hHrICcxIhNf.iKvvRCJ.BHh.WLyElH5.BLt.CLv.yMwTiL0TyMybyLvPiM3bSMrzfBf.hHvIybgIhNf.iKv.CLvbSL0HSM0byL2LCLzXCN2TCKMn.HfHBbwz1bhnCHv3BLrzfBf.hHvISayIhNf.iKvvRCJ.BHh.WLjkmH5.BLtDiL0.CLv.iL4fCLxLiLxPCKMn.HfHBbxPVdhnCHv3RLxTCLv.CLxjCNvHyLxHCMrzfBf.hHvEiahIhNf.iKxTCLv.CLvHSN3.iLyHiLzvRCJ.BHh.mLtIlH5.BLtHSMv.CLv.iL4fCLxLiLxPCKMn.HfHBbwLGahnCHv3BLwjSN4jSN4jSM0HSN1TSL1vRCJ.BHh.mLywlH5.BLt.SL4jSN4jSN4TSMxjiM0DiMrzfBf.hHvECatIhNfPCLt.CKMn.HfHBbxvlahnCHz.iKvvRCJ.BHh.WLn4lH5.BLt.CKMn.HfHBbxflahnCHv3BLrzfBf.hHvECdrIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHvICdrIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHvEybuIhNf.iKvvRCJ.BHh.mLy8lH5.BLt.CKMn.HfHBbw.GYhnCHw3BLrzfBf.hHvICbjIhNfDiKvvRCJ.BHh.WLsgmH5.BLt.CKMn.HfHBbwzFahnCHsDSL4jiK4jSN3byM4HSN1fCNrzfBf.hHvESanIhNfDiLv.iKvvRCJ.BHh.mLsgmH5.BLt.CKMn.HfHBbxzFahnCHsDSL4jiK4jSN3byM4HSN1fCNrzfBf.hHvISanIhNfDiLv.iKvvRCJ.BHh.WLjgmH5.BLt.CKMn.HfHBbwPFahnCHv3BLrzfBf.hHvECYnIhNf.iK1.CLv.CLvHyL3PSL3TyM4vRCJ.BHh.mLjgmH5.BLt.CKMn.HfHBbxPFahnCHv3BLrzfBf.hHvICYnIhNf.iK1.CLv.CLvHyL3PSL3TyM4vRCJ.BHh.WLgklH5.BLt.CKMn.HfHBbxDVZhnCHv3BLrzfBf.hHvEyboIhNf.iKvvRCJ.BHh.mLyklH5.BLt.CKMn.HfHBbwPVZhnCHv3BLrzfBf.hHvICYoIhNf.iKvvRCJ.BHhDVLgElH5.RLt.CKMn.HfHRXxDVXhnCHw3BLrzfBf.hHgEyalIhNf.iKvvRCJ.BHhDlLuYlH5.BLt.CKMn.HfHRXwDVZhnCHv3BLrzfBf.hHgISXoIhNf.iKvvRCJ.BHhDVLsklH5.BLt.CKMn.HfHRXxzVZhnCHv3BLrzfBf.hHyEybgIhNfDiKvvRCJ.BHhLmLyElH5.RLt.CKMn.HfHxbwzFdhnCHv3BLrzfBf.hHyESarIhNfzRLt.CKMn.HfHxbwzFZhnCHw3BLrzfBf.hHyISa3IhNf.iKvvRCJ.BHhLmLswlH5.RKw3BLrzfBf.hHyISanIhNfDiKvvRCJ.BHhLWLgklH5.BLt.CKMn.HfHxbxDVZhnCHv3BLrzfBf.hHkESXzIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHkISXzIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHkECY4IhNf.iKw.CLv.CLv.SLzjCLwDiMwvRCJ.BHhTlLjkmH5.BLtDCLv.CLv.CLwPSNvDSL1DCKMn.HfHRYwPFchnCHsPCLt.CKMn.HfHRYxPFchnCHsPCLt.CKMn.HfHRYwPlbhnCHw3BLrzfBf.hHkICYxIhNfDiKvvRCJ.BHhTVLgklH5.BLt.CKMn.HfHRYxDVZhnCHv3BLrzfBf.hHlEiYzIhNf.iKvvRCJ.BHhXlLlQmH5.BLt.CKMn.HfHhYwXlYhnCHwjiK4jSN4jCNvjiL1TSLybCKMn.HfHhYxXlYhnCHzjSNtjSN4fyM2jiL4XCN2TCKMn.HfHhYwXVbhnCHyPCMtfyM4DCNvjCL3HCLyDCKMn.HfHhYxXVbhnCHw3BLrzfBf.hHlEiYsIhNfbCLv.iKvvRCJ.BHhXlLl0lH5.BLt.CKMn.HfHhYwXFdhnCHv3BLrzfBf.hHlEiYrIhNfDiKvvRCJ.BHhXVLlglH5.xMv.CLt.CKMn.HfHhYxXFdhnCHv3BLrzfBf.hHlIiYrIhNfDiKvvRCJ.BHhXlLlglH5.xMv.CLt.CKMn.HfHhYwDGdhnCHv3BLrzfBf.hHlESbrIhNf.iK0vRCJ.BHhXVLwglH5.RMv.iKv.CLvjSL0TiL2LCMzvRCJ.BHhXlLwgmH5.BLt.CKMn.HfHhYxDGahnCHv3RMrzfBf.hHlISbnIhNfTCLv3BLv.CL4DSM0HyMyPCMrzfBf.hHlESXoIhNfDiKvvRCJ.BHhXlLgklH5.BLt.CKMn.HfHhYwzVZhnCHy3BLrzfBf.hHlISaoIhNf.iKvvRCJ.BHhzVLrElH5.BLtTCKMn.HfHRaxvVXhnCHv3RMrzfBf.hHsMCagIhNf.iK0vRCJ.BHhzFMrElH5.BLtTCKMn.HfHRawvlXhnCHv3RMrzfBf.hHsICahIhNf.iK0vRCJ.BHhz1LrIlH5.BLtTCKMn.HfHRazvlXhnCHv3RMrzfBf.hHsESX3IhNf.iKvvRCJ.BHhzVLgwlH5.RKw3BLrzfBf.hHsESXnIhNfDiKvvRCJ.BHhzlLggmH5.BLt.CKMn.HfHRaxDFahnCHsDiKvvRCJ.BHhzlLgglH5.RLt.CKMn.HfHRayDFdhnCHv3BLrzfBf.hHsMSXrIhNfzRLt.CKMn.HfHRayDFZhnCHw3BLrzfBf.hHsQSX3IhNf.iKvvRCJ.BHhzFMgwlH5.RKw3BLrzfBf.hHsQSXnIhNfDiKvvRCJ.BHhzVLhgmH5.BLt.CKMn.HfHRawHFahnCHsDiKvvRCJ.BHhzVLhglH5.RLt.CKMn.HfHRaxHFdhnCHv3BLrzfBf.hHsIiXrIhNfzRLt.CKMn.HfHRaxHFZhnCHw3BLrzfBf.hHsMiX3IhNf.iKvvRCJ.BHhz1LhwlH5.RKw3BLrzfBf.hHsMiXnIhNfDiKvvRCJ.BHhzFMhgmH5.BLt.CKMn.HfHRazHFahnCHsDiKvvRCJ.BHhzFMhglH5.RLt.CKMn.HfHRawDVZhnCHv3BLrzfBf.hHsISXoIhNf.iKvvRCJ.BHhz1LgklH5.BLt.CKMn.HfHRazDVZhnCHv3BLrzfBf.hHsEiXoIhNf.iKvvRCJ.BHhzlLhklH5.BLt.CKMn.HfHRayHVZhnCHv3BLrzfBf.hHsQiXoIhNf.iKvvRCJ.BHhz1Z1ElH5.BLt.CKMn.HfHRaqYGdhnCHv3BLrzfBf.hHsslcrIhNfzRLt.CKMn.HfHRaqYGZhnCHw3BLrzfBf.hHr81bxIhNfHiLt.CKMn.HfHhbuMmbhnCHv3BLrzfBf.hHv8FawHhNf.iKvvRCJ.BHh.2arIiH5.BLt.CKMn.HfHBbuw1LhnCHv3BLrzfBf.hHv8FazHhNf.iKvvRCJ.BHhL2Z4EiH5.RLt.CKMn.HfHxbqkmLhnCHw3BLrzfBf.hHysVdyHhNfDiKvvRCJ.BHhL2Z4QiH5.RLt.CKMn.HfHRakQ2bhnCHw3BLrzfBf.hHyMWYrIhNfPiKvvRCJ.BHh.2bkwlH5.BLt.CKMn.HfHRayUFahnCHz3BLrzfBf.hHy4VXvMGZuQGLhnCHhHBKMn.HfHxbtEFbyg1azEiH5.hHhvRCJ.BHhLmagA2bn8FcxHhNfHhHrzfBf.hHy4VXvMGZuQ2LhnCHhHBKMn.HfHxbtEFbyg1azQiH5.hHhvRCJ.BHhLmagA2bn8Fc0HhNfHhHrzfBf.hHy4VXvMGZuQmMhnCHhHBKMn.HfHxbtEFbyg1azciH5.hHhvRCJ.BHhLmagA2bn8Fc3HhNfHhHrzfBf.hHy4VXvMGZuQWNhnCHhHBKMn.HfHxbtEFbyg1azECLhnCHhHBKMn.HfHxbtEFbyg1azESLhnCHhHBKMn.HfHxbtEFbyg1azEiLhnCHhHBKMn.HfHxbtEFbyg1azEyLhnCHhHBKMn.HfHxbtEFbyg1azECMhnCHhHBKMn.HfHxbtEFbyg1azESMhnCHhHBKMn.HfHxbq4VLhnCHhL0alQ2ZkkWLhvRCJ.BHhL2ZtIiH5.hHS8lYzsVY4IiHrzfBf.hHyslayHhNfHxTuYFcqUVdyHBKMn.HfHxbq4FMhnCHhL0alQ2ZkkGMhvRCJ.BHhzFbvDiH5.BLrzfBf.hHsAGLxHhNfDCKMn.HfHRavAyLhnCH1vRCJ.BHhzFbvPiH5.xMrzfBf.hHsAGL0HhNfDiLrzfBf.hHsAGL1HhNfDyLrzfBf.hHsAGL2HhNfHCKMn.HfHRavACNhnCHyvRCJ.BHhzFbvjiH5.BNrzfBf.hHsAWLvHhNfjCKMn.HfHRavESLhnCHwPCKMn.HfHRavEiLhnCHwTCKMn.HfHRavEyLhnCHwXCKMn.HfHRavECMhnCHwbCKMn.HfHRavESMhnCHzvRCJ.BHhzFbwXiH5.RMrzfBf.hHsAWL2HhNfDCLrzfBf.hHsAWL3HhNfDSLrzfBf.hHsAWL4HhNfDCNrzfBf.hHsAmLvHhNfDSNrzfBf.hHsAmLwHhNfHCLrzfBf.hHsAmLxHhNfHiMrzfBf.hHsAmLyHhNfHSLrzfBf.hHsAmLzHhNfHiLrzfBf.hHsAmL0HhNfHyLrzfBf.hHsAmL1HhNfHCMrzfBf.hHsAmL2HhNfHSMrzfBf.hH1kVY2IhNfPmb0UFKMn.HfHBbxUVZhnCHwLCMwvRCJ.BHh.mbk4lH5.hHy8VcyElY38kYxUVbs8FYhzfB8gUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.j1AYef2G.9Ahev4Gj9AueP9GvOBCf.BHn.BOzAr........BD..........Y...................cjK"
+								"blob" : "7691.hAGaoMGcv.C1AHv.DTfAGfPBJr.EUXwEXvUag4VclE1XzUmbkIGUjEFcgwUYrUVak4Fcs3VXsU1UyUmXzkGbkckckI2bo8laTQWdvU1WP7fZ0MVYPwVcmklaSQWXzUFUtEVakIAUoQVYOEwArA..............rC..............A.........f..........L..........D.........PA.........X..........G..........B.........j..........J.........vB.........v..........M.........fC.........7..........P.........PD.........HA.........S..........E.........TA.........V.........vE.........fA.........Y.........fF.........rA.........b.........PG.........3A.........e..........H.........DB.........h.........vH.........PB.........k.........fI.........bB.........n.........PJ.........nB.........q..........K.........zB.........t.........vK..........C.........w.........fL.........LC.........z.........PM.........XC.........2..........N.........jC.........5.........vN.........vC.........8.........fO.........7C..........A........PP.........HD.........CA.........Q.........TD.........FA........vQ.........fD.........IA........fR.........rD.........LA........PS.........3D.........OA.........T.........DE.........RA........vT.........PE.........UA........fU.........bE.........XA........PV.........nE.........aA.........W.........zE.........dA........vW..........F.........gA........fX.........LF.........jA........PY.........XF.........mA.........Z.........jF.........pA........vZ.........vF.........sA........fa.........7F.........vA........Pb.........HG.........yA.........c.........TG.........1A........vc.........fG.........4A........fd.........rG.........7A........Pe.........3G.........+A.........f.........DH.........BB........vf.........PH.........EB........fg.........bH.........HB........Ph.........nH.........KB.........i.........zH.........NB........vi..........I.........QB........fj.........LI.........TB........Pk.........XI.........WB.........l.........jI.........ZB........vl.........vI.........cB........fm.........7I.........fB........Pn.........HJ.........iB.........o.........TJ.........lB........vo.........fJ.........oB........fp.........rJ.........rB........Pq.........3J.........uB.........r.........DK.........xB........vr.........PK.........0B........fs.........bK.........3B........Pt.........nK.........6B.........u.........zK.........9B........vu..........L.........AC........fv.........LL.........DC........Pw.........XL.........GC.........x.........jL.........JC........vx.........vL.........MC........fy.........7L.........PC........Pz.........HM.........SC.........0.........TM.........VC........v0.........fM.........YC........f1.........rM.........bC........P2.........3M.........eC.........3.........DN.........hC........v3.........PN.........kC........f4.........bN.........nC........P5.........nN.........qC....fzLzfCRDULQIizOv.DQDELUkjavUGcYMUZjU1XnEVZtE8CSX0S0QGb0QmDFE1Xx.A.RDVcsY1SQTQm60fBf.hHvwVcmklaIQjH5.hHFE1XxHBKMn.HfHBbrU2Yo4lUkImH5.hHw3BLtPiHrzfBf.hHyQWavIhNf.iKvvRCJ.BHhPWavUlH5.RLt.CKMn.HfHBcsA2ahnCHwDSNtjSN4jSNxLyMvXCL0TCKMn.HfHRazImahnCHz3BLrzfBf.hHsQmbjIhNfPiKvvRCJ.BHhzVaogmH5.RLt.CKMn.HfHRZmElahnCHwHiKvvRCJ.BHh71Yg4lH5.RKwHiKv.CLv.CL4TyL1bCMyHCKMn.HfHhYmQGbhnCHw3BLrzfBf.hHlcVXsIhNfDiKvvRCJ.BHhX1YxQmH5.hLt.CLv.CLvHyL3PSL3TyM4vRCJ.BHhX1YzMmH5.RLt.CKMn.HfHhYmQWahnCHv3RN4jSN4jCNxDSL3XCL1TyMrzfBf.hHlcFcxIhNf.iKvvRCJ.BHhzVa3gmH5.BLt.CKMn.HfHRaskFahnCHv3BLrzfBf.hHs0VZnIhNfDiKvvRCJ.BHhX1YggmH5.BLt.CKMn.HfHhYmEFahnCHv3BLw.CLw.CLv.yLwfiL3fCNrzfBf.hHlcVXnIhNfDiKvvRCJ.BHhX1YxgmH5.BLt.CKMn.HfHhYmIGahnCHv3BL4jSN4jSN3XSM3fSN0PSNyvRCJ.BHhX1YxglH5.hLv3BLv.CLvTyMxHCLzTSNrzfBf.hHlclXrIhNfHCLt.CKMn.HfHhYmIFZhnCHv3RLv.CLv.CLvDCM4.SLwXSLrzfBf.hHlcFc3IhNf.iKvvRCJ.BHhX1YzwlH5.BLtPCLv.CLv.CL0jiMvPiMzTCKMn.HfHhYmQGZhnCHv3BNv.CLv.CLwDSNx.SNxjCKMn.HfHBYwDVahnCHv3RLxTCLv.CLxjCNvHyLxHCMrzfBf.hHjISXsIhNf.iKwHSMv.CLvHSN3.iLyHiLzvRCJ.BHhPVLtIlH5.BLtHSMv.CLv.iL4fCLxLiLxPCKMn.HfHBYx3lXhnCHv3hL0.CLv.CLxjCNvHyLxHCMrzfBf.hHjESagIhNf.iKvvRCJ.BHhPlLsElH5.BLt.CKMn.HfHBYwXVXhnCHv3BLrzfBf.hHjIiYgIhNf.iKvvRCJ.BHhPVLrAmH5.BLt.CKMn.HfHBYxvFbhnCHv3BLrzfBf.hHjECZlIhNfbSN4jiK4jSN0DSL2DCN2TCKMn.HfHBYxflYhnCH2jSN43RN4jSMwDyMwfyM0vRCJ.BHhPVLn0lH5.BLt.CKMn.HfHBYxfVahnCHv3BLrzfBf.hHjECY3IhNf.iKvvRCJ.BHhPVLjwlH5.BLt.CKMn.HfHBYwPFZhnCHv3hMv.CLv.CLxLCNzDCN0bSNrzfBf.hHjICY3IhNf.iKvvRCJ.BHhPlLjwlH5.BLt.CKMn.HfHBYxPFZhnCHv3hMv.CLv.CLxLCNzDCN0bSNrzfBf.hHjECa3IhNf.iKvvRCJ.BHhPVLrwlH5.BLtPCLv.CLv.CL0jiMvPiMzTCKMn.HfHBYwvFZhnCHv3BNv.CLv.CLwDSNx.SNxjCKMn.HfHBYxvFdhnCHv3BLrzfBf.hHjICarIhNf.iKz.CLv.CLv.SM4XCLzXCM0vRCJ.BHhPlLrglH5.BLtfCLv.CLv.SLwjiLvjiL4vRCJ.BHhPVLgklH5.BLt.CKMn.HfHBYxDVZhnCHv3BLrzfBf.hHjESaoIhNf.iKvvRCJ.BHhPlLsklH5.BLt.CKMn.HfHBYwXVZhnCHv3BLrzfBf.hHjIiYoIhNf.iKvvRCJ.BHhvVLyglH5.BLt.CKMn.HfHBaxLGZhnCHv3BLrzfBf.hHrEiYxIhNfDiK4jSN4jSN2XSL0fSLzHSLrzfBf.hHrIiYxIhNfDiK4jSN4jSN2XSL0fSLzHSLrzfBf.hHrEiXzIhNfDiKv.CLv.CLwDSNx.SNxjCKMn.HfHBaxHFchnCHw3BLv.CLv.SLwjiLvjiL4vRCJ.BHhvVLl0lH5.BLt.CKMn.HfHBaxXVahnCHv3BLrzfBf.hHrECcnIhNfzBMv3BLrzfBf.hHrICcnIhNfzBMv3BLrzfBf.hHrESa3IhNf.iKvvRCJ.BHhvVLswlH5.BLt.SN4jSN4jyMwXCN2bSNybyLrzfBf.hHrESanIhNfHCLt.CLv.CL0biLx.CM0jCKMn.HfHBawHFahnCHx.iKvvRCJ.BHhvVLhglH5.BLtDCLv.CLv.CLwPSNvDSL1DCKMn.HfHBaxzFdhnCHv3BLrzfBf.hHrISarIhNf.iKvjSN4jSN4bSL1fyM2jyL2LCKMn.HfHBaxzFZhnCHx.iKv.CLv.SM2HiLvPSM4vRCJ.BHhvlLhwlH5.hLv3BLrzfBf.hHrIiXnIhNf.iKw.CLv.CLv.SLzjCLwDiMwvRCJ.BHhvVLsklH5.BLt.CKMn.HfHBaxzVZhnCHv3BLrzfBf.hHrECchIhNfDiKvvRCJ.BHhvlLzIlH5.RLt.CKMn.HfHBawPmbhnCHv3BLrzfBf.hHrICcxIhNf.iKvvRCJ.BHh.WLyElH5.BLt.CLv.yMwTiL0TyMybyLvPiM3bSMrzfBf.hHvIybgIhNf.iKv.CLvbSL0HSM0byL2LCLzXCN2TCKMn.HfHBbwz1bhnCHv3BLrzfBf.hHvISayIhNf.iKvvRCJ.BHh.WLjkmH5.BLtDiL0.CLv.iL4fCLxLiLxPCKMn.HfHBbxPVdhnCHv3RLxTCLv.CLxjCNvHyLxHCMrzfBf.hHvEiahIhNf.iKxTCLv.CLvHSN3.iLyHiLzvRCJ.BHh.mLtIlH5.BLtHSMv.CLv.iL4fCLxLiLxPCKMn.HfHBbwLGahnCHv3BLwjSN4jSN4jSM0HSN1TSL1vRCJ.BHh.mLywlH5.BLt.SL4jSN4jSN4TSMxjiM0DiMrzfBf.hHvECatIhNfPCLt.CKMn.HfHBbxvlahnCHz.iKvvRCJ.BHh.WLn4lH5.BLt.CKMn.HfHBbxflahnCHv3BLrzfBf.hHvECdrIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHvICdrIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHvEybuIhNf.iKvvRCJ.BHh.mLy8lH5.BLt.CKMn.HfHBbw.GYhnCHw3BLrzfBf.hHvICbjIhNfDiKvvRCJ.BHh.WLsgmH5.BLt.CKMn.HfHBbwzFahnCHsDSL4jiK4jSN3byM4HSN1fCNrzfBf.hHvESanIhNfDiLv.iKvvRCJ.BHh.mLsgmH5.BLt.CKMn.HfHBbxzFahnCHsDSL4jiK4jSN3byM4HSN1fCNrzfBf.hHvISanIhNfDiLv.iKvvRCJ.BHh.WLjgmH5.BLt.CKMn.HfHBbwPFahnCHv3BLrzfBf.hHvECYnIhNf.iK1.CLv.CLvHyL3PSL3TyM4vRCJ.BHh.mLjgmH5.BLt.CKMn.HfHBbxPFahnCHv3BLrzfBf.hHvICYnIhNf.iK1.CLv.CLvHyL3PSL3TyM4vRCJ.BHh.WLgklH5.BLt.CKMn.HfHBbxDVZhnCHv3BLrzfBf.hHvEyboIhNf.iKvvRCJ.BHh.mLyklH5.BLt.CKMn.HfHBbwPVZhnCHv3BLrzfBf.hHvICYoIhNf.iKvvRCJ.BHhDVLgElH5.RLt.CKMn.HfHRXxDVXhnCHw3BLrzfBf.hHgEyalIhNf.iKvvRCJ.BHhDlLuYlH5.BLt.CKMn.HfHRXwDVZhnCHv3BLrzfBf.hHgISXoIhNf.iKvvRCJ.BHhDVLsklH5.BLt.CKMn.HfHRXxzVZhnCHv3BLrzfBf.hHyEybgIhNfDiKvvRCJ.BHhLmLyElH5.RLt.CKMn.HfHxbwzFdhnCHv3BLrzfBf.hHyESarIhNfzRLt.CKMn.HfHxbwzFZhnCHw3BLrzfBf.hHyISa3IhNf.iKvvRCJ.BHhLmLswlH5.RKw3BLrzfBf.hHyISanIhNfDiKvvRCJ.BHhLWLgklH5.BLt.CKMn.HfHxbxDVZhnCHv3BLrzfBf.hHkESXzIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHkISXzIhNf.iKv.SN4jSN4jSN2biMzfiL0fiLrzfBf.hHkECY4IhNf.iKw.CLv.CLv.SLzjCLwDiMwvRCJ.BHhTlLjkmH5.BLtDCLv.CLv.CLwPSNvDSL1DCKMn.HfHRYwPFchnCHsPCLt.CKMn.HfHRYxPFchnCHsPCLt.CKMn.HfHRYwPlbhnCHw3BLrzfBf.hHkICYxIhNfDiKvvRCJ.BHhTVLgklH5.BLt.CKMn.HfHRYxDVZhnCHv3BLrzfBf.hHlEiYzIhNf.iKvvRCJ.BHhXlLlQmH5.BLt.CKMn.HfHhYwXlYhnCHwjiK4jSN4jCNvjiL1TSLybCKMn.HfHhYxXlYhnCHzjSNtjSN4fyM2jiL4XCN2TCKMn.HfHhYwXVbhnCHyPCMtfyM4DCNvjCL3HCLyDCKMn.HfHhYxXVbhnCHw3BLrzfBf.hHlEiYsIhNfbCLv.iKvvRCJ.BHhXlLl0lH5.BLt.CKMn.HfHhYwXFdhnCHv3BLrzfBf.hHlEiYrIhNfDiKvvRCJ.BHhXVLlglH5.xMv.CLt.CKMn.HfHhYxXFdhnCHv3BLrzfBf.hHlIiYrIhNfDiKvvRCJ.BHhXlLlglH5.xMv.CLt.CKMn.HfHhYwDGdhnCHv3BLrzfBf.hHlESbrIhNf.iK0vRCJ.BHhXVLwglH5.RMv.iKv.CLvjSL0TiL2LCMzvRCJ.BHhXlLwgmH5.BLt.CKMn.HfHhYxDGahnCHv3RMrzfBf.hHlISbnIhNfTCLv3BLv.CL4DSM0HyMyPCMrzfBf.hHlESXoIhNfHiKvvRCJ.BHhXlLgklH5.BLt.CKMn.HfHhYwzVZhnCHy3BLrzfBf.hHlISaoIhNf.iKvvRCJ.BHhzVLrElH5.BLtTCKMn.HfHRaxvVXhnCHv3RMrzfBf.hHsMCagIhNf.iK0vRCJ.BHhzFMrElH5.BLtTCKMn.HfHRawvlXhnCHv3RMrzfBf.hHsICahIhNf.iK0vRCJ.BHhz1LrIlH5.BLtTCKMn.HfHRazvlXhnCHv3RMrzfBf.hHsESX3IhNf.iKvvRCJ.BHhzVLgwlH5.RKw3BLrzfBf.hHsESXnIhNfDiKvvRCJ.BHhzlLggmH5.BLt.CKMn.HfHRaxDFahnCHsDiKvvRCJ.BHhzlLgglH5.RLt.CKMn.HfHRayDFdhnCHv3BLrzfBf.hHsMSXrIhNfzRLt.CKMn.HfHRayDFZhnCHw3BLrzfBf.hHsQSX3IhNf.iKvvRCJ.BHhzFMgwlH5.RKw3BLrzfBf.hHsQSXnIhNfDiKvvRCJ.BHhzVLhgmH5.BLt.CKMn.HfHRawHFahnCHsDiKvvRCJ.BHhzVLhglH5.RLt.CKMn.HfHRaxHFdhnCHv3BLrzfBf.hHsIiXrIhNfzRLt.CKMn.HfHRaxHFZhnCHw3BLrzfBf.hHsMiX3IhNf.iKvvRCJ.BHhz1LhwlH5.RKw3BLrzfBf.hHsMiXnIhNfDiKvvRCJ.BHhzFMhgmH5.BLt.CKMn.HfHRazHFahnCHsDiKvvRCJ.BHhzFMhglH5.RLt.CKMn.HfHRawDVZhnCHv3BLrzfBf.hHsISXoIhNf.iKvvRCJ.BHhz1LgklH5.BLt.CKMn.HfHRazDVZhnCHv3BLrzfBf.hHsEiXoIhNf.iKvvRCJ.BHhzlLhklH5.BLt.CKMn.HfHRayHVZhnCHv3BLrzfBf.hHsQiXoIhNf.iKvvRCJ.BHhz1Z1ElH5.BLt.CKMn.HfHRaqYGdhnCHv3BLrzfBf.hHsslcrIhNfzRLt.CKMn.HfHRaqYGZhnCHw3BLrzfBf.hHr81bxIhNf.iKvvRCJ.BHhH2ayImH5.hLx3BLrzfBf.hHv8FawHhNf.iKvvRCJ.BHh.2arIiH5.BLt.CKMn.HfHBbuw1LhnCHv3BLrzfBf.hHv8FazHhNf.iKvvRCJ.BHhL2Z4EiH5.RLt.CKMn.HfHxbqkmLhnCHw3BLrzfBf.hHysVdyHhNfDiKvvRCJ.BHhL2Z4QiH5.RLt.CKMn.HfHRakQ2bhnCHw3BLrzfBf.hHyMWYrIhNfPiKvvRCJ.BHh.2bkwlH5.BLt.CKMn.HfHRayUFahnCHz3BLrzfBf.hHy4VXvMGZuQGLhnCHhHBKMn.HfHxbtEFbyg1azEiH5.hHhvRCJ.BHhLmagA2bn8FcxHhNfHhHrzfBf.hHy4VXvMGZuQ2LhnCHhHBKMn.HfHxbtEFbyg1azQiH5.hHhvRCJ.BHhLmagA2bn8Fc0HhNfHhHrzfBf.hHy4VXvMGZuQmMhnCHhHBKMn.HfHxbtEFbyg1azciH5.hHhvRCJ.BHhLmagA2bn8Fc3HhNfHhHrzfBf.hHy4VXvMGZuQWNhnCHhHBKMn.HfHxbtEFbyg1azECLhnCHhHBKMn.HfHxbtEFbyg1azESLhnCHhHBKMn.HfHxbtEFbyg1azEiLhnCHhHBKMn.HfHxbtEFbyg1azEyLhnCHhHBKMn.HfHxbtEFbyg1azECMhnCHhHBKMn.HfHxbtEFbyg1azESMhnCHhHBKMn.HfHxbq4VLhnCHhL0alQ2ZkkWLhvRCJ.BHhL2ZtIiH5.hHS8lYzsVY4IiHrzfBf.hHyslayHhNfHxTuYFcqUVdyHBKMn.HfHxbq4FMhnCHhL0alQ2ZkkGMhvRCJ.BHhzFbvDiH5.BLrzfBf.hHsAGLxHhNfDCKMn.HfHRavAyLhnCH1vRCJ.BHhzFbvPiH5.xMrzfBf.hHsAGL0HhNfDiLrzfBf.hHsAGL1HhNfDyLrzfBf.hHsAGL2HhNfHCKMn.HfHRavACNhnCHyvRCJ.BHhzFbvjiH5.BNrzfBf.hHsAWLvHhNfjCKMn.HfHRavESLhnCHwPCKMn.HfHRavEiLhnCHwTCKMn.HfHRavEyLhnCHwXCKMn.HfHRavECMhnCHwbCKMn.HfHRavESMhnCHzvRCJ.BHhzFbwXiH5.RMrzfBf.hHsAWL2HhNfDCLrzfBf.hHsAWL3HhNfDSLrzfBf.hHsAWL4HhNfDCNrzfBf.hHsAmLvHhNfDSNrzfBf.hHsAmLwHhNfHCLrzfBf.hHsAmLxHhNfHiMrzfBf.hHsAmLyHhNfHSLrzfBf.hHsAmLzHhNfHiLrzfBf.hHsAmL0HhNfHyLrzfBf.hHsAmL1HhNfHCMrzfBf.hHsAmL2HhNfHSMrzfBf.hH1kVY2IhNfPmb0UFKMn.HfHBbxUVZhnCHwLCMwvRCJ.BHh.mbk4lH5.hHy8VcyElY38kYxUVbs8FYhzfB8gUUtQWZzwVYjA.B.jA.l.vJ.fC..A.R.zD.eA.Y.j1AYef2G.9Ahev4Gj9AueP9GvOBCf.BHn.BOzAr........BD..........Y...................cjK"
 							}
 
 						}
@@ -743,11 +742,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-825",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 153.0, 647.0, 30.0, 30.0 ]
 				}
 
@@ -756,12 +755,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-841",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 421.0, 805.0, 30.0, 30.0 ]
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 703.0, 804.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -769,7 +768,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-849",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -781,7 +780,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-852",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1037,7 +1036,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-852", 0 ],
-					"source" : [ "obj-695", 0 ]
+					"source" : [ "obj-695", 1 ]
 				}
 
 			}
@@ -1057,7 +1056,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-695", 0 ],
+					"destination" : [ "obj-695", 1 ],
 					"source" : [ "obj-841", 0 ]
 				}
 
@@ -1099,7 +1098,31 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-695" : [ "MF-101S_two", "MF-101S_two", 0 ],
+			"obj-696" : [ "MF-101S_one", "MF-101S_one", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "just_H3K.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
