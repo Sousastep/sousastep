@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "dsp.gen",
-		"rect" : [ 563.0, 1527.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -359,7 +359,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1455.356707730593826, 2614.600002859320739, 51.0, 22.0 ],
+					"patching_rect" : [ 1455.356707730593826, 2637.0, 51.0, 22.0 ],
 					"text" : "clip -1 1"
 				}
 
@@ -1024,7 +1024,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1492.356707730593826, 2651.758229613305048, 140.25, 20.0 ],
+					"patching_rect" : [ 1492.356707730593826, 2722.333342432975769, 140.25, 20.0 ],
 					"text" : "High LFO no env scaling"
 				}
 
@@ -1037,7 +1037,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1455.356707730593826, 2651.758229613305048, 35.0, 22.0 ],
+					"patching_rect" : [ 1455.356707730593826, 2722.333342432975769, 35.0, 22.0 ],
 					"text" : "out 4",
 					"textcolor" : [ 0.988235294117647, 0.996078431372549, 0.0, 1.0 ]
 				}
@@ -1613,7 +1613,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1204.833357195059307, 2685.333342432975769, 147.0, 22.0 ],
+					"patching_rect" : [ 1137.0, 2637.0, 147.0, 22.0 ],
 					"text" : "in 7 @comment freq_floor"
 				}
 
@@ -1626,7 +1626,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1515.776798793969192, 2685.333342432975769, 157.0, 22.0 ],
+					"patching_rect" : [ 1164.0, 2668.0, 157.0, 22.0 ],
 					"text" : "in 8 @comment freq_ceiling"
 				}
 
