@@ -1508,8 +1508,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 2830.0, 2476.0, 29.5, 25.0 ],
-									"text" : "b 2"
+									"patching_rect" : [ 2830.0, 2476.0, 34.0, 25.0 ],
+									"text" : "t b b"
 								}
 
 							}
