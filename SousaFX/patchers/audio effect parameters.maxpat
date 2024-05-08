@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 719.0, 53.0, 1841.0, 1387.0 ],
+		"rect" : [ 778.0, 53.0, 1782.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,114 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-784",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6572.0, 3137.0, 158.0, 22.0 ],
+					"text" : "r pre-rate_phase_offset_low"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-785",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6555.0, 3177.0, 36.0, 22.0 ],
+					"text" : "+~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-786",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6555.0, 3213.0, 72.0, 22.0 ],
+					"text" : "pong~ 1 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-777",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6995.0, 3390.0, 180.0, 22.0 ],
+					"text" : "r pre-rate_phase_offset_verylow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-778",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6978.0, 3429.0, 36.0, 22.0 ],
+					"text" : "+~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-783",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6978.0, 3465.0, 72.0, 22.0 ],
+					"text" : "pong~ 1 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-776",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6163.0, 3035.0, 162.0, 22.0 ],
+					"text" : "r pre-rate_phase_offset_high"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-601",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6078.5, 3111.0, 36.0, 22.0 ],
+					"text" : "+~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-596",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6078.5, 3147.0, 72.0, 22.0 ],
+					"text" : "pong~ 1 0 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-782",
 					"maxclass" : "newobj",
@@ -1153,7 +1261,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3717.5, 2751.0, 120.0, 22.0 ],
-					"restore" : [ 70.866141732283381 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1839,8 +1947,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4765.0, 3314.60919540229952, 128.0, 22.0 ],
-					"text" : "average~ @mode rms"
+					"patching_rect" : [ 4765.0, 3314.60919540229952, 35.0, 22.0 ],
+					"text" : "abs~"
 				}
 
 			}
@@ -1851,8 +1959,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4765.0, 3378.60919540229952, 122.0, 22.0 ],
-					"text" : "rampsmooth~ 0 9600"
+					"patching_rect" : [ 4765.0, 3378.60919540229952, 116.0, 22.0 ],
+					"text" : "rampsmooth~ 0 480"
 				}
 
 			}
@@ -5330,7 +5438,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "link", ",", "live", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6363,13 +6471,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 4,
+					"linecount" : 11,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
-					"text" : "1006 880 2190 1196"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 156.0 ],
+					"text" : "1542 858 2075 1401 507 917 823 1305 221 1065 622 1250"
 				}
 
 			}
@@ -18290,22 +18398,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1123", 0 ],
-					"order" : 0,
-					"source" : [ "obj-450", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-196", 0 ],
-					"order" : 1,
-					"source" : [ "obj-450", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-256", 0 ],
 					"order" : 3,
 					"source" : [ "obj-450", 0 ]
@@ -18315,7 +18407,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-387", 0 ],
-					"midpoints" : [ 6067.5, 3105.632900254879587, 5906.439927089564662, 3105.632900254879587, 5906.439927089564662, 2677.632900254879587, 5628.5, 2677.632900254879587 ],
+					"midpoints" : [ 6067.5, 3178.632900254879587, 5906.439927089564662, 3178.632900254879587, 5906.439927089564662, 2677.632900254879587, 5628.5, 2677.632900254879587 ],
 					"order" : 4,
 					"source" : [ "obj-450", 0 ]
 				}
@@ -18323,8 +18415,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-640", 0 ],
+					"destination" : [ "obj-601", 0 ],
 					"order" : 2,
+					"source" : [ "obj-450", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-778", 0 ],
+					"order" : 0,
+					"source" : [ "obj-450", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-785", 0 ],
+					"order" : 1,
 					"source" : [ "obj-450", 0 ]
 				}
 
@@ -19830,6 +19938,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-640", 0 ],
+					"source" : [ "obj-596", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-578", 0 ],
 					"source" : [ "obj-597", 0 ]
 				}
@@ -19867,6 +19982,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-590", 0 ],
 					"source" : [ "obj-600", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-596", 0 ],
+					"source" : [ "obj-601", 0 ]
 				}
 
 			}
@@ -21273,6 +21395,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-601", 1 ],
+					"source" : [ "obj-776", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-778", 1 ],
+					"source" : [ "obj-777", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-783", 0 ],
+					"source" : [ "obj-778", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-78", 1 ]
 				}
@@ -21282,6 +21425,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-760", 0 ],
 					"source" : [ "obj-781", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1123", 0 ],
+					"source" : [ "obj-783", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-785", 1 ],
+					"source" : [ "obj-784", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-786", 0 ],
+					"source" : [ "obj-785", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-196", 0 ],
+					"source" : [ "obj-786", 0 ]
 				}
 
 			}
@@ -21654,8 +21825,6 @@
  ],
 		"parameters" : 		{
 			"obj-114::obj-21::obj-191" : [ "vst~[10]", "vst~", 0 ],
-			"obj-166::obj-21::obj-695" : [ "MF-101S_two", "MF-101S_two", 0 ],
-			"obj-166::obj-21::obj-696" : [ "MF-101S_one", "MF-101S_one", 0 ],
 			"obj-168::obj-1::obj-21::obj-38" : [ "live.dial[6]", "drive", 0 ],
 			"obj-168::obj-1::obj-21::obj-46" : [ "live.dial[7]", "bias", 0 ],
 			"obj-168::obj-1::obj-21::obj-47" : [ "live.dial[4]", "harmonic mult", 0 ],
@@ -23054,13 +23223,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "QuinticEaseIn.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/ease/code",
-				"patcherrelativepath" : "../../../../Packages/ease/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "SiTrSq.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
@@ -23576,16 +23738,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_H3K.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
+				"name" : "just_amp_mod.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_amp_mod.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "just_theDrop.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
+				"patcherrelativepath" : "../../default/presets/SousaFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
