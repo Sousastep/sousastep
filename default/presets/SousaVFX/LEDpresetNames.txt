@@ -14,7 +14,9 @@
 14, no lfo plz;
 15, init shader dub?;
 16, init shader acoustic;
-20, Physics Acoustic;
+30, Torus Knot Idle;
+31, Torus Knot Acoustic;
+32, Torus Knot dub 1;
 60, Single Circle dub 1;
 61, Single Square dub 1;
 62, cubes no cylinder acoustic;

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,10 +40,10 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
+					"bgfillcolor_color" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -60,15 +60,15 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 303.0, 202.0, 129.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 3.0, 108.540983200073242, 21.0 ],
+					"presentation_rect" : [ 17.5, 2.0, 150.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgfillcolor" : 						{
-							"expression" : "themecolor.live_control_text_bg"
+							"expression" : "themecolor.live_control_bg"
 						}
 
 					}
 ,
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -326,7 +326,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 481.0, 109.0, 181.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 12.0, 181.0, 151.0 ],
+					"presentation_rect" : [ 2.0, 25.0, 181.0, 151.0 ],
 					"varname" : "show_status",
 					"viewvisibility" : 1
 				}
@@ -544,19 +544,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "dummy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
