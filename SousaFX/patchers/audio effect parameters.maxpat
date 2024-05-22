@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 778.0, 53.0, 1782.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4416,8 +4416,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 48.0, 645.0, 166.0, 22.0 ],
-					"text" : "r startup-prefs-window-closed"
+					"patching_rect" : [ 48.0, 645.0, 147.0, 22.0 ],
+					"text" : "r init_enable_audio_driver"
 				}
 
 			}
@@ -6471,13 +6471,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 11,
+					"linecount" : 4,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1842.0, 636.0, 55.0, 156.0 ],
-					"text" : "1542 858 2075 1401 507 917 823 1305 221 1065 622 1250"
+					"patching_rect" : [ 1842.0, 636.0, 55.0, 62.0 ],
+					"text" : "1020 423 1540 1016"
 				}
 
 			}
@@ -7465,7 +7465,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 490.0, 68.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -7553,7 +7553,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -9862,7 +9862,7 @@
 
 					}
 ,
-					"rnboversion" : "1.2.6",
+					"rnboversion" : "1.3.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -22098,7 +22098,7 @@
 			"obj-710::obj-1" : [ "Main Env Sens", "Main", 0 ],
 			"obj-713" : [ "pitch amount", "pitch amount", 0 ],
 			"obj-714" : [ "pitch amount[1]", "pitch amount", 0 ],
-			"obj-72::obj-10" : [ "phase offset", "phase offset", 0 ],
+			"obj-72::obj-10" : [ "phase offset", "postrate phase", 0 ],
 			"obj-72::obj-106" : [ "ceil max", "ceil max", 0 ],
 			"obj-72::obj-1103" : [ "low_phase_offset[1]", "phase", 0 ],
 			"obj-72::obj-1105" : [ "low_power[1]", "power", 0 ],
@@ -22118,6 +22118,9 @@
 			"obj-72::obj-246" : [ "x pos", "x pos", 0 ],
 			"obj-72::obj-248" : [ "floor y pos", "y pos", 0 ],
 			"obj-72::obj-251" : [ "ceil y pos", "y pos", 0 ],
+			"obj-72::obj-286" : [ "live.dial[19]", "prerate phase", 0 ],
+			"obj-72::obj-295" : [ "live.dial[20]", "prerate phase", 0 ],
+			"obj-72::obj-301" : [ "live.dial[21]", "prerate phase", 0 ],
 			"obj-72::obj-307" : [ "low_SnTrSq", "low_SnTrSq", 0 ],
 			"obj-72::obj-325" : [ "low_floor", "floor", 0 ],
 			"obj-72::obj-376" : [ "function[11]", "function[11]", 0 ],

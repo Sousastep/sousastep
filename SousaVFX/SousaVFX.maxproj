@@ -2,7 +2,7 @@
 	"name" : "SousaVFX",
 	"version" : 1,
 	"creationdate" : 3782485106,
-	"modificationdate" : 3798559715,
+	"modificationdate" : 3799098145,
 	"viewrect" : [ 409.0, 233.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -14,6 +14,10 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"ISF-pattrstorage.maxpat" : 			{
+				"kind" : "patcher"
 			}
 ,
 			"audio_enabler.maxpat" : 			{
@@ -55,10 +59,6 @@
 				}
 
 			}
-,
-			"ISF-pattrstorage.maxpat" : 			{
-				"kind" : "patcher"
-			}
 
 		}
 ,
@@ -75,6 +75,17 @@
 		}
 ,
 		"data" : 		{
+			"idle_preset_list.txt" : 			{
+				"kind" : "textfile"
+			}
+,
+			"acoustic_preset_list.txt" : 			{
+				"kind" : "textfile"
+			}
+,
+			"wobble_preset_list.txt" : 			{
+				"kind" : "textfile"
+			}
 
 		}
 ,
