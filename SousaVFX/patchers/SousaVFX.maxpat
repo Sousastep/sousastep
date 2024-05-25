@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 146.0, 207.0, 1620.0, 1208.0 ],
+		"rect" : [ 21.0, 140.0, 1620.0, 1208.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,55 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-99",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 272.0, 2378.0, 29.5, 22.0 ],
+					"text" : "- 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 314.0, 2248.0, 52.0, 22.0 ],
+					"text" : "route int"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"linecount" : 4,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3692.0, 1456.0, 50.0, 62.0 ],
+					"text" : "param maskRadius 0.624"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 4068.0, 1052.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-26",
 					"maxclass" : "newobj",
@@ -249,18 +298,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 261.5, 2246.0, 40.0, 22.0 ],
-					"text" : "t i i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-9",
 					"maxclass" : "comment",
@@ -277,20 +314,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1221.0, 1850.0, 209.0, 22.0 ],
+					"patching_rect" : [ 1251.0, 1851.0, 209.0, 22.0 ],
 					"text" : "s SousaVFX_primary_preset_number"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-140",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 272.0, 2386.0, 29.5, 22.0 ],
-					"text" : "- 1"
 				}
 
 			}
@@ -998,7 +1023,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 4833.0, 1076.5, 106.0, 31.0 ],
+					"patching_rect" : [ 4924.0, 1074.0, 106.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1240.0, 251.0, 243.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1239,7 +1264,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 449.0, 2354.33333333333303, 119.0, 24.0 ],
+					"patching_rect" : [ 171.0, 2171.0, 119.0, 24.0 ],
 					"style" : "messageGold",
 					"text" : "storagewindow",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.890196078431372 ],
@@ -1267,7 +1292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 464.0, 2389.999999999999545, 104.0, 24.0 ],
+					"patching_rect" : [ 186.0, 2207.0, 104.0, 24.0 ],
 					"style" : "messageGold",
 					"text" : "clientwindow",
 					"textcolor" : [ 0.8, 0.8, 0.8, 0.890196078431372 ]
@@ -1312,7 +1337,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 261.5, 2166.0, 159.0, 56.0 ],
+					"patching_rect" : [ 315.0, 2172.0, 159.0, 56.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1276.0, 139.0, 151.0, 50.0 ],
 					"varname" : "ISF-pattrstorage",
@@ -1887,8 +1912,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_gl_texture", "", "", "" ],
-					"patching_rect" : [ 4548.0, 1303.5, 299.0, 22.0 ],
-					"text" : "jit.gl.isf @file \"Circular Feedback Mask\" @drawto none"
+					"patching_rect" : [ 4548.0, 1300.0, 303.0, 22.0 ],
+					"text" : "jit.gl.isf @file \"Circular Feedback Mask\" @drawto async"
 				}
 
 			}
@@ -3298,7 +3323,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4833.0, 1012.0, 22.0, 22.0 ],
+					"patching_rect" : [ 4924.0, 1009.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -3310,7 +3335,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4833.0, 979.0, 92.0, 22.0 ],
+					"patching_rect" : [ 4924.0, 976.0, 92.0, 22.0 ],
 					"text" : "r sousafx_close"
 				}
 
@@ -3381,7 +3406,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4739.0, 1081.0, 71.0, 22.0 ],
+					"patching_rect" : [ 4830.0, 1078.0, 71.0, 22.0 ],
 					"text" : "s vfx_active"
 				}
 
@@ -4780,7 +4805,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4568.0, 1463.0, 196.0, 51.0 ],
+					"patching_rect" : [ 4563.0, 1461.0, 196.0, 51.0 ],
 					"suppressinlet" : 1,
 					"text" : "clamp allows 254 and 255 to be used as start & end markers"
 				}
@@ -5040,8 +5065,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 121.0, 2305.0, 48.0, 22.0 ],
-					"text" : "change"
+					"patching_rect" : [ 1221.0, 1890.0, 62.0, 22.0 ],
+					"text" : "change -1"
 				}
 
 			}
@@ -5052,7 +5077,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 121.0, 2334.0, 22.0, 22.0 ],
+					"patching_rect" : [ 1221.0, 1919.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -5063,7 +5088,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 121.0, 2364.0, 131.0, 22.0 ],
+					"patching_rect" : [ 1221.0, 1949.0, 131.0, 22.0 ],
 					"text" : "s preset_change_bang"
 				}
 
@@ -6260,7 +6285,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6710,13 +6735,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"source" : [ "obj-140", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
 					"source" : [ "obj-141", 0 ]
 				}
@@ -7028,6 +7046,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"order" : 0,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-618", 0 ],
+					"order" : 1,
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -7192,7 +7219,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 5554.5, 1990.0, 5525.0, 1990.0, 5525.0, 1050.0, 4842.5, 1050.0 ],
+					"midpoints" : [ 5554.5, 1990.0, 5525.0, 1990.0, 5525.0, 1050.0, 4933.5, 1050.0 ],
 					"source" : [ "obj-332", 0 ]
 				}
 
@@ -7250,6 +7277,54 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-707", 0 ],
+					"order" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-721", 0 ],
+					"order" : 1,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-722", 0 ],
+					"order" : 2,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-723", 0 ],
+					"order" : 3,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-767", 0 ],
+					"order" : 5,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-768", 0 ],
+					"order" : 4,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-750", 0 ],
 					"source" : [ "obj-393", 0 ]
 				}
@@ -7257,7 +7332,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-79", 0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -7310,27 +7385,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-903", 2 ],
 					"source" : [ "obj-426", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-140", 0 ],
-					"source" : [ "obj-44", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-618", 0 ],
-					"source" : [ "obj-44", 2 ]
 				}
 
 			}
@@ -8422,7 +8476,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-46", 1 ],
+					"order" : 1,
+					"source" : [ "obj-755", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-750", 0 ],
+					"order" : 0,
 					"source" : [ "obj-755", 0 ]
 				}
 
@@ -8538,6 +8601,29 @@
 				"patchline" : 				{
 					"destination" : [ "obj-831", 0 ],
 					"source" : [ "obj-784", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-79", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"order" : 0,
+					"source" : [ "obj-79", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"order" : 1,
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -9040,6 +9126,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-294", 0 ],
 					"source" : [ "obj-97", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"source" : [ "obj-99", 0 ]
 				}
 
 			}
@@ -12027,6 +12120,13 @@
 				"name" : "ISF_Shader_UIs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ISF_shaders.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
