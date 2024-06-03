@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 743.0, 431.0, 1179.0, 684.0 ],
+		"rect" : [ 1275.0, 92.0, 1250.0, 1318.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,375 @@
 		"title" : "midi status",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-269",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 946.0, 1818.0, 117.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 437.0, 641.500017583370209, 110.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "3rd tempo change",
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"hint" : "MIDI Note Output Number",
+					"id" : "obj-270",
+					"maxclass" : "number",
+					"maximum" : 127,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1065.0, 1817.0, 47.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 388.0, 640.500017583370209, 47.0, 23.0 ],
+					"varname" : "number[25]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-271",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 959.0, 1774.0, 233.0, 22.0 ],
+					"restore" : [ 55 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"MIDI note output 3rd tempo change\"",
+					"varname" : "MIDI note output 3rd tempo change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.764735632840621,
+					"id" : "obj-272",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1123.0, 1816.0, 89.0, 25.0 ],
+					"text" : "r numformat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-273",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1054.0, 1859.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-274",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1054.0, 1940.0, 34.0, 22.0 ],
+					"text" : "pack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-275",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 1054.0, 1900.0, 108.0, 22.0 ],
+					"text" : "makenote 127 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-262",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 637.0, 1818.0, 117.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 437.0, 610.500017583370209, 110.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "2nd tempo change",
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"hint" : "MIDI Note Output Number",
+					"id" : "obj-263",
+					"maxclass" : "number",
+					"maximum" : 127,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 756.0, 1817.0, 47.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 388.0, 609.500017583370209, 47.0, 23.0 ],
+					"varname" : "number[24]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-264",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 650.0, 1774.0, 236.0, 22.0 ],
+					"restore" : [ 54 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"MIDI note output 2nd tempo change\"",
+					"varname" : "MIDI note output 2nd tempo change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.764735632840621,
+					"id" : "obj-265",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 814.0, 1816.0, 89.0, 25.0 ],
+					"text" : "r numformat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-266",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 745.0, 1859.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-267",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 745.0, 1940.0, 34.0, 22.0 ],
+					"text" : "pack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-268",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 745.0, 1900.0, 108.0, 22.0 ],
+					"text" : "makenote 127 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-253",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 693.0, 1567.0, 29.5, 22.0 ],
+					"text" : "b 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-248",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 607.0, 1654.666715979576111, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-245",
+					"maxclass" : "newobj",
+					"numinlets" : 5,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "", "", "int" ],
+					"patching_rect" : [ 607.0, 1620.0, 61.0, 22.0 ],
+					"text" : "counter 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-244",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 660.0, 1693.0, 52.0, 22.0 ],
+					"text" : "gate 3 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-236",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 340.0, 1818.0, 117.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 437.0, 579.500017583370209, 110.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "1st tempo change",
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"hint" : "MIDI Note Output Number",
+					"id" : "obj-237",
+					"maxclass" : "number",
+					"maximum" : 127,
+					"minimum" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 459.0, 1817.0, 47.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 388.0, 578.500017583370209, 47.0, 23.0 ],
+					"varname" : "number[23]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-238",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 353.0, 1774.0, 232.0, 22.0 ],
+					"restore" : [ 53 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"MIDI note output 1st tempo change\"",
+					"varname" : "MIDI note output 1st tempo change"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 14.764735632840621,
+					"id" : "obj-239",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 517.0, 1816.0, 89.0, 25.0 ],
+					"text" : "r numformat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-240",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 448.0, 1859.0, 29.5, 22.0 ],
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-241",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 448.0, 1940.0, 34.0, 22.0 ],
+					"text" : "pack"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-242",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "float", "float" ],
+					"patching_rect" : [ 448.0, 1900.0, 108.0, 22.0 ],
+					"text" : "makenote 127 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 693.0, 1531.0, 389.0, 22.0 ],
+					"text" : "r \"change tempo after looper finishes looping a certain number of times\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-125",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -60,7 +429,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1276.0, 1754.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1292.5, 1735.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -71,9 +440,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1203.5, 1655.0, 238.0, 21.0 ],
+					"patching_rect" : [ 1220.5, 1636.0, 238.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 385.0, 568.0, 238.0, 21.0 ],
+					"presentation_rect" : [ 417.0, 547.0, 213.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Output to play random riser",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
@@ -92,9 +461,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1394.5, 1654.0, 47.0, 23.0 ],
+					"patching_rect" : [ 1411.5, 1635.0, 47.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 385.0, 586.0, 47.0, 23.0 ],
+					"presentation_rect" : [ 366.0, 546.0, 47.0, 23.0 ],
 					"varname" : "number[22]"
 				}
 
@@ -106,7 +475,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1293.5, 1612.0, 225.0, 22.0 ],
+					"patching_rect" : [ 1310.5, 1593.0, 225.0, 22.0 ],
 					"restore" : [ 52 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -126,7 +495,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1452.5, 1653.0, 89.0, 25.0 ],
+					"patching_rect" : [ 1469.5, 1634.0, 89.0, 25.0 ],
 					"text" : "r numformat"
 				}
 
@@ -138,7 +507,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1383.5, 1696.0, 29.5, 22.0 ],
+					"patching_rect" : [ 1400.5, 1677.0, 29.5, 22.0 ],
 					"text" : "52"
 				}
 
@@ -150,7 +519,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1383.5, 1777.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1400.5, 1758.0, 34.0, 22.0 ],
 					"text" : "pack"
 				}
 
@@ -162,7 +531,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 1383.5, 1737.0, 108.0, 22.0 ],
+					"patching_rect" : [ 1400.5, 1718.0, 108.0, 22.0 ],
 					"text" : "makenote 127 100"
 				}
 
@@ -174,7 +543,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1249.5, 1696.0, 117.0, 22.0 ],
+					"patching_rect" : [ 1266.5, 1677.0, 117.0, 22.0 ],
 					"text" : "r \"play random riser\""
 				}
 
@@ -188,7 +557,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1189.0, 1414.0, 238.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 519.0, 238.0, 21.0 ],
+					"presentation_rect" : [ 411.0, 518.0, 196.5, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Output to randomize clips",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
@@ -209,7 +578,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1380.0, 1413.0, 47.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 537.0, 47.0, 23.0 ],
+					"presentation_rect" : [ 366.0, 517.0, 47.0, 23.0 ],
 					"varname" : "number[4]"
 				}
 
@@ -5455,8 +5824,92 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-240", 1 ],
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"source" : [ "obj-238", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"source" : [ "obj-239", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 6 ],
 					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-242", 0 ],
+					"source" : [ "obj-240", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-241", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 1 ],
+					"source" : [ "obj-242", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 0 ],
+					"source" : [ "obj-242", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-240", 0 ],
+					"source" : [ "obj-244", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-266", 0 ],
+					"source" : [ "obj-244", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-273", 0 ],
+					"source" : [ "obj-244", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-248", 0 ],
+					"source" : [ "obj-245", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-244", 0 ],
+					"source" : [ "obj-248", 0 ]
 				}
 
 			}
@@ -5469,6 +5922,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-244", 1 ],
+					"source" : [ "obj-253", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-245", 0 ],
+					"source" : [ "obj-253", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -5476,8 +5943,106 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-266", 1 ],
+					"source" : [ "obj-263", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-263", 0 ],
+					"source" : [ "obj-264", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-263", 0 ],
+					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-268", 0 ],
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-267", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 1 ],
+					"source" : [ "obj-268", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-267", 0 ],
+					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 5 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-273", 1 ],
+					"source" : [ "obj-270", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-271", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-270", 0 ],
+					"source" : [ "obj-272", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-275", 0 ],
+					"source" : [ "obj-273", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-274", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 1 ],
+					"source" : [ "obj-275", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-274", 0 ],
+					"source" : [ "obj-275", 0 ]
 				}
 
 			}
@@ -5608,6 +6173,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"source" : [ "obj-42", 0 ]
 				}
 
 			}
