@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 24.0, 139.0, 1995.0, 1281.0 ],
+		"rect" : [ 1003.0, 593.0, 554.0, 255.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,69 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2609.0, 2709.0, 145.0, 22.0 ],
+					"text" : "r audio_driver_start_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 2609.0, 2748.0, 55.0, 22.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontsize" : 14.0,
+					"hint" : "",
+					"id" : "obj-117",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2360.0, 2786.0, 355.0, 22.0 ],
+					"text" : "Ableton should open after SousaFX finishes loading",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-83",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2303.0, 2747.0, 145.0, 22.0 ],
+					"text" : "r audio_driver_start_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-114",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 2303.0, 2786.0, 55.0, 22.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-420",
 					"maxclass" : "newobj",
@@ -132,8 +195,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1914.0, 2786.0, 355.0, 22.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 1906.0, 2786.0, 355.0, 22.0 ],
 					"text" : "SousaVFX should open after SousaFX finishes loading",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -4673,7 +4735,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3641.0, 2258.0, 215.0, 212.0 ],
-					"pic" : "frame0117.png",
+					"pic" : "frame0021.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 0.0, 252.0, 254.0 ]
 				}
@@ -4868,6 +4930,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"source" : [ "obj-114", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-290", 0 ],
 					"order" : 1,
 					"source" : [ "obj-115", 0 ]
@@ -4891,6 +4960,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-120", 0 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-135", 0 ],
 					"order" : 0,
 					"source" : [ "obj-12", 0 ]
@@ -4902,6 +4978,13 @@
 					"destination" : [ "obj-85", 0 ],
 					"order" : 1,
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-306", 0 ],
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -5006,15 +5089,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-306", 0 ],
-					"source" : [ "obj-137", 1 ]
+					"destination" : [ "obj-114", 1 ],
+					"source" : [ "obj-137", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"source" : [ "obj-137", 0 ]
+					"destination" : [ "obj-120", 1 ],
+					"source" : [ "obj-137", 1 ]
 				}
 
 			}
@@ -7274,6 +7357,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-114", 0 ],
+					"source" : [ "obj-83", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-181", 0 ],
 					"source" : [ "obj-84", 1 ]
 				}
@@ -7409,7 +7499,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "frame0117.png",
+				"name" : "frame0109.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_003804122",
 				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_003804122",
 				"type" : "PNG",

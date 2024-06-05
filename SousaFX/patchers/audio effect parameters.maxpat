@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1698.0, 53.0, 862.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1058,18 +1058,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5589.0, 2563.0, 52.0, 22.0 ],
 					"text" : "gate 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-728",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5759.0, 2251.0, 31.0, 22.0 ],
-					"text" : "pipe"
 				}
 
 			}
@@ -2606,7 +2594,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5650.0, 2845.0, 61.0, 22.0 ],
+					"patching_rect" : [ 5650.0, 2867.0, 61.0, 22.0 ],
 					"text" : "print BPM"
 				}
 
@@ -5498,7 +5486,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6537,7 +6525,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1877.0, 973.0, 61.0, 35.0 ],
-					"text" : "1162 643 1398 796"
+					"text" : "142 732 589 967"
 				}
 
 			}
@@ -8447,7 +8435,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5797.0, 2252.0, 76.0, 21.0 ],
+					"patching_rect" : [ 5777.0, 2252.0, 76.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "INIT TEMPO"
 				}
@@ -8521,7 +8509,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 5602.0, 2465.0, 58.0, 22.0 ],
+					"patching_rect" : [ 5638.0, 2439.0, 58.0, 22.0 ],
 					"text" : "change 0"
 				}
 
@@ -8534,7 +8522,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5759.0, 2182.0, 24.0, 24.0 ]
+					"patching_rect" : [ 5759.0, 2189.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -8557,7 +8545,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5759.0, 2218.0, 83.0, 22.0 ],
+					"patching_rect" : [ 5759.0, 2225.0, 83.0, 22.0 ],
 					"text" : "loadmess 128"
 				}
 
@@ -8569,7 +8557,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5720.0, 2845.0, 84.0, 22.0 ],
+					"patching_rect" : [ 5720.0, 2867.0, 84.0, 22.0 ],
 					"text" : "s tempo_BPM"
 				}
 
@@ -16804,13 +16792,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-360", 0 ],
-					"source" : [ "obj-266", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-251", 1 ],
 					"source" : [ "obj-267", 0 ]
 				}
@@ -17626,7 +17607,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-728", 0 ],
+					"destination" : [ "obj-727", 0 ],
 					"source" : [ "obj-359", 0 ]
 				}
 
@@ -18393,7 +18374,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-266", 0 ],
+					"destination" : [ "obj-360", 0 ],
 					"source" : [ "obj-441", 0 ]
 				}
 
@@ -21032,13 +21013,6 @@
 					"destination" : [ "obj-441", 1 ],
 					"order" : 2,
 					"source" : [ "obj-727", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-727", 0 ],
-					"source" : [ "obj-728", 0 ]
 				}
 
 			}
@@ -23903,6 +23877,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license.sousafx",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1275.0, 92.0, 1250.0, 1318.0 ],
+		"rect" : [ 690.0, 378.0, 1179.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,84 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-251",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 523.0, 1233.0, 207.0, 22.0 ],
+					"restore" : [ 10 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr \"ableton auto-play launch delay\"",
+					"varname" : "ableton auto-play launch delay"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-250",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 489.0, 1260.5, 132.0, 35.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 528.0, 394.0, 101.0, 50.0 ],
+					"suppressinlet" : 1,
+					"text" : "Ableton auto-play launch delay (seconds)",
+					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-249",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 617.0, 1307.0, 43.0, 22.0 ],
+					"text" : "* 1000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-247",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 617.0, 1267.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 591.0, 427.0, 38.0, 22.0 ],
+					"varname" : "number[26]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-243",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 438.0, 1341.0, 150.0, 64.0 ],
+					"suppressinlet" : 1,
+					"text" : "ableton launches after sousafx. this del == how long it takes ableton to launch"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-269",
@@ -557,7 +635,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1189.0, 1414.0, 238.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 411.0, 518.0, 196.5, 21.0 ],
+					"presentation_rect" : [ 411.0, 518.0, 197.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Output to randomize clips",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
@@ -717,8 +795,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 575.0, 1354.0, 48.0, 22.0 ],
-					"text" : "del 200"
+					"patching_rect" : [ 575.0, 1354.0, 61.0, 22.0 ],
+					"text" : "del 10000"
 				}
 
 			}
@@ -1636,7 +1714,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2095.0, 922.5, 238.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 425.0, 238.0, 21.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 415.5, 407.036437246963601, 110.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "MIDI Note Output to Stop Drum Loop",
 					"textcolor" : [ 1.0, 0.8, 0.443137254901961, 1.0 ]
@@ -1657,7 +1736,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2333.0, 921.5, 47.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 366.0, 443.0, 47.0, 23.0 ],
+					"presentation_rect" : [ 366.5, 413.036437246963601, 47.0, 23.0 ],
 					"varname" : "number[21]"
 				}
 
@@ -5908,6 +5987,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-249", 0 ],
+					"source" : [ "obj-247", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-244", 0 ],
 					"source" : [ "obj-248", 0 ]
 				}
@@ -5915,8 +6001,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 1 ],
+					"source" : [ "obj-249", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"source" : [ "obj-25", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-247", 0 ],
+					"source" : [ "obj-251", 1 ]
 				}
 
 			}

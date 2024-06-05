@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -129,6 +129,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-45",
 					"ignoreclick" : 1,
@@ -150,6 +151,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-107",
 					"ignoreclick" : 1,
@@ -171,6 +173,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-21",
 					"ignoreclick" : 1,
@@ -192,6 +195,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-25",
 					"ignoreclick" : 1,
@@ -239,18 +243,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-409",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 132.000007152557373, 562.806505475018184, 48.0, 22.0 ],
-					"text" : "change"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-412",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -281,8 +273,8 @@
 					"hint" : "Displays current tempo. Sets initial tempo after saving metronome setting.",
 					"id" : "obj-416",
 					"maxclass" : "number",
-					"maximum" : 300.0,
-					"minimum" : 60.0,
+					"maximum" : 300,
+					"minimum" : 60,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -385,6 +377,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-423",
 					"ignoreclick" : 1,
@@ -406,6 +399,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-424",
 					"ignoreclick" : 1,
@@ -427,6 +421,7 @@
 					"bgcolor" : [ 0.192156862745098, 0.156862745098039, 0.156862745098039, 0.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"hint" : "displays tap tempo timings",
 					"id" : "obj-425",
 					"ignoreclick" : 1,
@@ -489,7 +484,7 @@
 				"box" : 				{
 					"comment" : "Beats per minute",
 					"id" : "obj-9",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -586,13 +581,6 @@
 					"destination" : [ "obj-45", 0 ],
 					"order" : 0,
 					"source" : [ "obj-4", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-416", 0 ],
-					"source" : [ "obj-409", 0 ]
 				}
 
 			}
@@ -792,7 +780,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-409", 0 ],
+					"destination" : [ "obj-416", 0 ],
 					"source" : [ "obj-7", 1 ]
 				}
 
@@ -806,14 +794,12 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-409", 0 ],
+					"destination" : [ "obj-416", 0 ],
 					"source" : [ "obj-796", 0 ]
 				}
 
 			}
  ],
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.83 ],
 		"editing_bgcolor" : [ 0.349019607843137, 0.309803921568627, 1.0, 0.64 ]
 	}
