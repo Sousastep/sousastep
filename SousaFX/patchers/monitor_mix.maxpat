@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1135.0, 526.0, 1425.0, 766.0 ],
+		"rect" : [ 378.0, 297.0, 2014.0, 1086.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1330.0, 692.0, 139.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ -3.5 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -72,7 +72,7 @@
 					"outlettype" : [ "", "float" ],
 					"panelcolor" : [ 1.0, 1.0, 1.0, 0.45 ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1339.0, 741.0, 50.0, 80.0 ],
+					"patching_rect" : [ 1339.0, 741.0, 90.0, 80.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 213.0, 34.0, 71.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
@@ -102,7 +102,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1339.0, 826.0, 144.0, 22.0 ],
+					"patching_rect" : [ 1339.0, 887.0, 144.0, 22.0 ],
 					"text" : "s \"solo FOH trim amount\""
 				}
 
@@ -425,7 +425,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 217.0, 520.0, 99.0, 22.0 ],
-					"restore" : [ -70.0 ],
+					"restore" : [ -12.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -456,7 +456,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1183.0, 191.0, 102.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 18.425196850393689 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
