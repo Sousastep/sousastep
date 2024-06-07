@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2122.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1408.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -113,30 +113,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1967.0, 1784.0, 54.0, 22.0 ],
 					"text" : "copy 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-840",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5189.0, 3727.0, 179.0, 22.0 ],
-					"text" : "r \"bang when tuba's not playing\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-841",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5081.0, 3695.0, 159.0, 22.0 ],
-					"text" : "r \"bang when tuba's playing\""
 				}
 
 			}
@@ -742,110 +718,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 5718.0, 1311.0, 106.0, 22.0 ],
 					"text" : "s udp_received"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-518",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 5108.0, 3920.5, 48.0, 22.0 ],
-					"text" : "del 333"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-472",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 5155.5, 4163.0, 62.0, 22.0 ],
-					"text" : "change -1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-656",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 5108.0, 3873.5, 71.5, 22.0 ],
-					"text" : "onebang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-655",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5339.0, 3907.5, 143.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "gate 1 while tuba playing, \n2 while tuba not playing",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-629",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 5160.5, 3775.0, 32.0, 22.0 ],
-					"text" : "t b 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-624",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 5058.5, 3775.0, 22.0, 22.0 ],
-					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-528",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5281.0, 3914.0, 52.0, 22.0 ],
-					"text" : "gate 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-523",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5181.0, 3656.0, 162.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "left: tuba starts playing\nright: tuba stops playing",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -1606,30 +1478,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4920.0, 3836.0, 22.0, 22.0 ],
-					"text" : "t 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4920.0, 3803.0, 55.0, 22.0 ],
-					"text" : "del 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -1637,42 +1485,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 199.0, 1714.0, 145.0, 22.0 ],
 					"text" : "r audio_driver_start_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-658",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 4878.0, 4139.0, 58.0, 22.0 ],
-					"text" : "change 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-233",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4878.0, 4076.0, 228.0, 22.0 ],
-					"text" : "r \"auto-mute octaver while tuba's soloing\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-45",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4878.0, 4108.0, 34.0, 22.0 ],
-					"text" : "AND"
 				}
 
 			}
@@ -2528,30 +2340,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-1144",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 5058.5, 3727.0, 121.0, 22.0 ],
-					"text" : "edge~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-474",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5058.5, 3662.5, 107.0, 22.0 ],
-					"text" : "r~ pre-loop_thresh"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-475",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -2658,17 +2446,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-763",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4877.0, 4262.0, 119.0, 22.0 ],
-					"text" : "s mute_octaver_midi"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-492",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2686,40 +2463,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2760.0, 2913.0, 91.0, 22.0 ],
 					"text" : "s mute_loopers"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"bubbleusescolors" : 1,
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-153",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4946.0, 3410.0, 183.0, 40.0 ],
-					"suppressinlet" : 1,
-					"text" : "\"bang when tuba's not playing\"",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"bubbleusescolors" : 1,
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-144",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5148.0, 3410.0, 183.0, 40.0 ],
-					"suppressinlet" : 1,
-					"text" : "\"bang when tuba's playing\"",
-					"textjustification" : 1
 				}
 
 			}
@@ -5772,42 +5515,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-243",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4920.0, 3770.0, 54.0, 22.0 ],
-					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-241",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 4920.0, 3702.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-239",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4920.0, 3737.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-227",
 					"maxclass" : "comment",
@@ -6369,73 +6076,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"bubbleusescolors" : 1,
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-702",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5380.0, 3437.0, 212.0, 54.0 ],
-					"suppressinlet" : 1,
-					"text" : "looper_ends_fadeout_bang\nis not aware of when tuba's playing",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"bubbleusescolors" : 1,
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-701",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5189.0, 3519.0, 228.0, 54.0 ],
-					"suppressinlet" : 1,
-					"text" : "looper_begins_fadeout_bang\nis not aware of when tuba's playing",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 2,
-					"bubbleusescolors" : 1,
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-700",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5046.0, 3442.0, 183.0, 54.0 ],
-					"suppressinlet" : 1,
-					"text" : "looper_finished_recording_bang\nis aware of when tuba's playing",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-698",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4920.0, 3496.0, 576.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "||: playing bassline || recording bassline || looping bassline while soloing || fading out bassline while soloing :||"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 1.0, 0.9137, 0.3255, 0.9 ],
 					"id" : "obj-659",
 					"maxclass" : "newobj",
@@ -6457,229 +6097,6 @@
 					"patching_rect" : [ 4184.0, 3409.0, 301.0, 22.0 ],
 					"text" : "\"param control logic\" 0 f \"Drum Clip Reverb Send (uni)\"",
 					"varname" : "Drum Clip Reverb Send (uni)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-157",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5155.5, 4201.0, 105.0, 22.0 ],
-					"text" : "s solo_fx_enabled"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-249",
-					"linecount" : 10,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5568.0, 3598.0, 137.0, 151.0 ],
-					"suppressinlet" : 1,
-					"text" : "if the tuba's still soloing when the looper finishes fading out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper finishes fading out, disable the solo fx immediately.",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-250",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5353.0, 3837.0, 154.0, 22.0 ],
-					"text" : "switch 2 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-462",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5556.0, 3760.0, 162.0, 22.0 ],
-					"text" : "r looper_ends_fadeout_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-544",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4844.0, 4300.0, 91.0, 22.0 ],
-					"text" : "s mute_octaver"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-545",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4844.0, 4011.0, 29.5, 22.0 ],
-					"text" : "+ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-546",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4844.0, 4172.0, 52.0, 22.0 ],
-					"text" : "gate 2 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-547",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4844.0, 3976.0, 129.0, 22.0 ],
-					"text" : "r is_ableton_live_open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-643",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 5358.0, 3760.0, 171.0, 22.0 ],
-					"text" : "r looper_begins_fadeout_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-769",
-					"linecount" : 10,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5376.0, 3598.0, 136.0, 151.0 ],
-					"suppressinlet" : 1,
-					"text" : "if the tuba's soloing when the looper begins to fade out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper begins to fade out, disable the solo fx immediately.",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-858",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4981.0, 3555.0, 162.0, 35.0 ],
-					"suppressinlet" : 1,
-					"text" : "when the looper starts looping, enable the solo fx",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-564",
-					"linecount" : 7,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4926.0, 4132.0, 132.0, 107.0 ],
-					"suppressinlet" : 1,
-					"text" : "when ableton's open, mute octaver via \"automator\" m4l device\n\nwhen ableton's not open, mute octaver directly",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.34 ],
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-565",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5072.0, 4044.0, 83.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "enable solo fx",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-953",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4981.0, 3599.0, 187.0, 22.0 ],
-					"text" : "r looper_finished_recording_bang"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-956",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4981.0, 3631.0, 22.0, 22.0 ],
-					"text" : "t 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-963",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 5108.0, 4002.0, 22.0, 22.0 ],
-					"text" : "t 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 0.75 ],
-					"checkedcolor" : [ 0.996078431372549, 1.0, 0.188235294117647, 1.0 ],
-					"id" : "obj-992",
-					"maxclass" : "toggle",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 5036.0, 4042.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -12014,11 +11431,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 3,
-										"out" : 14,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 29,
 										"out" : 25,
 										"gain" : 1.0
@@ -12199,11 +11611,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 2,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 41,
 										"out" : 49,
 										"gain" : 1.0
@@ -12214,8 +11621,28 @@
 										"gain" : 1.0
 									}
 , 									{
+										"in" : 37,
+										"out" : 70,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 18,
-										"out" : 18,
+										"out" : 69,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 44,
+										"out" : 3,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 3,
+										"out" : 0,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 38,
+										"out" : 4,
 										"gain" : 1.0
 									}
  ]
@@ -13623,24 +13050,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4304.0, 999.0, 150.0, 275.0 ],
 					"text" : "[ ] 66 1\nx 67 1\no 68 1\n/\\ 69 1\nL1 70 1\nr1 71 1\nL2 72 1 \nR2 73 1\nL2CC 85 255\nR2CC 86 255\nshare 74 1\noption 75\nL3 76\nR3 77\nps 78\ntrackpad 79\nLHV 80 81\nRHV 82 83\nudlr 84 0 2 4 6\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 135.156118903858271,
-					"background" : 1,
-					"grad1" : [ 0.392156862745098, 0.047058823529412, 0.701960784313725, 0.7 ],
-					"grad2" : [ 0.192156862745098, 0.831372549019608, 0.270588235294118, 0.36 ],
-					"id" : "obj-997",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4812.0, 3392.0, 822.0, 972.0 ],
-					"proportion" : 0.5,
-					"pt1" : [ 0.984848484848485, 0.974747474747475 ],
-					"pt2" : [ 0.055555555555556, 0.050505050505051 ]
 				}
 
 			}
@@ -15730,13 +15139,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-233", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-223", 0 ],
 					"order" : 0,
 					"source" : [ "obj-235", 0 ]
@@ -15774,13 +15176,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-243", 0 ],
-					"source" : [ "obj-239", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.124748319387436, 0.262599110603333, 0.425132572650909, 1.0 ],
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-24", 0 ]
@@ -15797,30 +15192,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-239", 0 ],
-					"source" : [ "obj-241", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-243", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.124748319387436, 0.262599110603333, 0.425132572650909, 1.0 ],
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-528", 1 ],
-					"source" : [ "obj-250", 0 ]
 				}
 
 			}
@@ -17421,13 +16795,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-433", 0 ],
 					"source" : [ "obj-431", 1 ]
 				}
@@ -17511,13 +16878,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-440", 0 ],
 					"source" : [ "obj-439", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-992", 0 ],
-					"source" : [ "obj-44", 0 ]
 				}
 
 			}
@@ -17876,13 +17236,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-658", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-451", 0 ],
 					"source" : [ "obj-450", 0 ]
 				}
@@ -17957,13 +17310,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-250", 2 ],
-					"source" : [ "obj-462", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-168", 0 ],
 					"source" : [ "obj-463", 0 ]
 				}
@@ -18029,20 +17375,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-521", 0 ],
 					"source" : [ "obj-471", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-157", 0 ],
-					"source" : [ "obj-472", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1144", 0 ],
-					"source" : [ "obj-474", 0 ]
 				}
 
 			}
@@ -18339,13 +17671,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-963", 0 ],
-					"source" : [ "obj-518", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.124748319387436, 0.262599110603333, 0.425132572650909, 1.0 ],
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-52", 0 ]
@@ -18385,20 +17710,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-865", 0 ],
 					"source" : [ "obj-527", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-656", 1 ],
-					"source" : [ "obj-528", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-963", 0 ],
-					"source" : [ "obj-528", 1 ]
 				}
 
 			}
@@ -18450,34 +17761,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-477", 0 ],
 					"source" : [ "obj-537", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-546", 0 ],
-					"source" : [ "obj-545", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-544", 0 ],
-					"source" : [ "obj-546", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-763", 0 ],
-					"source" : [ "obj-546", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-545", 0 ],
-					"source" : [ "obj-547", 0 ]
 				}
 
 			}
@@ -19394,13 +18677,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-528", 0 ],
-					"source" : [ "obj-624", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-627", 0 ],
 					"source" : [ "obj-625", 0 ]
 				}
@@ -19442,20 +18718,6 @@
 					"destination" : [ "obj-38", 0 ],
 					"order" : 3,
 					"source" : [ "obj-627", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-528", 0 ],
-					"source" : [ "obj-629", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-656", 0 ],
-					"source" : [ "obj-629", 0 ]
 				}
 
 			}
@@ -19577,13 +18839,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-250", 1 ],
-					"source" : [ "obj-643", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 17 ],
 					"order" : 0,
 					"source" : [ "obj-65", 0 ]
@@ -19646,20 +18901,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-651", 0 ],
 					"source" : [ "obj-654", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-518", 0 ],
-					"source" : [ "obj-656", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-546", 1 ],
-					"source" : [ "obj-658", 0 ]
 				}
 
 			}
@@ -21101,20 +20342,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-629", 0 ],
-					"source" : [ "obj-840", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-624", 0 ],
-					"source" : [ "obj-841", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-790", 0 ],
 					"source" : [ "obj-859", 71 ]
 				}
@@ -21273,20 +20500,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-956", 0 ],
-					"source" : [ "obj-953", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-992", 0 ],
-					"source" : [ "obj-956", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 40 ],
 					"order" : 2,
 					"source" : [ "obj-96", 0 ]
@@ -21306,13 +20519,6 @@
 					"destination" : [ "obj-92", 0 ],
 					"order" : 1,
 					"source" : [ "obj-96", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-992", 0 ],
-					"source" : [ "obj-963", 0 ]
 				}
 
 			}
@@ -21707,22 +20913,6 @@
 					"destination" : [ "obj-510", 6 ],
 					"order" : 1,
 					"source" : [ "obj-99", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 1 ],
-					"order" : 1,
-					"source" : [ "obj-992", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-472", 0 ],
-					"order" : 0,
-					"source" : [ "obj-992", 0 ]
 				}
 
 			}

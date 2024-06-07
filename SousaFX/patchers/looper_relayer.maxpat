@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 563.0, 1493.0, 934.0, 813.0 ],
+		"rect" : [ 34.0, 53.0, 2492.0, 1353.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,51 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-127",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2782.0, 3164.0, 78.0, 107.0 ],
+					"presentation_linecount" : 8,
+					"suppressinlet" : 1,
+					"text" : "looper status\n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-125",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2857.0, 3111.0, 214.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "looper_almost_done_fadeout_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-207",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2928.0, 3056.5, 214.0, 21.0 ],
+					"presentation_linecount" : 4,
+					"suppressinlet" : 1,
+					"text" : "looper_going_to_begin_fadeout_bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "looper state",
 					"hint" : "looper going to begin fading out on downbeat or immediately depending on tempo mode != ableton",
@@ -200,7 +245,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2820.0, 3052.0, 30.0, 30.0 ]
+					"patching_rect" : [ 2822.0, 3106.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -299,7 +344,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2744.0, 3052.0, 30.0, 30.0 ]
+					"patching_rect" : [ 2744.0, 3164.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -757,18 +802,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-71",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 2140.0, 3152.0, 150.0, 21.0 ],
-					"suppressinlet" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.973595261573792, 0.436732828617096, 0.956550717353821, 1.0 ],
 					"id" : "obj-145",
 					"maxclass" : "newobj",
@@ -860,7 +893,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1944.0, 2305.5, 40.0, 22.0 ],
+					"patching_rect" : [ 1942.0, 2304.0, 40.0, 22.0 ],
 					"text" : "active"
 				}
 
@@ -880,11 +913,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-83",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2096.0, 2425.0, 50.0, 22.0 ]
+					"patching_rect" : [ 2096.0, 2425.0, 50.0, 35.0 ]
 				}
 
 			}
@@ -1055,7 +1089,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2952.0, 2932.0, 286.0, 22.0 ]
+					"patching_rect" : [ 2947.0, 2962.0, 286.0, 22.0 ]
 				}
 
 			}
@@ -1159,7 +1193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3056.0, 2896.0, 286.0, 22.0 ]
+					"patching_rect" : [ 3048.0, 2911.0, 286.0, 22.0 ]
 				}
 
 			}
@@ -1170,7 +1204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2184.0, 2524.0, 22.0, 22.0 ],
+					"patching_rect" : [ 2183.0, 2524.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -1361,7 +1395,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2184.0, 2640.0, 30.0, 30.0 ]
+					"patching_rect" : [ 2183.0, 2640.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -2045,24 +2079,6 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 805.0, 2012.0, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"beats" : 						{
-							"label" : "beats",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"fb" : 						{
-							"label" : "fb",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\""
-						}
-,
-						"input" : 						{
-							"label" : "input",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\""
-						}
-,
 						"regen" : 						{
 							"label" : "regen",
 							"isEnum" : 0,
@@ -2075,15 +2091,33 @@
 							"parsestring" : ""
 						}
 ,
+						"beats" : 						{
+							"label" : "beats",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"volume" : 						{
 							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
+,
+						"input" : 						{
+							"label" : "input",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\""
+						}
+,
+						"fb" : 						{
+							"label" : "fb",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\""
+						}
 
 					}
 ,
-					"rnboversion" : "1.2.7-eventide.0",
+					"rnboversion" : "1.3.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -4444,7 +4478,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
