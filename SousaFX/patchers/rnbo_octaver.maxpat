@@ -2,9 +2,9 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 9,
-			"minor" : 0,
-			"revision" : 0,
+			"major" : 8,
+			"minor" : 6,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-60",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 31.0, 471.0, 67.0, 22.0 ],
+					"restore" : [ "active", 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr active",
+					"varname" : "active"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
@@ -454,7 +473,8 @@
 					"patching_rect" : [ 114.0, 511.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 84.0, 90.25, 110.0, 22.0 ],
-					"text_width" : 64.0
+					"text_width" : 64.0,
+					"varname" : "attrui"
 				}
 
 			}
@@ -469,9 +489,9 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 9,
-							"minor" : 0,
-							"revision" : 0,
+							"major" : 8,
+							"minor" : 6,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -771,14 +791,8 @@
 							"parsestring" : ""
 						}
 ,
-						"octave2" : 						{
-							"label" : "octave2",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"tone" : 						{
-							"label" : "tone",
+						"mix" : 						{
+							"label" : "mix",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -789,14 +803,14 @@
 							"parsestring" : ""
 						}
 ,
-						"drive" : 						{
-							"label" : "drive",
+						"octave2" : 						{
+							"label" : "octave2",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"mix" : 						{
-							"label" : "mix",
+						"drive" : 						{
+							"label" : "drive",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -806,10 +820,16 @@
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
+,
+						"tone" : 						{
+							"label" : "tone",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
 
 					}
 ,
-					"rnboversion" : "1.2.6",
+					"rnboversion" : "1.3.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2460,6 +2480,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-55", 1 ],
 					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-60", 1 ]
 				}
 
 			}

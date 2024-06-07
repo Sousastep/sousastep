@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 245.0, 544.0, 67.0, 22.0 ],
+					"restore" : [ "active", 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr active",
+					"varname" : "active"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -628,7 +647,8 @@
 					"patching_rect" : [ 347.0, 592.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 30.0, 22.0, 110.0, 22.0 ],
-					"text_width" : 64.0
+					"text_width" : 64.0,
+					"varname" : "attrui"
 				}
 
 			}
@@ -709,8 +729,8 @@
 					"outlettype" : [ "signal", "signal", "", "list" ],
 					"patching_rect" : [ 347.0, 838.0, 358.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"level" : 						{
-							"label" : "level",
+						"lomid" : 						{
+							"label" : "lomid",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -721,20 +741,20 @@
 							"parsestring" : ""
 						}
 ,
-						"lomidfq" : 						{
-							"label" : "lomidfq",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"himidfq" : 						{
 							"label" : "himidfq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"lomid" : 						{
-							"label" : "lomid",
+						"level" : 						{
+							"label" : "level",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"lomidfq" : 						{
+							"label" : "lomidfq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -747,7 +767,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.0-dev.7",
+					"rnboversion" : "1.3.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1465,6 +1485,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-14", 0 ]
 				}
@@ -1759,19 +1786,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "ParamEQ.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",

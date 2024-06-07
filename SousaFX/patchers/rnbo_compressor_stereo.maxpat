@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,25 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 240.0, 463.0, 67.0, 22.0 ],
+					"restore" : [ "active", 1 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr active",
+					"varname" : "active"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "himid",
 					"attr_display" : 1,
@@ -594,7 +613,8 @@
 					"patching_rect" : [ 264.0, 514.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 101.0, 110.0, 22.0 ],
-					"text_width" : 64.0
+					"text_width" : 64.0,
+					"varname" : "attrui"
 				}
 
 			}
@@ -610,7 +630,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -888,20 +908,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 477.0, 641.0, 421.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"attack" : 						{
-							"label" : "attack",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"lookahead" : 						{
-							"label" : "lookahead",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\" \"2\""
-						}
-,
-						"comp" : 						{
-							"label" : "comp",
+						"himid" : 						{
+							"label" : "himid",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -912,8 +920,20 @@
 							"parsestring" : ""
 						}
 ,
-						"himid" : 						{
-							"label" : "himid",
+						"comp" : 						{
+							"label" : "comp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"himidfq" : 						{
+							"label" : "himidfq",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"attack" : 						{
+							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -924,21 +944,21 @@
 							"parsestring" : ""
 						}
 ,
+						"lookahead" : 						{
+							"label" : "lookahead",
+							"isEnum" : 1,
+							"parsestring" : "\"0\" \"1\" \"2\""
+						}
+,
 						"softclip" : 						{
 							"label" : "softclip",
 							"isEnum" : 1,
 							"parsestring" : "\"0\" \"1\""
 						}
-,
-						"himidfq" : 						{
-							"label" : "himidfq",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
 
 					}
 ,
-					"rnboversion" : "1.3.0-dev.7",
+					"rnboversion" : "1.3.0",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1949,6 +1969,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-12", 1 ]
 				}
 
 			}
