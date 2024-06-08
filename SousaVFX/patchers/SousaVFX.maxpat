@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 311.0, 166.0, 1588.0, 1212.0 ],
+		"rect" : [ 634.0, 109.0, 1588.0, 1212.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 5185.0, 1094.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-119",
 					"maxclass" : "newobj",
@@ -992,7 +1004,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 5201.0, 1079.0, 106.0, 31.0 ],
+					"patching_rect" : [ 5185.0, 1031.0, 106.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1214.0, 235.0, 243.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1226,7 +1238,7 @@
 						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 395, 104, 995, 404 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -1292,8 +1304,9 @@
 					"maxclass" : "bpatcher",
 					"name" : "dude_shader.maxpat",
 					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "jit_gl_texture" ],
 					"patching_rect" : [ 2104.0, 2500.0, 548.0, 336.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 658.0, 0.0, 548.0, 336.0 ],
@@ -3210,10 +3223,10 @@
 					"id" : "obj-458",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 5178.0, 1014.0, 32.0, 22.0 ],
-					"text" : "t b 0"
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 5081.0, 1020.0, 22.0, 22.0 ],
+					"text" : "t 0"
 				}
 
 			}
@@ -3224,7 +3237,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5178.0, 981.0, 92.0, 22.0 ],
+					"patching_rect" : [ 5081.0, 987.0, 92.0, 22.0 ],
 					"text" : "r sousafx_close"
 				}
 
@@ -3271,7 +3284,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5107.0, 1083.0, 71.0, 22.0 ],
+					"patching_rect" : [ 5244.0, 1094.0, 71.0, 22.0 ],
 					"text" : "s vfx_active"
 				}
 
@@ -4174,7 +4187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5325.0, 1205.0, 119.0, 53.0 ],
+					"patching_rect" : [ 5356.0, 1224.5, 119.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1464.0, 374.0, 98.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
@@ -4545,7 +4558,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5185.0, 1207.0, 34.0, 22.0 ],
+					"patching_rect" : [ 5216.0, 1226.5, 34.0, 22.0 ],
 					"text" : "s fps"
 				}
 
@@ -5336,7 +5349,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5249.0, 1207.0, 49.0, 22.0 ],
+					"patching_rect" : [ 5280.0, 1226.5, 49.0, 22.0 ],
 					"text" : "s rbang"
 				}
 
@@ -6028,7 +6041,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7200,7 +7213,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"midpoints" : [ 5831.5, 1995.0, 5802.0, 1995.0, 5802.0, 1055.0, 5210.5, 1055.0 ],
+					"midpoints" : [ 5831.5, 1995.0, 5802.0, 1995.0, 5802.0, 989.0, 5194.5, 989.0 ],
 					"source" : [ "obj-332", 0 ]
 				}
 
@@ -7313,6 +7326,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-199", 0 ],
 					"source" : [ "obj-404", 0 ]
 				}
@@ -7408,15 +7428,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-115", 0 ],
-					"source" : [ "obj-458", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"source" : [ "obj-458", 1 ]
+					"source" : [ "obj-458", 0 ]
 				}
 
 			}
@@ -7494,6 +7507,14 @@
 					"destination" : [ "obj-600", 0 ],
 					"order" : 0,
 					"source" : [ "obj-499", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"midpoints" : [ 2113.5, 3161.0, 6410.0, 3161.0, 6410.0, 1134.0, 4834.5, 1134.0 ],
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
@@ -8139,8 +8160,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-88", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"order" : 1,
+					"source" : [ "obj-66", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-88", 0 ],
+					"order" : 2,
 					"source" : [ "obj-66", 0 ]
 				}
 
