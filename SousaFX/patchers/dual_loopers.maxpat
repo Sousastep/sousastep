@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2115.0, 1387.0 ],
+		"rect" : [ 338.0, 53.0, 2115.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -191,7 +191,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2599.0, 2931.0, 143.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "gate 1 while tuba playing, \n2 while tuba not playing",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -244,7 +243,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2441.0, 2679.0, 162.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "left: tuba starts playing\nright: tuba stops playing",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -428,7 +426,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2640.0, 2460.0, 212.0, 54.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "looper_ends_fadeout_bang\nis not aware of when tuba's playing",
 					"textjustification" : 1
@@ -447,7 +444,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2449.0, 2542.0, 228.0, 54.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "looper_begins_fadeout_bang\nis not aware of when tuba's playing",
 					"textjustification" : 1
@@ -466,7 +462,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2306.0, 2465.0, 183.0, 54.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "looper_finished_recording_bang\nis aware of when tuba's playing",
 					"textjustification" : 1
@@ -507,7 +502,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2828.0, 2621.0, 137.0, 151.0 ],
-					"presentation_linecount" : 10,
 					"suppressinlet" : 1,
 					"text" : "if the tuba's still soloing when the looper finishes fading out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper finishes fading out, disable the solo fx immediately.",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -607,7 +601,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2636.0, 2621.0, 136.0, 151.0 ],
-					"presentation_linecount" : 10,
 					"suppressinlet" : 1,
 					"text" : "if the tuba's soloing when the looper begins to fade out, disable the solo fx once the tuba stops playing.\n\nif the tuba's not playing when the looper begins to fade out, disable the solo fx immediately.",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -624,7 +617,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2241.0, 2578.0, 162.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "when the looper starts looping, enable the solo fx",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -641,7 +633,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2186.0, 3155.0, 132.0, 107.0 ],
-					"presentation_linecount" : 7,
 					"suppressinlet" : 1,
 					"text" : "when ableton's open, mute octaver via \"automator\" m4l device\n\nwhen ableton's not open, mute octaver directly",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -736,7 +727,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2098.0, 2009.5, 103.0, 64.0 ],
-					"presentation_linecount" : 7,
 					"suppressinlet" : 1,
 					"text" : "number of times looper finishes before triggering tempo change"
 				}
@@ -829,7 +819,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2108.0, 1896.5, 28.0, 28.0 ],
+					"patching_rect" : [ 2108.0, 1896.5, 31.0, 28.0 ],
 					"text" : "0 0 0 0.82"
 				}
 
@@ -3829,7 +3819,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 774.0, 2494.0, 172.0, 22.0 ],
+					"patching_rect" : [ 992.0, 3893.0, 172.0, 22.0 ],
 					"text" : "sidechained_kick loopers"
 				}
 
@@ -4119,7 +4109,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-100", 0 ]
 				}
 
@@ -4421,14 +4411,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
+					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-1223", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-41", 1 ],
 					"source" : [ "obj-1224", 0 ]
 				}
 
@@ -5679,32 +5669,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-100", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-71", 0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"order" : 0,
-					"source" : [ "obj-41", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-145", 0 ],
-					"order" : 0,
-					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-99", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-72", 0 ],
 					"source" : [ "obj-41", 1 ]
 				}
 
@@ -5725,16 +5697,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1072", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-100", 0 ],
+					"order" : 1,
 					"source" : [ "obj-44", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-1072", 0 ],
+					"order" : 2,
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"order" : 0,
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -5749,15 +5729,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1072", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-47", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 1 ],
+					"destination" : [ "obj-145", 0 ],
 					"order" : 0,
+					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"order" : 1,
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -6325,7 +6313,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-72", 0 ],
+					"destination" : [ "obj-41", 1 ],
 					"source" : [ "obj-99", 0 ]
 				}
 
