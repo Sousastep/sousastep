@@ -40,7 +40,31 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 713.0, 357.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 713.0, 323.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "bang for current",
 					"id" : "obj-5",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -102,7 +126,7 @@
 
 					}
 ,
-					"text" : "open",
+					"text" : "open #1 preset list",
 					"varname" : "live.text"
 				}
 
@@ -262,7 +286,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "bang for random",
 					"id" : "obj-162",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -408,6 +432,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
 					"order" : 1,
 					"source" : [ "obj-625", 0 ]
@@ -442,6 +473,14 @@
 					"destination" : [ "obj-540", 2 ],
 					"midpoints" : [ 414.5, 602.5, 526.0, 602.5, 526.0, 185.5, 482.5, 185.5 ],
 					"source" : [ "obj-72", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"midpoints" : [ 722.5, 396.0, 672.0, 396.0, 672.0, 321.0, 602.5, 321.0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}
