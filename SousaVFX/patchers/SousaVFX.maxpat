@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 770.0, 53.0, 1583.0, 1199.0 ],
+		"rect" : [ 549.0, 211.0, 1583.0, 1199.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-193",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1460.66671097278595, 1637.0, 99.0, 22.0 ],
+					"text" : "print VFX_preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-191",
+					"maxclass" : "meter~",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 2357.0, 348.0, 80.0, 13.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
 					"fontname" : "Monaco",
@@ -1890,10 +1912,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 552, 443 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -3346,7 +3368,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.468085106382979, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.045212765957447, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 1.0,
@@ -3358,10 +3380,10 @@
 					"outlettype" : [ "float", "", "", "bang" ],
 					"outputmode" : 1,
 					"parameter_enable" : 1,
-					"patching_rect" : [ 2599.0, 266.0, 200.0, 100.0 ],
+					"patching_rect" : [ 2594.5, 262.5, 200.0, 100.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.468085106382979, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65, "curve" ],
+							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.045212765957447, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.65, "curve" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[31]",
@@ -7820,6 +7842,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-193", 0 ],
+					"order" : 2,
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-618", 0 ],
 					"order" : 1,
 					"source" : [ "obj-19", 0 ]
@@ -8537,7 +8567,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"order" : 1,
+					"source" : [ "obj-569", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-656", 0 ],
+					"order" : 0,
 					"source" : [ "obj-569", 0 ]
 				}
 
