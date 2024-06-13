@@ -42,13 +42,35 @@
 		"title" : "monitor mix",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-825",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "meter_peak.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 566.0, 415.0, 53.5, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 95.0, 116.0, 50.0, 15.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1330.0, 692.0, 139.0, 22.0 ],
-					"restore" : [ -3.5 ],
+					"restore" : [ -12.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -152,66 +174,6 @@
 					}
 ,
 					"varname" : "gain compensation"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"appearance" : 3,
-					"fontname" : "Monaco",
-					"fontsize" : 11.0,
-					"hint" : "MIDI mapped to Ableton Live's \"playack bus\" track's monitor mix volume send.",
-					"id" : "obj-32",
-					"maxclass" : "live.dial",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 879.0, 584.0, 89.0, 68.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_longname" : "playback bus",
-							"parameter_mmax" : 0.0,
-							"parameter_mmin" : -70.0,
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "playback bus",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "playback bus"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 822.0, 545.0, 133.0, 22.0 ],
-					"restore" : [ -7.71653543307086 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr \"playback bus vol\"",
-					"varname" : "playback bus vol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-28",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 798.5, 681.0, 180.0, 22.0 ],
-					"text" : "s \"playback bus monitor mix vol\""
 				}
 
 			}
@@ -425,7 +387,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 217.0, 520.0, 99.0, 22.0 ],
-					"restore" : [ -12.0 ],
+					"restore" : [ -35.762057086614135 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -937,7 +899,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 540.0, 346.0, 166.0, 22.0 ],
+					"patching_rect" : [ 540.0, 492.0, 166.0, 22.0 ],
 					"text" : "selector~ 1 0 @ramptime 200"
 				}
 
@@ -949,7 +911,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 347.0, 346.0, 166.0, 22.0 ],
+					"patching_rect" : [ 347.0, 492.0, 166.0, 22.0 ],
 					"text" : "selector~ 1 0 @ramptime 200"
 				}
 
@@ -985,7 +947,7 @@
 					"outlettype" : [ "signal", "signal", "" ],
 					"patching_rect" : [ 347.0, 968.0, 405.0, 238.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.0, 126.0, 253.0, 243.0 ],
+					"presentation_rect" : [ 18.0, 135.0, 253.0, 243.0 ],
 					"varname" : "plugin_or_rnbo_selector[5]",
 					"viewvisibility" : 1
 				}
@@ -995,11 +957,11 @@
 				"box" : 				{
 					"comment" : "metronome",
 					"id" : "obj-458",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1242.0, 423.0, 30.0, 30.0 ]
 				}
 
@@ -1008,11 +970,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-459",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 841.0, 198.0, 30.0, 30.0 ]
 				}
 
@@ -1021,11 +983,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-461",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 494.0, 198.0, 30.0, 30.0 ]
 				}
 
@@ -1034,11 +996,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-463",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 985.0, 198.0, 30.0, 30.0 ]
 				}
 
@@ -1047,11 +1009,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-464",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 687.0, 198.0, 30.0, 30.0 ]
 				}
 
@@ -1060,7 +1022,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-465",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1072,7 +1034,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-466",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1348,21 +1310,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-440", 0 ],
-					"source" : [ "obj-32", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-33", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-207", 1 ],
+					"order" : 0,
+					"source" : [ "obj-362", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-825", 1 ],
+					"order" : 1,
 					"source" : [ "obj-362", 0 ]
 				}
 
@@ -1370,6 +1327,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-209", 1 ],
+					"order" : 0,
+					"source" : [ "obj-363", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-825", 0 ],
+					"order" : 1,
 					"source" : [ "obj-363", 0 ]
 				}
 
@@ -1660,6 +1626,76 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-12" : [ "solo monitor boost", "solo monitor boost", 0 ],
+			"obj-247::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
+			"obj-4" : [ "solo trim main out", "solo trim main out", 0 ],
+			"obj-7" : [ "gain compensation", "solo gain compensation", 0 ],
+			"obj-825::obj-813" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
+			"obj-9" : [ "metronome", "metronome", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "20231105_231711.jpg",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "meter_peak.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monitor_EQ_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monitor_EQ_rnbo_or_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "monitor_mix.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "plugin_or_rnbo_selector.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.643137254901961, 0.643137254901961, 0.643137254901961, 1.0 ]
 	}
 
