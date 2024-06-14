@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 559.0, 53.0, 1556.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1978,7 +1978,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4709.0, 5138.0, 30.0, 22.0 ],
+					"patching_rect" : [ 4709.0, 5138.0, 56.0, 22.0 ],
 					"text" : "*~ 1"
 				}
 
@@ -1990,7 +1990,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4568.0, 5242.0, 30.0, 22.0 ],
+					"patching_rect" : [ 4568.0, 5242.0, 56.0, 22.0 ],
 					"text" : "*~ 1"
 				}
 
@@ -5609,7 +5609,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9892,8 +9892,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -21716,6 +21716,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.692085862159729, 0.0, 0.080761536955833, 1.0 ],
 					"destination" : [ "obj-211", 1 ],
 					"order" : 1,
 					"source" : [ "obj-798", 0 ]
@@ -21724,6 +21725,7 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.692085862159729, 0.0, 0.080761536955833, 1.0 ],
 					"destination" : [ "obj-267", 1 ],
 					"order" : 0,
 					"source" : [ "obj-798", 0 ]
@@ -22119,8 +22121,6 @@
 			"obj-169::obj-1140::obj-114" : [ "function[101]", "function", 0 ],
 			"obj-169::obj-1140::obj-178" : [ "curves[98]", "curves", 0 ],
 			"obj-169::obj-1140::obj-36" : [ "curve[89]", "curve", 0 ],
-			"obj-169::obj-1155::obj-62" : [ "number[4]", "number[3]", 0 ],
-			"obj-169::obj-1155::obj-64" : [ "number[3]", "number[4]", 0 ],
 			"obj-169::obj-11::obj-114" : [ "function[34]", "function", 0 ],
 			"obj-169::obj-11::obj-178" : [ "curves", "curves", 0 ],
 			"obj-169::obj-11::obj-36" : [ "curve[57]", "curve", 0 ],
@@ -22133,8 +22133,6 @@
 			"obj-169::obj-203::obj-114" : [ "function[33]", "function", 0 ],
 			"obj-169::obj-203::obj-178" : [ "curves[1]", "curves", 0 ],
 			"obj-169::obj-203::obj-36" : [ "curve[100]", "curve", 0 ],
-			"obj-169::obj-214::obj-176::obj-62" : [ "number[2]", "number[3]", 0 ],
-			"obj-169::obj-214::obj-176::obj-64" : [ "number[1]", "number[4]", 0 ],
 			"obj-169::obj-219::obj-114" : [ "function[100]", "function", 0 ],
 			"obj-169::obj-219::obj-178" : [ "curves[97]", "curves", 0 ],
 			"obj-169::obj-219::obj-36" : [ "curve[88]", "curve", 0 ],
@@ -22223,8 +22221,6 @@
 			"obj-169::obj-760::obj-114" : [ "function[13]", "function", 0 ],
 			"obj-169::obj-760::obj-178" : [ "curves[102]", "curves", 0 ],
 			"obj-169::obj-760::obj-36" : [ "curve[93]", "curve", 0 ],
-			"obj-169::obj-762::obj-644::obj-62" : [ "number[5]", "number[3]", 0 ],
-			"obj-169::obj-762::obj-644::obj-64" : [ "number[6]", "number[4]", 0 ],
 			"obj-169::obj-771::obj-114" : [ "function[104]", "function", 0 ],
 			"obj-169::obj-771::obj-178" : [ "curves[109]", "curves", 0 ],
 			"obj-169::obj-771::obj-36" : [ "curve[101]", "curve", 0 ],
@@ -22302,22 +22298,22 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
-			"obj-233::obj-1041::obj-105" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
 			"obj-233::obj-1041::obj-138::obj-27" : [ "smooth[5]", "smooth", 0 ],
+			"obj-233::obj-1041::obj-141" : [ "live.menu[8]", "live.menu[2]", 0 ],
 			"obj-233::obj-1041::obj-7" : [ "Loop Volume[1]", "volume", 0 ],
 			"obj-233::obj-1041::obj-8" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-813" : [ "feedback[1]", "feedback", 0 ],
 			"obj-233::obj-1041::obj-87" : [ "live.menu[3]", "live.menu[1]", 0 ],
 			"obj-233::obj-1041::obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
 			"obj-233::obj-1041::obj-901" : [ "master_highpass[1]", "highpass", 0 ],
-			"obj-233::obj-1042::obj-105" : [ "live.numbox[1]", "live.numbox", 0 ],
 			"obj-233::obj-1042::obj-138::obj-1" : [ "filter sweep[2]", "filter sweep", 0 ],
 			"obj-233::obj-1042::obj-138::obj-27" : [ "smooth[4]", "smooth", 0 ],
+			"obj-233::obj-1042::obj-141" : [ "live.menu[6]", "live.menu[2]", 0 ],
 			"obj-233::obj-1042::obj-7" : [ "Loop Volume[2]", "volume", 0 ],
 			"obj-233::obj-1042::obj-8" : [ "live.menu[5]", "live.menu", 0 ],
 			"obj-233::obj-1042::obj-813" : [ "feedback[2]", "feedback", 0 ],
-			"obj-233::obj-1042::obj-87" : [ "live.menu[6]", "live.menu[1]", 0 ],
+			"obj-233::obj-1042::obj-87" : [ "live.menu[7]", "live.menu[1]", 0 ],
 			"obj-233::obj-1042::obj-895" : [ "master_lowpass[2]", "lowpass", 0 ],
 			"obj-233::obj-1042::obj-901" : [ "master_highpass[2]", "highpass", 0 ],
 			"obj-233::obj-115" : [ "active[3]", "Active", 0 ],
@@ -22337,8 +22333,6 @@
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
-			"obj-233::obj-644::obj-62" : [ "number[15]", "number[3]", 0 ],
-			"obj-233::obj-644::obj-64" : [ "number[16]", "number[4]", 0 ],
 			"obj-234::obj-144" : [ "bars per risset loop", "bars per accel loop", 0 ],
 			"obj-248::obj-21::obj-191" : [ "vst~[4]", "vst~", 0 ],
 			"obj-251::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
@@ -22905,6 +22899,10 @@
 					"parameter_longname" : "smooth[5]"
 				}
 ,
+				"obj-233::obj-1041::obj-141" : 				{
+					"parameter_longname" : "live.menu[8]"
+				}
+,
 				"obj-233::obj-1041::obj-8" : 				{
 					"parameter_longname" : "live.menu[4]"
 				}
@@ -22913,16 +22911,16 @@
 					"parameter_longname" : "live.menu[3]"
 				}
 ,
-				"obj-233::obj-1042::obj-105" : 				{
-					"parameter_longname" : "live.numbox[1]"
-				}
-,
 				"obj-233::obj-1042::obj-138::obj-1" : 				{
 					"parameter_longname" : "filter sweep[2]"
 				}
 ,
 				"obj-233::obj-1042::obj-138::obj-27" : 				{
 					"parameter_longname" : "smooth[4]"
+				}
+,
+				"obj-233::obj-1042::obj-141" : 				{
+					"parameter_longname" : "live.menu[6]"
 				}
 ,
 				"obj-233::obj-1042::obj-7" : 				{
@@ -22938,7 +22936,7 @@
 				}
 ,
 				"obj-233::obj-1042::obj-87" : 				{
-					"parameter_longname" : "live.menu[6]"
+					"parameter_longname" : "live.menu[7]"
 				}
 ,
 				"obj-233::obj-1042::obj-895" : 				{
