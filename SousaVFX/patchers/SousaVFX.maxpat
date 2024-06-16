@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 549.0, 211.0, 1583.0, 1199.0 ],
+		"rect" : [ 522.0, 53.0, 2037.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-198",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1411.0, 633.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-193",
 					"maxclass" : "newobj",
@@ -495,7 +507,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1664.000049591064453, 743.5, 94.0, 51.0 ],
-					"text" : "soloFX\n1. enabled\n2. disabled"
+					"text" : "soloFX\n1. disabled\n2. enabled"
 				}
 
 			}
@@ -519,7 +531,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1769.333386063575745, 779.500001072883606, 78.0, 22.0 ],
-					"text" : "gate 2 2"
+					"text" : "gate 2 1"
 				}
 
 			}
@@ -1447,7 +1459,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 1427.0, 597.0, 226.0, 32.0 ],
+					"patching_rect" : [ 1386.0, 674.0, 226.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1214.0, 269.0, 243.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
@@ -1912,10 +1924,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -2715,7 +2727,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4077,10 +4089,10 @@
 					"id" : "obj-602",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1373.0, 449.0, 22.0, 22.0 ],
-					"text" : "t 0"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1373.0, 449.0, 32.0, 22.0 ],
+					"text" : "t 0 1"
 				}
 
 			}
@@ -5147,7 +5159,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6015,7 +6027,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7690,14 +7702,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"source" : [ "obj-177", 0 ]
+					"source" : [ "obj-177", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 1 ],
-					"source" : [ "obj-177", 1 ]
+					"source" : [ "obj-177", 0 ]
 				}
 
 			}
@@ -7867,6 +7879,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-632", 0 ],
 					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-109", 0 ],
+					"source" : [ "obj-198", 0 ]
 				}
 
 			}
@@ -8670,15 +8689,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 0,
-					"source" : [ "obj-602", 0 ]
+					"source" : [ "obj-602", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
-					"order" : 1,
 					"source" : [ "obj-602", 0 ]
 				}
 
