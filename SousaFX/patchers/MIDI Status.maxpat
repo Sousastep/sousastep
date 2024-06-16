@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 192.0, 371.0, 1307.0, 833.0 ],
+		"rect" : [ 1058.0, 504.0, 1179.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-290",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 95.0, 1861.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-289",
 					"maxclass" : "button",
@@ -755,7 +767,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 693.0, 1567.0, 29.5, 22.0 ],
+					"patching_rect" : [ 425.0, 1521.0, 29.5, 22.0 ],
 					"text" : "b 2"
 				}
 
@@ -767,7 +779,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 607.0, 1654.666715979576111, 29.5, 22.0 ],
+					"patching_rect" : [ 339.0, 1609.0, 29.5, 22.0 ],
 					"text" : "+ 1"
 				}
 
@@ -779,7 +791,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "int", "", "", "int" ],
-					"patching_rect" : [ 607.0, 1620.0, 61.0, 22.0 ],
+					"patching_rect" : [ 339.0, 1574.0, 61.0, 22.0 ],
 					"text" : "counter 3"
 				}
 
@@ -791,7 +803,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 660.0, 1693.0, 52.0, 22.0 ],
+					"patching_rect" : [ 392.0, 1647.0, 52.0, 22.0 ],
 					"text" : "gate 4 1"
 				}
 
@@ -906,7 +918,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 693.0, 1531.0, 389.0, 22.0 ],
+					"patching_rect" : [ 425.0, 1485.0, 389.0, 22.0 ],
 					"text" : "r \"change tempo after looper finishes looping a certain number of times\""
 				}
 
@@ -6775,6 +6787,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-336", 0 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-255", 0 ],
+					"source" : [ "obj-290", 0 ]
 				}
 
 			}
