@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 276.0, 135.0, 1983.0, 1233.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1829,27 +1829,39 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.69 ],
+					"blinkcolor" : [ 1.0, 0.968627450980392, 0.0, 1.0 ],
 					"hint" : "displays single click detection",
 					"id" : "obj-83",
+					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.996078431372549, 1.0, 0.494117647058824, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1059.0, 669.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1059.0, 669.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 170.0, 24.0, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.69 ],
+					"blinkcolor" : [ 1.0, 0.501960784313725, 0.0, 1.0 ],
 					"hint" : "displays double click detection",
 					"id" : "obj-86",
+					"ignoreclick" : 1,
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 1.0, 0.584313725490196, 0.223529411764706, 1.0 ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1120.0, 669.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1120.0, 669.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 170.0, 50.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -3988,7 +4000,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1091.5, 591.0, 97.0, 22.0 ],
+					"patching_rect" : [ 1091.5, 593.0, 97.0, 22.0 ],
 					"text" : "r \"looper control\""
 				}
 
@@ -4013,7 +4025,7 @@
 					"outlettype" : [ "signal", "signal", "bang", "bang", "int", "", "bang", "bang" ],
 					"patching_rect" : [ 752.0, 982.0, 145.5, 237.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.5, 19.0, 153.0, 212.0 ],
+					"presentation_rect" : [ 19.0, 19.0, 153.0, 212.0 ],
 					"varname" : "looper1",
 					"viewvisibility" : 1
 				}
@@ -4112,8 +4124,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -1110.0,
-					"yoffset" : -377.0
+					"xoffset" : -835.0,
+					"yoffset" : -810.0
 				}
 
 			}
@@ -6141,14 +6153,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"order" : 0,
-					"source" : [ "obj-644", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-28", 0 ],
 					"order" : 0,
 					"source" : [ "obj-644", 1 ]
@@ -6182,7 +6186,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-93", 0 ],
-					"order" : 1,
 					"source" : [ "obj-644", 2 ]
 				}
 
