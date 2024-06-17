@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1800,7 +1800,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3142,7 +3142,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3803,7 +3803,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5609,7 +5609,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6642,13 +6642,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-368",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1877.0, 973.0, 62.0, 49.0 ],
-					"text" : "1380 697 1744 1261"
+					"patching_rect" : [ 1877.0, 973.0, 62.0, 76.0 ],
+					"text" : "1626 290 3059 1231 1757 78 2299 361"
 				}
 
 			}
@@ -6664,7 +6664,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7073,7 +7073,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7290,7 +7290,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7636,7 +7636,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 490.0, 68.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -7724,7 +7724,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -9848,7 +9848,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -22280,6 +22280,7 @@
 			"obj-208::obj-22::obj-145" : [ "accel[2]", "accel", 0 ],
 			"obj-208::obj-22::obj-153" : [ "live.button[2]", "live.button", 0 ],
 			"obj-208::obj-22::obj-159" : [ "live.dial[17]", "window", 0 ],
+			"obj-208::obj-22::obj-21" : [ "live.menu[14]", "live.menu", 0 ],
 			"obj-208::obj-22::obj-22" : [ "offset[1]", "offset", 0 ],
 			"obj-208::obj-22::obj-235" : [ "volume dip[1]", "vol dip", 0 ],
 			"obj-208::obj-22::obj-36" : [ "active[13]", "Active", 0 ],
@@ -22298,6 +22299,7 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
 			"obj-233::obj-1041::obj-138::obj-27" : [ "smooth[5]", "smooth", 0 ],
 			"obj-233::obj-1041::obj-141" : [ "live.menu[8]", "live.menu[2]", 0 ],
@@ -22307,6 +22309,7 @@
 			"obj-233::obj-1041::obj-87" : [ "live.menu[3]", "live.menu[1]", 0 ],
 			"obj-233::obj-1041::obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
 			"obj-233::obj-1041::obj-901" : [ "master_highpass[1]", "highpass", 0 ],
+			"obj-233::obj-1042::obj-105" : [ "live.menu[9]", "live.menu", 0 ],
 			"obj-233::obj-1042::obj-138::obj-1" : [ "filter sweep[2]", "filter sweep", 0 ],
 			"obj-233::obj-1042::obj-138::obj-27" : [ "smooth[4]", "smooth", 0 ],
 			"obj-233::obj-1042::obj-141" : [ "live.menu[6]", "live.menu[2]", 0 ],
@@ -22328,6 +22331,7 @@
 			"obj-233::obj-15::obj-145" : [ "accel[1]", "accel", 0 ],
 			"obj-233::obj-15::obj-153" : [ "live.button[1]", "live.button", 0 ],
 			"obj-233::obj-15::obj-159" : [ "live.dial", "window", 0 ],
+			"obj-233::obj-15::obj-21" : [ "live.menu[13]", "live.menu", 0 ],
 			"obj-233::obj-15::obj-22" : [ "offset", "offset", 0 ],
 			"obj-233::obj-15::obj-235" : [ "volume dip", "vol dip", 0 ],
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
@@ -22359,6 +22363,7 @@
 			"obj-550::obj-534::obj-145" : [ "accel[3]", "accel", 0 ],
 			"obj-550::obj-534::obj-153" : [ "live.button[3]", "live.button", 0 ],
 			"obj-550::obj-534::obj-159" : [ "live.dial[18]", "window", 0 ],
+			"obj-550::obj-534::obj-21" : [ "live.menu[15]", "live.menu", 0 ],
 			"obj-550::obj-534::obj-22" : [ "offset[2]", "offset", 0 ],
 			"obj-550::obj-534::obj-235" : [ "volume dip[2]", "vol dip", 0 ],
 			"obj-550::obj-534::obj-36" : [ "active[20]", "Active", 0 ],
@@ -22867,6 +22872,10 @@
 					"parameter_longname" : "live.dial[17]"
 				}
 ,
+				"obj-208::obj-22::obj-21" : 				{
+					"parameter_longname" : "live.menu[14]"
+				}
+,
 				"obj-208::obj-22::obj-22" : 				{
 					"parameter_longname" : "offset[1]"
 				}
@@ -22903,12 +22912,32 @@
 					"parameter_longname" : "live.menu[8]"
 				}
 ,
+				"obj-233::obj-1041::obj-7" : 				{
+					"parameter_longname" : "Loop Volume[1]"
+				}
+,
 				"obj-233::obj-1041::obj-8" : 				{
 					"parameter_longname" : "live.menu[4]"
 				}
 ,
+				"obj-233::obj-1041::obj-813" : 				{
+					"parameter_longname" : "feedback[1]"
+				}
+,
 				"obj-233::obj-1041::obj-87" : 				{
 					"parameter_longname" : "live.menu[3]"
+				}
+,
+				"obj-233::obj-1041::obj-895" : 				{
+					"parameter_longname" : "master_lowpass[1]"
+				}
+,
+				"obj-233::obj-1041::obj-901" : 				{
+					"parameter_longname" : "master_highpass[1]"
+				}
+,
+				"obj-233::obj-1042::obj-105" : 				{
+					"parameter_longname" : "live.menu[9]"
 				}
 ,
 				"obj-233::obj-1042::obj-138::obj-1" : 				{
@@ -22973,6 +23002,10 @@
 ,
 				"obj-233::obj-15::obj-159" : 				{
 					"parameter_longname" : "live.dial"
+				}
+,
+				"obj-233::obj-15::obj-21" : 				{
+					"parameter_longname" : "live.menu[13]"
 				}
 ,
 				"obj-233::obj-15::obj-22" : 				{
@@ -23071,6 +23104,10 @@
 ,
 				"obj-550::obj-534::obj-159" : 				{
 					"parameter_longname" : "live.dial[18]"
+				}
+,
+				"obj-550::obj-534::obj-21" : 				{
+					"parameter_longname" : "live.menu[15]"
 				}
 ,
 				"obj-550::obj-534::obj-22" : 				{
