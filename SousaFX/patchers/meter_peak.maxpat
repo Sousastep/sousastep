@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,18 +40,23 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"dragtrack" : 1,
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-46",
-					"maxclass" : "ubutton",
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-5",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "meter_peak_core.maxpat",
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 84.0, 106.0, 128.0, 128.0 ],
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 295.0, 407.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 15.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 52.0, 20.0 ],
+					"viewvisibility" : 1
 				}
 
 			}
@@ -88,109 +93,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 421.0, 210.0, 133.0, 22.0 ],
 					"text" : "qmetro 1000 @active 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-813",
-					"ignoreclick" : 1,
-					"maxclass" : "live.numbox",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "float" ],
-					"parameter_enable" : 1,
-					"patching_rect" : [ 295.0, 597.0, 50.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 15.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ -144.0 ],
-							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.numbox[3]",
-							"parameter_mmax" : 48.0,
-							"parameter_mmin" : -144.0,
-							"parameter_modmode" : 3,
-							"parameter_shortname" : "live.numbox[3]",
-							"parameter_type" : 0,
-							"parameter_unitstyle" : 4
-						}
-
-					}
-,
-					"varname" : "live.numbox[1]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-812",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 247.0, 106.0, 114.0, 22.0 ],
-					"text" : "r \"reset meter peak\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-793",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 247.0, 496.0, 53.0, 22.0 ],
-					"text" : "t b -144."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-792",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 295.0, 404.0, 29.5, 22.0 ],
-					"text" : "t f f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-789",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 332.0, 500.0, 34.0, 22.0 ],
-					"text" : "sel 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-788",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 295.0, 549.0, 29.5, 22.0 ],
-					"text" : "f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-785",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 332.0, 452.0, 46.0, 22.0 ],
-					"text" : "> -144."
 				}
 
 			}
@@ -292,13 +194,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-793", 0 ],
-					"source" : [ "obj-46", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-762", 0 ],
 					"source" : [ "obj-758", 0 ]
 				}
@@ -320,74 +215,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-792", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-762", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-789", 0 ],
-					"source" : [ "obj-785", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-785", 1 ],
-					"midpoints" : [ 304.5, 582.000000000000114, 391.0, 582.000000000000114, 391.0, 446.000000000000114, 368.5, 446.000000000000114 ],
-					"order" : 0,
-					"source" : [ "obj-788", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-813", 0 ],
-					"order" : 1,
-					"source" : [ "obj-788", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-788", 0 ],
-					"source" : [ "obj-789", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-785", 0 ],
-					"source" : [ "obj-792", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-788", 1 ],
-					"source" : [ "obj-792", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-788", 1 ],
-					"source" : [ "obj-793", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-788", 0 ],
-					"source" : [ "obj-793", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-793", 0 ],
-					"source" : [ "obj-812", 0 ]
 				}
 
 			}
@@ -407,7 +236,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-813" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
+			"obj-5::obj-813" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -420,7 +249,14 @@
 			"inherited_shortname" : 1
 		}
 ,
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "meter_peak_core.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1058.0, 504.0, 1179.0, 684.0 ],
+		"rect" : [ 690.0, 378.0, 1179.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1265,7 +1265,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 109.0, 795.999999999999773, 360.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 640.0, 355.333343923091888, 25.3333340883255 ],
+					"presentation_rect" : [ 19.0, 607.0, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "playback bus monitor mix vol[1]",
 					"viewvisibility" : 1
 				}
@@ -1337,7 +1337,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 109.0, 759.941176470588061, 360.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.333333909511566, 609.0, 355.333343923091888, 25.3333340883255 ],
+					"presentation_rect" : [ 19.0, 576.0, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "playback bus monitor mix vol",
 					"viewvisibility" : 1
 				}
@@ -1761,7 +1761,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 109.0, 723.88235294117635, 360.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.333333909511566, 577.333350539207458, 355.333343923091888, 25.3333340883255 ],
+					"presentation_rect" : [ 19.0, 544.0, 355.333343923091888, 25.3333340883255 ],
 					"varname" : "MIDI MAP OUT[15]",
 					"viewvisibility" : 1
 				}
@@ -1960,7 +1960,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 109.0, 687.823529411764639, 360.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 545.0, 337.0, 25.0 ],
+					"presentation_rect" : [ 19.0, 512.0, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[14]",
 					"viewvisibility" : 1
 				}
@@ -4030,7 +4030,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 109.0, 651.764705882352928, 360.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 511.947368421052772, 337.0, 25.0 ],
+					"presentation_rect" : [ 19.0, 479.0, 337.0, 25.0 ],
 					"varname" : "MIDI MAP OUT[13]",
 					"viewvisibility" : 1
 				}
@@ -4133,30 +4133,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.0, 251.5, 158.0, 22.0 ],
 					"text" : "r \"midi map out CC number\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "mute_octaver_midi", 127.0 ],
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-32",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "MIDI MAP OUT.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 109.0, 615.705882352941217, 360.0, 25.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 478.643724696356344, 337.0, 25.0 ],
-					"varname" : "MIDI MAP OUT[12]",
-					"viewvisibility" : 1
 				}
 
 			}
