@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2122.0, 1387.0 ],
+		"rect" : [ 1415.0, 53.0, 1123.0, 1054.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,36 @@
 		"title" : "delay & reverb sends",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 1556.0, 849.231079167848975, 85.0, 22.0 ],
+					"text" : "mc.unpack~ 2",
+					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-79",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 1556.0, 809.231079167848975, 124.0, 22.0 ],
+					"text" : "mc.receive~ soloFX 2",
+					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.61 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-282",
@@ -48,7 +78,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3149.0, 1490.0, 474.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "if delay send mapped to joystick, multiply send by max_send value. otherwise, mult by 1."
 				}
@@ -64,7 +93,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3038.0, 2090.0, 37.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "send #4",
 					"textjustification" : 1
@@ -81,7 +109,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2934.0, 2083.0, 37.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "send #3",
 					"textjustification" : 1
@@ -98,7 +125,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2830.0, 2079.0, 37.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "send #2",
 					"textjustification" : 1
@@ -131,7 +157,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3104.5, 2048.0, 252.0, 136.0 ],
-					"presentation_linecount" : 10,
 					"suppressinlet" : 1,
 					"text" : "since loopers and main share four delay sends, we take the maximum of each for the feedback loop amount.\n\nif we sum instead of max, the feedback amount would be greater when both a looper and main send of the same # are opened.\n\nI believe max is more tasteful than sum&clip"
 				}
@@ -145,7 +170,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2265.0, 3121.0, 185.0, 21.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "bandpass filter for feedback loop"
 				}
@@ -269,7 +293,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3207.5, 2871.5, 482.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "however, audio doesn't pass thru if swirl's off, or if the delay send's mapped to a button, so do we really need this max send value to be 0 if looper and main both aren't mapped to a joystick?"
 				}
@@ -284,7 +307,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3207.0, 2833.5, 434.0, 50.0 ],
-					"presentation_linecount" : 3,
 					"suppressinlet" : 1,
 					"text" : "if (looper or main) delay send mapped to joystick, allow max send to be > 1\nif either aren't, set this to 0\n"
 				}
@@ -831,7 +853,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3127.5, 2938.0, 120.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 1.011811023622046 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2332,10 +2354,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 374.17923214828761, 1094.210809164333114, 405.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage delay_sends_settings @greedy 2 @savemode 0",
@@ -2421,7 +2443,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1618.0, 2216.0, 155.0, 22.0 ],
-					"restore" : [ -3.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2712,7 +2734,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 923.0, 2125.0, 150.0, 22.0 ],
-					"restore" : [ -3.0 ],
+					"restore" : [ 6.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6117,6 +6139,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-732", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-734", 0 ],
+					"source" : [ "obj-63", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-256", 0 ],
 					"order" : 0,
 					"source" : [ "obj-631", 0 ]
@@ -6348,6 +6384,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-80", 0 ],
 					"source" : [ "obj-77", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
