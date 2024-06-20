@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 649.0, 53.0, 1466.0, 1387.0 ],
-		"bglocked" : 1,
+		"rect" : [ 1663.0, 53.0, 897.0, 1387.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -41,6 +41,59 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-669",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5028.0, 4184.0, 84.0, 22.0 ],
+					"text" : "s~ noise_gate"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "multichannelsignal" ],
+					"patching_rect" : [ 5040.0, 5686.0, 70.0, 22.0 ],
+					"text" : "mc.pack~ 2",
+					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"color" : [ 0.101960784313725, 0.796078431372549, 0.258823529411765, 1.0 ],
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5040.0, 5727.0, 112.0, 22.0 ],
+					"text" : "mc.send~ soloFX 2",
+					"textcolor" : [ 0.901960784313726, 0.945098039215686, 0.945098039215686, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 4985.0, 5500.0, 194.0, 22.0 ],
+					"text" : "\"stutter tremolo filters\" \"Main Input\"",
+					"varname" : "patcher[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"blinkcolor" : [ 0.647058823529412, 0.905882352941176, 0.705882352941177, 0.0 ],
@@ -175,7 +228,6 @@
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 1132.0, 1971.0, 141.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "regexp outlinecolor @substitute bordercolor"
 				}
 
@@ -399,7 +451,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5139.0, 5586.0, 29.0, 22.0 ],
+					"patching_rect" : [ 5160.0, 5545.0, 29.0, 22.0 ],
 					"text" : "thru"
 				}
 
@@ -411,7 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5001.0, 5586.0, 29.0, 22.0 ],
+					"patching_rect" : [ 4985.0, 5542.5, 29.0, 22.0 ],
 					"text" : "thru"
 				}
 
@@ -1016,18 +1068,6 @@
 					"patching_rect" : [ 5693.0, 4932.0, 84.0, 22.0 ],
 					"text" : "r~ freq_ceiling",
 					"textcolor" : [ 0.980298280715942, 0.978843331336975, 0.040180779993534, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-780",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5218.0, 4957.0, 94.0, 22.0 ],
-					"text" : "slide~ 480 4800"
 				}
 
 			}
@@ -2860,7 +2900,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3270.0, 5221.0, 182.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5967,7 +6007,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "link", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -6085,7 +6125,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5283.0, 4886.0, 35.0, 22.0 ],
+					"patching_rect" : [ 5769.0, 4511.0, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -6097,7 +6137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5218.0, 4886.0, 35.0, 22.0 ],
+					"patching_rect" : [ 5704.0, 4511.0, 35.0, 22.0 ],
 					"text" : "abs~"
 				}
 
@@ -6109,7 +6149,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5218.0, 4921.0, 81.0, 22.0 ],
+					"patching_rect" : [ 5704.0, 4546.0, 81.0, 22.0 ],
 					"text" : "maximum~"
 				}
 
@@ -7981,7 +8021,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -8069,7 +8109,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -9847,8 +9887,6 @@
 					"active" : 					{
 						"umenu_presets" : 0,
 						"umenu_presets::main_preset_initial" : 0,
-						"plugin_or_rnbo_selector[7]" : 0,
-						"plugin_or_rnbo_selector[7]::main_reverb_rnbo_or_plugin" : 0,
 						"plugin_or_rnbo_selector[6]" : 0,
 						"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : 0,
 						"metronome[1]" : 0,
@@ -9899,12 +9937,8 @@
 						"lowpassfilter_selector::lowpassfilter_selector[2]" : 0,
 						"SousaFX_Audio_Status" : 0,
 						"SousaFX_Audio_Status::Audio_Status[1]" : 0,
-						"plugin_or_rnbo_selector[3]" : 0,
-						"plugin_or_rnbo_selector[3]::main_compressor_rnbo_or_plugin" : 0,
 						"sidechained_kick_params" : 0,
 						"sidechained_kick_params::sidechained_kick_params" : 0,
-						"patcher[1]" : 0,
-						"patcher[1]::monitor_mix" : 0,
 						"patcher[2]" : 0,
 						"patcher[2]::SousaFX Background Color Preference" : 0,
 						"patcher" : 0,
@@ -9923,10 +9957,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0, 3246.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -10121,8 +10155,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -12648,7 +12682,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 4199.0, 3617.0, 162.0, 49.0 ],
 					"text" : "plugin_or_rnbo_selector_mono lows_comp rnbo_compressor_mono",
 					"varname" : "plugin_or_rnbo_selector_mono[1]"
@@ -12662,7 +12696,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 4059.0, 3489.0, 177.0, 49.0 ],
 					"text" : "plugin_or_rnbo_selector_mono octaver_comp rnbo_compressor_mono",
 					"varname" : "plugin_or_rnbo_selector_mono[2]"
@@ -13535,7 +13569,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"id" : "obj-16",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -14454,6 +14488,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-273", 0 ],
 					"source" : [ "obj-102", 0 ]
 				}
@@ -14591,6 +14632,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-634", 0 ],
 					"source" : [ "obj-1144", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-843", 0 ],
+					"source" : [ "obj-115", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-845", 0 ],
+					"source" : [ "obj-115", 1 ]
 				}
 
 			}
@@ -16150,16 +16205,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-724", 0 ],
-					"order" : 0,
-					"source" : [ "obj-220", 21 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-728", 0 ],
-					"order" : 1,
 					"source" : [ "obj-220", 21 ]
 				}
 
@@ -21403,6 +21449,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1144", 0 ],
+					"order" : 1,
+					"source" : [ "obj-791", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-669", 0 ],
+					"order" : 2,
+					"source" : [ "obj-791", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-724", 0 ],
+					"order" : 0,
 					"source" : [ "obj-791", 0 ]
 				}
 
@@ -21542,7 +21605,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-780", 0 ],
+					"destination" : [ "obj-648", 0 ],
 					"source" : [ "obj-806", 0 ]
 				}
 
@@ -21858,6 +21921,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-115", 1 ],
+					"order" : 0,
+					"source" : [ "obj-839", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"order" : 0,
+					"source" : [ "obj-839", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-842", 1 ],
 					"order" : 1,
 					"source" : [ "obj-839", 1 ]
@@ -21874,30 +21953,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-843", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"order" : 0,
-					"source" : [ "obj-839", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-845", 0 ],
-					"order" : 0,
-					"source" : [ "obj-839", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 8 ],
 					"source" : [ "obj-843", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-117", 8 ],
+					"order" : 1,
+					"source" : [ "obj-843", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"order" : 0,
+					"source" : [ "obj-845", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-117", 9 ],
+					"order" : 1,
 					"source" : [ "obj-845", 0 ]
 				}
 
@@ -22233,6 +22314,23 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-115::obj-200::obj-18" : [ "phase offset[3]", "phase offset", 0 ],
+			"obj-115::obj-200::obj-34" : [ "duty cycle[3]", "duty cycle", 0 ],
+			"obj-115::obj-200::obj-38" : [ "smooth[8]", "smooth", 0 ],
+			"obj-115::obj-200::obj-42" : [ "depth / mix[2]", "depth / mix", 0 ],
+			"obj-115::obj-22::obj-105" : [ "function[106]", "function", 0 ],
+			"obj-115::obj-22::obj-106" : [ "MIDI syncrate[7]", "sync", 0 ],
+			"obj-115::obj-22::obj-145" : [ "accel[4]", "accel", 0 ],
+			"obj-115::obj-22::obj-153" : [ "live.button[4]", "live.button", 0 ],
+			"obj-115::obj-22::obj-159" : [ "live.dial[22]", "window", 0 ],
+			"obj-115::obj-22::obj-21" : [ "live.menu[10]", "live.menu", 0 ],
+			"obj-115::obj-22::obj-22" : [ "offset[3]", "offset", 0 ],
+			"obj-115::obj-22::obj-235" : [ "volume dip[3]", "vol dip", 0 ],
+			"obj-115::obj-22::obj-36" : [ "active[25]", "Active", 0 ],
+			"obj-115::obj-22::obj-38" : [ "active[24]", "Active", 0 ],
+			"obj-115::obj-22::obj-42" : [ "stutter volume[3]", "stutter volume", 0 ],
+			"obj-115::obj-3::obj-1" : [ "filter sweep[4]", "filter sweep", 0 ],
+			"obj-115::obj-3::obj-27" : [ "smooth[9]", "smooth", 0 ],
 			"obj-117::obj-11" : [ "octaver", "octaver", 0 ],
 			"obj-117::obj-12" : [ "mids / highs", "mids / highs", 0 ],
 			"obj-117::obj-13" : [ "loopers", "loopers", 0 ],
@@ -22244,6 +22342,8 @@
 			"obj-117::obj-28" : [ "mids / highs[1]", "mids / highs", 0 ],
 			"obj-117::obj-29" : [ "octaver[1]", "octaver", 0 ],
 			"obj-117::obj-76" : [ "metronome[2]", "metro", 0 ],
+			"obj-166::obj-21::obj-695" : [ "MF-101S_two", "MF-101S_two", 0 ],
+			"obj-166::obj-21::obj-696" : [ "MF-101S_one", "MF-101S_one", 0 ],
 			"obj-168::obj-1::obj-21::obj-38" : [ "live.dial[6]", "drive", 0 ],
 			"obj-168::obj-1::obj-21::obj-46" : [ "live.dial[7]", "bias", 0 ],
 			"obj-168::obj-1::obj-21::obj-47" : [ "live.dial[4]", "harmonic mult", 0 ],
@@ -22397,12 +22497,10 @@
 			"obj-194::obj-1148::obj-115" : [ "active[7]", "Active", 0 ],
 			"obj-194::obj-118" : [ "oct atk vol", "volume", 0 ],
 			"obj-194::obj-119" : [ "oct sus vol", "volume", 0 ],
-			"obj-194::obj-11::obj-21::obj-191" : [ "vst~[21]", "vst~", 0 ],
 			"obj-194::obj-122" : [ "low sus vol", "volume", 0 ],
 			"obj-194::obj-124" : [ "low atk vol", "volume", 0 ],
 			"obj-194::obj-125" : [ "fx sus vol", "volume", 0 ],
 			"obj-194::obj-126" : [ "fx atk vol", "volume", 0 ],
-			"obj-194::obj-39::obj-21::obj-191" : [ "vst~[20]", "vst~", 0 ],
 			"obj-194::obj-86::obj-813" : [ "live.numbox[25]", "live.numbox[3]", 0 ],
 			"obj-194::obj-92::obj-813" : [ "live.numbox[26]", "live.numbox[3]", 0 ],
 			"obj-194::obj-950::obj-114" : [ "solo", "Solo", 0 ],
@@ -22437,6 +22535,11 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-226::obj-21::obj-43" : [ "live.numbox[7]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-44" : [ "live.dial[9]", "sub mix", 0 ],
+			"obj-226::obj-21::obj-46" : [ "live.numbox[4]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-72" : [ "live.numbox[5]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-73" : [ "live.numbox[6]", "live.numbox[3]", 0 ],
 			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
 			"obj-233::obj-1041::obj-138::obj-27" : [ "smooth[5]", "smooth", 0 ],
@@ -22575,6 +22678,70 @@
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-115::obj-200::obj-18" : 				{
+					"parameter_longname" : "phase offset[3]"
+				}
+,
+				"obj-115::obj-200::obj-34" : 				{
+					"parameter_longname" : "duty cycle[3]"
+				}
+,
+				"obj-115::obj-200::obj-38" : 				{
+					"parameter_longname" : "smooth[8]"
+				}
+,
+				"obj-115::obj-200::obj-42" : 				{
+					"parameter_longname" : "depth / mix[2]"
+				}
+,
+				"obj-115::obj-22::obj-106" : 				{
+					"parameter_longname" : "MIDI syncrate[7]"
+				}
+,
+				"obj-115::obj-22::obj-145" : 				{
+					"parameter_longname" : "accel[4]"
+				}
+,
+				"obj-115::obj-22::obj-153" : 				{
+					"parameter_longname" : "live.button[4]"
+				}
+,
+				"obj-115::obj-22::obj-159" : 				{
+					"parameter_longname" : "live.dial[22]"
+				}
+,
+				"obj-115::obj-22::obj-21" : 				{
+					"parameter_longname" : "live.menu[10]"
+				}
+,
+				"obj-115::obj-22::obj-22" : 				{
+					"parameter_longname" : "offset[3]"
+				}
+,
+				"obj-115::obj-22::obj-235" : 				{
+					"parameter_longname" : "volume dip[3]"
+				}
+,
+				"obj-115::obj-22::obj-36" : 				{
+					"parameter_longname" : "active[25]"
+				}
+,
+				"obj-115::obj-22::obj-38" : 				{
+					"parameter_longname" : "active[24]"
+				}
+,
+				"obj-115::obj-22::obj-42" : 				{
+					"parameter_longname" : "stutter volume[3]"
+				}
+,
+				"obj-115::obj-3::obj-1" : 				{
+					"parameter_longname" : "filter sweep[4]"
+				}
+,
+				"obj-115::obj-3::obj-27" : 				{
+					"parameter_longname" : "smooth[9]"
+				}
+,
 				"obj-117::obj-11" : 				{
 					"parameter_longname" : "octaver",
 					"parameter_range" : [ -24.0, 12.0 ],
@@ -23131,6 +23298,10 @@
 ,
 				"obj-208::obj-3::obj-27" : 				{
 					"parameter_longname" : "smooth[7]"
+				}
+,
+				"obj-226::obj-21::obj-43" : 				{
+					"parameter_longname" : "live.numbox[7]"
 				}
 ,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
@@ -24100,7 +24271,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dry_comp_plugin.json",
+				"name" : "dry_comp_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -24115,8 +24286,8 @@
 			}
 , 			{
 				"name" : "dry_preamp_rnbo_ParamEQ.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -24316,21 +24487,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_amp_mod.maxpat",
+				"name" : "just_MF-101S.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
+				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "just_MF-101S.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "just_theDrop.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "just_theDrop.maxpat",
+				"name" : "just_amp_mod.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -24516,7 +24687,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mod_comp_plugin.json",
+				"name" : "mod_comp_rnbo_compressor_stereo.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -24575,6 +24746,20 @@
 				"name" : "octaver_comp_rnbo_or_plugin.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
 				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "octaver_custom1.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "octaver_custom1_octaver.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -24689,6 +24874,13 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "rnbo_compressor_mono.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "selectcolorhighlight.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
@@ -24749,6 +24941,13 @@
 				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
 				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "solo_comp_rnbo_compressor_stereo.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
