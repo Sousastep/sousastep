@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 819.0, 551.0, 732.0, 600.0 ],
+		"rect" : [ 639.0, 481.0, 732.0, 600.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -131,7 +131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
 					"patching_rect" : [ 1840.0, 524.0, 449.0, 22.0 ],
-					"text" : "filterdesign @frequency 80. @topology butterworth @order 4 @response highpass"
+					"text" : "filterdesign @frequency 80. @topology butterworth @order 8 @response highpass"
 				}
 
 			}
@@ -420,7 +420,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 297.0, 657.0, 40.0, 22.0 ],
-					"restore" : [ -18.0 ],
+					"restore" : [ -24.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -439,7 +439,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 151.0, 657.0, 40.0, 22.0 ],
-					"restore" : [ -12.0 ],
+					"restore" : [ -24.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1593,10 +1593,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 850.0, 1783.0, 304.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage mixbus @greedy 0 @savemode 0",
