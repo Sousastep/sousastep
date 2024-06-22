@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 543.0, 53.0, 2017.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-658",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6855.0, 4126.0, 30.0, 22.0 ],
+					"text" : "*~ 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
@@ -1710,7 +1722,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5736.0, 4308.0, 80.0, 22.0 ],
+					"patching_rect" : [ 5704.5, 4254.0, 80.0, 22.0 ],
 					"text" : "slide~ 10 100"
 				}
 
@@ -2602,7 +2614,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 4800.0, 3716.0, 116.0, 22.0 ],
-					"text" : "rampsmooth~ 0 480"
+					"text" : "rampsmooth~ 0 720"
 				}
 
 			}
@@ -6007,7 +6019,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -9485,7 +9497,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1887.0, 3378.0, 235.0, 22.0 ],
+					"patching_rect" : [ 1887.0, 3379.0, 235.0, 22.0 ],
 					"text" : "s Post-Crossfade_FX_plugin_choice_main"
 				}
 
@@ -9946,7 +9958,26 @@
 						"envelope_parameters" : 0,
 						"envelope_parameters::main_env_params" : 0,
 						"patcher[3]" : 0,
-						"patcher[3]::VFX_stutter" : 0
+						"patcher[3]::VFX_stutter" : 0,
+						"plugin_or_rnbo_selector[8]" : 0,
+						"plugin_or_rnbo_selector[8]::monitor_limiter_rnbo_or_plugin" : 0,
+						"plugin_or_rnbo_selector[10]" : 0,
+						"plugin_or_rnbo_selector[10]::monitor_EQ_rnbo_or_plugin" : 0,
+						"plugin_or_rnbo_selector[11]" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector::Post-Crossfade_FX_plugin1_rnbo_or_plugin" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[1]" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[1]::Post-Crossfade_FX_plugin2_plugin" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[2]" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[2]::Post-Crossfade_FX_plugin3_plugin" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[3]" : 0,
+						"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : 0,
+						"plugin_or_rnbo_selector" : 0,
+						"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : 0,
+						"FOH_and_monitor_mix" : 0,
+						"FOH_and_monitor_mix::mon_and_foh_mix" : 0,
+						"patcher[1]" : 0,
+						"patcher[1]::Main Input stutter tremolo filters" : 0
 					}
 ,
 					"fontname" : "Monaco",
@@ -10155,8 +10186,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -11492,7 +11523,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6854.0, 4126.0, 168.0, 22.0 ],
+					"patching_rect" : [ 6855.0, 4093.0, 168.0, 22.0 ],
 					"text" : "scale~ 1 0 1 12 16 @classic 0"
 				}
 
@@ -16191,7 +16222,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-637", 0 ],
-					"midpoints" : [ 5324.499995764919731, 3936.0, 5514.0, 3936.0, 5514.0, 3837.0, 5843.0, 3837.0, 5843.0, 4302.0, 7084.0, 4302.0, 7084.0, 4037.0, 6863.5, 4037.0 ],
+					"midpoints" : [ 5324.499995764919731, 3936.0, 5514.0, 3936.0, 5514.0, 3837.0, 5843.0, 3837.0, 5843.0, 4302.0, 7084.0, 4302.0, 7084.0, 4037.0, 6864.5, 4037.0 ],
 					"source" : [ "obj-220", 26 ]
 				}
 
@@ -20339,7 +20370,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-186", 1 ],
+					"destination" : [ "obj-658", 0 ],
 					"source" : [ "obj-637", 0 ]
 				}
 
@@ -20525,6 +20556,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-550", 0 ],
 					"source" : [ "obj-657", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-186", 1 ],
+					"source" : [ "obj-658", 0 ]
 				}
 
 			}
@@ -20972,6 +21010,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-349", 0 ],
+					"order" : 1,
+					"source" : [ "obj-724", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-658", 1 ],
+					"order" : 0,
 					"source" : [ "obj-724", 0 ]
 				}
 
@@ -22672,9 +22719,9 @@
 			"obj-832::obj-4::obj-191" : [ "vst~[25]", "vst~", 0 ],
 			"obj-841::obj-5::obj-813" : [ "live.numbox[31]", "live.numbox[3]", 0 ],
 			"obj-842::obj-5::obj-813" : [ "live.numbox[32]", "live.numbox[3]", 0 ],
-			"obj-93::obj-6" : [ "live.menu", "live.menu", 0 ],
-			"obj-94::obj-6" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-95::obj-6" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-93::obj-19" : [ "live.menu", "live.menu", 0 ],
+			"obj-94::obj-19" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-95::obj-19" : [ "live.menu[2]", "live.menu", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -23671,11 +23718,11 @@
 					"parameter_longname" : "live.numbox[32]"
 				}
 ,
-				"obj-94::obj-6" : 				{
+				"obj-94::obj-19" : 				{
 					"parameter_longname" : "live.menu[1]"
 				}
 ,
-				"obj-95::obj-6" : 				{
+				"obj-95::obj-19" : 				{
 					"parameter_longname" : "live.menu[2]"
 				}
 
@@ -23975,13 +24022,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Screenshot 2024-06-21 at 7.35.17 PM.png",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../Desktop",
-				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
