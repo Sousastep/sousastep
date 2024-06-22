@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
+		"rect" : [ 527.0, 87.0, 1554.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bubbleusescolors" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 8.0,
+					"id" : "obj-31",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 334.905633628368378, 1211.320657968521118, 239.0, 66.0 ],
+					"presentation_linecount" : 6,
+					"suppressinlet" : 1,
+					"text" : "\"is tuba playing\" ==\n0. relinquish control while tuba's not playing.\nthen 0 else 1\n\n1. relinquish control while tuba's playing, \nthen 1 else 0",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bubbleusescolors" : 1,
+					"fontname" : "Monaco",
+					"id" : "obj-25",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 433.5, 1410.0, 459.0, 21.0 ],
+					"presentation_linecount" : 2,
+					"suppressinlet" : 1,
+					"text" : "when control hits deadzone, send out a bang and close the gate",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "newobj",
@@ -95,7 +131,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 765.0, 1101.0, 24.0, 24.0 ]
+					"patching_rect" : [ 651.886740386486053, 1358.490457534790039, 24.0, 24.0 ]
 				}
 
 			}
@@ -361,7 +397,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 323.0, 1167.0, 353.0, 36.0 ],
+					"patching_rect" : [ 322.886740386486053, 1140.226323544979095, 353.0, 36.0 ],
 					"suppressinlet" : 1,
 					"text" : "0. relinquish control while tuba's not playing.\n1. relinquish control while tuba's playing, ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -387,7 +423,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 297.0, 1125.0, 33.0, 22.0 ],
+					"patching_rect" : [ 293.0, 1099.999912142753601, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -399,7 +435,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 297.0, 1210.0, 29.5, 22.0 ],
+					"patching_rect" : [ 293.0, 1184.905565738677979, 29.5, 22.0 ],
 					"text" : "t b i"
 				}
 
@@ -436,7 +472,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 297.0, 1172.0, 24.0, 24.0 ]
+					"patching_rect" : [ 293.0, 1146.226323544979095, 24.0, 24.0 ]
 				}
 
 			}
@@ -536,7 +572,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 757.0, 1289.0, 29.5, 22.0 ],
+					"patching_rect" : [ 755.660317003726959, 1177.358396530151367, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -548,7 +584,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 757.0, 1331.0, 34.0, 22.0 ],
+					"patching_rect" : [ 755.660317003726959, 1219.811223328113556, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -560,7 +596,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 806.0, 1289.0, 29.5, 22.0 ],
+					"patching_rect" : [ 804.716916859149933, 1177.358396530151367, 29.5, 22.0 ],
 					"text" : "i"
 				}
 
@@ -601,7 +637,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 806.0, 1331.0, 34.0, 22.0 ],
+					"patching_rect" : [ 804.716916859149933, 1219.811223328113556, 34.0, 22.0 ],
 					"text" : "sel 1"
 				}
 
@@ -614,7 +650,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 739.0, 1246.0, 24.0, 24.0 ]
+					"patching_rect" : [ 737.735790133476257, 1134.905569732189178, 24.0, 24.0 ]
 				}
 
 			}
@@ -704,7 +740,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1248.0, -158.0, 126.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1135,6 +1171,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrow" : 0,
 					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
@@ -1145,6 +1182,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
 					"id" : "obj-106",
+					"ignoreclick" : 1,
 					"items" : [ "establish", "control", "when", "tuba", "starts", "playing", ",", "establish", "control", "when", "tuba", "stops", "playing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1194,7 +1232,6 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
-					"hidden" : 1,
 					"id" : "obj-103",
 					"items" : [ "immediately", "relinquish", "control", ",", "wait", "until", "control", "hits", "deadzone", "to", "relinquish", ",", "wait", "until", "control", "hits", "default", "value", "to", "relinquish" ],
 					"maxclass" : "umenu",
@@ -1211,6 +1248,7 @@
 			}
 , 			{
 				"box" : 				{
+					"arrow" : 0,
 					"bgcolor" : [ 0.266666666666667, 0.266666666666667, 0.266666666666667, 0.85 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
@@ -1220,8 +1258,8 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Medium",
-					"hidden" : 1,
 					"id" : "obj-100",
+					"ignoreclick" : 1,
 					"items" : [ "relinquish", "control", "when", "tuba", "starts", "playing", ",", "relinquish", "control", "when", "tuba", "stops", "playing" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -1242,7 +1280,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 783.0, 1246.0, 179.0, 22.0 ],
+					"patching_rect" : [ 782.075409233570099, 1134.905569732189178, 179.0, 22.0 ],
 					"text" : "r #1\" is control within deadzone\""
 				}
 
@@ -1254,7 +1292,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 765.0, 1040.0, 252.0, 22.0 ],
+					"patching_rect" : [ 651.886740386486053, 1297.169707715511322, 252.0, 22.0 ],
 					"text" : "r #1\" bang when control passes default value\""
 				}
 
@@ -1514,15 +1552,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
-					"order" : 1,
-					"source" : [ "obj-14", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-76", 0 ],
-					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -1995,16 +2024,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
-					"order" : 0,
-					"source" : [ "obj-52", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
-					"order" : 1,
 					"source" : [ "obj-52", 0 ]
 				}
 
