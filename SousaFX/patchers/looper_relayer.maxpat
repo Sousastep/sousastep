@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 802.0, 314.0, 1279.0, 1092.0 ],
+		"rect" : [ 551.0, 192.0, 1970.0, 1214.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,93 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-474",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 904.80001425743103, 1454.800021469593048, 159.0, 22.0 ],
+					"text" : "r \"bang when tuba's playing\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.823529411764706, 0.894117647058824, 1.0, 1.0 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-190",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1195.000016570091248, 904.300013363361359, 347.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "after triggering record, if tuba playing, start record on downbeat. if tuba not playing, start record after tuba starts playing"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-185",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1177.300017476081848, 871.0, 99.0, 22.0 ],
+					"text" : "r beat_one_bang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-160",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 1132.900016903877258, 913.600013613700867, 55.0, 22.0 ],
+					"text" : "onebang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-159",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 1006.100015461444855, 826.600011646747589, 29.5, 22.0 ],
+					"text" : "+ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1097.000016570091248, 871.0, 52.0, 22.0 ],
+					"text" : "gate 2 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-239",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1006.100015461444855, 781.600011646747589, 108.0, 22.0 ],
+					"text" : "r \"is tuba playing?\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-151",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -57,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 685.300010085105896, 625.0, 22.0, 22.0 ],
+					"patching_rect" : [ 693.800010085105896, 632.800009429454803, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -2406,6 +2493,12 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 797.600011885166168, 2258.40003365278244, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
+						"regen" : 						{
+							"label" : "regen",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"beats" : 						{
 							"label" : "beats",
 							"isEnum" : 0,
@@ -2420,12 +2513,6 @@
 ,
 						"volume" : 						{
 							"label" : "volume",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"regen" : 						{
-							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3455,7 +3542,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1007", 0 ],
+					"destination" : [ "obj-119", 1 ],
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -3533,6 +3620,20 @@
 					"destination" : [ "obj-90", 0 ],
 					"order" : 1,
 					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1007", 0 ],
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-160", 1 ],
+					"source" : [ "obj-119", 1 ]
 				}
 
 			}
@@ -3655,35 +3756,9 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-162", 0 ],
-					"order" : 0,
-					"source" : [ "obj-137", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-165", 0 ],
-					"order" : 2,
-					"source" : [ "obj-137", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-166", 0 ],
 					"order" : 2,
 					"source" : [ "obj-137", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
-					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 966.30001425743103, 1548.811238391315328, 944.740766603610155, 1548.811238391315328, 944.740766603610155, 1324.811238391315328, 971.100014328956604, 1324.811238391315328 ],
-					"order" : 1,
-					"source" : [ "obj-137", 0 ]
 				}
 
 			}
@@ -3860,8 +3935,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-113", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1007", 0 ],
+					"source" : [ "obj-160", 0 ]
 				}
 
 			}
@@ -3997,6 +4086,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-184", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-160", 0 ],
+					"source" : [ "obj-185", 0 ]
 				}
 
 			}
@@ -4167,6 +4263,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-159", 0 ],
+					"source" : [ "obj-239", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -4290,6 +4393,32 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
 					"source" : [ "obj-47", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-162", 0 ],
+					"order" : 0,
+					"source" : [ "obj-474", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-165", 0 ],
+					"order" : 2,
+					"source" : [ "obj-474", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.606694579124451, 0.0, 0.0, 1.0 ],
+					"destination" : [ "obj-5", 0 ],
+					"midpoints" : [ 914.30001425743103, 1502.811238391315328, 944.740766603610155, 1502.811238391315328, 944.740766603610155, 1324.811238391315328, 971.100014328956604, 1324.811238391315328 ],
+					"order" : 1,
+					"source" : [ "obj-474", 0 ]
 				}
 
 			}
