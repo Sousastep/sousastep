@@ -42,13 +42,25 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-734",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 5955.0, 4256.0, 90.0, 22.0 ],
+					"text" : "scale~ 1 0 0 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-658",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6855.0, 4126.0, 30.0, 22.0 ],
-					"text" : "*~ 1"
+					"patching_rect" : [ 6855.0, 4126.0, 33.0, 22.0 ],
+					"text" : "+~ 1"
 				}
 
 			}
@@ -6019,7 +6031,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8033,7 +8045,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -8121,7 +8133,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -21017,7 +21029,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-658", 1 ],
+					"destination" : [ "obj-734", 0 ],
 					"order" : 0,
 					"source" : [ "obj-724", 0 ]
 				}
@@ -21127,6 +21139,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-577", 0 ],
 					"source" : [ "obj-732", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-658", 1 ],
+					"source" : [ "obj-734", 0 ]
 				}
 
 			}
