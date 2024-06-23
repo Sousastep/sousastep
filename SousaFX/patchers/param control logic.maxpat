@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -254,6 +254,7 @@
 							"parameter_enum" : [ "uni", "bi" ],
 							"parameter_longname" : "curves",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "curves",
 							"parameter_type" : 2
 						}
@@ -649,18 +650,6 @@
 					"presentation_rect" : [ 5.0, 26.0, 292.0, 157.0 ],
 					"varname" : "available transition options",
 					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-90",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 2906.0, 342.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1854,6 +1843,7 @@
 							"parameter_longname" : "curve[57]",
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "curve",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -2205,9 +2195,9 @@
 				"box" : 				{
 					"id" : "obj-232",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 642.0, 1350.0, 36.0, 22.0 ],
 					"text" : "#2"
 				}
@@ -2668,8 +2658,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2452.0, 296.0, 182.0, 22.0 ],
-					"text" : "list.lookup 1 1 1 2 2 2 3 3 3 4 4 4"
+					"patching_rect" : [ 2452.0, 296.0, 202.0, 22.0 ],
+					"text" : "list.lookup 1 1 1 2 2 2 0 3 3 3 4 4 4 0"
 				}
 
 			}
@@ -2942,6 +2932,7 @@
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[45]",
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -4531,13 +4522,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-79", 0 ],
-					"source" : [ "obj-90", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-91", 0 ]
 				}
@@ -4654,6 +4638,13 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "#2.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "AND.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
