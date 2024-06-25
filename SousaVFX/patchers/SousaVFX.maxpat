@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2115.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3902,7 +3902,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4458.0, 1803.0, 47.0, 22.0 ],
+					"patching_rect" : [ 4458.0, 1771.0, 47.0, 22.0 ],
 					"text" : "r rbang"
 				}
 
@@ -3914,7 +3914,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
-					"patching_rect" : [ 4799.0, 2076.0, 71.0, 22.0 ],
+					"patching_rect" : [ 4799.0, 2063.0, 71.0, 22.0 ],
 					"text" : "interleave 3"
 				}
 
@@ -6491,7 +6491,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 4457.0, 1839.0, 49.0, 22.0 ],
+					"patching_rect" : [ 4457.0, 1807.0, 49.0, 22.0 ],
 					"text" : "Uzi 208"
 				}
 
@@ -6627,7 +6627,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4457.0, 1905.0, 91.0, 22.0 ],
+					"patching_rect" : [ 4457.0, 1873.0, 91.0, 22.0 ],
 					"text" : "prepend getcell"
 				}
 
@@ -6653,7 +6653,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 4457.0, 1871.0, 169.0, 22.0 ],
+					"patching_rect" : [ 4457.0, 1839.0, 169.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"precision" : 6
@@ -9625,6 +9625,13 @@
 					"destination" : [ "obj-68", 0 ],
 					"order" : 1,
 					"source" : [ "obj-80", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"source" : [ "obj-803", 0 ]
 				}
 
 			}
