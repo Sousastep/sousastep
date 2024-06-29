@@ -42,6 +42,18 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-761",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 4885.5, 5805.0, 60.0, 22.0 ],
+					"text" : "r~ droplet"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 1,
@@ -8128,7 +8140,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -8216,7 +8228,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -14035,7 +14047,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"id" : "obj-48",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -21448,6 +21460,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-747", 0 ],
 					"source" : [ "obj-760", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 10 ],
+					"source" : [ "obj-761", 0 ]
 				}
 
 			}
