@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1430.0, 53.0, 1130.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,28 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-758",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "meter_peak.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 4969.0, 4703.0, 53.5, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 580.625, 1335.0, 50.75, 16.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-751",
 					"maxclass" : "newobj",
@@ -6092,7 +6114,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "live", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8106,7 +8128,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -8194,7 +8216,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -14013,7 +14035,7 @@
 					"angle" : 270.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 16,
-					"bordercolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
+					"bordercolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
 					"id" : "obj-48",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -16349,6 +16371,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-253", 0 ],
 					"order" : 1,
+					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-758", 1 ],
+					"order" : 3,
+					"source" : [ "obj-221", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-758", 0 ],
+					"order" : 3,
 					"source" : [ "obj-221", 0 ]
 				}
 
@@ -22703,6 +22741,7 @@
 			"obj-208::obj-22::obj-42" : [ "stutter volume[1]", "stutter volume", 0 ],
 			"obj-208::obj-3::obj-1" : [ "filter sweep", "filter sweep", 0 ],
 			"obj-208::obj-3::obj-27" : [ "smooth[7]", "smooth", 0 ],
+			"obj-221::obj-113" : [ "limiter", "limiter", 0 ],
 			"obj-221::obj-115" : [ "max dub send", "max send", 0 ],
 			"obj-221::obj-153::obj-21::obj-191" : [ "vst~[12]", "vst~", 0 ],
 			"obj-221::obj-156" : [ "Reverb Output Volume", "Rev Vol", 0 ],
@@ -22822,6 +22861,7 @@
 			"obj-72::obj-766" : [ "low_SnTrSq[1]", "low_SnTrSq", 0 ],
 			"obj-72::obj-85" : [ "env sens[1]", "env sens", 0 ],
 			"obj-72::obj-88" : [ "ceiling env smooth", "env smooth", 0 ],
+			"obj-758::obj-5::obj-813" : [ "live.numbox[4]", "live.numbox[3]", 0 ],
 			"obj-814::obj-21::obj-191" : [ "vst~[19]", "vst~", 0 ],
 			"obj-817::obj-5::obj-813" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
 			"obj-818::obj-5::obj-813" : [ "live.numbox[22]", "live.numbox[3]", 0 ],
@@ -23483,6 +23523,16 @@
 					"parameter_longname" : "smooth[7]"
 				}
 ,
+				"obj-221::obj-113" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "limiter",
+					"parameter_modmode" : 3,
+					"parameter_range" : [ -24.0, 0.0 ],
+					"parameter_shortname" : "limiter",
+					"parameter_type" : 0,
+					"parameter_unitstyle" : 4
+				}
+,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
 					"parameter_longname" : "filter sweep[3]"
 				}
@@ -23805,6 +23855,10 @@
 ,
 				"obj-72::obj-680" : 				{
 					"parameter_shortname" : "duty"
+				}
+,
+				"obj-758::obj-5::obj-813" : 				{
+					"parameter_longname" : "live.numbox[4]"
 				}
 ,
 				"obj-818::obj-5::obj-813" : 				{
