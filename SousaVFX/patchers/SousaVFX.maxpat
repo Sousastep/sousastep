@@ -42,12 +42,24 @@
 		"title" : "SousaVFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-228",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4846.0, 1050.0, 71.0, 22.0 ],
+					"text" : "fromsymbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-222",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4846.0, 1050.0, 61.0, 22.0 ],
+					"patching_rect" : [ 4846.0, 1017.0, 61.0, 22.0 ],
 					"text" : "pipe 3000"
 				}
 
@@ -168,8 +180,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4846.0, 1018.0, 146.0, 22.0 ],
-					"text" : "loadmess 10 80 @defer 1"
+					"patching_rect" : [ 4846.0, 985.0, 155.0, 22.0 ],
+					"text" : "loadmess \"10 80\" @defer 1"
 				}
 
 			}
@@ -8224,7 +8236,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-211", 0 ],
+					"destination" : [ "obj-228", 0 ],
 					"source" : [ "obj-222", 0 ]
 				}
 
@@ -8240,6 +8252,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-663", 0 ],
 					"source" : [ "obj-225", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-211", 0 ],
+					"source" : [ "obj-228", 0 ]
 				}
 
 			}
