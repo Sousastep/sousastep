@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2514.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -264,7 +264,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2148.0, 1520.0, 120.0, 22.0 ],
-					"presentation_linecount" : 4,
 					"text" : "0. 0.625 0.068359 1."
 				}
 
@@ -5725,8 +5724,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3292.0, 4126.0, 318.0, 22.0 ],
-					"text" : "\"param control logic\" 0 f \"LPF Resonance Amount (either)\"",
+					"patching_rect" : [ 3292.0, 4126.0, 328.0, 22.0 ],
+					"text" : "\"param control logic\" 0.5 f \"LPF Resonance Amount (either)\"",
 					"varname" : "LPF Resonance Amount (either)"
 				}
 
@@ -8172,7 +8171,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 5666.0, 2608.0, 122.0, 22.0 ],
-					"restore" : [ 2.000000000000029 ],
+					"restore" : [ 2.000000000000028 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -11199,7 +11198,7 @@
 					"patching_rect" : [ 1701.0, 3408.0, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
