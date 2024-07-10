@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 802.0, 53.0, 1758.0, 1387.0 ],
+		"rect" : [ 942.0, 53.0, 1618.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,13 +42,37 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-666",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4332.0, 493.0, 33.0, 22.0 ],
+					"text" : "== 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-619",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4332.0, 456.5, 93.0, 22.0 ],
+					"text" : "r mute_talkback"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-823",
 					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 5101.0, 2211.5, 183.0, 49.0 ],
+					"patching_rect" : [ 5101.0, 2211.5, 186.0, 49.0 ],
 					"text" : "filterdesign @frequency 4500. @topology butterworth @order 4 @response lowpass"
 				}
 
@@ -121,7 +145,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "dictionary" ],
-					"patching_rect" : [ 5132.0, 2270.0, 161.0, 62.0 ],
+					"patching_rect" : [ 5132.0, 2270.0, 165.0, 62.0 ],
 					"text" : "filterdesign @frequency 100. @topology butterworth @order 4 @response highpass"
 				}
 
@@ -2506,7 +2530,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3250,7 +3274,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4492.0, 426.0, 33.0, 22.0 ],
+					"patching_rect" : [ 4482.0, 504.5, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -3263,7 +3287,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4492.0, 377.0, 24.0, 24.0 ]
+					"patching_rect" : [ 4482.0, 455.5, 24.0, 24.0 ]
 				}
 
 			}
@@ -3273,7 +3297,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4492.0, 474.0, 148.0, 22.0 ],
+					"patching_rect" : [ 4482.0, 552.5, 148.0, 22.0 ],
 					"text" : "s \"Talkback Mic Mute [ v ]\""
 				}
 
@@ -3579,7 +3603,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4240,7 +4264,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5292,7 +5316,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-569",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -5436,6 +5459,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-461",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -6046,7 +6070,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "live", ",", "internal" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7088,7 +7112,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7497,7 +7521,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7714,7 +7738,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8060,7 +8084,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -8148,7 +8172,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -10015,10 +10039,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0, 3246.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 985, 87, 1437, 1406 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -10169,7 +10193,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10213,8 +10237,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -10863,7 +10887,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4683.5, 4413.0, 50.0, 22.0 ]
+					"patching_rect" : [ 4687.0, 4413.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -11060,8 +11084,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3987.0, 3740.0, 84.0, 25.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 3987.0, 3740.0, 97.0, 25.0 ],
+					"text" : "loadmess 0.2"
 				}
 
 			}
@@ -20257,6 +20281,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-666", 0 ],
+					"source" : [ "obj-619", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
@@ -20674,6 +20705,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-550", 1 ],
 					"source" : [ "obj-665", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-578", 0 ],
+					"source" : [ "obj-666", 0 ]
 				}
 
 			}
@@ -22717,7 +22755,6 @@
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
 			"obj-234::obj-144" : [ "bars per risset loop", "bars per accel loop", 0 ],
-			"obj-248::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-274" : [ "number", "number", 0 ],
 			"obj-353" : [ "bleed", "bleed", 0 ],
 			"obj-366" : [ "live.numbox[2]", "live.numbox", 0 ],
@@ -22788,7 +22825,6 @@
 			"obj-72::obj-85" : [ "env sens[1]", "env sens", 0 ],
 			"obj-72::obj-88" : [ "ceiling env smooth", "env smooth", 0 ],
 			"obj-758::obj-5::obj-813" : [ "live.numbox[4]", "live.numbox[3]", 0 ],
-			"obj-814::obj-21::obj-191" : [ "vst~[19]", "vst~", 0 ],
 			"obj-817::obj-5::obj-813" : [ "live.numbox[3]", "live.numbox[3]", 0 ],
 			"obj-818::obj-5::obj-813" : [ "live.numbox[22]", "live.numbox[3]", 0 ],
 			"obj-819::obj-5::obj-813" : [ "live.numbox[21]", "live.numbox[3]", 0 ],
@@ -24709,6 +24745,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "just_theDrop.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "just_theDrop.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "kofi_qr.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -24737,10 +24787,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "license.sousafx",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
+				"name" : "limiter.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
 				"implicit" : 1
 			}
 , 			{
@@ -24790,7 +24840,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_limiter_plugin.json",
+				"name" : "main_limiter_rnbo_limiter.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -24923,7 +24973,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "monitor_limiter_plugin.json",
+				"name" : "monitor_limiter_rnbo_limiter.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -25090,6 +25140,13 @@
 			}
 , 			{
 				"name" : "rnbo_compressor_stereo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rnbo_limiter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
