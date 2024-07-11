@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 441.0, 193.0, 1629.0, 1064.0 ],
+		"rect" : [ 1098.0, 438.0, 1138.0, 928.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "loopers",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-248",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1618.0, 2265.0, 47.0, 22.0 ],
+					"text" : "*~ 0.25"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
 					"checkedcolor" : [ 0.07843137254902, 0.811764705882353, 0.905882352941176, 1.0 ],
@@ -95,7 +107,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1618.0, 2263.264573991030375, 62.0, 22.0 ],
+					"patching_rect" : [ 1618.0, 2313.0, 62.0, 22.0 ],
 					"text" : "s~ droplet"
 				}
 
@@ -5393,8 +5405,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -1610.0,
-					"yoffset" : -824.0
+					"xoffset" : -1920.0,
+					"yoffset" : -683.0
 				}
 
 			}
@@ -6933,6 +6945,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-218", 0 ],
+					"source" : [ "obj-248", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -7024,7 +7043,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-218", 0 ],
+					"destination" : [ "obj-248", 0 ],
 					"source" : [ "obj-334", 0 ]
 				}
 
