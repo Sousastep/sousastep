@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 195.0, 53.0, 791.0, 847.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-678",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5203.0, 5231.0, 118.0, 22.0 ],
+					"text" : "s sousafx_flashbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-671",
 					"maxclass" : "newobj",
@@ -5438,6 +5449,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-569",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -5581,7 +5593,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-461",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -5907,10 +5918,10 @@
 					"id" : "obj-672",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 5336.0, 5193.0, 22.0, 22.0 ],
-					"text" : "t 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 5336.0, 5193.0, 32.0, 22.0 ],
+					"text" : "t 1 b"
 				}
 
 			}
@@ -5924,7 +5935,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5380.0, 5101.0, 53.0, 53.0 ],
+					"patching_rect" : [ 5380.0, 5099.0, 53.0, 53.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 552.0, 1917.0, 33.0, 33.0 ]
 				}
@@ -10359,8 +10370,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -20829,6 +20840,13 @@
 					"destination" : [ "obj-677", 0 ],
 					"order" : 1,
 					"source" : [ "obj-671", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-678", 0 ],
+					"source" : [ "obj-672", 1 ]
 				}
 
 			}
