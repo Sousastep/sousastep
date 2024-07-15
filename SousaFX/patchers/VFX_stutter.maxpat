@@ -55,26 +55,13 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 575.0, 379.5, 45.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "-1 dB ?"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 492.0, 379.0, 74.0, 22.0 ],
-					"text" : "*~ 0.891251"
+					"patching_rect" : [ 492.0, 379.0, 40.0, 22.0 ],
+					"text" : "*~ 0.5"
 				}
 
 			}
@@ -364,11 +351,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-541",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 				}
 
@@ -377,11 +364,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-543",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 203.5, 40.0, 30.0, 30.0 ]
 				}
 
@@ -390,7 +377,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-544",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -402,7 +389,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-547",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -595,76 +582,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-200::obj-18" : [ "phase offset[1]", "phase offset", 0 ],
-			"obj-200::obj-2" : [ "live.menu", "live.menu", 0 ],
-			"obj-200::obj-34" : [ "duty cycle[1]", "duty cycle", 0 ],
-			"obj-200::obj-36" : [ "boost", "boost", 0 ],
-			"obj-200::obj-38" : [ "smooth", "smooth", 0 ],
-			"obj-200::obj-42" : [ "depth / mix", "depth / mix", 0 ],
-			"obj-534::obj-105" : [ "function[107]", "function", 0 ],
-			"obj-534::obj-106" : [ "MIDI syncrate[8]", "sync", 0 ],
-			"obj-534::obj-145" : [ "accel[5]", "accel", 0 ],
-			"obj-534::obj-153" : [ "live.button[5]", "live.button", 0 ],
-			"obj-534::obj-155" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-534::obj-159" : [ "live.dial[23]", "window", 0 ],
-			"obj-534::obj-21" : [ "live.menu[16]", "live.menu", 0 ],
-			"obj-534::obj-22" : [ "offset[4]", "offset", 0 ],
-			"obj-534::obj-235" : [ "volume dip[4]", "vol dip", 0 ],
-			"obj-534::obj-246" : [ "staircase", "staircase", 0 ],
-			"obj-534::obj-36" : [ "active[6]", "Active", 0 ],
-			"obj-534::obj-38" : [ "active[1]", "Active", 0 ],
-			"obj-534::obj-42" : [ "stutter volume[4]", "stutter volume", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "AND.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "VFX_stutter.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "frame000.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/stickman",
-				"patcherrelativepath" : "../../default/startup/stickman",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sousaFX_tremolo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "stutterstep.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
