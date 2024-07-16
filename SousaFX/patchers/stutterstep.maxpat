@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
+		"rect" : [ 878.0, 87.0, 1648.0, 1319.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.829196810722351, 0.399959683418274, 0.104767322540283, 1.0 ],
+					"id" : "obj-221",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 174.0, 2765.0, 128.0, 22.0 ],
+					"text" : "r #1\" Stutter gate-thru\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-140",
 					"maxclass" : "newobj",
@@ -1173,7 +1186,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1493,7 +1506,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1620.0, 1177.0, 62.25, 79.0 ],
+					"patching_rect" : [ 1620.0, 1177.0, 64.0, 79.0 ],
 					"suppressinlet" : 1,
 					"text" : "detect difference between two phasors",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1514,7 +1527,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3349,7 +3362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 704.0, 288.891867194638962, 73.0, 22.0 ],
+					"patching_rect" : [ 692.0, 289.0, 73.0, 22.0 ],
 					"text" : "speedlim 30"
 				}
 
@@ -5707,6 +5720,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-221", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"source" : [ "obj-222", 0 ]
 				}
@@ -6362,14 +6382,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.871142327785492, 0.482735633850098, 0.125955179333687, 1.0 ],
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-319", 1 ],
 					"source" : [ "obj-320", 0 ]
 				}
@@ -6582,7 +6594,7 @@
 , 			{
 				"patchline" : 				{
 					"color" : [ 0.871142327785492, 0.482735633850098, 0.125955179333687, 1.0 ],
-					"destination" : [ "obj-32", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-52", 0 ]
 				}
 
