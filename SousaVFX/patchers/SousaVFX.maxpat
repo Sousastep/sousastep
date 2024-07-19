@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 236.0, 206.0, 1589.0, 1197.0 ],
+		"rect" : [ 115.0, 217.0, 1589.0, 1197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,8 +49,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4984.0, 752.0, 99.0, 51.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 4984.0, 752.0, 102.0, 51.0 ],
 					"suppressinlet" : 1,
 					"text" : "helps set render delay in OBS"
 				}
@@ -3795,18 +3794,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3133.0, 503.0, 32.0, 22.0 ],
 					"text" : "r ms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-650",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3099.0, 443.0, 49.0, 22.0 ],
-					"text" : "+~ 0.01"
 				}
 
 			}
@@ -7755,7 +7742,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-650", 0 ],
+					"destination" : [ "obj-446", 0 ],
 					"order" : 1,
 					"source" : [ "obj-158", 0 ]
 				}
@@ -8765,7 +8752,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-650", 0 ],
+					"destination" : [ "obj-446", 0 ],
 					"order" : 1,
 					"source" : [ "obj-444", 0 ]
 				}
@@ -9284,13 +9271,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-793", 0 ],
 					"source" : [ "obj-645", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-446", 0 ],
-					"source" : [ "obj-650", 0 ]
 				}
 
 			}

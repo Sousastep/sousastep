@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 1270.0, 53.0, 1290.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6618.0, 4464.0, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-665",
 					"linecount" : 3,
@@ -2296,8 +2308,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5704.5, 4254.0, 60.0, 22.0 ],
-					"text" : "slide~ 0 0"
+					"patching_rect" : [ 5704.5, 4254.0, 74.0, 22.0 ],
+					"text" : "slide~ 0 480"
 				}
 
 			}
@@ -2489,7 +2501,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3753.0, 3088.0, 120.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 100.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6373,7 +6385,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "link", ",", "live", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8387,7 +8399,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -8475,7 +8487,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -14887,7 +14899,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-648", 0 ],
+					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -14961,6 +14973,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-71", 1 ],
 					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-648", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -20915,7 +20934,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-550", 0 ],
+					"order" : 1,
+					"source" : [ "obj-659", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-829", 0 ],
+					"order" : 0,
 					"source" : [ "obj-659", 0 ]
 				}
 
@@ -21378,15 +21406,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-349", 0 ],
-					"order" : 1,
+					"destination" : [ "obj-110", 1 ],
+					"order" : 0,
 					"source" : [ "obj-724", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-657", 1 ],
+					"destination" : [ "obj-349", 0 ],
 					"order" : 2,
 					"source" : [ "obj-724", 0 ]
 				}
@@ -21394,8 +21422,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-657", 1 ],
+					"order" : 3,
+					"source" : [ "obj-724", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-734", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-724", 0 ]
 				}
 
@@ -22741,14 +22777,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-550", 0 ],
-					"order" : 2,
-					"source" : [ "obj-864", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-828", 1 ],
 					"order" : 1,
 					"source" : [ "obj-864", 0 ]
@@ -22916,22 +22944,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-852", 0 ],
 					"source" : [ "obj-897", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 1 ],
-					"order" : 0,
-					"source" : [ "obj-898", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-203", 0 ],
-					"order" : 1,
-					"source" : [ "obj-898", 0 ]
 				}
 
 			}
