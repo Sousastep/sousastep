@@ -133,7 +133,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 35.666666666666686, 1856.0, 308.5, 107.0 ],
-					"presentation_linecount" : 7,
 					"suppressinlet" : 1,
 					"text" : "replaceable arguments\n\n#1 : 0.5 = bipolar, 0 = unipolar\n\n#2 : f = full range, \"> 0.1\" (non-breaking space) = trigger\n\n#3 : control name"
 				}
@@ -950,7 +949,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ],
+					"bgcolor" : [ 0.054902, 0.003922, 0.109804, 0.83 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-25",
 					"maxclass" : "comment",
@@ -960,7 +959,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 303.666666666666686, 3.0, 300.0, 21.0 ],
 					"text" : "|| recording                                                                   ",
-					"textcolor" : [ 0.054902, 0.003922, 0.109804, 0.83 ]
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ]
 				}
 
 			}
@@ -2576,7 +2575,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.054902, 0.003922, 0.109804, 0.83 ],
+					"bgcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-698",
 					"maxclass" : "comment",
@@ -2586,7 +2585,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 3.0, 295.0, 21.0 ],
 					"text" : "||: idle, prepared                                                                     ",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ]
+					"textcolor" : [ 0.054902, 0.003922, 0.109804, 0.83 ]
 				}
 
 			}
