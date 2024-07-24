@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 74.0, 107.0, 2013.0, 1289.0 ],
+		"rect" : [ 0.0, 53.0, 1871.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -233,7 +233,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
 					"checkedcolor" : [ 0.07843137254902, 0.811764705882353, 0.905882352941176, 1.0 ],
-					"hint" : "change tempo after looper finishes looping a certain number of times",
+					"hint" : "play droplet sfx when looper prepped / done recording / starts fading",
 					"id" : "obj-49",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -5582,8 +5582,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -421.0,
-					"yoffset" : -92.0
+					"xoffset" : -2040.0,
+					"yoffset" : -834.0
 				}
 
 			}
