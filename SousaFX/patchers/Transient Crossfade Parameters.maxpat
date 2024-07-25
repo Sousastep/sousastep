@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 935.0, 194.0, 1525.0, 1202.0 ],
+		"rect" : [ 378.0, 323.0, 1691.0, 985.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -888,7 +888,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1012.0, 412.0, 95.0, 22.0 ],
-					"restore" : [ 0.209677419354839 ],
+					"restore" : [ 0.176176117452763 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

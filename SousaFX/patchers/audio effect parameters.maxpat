@@ -42,6 +42,30 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-890",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3718.0, 3843.0, 121.0, 22.0 ],
+					"text" : "prepend Wah_Pause"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-891",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3718.0, 3814.0, 168.0, 22.0 ],
+					"text" : "r \"LFO Auto-Wah Pause (uni)\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-878",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
@@ -23420,6 +23444,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-456", 0 ],
 					"source" : [ "obj-89", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-220", 0 ],
+					"source" : [ "obj-890", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-890", 0 ],
+					"source" : [ "obj-891", 0 ]
 				}
 
 			}
