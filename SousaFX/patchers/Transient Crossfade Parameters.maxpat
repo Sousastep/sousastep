@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 163.0, 583.0, 1017.0, 840.0 ],
+		"rect" : [ 504.0, 174.0, 2025.0, 1208.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,29 @@
 		"assistshowspatchername" : 0,
 		"title" : "envelope crossfade parameters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 898.889977926376105, 593.0, 36.0, 22.0 ],
+					"text" : "== 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-134",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 898.889977926376105, 633.0, 128.0, 22.0 ],
+					"text" : "s noise_gate_disabled"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.152941176470588, 0.0, 0.396078431372549, 0.75 ],
 					"bgfillcolor_angle" : 270.0,
@@ -99,7 +122,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1721.5, 830.0, 146.0, 22.0 ],
-					"restore" : [ 0.1 ],
+					"restore" : [ 1.758786766504442 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -721,7 +744,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 788.889977926376105, 802.676822759973447, 94.0, 22.0 ],
-					"restore" : [ 3.0 ],
+					"restore" : [ 8.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -781,7 +804,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1242.0, 933.0, 157.0, 22.0 ],
-					"restore" : [ 17.0 ],
+					"restore" : [ 71.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -854,7 +877,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1012.0, 412.0, 95.0, 22.0 ],
-					"restore" : [ 0.505327533636107 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -873,7 +896,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 863.889977926376105, 752.157661400084862, 94.0, 22.0 ],
-					"restore" : [ 1206.029246629764657 ],
+					"restore" : [ 1027.520673008984659 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -892,7 +915,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 281.0, 625.412269226559147, 122.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1043,7 +1066,7 @@
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 72.431525880458594, 340.481690153857926, 199.0, 36.0 ],
 					"text" : "use noise gate to improve envelope's attack",
-					"textcolor" : [ 0.686275, 0.686275, 0.686275, 1.0 ],
+					"textcolor" : [ 1.0, 0.968627, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -1620,6 +1643,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-134", 0 ],
+					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"source" : [ "obj-28", 1 ]
 				}
@@ -1776,7 +1806,17 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"midpoints" : [ 1059.5, 618.0, 983.0, 618.0, 983.0, 522.0, 908.389977926376105, 522.0 ],
+					"order" : 1,
+					"source" : [ "obj-463", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-576", 0 ],
+					"order" : 0,
 					"source" : [ "obj-463", 0 ]
 				}
 
@@ -1910,6 +1950,51 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-13" : [ "low Xfade offset", "low Xfade offset", 0 ],
+			"obj-1359" : [ "env decay", "xfade decay", 0 ],
+			"obj-22" : [ "env sens", "env sens", 0 ],
+			"obj-28" : [ "interp Xfades", "interp Xfades", 0 ],
+			"obj-35" : [ "env attack", "xfade attack", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mix_env_logic.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transient_crossfade_parameters.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ],
 		"saved_attribute_attributes" : 		{

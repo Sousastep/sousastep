@@ -925,7 +925,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1625.0, 693.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 892.0, 3.0, 282.0, 21.0 ],
+					"presentation_rect" : [ 887.0, 3.0, 283.0, 21.0 ],
 					"text" : " || fading out                                                                      :||",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ]
 				}
@@ -941,7 +941,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1309.0, 693.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 599.333333333333371, 3.0, 299.0, 21.0 ],
+					"presentation_rect" : [ 594.0, 3.0, 280.0, 21.0 ],
 					"text" : "|| looping                                              ",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ]
 				}
@@ -957,7 +957,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 993.5, 693.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.666666666666686, 3.0, 300.0, 21.0 ],
+					"presentation_rect" : [ 299.0, 3.0, 281.0, 21.0 ],
 					"text" : "|| recording                                                                   ",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 0.83 ]
 				}
@@ -2583,7 +2583,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 678.0, 693.0, 320.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 3.0, 295.0, 21.0 ],
+					"presentation_rect" : [ 5.0, 3.0, 280.0, 21.0 ],
 					"text" : "||: idle, prepared                                                                     ",
 					"textcolor" : [ 0.054902, 0.003922, 0.109804, 0.83 ]
 				}
