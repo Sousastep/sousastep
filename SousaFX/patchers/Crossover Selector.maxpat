@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 542.0, 152.0, 1578.0, 1246.0 ],
+		"rect" : [ 1662.0, 552.0, 852.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -85,6 +85,7 @@
 			}
 , 			{
 				"box" : 				{
+					"hidden" : 1,
 					"hint" : "choose how to pull down crossover",
 					"id" : "obj-102",
 					"items" : [ "don't", "pull", "down", ",", "use", "Envelope", "Crossfade", "Position", "(bi)", 0.5, "-", 1, ",", "use", "Envelope", "Crossfade", "Mix", "Amount." ],
@@ -698,8 +699,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 395.0, 56.0, 107.0, 22.0 ],
-					"text" : "loadmess 562 245"
+					"patching_rect" : [ 395.0, 56.0, 113.0, 22.0 ],
+					"text" : "loadmess 562. 249."
 				}
 
 			}
@@ -1050,10 +1051,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1355.075958482105762, 1201.888866530711084, 426.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage crossover_plugin_or_gen @greedy 2 @savemode 0",
@@ -1353,7 +1354,7 @@
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "ProQ3_crossovers.maxpat",
+					"name" : "crossovers.maxpat",
 					"numinlets" : 7,
 					"numoutlets" : 7,
 					"offset" : [ 0.0, 0.0 ],
@@ -1401,7 +1402,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1463.575958482105762, 136.510887993343204, 112.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
