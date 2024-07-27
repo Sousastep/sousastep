@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 456.0, 81.0, 1745.0, 1316.0 ],
+		"rect" : [ 462.0, 253.0, 2006.0, 1062.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,21 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-324",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2251.0, 1648.166715979576111, 218.0, 35.0 ],
+					"presentation_linecount" : 4,
+					"suppressinlet" : 1,
+					"text" : "temp disconnect because it may have been causing problems"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-375",
 					"maxclass" : "newobj",
@@ -284,18 +299,6 @@
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 1328.5, 2375.0, 108.0, 22.0 ],
 					"text" : "makenote 127 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-324",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 153.5, 2193.0, 218.0, 22.0 ],
-					"text" : "r looper_going_to_begin_fadeout_bang"
 				}
 
 			}
@@ -8249,13 +8252,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-338", 0 ],
-					"source" : [ "obj-324", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-333", 0 ],
 					"source" : [ "obj-325", 0 ]
 				}
@@ -8300,13 +8296,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-329", 0 ],
 					"source" : [ "obj-332", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-308", 0 ],
-					"source" : [ "obj-333", 0 ]
 				}
 
 			}
@@ -8468,13 +8457,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-345", 0 ],
 					"source" : [ "obj-351", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-308", 0 ],
-					"source" : [ "obj-352", 0 ]
 				}
 
 			}
