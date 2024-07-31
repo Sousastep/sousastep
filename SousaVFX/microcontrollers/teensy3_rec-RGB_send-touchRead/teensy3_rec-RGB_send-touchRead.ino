@@ -1,19 +1,6 @@
 #include <OctoWS2811.h>
 
-// the following includes are for the BNO055 accelerometer
-#include <Wire.h>
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BNO055.h>
-#include <utility/imumaths.h>
-
-// Check I2C device address and correct line below (by default address is 0x29 or 0x28)
-//                                   id, address
-Adafruit_BNO055 bno = Adafruit_BNO055(55, 0x28, &Wire);
-
 // Define constants
-const unsigned long OUTPUT_RATE_ACCEL = 1000000; // Output rate in microseconds
-const unsigned long OUTPUT_RATE_TOUCH = 10000; // Output rate in microseconds
-const int MOVING_AVERAGE_WINDOW_SIZE = 10; // Size of the moving average window
 const int config = WS2811_GRB | WS2811_800kHz;
 const int ledsPerStrip = 26;
 const int numStrips = 8;
@@ -21,17 +8,6 @@ const int numChannels = ledsPerStrip * numStrips * 3;
 const int maxDataLength = numChannels;  // maxDataLength is the maximum length allowed for received data.
 
 // Declare variables
-unsigned long accelLastOutputTime = 0;
-unsigned long touchLastOutputTime = 0;
-int touchRead_pin = 1;
-int touchRead_data = 0;
-int touchRead_data_history[MOVING_AVERAGE_WINDOW_SIZE];
-int touchRead_data_sum = 0;
-int touchRead_data_average = 0;
-float eventOrientationX = 0;
-float eventOrientationY = 0;
-float eventOrientationZ = 0;
-float linearAccelX = 0;
 char serial_array[numChannels];
 int serial_array_length = 0;
 DMAMEM int displayMemory[ledsPerStrip * 6];
@@ -44,17 +20,6 @@ OctoWS2811 leds(ledsPerStrip, displayMemory, drawingMemory, config);
 void setup()
 {
   Serial.begin(115200);
-
-  /* Initialise the sensor */
-  if (!bno.begin())
-  {
-    /* There was a problem detecting the BNO055 ... check your connections */
-    Serial.print("Ooops, no BNO055 detected ... Check your wiring or I2C ADDR!");
-    while (1);
-  }
-
-  bno.setExtCrystalUse(false); // https://protosity.wordpress.com/2016/09/12/bno055-arduino-ros/
-
   leds.begin();
   test();
 }
@@ -194,9 +159,9 @@ void recvWithStartEndMarkers()
 
 void test() {
   for (int i = 0; i < ledsPerStrip * numStrips ; i++) {
-    leds.setPixel(i, random(0, 255), random(0, 255), random(0, 255));
+    leds.setPixel(i, random(0, 253), random(0, 253), random(0, 253));
     leds.show();
-    delay(16);
+    delay(20);
     leds.setPixel(i, 0, 0, 0);
     leds.show();
   }
