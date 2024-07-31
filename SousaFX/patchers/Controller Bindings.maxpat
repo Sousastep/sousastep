@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2111.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -346,7 +346,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.0, 1893.0, 193.0, 22.0 ],
+					"patching_rect" : [ 266.0, 1905.0, 193.0, 22.0 ],
 					"text" : "s connection_list_distributed_bang"
 				}
 
@@ -10945,10 +10945,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1624.0, 1718.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -15501,7 +15501,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -15974,11 +15974,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 39,
-										"out" : 61,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 46,
 										"out" : 67,
 										"gain" : 1.0
@@ -16054,11 +16049,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 26,
-										"out" : 23,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 0,
 										"out" : 12,
 										"gain" : 1.0
@@ -16129,11 +16119,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 23,
-										"out" : 23,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 3,
 										"out" : 51,
 										"gain" : 1.0
@@ -16151,6 +16136,16 @@
 , 									{
 										"in" : 13,
 										"out" : 71,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 23,
+										"out" : 26,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 26,
+										"out" : 27,
 										"gain" : 1.0
 									}
  ]
