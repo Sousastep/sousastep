@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 878.0, 87.0, 1648.0, 1319.0 ],
+		"rect" : [ 878.0, 87.0, 959.0, 1319.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -49,7 +49,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 446.0, 240.5, 120.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"suppressinlet" : 1,
 					"text" : "don't change tempo while stutter enabled"
 				}
@@ -587,7 +586,7 @@
 				"box" : 				{
 					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
-					"hint" : "Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.",
+					"hint" : "modulates the stutter's startpoint as accel increases.",
 					"id" : "obj-246",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
