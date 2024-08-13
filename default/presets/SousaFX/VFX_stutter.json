@@ -7,11 +7,19 @@
 				"data" : 				{
 					"stutterLFO::stutter volume[1]" : [ 0.0 ],
 					"stutterLFO::inthru" : [ 1.0 ],
-					"stutterLFO::window" : [ 16.0 ],
-					"stutterLFO::offset[1]" : [ 0.03 ],
+					"stutterLFO::window" : [ 9.0 ],
+					"stutterLFO::offset[1]" : [ 0.010629921259843 ],
 					"stutterLFO::bypass_hipass" : [ 1 ],
-					"stutterLFO::accel-vol-dip" : [ 84.0 ],
-					"stutterLFO::subdiv-behavior" : [ 0 ]
+					"stutterLFO::accel-vol-dip" : [ 13.0 ],
+					"stutterLFO::subdiv-mult" : [ 0.0 ],
+					"stutterLFO::staircase[1]" : [ 0.0 ],
+					"stutterLFO::staircase-mode" : [ 0 ],
+					"stutterLFO::scan-rate" : [ 3.0 ],
+					"sousaFX_tremolo::duty" : [ 65.704338924069731 ],
+					"sousaFX_tremolo::phase" : [ 0.0 ],
+					"sousaFX_tremolo::smooth[1]" : [ 0.0 ],
+					"sousaFX_tremolo::boost[1]" : [ 0.0 ],
+					"sousaFX_tremolo::subdiv-mult" : [ 0.0 ]
 				}
 
 			}

@@ -1,0 +1,52 @@
+{
+	"pattrstorage" : 	{
+		"name" : "monitor_limiter_rnbo_limiter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"limiter" : [ 						{
+							"filetype" : "C74Snapshot",
+							"version" : 2,
+							"minorversion" : 0,
+							"name" : "limiter",
+							"origin" : "limiter",
+							"type" : "rnbo",
+							"subtype" : "",
+							"embed" : 1,
+							"snapshot" : 							{
+								"release" : 								{
+									"value" : 180.0
+								}
+,
+								"__presetid" : "limiter",
+								"attack" : 								{
+									"value" : 30.0
+								}
+,
+								"thresh" : 								{
+									"value" : -2.0
+								}
+,
+								"gain" : 								{
+									"value" : 2.0
+								}
+,
+								"lookahead" : 								{
+									"value" : 2.0
+								}
+
+							}
+
+						}
+ ],
+					"active" : [ "active", 1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

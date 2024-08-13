@@ -33,6 +33,18 @@
 					"midi note in stop drum loops" : [ 50 ],
 					"SousaFX Preset automation input channel" : [ 1 ],
 					"MIDI note output stop drum loops" : [ 50 ],
+					"MIDI note output randomize clips" : [ 51 ],
+					"MIDI note output play randim riser" : [ 52 ],
+					"MIDI note output 1st tempo change" : [ 53 ],
+					"MIDI note output 2nd tempo change" : [ 54 ],
+					"MIDI note output 3rd tempo change" : [ 55 ],
+					"ableton auto-play launch delay" : [ 12 ],
+					"MIDI note output 8-bar trig" : [ 60 ],
+					"midi note in fadeout almost done" : [ 52 ],
+					"midi note in disable solofx" : [ 53 ],
+					"MIDI note output 4th tempo change" : [ 56 ],
+					"totalmix port" : [ "IAC Driver Bus 1" ],
+					"auto-trig_snapshot" : [ 1 ],
 					"MIDI MAP OUT::Drum Clip Stutter Enable (trig) MIDIOUT" : [ 61 ],
 					"MIDI MAP OUT[1]::syncrate_coll MIDIOUT" : [ 60 ],
 					"MIDI MAP OUT[2]::Drum Clip Reverb Send (uni) MIDIOUT" : [ 70 ],
@@ -45,13 +57,16 @@
 					"MIDI MAP OUT[9]::Drum Clip Delay Param (bi) MIDIOUT" : [ 75 ],
 					"MIDI MAP OUT[10]::Drum Clip Filters (bi) MIDIOUT" : [ 53 ],
 					"MIDI MAP OUT[11]::Risset Ext FX DryWet MIDIOUT" : [ 30 ],
-					"MIDI MAP OUT[12]::mute_octaver_midi MIDIOUT" : [ 0 ],
 					"MIDI MAP OUT[13]::Talkback Mic Mute [ v ] MIDIOUT" : [ 50 ],
 					"MIDI MAP OUT[15]::Drum Clip Stutter Gated or Thru MIDIOUT" : [ 77 ],
 					"playback bus monitor mix vol::playback bus monitor mix vol MIDIOUT" : [ 80 ],
 					"playback bus monitor mix vol[1]::Scene Selector MIDIOUT" : [ 101 ],
-					"MIDI note output randomize clips" : [ 51 ],
-					"MIDI note output play randim riser" : [ 52 ]
+					"MIDI note output 16-bar trig" : [ 70 ],
+					"MIDI note output 1st tempo change 16" : [ 63 ],
+					"MIDI note output 2nd tempo change 16" : [ 64 ],
+					"MIDI note output 3rd tempo change 16" : [ 65 ],
+					"MIDI note output 4th tempo change 16" : [ 66 ],
+					"MIDI note output play randim riser 16" : [ 62 ]
 				}
 
 			}

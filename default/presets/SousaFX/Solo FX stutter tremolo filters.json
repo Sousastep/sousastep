@@ -1,0 +1,32 @@
+{
+	"pattrstorage" : 	{
+		"name" : "Solo FX stutter tremolo filters",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"sousaFX_tremolo::duty" : [ 65.704338924069731 ],
+					"sousaFX_tremolo::phase" : [ 0.0 ],
+					"sousaFX_tremolo::smooth[1]" : [ 18.0 ],
+					"sousaFX_tremolo::boost[1]" : [ 6.0 ],
+					"sousaFX_tremolo::subdiv-mult" : [ 2.0 ],
+					"stutterstep::stutter volume[1]" : [ -0.6 ],
+					"stutterstep::inthru" : [ 1.0 ],
+					"stutterstep::window" : [ 17.0 ],
+					"stutterstep::offset[1]" : [ 0.009842519685039 ],
+					"stutterstep::bypass_hipass" : [ 0 ],
+					"stutterstep::accel-vol-dip" : [ 88.0 ],
+					"stutterstep::subdiv-mult" : [ 0.0 ],
+					"stutterstep::staircase[1]" : [ 100.0 ],
+					"stutterstep::staircase-mode" : [ 1 ],
+					"stutterstep::scan-rate" : [ 2.0 ],
+					"DJfilter::smooth_freq_mod" : [ 78.593807896277241 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

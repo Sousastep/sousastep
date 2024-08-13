@@ -5,13 +5,12 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"very_low_volume" : [ -5.0 ],
-					"low_volume" : [ -8.0 ],
-					"high_volume" : [ 0.0 ],
-					"auto-mute octaver while tuba's soloing" : [ 1 ],
-					"HiDryTrim" : [ 0.0 ],
-					"LoDryTrim" : [ -4.000000000000002 ],
-					"VeryLoDryTrim" : [ -4.000000000000002 ],
+					"u617004316" : [ -19.0 ],
+					"u617004316[1]" : [ -13.0 ],
+					"u617004316[2]" : [ -8.0 ],
+					"u617004316[3]" : [ -14.0 ],
+					"u617004316[4]" : [ 0.0 ],
+					"u617004316[5]" : [ 0.0 ],
 					"attack_low::muted" : [ 0.0 ],
 					"attack_octave::muted" : [ 0.0 ],
 					"sustain_octave::muted" : [ 0.0 ],
@@ -19,11 +18,7 @@
 					"sustainFX::muted" : [ 0.0 ],
 					"plugin_or_rnbo_selector::mod_comp_rnbo_or_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector[1]::dry_comp_rnbo_or_plugin" : [ 1 ],
-					"sustain_low::muted" : [ 0.0 ],
-					"plugin_or_rnbo_selector[2]::plugin_selector::Post-Crossfade_FX_plugin1_rnbo_or_plugin" : [ 1 ],
-					"plugin_or_rnbo_selector[2]::plugin_selector[1]::Post-Crossfade_FX_plugin2_plugin" : [ 1 ],
-					"plugin_or_rnbo_selector[2]::plugin_selector[2]::Post-Crossfade_FX_plugin3_plugin" : [ 1 ],
-					"plugin_or_rnbo_selector[2]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [ 1 ]
+					"sustain_low::muted" : [ 0.0 ]
 				}
 
 			}

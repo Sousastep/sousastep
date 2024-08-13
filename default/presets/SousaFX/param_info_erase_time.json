@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "param_info_erase_time[1]",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"param_info_erase_time" : [ 1200 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
