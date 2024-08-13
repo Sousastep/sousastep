@@ -1,0 +1,61 @@
+{
+	"pattrstorage" : 	{
+		"name" : "scrolling_text",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"FontLightingOnOff" : [ 0 ],
+					"FontName" : [ "Ableton Sans Bold" ],
+					"FontStyle" : [ "normal" ],
+					"LineFinal" : [ 0.0 ],
+					"LineInitial" : [ 0.0 ],
+					"LineSeconds" : [ 0.0 ],
+					"TextPositionY" : [ 0.0 ],
+					"TextPositionZ" : [ 0.0 ],
+					"TextScaleX" : [ 0.1 ],
+					"TextScaleY" : [ 0.0 ],
+					"TextTracking" : [ 0.0 ],
+					"TextZthickness" : [ 0.0 ],
+					"TextboxIndex" : [ 1 ],
+					"enable_text" : [ 0 ],
+					"TextColorGreen::invert" : [ 0.0 ],
+					"TextColorGreen::linkphasor_rate" : [ 1.0 ],
+					"TextColorGreen::matrixctrl" : [ 0, 0, 0 ],
+					"TextColorGreen::param_ctrl" : [ 0.0 ],
+					"TextColorGreen::pitch_range_high" : [ 340.0 ],
+					"TextColorGreen::pitch_range_low" : [ 70.0 ],
+					"TextColorGreen::rslider" : [ 0.5, 0.5 ],
+					"TextColorGreen::slide_down" : [ 0 ],
+					"TextColorGreen::slide_up" : [ 0 ],
+					"TextColorGreen::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"TextColorBlue::invert" : [ 0.0 ],
+					"TextColorBlue::linkphasor_rate" : [ 1.0 ],
+					"TextColorBlue::matrixctrl" : [ 0, 0, 0 ],
+					"TextColorBlue::param_ctrl" : [ 0.0 ],
+					"TextColorBlue::pitch_range_high" : [ 340.0 ],
+					"TextColorBlue::pitch_range_low" : [ 70.0 ],
+					"TextColorBlue::rslider" : [ 0.5, 0.5 ],
+					"TextColorBlue::slide_down" : [ 0 ],
+					"TextColorBlue::slide_up" : [ 0 ],
+					"TextColorBlue::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"TextColorRed::invert" : [ 0.0 ],
+					"TextColorRed::linkphasor_rate" : [ 1.0 ],
+					"TextColorRed::matrixctrl" : [ 0, 0, 0 ],
+					"TextColorRed::param_ctrl" : [ 0.0 ],
+					"TextColorRed::pitch_range_high" : [ 340.0 ],
+					"TextColorRed::pitch_range_low" : [ 70.0 ],
+					"TextColorRed::rslider" : [ 0.5, 0.5 ],
+					"TextColorRed::slide_down" : [ 0 ],
+					"TextColorRed::slide_up" : [ 0 ],
+					"TextColorRed::function_visualizer_clear_line::function_visualizer_floats::function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+					"ISF-pattrstorage::preset-description" : [ "default blank" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main_vfx_env_sens",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"env_sens" : [ 0.0 ],
+					"fps-init" : [ 90 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
