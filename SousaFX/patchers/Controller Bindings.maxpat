@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2111.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2139.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,19 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "numouts",
+					"id" : "obj-1060",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1726.5, 1029.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1056",
 					"maxclass" : "newobj",
@@ -299,7 +312,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6521.266764561334639, 783.0, 97.0, 22.0 ],
+					"patching_rect" : [ 6521.266764561334639, 744.0, 97.0, 22.0 ],
 					"text" : "s all_good_bang"
 				}
 
@@ -311,7 +324,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 6508.266764561334639, 734.0, 32.0, 22.0 ],
+					"patching_rect" : [ 6508.266764561334639, 695.0, 32.0, 22.0 ],
 					"text" : "t 1 b"
 				}
 
@@ -322,9 +335,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 6508.266764561334639, 697.0, 55.0, 22.0 ],
-					"text" : "del 1000"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6446.266764561334639, 744.0, 61.0, 22.0 ],
+					"text" : "pipe 1000"
 				}
 
 			}
@@ -2138,10 +2151,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7022.0, 2368.927155376837618, 92.0, 26.0 ],
+					"patching_rect" : [ 7022.0, 2368.927155376837618, 328.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 173.561151079136607, 295.0, 26.0 ],
-					"text" : "   ",
+					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 26.0 ],
 					"textcolor" : [ 0.988235294117647, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -4639,13 +4651,13 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-301",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2024.0, 1797.0, 228.0, 35.0 ],
+					"patching_rect" : [ 1768.0, 917.5, 228.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "before releasing a new version of SousaFX, update the default preset"
+					"text" : "before releasing a new version of SousaFX, update the default preset, and ensure the blank factory preset"
 				}
 
 			}
@@ -4656,7 +4668,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1969.0, 1817.0, 53.0, 22.0 ],
+					"patching_rect" : [ 1708.0, 957.0, 53.0, 22.0 ],
 					"text" : "delete 2"
 				}
 
@@ -4668,7 +4680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1971.0, 1852.0, 62.0, 22.0 ],
+					"patching_rect" : [ 1710.0, 992.0, 62.0, 22.0 ],
 					"text" : "readagain"
 				}
 
@@ -4680,7 +4692,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1967.0, 1784.0, 54.0, 22.0 ],
+					"patching_rect" : [ 1706.0, 924.0, 54.0, 22.0 ],
 					"text" : "copy 2 1"
 				}
 
@@ -4960,7 +4972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5796.5, 1643.0, 155.0, 22.0 ],
-					"text" : "is_tuba_playing 0"
+					"text" : "which_FX SousaFX"
 				}
 
 			}
@@ -11031,6 +11043,7 @@
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
+					"hidden" : 1,
 					"id" : "obj-292",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13651,6 +13664,7 @@
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
+					"hidden" : 1,
 					"id" : "obj-290",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13757,6 +13771,7 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 26.0,
+					"hidden" : 1,
 					"id" : "obj-282",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13810,6 +13825,7 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 26.0,
+					"hidden" : 1,
 					"id" : "obj-276",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -15501,7 +15517,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "quarter",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -15691,7 +15707,6 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Monaco",
 					"fontsize" : 14.0,
-					"hidden" : 1,
 					"id" : "obj-102",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -15740,7 +15755,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2019.0, 1545.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1795.0, 1057.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -15804,6 +15819,7 @@
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 610.0, 43.0, 189.0, 56.0 ],
+					"readonly" : 1,
 					"text" : "Sousastep's default bindings",
 					"varname" : "textedit[1]"
 				}
@@ -16044,11 +16060,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 38,
-										"out" : 4,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 0,
 										"out" : 12,
 										"gain" : 1.0
@@ -16129,16 +16140,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 12,
-										"out" : 72,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 13,
-										"out" : 71,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 23,
 										"out" : 26,
 										"gain" : 1.0
@@ -16146,6 +16147,11 @@
 , 									{
 										"in" : 26,
 										"out" : 27,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 38,
+										"out" : 4,
 										"gain" : 1.0
 									}
  ]
@@ -16182,6 +16188,7 @@
 					"bubbleusescolors" : 1,
 					"fontname" : "Monaco",
 					"fontsize" : 14.0,
+					"hidden" : 1,
 					"id" : "obj-863",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -16199,6 +16206,7 @@
 				"box" : 				{
 					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"blinkcolor" : [ 0.250980392156863, 0.035294117647059, 0.443137254901961, 1.0 ],
+					"hidden" : 1,
 					"id" : "obj-865",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -17571,6 +17579,7 @@
 					"fontname" : "Monaco",
 					"fontsize" : 13.0,
 					"id" : "obj-14",
+					"ignoreclick" : 1,
 					"incolormap" : [ 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 7, 7, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3 ],
 					"inlabels" : [ "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "X", "A", "B", "Y", "Menu", "View", "LB", "up ↑", "right →", "down ↓", "left ←", "up-right ↗", "down-right ↘", "down-left ↙", "up-left ↖", "LB", "↑", "→", "↓", "←", "↗", "↘", "↙", "↖", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button", "vertical", "up ↑", "down ↓", "horizontal", "left ←", "right →", "button" ],
 					"labelwidth" : 313.5,
@@ -18061,7 +18070,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-545", 0 ],
+					"destination" : [ "obj-917", 0 ],
 					"source" : [ "obj-1037", 0 ]
 				}
 
@@ -18153,6 +18162,13 @@
 					"destination" : [ "obj-627", 0 ],
 					"order" : 0,
 					"source" : [ "obj-106", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-1060", 0 ]
 				}
 
 			}
@@ -27482,14 +27498,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-917", 0 ],
+					"destination" : [ "obj-1037", 0 ],
 					"source" : [ "obj-916", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1037", 0 ],
+					"destination" : [ "obj-545", 0 ],
 					"source" : [ "obj-917", 0 ]
 				}
 
