@@ -9,7 +9,7 @@ Installation
 
 .. note::
 
-    SousaFX & SousaVFX remain fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_ thanks to Max not disabling `pattrstorage <https://docs.cycling74.com/max8/refpages/pattrstorage>`_
+    SousaFX & SousaVFX remain fully functional after Max's `30-day trial ends <https://support.cycling74.com/hc/en-us/articles/360049995834-Max-8-Max-7-Authorization#link-2>`_.
 
 |
 
@@ -41,21 +41,41 @@ Installation
 
     - `RNBO Synth Building Blocks <c74max://packagemanager/RNBO%20Synth%20Building%20Blocks>`_
 
-    - `ISF <c74max://packagemanager/ISF>`_
-
     - `zero <c74max://packagemanager/zero>`_
 
     - `CNMAT Externals <c74max://packagemanager/CNMAT%20Externals>`_
+
+    - `ISF <c74max://packagemanager/ISF>`_
 
     - `XRAY <c74max://packagemanager/XRAY>`_
 
 |
 
-7. Add ``/sousastep/`` to Max's global search path: Go to ``Menubar > Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+7. `Download sousastep-0.9.4's Source code (zip) <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
 
 |
 
-8. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
+8. Rename ``sousastep-0.9.4`` to ``sousastep``.
+
+.. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
+
+.. _updating:
+
+.. important::
+
+    When updating to new versions of SousaFX, 
+    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
+    to the new version's 
+    ``sousastep/​SousaFX/​data/`` 
+    folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
+
+|
+
+9. Add ``/sousastep/`` to Max's global search path. Go to Max's menubar > ``Options... > File Preferences...``, "Add Path" +, "choose", and select ``~/Documents/​Max 8/​Project/​sousastep``.
+
+|
+
+10. Open Live, open its settings ``Menubar > Live > Settings...``, and set the following:
 
     a. Audio > Audio Device [select your audio interface]
 
@@ -77,13 +97,13 @@ Installation
 
 .. _blackoctopus:
 
-9. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
+11. Optionally, download Black Octopus Sound's `excellent free samples <https://blackoctopus-sound.com/product/free-1gb-of-black-octopus-samples/>`_ and place `Black Octopus Sound - Free Samples Bundle` into ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​default/​SousaPlayback template Project/​Clips/``, or skip this step and use your own drum samples.
 
 |
 
 .. _freeplugins:
 
-10. Optionally, download these free plugins:
+12. Optionally, download these free plugins:
     
     a.  `Sonobus <https://sonobus.net/#download>`_ for networked jamming with folks in the same continent.
     
@@ -103,26 +123,6 @@ Installation
 
 |
 
-11. `Download sousastep-0.9.3 <https://github.com/Sousastep/sousastep/releases/latest>`_ to your ``~/Documents/​Max 8/​Projects/`` folder. It contains SousaFX, SousaVFX, and SousaPlayback. 
-
-|
-
-12. Rename ``sousastep-0.9.3`` to ``sousastep``.
-
-.. note:: If you're familiar with `git <https://docs.github.com/en/get-started/using-git/about-git>`_ then cloning the repo to your Projects folder is recommended.
-
-.. _updating:
-
-.. important::
-
-    When updating to new versions of SousaFX, 
-    copy all files from ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​data/`` 
-    to the new version's 
-    ``sousastep/​SousaFX/​data/`` 
-    folder, and repeat with ``/SousaVFX/``, to ensure that user presets are carried over. This isn't necessary if you clone the repo with git because the data folders are gitignored.
-
-|
-
 .. _startupprefs:
 
 13. Open ``~/Documents/​Max 8/​Projects/​sousastep/​SousaFX/​SousaFX.maxproj``. SousaFX's Startup Preferences window will appear.
@@ -131,7 +131,7 @@ Installation
     
     b. Uncheck the Startup Preferences' pause button. SousaPlayback will appear within a minute, and SousaFX will appear in 2 - 5 minutes. SousaPlayback will automatically start playing the first scene once SousaFX launches.
 
-    .. image:: media/startup.png
+    .. image:: media/startup.webp
 
 |
 
@@ -139,13 +139,22 @@ Installation
 
 .. note:: If the :ref:`Black Octopus Drum Loops are installed <blackoctopus>` then drum clips will be available in session view, but if they're missing then feel free to delete them and add your own.
 
-.. important:: `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ should auto-enable thanks to the M4L device in the :ref:`"tempo" track <autolink>`, but unfortunately Live Link is not super stable, so if your audio interface has an available `loopback <https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/>`_ channel then setting up SousaPlayback's :ref:`sync track <syncsig>` is recommended.
+.. important:: 
+
+    `Live Link <https://help.ableton.com/hc/en-us/articles/209072789-Enabling-Link-in-Live>`_ 
+    should auto-enable thanks to the M4L device in the 
+    :ref:`"tempo" track <autolink>`. However, 
+    one of Link's Max objects glitches during discontinuous 
+    tempo changes, and although SousaPlayback has no discontinuous tempo changes by default, setting up 
+    SousaPlayback's :ref:`sync track <syncsig>` 
+    is recommended if your audio interface has an available 
+    `loopback <https://www.sweetwater.com/insync/loopback-explained-what-is-audio-loopback/>`_ channel.
 
 |
 
 15. Once SousaFX is running, open the :ref:`Audio IO Status window <Audio IO Status>`.
 
-    .. image:: media/ioopen.png
+    .. image:: media/ioopen.webp
        :width: 40%
        :align: center
        :alt: io.png
@@ -157,5 +166,10 @@ Installation
     c. If you're using a loudspeaker or amplifier, set the "Main L & R" outputs to your audio interface's main output.
 
 |
+
+16. Connect your game controller to your computer either wired or wirelessly. 
+Check that the start/select buttons don't trigger anything outside of SousaFX, 
+such as Steam or your operating system. For example on MacOS Ventura or later, 
+go to System Settings > Game Controller > Add New Profile > Share Gestures > Set "Double Press" to "Off" > Click "Done" > Scroll up to your controller and select it > Set "Use Profile" to the new profile > Click "Done". Also note the "Buddy Controller" setting that allows two controllers to be used as one.
 
 Now, it's time for a :ref:`soundcheck <Soundcheck>`!

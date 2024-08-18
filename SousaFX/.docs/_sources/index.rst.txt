@@ -1,7 +1,7 @@
 SousaFX Documentation
 =====================
 
-.. image:: content/media/sousafx-lookup.jpg
+.. image:: content/media/sousafx-lookup.webp
    :width: 100%
    :align: center
    :alt: deadzones.png
@@ -13,7 +13,7 @@ Introduction
 
 SousaFX is a multi-effects rig made with `MaxMSP <https://cycling74.com/products/max>`_ that lets tuba players control audio effects using a game controller attached to the side of the tuba. 
 
-.. image:: content/media/tubagamepad.png
+.. image:: content/media/tubagamepad.webp
    :width: 100%
    :align: center
    :alt: deadzones.png
@@ -43,7 +43,7 @@ SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however 
    content/mailinglist.rst
 
 
-.. image:: content/media/sousagamepad.png
+.. image:: content/media/sousagamepad.webp
    :width: 60%
    :align: left
    :alt: deadzones.png

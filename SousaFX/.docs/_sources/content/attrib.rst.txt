@@ -72,3 +72,11 @@ Media
    :maxdepth: 2
 
    thirdpartylicenses.rst
+
+History
+-------
+
+.. toctree::
+   :maxdepth: 1
+
+   history.rst

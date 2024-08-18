@@ -1,7 +1,7 @@
 FX Banks
 ========
 
-.. image:: media/fxbanks.png
+.. image:: media/fxbanks.webp
    :width: 95%
    :align: center
    :alt: fxbanks
@@ -10,19 +10,19 @@ There are three separate FX Banks that each run four FX slots in parallel. Each 
 
 The FX Banks are represented in the :ref:`main window <Main Window>` like so:
 
-.. image:: media/prexfadebanks.png
+.. image:: media/prexfadebanks.webp
    :width: 80%
    :align: center
    :alt: prexfadebanks
 
 |
 
-.. _postxfadefx:
-
-.. image:: media/postxfadebank.png
+.. image:: media/solofxbank.webp
    :width: 60%
    :align: center
    :alt: postxfadebank
+
+SousaFX auto-switches between the Wobble FX and the Solo FX when the :ref:`looper <Loopers>` finishes recording, and finishes fading out.
 
 The "bleed" dial allows the Attack FX's output into the Sustain FX's output and vice-versa. A little bit goes a long way.
 
@@ -43,10 +43,6 @@ The on/off toggle has two options for fx selection when unbypassing:
 - On, randomize FX when unbypassing. 
 
 - Off, return to original FX when unbypassing.
-
-The "Idle, prepared, recording" menu determines which FX path the post-crossfade FX affects while the :ref:`looper <Loopers>` is idle, prepared, or recording.
-
-The "Looping, fading" menu determines which FX path the post-crossfade FX affects while the :ref:`looper <Loopers>` is looping or fading.
 
 These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
 

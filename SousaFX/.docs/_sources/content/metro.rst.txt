@@ -3,7 +3,7 @@ Metronome
 
 Here you can set SousaFX's tempo source, enable the click, choose which beats the click plays on, and set the length of the continuous accelerando.
 
-.. image:: media/metro.png
+.. image:: media/metro.webp
    :width: 90%
    :align: center
    :alt: metro

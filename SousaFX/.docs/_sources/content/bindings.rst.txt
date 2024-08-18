@@ -7,21 +7,19 @@ Controller Bindings
    pcl.rst
    deadzones.rst
 
-The controller bindings window uses Max's `crosspatch <https://docs.cycling74.com/max8/refpages/crosspatch>`_ object to connect gamepad inputs with effect parameters.
+The controller bindings window allows gamepad inputs to be connected to effect parameters.
 
-There are two factory preset slots, and five user preset slots. Factory presets may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.
+The bindings may be saved as presets. There are two factory preset slots, and five user preset slots. The factory presets can't be modified, but they may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.
 
-.. important:: The factory presets can't be modified.
+To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click on the connection and press the delete key. To save bindings, click "save / overwrite".
 
-To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click the connection and press the delete key. To save bindings, click "save / overwrite". The factory presets can not be overwritten.
-
-The layout is set up to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
+The gamepad's inputs are set up to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
 
 Click the parameter labels to open their :ref:`control logic settings <Parameter Control Logic>`.
 
 Click to the right of the parameter labels to open the parameters window that they apply to.
 
-.. image:: media/bindings.png
+.. image:: media/bindings.webp
    :width: 100%
    :align: center
    :alt: bindings window

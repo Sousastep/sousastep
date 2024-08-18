@@ -16,8 +16,8 @@
   <title>FX Banks &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -119,14 +119,15 @@
              
   <section id="fx-banks">
 <h1>FX Banks<a class="headerlink" href="#fx-banks" title="Link to this heading"></a></h1>
-<a class="reference internal image-reference" href="../_images/fxbanks.png"><img alt="fxbanks" class="align-center" src="../_images/fxbanks.png" style="width: 95%;" /></a>
+<a class="reference internal image-reference" href="../_images/fxbanks.webp"><img alt="fxbanks" class="align-center" src="../_images/fxbanks.webp" style="width: 95%;" /></a>
 <p>There are three separate FX Banks that each run four FX slots in parallel. Each FX slot can load one plugin, and the first FX slot in each Bank has an <a class="reference external" href="https://rnbo.cycling74.com/explore/rnbo-pedals" rel="noopener noreferrer" target="_blank">RNBO guitar pedal</a> effect that loads by default. The fifth slot bypasses the fx bank.</p>
 <p>The FX Banks are represented in the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">main window</span></a> like so:</p>
-<a class="reference internal image-reference" href="../_images/prexfadebanks.png"><img alt="prexfadebanks" class="align-center" src="../_images/prexfadebanks.png" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="../_images/prexfadebanks.webp"><img alt="prexfadebanks" class="align-center" src="../_images/prexfadebanks.webp" style="width: 80%;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<a class="reference internal image-reference" href="../_images/postxfadebank.png" id="postxfadefx"><img alt="postxfadebank" class="align-center" id="postxfadefx" src="../_images/postxfadebank.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="../_images/solofxbank.webp"><img alt="postxfadebank" class="align-center" src="../_images/solofxbank.webp" style="width: 60%;" /></a>
+<p>SousaFX auto-switches between the Wobble FX and the Solo FX when the <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a> finishes recording, and finishes fading out.</p>
 <p>The “bleed” dial allows the Attack FX’s output into the Sustain FX’s output and vice-versa. A little bit goes a long way.</p>
 <p>The “pitch amount” dials mix external audio into the Attack and Sustain FX paths, and are only visible if the “harmonizer” inputs in the <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio IO Status window</span></a> are enabled.
 I mainly use this with the H9000’s <a class="reference external" href="https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/93_PitchFactor.html#diatonic" rel="noopener noreferrer" target="_blank">Diatonic</a> and
@@ -142,8 +143,6 @@ I mainly use this with the H9000’s <a class="reference external" href="https:/
 <li><p>On, randomize FX when unbypassing.</p></li>
 <li><p>Off, return to original FX when unbypassing.</p></li>
 </ul>
-<p>The “Idle, prepared, recording” menu determines which FX path the post-crossfade FX affects while the <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a> is idle, prepared, or recording.</p>
-<p>The “Looping, fading” menu determines which FX path the post-crossfade FX affects while the <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a> is looping or fading.</p>
 <p>These options, and plugin selections, are saved within the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Presets</span></a>.</p>
 <p><a class="reference internal" href="latency.html#latency-compensation"><span class="std std-ref">Latency compensation</span></a> varies depending on the currently selected plugins. This ensures the lowest possible latency.</p>
 </section>

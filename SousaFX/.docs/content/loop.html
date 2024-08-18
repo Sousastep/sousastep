@@ -16,8 +16,8 @@
   <title>Loopers &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -71,7 +71,10 @@
 <li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
 <li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Loopers</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Loopers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#preferences">Preferences</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="mainstutter.html">Main Stutter Tremolo &amp; Filters</a></li>
 <li class="toctree-l3"><a class="reference internal" href="duck.html">Kick Ducker</a></li>
 <li class="toctree-l3"><a class="reference internal" href="MaxOrPluginSelector.html">Max or Plugin Selector</a></li>
@@ -120,23 +123,32 @@
   <section id="loopers">
 <h1>Loopers<a class="headerlink" href="#loopers" title="Link to this heading"></a></h1>
 <p>A simple “one-button” looper with a handful of effects.</p>
-<a class="reference internal image-reference" href="../_images/loopers.png"><img alt="loopers" class="align-center" src="../_images/loopers.png" style="width: 60%;" /></a>
-<p>The looper has five states.</p>
+<a class="reference internal image-reference" href="../_images/loopers.webp"><img alt="loopers" class="align-center" src="../_images/loopers.webp" style="width: 60%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The looper has four main states.</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Idle</p></li>
+<li><p>Idle</p>
+<ol class="loweralpha simple">
 <li><p>Prepared</p></li>
+</ol>
+</li>
 <li><p>Recording</p></li>
-<li><p>Looping</p></li>
+<li><p>Looping</p>
+<ol class="loweralpha simple" start="2">
+<li><p>Prepared</p></li>
+</ol>
+</li>
 <li><p>Fading Out</p></li>
 </ol>
 </div></blockquote>
 <p>Hitting the button (called <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>)
 advances the looper state from Idle to Prepared. Playing tuba advances from Prepared to Recording.
-After 8 bars or so, the looper automatically stops Recording
-and starts Looping. Hitting the button a second time
-begins Fading Out the looper over the course of 8 bars.
-A second loop can be recorded while the first’s fading out.</p>
+After 8 or 16 bars, once the tuba’s envelope drops below the <a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">noise gate</span></a>, the looper automatically stops Recording
+and starts Looping. Once the looper starts looping, the main signal patch switches from Wobble to Solo. Hitting the button a second time
+prepares the looper to begin Fading Out when the loop repeats.</p>
 <p>Below the two loopers are the post-loop <a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">Stutter, Tremolo, &amp; Filters</span></a>. The following <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> are available:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p></li>
@@ -148,10 +160,47 @@ A second loop can be recorded while the first’s fading out.</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">loopers</span> <span class="pre">tremolo</span> <span class="pre">and</span> <span class="pre">stutter</span> <span class="pre">subdivision</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">mute</span> <span class="pre">loopers</span></code></p></li>
 </ul>
-<p id="risers">Enabling the toggle on the bottom-left makes Ableton play
-a random riser clip whenever the looper starts fading out.</p>
-<p>The toggle to the right of the aformentioned toggle makes the looper auto-record after the tuba drops below the <a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">noise gate</span></a> a certain number of times /after/ the looper finishes fading out.</p>
-<p id="cliptrigger">The menu on the bottom-right chooses how to trigger drum clips in <a class="reference internal" href="playback.html#sousaplayback"><span class="std std-ref">SousaPlayback</span></a> after the looper fades out.</p>
+<section id="preferences">
+<h2>Preferences<a class="headerlink" href="#preferences" title="Link to this heading"></a></h2>
+<p>The toggles and menus at the botton of the looper window are preferences for how the looper should function. Mouseover the toggles to view tooltips describing their actions. From left to right, bottom to top:</p>
+<ul id="risers">
+<li><p>toggle 1</p>
+<blockquote>
+<div><p>Makes <a class="reference internal" href="playback.html#sousaplayback"><span class="std std-ref">SousaPlayback</span></a> play a random riser clip whenever the looper starts fading out.</p>
+</div></blockquote>
+</li>
+<li><p>toggle 2</p>
+<blockquote>
+<div><p>Makes the looper auto-record after the tuba drops below the <a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">noise gate</span></a> a certain number of times /after/ the looper finishes fading out.</p>
+</div></blockquote>
+</li>
+<li><p>menu</p>
+<blockquote>
+<div><p>When the looper finishes fading out, the main signal patch switches from Solo to Wobble. The “switch after tuba stops playing / switch immediately” menu decides wether the switch happens after the looper finishes fading out AND after the tuba stops playing, or if the switch happens immediately after the looper finishes fading out.</p>
+</div></blockquote>
+</li>
+<li><p>toggle 3</p>
+<blockquote>
+<div><p>Makes <a class="reference internal" href="playback.html#sousaplayback"><span class="std std-ref">SousaPlayback</span></a> automatically change tempo during the fadeout after the looper has recorded a certain number of loops. The tempos are 128, 140, 156, and 172.</p>
+</div></blockquote>
+</li>
+<li><p>toggle 4</p>
+<blockquote>
+<div><p>Auto-adjust looper length. when tempo &gt; 150, use 16 bars. When tempo &lt; 150, use 8 bars.</p>
+</div></blockquote>
+</li>
+<li><p>menu</p>
+<blockquote>
+<div><p>When toggle 4’s off, this menu sets the looper length.</p>
+</div></blockquote>
+</li>
+<li><p>toggle 5</p>
+<blockquote>
+<div><p>Plays a droplet sound effect through the metronome channel whenever the looper’s prepped, done recording, or starts fading.</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
 </section>
 
 

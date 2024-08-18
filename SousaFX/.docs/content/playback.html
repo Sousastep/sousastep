@@ -16,8 +16,8 @@
   <title>SousaPlayback &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -98,16 +98,16 @@
              
   <section id="sousaplayback">
 <h1>SousaPlayback<a class="headerlink" href="#sousaplayback" title="Link to this heading"></a></h1>
-<p>SousaPlayback is a template for Ableton Live that handles a talkback mic, reference tracks, backing tracks, drum loops &amp; FX, riser clips, count-ins, recordings, and network jamming plugins. It tightly syncs to SousaFX &amp; SousaVFX via various gamepad parameters and audio envelopes.</p>
-<a class="reference internal image-reference" href="../_images/SousaPlaybacktemplate.png" id="sousaplaybacktemplate"><img alt="SousaPlaybacktemplate" class="align-center" id="sousaplaybacktemplate" src="../_images/SousaPlaybacktemplate.png" style="width: 100%;" /></a>
-<p>You may want to save a copy of SousaPlayback to <code class="docutils literal notranslate"><span class="pre">~/Music/Ableton/Projects/</span></code>, and set it to auto-launch via <a class="reference internal" href="install.html#startupprefs"><span class="std std-ref">SousaFX’s Startup Preferences</span></a>. That way you won’t have to worry about copying the project file when <a class="reference internal" href="install.html#updating"><span class="std std-ref">updating</span></a> SousaFX.</p>
+<p>SousaPlayback is a template for Ableton Live that handles a talkback mic, reference tracks, backing tracks, drum loops &amp; FX, risers, count-ins, recordings, and network jamming plugins. It tightly syncs to SousaFX &amp; SousaVFX via various gamepad bindings and audio envelopes.</p>
+<a class="reference internal image-reference" href="../_images/SousaPlaybacktemplate.webp" id="sousaplaybacktemplate"><img alt="SousaPlaybacktemplate" class="align-center" id="sousaplaybacktemplate" src="../_images/SousaPlaybacktemplate.webp" style="width: 100%;" /></a>
+<p>You may want to save a copy of SousaPlayback to <code class="docutils literal notranslate"><span class="pre">~/Music/Ableton/Projects/</span></code>, and set it to auto-launch via <a class="reference internal" href="install.html#startupprefs"><span class="std std-ref">SousaFX’s Startup Preferences</span></a>. That way you won’t have to worry about overwriting the default project file when <a class="reference internal" href="install.html#updating"><span class="std std-ref">updating</span></a> SousaFX.</p>
 <section id="main-track-list">
 <h2>Main Track List<a class="headerlink" href="#main-track-list" title="Link to this heading"></a></h2>
 <ol class="arabic" id="talkbacktrack">
 <li><p>talkback mic</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>This track has a simple channel strip for a <a class="reference external" href="https://www.sweetwater.com/insync/talkback-mic/" rel="noopener noreferrer" target="_blank">talkback mic</a>. This channel is sidechained to several compressors on other tracks to mute audio while you’re speaking. It’s auto-muted when the tuba starts playing, and must be manually unmuted when the tuba stops playing. The “v” key mutes and unmutes the track.</p></li>
+<li><p>This track has a simple channel strip for a <a class="reference external" href="https://www.sweetwater.com/insync/talkback-mic/" rel="noopener noreferrer" target="_blank">talkback mic</a>. This channel is sidechained to several compressors on other tracks to mute audio while you’re speaking. The talkback mic is auto-muted when the tuba starts playing, and must be manually unmuted after the tuba stops playing. The “v” key mutes and unmutes the talkback mic while either SousaFX or SousaPlayback are focused.</p></li>
 </ul>
 </div></blockquote>
 </li>
@@ -129,11 +129,16 @@
 </li>
 <li><p>automation</p>
 <blockquote>
-<div><p>A MIDI device that lets you automate two aspects of SousaFX:
+<div><p>This audio track contains a MIDI device that lets you automate two aspects of SousaFX:
 The <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus mutes and gains</span></a>, and
 the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Preset number</span></a>.</p>
 <p>This device also sends <a class="reference internal" href="metro.html#tempo-source"><span class="std std-ref">BPM data</span></a> to SousaFX.</p>
-<img alt="../_images/amxd_automator.png" src="../_images/amxd_automator.png" />
+<img alt="../_images/amxd_automator.webp" src="../_images/amxd_automator.webp" />
+</div></blockquote>
+</li>
+<li><p>trig</p>
+<blockquote>
+<div><p>These clips help SousaFX know when the end of a 8 or 16 bar fadeout is while the tempo’s changing.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -144,23 +149,24 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 </li>
 </ol>
 <blockquote id="autolink">
-<div><blockquote>
 <div><ul>
 <li><p>tempo</p>
 <blockquote>
-<div><p>The “tempo_auto” device allows you to automate Live’s (and SousaFX’s) tempo via clips. It also allows Live Link to be enabled on startup.</p>
-<img alt="../_images/amxd_tempo-auto.png" src="../_images/amxd_tempo-auto.png" />
+<div><p>The “tempo_auto” device allows you to automate Live’s (and SousaFX’s) tempo via clips. SousaFX’s <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">Looper</span></a> can auto-trigger these clips to change the tempo while fading out, after a certain amount of loops have been recorded.</p>
+<p>The “tempo_auto” device also allows Live Link to be enabled on startup.</p>
+<img alt="../_images/amxd_tempo-auto.webp" src="../_images/amxd_tempo-auto.webp" />
 </div></blockquote>
 </li>
 <li><p>click</p>
 <blockquote>
-<div><p>A MIDI track with a drum rack that lets you program custom <a class="reference external" href="https://www.sweetwater.com/insync/click-track/" rel="noopener noreferrer" target="_blank">click tracks</a> if needed.</p>
-<img alt="../_images/click.png" src="../_images/click.png" />
+<div><p>A MIDI track with a drum rack that lets you program custom <a class="reference external" href="https://www.sweetwater.com/insync/click-track/" rel="noopener noreferrer" target="_blank">click tracks</a> if needed.
+The “1 2 3 4” that counts down to the end of the Looper’s fadeout is the voice of <a class="reference external" href="https://www.youtube.com/watch?v=F779CSZB75s" rel="noopener noreferrer" target="_blank">Swiss Chris</a>.</p>
+<img alt="../_images/click.webp" src="../_images/click.webp" />
 </div></blockquote>
 </li>
 </ul>
 </div></blockquote>
-<ul>
+<ol class="arabic" start="3">
 <li><p>drum SC vox</p>
 <blockquote>
 <div><p>Sidechains the talkback mic to the drum bus before sending it to Return Track A and C.</p>
@@ -169,11 +175,26 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 <li><p>drum bus</p>
 <blockquote>
 <div><p>Groups the percussion tracks and sends them through EQ, filters, reverb, tremolo, delay, risset, and compressor.</p>
-</div></blockquote>
-</li>
+<p>Twelve effect parameters are available in <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">SousaFX’s bindings</span></a>.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Drum Clip Crossfade (bi)</p></li>
+<li><p>Drum Clip Filters (bi)</p></li>
+<li><p>Drum Clip Stutter Enable (trig)</p></li>
+<li><p>Drum Clip Tremolo Depth (uni)</p></li>
+<li><p>Drum Clip Tremolo Duty (bi)</p></li>
+<li><p>Drum Clip Delay Send (uni)</p></li>
+<li><p>Drum Clip Delay Param (bi)</p></li>
+<li><p>Drum Clip Reverb Send (uni)</p></li>
+<li><p>Drum Clip Reverb Param (bi)</p></li>
+<li><p>mute drumloops</p></li>
+<li><p>toggle <a class="reference internal" href="metro.html#continuous-accelerando"><span class="std std-ref">continuous accelerando</span></a></p></li>
 </ul>
 </div></blockquote>
-<ol class="arabic" start="3">
+</div></blockquote>
+</li>
+</ol>
+<ol class="arabic" start="5">
 <li><p>sousa mic</p>
 <blockquote>
 <div><p>Record the uneffected tuba mic into this track, and playback the recorded clip into SousaFX to allow yourself to fine-tune the effects and bindings without having to play the tuba.</p>
@@ -186,22 +207,12 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 <p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“prerecorded silentbrass” inputs</span></a>, and SousaFX’s Audio IO Status’ input menu should be set to <code class="docutils literal notranslate"><span class="pre">prerecorded</span> <span class="pre">silentbrass</span></code>.</p>
 </div></blockquote>
 </li>
-<li><p>SousaFX</p>
-<blockquote>
-<div><p>Records SousaFX.</p>
-</div></blockquote>
-</li>
-<li><p>MON REC</p>
-<blockquote>
-<div><p>Records SousaFX and Return Track A.</p>
-</div></blockquote>
-</li>
 </ol>
 <ol class="arabic" id="syncsig" start="7">
 <li><p>sync signal</p>
 <blockquote>
 <div><p>Syncs SousaPlayback to SousaFX via a 1-bar audio-rate phasor that ramps from 0 to 1 <a class="reference internal" href="metro.html#audio-input-or-live-link"><span class="std std-ref">in lieu of Live Link</span></a>.</p>
-<img alt="../_images/amxd_phasor1n.png" src="../_images/amxd_phasor1n.png" />
+<img alt="../_images/amxd_phasor1n.webp" src="../_images/amxd_phasor1n.webp" />
 <p>This track’s “Audio To: Ext. Out” should loopback to SousaFX’s <a class="reference internal" href="io.html#input-mapping"><span class="std std-ref">“phasor~ from Ableton” input</span></a>. To enable this, Set SousaFX’s Metronome’s <a class="reference internal" href="metro.html#audio-input-or-live-link"><span class="std std-ref">Tempo Source</span></a> to “Ableton’s Tempo”, set the Live Link menu to Audio Input, and turn off auto-link in SousaPlayback’s <a class="reference internal" href="#autolink"><span class="std std-ref">tempo track</span></a>.</p>
 </div></blockquote>
 </li>
@@ -225,7 +236,7 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>To mute yourself in JamTaba’s monitor mix, mute the input channel, but keep the volume slider at 0 dB. Participants will still be able to hear your audio even though the input channel won’t show a signal.</p>
-<img alt="../_images/jtba.png" src="../_images/jtba.png" />
+<img alt="../_images/jtba.webp" src="../_images/jtba.webp" />
 </div>
 </div></blockquote>
 </li>
@@ -239,7 +250,7 @@ the <a class="reference internal" href="main.html#main-window"><span class="std 
 <div class="admonition note" id="sousaplaybackmidi">
 <p class="admonition-title">Note</p>
 <p>All of SousaPlayback’s MIDI Mappings correspond to <a class="reference internal" href="midi.html#midi-preferences"><span class="std std-ref">SousaFX’s MIDI Preferences</span></a> by default.</p>
-<a class="reference internal image-reference" href="../_images/SousaPlaybacktemplateMIDI.png"><img alt="SousaPlayback template MIDI" class="align-center" src="../_images/SousaPlaybacktemplateMIDI.png" style="width: 95%;" /></a>
+<a class="reference internal image-reference" href="../_images/SousaPlaybacktemplateMIDI.webp"><img alt="SousaPlayback template MIDI" class="align-center" src="../_images/SousaPlaybacktemplateMIDI.webp" style="width: 95%;" /></a>
 </div>
 </section>
 </section>

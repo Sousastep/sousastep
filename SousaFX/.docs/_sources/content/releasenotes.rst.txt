@@ -1,6 +1,38 @@
 Release Notes
 =============
 
+0.9.5
+-----
+
+Sousa​​FX
+~~~~~~~~~~~~~~~~~~~~~~~
+
+- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. The main signal path auto-switches from Wobble FX to Solo FX when the :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
+
+- Add two bindable parameters to the :ref:`Modulation Parameters <Modulation Parameters>`: LFO Auto-Wah Pause, and LFO Env Pause.
+
+- :ref:`Controller Bindings <Controller Bindings>`: Allow multiple imputs to bind to a single output.
+
+- Refactor the :ref:`Mix Bus <Mix Bus>` and :ref:`Monitor Mix <Monitor Mix>` to make them less confusing.
+
+- Add filter boost parameters to :ref:`Main Envelope <Main Envelope>` to allow frequency weighing.
+
+- Scale the :ref:`Modulation Parameters' <Modulation Parameters>` envelope so that it begins at the bottom of the :ref:`Envelope Crossfade's <Envelope Crossfade>` gate.
+
+- Add limiter parameter to the :ref:`delay's <Delay and Reverb Sends>` feedback loop.
+
+- Allow :ref:`stutter's <Main Stutter Tremolo & Filters>` startpoint to be modulated via the "staircase" parameter.
+
+- Add :ref:`peak meters <Peak Meters>` to main window.
+
+- Remove :ref:`Looper's <Loopers>` option to auto-play next scene in Ableton once looper finishes fading out. Instead, trigger a random drum clip based on the current tempo.
+
+- Fix :ref:`Parameter Control Logic <Parameter Control Logic>` bug where some instances were referring to incorrect bindings.
+
+- Add options for :ref:`Parameter Control Logic <Parameter Control Logic>` to utilize RB, RT, and LT instead of "is tuba playing".
+
+- Remove :ref:`Parameter Control Logic <Parameter Control Logic>`'s cool background because it was using lots of RAM.
+
 0.9.4
 -----
 
@@ -29,7 +61,7 @@ Sousa​FX
 
 - Allow :ref:`RNBO compressors' <Mix Bus>` sidechain EQ's midfreq to boost up to 36 dB.
 
-- Allow :ref:`post-crossfade FX <postxfadefx>` to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.
+- Allow :ref:`post-crossfade FX <FX Banks>` to effect the attack signal path, sustain signal path, or both, and let this be set by looper status.
 
 - Add :ref:`BasicFX <BasicFX>` for using SousaVFX without SousaFX.
 
@@ -43,9 +75,9 @@ Sousa​Playback
 
 - When SousaFX starts up, SousaPlayback's first scene auto-plays, and second scene's selected.
 
-- Next scene can :ref:`auto-play <cliptrigger>` when SousaFX's looper finishes fading out.
+- Next scene can :ref:`auto-play <Preferences>` when SousaFX's looper finishes fading out.
 
-- Clips can :ref:`randomize <cliptrigger>` when SousaFX's looper finishes fading out.
+- Clips can :ref:`randomize <Preferences>` when SousaFX's looper finishes fading out.
 
 - Talkback mic :ref:`auto-mutes <talkbacktrack>` itself when tuba starts playing.
 
@@ -70,10 +102,20 @@ Sousa​VFX
 
 |
 
+Past
+----
+
+.. toctree::
+   :maxdepth: 2
+
+   history.rst
+
+|
+
 Known Bugs
 ----------
 
-- the :ref:`About SousaFX<Prestige System>` window shows "0 0" as install date on first boot.
+- the :ref:`About SousaFX <Prestige System>` window shows "0 0" as install date on first boot.
 
 - if you :ref:`reinstantiate an effect <Selectable Effects>` after saving its first user preset without rebooting SousaFX, the effect will reload its default preset.
 

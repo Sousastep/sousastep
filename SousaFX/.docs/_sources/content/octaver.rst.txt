@@ -11,7 +11,7 @@ SousaFX's Octaver has four options:
 from `Algorithms for guitar-driven synthesis <https://acris.aalto.fi/ws/portalfiles/portal/30348260/Esqueda2018_Guitar_synth_SMC18.pdf>`_, 
 partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synth/>`_.
 
-.. image:: media/octavernbo.png
+.. image:: media/octavernbo.webp
    :width: 30%
    :align: center
    :alt: octave rnbo
@@ -20,7 +20,7 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
 
 2. Load your own octaver plugin. I use `Quadravox <https://www.eventideaudio.com/plug-ins/quadravox/>`_.
 
-.. image:: media/octaveplugin.png
+.. image:: media/octaveplugin.webp
    :width: 50%
    :align: center
    :alt: octave plugin
@@ -29,7 +29,7 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
 
 3. Use an external hardware effect via the "external octaver send / receive mono" :ref:`Audio IO <Audio IO Status>`. I use `the H9000's Octaver <https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/93_PitchFactor.html#octaver>`_. Clicking the button will check the external effect's latency.
 
-.. image:: media/octaveext.png
+.. image:: media/octaveext.webp
    :width: 50%
    :align: center
    :alt: octave ext
@@ -38,7 +38,7 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
 
 4. An octave synth put together by `Alexander Panos <https://alexanderpanos.com/about>`_ and modified by moi. 
 
-.. image:: media/octavecustom.png
+.. image:: media/octavecustom.webp
    :width: 50%
    :align: center
    :alt: octave custom

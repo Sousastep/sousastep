@@ -16,8 +16,8 @@
   <title>Crossover &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -120,17 +120,18 @@
   <section id="crossover">
 <h1>Crossover<a class="headerlink" href="#crossover" title="Link to this heading"></a></h1>
 <p>Crossover filters separate low frequencies from high frequencies so that they can be effected separately and recombined later. The highs can get distorted, flanged, and wah’d, while the lows are left mostly clean.</p>
-<p>There are two kinds of crossovers available in sousafx, each with two stereo highpass filters for the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">attack and sustain fx</span></a>, and two mono lowpass filters for the dry lows and octaver.</p>
+<p>There are two kinds of crossovers available in SousaFX, each with two stereo highpass filters for the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">attack and sustain fx</span></a>, and two mono lowpass filters for the dry lows and <a class="reference internal" href="octaver.html#octaver"><span class="std std-ref">octaver</span></a>.</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>The first crossover is a <a class="reference internal" href="attrib.html#patches"><span class="std std-ref">4th-order Linkwitz Riley crossover</span></a> that’s native to Max.</p>
-<a class="reference internal image-reference" href="../_images/crossovergen.png"><img alt="deadzones.png" class="align-center" src="../_images/crossovergen.png" style="width: 60%;" /></a>
+<p>The first crossover is a <a class="reference external" href="https://cycling74.com/tutorials/crossover-filter-design-video-tutorial#reply-5e4377db8a6f416613deaf7c" rel="noopener noreferrer" target="_blank">4th-order Linkwitz Riley crossover</a> that’s native to Max.</p>
+<a class="reference internal image-reference" href="../_images/crossovergen.webp"><img alt="deadzones.png" class="align-center" src="../_images/crossovergen.webp" style="width: 60%;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>The second crossover is made with <a class="reference external" href="https://www.youtube.com/watch?v=qrXXNKhjBE8&amp;t=436s" rel="noopener noreferrer" target="_blank">FabFilter ProQ3</a>, which you can use if you have ProQ3.</p>
-<a class="reference internal image-reference" href="../_images/crossoverfab.png"><img alt="deadzones.png" class="align-center" src="../_images/crossoverfab.png" style="width: 85%;" /></a>
+<a class="reference internal image-reference" href="../_images/crossoverfab.webp"><img alt="deadzones.png" class="align-center" src="../_images/crossoverfab.webp" style="width: 85%;" /></a>
+<p>Don’t worry about all the toggles and menues. They’re just there for testing purposes.</p>
 </section>
 
 

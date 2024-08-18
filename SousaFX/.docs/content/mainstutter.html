@@ -16,8 +16,8 @@
   <title>Main Stutter Tremolo &amp; Filters &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -124,8 +124,29 @@
              
   <section id="main-stutter-tremolo-filters">
 <h1>Main Stutter Tremolo &amp; Filters<a class="headerlink" href="#main-stutter-tremolo-filters" title="Link to this heading"></a></h1>
-<p>Six parameters here are available in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>. Both the stutter and tremolo’s subdivisions are attached to the binding’s subdivisions.</p>
-<a class="reference internal image-reference" href="../_images/mainstutter.png"><img alt="loopers" class="align-center" src="../_images/mainstutter.png" style="width: 65%;" /></a>
+<p>The “Stutter Tremolo &amp; Filters” effect is available for three separate signal paths: Wobble Bass, Dryish Solo, and Looper. The stutter and tremolo’s subdivisions are attached to the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">binding’s</span></a> subdivisions.</p>
+<p>The following bindings affect both the Wobble Bass and Dry Solo’s “Stutter Tremolo &amp; Filters” effect:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Filters</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Randon</span> <span class="pre">Rhythm</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code></p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The Looper’s “Stutter Tremolo &amp; Filters” effect uses the following bindings:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Filters</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Randon</span> <span class="pre">Rhythm</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code></p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/mainstutter.webp"><img alt="stuttertremolofilters" class="align-center" src="../_images/mainstutter.webp" style="width: 65%;" /></a>
 <section id="stutter">
 <h2>Stutter<a class="headerlink" href="#stutter" title="Link to this heading"></a></h2>
 <p>Inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hb0XLX0b4Y4&amp;t=972s" rel="noopener noreferrer" target="_blank">Pioneer’s Stutter FX</a>.</p>
@@ -137,29 +158,26 @@
 <div><p>Toggle stutter on and off. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p>
 </div></blockquote>
 </li>
+<li><p>gated or thru</p>
+<blockquote>
+<div><p>Should the input be gated by the stutter,
+or always pass through regardless of if the stutter is occuring?
+This may be hardcoded to change dynamically. Don’t worry about it.</p>
+</div></blockquote>
+</li>
+<li><p>staircase</p>
+<blockquote>
+<div><p>modulates the stutter’s startpoint as accel increases.</p>
+</div></blockquote>
+</li>
+<li><p>toggle left of staircase</p>
+<blockquote>
+<div><p>determines if the stutter’s startpoint modulation amount decreases as accel decreases, or sticks to its maximum value.</p>
+</div></blockquote>
+</li>
 <li><p>button</p>
 <blockquote>
 <div><p>Selects a random subdivision. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Random</span> <span class="pre">Rhythm</span></code></p>
-</div></blockquote>
-</li>
-<li><p>vol dip</p>
-<blockquote>
-<div><p>Determines how much the stutter volume will decrease as the acceleration increases from neutral.</p>
-</div></blockquote>
-</li>
-<li><p>offset</p>
-<blockquote>
-<div><p>Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.</p>
-</div></blockquote>
-</li>
-<li><p>window</p>
-<blockquote>
-<div><p>Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.</p>
-</div></blockquote>
-</li>
-<li><p>accel</p>
-<blockquote>
-<div><p>Slow down and speed up the stutter FX. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code></p>
 </div></blockquote>
 </li>
 <li><p>stutter volume</p>
@@ -177,11 +195,34 @@
 <div><p>Same as the subdiv menu.</p>
 </div></blockquote>
 </li>
-<li><p>gated or thru</p>
+<li><p>accel</p>
 <blockquote>
-<div><p>Should the input be gated by the stutter,
-or always pass through regardless of if the stutter is occuring?
-This may be hardcoded to change dynamically. Don’t worry about it.</p>
+<div><p>Slow down and speed up the stutter FX. Upon returning to the default speed, the stutter will resync to the downbeat. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code> or <code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code>.</p>
+</div></blockquote>
+</li>
+<li><p>window</p>
+<blockquote>
+<div><p>Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.</p>
+</div></blockquote>
+</li>
+<li><p>offset</p>
+<blockquote>
+<div><p>Positive offset can improve transients at the beginning of the loop by shifting them outside of the declick window.</p>
+</div></blockquote>
+</li>
+<li><p>vol dip</p>
+<blockquote>
+<div><p>Determines how much the stutter volume will decrease as the acceleration increases from neutral.</p>
+</div></blockquote>
+</li>
+<li><p>rightmost menu</p>
+<blockquote>
+<div><p>Multiplies the stutter’s subdivision.</p>
+</div></blockquote>
+</li>
+<li><p>centermost menu</p>
+<blockquote>
+<div><p>Adjusts the staircase’s offset.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -189,7 +230,7 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 </section>
 <section id="tremolo">
 <h2>Tremolo<a class="headerlink" href="#tremolo" title="Link to this heading"></a></h2>
-<p>A simple, musical, square-wave tremolo.</p>
+<p>A simple, musical, square-wave tremolo w/ auto-pan.</p>
 <section id="id1">
 <h3>Parameters<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
 <ul>
@@ -198,15 +239,35 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <div><p>Amount of tremolo. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span></code></p>
 </div></blockquote>
 </li>
+<li><p>phase offset</p>
+<blockquote>
+<div><p>Pushes the leading edge of the tremolo behind, or in front of, the beat.</p>
+</div></blockquote>
+</li>
 <li><p>duty cycle</p>
 <blockquote>
 <div><p>The fraction of one period in which the signal is active. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span></code></p>
 <figure class="align-left" id="id3">
-<a class="reference internal image-reference" href="../_images/PWM_duty_cycle_with_label.gif"><img alt="duty" src="../_images/PWM_duty_cycle_with_label.gif" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="../_images/PWM_duty_cycle_with_label.webp"><img alt="duty" src="../_images/PWM_duty_cycle_with_label.webp" style="width: 80%;" /></a>
 <figcaption>
 <p><span class="caption-text"><a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Duty_cycle&amp;oldid=1180108380" rel="noopener noreferrer" target="_blank">Wikipedia - Duty Cycle</a></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
 </figcaption>
 </figure>
+</div></blockquote>
+</li>
+<li><p>smooth</p>
+<blockquote>
+<div><p>The amount of smoothing for the square wave.</p>
+</div></blockquote>
+</li>
+<li><p>boost</p>
+<blockquote>
+<div><p>The max amount of volume boost when depth/mix is at 100%.</p>
+</div></blockquote>
+</li>
+<li><p>rightmost menu</p>
+<blockquote>
+<div><p>Multiplies the tremolo’s subdivision.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -214,7 +275,7 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 </section>
 <section id="filter">
 <h2>Filter<a class="headerlink" href="#filter" title="Link to this heading"></a></h2>
-<p>Also inspired by Pioneer, a DJ filter.</p>
+<p>Also inspired by <a class="reference external" href="https://www.pioneerdj.com/en/product/features/mixer/filter-fx/" rel="noopener noreferrer" target="_blank">Pioneer</a>, a HP/LP filter.</p>
 <section id="id2">
 <h3>Parameters<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <ul>
@@ -226,6 +287,11 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <li><p>smooth</p>
 <blockquote>
 <div><p>Smooths the filter frequency modulation. If mapped to a joystick, lower values follow the joystick more closely, while higher values glide towards the joystick.</p>
+</div></blockquote>
+</li>
+<li><p>filter boost</p>
+<blockquote>
+<div><p>Boosts the volume of the filters.</p>
 </div></blockquote>
 </li>
 </ul>

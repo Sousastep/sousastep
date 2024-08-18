@@ -16,8 +16,8 @@
   <title>Main Envelope &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -63,7 +63,10 @@
 <li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="fx.html">Audio Effects</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Main Envelope</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Main Envelope</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#parameters">Parameters</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
 <li class="toctree-l3"><a class="reference internal" href="octaver.html">Octaver</a></li>
@@ -119,16 +122,7 @@
              
   <section id="main-envelope">
 <h1>Main Envelope<a class="headerlink" href="#main-envelope" title="Link to this heading"></a></h1>
-<p>While playing softly in a home studio, turn up the main envelope sensitivity. Before blasting on a live stage, turn down the main envelope sensitivity.</p>
-<a class="reference internal image-reference" href="../_images/mainenvopen.png"><img alt="mainenv" class="align-center" src="../_images/mainenvopen.png" style="width: 30%;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<a class="reference internal image-reference" href="../_images/mainenv.png"><img alt="mainenv" class="align-center" src="../_images/mainenv.png" style="width: 50%;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>The main envelope sensitivity affects five effects:</p>
+<p>The main envelope affects five effects:</p>
 <ol class="arabic simple">
 <li><p><a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Crossfade</span></a></p></li>
 <li><p><a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Noise Gate</span></a></p></li>
@@ -136,6 +130,42 @@
 <li><p><a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Transient Detector</span></a></p></li>
 <li><p><a class="reference internal" href="sousavfx.html#sousavfx"><span class="std std-ref">VFX Envelopes</span></a></p></li>
 </ol>
+<p>While playing softly in a home studio, turn up the main envelope sensitivity. Before blasting on a live stage, turn down the main envelope sensitivity.</p>
+<p>The further the mic is in the bell, the lower the main envelope sensitivity will need to be.</p>
+<a class="reference internal image-reference" href="../_images/mainenvopen.webp"><img alt="mainenv" class="align-left" src="../_images/mainenvopen.webp" style="width: 30%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/mainenv.webp"><img alt="mainenv" class="align-left" src="../_images/mainenv.webp" style="width: 50%;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<section id="parameters">
+<h2>Parameters<a class="headerlink" href="#parameters" title="Link to this heading"></a></h2>
+<ul>
+<li><p>Main</p>
+<blockquote>
+<div><p>Envelope sensitivity.</p>
+</div></blockquote>
+</li>
+<li><p>Freq</p>
+<blockquote>
+<div><p>The frequency to boost.</p>
+</div></blockquote>
+</li>
+<li><p>Boost</p>
+<blockquote>
+<div><p>The amount in dB to boost the selected frequency.</p>
+<p>Boosting between 1 kHz - 4 kHz makes the envelope respond to the brightness of the tuba’s sound. It’s a simple way to apply <a class="reference external" href="https://en.wikipedia.org/wiki/A-weighting" rel="noopener noreferrer" target="_blank">frequency weighting</a> that makes the envelope a bit snappier.</p>
+</div></blockquote>
+</li>
+<li><p>Q</p>
+<blockquote>
+<div><p>The “quality” / resonance of the boost.</p>
+</div></blockquote>
+</li>
+</ul>
+</section>
 </section>
 
 

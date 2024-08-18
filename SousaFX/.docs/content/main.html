@@ -16,8 +16,8 @@
   <title>Main Window &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -63,7 +63,10 @@
 <li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Main Window</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#main-presets">Main Presets</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#misc-button-info">misc button info</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#version">Version</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#power">Power</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#background-color">Background Color</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#peak-meters">Peak Meters</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="fx.html">Audio Effects</a></li>
@@ -106,24 +109,35 @@
              
   <section id="main-window">
 <h1>Main Window<a class="headerlink" href="#main-window" title="Link to this heading"></a></h1>
-<p>This window represents SousaFX’s audio signal flow, and links to the <a class="reference internal" href="fx.html#audio-effects"><span class="std std-ref">audio effects</span></a>, <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">controller bindings</span></a>, and <a class="reference internal" href="settings.html#settings"><span class="std std-ref">settings</span></a>.</p>
-<a class="reference internal image-reference" href="../_images/sousafx.png"><img alt="sousafx.png" class="align-center" src="../_images/sousafx.png" style="width: 100%;" /></a>
+<p>This window outlines SousaFX’s audio signal flow, and links to the <a class="reference internal" href="fx.html#audio-effects"><span class="std std-ref">audio effects</span></a>, <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">controller bindings</span></a>, and <a class="reference internal" href="settings.html#settings"><span class="std std-ref">settings</span></a>.</p>
+<a class="reference internal image-reference" href="../_images/sousafx.webp"><img alt="sousafx.webp" class="align-center" src="../_images/sousafx.webp" style="width: 100%;" /></a>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Closing this window quits SousaFX. Click the sunset icon on the bottom-right to quit more gracefully. SousaFX auto-saves some settings on shutdown.</p>
 </div>
 <section id="main-presets">
 <h2>Main Presets<a class="headerlink" href="#main-presets" title="Link to this heading"></a></h2>
-<p>On the top-right are the main presets, which save the current state of the <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">modulation parameters</span></a>, the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">FX Banks’</span></a> slot selections, bleed amount, and pitch amount. The main preset selection is accessible via “preset 1 - 4” in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>. The button to the right of the preset number sets the initial preset number to load on startup.  The hidden button below “Main” displays all saved preset parameter values</p>
+<p>On the top-right are the main presets, which save the current state of the <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">modulation parameters</span></a>, and the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">FX Banks’</span></a> slot selections, bleed amount, and pitch amount. The main preset selection is accessible via “preset 1 - 4” in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>. The button to the right of the preset number sets the initial preset number to load on startup.</p>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
 <p>Switching from one preset to another without saving will lose changes. Switching from one preset to a blank slot allows you to save the previous preset into the blank slot.</p>
 </div>
 </section>
-<section id="misc-button-info">
-<h2>misc button info<a class="headerlink" href="#misc-button-info" title="Link to this heading"></a></h2>
+<section id="version">
+<h2>Version<a class="headerlink" href="#version" title="Link to this heading"></a></h2>
 <p>Clicking the version number underneath the SousaFX logo opens the <a class="reference internal" href="prestige.html#prestige-system"><span class="std std-ref">About window</span></a>. The version number will be highlighted if there’s an <a class="reference internal" href="install.html#updating"><span class="std std-ref">update</span></a> available.</p>
-<p>The power button next to the CPU meter is the audio engine’s on/off button. Turning off the audio engine is not recommended. Below that is SousaFX’s version number,</p>
+</section>
+<section id="power">
+<h2>Power<a class="headerlink" href="#power" title="Link to this heading"></a></h2>
+<p>The power button next to the left of the Octaver is the audio engine’s on/off button. Turning off the audio engine saves CPU while SousaFX is not in use.</p>
+</section>
+<section id="background-color">
+<h2>Background Color<a class="headerlink" href="#background-color" title="Link to this heading"></a></h2>
+<p>The <a class="reference internal" href="#background-color"><span class="std std-ref">Color Select icon</span></a> above the power button sets the Main Window’s background color.</p>
+</section>
+<section id="peak-meters">
+<h2>Peak Meters<a class="headerlink" href="#peak-meters" title="Link to this heading"></a></h2>
+<p>Many FX sport a peak meter that shows how loud the FX’s output has gotten. Clicking the peak meter resets it. Pressing the <a href="#id1"><span class="problematic" id="id2">`</span></a>` key resets all the peak meters.</p>
 </section>
 </section>
 

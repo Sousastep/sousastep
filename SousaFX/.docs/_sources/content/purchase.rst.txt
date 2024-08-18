@@ -41,7 +41,7 @@ When you complete your purchase, send an email to sousastep@gmail.com and a lice
 
 Classroom licenses and discounted-to-commercial license upgrades are also offered. For these and any other license needs, please email sousastep@gmail.com
 
-.. image:: media/window-about-nolicense.png
+.. image:: media/window-about-nolicense.webp
    :width: 70%
    :align: center
    :alt: window-about-nolicense.png

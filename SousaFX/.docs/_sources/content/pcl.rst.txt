@@ -22,7 +22,7 @@ The control can be inverted, and curved as well. The "uni/bi" menu allows the cu
 
 These settings are saved within the :ref:`controller bindings <Controller Bindings>` presets.
 
-.. image:: media/param-control-logic.png
+.. image:: media/param-control-logic.webp
    :width: 100%
    :align: center
    :alt: param-control-logic.png

@@ -16,8 +16,8 @@
   <title>Kick Ducker &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -119,32 +119,17 @@
              
   <section id="kick-ducker">
 <h1>Kick Ducker<a class="headerlink" href="#kick-ducker" title="Link to this heading"></a></h1>
-<p>This allows the tuba to duck out of the way of the kick drum.</p>
+<p>This allows the tuba’s sound to duck out of the way of the kick drum. This FX is not recorded into the looper.</p>
 <p>For this to work, <a class="reference internal" href="playback.html#main-track-list"><span class="std std-ref">SousaPlayback’s drum bus’s</span></a> external output
 must be routed to SousaFX’s <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">“drum tracks L/R” inputs</span></a>.</p>
-<a class="reference internal image-reference" href="../_images/duck.png"><img alt="duck" class="align-center" src="../_images/duck.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="../_images/duck.webp"><img alt="duck" class="align-center" src="../_images/duck.webp" style="width: 60%;" /></a>
 <ul>
 <li><p>enable sidechain kick with looper intelligence</p>
 <blockquote>
 <div><p>Available in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> as <code class="docutils literal notranslate"><span class="pre">toggle</span> <span class="pre">sidechained</span> <span class="pre">kick</span></code>.</p>
-<p>The ducker affects the loopers, delays &amp; reverb,
-and main input separately. When this parameter
-is enabled, all three duckers are enabled,
-except for the main input’s when the
-looper status is “looping” or “fading out”.</p>
-<p>looper status - activated duckers:</p>
-<blockquote>
-<div><ol class="arabic simple">
-<li><p>Idle -       looper, delays &amp; reverb, main input</p></li>
-<li><p>Prepared -   looper, delays &amp; reverb, main input</p></li>
-<li><p>Recording -  looper, delays &amp; reverb, main input</p></li>
-<li><p>Looping -    looper, delays &amp; reverb</p></li>
-<li><p>Fading Out - looper, delays &amp; reverb</p></li>
-</ol>
-</div></blockquote>
 </div></blockquote>
 </li>
-<li><p>function</p>
+<li><p>function bottom-right</p>
 <blockquote>
 <div><p>Click and drag the points to change the volume envelope shape. clicks create points. shift-click deletes points. option-click-drag curves lines.</p>
 </div></blockquote>
@@ -171,7 +156,17 @@ looper status is “looping” or “fading out”.</p>
 </li>
 <li><p>disable sidechain kick when drum clip stutter enabled</p>
 <blockquote>
-<div><p>I must not’ve liked how the drum clip stutter sounded with the ducker enabled.</p>
+<div><p>When the drum clips are effected by the <a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">stutter</span></a>, disable the ducker.</p>
+</div></blockquote>
+</li>
+<li><p>smooth</p>
+<blockquote>
+<div><p>smooths the duck so it doesn’t click when retriggered in the middle of ducking.</p>
+</div></blockquote>
+</li>
+<li><p>mix dials</p>
+<blockquote>
+<div><p>Adjusts the amount of ducking for the wobble, <a class="reference internal" href="delay.html#delay-and-reverb-sends"><span class="std std-ref">delays &amp; reverb</span></a>, and <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a>.</p>
 </div></blockquote>
 </li>
 </ul>

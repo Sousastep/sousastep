@@ -16,8 +16,8 @@
   <title>Envelope Crossfade &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -131,16 +131,16 @@ this allows the tuba to still be identifiable as a tuba while also having wild e
 <li><p>The high crossover’s mix between the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">attack fx and sustain fx</span></a>.</p></li>
 </ol>
 </div></blockquote>
-<a class="reference internal image-reference" href="../_images/xfade.png"><img alt="xfade" class="align-center" src="../_images/xfade.png" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="../_images/xfade.webp"><img alt="xfade" class="align-center" src="../_images/xfade.webp" style="width: 60%;" /></a>
 <ul>
-<li><p>env attack</p>
+<li><p>xfade attack</p>
 <blockquote>
-<div><p>How quickly the envelope can rise.</p>
+<div><p>How quickly the crossfade can rise.</p>
 </div></blockquote>
 </li>
-<li><p>env decay</p>
+<li><p>xfade decay</p>
 <blockquote>
-<div><p>How quickly the envelope can fall.</p>
+<div><p>How quickly the crossfade can fall.</p>
 </div></blockquote>
 </li>
 <li><p>env sens</p>
@@ -150,7 +150,7 @@ this allows the tuba to still be identifiable as a tuba while also having wild e
 </li>
 <li><p>interp xfades</p>
 <blockquote>
-<div><p>I couldn’t decide if a linear crossfade or an equal-power crossfade was better, so this lets you interpolate between them. At 0% the crossfade may have a volume dip in the center. At 100% the crossfade may have a volume boost in the center.</p>
+<div><p>Interpolate between a linear crossfade and an equal-power crossfade. At 0% the crossfade may have a volume dip in the center. At 100% the crossfade may have a volume boost in the center.</p>
 </div></blockquote>
 </li>
 <li><p>high and low val</p>
@@ -160,37 +160,32 @@ this allows the tuba to still be identifiable as a tuba while also having wild e
 </li>
 <li><p>invert envelope</p>
 <blockquote>
-<div><p>This toggle inverts the crossfade.</p>
+<div><p>The toggle above the ease menu inverts the crossfade.</p>
 </div></blockquote>
 </li>
 <li><p>ease menu</p>
 <blockquote>
-<div><p>This menu selects the easing function for the crossfade, post-range. The steeper the easing function, the more quickly the crossfade occurs.</p>
+<div><p>This menu selects the easing function for the crossfade. The steeper the easing function, the more quickly the crossfade occurs.</p>
 </div></blockquote>
 </li>
 <li><p>gate</p>
 <blockquote>
-<div><p>Sets SousaFX’s main noise gate. Set it low for playing at home, and higher when performing live. Why is SousaFX’s main noise gate in the Envelope Crossfade window? Because it’s also used to…</p>
+<div><p>Sets SousaFX’s main noise gate. Set it low for playing at home, and higher when performing live. The <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Modulation Parameters’</span></a> envelope begins at the bottom of this gate, regardless of where it’s set. Why is SousaFX’s main noise gate in the Envelope Crossfade window? Because it’s also used to…</p>
 </div></blockquote>
 </li>
-<li><p>improve attack</p>
+<li><p>improve envelope’s attack</p>
 <blockquote>
 <div><p>...improve the attack’s transients by maxing out the envelope whenever it’s below the noise gate.</p>
 </div></blockquote>
 </li>
-<li><p>volume toggle</p>
-<blockquote>
-<div><p>Enable volume meter.</p>
-</div></blockquote>
-</li>
 <li><p>low xfade offset</p>
 <blockquote>
-<div><p>Offsets the crossfade’s center for the low frequencies. 0 - 30 % is recommended.</p>
+<div><p>Offsets the crossfade’s center for the low frequencies. 0 - 30 % is recommended. This makes the low amplitude modulation fade in before the high frequency modulation fades in, which sounds quite nice. Check out the <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus</span></a> to observe the effects of this parameter.</p>
 </div></blockquote>
 </li>
-<li><p>toggles</p>
+<li><p>xfade menus</p>
 <blockquote>
-<div><p>Disabling these sets the low frequencies to amp mod (sustain fx) only, with no crossfade.</p>
+<div><p>Set wether or not the octaver and low frequencies are affected by the crossfade.</p>
 </div></blockquote>
 </li>
 </ul>

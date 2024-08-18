@@ -12,7 +12,7 @@ the grade increases ad infinitum.
 
 .. note:: The prestige system only appears after importing a license key.
 
-.. image:: media/window-about-prestige.png
+.. image:: media/window-about-prestige.webp
    :width: 90%
    :align: center
    :alt: window-about-nolicense.png

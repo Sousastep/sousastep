@@ -4,22 +4,20 @@ SousaVFX
 SousaFX integrates with SousaVFX via five 
 audio-rate control signals to provide 
 visual effects for `LED sousaphone bells <https://jbaylies.github.io/Electrobrass_Encyclopedia/content/tutorials/LED-sousa-bell.html>`_. 
-SousaVFX may run on the same computer 
-as SousaFX, or on a separate computer. 
+SousaVFX currently must run on the same computer 
+as SousaFX, but can be modified to run on a separate computer. 
 
 .. note::
 
 	Other VFX apps such as `VDMX <https://vidvox.net/>`_, 
 	`Resolume <https://resolume.com/>`_, 
 	or `Touchdesigner <https://derivative.ca/>`_ 
-	would also play nicely with SousaFX's control signals.
+	may also play nicely with SousaFX's audio-rate control signals.
 
-.. figure:: media/vfx1.png
+.. figure:: media/vfx1.webp
    :align: center
    :width: 100%
    :alt: SousaVFX
-
-   ISF shader preset
 
 Startup
 -------

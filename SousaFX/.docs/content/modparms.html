@@ -16,8 +16,8 @@
   <title>Modulation Parameters &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
-      <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=7fb76a8e" />
+      <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/dark.css?v=70edf1c7" />
 
@@ -32,7 +32,7 @@
         <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
         <script src="../_static/doctools.js?v=9a2dae69"></script>
         <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=36754332"></script>
+        <script src="../_static/design-tabs.js?v=f930bc37"></script>
         <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
         <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
         <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
@@ -53,7 +53,7 @@
           
           <a href="../index.html" class="icon icon-home">
             SousaFX
-              <img src="../_static/icon.png" class="logo" alt="Logo"/>
+              <img src="../_static/icon.webp" class="logo" alt="Logo"/>
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
@@ -123,23 +123,61 @@
   <section id="modulation-parameters">
 <h1>Modulation Parameters<a class="headerlink" href="#modulation-parameters" title="Link to this heading"></a></h1>
 <p>These modulation parameters control an old-school dubstep-style auto-wah that is the core of SousaFX.</p>
-<a class="reference internal image-reference" href="../_images/LPFmod.png"><img alt="mod parms" class="align-center" src="../_images/LPFmod.png" style="width: 100%;" /></a>
-<p>Several mod params can be set via the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>.</p>
+<p>The following modulation parameters can be controlled via the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>.</p>
 <blockquote>
-<div><ul class="simple">
-<li><p>Subdivisions [no user interface]</p></li>
-<li><p>LFO Ceiling Envelope Curve [this binding’s movement is visible in the ceiling &amp; floor function]</p></li>
-<li><p>LFO Duty Cycle [this binding is offset by the High Freq/Amp Mod duty cycle parameter]</p></li>
-<li><p>LFO Swing Amount [Auxiliary LFO depth]</p></li>
-<li><p>LFO Sync-Free Crossfade [no user interface]</p></li>
-<li><p>LFO Free Speed [no user interface]</p></li>
-<li><p>LPF Resonance Amount [LPF Resonance Range &amp; Amount]</p></li>
+<div><ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Subdivisions</span></code> (half, quarter, etc.)</p>
+<blockquote>
+<div><p>Controls the rhythm of the LFO. Not displayed in the Modulation Parameters window.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Ceiling</span> <span class="pre">Envelope</span> <span class="pre">Curve</span></code></p>
+<blockquote>
+<div><p>Sets the rate of change for the envelope that controls the High Freq Mod LFO’s range. Visible in the Ceiling and Floor functions.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Duty</span> <span class="pre">Cycle</span></code></p>
+<blockquote>
+<div><p>Leans the LFO waveform to the left or right. Offset by the High Freq/Amp Mod’s duty cycle parameter.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Swing</span> <span class="pre">Amount</span></code></p>
+<blockquote>
+<div><p>Adjusts the amount of swing by controlling the Auxiliary LFO’s depth parameter.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Sync-Free</span> <span class="pre">Crossfade</span></code> [no user interface]</p>
+<blockquote>
+<div><p>Crossfades between the synced LFO whose rhythm is set by the subdivisions, and the free LFO whose rhythm is set by the LFO Free Speed binding.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Free</span> <span class="pre">Speed</span></code> [no user interface]</p>
+<blockquote>
+<div><p>Sets the rhythm of the unsynced LFO.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LPF</span> <span class="pre">Resonance</span> <span class="pre">Amount</span></code></p>
+<blockquote>
+<div><p>Adjusts the lowpass filter’s resonance amount, within the range set in the Modulation Parameters.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Auto-Wah</span> <span class="pre">Pause</span></code></p>
+<blockquote>
+<div><p>Pauses the LFO and applies the “Wah Sens Reduc” parameter.</p>
+</div></blockquote>
+</li>
+<li><p><code class="docutils literal notranslate"><span class="pre">LFO</span> <span class="pre">Env</span> <span class="pre">Pause</span></code></p>
+<blockquote>
+<div><p>Decreases how much the envelope affects the range of the LFO.</p>
+</div></blockquote>
+</li>
 </ul>
 </div></blockquote>
+<a class="reference internal image-reference" href="../_images/LPFmod.webp"><img alt="mod parms" class="align-center" src="../_images/LPFmod.webp" style="width: 100%;" /></a>
 <ul>
 <li><p>Show LFO Visualizer</p>
 <blockquote>
-<div><p>Displays a visualization of the four LFOs.</p>
+<div><p>Displays a visualization of the four LFOs and the main phasor.</p>
 </div></blockquote>
 </li>
 <li><p>env sens</p>
@@ -149,14 +187,14 @@
 </li>
 <li><p>ceiling and floor</p>
 <blockquote>
-<div><p>Determines the depth of the lowpass filter frequency modulation, AKA the frequency range of the dubstep wobble. Bindable via “LFO Ceiling Envelope Curve (bi)”. The “env smooth” dials determine how quickly the range can change. The “y pos”, “x pos”, and “ceil max” dials set the shape of the function.</p>
+<div><p>Determines the depth of the lowpass filter frequency modulation, AKA the frequency range of the dubstep wobble. Bindable via “LFO Ceiling Envelope Curve (bi)”. The “env smooth” dials determine how quickly the range can change. The “y pos”, “x pos”, “floor max”, and “ceil max” dials set the shape of the function.</p>
 </div></blockquote>
 </li>
 </ul>
 <section id="select-lowpass-filter-type">
 <h2>Select Lowpass Filter Type<a class="headerlink" href="#select-lowpass-filter-type" title="Link to this heading"></a></h2>
-<p>The lowpass filter selector switches between a collection of gen~ filters, and optionally, two paid plugins: <a class="reference external" href="https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter" rel="noopener noreferrer" target="_blank">Moog MF101S</a>, and <a class="reference external" href="https://cytomic.com/product/drop/" rel="noopener noreferrer" target="_blank">Cytomic The Drop</a>. This selection is saved independently of the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">main presets</span></a>, and shouldn’t be switched live.</p>
-<a class="reference internal image-reference" href="../_images/lfs1.jpg"><img alt="lowpass filter selection" class="align-center" src="../_images/lfs1.jpg" style="width: 80%;" /></a>
+<p>The lowpass filter selector switches between a collection of gen~ filters, and optionally, three paid plugins: <a class="reference external" href="https://www.moogmusic.com/products/moogerfooger-mf-101-lowpass-filter" rel="noopener noreferrer" target="_blank">Moog MF101S</a>, <a class="reference external" href="https://cytomic.com/product/drop/" rel="noopener noreferrer" target="_blank">Cytomic The Drop</a>, and <a class="reference external" href="https://www.eventideaudio.com/plug-ins/h3000-factory-mk-ii/" rel="noopener noreferrer" target="_blank">Eventide H3000 Factory Mk II</a>. This selection is saved independently of the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">main presets</span></a>, and shouldn’t be switched live.</p>
+<a class="reference internal image-reference" href="../_images/lfs1.webp"><img alt="lowpass filter selection" class="align-center" src="../_images/lfs1.webp" style="width: 80%;" /></a>
 <p>The gen~ filter selection, however, is saved with the main presets, and can be switched live.</p>
 <blockquote>
 <div><ul class="simple">
@@ -170,7 +208,7 @@
 <li><p>Reson</p></li>
 </ul>
 </div></blockquote>
-<a class="reference internal image-reference" href="../_images/lfs2.jpg"><img alt="gen~ filter selection" class="align-center" src="../_images/lfs2.jpg" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="../_images/lfs2.webp"><img alt="gen~ filter selection" class="align-center" src="../_images/lfs2.webp" style="width: 80%;" /></a>
 </section>
 </section>
 

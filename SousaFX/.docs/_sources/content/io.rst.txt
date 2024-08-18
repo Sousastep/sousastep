@@ -1,7 +1,14 @@
 Audio IO Status
 ===============
 
-.. image:: media/io.png
+.. image:: media/ioopen.webp
+   :width: 33%
+   :align: center
+   :alt: io.png
+
+|
+
+.. image:: media/io.webp
    :width: 100%
    :align: center
    :alt: io.png
@@ -16,7 +23,7 @@ The menu to the right of "Input Mapping" sets the main input to SousaFX. Its opt
 
 - Silentbrass Prerecorded 
   
-    from "prerecorded silentbrass L / R", which connects to SousaPlayback's "silentbrass" track.
+    from "prerecorded silentbrass L / R", which connects to :ref:`SousaPlayback's "silentbrass" track <Main Track List>`.
 
 - Mic Live 
   
@@ -24,11 +31,11 @@ The menu to the right of "Input Mapping" sets the main input to SousaFX. Its opt
 
 - Mic Prerecorded 
   
-    from "prerecorded mic", which connects to SousaPlayback's "sousa mic" track.
+    from "prerecorded mic", which connects to :ref:`SousaPlayback's "sousa mic" track <Main Track List>`.
 
 - Mic Live Pitch Correct 
   
-    from "pitch correct", which I use with a custom algorithm on the Eventide H9000.
+    from "pitch correct", which I use with a `custom algorithm <https://github.com/Sousastep/H9K_to_OBS/blob/main/H9000/stereo%20pitch%20correction.sig2>`_ on the Eventide H9000.
 
 
 
@@ -157,11 +164,8 @@ The output menu sets whether the main outputs are mono or stereo.
   
     VFX only.
 
-|
+- highs L/R, lows L/R, octaver L/R, timeFX L/R
 
-.. image:: media/ioall.png
-   :width: 100%
-   :align: center
-   :alt: io.png
+    For recording separate stems into SousaPlayback.
 
 |

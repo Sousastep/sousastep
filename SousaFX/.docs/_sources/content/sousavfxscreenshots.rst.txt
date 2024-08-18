@@ -3,7 +3,7 @@ Screenshots
 
 |
 
-.. figure:: media/isfobject.png
+.. figure:: media/isfobject.webp
    :align: center
    :width: 100%
    :alt: international shafer format for jitter
@@ -12,7 +12,7 @@ Screenshots
 
 |
 
-.. figure:: media/serialobject.png
+.. figure:: media/serialobject.webp
    :align: center
    :width: 100%
    :alt: serial

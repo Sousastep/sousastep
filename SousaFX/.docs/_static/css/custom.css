@@ -30,3 +30,11 @@ code {
 p {
     text-align: justify;
 }
+
+/* https://stackoverflow.com/questions/45413689/youtube-iframe-on-mobile-bad-width */
+iframe[src*=youtube] {
+                    display: block;
+                    margin: 0 center;
+                    max-width: 100%;
+                    padding-bottom: 10px;
+                }
