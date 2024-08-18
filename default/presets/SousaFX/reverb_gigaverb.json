@@ -6,7 +6,7 @@
 				"id" : 1,
 				"data" : 				{
 					"bpGigaverb::Damp" : [ 0.7 ],
-					"bpGigaverb::Dry" : [ 1.0 ],
+					"bpGigaverb::Dry" : [ 0.0 ],
 					"bpGigaverb::Early" : [ 0.25 ],
 					"bpGigaverb::Regen" : [ 0.5 ],
 					"bpGigaverb::Size" : [ 74.999999999999986 ],

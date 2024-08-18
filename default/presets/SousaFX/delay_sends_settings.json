@@ -7,11 +7,12 @@
 				"data" : 				{
 					"software_or_hardware_delays" : [ 0 ],
 					"delays_input_selection" : [ 0 ],
-					"delay_output_volume" : [ -9.0 ],
-					"reverb_output_volume[1]" : [ -9.0 ],
+					"delay_output_volume" : [ 0.0 ],
+					"reverb_output_volume[1]" : [ 0.0 ],
 					"looper volume into delay" : [ -6 ],
 					"max dub send[1]" : [ 1.036614173228348 ],
-					"swirl joy" : [ 1 ]
+					"swirl joy" : [ 1 ],
+					"u535006194" : [ -16.0 ]
 				}
 
 			}

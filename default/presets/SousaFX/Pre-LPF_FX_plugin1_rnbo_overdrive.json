@@ -5,8 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"bass" : [ "bass", -20.0 ],
-					"drive" : [ "drive", 66.0 ],
+					"bass" : [ "bass", -3.0 ],
+					"drive" : [ "drive", 33.0 ],
 					"highcut" : [ "highcut", 0.0 ],
 					"lowcut" : [ "lowcut", 0.0 ],
 					"mid" : [ "mid", 20.0 ],
@@ -14,13 +14,13 @@
 					"mix" : [ "mix", 100.0 ],
 					"treble" : [ "treble", 20.0 ],
 					"volume" : [ "volume", -100.0 ],
-					"fx_chain_order" : [ 0 ],
+					"fx_chain_order" : [ 1 ],
 					"harmonic_mult" : [ 7.0 ],
-					"harmonic_mix" : [ 0.0 ],
+					"harmonic_mix" : [ 1.574803149606299 ],
 					"fm_mult" : [ 6.0 ],
-					"fm_depth" : [ 0.0 ],
-					"bias" : [ 0.0 ],
-					"drive[1]" : [ 1.0 ]
+					"fm_depth" : [ 5.566371132742253 ],
+					"bias" : [ 0.078740157480315 ],
+					"drive[1]" : [ 1.73228346456693 ]
 				}
 
 			}
