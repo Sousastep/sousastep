@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2139.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,52 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1075",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4940.0, 3882.0, 55.0, 22.0 ],
+					"text" : "pipe 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1057",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5293.0, 3860.0, 246.0, 22.0 ],
+					"text" : "s \"Wobble FX Stutter, Tremolo, Filters_open\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1058",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5018.5, 3914.0, 230.0, 22.0 ],
+					"text" : "s \"Solo FX Stutter, Tremolo, Filters_open\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1059",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4734.0, 3813.0, 241.0, 22.0 ],
+					"text" : "r \"Main Input Stutter, Tremolo, Filters_open\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "numouts",
 					"id" : "obj-1060",
@@ -2154,6 +2200,7 @@
 					"patching_rect" : [ 7022.0, 2368.927155376837618, 328.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 26.0 ],
+					"text" : "   ",
 					"textcolor" : [ 0.988235294117647, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -4972,7 +5019,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5796.5, 1643.0, 155.0, 22.0 ],
-					"text" : "which_FX SousaFX"
+					"text" : "is_tuba_playing 0"
 				}
 
 			}
@@ -10957,10 +11004,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1624.0, 1718.0, 397.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 552, 443 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage controller_bindings @greedy 0 @savemode 0",
@@ -11043,7 +11090,6 @@
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
-					"hidden" : 1,
 					"id" : "obj-292",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13664,7 +13710,6 @@
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
-					"hidden" : 1,
 					"id" : "obj-290",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13771,7 +13816,6 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 26.0,
-					"hidden" : 1,
 					"id" : "obj-282",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13825,7 +13869,6 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 26.0,
-					"hidden" : 1,
 					"id" : "obj-276",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -18150,6 +18193,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1057", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1059", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1075", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1059", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.341585665941238, 0.606969475746155, 0.701334714889526, 0.19166494205298 ],
 					"destination" : [ "obj-510", 1 ],
 					"order" : 1,
@@ -18352,6 +18411,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1073", 0 ],
 					"source" : [ "obj-1074", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1058", 0 ],
+					"source" : [ "obj-1075", 0 ]
 				}
 
 			}
