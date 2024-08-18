@@ -181,7 +181,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1852.5, 1938.0, 36.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.0, 2.5, 24.0, 15.0 ],
+					"presentation_rect" : [ 205.0, 2.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "0.5", "1", "2", "4", "8" ],
@@ -595,7 +595,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2090.0, 2051.0, 66.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 77.375, 4.0, 54.0, 36.0 ],
+					"presentation_rect" : [ 77.0, 2.0, 54.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"activeneedlecolor" : 						{
 							"expression" : "themecolor.live_value_arc"
@@ -612,6 +612,7 @@
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "staircase",
 							"parameter_type" : 0,
+							"parameter_units" : "%%3.f",
 							"parameter_unitstyle" : 5
 						}
 
@@ -1114,7 +1115,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 160.0, 1301.045398202665638, 24.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.0, 2.5, 24.0, 15.0 ],
+					"presentation_rect" : [ 296.0, 2.0, 24.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "1", "2", "3", "4" ],
@@ -3334,7 +3335,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.5, 612.0, 159.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.125, 31.0, 56.0, 19.0 ]
+					"presentation_rect" : [ 49.0, 39.0, 56.0, 19.0 ]
 				}
 
 			}
@@ -3406,7 +3407,7 @@
 					"parameter_mappable" : 0,
 					"patching_rect" : [ 343.0, 2807.0, 44.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 30.0, 38.0, 21.0 ],
+					"presentation_rect" : [ 5.0, 37.0, 38.0, 21.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.live_modulation"
@@ -3600,7 +3601,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 970.0, 3064.0, 85.0, 136.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 114.0, 4.0, 85.0, 50.0 ],
+					"presentation_rect" : [ 114.0, 2.0, 85.0, 50.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : ""
