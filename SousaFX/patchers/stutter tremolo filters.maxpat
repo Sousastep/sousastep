@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 459.0, 327.0, 1081.0, 877.0 ],
+		"rect" : [ 656.0, 429.0, 1081.0, 877.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -216,8 +216,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 145.0, 31.0, 107.0, 22.0 ],
-					"text" : "loadmess 338 347"
+					"patching_rect" : [ 145.0, 31.0, 113.0, 22.0 ],
+					"text" : "loadmess 338. 289."
 				}
 
 			}
@@ -298,7 +298,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 782.0, 392.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 248.0, 94.0, 29.0, 29.0 ]
+					"presentation_rect" : [ 299.5, 245.0, 29.0, 29.0 ]
 				}
 
 			}
@@ -311,7 +311,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 729.0, 394.0, 51.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 202.0, 100.0, 51.0, 21.0 ],
+					"presentation_rect" : [ 253.5, 251.0, 51.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Restore:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -331,7 +331,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 986.0, 482.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 95.0, 94.0, 29.0, 29.0 ]
+					"presentation_rect" : [ 299.5, 214.0, 29.0, 29.0 ]
 				}
 
 			}
@@ -344,7 +344,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 948.0, 484.0, 36.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 64.0, 100.0, 36.0, 21.0 ],
+					"presentation_rect" : [ 268.5, 220.0, 36.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Save:",
 					"textcolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ]
@@ -457,7 +457,7 @@
 					}
 ,
 					"text" : "pattrstorage #1\" stutter tremolo filters\" @greedy 0 @savemode 0",
-					"varname" : "Main Input stutter tremolo filters"
+					"varname" : "#1 stutter tremolo filters"
 				}
 
 			}
@@ -548,12 +548,12 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-43",
-					"linecount" : 11,
+					"linecount" : 10,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1055.0, 717.5, 95.0, 173.0 ]
+					"patching_rect" : [ 1055.0, 717.5, 95.0, 158.0 ]
 				}
 
 			}
@@ -600,7 +600,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 138.0, 605.0, 161.0, 80.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 74.0, 275.0, 190.0, 57.0 ],
+					"presentation_rect" : [ 74.0, 214.0, 190.0, 66.0 ],
 					"varname" : "DJfilter",
 					"viewvisibility" : 1
 				}
@@ -625,7 +625,7 @@
 					"outlettype" : [ "signal", "signal", "signal", "signal" ],
 					"patching_rect" : [ 180.0, 335.0, 315.0, 72.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 24.0, 319.0, 61.0 ],
+					"presentation_rect" : [ 9.5, 10.0, 319.0, 61.0 ],
 					"varname" : "stutterstep",
 					"viewvisibility" : 1
 				}
@@ -679,7 +679,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 259.0, 784.0, 319.0, 173.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.5, 132.0, 319.0, 133.0 ],
+					"presentation_rect" : [ 9.5, 76.0, 319.0, 133.0 ],
 					"varname" : "sousaFX_tremolo",
 					"viewvisibility" : 1
 				}
@@ -689,11 +689,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-201",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 275.0, 30.0, 30.0 ]
 				}
 
@@ -702,11 +702,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-203",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 394.0, 275.0, 30.0, 30.0 ]
 				}
 
@@ -715,7 +715,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-204",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -727,7 +727,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-207",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -748,7 +748,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 303.0, 496.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 338.0, 347.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 338.0, 289.0 ],
 					"proportion" : 0.5,
 					"rounded" : 0
 				}
@@ -1112,6 +1112,120 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-200::obj-18" : [ "phase offset[1]", "phase offset", 0 ],
+			"obj-200::obj-2" : [ "live.menu", "live.menu", 0 ],
+			"obj-200::obj-34" : [ "duty cycle[1]", "duty cycle", 0 ],
+			"obj-200::obj-36" : [ "boost", "boost", 0 ],
+			"obj-200::obj-38" : [ "smooth", "smooth", 0 ],
+			"obj-200::obj-42" : [ "depth / mix", "depth / mix", 0 ],
+			"obj-22::obj-105" : [ "function[107]", "function", 0 ],
+			"obj-22::obj-106" : [ "MIDI syncrate[8]", "sync", 0 ],
+			"obj-22::obj-145" : [ "accel[5]", "accel", 0 ],
+			"obj-22::obj-153" : [ "live.button[5]", "live.button", 0 ],
+			"obj-22::obj-155" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-22::obj-159" : [ "live.dial[23]", "window", 0 ],
+			"obj-22::obj-21" : [ "live.menu[16]", "live.menu", 0 ],
+			"obj-22::obj-22" : [ "offset[4]", "offset", 0 ],
+			"obj-22::obj-235" : [ "volume dip[4]", "vol dip", 0 ],
+			"obj-22::obj-246" : [ "staircase", "staircase", 0 ],
+			"obj-22::obj-36" : [ "active[6]", "Active", 0 ],
+			"obj-22::obj-38" : [ "active[1]", "Active", 0 ],
+			"obj-22::obj-42" : [ "stutter volume[4]", "stutter volume", 0 ],
+			"obj-3::obj-1" : [ "filter sweep", "filter sweep", 0 ],
+			"obj-3::obj-27" : [ "smooth[1]", "smooth", 0 ],
+			"obj-3::obj-41" : [ "filter boost", "filter boost", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-3::obj-27" : 				{
+					"parameter_longname" : "smooth[1]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "AND.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DJfilter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "frame000.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/stickman",
+				"patcherrelativepath" : "../../default/startup/stickman",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm.sallenkey2~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_functions.genexpr",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
+				"patcherrelativepath" : "../other",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_stereo.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousaFX_tremolo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stutterstep.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.164705882352941, 0.164705882352941, 0.16078431372549, 0.98 ]
 	}
 
