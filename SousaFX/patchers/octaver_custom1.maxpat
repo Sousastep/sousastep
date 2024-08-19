@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1230.0, 365.0, 970.0, 984.0 ],
+		"rect" : [ 1333.0, 344.0, 970.0, 984.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 664.0, 769.0, 33.0, 22.0 ],
+					"patching_rect" : [ 664.0, 732.0, 33.0, 22.0 ],
 					"text" : "== 0"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 362.0, 833.0, 30.0, 22.0 ],
+					"patching_rect" : [ 362.0, 796.0, 30.0, 22.0 ],
 					"text" : "*~ 1"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 664.0, 730.0, 103.0, 22.0 ],
+					"patching_rect" : [ 664.0, 693.0, 103.0, 22.0 ],
 					"text" : "r solo_fx_enabled"
 				}
 
@@ -81,8 +81,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 362.0, 868.0, 136.0, 22.0 ],
-					"text" : "rampsmooth~ 4800 480"
+					"patching_rect" : [ 362.0, 864.0, 149.0, 22.0 ],
+					"text" : "rampsmooth~ 19200 4800"
 				}
 
 			}
@@ -93,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 562.0, 733.0, 82.0, 22.0 ],
+					"patching_rect" : [ 562.0, 696.0, 82.0, 22.0 ],
 					"text" : "r~ noise_gate"
 				}
 
@@ -576,7 +576,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 362.0, 795.0, 30.0, 22.0 ],
+					"patching_rect" : [ 362.0, 758.0, 30.0, 22.0 ],
 					"text" : "*~ 1"
 				}
 
@@ -993,7 +993,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 362.0, 746.0, 30.0, 30.0 ]
+					"patching_rect" : [ 362.0, 709.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1006,7 +1006,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 398.0, 717.0, 58.0, 48.0 ],
+					"patching_rect" : [ 398.0, 680.0, 58.0, 48.0 ],
 					"text" : ";\rmax launchbrowser https://discord.com/channels/289378508247924738/289378711533387777/1216486861493633094"
 				}
 
@@ -1019,7 +1019,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 680.0, 139.0, 35.0 ],
+					"patching_rect" : [ 357.0, 643.0, 139.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "by alexander panos for sousastep, march 2024"
 				}
@@ -1085,7 +1085,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
