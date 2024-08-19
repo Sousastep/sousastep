@@ -57,7 +57,7 @@
 								}
 ,
 								"time" : 								{
-									"value" : 428.571428571428555
+									"value" : 468.75
 								}
 ,
 								"volume" : 								{
@@ -77,7 +77,7 @@
 								}
 ,
 								"scale" : 								{
-									"value" : 3.0
+									"value" : 6.0
 								}
 ,
 								"__presetid" : "FilterDelaySend"

@@ -53,11 +53,11 @@
 								}
 ,
 								"filter" : 								{
-									"value" : 2.0
+									"value" : 0.0
 								}
 ,
 								"time" : 								{
-									"value" : 428.571428571428555
+									"value" : 468.75
 								}
 ,
 								"volume" : 								{
@@ -73,11 +73,11 @@
 								}
 ,
 								"spread" : 								{
-									"value" : 0.0
+									"value" : 10.0
 								}
 ,
 								"scale" : 								{
-									"value" : 4.0
+									"value" : 2.0
 								}
 ,
 								"__presetid" : "FilterDelaySend"
