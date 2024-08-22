@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -46,7 +46,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 585.0, 29.5, 71.0, 22.0 ],
-					"restore" : [ 120 ],
+					"restore" : [ 90 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -131,13 +131,13 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ],
+					"bgcolor" : [ 0.647058823529412, 0.647058823529412, 0.647058823529412, 1.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 16.0,
 					"hint" : "FPS (auto-saved)",
 					"id" : "obj-12",
 					"maxclass" : "number",
-					"maximum" : 180,
+					"maximum" : 999,
 					"minimum" : 12,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -693,8 +693,8 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "main_vfx_env_sens.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
