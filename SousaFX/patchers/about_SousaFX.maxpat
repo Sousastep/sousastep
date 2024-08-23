@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 735.0, 264.0, 2560.0, 1387.0 ],
+		"rect" : [ 826.0, 499.0, 855.0, 653.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -240,6 +240,59 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-146",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "" ],
+									"patching_rect" : [ 1328.0, 3167.0, 33.0, 25.0 ],
+									"text" : "t b s"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Ableton Sans Light",
+									"id" : "obj-122",
+									"maxclass" : "comment",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1368.0, 3101.0, 80.0, 21.0 ],
+									"suppressinlet" : 1,
+									"text" : "0 34 307 36"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-71",
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1278.0, 3099.0, 74.0, 25.0 ],
+									"text" : "pak 0 34 307"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"attr" : "presentation_rect",
+									"id" : "obj-63",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 1278.0, 3136.0, 386.0, 25.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 425.0, 475.0, 453.0, 25.0 ],
+									"text_width" : 133.0
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-601",
 									"maxclass" : "newobj",
@@ -4672,7 +4725,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1808.0, 3023.0, 264.0, 21.0 ],
+									"patching_rect" : [ 1808.0, 2952.0, 264.0, 21.0 ],
 									"text" : "Thank you for purchasing SousaFX!",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
@@ -4686,9 +4739,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1808.0, 3048.0, 650.0, 21.0 ],
+									"patching_rect" : [ 1278.0, 3224.0, 650.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 34.0, 316.0, 21.0 ],
+									"presentation_rect" : [ 0.0, 34.0, 307.0, 21.0 ],
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -5699,6 +5752,20 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-270", 0 ],
+									"source" : [ "obj-146", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-71", 0 ],
+									"source" : [ "obj-146", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-31", 0 ],
 									"source" : [ "obj-147", 0 ]
 								}
@@ -6649,7 +6716,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-270", 0 ],
+									"destination" : [ "obj-146", 0 ],
 									"hidden" : 1,
 									"source" : [ "obj-268", 0 ]
 								}
@@ -7496,6 +7563,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-270", 0 ],
+									"source" : [ "obj-63", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-66", 0 ],
 									"source" : [ "obj-64", 0 ]
 								}
@@ -7556,6 +7630,13 @@
 									"destination" : [ "obj-123", 1 ],
 									"order" : 1,
 									"source" : [ "obj-69", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-63", 0 ],
+									"source" : [ "obj-71", 0 ]
 								}
 
 							}
@@ -7755,7 +7836,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-151", 0 ],
+									"destination" : [ "obj-146", 0 ],
 									"order" : 5,
 									"source" : [ "obj-93", 0 ]
 								}
@@ -7763,7 +7844,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-270", 0 ],
+									"destination" : [ "obj-151", 0 ],
 									"order" : 4,
 									"source" : [ "obj-93", 0 ]
 								}
@@ -15206,6 +15287,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "license.sousafx",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
