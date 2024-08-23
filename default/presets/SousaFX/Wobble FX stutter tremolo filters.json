@@ -5,22 +5,23 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"sousaFX_tremolo::duty" : [ 0.0 ],
+					"sousaFX_tremolo::duty" : [ 65.704338924069731 ],
 					"sousaFX_tremolo::phase" : [ 0.0 ],
 					"sousaFX_tremolo::smooth[1]" : [ 28.0 ],
 					"sousaFX_tremolo::boost[1]" : [ 3.0 ],
 					"sousaFX_tremolo::subdiv-mult" : [ 0.0 ],
 					"stutterstep::stutter volume[1]" : [ -5.0 ],
-					"stutterstep::inthru" : [ 0.0 ],
+					"stutterstep::inthru" : [ 1.0 ],
 					"stutterstep::window" : [ 17.0 ],
 					"stutterstep::offset[1]" : [ 0.008661417322835 ],
 					"stutterstep::bypass_hipass" : [ 0 ],
 					"stutterstep::accel-vol-dip" : [ 96.0 ],
-					"stutterstep::subdiv-behavior" : [ 0 ],
 					"stutterstep::subdiv-mult" : [ 0.0 ],
 					"stutterstep::staircase[1]" : [ 100.0 ],
 					"stutterstep::staircase-mode" : [ 1 ],
-					"DJfilter::smooth_freq_mod" : [ 78.593807896277241 ]
+					"stutterstep::scan-rate" : [ 3.0 ],
+					"DJfilter::smooth_freq_mod" : [ 78.593807896277241 ],
+					"DJfilter::filter_boost" : [ 13.999999999999998 ]
 				}
 
 			}
