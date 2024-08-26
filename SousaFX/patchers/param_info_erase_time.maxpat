@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 84.0, 131.0, 1379.0, 1006.0 ],
+		"rect" : [ 700.0, 196.0, 1379.0, 1006.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,25 +40,25 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-6",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 563.0, 61.0, 22.0 ],
-					"text" : "pipe 2000"
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 68.0, 405.0, 32.0, 22.0 ],
+					"text" : "t 1 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-5",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 281.0, 505.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"patching_rect" : [ 281.0, 505.0, 68.0, 22.0 ],
+					"text" : "pipe 10000"
 				}
 
 			}
@@ -175,9 +175,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 63.0, 267.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 68.0, 368.0, 58.0, 22.0 ],
+					"text" : "loadbang"
 				}
 
 			}
@@ -330,6 +330,13 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-673", 0 ],
+					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-673", 0 ],
 					"source" : [ "obj-535", 0 ]
 				}
 
@@ -350,7 +357,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-673", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-662", 0 ]
 				}
 
@@ -372,8 +379,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "param_info_erase_time.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
+				"patcherrelativepath" : "../../default/presets/SousaFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
