@@ -7,13 +7,13 @@ Release Notes
 Sousa​​FX
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. The main signal path auto-switches from Wobble FX to Solo FX when the :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
-
 - Add two bindable parameters to the :ref:`Modulation Parameters <Modulation Parameters>`: LFO Auto-Wah Pause, and LFO Env Pause.
 
 - :ref:`Controller Bindings <Controller Bindings>`: Allow multiple imputs to bind to a single output.
 
 - Refactor the :ref:`Mix Bus <Mix Bus>` and :ref:`Monitor Mix <Monitor Mix>` to make them less confusing.
+
+- Refactor Post-crossfade FX's signal chain into :ref:`Solo FX <FX Banks>`. The main signal path auto-switches from Wobble FX to Solo FX when the :ref:`looper <Loopers>` finishes recording, and vice versa when looper finishes fading out.
 
 - Add filter boost parameters to :ref:`Main Envelope <Main Envelope>` to allow frequency weighing.
 
@@ -32,6 +32,17 @@ Sousa​​FX
 - Add options for :ref:`Parameter Control Logic <Parameter Control Logic>` to utilize RB, RT, and LT instead of "is tuba playing".
 
 - Remove :ref:`Parameter Control Logic <Parameter Control Logic>`'s cool background because it was using lots of RAM.
+
+Sousa​​VFX
+~~~~~~~~~~~~~~~~
+
+- Refactor preset management system.
+
+Sousa​​Playback
+~~~~~~~~~~~~~~~~~~~~~
+
+- Add tempo automation clips for SousaFX to trigger.
+
 
 0.9.4
 -----

@@ -46,7 +46,8 @@ Selectable Effects
 
 -	Attack EQ
 
--	Octaver
+-	:ref:`Octaver <Octaver>`; 
+   also supports external routing
 
 -	:ref:`Sustain FX <FX Banks>` slot 1
 
@@ -54,13 +55,9 @@ Selectable Effects
 
 -	:ref:`Solo FX <FX Banks>` slot 1
 
-- 	:ref:`Low Pass Filter <Select Lowpass Filter Type>`; 
-	only plugins supported are 
-	`MF-101S <https://software.moogmusic.com/store/mf-101s>`_ and 
-	`The Drop <https://cytomic.com/product/drop/>`_
+- 	:ref:`Low Pass Filter <Select Lowpass Filter Type>`
 
-- 	:ref:`crossover filter <Crossover>`; 
-	only plugin supported is `ProQ3 <https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in>`_
+- 	:ref:`crossover filter <Crossover>`
 
 - 	octaver compressor
 
@@ -75,11 +72,7 @@ Selectable Effects
 
 - 	:ref:`reverb send <Delay and Reverb Sends>`
 
-- 	main reverb
-
-- 	main compressor
-
-- 	main limiter
+- 	main limiters
 
 - 	:ref:`monitor mix EQ <Monitor Mix>`
 

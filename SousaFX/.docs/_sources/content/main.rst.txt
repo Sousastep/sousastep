@@ -35,6 +35,6 @@ The :ref:`Color Select icon <Background Color>` above the power button sets the 
 Peak Meters
 -----------
 
-Many FX sport a peak meter that shows how loud the FX's output has gotten. Clicking the peak meter resets it. Pressing the `\` key resets all the peak meters.
+Many FX sport a peak meter that shows how loud the FX's output has gotten. Clicking the peak meter resets it. Pressing the backslash key resets all the peak meters.
 
 

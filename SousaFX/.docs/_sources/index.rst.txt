@@ -29,19 +29,18 @@ Five audio-rate control signal outputs let SousaFX send LFO and envelope data to
 SousaFX may be :ref:`downloaded <Installation>` and evaluated for free, however a license must be :ref:`purchased <Purchase>` for continued use.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   content/hardreq.rst
-   content/install.rst
-   content/soundcheck.rst
    content/SousaFX.rst
    content/playback.rst
    content/sousavfx.rst
-   content/attrib.rst
-   content/releasenotes.rst
+   content/hardreq.rst
+   content/install.rst
+   content/soundcheck.rst
    content/purchase.rst
+   content/releasenotes.rst
    content/mailinglist.rst
-
+   content/attrib.rst
 
 .. image:: content/media/sousagamepad.webp
    :width: 60%

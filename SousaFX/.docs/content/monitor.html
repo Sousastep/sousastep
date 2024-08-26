@@ -13,7 +13,7 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Monitor Mix &mdash; SousaFX 0.9.4 documentation</title>
+  <title>Monitor &amp; Front of House Mix &mdash; SousaFX 0.9.4 documentation</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
       <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
@@ -57,9 +57,6 @@
           </a>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
-<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="soundcheck.html">Soundcheck</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="SousaFX.html">SousaFX</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="main.html">Main Window</a></li>
 <li class="toctree-l2"><a class="reference internal" href="fx.html">Audio Effects</a></li>
@@ -68,7 +65,7 @@
 <li class="toctree-l3"><a class="reference internal" href="io.html">Audio IO Status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="midi.html">MIDI Preferences</a></li>
 <li class="toctree-l3"><a class="reference internal" href="metro.html">Metronome</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Monitor Mix</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Monitor &amp; Front of House Mix</a></li>
 <li class="toctree-l3"><a class="reference internal" href="bgcolor.html">Background Color</a></li>
 </ul>
 </li>
@@ -77,10 +74,13 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sousavfx.html">SousaVFX</a></li>
-<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="soundcheck.html">Soundcheck</a></li>
 <li class="toctree-l1"><a class="reference internal" href="purchase.html">Purchase</a></li>
+<li class="toctree-l1"><a class="reference internal" href="releasenotes.html">Release Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="mailinglist.html">Mailing List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="attrib.html">Attributions</a></li>
 </ul>
 
         </div>
@@ -99,7 +99,7 @@
       <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="SousaFX.html">SousaFX</a></li>
           <li class="breadcrumb-item"><a href="settings.html">Settings</a></li>
-      <li class="breadcrumb-item active">Monitor Mix</li>
+      <li class="breadcrumb-item active">Monitor &amp; Front of House Mix</li>
       <li class="wy-breadcrumbs-aside">
       </li>
   </ul>
@@ -108,24 +108,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="monitor-mix">
-<h1>Monitor Mix<a class="headerlink" href="#monitor-mix" title="Link to this heading"></a></h1>
-<p>Monitor mixes differ from “front of house” mixes
-in that they focus on the performing musician’s ears
-instead of the audience’s. By default, the loopers
-are quieter in the monitor mix than the FoH mix,
-and the solo and delay FX are louder in the
-monitor mix than the FoH mix. The monitor mix also
-includes a <a class="reference internal" href="metro.html#metronome"><span class="std std-ref">metronome</span></a>, while the FoH mix does not.</p>
+  <section id="monitor-front-of-house-mix">
+<h1>Monitor &amp; Front of House Mix<a class="headerlink" href="#monitor-front-of-house-mix" title="Link to this heading"></a></h1>
+<p>This window lets you set the levels for the Monitor mix and the Front of House mix.</p>
+<p>The monitor mix includes a <a class="reference internal" href="metro.html#metronome"><span class="std std-ref">metronome</span></a> click, and a <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a> alert.</p>
+<p>Generally, for the monitor mix, the loopers should be a bit quieter, and the solos and delays should be louder.</p>
 <a class="reference internal image-reference" href="../_images/monitor.webp"><img alt="monitormix" class="align-center" src="../_images/monitor.webp" style="width: 100%;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The metronome can also be sent to its own external audio output
-in the <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio I/O Status</span></a> window.</p>
-</div>
+<p>The FoH mix then goes through a limiter,
+and the monitor mix goes through a limiter and an EQ,
+which can be accessed near the bottom of the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Window</span></a>.</p>
+<p>The following output channels are set in the <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio I/O Status</span></a> window:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>The FoH mix’s audio output channels can be set via the “Main L” and “Main R” Output Mappings.</p></li>
+<li><p>The monitor mix’s audio output channels can be set via the “Monitor L” and “Monitor R” Output Mappings</p></li>
+<li><p>The metronome’s audio output channel can be set via the “Metronome Click” Output Mapping.</p></li>
+</ul>
+</div></blockquote>
 </section>
 
 
