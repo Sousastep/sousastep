@@ -46,7 +46,7 @@
 					"mod params::env sens[1]" : [ 1.094488188976378 ],
 					"mod params::high_pow" : [ 12.992125984252068 ],
 					"mod params::floor_y_pos" : [ 0.110236220472441 ],
-					"mod params::x_pos" : [ 0.033511811023622 ],
+					"mod params::x_pos" : [ 0.0 ],
 					"mod params::ceil_y_pos" : [ 0.166992125984251 ],
 					"mod params::ceil_max" : [ 0.755905511811024 ],
 					"mod params::floor_max" : [ 0.181102362204725 ],
