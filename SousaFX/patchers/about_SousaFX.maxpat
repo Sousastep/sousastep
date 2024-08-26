@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 826.0, 499.0, 855.0, 653.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 11.595186999999999,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"title" : "about sousafx",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1369.0, 529.0, 40.0, 21.0 ],
+					"text" : "t l l l"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
@@ -655,6 +667,7 @@
 									"patching_rect" : [ 4905.0, 3276.0, 126.0, 25.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 22.0, 151.0, 172.0, 25.0 ],
+									"text" : "0. %",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -783,6 +796,7 @@
 									"patching_rect" : [ 4662.0, 3051.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 130.0, 316.0, 24.0 ],
+									"text" : "Rank: Iron Apprentice 1",
 									"textcolor" : [ 0.95450692, 0.67229308, 0.67229308, 1.0 ],
 									"textjustification" : 1
 								}
@@ -1052,6 +1066,7 @@
 									"patching_rect" : [ 4665.5, 3008.0, 592.0, 24.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 102.0, 316.0, 24.0 ],
+									"text" : "0.00 hrs on record.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -1791,7 +1806,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1716.0, 3123.0, 427.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 181.0, 186.0, 131.0, 21.0 ],
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 181.0, 186.0, 131.0, 66.0 ],
+									"text" : "SousaFX has been open, with audio on, for 3 hours total.",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -4741,7 +4758,9 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1278.0, 3224.0, 650.0, 21.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 34.0, 307.0, 21.0 ],
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 0.0, 34.0, 307.0, 36.0 ],
+									"text" : "SousaFX has launched 1 times since installed on 0 0",
 									"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 								}
 
@@ -8179,8 +8198,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2095.0, 722.0, 50.0, 21.0 ],
-					"text" : "0.9.3"
+					"patching_rect" : [ 2095.0, 722.0, 50.0, 21.0 ]
 				}
 
 			}
@@ -8573,13 +8591,14 @@
 			}
 , 			{
 				"box" : 				{
+					"fontsize" : 30.600031893601983,
 					"id" : "obj-102",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1732.200078802206235, 398.0, 87.0, 21.0 ],
-					"text" : "loadmess 0.9.4"
+					"patching_rect" : [ 1732.200078802206235, 382.0, 233.0, 43.0 ],
+					"text" : "loadmess 0.10.1"
 				}
 
 			}
@@ -8594,7 +8613,6 @@
 					"patching_rect" : [ 1763.850039401103231, 474.5, 107.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 281.0, 14.146141468715944, 107.0, 21.0 ],
-					"text" : "Version 0.9.4",
 					"textcolor" : [ 0.847058823529412, 0.847058823529412, 0.847058823529412, 1.0 ]
 				}
 
@@ -9259,7 +9277,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1368.75, 521.0, 55.0, 21.0 ],
+					"patching_rect" : [ 1368.75, 499.5, 55.0, 21.0 ],
 					"text" : "zl.slice 3"
 				}
 
@@ -9271,7 +9289,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1368.75, 486.0, 72.0, 21.0 ],
+					"patching_rect" : [ 1368.75, 474.5, 72.0, 21.0 ],
 					"text" : "thresh 250"
 				}
 
@@ -9429,7 +9447,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 1368.75, 579.0, 65.0, 21.0 ],
+					"patching_rect" : [ 1379.5, 580.0, 65.0, 21.0 ],
 					"text" : "unpack i i i"
 				}
 
@@ -14622,6 +14640,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-18", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"source" : [ "obj-180", 0 ]
 				}
@@ -15166,24 +15205,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-157", 0 ],
-					"order" : 2,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-48", 0 ],
-					"order" : 1,
-					"source" : [ "obj-86", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
@@ -15287,13 +15309,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license.sousafx",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
