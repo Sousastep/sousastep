@@ -10,8 +10,8 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 692.0, 53.0, 1868.0, 1387.0 ],
-		"bglocked" : 1,
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
@@ -41,6 +41,575 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1039",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7380.0, 2291.0, 136.0, 22.0 ],
+					"text" : "r \"LFO Main Speed (bi)\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 6.264863518340089,
+					"id" : "obj-198",
+					"linecount" : 5,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7341.352731466293335, 2985.714020550251007, 67.0, 43.0 ],
+					"presentation_linecount" : 4,
+					"text" : ";\rmax launchbrowser https://en.wikipedia.org/wiki/Phase-locked_loop"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 6.597126473105308,
+					"id" : "obj-640",
+					"linecount" : 7,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7260.525670975446701, 2985.714020550251007, 70.0, 60.0 ],
+					"presentation_linecount" : 5,
+					"text" : ";\rmax launchbrowser https://discord.com/channels/289378508247924738/289379241345155073/1278955707168854079"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 6.731895520910239,
+					"id" : "obj-730",
+					"linecount" : 8,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7179.698610484600067, 2985.714020550251007, 70.0, 69.0 ],
+					"presentation_linecount" : 6,
+					"text" : ";\rmax launchbrowser https://cycling74.com/forums/mathematical-problem-syncing-variable-speed-phasors#reply-66d139668700960013b6bf72"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-905",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 7230.0, 2313.0, 39.0, 22.0 ],
+					"text" : "/ 120."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-906",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 7272.0, 2661.0, 29.5, 22.0 ],
+					"text" : "* 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-907",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 7062.0, 2661.0, 29.5, 22.0 ],
+					"text" : "* 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-912",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "float" ],
+					"patching_rect" : [ 7230.0, 2342.0, 81.679394960403442, 22.0 ],
+					"text" : "t b b f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-937",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "float", "float" ],
+					"patching_rect" : [ 6848.0, 2435.059935092926025, 83.0, 22.0 ],
+					"text" : "t b f f"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-938",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7039.5, 2577.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-972",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7220.0, 2577.0, 52.0, 22.0 ],
+					"text" : "gate 1 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-973",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 7039.5, 2540.157898008823395, 36.0, 22.0 ],
+					"text" : "< 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-974",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 7220.0, 2543.0, 36.0, 22.0 ],
+					"text" : "> 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-975",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 7272.0, 2693.0, 29.5, 22.0 ],
+					"text" : "* 4."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-976",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 7062.0, 2692.0, 47.0, 22.0 ],
+					"text" : "* 0.035"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-977",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 6912.0, 2577.0, 29.5, 22.0 ],
+					"text" : "!/ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-979",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7571.14970451593399, 2584.315778255461737, 74.0, 22.0 ],
+					"text" : "*~ 3.141593"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-980",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7571.14970451593399, 2543.714278101920172, 30.0, 22.0 ],
+					"text" : "-~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-989",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 7415.338342726230621, 2582.812018990516663, 22.0, 22.0 ],
+					"text" : "t 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-990",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 7380.0, 2582.812018990516208, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-991",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 7415.338342726230621, 2541.208012660344139, 48.0, 22.0 ],
+					"text" : "del 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-992",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 7380.0, 2499.604006330172069, 44.0, 22.0 ],
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 8.937633071336554,
+					"id" : "obj-1003",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7505.5, 2975.138847756434188, 95.64970451593399, 28.0 ],
+					"presentation_linecount" : 2,
+					"suppressinlet" : 1,
+					"text" : "detect difference between two phasors",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1004",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7380.751879632472992, 2707.624037981032416, 87.0, 22.0 ],
+					"text" : "slide~ 480 480"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1005",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7380.751879632472992, 2666.020031650860346, 41.0, 22.0 ],
+					"text" : "sig~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1006",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7570.397824883460999, 2501.609018683432623, 30.0, 22.0 ],
+					"text" : "*~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1008",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 7145.0, 2577.0, 65.0, 22.0 ],
+					"text" : "change -1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1009",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 6966.567675650119781, 2577.0, 65.0, 22.0 ],
+					"text" : "change -1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1011",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 7380.0, 2458.0, 43.0, 22.0 ],
+					"text" : "== 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1012",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7145.0, 2543.0, 57.0, 22.0 ],
+					"text" : "clip 0.5 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1013",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6966.567675650119781, 2540.157898008823395, 57.0, 22.0 ],
+					"text" : "clip 0 0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1014",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 7161.0, 2720.0, 158.0, 22.0 ],
+					"text" : "scale 0.5 1 1 4 4 @classic 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1015",
+					"maxclass" : "newobj",
+					"numinlets" : 6,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6973.0, 2720.0, 168.0, 22.0 ],
+					"text" : "scale 0 0.5 0.1 1 2 @classic 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1016",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7560.14970451593399, 2791.729075372219086, 142.0, 22.0 ],
+					"text" : "rampsmooth~ 3600 3600"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1017",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 7380.751879632472992, 2624.416025320688277, 65.0, 22.0 ],
+					"text" : "change -1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1018",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7571.14970451593399, 2666.270658195017859, 44.0, 22.0 ],
+					"text" : "*~ -0.5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1019",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7571.14970451593399, 2707.624037981032416, 61.0, 22.0 ],
+					"text" : "clip~ -1 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1020",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7571.14970451593399, 2625.669158041476294, 38.0, 22.0 ],
+					"text" : "tanx~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1021",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7648.0, 2881.954631268978119, 59.0, 22.0 ],
+					"text" : "tapout~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1022",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "tapconnect" ],
+					"patching_rect" : [ 7648.0, 2850.375686705112457, 52.0, 22.0 ],
+					"text" : "tapin~ 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1023",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7560.14970451593399, 2747.368177056312561, 30.0, 22.0 ],
+					"text" : "-~ 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1024",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7063.0, 2781.0, 44.0, 22.0 ],
+					"text" : "sig~ 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1025",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7425.14970451593399, 2977.89473170042038, 75.0, 22.0 ],
+					"text" : "-~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.985954165458679, 0.0, 0.026940008625388, 1.0 ],
+					"id" : "obj-1026",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7425.14970451593399, 2935.338085174560547, 154.0, 22.0 ],
+					"text" : "rate~ @sync off"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.985954165458679, 0.0, 0.026940008625388, 1.0 ],
+					"id" : "obj-1027",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 7425.14970451593399, 2867.368425726890564, 114.0, 22.0 ],
+					"text" : "rate~ 1. @sync lock"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.023529411764706, 0.0, 1.0, 1.0 ],
+					"id" : "obj-969",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6848.0, 2398.21783310174942, 101.0, 22.0 ],
+					"text" : "r main_sync_rate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-903",
 					"maxclass" : "newobj",
@@ -113,7 +682,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5951.0, 2386.0, 70.0, 22.0 ],
+					"patching_rect" : [ 5842.0, 2474.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
 				}
 
@@ -2232,7 +2801,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 7030.0, 3727.0, 180.0, 22.0 ],
+					"patching_rect" : [ 6914.0, 3750.0, 180.0, 22.0 ],
 					"text" : "r pre-rate_phase_offset_verylow"
 				}
 
@@ -2244,7 +2813,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 7013.0, 3766.0, 36.0, 22.0 ],
+					"patching_rect" : [ 6896.991868674755096, 3782.706430971622467, 36.0, 22.0 ],
 					"text" : "+~ 0."
 				}
 
@@ -2256,7 +2825,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 7013.0, 3802.0, 72.0, 22.0 ],
+					"patching_rect" : [ 6896.991868674755096, 3831.578607082366943, 72.0, 22.0 ],
 					"text" : "pong~ 1 0 1"
 				}
 
@@ -2915,7 +3484,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3934.0, 2949.0, 113.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 19.685039370078734 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2934,7 +3503,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3706.0, 2949.0, 120.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 19.685039370078737 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3607,7 +4176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6595.0, 2271.0, 220.0, 122.0 ],
+					"patching_rect" : [ 6424.0, 2493.0, 220.0, 122.0 ],
 					"suppressinlet" : 1,
 					"text" : "tuba_env is sent to many places\n\n1. Visuals\n2. Noise Gate\n3. Crossfade\n4. Mod Params: floor, ceiling, spread\n5. Transient Detector\n"
 				}
@@ -6410,7 +6979,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
-					"patching_rect" : [ 6758.0, 3219.0, 29.5, 22.0 ],
+					"patching_rect" : [ 6959.0, 3386.0, 29.5, 22.0 ],
 					"text" : "t f f"
 				}
 
@@ -6769,7 +7338,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "live", ",", "link" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8767,7 +9336,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -8855,7 +9424,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -9611,7 +10180,7 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6219.0, 3025.0, 123.0, 22.0 ],
+					"patching_rect" : [ 6117.0, 3583.5, 123.0, 22.0 ],
 					"text" : "scale 0. 1. 0.03125 1."
 				}
 
@@ -9623,7 +10192,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6287.0, 3049.0, 69.0, 21.0 ],
+					"patching_rect" : [ 6154.0, 3605.5, 69.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "fast - slow"
 				}
@@ -9796,7 +10365,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 4927.0, 3291.0, 65.0, 22.0 ],
-					"restore" : [ -60.929133858267747 ],
+					"restore" : [ -70.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -9833,7 +10402,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"id" : "obj-353",
@@ -10473,7 +11042,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6399.0, 3025.0, 192.0, 22.0 ],
+					"patching_rect" : [ 7580.0, 2291.0, 192.0, 22.0 ],
 					"text" : "r \"LFO Sync-Free Crossfade (uni)\""
 				}
 
@@ -10485,21 +11054,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6219.0, 2985.0, 134.0, 22.0 ],
+					"patching_rect" : [ 6117.0, 3545.5, 134.0, 22.0 ],
 					"text" : "r \"LFO Free Speed (bi)\""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-198",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 6219.0, 2965.0, 135.21382218452527, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "adjust speed of free LFO"
 				}
 
 			}
@@ -10510,7 +11066,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6383.0, 3001.0, 228.0, 21.0 ],
+					"patching_rect" : [ 7564.0, 2267.0, 228.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "crossfade between sync LFO and free LFO"
 				}
@@ -10522,7 +11078,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6455.0, 3093.0, 64.0, 22.0 ],
+					"patching_rect" : [ 7636.0, 2359.0, 64.0, 22.0 ],
 					"text" : "s free_mix"
 				}
 
@@ -10535,7 +11091,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6335.0, 3129.0, 143.0, 22.0 ],
+					"patching_rect" : [ 7516.0, 2395.0, 143.0, 22.0 ],
 					"text" : "s Yet_Another_Gen_LFO"
 				}
 
@@ -10547,7 +11103,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6335.0, 3093.0, 102.0, 22.0 ],
+					"patching_rect" : [ 7516.0, 2359.0, 102.0, 22.0 ],
 					"text" : "prepend free_mix"
 				}
 
@@ -11181,7 +11737,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7555.0, 6693.0, 39.0, 50.0 ],
+					"patching_rect" : [ 8227.0, 7516.0, 39.0, 50.0 ],
 					"suppressinlet" : 1,
 					"text" : ";)",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
@@ -12657,7 +13213,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6619.0, 3219.0, 133.0, 60.0 ],
+					"patching_rect" : [ 6820.0, 3386.0, 133.0, 60.0 ],
 					"text" : "don't allow low mod rate to be too fast because it sounds muddy",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
@@ -12670,7 +13226,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 6777.0, 3253.0, 63.0, 22.0 ],
+					"patching_rect" : [ 6978.0, 3420.0, 63.0, 22.0 ],
 					"text" : ">= 0.0625"
 				}
 
@@ -12682,7 +13238,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6745.0, 3293.0, 32.0, 22.0 ],
+					"patching_rect" : [ 6946.0, 3460.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -12695,7 +13251,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6758.0, 3184.0, 101.0, 22.0 ],
+					"patching_rect" : [ 6959.0, 3351.0, 101.0, 22.0 ],
 					"text" : "r main_sync_rate"
 				}
 
@@ -12868,7 +13424,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6370.0, 3684.0, 74.0, 22.0 ],
+					"patching_rect" : [ 6320.092426515636362, 3725.393469053942226, 74.0, 22.0 ],
 					"text" : "r~ freq_floor",
 					"textcolor" : [ 0.980298280715942, 0.978843331336975, 0.040180779993534, 1.0 ]
 				}
@@ -12883,7 +13439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6394.0, 3723.0, 84.0, 22.0 ],
+					"patching_rect" : [ 6349.274497601574694, 3754.524625405256756, 84.0, 22.0 ],
 					"text" : "r~ freq_ceiling",
 					"textcolor" : [ 0.980298280715942, 0.978843331336975, 0.040180779993534, 1.0 ]
 				}
@@ -12923,7 +13479,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6266.0, 3607.0, 154.0, 22.0 ],
+					"patching_rect" : [ 6193.636785143231464, 3667.131156351314075, 154.0, 22.0 ],
 					"text" : "receive~ risset_rhythm_low"
 				}
 
@@ -12964,7 +13520,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6169.0, 3312.0, 127.0, 22.0 ],
+					"patching_rect" : [ 6166.5, 3320.0, 127.0, 22.0 ],
 					"text" : "r~ metronome_phasor",
 					"textcolor" : [ 0.223529411764706, 0.011764705882353, 0.011764705882353, 1.0 ]
 				}
@@ -12986,26 +13542,13 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.023529411764706, 0.0, 1.0, 1.0 ],
-					"id" : "obj-914",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 6272.0, 3420.0, 101.0, 22.0 ],
-					"text" : "r main_sync_rate"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.0, 1.0, 0.874509803921569, 1.0 ],
 					"id" : "obj-800",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6226.0, 3568.0, 106.0, 22.0 ],
+					"patching_rect" : [ 6145.0, 3638.0, 106.0, 22.0 ],
 					"text" : "r~ sync-risset_mix"
 				}
 
@@ -13085,7 +13628,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6326.0, 3646.0, 159.0, 22.0 ],
+					"patching_rect" : [ 6266.591962858080478, 3696.262312702628151, 159.0, 22.0 ],
 					"text" : "receive~ risset_rhythm_high"
 				}
 
@@ -13141,19 +13684,6 @@
 					"patching_rect" : [ 6118.0, 3826.0, 473.422896876906634, 20.0 ],
 					"text" : "inputs: parameters & synced phasor / free rate / sync rate / sync-risset mix / risset LFO",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.0, 1.0, 0.082352941176471, 1.0 ],
-					"id" : "obj-640",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6190.0, 3530.0, 101.0, 22.0 ],
-					"text" : "rate~ @sync lock"
 				}
 
 			}
@@ -13515,7 +14045,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7518.0, 6749.0, 26.0, 21.0 ],
+					"patching_rect" : [ 7772.0, 7147.0, 26.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : ":^)"
 				}
@@ -15109,6 +15639,39 @@
 			}
 , 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.037728449387233,
+					"id" : "obj-1031",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7423.751879632472992, 2655.552640346511907, 59.0, 43.0 ],
+					"suppressinlet" : 1,
+					"text" : "enable PLL when accel = 0 %",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 17.982017982017972,
+					"id" : "obj-1028",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7179.698610484600067, 2866.0, 233.834565699100494, 114.0 ],
+					"presentation_linecount" : 3,
+					"suppressinlet" : 1,
+					"text" : "Phase-lock loop. \npushes phase forward or backward to realign rates while `rate @sync off`'s rate approaches 1.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"autofit" : 1,
 					"background" : 1,
 					"forceaspect" : 1,
@@ -15237,6 +15800,77 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"background" : 1,
+					"data" : [ 27442, "png", "IBkSG0fBZn....PCIgDQRA..A3...D.THX....fS0.oH....DLmPIQEBHf.B7g.YHB..f.PRDEDU3wI68lrjbkkctdem9Fu28viV.DnGYCxthEKljTjWdIulXYF4.MrFnwZLmpm.8NnG.JNQlIyTQ6JxKEoHYwaQVUkMHSjnRjnM.PzGg26m18Yu0fS3dBjIZhHQO7ymYvJjnB2iSDte980dsV+qklRoTTPAETvQ.8W1W.ETPAu9QgvQAETvQFyW1W.E7xGkJCkHCYZBhwiPIyPyzBCaWLc8Pyx5k8kXAOGHKKijjD.vzzDSSSzzzNTO1BgiBPIxPDNl382kQatFhvXrJ4iai1TZ4UwpP33MRRRRX+82GkRQ850w22Gcc8Ck3QgvQAHEoj1uGiV+1z8xeFwi5ga0lT5DmA6pMvpR0W1WhE7LjIQZr4laxku7kIHHf1sayRKsDqrxJTsZ0mn3QgvQAHSSHdPWFdmavte9+NQc2AmlySqjPpclK.brW1WhE7LjIQZb4KeY94+7eNat4lztcadu2683m9S+oToRE.drhGEBGEfJKkzwCIt6dLd20Ibu8PJyHo2IHKI9k8k2qcjjjvnQinWudr+96issMqt5pTud8G6iSoTHkRFNbH6ryNLb3PRSSQJk.42HaXXP4xkoc61TsZUrrrPW+vUiCoThPHna2tbiabCtxUtBW6ZWi81aOBCCoZ0pb8qec788oc61366+HetJDNJ.kPhTjfTjBJIZ5flgEbDRVVAeKiFMhqe8qyW9keI+leyug50qyO6m8ydhBGRojvvPVas03e9e9elabiavvgCml.SCCCbbbX0UWk+3+3+XtvEt.0pUCGGmC00kPHX73wbu6cO9jO4S3q+5ulrrLpWuNyO+7XZZxW9keIQQQ7we7GWHbTviGkRgRH.g.MoBN3S1zMMAMMTJEBgfI8Jnll1QJC7uoSud8Xs0ViACFfttNc5zYpvwm9oeJKu7x7m+m+m+DedFLX.27l2jKcoKwktzkXmc1Aee+oImNLLjc2cWFOdLNNNDFFxEu3EYgEV3PmTSkRgttN111355hqqK555ztcaZ1rIVVVHkRdR8EZgvQAfRhTjQVVJJUtvflgYdTGZZHDBhhhPHD.4kty00snZKGvZqsF+M+M+M7Mey2fssMooozuee1c2cYyM2jpUqNMpgGGas0V7O7O7OvW7EeAc5zg4med9y9y9y3rm8r.vctyc3W9K+kbm6bG9m9m9m3t28t366S0pUwyyCCCiG6yuooIkJUhUWcU777nZ0pzqWOBCCoQiFb5SeZVd4kYokVhFMZ73etN7+5of2TQoTHyRQJDfRBZZnYomGwgt1zaDhiyy2gmmGlllEBGOBDBAiFMhgCGRbb7CjmhGFSxIxMu4M4S+zOk0VaMZ2tMm7jmjezO5GwEu3EAf1saSmNcX+82mabiav3wi48e+2mEVXAVbwEmlTyGEShznYylToRE5zoCkJUhjjD777nYylr5pqxBKr.111O1mqBgiB.UFprDTYhCh3PGCMazLLQADEEQmNcX3vg.PsZ0nToR3448x859UDVc0U4m8y9YSOpxsu8s4W7K9E74e9mO82YONljSju5q9Jt0stEwwwblybF9fO3Cdf7hTqVMdm24cXqs1hu3K9B1Ymc3xW9xL2byQoRkdhBGPdzjSDP9tG2TSSCaaarssKJGaAOYTRExTAxTAnxxi3vL+nJJMCTGjM9IQbjjj7X+DzYMpWu9CbCd8504F23Fb8qecLMex2hMZzHt8suM25V2h82ee7884XG6XblybFJWt7zuNeeeVc0U4XG6XnqqyvgC4V25VbhSbBdq25sNzWuZZZSqPy2U3PWW+PUklBgiB.kD0AUUI+jJ5nYYggsMFZ5vA4zXxahOLmmtfCOgggr95qylatIIIITqVMlat4X94mGWW2oecdddztcalat4v11l33X1d6sYyM2jfffWnWyEBGEfLSQVh.oPfTkGIgtkI5VlnoqigoIUpTYZNM777JxuwyPhiiY+82mNc5PRRBlllTsZ0G324.S6gixkKOUPoe+9r2d6MMZvWTTHbTPdNNDw444PJOnpJVnaZhttwzHLt+pp7jRdVAGdRSSY3vgLd7XjRI555333fmm2C8XC111TtbYbbbHNNlQiFM80lWTTHbT.n.DYHyRy+u0zQyv.MSKzzyOKbQhPe9wDgiff.xxxll+gG0wAmjbSMMMhhhdoHbTLONJ3fxwlgLUNsAgzMrvvzFMsh2h77lIkuc73wjkkcnebYYYDFFxnQiNT8IxyRJh3n.PIISHPKKCPcvm3YdPkUJ5Nzm2HkRRRRPHDGIgCkRQRRx2qOQhiioe+9Ld7XhhhHMM8g93uwMtA8506GTUxJDNJHu8hEBTYYbPibj6SECSnHhiW6ne+9bkqbEt0stEau81Ld73G5W2VasE24N2AOOui7QcJDNJXZCfkIiQojnoAZVFnYXWHb7Bf6ugrNJk4dRCa8ccHaRRB850ic1YG1XiMdjMgV2tcIJJBaa6hHNJ3niToPjIPkJAkBktF5llXXYUjiiW.XZZR4xkoToRLZznC8iaRRqKWt7CTkKKKKpToBsZ0hzzTJUpzC8wqqqy1au8TgmixBOnP33G.prLxRhPolLmDzwv1EsmSMEkLIFQP9mZX5WAc6CmMpOzbPCfk2x4Jz0zP2zFMSCPSa5bbXxmJoqqioo4gdNPTvimI2n666iggARoj33XhiienyaiI4DQoTSaLu6uCUcccoc61HkRpUqFgggOzuu999bu6cuocL5QgBgie.jkDQR28PbvKHlddX2XNL8d3J6OsHBFR+a70.Psy7VX+LV3PkoHSj2.XZRPoqiooE5V1fVtI2FOd7zjrYaaSoRkJ5kimQLQ3nToRnqqiPHXvfAzue+G571Xho3hiioRkJeOgiIsl9BKr.IIIOxDtdoKcI95u9qYznQeu1O+IQgvwQfIQZDu2NzesqgLIAmVykeC1yQDQQDt2NHSBQyxhRwwXWqAFtO5AsxQBUFpDAprTjJE5Z5foE5lVnoqSRRBCFLX5mb466iiiSgvwyHbbbnUqVzrYSrssmNkt5zoCtttSENRSSIHHfd85QTTD.SaO86WbwxxhZ0pQsZ0dreemLuOBCCOxyVkhXMOBLIRi9qcM1+R+6z6pWBkHEqJkQ234nFrLCoHlv81gNe4ul8t7ugj9ce18zKUHEojcvD.SoogggMZVVnfo1peu81i81auokvqfmM344wJqrBKszRSmmG6u+9r6t69.sRdPP.26d2i0WechhhvwwgEVXAVZokdrSqqmG7rU3PoPkkueNjwQHShQ8lfKJO3mqj9co609JFdquFQT.51NX5UFC2R4kt74D5VN3TqEF1NDr85L3FWkwacWRFzEY5yfafUx7YwQZFJoLOhCKSzMLQSSGoTRVV1z+T3L1GOJkhrrrGHuPONJWtLm7jmjSdxSN0ksat4lb6ae6GnTpiGOlqe8qyctycPHDToREN0oNEm9zm9PYo9mk7L8c6JojrjHjoIjEGitkIV9UP6Ycx7dAyjetFu0cY6e0+ejNbHMeueD0O26f+BKkmXzmiIJztZcZbg2Gz0X352hzstGCu8UQ2xhxG6zX+TdTIUVdDGBQZdebvjQGnEZFlXYnguu+zaBljDuBd3LY8CjlldnpTQ4xk4rm8rr4laxJqrBqs1Zr1Zqw7yOOevG7AS+552uOe8W+0bqacK.X94mmKdwKx67Nuyq4BGhTDiGP5vgjFL.CGWzWx9YeU.dASVRHgauAAquFQ6sKZFlTZwiS0Sdgbgwmy2Do63ha6Eozfd30ZAFu4cYvstFnT3ToI1Ue7i4smHJ4AFbKCkRgltFZVlXZXiltNVF4t0bRNMbccOTyYhYEFLX.arwFzsaWRRR3pW8pbyadS51sKoooLXv.9jO4Sl1uFUpTgkVZooi7uISkqyblyvG8QeDlllLZzHt6cuKe9m+4SKQ6Mu4M4F23FDEEwINwI3BW3BbgKbAVZokdg6knmou5mIRHtaGB1cCh6rKVkpgcklXU506E5SR+dz8pWlw281XWsFdslGu4VLWzv7Em8xsqWmFu6GBZZr+k+UD2uKUO66RoiepmpmWkLir3DTo4CqXktN51Nn4XitoAN1NznQioYm2vvnHwn2GarwF7y+4+bt7kuLc5zgc2cW1Zqsl112at4l7W+W+Wye2e2eGkKWlyctywe5e5eJu+6+9ztc6oy4jkWdY9K9K9K3XG6X7K+k+R1c2c4u8u8ucp05iiiYvfAznQC9c9c9c3C9fOfSe5S+HcQ6ySd1JbDEQ39aS31qSZ+dnj4ic+WaQoPIkD2ae5esKSvNah+BKS4ScVbp27EdjTl9Un1INGwc1ic9MoDlrMAauEUN1dOU82gRJAgfrzTjZ443P2xACamoN0rvcrGdljryEWbwiziaxnAbxDL+6tdD788oQiFr5pqxG+we7z0ivKiiM9LV3Hfvc1jns25Y4S6KMljainN6PuabYxFGRy24Co5pW.qxu3ihxv1E6Fyge6kwu07DOZHAabK5WuwSU+cnTRTBAxr7ipnzzP2xFCWWzzKxkwShkWdY9K+K+K4O7O7ObZtMxN32k2OOpipb+++644wpqtJ+ze5O8PuPldYvyDgCkThRjRxftL9d2hvc1.6Fs308OiZR4Wi1cKh5tOZ553TeN7WbELbdw+SmlgAldkvodCbmeADhTB1YCrqTG+4WA65yczdBUpbghLAYpjCp.1AycRKGzrcPynnh8OIpVsJUq9z+AISDF9tyvzWE4Yx6JThTRCFRv1axfa9ML5N2fzwG9dt+UUxhFyv6caB1ZibCEUpN10a7BO2FeWzscwatkvtRUB2aWFs9sQD+vc.4iCkRgJMEUp39JatLebAZkOONPqHhiB997TEwgLMAQ3Xh2eWFs4Zz829YLbi0PLb.l0pwn6TGSuRDr8F.fgiK1kqgcsZOvYxkwQjLnGoACQlDQV5CZwWSGOrqWGS+JOTOgHBGQ31aP53AHEBTY42DX54iSi4PSSGwf9jlFM4JGkTgoqKN0lCyxOhm2f.B15dD0cGrr8vsdKLKU9IlKgIcXZ5vAD0YGDiGR1A1V1vzDS+x3zXNPlQvdagHH+ldMcCLbbvtbc7VZEr7e3kXyvwCmlyi012iQ281DZXRxngnxxxKK7gsK.U4S8qLQBjAnoxM0lgFZVVnYdzZC4Blc3oR3PDNlQ26lz+ZWl8tzmvfa9aIb2sHKIEt90Hdm8n6u8KwzKuq1bpOG0N2aSsy91OvYxSFzitW8KXzcuIg6sIIemnU7auDMd2OjZm3bOTOgDt8Fr4+1eO8uw2PZzHHI+lT2EVj4d+OFCaG58MWlvt6j+.jRjIo3O+Bz58+8n1ouvC84MKJhvc2jjACvnRCbau.VtO4inL4HN8t9UX2e8+JCuy0QDbfuV78v+Xmj4d+OFkHlM929GY7V2F.rr8vpVKpetKxw9O+Wf0Yd3i7dCGabZzBKmRjNnKgpLRGzmrjnijY6TYGz2MIwnxNXVipoigtS9lbSy3vKBUvLEla8u+OdjeP1UqQ4ic5o+2ZZFnaagtgUdh1lLPXdBLIhkQqeK59keBiV+1jIk4Ftw0ETJxhBXrPjuJBGGRyyeQzWX4ClGlGbRKEPljznQDu05DMrOxvHb5rI1kpfSi1jk7siOdYP.g6sMIC6gtc9zhtwEb99BGGjXzzfd3VtIt0agt4iNZiI45Iducny2bYFbieKgc1irDAJkDQ3XB2aSh6zAkPfloIIc1l3NcHdPOzjfgmOJkh1ezu2iLBBcSarqVGyRkPllR7ngjNd.YQiy61yCqvgLir3Xjoo.442PyvDl370C99JkxGHIc555GosjdAu4g4k+e++si7Cp9YuHm9+o+mo94dOJerSiWsVT6ruK69o+aj7+8eCQc2mxm7rz7sdOpeg2G2VK.78OpxjHV5ckOmcuzuDQZDy89+9T+buMdsWFoLif0uECuyMY+K+qXzcuIlNNXVoxCzQptyMOs+I+mvt4br2W7qQ6VWif30IczHFdu0vxuBy8g+A31Zd.XzcuEa+q+mIXqMnyu8RHShvewkws8CV9rrzXh61krgiQuwhXT5w2Z4Sx0yf0tFa9K9+gzwio8E+Q3sxpXX6RvcuIq+u7ekwabW1827Kvq8hz3c9Ppdt2gc+r+CB19djEFPZu8IczvGYDDZlVX4WAiRkASSTxLDACIc3HLbKgNGtpqjmiiXjowHU4iLPcaSzcLgCDElLd5lrNCgbSYUsZ0C8VRuf273o5nJ5V14s6b0F3sxIIdPWLJ4g4Ha7ZLGkOwYn467QTZkS9Pe7pw8HczPh5sOQc6.FF3ToFkO9ooxINKnogckpHFMhc+0+2Idu8Yz4uI9Kt7CzQpl9UnxpmETJB2cah1aGX60Ag.CCSrpWmZm77SaTJKKWFd6qQz9ax3MuK5lVOzj4pRSIabeDgiQyvBCWezMezeZtHJfwarFiV+1D2aWzs8ozpmk49feBV9UXe+Rr0+w+DIgiPMPhYsZT4jmGS+xDs+9PVFYgiwrbUzrezuznaXhU0pXVtLZ55nRRHa7XRCFhin4g90OkRRVbBxjDzj46LVcSKzMbQSyHWX49DNlzAikKWFOOuBgiYXLu3+K+udjePe2ip7CEMMCLrcvvqDlk8QWkO4oldw4UhxG6zLd86.15j1uOiV+V3u3wefNRUSOeP5X54iUkJX34lm7SaWpcl2h5m+8vp12VdKMaabp2DCuxHCuAo82mrGxBsISHPDDRVbHXP9wTdL80PZ+dz6a9RB15t30dE7m+X3uzwlVElIOepTIFd932bI7leYbp0j5m6cvz0CDBJchSge6GsGXlDwgkWEzsLPDIHY7PDiGfJ6HzvcYYjkFiJ8a2mJ5FGrHlL91HNlLeHFLXvz+slMO7BTE7lGlK9w+ouz9lqY6fckFTZ4Uowa8gHSSwnTYRGOhwquF51NHEoD2aOjQIHiSHseeRF18A6HUMMzLLxaZIaWLzsxywhoItKsLkVdULuuYWgloAFddXZXiLQPZRHJ4CYXmnjHxhxsa9AeOz3QmrPMi79evqQaJerSh+BGGuFyilgIYwgjELlzz.TZJbpWGm1yiSsl3M2hT+buKtsZC.tMmGmZy8HyUgltNZ1N4QbookWEm3PDggHSO7NWMuA2hQjDiTkgttAlVVXZZO8nJETvCiWpNUxzwEukVAyRkoxINMwC5gX7Hh1YCFb8uhjgCHMbDit6cHrydXdD6cBcKCr7p7BquKraLGy+Q+AjEGilgIld9XWs9zprD2eWjIBzsswoQa7ZkGUwD2ulkjWt3I+aGVjJIYoIHSSORiw.kTfLIFYRLZSl0nV4S9qIyZTMMsoqjvIIC86NwoJX1iWnu5OoeMfbqhqYlOLb0zOX1VFGQTmsHoWWjgiIKIAY1SwFpRSC8Iex7K.L8J8PGefh9cHX+sIZ+8PJRvxzA+Vyi27Khgq6T2u9hFkTlmXTQxz4vgloMZ1Vnq+s8vwj1jdhw1bbbJ1cry37BU3XR+Z.PiK79XVtxCzuCi15dftNN0ZPkieJps3wwsYa5eyeKgacWRGz+E4k6yLxBCIb6MIb2MQFGgtiMtsWDu4W5Yx3+SWSGCKazsrNRyEDUlDYRBYIwfThRm7oats0zipLYD7WsZ0uW4XKX1kmp933nNGHRCFxn6dS.n7wOEJkhdW+Jr+W7qnyW8IHhhnzINMdsVjxG6LT4DmAukVgrzDz8bfAO3yWVTvzQnmcsmxYRwCCMcLMbQXZMcJfo3Q2eJShn56djCQ3XB2XMB27tHhhwqQY7ZuH9sWFCOuo8yhHH+O5lV31dgG4vOdR+hHShAkBMCCLb7vzyCcqiPtINHGGxIIGUWGMGKzsbQ+97nxjkfbAELgmp93n4676bjdbxjHB2ayo+8nv.18W+uRmu5SHdPObm+Xrzu+eJy8N+XLqVCyJUvzw8Q97kzuK6c4eC.L2E+wG4eNdRj2d3dXL1Cx.oHFdXIQcx0yAQTE0IuCUcaNOMtv6SZv.5e6qyn0WCQTD51131do77633R53QL5d2jQ2cMFuwZXWsFK769mP4S7vqb0j9EIMbHxzLzzMwtTELKUMeIJcHQIyPlDSVRBJYd6laZ5dvzMuviJE7n4Y5QUzzMvx1iTaSDYIjEFhRjM06FIiGgHJDMCCjYRDAiY7l2ifCrguseIJe7yPky81.46Sjzg8It6dHSDSmkiprz7QcWX.ityMPSSiZm5svvxFjhGpkle.jpC0WmlkEFkpg4nQnxRIKJ.o3gU8kClaG82ite8kX7ctEXZR4ieJbaMe9vMZmMHr69nDoXX4fUkpX5VJuSS2eW5esKy30uCh3XLc8PodzBTxLAoCFfXzn7jgZZfQoRG4j.OokyyhOX1vpoCV1n677cTHVvq+7LsONLbbvpVKzGzmrvQD2qSdyIcPUERGzGcKaLc7P+P7F7I6Sjg29ZHiBPpj4Si6nXjIQjFLlnt6hltIYhXzMMyGFMhTjpGc0ETJ4g5qyvxAmFMHMnW9bTc7XTOjj0NYtcDr6lz4JeNCu4WigWIDQgT93mBw3gjLpKYQwftddeRnoOMxgQatF6coOAQT.s+vOl5u86iS8VO5q+CdbYiGABAZ11X5W4HOs0kRAYQwnRRPJyxs0ssCl11EBGE7X4YZebXUpJUO44yarn3HB2dS5byuBu96Q5vAjLnCtMZiSiVX54iRJnzwVkjAcIYXexxhXzcuA511noqQxvgDs4cQDFfai1X33gTDx3MuK8t1U.i7FHSS2ffMtGxrTFt10IY+cHKMlrQAL3atL1Uphay4QS2Dwf9z6Neyi8qypVCLcbwv1E2lySb2tjDERTu8yOtxi.UZFYACIbPOzGOBcKK5dkOCcKarJ0.+EWhzQiHMIl9eyWj26EAADs88HKNJWP9DmlJG+zO1k6jTjPxfdHFOFcKKrKWAqRUO5SacoBURDBQ3AyZTcLrcP21qX.9TvikmoGUwct4Y9exeD1UJyde9ulQ26FDOpGV9kQ21BuVKR8yeQpbhyfciVX56yh+A+Wvowbr2W7aPLrGa7u8+K69Y+GnaaggiG1dkwpTUZ+g+Dh5tOit2sn2UtDA6tEkW43T4DmFzznyU9DFr1MX3Z2fv81BQPHik6vZ+c+eQ+aecV328+ALbKQuu4xz6l+1G6WW8y+93szJX35hW6kHb2MYzs9Fh10mznu+5zaRmqZUsFdysDNauNw86wnsVG9M+B7O1pL2E+HDm4br6W7qHd+cXs+q+ehtqM5Xhcq4o9Yem7e2b7S+DOxQVbBwc2mz3wXUsAdslGqp0N5SacQFoQQnhxW1zl5VX3bvj+pXJlWvigmoBGV9Un1AVAOY3HFu4c.x6TSKGOrq2LuiJW93XX6hxzl5m+cQ2wBTRFswcPljN84yv1B6FMwtdSrJUgjd6CllDOnKVtkvtbMJu5YAf382CKaWba1FS+7DpZnYgt02+GwC6WmouO9KdLB17dz8pWBsd6iX7n7Fl59cm6AcUpa8VT+seOPSif82ARSwz2iRsVjlu6OJ+KUoM0l8JYF5Vl3TuA0O26Riy+tX2XtmXemjEGRbmcHMXL10ah2Rqfc4i9zVWhDY5jbbjkeLJa2um.zjw8+2cXEWrhDlc4YaxQOvCE0NyagSsljFlOfZz0MNXr2UF24Z+suwT6fu9SdNbpzBQzHTx7jUpoqk2aB1t4GGwvBRio1YeWxRyymgoWEbak6YBmJsXtem+PjQQeaSicv7kvpTooGUo5wNMwQCerecSNpRllNUN1IIXy6ja1qw8HoWWRCF9P2WLdKrLK8G9+HMe+eR9yuTlWYlRUvsYtyb8le46av9jWICqxkwq0RSiZ3IwjpSkLb.dy0lxqbRLcN56sVYl.QbLhCJGKFZX33fgq+zi7nTJhiief0NnqqKMZznX.FOCyy3ppj6gBGaGbNDy+RMMsb+pX2F6ZsOTeO7dDNs8v93Ygk4vt5ZLr0wtwb31ZArK2.YTHwc2kfsVmxqr52Kx.SuxT4jm+w976M+RGxu6eelt6Z60knc1lrnP7asH9KuJlkO5BGSRpqJMEMYt.uoiGFN1nYnO0crS1MHSbGakJUdgu.fJ3UKJLbvigI4tvowbT8jmivc2hv81hAqcUbp0.qJuXGnrSpNUvtajeTH.24WjJG6jX39CQ33f00YZLxCZ.LCam71f+9h3XxxNdhvgggwibCnWvrAE0b6wwA4tvodSpe92kxqbbR5rOit00ItWmW36FWQvP5emqQvVqigqUteWZuD1Ml6PcDmuKJY1Ak1NcZmip63hgs+CL9.z00wvvX5eJl7WETDwwg.6Fsn069iQSSiMu2+MRuSDM1aqucVa7BxDcI85Q2u5yY7l2kpm3bTY0yf27K+Cd20pDY48CSRzAM.lAF11X33hld9aMzzzvxxhZ0pM0ja999EaxsYbJDNNDX53i+xGm3gcwo87jNbHi25tXUoBUN9Yvod6i1zE+HxDOvLd66R39aCREUO04n14tX9Tb+GX0Mxm4nQnRRym.XF5X35cPxn0e.2wd+KOHaa6Ba0OiSwq9GBljqiRKdbV3m7mvn6b87cGyf9XX6+HWaCOqXhGXFt10wvzD2EaSkSdAJerGeih8jPIyPkDgLIAI41p2vwCCWOzO3nJSh3nb4xOf6XKDNlso3U+CCGjqC6ZMnw4dWzLLIYPOjwQjNpOhwClVx4mGLYZqKhBve9kwaoSPoEO9O7sT+AdqQJRyakdUtOfzzLvvxES2ROvQelr5BKnfITHbbDXxtas1p4exaVT.Joh3tcvvqD5OFm79r.6p0n14dGJuzIepFi.SJCqLNgLU1zdmAKMLbcwvwANJstdAybT7tii.S1cqL27T2PO2nYwISmfYOuXhmY.nxJm4odZgoxDHiCQjDhJYxBM1.CCmbeBYYVrA2J3wRgvwO.lD4gUsF4KMISyG6bC4okIyjzI+8mVjYBDAiHagsCF3...H.jDQAQEXDRUV91ay1FMaWzMsJ1faE7DoP33G.Si73EDOqmIopLIYiymJ5JY18sdI7xas+BQiBdBTzIOyfnjBRhGiH5aENrbrwvwCsGyBmpfBlPQDGyfnxRIKL.YT.ZYY4yrTWGrbb+dygCkRgTJIIIAgH2TflllEticFmBgiYPjoY4CG4nwGDwgFZNtn449.SPrIlbKLLjtc6N0crdddzpUqB2wNCSgvwLHJYFhvPDQQnxjeaDGOhciqPHdfcGqPHdfNIsfYOJDNlAQkIHKN.YXXtvwACYZCGez+NukXxtiMJJZpvgooYg6XmwoP3XFDoHEQzXRiCISlWNVcWeL88fuSDGZZZSaw7I6VEaa6BGxNiSgvwLHpLIYAAjEFfRkuWVLb8+dC63IMAlqqKMa1jRkxKAsmmWQKnOiSgvwLHJYZdCfEFfTnv10.SWeL8K8PywwDa0e+UUovjay1T7p+LHRQFogiPDNFkLEMiRX56gk+2e8JLYa0655Nc4UM4eqfYWJd0eFDUVJhf.RiBPkkuI3r7KiwiXsLLwZ8ETvDJxv0LHRgfzvwHBBPIDXXjOI1sKWE8BAhBNDTHbLyg5f8t6nb2wJkfgAl9kyWbVGgcOaAytTHbLSgBkRhTjfbbHYg4avMccCrJUFyRGscOaAytT7tjYHTREpzTjQwHROX6sAfkAFtkvzuRwNisfCEEQbLCgZxQTBCfCJsJngotCltdX53hVQ0RJ3PPw6RlgPlIHc3PDACOnkw0P2xJeWp33f1CIwnSZ47333GX2w544U3N1YXJDNlgPIxHMbHhQCgLAZ5FX56gQoxn8PV51SbGaTTD6s2dDDD.juWUZ2tMkKW9E8OBE7JBEBGyPHEQjLnOoiFgJSftoAVd9Gz3WO5VHexticvfA.4tisQie3CK4Bd8mBgiYHjIBRGNf3w8HSjhlgNl9UvrbYLdDkgUoTjkkQZZJwww.4BGS5hzBlMoP3XVBQR9dfY3HPHQyvFa+J3TtF5VO7HNt+VN222GH2zaEtic1lBgiYHDoBDCGPx3gjIRQ2PGypkvpR0GZ+ab+tict4laZNMbccmZw9BlMoP3XVhzTRFNfrwCQJyvzxAK+pXWo9isiQMMMoZ0pSi3vzzrv6Jy3THbLCgHKgjwcId7.jYBzc8vrTYLKU4Q5QkIGUQWWepXgttdwQUlwoP3XFBoHgjgCPLd.pzLvxDmJ0vpZczdD43.xEOLLLJ5aiBlRwGaLCgLI+nJIiFgTHvvvB6pMvodCLJlnWEbDnHhiYATJTh7ATb1ngS2fa5V1XWsFNUZ7PmCGETvihhHNlAPIDHRBIMXLoIiQllBnP2xByxMvpZSLLKh3nfCOEQbLCfLKkzA8PLZ.p3TPSgtd9hx1pTIL87QqHYmEbDn3cKy.HSEDOrGo86hTjhllIlkJgQ4ZXX6lKZTrnoK3HPQDGy.jkDQb28IdPWxDInaZfSoR4cLpiyiUz39WHSSbGqooYg6XmwoP3XF.YRDIc6PTuNnRDnaYhU4ZXUqN5lO5N.892crau81ScGa4xkYgEVnvcryvTHbLCPVRLwc2k3dcIKMAMCKLqz.m5MOTkgMIIggCGN0crRojVsZ879xtfWgoP3XF.YZtvQZu8ISjgksMN0ahayVXX838bxjnNl3PV.xxxJbG6LNEBGy.jEmPT28IZPGjhXzJ6iayl3Te97bb7XXRKm666OMGG999E42XFmBgiY.xRiItWWRFzCYh.cKabpOG1MmCCG2G4iah6X888YgEVflMaB.NNN359nebE7lOEBGuAiRJQklfXzPDC6RZPX95PvzEmFsvsdKzsexQbXYYQ0pUKVAjELkhW8eCFUZBIi5QxftjDMoiQACOKrq2Fmlyen5XzGlPgVQeeLSSgvwavjklRR2ND2cejgwfBLbcwzqFVkqbn6XTMMsBghBd.J5bz2fIKNjf81hjN6fLMFcKSbpVC+FsvzyqniQK3GLEBGuAiLNfn81hvc2AYRJF1V3VuI1sZigqWgnQA+foP33MXDQQDtylLd+sIMIFcSablqEdyMOlVEUEofe3THb7FLYQgDr6lDevQULbbwswx30dELJJmZAOETHb7FJJkBQTHw6tCg6uGYwoX3XSo1Kf2hKiom+K6KwBdMlhpp7FHprTDwwjzuKI86fHXLnjXZ4g67yiWyEP2w6v8boTjllRTTDhCVT0SbGawjNe1kBgi2.IKIgnc2jv82jzfQnxxPyv.qRkwo4B3L27GJysMwmJAAAr4laxnQi.fJUpvxKubgvwLLEBGuARVzXB2YCh1YSxhBPWSGyRkwpdCrqUKuTrZGtSopTpotisa2tS+2mD8QAylTjii2.QDDv3MtKAabOxhhQy0F+4lGu4WDS2xGHZTTJ1B9gSQDGuAhHLff0uCAauAoIQXX4f6BKPoEOFlt9bTDMzzzv119AFZOkKWtvqJy3T7p+aXnTJRCFx3MVifsuGxnXbZ1.+ENN9KeJL8Kcnette2wt7xKSRRB.XaaW3N1YbJDNdCBUZJh3Hh6rOA6uCQC6SVl.KuxTYwiS4kO9QR3.dztisv6Jy1THb7FDYow4USY20IYXOxhSxWeik7wcgiSokNFFGxxvd+LQj39EKJDNlsoP33MHDiGwnMuMiW+NHBFhNZXVtBdMV.24ZiUkF+f2eJEBEEb+TTUk2fHc7.Fd6qwv6dKDAgn64PoEVF+UNAVkqV3F1BdlQgvwaBnTnxRIYTeFd2aw3MuKh3Prb7v+XmfJm3TX4WoPznfmYTHb7F.Jofr3Xh61gw2aMB1YCxhSvz2mpG+LT4jmGqpE6.kBd1QQNNdCfr3XB2dCB15ND2YWDAgnYXfck5TZkUo7Rm.CmiV0T9t7cWGBE47X1lBgi2.HcXe5cyqR+adURFO.MCCbqTEm1Kg27Kici4vv9GdeWLwyJ2e4Xu++2Bl8nP330YTJTpLRFzgAW+JL5VWmzf.LbrwcwEo1wOIdsZio2O7nMl3N1fffGnAv788w9PXTtBdyjBgiWiQoxPljPXm8n2M9szesafXb.dMaQsS8VT4ruCVkq8T77+sticiM13AbG6JqrRgvwLLEBGuFSVbLg6rAAqeKB25djLnOnA1UqQsUOGUW8bXU5GtvA7sticznQzqWOf7inT3N1YaJDNdMlz9co209J59MeEoC6BZfouONsaSoSbVJsxoxGJwOknoogttN5Gz7X555E42XFmBgiWCQIknDoD0cW5+MWlg27aHdzHzcrwegkoxwOC9KrLVUq8TeC9D2wVoRkoBGEtisfhW8eMDkHkzfgDr0Fz85eI8W6FjMN.2VyQiycQZ9N+Hbp03YhnA7sti89GcfEtic1lBgiWCQDLjAqcc5eiqPv5qSxvgnaZhybsnwYeapc52FqJMdl78Zh6XKFSfEb+Tz4nutgRQTm8YuO8WxdW5WQTuNnaZhai5TZoSRoSdVJs7pX9LH2FETvihhHNdMBYRLoi6wn6dC58MWlQ24lHBCwzyixG+LT+buCkV7DXUo5K6K0BdCmhHNdMhzw8o+MtJc+5Kwv6dSB61AoPfasFz9h+Xl68+I31r0K6KyBlAnHhiWCPkkQVRDAauI8txmS2q9EDt61nxxvoVcJc7SS0yeQpbxyhoWgY1J34OEQb7Z.YIQjzcOFr10XmK8uSuu9qHc7HrJWlFu0aS6262gxqrJ1kqilUQ2bVvyeJh33UXTpLThLR6rKc+luhNW92vfaecB60EcaSJM2hz57eD0e6OD24V.cmmOkH8gYxsh4N5rMEBGuBiRjgHbL8u2sXy+6+2nyk+Th5tO51l30pMkO4Yo967gT6ruC1OEdR4wdMnTHkRRSSQJk.4cNpsscgvwLLEBGuJhRgRJHt+9L71WmNe4ugd+1ujwatNjkgWiFT6zuMsd2OfJqdFba1945z8ZxlbKNNF.bbbnVsZ3337b66YAuZSgvwqfLYhdM5tqwF+h+d59EeBi1YCTYYn66RokWkE989in8G76ga6EetIZL43IQQQryN6vvgCAfpUqhiiSgvwLLEBGuBQtGTDD2aeFs9Zz8K90z8xeF8uysPFGhguOUO9onw69Az3s9.Je7yf9yYqsqTJDBAgggSsUukk0zisTvrIEBGuBgRHPDFvv6bc13e8umte0mwf6lKZfoN9KsDK76+el1e3GSokNN511noY7b8ZZRRPMLLl114FFFE42XFmBgiWAXReZDu2NLb8aw9ewmP2u7WQ+6bGjwgn64R4EVlFu0GRq26GSsy8tX5UBM8WLu7MwcrFF4hTEtisfhW8eEfrjHh2ea5b0ujs92+Go+WeYFsyF4QZXYP4EWgE+8+uvbe3uKUOwYyEMLe9FoA7sti0yyiEWbQxxx.xcGqmWgWXlkoP33kHx3XRF0mvcVmA25pr+W8oz4q9TFu05nxjX56i+RqPi29CXtO52iFW3hXUpF5u.axqB2wVvCiBgiWVnTjLpO8u9UnyU9L16K+kL712jndcyEM77o1pmg4+3+DZcweLUOwYvpTMzLKtAtfW9THb7BjIStKQvPh5rGCuyMo2U9b5bsOmte8UHseezbrvsYKJs7Io069Az9C+8o1YeaL8J8BMRiBJ3wQgvwKPlL4tFr12vde5+Acu1Wx30tIA6sCoiFhtiEkZuHUNyayh+j+HZbgO.uEV4EVNMJnfCKEBGOO4fFnJKNjzA8HpytDr05z6FWg8uzuhg245D0sGJYFVkqPoEVlZm5Bz3c+Hl68+XJerSglk0O3MLeAE77hBgiminTJTooDu+1z8peE8u5WRmqcYB13ND0qChvPjBAd0aP825cowa8Qz7c+.pb7yhybymKZTzuDE7JHEBGOK4fHLjIQjNd.I86Qb2cYz8tMcu5Wvvq+0zasaLcFgZ54ga8lT43mlVevOlFu8GRsy7V3zX9W1+j7.Lo6Que2wZZZVHpMCSgvwyPTJ0AsLdG5equlAW+Jz+peEi231D0qCwCFQVvHzMMwqQSJehSS6262kpm+hT9Xm.2Vy+Tu.kdVyDQinnnu2TNunDsytTHb7zvABEhzHDC5SxndD2qKAacOFbyqR+a+aYvMuVddLxxP21D2lsvct13u7pT+buKy8QeLUWMuTq51uZZZrzzT52u+T2w544gooYgvwLLEBGOEnDBDIgDt0Fz+FeMCt0Uo+stJQauNwi5SxfAHBCPIUX55SoEVfZm+co9YeapbpKPoEOAtMagoekWI6Oi62crc5zYp6XqUqFkJUpn6QmgoP33PiBYZJYIQHFMhzwCIYXWh61gfMuCCt82vn0tNit6ZDNnGHkXXYiS4JXUuAdMlmxqdFZ9teH0N8aS4icRrpT+k8OTOQTJEYYYjllRTTDPdDGEtic1lBgiCEJTJIhn.B29dL5tqkKTb2aQvl2i3d6QZvPRCCQDD.JEFdt32Zdpd12JeywepySokNFd0ZgY05X55+x9GpCESRDpiiyzHLbbbltNHKX1jBgiGBprTxRhQDDPVvXDQiHY7Hh6rKAacWFs9ZLbsaRv12inc2krnHzsrPywEuFsvtZMrp2hxG6Dz7BuGUOyaQkSbFrq0NuRDulUMBSSSpToxTGw566WjeiYbJDN9NnTJDwQDsylDr8FDr9ZLd8ayfMtCI6uCwiFfHXHhfPDwwnhiQ2xBmZ0wegUn7oNK0NwYv+XmA+EVB6J0wtVEL8p9Zmnwjxs555R61sefppTL8ulsY1T3XxT6VjRVbHhv.DgiQDGhXb.I86P3daP3VqynMtKAaeWB2bShGMDoPfltFFtN3VoL5Kr.tUZh67KR0icRpbl2lJm3LTZkS8LYaw+xlB2wVvCiYRgiI8aQ539Dr8lDr05Dr0cIX60Y7VqSZ2cIdzPDgiPFFSZRHYQwnjp7k6bkpTZwUvekUoxINKkV433M2B3znEVkphUoZX358ZunQAE7n3MZgCUVFxzXxRhIKL.QTPdWcFFfHXLw86P71av3cVmfs2hv8VmncxEMjoI4iLOWGLrbvtcUL8JiS4pX2ZdpbrUoxINCUN44wegigSsFO21qIETvqZ7FqvgRox2.Z81iv82gfs2hncVmv81hvc2lv82kzw8QFFhHN.YTBBQ7AQVHQSWGqRkozBKg6BqPokVgRKdL7W733zZNr8qgseILJWGSW2hMnVAyT7ZrvgBUlfrjDjoIjEERVTDxjHDwQjEEPxnAjzaeB2eGB2cSB2cGR5rIgc1m398HKJFzzP2zDCGGrr8vsZcL8JgkWYrZzhRKeLJszwnzxmjRKeb7V3XXUtBZZ5.EGEofYSdMU3HuuJxRhIt6dD0YWh1aWh1eSh1caB6rKQ6uKhA8IMXLhzPjwQjEmPlHAYRJxzTPSCSOWbqVCu4VBm1KQoEWFu4WFu1KiS8FXVpBld9X5UFyRkvv1sPznfYdd0T3PolNsrxRhxijH8fa7SyinPFGQ5ngD2aWh5rOQ6uKQc2gz82knt6SXuNHBBPkkAZ5XZailoMV1dXToFZNtX56gco530pM9yeL7VZY7W5D32dY7leQLKUNe8CLimjSoT9PcGaQSfM6xqjBGJojrjHRG1OOZhNaSbm8HoydD1MWXHt2tjMX.h3XDowHShQkjhHQfRjfHIATRzLLvz2Gu5MwsQKras.dyuD9yuHtMWD65MvpbELcKgoiGF9kvvyCSKmBQC9V2wFDDPZZJP9BYx22G6myKCpBd0kW7BGGrWTmlahjHjwwjkjGMQVbLxn7pdjLrGwc1knt6QR28Ip+dD0qCI859s4nPoPWSOe4DYZiosIZk8v21AcKOr7KgY0Z31pM9MW.2EVDu1KS4ENN1y05UZWo9pBIIILXv.BCCAx6bzhF.6MbNnkElbz9r3CNteZBYh3WvBGJEJUFYwQD2ceh60gnN6Pbu8Ityd4BDc1m3g8PLnOhnw4FKSDiJQfHMAYV52liB.CSKL77vsdCbazBqVswqYabas.tMaic8VXWtJFt9XY6gtqKFtdX3UBCa6WIck5qJLwcrIIIzsa2GX2wVsZ0B2w9lJGjp.QbDI8NHB+N6QR28Hr6dD2aumsBGJoDUZBYYoHiCyyIQbLjbPoNShHKJL2Yo86PbuND2a+bwhdcHZXWR50gjQCPDDhRlgltA5llnaagtgE1dkQqlIFlNX33hkmGVUZfcyV4BFsW.2VKgW6EwsYKrqOGFt9EMi0OPTJERojrrrosbdVV1z7cTvqenjBToBHNDaxvUjfwvNH1bMF3nPeyxjEEQ53Qj1eOh5zg396RbmND2uCo859LT3PoPklPxfdjLnGQcyOhQbm8Hs69D1euoGwPDM.UbJxzXjoIHSDHDoHEIHSEHEBTpbQCSeOrKWEmlMwoVa7p2BmVygSiV3zXNrqjW4CCWGLs8P21EiIQUX6ftkSgnwSASZ4bee+oVo222e55frfWyPoPljP5n9v3dTOKFU5Hr25VDFuOq+a+OXGQBoC6iHZ3AQ5GiLIAUZdT+prTL+zO8SOTe+zTJLPhNfABLUJzURzk4+6FJIDGR5nAjNnCwc6PT+8ItaWR60g3gcIseehGOhr3HjHISpQllFYngRCDniDMDZ5jgI5l1XXVFKqpXaTEWqx35VEGq53ZWGGyZXZTFCkCDoAQQ.QOW+89rFJkhvvP5zoyzI.lqqK6s2dEGU4UP916SUXnDXhBck5AuOMJjzw8I7ZWkVi1Ey393sWBh95zWDCSbEtHFoR8PuOU6u5u5u5IFyotRgNYXpxvQJvSlQIUBNRA1pTbyDThTrDofHEMgHO5gjDDooHSyPlEePzDYHIiTkNonQjlAwZ5DoaSnlAQZVDnYPptIo5FHsbQyzLO5AamC96dXXYitkIZl1EqOfmyjllRXXHYYYnqqO0crEKd5WsX58oYB7jI3KyvAAtpru89TYJ1x7nGhBFS2NcIMMFWCKr0yEYzxDHyxPh7Qdep4d6sWdKVmI.UFHRQkkhVpDkJEMQFZxTzkBbjRrjB7UYLVkhmJCWYBtJIApLbTJz0jn.RjJjJMjF44nv10AiRdfgEY5FnzMPoahRy.otMJCCPyDklMnafBSPy.zzQnog39+MjPBhHH7kzqPyXDDDP2tcIMMEOOuo+ovwruX4PeeZVFtYILlLbUY3hb58ogpLrURz0UnTflTgoRiDiLDStO0y+wdepRyDyO7C9.PjBiGfVzHTiGgV3.TgAnEj.YigzHLDIfTfARLUfNJLQhlBLPkezEMEZZFDqTLTpNHxAWrqTklyu.d0ZC9kAm7bQXYZgA53pogRSO+HJZZHw.IfDMjE4m3kNas0VboKcIRRRnToRrvBKvRKsDkKW9k8k1rCJ0g99TsrTLQggRglFe+6S0UngIwZJFJkGo6SkZ5HPCykI.RBPIFBIiQKa.pzQnkNFMQ.JwXzxhPKShFx7pbXagtkA5FVXXakerAS67ofksM6Glv81deFjB1Uqi6xqP0yeNpu3Jn4WC7JAlNPQB1dsfRkJwMu4MQHDTudcVYkU37m+7zpUqW1WZuYvj8wSVJxj7daREGhHJlrzDTIw44ELI.dh2mlgllDccSzrrQ2zBCSioGsW2xN+e2wlsGDv5qsNcik3VoJyO+In767Nzb4S7HuOcR0zLs9r+EDACQKIExRfrLHSbPnOYnkIAU9m+qaXgU4xXWsJtUpgUiV3VqI10aga8VXUuI1UavMt2574+i+KzqeeV4DGmEO+ay4e+2mEVdEvzDLNHuDEQS7ZAJkhO6y9LTJEsa2lie7iyEtvEXokV5k8k1aDnjRjo4Ki7381lvtwDMXHg81l382m3d6QR+tjDLJ+9TY5S99zRkwtVcbqz.q5MvoVS7ZzDm5svpdKrpTmfq707M+e727+e68l8bbjdc2lO4dVYsWnpBqjfD.bsWX2Tpkl9ajTGRwDRQX6Xb3KbDd9SzW3K7ENr+bDVdr+rGI0eMkUyllKMHHAH1QAfZupbOmKRjYCPR.P1DnIA36SDHHCPTEJhrvu77dNmemCq2YGlKWct3kuIW9G+K3hyN2w96opxq+TT1qCLQRFYcUjUMPwRO1eG5ZHqYfhlNZYrPauWHlkFAixUvnbs8JMZMLJMB5EKyVEdHd+oukAdRHOxDjahKRsKeEFahI9g+phf2XFYjQR6VzrYyRwhEoZ0pL5ni919k1YGhhHz2i.OWBc5SvPa7ssSm.cQC5QT2VDsyVvtMPZ2FHsSCjatKRcZBcZihSbECU1WmRKm0.UMMj00QVy.YMczxjE0hkwrPEzKW9698zJ0HSkpnWXDzJTlLtprqZVZDzjILxgb45T7BWlwt7bG6+cTCFt2KFUMjsLwXuugZkFAyJUvrTULJWEix0h8zQFKTLs1qGIzh+SCCTzMQVK9EeDRoMMTXXXZSDIPv6kjzIlCGh81avvsWOdLOrU7e2dmswq0130KtDnQtND55E2oz9tD35QnmOHAxZZnlwBy8hhPauafaUpF5UFA8hUQqPr2qTLLQwHNMBJFlo83jrRbZEdSh3WM+zWFU880AlkiMClQkpXTdTLGoFlUpgYkpoKNnWkxelztxIeH3rKOe2itemxJ36HJJfH+.B8bweXu8l5b13MrOAC6iaqVXu6lXuylXu0lLXmMws413zbGb61EeOWjjkQQQEIi85TZq7nTJNpeISSzMi8dkQ4QvrTMLpLBlkqiYspXVpNFUphZlbHop9J86oeeaNR0Y9+9+GLJUE8hkPMaNTzxDqRoYfhwd+ciLnnF6qCQWX99EIhFddd355xvgCw11lfff21uzdmiH+.7G1GmcZP+MdFC1HdHW2uw5Xu6lwyGFm3imD43huqy2MeX78QRVF0LlnmKOFUFAiR0wbjpjoRMLpTE8x0POeATsxihtYZmQqZXDGIgtIxp5whFmx+dp5X+jeI5kqfdtRhYlofCPRzhAAADDDfqqK1113337d8QOS8jkqM986GOg7sGfWu13ztEN6rIC1bE5uwZ3zXSFr6l3zZW72Ks.RxxoGgvLWgz7SnXYhV9hXleDLpVmLiTCiZiRlJih4HigQ4xuy3la0LicATzzDyLSAuTRh3H4HJ111u2GwQjmKt8ZwvFaRuUVjgqsDcWeEbZrQ7wNFzI1F51t36EOxHBccAIITLzwHaNLpTGypwt31pxnnWsd7TxOeQTsxhpdFTLhMxohoIxFVnnp8NiatU0xk+D+I0xxhImbRLMMYrwFihEKJF5KmgISlLL5nihuuOiLxHjOe92O5Zz8M6X760E+A8waXOb6zL1.matFcWao38tyFavvc2FudcILHHtvAF5npZfV4Xg.YKKzrJfQoJjo1nXUaTLqNAYFcTxTYbzKWA0LYQ9GnahqnnfttNllljMaVrrrdksQvohYCpVsJe9m+4LXv.JWtbZ47Db1CIIIFYjQ3G+i+wb4KeYJTn.SLwDjMa121uzN0IJzm.GGr2dK5txBze4mRuUdB82Xcb2oAt8Ziuyf3F0x0NNWEAgnnafYwRXTcDxTcRrFcLxVaJzqVCixUPKW7d2QU2DECSTyXgrQFjU0PR8GtlhTWWm74yS4xkoVsZTtb4W4avepHbjOedtxUtBAAAnooggggXhQcFjjDrUrXQtwMtA862GMMsysCwmnff37VLnKdc6fa213zZGrarFcWdQ5s5yn+ZKg81agautDEDfrtNJFFXjs.xUMQUKC5EJhdkZXM53XM5jXM1EvZrIwrR82o1+NJJJjISFxlMK4ymmrYy91MhCMMMJVrHQQQHIIk5nRAm8PRRJ8nmAAAoCp3yiBGAt1X2XC5s1SoyBeKcW9wzakmgayswyt+d6K3gD55QTP.JlFjYjpXUcLrFaJxN5EHyDSE2ySEJhVlbnXZhZlrw8+j96V6emjYshttNZZZn9ZTMlSkeaVVVVDgw4HNut6Xi7b2qZHcvqWaFt8lLXiUn2xOkNKsP7BGuw53OXHRJJHqafpgEZUxflYVzJVgr0mfLiMEYm7RFYpSH...B.IQTPTAjcxKR1wtH5kFIVj3cbuXIKKirrLJJJnnnfrr7aWgCABdmmnH7GNjdqsDcVZd59s2i1KuHC2dU7Z0B29CHXucFrjhB54xSlQFkrWXZxO0kH2TWFyZihV9RXjo.JYyfpUNTLshaVqy4yHFgvgf2aHJvCeGa76zAm16xfMWgdO6wzdwGS2EdHC1bMr61gnff3FwJSVTpVO1TmUFmriOA4t3rj6ByRwotLZUpclHxhSCDBGBduAeGaFt9pz9oOh1O3+hVKt.1atFNs2E2g8Hvwknf.zxlkbiNEYm9RT3hWkrScQLqNVr2PrxEuc+r1aq9cNOxhCCgvgfWYRVNSCGNjNc5fqq6qkAFSJ+WlLYPWW+TefGGuM.8we3.bZtE82bM5s7io8ie.sl+aXvpqgS+tPXX7R6pREzyUDy50ovTyQ9KOG4m4FjarKfdoJnXJZofDDBGBdkIQzXs0ViG9vGRiFMRc.8qBkKWl4laNlbxIob4xm5UlIVznGce1Bryc+Czd96Sums.C1YKb6GGgAggnkKOEu3Lj6xWghydCxMwzXToFFEKg1d6jGYQCLd.DBGBNVR7oRiFM3IO4I7se62x8u+8Yqs150R3XpolBEEErrrHa1rmZBGgtN30uM16rM8WaIZuvCYm6cG5sz7LX6sHv0CUqLXUtBpEJg0nSQoYuJEl4CnzU+.rFaRTLLPR47WkjNoPHbH3HIJJBGGG1Ymc3a9lug+o+o+It6cuKMZzf986+ZYu9M2bSFarwXhIlf50qeZ8BFu9sn8BOhlO3Ow1eyejdq7TbZtC9C6SjqGZ4xQgot.El95T7ZeH4t3L60bVifVwRwhFxhe03nP7SGAGJItise+9rxJqvBKr.qt5pzueexlMKQQQr4laRTTD0qWmBEJfjjD850iM1XiC74kkkY7wGmRkJQlLYNYaHv8Vsn9CGfciMn6ydBMevWSyu8qo8itGCa1DIEUTMMwr9XjYzon3bWmRW4Co70tEViOkHBiWSDBGBNV51sKyO+7r0VawniNJW5RWhqd0qxJqrB+c+c+cDFFxe0e0eEexm7Inqqy27MeC+s+s+sDDDve4e4eI2912FKKKpToBiO93ToRkSTutDEEPnqKCVaI15q9eQy6eW57z4oei0wqeOjTTwrXIxM0ko1G+iH+b2DqwmhLUpiVoJhHL9df3mVBdkPRRh74ySkJUXzQGkadyaRtb4Ha1rHIIwsu8s4W8q9UHKKSXXH4xkivvP9zO8S4W+q+0jKWtSbGRmLWLbZuK82XYZ8n6xV+WeIcexCX31aSfW7wRrpVGqIuDku5GP0O4mRgKcEzy+timQNKhP3PvwRgBERmp4IFVTRRh986iuuOFFFokXsWudzqWOBBBPQQASSSxjIyoRoWSlKFsexCYie2ukVO3tLXikwoSGBccQuXIJe8aPkq7IT5F2h7WbFLpLBZVEdmxyHmEQHbH3PIw2BYylkKbgKfqqKZZZoIKse+9nnnjJlHKKefQKXhApz00Q9DrQohB8Iz0E6FaR6EeD69MeEa+M+uo2ydFAtCQVSkrSLA4t3bT6i+LJciOghycSLqTSrRNNgPHbH3HQRRBcccJWtLgggHIIQqVsX3vg333fooY5wPBBBRmPXIknMwHUmjy.yPWWbZtMsd78X8+W+Oo4itG8arAAt1whFieAp+i9ePkabaxeo4HSswQOWQgnwIHBgCAGKItmLg1saS+98w11FcccrrrPQQgvvvzYRZxi6jTzHIRigasNMm+9ryW+6Y26+mn65qBQQnakCqImfRW8io9s++jRW8CwnbUQGedJfP3PvqMdddzsaWFNbHZZZoibNeeeFLX.NNNoyfkSxinD55haqco0ie.q++6+.MezcY31MfnHzxli7W5JLwm+Ko7GbaxNwEwnbUQGedJgP3PvqM111znQCZ2tMZZZjKWNzzzHJJBOOO777R6Ajvvvzis344wfAC.hyaxqZUVR7bh6NaEGowc+Cz7Q2ktqsBxRxXVrDYu3rT8i9wT4S+bJM6MD8kwoLBgCAu1LXv.VYkUXqs1JcTBpppd.whDADGGGbccQVVlNc5vRKsDRRRLyLy7pKb36i+ftz9YOlU+O9eRy+6+KFryVHKIiV1bj8hyxj+heMi7w+XxN9ED8kwO.H9oqfWYrssoc61r3hKxSdxSX6s29.SwdYYYz00S6Jzd85w7yOOiLxHnnnfmmGMa1jBEJfmm2w+MbOgH2tsnySeDM+l+HMe3co65KCgQXVnHYmdNp+weFU+3eBEl4Zw6TUgnwoNheBK3Ul1say27MeC24N2g4medFNbHSO8zTtbYLLLRi9He97nnnPylM4e6e6eim9zmhllFUpTgKcoKQsZ0dkx8QTTDQ9dLXyUYqe2uks+5+2LbqMfvHTyXQtKbYl3W7+EU+3+OH6DWHVzP58ugpyaC9AQ3HHHfgCGhmmG999uxtoL4NXIebZO+FD7hjbzCWWW1byM492+97fG7.ZznA555TrXQpUqV50nxkKS0pUoXwhryN6v7yOOat4ljKWNlat43JW4JTpToWoioDXOfgatFsm+dr8C9ZZ+rEHX3PTsrn3zyRkO71T4C+LQjFuE3GjeROb3P1ZqsnYylzueebccekdblllTnPgz2LddbxZ+tLI4rX3vgzrYSVd4kY94mmkWdYrssIWtbL93iyjSNIYylECCCpVsJSM0TL0TSwVasEsa2lACFvXiMFpppL1XiwjSN4qz0RmlMX669GX667+GC13YDLbHQxxjo9XT+m9ET6S+eP1wunHRi2BbpJbXaam9FtG7fGv5quNCFL3U67sD2pySM0TLyLyPlLYDBGukv22mtc6R+98QVVlxkKyLyLCW3BWfqbkqvXiMFllloyZiImbRt8suMQQQr1ZqgjjDW7hWjYmcVFarwHe97GYucjL8w6s5yX26+eQqEd.1sZhjhBYqOJktxMoxGbaJN2MPMSVQjFuE3T8m3Ma1j+3e7OxW9keI+te2ui0VaMBBBdkmgCUqVkO3C9.bccY7wGmpUqdZ9xUvKgjwEnssMFFFbiabCld5oQWWmIlXB9vO7Cod85GXcXLwDSve1e1eF25V2hM1XCjjjXxImjImbRlXhIN1FBKVzXI5rv+Mcd7Co65KSfsCYqMJi7I+Tpe6eF4l3RwhF+.t4yD7cbpHbj7lsVsZwBKr.Kt3hLXv.FNbHsa2lff.xjISpGG788S+7lllXXXjlk9jNO7jrkkOuSRNkRZ+aee+i7qWWWmb4xgoo4AZZqjHF2XiMXkUVgVsZgppJiLxHTpTIJWtL111r5pqdfmunnHTUUOffR4xkQVVlM2bSZznARRRjISFJWtLlllIOv3pnzdWZO+8n0CtGC1bMBrcPyJOYmXZF4leJku1GgY05+fsiUE7hbpHbjbGpVsZw1auM5557y+4+b1c2c4K+xujACFvzSOMSN4jL1XiQ61s4q9puh986yDSLAiO93o+4jSNISO8zTrXwSiWpmKY3vgr4laxFarAat4lzqWui7qOYVfN1XicfFypc61b26dWVbwEYmc1gACFPTTT5pCLoRJurgxSXXHAAAohV6+qKYI.MwDSvsu8sY7wGGXubp34wvs2jc95ujce3eB2dcQ0JGEmdFJeiOh7W9pjYzIPQrvudqxoVDGdddo2cJWtbb8qecVe80YgEV.MMMlc1Y4i9nOhYlYFVc0UYwEWDMMMlYlY3F23Fb0qdUFe7wIWtbTnPAwRq90.OOOZ0pEqu95r3hKR61sOxu9QGcTpToR5z4JggCGxFarAKu7xzsa2zjZKKKill1261IO4wGEEw0u90S+7ANCwtwlzcoGS2EWf9M1fP+.xUsJEt5Mn7M+TxN5TnZk6602WAmbbpIbDFFR0pU4K9hu.YYYpToB+w+3eLccBN1XiwLyLCyN6rDDDfppJJJJTqVMt7kuLyN6rL5nihhhRp8rE7pQPP.NNNzuee5zoCsZ05H+5srrRORy9y+z9ag78OThSt99883ixxxouFCBBR+7tsaxtO5qY2G7mX3taRnW.Jl5jo5nLxG7in5M9DzJV9602SAmrbjBGIG2v119HeRRLzThEqSVLwkJUhZ0pkFlpkkU5a9JVrHiN5nTqVMVc0UILLjnnHxkKGUqVM8bzBd8QUUkrYyRkJUXvfAG6X5qVsZTnPAz00OfXfooI0qWGGGGbbbdgbkjL8ySDWfXGwlzSGG1bEM48KiO93wQ3DEQjuONM2l1e62PmG+Hr6zEYMErpOA4t7UI+ktBlicg2aW.RuqwQJbzpUK95u9qYyM27HeRRrV8XiMFyM2bTpToziVjzzV999333j5dxDQFEEkz69355l9FuSRWU99FVVVL8zSSsZ035W+5GaxQMMMoXwhXYYcfH6JWtLe1m8YbyadyWZ0vFLX.6ryNzrYSZ2tMQQQoyVz50qmNVAedRR1skkEUqVM1KJtCY31aPqG+PZ+rEvePerFoJibsOlpezmgU4pwhFhjj+NAGovwfACX4kWlkVZoi7IwvvfhEKhjjDSM0Toc7YBdddXaamNCGhhhNfvguuOttt366+Fe9YAjdG+2zH1NrdmoWudr0VaQiFMRS.a2tcILLjrYyhsscpqYGe7wSm94G1Qa752gAq+L5s7SYvFqgWudHqpf9HUovUtIEm8lnVnhPz3cHNRgij4tvwcF4jYJYxHi6k87ztca5zoC999ouoJIpjjvcCBBRCiUT902MIYkH7u9u9uxW8UeEO5QOhs2d6znZjkkoToRbgKbA9zO8S427a9Mb8qe8W3XP6Gu1Mo02dOZ83+a752AYUELKVlriME4u3rjchoQ0Tz7euKwQJbjbF2iqEwSh3nb4xuzjX555xt6taZ18MLLvxxJsGNR9348vhmmGCGNDHVbRSSLeEdahiiCsa2lkVZIle94Y0UWEOOOLLLvzzDGGG5zoCc61kc2c2zF2yxxhwGebxmO+AeBihHJLDm1Mo8ie.8d573MnKJFFjcronvzWEqwlBs7Ed67eXAGJGovQsZ03m8y9YoCekCijilXYY8R62Baaa1ZqsRafnjyRKKKefkVbRiikjc+gCGl1bQSN4jBgi2xzoSG91u8a4wO9wLXv.tvEt.+pe0uJMA3qs1ZoNmc80Wm4med9c+teGJJJ7y9Y+rWP3HJLj.Wara0f1Ocd5r5R3Ovlr0pSgqbcJe8OF87hDj+tHGovQRR199Rx.cYmc1gG7fGvhKtHRRRjKWNLLLPQQ4.gu533v5quNO4IOIsCFWbwEQWWmJUpPgBh677CMIh4IWGe5SeJ6t6tTqVMpWuNe1m8YbwKdQTUUYs0Vi74yillF6t6tzpUKle94YzQGkacqa8BO2At1X2XSFt9JLrw530qGRRxnWrLEt7UI+zygpHZi2I4T0qJI4HYwEWje+u+2yCe3CQVVlBEJfllV5DzN4u2qWOt28tW5jz1xxhM1XCpToByM2bmluTE7RHwcr111r6t6xJqrBqt5pDEEwO8m9SYlYlgpUqhkkUZhw+k+xeIxxxrvBKvRKsD6t6trwFajdjy8iW2NzYwGQmE+V7GzEIIYzxkCyZiQ1wmlLiMIphND8cRN0cG6ZqsFyO+7rvBKvN6rCW3BWfQFYjzk5SxQWJWtLqu95rxJqj14iIs.8XiMlnJKuE44cGa974YlYlg4latCDwnttNEJTfUWcUpUqV51r+v7Kie+tzaw4o6xKfW+AHaXfU0wH+DWDypihlnCQemkSUgiNc5vidziX94mOsxLkKWl50qiooY5a5JUpDW4JWI8tSsZ0h0VaMt10tF+5e8ul4latWLwZB9Agjip333fttNSO8zTpToC0Z76eOrTpTozs41KzLXQQ31uCcV7Ize4kv21Fib4I+kliBydczyJNhx6xbpOHCjkkISlLL5niB.23F2fYmcVxkK9tIRRRToREt0stENNNbu6cuziojTVuW0A+hfSdRhJLoxYIebTWORbzbxioVsZGv18QAdD33fytaS+sVggM2A77PKaVxewYI2klEMwMJdmlSUgihEKxMu4MQQQgb4xgrrL+3e7OlqcsqQ4xemmCpUqF+7e9OmwGebt7kuL862mpUqxku7k4i9nO5PKyqfSWRhnvzzjpUqlJ1mL5CNLbccoSmNDFFxTSMEyN6rGHhw.WWF1XcF1XM7Z0jvgNDIAJ4xRtKbIxMwLnlQbLk2k4TU3HSlLL4jSllGCYYYt5UuJ0qW+.BAYylkKe4KSwhEoToR333P850oRkJGbdMH3sBpppGvgxpppuzRimr2TZ1rY5Vd6RW5RL2bykJ5.f+f9zeiUXv5Ki6vNDBnkMGlkGCypigQoQP5P74hf2M3T8pippJYxj4.iKt74y+BcQ39ME20t10HLLLcX9Hhz3sKIWaRrB.7c6C1mmACFvRKsDqu95DFFld87ZW6ZGnT5986Q+UdJcWaIBGZiRFCrFcbxM4TnmuHRhNG9cdNUENjjjRsQ+QkbyDeLXZZJht3cPjjjdg8G69IorsMa1jG7fGvZqsF0pUiIlXBtzktDUqV8.BA9C6S+UWhAarLdt1noYR1wt.Ym5RnZkU3.1y.HhGTvaLIysis1ZKtyctCMa1jO8S+T9nO5iX7wG+.hFQQQ3MrG81XYr2XCBrcvrVQxM4EI2DWFMKQRQOKfP3PvaL850KcJtYaaSwhE4F23FbyadyCXAgn.O7cbvsUSb1oAN85RTXHpV4vZzII63WDkiY1gH3cCDBGBdiHJJhFMZv+w+w+AarwFb4KeYt3EuHyLyLTrXwCjD0.WWrarN16rNd86QnuORxxnkIGYpONYpOFpZhNE8r.BgCAeuYvfAr81aySe5SoQiF.vryNKW8pWkpUq9BkrMvoOC2dCFt0FDZO.YjPMaNzKUAiRUPMaNwhU5LBBgCAeuHJJhs2da98+9eOqu95TpTIFczQ4pW8pLwDS7RaPrfACY3lqg8VaPfiKRl5XUsNliNFpV4iEMDUS4LABgCAGI6egLkLjlRl6FO6YOi0VaM788SOdRRo2SLGWud8R8oxf0WkdKuD8arN9N1nnYfQsZXUeRTLsDhFmgPHbH3PY+6N1M2byz4xx1auMO9wOl1saiooISO8zbsqcMlXhIvxxJsJKMa17.qmAoFqf5hySvNaQfmCF4JhU4wHynigpoH2FmkPHbH3Xw00ktc6lNLlVZok3d26dLXv.Fe7wYvfADDDvyd1y.9t4vRqVsX0UWEIfolZJJ0uK96zffl6PnqGJF5jo13jo1DnH7hzYJDBGBNRRh5HHHfFMZv8t283AO3A73G+X50qG555XZZRlLYRc.axiIQ.Yt4lgYuzEY7pEogaeF1sKgg9HoaRlwFiriNIJFhxvdVBgvgfij86NVccc777HLLjLYxjNxGSlWGOOIiTRCUMxqqQVIWZ33PXnGRRJnmIK5kpidoZnnJrVvYIDBGBNT1u6XqWuNCFLfNc5PoRkv008kNQ62OIyhiIFoL0szIZiUg.ejjTP0JCpEyiVtbnZXJL01YLDWsDbrj3N1IlXB777Rc77QMU1RVN0lllXF3P1d6vvV6.dNHqpgY9hXluZr2TDCg5ybHDNDbjre2wVsZUxjIC999G4BVZ+OVYYYb2dM5u0Swc2sIz0GYcULJMBYpVCUCgoFOKhP3PvwRh6XsrrRmIGuNzoyNztSaF1ZG78bQVQC8Jifdk5HKZw7yjH7urfScB7cvo8N30oEgAdnpafQoQvnRUTDQbblDgvgfScBbrwc2cwoytD54irlJYJMBFUpgrtP33rHBgCAmpDEEQniM1c2FmtcHzyCYM83bbToJJhA2zYRD43PvoFQg9D55h+f9DzsOACsIJJBYUCzJMB5EFAYEQ+abVDQDGBN0HxyGutcvqWaBrsIJLDIYITMMQqPIzJTFYQoXOShHhCAGI62crItbUUUESSyicIfGD3ia2131oIg9twUmwv.4LVnYkCk8sTtDb1BgvgfCkDOmLXv.1XiMne+9.Ptb4X7wG+XENhbswoyt31tEAAtHonfgUdzKTBYMCgnwYXDBGBNRhhhRcGaxZ7LJJhZ0pcrO1.WWbasKtcatWRQUQKeAzKTDEwZu3LMBgCAGKINcMwTagggDEEcrOtPOGb6rCdsZCdAHqpgd9RXVXDj0EM90YYDBGBNRRVhz6eSrkKWtWbIR+RHz0C21svYPK788PRVE0BEQqXIjElZ6LMhqdBNTRxAgkkESLwD355BP5L333HLvEutswuSOBCBQ2zDi7EPuXIwQUNiiP3PvQRx13qPgBoGO4Uwfa.D54gS2131uCQAtfZVTyW.87kPRL+MNSiP3PvwRhHwyuueONB78HnaW760mP+.TTUwHaIzJJRN5YcDBGBdk30tzoQQD45h6fd3Nb.QAAHongZ9BXjqLRphjidVFQmiJ3jmnHhhBHvykfdcIbPehBCPVMtbrZ4JfrpXwKcVFQDGBNwIJLj.WGBFNDOuADDF2woR5pnZkG07EPVQzp4mkQDwgfSbh78vueG7FzgPu34RpjrBppYP0xBU8LhYL5YbDW8D7Jwy2vWGUNOBC7wqaW752gn.ejjjQwPGEyLnnaJlwnmCPHbH3XIwyJ6ubr6+OedB87wsWa75ziv.ejThWEBJ4xirnLrmKPHbH3HIYcNNXvfCz.XVVVneHkTMz2Eu9cwePWv2GIEUTxlEsr4D1n+bBBgCAGJ62crqs1ZzqWO.He97L4jSdnBGQ9d30uOdC6RXfOxpxnYFakdIEwa4NOf3pnfijD2w1qWOZ1rIP7QTRlMGuT78HXPGB6O.BBPRRC0LYQyJKJhjhdt.QUUDbhiuuGd86g6v9D3GfjhDJYyHh33bDhqhBNRRbGa974SSFZ974OR2wFEDf+fd3MnOgggnpphhYdTxJDNNuf3pnfCk86N1ImbxCL5.yjIyg93RDNhF1inPejTLQKSVTsxgrl3sbmGPbUTvQRRDGGVhPeYD56g2fd3ZaSTP.xJxnk0BMq7HI5XzyEHxwgfSbBC7ve3.BG1mnfHPUA0L4PMaNj0DdT47.BgCAm3DEDf+vA3Ozln.ejkUQyJGpV4PRQ3J1yCHDNDbhSjuOAN8w2KYWpnfrYFTMygjvUrmKPHbH3jknHBC7IbnKANtDQHRJJnZkEMKKjkEuk67.hqhBN4HJhnvPBcci+HvinvHjjTPMSVTylWXm9yIHpphfik8avsDdYycz34vgMAttD36tmngDnKihgIJ5Ffh3nJmGPHbH3XIYMPte2wppp9hBG99wKXZ69DFFDKtHKiphIx5FHooI1damSPHbH3HIwcrc61EOOO.vvvfb4x8B81QXnOAC6QfcehBCAjhsQutNxppHIxuw4FDBGBNT1u6X2byMoa2t.PgBEXpol5EDNhBCHvd.9C2ybaxxnnahpoERxh2pcdBwUSAGIIGSYvfAoBGpppDDD7hes993Mb.911DFEfjrBZlFnXXJJC64LDBGBNRRRBphhR51oWQQ4klqhnv3NFMvNYcHnfbFSTsrDUS4bFBgCAGKItiUYuJhbX6N1Pu.BFN.+TgCIT0MQ0zDIQ0TNWgP3PvgRRTEYxjgwFarzimbXtiMJvG+gCw21NtTrxxnnafhQFjUDIF87DBgCAGII6NVsWgYEZbebLjPmgHEDmiCECCT0sPV7VsyUHtMffSLhBBHv1l.GWBBCPRRFoLlnlwDDIG8bEBgCAmXDEFPn6PBbc1ybaxnnYgjgIHKDNNOgP3PvIFQgg365FKbDEgrrBxpZnXXJL214LDWMEbhQTXHQ1NfqCDEGwg1ddTQRjbzyUHtZJ3DivPe7bGfm2PhBC.YPxz.YCKwPJ9bFhqlBNVhhhHLLjvvP.PVVFYY4WrIvBBHvwlPGWhBCQVVAUCSTM0EQbbNCgvgfijjVN2yy6.S4bCCizFBKgvf.hrc1K4n6uONDM.14MDBGBNV788oSmNXaaC.lllTpToWP3HN4nND45EmuCEYj0MQ1HivjamyPb0TvgRh6XsssY6s2lNc5..EKVjLYxfoo4A+5CCHvyEeWGHLDYIET0MP0vTHbbNCwUSAGIIGUw11lACF.DOONRx2wAHHfP+gwiLvnPPVFYCSTzLE433bFBgCAGI62YrFFwq1fW1z+B1qAvF5EOjhCi6iCEyLnXZIFhOmyPHbH3XQSSiBEJj5HVKKqmycrQDEEFmbTeWh78Ah.jQ1LCJYLQRz4nmqPHbH3PIIpBSSSpUqVp6XUTTNf6XihBIxOfPOOB8iOlRTTDRJxnnYhhQFQebbNCwUSAGIuRtiMLdewF46SPje77FURBTkPVSCYUMQqFdNCwkSAuwDEFPnmOAtNHEDARRHIKghjFxpJHopfjj3sZmmPDwgf2bBCIzYXb9MBh1abCpfjhBRJpHIIxuw4MD2FPvaLggAD54PnmKHEQ7ZQPET0DQZbNEwUUAm.DQfqCAd6MGNjjPRSEECwtT47JhqpBdiIJLjPeWB2a.9fjLxJZnnXJV4imSQjiCAGKggguzU.Yxv4IJHf.WGB871aNbHgppFnogj3dSmKQHbH3HY+KjojU.ollFVVVe2lbKLHdQS63RXTHxRxHooDKdHZ07ykHDNDbr355RmNcX3vg.wcNZR6mCwM.VnqKg9wGUIRVFYccjLLPVzwnmKQHbH3PIwcrtttzrYyCr6XKTnPZ2iF4GRnqCAddHEFhjLnnZfrllH4nmSQHbH3HIY5eEDDfqqKP774X+tiMJLLtcy8bHbuYMprlFJ5FuWdTkvvP777XvfAztcarssILLjLYxPsZ0HWtbuRO9Nc5PiFMnWudDDDjliIYYYzzzHe97TudcxmO+KehrcJhP3PvQRRhPMMMSeCelLYNvP7IJJj.WWB87PJLtyQUTUQQSG42Ca9KOOOZ2tMKu7xb+6ee1byMwwwgImbR9hu3KNVgijG+idzi3e+e+emkVZIbbbR8JT3T7pK...JTbRDEDUxJ4b1Ymku3K9Blc1YegqIm1HDNDbrnppR974S8qRlLYNn2UBCHJvAb8hGYfnBZ5wGW48fppjDcQqVsnQiFzpUKFNbHKu7x70e8Wy1auM555DDDjNSSdYjDc2N6rC26d2i6d26x8u+8oYyljKWtzjQ2ueeZznAc61kLYxfiiCyM2bToRken9urP3Pvgy92crJJJGXlilVQE1K4ndd364BQQwS2bUCj00I58fipLXv.VYkU3t28t7e9e9exFarAlllzoSGdxSdBQQQboKcoi84ILLjgCGxSdxS3e3e3efG+3GittNW4JWgO+y+bt3EuH.73G+X9W9W9WXkUVg+w+w+QVYkU3u9u9uVHbH3cGRFjOurkLcBQAgD34PnuGA604nJ55Hoo8C54teWAYYYz00IJJhVsZQXXHSLwDG6iavfArwFavidzi3q+5ulc2cW93O9i4ZW6Z7i9Q+HtxUtBPbxoWXgEnQiF7jm7D78841291LwDSbfHSNMQHbH3Mlnv.BcbisVeXbebHqpgrlNHe9W3vxxholZJxkKGW4JWAaaaTUU4K+xujm8rmQiFMdkdd51sK2+92m6cu6wVasEpppLyLyvMu4MoXwhoeckJUhacqaQqVs3YO6Yr5pqxCe3CY7wG+GrirHDND7FSTXDQdwsbNDuVDjUUQQWC42CZ4bMMMJVrHEKVjomd5zOeqVsvxx5U94oa2t7jm7Dd5SeJc61kQFYDlZpoX5om9.OO4xkiYmcVdxSdBRRRzpUKVbwEYwEWjwFarePDNN+e.TAm9DEuyXi7hm9WRRxnnpgjlAHbG6qLCFLf0We8zpvnqqS0pUoVsZG3nhlllTudcpVsJZZZ355x5quNqt5poMo2oMhHND7FSTTDQ9tD56STHfrLRZ5HqJZ.rWGbbbX6s2l1saCPZIve9x2lzCGIyAVWWW1c2cYmc1AGGmePdsJtpJ3Mmnf8RLpCP7NiUVSEYMcw7330.eee50qGNNNXXXbnI5TVVlLYxfggAxxxDFFR+98oa2to9I5zFQDGBNVRbG692cr62crgAQD56CtgwkiURBIUcTT0AQDGuxjHbXaaihhB555o+Ld+jToKEEEjjjR6ODgvgf2YHJJBOOO52ue5aJ000Ia1re2cCihhWMBQwsEcbUUTiGcfuGTUkSJbccoWudLb3vir72OOAAAzuee50qWZu1bZiP3Pvgx9M41KycremvQHQAdwsD8dQbHqnhjpF7dXKm+8kDOp3559BqWyihff.788w00kvvvzQgPxeOwiKOOIsw9g8ueTHDNDbjjDwQ61sS2crEJTfhEKlVhvnnHv2mn.OhBiCkVVUINpCwIU9AmjU1oiiCdddodb44oSmNGPr40AgvgfikvvvzO.dg2jEEEPPfOQA96EwgLxxZ604nmcTNRNpPxcheo6GWhq1QwhEOvLI4jfDWupqq+Z0wsJJJo1.PVVlACFvxKuLqu95zrYyCsDsKt3hr4lallmjWGDBGBNRRVHSYylM8ykMa1mycrQfmOg9gwawMYIPUKdRmeFZP9zqWOd7ieLMZz.GGmCMeA0qWmadyaR850OQ+9qqqStb4dsc5phhBYylkb4xgppJ6t6t7ke4Wxe5O8mXgEVfVsZ8RebCFLflMaxniNZ5HS3UEgvgfCkj65oqqSgBERuCqoo4AcGaPD9A9fuGDEgLxnpqgr5q2cNeaSqVs3a9lugG+3GefjA+7b4KeYJWtLEKVDMMsWZkO99fppJ4xkCSSSbccSOFwySRtPbbbHLLDEEErrrRcvbxnPHYQgeXQF466mVYlW2qSBgCAGIRRRnqqSoRkNP4XOf6XID77hGnwgQoQbnpnelJ4n6ryN7Ue0WwctycROxxKiadyaxbyMGiO93mnGYIQ3vvvftc6Rud8doQBr+bN466irrLYylMU3nd857K9E+B9nO5ina2tG5+OdzidD+y+y+y3448ZaLNgvgfikjdF3PIHffPGhB8A1yjaZpflBRJmch3HQfrZ0pXZZdnQbToRkS77a.fggAUqVkhEKx1auM111zpUKZ2tMVVVoQ4433vt6tKMa1Deeez00oRkJLxHifggAVVVboKcoi0J+EKVju9q+Z1YmcdsGBPBgCAuwDOrhCRa47n8JGqrhFvYGgiomdZ9a9a9a327a9MG5wDf3eg6RW5RoGU4jBKKKFe7wYzQGkUVYErssY0UWkUVYElZpoRcHqiiCMZzfc1YmznEFe7wYxIm70p+OdSPHbH3MmnHvOfH+.PJDYIIjTzNyMONJUpDkJU5D+4MoyaOtdlHe97LyLyvyd1y3a+1uEeeed1ydFO9wONMmJP7D.awEWj0We8zW2IQXbbikvSJN6TqLAuyRTTDQg9wawsHfn3cGqrh5YpxwdZQRuv355djk8Le97byadS9vO7CSqXySe5S4gO7goFeCh6+hG8nGwRKsDZZZL4jSx0u90Yt4l6GLgCQDGBdyHJJdWpDDF+mQQHoDGwgrt96E1pOHHfgCGRmNcX80Wmtc6hqqK24N2gNc5fmmGMa1jm7jmve3O7GnUqVnqqS4xkYhIlfBEJ.7cGU4ZW6ZbqacKdzidD111rvBKvctycnYyl.wiNvkWdYhhhX1YmkO5i9Hlc1YEiNPAmQXu1YNJLHNhin8axMk3iqbF5nJeeY3vgznQCt6cuK+1e6uk4med50qG6ryNr95qS+98Y80WmACFvyd1ynVsZToRE9vO7C4u3u3uHU3Hw0qyLyL7m+m+myTSME24N2gkVZI96+6+6SSHaxvQdpolhO+y+bt0st0qznI7jDgvgfikff.777dgxwJIEQTP.QAADxd9TAh2jap5Hqp.mgppxIMIKtpDRb75gQhqWGYjQ3S9jOgLYxfqq6KrdDxlMKiM1XL6ryxO4m7SRWOBGG6OWKINwc+GcxyyiVsZkVYli50pP3PvQRhI2Z2tcZ+.j1x0ZZwyYT+ClzOIYhywgtNRmg5iiuujrnk9rO6yXpolJ8nJOeUYRDFRZq7jip77jLJBu90uNiLxHG6BYJSlLuRMgVxN.NwB9IcHKDecte+9rzRKwvgC4RW5RBgCAe+34cGa+98Ahm4kVVVnqHGO.e7cQxm3inHIgBxHophj76Gu8RQQIcRccRbjAYYYLLLnVsZTqVsSfWgGjtc6xSe5SYwEWj986mthO2Zqsv11FCCiisEze+3Jqfu2r+4wQh6XSMEUXDgttwCpXhWKBRxxHopKFYfuChppJYxjAOOOdzidDO7gOjVsZguuOKrvBDDDvUu5UekZAcgvgfikj8RZxalR9ynnfXQCeOjhh.jhixPQ88hjhdViDCKZXXP1rYSS1Zxr7HJJh74y+J0XaBgCAGIIFlpPgBomiNwElQQQD54SjuGgIBG6M4udenLrm0HQLezQGke9O+mittNas0Vr81aSsZ0X5omlqd0q9BqigWFBgCAGJ62cr4ymOMYYFFFwtvLJ.YMMzJVk7SOWrmVzyP9omAsr4ea9RWvgfjjD4ymmLYxvvgC4oO8or81ayryNKW6ZWiImbxWotmUJ56ybCSv6UjXi68WN1Dgi.WGFt4Zz4oOB21MAYYLqTmxW6iwr1XukekK3vHJJh1sam5IljinTpToWowVnP3Pv2ahhh8mRf8.bauKA11DQHJ5VXVaTTyj83eRD7Vkje8+0MmT++CBPGnFp5zyi.....PRE4DQtJDXBB" ],
+					"embed" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-1029",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 7492.480537593364716, 2600.164009963141325, 73.0, 90.844444444444449 ],
+					"pic" : "/Users/jbaylies/Desktop/Screenshot 2023-11-09 at 1.43.43 PM.png"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 17.982017982017972,
+					"id" : "obj-1030",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6848.0, 2305.262953162193298, 261.0, 71.0 ],
+					"presentation_linecount" : 3,
+					"suppressinlet" : 1,
+					"text" : "ensures same rhythms \nwhen accel = +/- 100%\nregardless of subdivision & BPM",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.709736585617065, 0.709736585617065, 0.709736585617065, 1.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-1036",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 6838.0, 2293.0, 502.0, 535.0 ],
+					"proportion" : 0.5,
+					"rounded" : 18
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"border" : 4,
+					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-1037",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7148.119665920734406, 2435.059935092926025, 597.744307816028595, 648.812187731266022 ],
+					"proportion" : 0.5,
+					"rounded" : 18
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -15261,6 +15895,106 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1006", 0 ],
+					"midpoints" : [ 7390.251879632472992, 2741.255638897418976, 7484.917296171188354, 2741.255638897418976, 7484.917296171188354, 2471.917296171188354, 7579.897824883460999, 2471.917296171188354 ],
+					"source" : [ "obj-1004", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1004", 0 ],
+					"source" : [ "obj-1005", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-980", 0 ],
+					"source" : [ "obj-1006", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1014", 0 ],
+					"source" : [ "obj-1008", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1015", 0 ],
+					"source" : [ "obj-1009", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-992", 0 ],
+					"source" : [ "obj-1011", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1008", 0 ],
+					"source" : [ "obj-1012", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1009", 0 ],
+					"source" : [ "obj-1013", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1024", 0 ],
+					"source" : [ "obj-1014", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1024", 0 ],
+					"source" : [ "obj-1015", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1026", 1 ],
+					"source" : [ "obj-1016", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.599581182003021, 0.444276809692383, 0.836525917053223, 1.0 ],
+					"destination" : [ "obj-1005", 0 ],
+					"source" : [ "obj-1017", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1019", 0 ],
+					"source" : [ "obj-1018", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1023", 1 ],
+					"source" : [ "obj-1019", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-273", 0 ],
 					"source" : [ "obj-102", 0 ]
 				}
@@ -15268,8 +16002,130 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1018", 0 ],
+					"source" : [ "obj-1020", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1006", 1 ],
+					"midpoints" : [ 7657.5, 2926.548870444297791, 7617.601509034633636, 2926.548870444297791, 7617.601509034633636, 2823.0, 7713.0, 2823.0, 7713.0, 2496.0, 7590.897824883460999, 2496.0 ],
+					"source" : [ "obj-1021", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1021", 0 ],
+					"source" : [ "obj-1022", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1016", 0 ],
+					"source" : [ "obj-1023", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1023", 0 ],
+					"source" : [ "obj-1024", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1022", 0 ],
+					"midpoints" : [ 7434.64970451593399, 3009.0, 7597.300758957862854, 3009.0, 7597.300758957862854, 2836.473685145378113, 7657.5, 2836.473685145378113 ],
+					"source" : [ "obj-1025", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1025", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1026", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-256", 2 ],
+					"midpoints" : [ 7434.64970451593399, 3817.66148853302002, 6156.123798448396883, 3817.66148853302002 ],
+					"order" : 1,
+					"source" : [ "obj-1026", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1025", 1 ],
+					"order" : 0,
+					"source" : [ "obj-1027", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1026", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1027", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-217", 0 ],
 					"source" : [ "obj-1038", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.135195463895798, 1.0, 0.082440808415413, 1.0 ],
+					"destination" : [ "obj-1011", 0 ],
+					"order" : 0,
+					"source" : [ "obj-1039", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.135195463895798, 1.0, 0.082440808415413, 1.0 ],
+					"destination" : [ "obj-1012", 0 ],
+					"order" : 2,
+					"source" : [ "obj-1039", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.135195463895798, 1.0, 0.082440808415413, 1.0 ],
+					"destination" : [ "obj-1013", 0 ],
+					"order" : 4,
+					"source" : [ "obj-1039", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.135195463895798, 1.0, 0.082440808415413, 1.0 ],
+					"destination" : [ "obj-973", 0 ],
+					"order" : 3,
+					"source" : [ "obj-1039", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.135195463895798, 1.0, 0.082440808415413, 1.0 ],
+					"destination" : [ "obj-974", 0 ],
+					"order" : 1,
+					"source" : [ "obj-1039", 0 ]
 				}
 
 			}
@@ -15548,10 +16404,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1027", 0 ],
+					"midpoints" : [ 6372.5, 3390.804509341716766, 6570.563943028450012, 3390.804509341716766, 6570.563943028450012, 2853.022555589675903, 7434.64970451593399, 2853.022555589675903 ],
+					"order" : 0,
+					"source" : [ "obj-1228", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"color" : [ 0.114877834916115, 0.875369787216187, 0.128889963030815, 1.0 ],
 					"destination" : [ "obj-1123", 0 ],
 					"midpoints" : [ 6372.5, 3405.273544482288798, 6483.177431122498092, 3405.273544482288798, 6483.177431122498092, 3633.273544482288798, 7102.5, 3633.273544482288798 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1228", 0 ]
 				}
 
@@ -15561,16 +16426,6 @@
 					"color" : [ 0.114877834916115, 0.875369787216187, 0.128889963030815, 1.0 ],
 					"destination" : [ "obj-196", 0 ],
 					"midpoints" : [ 6372.5, 3405.273544482288798, 6672.5, 3405.273544482288798 ],
-					"order" : 1,
-					"source" : [ "obj-1228", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"color" : [ 0.114877834916115, 0.875369787216187, 0.128889963030815, 1.0 ],
-					"destination" : [ "obj-640", 0 ],
-					"midpoints" : [ 6372.5, 3405.273544482288798, 6199.5, 3405.273544482288798 ],
 					"order" : 2,
 					"source" : [ "obj-1228", 0 ]
 				}
@@ -18922,7 +19777,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-256", 1 ],
-					"midpoints" : [ 6228.5, 3129.003730375844953, 6102.047064939917618, 3129.003730375844953, 6102.047064939917618, 3177.003730375844953, 6112.047064939917618, 3177.003730375844953, 6112.047064939917618, 3282.003730375844953, 6118.047064939917618, 3282.003730375844953, 6118.047064939917618, 3321.003730375844953, 6081.047064939917618, 3321.003730375844953, 6081.047064939917618, 3863.003730375844953, 6130.311899224197987, 3863.003730375844953 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -19170,6 +20024,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-360", 0 ],
+					"order" : 1,
+					"source" : [ "obj-441", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-905", 0 ],
+					"midpoints" : [ 5611.5, 2418.0, 6348.0, 2418.0, 6348.0, 2403.0, 6827.0, 2403.0, 6827.0, 2276.0, 7239.5, 2276.0 ],
+					"order" : 0,
 					"source" : [ "obj-441", 0 ]
 				}
 
@@ -20716,7 +21580,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-640", 0 ],
+					"destination" : [ "obj-1027", 0 ],
+					"midpoints" : [ 6123.5, 3516.0, 6533.142860949039459, 3516.0, 6533.142860949039459, 2844.0, 7434.64970451593399, 2844.0 ],
 					"source" : [ "obj-596", 0 ]
 				}
 
@@ -21078,13 +21943,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-64", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-256", 2 ],
-					"source" : [ "obj-640", 0 ]
 				}
 
 			}
@@ -23661,6 +24519,27 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-912", 0 ],
+					"source" : [ "obj-905", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-975", 0 ],
+					"source" : [ "obj-906", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-976", 0 ],
+					"source" : [ "obj-907", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-205", 0 ],
 					"source" : [ "obj-909", 0 ]
 				}
@@ -23668,9 +24547,55 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.146975249052048, 0.0, 0.918583929538727, 0.76 ],
-					"destination" : [ "obj-640", 1 ],
-					"source" : [ "obj-914", 0 ]
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-906", 1 ],
+					"order" : 0,
+					"source" : [ "obj-912", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-906", 0 ],
+					"order" : 0,
+					"source" : [ "obj-912", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-907", 1 ],
+					"order" : 1,
+					"source" : [ "obj-912", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-907", 0 ],
+					"order" : 1,
+					"source" : [ "obj-912", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-938", 1 ],
+					"order" : 1,
+					"source" : [ "obj-912", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.101087048649788, 0.327100694179535, 0.700879693031311, 1.0 ],
+					"destination" : [ "obj-972", 1 ],
+					"order" : 0,
+					"source" : [ "obj-912", 0 ]
 				}
 
 			}
@@ -23685,6 +24610,46 @@
 				"patchline" : 				{
 					"destination" : [ "obj-256", 6 ],
 					"source" : [ "obj-934", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.876289069652557, 0.0, 0.855195641517639, 1.0 ],
+					"destination" : [ "obj-1027", 1 ],
+					"midpoints" : [ 6889.5, 2835.729324042797089, 7529.64970451593399, 2835.729324042797089 ],
+					"source" : [ "obj-937", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-938", 1 ],
+					"order" : 1,
+					"source" : [ "obj-937", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-972", 1 ],
+					"order" : 0,
+					"source" : [ "obj-937", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.876289069652557, 0.0, 0.855195641517639, 1.0 ],
+					"destination" : [ "obj-977", 0 ],
+					"source" : [ "obj-937", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1015", 0 ],
+					"source" : [ "obj-938", 0 ]
 				}
 
 			}
@@ -23727,6 +24692,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-937", 0 ],
+					"source" : [ "obj-969", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-96", 1 ],
 					"source" : [ "obj-97", 0 ]
 				}
@@ -23734,8 +24706,82 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1014", 0 ],
+					"source" : [ "obj-972", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-938", 0 ],
+					"source" : [ "obj-973", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-972", 0 ],
+					"source" : [ "obj-974", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1014", 4 ],
+					"source" : [ "obj-975", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1015", 3 ],
+					"source" : [ "obj-976", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.876289069652557, 0.0, 0.855195641517639, 1.0 ],
+					"destination" : [ "obj-906", 0 ],
+					"order" : 0,
+					"source" : [ "obj-977", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.876289069652557, 0.0, 0.855195641517639, 1.0 ],
+					"destination" : [ "obj-907", 0 ],
+					"order" : 1,
+					"source" : [ "obj-977", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1020", 0 ],
+					"source" : [ "obj-979", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-307", 0 ],
 					"source" : [ "obj-98", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-979", 0 ],
+					"source" : [ "obj-980", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1017", 0 ],
+					"source" : [ "obj-989", 0 ]
 				}
 
 			}
@@ -23773,6 +24819,34 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1017", 0 ],
+					"source" : [ "obj-990", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-989", 0 ],
+					"source" : [ "obj-991", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-990", 0 ],
+					"source" : [ "obj-992", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-991", 0 ],
+					"source" : [ "obj-992", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-542", 0 ],
 					"source" : [ "obj-995", 0 ]
 				}
@@ -23786,11 +24860,9 @@
 			"obj-115::obj-200::obj-36" : [ "boost[2]", "boost", 0 ],
 			"obj-115::obj-200::obj-38" : [ "smooth[8]", "smooth", 0 ],
 			"obj-115::obj-200::obj-42" : [ "depth / mix[2]", "depth / mix", 0 ],
-			"obj-115::obj-22::obj-105" : [ "function[106]", "function", 0 ],
 			"obj-115::obj-22::obj-106" : [ "MIDI syncrate[7]", "sync", 0 ],
 			"obj-115::obj-22::obj-145" : [ "accel[4]", "accel", 0 ],
 			"obj-115::obj-22::obj-153" : [ "live.button[4]", "live.button", 0 ],
-			"obj-115::obj-22::obj-155" : [ "live.menu[22]", "live.menu", 0 ],
 			"obj-115::obj-22::obj-159" : [ "live.dial[22]", "window", 0 ],
 			"obj-115::obj-22::obj-21" : [ "live.menu[11]", "live.menu", 0 ],
 			"obj-115::obj-22::obj-22" : [ "offset[3]", "offset", 0 ],
@@ -23832,6 +24904,9 @@
 			"obj-169::obj-1041::obj-114" : [ "function[15]", "function", 0 ],
 			"obj-169::obj-1041::obj-178" : [ "curves[9]", "curves", 0 ],
 			"obj-169::obj-1041::obj-36" : [ "curve[86]", "curve", 0 ],
+			"obj-169::obj-1071::obj-114" : [ "function[32]", "function", 0 ],
+			"obj-169::obj-1071::obj-178" : [ "curves[11]", "curves", 0 ],
+			"obj-169::obj-1071::obj-36" : [ "curve[88]", "curve", 0 ],
 			"obj-169::obj-1102::obj-114" : [ "function[1]", "function", 0 ],
 			"obj-169::obj-1102::obj-178" : [ "curves[87]", "curves", 0 ],
 			"obj-169::obj-1102::obj-36" : [ "curve[77]", "curve", 0 ],
@@ -23976,10 +25051,12 @@
 			"obj-194::obj-1148::obj-115" : [ "active[7]", "Active", 0 ],
 			"obj-194::obj-118" : [ "oct atk vol", "volume", 0 ],
 			"obj-194::obj-119" : [ "oct sus vol", "volume", 0 ],
+			"obj-194::obj-11::obj-21::obj-191" : [ "vst~[33]", "vst~", 0 ],
 			"obj-194::obj-122" : [ "low sus vol", "volume", 0 ],
 			"obj-194::obj-124" : [ "low atk vol", "volume", 0 ],
 			"obj-194::obj-125" : [ "fx sus vol", "volume", 0 ],
 			"obj-194::obj-126" : [ "fx atk vol", "volume", 0 ],
+			"obj-194::obj-39::obj-21::obj-191" : [ "vst~[34]", "vst~", 0 ],
 			"obj-194::obj-86::obj-813" : [ "live.numbox[25]", "live.numbox[3]", 0 ],
 			"obj-194::obj-92::obj-813" : [ "live.numbox[26]", "live.numbox[3]", 0 ],
 			"obj-194::obj-950::obj-114" : [ "solo", "Solo", 0 ],
@@ -23992,11 +25069,9 @@
 			"obj-208::obj-200::obj-36" : [ "boost[3]", "boost", 0 ],
 			"obj-208::obj-200::obj-38" : [ "smooth[6]", "smooth", 0 ],
 			"obj-208::obj-200::obj-42" : [ "depth / mix[3]", "depth / mix", 0 ],
-			"obj-208::obj-22::obj-105" : [ "function[107]", "function", 0 ],
 			"obj-208::obj-22::obj-106" : [ "MIDI syncrate[8]", "sync", 0 ],
 			"obj-208::obj-22::obj-145" : [ "accel[5]", "accel", 0 ],
 			"obj-208::obj-22::obj-153" : [ "live.button[5]", "live.button", 0 ],
-			"obj-208::obj-22::obj-155" : [ "live.menu[20]", "live.menu", 0 ],
 			"obj-208::obj-22::obj-159" : [ "live.dial[23]", "window", 0 ],
 			"obj-208::obj-22::obj-21" : [ "live.menu[16]", "live.menu", 0 ],
 			"obj-208::obj-22::obj-22" : [ "offset[4]", "offset", 0 ],
@@ -24010,20 +25085,18 @@
 			"obj-208::obj-3::obj-41" : [ "filter boost[3]", "filter boost", 0 ],
 			"obj-221::obj-113" : [ "limiter", "limiter", 0 ],
 			"obj-221::obj-115" : [ "max dub send", "max send", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-23" : [ "bypass", "bypass", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-28" : [ "Size", "Size", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-3" : [ "Regen", "Regen", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-60" : [ "Damp", "Damp", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-62" : [ "Dry", "Dry", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-63" : [ "Early", "Early", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-64" : [ "Tail", "Tail", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-65" : [ "Spread", "Spread", 0 ],
-			"obj-221::obj-153::obj-21::obj-40::obj-66" : [ "Time", "Time", 0 ],
+			"obj-221::obj-153::obj-21::obj-191" : [ "vst~[32]", "vst~", 0 ],
 			"obj-221::obj-156" : [ "Reverb Output Volume", "Rev Vol", 0 ],
 			"obj-221::obj-540" : [ "Delay Output Volume", "Del Vol", 0 ],
+			"obj-221::obj-56::obj-21::obj-191" : [ "vst~[28]", "vst~", 0 ],
+			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[29]", "vst~", 0 ],
+			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[30]", "vst~", 0 ],
+			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[31]", "vst~", 0 ],
+			"obj-224::obj-21::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-227::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
 			"obj-233::obj-1041::obj-138::obj-27" : [ "smooth[5]", "smooth", 0 ],
@@ -24054,11 +25127,9 @@
 			"obj-233::obj-138::obj-1" : [ "filter sweep[1]", "filter sweep", 0 ],
 			"obj-233::obj-138::obj-27" : [ "smooth[3]", "smooth", 0 ],
 			"obj-233::obj-138::obj-41" : [ "filter boost[2]", "filter boost", 0 ],
-			"obj-233::obj-15::obj-105" : [ "function[109]", "function", 0 ],
 			"obj-233::obj-15::obj-106" : [ "MIDI syncrate[4]", "sync", 0 ],
 			"obj-233::obj-15::obj-145" : [ "accel[1]", "accel", 0 ],
 			"obj-233::obj-15::obj-153" : [ "live.button[1]", "live.button", 0 ],
-			"obj-233::obj-15::obj-155" : [ "live.menu[13]", "live.menu", 0 ],
 			"obj-233::obj-15::obj-159" : [ "live.dial", "window", 0 ],
 			"obj-233::obj-15::obj-21" : [ "live.menu[14]", "live.menu", 0 ],
 			"obj-233::obj-15::obj-22" : [ "offset", "offset", 0 ],
@@ -24087,11 +25158,9 @@
 			"obj-550::obj-200::obj-36" : [ "boost[4]", "boost", 0 ],
 			"obj-550::obj-200::obj-38" : [ "smooth[11]", "smooth", 0 ],
 			"obj-550::obj-200::obj-42" : [ "depth / mix[4]", "depth / mix", 0 ],
-			"obj-550::obj-534::obj-105" : [ "function", "function", 0 ],
 			"obj-550::obj-534::obj-106" : [ "MIDI syncrate[6]", "sync", 0 ],
 			"obj-550::obj-534::obj-145" : [ "accel[3]", "accel", 0 ],
 			"obj-550::obj-534::obj-153" : [ "live.button[3]", "live.button", 0 ],
-			"obj-550::obj-534::obj-155" : [ "live.menu[21]", "live.menu", 0 ],
 			"obj-550::obj-534::obj-159" : [ "live.dial[18]", "window", 0 ],
 			"obj-550::obj-534::obj-21" : [ "live.menu[15]", "live.menu", 0 ],
 			"obj-550::obj-534::obj-22" : [ "offset[2]", "offset", 0 ],
@@ -24156,13 +25225,12 @@
 			"obj-822::obj-5::obj-813" : [ "live.numbox[18]", "live.numbox[3]", 0 ],
 			"obj-825::obj-5::obj-813" : [ "live.numbox[16]", "live.numbox[3]", 0 ],
 			"obj-826::obj-5::obj-813" : [ "live.numbox[24]", "live.numbox[3]", 0 ],
-			"obj-827::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
-			"obj-832::obj-1::obj-21::obj-41::obj-1" : [ "Phase[1]", "Phase", 0 ],
-			"obj-832::obj-1::obj-21::obj-41::obj-2" : [ "Divisions[1]", "Divisions", 0 ],
-			"obj-832::obj-1::obj-21::obj-46" : [ "TapMult", "TapMult", 0 ],
+			"obj-827::obj-21::obj-191" : [ "vst~[35]", "vst~", 0 ],
+			"obj-832::obj-1::obj-21::obj-191" : [ "vst~[36]", "vst~", 0 ],
 			"obj-832::obj-2::obj-191" : [ "vst~[24]", "vst~", 0 ],
 			"obj-832::obj-3::obj-191" : [ "vst~[26]", "vst~", 0 ],
 			"obj-832::obj-4::obj-191" : [ "vst~[25]", "vst~", 0 ],
+			"obj-839::obj-21::obj-191" : [ "vst~[37]", "vst~", 0 ],
 			"obj-841::obj-5::obj-813" : [ "live.numbox[31]", "live.numbox[3]", 0 ],
 			"obj-842::obj-5::obj-813" : [ "live.numbox[32]", "live.numbox[3]", 0 ],
 			"obj-889" : [ "function[110]", "function", 0 ],
@@ -24213,10 +25281,6 @@
 ,
 				"obj-115::obj-22::obj-153" : 				{
 					"parameter_longname" : "live.button[4]"
-				}
-,
-				"obj-115::obj-22::obj-155" : 				{
-					"parameter_longname" : "live.menu[22]"
 				}
 ,
 				"obj-115::obj-22::obj-159" : 				{
@@ -24293,6 +25357,14 @@
 ,
 				"obj-169::obj-1041::obj-36" : 				{
 					"parameter_longname" : "curve[86]"
+				}
+,
+				"obj-169::obj-1071::obj-178" : 				{
+					"parameter_longname" : "curves[11]"
+				}
+,
+				"obj-169::obj-1071::obj-36" : 				{
+					"parameter_longname" : "curve[88]"
 				}
 ,
 				"obj-169::obj-1102::obj-178" : 				{
@@ -24767,10 +25839,6 @@
 					"parameter_longname" : "live.button[5]"
 				}
 ,
-				"obj-208::obj-22::obj-155" : 				{
-					"parameter_longname" : "live.menu[20]"
-				}
-,
 				"obj-208::obj-22::obj-159" : 				{
 					"parameter_longname" : "live.dial[23]"
 				}
@@ -24925,10 +25993,6 @@
 					"parameter_longname" : "live.button[1]"
 				}
 ,
-				"obj-233::obj-15::obj-155" : 				{
-					"parameter_longname" : "live.menu[13]"
-				}
-,
 				"obj-233::obj-15::obj-159" : 				{
 					"parameter_longname" : "live.dial"
 				}
@@ -25057,10 +26121,6 @@
 ,
 				"obj-550::obj-534::obj-153" : 				{
 					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-550::obj-534::obj-155" : 				{
-					"parameter_longname" : "live.menu[21]"
 				}
 ,
 				"obj-550::obj-534::obj-159" : 				{
@@ -25339,15 +26399,36 @@
 			}
 , 			{
 				"name" : "Dry-ish_FX_plugin1_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Dry-ish_FX_plugin1_rnbo_pitchshifter.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dry-ish_FX_plugin2_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dry-ish_FX_plugin3_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Dry-ish_FX_plugin4_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25366,28 +26447,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "FilterDelaySend.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
+				"name" : "Instant Phaser Mk II.maxsnap",
+				"bootpath" : "~/Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../../Snapshots",
+				"type" : "mx@s",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Just_sm_ladder.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Linkwitz-Riley_24dB_highpass.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Linkwitz-Riley_24dB_lowpass.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -25422,8 +26489,8 @@
 			}
 , 			{
 				"name" : "MIDIstatus.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25463,13 +26530,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ParamEQ.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Pictogrammers-Material-Midi.512.png",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
@@ -25477,16 +26537,37 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Post-Crossfade_FX_plugin1_rnbo_chorus.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "Post-Crossfade_FX_plugin1_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Post-Crossfade_FX_plugin1_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Post-Crossfade_FX_plugin2_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Post-Crossfade_FX_plugin3_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Post-Crossfade_FX_plugin4_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25499,6 +26580,41 @@
 			}
 , 			{
 				"name" : "Pre-LPF_FX_plugin1_rnbo_overdrive.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pre-LPF_FX_plugin2_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pre-LPF_FX_plugin3_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Pre-LPF_FX_plugin4_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ProQ3_crossovers.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ProQ3crossovers.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
 				"patcherrelativepath" : "../../default/presets/SousaFX",
 				"type" : "JSON",
@@ -25513,8 +26629,8 @@
 			}
 , 			{
 				"name" : "Solo FX stutter tremolo filters.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25555,8 +26671,8 @@
 			}
 , 			{
 				"name" : "VFX_stutter.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25569,8 +26685,8 @@
 			}
 , 			{
 				"name" : "Wobble FX stutter tremolo filters.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25617,18 +26733,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bell.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Gigaverb.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "button_timer.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -25657,23 +26761,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "compressor_stereo.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "controller_bindings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "controller_bindings_preset_initial.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25706,23 +26803,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "crossover-calc.gendsp",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
-				"patcherrelativepath" : "../code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "crossover_plugin_or_gen.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "crossovers.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25741,51 +26824,58 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "delay1_rnbo_filterdelay.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "delay1_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delay1_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "delay2_rnbo_filterdelay.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "delay2_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delay2_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "delay3_rnbo_filterdelay.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "delay3_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delay3_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "delay4_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delay4_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25798,8 +26888,8 @@
 			}
 , 			{
 				"name" : "delay_sends_settings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -25818,37 +26908,37 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dry_comp_rnbo_compressor_stereo.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "dry_comp_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dry_comp_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dry_preamp_rnbo_ParamEQ.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "dry_preamp_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dry_preamp_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dual_loopers.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26022,13 +27112,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "gigaverb_pattr.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "go.background.change.gendsp",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/code",
 				"patcherrelativepath" : "../code",
@@ -26068,12 +27151,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "highcut.svg",
-				"bootpath" : "C74:/media/max/picts/m4l-picts",
-				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
@@ -26179,8 +27256,8 @@
 			}
 , 			{
 				"name" : "lowpassfilter_selector.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26193,8 +27270,8 @@
 			}
 , 			{
 				"name" : "lows_comp_rnbo_compressor_mono.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26207,29 +27284,29 @@
 			}
 , 			{
 				"name" : "main_env_params.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "main_limiter_rnbo_limiter.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "main_limiter_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "main_presets.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26277,8 +27354,8 @@
 			}
 , 			{
 				"name" : "metronome_settings.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26298,8 +27375,8 @@
 			}
 , 			{
 				"name" : "mixbus.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26311,23 +27388,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "mod_comp_rnbo_compressor_stereo.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "mod_comp_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mod_comp_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mon_and_foh_mix.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26347,29 +27424,22 @@
 			}
 , 			{
 				"name" : "monitor_limiter_rnbo_limiter.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "monitor_limiter_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver.rnbopat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "RBOP",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "octaver_comp_rnbo_compressor_mono.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26381,16 +27451,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_rnbo_octaver.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "octaver_extfx.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "octaver_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26486,22 +27556,18 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "reverb_gigaverb.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "reverb_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "reverb_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "rnbo.chorus~.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "rnbo.overdrive~.mxo",
@@ -26512,20 +27578,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "rnbo_ParamEQ.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rnbo_chorus.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "rnbo_compressor_mono.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -26533,28 +27585,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "rnbo_compressor_stereo.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rnbo_filterdelay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "rnbo_limiter.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "rnbo_octaver.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -26597,8 +27628,8 @@
 			}
 , 			{
 				"name" : "sidechained_kick_params.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26659,16 +27690,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "solo_comp_rnbo_compressor_stereo.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "solo_comp_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "solo_comp_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26698,6 +27729,13 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousafx_updates.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -26751,7 +27789,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26764,8 +27803,8 @@
 			}
 , 			{
 				"name" : "transient_crossfade_parameters.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -26812,16 +27851,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "wet_preamp_rnbo_ParamEQ.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"name" : "wet_preamp_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wet_preamp_rnbo_or_plugin.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
