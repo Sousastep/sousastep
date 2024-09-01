@@ -41,6 +41,77 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
+					"hint" : "enable \"scatter\" beat repeat, which never stops recording into the half-note buffer.",
+					"id" : "obj-79",
+					"maxclass" : "live.toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 981.5, 580.5, 16.5, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 189.25, 1.5, 16.5, 16.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "off", "on" ],
+							"parameter_longname" : "live.toggle",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "live.toggle",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"varname" : "live.toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-76",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 954.5, 543.200007677078247, 72.0, 22.0 ],
+					"restore" : [ 0.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr scatter",
+					"varname" : "scatter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 935.0, 650.0, 54.0, 22.0 ],
+					"text" : "clip~ 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 935.0, 618.0, 33.0, 22.0 ],
+					"text" : "-~ 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-82",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -48,22 +119,6 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 2687.199999999999818, 921.5, 33.0, 22.0 ],
 					"text" : "* 0.5"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-28",
-					"maxclass" : "number~",
-					"mode" : 2,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 2470.0, 1108.0, 56.0, 22.0 ],
-					"sig" : 0.0
 				}
 
 			}
@@ -890,7 +945,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 1007.0, 664.0, 31.0, 22.0 ],
+					"patching_rect" : [ 935.0, 583.0, 31.0, 22.0 ],
 					"text" : "sig~"
 				}
 
@@ -1381,7 +1436,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "modulates the stutter's startpoint as accel increases.",
 					"id" : "obj-246",
@@ -2153,7 +2208,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "determines how much the stutter volume will decrease as the acceleration increases from neutral",
 					"id" : "obj-235",
@@ -2765,7 +2820,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "positive offset can improve transients at the beginning of the loop by shifting them outside of the window.",
 					"id" : "obj-22",
@@ -2847,7 +2902,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.",
 					"id" : "obj-159",
@@ -2946,7 +3001,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "stutter subdivision selector",
 					"id" : "obj-106",
@@ -2998,7 +3053,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.2, 0.749019607843137, 0.858823529411765, 1.0 ],
+					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
 					"appearance" : 1,
 					"hint" : "slow down and speed up the stutter FX",
 					"id" : "obj-145",
@@ -3042,11 +3097,11 @@
 				"box" : 				{
 					"comment" : "main phasor",
 					"id" : "obj-102",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1521.0, 239.0, 30.0, 30.0 ]
 				}
 
@@ -3226,7 +3281,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.764705882352941, 0.764705882352941, 0.764705882352941, 1.0 ],
 					"activebgoncolor" : [ 1.0, 0.611764705882353, 0.0, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -3277,8 +3331,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.92549, 1.0, 1.0 ],
-					"activebgoncolor" : [ 0.101960784313725, 0.901960784313726, 0.537254901960784, 1.0 ],
-					"activetextcolor" : [ 0.07843137254902, 0.07843137254902, 0.07843137254902, 1.0 ],
+					"activebgoncolor" : [ 0.0, 0.854901960784314, 0.282352941176471, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -3343,7 +3396,7 @@
 				"box" : 				{
 					"comment" : "dry right",
 					"id" : "obj-35",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3355,7 +3408,7 @@
 				"box" : 				{
 					"comment" : "dry left",
 					"id" : "obj-71",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3708,7 +3761,7 @@
 				"box" : 				{
 					"comment" : "stutter right",
 					"id" : "obj-33",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3720,7 +3773,7 @@
 				"box" : 				{
 					"comment" : "stutter left",
 					"id" : "obj-29",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -3732,11 +3785,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-26",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 617.0, 2580.0, 30.0, 30.0 ]
 				}
 
@@ -3745,11 +3798,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 569.0, 2580.0, 30.0, 30.0 ]
 				}
 
@@ -3820,7 +3873,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 859.0, 686.5, 135.0, 64.0 ],
+					"patching_rect" : [ 863.0, 711.0, 135.0, 64.0 ],
 					"suppressinlet" : 1,
 					"text" : "when stutter is enabled, stop recording into half-note buffer on beat 1 or 3"
 				}
@@ -4325,14 +4378,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1455.0, 465.5, 758.0, 1036.5 ],
 					"proportion" : 0.5,
-					"rounded" : 19,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 19
 				}
 
 			}
@@ -4350,14 +4396,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1812.0, 81.5, 560.0, 353.0 ],
 					"proportion" : 0.5,
-					"rounded" : 19,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 19
 				}
 
 			}
@@ -4374,14 +4413,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 92.5, 1593.0, 348.0, 583.0 ],
-					"proportion" : 0.5,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"proportion" : 0.5
 				}
 
 			}
@@ -4408,13 +4440,13 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 17.982017982017972,
 					"id" : "obj-107",
-					"linecount" : 3,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2254.0, 502.5, 261.0, 71.0 ],
+					"patching_rect" : [ 2254.0, 481.0, 261.0, 158.0 ],
 					"suppressinlet" : 1,
-					"text" : "ensures same rhythms \nwhen accel = +/- 100%\nregardless of subdivision & BPM",
+					"text" : "ensures same rhythms \nfor max accel\nregardless of subdivision & BPM\n\nalso ensures same rhythms \nfor min accel\nregardless of subdivision & BPM",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -4433,14 +4465,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2239.0, 465.5, 508.0, 601.0 ],
 					"proportion" : 0.5,
-					"rounded" : 19,
-					"saved_attribute_attributes" : 					{
-						"bgfillcolor" : 						{
-							"expression" : ""
-						}
-
-					}
-
+					"rounded" : 19
 				}
 
 			}
@@ -4478,16 +4503,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"order" : 0,
-					"source" : [ "obj-103", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-961", 0 ],
-					"order" : 1,
 					"source" : [ "obj-103", 0 ]
 				}
 
@@ -5726,7 +5742,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-273", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-276", 0 ]
 				}
 
@@ -6232,6 +6248,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-30", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -6297,6 +6320,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-64", 0 ],
 					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-273", 0 ],
+					"source" : [ "obj-59", 0 ]
 				}
 
 			}
@@ -6472,6 +6502,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-79", 0 ],
+					"source" : [ "obj-76", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-77", 0 ]
 				}
@@ -6488,6 +6525,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-75", 0 ],
 					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -6935,19 +6979,42 @@
 
 			}
  ],
-		"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
-		"editing_bgcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ],
-		"saved_attribute_attributes" : 		{
-			"editing_bgcolor" : 			{
-				"expression" : ""
+		"parameters" : 		{
+			"obj-106" : [ "MIDI syncrate", "sync", 0 ],
+			"obj-145" : [ "accel", "accel", 0 ],
+			"obj-153" : [ "live.button", "live.button", 0 ],
+			"obj-159" : [ "live.dial", "window", 0 ],
+			"obj-21" : [ "live.menu[16]", "live.menu", 0 ],
+			"obj-22" : [ "offset", "offset", 0 ],
+			"obj-235" : [ "volume dip", "vol dip", 0 ],
+			"obj-246" : [ "staircase", "staircase", 0 ],
+			"obj-36" : [ "active[6]", "Active", 0 ],
+			"obj-38" : [ "active[1]", "Active", 0 ],
+			"obj-42" : [ "stutter volume", "stutter volume", 0 ],
+			"obj-79" : [ "live.toggle", "live.toggle", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
 			}
 ,
-			"locked_bgcolor" : 			{
-				"expression" : ""
-			}
-
+			"inherited_shortname" : 1
 		}
-
+,
+		"dependency_cache" : [ 			{
+				"name" : "AND.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
+		"editing_bgcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ]
 	}
 
 }
