@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 234.0, 555.0, 253.0, 35.0 ],
+					"suppressinlet" : 1,
+					"text" : "we add speedlim to try to prevent \"from Max 1\" MIDI port from crashing once in a blue moon"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 156.0, 561.5, 73.0, 22.0 ],
+					"text" : "speedlim 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -57,7 +83,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 156.0, 515.0, 37.0, 22.0 ],
+					"patching_rect" : [ 156.0, 511.868020304568574, 37.0, 22.0 ],
 					"text" : "zl.rev"
 				}
 
@@ -319,7 +345,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 553.0, 118.0, 22.0 ],
+					"patching_rect" : [ 156.0, 608.0, 118.0, 22.0 ],
 					"text" : "s \"midi out main CC\""
 				}
 
@@ -406,7 +432,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -424,6 +450,13 @@
 					"destination" : [ "obj-8", 0 ],
 					"order" : 0,
 					"source" : [ "obj-1277", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -465,7 +498,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-708", 0 ],
-					"midpoints" : [ 608.5, 798.0, 483.0, 798.0, 483.0, 324.0, 278.5, 324.0 ],
+					"midpoints" : [ 608.5, 798.0, 510.0, 798.0, 510.0, 324.0, 278.5, 324.0 ],
 					"source" : [ "obj-26", 0 ]
 				}
 
