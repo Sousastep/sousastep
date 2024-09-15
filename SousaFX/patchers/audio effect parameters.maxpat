@@ -2535,33 +2535,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5063.0, 5558.0, 47.0, 20.0 ],
+					"patching_rect" : [ 5047.0, 5534.0, 47.0, 20.0 ],
 					"text" : "solo fx",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-845",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 5160.0, 5545.0, 29.0, 22.0 ],
-					"text" : "thru"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-843",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 4985.0, 5542.5, 29.0, 22.0 ],
-					"text" : "thru"
 				}
 
 			}
@@ -3628,7 +3604,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3934.0, 2949.0, 113.0, 22.0 ],
-					"restore" : [ 52.755905511810965 ],
+					"restore" : [ 36.220472440944832 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -7470,7 +7446,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "live", ",", "link" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -16363,15 +16339,33 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-843", 0 ],
+					"destination" : [ "obj-10", 1 ],
+					"order" : 0,
+					"source" : [ "obj-115", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
 					"source" : [ "obj-115", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-845", 0 ],
+					"destination" : [ "obj-117", 9 ],
+					"order" : 1,
 					"source" : [ "obj-115", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-117", 8 ],
+					"order" : 1,
+					"source" : [ "obj-115", 0 ]
 				}
 
 			}
@@ -23876,38 +23870,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 0,
-					"source" : [ "obj-843", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 8 ],
-					"order" : 1,
-					"source" : [ "obj-843", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 1 ],
-					"order" : 0,
-					"source" : [ "obj-845", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-117", 9 ],
-					"order" : 1,
-					"source" : [ "obj-845", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-751", 0 ],
 					"order" : 2,
 					"source" : [ "obj-847", 0 ]
@@ -25237,16 +25199,23 @@
 			"obj-221::obj-113" : [ "limiter", "limiter", 0 ],
 			"obj-221::obj-115" : [ "max dub send", "max send", 0 ],
 			"obj-221::obj-153::obj-21::obj-191" : [ "vst~[32]", "vst~", 0 ],
-			"obj-221::obj-156" : [ "Reverb Output Volume", "Rev Vol", 0 ],
-			"obj-221::obj-540" : [ "Delay Output Volume", "Del Vol", 0 ],
+			"obj-221::obj-156" : [ "Reverb Output Volume", "Reverb", 0 ],
+			"obj-221::obj-172" : [ "Looper Input Volume", "Loop", 0 ],
+			"obj-221::obj-174" : [ "Solo Input Volume", "Solo", 0 ],
+			"obj-221::obj-176" : [ "Wobble Input Volume", "Wobble", 0 ],
+			"obj-221::obj-214::obj-5::obj-813" : [ "live.numbox[34]", "live.numbox[3]", 0 ],
+			"obj-221::obj-215::obj-5::obj-813" : [ "live.numbox[35]", "live.numbox[3]", 0 ],
+			"obj-221::obj-540" : [ "Delay Output Volume", "Delays", 0 ],
 			"obj-221::obj-56::obj-21::obj-191" : [ "vst~[28]", "vst~", 0 ],
 			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[29]", "vst~", 0 ],
 			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[30]", "vst~", 0 ],
 			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[31]", "vst~", 0 ],
+			"obj-221::obj-819::obj-5::obj-813" : [ "live.numbox[33]", "live.numbox[3]", 0 ],
 			"obj-224::obj-21::obj-191" : [ "vst~[27]", "vst~", 0 ],
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-226::obj-21::obj-191" : [ "vst~[38]", "vst~", 0 ],
 			"obj-227::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[3]", "filter sweep", 0 ],
@@ -26040,10 +26009,45 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "limiter",
 					"parameter_modmode" : 3,
-					"parameter_range" : [ -24.0, 0.0 ],
+					"parameter_range" : [ -48.0, 0.0 ],
 					"parameter_shortname" : "limiter",
 					"parameter_type" : 0,
 					"parameter_unitstyle" : 4
+				}
+,
+				"obj-221::obj-156" : 				{
+					"parameter_shortname" : "Reverb"
+				}
+,
+				"obj-221::obj-172" : 				{
+					"parameter_longname" : "Looper Input Volume",
+					"parameter_shortname" : "Loop"
+				}
+,
+				"obj-221::obj-174" : 				{
+					"parameter_longname" : "Solo Input Volume",
+					"parameter_shortname" : "Solo"
+				}
+,
+				"obj-221::obj-176" : 				{
+					"parameter_longname" : "Wobble Input Volume",
+					"parameter_shortname" : "Wobble"
+				}
+,
+				"obj-221::obj-214::obj-5::obj-813" : 				{
+					"parameter_longname" : "live.numbox[34]"
+				}
+,
+				"obj-221::obj-215::obj-5::obj-813" : 				{
+					"parameter_longname" : "live.numbox[35]"
+				}
+,
+				"obj-221::obj-540" : 				{
+					"parameter_shortname" : "Delays"
+				}
+,
+				"obj-221::obj-819::obj-5::obj-813" : 				{
+					"parameter_longname" : "live.numbox[33]"
 				}
 ,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
@@ -27570,9 +27574,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_extfx.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
+				"name" : "octaver_plugin.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -27627,6 +27631,13 @@
 			}
 , 			{
 				"name" : "plugin_selector.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "plugin_selector_mono.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
