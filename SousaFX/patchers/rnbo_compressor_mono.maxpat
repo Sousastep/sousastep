@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 926.0, 222.0, 1028.0, 1110.0 ],
+		"rect" : [ 34.0, 87.0, 2163.0, 1319.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,42 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-102",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 892.0, 1591.0, 48.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 188.0, 263.0, 47.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "Output",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-101",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 638.0, 1591.0, 42.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 7.0, 263.0, 41.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "Input",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -71,7 +107,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 617.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 347.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 224.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -90,7 +126,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 593.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 323.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 200.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -109,7 +145,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 569.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 299.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 176.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -128,7 +164,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 545.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 275.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 152.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -146,7 +182,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 497.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 227.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 104.0, 110.0, 22.0 ],
 					"text_width" : 64.0,
 					"varname" : "attrui"
 				}
@@ -167,7 +203,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 641.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 371.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 248.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -186,7 +222,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1129.5, 521.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 251.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 128.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -263,7 +299,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 238.0, 253.0, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 108.0, 396.0, 54.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 273.0, 54.0, 20.0 ],
 					"text" : "restore",
 					"textjustification" : 1
 				}
@@ -362,13 +398,11 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-21",
-					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 469.0, 113.0, 128.0 ],
-					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_compressor_mono.json\""
+					"patching_rect" : [ 855.0, 469.0, 245.0, 23.0 ]
 				}
 
 			}
@@ -435,7 +469,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 810.0, 322.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 396.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 53.0, 273.0, 53.0, 20.0 ],
 					"text" : "save",
 					"textjustification" : 1
 				}
@@ -572,38 +606,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-102",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 450.0, 919.0, 47.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 188.0, 47.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "Output",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Ableton Sans Light",
-					"id" : "obj-101",
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 303.0, 919.0, 41.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 187.0, 41.0, 21.0 ],
-					"suppressinlet" : 1,
-					"text" : "Input",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
+					"dbperled" : 6,
 					"id" : "obj-99",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -611,12 +614,13 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 344.0, 765.0, 35.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 210.0, 35.0, 171.0 ]
+					"presentation_rect" : [ 10.0, 65.5, 35.0, 192.5 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"dbperled" : 6,
 					"id" : "obj-98",
 					"maxclass" : "meter~",
 					"numinlets" : 1,
@@ -624,7 +628,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 411.0, 765.0, 35.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 198.0, 211.0, 35.0, 171.0 ]
+					"presentation_rect" : [ 194.0, 67.0, 35.0, 192.5 ]
 				}
 
 			}
@@ -654,7 +658,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 861.0, 871.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 373.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 240.0, 241.0, 50.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -670,7 +674,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 862.0, 801.0, 20.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.0, 303.0, 20.0, 60.0 ],
+					"presentation_rect" : [ 242.0, 171.0, 20.0, 60.0 ],
 					"setminmax" : [ 0.0, 60.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ]
@@ -689,7 +693,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 781.0, 871.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 255.0, 268.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 240.0, 136.0, 50.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -706,7 +710,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 782.0, 801.0, 20.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.0, 198.0, 20.0, 60.0 ],
+					"presentation_rect" : [ 242.0, 66.0, 20.0, 60.0 ],
 					"setminmax" : [ -60.0, 0.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
@@ -738,7 +742,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -929,7 +933,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 155.0, 616.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 187.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 62.0, 110.0, 22.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -974,8 +978,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 384.0, 705.0, 417.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"volume" : 						{
-							"label" : "volume",
+						"attack" : 						{
+							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -986,14 +990,14 @@
 							"parsestring" : ""
 						}
 ,
-						"attack" : 						{
-							"label" : "attack",
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"sustain" : 						{
-							"label" : "sustain",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1012,7 +1016,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.0",
+					"rnboversion" : "1.3.1",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1478,235 +1482,231 @@
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Light",
-					"id" : "obj-65",
-					"linecount" : 3,
+					"fontsize" : 10.0,
+					"id" : "obj-84",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 155.0, 439.0, 50.0 ],
+					"patching_rect" : [ 1203.0, 477.0, 107.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 4.0, 119.0, 339.0, 64.0 ],
-					"text" : "The main parameters are the compression amount (comp) and the \"shape\" of the compression: attack controls the amount of \"picky\" sound, and sustain controls the amount of \"spongy\" sound."
+					"presentation_rect" : [ 55.0, 85.0, 107.0, 18.0 ],
+					"text" : "Parameters",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-77",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 832.0, 871.0, 22.0, 21.0 ],
+					"patching_rect" : [ 1063.0, 1410.0, 22.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 307.0, 268.0, 22.0, 21.0 ],
-					"text" : "dB"
+					"presentation_rect" : [ 297.0, 137.0, 22.0, 21.0 ],
+					"text" : "dB",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-78",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 912.0, 871.0, 22.0, 21.0 ],
+					"patching_rect" : [ 1143.0, 1410.0, 22.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 307.0, 373.0, 22.0, 21.0 ],
-					"text" : "dB"
+					"presentation_rect" : [ 297.0, 242.0, 22.0, 21.0 ],
+					"text" : "dB",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-79",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 886.0, 814.0, 58.0, 35.0 ],
+					"patching_rect" : [ 1117.0, 1353.0, 58.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 281.0, 316.0, 58.0, 35.0 ],
-					"text" : "Gain  compens."
+					"presentation_rect" : [ 270.0, 177.0, 58.0, 35.0 ],
+					"text" : "Gain  compens.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.0,
+					"id" : "obj-80",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1247.0, 595.0, 19.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.0, 203.0, 18.0, 18.0 ],
+					"text" : "%",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-193",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 806.0, 814.0, 45.0, 35.0 ],
+					"patching_rect" : [ 1037.0, 1353.0, 46.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 281.0, 211.0, 45.0, 35.0 ],
-					"text" : "Gain reduc."
+					"presentation_rect" : [ 270.0, 89.0, 45.0, 35.0 ],
+					"text" : "Gain reduc.",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-66",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1239.5, 596.0, 18.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 326.0, 18.0, 18.0 ],
-					"text" : "%",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-67",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1239.5, 620.0, 33.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 350.0, 33.0, 18.0 ],
-					"text" : "-/+ %",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-68",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1239.5, 572.0, 18.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 302.0, 18.0, 18.0 ],
-					"text" : "%",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-69",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1239.5, 548.0, 18.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 278.0, 18.0, 18.0 ],
-					"text" : "%",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-70",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1129.5, 480.0, 110.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 210.0, 110.0, 18.0 ],
-					"text" : "Parameters",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
-					"fontface" : 0,
-					"fontsize" : 10.0,
-					"id" : "obj-71",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1239.5, 524.0, 22.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 162.0, 254.0, 22.0, 18.0 ],
-					"text" : "ms",
-					"textjustification" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontface" : 0,
 					"fontname" : "Ableton Sans Light",
-					"id" : "obj-87",
-					"linecount" : 4,
+					"fontsize" : 10.0,
+					"id" : "obj-81",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 78.0, 479.0, 64.0 ],
+					"patching_rect" : [ 1247.0, 619.0, 21.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 6,
-					"presentation_rect" : [ 4.0, 28.0, 339.0, 93.0 ],
-					"text" : "Compression reduces the dynamic range of a signal by bringing down the level of the loudest parts (gain reduction), meaning the loud and quiet parts become closer together in volume, and the natural volume variations are less obvious. The audio compressor unit can then boost the overall level of the compressed signal (gain compensation). "
+					"presentation_rect" : [ 167.0, 227.0, 21.0, 18.0 ],
+					"text" : "dB",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.0,
+					"id" : "obj-82",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1247.0, 571.0, 19.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.0, 179.0, 18.0, 18.0 ],
+					"text" : "%",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.0,
+					"id" : "obj-83",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1247.0, 547.0, 19.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.0, 155.0, 18.0, 18.0 ],
+					"text" : "%",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.0,
+					"id" : "obj-88",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1247.0, 523.0, 21.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 167.0, 131.0, 21.0, 18.0 ],
+					"text" : "ms",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontface" : 1,
-					"fontname" : "Ableton Sans Bold",
+					"fontname" : "Ableton Sans Light",
 					"fontsize" : 18.0,
+					"hint" : "Compression reduces the dynamic range of a signal by bringing down the level of the loudest parts (gain reduction), meaning the loud and quiet parts become closer together in volume, and the natural volume variations are less obvious. The audio compressor unit can then boost the overall level of the compressed signal (gain compensation). \nThe main parameters are the compression amount (comp) and the \"shape\" of the compression: attack controls the amount of \"picky\" sound, and sustain controls the amount of \"spongy\" sound.",
 					"id" : "obj-90",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 52.0, 161.0, 28.0 ],
+					"patching_rect" : [ 67.0, 54.0, 154.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 2.0, 161.0, 28.0 ],
-					"text" : "RNBO Compressor"
+					"presentation_rect" : [ 37.0, 7.0, 154.0, 28.0 ],
+					"text" : "RNBO Compressor",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontface" : 1,
 					"fontname" : "Ableton Sans Light",
+					"hint" : "Compression reduces the dynamic range of a signal by bringing down the level of the loudest parts (gain reduction), meaning the loud and quiet parts become closer together in volume, and the natural volume variations are less obvious. The audio compressor unit can then boost the overall level of the compressed signal (gain compensation). \nThe main parameters are the compression amount (comp) and the \"shape\" of the compression: attack controls the amount of \"picky\" sound, and sustain controls the amount of \"spongy\" sound.",
 					"id" : "obj-91",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 248.0, 58.0, 143.0, 21.0 ],
+					"patching_rect" : [ 72.0, 89.0, 144.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 179.0, 5.0, 143.0, 21.0 ],
-					"text" : "Classic mono compressor"
+					"presentation_rect" : [ 42.0, 37.0, 144.0, 21.0 ],
+					"text" : "Classic stereo compressor",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
