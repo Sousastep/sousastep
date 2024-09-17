@@ -1,59 +1,61 @@
 /*{
-  "CREDIT": "by VIDVOX",
-  "CATEGORIES": [
-    "Generator"
-  ],
-  "INPUTS": [
-    {
-      "NAME": "rotation",
-      "TYPE": "float",
-      "MIN": 0,
-      "MAX": 1,
-      "DEFAULT": 0
-    },
-    {
-      "NAME": "count",
-      "TYPE": "float",
-      "MIN": 0.1,
-      "MAX": 50,
-      "DEFAULT": 2
-    },
-    {
-      "NAME": "width",
-      "TYPE": "float",
-      "MIN": 0,
-      "MAX": 0.25,
-      "DEFAULT": 0.125
-    },
-    {
-      "NAME": "softness",
-      "TYPE": "float",
-      "MIN": 0,
-      "MAX": 1,
-      "DEFAULT": 0.25
-    },
-    {
-      "NAME": "color1",
-      "TYPE": "color",
-      "DEFAULT": [
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "NAME": "color2",
-      "TYPE": "color",
-      "DEFAULT": [
-        1,
-        1,
-        1,
-        1
-      ]
-    }
-  ]
-}*/
+    "CATEGORIES": [
+        "Geometry"
+    ],
+    "CREDIT": "by VIDVOX",
+    "INPUTS": [
+        {
+            "DEFAULT": 0,
+            "MAX": 1,
+            "MIN": 0,
+            "NAME": "rotation",
+            "TYPE": "float"
+        },
+        {
+            "DEFAULT": 2,
+            "MAX": 50,
+            "MIN": 0.1,
+            "NAME": "count",
+            "TYPE": "float"
+        },
+        {
+            "DEFAULT": 0.125,
+            "MAX": 0.25,
+            "MIN": 0,
+            "NAME": "width",
+            "TYPE": "float"
+        },
+        {
+            "DEFAULT": 0.25,
+            "MAX": 1,
+            "MIN": 0,
+            "NAME": "softness",
+            "TYPE": "float"
+        },
+        {
+            "DEFAULT": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "NAME": "color1",
+            "TYPE": "color"
+        },
+        {
+            "DEFAULT": [
+                1,
+                1,
+                1,
+                1
+            ],
+            "NAME": "color2",
+            "TYPE": "color"
+        }
+    ],
+    "ISFVSN": "2"
+}
+*/
 
 
 const float pi = 3.14159265359;

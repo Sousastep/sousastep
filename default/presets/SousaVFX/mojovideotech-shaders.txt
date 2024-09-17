@@ -8,12 +8,11 @@
 8, ButterflyEffect;
 9, ColorDiffusionFlow;
 10, PlanetOfBaobabs;
-11, Electrocardiogram;
+11, Spiral;
 12, Poly Star;
 13, PNoiseWaveFactory;
 14, MandalaScope;
 15, Puddlez;
 16, HexTruchWarpFlow2;
 17, FantasyEventHorizon;
-18, Spiral;
-19, SineWarpGradient;
+18, SineWarpGradient;

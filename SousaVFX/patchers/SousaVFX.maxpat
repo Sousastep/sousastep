@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 115.0, 217.0, 1589.0, 1197.0 ],
+		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -6846,7 +6846,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "wlan-debug", ",", "debug-console", ",", "usbserial-DK0FZDII", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -10661,6 +10661,38 @@
 			"obj-930::obj-411::obj-7::obj-23" : [ "live.menu[189]", "live.menu", 0 ],
 			"obj-930::obj-411::obj-7::obj-51" : [ "live.numbox[75]", "live.numbox", 0 ],
 			"obj-930::obj-411::obj-7::obj-53" : [ "live.numbox[74]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-2::obj-133" : [ "scale_invert[230]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-2::obj-23" : [ "live.menu[33]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-2::obj-51" : [ "live.numbox[192]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-2::obj-53" : [ "live.numbox[193]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-3::obj-133" : [ "scale_invert[231]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-3::obj-23" : [ "live.menu[34]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-3::obj-51" : [ "live.numbox[195]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-3::obj-53" : [ "live.numbox[194]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-4::obj-133" : [ "scale_invert[232]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-4::obj-23" : [ "live.menu[35]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-4::obj-51" : [ "live.numbox[197]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-4::obj-53" : [ "live.numbox[196]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-51::obj-133" : [ "scale_invert[234]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-51::obj-23" : [ "live.menu[37]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-51::obj-51" : [ "live.numbox[200]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-51::obj-53" : [ "live.numbox[201]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-53::obj-133" : [ "scale_invert[235]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-53::obj-23" : [ "live.menu[38]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-53::obj-51" : [ "live.numbox[203]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-53::obj-53" : [ "live.numbox[202]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-55::obj-133" : [ "scale_invert[159]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-55::obj-23" : [ "live.menu[39]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-55::obj-51" : [ "live.numbox[205]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-55::obj-53" : [ "live.numbox[204]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-57::obj-133" : [ "scale_invert[160]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-57::obj-23" : [ "live.menu[256]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-57::obj-51" : [ "live.numbox[410]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-57::obj-53" : [ "live.numbox[206]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-5::obj-133" : [ "scale_invert[233]", "Phase-Inversion", 1 ],
+			"obj-930::obj-46::obj-5::obj-23" : [ "live.menu[36]", "live.menu", 0 ],
+			"obj-930::obj-46::obj-5::obj-51" : [ "live.numbox[199]", "live.numbox", 0 ],
+			"obj-930::obj-46::obj-5::obj-53" : [ "live.numbox[198]", "live.numbox", 0 ],
 			"obj-930::obj-48::obj-1::obj-133" : [ "scale_invert[131]", "Phase-Inversion", 1 ],
 			"obj-930::obj-48::obj-1::obj-23" : [ "live.menu[229]", "live.menu", 0 ],
 			"obj-930::obj-48::obj-1::obj-51" : [ "live.numbox[362]", "live.numbox", 0 ],
@@ -12199,6 +12231,134 @@
 					"parameter_longname" : "live.numbox[74]"
 				}
 ,
+				"obj-930::obj-46::obj-2::obj-133" : 				{
+					"parameter_longname" : "scale_invert[230]"
+				}
+,
+				"obj-930::obj-46::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[33]"
+				}
+,
+				"obj-930::obj-46::obj-2::obj-51" : 				{
+					"parameter_longname" : "live.numbox[192]"
+				}
+,
+				"obj-930::obj-46::obj-2::obj-53" : 				{
+					"parameter_longname" : "live.numbox[193]"
+				}
+,
+				"obj-930::obj-46::obj-3::obj-133" : 				{
+					"parameter_longname" : "scale_invert[231]"
+				}
+,
+				"obj-930::obj-46::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[34]"
+				}
+,
+				"obj-930::obj-46::obj-3::obj-51" : 				{
+					"parameter_longname" : "live.numbox[195]"
+				}
+,
+				"obj-930::obj-46::obj-3::obj-53" : 				{
+					"parameter_longname" : "live.numbox[194]"
+				}
+,
+				"obj-930::obj-46::obj-4::obj-133" : 				{
+					"parameter_longname" : "scale_invert[232]"
+				}
+,
+				"obj-930::obj-46::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[35]"
+				}
+,
+				"obj-930::obj-46::obj-4::obj-51" : 				{
+					"parameter_longname" : "live.numbox[197]"
+				}
+,
+				"obj-930::obj-46::obj-4::obj-53" : 				{
+					"parameter_longname" : "live.numbox[196]"
+				}
+,
+				"obj-930::obj-46::obj-51::obj-133" : 				{
+					"parameter_longname" : "scale_invert[234]"
+				}
+,
+				"obj-930::obj-46::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[37]"
+				}
+,
+				"obj-930::obj-46::obj-51::obj-51" : 				{
+					"parameter_longname" : "live.numbox[200]"
+				}
+,
+				"obj-930::obj-46::obj-51::obj-53" : 				{
+					"parameter_longname" : "live.numbox[201]"
+				}
+,
+				"obj-930::obj-46::obj-53::obj-133" : 				{
+					"parameter_longname" : "scale_invert[235]"
+				}
+,
+				"obj-930::obj-46::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[38]"
+				}
+,
+				"obj-930::obj-46::obj-53::obj-51" : 				{
+					"parameter_longname" : "live.numbox[203]"
+				}
+,
+				"obj-930::obj-46::obj-53::obj-53" : 				{
+					"parameter_longname" : "live.numbox[202]"
+				}
+,
+				"obj-930::obj-46::obj-55::obj-133" : 				{
+					"parameter_longname" : "scale_invert[159]"
+				}
+,
+				"obj-930::obj-46::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[39]"
+				}
+,
+				"obj-930::obj-46::obj-55::obj-51" : 				{
+					"parameter_longname" : "live.numbox[205]"
+				}
+,
+				"obj-930::obj-46::obj-55::obj-53" : 				{
+					"parameter_longname" : "live.numbox[204]"
+				}
+,
+				"obj-930::obj-46::obj-57::obj-133" : 				{
+					"parameter_longname" : "scale_invert[160]"
+				}
+,
+				"obj-930::obj-46::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[256]"
+				}
+,
+				"obj-930::obj-46::obj-57::obj-51" : 				{
+					"parameter_longname" : "live.numbox[410]"
+				}
+,
+				"obj-930::obj-46::obj-57::obj-53" : 				{
+					"parameter_longname" : "live.numbox[206]"
+				}
+,
+				"obj-930::obj-46::obj-5::obj-133" : 				{
+					"parameter_longname" : "scale_invert[233]"
+				}
+,
+				"obj-930::obj-46::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[36]"
+				}
+,
+				"obj-930::obj-46::obj-5::obj-51" : 				{
+					"parameter_longname" : "live.numbox[199]"
+				}
+,
+				"obj-930::obj-46::obj-5::obj-53" : 				{
+					"parameter_longname" : "live.numbox[198]"
+				}
+,
 				"obj-930::obj-48::obj-1::obj-133" : 				{
 					"parameter_longname" : "scale_invert[131]"
 				}
@@ -13340,8 +13500,8 @@
 			}
 , 			{
 				"name" : "SousaVFX_primary.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13409,6 +13569,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "UI_Spiral.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "UI_VoronoiDuplex.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -13417,8 +13584,8 @@
 			}
 , 			{
 				"name" : "acoustic_preset_list.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -13431,29 +13598,29 @@
 			}
 , 			{
 				"name" : "butterflyeffect.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "candywarp.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "colordiffusionflow.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dude_shader.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13477,8 +13644,8 @@
 			}
 , 			{
 				"name" : "fluidflowsnoise.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13505,8 +13672,8 @@
 			}
 , 			{
 				"name" : "idle_preset_list.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -13524,8 +13691,8 @@
 			}
 , 			{
 				"name" : "main_vfx_env_sens.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13552,8 +13719,8 @@
 			}
 , 			{
 				"name" : "pinwheel.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13566,15 +13733,15 @@
 			}
 , 			{
 				"name" : "planetofbaobabs.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polargradient.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13594,8 +13761,8 @@
 			}
 , 			{
 				"name" : "rainbowglowring.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13615,8 +13782,8 @@
 			}
 , 			{
 				"name" : "scrolling_text.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13629,20 +13796,27 @@
 			}
 , 			{
 				"name" : "shapes.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "show_audio_status.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spacespore.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spiral.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
@@ -13650,8 +13824,8 @@
 			}
 , 			{
 				"name" : "torus_knot.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -13678,15 +13852,15 @@
 			}
 , 			{
 				"name" : "voronoiduplex.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "wobble_preset_list.txt",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
+				"patcherrelativepath" : "../../default/presets/SousaVFX",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
