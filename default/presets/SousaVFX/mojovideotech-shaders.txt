@@ -9,7 +9,7 @@
 9, ColorDiffusionFlow;
 10, PlanetOfBaobabs;
 11, Spiral;
-12, Poly Star;
+12, PolyStar;
 13, PNoiseWaveFactory;
 14, MandalaScope;
 15, Puddlez;
