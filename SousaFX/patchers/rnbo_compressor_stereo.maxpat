@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 242.0, 87.0, 1018.0, 1232.0 ],
+		"rect" : [ 860.0, 395.0, 1309.0, 982.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,62 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 1100.0, 642.0, 87.0, 22.0 ],
+					"restore" : [ 0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr weighting",
+					"varname" : "weighting"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1134.0, 723.0, 107.0, 22.0 ],
+					"text" : "prepend weighting"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.69 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.0, 0.69 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"hint" : "additional frequency weighting",
+					"id" : "obj-24",
+					"items" : [ "just", "himidfq", "boost", ",", "+", "K-weighting", ",", "+", "ITUR468-esque-weighting" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1134.0, 683.0, 100.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 199.0, 260.0, 110.0, 22.0 ],
+					"varname" : "umenu"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "newobj",
@@ -72,7 +128,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 706.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 254.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 236.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -92,7 +148,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 264.0, 682.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 230.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 199.0, 212.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -278,13 +334,11 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-21",
-					"linecount" : 8,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 863.0, 339.0, 113.0, 128.0 ],
-					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_compressor_stereo.json\""
+					"patching_rect" : [ 863.0, 339.0, 113.0, 23.0 ]
 				}
 
 			}
@@ -359,9 +413,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 611.0, 1074.0, 48.0, 21.0 ],
+					"patching_rect" : [ 565.5, 1095.0, 48.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 200.0, 47.0, 21.0 ],
+					"presentation_rect" : [ 199.0, 182.0, 47.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Output",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -377,9 +431,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 357.0, 1074.0, 42.0, 21.0 ],
+					"patching_rect" : [ 394.5, 1095.0, 42.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 200.0, 41.0, 21.0 ],
+					"presentation_rect" : [ 2.0, 182.0, 41.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "Input",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -399,7 +453,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 398.0, 920.0, 35.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 26.5, 35.0, 171.0 ]
+					"presentation_rect" : [ 2.0, 9.0, 35.0, 171.0 ]
 				}
 
 			}
@@ -415,7 +469,7 @@
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 572.0, 920.0, 35.0, 171.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 205.0, 26.5, 35.0, 171.0 ]
+					"presentation_rect" : [ 205.0, 9.0, 35.0, 171.0 ]
 				}
 
 			}
@@ -444,9 +498,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 811.0, 893.0, 50.0, 22.0 ],
+					"patching_rect" : [ 869.0, 874.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 177.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 252.0, 159.0, 50.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -460,9 +514,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 812.0, 823.0, 20.0, 60.0 ],
+					"patching_rect" : [ 870.0, 804.0, 20.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 115.0, 20.0, 60.0 ],
+					"presentation_rect" : [ 252.0, 97.0, 20.0, 60.0 ],
 					"setminmax" : [ 0.0, 60.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.929412, 0.929412, 0.352941, 1.0 ]
@@ -480,9 +534,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 731.0, 893.0, 50.0, 22.0 ],
+					"patching_rect" : [ 789.0, 874.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 88.0, 50.0, 22.0 ],
+					"presentation_rect" : [ 252.0, 70.0, 50.0, 22.0 ],
 					"triangle" : 0
 				}
 
@@ -497,9 +551,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 732.0, 823.0, 20.0, 60.0 ],
+					"patching_rect" : [ 790.0, 804.0, 20.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 252.0, 27.0, 20.0, 60.0 ],
+					"presentation_rect" : [ 252.0, 9.0, 20.0, 60.0 ],
 					"setminmax" : [ -60.0, 0.0 ],
 					"setstyle" : 1,
 					"slidercolor" : [ 0.2, 0.2, 0.2, 1.0 ]
@@ -513,7 +567,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 700.0, 712.0, 212.0, 22.0 ],
+					"patching_rect" : [ 803.0, 715.0, 212.0, 22.0 ],
 					"text" : "route atten compens latency loadbang"
 				}
 
@@ -630,7 +684,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 2,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -908,8 +962,8 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 477.0, 641.0, 421.0, 24.0 ],
 					"rnboattrcache" : 					{
-						"himid" : 						{
-							"label" : "himid",
+						"himidfq" : 						{
+							"label" : "himidfq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -920,14 +974,14 @@
 							"parsestring" : ""
 						}
 ,
-						"comp" : 						{
-							"label" : "comp",
+						"himid" : 						{
+							"label" : "himid",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"himidfq" : 						{
-							"label" : "himidfq",
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -938,8 +992,14 @@
 							"parsestring" : ""
 						}
 ,
-						"sustain" : 						{
-							"label" : "sustain",
+						"comp" : 						{
+							"label" : "comp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"weighting" : 						{
+							"label" : "weighting",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -958,7 +1018,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.0",
+					"rnboversion" : "1.3.1",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1591,7 +1651,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 961.0, 876.0, 115.0, 21.0 ],
+					"patching_rect" : [ 1064.0, 879.0, 115.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "lookahead = latency"
 				}
@@ -1618,7 +1678,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 957.0, 917.0, 30.0, 30.0 ]
+					"patching_rect" : [ 1060.0, 920.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -1660,7 +1720,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 373.0, 709.0, 21.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 257.0, 21.0, 18.0 ],
+					"presentation_rect" : [ 310.0, 238.0, 21.0, 18.0 ],
 					"text" : "dB",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -1680,7 +1740,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 373.0, 685.0, 21.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 308.0, 233.0, 21.0, 18.0 ],
+					"presentation_rect" : [ 310.0, 214.0, 21.0, 18.0 ],
 					"text" : "Hz",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
@@ -1696,9 +1756,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 782.0, 893.0, 22.0, 21.0 ],
+					"patching_rect" : [ 840.0, 874.0, 22.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.0, 88.0, 22.0, 21.0 ],
+					"presentation_rect" : [ 303.0, 70.0, 22.0, 21.0 ],
 					"text" : "dB",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1713,9 +1773,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, 893.0, 22.0, 21.0 ],
+					"patching_rect" : [ 920.0, 874.0, 22.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 303.0, 177.0, 22.0, 21.0 ],
+					"presentation_rect" : [ 303.0, 159.0, 22.0, 21.0 ],
 					"text" : "dB",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1731,10 +1791,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 836.0, 836.0, 58.0, 35.0 ],
+					"patching_rect" : [ 894.0, 817.0, 58.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 276.0, 128.0, 58.0, 35.0 ],
+					"presentation_rect" : [ 276.0, 110.0, 58.0, 35.0 ],
 					"text" : "Gain  compens.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1770,10 +1830,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 756.0, 836.0, 46.0, 35.0 ],
+					"patching_rect" : [ 814.0, 817.0, 46.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 276.0, 40.0, 45.0, 35.0 ],
+					"presentation_rect" : [ 276.0, 22.0, 45.0, 35.0 ],
 					"text" : "Gain reduc.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1850,7 +1910,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 497.0, 107.0, 18.0 ],
+					"patching_rect" : [ 265.5, 491.0, 107.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 58.0, 81.0, 107.0, 18.0 ],
 					"text" : "Parameters",
@@ -1868,7 +1928,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.0, 547.0, 477.0, 100.0 ],
+					"patching_rect" : [ 1031.0, 379.0, 477.0, 100.0 ],
 					"text" : "Compression reduces the dynamic range of a signal by bringing down the level of the loudest parts (gain reduction), meaning the loud and quiet parts become closer together in volume, and the natural volume variations are less obvious. The audio compressor unit can then boost the overall level of the compressed signal (gain compensation). \nThe main parameters are the compression amount (comp) and the \"shape\" of the compression: attack controls the amount of \"picky\" sound, and sustain controls the amount of \"spongy\" sound."
 				}
 
@@ -1905,7 +1965,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.0, 521.0, 154.0, 28.0 ],
+					"patching_rect" : [ 1031.0, 345.0, 154.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 39.0, 4.0, 154.0, 28.0 ],
 					"text" : "RNBO Compressor",
@@ -1924,7 +1984,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1209.0, 527.0, 144.0, 21.0 ],
+					"patching_rect" : [ 1201.0, 351.0, 144.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 44.0, 34.0, 144.0, 21.0 ],
 					"text" : "Classic stereo compressor",
@@ -2080,6 +2140,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
 					"source" : [ "obj-25", 0 ]
 				}
@@ -2089,6 +2156,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-343", 0 ],
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -2160,6 +2234,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-42", 0 ]
 				}
@@ -2168,7 +2249,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
-					"midpoints" : [ 854.25, 750.0, 947.75, 750.0, 947.75, 584.0, 608.75, 584.0, 608.75, 203.0, 539.5, 203.0 ],
+					"midpoints" : [ 957.25, 750.0, 1029.75, 750.0, 1029.75, 584.0, 608.75, 584.0, 608.75, 203.0, 539.5, 203.0 ],
 					"source" : [ "obj-43", 3 ]
 				}
 
