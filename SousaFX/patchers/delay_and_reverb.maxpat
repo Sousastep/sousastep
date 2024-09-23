@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 70.0, 629.0, 2204.0, 805.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -148,7 +148,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1037.676109892378918, 736.0, 40.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ -3.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -333,8 +333,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2993.0, 2139.0, 100.0, 22.0 ],
-					"text" : "slide~ 1000 1000"
+					"patching_rect" : [ 2993.0, 2139.0, 87.0, 22.0 ],
+					"text" : "slide~ 100 100"
 				}
 
 			}
@@ -345,8 +345,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2888.0, 2132.0, 100.0, 22.0 ],
-					"text" : "slide~ 1000 1000"
+					"patching_rect" : [ 2888.0, 2132.0, 87.0, 22.0 ],
+					"text" : "slide~ 100 100"
 				}
 
 			}
@@ -357,8 +357,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2782.0, 2125.0, 100.0, 22.0 ],
-					"text" : "slide~ 1000 1000"
+					"patching_rect" : [ 2782.0, 2125.0, 87.0, 22.0 ],
+					"text" : "slide~ 100 100"
 				}
 
 			}
@@ -369,8 +369,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 2672.0, 2118.0, 100.0, 22.0 ],
-					"text" : "slide~ 1000 1000"
+					"patching_rect" : [ 2672.0, 2118.0, 87.0, 22.0 ],
+					"text" : "slide~ 100 100"
 				}
 
 			}
@@ -1252,8 +1252,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 2460.0, 3212.0, 637.0, 22.0 ],
-					"text" : "mc.limi~ @lookahead 480 @preamp 0 @postamp 0 @threshold -4.5 @release 180 @bypass 0 @dcblock 1 @mode 1"
+					"patching_rect" : [ 2460.0, 3212.0, 631.0, 22.0 ],
+					"text" : "mc.limi~ @lookahead 48 @preamp 0 @postamp 0 @threshold -4.5 @release 180 @bypass 0 @dcblock 1 @mode 1"
 				}
 
 			}
@@ -1600,8 +1600,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 2249.0, 2184.437066658670119, 85.0, 22.0 ],
-					"text" : "mc.tapout~ 10"
+					"patching_rect" : [ 2249.0, 2184.437066658670119, 78.0, 22.0 ],
+					"text" : "mc.tapout~ 1"
 				}
 
 			}
@@ -1612,8 +1612,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "tapconnect" ],
-					"patching_rect" : [ 2249.0, 2148.437066658670119, 78.0, 22.0 ],
-					"text" : "mc.tapin~ 10"
+					"patching_rect" : [ 2249.0, 2148.437066658670119, 71.0, 22.0 ],
+					"text" : "mc.tapin~ 1"
 				}
 
 			}
@@ -2581,7 +2581,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1607.91667652130127, 2216.0, 155.0, 22.0 ],
-					"restore" : [ -9.0 ],
+					"restore" : [ -6.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
