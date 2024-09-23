@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 2163.0, 1319.0 ],
+		"rect" : [ 460.0, 239.0, 1505.0, 1090.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1016,20 +1016,32 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 384.0, 705.0, 417.0, 24.0 ],
 					"rnboattrcache" : 					{
+						"lowfq" : 						{
+							"label" : "lowfq",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"volume" : 						{
 							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"sustain" : 						{
-							"label" : "sustain",
+						"attack" : 						{
+							"label" : "attack",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"attack" : 						{
-							"label" : "attack",
+						"lowboost" : 						{
+							"label" : "lowboost",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"sustain" : 						{
+							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1042,26 +1054,14 @@
 ,
 						"lookahead" : 						{
 							"label" : "lookahead",
-							"isEnum" : 1,
-							"parsestring" : "\"0\" \"1\" \"2\""
+							"isEnum" : 0,
+							"parsestring" : ""
 						}
 ,
 						"softclip" : 						{
 							"label" : "softclip",
 							"isEnum" : 1,
 							"parsestring" : "\"0\" \"1\""
-						}
-,
-						"lowboost" : 						{
-							"label" : "lowboost",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"lowfq" : 						{
-							"label" : "lowfq",
-							"isEnum" : 0,
-							"parsestring" : ""
 						}
 
 					}
@@ -1435,7 +1435,7 @@
 								}
 ,
 								"sustain" : 								{
-									"value" : 25.0
+									"value" : 120.0
 								}
 ,
 								"comp" : 								{
@@ -1447,7 +1447,7 @@
 								}
 ,
 								"attack" : 								{
-									"value" : 25.0
+									"value" : 30.0
 								}
 ,
 								"__presetid" : "compressor_mono",
@@ -1460,7 +1460,7 @@
 								}
 ,
 								"lookahead" : 								{
-									"value" : 1.0
+									"value" : 30.0
 								}
 
 							}
@@ -1665,10 +1665,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1247.0, 595.0, 19.0, 18.0 ],
+					"patching_rect" : [ 1247.0, 595.0, 21.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 203.0, 18.0, 18.0 ],
-					"text" : "%",
+					"presentation_rect" : [ 165.0, 203.0, 21.0, 18.0 ],
+					"text" : "ms",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -1724,10 +1724,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1247.0, 571.0, 19.0, 18.0 ],
+					"patching_rect" : [ 1247.0, 571.0, 21.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 165.0, 179.0, 18.0, 18.0 ],
-					"text" : "%",
+					"presentation_rect" : [ 165.0, 179.0, 21.0, 18.0 ],
+					"text" : "ms",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
