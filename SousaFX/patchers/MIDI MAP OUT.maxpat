@@ -46,7 +46,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 555.0, 253.0, 35.0 ],
+					"patching_rect" : [ 234.0, 555.0, 255.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "we add speedlim to try to prevent \"from Max 1\" MIDI port from crashing once in a blue moon"
 				}
@@ -60,7 +60,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 561.5, 73.0, 22.0 ],
-					"text" : "speedlim 10"
+					"text" : "speedlim 50"
 				}
 
 			}

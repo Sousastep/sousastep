@@ -59,7 +59,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.0, 333.0, 73.0, 22.0 ],
-					"text" : "speedlim 10"
+					"text" : "speedlim 50"
 				}
 
 			}
