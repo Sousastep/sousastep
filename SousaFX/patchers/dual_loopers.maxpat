@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1871.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2441.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -48,7 +48,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1499.5, 728.0, 176.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2416,6 +2416,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
+					"hidden" : 1,
 					"id" : "obj-223",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -2547,7 +2548,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1860.0, 539.0, 130.0, 35.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2604,7 +2605,7 @@
 					"patching_rect" : [ 2017.0, 826.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 282.000000357627869, 505.400007545948029, 33.0, 22.0 ],
-					"textcolor" : [ 0.078431, 0.811765, 0.905882, 1.0 ],
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
 					"varname" : "number[1]"
 				}
 
@@ -3710,7 +3711,7 @@
 							"parameter_initial" : [ 0 ],
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
-							"parameter_longname" : "active[3]",
+							"parameter_longname" : "active[7]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
 							"parameter_shortname" : "Active",
@@ -5554,11 +5555,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-50",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 840.0, 577.0, 30.0, 30.0 ]
 				}
 
@@ -5567,11 +5568,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-60",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 894.0, 577.0, 30.0, 30.0 ]
 				}
 
@@ -5580,7 +5581,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-71",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -5592,7 +5593,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-72",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -8083,6 +8084,234 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-1041::obj-138::obj-1" : [ "filter sweep", "filter sweep", 0 ],
+			"obj-1041::obj-138::obj-27" : [ "smooth", "smooth", 0 ],
+			"obj-1041::obj-138::obj-41" : [ "filter boost", "filter boost", 0 ],
+			"obj-1041::obj-7" : [ "Loop Volume[1]", "volume", 0 ],
+			"obj-1041::obj-8" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-1041::obj-813" : [ "feedback[1]", "feedback", 0 ],
+			"obj-1041::obj-87" : [ "live.menu[3]", "live.menu[1]", 0 ],
+			"obj-1041::obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
+			"obj-1041::obj-901" : [ "master_highpass[1]", "highpass", 0 ],
+			"obj-1042::obj-105" : [ "live.menu[17]", "live.menu", 0 ],
+			"obj-1042::obj-138::obj-1" : [ "filter sweep[1]", "filter sweep", 0 ],
+			"obj-1042::obj-138::obj-27" : [ "smooth[1]", "smooth", 0 ],
+			"obj-1042::obj-138::obj-41" : [ "filter boost[1]", "filter boost", 0 ],
+			"obj-1042::obj-7" : [ "Loop Volume[2]", "volume", 0 ],
+			"obj-1042::obj-8" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-1042::obj-813" : [ "feedback[2]", "feedback", 0 ],
+			"obj-1042::obj-87" : [ "live.menu[18]", "live.menu[1]", 0 ],
+			"obj-1042::obj-895" : [ "master_lowpass[2]", "lowpass", 0 ],
+			"obj-1042::obj-901" : [ "master_highpass[2]", "highpass", 0 ],
+			"obj-115" : [ "active[7]", "Active", 0 ],
+			"obj-12::obj-18" : [ "phase offset[1]", "phase offset", 0 ],
+			"obj-12::obj-2" : [ "live.menu", "live.menu", 0 ],
+			"obj-12::obj-34" : [ "duty cycle[1]", "duty cycle", 0 ],
+			"obj-12::obj-36" : [ "boost", "boost", 0 ],
+			"obj-12::obj-38" : [ "smooth[3]", "smooth", 0 ],
+			"obj-12::obj-42" : [ "depth / mix", "depth / mix", 0 ],
+			"obj-138::obj-1" : [ "filter sweep[2]", "filter sweep", 0 ],
+			"obj-138::obj-27" : [ "smooth[2]", "smooth", 0 ],
+			"obj-138::obj-41" : [ "filter boost[2]", "filter boost", 0 ],
+			"obj-15::obj-106" : [ "MIDI syncrate", "sync", 0 ],
+			"obj-15::obj-145" : [ "accel", "accel", 0 ],
+			"obj-15::obj-153" : [ "live.button", "live.button", 0 ],
+			"obj-15::obj-159" : [ "live.dial", "window", 0 ],
+			"obj-15::obj-21" : [ "live.menu[16]", "live.menu", 0 ],
+			"obj-15::obj-22" : [ "offset", "offset", 0 ],
+			"obj-15::obj-235" : [ "volume dip", "vol dip", 0 ],
+			"obj-15::obj-246" : [ "staircase", "staircase", 0 ],
+			"obj-15::obj-36" : [ "active[6]", "Active", 0 ],
+			"obj-15::obj-38" : [ "active[1]", "Active", 0 ],
+			"obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
+			"obj-15::obj-79" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-266" : [ "live.menu[6]", "live.menu[2]", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-1042::obj-105" : 				{
+					"parameter_longname" : "live.menu[17]"
+				}
+,
+				"obj-1042::obj-138::obj-1" : 				{
+					"parameter_longname" : "filter sweep[1]"
+				}
+,
+				"obj-1042::obj-138::obj-27" : 				{
+					"parameter_longname" : "smooth[1]"
+				}
+,
+				"obj-1042::obj-138::obj-41" : 				{
+					"parameter_longname" : "filter boost[1]"
+				}
+,
+				"obj-1042::obj-7" : 				{
+					"parameter_longname" : "Loop Volume[2]"
+				}
+,
+				"obj-1042::obj-8" : 				{
+					"parameter_longname" : "live.menu[5]"
+				}
+,
+				"obj-1042::obj-813" : 				{
+					"parameter_longname" : "feedback[2]"
+				}
+,
+				"obj-1042::obj-87" : 				{
+					"parameter_longname" : "live.menu[18]"
+				}
+,
+				"obj-1042::obj-895" : 				{
+					"parameter_longname" : "master_lowpass[2]"
+				}
+,
+				"obj-1042::obj-901" : 				{
+					"parameter_longname" : "master_highpass[2]"
+				}
+,
+				"obj-12::obj-38" : 				{
+					"parameter_longname" : "smooth[3]"
+				}
+,
+				"obj-138::obj-1" : 				{
+					"parameter_longname" : "filter sweep[2]"
+				}
+,
+				"obj-138::obj-27" : 				{
+					"parameter_longname" : "smooth[2]"
+				}
+,
+				"obj-138::obj-41" : 				{
+					"parameter_longname" : "filter boost[2]"
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "AND.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DJfilter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FilterDelay.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Max_ti4gOmiaU9.jpg",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OR.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dual_loopers.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "frame000.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/stickman",
+				"patcherrelativepath" : "../../default/startup/stickman",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "looper_relayer.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sidechained_kick.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm.sallenkey2~.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_functions.genexpr",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
+				"patcherrelativepath" : "../other",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_stereo.gendsp",
+				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sousaFX_tremolo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stutterstep.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
