@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2328.0, 1387.0 ],
+		"rect" : [ 1656.0, 53.0, 904.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,29 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-779",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4950.0, 4061.0, 120.0, 22.0 ],
+					"text" : "s~ noise_gate_direct"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-544",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 5096.538458117819573, 3984.0, 100.0, 22.0 ],
+					"text" : "slide~ 1920 2400"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-963",
 					"maxclass" : "newobj",
@@ -255,7 +278,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7088.0, 2007.0, 120.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "biquad~ 1. -2. 1. -1.990047 0.990072"
 				}
 
@@ -269,7 +291,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7088.0, 1937.0, 122.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "biquad~ 1.535125 -2.691696 1.198393 -1.690659 0.732481"
 				}
 
@@ -283,7 +304,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7403.0, 1909.0, 120.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "biquad~ 0.116829 0.233658 0.116829 -0.987595 0.454911"
 				}
 
@@ -387,7 +407,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 7243.0, 1909.0, 120.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "biquad~ 0.116829 0.233658 0.116829 -0.987595 0.454911"
 				}
 
@@ -441,7 +460,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 6958.0, 2007.0, 120.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "biquad~ 1. -2. 1. -1.990047 0.990072"
 				}
 
@@ -455,7 +473,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 6958.0, 1937.0, 122.0, 49.0 ],
-					"presentation_linecount" : 3,
 					"text" : "biquad~ 1.535125 -2.691696 1.198393 -1.690659 0.732481"
 				}
 
@@ -7774,7 +7791,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "live", ",", "internal" ],
+					"items" : [ "link", ",", "internal", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11912,8 +11929,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -18266,6 +18283,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-544", 0 ],
+					"order" : 0,
+					"source" : [ "obj-220", 21 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-637", 0 ],
 					"order" : 0,
 					"source" : [ "obj-220", 25 ]
@@ -18281,16 +18306,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-734", 0 ],
-					"midpoints" : [ 5106.038458117819573, 4006.0, 6865.5, 4006.0 ],
-					"order" : 0,
-					"source" : [ "obj-220", 21 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-795", 0 ],
+					"destination" : [ "obj-779", 0 ],
 					"order" : 1,
 					"source" : [ "obj-220", 21 ]
 				}
@@ -21371,6 +21387,23 @@
 					"color" : [ 0.701961, 0.701961, 0.701961, 0.162613824503311 ],
 					"destination" : [ "obj-714", 0 ],
 					"source" : [ "obj-543", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-734", 0 ],
+					"midpoints" : [ 5106.038458117819573, 4020.0, 6865.5, 4020.0 ],
+					"order" : 0,
+					"source" : [ "obj-544", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-795", 0 ],
+					"order" : 1,
+					"source" : [ "obj-544", 0 ]
 				}
 
 			}
@@ -28067,13 +28100,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "license.sousafx",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
