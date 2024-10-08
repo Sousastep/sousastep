@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1656.0, 53.0, 904.0, 1387.0 ],
+		"rect" : [ 467.0, 53.0, 2093.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4079,7 +4079,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3706.0, 2949.0, 120.0, 22.0 ],
-					"restore" : [ 1.574803149606298 ],
+					"restore" : [ 55.11811023622046 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -7791,7 +7791,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "link", ",", "live", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -25895,11 +25895,6 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
-			"obj-226::obj-21::obj-43" : [ "live.numbox[36]", "live.numbox[3]", 0 ],
-			"obj-226::obj-21::obj-44" : [ "live.dial[9]", "sub mix", 0 ],
-			"obj-226::obj-21::obj-46" : [ "live.numbox[37]", "live.numbox[3]", 0 ],
-			"obj-226::obj-21::obj-72" : [ "live.numbox[5]", "live.numbox[3]", 0 ],
-			"obj-226::obj-21::obj-73" : [ "live.numbox[6]", "live.numbox[3]", 0 ],
 			"obj-227::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[1]", "filter sweep", 0 ],
@@ -26022,6 +26017,8 @@
 			"obj-72::obj-313" : [ "wah sens reduc", "wah sens reduc", 0 ],
 			"obj-72::obj-325" : [ "low_floor", "floor", 0 ],
 			"obj-72::obj-341" : [ "map_freq_to_Q", "map_freq_to_Q", 0 ],
+			"obj-72::obj-356" : [ "squareness[1]", "squareness", 0 ],
+			"obj-72::obj-357" : [ "squareness", "squareness", 0 ],
 			"obj-72::obj-376" : [ "function[11]", "function[11]", 0 ],
 			"obj-72::obj-381" : [ "function[30]", "function", 0 ],
 			"obj-72::obj-392" : [ "map_freq_to_Q[1]", "map_freq_to_Q", 0 ],
@@ -26757,14 +26754,6 @@
 					"parameter_shortname" : "Del Stut"
 				}
 ,
-				"obj-226::obj-21::obj-43" : 				{
-					"parameter_longname" : "live.numbox[36]"
-				}
-,
-				"obj-226::obj-21::obj-46" : 				{
-					"parameter_longname" : "live.numbox[37]"
-				}
-,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
 					"parameter_longname" : "filter sweep[1]"
 				}
@@ -27153,6 +27142,20 @@
 					"parameter_initial_enable" : 1,
 					"parameter_longname" : "map_freq_to_Q",
 					"parameter_shortname" : "map_freq_to_Q"
+				}
+,
+				"obj-72::obj-356" : 				{
+					"parameter_exponent" : 0.33,
+					"parameter_initial_enable" : 0,
+					"parameter_longname" : "squareness[1]",
+					"parameter_shortname" : "squareness"
+				}
+,
+				"obj-72::obj-357" : 				{
+					"parameter_exponent" : 0.33,
+					"parameter_initial_enable" : 0,
+					"parameter_longname" : "squareness",
+					"parameter_shortname" : "squareness"
 				}
 ,
 				"obj-72::obj-376" : 				{
@@ -28317,16 +28320,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_custom1.maxpat",
+				"name" : "octaver_extfx.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "octaver_custom1_octaver.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
