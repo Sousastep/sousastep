@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2018.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -41,6 +41,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1104",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6337.0, 748.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1103",
 					"maxclass" : "newobj",
@@ -2264,13 +2276,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 16.0,
 					"id" : "obj-528",
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7022.0, 2368.927155376837618, 328.0, 26.0 ],
+					"patching_rect" : [ 7022.0, 2368.927155376837618, 328.0, 122.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 26.0 ],
-					"text" : "   ",
+					"presentation_linecount" : 6,
+					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 122.0 ],
+					"text" : "-- Left -- \n Main Input Tremolo Duty (bi) 0 \n LFO Duty Cycle (bi) 0 \n Drum Clip Tremolo Duty (bi) 0 \n Drum Clip Reverb Param (bi) 0 \n  ",
 					"textcolor" : [ 0.988235294117647, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -4373,7 +4387,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6284.800093650817871, 743.200011074542999, 135.0, 22.0 ],
+					"patching_rect" : [ 6318.0, 714.0, 135.0, 22.0 ],
 					"text" : "r this_control_is_in_use"
 				}
 
@@ -11162,6 +11176,7 @@
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 72.0,
+					"hidden" : 1,
 					"id" : "obj-292",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -13888,6 +13903,7 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 26.0,
+					"hidden" : 1,
 					"id" : "obj-282",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -15632,7 +15648,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "eighth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
