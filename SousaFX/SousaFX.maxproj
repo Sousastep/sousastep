@@ -2,7 +2,7 @@
 	"name" : "SousaFX",
 	"version" : 1,
 	"creationdate" : 3777600310,
-	"modificationdate" : 3801927262,
+	"modificationdate" : 3811287956,
 	"viewrect" : [ 1196.0, 1527.0, 478.0, 779.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -164,6 +164,11 @@
 				"local" : 1
 			}
 ,
+			"#2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"Crossover Selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -223,8 +228,8 @@
 				"local" : 1
 			}
 ,
-			"ParamEQ.rnbopat" : 			{
-				"kind" : "rnbopat",
+			"ProQ3_crossovers.maxpat" : 			{
+				"kind" : "patcher",
 				"local" : 1
 			}
 ,
@@ -249,6 +254,11 @@
 			}
 ,
 			"VFX_stutter.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sousaFX_tremolo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -293,12 +303,17 @@
 				"local" : 1
 			}
 ,
-			"plugin_or_rnbo_selector.maxpat" : 			{
+			"meter_peak.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"#2.maxpat" : 			{
+			"meter_peak_core.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"plugin_or_rnbo_selector.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -324,11 +339,6 @@
 			}
 ,
 			"sidechained_kick.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"sousaFX_tremolo.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -368,17 +378,12 @@
 				"local" : 1
 			}
 ,
+			"limiter.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
 			"lowpassfilter_selector.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"meter_peak.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"meter_peak_core.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -389,11 +394,6 @@
 			}
 ,
 			"tap_tempo.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"octaver_custom1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -428,17 +428,12 @@
 				"local" : 1
 			}
 ,
-			"rnbo_ParamEQ.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"rnbo_chorus.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"rnbo_compressor_mono.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rnbo_limiter.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -468,17 +463,27 @@
 				"local" : 1
 			}
 ,
-			"ProQ3_crossovers.maxpat" : 			{
+			"ParamEQ.rnbopat" : 			{
+				"kind" : "rnbopat",
+				"local" : 1
+			}
+,
+			"octaver_custom1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rnbo_ParamEQ.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"rnbo_chorus.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"PlateReverb.rnbopat" : 			{
-				"kind" : "rnbopat",
-				"local" : 1
-			}
-,
-			"limiter.rnbopat" : 			{
 				"kind" : "rnbopat",
 				"local" : 1
 			}
@@ -598,11 +603,6 @@
 				"local" : 1
 			}
 ,
-			"rnbo_limiter.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"rnbo_platereverb.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -631,22 +631,12 @@
 				"local" : 1
 			}
 ,
-			"20231105_231711.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
 			"20231105_231713.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
 			"AAA-1f8ed5a.jpg" : 			{
-				"kind" : "imagefile",
-				"local" : 1
-			}
-,
-			"Max_4zXnGO9MMI.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -701,6 +691,11 @@
 				"local" : 1
 			}
 ,
+			"20231105_231711.jpg" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
 			"metrodark.png" : 			{
 				"kind" : "imagefile",
 				"local" : 1
@@ -742,6 +737,11 @@
 			}
 ,
 			"sunsetlight.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"Max_4zXnGO9MMI.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
@@ -1207,11 +1207,6 @@
 				"local" : 1
 			}
 ,
-			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"Post-Crossfade_FX_plugin1_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1223,6 +1218,11 @@
 			}
 ,
 			"Pre-LPF_FX_plugin1_rnbo_overdrive.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"ProQ3crossovers.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1272,11 +1272,6 @@
 				"local" : 1
 			}
 ,
-			"dry_preamp_rnbo_ParamEQ.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"dry_preamp_rnbo_or_plugin.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -1298,6 +1293,11 @@
 			}
 ,
 			"lows_comp_rnbo_compressor_mono.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"main_limiter_rnbo_limiter.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1352,17 +1352,7 @@
 				"local" : 1
 			}
 ,
-			"wet_preamp_rnbo_ParamEQ.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
 			"wet_preamp_rnbo_or_plugin.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
-,
-			"ProQ3crossovers.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
@@ -1377,6 +1367,21 @@
 				"local" : 1
 			}
 ,
+			"Post-Crossfade_FX_plugin1_rnbo_chorus.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"dry_preamp_rnbo_ParamEQ.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"wet_preamp_rnbo_ParamEQ.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
 			"delay1_rnbo_filterdelay.json" : 			{
 				"kind" : "json"
 			}
@@ -1387,11 +1392,6 @@
 ,
 			"delay3_rnbo_filterdelay.json" : 			{
 				"kind" : "json"
-			}
-,
-			"main_limiter_rnbo_limiter.json" : 			{
-				"kind" : "json",
-				"local" : 1
 			}
 ,
 			"main_reverb_rnbo_platereverb.json" : 			{
@@ -1416,6 +1416,16 @@
 ,
 			"high_cross_fx_rnbo_or_plugin.json" : 			{
 				"kind" : "json"
+			}
+,
+			"layout_init.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"layout_saver.json" : 			{
+				"kind" : "json",
+				"local" : 1
 			}
 
 		}
