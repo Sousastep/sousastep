@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1664.0, 53.0, 896.0, 1387.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -42,6 +42,55 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"handoff" : "",
+					"hilite" : 0,
+					"id" : "obj-510",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 823.0, 1768.0, 317.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 59.0, 113.0, 21.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"handoff" : "",
+					"hidden" : 1,
+					"hilite" : 0,
+					"id" : "obj-468",
+					"maxclass" : "ubutton",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 779.0, 1756.0, 317.0, 55.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 59.0, 209.0, 36.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 12.0,
+					"hint" : "",
+					"id" : "obj-375",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 546.0, 1547.0, 64.0, 21.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 59.0, 209.0, 21.0 ],
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"blinkcolor" : [ 0.647058823529412, 0.905882352941176, 0.705882352941177, 0.0 ],
 					"id" : "obj-240",
@@ -52,8 +101,6 @@
 					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1426.0, 1942.5, 92.0, 92.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 5.25, 190.0, 81.0, 81.0 ],
 					"varname" : "Layout Saver"
 				}
 
@@ -1421,22 +1468,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5842.0, 2474.0, 70.0, 22.0 ],
 					"text" : "loadmess 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"handoff" : "",
-					"hilite" : 0,
-					"id" : "obj-510",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 823.0, 1768.0, 317.0, 55.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 59.0, 113.0, 21.0 ]
 				}
 
 			}
@@ -7844,7 +7875,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "live", ",", "internal" ],
+					"items" : [ "live", ",", "internal", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8242,23 +8273,6 @@
 			}
 , 			{
 				"box" : 				{
-					"handoff" : "",
-					"hidden" : 1,
-					"hilite" : 0,
-					"id" : "obj-468",
-					"maxclass" : "ubutton",
-					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 779.0, 1756.0, 317.0, 55.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 59.0, 209.0, 36.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-446",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -8314,22 +8328,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 546.0, 1345.0, 99.0, 22.0 ],
 					"text" : "r current_version"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 12.0,
-					"hint" : "",
-					"id" : "obj-375",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 546.0, 1547.0, 64.0, 21.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 59.0, 209.0, 21.0 ],
-					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
 				}
 
 			}
@@ -11622,8 +11620,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"comment" : "",
-										"meta" : ""
+										"meta" : "",
+										"comment" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -27545,6 +27543,13 @@
 				"name" : "latency_compensation.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "layout_2.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
