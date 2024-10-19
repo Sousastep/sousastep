@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 9.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 44.0, 875.0, 1387.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2421,13 +2421,15 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 16.0,
 					"id" : "obj-528",
+					"linecount" : 146,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7022.0, 2368.927155376837618, 32.0, 26.0 ],
+					"patching_rect" : [ 7022.0, 2368.927155376837618, 32.0, 2810.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 26.0 ],
-					"text" : "   ",
+					"presentation_linecount" : 16,
+					"presentation_rect" : [ 6.5, 173.561151079136607, 269.0, 314.0 ],
+					"text" : "-- Left -- \n Envelope Crossfade Position (bi) 0 \n Main Input Filters (bi) 0 \n Main Input Tremolo Duty (bi) 0 \n LFO Ceiling Envelope Curve (bi) 0 \n LFO Duty Cycle (bi) 0 \n LPF Resonance Amount (either) 0 \n Looper Filters (bi) 0 \n Looper Tremolo Duty (bi) 0 \n Drum Clip Crossfade (bi) 0 \n Drum Clip Filters (bi) 0 \n Drum Clip Tremolo Duty (bi) 0 \n Drum Clip Delay Param (bi) 0 \n Drum Clip Reverb Param (bi) 0 \n LFO Main Speed (bi) 0 \n  ",
 					"textcolor" : [ 0.988235294117647, 0.980392156862745, 1.0, 1.0 ]
 				}
 
@@ -7050,8 +7052,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 382.0, 3329.0, 436.0, 21.0 ],
-					"text" : "window size $1 $2 $3 $4, window flags nozoom, window flags nofloat, window exec"
+					"patching_rect" : [ 311.0, 3332.0, 524.0, 21.0 ],
+					"text" : "window size $1 $2 $3 $4, window flags nozoom, window flags float, window flags grow, window exec"
 				}
 
 			}
@@ -16417,11 +16419,6 @@
 									}
 , 									{
 										"in" : 45,
-										"out" : 69,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 45,
 										"out" : 4,
 										"gain" : 1.0
 									}
@@ -16438,6 +16435,11 @@
 , 									{
 										"in" : 2,
 										"out" : 70,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 39,
+										"out" : 61,
 										"gain" : 1.0
 									}
  ]
