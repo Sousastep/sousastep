@@ -2,44 +2,75 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 650.0, 412.0, 1377.0, 967.0 ],
-		"bglocked" : 0,
+		"rect" : [ 871.0, 95.0, 1377.0, 967.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1596.0, 511.0, 48.0, 22.0 ],
+					"text" : "del 200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 1596.0, 478.0, 29.5, 22.0 ],
+					"text" : "b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-38",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1538.0, 496.0, 38.0, 22.0 ],
+					"text" : "zl.reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-84",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1557.0, 434.0, 81.0, 22.0 ],
+					"text" : "r #1_custom1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-33",
 					"maxclass" : "newobj",
@@ -165,7 +196,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1623.0, 551.0, 63.0, 22.0 ],
+					"patching_rect" : [ 1636.0, 566.0, 63.0, 22.0 ],
 					"text" : "closebang"
 				}
 
@@ -463,10 +494,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 34.0, 582.0, 419.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 532, 396 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_or_plugin @greedy 2 @savemode 0",
@@ -828,7 +859,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+					"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1119,6 +1150,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-123", 0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-73", 1 ],
+					"order" : 1,
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
@@ -1140,6 +1187,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-41", 0 ],
 					"source" : [ "obj-43", 0 ]
 				}
@@ -1156,6 +1210,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-43", 1 ],
 					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1273,6 +1334,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 1 ],
+					"order" : 1,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-42", 0 ],
+					"order" : 0,
+					"source" : [ "obj-84", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-73", 0 ],
 					"source" : [ "obj-88", 1 ]
 				}
@@ -1322,6 +1399,7 @@
 
 			}
  ],
+		"originid" : "pat-10294",
 		"dependency_cache" : [ 			{
 				"name" : "#2.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",

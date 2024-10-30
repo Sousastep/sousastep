@@ -2,42 +2,24 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 5,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1219.0, 53.0, 1341.0, 1387.0 ],
-		"bglocked" : 0,
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
 		"enablehscroll" : 0,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
@@ -2285,6 +2267,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[110]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -3921,7 +3904,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5903.0, 2542.0, 24.0, 24.0 ]
+					"patching_rect" : [ 5903.0, 2542.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -4199,6 +4183,7 @@
 							"parameter_longname" : "pitch amount[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "pitch amount",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -4238,6 +4223,7 @@
 							"parameter_longname" : "pitch amount",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 3,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "pitch amount",
 							"parameter_type" : 0,
 							"parameter_units" : "%%",
@@ -4416,42 +4402,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
 						"rect" : [ 563.0, 1527.0, 600.0, 450.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"code" : "// Based on Warren Moore's easing C source code\r\n// https://github.com/warrenm/AHEasing/blob/master/AHEasing/easing.c\r\n\r\n// Modeled after half sine wave\nSineEaseInOut(value)\n{\n\treturn 0.5 * (1 - cos(value * PI));\n}\r\n\r\nout1 = SineEaseInOut(in1);\r\n\r\n\r\n",
@@ -4509,7 +4469,8 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-4239"
 					}
 ,
 					"patching_rect" : [ 3610.0, 5914.0, 47.0, 22.0 ],
@@ -4873,7 +4834,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5106.0, 4509.0, 24.0, 24.0 ]
+					"patching_rect" : [ 5106.0, 4509.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -5163,7 +5125,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4482.0, 455.5, 24.0, 24.0 ]
+					"patching_rect" : [ 4482.0, 455.5, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -5441,42 +5404,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
 						"rect" : [ 999.0, 887.0, 625.0, 398.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
 						"toolbars_unpinned_last_save" : 2,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-33",
@@ -5966,6 +5904,7 @@
 
 							}
  ],
+						"originid" : "pat-4277",
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
@@ -6070,6 +6009,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[31]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -6102,42 +6042,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
 						"rect" : [ 1009.0, 704.0, 785.0, 558.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -6777,7 +6691,8 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-4279"
 					}
 ,
 					"patching_rect" : [ 6613.0, 5087.0, 163.0, 22.0 ],
@@ -7631,7 +7546,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 5865.0, 3638.0, 24.0, 24.0 ]
+					"patching_rect" : [ 5865.0, 3638.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -8109,7 +8025,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 766.0, 1607.0, 24.0, 24.0 ]
+					"patching_rect" : [ 766.0, 1607.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -8133,7 +8050,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 802.0, 1607.0, 24.0, 24.0 ]
+					"patching_rect" : [ 802.0, 1607.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -8864,42 +8782,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 963.0, 628.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Lato",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -9232,6 +9124,7 @@
 
 							}
  ],
+						"originid" : "pat-4403",
 						"bgfillcolor_type" : "gradient",
 						"bgfillcolor_color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 						"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -9240,11 +9133,8 @@
 ,
 					"patching_rect" : [ 306.0, 1167.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Lato",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p configureColors"
@@ -9273,42 +9163,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 106.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-35",
@@ -9417,15 +9281,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-4405"
 					}
 ,
 					"patching_rect" : [ 171.0, 1023.0, 75.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p isAudioOn"
@@ -9490,42 +9352,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 260.0, 675.0, 683.0, 370.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Lato",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -9752,16 +9588,14 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-4407"
 					}
 ,
 					"patching_rect" : [ 171.0, 1339.0, 104.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"fontname" : "Lato",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p configureColors"
@@ -9788,7 +9622,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 83.0, 1345.0, 24.0, 24.0 ]
+					"patching_rect" : [ 83.0, 1345.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -9838,7 +9673,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 				}
 
 			}
@@ -9918,6 +9753,7 @@
 							"parameter_longname" : "live.numbox[2]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.numbox",
 							"parameter_type" : 0,
 							"parameter_units" : "%i%",
@@ -9926,7 +9762,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
+					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -10142,13 +9978,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-386",
-					"linecount" : 30,
+					"linecount" : 32,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5483.0, 264.0, 287.0, 471.0 ],
+					"patching_rect" : [ 5483.0, 264.0, 287.0, 501.0 ],
 					"suppressinlet" : 1,
-					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X saveas 9;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation;\n#X item 5 2 🦅 Attack;\n#X item 5 3 🪴 Sustain;\n#X item 5 4 ⚔️ Envelope Crossfade;\n#X item 5 5 📬 Post-Crossfade;\n#X item 5 6 ⏳ Delay & Reverb Sends;\n#X item 5 7 ♻️ Loopers;\n#X item 5 8 🥾 Kick Ducker;\n#X item 5 9 🎧 Monitor Mix;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
+					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X saveas 9;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation;\n#X item 5 2 🦅 Attack;\n#X item 5 3 🪴 Sustain;\n#X item 5 4 ⚔️ Envelope Crossfade;\n#X item 5 5 📬 Post-Crossfade;\n#X item 5 6 ⏳ Delay & Reverb Sends;\n#X item 5 7 ♻️ Loopers;\n#X item 5 8 🥾 Kick Ducker;\n#X item 5 9 🎧 Monitor Mix;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X item 6 8 -;\n#X item 6 9 🪟 Save Window Layout;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
 				}
 
 			}
@@ -10544,7 +10380,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.427450980392157, 0.843137254901961, 1.0, 1.0 ],
+					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"id" : "obj-353",
@@ -10575,6 +10411,7 @@
 							"parameter_mmax" : -6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "bleed",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -11572,42 +11409,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "rnbo",
 						"rect" : [ 1258.0, 305.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Lato",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"title" : "untitled",
 						"boxes" : [ 							{
 								"box" : 								{
@@ -11716,18 +11527,7 @@
 
 							}
  ],
-						"default_bgcolor" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
-						"color" : [ 0.929412, 0.929412, 0.352941, 1.0 ],
-						"elementcolor" : [ 0.357540726661682, 0.515565991401672, 0.861786782741547, 1.0 ],
-						"accentcolor" : [ 0.343034118413925, 0.506230533123016, 0.86220508813858, 1.0 ],
-						"stripecolor" : [ 0.258338063955307, 0.352425158023834, 0.511919498443604, 1.0 ],
-						"bgfillcolor_type" : "color",
-						"bgfillcolor_color" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
-						"bgfillcolor_color1" : [ 0.031372549019608, 0.125490196078431, 0.211764705882353, 1.0 ],
-						"bgfillcolor_color2" : [ 0.263682, 0.004541, 0.038797, 1.0 ],
-						"bgfillcolor_angle" : 270.0,
-						"bgfillcolor_proportion" : 0.39,
-						"bgfillcolor_autogradient" : 0.0
+						"originid" : "pat-4437"
 					}
 ,
 					"patching_rect" : [ 824.0, 2145.0, 237.0, 22.0 ],
@@ -12505,7 +12305,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4812.0, 323.0, 31.0, 31.0 ]
+					"patching_rect" : [ 4812.0, 323.0, 31.0, 31.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -12519,7 +12320,7 @@
 					"numoutlets" : 7,
 					"outlettype" : [ "int", "int", "int", "int", "int", "int", "int" ],
 					"patching_rect" : [ 4812.0, 367.0, 380.0, 23.0 ],
-					"save" : [ "#N", "menubar", 7, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "saveas", 9, ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "🔊", "FX", ";", "#X", "item", 5, 1, "🌊", "Modulation", ";", "#X", "item", 5, 2, "🦅", "Attack", ";", "#X", "item", 5, 3, "🪴", "Sustain", ";", "#X", "item", 5, 4, "⚔️", "Envelope", "Crossfade", ";", "#X", "item", 5, 5, "📬", "Post-Crossfade", ";", "#X", "item", 5, 6, "⏳", "Delay", "&", "Reverb", "Sends", ";", "#X", "item", 5, 7, "♻️", "Loopers", ";", "#X", "item", 5, 8, "🥾", "Kick", "Ducker", ";", "#X", "item", 5, 9, "🎧", "Monitor", "Mix", ";", "#X", "menutitle", 6, "⚙️", "Settings", ";", "#X", "item", 6, 1, "🎮", "Controller", "Bindings/B", ";", "#X", "item", 6, 2, "-", ";", "#X", "item", 6, 3, "🥁", "Tempo/T", ";", "#X", "item", 6, 4, "-", ";", "#X", "item", 6, 5, "🎛", "MIDI", "IO/{", ";", "#X", "item", 6, 6, "🎙", "Audio", "IO/}", ";", "#X", "item", 6, 7, "🔈", "Audio", "Status.../|", ";", "#X", "item", 6, 8, "-", ";", "#X", "item", 6, 9, "⛰️Reset", "peak", "meters/", ";", "#X", "menutitle", 7, "🛟", "Support", ";", "#X", "item", 7, 1, "📙", "Documentation", ";", "#X", "item", 7, 2, "-", ";", "#X", "item", 7, 3, "🐞", "Report", "a", "Bug", ";", "#X", "item", 7, 4, "-", ";", "#X", "item", 7, 5, "👾", "Join", "the", "Discord", ";", "#X", "item", 7, 6, "-", ";", "#X", "item", 7, 7, "🥺", "Donate", ";", "#X", "end", ";" ],
+					"save" : [ "#N", "menubar", 7, 0, ";", "#X", "about", "About", "SousaFX…", ";", "#X", "saveas", 9, ";", "#X", "closeitem", ";", "#X", "menutitle", 5, "🔊", "FX", ";", "#X", "item", 5, 1, "🌊", "Modulation", ";", "#X", "item", 5, 2, "🦅", "Attack", ";", "#X", "item", 5, 3, "🪴", "Sustain", ";", "#X", "item", 5, 4, "⚔️", "Envelope", "Crossfade", ";", "#X", "item", 5, 5, "📬", "Post-Crossfade", ";", "#X", "item", 5, 6, "⏳", "Delay", "&", "Reverb", "Sends", ";", "#X", "item", 5, 7, "♻️", "Loopers", ";", "#X", "item", 5, 8, "🥾", "Kick", "Ducker", ";", "#X", "item", 5, 9, "🎧", "Monitor", "Mix", ";", "#X", "menutitle", 6, "⚙️", "Settings", ";", "#X", "item", 6, 1, "🎮", "Controller", "Bindings/B", ";", "#X", "item", 6, 2, "-", ";", "#X", "item", 6, 3, "🥁", "Tempo/T", ";", "#X", "item", 6, 4, "-", ";", "#X", "item", 6, 5, "🎛", "MIDI", "IO/{", ";", "#X", "item", 6, 6, "🎙", "Audio", "IO/}", ";", "#X", "item", 6, 7, "🔈", "Audio", "Status.../|", ";", "#X", "item", 6, 8, "-", ";", "#X", "item", 6, 9, "⛰️Reset", "peak", "meters/", ";", "#X", "item", 6, 10, "🪟", "Save", "Window", "Layout", ";", "#X", "menutitle", 7, "🛟", "Support", ";", "#X", "item", 7, 1, "📙", "Documentation", ";", "#X", "item", 7, 2, "-", ";", "#X", "item", 7, 3, "🐞", "Report", "a", "Bug", ";", "#X", "item", 7, 4, "-", ";", "#X", "item", 7, 5, "👾", "Join", "the", "Discord", ";", "#X", "item", 7, 6, "-", ";", "#X", "item", 7, 7, "🥺", "Donate", ";", "#X", "end", ";" ],
 					"text" : "menubar 7"
 				}
 
@@ -15758,10 +15559,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 2766.0, 3005.0, 828.277151639344311, 1839.367632678741074 ],
+					"patching_rect" : [ 2766.0, 3005.0, 828.277151639344197, 1839.367632678740847 ],
 					"pic" : "Macintosh HD:/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/media/Sousastep_signalflow.drawio.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 23.0, 869.0, 1929.801479654747027 ]
+					"presentation_rect" : [ 0.0, 23.0, 868.999999999999886, 1929.801479654746799 ]
 				}
 
 			}
@@ -25169,6 +24970,7 @@
 
 			}
  ],
+		"originid" : "pat-3909",
 		"parameters" : 		{
 			"obj-115::obj-200::obj-18" : [ "phase offset[3]", "phase offset", 0 ],
 			"obj-115::obj-200::obj-2" : [ "live.menu[10]", "live.menu", 0 ],
@@ -25417,6 +25219,15 @@
 			"obj-225::obj-2::obj-191" : [ "vst~[7]", "vst~", 0 ],
 			"obj-225::obj-3::obj-191" : [ "vst~[9]", "vst~", 0 ],
 			"obj-225::obj-4::obj-191" : [ "vst~[8]", "vst~", 0 ],
+			"obj-226::obj-21::obj-137" : [ "freq[1]", "freq", 0 ],
+			"obj-226::obj-21::obj-141" : [ "filterenable", "filterenable", 0 ],
+			"obj-226::obj-21::obj-157" : [ "rez[1]", "rez", 0 ],
+			"obj-226::obj-21::obj-43" : [ "live.numbox[36]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-44" : [ "live.dial[9]", "sub mix", 0 ],
+			"obj-226::obj-21::obj-46" : [ "live.numbox[37]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-72" : [ "live.numbox[5]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-73" : [ "live.numbox[6]", "live.numbox[3]", 0 ],
+			"obj-226::obj-21::obj-75" : [ "filter boost[7]", "filter boost", 0 ],
 			"obj-227::obj-21::obj-191" : [ "vst~", "vst~", 0 ],
 			"obj-233::obj-1041::obj-105" : [ "live.menu[12]", "live.menu", 0 ],
 			"obj-233::obj-1041::obj-138::obj-1" : [ "filter sweep[1]", "filter sweep", 0 ],
@@ -26276,6 +26087,14 @@
 					"parameter_shortname" : "Del Stut"
 				}
 ,
+				"obj-226::obj-21::obj-137" : 				{
+					"parameter_longname" : "freq[1]"
+				}
+,
+				"obj-226::obj-21::obj-75" : 				{
+					"parameter_longname" : "filter boost[7]"
+				}
+,
 				"obj-233::obj-1041::obj-138::obj-1" : 				{
 					"parameter_longname" : "filter sweep[1]"
 				}
@@ -26859,13 +26678,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Instant Phaser Mk II.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "M4L.bal2~.maxpat",
 				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
@@ -27012,13 +26824,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Pro-Q 3_20240918_1.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ProQ3_crossovers.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
@@ -27048,8 +26853,8 @@
 			}
 , 			{
 				"name" : "SousaFX Background Color Preference.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaFX",
-				"patcherrelativepath" : "../../default/presets/SousaFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -27870,9 +27675,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "octaver_extfx.maxpat",
+				"name" : "octaver_custom1.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "octaver_custom1_octaver.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -28068,7 +27880,14 @@
 			}
 , 			{
 				"name" : "sm.sallenkey2~.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm.sallenkey~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/patchers",
 				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
 				"type" : "JSON",
 				"implicit" : 1
@@ -28081,6 +27900,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sm_sallenkey.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sm_sallenkey_functions.genexpr",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
 				"patcherrelativepath" : "../other",
@@ -28088,8 +27914,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "sm_sallenkey_setup.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "sm_sallenkey_stereo.gendsp",
-				"bootpath" : "~/Documents/Max 8/Packages/smFilterPack/code/sm_gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_wrapper.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
 				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
 				"type" : "gDSP",
 				"implicit" : 1
@@ -28278,7 +28118,7 @@
 			}
  ],
 		"autosave" : 0,
-		"bgcolor" : [ 0.019607843137255, 0.0, 0.082352941176471, 0.830555555555556 ],
+		"bgcolor" : [ 0.019607843137255, 0.0, 0.082352941176471, 0.538251366120219 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
 

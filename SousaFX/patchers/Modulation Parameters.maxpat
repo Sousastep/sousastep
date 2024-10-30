@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2023.0, 1387.0 ],
+		"rect" : [ 1020.0, 341.0, 520.0, 757.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "modulation parameters",
 		"boxes" : [ 			{
@@ -48,7 +25,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 596.0, 1511.0, 123.0, 22.0 ],
-					"restore" : [ 80.168947091610136 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -67,7 +44,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 917.0, 1511.0, 152.0, 22.0 ],
-					"restore" : [ 75.411002251440507 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -110,6 +87,7 @@
 							"parameter_longname" : "squareness[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "squareness",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -154,6 +132,7 @@
 							"parameter_longname" : "squareness",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "squareness",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -223,7 +202,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2568.0, 3680.0, 50.0, 62.0 ],
-					"text" : "High_Duty 0.005792"
+					"text" : "High_Duty 23.144417"
 				}
 
 			}
@@ -340,6 +319,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-402",
@@ -361,6 +341,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-401",
@@ -483,7 +464,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.242424242424242, 1.0, 0, 0.0, 1.0, 0.408163265306122, 0, -0.295 ],
+					"addpoints_with_curve" : [ 0.176767676767677, 1.0, 0, 0.0, 1.0, 0.408163265306122, 0, -0.295 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
@@ -508,6 +489,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "map_freq_to_Q[1]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "map_freq_to_Q",
 							"parameter_type" : 3
 						}
@@ -602,7 +584,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1721.0, 198.0, 40.0, 22.0 ],
-					"restore" : [ 1.0, 0.0, 1.0, 0.242424242424242, 1.0, 0, 0.0, 1.0, 0.408163265306122, 0, -0.295, "curve" ],
+					"restore" : [ 1.0, 0.0, 1.0, 0.176767676767677, 1.0, 0, 0.0, 1.0, 0.408163265306122, 0, -0.295, "curve" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -615,7 +597,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.995 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.320714373590127 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
@@ -639,6 +621,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "map_freq_to_Q",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "map_freq_to_Q",
 							"parameter_type" : 3
 						}
@@ -880,7 +863,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3146.0, 1529.0, 24.0, 24.0 ]
+					"patching_rect" : [ 3146.0, 1529.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1152,6 +1136,7 @@
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : 0.1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "wah sens reduc",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -1275,6 +1260,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "prerate phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -1349,6 +1335,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "prerate phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -1423,6 +1410,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "prerate phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -1977,6 +1965,7 @@
 							"parameter_longname" : "floor max",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "floor max",
 							"parameter_type" : 0,
 							"parameter_units" : "%.3f",
@@ -2052,6 +2041,7 @@
 							"parameter_longname" : "ceil max",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "ceil max",
 							"parameter_type" : 0,
 							"parameter_units" : "%.3f",
@@ -2153,6 +2143,7 @@
 							"parameter_longname" : "ceil y pos",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "y pos",
 							"parameter_type" : 0,
 							"parameter_units" : "%.3f",
@@ -2197,6 +2188,7 @@
 							"parameter_longname" : "floor y pos",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "y pos",
 							"parameter_type" : 0,
 							"parameter_units" : "%.3f",
@@ -2241,6 +2233,7 @@
 							"parameter_longname" : "x pos",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "x pos",
 							"parameter_type" : 0,
 							"parameter_units" : "%.3f",
@@ -2298,7 +2291,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2230.0, 3075.0, 87.0, 22.0 ],
-					"restore" : [ 5.118110236220419 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2342,6 +2335,7 @@
 							"parameter_mmax" : 50.0,
 							"parameter_mmin" : -50.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "pow",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -2441,6 +2435,7 @@
 							"parameter_mmax" : 2.0,
 							"parameter_mmin" : 0.5,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "env sens",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -2536,6 +2531,7 @@
 					"patching_rect" : [ 3024.0, 378.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 343.0, 53.0, 16.0, 16.0 ],
+					"svg" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "toggle[2]"
 				}
@@ -2686,6 +2682,7 @@
 					"patching_rect" : [ 1065.0, 240.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 132.0, 156.0, 16.0, 16.0 ],
+					"svg" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "toggle[1]"
 				}
@@ -2845,6 +2842,7 @@
 							"parameter_longname" : "floor env smooth",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "env smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -2867,42 +2865,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
 						"rect" : [ 1412.0, 334.0, 955.0, 604.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -3523,7 +3495,8 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-8049"
 					}
 ,
 					"patching_rect" : [ 4267.0, 966.0, 36.0, 22.0 ],
@@ -3565,42 +3538,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "dsp.gen",
 						"rect" : [ 1431.0, 624.0, 955.0, 604.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -4221,7 +4168,8 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-8051"
 					}
 ,
 					"patching_rect" : [ 3641.0, 869.0, 36.0, 22.0 ],
@@ -4278,6 +4226,7 @@
 							"parameter_longname" : "ceiling env smooth",
 							"parameter_mmax" : 1000.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "env smooth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -4421,6 +4370,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-184",
@@ -4613,6 +4563,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[11]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function[11]",
 							"parameter_type" : 3
 						}
@@ -5129,9 +5080,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1797.0, 1744.0, 24.0, 24.0 ],
+					"patching_rect" : [ 1796.0, 1744.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 444.0, 44.0, 35.0, 35.0 ],
+					"svg" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -5309,42 +5261,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 0,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 820.0, 493.0, 1674.0, 907.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 170.0, 291.0, 1674.0, 907.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
 						"toolbars_unpinned_last_save" : 8,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-5",
@@ -5523,7 +5450,8 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 613.0, 50.0, 24.0, 24.0 ]
+									"patching_rect" : [ 613.0, 50.0, 24.0, 24.0 ],
+									"svg" : ""
 								}
 
 							}
@@ -5730,8 +5658,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 613.0, 87.0, 69.0, 24.0 ],
-									"text" : "qmetro 17"
+									"patching_rect" : [ 613.0, 87.0, 61.0, 24.0 ],
+									"text" : "metro 17"
 								}
 
 							}
@@ -6025,6 +5953,7 @@
 
 							}
  ],
+						"originid" : "pat-8053",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -6099,12 +6028,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1154.0, 1777.0, 661.934744268077793, 22.0 ],
+					"patching_rect" : [ 1154.0, 1778.0, 661.934744268077793, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p oscilloscope"
@@ -6114,6 +6040,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.35 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.243137254901961, 0.474509803921569, 0.662745098039216, 0.39 ],
 					"id" : "obj-789",
 					"knobcolor" : [ 0.192156862745098, 0.772549019607843, 0.552941176470588, 0.36078431372549 ],
@@ -6235,7 +6162,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2336.0, 2531.0, 122.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 23.622047244094468 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6277,6 +6204,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "duty cycle",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -6341,6 +6269,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "postrate phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -6467,7 +6396,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1597.0, 737.0, 82.0, 22.0 ],
-					"restore" : [ 88 ],
+					"restore" : [ 70 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6486,7 +6415,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1527.0, 770.0, 79.0, 22.0 ],
-					"restore" : [ 32 ],
+					"restore" : [ 7 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6562,7 +6491,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1157.0, 1084.0, 152.0, 22.0 ],
-					"restore" : [ 49.0 ],
+					"restore" : [ 31.401574803149689 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6581,7 +6510,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1183.0, 1128.0, 116.0, 22.0 ],
-					"restore" : [ 14.173228346456625 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6657,7 +6586,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 283.0, 1133.0, 129.0, 22.0 ],
-					"restore" : [ 19.0 ],
+					"restore" : [ 19.074015748031492 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6676,7 +6605,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 316.0, 1089.0, 93.0, 22.0 ],
-					"restore" : [ 2.362204724409359 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -6895,7 +6824,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1029.0, 2733.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1029.0, 2733.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -7480,6 +7410,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[25]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -7517,6 +7448,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[26]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -7554,6 +7486,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[27]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -7662,6 +7595,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[28]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -7721,6 +7655,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[29]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -7758,6 +7693,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[30]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -8229,38 +8165,20 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3082.0, 1130.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endY" : 						{
-							"label" : "endY",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -8271,15 +8189,33 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.1",
+					"rnboversion" : "1.3.3",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -8329,38 +8265,20 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 4256.0, 2182.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endY" : 						{
-							"label" : "endY",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -8371,15 +8289,33 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.1",
+					"rnboversion" : "1.3.3",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -8442,38 +8378,20 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 5285.0, 2165.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"midX" : 						{
-							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"firstX" : 						{
 							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midY" : 						{
-							"label" : "midY",
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endY" : 						{
-							"label" : "endY",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -8484,15 +8402,33 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endY" : 						{
+							"label" : "endY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 
 					}
 ,
-					"rnboversion" : "1.3.1",
+					"rnboversion" : "1.3.3",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -8821,6 +8757,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.294117647058824, 0.72156862745098, 0.698039215686274, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-329",
@@ -8975,6 +8912,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.1 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-738",
@@ -8993,6 +8931,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-219",
@@ -9135,6 +9074,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[8]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function[8]",
 							"parameter_type" : 3
 						}
@@ -9215,6 +9155,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[19]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function[19]",
 							"parameter_type" : 3
 						}
@@ -9310,6 +9251,7 @@
 							"parameter_longname" : "Resonance",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Rez",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9554,6 +9496,7 @@
 							"parameter_longname" : "low_floor[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "floor",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9623,6 +9566,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9690,6 +9634,7 @@
 							"parameter_longname" : "low_SnTrSq[1]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "low_SnTrSq",
 							"parameter_type" : 2
 						}
@@ -9764,6 +9709,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9821,6 +9767,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9910,6 +9857,7 @@
 							"parameter_longname" : "low_floor",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "floor",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -9979,6 +9927,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10046,6 +9995,7 @@
 							"parameter_longname" : "low_SnTrSq",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "low_SnTrSq",
 							"parameter_type" : 2
 						}
@@ -10136,6 +10086,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10191,6 +10142,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10246,6 +10198,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "duty",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10301,6 +10254,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "y-axis",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10356,6 +10310,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "depth",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10465,6 +10420,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "phase",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -10522,6 +10478,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "power",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -14764,7 +14721,8 @@
 
 			}
  ],
-		"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+		"originid" : "pat-8035",
+		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 		"editing_bgcolor" : [ 0.341176470588235, 0.341176470588235, 0.341176470588235, 0.949019607843137 ],
 		"saved_attribute_attributes" : 		{
 			"locked_bgcolor" : 			{

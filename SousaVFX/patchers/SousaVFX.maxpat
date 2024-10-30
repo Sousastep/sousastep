@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 682.0, 75.0, 1312.0, 1335.0 ],
+		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
@@ -18,14 +18,333 @@
 		"title" : "SousaVFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-271",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "bang", "" ],
+					"patching_rect" : [ 4471.0, 579.0, 44.0, 22.0 ],
+					"text" : "sel 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-270",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 4473.0, 532.0, 79.0, 22.0 ],
+					"text" : "getattr visible"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-268",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4418.0, 416.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-245",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4418.0, 452.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-253",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4393.0, 277.0, 22.0, 22.0 ],
+					"text" : "t 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 0.870588235294118, 0.79 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-254",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4459.0, 380.0, 272.000008106231689, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "bang if new layout does not contains this window",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-255",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 4418.0, 379.0, 34.0, 22.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-256",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4394.0, 247.0, 55.0, 22.0 ],
+					"text" : "del 2000"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 0.870588235294118, 0.79 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-257",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4455.0, 342.0, 276.000008225440979, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "ask if new layout contains this window",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.843137254901961, 0.827450980392157, 0.870588235294118, 0.79 ],
+					"fontname" : "Ableton Sans Light",
+					"id" : "obj-258",
+					"maxclass" : "comment",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4525.0, 275.0, 290.0, 21.0 ],
+					"suppressinlet" : 1,
+					"text" : "this del must be longer than the Layout Saver's qmetro",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-259",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4473.0, 274.0, 48.0, 22.0 ],
+					"text" : "del 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-260",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 4473.0, 227.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-261",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4418.0, 342.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-263",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "", "int" ],
+					"patching_rect" : [ 4905.0, 329.0, 40.0, 22.0 ],
+					"text" : "t b l 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-264",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4915.5, 457.0, 76.0, 22.0 ],
+					"text" : "prepend rect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-265",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4905.0, 249.0, 128.0, 22.0 ],
+					"text" : "r \"set window location\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-266",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 4905.0, 286.0, 160.0, 22.0 ],
+					"text" : "route \"SousaVFX jit.window\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-241",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 4338.0, 752.0, 38.0, 22.0 ],
+					"text" : "zl.reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-239",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4279.0, 808.0, 177.0, 22.0 ],
+					"text" : "prepend \"SousaVFX jit.window\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-287",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 4279.0, 667.0, 192.0, 22.0 ],
+					"text" : "r \"get all floating window locations\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-281",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4279.0, 847.0, 157.0, 22.0 ],
+					"text" : "s floating_window_locations"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-220",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4538.0, 633.0, 150.0, 22.0 ],
+					"text" : "s floating_window_opened"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-247",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4525.0, 667.0, 145.0, 22.0 ],
+					"text" : "s floating_window_closed"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-244",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 4357.0, 707.0, 66.0, 22.0 ],
+					"text" : "getattr rect"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-240",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 4457.0, 1769.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-237",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1121.000034093856812, 1569.333380103111267, 111.0, 22.0 ],
+					"text" : "jit.bang @drawto w"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"attr" : "visible",
+					"hint" : "show vfx preview window",
 					"id" : "obj-248",
 					"maxclass" : "attrui",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4598.0, 811.0, 150.0, 22.0 ],
+					"patching_rect" : [ 4418.0, 489.0, 150.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1465.0, 624.0, 95.0, 22.0 ],
 					"text_width" : 62.0
@@ -52,7 +371,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4483.0, 814.0, 89.0, 22.0 ],
+					"patching_rect" : [ 4518.0, 799.0, 89.0, 22.0 ],
 					"text" : "jit.gl.asyncread"
 				}
 
@@ -64,8 +383,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 4483.0, 853.0, 410.0, 22.0 ],
-					"text" : "jit.window @rect 100 100 1143 1079 @size 1043 979 @dstrect 0 0 256 256"
+					"patching_rect" : [ 4483.0, 853.0, 482.0, 22.0 ],
+					"text" : "jit.window @rect 2321 1200 2577 1456 @size 256 256 @dstrect 0 0 256 256 @floating 1"
 				}
 
 			}
@@ -76,7 +395,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 4483.0, 772.0, 262.0, 22.0 ],
+					"patching_rect" : [ 4518.0, 757.0, 262.0, 22.0 ],
 					"text" : "jit.gl.texture @adapt 0 @dim 32 32 @filter none"
 				}
 
@@ -117,7 +436,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4984.0, 752.0, 102.0, 51.0 ],
 					"suppressinlet" : 1,
-					"text" : "helps set render delay in OBS"
+					"text" : "helps set render delay in OBS",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -639,14 +959,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-194",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1986.0, 1154.0, 225.0, 21.0 ],
-					"text" : "init rand idle preset on load"
+					"patching_rect" : [ 1986.0, 1211.0, 225.0, 21.0 ],
+					"text" : "init rand idle preset on load",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -657,8 +978,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1986.0, 1254.000000000000227, 55.0, 22.0 ],
-					"text" : "del 2000"
+					"patching_rect" : [ 1986.0, 1311.0, 55.0, 22.0 ],
+					"text" : "del 6000"
 				}
 
 			}
@@ -669,7 +990,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1986.0, 1220.333333333333485, 54.0, 22.0 ],
+					"patching_rect" : [ 1986.0, 1278.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -681,7 +1002,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1986.0, 1186.666666666666742, 58.0, 22.0 ],
+					"patching_rect" : [ 1986.0, 1244.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -954,7 +1275,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.0, 619.0, 70.0, 22.0 ],
+					"patching_rect" : [ 620.0, 618.0, 70.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -1050,7 +1371,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-178",
 					"linecount" : 3,
@@ -1058,7 +1379,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1664.000049591064453, 743.5, 94.0, 51.0 ],
-					"text" : "soloFX\n1. disabled\n2. enabled"
+					"text" : "soloFX\n1. disabled\n2. enabled",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1088,7 +1410,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-175",
 					"linecount" : 4,
@@ -1096,7 +1418,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1944.0, 622.0, 253.0, 66.0 ],
-					"text" : "on while tuba's playing, off when tuba doesn't play for 30 seconds OR once Idle Auto-Switch is manually disabled "
+					"text" : "on while tuba's playing, off when tuba doesn't play for 30 seconds OR once Idle Auto-Switch is manually disabled ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1202,7 +1525,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-122",
 					"linecount" : 4,
@@ -1210,7 +1533,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1506.666711568832397, 845.333358526229858, 141.0, 66.0 ],
-					"text" : "acoustic auto-switch only active while BasicFX's active"
+					"text" : "acoustic auto-switch only active while BasicFX's active",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1264,7 +1588,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-44",
 					"linecount" : 5,
@@ -1272,13 +1596,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1042.66669774055481, 1257.333370804786682, 166.0, 81.0 ],
-					"text" : "bang current wobble preset when soloFX disabled (AKA looper idle/recording) AND rig == sousaFX"
+					"text" : "bang current wobble preset when soloFX disabled (AKA looper idle/recording) AND rig == sousaFX",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-41",
 					"linecount" : 4,
@@ -1286,13 +1611,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1701.333384037017822, 1136.000033855438232, 225.0, 66.0 ],
-					"text" : "bang random idle preset if \"Idle auto-switch\" is active AND tuba doesn't make a sound for 30 seconds"
+					"text" : "bang random idle preset if \"Idle auto-switch\" is active AND tuba doesn't make a sound for 30 seconds",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-29",
 					"linecount" : 5,
@@ -1300,13 +1626,14 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1345.333373427391052, 1128.000033617019653, 210.0, 81.0 ],
-					"text" : "bang random acoustic preset when soloFX enabled (AKA looper finishes recording) OR when acoustic auto-switcher triggers"
+					"text" : "bang random acoustic preset when soloFX enabled (AKA looper finishes recording) OR when acoustic auto-switcher triggers",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-28",
 					"linecount" : 4,
@@ -1314,7 +1641,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1013.33336353302002, 1142.666700720787048, 167.0, 66.0 ],
-					"text" : "bang random wobble preset when soloFX disabled (AKA looper finishes fading out)"
+					"text" : "bang random wobble preset when soloFX disabled (AKA looper finishes fading out)",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1495,7 +1823,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-147",
 					"linecount" : 3,
@@ -1503,7 +1831,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 941.333361387252808, 1569.333380103111267, 124.0, 51.0 ],
-					"text" : "only send LFOs while wobble FX are in use"
+					"text" : "only send LFOs while wobble FX are in use",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2742,7 +3071,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4885.0, 1212.0, 145.0, 51.0 ],
 					"suppressinlet" : 1,
-					"text" : "some VFX look best blurred and some are better sharp"
+					"text" : "some VFX look best blurred and some are better sharp",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -2756,7 +3086,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4844.0, 1330.0, 136.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "only works on mac"
+					"text" : "only works on mac",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -2771,7 +3102,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4567.0, 1272.0, 232.0, 81.0 ],
 					"suppressinlet" : 1,
-					"text" : "when VFX preset changes, apply curcular feedback mask to entire image, then back it off over the course of one whole note."
+					"text" : "when VFX preset changes, apply curcular feedback mask to entire image, then back it off over the course of one whole note.",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -2801,7 +3133,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4129.0, 965.0, 196.0, 126.0 ],
 					"suppressinlet" : 1,
-					"text" : "fades out and in really quickly to avoid a flash while the ISF shader params initialize\n\nthis may not be necessary if you're using the circular feedback mask"
+					"text" : "fades out and in really quickly to avoid a flash while the ISF shader params initialize\n\nthis may not be necessary if you're using the circular feedback mask",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -3004,7 +3337,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4083.0, 607.0, 129.0, 22.0 ],
+					"patching_rect" : [ 4057.0, 607.0, 129.0, 22.0 ],
 					"text" : "r preset_change_bang"
 				}
 
@@ -3532,7 +3865,7 @@
 
 							}
  ],
-						"originid" : "pat-11752"
+						"originid" : "pat-10522"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -3833,9 +4166,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 3048.0, 62.0, 61.0, 127.0 ],
+					"patching_rect" : [ 3048.0, 61.0, 117.0, 124.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1465.0, 239.0, 63.0, 127.0 ],
+					"presentation_rect" : [ 1456.0, 236.0, 114.0, 122.0 ],
 					"varname" : "main_vfx_env_sens",
 					"viewvisibility" : 1
 				}
@@ -3892,7 +4225,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-690",
 					"linecount" : 3,
@@ -3900,7 +4233,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1634.666715383529663, 1494.666711211204529, 174.0, 51.0 ],
-					"text" : "it takes 50 ms for the fade FX to engage completely"
+					"text" : "it takes 50 ms for the fade FX to engage completely",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4012,7 +4346,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4575.0, 1835.0, 221.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "getcell == xray.jit.cellvalue"
+					"text" : "getcell == xray.jit.cellvalue",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -4060,18 +4395,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3309.0, 402.0, 119.0, 22.0 ],
 					"text" : "s flashbang_enabled"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-803",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 4458.0, 1771.0, 47.0, 22.0 ],
-					"text" : "r rbang"
 				}
 
 			}
@@ -4427,7 +4750,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-649",
 					"linecount" : 7,
@@ -4435,7 +4758,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 817.333357691764832, 986.666696071624756, 189.0, 111.0 ],
-					"text" : "randomize and initialize Acoustic VFX preset when looper starts looping\n\nrandomize and initialize Wobble VFX preset when looper stops looping"
+					"text" : "randomize and initialize Acoustic VFX preset when looper starts looping\n\nrandomize and initialize Wobble VFX preset when looper stops looping",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4515,7 +4839,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.113054273792702,
 					"id" : "obj-505",
@@ -4524,7 +4848,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1848.000055074691772, 1390.666708111763, 410.0, 234.0 ],
-					"text" : "three sets of VFX presets:\n\n1. Wobble\n2. Acoustic\n3. Idle\n\nFor BasicFX, use Acoustic presets while tuba's playing.\n\nFor SousaFX, use Wobble presets while looper's idle or recording, and use Acoustic presets while looper's looping.\n\nIdle presets should begin after a short period of inactivity for post-soundcheck pre-show, and intermissions."
+					"text" : "three sets of VFX presets:\n\n1. Wobble\n2. Acoustic\n3. Idle\n\nFor BasicFX, use Acoustic presets while tuba's playing.\n\nFor SousaFX, use Wobble presets while looper's idle or recording, and use Acoustic presets while looper's looping.\n\nIdle presets should begin after a short period of inactivity for post-soundcheck pre-show, and intermissions.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4659,18 +4984,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1080.000032186508179, 1610.666714668273926, 53.0, 22.0 ],
 					"text" : "gate 1 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-270",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1121.333366751670837, 1569.333380103111267, 48.0, 22.0 ],
-					"text" : "r rbang"
 				}
 
 			}
@@ -5052,7 +5365,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5341.0, 1192.0, 119.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1464.0, 374.0, 98.0, 53.0 ],
+					"presentation_rect" : [ 1463.5, 364.0, 99.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_control_bg"
@@ -5322,24 +5635,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4385.0, 1411.0, 227.0, 66.0 ],
+					"patching_rect" : [ 4380.0, 1443.0, 227.0, 66.0 ],
 					"suppressinlet" : 1,
-					"text" : "with an opaque bell cover, this can be all the way up. without a bell cover, bright LEDs are fatiguing to look at."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.917647058823529, 1.0, 1.0, 1.0 ],
-					"fontname" : "Monaco",
-					"id" : "obj-586",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4653.0, 1417.0, 97.0, 51.0 ],
-					"suppressinlet" : 1,
-					"text" : "overall brightness adjustment"
+					"text" : "with an opaque bell cover, this can be all the way up. without a bell cover, bright LEDs are fatiguing to look at.",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -5375,32 +5674,11 @@
 				"box" : 				{
 					"id" : "obj-641",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4617.0, 1383.0, 70.0, 22.0 ],
-					"text" : "loadmess 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"drawoffcolor" : 1,
-					"elementcolor" : [ 0.0, 0.0, 0.0, 0.29 ],
-					"floatoutput" : 1,
-					"hint" : "Main Brightness",
-					"id" : "obj-598",
-					"knobcolor" : [ 0.964705882352941, 0.996078431372549, 1.0, 0.79 ],
-					"maxclass" : "slider",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 4617.0, 1419.0, 26.666666865348816, 50.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1540.0, 234.0, 20.0, 132.0 ],
-					"size" : 1.0
+					"patching_rect" : [ 4617.0, 1447.0, 113.0, 22.0 ],
+					"text" : "r overall_brightness"
 				}
 
 			}
@@ -5465,7 +5743,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 4840.0, 1466.0, 196.0, 51.0 ],
 					"suppressinlet" : 1,
-					"text" : "clamp allows 254 and 255 to be used as start & end markers"
+					"text" : "clamp allows 254 and 255 to be used as start & end markers",
+					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
 				}
 
 			}
@@ -5592,7 +5871,7 @@
 
 							}
  ],
-						"originid" : "pat-11766"
+						"originid" : "pat-10536"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -5827,7 +6106,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.909803921568627, 0.980392156862745, 1.0, 0.87 ],
+					"bgcolor" : [ 0.749019607843137, 0.807843137254902, 0.823529411764706, 0.870588235294118 ],
 					"fontname" : "Monaco",
 					"id" : "obj-556",
 					"linecount" : 7,
@@ -5835,7 +6114,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1354.666707038879395, 1509.333378314971924, 203.0, 111.0 ],
-					"text" : "you need a way to separate your dubstep VFX from the acoustic tuba VFX...\n\nkeeping track of them manually is probably the best way to go for now..."
+					"text" : "you need a way to separate your dubstep VFX from the acoustic tuba VFX...\n\nkeeping track of them manually is probably the best way to go for now...",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -6590,7 +6870,7 @@
 
 							}
  ],
-						"originid" : "pat-11770"
+						"originid" : "pat-10540"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -6853,7 +7133,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "debug-console", ",", "usbserial-DK0FZDII", ",", "usbmodem40590801", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "wlan-debug", ",", "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8437,6 +8717,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-353", 1 ],
+					"source" : [ "obj-237", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-281", 0 ],
+					"source" : [ "obj-239", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-214", 1 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -8444,8 +8738,43 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-97", 0 ],
+					"source" : [ "obj-240", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-239", 0 ],
+					"source" : [ "obj-241", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
 					"source" : [ "obj-243", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-244", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 1 ],
+					"source" : [ "obj-244", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-248", 0 ],
+					"source" : [ "obj-245", 0 ]
 				}
 
 			}
@@ -8486,6 +8815,116 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-261", 1 ],
+					"source" : [ "obj-253", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-268", 0 ],
+					"source" : [ "obj-255", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-253", 0 ],
+					"source" : [ "obj-256", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-261", 0 ],
+					"source" : [ "obj-259", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-256", 0 ],
+					"order" : 1,
+					"source" : [ "obj-260", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-259", 0 ],
+					"order" : 0,
+					"source" : [ "obj-260", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-255", 0 ],
+					"source" : [ "obj-261", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-261", 1 ],
+					"midpoints" : [ 4935.5, 423.0, 4743.0, 423.0, 4743.0, 329.0, 4438.0, 329.0 ],
+					"source" : [ "obj-263", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-264", 0 ],
+					"source" : [ "obj-263", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-264", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-266", 0 ],
+					"source" : [ "obj-265", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"source" : [ "obj-266", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-260", 0 ],
+					"order" : 1,
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-263", 0 ],
+					"order" : 0,
+					"source" : [ "obj-266", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-245", 0 ],
+					"source" : [ "obj-268", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-27", 0 ]
 				}
@@ -8493,8 +8932,29 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-353", 1 ],
+					"destination" : [ "obj-235", 0 ],
+					"source" : [ "obj-270", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-271", 0 ],
 					"source" : [ "obj-270", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-220", 0 ],
+					"source" : [ "obj-271", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-247", 0 ],
+					"source" : [ "obj-271", 0 ]
 				}
 
 			}
@@ -8509,6 +8969,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-219", 0 ],
 					"source" : [ "obj-286", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-241", 0 ],
+					"source" : [ "obj-287", 0 ]
 				}
 
 			}
@@ -9194,13 +9661,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-350", 0 ],
-					"source" : [ "obj-598", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"source" : [ "obj-602", 0 ]
 				}
@@ -9311,7 +9771,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-598", 0 ],
+					"destination" : [ "obj-350", 0 ],
 					"source" : [ "obj-641", 0 ]
 				}
 
@@ -9583,7 +10043,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
-					"midpoints" : [ 3099.5, 204.5, 4834.5, 204.5 ],
+					"midpoints" : [ 3155.5, 204.5, 4834.5, 204.5 ],
 					"source" : [ "obj-693", 1 ]
 				}
 
@@ -9859,13 +10319,6 @@
 					"destination" : [ "obj-68", 0 ],
 					"order" : 1,
 					"source" : [ "obj-80", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-97", 0 ],
-					"source" : [ "obj-803", 0 ]
 				}
 
 			}
@@ -10389,7 +10842,7 @@
 
 			}
  ],
-		"originid" : "pat-10342",
+		"originid" : "pat-9110",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
@@ -10592,6 +11045,7 @@
 			"obj-66" : [ "live.text[1]", "live.text", 0 ],
 			"obj-663" : [ "function[31]", "function", 0 ],
 			"obj-693::obj-555" : [ "tuba env sens", "tuba env sens", 0 ],
+			"obj-693::obj-6" : [ "brightness", "brightness", 0 ],
 			"obj-7::obj-2" : [ "live.text[14]", "live.text", 0 ],
 			"obj-87" : [ "live.text[2]", "live.text", 0 ],
 			"obj-89" : [ "live.text[3]", "live.text", 0 ],
