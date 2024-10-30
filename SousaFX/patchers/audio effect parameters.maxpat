@@ -24,6 +24,17 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-247",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5239.0, 908.0, 82.0, 22.0 ],
+					"text" : "s save_layout"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-259",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -4470,7 +4481,7 @@
 
 							}
  ],
-						"originid" : "pat-4239"
+						"originid" : "pat-4237"
 					}
 ,
 					"patching_rect" : [ 3610.0, 5914.0, 47.0, 22.0 ],
@@ -5904,7 +5915,7 @@
 
 							}
  ],
-						"originid" : "pat-4277",
+						"originid" : "pat-4275",
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
@@ -6692,7 +6703,7 @@
 
 							}
  ],
-						"originid" : "pat-4279"
+						"originid" : "pat-4277"
 					}
 ,
 					"patching_rect" : [ 6613.0, 5087.0, 163.0, 22.0 ],
@@ -7789,7 +7800,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "internal", ",", "live", ",", "link" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8752,11 +8763,11 @@
 				"box" : 				{
 					"id" : "obj-382",
 					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 7,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 5184.0, 819.0, 100.0, 22.0 ],
-					"text" : "select 1 3 5 6 7 9"
+					"numinlets" : 8,
+					"numoutlets" : 8,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 5155.0, 867.0, 117.0, 22.0 ],
+					"text" : "select 1 3 5 6 7 9 10"
 				}
 
 			}
@@ -9124,7 +9135,7 @@
 
 							}
  ],
-						"originid" : "pat-4403",
+						"originid" : "pat-4401",
 						"bgfillcolor_type" : "gradient",
 						"bgfillcolor_color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 						"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -9282,7 +9293,7 @@
 
 							}
  ],
-						"originid" : "pat-4405"
+						"originid" : "pat-4403"
 					}
 ,
 					"patching_rect" : [ 171.0, 1023.0, 75.0, 22.0 ],
@@ -9589,7 +9600,7 @@
 
 							}
  ],
-						"originid" : "pat-4407"
+						"originid" : "pat-4405"
 					}
 ,
 					"patching_rect" : [ 171.0, 1339.0, 104.0, 22.0 ],
@@ -9978,13 +9989,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-386",
-					"linecount" : 32,
+					"linecount" : 33,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5483.0, 264.0, 287.0, 501.0 ],
+					"patching_rect" : [ 5433.0, 252.0, 287.0, 516.0 ],
 					"suppressinlet" : 1,
-					"text" : "#X about About SousaFX…;\n#X closeitem;\n#X saveas 9;\n#X menutitle 5 🔊 FX;\n#X item 5 1 🌊 Modulation;\n#X item 5 2 🦅 Attack;\n#X item 5 3 🪴 Sustain;\n#X item 5 4 ⚔️ Envelope Crossfade;\n#X item 5 5 📬 Post-Crossfade;\n#X item 5 6 ⏳ Delay & Reverb Sends;\n#X item 5 7 ♻️ Loopers;\n#X item 5 8 🥾 Kick Ducker;\n#X item 5 9 🎧 Monitor Mix;\n#X menutitle 6 ⚙️ Settings;\n#X item 6 1 🎮 Controller Bindings/B;\n#X item 6 2 -;\n#X item 6 3 🥁 Tempo/T;\n#X item 6 4 -;\n#X item 6 5 🎛 MIDI IO/{;\n#X item 6 6 🎙 Audio IO/};\n#X item 6 7 🔈 Audio Status.../|;\n#X item 6 8 -;\n#X item 6 9 🪟 Save Window Layout;\n#X menutitle 7 🛟 Support;\n#X item 7 1 📙 Documentation;\n#X item 7 2 -;\n#X item 7 3 🐞 Report a Bug;\n#X item 7 4 -;\n#X item 7 5 👾 Join the Discord;\n#X item 7 6 -;\n#X item 7 7 🥺 Donate;\n#X end;\n"
+					"text" : "#X about About SousaFX…;\r#X saveas 9;\r#X closeitem;\r#X menutitle 5 🔊 FX;\r#X item 5 1 🌊 Modulation;\r#X item 5 2 🦅 Attack;\r#X item 5 3 🪴 Sustain;\r#X item 5 4 ⚔️ Envelope Crossfade;\r#X item 5 5 📬 Post-Crossfade;\r#X item 5 6 ⏳ Delay & Reverb Sends;\r#X item 5 7 ♻️ Loopers;\r#X item 5 8 🥾 Kick Ducker;\r#X item 5 9 🎧 Monitor Mix;\r#X menutitle 6 ⚙️ Settings;\r#X item 6 1 🎮 Controller Bindings/B;\r#X item 6 2 -;\r#X item 6 3 🥁 Tempo/T;\r#X item 6 4 -;\r#X item 6 5 🎛 MIDI IO/{;\r#X item 6 6 🎙 Audio IO/};\r#X item 6 7 🔈 Audio Status.../|;\r#X item 6 8 -;\r#X item 6 9 ⛰️Reset peak meters/;\r#X item 6 10 🪟 Save Window Layout;\r#X menutitle 7 🛟 Support;\r#X item 7 1 📙 Documentation;\r#X item 7 2 -;\r#X item 7 3 🐞 Report a Bug;\r#X item 7 4 -;\r#X item 7 5 👾 Join the Discord;\r#X item 7 6 -;\r#X item 7 7 🥺 Donate;\r#X end;\r"
 				}
 
 			}
@@ -11119,7 +11130,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5262.0, 875.0, 58.0, 35.0 ],
+					"patching_rect" : [ 5225.0, 948.0, 58.0, 35.0 ],
 					"text" : ";\rdsp open"
 				}
 
@@ -11527,7 +11538,7 @@
 
 							}
  ],
-						"originid" : "pat-4437"
+						"originid" : "pat-4435"
 					}
 ,
 					"patching_rect" : [ 824.0, 2145.0, 237.0, 22.0 ],
@@ -15559,10 +15570,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 2766.0, 3005.0, 828.277151639344197, 1839.367632678740847 ],
+					"patching_rect" : [ 2766.0, 3005.0, 828.277151639344083, 1839.36763267874062 ],
 					"pic" : "Macintosh HD:/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/media/Sousastep_signalflow.drawio.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 23.0, 868.999999999999886, 1929.801479654746799 ]
+					"presentation_rect" : [ 0.0, 23.0, 868.999999999999773, 1929.801479654746572 ]
 				}
 
 			}
@@ -19415,6 +19426,13 @@
 					"color" : [ 0.701961, 0.701961, 0.701961, 0.512934602649007 ],
 					"destination" : [ "obj-207", 1 ],
 					"source" : [ "obj-382", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-247", 0 ],
+					"source" : [ "obj-382", 6 ]
 				}
 
 			}
@@ -24970,7 +24988,7 @@
 
 			}
  ],
-		"originid" : "pat-3909",
+		"originid" : "pat-3907",
 		"parameters" : 		{
 			"obj-115::obj-200::obj-18" : [ "phase offset[3]", "phase offset", 0 ],
 			"obj-115::obj-200::obj-2" : [ "live.menu[10]", "live.menu", 0 ],
@@ -27429,13 +27447,6 @@
 				"name" : "latency_compensation.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layout_2.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
