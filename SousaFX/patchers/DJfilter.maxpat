@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 284.0, 1527.0, 1372.0, 779.0 ],
+		"rect" : [ 809.0, 273.0, 1372.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -775,8 +775,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 605.0, 432.0, 195.0, 22.0 ],
-					"text" : "scale 0 0.5 0.8 0.01 0.9 @classic 0"
+					"patching_rect" : [ 605.0, 432.0, 185.0, 22.0 ],
+					"text" : "scale 0 0.5 0.7 0.01 1 @classic 0"
 				}
 
 			}
@@ -788,8 +788,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1023.0, 445.0, 195.0, 22.0 ],
-					"text" : "scale 0.5 1 0.01 0.5 0.8 @classic 0"
+					"patching_rect" : [ 1023.0, 445.0, 185.0, 22.0 ],
+					"text" : "scale 0.5 1 0.01 0.5 1 @classic 0"
 				}
 
 			}
@@ -1926,7 +1926,8 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
