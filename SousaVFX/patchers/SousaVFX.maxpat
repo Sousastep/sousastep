@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -3539,7 +3539,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3913,7 +3913,7 @@
 
 							}
  ],
-						"originid" : "pat-10520"
+						"originid" : "pat-1884"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -5808,7 +5808,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5919,7 +5919,7 @@
 
 							}
  ],
-						"originid" : "pat-10534"
+						"originid" : "pat-1900"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -6652,7 +6652,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 1,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6918,7 +6918,7 @@
 
 							}
  ],
-						"originid" : "pat-10538"
+						"originid" : "pat-1904"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -7181,7 +7181,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "wlan-debug", ",", "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -10932,7 +10932,7 @@
 
 			}
  ],
-		"originid" : "pat-9108",
+		"originid" : "pat-470",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
@@ -10943,6 +10943,7 @@
 			"obj-113" : [ "live.text[11]", "live.text", 0 ],
 			"obj-115" : [ "live.text[12]", "live.text", 0 ],
 			"obj-166::obj-2" : [ "live.text[13]", "live.text", 0 ],
+			"obj-238::obj-2::obj-869" : [ "live.numbox[425]", "live.numbox", 0 ],
 			"obj-31::obj-770::obj-133" : [ "scale_invert[190]", "Phase-Inversion", 1 ],
 			"obj-31::obj-770::obj-23" : [ "live.menu[245]", "live.menu", 0 ],
 			"obj-31::obj-770::obj-51" : [ "live.numbox[395]", "live.numbox", 0 ],
@@ -11608,6 +11609,10 @@
 			"parameter_overrides" : 			{
 				"obj-166::obj-2" : 				{
 					"parameter_longname" : "live.text[13]"
+				}
+,
+				"obj-238::obj-2::obj-869" : 				{
+					"parameter_longname" : "live.numbox[425]"
 				}
 ,
 				"obj-31::obj-770::obj-133" : 				{
@@ -14207,6 +14212,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Audio_Status.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../../SousaFX/data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ISF-pattrstorage.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -14236,6 +14248,13 @@
 			}
 , 			{
 				"name" : "OR.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : "../../SousaFX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SousaFX_Audio_Status.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : "../../SousaFX/patchers",
 				"type" : "JSON",
@@ -14347,6 +14366,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "audio_status.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "butterflyeffect.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
@@ -14382,15 +14408,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dummy.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ease.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : "../../SousaFX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "fluidflowsnoise.json",
@@ -14421,9 +14447,22 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "hover_bang.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : "../../SousaFX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "idle_preset_list.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
 				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "interfacecolor.js",
+				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -14476,8 +14515,8 @@
 			}
 , 			{
 				"name" : "pix.blur.maxpat",
-				"bootpath" : "~/Documents/Max 8/Library/gl-pix-shaders/patchers",
-				"patcherrelativepath" : "../../../../Library/gl-pix-shaders/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/gl-pix-shaders/patchers",
+				"patcherrelativepath" : "../../../../Packages/gl-pix-shaders/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14560,8 +14599,8 @@
 			}
 , 			{
 				"name" : "show_audio_status.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
-				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14576,6 +14615,12 @@
 				"name" : "spiral.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
