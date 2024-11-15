@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
+		"rect" : [ 0.0, 53.0, 1093.0, 1355.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
@@ -23,7 +23,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4697.0, 481.0, 48.0, 22.0 ],
+					"patching_rect" : [ 4917.0, 481.0, 48.0, 22.0 ],
 					"text" : "del 200"
 				}
 
@@ -35,7 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4896.5, 566.0, 38.0, 22.0 ],
+					"patching_rect" : [ 4964.0, 566.0, 38.0, 22.0 ],
 					"text" : "zl.reg"
 				}
 
@@ -47,7 +47,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 4450.0, 416.0, 32.0, 22.0 ],
+					"patching_rect" : [ 4517.0, 416.0, 102.0, 22.0 ],
 					"text" : "t 1 b"
 				}
 
@@ -59,7 +59,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 4473.0, 566.0, 62.0, 22.0 ],
+					"patching_rect" : [ 4540.0, 566.0, 62.0, 22.0 ],
 					"text" : "change -1"
 				}
 
@@ -71,7 +71,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 4473.0, 602.0, 44.0, 22.0 ],
+					"patching_rect" : [ 4540.0, 602.0, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -83,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 4473.0, 532.0, 79.0, 22.0 ],
+					"patching_rect" : [ 4540.0, 532.0, 79.0, 22.0 ],
 					"text" : "getattr visible"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4418.0, 416.0, 22.0, 22.0 ],
+					"patching_rect" : [ 4485.0, 416.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4418.0, 452.0, 54.0, 22.0 ],
+					"patching_rect" : [ 4485.0, 452.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -119,7 +119,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4393.0, 277.0, 22.0, 22.0 ],
+					"patching_rect" : [ 4461.0, 286.0, 22.0, 22.0 ],
 					"text" : "t 0"
 				}
 
@@ -132,7 +132,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4459.0, 380.0, 272.000008106231689, 21.0 ],
+					"patching_rect" : [ 4526.0, 380.0, 272.000008106231689, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "bang if new layout does not contains this window",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -146,7 +146,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 4418.0, 379.0, 44.0, 22.0 ],
+					"patching_rect" : [ 4485.0, 379.0, 44.0, 22.0 ],
 					"text" : "sel 0 1"
 				}
 
@@ -158,7 +158,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4394.0, 247.0, 55.0, 22.0 ],
+					"patching_rect" : [ 4461.0, 247.0, 55.0, 22.0 ],
 					"text" : "del 2000"
 				}
 
@@ -171,7 +171,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4455.0, 342.0, 276.000008225440979, 21.0 ],
+					"patching_rect" : [ 4522.0, 342.0, 276.000008225440979, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "ask if new layout contains this window",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -186,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4525.0, 275.0, 290.0, 21.0 ],
+					"patching_rect" : [ 4592.0, 275.0, 290.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "this del must be longer than the Layout Saver's qmetro",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -200,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4473.0, 274.0, 48.0, 22.0 ],
+					"patching_rect" : [ 4540.0, 274.0, 48.0, 22.0 ],
 					"text" : "del 500"
 				}
 
@@ -212,7 +212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 4473.0, 227.0, 22.0, 22.0 ],
+					"patching_rect" : [ 4540.0, 227.0, 22.0, 22.0 ],
 					"text" : "t b"
 				}
 
@@ -224,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 4418.0, 342.0, 29.5, 22.0 ],
+					"patching_rect" : [ 4485.0, 342.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
@@ -234,10 +234,10 @@
 					"id" : "obj-263",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "int" ],
-					"patching_rect" : [ 4905.0, 329.0, 40.0, 22.0 ],
-					"text" : "t 1 l 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 4983.0, 372.0, 29.5, 22.0 ],
+					"text" : "t l 1"
 				}
 
 			}
@@ -248,7 +248,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4915.5, 481.0, 76.0, 22.0 ],
+					"patching_rect" : [ 4983.0, 481.0, 76.0, 22.0 ],
 					"text" : "prepend rect"
 				}
 
@@ -260,7 +260,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4905.0, 249.0, 128.0, 22.0 ],
+					"patching_rect" : [ 4623.0, 70.0, 128.0, 22.0 ],
 					"text" : "r \"set window location\""
 				}
 
@@ -272,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 4905.0, 286.0, 160.0, 22.0 ],
+					"patching_rect" : [ 4623.0, 107.0, 160.0, 22.0 ],
 					"text" : "route \"SousaVFX jit.window\""
 				}
 
@@ -330,7 +330,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4538.0, 633.0, 150.0, 22.0 ],
+					"patching_rect" : [ 4605.0, 633.0, 150.0, 22.0 ],
 					"text" : "s floating_window_opened"
 				}
 
@@ -341,7 +341,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4525.0, 667.0, 145.0, 22.0 ],
+					"patching_rect" : [ 4592.0, 667.0, 145.0, 22.0 ],
 					"text" : "s floating_window_closed"
 				}
 
@@ -392,7 +392,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4418.0, 489.0, 150.0, 22.0 ],
+					"patching_rect" : [ 4485.0, 488.0, 150.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1465.0, 624.0, 95.0, 22.0 ],
 					"text_width" : 62.0
@@ -419,7 +419,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4518.0, 799.0, 89.0, 22.0 ],
+					"patching_rect" : [ 4678.0, 794.0, 89.0, 22.0 ],
 					"text" : "jit.gl.asyncread"
 				}
 
@@ -431,8 +431,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 4483.0, 853.0, 482.0, 22.0 ],
-					"text" : "jit.window @rect 2321 1200 2577 1456 @size 256 256 @dstrect 0 0 256 256 @floating 1"
+					"patching_rect" : [ 4483.0, 853.0, 327.0, 22.0 ],
+					"text" : "jit.window @size 256 256 @dstrect 0 0 256 256 @floating 1"
 				}
 
 			}
@@ -443,7 +443,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 4518.0, 757.0, 262.0, 22.0 ],
+					"patching_rect" : [ 4678.0, 752.0, 262.0, 22.0 ],
 					"text" : "jit.gl.texture @adapt 0 @dim 32 32 @filter none"
 				}
 
@@ -482,7 +482,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4984.0, 752.0, 102.0, 51.0 ],
+					"patching_rect" : [ 5261.0, 736.0, 102.0, 51.0 ],
 					"suppressinlet" : 1,
 					"text" : "helps set render delay in OBS",
 					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
@@ -496,7 +496,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4876.0, 791.0, 48.0, 22.0 ],
+					"patching_rect" : [ 5153.0, 775.0, 48.0, 22.0 ],
 					"text" : "pipe 32"
 				}
 
@@ -508,7 +508,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 4929.0, 752.0, 32.0, 22.0 ],
+					"patching_rect" : [ 5206.0, 736.0, 32.0, 22.0 ],
 					"text" : "t 0 1"
 				}
 
@@ -520,7 +520,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4929.0, 713.0, 68.0, 22.0 ],
+					"patching_rect" : [ 5206.0, 697.0, 68.0, 22.0 ],
 					"text" : "r flashbang"
 				}
 
@@ -532,7 +532,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 4942.0, 830.0, 92.0, 22.0 ],
+					"patching_rect" : [ 5219.0, 814.0, 92.0, 22.0 ],
 					"text" : "prepend enable"
 				}
 
@@ -544,7 +544,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_gl_texture", "", "" ],
-					"patching_rect" : [ 4972.0, 869.0, 268.0, 22.0 ],
+					"patching_rect" : [ 5249.0, 853.0, 268.0, 22.0 ],
 					"text" : "jit.gl.node w @name flashbang_node @enable 0"
 				}
 
@@ -556,7 +556,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4942.0, 908.0, 512.0, 22.0 ],
+					"patching_rect" : [ 5219.0, 892.0, 512.0, 22.0 ],
 					"text" : "jit.gl.gridshape flashbang_node @name flashbang @shape cube @gl_color 1 1 1 1 @enable 0"
 				}
 
@@ -1506,7 +1506,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1634.0, 396.0, 188.0, 36.0 ],
-					"text" : "enable Idle Auto-Switch when SousaFX initializes"
+					"text" : "enable Idle Auto-Switch when SousaFX initializes",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1617,8 +1618,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 923.0, 878.0, 48.0, 22.0 ],
-					"text" : "change"
+					"patching_rect" : [ 923.0, 878.0, 62.0, 22.0 ],
+					"text" : "change -1"
 				}
 
 			}
@@ -2001,6 +2002,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
+					"hidden" : 1,
 					"id" : "obj-139",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -2069,7 +2071,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
-					"hidden" : 1,
 					"id" : "obj-134",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3179,7 +3180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4129.0, 965.0, 196.0, 126.0 ],
+					"patching_rect" : [ 3846.0, 791.0, 196.0, 126.0 ],
 					"suppressinlet" : 1,
 					"text" : "fades out and in really quickly to avoid a flash while the ISF shader params initialize\n\nthis may not be necessary if you're using the circular feedback mask",
 					"textcolor" : [ 0.2, 0.192156862745098, 0.192156862745098, 1.0 ]
@@ -3913,7 +3914,7 @@
 
 							}
  ],
-						"originid" : "pat-1884"
+						"originid" : "pat-10532"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -3932,7 +3933,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 945.0, 427.0, 297.0, 36.0 ],
 					"suppressinlet" : 1,
-					"text" : "when SousaFX running, is soloFX enabled (AKA is looper looping or fading out)?"
+					"text" : "when SousaFX running, is soloFX enabled (AKA is looper looping or fading out)?",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3946,7 +3948,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1394.0, 309.0, 310.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "AKA is Dingonek performing, or Sousastep?"
+					"text" : "AKA is Dingonek performing, or Sousastep?",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3959,7 +3962,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1817.0, 256.0, 160.0, 21.0 ],
-					"text" : "is tuba making sound?"
+					"text" : "is tuba making sound?",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4869,7 +4873,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1979.0, 475.0, 141.0, 66.0 ],
-					"text" : "on while tuba's playing, off when tuba doesn't play for 30 seconds"
+					"text" : "on while tuba's playing, off when tuba doesn't play for 20 seconds",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -5357,7 +5362,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 874.0, 536.0, 187.0, 81.0 ],
-					"text" : "unsynced if BasicFX, noFX, or SousaPlayback paused. synced if SousaFX active OR SousaPlayback playing."
+					"text" : "unsynced if BasicFX, noFX, or SousaPlayback paused. synced if SousaFX active OR SousaPlayback playing.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -5401,8 +5407,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
-					"bgcolor2" : [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+					"bgcolor" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
+					"bgcolor2" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 24.0,
@@ -5919,7 +5925,7 @@
 
 							}
  ],
-						"originid" : "pat-1900"
+						"originid" : "pat-10546"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -6055,7 +6061,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+					"bgcolor" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
 					"fontname" : "Monaco",
 					"id" : "obj-568",
 					"maxclass" : "comment",
@@ -6075,13 +6081,14 @@
 
 					}
 ,
-					"text" : "countdown until next preset"
+					"text" : "countdown until next preset",
+					"textcolor" : [ 0.709803921568627, 0.709803921568627, 0.709803921568627, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.261531128329206, 0.261531061881087, 0.261531079296546, 1.0 ],
+					"bgcolor" : [ 0.117647058823529, 0.117647058823529, 0.117647058823529, 1.0 ],
 					"fontname" : "Monaco",
 					"id" : "obj-560",
 					"ignoreclick" : 1,
@@ -6918,7 +6925,7 @@
 
 							}
  ],
-						"originid" : "pat-1904"
+						"originid" : "pat-10550"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -7181,7 +7188,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "debug-console", ",", "usbmodem40590801", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -8950,15 +8957,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-261", 1 ],
-					"midpoints" : [ 4935.5, 423.0, 4743.0, 423.0, 4743.0, 329.0, 4438.0, 329.0 ],
-					"source" : [ "obj-263", 2 ]
+					"midpoints" : [ 5003.0, 423.0, 4810.0, 423.0, 4810.0, 329.0, 4505.0, 329.0 ],
+					"source" : [ "obj-263", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-264", 0 ],
-					"source" : [ "obj-263", 1 ]
+					"source" : [ "obj-263", 0 ]
 				}
 
 			}
@@ -10133,7 +10140,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-88", 0 ],
-					"midpoints" : [ 3155.5, 204.5, 4834.5, 204.5 ],
+					"midpoints" : [ 3155.5, 1032.5, 4834.5, 1032.5 ],
 					"source" : [ "obj-693", 1 ]
 				}
 
@@ -10932,7 +10939,7 @@
 
 			}
  ],
-		"originid" : "pat-470",
+		"originid" : "pat-9120",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
@@ -10943,7 +10950,6 @@
 			"obj-113" : [ "live.text[11]", "live.text", 0 ],
 			"obj-115" : [ "live.text[12]", "live.text", 0 ],
 			"obj-166::obj-2" : [ "live.text[13]", "live.text", 0 ],
-			"obj-238::obj-2::obj-869" : [ "live.numbox[425]", "live.numbox", 0 ],
 			"obj-31::obj-770::obj-133" : [ "scale_invert[190]", "Phase-Inversion", 1 ],
 			"obj-31::obj-770::obj-23" : [ "live.menu[245]", "live.menu", 0 ],
 			"obj-31::obj-770::obj-51" : [ "live.numbox[395]", "live.numbox", 0 ],
@@ -11609,10 +11615,6 @@
 			"parameter_overrides" : 			{
 				"obj-166::obj-2" : 				{
 					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-238::obj-2::obj-869" : 				{
-					"parameter_longname" : "live.numbox[425]"
 				}
 ,
 				"obj-31::obj-770::obj-133" : 				{
@@ -14212,13 +14214,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Audio_Status.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../../SousaFX/data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "ISF-pattrstorage.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -14248,13 +14243,6 @@
 			}
 , 			{
 				"name" : "OR.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SousaFX_Audio_Status.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : "../../SousaFX/patchers",
 				"type" : "JSON",
@@ -14366,13 +14354,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audio_status.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "butterflyeffect.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
@@ -14408,20 +14389,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "floating window positioner.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
+				"name" : "dummy.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "fluidflowsnoise.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
-				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14447,22 +14428,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hover_bang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "idle_preset_list.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
 				"patcherrelativepath" : "../../default/presets/SousaVFX",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -14578,8 +14546,8 @@
 			}
 , 			{
 				"name" : "scrolling_text.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
-				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -14615,12 +14583,6 @@
 				"name" : "spiral.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
