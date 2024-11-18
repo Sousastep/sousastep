@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 32.0, 63.0, 1777.0, 821.0 ],
+		"rect" : [ 190.0, 381.0, 1777.0, 821.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -609,7 +609,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.320714434052543 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.995 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
@@ -2885,7 +2885,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3514,7 +3514,7 @@
 
 							}
  ],
-						"originid" : "pat-8055"
+						"originid" : "pat-3939"
 					}
 ,
 					"patching_rect" : [ 4267.0, 966.0, 36.0, 22.0 ],
@@ -3558,7 +3558,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4187,7 +4187,7 @@
 
 							}
  ],
-						"originid" : "pat-8057"
+						"originid" : "pat-3941"
 					}
 ,
 					"patching_rect" : [ 3641.0, 869.0, 36.0, 22.0 ],
@@ -4552,7 +4552,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.102362204724409, 0, 0.0, 1.0, 0.346456692913386, 0, -0.8 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.102362204724409, 0, 0.0, 1.0, 0.320275590551182, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -5100,7 +5100,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1796.0, 1744.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 444.0, 44.0, 35.0, 35.0 ],
+					"presentation_rect" : [ 445.0, 44.0, 35.0, 35.0 ],
 					"svg" : "",
 					"uncheckedcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -5268,7 +5268,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 1,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5276,7 +5276,6 @@
 						"classnamespace" : "box",
 						"rect" : [ 724.0, 96.0, 1802.0, 1310.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-43",
@@ -6162,7 +6161,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "bang", "" ],
-									"patching_rect" : [ 879.0, 400.0, 194.0, 71.0 ],
+									"patching_rect" : [ 879.0, 400.0, 197.0, 71.0 ],
 									"text" : "jit.world \"LFO Visualizer\" @erase_color 0.01 0.01 0.01 0. @size 1066 337 @displaylink 1 @floating 1"
 								}
 
@@ -6795,7 +6794,7 @@
 
 							}
  ],
-						"originid" : "pat-8059",
+						"originid" : "pat-3943",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -9011,26 +9010,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3082.0, 1130.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9041,20 +9022,38 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9111,26 +9110,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 4256.0, 2182.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9141,20 +9122,38 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9224,26 +9223,8 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 5285.0, 2165.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9254,20 +9235,38 @@
 							"parsestring" : ""
 						}
 ,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"endX" : 						{
 							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"midX" : 						{
-							"label" : "midX",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"endY" : 						{
-							"label" : "endY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midX" : 						{
+							"label" : "midX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -11501,7 +11500,7 @@
 					"patching_rect" : [ 1829.0, 1739.0, 103.0, 35.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 383.0, 44.0, 62.0, 35.0 ],
+					"presentation_rect" : [ 384.0, 44.0, 62.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "show LFO visualizer",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -15567,7 +15566,115 @@
 
 			}
  ],
-		"originid" : "pat-8041",
+		"originid" : "pat-3925",
+		"parameters" : 		{
+			"obj-10" : [ "phase offset", "postrate phase", 0 ],
+			"obj-106" : [ "ceil max", "ceil max", 0 ],
+			"obj-1103" : [ "low_phase_offset[1]", "phase", 0 ],
+			"obj-1105" : [ "low_power[1]", "power", 0 ],
+			"obj-144" : [ "function[19]", "function[19]", 0 ],
+			"obj-146" : [ "low_power", "power", 0 ],
+			"obj-148" : [ "low_phase_offset", "phase", 0 ],
+			"obj-166" : [ "live.dial[11]", "depth", 0 ],
+			"obj-175" : [ "live.dial[13]", "y-axis", 0 ],
+			"obj-177" : [ "live.dial[14]", "duty", 0 ],
+			"obj-187" : [ "live.dial[15]", "phase", 0 ],
+			"obj-19" : [ "function[28]", "function", 0 ],
+			"obj-190" : [ "live.dial[16]", "power", 0 ],
+			"obj-196" : [ "function[8]", "function[8]", 0 ],
+			"obj-199" : [ "floor env smooth", "env smooth", 0 ],
+			"obj-201" : [ "low_duty_cycle", "duty", 0 ],
+			"obj-242" : [ "floor max", "floor max", 0 ],
+			"obj-246" : [ "x pos", "x pos", 0 ],
+			"obj-248" : [ "floor y pos", "y pos", 0 ],
+			"obj-251" : [ "ceil y pos", "y pos", 0 ],
+			"obj-286" : [ "live.dial[19]", "prerate phase", 0 ],
+			"obj-295" : [ "live.dial[20]", "prerate phase", 0 ],
+			"obj-301" : [ "live.dial[21]", "prerate phase", 0 ],
+			"obj-307" : [ "low_SnTrSq", "low_SnTrSq", 0 ],
+			"obj-313" : [ "wah sens reduc", "wah sens reduc", 0 ],
+			"obj-325" : [ "low_floor", "floor", 0 ],
+			"obj-341" : [ "map_freq_to_Q", "map_freq_to_Q", 0 ],
+			"obj-356" : [ "squareness[1]", "squareness", 0 ],
+			"obj-357" : [ "squareness", "squareness", 0 ],
+			"obj-376" : [ "function[11]", "function[11]", 0 ],
+			"obj-381" : [ "function[30]", "function", 0 ],
+			"obj-392" : [ "map_freq_to_Q[1]", "map_freq_to_Q", 0 ],
+			"obj-476" : [ "function[25]", "function", 0 ],
+			"obj-541" : [ "function[26]", "function", 0 ],
+			"obj-542" : [ "function[27]", "function", 0 ],
+			"obj-557" : [ "Resonance", "Rez", 0 ],
+			"obj-599" : [ "low_floor[1]", "floor", 0 ],
+			"obj-65" : [ "pow", "pow", 0 ],
+			"obj-680" : [ "low_duty_cycle[1]", "duty", 0 ],
+			"obj-75" : [ "duty cycle", "duty cycle", 0 ],
+			"obj-76" : [ "function[29]", "function", 0 ],
+			"obj-766" : [ "low_SnTrSq[1]", "low_SnTrSq", 0 ],
+			"obj-85" : [ "env sens[1]", "env sens", 0 ],
+			"obj-88" : [ "ceiling env smooth", "env smooth", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "O6EpXkW.jpg",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/media",
+				"patcherrelativepath" : "../media",
+				"type" : "JPEG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "floating window positioner.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "function_with_two_curves.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "random-no-repeats.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transient_detect.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "urn-no-repeats.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : "../../SousaVFX/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"toolbaradditions" : [ "packagemanager" ],
 		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 		"editing_bgcolor" : [ 0.341176470588235, 0.341176470588235, 0.341176470588235, 0.949019607843137 ],
