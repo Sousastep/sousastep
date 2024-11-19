@@ -15,6 +15,6 @@ else
   cowsay -s -f bong failed to send Wake-on-LAN packet
 fi
 
-sleep 18
+sleep 40
 
 exit

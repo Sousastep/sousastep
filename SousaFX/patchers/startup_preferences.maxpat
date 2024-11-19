@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 954.0, 541.0, 739.0, 365.0 ],
+		"rect" : [ 892.0, 550.0, 744.0, 370.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 200.0, 200.0 ],
 		"toolbarvisible" : 0,
@@ -36,7 +36,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 1370.0, 2955.0, 39.0, 22.0 ],
-					"text" : "== 25"
+					"text" : "== 60"
 				}
 
 			}
@@ -507,7 +507,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1565.0, 1666.0, 71.0, 22.0 ],
-					"restore" : [ "Streaming PC Launcher" ],
+					"restore" : [ "No Scripts" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -582,7 +582,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 664.0, 1756.0, 122.0, 22.0 ],
-					"restore" : [ 1 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -873,7 +873,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1199.0, 3205.0, 168.0, 22.0 ],
+					"patching_rect" : [ 1199.0, 3146.0, 168.0, 22.0 ],
 					"text" : "s startup-prefs-window-closed"
 				}
 
@@ -1230,6 +1230,7 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Light",
 					"gradient" : 1,
+					"hidden" : 1,
 					"hint" : "choose custom playback project file",
 					"id" : "obj-256",
 					"maxclass" : "message",
@@ -1396,7 +1397,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1381.0, 1666.0, 108.0, 22.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3934,7 +3935,7 @@
 
 							}
  ],
-						"originid" : "pat-3865"
+						"originid" : "pat-3919"
 					}
 ,
 					"patching_rect" : [ 864.0, 938.0, 86.0, 22.0 ],
@@ -4573,7 +4574,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 851.0, 2698.0, 56.0, 22.0 ],
+					"patching_rect" : [ 644.0, 2422.0, 56.0, 22.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -5033,7 +5034,7 @@
 
 							}
  ],
-						"originid" : "pat-3867"
+						"originid" : "pat-3921"
 					}
 ,
 					"patching_rect" : [ 711.0, 938.0, 86.0, 22.0 ],
@@ -5241,7 +5242,7 @@
 
 							}
  ],
-						"originid" : "pat-3869"
+						"originid" : "pat-3923"
 					}
 ,
 					"patching_rect" : [ 543.0, 938.0, 86.0, 22.0 ],
@@ -5346,7 +5347,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3641.0, 2258.0, 215.0, 212.0 ],
-					"pic" : "frame0015.png",
+					"pic" : "frame0035.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 441.0, 67.0, 252.0, 254.0 ]
 				}
@@ -5752,7 +5753,7 @@
 				"patchline" : 				{
 					"color" : [ 0.932949304580688, 0.135788053274155, 0.0, 1.0 ],
 					"destination" : [ "obj-345", 0 ],
-					"midpoints" : [ 1600.5, 2023.0, 1744.0, 2023.0, 1744.0, 2450.0, 1644.0, 2450.0, 1644.0, 2708.0, 1476.0, 2708.0, 1476.0, 2859.0, 1605.5, 2859.0 ],
+					"midpoints" : [ 1600.5, 2060.0, 1752.0, 2060.0, 1752.0, 2450.0, 1644.0, 2450.0, 1644.0, 2708.0, 1476.0, 2708.0, 1476.0, 2859.0, 1605.5, 2859.0 ],
 					"order" : 0,
 					"source" : [ "obj-140", 0 ]
 				}
@@ -8609,11 +8610,11 @@
 
 			}
  ],
-		"originid" : "pat-3863",
+		"originid" : "pat-3917",
 		"dependency_cache" : [ 			{
-				"name" : "frame0080.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_003804122",
-				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_003804122",
+				"name" : "frame0012.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_004151536",
+				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_004151536",
 				"type" : "PNG",
 				"implicit" : 1
 			}
