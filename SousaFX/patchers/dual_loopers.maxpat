@@ -2,42 +2,19 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 2160.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "loopers",
 		"boxes" : [ 			{
@@ -54,6 +31,7 @@
 					"patching_rect" : [ 1866.0, 1645.5, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 204.0, 534.0, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[6]"
 				}
 
@@ -121,6 +99,7 @@
 					"patching_rect" : [ 1578.0, 765.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.000000834465027, 534.0, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[5]"
 				}
 
@@ -266,7 +245,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1306.5, 774.0, 82.0, 22.0 ],
-					"restore" : [ 0.0 ],
+					"restore" : [ 1.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -294,6 +273,7 @@
 							"parameter_longname" : "live.menu[24]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.menu[2]",
 							"parameter_type" : 2
 						}
@@ -389,6 +369,7 @@
 					"patching_rect" : [ 1596.0, 2115.705829596412514, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 170.0, 534.0, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[4]"
 				}
 
@@ -482,7 +463,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1673.0, 1896.0, 74.0, 79.0 ],
 					"suppressinlet" : 1,
-					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -536,42 +518,16 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 1184.0, 570.0, 795.0, 725.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1039,42 +995,16 @@
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
-											"major" : 8,
-											"minor" : 6,
-											"revision" : 4,
+											"major" : 9,
+											"minor" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
 										"classnamespace" : "box",
 										"rect" : [ 760.0, 417.0, 791.0, 593.0 ],
-										"bglocked" : 0,
-										"openinpresentation" : 0,
-										"default_fontsize" : 12.0,
-										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"gridonopen" : 1,
 										"gridsize" : [ 10.0, 10.0 ],
-										"gridsnaponopen" : 1,
-										"objectsnaponopen" : 1,
-										"statusbarvisible" : 2,
-										"toolbarvisible" : 1,
-										"lefttoolbarpinned" : 0,
-										"toptoolbarpinned" : 0,
-										"righttoolbarpinned" : 0,
-										"bottomtoolbarpinned" : 0,
-										"toolbars_unpinned_last_save" : 0,
-										"tallnewobj" : 0,
-										"boxanimatetime" : 200,
-										"enablehscroll" : 1,
-										"enablevscroll" : 1,
-										"devicewidth" : 0.0,
-										"description" : "",
-										"digest" : "",
-										"tags" : "",
-										"style" : "",
-										"subpatcher_template" : "",
-										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -1328,15 +1258,13 @@
 												}
 
 											}
- ]
+ ],
+										"originid" : "pat-7679"
 									}
 ,
 									"patching_rect" : [ 352.0, 183.0, 103.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"digest" : "",
-										"globalpatchername" : "",
-										"tags" : ""
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p hold_timer"
@@ -1685,15 +1613,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-7677"
 					}
 ,
 					"patching_rect" : [ 1194.0, 634.0, 130.486847000000012, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p tap_processor"
@@ -2404,7 +2330,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2296.0, 3065.0, 24.0, 24.0 ]
+					"patching_rect" : [ 2296.0, 3065.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -2432,7 +2359,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2082.0, 826.0, 103.0, 64.0 ],
 					"suppressinlet" : 1,
-					"text" : "number of times looper finishes before triggering tempo change"
+					"text" : "number of times looper finishes before triggering tempo change",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2464,7 +2392,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
-					"hidden" : 1,
 					"id" : "obj-223",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -2596,7 +2523,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1860.0, 539.0, 130.0, 35.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2633,6 +2560,7 @@
 					"patching_rect" : [ 1915.0, 598.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 258.0, 504.6000075340271, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[3]"
 				}
 
@@ -2653,7 +2581,7 @@
 					"patching_rect" : [ 2017.0, 826.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 282.000000357627869, 505.400007545948029, 33.0, 22.0 ],
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.82 ],
+					"textcolor" : [ 0.078431, 0.811765, 0.905882, 1.0 ],
 					"varname" : "number[1]"
 				}
 
@@ -2822,6 +2750,7 @@
 					"patching_rect" : [ 1672.0, 583.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 28.000000417232513, 504.800007522106171, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[2]"
 				}
 
@@ -2881,7 +2810,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1547.0, 2806.0, 108.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "BPM to ms per bar"
+					"text" : "BPM to ms per bar",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3012,7 +2942,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1390.0, 371.0, 109.0, 64.0 ],
 					"suppressinlet" : 1,
-					"text" : "set # of times tuba drops below noise gate before looper auto-records."
+					"text" : "set # of times tuba drops below noise gate before looper auto-records.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3092,6 +3023,7 @@
 					"patching_rect" : [ 1010.0, 105.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 56.000000834465027, 504.800007522106171, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle[1]"
 				}
 
@@ -3144,7 +3076,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1041.0, 100.0, 184.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "auto-rec after tuba plays bassline a certain number of times"
+					"text" : "auto-rec after tuba plays bassline a certain number of times",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3383,6 +3316,7 @@
 					"patching_rect" : [ 1565.0, 1546.0, 38.0, 30.0 ],
 					"suppressinlet" : 1,
 					"text" : "looper 2",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3400,6 +3334,7 @@
 					"patching_rect" : [ 1504.0, 1546.0, 37.5, 29.0 ],
 					"suppressinlet" : 1,
 					"text" : "looper 1",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 1
 				}
 
@@ -3415,7 +3350,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1618.0, 1577.0, 74.0, 79.0 ],
 					"suppressinlet" : 1,
-					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+					"text" : "0. idle \n1. prepared \n2. recording \n3. looping \n4. fading",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3454,7 +3390,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1335.25, 601.0, 256.5, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "single click = action button\ndouble click = action button && next tempo\nhold = nothing"
+					"text" : "single click = action button\ndouble click = action button && next tempo\nhold = nothing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3734,7 +3671,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activebgoncolor" : [ 0.560784, 0.172549, 0.086275, 1.0 ],
+					"activebgoncolor" : [ 0.540608779695709, 0.266739312054313, 0.212020285159219, 1.0 ],
 					"annotation" : "",
 					"automation" : "off",
 					"automationon" : "on",
@@ -3762,6 +3699,7 @@
 							"parameter_longname" : "active[28]",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "Active",
 							"parameter_type" : 2
 						}
@@ -4259,7 +4197,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "bang", "bang", "int", "", "bang", "bang" ],
+					"outlettype" : [ "signal", "signal", "bang", "bang", "int", "", "bang", "" ],
 					"patching_rect" : [ 946.0, 982.0, 145.5, 237.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 190.0, 19.0, 153.0, 212.0 ],
@@ -4492,7 +4430,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1595.0, 2983.0, 190.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "drum loop clips go out of ableton, into max, out of max, and back into ableton. "
+					"text" : "drum loop clips go out of ableton, into max, out of max, and back into ableton. ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4507,7 +4446,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1493.0, 3079.0, 183.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "delay compensation in samples / length of 1 bar in samples = phasor offset"
+					"text" : "delay compensation in samples / length of 1 bar in samples = phasor offset",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4521,7 +4461,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1493.0, 3048.0, 209.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "lookahead: 0 ms at 48 kHz = 0 samples"
+					"text" : "lookahead: 0 ms at 48 kHz = 0 samples",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4536,7 +4477,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1494.0, 3142.0, 153.0, 64.0 ],
 					"suppressinlet" : 1,
-					"text" : "while the phasor rises, counting is enabled. when the phasor resets, counting resets"
+					"text" : "while the phasor rises, counting is enabled. when the phasor resets, counting resets",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4551,7 +4493,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1428.0, 3312.0, 150.0, 79.0 ],
 					"suppressinlet" : 1,
-					"text" : "a non-zero signal will enable counting and a zero signal will reset the count to minimum and stop counting"
+					"text" : "a non-zero signal will enable counting and a zero signal will reset the count to minimum and stop counting",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4601,7 +4544,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1518.0, 2859.0, 134.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "ms to samples at 48 kHz"
+					"text" : "ms to samples at 48 kHz",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4614,7 +4558,8 @@
 					"id" : "obj-130",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1104.0, 3410.0, 95.0, 23.0 ],
 					"text" : "poke~ looper 1",
 					"textcolor" : [ 0.996078431372549, 0.984313725490196, 1.0, 1.0 ]
@@ -4744,7 +4689,8 @@
 					"id" : "obj-145",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1208.0, 3410.0, 95.0, 23.0 ],
 					"text" : "poke~ looper 2",
 					"textcolor" : [ 0.996078431372549, 0.984313725490196, 1.0, 1.0 ]
@@ -4761,7 +4707,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1347.0, 2850.0, 107.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "BPM to ms per bar"
+					"text" : "BPM to ms per bar",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4892,7 +4839,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 261.0, 994.911475409836157, 24.0, 24.0 ]
+					"patching_rect" : [ 261.0, 994.911475409836157, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -5113,7 +5061,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1087.0, 1905.0, 76.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "1-bar phasor"
+					"text" : "1-bar phasor",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -5172,7 +5121,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2317.0, 1700.0, 30.333327999999938, 30.333328000000165 ]
+					"patching_rect" : [ 2317.0, 1700.0, 30.333327999999938, 30.333328000000165 ],
+					"svg" : ""
 				}
 
 			}
@@ -5485,7 +5435,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 980.0, 785.0, 112.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "control two loopers with one button"
+					"text" : "control two loopers with one button",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -5590,7 +5541,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 8,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal", "bang", "bang", "int", "", "bang", "bang" ],
+					"outlettype" : [ "signal", "signal", "bang", "bang", "int", "", "bang", "" ],
 					"patching_rect" : [ 752.0, 982.0, 145.5, 237.5 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 19.0, 153.0, 212.0 ],
@@ -5692,8 +5643,8 @@
 					"pic" : "Max_ti4gOmiaU9.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 364.0, 564.0 ],
-					"xoffset" : -2084.0,
-					"yoffset" : -127.0
+					"xoffset" : -1489.0,
+					"yoffset" : -202.0
 				}
 
 			}
@@ -5719,7 +5670,7 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 3 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -5727,7 +5678,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 3 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-1", 1 ]
 				}
 
@@ -7707,7 +7658,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -7715,7 +7666,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-50", 0 ]
 				}
 
@@ -7808,7 +7759,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1041", 1 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -7816,7 +7767,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1042", 1 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-60", 0 ]
 				}
 
@@ -8146,6 +8097,8 @@
 
 			}
  ],
+		"originid" : "pat-7675",
+		"toolbaradditions" : [ "packagemanager" ],
 		"bgcolor" : [ 0.898039215686275, 0.898039215686275, 0.898039215686275, 0.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}

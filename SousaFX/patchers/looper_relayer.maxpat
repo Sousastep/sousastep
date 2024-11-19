@@ -2,42 +2,18 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 34.0, 53.0, 2492.0, 1353.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
 		"toolbars_unpinned_last_save" : 2,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-112",
@@ -72,7 +48,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1337.0, 2588.0, 281.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "if either highpass or lowpass turn on, trigger 0.5 ???"
+					"text" : "if either highpass or lowpass turn on, trigger 0.5 ???",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -98,7 +75,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1164.0, 1961.300029218196869, 139.600019097328186, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "smidge more than 8 bars"
+					"text" : "smidge more than 8 bars",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -144,7 +122,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1271.0, 1727.0, 494.0, 64.0 ],
 					"suppressinlet" : 1,
-					"text" : "0. noise gate active, utilize \"is tuba playing\". after looper button pressed, wait until tuba starts playing to start recording. after 8 bars pass, wait until tuba stops playing to stop recording.\n1. if stage volume too loud and noise gate's overwhelmed, don't utilize \"is tuba playing\". start recording when looper button pressed, and stop recording 8 bars later"
+					"text" : "0. noise gate active, utilize \"is tuba playing\". after looper button pressed, wait until tuba starts playing to start recording. after 8 bars pass, wait until tuba stops playing to stop recording.\n1. if stage volume too loud and noise gate's overwhelmed, don't utilize \"is tuba playing\". start recording when looper button pressed, and stop recording 8 bars later",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -161,6 +140,7 @@
 					"patching_rect" : [ 1229.500017106533051, 1727.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 174.0, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle"
 				}
 
@@ -185,7 +165,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1080.250016570091248, 1646.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1080.250016570091248, 1646.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -209,7 +190,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 909.0, 1678.933342238267187, 24.0, 24.0 ]
+					"patching_rect" : [ 909.0, 1678.933342238267187, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -295,7 +277,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1195.000016570091248, 904.300013363361359, 347.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "after triggering record, if tuba playing, start record on downbeat. if tuba not playing, start record after tuba starts playing"
+					"text" : "after triggering record, if tuba playing, start record on downbeat. if tuba not playing, start record after tuba starts playing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -443,6 +426,7 @@
 							"parameter_longname" : "live.menu[12]",
 							"parameter_mmax" : 2,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
@@ -490,7 +474,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.000003814697266, 464.700007140636444, 282.400004208087921, 51.0 ],
 					"suppressinlet" : 1,
-					"text" : "  1.  2.  3.  4.  5.  6.  7.  8.   \n||:---|---|---|---|---|---|---|---:||\n    1___2___3___4___5___6___7___8___"
+					"text" : "  1.  2.  3.  4.  5.  6.  7.  8.   \n||:---|---|---|---|---|---|---|---:||\n    1___2___3___4___5___6___7___8___",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -505,7 +490,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.200008869171143, 645.100010573863983, 220.0, 151.0 ],
 					"suppressinlet" : 1,
-					"text" : "here, \"slightly before\" == whenever the tuba started playing within the bar while the looper's prepared to record\n\nthus, if the tuba starts playing right before the downbeat, the trigger may be one bar early, so we `del 50`\n\nfadeout, tempo change, & risers are quantized to beat one"
+					"text" : "here, \"slightly before\" == whenever the tuba started playing within the bar while the looper's prepared to record\n\nthus, if the tuba starts playing right before the downbeat, the trigger may be one bar early, so we `del 50`\n\nfadeout, tempo change, & risers are quantized to beat one",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -577,7 +563,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 563.200008392333984, 372.800005555152893, 24.0, 24.0 ]
+					"patching_rect" : [ 563.200008392333984, 372.800005555152893, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -627,7 +614,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 666.40000993013382, 421.30000627040863, 162.400002419948578, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "metronome set to whole note"
+					"text" : "metronome set to whole note",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -665,7 +653,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 663.40000993013382, 212.800003170967102, 102.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang on beat one"
+					"text" : "bang on beat one",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -680,7 +669,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 362.200008869171143, 602.100010573863983, 216.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang slightly before beat one to trigger fadeout && riser &maybe tempo change"
+					"text" : "bang slightly before beat one to trigger fadeout && riser &maybe tempo change",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -695,7 +685,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 884.800013184547424, 306.800004780292511, 193.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang when looper begins recording AKA tuba starts playing after looper prepared"
+					"text" : "bang when looper begins recording AKA tuba starts playing after looper prepared",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -734,7 +725,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1188.800017714500427, 767.200011432170868, 320.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "if tempo source is Ableton then make it so you don't have to trigger looper fadeout the bar beforehand, and can instead trigger looper fadeout one whole loop beforehand"
+					"text" : "if tempo source is Ableton then make it so you don't have to trigger looper fadeout the bar beforehand, and can instead trigger looper fadeout one whole loop beforehand",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -761,7 +753,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2774.400041341781616, 3410.400050818920135, 78.0, 107.0 ],
 					"suppressinlet" : 1,
-					"text" : "looper status\n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+					"text" : "looper status\n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -775,7 +768,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2849.600042462348938, 3357.600050032138824, 214.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "looper_almost_done_fadeout_bang"
+					"text" : "looper_almost_done_fadeout_bang",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -789,7 +783,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2920.800043523311615, 3303.200049221515656, 214.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "looper_going_to_begin_fadeout_bang"
+					"text" : "looper_going_to_begin_fadeout_bang",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -798,7 +793,7 @@
 					"comment" : "looper state",
 					"hint" : "looper going to begin fading out on downbeat or immediately depending on tempo mode != ableton",
 					"id" : "obj-98",
-					"index" : 8,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -817,7 +812,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1820.800027132034302, 404.800006031990051, 133.0, 64.0 ],
 					"suppressinlet" : 1,
-					"text" : "if tempo source is Ableton then quantize looper fadeout to beat one."
+					"text" : "if tempo source is Ableton then quantize looper fadeout to beat one.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -915,7 +911,7 @@
 					"comment" : "looper state",
 					"hint" : "looper almost done fading out bang",
 					"id" : "obj-61",
-					"index" : 7,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -970,7 +966,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1359.200020253658295, 551.20000821352005, 220.5, 122.0 ],
 					"suppressinlet" : 1,
-					"text" : "don't allow single click when looper prepared, recording, fading \n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading"
+					"text" : "don't allow single click when looper prepared, recording, fading \n\n0. idle \n1. prepared \n2. recording \n3. looping \n4. fading",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1002,7 +999,7 @@
 				"box" : 				{
 					"comment" : "set mute",
 					"id" : "obj-191",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1014,7 +1011,7 @@
 				"box" : 				{
 					"comment" : "looper state",
 					"id" : "obj-189",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1033,7 +1030,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1404.800020933151245, 1175.200017511844635, 130.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang when button held while looper prepared"
+					"text" : "bang when button held while looper prepared",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1084,7 +1082,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1172.800017476081848, 1097.600016355514526, 108.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "open when looper prepared"
+					"text" : "open when looper prepared",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1099,7 +1098,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1348.800020098686218, 1097.600016355514526, 108.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "close when looper recording"
+					"text" : "close when looper recording",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1162,7 +1162,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1845.600027501583099, 950.400014162063599, 108.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang when button held, mute looper"
+					"text" : "bang when button held, mute looper",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1177,7 +1178,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1636.000024378299713, 896.800013363361359, 108.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "open when looper finishes recording and starts looping"
+					"text" : "open when looper finishes recording and starts looping",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1192,7 +1194,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1816.000027060508728, 896.800013363361359, 108.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "close when looper starts fading out"
+					"text" : "close when looper starts fading out",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1207,7 +1210,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1592.000023722648621, 1047.200015604496002, 129.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "unmute when looper prepared / recording"
+					"text" : "unmute when looper prepared / recording",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1222,7 +1226,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1796.800026774406433, 1055.200015723705292, 130.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "mute when button held while looper looping"
+					"text" : "mute when button held while looper looping",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1237,7 +1242,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 878.000016570091248, 1932.800029218196869, 100.864518581604216, 93.0 ],
 					"suppressinlet" : 1,
-					"text" : "when action button pressed, check if tuba's playing. if tuba's playing, start counting."
+					"text" : "when action button pressed, check if tuba's playing. if tuba's playing, start counting.",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1275,7 +1281,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 934.000016570091248, 1900.800029218196869, 100.864518581604216, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "is tuba playing?"
+					"text" : "is tuba playing?",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1561,11 +1568,11 @@
 				"box" : 				{
 					"comment" : "mute at start of fade",
 					"id" : "obj-39",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 1581.600023567676544, 948.800014138221741, 30.0, 30.0 ]
 				}
 
@@ -1590,7 +1597,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2040.800030410289764, 892.800013303756714, 80.0, 22.0 ],
-					"restore" : [ 2.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1621,7 +1628,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1752.000026106834412, 1108.800016522407532, 24.0, 24.0 ]
+					"patching_rect" : [ 1752.000026106834412, 1108.800016522407532, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1650,10 +1658,11 @@
 						}
 ,
 						"valueof" : 						{
-							"parameter_enum" : [ "volume fade out", "highpass sweep up", "lowpass sweep down" ],
+							"parameter_enum" : [ "no fade", "volume fade out", "highpass sweep up", "lowpass sweep down" ],
 							"parameter_longname" : "live.menu[3]",
-							"parameter_mmax" : 2,
+							"parameter_mmax" : 3,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.menu[1]",
 							"parameter_type" : 2
 						}
@@ -1871,13 +1880,14 @@
 							"parameter_longname" : "live.menu[4]",
 							"parameter_mmax" : 4,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"tricolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"tricolor" : [ 0.235, 0.235, 0.235, 1.0 ],
 					"varname" : "live.menu"
 				}
 
@@ -1956,7 +1966,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1170.000016570091248, 1899.800029218196869, 374.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "1. if tuba's playing, keep recording past 8 bars until tuba stops playing.\n2. if tuba's not playing, stop recording after 8 bars. "
+					"text" : "1. if tuba's playing, keep recording past 8 bars until tuba stops playing.\n2. if tuba's not playing, stop recording after 8 bars. ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1976,7 +1987,7 @@
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-40",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2122,7 +2133,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 488.000007271766663, 1032.800015389919281, 62.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "enable feedback"
+					"text" : "enable feedback",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2137,7 +2149,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 648.800009667873383, 830.400012373924255, 62.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "disable feedback"
+					"text" : "disable feedback",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2193,7 +2206,7 @@
 				"box" : 				{
 					"comment" : "looper fade out bang",
 					"id" : "obj-110",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2223,7 +2236,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1284.800017476081848, 1639.0, 140.864518581604216, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "stop metro, reset counter"
+					"text" : "stop metro, reset counter",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2261,7 +2275,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 789.600011765956879, 1092.800016283988953, 64.500319567753195, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "close send"
+					"text" : "close send",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2275,7 +2290,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 669.600009977817535, 1092.800016283988953, 62.0, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "open send"
+					"text" : "open send",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2290,7 +2306,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 918.40001368522644, 1196.800017833709717, 114.500319567753195, 79.0 ],
 					"suppressinlet" : 1,
-					"text" : "after looper send opens, the counter will start counting bars once the tuba starts playing"
+					"text" : "after looper send opens, the counter will start counting bars once the tuba starts playing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2305,7 +2322,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 866.400012910366058, 1552.800023138523102, 99.0, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "bangs when tuba starts playing"
+					"text" : "bangs when tuba starts playing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2332,7 +2350,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1004.800014972686768, 1523.20002269744873, 123.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "bangs when tuba\n( + delay & reverb fx ) \nstops playing"
+					"text" : "bangs when tuba\n( + delay & reverb fx ) \nstops playing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2358,7 +2377,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1189.0, 1593.30002373456955, 216.000003218650818, 21.0 ],
 					"suppressinlet" : 1,
-					"text" : "bang 8 full bars after tuba starts playing"
+					"text" : "bang 8 full bars after tuba starts playing",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2397,7 +2417,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1217.60001814365387, 1440.800021469593048, 200.0, 50.0 ],
 					"suppressinlet" : 1,
-					"text" : "metronome set to whole note. active for 8 bars once tuba starts playing after looper send opens"
+					"text" : "metronome set to whole note. active for 8 bars once tuba starts playing after looper send opens",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2429,11 +2450,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-103",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1352.800020158290863, 3104.000046253204346, 30.0, 30.0 ]
+					"patching_rect" : [ 1411.800018072128296, 3104.000046253204346, 30.0, 30.0 ]
 				}
 
 			}
@@ -2441,7 +2462,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-101",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -2508,7 +2529,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1212.800018072128296, 436.800006508827209, 208.265913304508786, 35.0 ],
 					"suppressinlet" : 1,
-					"text" : "first click - start recording\n second click - fade out and clear loop"
+					"text" : "first click - start recording\n second click - fade out and clear loop",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2640,14 +2662,14 @@
 					"outlettype" : [ "signal", "signal", "list" ],
 					"patching_rect" : [ 797.600011885166168, 2258.40003365278244, 224.0, 40.0 ],
 					"rnboattrcache" : 					{
-						"regen" : 						{
-							"label" : "regen",
+						"volume" : 						{
+							"label" : "volume",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"beats" : 						{
-							"label" : "beats",
+						"regen" : 						{
+							"label" : "regen",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2658,8 +2680,8 @@
 							"parsestring" : ""
 						}
 ,
-						"volume" : 						{
-							"label" : "volume",
+						"beats" : 						{
+							"label" : "beats",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -2678,7 +2700,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.1",
+					"rnboversion" : "1.3.3",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -2720,6 +2742,7 @@
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "volume",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -2730,18 +2753,6 @@
 					"slidercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"varname" : "live.gain~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-74",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 2070.400030851364136, 974.400014519691467, 29.5, 22.0 ],
-					"text" : "+ 1"
 				}
 
 			}
@@ -2789,7 +2800,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3152.800046980381012, 1838.400027394294739, 55.0, 20.0 ],
-					"text" : "unmute"
+					"text" : "unmute",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2801,7 +2813,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3148.800046920776367, 1682.400025069713593, 55.0, 20.0 ],
-					"text" : "fade in"
+					"text" : "fade in",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2813,7 +2826,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 3152.800046980381012, 1758.400026202201843, 55.0, 20.0 ],
-					"text" : "fade out"
+					"text" : "fade out",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2885,7 +2899,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2900.800043225288391, 1882.400028049945831, 55.0, 20.0 ],
-					"text" : "unmute"
+					"text" : "unmute",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2897,7 +2912,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2900.800043225288391, 1746.400026023387909, 55.0, 20.0 ],
-					"text" : "fade in"
+					"text" : "fade in",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2909,7 +2925,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2900.800043225288391, 1818.400027096271515, 55.0, 20.0 ],
-					"text" : "fade out"
+					"text" : "fade out",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2981,7 +2998,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2640.800039350986481, 1890.400028169155121, 55.0, 20.0 ],
-					"text" : "unmute"
+					"text" : "unmute",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -2993,7 +3011,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2640.800039350986481, 1822.40002715587616, 55.0, 20.0 ],
-					"text" : "fade out"
+					"text" : "fade out",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3005,7 +3024,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2648.80003947019577, 1742.400025963783264, 47.0, 20.0 ],
-					"text" : "fade in"
+					"text" : "fade in",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -3160,7 +3180,7 @@
 				"box" : 				{
 					"comment" : "one-button looper :)",
 					"id" : "obj-1",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3279,6 +3299,7 @@
 							"parameter_longname" : "master_highpass[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "highpass",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3304,6 +3325,7 @@
 							"parameter_longname" : "master_lowpass[1]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "lowpass",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -3330,6 +3352,7 @@
 							"parameter_longname" : "feedback[1]",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "feedback",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -3359,11 +3382,11 @@
 				"box" : 				{
 					"comment" : "Left audio input",
 					"id" : "obj-1036",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 445.600006639957428, 1455.200021684169769, 30.0, 30.0 ]
 				}
 
@@ -3372,11 +3395,11 @@
 				"box" : 				{
 					"comment" : "Right audio input",
 					"id" : "obj-1037",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 520.000007748603821, 1455.200021684169769, 30.0, 30.0 ]
 				}
 
@@ -4911,13 +4934,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"source" : [ "obj-74", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"color" : [ 0.548421919345856, 0.0, 0.893835783004761, 1.0 ],
 					"destination" : [ "obj-1014", 0 ],
 					"midpoints" : [ 1121.5, 2067.821423083400532, 735.799999892711639, 2067.821423083400532, 735.799999892711639, 1250.821423083400532, 656.799999892711639, 1250.821423083400532, 656.799999892711639, 1074.821423083400532, 730.799999892711639, 1074.821423083400532, 730.799999892711639, 878.821423083400532, 946.799999892711639, 878.821423083400532, 946.799999892711639, 842.821423083400532, 970.300014317035675, 842.821423083400532 ],
@@ -5086,7 +5102,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-74", 0 ],
+					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-87", 0 ]
 				}
 
@@ -5279,6 +5295,88 @@
 
 			}
  ],
+		"originid" : "pat-8676",
+		"parameters" : 		{
+			"obj-105" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-138::obj-1" : [ "filter sweep", "filter sweep", 0 ],
+			"obj-138::obj-27" : [ "smooth", "smooth", 0 ],
+			"obj-138::obj-41" : [ "filter boost", "filter boost", 0 ],
+			"obj-7" : [ "Loop Volume[1]", "volume", 0 ],
+			"obj-8" : [ "live.menu[4]", "live.menu", 0 ],
+			"obj-813" : [ "feedback[1]", "feedback", 0 ],
+			"obj-87" : [ "live.menu[3]", "live.menu[1]", 0 ],
+			"obj-895" : [ "master_lowpass[1]", "lowpass", 0 ],
+			"obj-901" : [ "master_highpass[1]", "highpass", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "AND.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "DJfilter.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FilterDelay.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OR.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm.sallenkey2~.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/patchers",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_functions.genexpr",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/other",
+				"patcherrelativepath" : "../other",
+				"type" : "GenX",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sm_sallenkey_stereo.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/smFilterPack/code/sm_gendsp",
+				"patcherrelativepath" : "../../../../Packages/smFilterPack/code/sm_gendsp",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
+		"toolbaradditions" : [ "packagemanager" ],
 		"bgcolor" : [ 0.396078431372549, 0.396078431372549, 0.396078431372549, 1.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
