@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 190.0, 381.0, 1777.0, 821.0 ],
+		"rect" : [ 1880.0, 380.0, 520.0, 757.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -3514,7 +3514,7 @@
 
 							}
  ],
-						"originid" : "pat-3939"
+						"originid" : "pat-18"
 					}
 ,
 					"patching_rect" : [ 4267.0, 966.0, 36.0, 22.0 ],
@@ -4187,7 +4187,7 @@
 
 							}
  ],
-						"originid" : "pat-3941"
+						"originid" : "pat-20"
 					}
 ,
 					"patching_rect" : [ 3641.0, 869.0, 36.0, 22.0 ],
@@ -6156,13 +6156,12 @@
 									"fontname" : "Ableton Sans Medium",
 									"fontsize" : 13.0,
 									"id" : "obj-100",
-									"linecount" : 4,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "jit_matrix", "bang", "" ],
-									"patching_rect" : [ 879.0, 400.0, 197.0, 71.0 ],
-									"text" : "jit.world \"LFO Visualizer\" @erase_color 0.01 0.01 0.01 0. @size 1066 337 @displaylink 1 @floating 1"
+									"patching_rect" : [ 879.0, 400.0, 645.0, 24.0 ],
+									"text" : "jit.world \"LFO Visualizer\" @erase_color 0.01 0.01 0.01 0. @size 1066 337 @displaylink 0 @fps 60 @floating 1"
 								}
 
 							}
@@ -6794,7 +6793,7 @@
 
 							}
  ],
-						"originid" : "pat-3943",
+						"originid" : "pat-22",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -9010,8 +9009,32 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3082.0, 1130.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endY" : 						{
-							"label" : "endY",
+						"midX" : 						{
+							"label" : "midX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9028,32 +9051,8 @@
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9110,8 +9109,32 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 4256.0, 2182.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endY" : 						{
-							"label" : "endY",
+						"midX" : 						{
+							"label" : "midX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9128,32 +9151,8 @@
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9223,8 +9222,32 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 5285.0, 2165.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"endY" : 						{
-							"label" : "endY",
+						"midX" : 						{
+							"label" : "midX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9241,32 +9264,8 @@
 							"parsestring" : ""
 						}
 ,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midX" : 						{
-							"label" : "midX",
+						"endY" : 						{
+							"label" : "endY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -15566,7 +15565,7 @@
 
 			}
  ],
-		"originid" : "pat-3925",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-10" : [ "phase offset", "postrate phase", 0 ],
 			"obj-106" : [ "ceil max", "ceil max", 0 ],
@@ -15676,6 +15675,7 @@
  ],
 		"autosave" : 0,
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 		"editing_bgcolor" : [ 0.341176470588235, 0.341176470588235, 0.341176470588235, 0.949019607843137 ],
 		"saved_attribute_attributes" : 		{
