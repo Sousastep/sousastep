@@ -10,9 +10,4 @@
 10, PlanetOfBaobabs;
 11, Spiral;
 12, PolyStar;
-13, PNoiseWaveFactory;
-14, MandalaScope;
-15, Puddlez;
-16, HexTruchWarpFlow2;
-17, FantasyEventHorizon;
-18, SineWarpGradient;
+13, Checkerboard;

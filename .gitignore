@@ -54,3 +54,13 @@ SousaVFX/data/*
 .env.test
 SousaVFX/code/.env
 SousaVFX/code/.env.test
+default/n4m_obs_rectime/code/.env
+
+# node
+default/n4m_obs_rectime/node_modules
+default/n4m_obs_rectime/package-lock.json
+default/n4m_obs_rectime/package.json
+SousaVFX/code/node_modules
+SousaVFX/code/package-lock.json
+SousaVFX/code/package.json
+

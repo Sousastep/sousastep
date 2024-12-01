@@ -4,17 +4,43 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 324.0, 87.0, 1682.0, 1319.0 ],
+		"rect" : [ 34.0, 87.0, 2492.0, 1319.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"args" : [ "checkerboard" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"hidden" : 1,
+					"id" : "obj-49",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "UI_Checkerboard.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5601.0, 178.0, 364.0, 439.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 27.5, 117.0, 364.0, 439.0 ],
+					"varname" : "UI_Checkerboard",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -484,9 +510,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1181.0, 947.0, 418.66667914390564, 324.0 ],
+					"patching_rect" : [ 1181.0, 948.0, 418.66667914390564, 324.0 ],
 					"suppressinlet" : 1,
-					"text" : "what happens when switching ISF shaders\n=======================================\n\n1. turn off [switch] so no param vals are sent to the shader\n2. store upcoming preset bank # in [i]\n3. get upcoming shader name\n    a. get file path\n    b. hide previous shader UI via bpatcher scripting name\n        i. set previous shader params to \"default blank\"\n        ii. set [forward] for ISF-shader_preset_number\n        iii. load next shader preset\n    c. show next shader UI via bpatcher scripting name\n    d. set [forward] for bang_out_param_val\n4. load shader with file path 3a\n5. turn on [switch] to receive param vals\n6. bang out param vals for the currently loaded shader\n    ( we prefer to use @changemode 1 for the pattrstorages, \n      so we need to manually bang out unmodulated param vals )\n7. enable [jit.gl.isf] if previously disabled\n8. store current shader name for next switch's 3b\n\n\nif a non-ISF shader preset is loaded, only do steps 1, 3b, !7\n\n1. turn off [switch] so no param vals are sent to the shader\n3. get upcoming shader name\n    b. hide previous shader UI via bpatcher scripting name\n!7. disable [jit.gl.isf]"
+					"text" : "what happens when switching ISF shaders\n=======================================\n\n1. turn off [switch] so no param vals are sent to the shader\n2. store upcoming preset bank # in [i]\n3. get upcoming shader name\n    a. get file path\n    b. hide previous shader UI via bpatcher scripting name\n        i. set previous shader params to \"default blank\"\n        ii. set [forward] for ISF-shader_preset_number\n        iii. load next shader preset\n    c. show next shader UI via bpatcher scripting name\n    d. set [forward] for bang_out_param_val\n4. load shader with file path 3a\n5. turn on [switch] to receive param vals\n6. bang out param vals for the currently loaded shader\n    ( we prefer to use @changemode 1 for the pattrstorages, \n      so we need to manually bang out unmodulated param vals )\n7. enable [jit.gl.isf] if previously disabled\n8. store current shader name for next switch's 3b\n\n\nif a non-ISF shader preset is loaded, only do steps 1, 3b, !7\n\n1. turn off [switch] so no param vals are sent to the shader\n3. get upcoming shader name\n    b. hide previous shader UI via bpatcher scripting name\n!7. disable [jit.gl.isf]",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -1538,11 +1565,11 @@
 				"box" : 				{
 					"id" : "obj-552",
 					"maxclass" : "newobj",
-					"numinlets" : 13,
+					"numinlets" : 14,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1165.0, 919.0, 4039.0, 22.0 ],
-					"text" : "switch 12"
+					"patching_rect" : [ 1165.0, 919.0, 4479.0, 22.0 ],
+					"text" : "switch 13"
 				}
 
 			}
@@ -1619,7 +1646,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1993,7 +2020,7 @@
 
 							}
  ],
-						"originid" : "pat-3867"
+						"originid" : "pat-12254"
 					}
 ,
 					"patching_rect" : [ 785.0, 1637.0, 145.0, 22.0 ],
@@ -2112,8 +2139,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 570.0, 1689.0, 465.0, 22.0 ],
-					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -7.8 @scale 4 4 1 @dim 256 256"
+					"patching_rect" : [ 570.0, 1689.0, 478.0, 22.0 ],
+					"text" : "jit.gl.videoplane w @name mojoPlane @position 0 0 -7.692 @scale 4 4 1 @dim 256 256"
 				}
 
 			}
@@ -2671,6 +2698,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-552", 13 ],
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-940", 0 ],
 					"source" : [ "obj-493", 0 ]
 				}
@@ -3112,7 +3146,7 @@
 
 			}
  ],
-		"originid" : "pat-2891",
+		"originid" : "pat-11202",
 		"parameters" : 		{
 			"obj-228::obj-2::obj-133" : [ "scale_invert[8]", "Phase-Inversion", 1 ],
 			"obj-228::obj-2::obj-23" : [ "live.menu[8]", "live.menu", 0 ],
@@ -3358,6 +3392,42 @@
 			"obj-48::obj-82::obj-23" : [ "live.menu[99]", "live.menu", 0 ],
 			"obj-48::obj-82::obj-51" : [ "live.numbox[198]", "live.numbox", 0 ],
 			"obj-48::obj-82::obj-53" : [ "live.numbox[199]", "live.numbox", 0 ],
+			"obj-49::obj-26::obj-133" : [ "scale_invert[127]", "Phase-Inversion", 1 ],
+			"obj-49::obj-26::obj-23" : [ "live.menu[123]", "live.menu", 0 ],
+			"obj-49::obj-26::obj-51" : [ "live.numbox[246]", "live.numbox", 0 ],
+			"obj-49::obj-26::obj-53" : [ "live.numbox[247]", "live.numbox", 0 ],
+			"obj-49::obj-2::obj-133" : [ "scale_invert[119]", "Phase-Inversion", 1 ],
+			"obj-49::obj-2::obj-23" : [ "live.menu[115]", "live.menu", 0 ],
+			"obj-49::obj-2::obj-51" : [ "live.numbox[231]", "live.numbox", 0 ],
+			"obj-49::obj-2::obj-53" : [ "live.numbox[230]", "live.numbox", 0 ],
+			"obj-49::obj-3::obj-133" : [ "scale_invert[120]", "Phase-Inversion", 1 ],
+			"obj-49::obj-3::obj-23" : [ "live.menu[116]", "live.menu", 0 ],
+			"obj-49::obj-3::obj-51" : [ "live.numbox[233]", "live.numbox", 0 ],
+			"obj-49::obj-3::obj-53" : [ "live.numbox[232]", "live.numbox", 0 ],
+			"obj-49::obj-4::obj-133" : [ "scale_invert[121]", "Phase-Inversion", 1 ],
+			"obj-49::obj-4::obj-23" : [ "live.menu[117]", "live.menu", 0 ],
+			"obj-49::obj-4::obj-51" : [ "live.numbox[235]", "live.numbox", 0 ],
+			"obj-49::obj-4::obj-53" : [ "live.numbox[234]", "live.numbox", 0 ],
+			"obj-49::obj-51::obj-133" : [ "scale_invert[123]", "Phase-Inversion", 1 ],
+			"obj-49::obj-51::obj-23" : [ "live.menu[119]", "live.menu", 0 ],
+			"obj-49::obj-51::obj-51" : [ "live.numbox[239]", "live.numbox", 0 ],
+			"obj-49::obj-51::obj-53" : [ "live.numbox[238]", "live.numbox", 0 ],
+			"obj-49::obj-53::obj-133" : [ "scale_invert[124]", "Phase-Inversion", 1 ],
+			"obj-49::obj-53::obj-23" : [ "live.menu[120]", "live.menu", 0 ],
+			"obj-49::obj-53::obj-51" : [ "live.numbox[241]", "live.numbox", 0 ],
+			"obj-49::obj-53::obj-53" : [ "live.numbox[240]", "live.numbox", 0 ],
+			"obj-49::obj-55::obj-133" : [ "scale_invert[125]", "Phase-Inversion", 1 ],
+			"obj-49::obj-55::obj-23" : [ "live.menu[121]", "live.menu", 0 ],
+			"obj-49::obj-55::obj-51" : [ "live.numbox[243]", "live.numbox", 0 ],
+			"obj-49::obj-55::obj-53" : [ "live.numbox[242]", "live.numbox", 0 ],
+			"obj-49::obj-57::obj-133" : [ "scale_invert[126]", "Phase-Inversion", 1 ],
+			"obj-49::obj-57::obj-23" : [ "live.menu[122]", "live.menu", 0 ],
+			"obj-49::obj-57::obj-51" : [ "live.numbox[245]", "live.numbox", 0 ],
+			"obj-49::obj-57::obj-53" : [ "live.numbox[244]", "live.numbox", 0 ],
+			"obj-49::obj-5::obj-133" : [ "scale_invert[122]", "Phase-Inversion", 1 ],
+			"obj-49::obj-5::obj-23" : [ "live.menu[118]", "live.menu", 0 ],
+			"obj-49::obj-5::obj-51" : [ "live.numbox[237]", "live.numbox", 0 ],
+			"obj-49::obj-5::obj-53" : [ "live.numbox[236]", "live.numbox", 0 ],
 			"obj-512::obj-2::obj-133" : [ "scale_invert[36]", "Phase-Inversion", 1 ],
 			"obj-512::obj-2::obj-23" : [ "live.menu[38]", "live.menu", 0 ],
 			"obj-512::obj-2::obj-51" : [ "live.numbox[76]", "live.numbox", 0 ],
@@ -4560,6 +4630,150 @@
 					"parameter_longname" : "live.numbox[199]"
 				}
 ,
+				"obj-49::obj-26::obj-133" : 				{
+					"parameter_longname" : "scale_invert[127]"
+				}
+,
+				"obj-49::obj-26::obj-23" : 				{
+					"parameter_longname" : "live.menu[123]"
+				}
+,
+				"obj-49::obj-26::obj-51" : 				{
+					"parameter_longname" : "live.numbox[246]"
+				}
+,
+				"obj-49::obj-26::obj-53" : 				{
+					"parameter_longname" : "live.numbox[247]"
+				}
+,
+				"obj-49::obj-2::obj-133" : 				{
+					"parameter_longname" : "scale_invert[119]"
+				}
+,
+				"obj-49::obj-2::obj-23" : 				{
+					"parameter_longname" : "live.menu[115]"
+				}
+,
+				"obj-49::obj-2::obj-51" : 				{
+					"parameter_longname" : "live.numbox[231]"
+				}
+,
+				"obj-49::obj-2::obj-53" : 				{
+					"parameter_longname" : "live.numbox[230]"
+				}
+,
+				"obj-49::obj-3::obj-133" : 				{
+					"parameter_longname" : "scale_invert[120]"
+				}
+,
+				"obj-49::obj-3::obj-23" : 				{
+					"parameter_longname" : "live.menu[116]"
+				}
+,
+				"obj-49::obj-3::obj-51" : 				{
+					"parameter_longname" : "live.numbox[233]"
+				}
+,
+				"obj-49::obj-3::obj-53" : 				{
+					"parameter_longname" : "live.numbox[232]"
+				}
+,
+				"obj-49::obj-4::obj-133" : 				{
+					"parameter_longname" : "scale_invert[121]"
+				}
+,
+				"obj-49::obj-4::obj-23" : 				{
+					"parameter_longname" : "live.menu[117]"
+				}
+,
+				"obj-49::obj-4::obj-51" : 				{
+					"parameter_longname" : "live.numbox[235]"
+				}
+,
+				"obj-49::obj-4::obj-53" : 				{
+					"parameter_longname" : "live.numbox[234]"
+				}
+,
+				"obj-49::obj-51::obj-133" : 				{
+					"parameter_longname" : "scale_invert[123]"
+				}
+,
+				"obj-49::obj-51::obj-23" : 				{
+					"parameter_longname" : "live.menu[119]"
+				}
+,
+				"obj-49::obj-51::obj-51" : 				{
+					"parameter_longname" : "live.numbox[239]"
+				}
+,
+				"obj-49::obj-51::obj-53" : 				{
+					"parameter_longname" : "live.numbox[238]"
+				}
+,
+				"obj-49::obj-53::obj-133" : 				{
+					"parameter_longname" : "scale_invert[124]"
+				}
+,
+				"obj-49::obj-53::obj-23" : 				{
+					"parameter_longname" : "live.menu[120]"
+				}
+,
+				"obj-49::obj-53::obj-51" : 				{
+					"parameter_longname" : "live.numbox[241]"
+				}
+,
+				"obj-49::obj-53::obj-53" : 				{
+					"parameter_longname" : "live.numbox[240]"
+				}
+,
+				"obj-49::obj-55::obj-133" : 				{
+					"parameter_longname" : "scale_invert[125]"
+				}
+,
+				"obj-49::obj-55::obj-23" : 				{
+					"parameter_longname" : "live.menu[121]"
+				}
+,
+				"obj-49::obj-55::obj-51" : 				{
+					"parameter_longname" : "live.numbox[243]"
+				}
+,
+				"obj-49::obj-55::obj-53" : 				{
+					"parameter_longname" : "live.numbox[242]"
+				}
+,
+				"obj-49::obj-57::obj-133" : 				{
+					"parameter_longname" : "scale_invert[126]"
+				}
+,
+				"obj-49::obj-57::obj-23" : 				{
+					"parameter_longname" : "live.menu[122]"
+				}
+,
+				"obj-49::obj-57::obj-51" : 				{
+					"parameter_longname" : "live.numbox[245]"
+				}
+,
+				"obj-49::obj-57::obj-53" : 				{
+					"parameter_longname" : "live.numbox[244]"
+				}
+,
+				"obj-49::obj-5::obj-133" : 				{
+					"parameter_longname" : "scale_invert[122]"
+				}
+,
+				"obj-49::obj-5::obj-23" : 				{
+					"parameter_longname" : "live.menu[118]"
+				}
+,
+				"obj-49::obj-5::obj-51" : 				{
+					"parameter_longname" : "live.numbox[237]"
+				}
+,
+				"obj-49::obj-5::obj-53" : 				{
+					"parameter_longname" : "live.numbox[236]"
+				}
+,
 				"obj-512::obj-2::obj-133" : 				{
 					"parameter_longname" : "scale_invert[36]"
 				}
@@ -5449,6 +5663,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "UI_Checkerboard.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "UI_ColorDiffusionFlow.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -5533,6 +5754,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "checkerboard.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "colordiffusionflow.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
@@ -5541,8 +5769,8 @@
 			}
 , 			{
 				"name" : "fluidflowsnoise.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
-				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -5643,6 +5871,8 @@
 			}
  ],
 		"autosave" : 0,
+		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"editing_bgcolor" : [ 0.925490196078431, 0.913725490196078, 0.92156862745098, 1.0 ]
 	}
 
