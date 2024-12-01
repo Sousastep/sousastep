@@ -10,13 +10,85 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 892.0, 550.0, 744.0, 370.0 ],
+		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 200.0, 200.0 ],
 		"toolbarvisible" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX Startup Preferences",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-353",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1874.0, 3217.0, 41.0, 22.0 ],
+					"text" : "del 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-354",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1874.0, 3181.0, 22.0, 22.0 ],
+					"text" : "t b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-355",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1839.0, 3271.0, 295.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-356",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1968.0, 3117.0, 219.0, 22.0 ],
+					"text" : "sprintf \\; max openfile ID_n4mobs \\\"%s\\\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-357",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1968.0, 3041.0, 512.0, 22.0 ],
+					"presentation_linecount" : 3,
+					"text" : "\"~/Documents/Max 8/Projects/sousastep/default/n4m_obs_rectime/n4m_obs_rectime.maxproj\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-358",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "int" ],
+					"patching_rect" : [ 1968.0, 3081.0, 128.0, 22.0 ],
+					"text" : "conformpath max boot"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-331",
 					"maxclass" : "newobj",
@@ -199,10 +271,10 @@
 					"id" : "obj-400",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 1228.0, 2881.0, 22.0, 22.0 ],
-					"text" : "t 1"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 1228.0, 2881.0, 32.0, 22.0 ],
+					"text" : "t 1 b"
 				}
 
 			}
@@ -507,7 +579,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1565.0, 1666.0, 71.0, 22.0 ],
-					"restore" : [ "No Scripts" ],
+					"restore" : [ "Streaming PC Launcher" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -582,7 +654,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 664.0, 1756.0, 122.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1230,7 +1302,6 @@
 					"bgfillcolor_type" : "color",
 					"fontname" : "Ableton Sans Light",
 					"gradient" : 1,
-					"hidden" : 1,
 					"hint" : "choose custom playback project file",
 					"id" : "obj-256",
 					"maxclass" : "message",
@@ -1397,7 +1468,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1381.0, 1666.0, 108.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 2 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3935,7 +4006,7 @@
 
 							}
  ],
-						"originid" : "pat-3919"
+						"originid" : "pat-3803"
 					}
 ,
 					"patching_rect" : [ 864.0, 938.0, 86.0, 22.0 ],
@@ -5034,7 +5105,7 @@
 
 							}
  ],
-						"originid" : "pat-3921"
+						"originid" : "pat-3805"
 					}
 ,
 					"patching_rect" : [ 711.0, 938.0, 86.0, 22.0 ],
@@ -5242,7 +5313,7 @@
 
 							}
  ],
-						"originid" : "pat-3923"
+						"originid" : "pat-3807"
 					}
 ,
 					"patching_rect" : [ 543.0, 938.0, 86.0, 22.0 ],
@@ -5347,7 +5418,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 3641.0, 2258.0, 215.0, 212.0 ],
-					"pic" : "frame0035.png",
+					"pic" : "frame0011.png",
 					"presentation" : 1,
 					"presentation_rect" : [ 441.0, 67.0, 252.0, 254.0 ]
 				}
@@ -7542,7 +7613,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-144", 0 ],
-					"order" : 4,
+					"order" : 5,
 					"source" : [ "obj-312", 0 ]
 				}
 
@@ -7550,7 +7621,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"order" : 3,
+					"order" : 4,
 					"source" : [ "obj-312", 0 ]
 				}
 
@@ -7573,8 +7644,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-95", 0 ],
+					"destination" : [ "obj-355", 0 ],
 					"order" : 2,
+					"source" : [ "obj-312", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"order" : 3,
 					"source" : [ "obj-312", 0 ]
 				}
 
@@ -7881,6 +7960,55 @@
 			}
 , 			{
 				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-355", 0 ],
+					"source" : [ "obj-353", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-353", 0 ],
+					"source" : [ "obj-354", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-354", 0 ],
+					"order" : 1,
+					"source" : [ "obj-356", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-355", 1 ],
+					"order" : 0,
+					"source" : [ "obj-356", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-358", 0 ],
+					"source" : [ "obj-357", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
+					"destination" : [ "obj-356", 0 ],
+					"source" : [ "obj-358", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-36", 0 ]
 				}
@@ -8003,6 +8131,13 @@
 					"color" : [ 0.094928205013275, 0.722817301750183, 0.036590281873941, 1.0 ],
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-357", 0 ],
+					"source" : [ "obj-400", 1 ]
 				}
 
 			}
@@ -8610,11 +8745,11 @@
 
 			}
  ],
-		"originid" : "pat-3917",
+		"originid" : "pat-3801",
 		"dependency_cache" : [ 			{
-				"name" : "frame0012.png",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_004151536",
-				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_004151536",
+				"name" : "frame0011.png",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/startup/animation/PXL_20240107_003804122",
+				"patcherrelativepath" : "../../default/startup/animation/PXL_20240107_003804122",
 				"type" : "PNG",
 				"implicit" : 1
 			}
@@ -8655,6 +8790,7 @@
 			}
  ],
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 		"editing_bgcolor" : [ 0.407843137254902, 0.407843137254902, 0.407843137254902, 1.0 ]
 	}

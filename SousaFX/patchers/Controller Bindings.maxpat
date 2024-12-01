@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1919.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -18,6 +18,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 2091.0, 3095.0, 55.0, 22.0 ],
+					"text" : "del 2000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"args" : [ "Main Input Delay Fdbk 1 (uni)", "Delay & Reverb Sends" ],
 					"bgmode" : 0,
@@ -9403,7 +9415,7 @@
 
 											}
  ],
-										"originid" : "pat-6277"
+										"originid" : "pat-6215"
 									}
 ,
 									"patching_rect" : [ 347.0, 778.0, 126.0, 23.0 ],
@@ -9921,7 +9933,7 @@
 
 							}
  ],
-						"originid" : "pat-6275",
+						"originid" : "pat-6213",
 						"bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 					}
 ,
@@ -10532,7 +10544,7 @@
 
 							}
  ],
-						"originid" : "pat-6631"
+						"originid" : "pat-6569"
 					}
 ,
 					"patching_rect" : [ 509.0, 1708.0, 141.0, 22.0 ],
@@ -15679,7 +15691,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "16th",
+					"text" : "half",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -21243,7 +21255,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-197", 0 ]
 				}
 
@@ -24279,6 +24291,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-399", 0 ],
 					"source" : [ "obj-508", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"source" : [ "obj-51", 0 ]
 				}
 
 			}
@@ -28907,12 +28926,13 @@
 
 			}
  ],
-		"originid" : "pat-4507",
+		"originid" : "pat-4391",
 		"boxgroups" : [ 			{
 				"boxes" : [ "obj-772", "obj-685", "obj-607", "obj-568", "obj-616", "obj-615", "obj-614", "obj-608", "obj-567", "obj-617", "obj-610", "obj-609", "obj-599", "obj-578", "obj-576", "obj-582", "obj-581", "obj-600", "obj-580", "obj-577", "obj-619", "obj-618", "obj-613", "obj-612" ]
 			}
  ],
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.047058823529412, 0.003921568627451, 0.07843137254902, 0.8 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 0.97 ]
 	}

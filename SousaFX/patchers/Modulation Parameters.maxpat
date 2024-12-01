@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1880.0, 380.0, 520.0, 757.0 ],
+		"rect" : [ 61.0, 484.0, 615.0, 898.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -3514,7 +3514,7 @@
 
 							}
  ],
-						"originid" : "pat-18"
+						"originid" : "pat-114"
 					}
 ,
 					"patching_rect" : [ 4267.0, 966.0, 36.0, 22.0 ],
@@ -4187,7 +4187,7 @@
 
 							}
  ],
-						"originid" : "pat-20"
+						"originid" : "pat-116"
 					}
 ,
 					"patching_rect" : [ 3641.0, 869.0, 36.0, 22.0 ],
@@ -4552,7 +4552,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.102362204724409, 0, 0.0, 1.0, 0.320275590551182, 0, 0.0 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.102362204724409, 0, 0.0, 1.0, 0.346456692913386, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -6793,7 +6793,7 @@
 
 							}
  ],
-						"originid" : "pat-22",
+						"originid" : "pat-118",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -9009,20 +9009,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3082.0, 1130.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endX" : 						{
-							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9033,20 +9027,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"secondCurve" : 						{
 							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9109,20 +9109,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 4256.0, 2182.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endX" : 						{
-							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9133,20 +9127,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"secondCurve" : 						{
 							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9222,20 +9222,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 5285.0, 2165.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endX" : 						{
-							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -9246,20 +9240,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"secondCurve" : 						{
 							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"endX" : 						{
+							"label" : "endX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -15565,7 +15565,7 @@
 
 			}
  ],
-		"originid" : "pat-4",
+		"originid" : "pat-100",
 		"parameters" : 		{
 			"obj-10" : [ "phase offset", "postrate phase", 0 ],
 			"obj-106" : [ "ceil max", "ceil max", 0 ],
