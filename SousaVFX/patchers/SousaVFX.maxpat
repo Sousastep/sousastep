@@ -10,13 +10,26 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 425.0, 99.0, 1659.0, 1197.0 ],
+		"rect" : [ 0.0, 53.0, 2160.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaVFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "enable",
+					"id" : "obj-298",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 5327.0, -15.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontsize" : 8.548114436785953,
 					"id" : "obj-495",
@@ -242,7 +255,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5714.0, -65.5, 97.0, 79.0 ],
-					"presentation_linecount" : 6,
 					"text" : ";\rmax launchbrowser https://discord.com/channels/289378508247924738/289379337528934401/1313115007315087410"
 				}
 
@@ -514,7 +526,7 @@
 
 							}
  ],
-						"originid" : "pat-2289",
+						"originid" : "pat-560",
 						"toolbaradditions" : [ "packagemanager" ],
 						"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ]
 					}
@@ -918,7 +930,7 @@
 
 							}
  ],
-						"originid" : "pat-689",
+						"originid" : "pat-650",
 						"styles" : [ 							{
 								"name" : "minimal",
 								"default" : 								{
@@ -3228,7 +3240,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
-					"hidden" : 1,
 					"id" : "obj-134",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -3385,7 +3396,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 339.0, 1393.0, 130.0, 51.0 ],
-					"text" : "0        all off\n1 - 200  ISF\n> 200    non-ISF"
+					"text" : "0        all off\n1 - 200  ISF\n> 200    non-ISF",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -4015,10 +4027,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 208, 93, 608, 593 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 200, 200, 2506, 551 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -5072,7 +5084,7 @@
 
 							}
  ],
-						"originid" : "pat-2239"
+						"originid" : "pat-2202"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -7083,7 +7095,7 @@
 
 							}
  ],
-						"originid" : "pat-2255"
+						"originid" : "pat-2218"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -8082,7 +8094,7 @@
 
 							}
  ],
-						"originid" : "pat-2259"
+						"originid" : "pat-2222"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -10426,6 +10438,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-366", 0 ],
+					"order" : 0,
+					"source" : [ "obj-298", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-382", 0 ],
+					"order" : 1,
+					"source" : [ "obj-298", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-300", 0 ],
 					"source" : [ "obj-299", 1 ]
 				}
@@ -12479,7 +12507,7 @@
 
 			}
  ],
-		"originid" : "pat-587",
+		"originid" : "pat-558",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
