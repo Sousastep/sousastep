@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 1659.0, 53.0, 901.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -23,6 +23,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-377",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5470.0, 3008.0, 188.0, 47.0 ],
+					"text" : "no longer post-crossfade but I don't feel like changing the name. thus, we aquire tech debt."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-351",
 					"maxclass" : "newobj",
@@ -4764,7 +4776,7 @@
 
 							}
  ],
-						"originid" : "pat-4147"
+						"originid" : "pat-4175"
 					}
 ,
 					"patching_rect" : [ 3610.0, 5914.0, 47.0, 22.0 ],
@@ -6198,7 +6210,7 @@
 
 							}
  ],
-						"originid" : "pat-4185",
+						"originid" : "pat-4213",
 						"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
 					}
 ,
@@ -6986,7 +6998,7 @@
 
 							}
  ],
-						"originid" : "pat-4187"
+						"originid" : "pat-4215"
 					}
 ,
 					"patching_rect" : [ 6613.0, 5087.0, 163.0, 22.0 ],
@@ -9418,7 +9430,7 @@
 
 							}
  ],
-						"originid" : "pat-4311",
+						"originid" : "pat-4339",
 						"bgfillcolor_type" : "gradient",
 						"bgfillcolor_color1" : [ 0.454902, 0.462745, 0.482353, 1.0 ],
 						"bgfillcolor_color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -9576,7 +9588,7 @@
 
 							}
  ],
-						"originid" : "pat-4313"
+						"originid" : "pat-4341"
 					}
 ,
 					"patching_rect" : [ 171.0, 1023.0, 75.0, 22.0 ],
@@ -9883,7 +9895,7 @@
 
 							}
  ],
-						"originid" : "pat-4315"
+						"originid" : "pat-4343"
 					}
 ,
 					"patching_rect" : [ 171.0, 1339.0, 104.0, 22.0 ],
@@ -10674,7 +10686,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
+					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
 					"appearance" : 2,
 					"fontname" : "Monaco",
 					"id" : "obj-353",
@@ -11723,8 +11735,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -11821,7 +11833,7 @@
 
 							}
  ],
-						"originid" : "pat-4345"
+						"originid" : "pat-4373"
 					}
 ,
 					"patching_rect" : [ 824.0, 2145.0, 237.0, 22.0 ],
@@ -15856,7 +15868,7 @@
 					"patching_rect" : [ 2766.0, 3005.0, 828.277151639344083, 1839.36763267874062 ],
 					"pic" : "Macintosh HD:/Users/jbaylies/Music/_repo/sousastep/Sousastep Audio FX/media/Sousastep_signalflow.drawio.png",
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 23.0, 868.999999999999545, 1929.801479654746117 ]
+					"presentation_rect" : [ 0.0, 23.0, 868.999999999999432, 1929.80147965474589 ]
 				}
 
 			}
@@ -25383,7 +25395,7 @@
 
 			}
  ],
-		"originid" : "pat-3813",
+		"originid" : "pat-3841",
 		"parameters" : 		{
 			"obj-115::obj-200::obj-18" : [ "phase offset[3]", "phase offset", 0 ],
 			"obj-115::obj-200::obj-2" : [ "live.menu[10]", "live.menu", 0 ],
@@ -27864,7 +27876,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "layout_2.json",
+				"name" : "layout_1.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
