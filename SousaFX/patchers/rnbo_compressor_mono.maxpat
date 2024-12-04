@@ -2,43 +2,37 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 460.0, 239.0, 1505.0, 1090.0 ],
-		"bglocked" : 0,
+		"rect" : [ 1892.0, 194.0, 1105.0, 1090.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "volout",
+					"attr_display" : 1,
+					"hint" : "Sets the global volume",
+					"id" : "obj-13",
+					"lock" : 1,
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1129.5, 643.0, 110.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 53.0, 248.0, 110.0, 22.0 ],
+					"text_width" : 64.0
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "lowboost",
 					"attr_display" : 1,
@@ -50,7 +44,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1138.0, 699.0, 110.0, 22.0 ],
+					"patching_rect" : [ 1137.5, 727.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 255.0, 110.0, 22.0 ],
 					"text_width" : 64.0
@@ -69,7 +63,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1138.0, 675.0, 110.0, 22.0 ],
+					"patching_rect" : [ 1137.5, 703.0, 110.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 231.0, 110.0, 22.0 ],
 					"text_width" : 64.0
@@ -133,7 +127,7 @@
 			}
 , 			{
 				"box" : 				{
-					"attr" : "volume",
+					"attr" : "volin",
 					"attr_display" : 1,
 					"hint" : "Sets the global volume",
 					"id" : "obj-48",
@@ -239,9 +233,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1129.5, 641.0, 110.0, 22.0 ],
+					"patching_rect" : [ 1129.5, 669.0, 110.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 248.0, 110.0, 22.0 ],
+					"presentation_rect" : [ 53.0, 271.0, 110.0, 22.0 ],
 					"text_width" : 64.0
 				}
 
@@ -337,7 +331,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 238.0, 253.0, 41.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.0, 273.0, 54.0, 20.0 ],
+					"presentation_rect" : [ 109.0, 296.0, 54.0, 20.0 ],
 					"text" : "restore",
 					"textjustification" : 1
 				}
@@ -436,11 +430,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"id" : "obj-21",
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.0, 469.0, 245.0, 23.0 ]
+					"patching_rect" : [ 855.0, 469.0, 245.0, 53.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/#1_rnbo_compressor_mono.json\""
 				}
 
 			}
@@ -507,7 +503,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 810.0, 322.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 53.0, 273.0, 53.0, 20.0 ],
+					"presentation_rect" : [ 53.0, 296.0, 53.0, 20.0 ],
 					"text" : "save",
 					"textjustification" : 1
 				}
@@ -778,42 +774,20 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 4,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 104.0, 270.0, 246.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"gridonopen" : 2,
 						"gridsize" : [ 10.0, 10.0 ],
 						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "MP-Rnbo",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-3",
@@ -945,15 +919,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-10916"
 					}
 ,
 					"patching_rect" : [ 274.0, 616.0, 59.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "",
-						"tags" : ""
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p Presets"
@@ -1016,14 +988,20 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 384.0, 705.0, 417.0, 24.0 ],
 					"rnboattrcache" : 					{
+						"comp" : 						{
+							"label" : "comp",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"lowfq" : 						{
 							"label" : "lowfq",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"volume" : 						{
-							"label" : "volume",
+						"lookahead" : 						{
+							"label" : "lookahead",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1034,26 +1012,26 @@
 							"parsestring" : ""
 						}
 ,
-						"lowboost" : 						{
-							"label" : "lowboost",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"sustain" : 						{
 							"label" : "sustain",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"comp" : 						{
-							"label" : "comp",
+						"lowboost" : 						{
+							"label" : "lowboost",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
-						"lookahead" : 						{
-							"label" : "lookahead",
+						"volin" : 						{
+							"label" : "volin",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"volout" : 						{
+							"label" : "volout",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -1066,7 +1044,7 @@
 
 					}
 ,
-					"rnboversion" : "1.3.1",
+					"rnboversion" : "1.3.3",
 					"saved_object_attributes" : 					{
 						"autosave" : 0,
 						"optimization" : "O1",
@@ -1407,61 +1385,6 @@
 							"subtype" : "",
 							"embed" : 1,
 							"snapshot" : 							{
-								"__sps" : 								{
-									"Lows~" : 									{
-
-									}
-,
-									"Compensation~" : 									{
-
-									}
-,
-									"Compression~" : 									{
-
-									}
-,
-									"Lookahead~" : 									{
-
-									}
-,
-									"Volume&Clip~" : 									{
-
-									}
-
-								}
-,
-								"lowboost" : 								{
-									"value" : 0.0
-								}
-,
-								"sustain" : 								{
-									"value" : 120.0
-								}
-,
-								"comp" : 								{
-									"value" : 25.0
-								}
-,
-								"lowfq" : 								{
-									"value" : 20.0
-								}
-,
-								"attack" : 								{
-									"value" : 30.0
-								}
-,
-								"__presetid" : "compressor_mono",
-								"softclip" : 								{
-									"value" : 0.0
-								}
-,
-								"volume" : 								{
-									"value" : 0.0
-								}
-,
-								"lookahead" : 								{
-									"value" : 30.0
-								}
 
 							}
 
@@ -1565,6 +1488,26 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
+					"fontface" : 0,
+					"fontname" : "Ableton Sans Light",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1247.0, 639.0, 21.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 165.0, 250.0, 21.0, 18.0 ],
+					"text" : "dB",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"background" : 1,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.7 ],
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-77",
 					"maxclass" : "comment",
@@ -1589,7 +1532,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1255.0, 677.0, 21.0, 18.0 ],
+					"patching_rect" : [ 1254.5, 705.0, 21.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 307.0, 234.0, 21.0, 18.0 ],
 					"text" : "Hz",
@@ -1609,7 +1552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1255.0, 701.0, 21.0, 18.0 ],
+					"patching_rect" : [ 1254.5, 729.0, 21.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 307.0, 258.0, 21.0, 18.0 ],
 					"text" : "dB",
@@ -1785,9 +1728,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 67.0, 54.0, 154.0, 28.0 ],
+					"patching_rect" : [ 67.0, 54.0, 161.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 7.0, 154.0, 28.0 ],
+					"presentation_rect" : [ 37.0, 7.0, 161.0, 28.0 ],
 					"text" : "RNBO Compressor",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1804,9 +1747,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 72.0, 89.0, 144.0, 21.0 ],
+					"patching_rect" : [ 72.0, 89.0, 147.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 42.0, 37.0, 144.0, 21.0 ],
+					"presentation_rect" : [ 42.0, 37.0, 147.0, 21.0 ],
 					"text" : "Classic mono compressor",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1833,6 +1776,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-62", 0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -2239,6 +2189,20 @@
 
 			}
  ],
+		"originid" : "pat-10914",
+		"parameters" : 		{
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "compressor_mono.rnbopat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
@@ -2247,7 +2211,9 @@
 				"implicit" : 1
 			}
  ],
-		"autosave" : 0
+		"autosave" : 0,
+		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ]
 	}
 
 }
