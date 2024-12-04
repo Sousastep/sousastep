@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 75.0, 119.0, 2408.0, 1257.0 ],
+		"rect" : [ 1295.0, 159.0, 1786.0, 1223.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -22,7 +22,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1112.0, 831.0, 158.0, 74.0 ],
+					"patching_rect" : [ 1112.0, 831.0, 160.0, 74.0 ],
 					"text" : "if the tweaker button is held for more than one second, set state to 0 just in case the api doesn't register it for some reason."
 				}
 
@@ -339,7 +339,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 601.0, 2010.0, 180.0, 22.0 ],
+					"patching_rect" : [ 565.0, 2012.0, 180.0, 22.0 ],
 					"text" : "r \"mute drum kick & snare track\""
 				}
 
@@ -653,7 +653,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"hint" : "positive offset can improve transients at the beginning of the loop by shifting them outside of the window.",
 					"id" : "obj-250",
@@ -723,7 +723,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 601.0, 2046.0, 190.0, 22.0 ],
+					"patching_rect" : [ 565.0, 2048.0, 190.0, 22.0 ],
 					"text" : "prepend \"is tweaker being played\""
 				}
 
@@ -1433,7 +1433,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"hint" : "positive offset can improve transients at the beginning of the loop by shifting them outside of the window.",
 					"id" : "obj-203",
@@ -1865,7 +1865,7 @@
 			}
 , 			{
 				"box" : 				{
-					"activeneedlecolor" : [ 0.011764705882353, 0.764705882352941, 0.835294117647059, 1.0 ],
+					"activeneedlecolor" : [ 0.594473705410263, 0.720560630419913, 0.928309050695498, 1.0 ],
 					"appearance" : 1,
 					"hint" : "Prevents clicks by quickly muting the stutter at the loop point. Determines how long muting should take.",
 					"id" : "obj-306",
@@ -2604,11 +2604,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-51",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1633.0, 584.0, 99.0, 22.0 ]
+					"patching_rect" : [ 1633.0, 584.0, 99.0, 35.0 ]
 				}
 
 			}
@@ -2671,7 +2672,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 625.333333333333258, 1725.0, 41.0, 22.0 ],
+					"patching_rect" : [ 661.0, 1725.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -2836,7 +2837,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 503.0, 1725.0, 41.0, 22.0 ],
+					"patching_rect" : [ 486.666666666666629, 1725.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -2946,7 +2947,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 348.0, 1736.0, 41.0, 22.0 ],
+					"patching_rect" : [ 348.0, 1725.0, 41.0, 22.0 ],
 					"text" : "set $1"
 				}
 
@@ -10011,7 +10012,7 @@
 
 			}
  ],
-		"originid" : "pat-10578",
+		"originid" : "pat-10834",
 		"parameters" : 		{
 			"obj-119" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-168" : [ "function", "function", 0 ],
@@ -10077,6 +10078,7 @@
  ],
 		"autosave" : 0,
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 0.21 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
