@@ -10,13 +10,25 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2160.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaVFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-274",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5327.0, -61.0, 70.0, 22.0 ],
+					"text" : "loadmess 0"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"attr" : "enable",
 					"id" : "obj-298",
@@ -3240,6 +3252,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
+					"hidden" : 1,
 					"id" : "obj-134",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4027,10 +4040,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 208, 93, 608, 593 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 2506, 551 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -8357,7 +8370,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port" ],
+					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -10285,6 +10298,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-306", 0 ],
 					"source" : [ "obj-273", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-298", 0 ],
+					"source" : [ "obj-274", 0 ]
 				}
 
 			}
@@ -12518,7 +12538,6 @@
 			"obj-113" : [ "live.text[11]", "live.text", 0 ],
 			"obj-115" : [ "live.text[12]", "live.text", 0 ],
 			"obj-166::obj-2" : [ "live.text[13]", "live.text", 0 ],
-			"obj-238::obj-2::obj-869" : [ "live.numbox[443]", "live.numbox", 0 ],
 			"obj-284::obj-26::obj-133" : [ "scale_invert[242]", "Phase-Inversion", 1 ],
 			"obj-284::obj-26::obj-23" : [ "live.menu[262]", "live.menu", 0 ],
 			"obj-284::obj-26::obj-51" : [ "live.numbox[440]", "live.numbox", 0 ],
@@ -13288,10 +13307,6 @@
 			"parameter_overrides" : 			{
 				"obj-166::obj-2" : 				{
 					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-238::obj-2::obj-869" : 				{
-					"parameter_longname" : "live.numbox[443]"
 				}
 ,
 				"obj-284::obj-26::obj-133" : 				{
@@ -16307,13 +16322,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Audio_Status.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../../SousaFX/data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "HCL-to-RGB_nodescript.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -16366,13 +16374,6 @@
 				"name" : "PolarKaleido2.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SousaFX_Audio_Status.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -16496,13 +16497,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audio_status.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "butterflyeffect.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
@@ -16545,15 +16539,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ease.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "floating window positioner.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
+				"name" : "dummy.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "ease.mxo",
+				"type" : "iLaX"
 			}
 , 			{
 				"name" : "fluidflowsnoise.json",
@@ -16584,22 +16578,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "hover_bang.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "idle_preset_list.txt",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
 				"patcherrelativepath" : "../../default/presets/SousaVFX",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -16766,12 +16747,6 @@
 				"name" : "spiral.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
