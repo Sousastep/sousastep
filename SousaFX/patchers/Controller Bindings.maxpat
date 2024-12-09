@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 875.0, 1387.0 ],
+		"rect" : [ 0.0, 53.0, 859.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -18,6 +18,18 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1230",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 5113.5, 1599.0, 73.0, 22.0 ],
+					"text" : "speedlim 17"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"fontsize" : 14.0,
@@ -16338,7 +16350,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 593.5, 506.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "half",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -19603,14 +19615,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-671", 0 ],
+					"destination" : [ "obj-1230", 0 ],
 					"source" : [ "obj-1108", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-671", 0 ],
+					"destination" : [ "obj-1230", 0 ],
 					"source" : [ "obj-1109", 0 ]
 				}
 
@@ -19624,7 +19636,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-671", 0 ],
+					"destination" : [ "obj-1230", 0 ],
 					"source" : [ "obj-1110", 0 ]
 				}
 
@@ -20956,6 +20968,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-123", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-671", 0 ],
+					"source" : [ "obj-1230", 0 ]
 				}
 
 			}

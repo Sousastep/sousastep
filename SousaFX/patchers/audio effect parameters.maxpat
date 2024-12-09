@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
+		"rect" : [ 573.0, 53.0, 885.0, 1387.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -7377,7 +7377,6 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
-					"hidden" : 1,
 					"id" : "obj-569",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -7521,6 +7520,7 @@
 				"box" : 				{
 					"autofit" : 1,
 					"forceaspect" : 1,
+					"hidden" : 1,
 					"id" : "obj-461",
 					"maxclass" : "fpic",
 					"numinlets" : 1,
@@ -8107,7 +8107,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "link", ",", "internal", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11575,7 +11575,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0, 3246.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 652, 353, 1052, 853 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
@@ -25426,10 +25426,12 @@
 			"obj-115::obj-22::obj-145" : [ "accel[4]", "accel", 0 ],
 			"obj-115::obj-22::obj-153" : [ "live.button[4]", "live.button", 0 ],
 			"obj-115::obj-22::obj-159" : [ "live.dial[22]", "window", 0 ],
+			"obj-115::obj-22::obj-183" : [ "easefunction[3]", "easefunction", 0 ],
 			"obj-115::obj-22::obj-21" : [ "live.menu[11]", "live.menu", 0 ],
 			"obj-115::obj-22::obj-22" : [ "offset[3]", "offset", 0 ],
 			"obj-115::obj-22::obj-235" : [ "volume dip[3]", "vol dip", 0 ],
 			"obj-115::obj-22::obj-246" : [ "staircase[3]", "staircase", 0 ],
+			"obj-115::obj-22::obj-344" : [ "auto-pan amt[3]", "auto-pan", 0 ],
 			"obj-115::obj-22::obj-36" : [ "active[24]", "Active", 0 ],
 			"obj-115::obj-22::obj-38" : [ "active[25]", "Active", 0 ],
 			"obj-115::obj-22::obj-42" : [ "stutter volume[3]", "stutter volume", 0 ],
@@ -25637,10 +25639,12 @@
 			"obj-208::obj-22::obj-145" : [ "accel[5]", "accel", 0 ],
 			"obj-208::obj-22::obj-153" : [ "live.button[5]", "live.button", 0 ],
 			"obj-208::obj-22::obj-159" : [ "live.dial[23]", "window", 0 ],
+			"obj-208::obj-22::obj-183" : [ "easefunction[1]", "easefunction", 0 ],
 			"obj-208::obj-22::obj-21" : [ "live.menu[16]", "live.menu", 0 ],
 			"obj-208::obj-22::obj-22" : [ "offset[4]", "offset", 0 ],
 			"obj-208::obj-22::obj-235" : [ "volume dip[4]", "vol dip", 0 ],
 			"obj-208::obj-22::obj-246" : [ "staircase[1]", "staircase", 0 ],
+			"obj-208::obj-22::obj-344" : [ "auto-pan amt[1]", "auto-pan", 0 ],
 			"obj-208::obj-22::obj-36" : [ "active[27]", "Active", 0 ],
 			"obj-208::obj-22::obj-38" : [ "active[26]", "Active", 0 ],
 			"obj-208::obj-22::obj-42" : [ "stutter volume[4]", "stutter volume", 0 ],
@@ -25721,10 +25725,12 @@
 			"obj-233::obj-15::obj-145" : [ "accel[6]", "accel", 0 ],
 			"obj-233::obj-15::obj-153" : [ "live.button[6]", "live.button", 0 ],
 			"obj-233::obj-15::obj-159" : [ "live.dial", "window", 0 ],
+			"obj-233::obj-15::obj-183" : [ "easefunction", "easefunction", 0 ],
 			"obj-233::obj-15::obj-21" : [ "live.menu[17]", "live.menu", 0 ],
 			"obj-233::obj-15::obj-22" : [ "offset", "offset", 0 ],
 			"obj-233::obj-15::obj-235" : [ "volume dip", "vol dip", 0 ],
 			"obj-233::obj-15::obj-246" : [ "staircase", "staircase", 0 ],
+			"obj-233::obj-15::obj-344" : [ "auto-pan amt", "auto-pan", 0 ],
 			"obj-233::obj-15::obj-36" : [ "active[6]", "Active", 0 ],
 			"obj-233::obj-15::obj-38" : [ "active[1]", "Active", 0 ],
 			"obj-233::obj-15::obj-42" : [ "stutter volume", "stutter volume", 0 ],
@@ -25735,10 +25741,12 @@
 			"obj-352::obj-534::obj-145" : [ "accel", "accel", 0 ],
 			"obj-352::obj-534::obj-153" : [ "live.button", "live.button", 0 ],
 			"obj-352::obj-534::obj-159" : [ "live.dial[24]", "window", 0 ],
+			"obj-352::obj-534::obj-183" : [ "easefunction[4]", "easefunction", 0 ],
 			"obj-352::obj-534::obj-21" : [ "live.menu[20]", "live.menu", 0 ],
 			"obj-352::obj-534::obj-22" : [ "offset[6]", "offset", 0 ],
 			"obj-352::obj-534::obj-235" : [ "volume dip[6]", "vol dip", 0 ],
 			"obj-352::obj-534::obj-246" : [ "staircase[4]", "staircase", 0 ],
+			"obj-352::obj-534::obj-344" : [ "auto-pan amt[4]", "auto-pan", 0 ],
 			"obj-352::obj-534::obj-36" : [ "active[31]", "Active", 0 ],
 			"obj-352::obj-534::obj-38" : [ "active[32]", "Active", 0 ],
 			"obj-352::obj-534::obj-42" : [ "stutter volume[6]", "stutter volume", 0 ],
@@ -25764,10 +25772,12 @@
 			"obj-550::obj-534::obj-145" : [ "accel[3]", "accel", 0 ],
 			"obj-550::obj-534::obj-153" : [ "live.button[3]", "live.button", 0 ],
 			"obj-550::obj-534::obj-159" : [ "live.dial[18]", "window", 0 ],
+			"obj-550::obj-534::obj-183" : [ "easefunction[2]", "easefunction", 0 ],
 			"obj-550::obj-534::obj-21" : [ "live.menu[15]", "live.menu", 0 ],
 			"obj-550::obj-534::obj-22" : [ "offset[2]", "offset", 0 ],
 			"obj-550::obj-534::obj-235" : [ "volume dip[2]", "vol dip", 0 ],
 			"obj-550::obj-534::obj-246" : [ "staircase[2]", "staircase", 0 ],
+			"obj-550::obj-534::obj-344" : [ "auto-pan amt[2]", "auto-pan", 0 ],
 			"obj-550::obj-534::obj-36" : [ "active[20]", "Active", 0 ],
 			"obj-550::obj-534::obj-38" : [ "active[21]", "Active", 0 ],
 			"obj-550::obj-534::obj-42" : [ "stutter volume[2]", "stutter volume", 0 ],
@@ -25895,6 +25905,10 @@
 					"parameter_longname" : "live.dial[22]"
 				}
 ,
+				"obj-115::obj-22::obj-183" : 				{
+					"parameter_longname" : "easefunction[3]"
+				}
+,
 				"obj-115::obj-22::obj-21" : 				{
 					"parameter_longname" : "live.menu[11]"
 				}
@@ -25909,6 +25923,10 @@
 ,
 				"obj-115::obj-22::obj-246" : 				{
 					"parameter_longname" : "staircase[3]"
+				}
+,
+				"obj-115::obj-22::obj-344" : 				{
+					"parameter_longname" : "auto-pan amt[3]"
 				}
 ,
 				"obj-115::obj-22::obj-36" : 				{
@@ -26467,6 +26485,10 @@
 					"parameter_longname" : "live.dial[23]"
 				}
 ,
+				"obj-208::obj-22::obj-183" : 				{
+					"parameter_longname" : "easefunction[1]"
+				}
+,
 				"obj-208::obj-22::obj-21" : 				{
 					"parameter_longname" : "live.menu[16]"
 				}
@@ -26481,6 +26503,10 @@
 ,
 				"obj-208::obj-22::obj-246" : 				{
 					"parameter_longname" : "staircase[1]"
+				}
+,
+				"obj-208::obj-22::obj-344" : 				{
+					"parameter_longname" : "auto-pan amt[1]"
 				}
 ,
 				"obj-208::obj-22::obj-36" : 				{
@@ -26669,6 +26695,10 @@
 					"parameter_longname" : "live.dial[24]"
 				}
 ,
+				"obj-352::obj-534::obj-183" : 				{
+					"parameter_longname" : "easefunction[4]"
+				}
+,
 				"obj-352::obj-534::obj-21" : 				{
 					"parameter_longname" : "live.menu[20]"
 				}
@@ -26683,6 +26713,10 @@
 ,
 				"obj-352::obj-534::obj-246" : 				{
 					"parameter_longname" : "staircase[4]"
+				}
+,
+				"obj-352::obj-534::obj-344" : 				{
+					"parameter_longname" : "auto-pan amt[4]"
 				}
 ,
 				"obj-352::obj-534::obj-36" : 				{
@@ -26811,6 +26845,10 @@
 					"parameter_longname" : "live.dial[18]"
 				}
 ,
+				"obj-550::obj-534::obj-183" : 				{
+					"parameter_longname" : "easefunction[2]"
+				}
+,
 				"obj-550::obj-534::obj-21" : 				{
 					"parameter_longname" : "live.menu[15]"
 				}
@@ -26825,6 +26863,10 @@
 ,
 				"obj-550::obj-534::obj-246" : 				{
 					"parameter_longname" : "staircase[2]"
+				}
+,
+				"obj-550::obj-534::obj-344" : 				{
+					"parameter_longname" : "auto-pan amt[2]"
 				}
 ,
 				"obj-550::obj-534::obj-36" : 				{
@@ -27936,6 +27978,20 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "license.sousafx",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "limiter.rnbopat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "RBOP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "link.phasor~.mxo",
 				"type" : "iLaX"
 			}
@@ -27982,16 +28038,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "main_limiter_abl_limiter.json",
+				"name" : "main_limiter_rnbo_limiter.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "main_limiter_custom1.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -28122,16 +28171,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "monitor_limiter_abl_limiter.json",
+				"name" : "monitor_limiter_rnbo_limiter.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "monitor_limiter_custom1.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -28299,6 +28341,13 @@
 			}
 , 			{
 				"name" : "rnbo_compressor_stereo.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "rnbo_limiter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
