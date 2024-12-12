@@ -4,19 +4,43 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2560.0, 1387.0 ],
+		"rect" : [ 914.0, 53.0, 1588.0, 1308.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
 		"title" : "mix bus",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 936.0, 762.0, 114.0, 22.0 ],
+					"text" : "r \"mute low sustain\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 918.0, 733.0, 108.0, 22.0 ],
+					"text" : "r \"mute low attack\""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1130",
 					"maxclass" : "newobj",
@@ -352,7 +376,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1308.0, 654.0, 40.0, 22.0 ],
-					"restore" : [ -6.0 ],
+					"restore" : [ -9.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -371,7 +395,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 628.0, 649.0, 40.0, 22.0 ],
-					"restore" : [ -8.0 ],
+					"restore" : [ -4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -390,7 +414,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 778.0, 649.0, 40.0, 22.0 ],
-					"restore" : [ -3.0 ],
+					"restore" : [ 2.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -409,7 +433,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 297.0, 657.0, 40.0, 22.0 ],
-					"restore" : [ -12.0 ],
+					"restore" : [ -13.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -428,7 +452,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 151.0, 657.0, 40.0, 22.0 ],
-					"restore" : [ -17.0 ],
+					"restore" : [ -18.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2709,6 +2733,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-950", 2 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 2 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
@@ -3164,8 +3202,9 @@
 
 			}
  ],
-		"originid" : "pat-7178",
+		"originid" : "pat-7280",
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.384313725490196, 0.384313725490196, 0.384313725490196, 1.0 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
