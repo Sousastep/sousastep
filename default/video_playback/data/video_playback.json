@@ -2,6 +2,15 @@
 	"pattrstorage" : 	{
 		"name" : "video_playback",
 		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"bars_until_retrig" : [ 16 ],
+					"first_frame" : [ 3 ],
+					"output_gain" : [ -6.0 ]
+				}
+
+			}
 
 		}
 

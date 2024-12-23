@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1424.0, 56.0, 970.0, 1387.0 ],
+		"rect" : [ 1678.0, 53.0, 882.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -25,14 +25,24 @@
 		"title" : "SousaFX",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-397",
+					"maxclass" : "live.scope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 6160.0, 4872.0, 315.0, 173.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-396",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6577.0, 2433.0, 185.0, 35.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 6577.0, 2433.0, 186.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "set subdiv quantization to quarter note instead of whole note.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2886,7 +2896,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.695, 1.0, 1.0, 0, -0.945 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.745, 1.0, 1.0, 0, -0.945 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
 					"gridstep_x" : 1.0,
@@ -2901,7 +2911,7 @@
 					"patching_rect" : [ 6179.0, 4571.0, 128.0, 98.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.695, 1.0, 1.0, 0, -0.945, "curve" ],
+							"parameter_initial" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, -0.745, 1.0, 1.0, 0, -0.945, "curve" ],
 							"parameter_initial_enable" : 1,
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[110]",
@@ -8416,7 +8426,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "link", ",", "internal" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11886,10 +11896,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0, 3246.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -15635,7 +15645,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1936.0, 2011.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -15653,7 +15663,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1936.0, 1903.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -15671,7 +15681,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1936.0, 1796.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -15886,7 +15896,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1936.0, 1688.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -16050,7 +16060,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1508.0, 1688.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -16068,7 +16078,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.075867, 0.609305, 0.861982, 0.888918 ],
+					"outlinecolor" : [ 0.137255, 0.137255, 0.137255, 0.231373 ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1617.0, 1688.0, 92.0, 92.0 ],
 					"presentation" : 1,
@@ -24996,7 +25006,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-397", 0 ],
+					"order" : 0,
+					"source" : [ "obj-885", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-864", 0 ],
+					"order" : 1,
 					"source" : [ "obj-885", 0 ]
 				}
 
