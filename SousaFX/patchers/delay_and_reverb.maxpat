@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2160.0, 1387.0 ],
+		"rect" : [ 861.0, 82.0, 1620.0, 1244.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -18,6 +18,85 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "delay & reverb sends",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 1,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-6",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "meter_peak.maxpat",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 917.0, 910.350763821201326, 53.5, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 225.0, 14.0, 51.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "",
+					"channels" : 1,
+					"fontname" : "Monaco",
+					"hint" : "Output volume of the reverb send. Auto-saved.",
+					"id" : "obj-4",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"parameter_mappable" : 0,
+					"patching_rect" : [ 936.0, 736.0, 68.0, 132.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 227.0, 35.0, 48.0, 205.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : ""
+						}
+,
+						"trioncolor" : 						{
+							"expression" : ""
+						}
+,
+						"valueof" : 						{
+							"parameter_longname" : "talkback input volume",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
+							"parameter_shortname" : "Talkback",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"trioncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"varname" : "Solo Input Volume[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-409",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 936.0, 701.0, 92.0, 22.0 ],
+					"text" : "r~ talkback_mic"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-250",
 					"maxclass" : "newobj",
@@ -119,7 +198,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2268.0, 1469.0, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 137.0, 104.0, 22.0 ],
+					"presentation_rect" : [ 285.0, 137.0, 48.0, 22.0 ],
 					"varname" : "umenu[3]"
 				}
 
@@ -166,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2021.0, 1469.0, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 106.0, 104.0, 22.0 ],
+					"presentation_rect" : [ 285.0, 106.0, 48.0, 22.0 ],
 					"varname" : "umenu[4]"
 				}
 
@@ -213,7 +292,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1774.0, 1469.0, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 73.0, 104.0, 22.0 ],
+					"presentation_rect" : [ 285.0, 73.0, 48.0, 22.0 ],
 					"varname" : "umenu[2]"
 				}
 
@@ -574,7 +653,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1190.0, 982.0, 53.5, 20.0 ],
+					"patching_rect" : [ 1374.0, 935.0, 53.5, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 14.0, 51.0, 17.0 ],
 					"viewvisibility" : 1
@@ -3585,7 +3664,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1527.0, 1469.0, 104.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.0, 42.0, 104.0, 22.0 ],
+					"presentation_rect" : [ 285.0, 42.0, 48.0, 22.0 ],
 					"varname" : "umenu"
 				}
 
@@ -6178,8 +6257,47 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 1 ],
+					"order" : 2,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"order" : 3,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-732", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-734", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-627", 0 ],
 					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-409", 0 ]
 				}
 
 			}
@@ -7219,8 +7337,9 @@
 
 			}
  ],
-		"originid" : "pat-7336",
+		"originid" : "pat-7418",
 		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.023529411764706, 0.0, 0.035294117647059, 0.91 ],
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]
 	}
