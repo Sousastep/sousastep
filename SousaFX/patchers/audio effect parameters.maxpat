@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1678.0, 53.0, 882.0, 1387.0 ],
+		"rect" : [ 1667.0, 53.0, 893.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -24,6 +24,17 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-409",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3685.0, 5692.0, 94.0, 22.0 ],
+					"text" : "s~ talkback_mic"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-397",
 					"maxclass" : "live.scope~",
@@ -5227,10 +5238,11 @@
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-159",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3673.0, 5685.0, 266.0, 21.0 ],
+					"patching_rect" : [ 3610.0, 5613.0, 168.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "talkback mic input (post-ableton live processing)"
 				}
@@ -5243,7 +5255,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 3610.0, 5684.0, 52.0, 22.0 ],
+					"patching_rect" : [ 3610.0, 5656.399998903274536, 52.0, 22.0 ],
 					"text" : "adc~ 24"
 				}
 
@@ -8426,7 +8438,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "internal", ",", "link", ",", "live" ],
+					"items" : [ "live", ",", "link", ",", "internal" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -10312,7 +10324,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 396.0, 62.0, 29.0 ],
 					"text" : "CPU",
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ]
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ]
 				}
 
 			}
@@ -10401,7 +10413,7 @@
 
 					}
 ,
-					"textcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+					"textcolor" : [ 0.513725, 0.529412, 0.545098, 1.0 ],
 					"textjustification" : 0,
 					"varname" : "live.numbox"
 				}
@@ -11896,10 +11908,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1751.0, 3246.0, 448.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 100, 500, 600 ],
+						"client_rect" : [ 100, 159, 552, 443 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 200, 200, 800, 500 ]
+						"storage_rect" : [ 257, 400, 708, 528 ]
 					}
 ,
 					"text" : "pattrstorage main_presets @greedy 0 @savemode 0 @changemode 1",
@@ -16596,6 +16608,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-273", 0 ],
+					"order" : 1,
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-409", 0 ],
+					"order" : 0,
 					"source" : [ "obj-102", 0 ]
 				}
 
@@ -26141,11 +26162,13 @@
 			"obj-221::obj-176" : [ "Wobble Input Volume", "Wobble", 0 ],
 			"obj-221::obj-214::obj-5::obj-813" : [ "live.numbox[34]", "live.numbox[3]", 0 ],
 			"obj-221::obj-215::obj-5::obj-813" : [ "live.numbox[35]", "live.numbox[3]", 0 ],
+			"obj-221::obj-4" : [ "talkback input volume", "Talkback", 0 ],
 			"obj-221::obj-540" : [ "Delay Output Volume", "Delays", 0 ],
 			"obj-221::obj-56::obj-21::obj-191" : [ "vst~[28]", "vst~", 0 ],
 			"obj-221::obj-58::obj-21::obj-191" : [ "vst~[29]", "vst~", 0 ],
 			"obj-221::obj-60::obj-21::obj-191" : [ "vst~[30]", "vst~", 0 ],
 			"obj-221::obj-61::obj-21::obj-191" : [ "vst~[31]", "vst~", 0 ],
+			"obj-221::obj-6::obj-5::obj-813" : [ "live.numbox[39]", "live.numbox[3]", 0 ],
 			"obj-221::obj-819::obj-5::obj-813" : [ "live.numbox[33]", "live.numbox[3]", 0 ],
 			"obj-221::obj-92::obj-5::obj-813" : [ "live.numbox[38]", "live.numbox[3]", 0 ],
 			"obj-221::obj-94" : [ "Delay Stutter Input Volume", "Del Stut", 0 ],
@@ -27051,8 +27074,17 @@
 					"parameter_longname" : "live.numbox[35]"
 				}
 ,
+				"obj-221::obj-4" : 				{
+					"parameter_longname" : "talkback input volume",
+					"parameter_shortname" : "Talkback"
+				}
+,
 				"obj-221::obj-540" : 				{
 					"parameter_shortname" : "Delays"
+				}
+,
+				"obj-221::obj-6::obj-5::obj-813" : 				{
+					"parameter_longname" : "live.numbox[39]"
 				}
 ,
 				"obj-221::obj-819::obj-5::obj-813" : 				{
