@@ -2,45 +2,34 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 4,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 462.0, 253.0, 2006.0, 1062.0 ],
-		"bglocked" : 0,
+		"rect" : [ 856.0, 348.0, 1179.0, 847.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "midi status",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontsize" : 14.764735632840621,
+					"id" : "obj-376",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3058.0, 301.0, 89.0, 25.0 ],
+					"text" : "r numformat"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Ableton Sans Light",
 					"id" : "obj-324",
@@ -49,7 +38,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 2251.0, 1648.166715979576111, 218.0, 35.0 ],
-					"presentation_linecount" : 4,
 					"suppressinlet" : 1,
 					"text" : "temp disconnect because it may have been causing problems"
 				}
@@ -330,7 +318,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 164.5, 2268.0, 47.0, 23.0 ],
+					"patching_rect" : [ 165.0, 2267.0, 47.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 566.0, 756.0, 47.0, 23.0 ],
 					"varname" : "number[32]"
@@ -1031,6 +1019,7 @@
 					"patching_rect" : [ 175.333338558673859, 908.599999094009377, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1016.666696965694427, 634.349171880750873, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle"
 				}
 
@@ -2855,7 +2844,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1748.0, 1783.0, 24.0, 24.0 ]
+					"patching_rect" : [ 1748.0, 1783.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -5064,7 +5054,7 @@
 					"fontsize" : 13.0,
 					"hint" : "MIDI Input Port",
 					"id" : "obj-59",
-					"items" : [ "IAC Driver Bus 1", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "to Max 1", ",", "to Max 2" ],
+					"items" : [ "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "Tweaker Port 1", ",", "Tweaker Port 2", ",", "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -5473,7 +5463,7 @@
 					"fontsize" : 13.0,
 					"hint" : "MIDI Output Port",
 					"id" : "obj-5",
-					"items" : [ "AU DLS Synth 1", ",", "IAC Driver Bus 1", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "USB MIDI Device Port 1", ",", "USB MIDI Device Port 2", ",", "Tweaker Port 1", ",", "Tweaker Port 2", ",", "IAC Driver Bus 1", ",", "from Max 1", ",", "from Max 2" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -8637,6 +8627,110 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-156", 0 ],
+					"order" : 3,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-182", 0 ],
+					"order" : 10,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-183", 0 ],
+					"order" : 11,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-184", 0 ],
+					"order" : 12,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"order" : 7,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"order" : 8,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-193", 0 ],
+					"order" : 9,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-200", 0 ],
+					"order" : 4,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-202", 0 ],
+					"order" : 5,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-204", 0 ],
+					"order" : 6,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-217", 0 ],
+					"order" : 2,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-276", 0 ],
+					"order" : 1,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-295", 0 ],
+					"order" : 0,
+					"source" : [ "obj-376", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-321", 0 ],
 					"source" : [ "obj-380", 3 ]
 				}
@@ -9570,6 +9664,9 @@
 
 			}
  ],
+		"originid" : "pat-5557",
+		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 0.0 ],
 		"editing_bgcolor" : [ 0.490196078431373, 0.490196078431373, 0.490196078431373, 1.0 ]
 	}
