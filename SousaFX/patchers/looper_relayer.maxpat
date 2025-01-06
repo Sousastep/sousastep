@@ -10,11 +10,23 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 53.0, 1854.0, 1353.0 ],
+		"rect" : [ 904.0, 53.0, 1854.0, 1353.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 2,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.968627450980392, 0.0, 1.0 ],
+					"id" : "obj-298",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3273.800049424171448, 1306.0, 127.0, 22.0 ],
+					"text" : "s disable_solofx_bang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.972549019607843, 1.0, 0.823529411764706, 1.0 ],
 					"fontname" : "Ableton Sans Light",
@@ -23,9 +35,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3265.0, 1439.0, 193.0, 22.0 ],
+					"patching_rect" : [ 3240.800049424171448, 1405.0, 193.0, 22.0 ],
 					"suppressinlet" : 1,
-					"text" : "& we set a line's grain to 10 ms",
+					"text" : "& we set line's grain to 10 ms",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -37,7 +49,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 3243.0, 1467.0, 102.0, 22.0 ],
+					"patching_rect" : [ 3218.800049424171448, 1433.0, 102.0, 22.0 ],
 					"text" : "list.lookup 10 100"
 				}
 
@@ -51,19 +63,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3243.0, 1504.0, 150.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-259",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3117.0, 1298.0, 33.0, 22.0 ],
-					"text" : "== 0"
+					"patching_rect" : [ 3218.800049424171448, 1470.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -73,12 +73,13 @@
 					"fontname" : "Ableton Sans Light",
 					"fontsize" : 13.22419605123504,
 					"id" : "obj-258",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3135.0, 1363.0, 242.0, 22.0 ],
+					"patching_rect" : [ 3226.0, 1334.0, 263.0, 38.0 ],
 					"suppressinlet" : 1,
-					"text" : "we also block the looper's \"fading\" state",
+					"text" : "we also block the looper's \"fading\" state and instead use it for disable_solofx_bang",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -88,10 +89,10 @@
 					"id" : "obj-256",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 3117.0, 1334.0, 52.0, 22.0 ],
-					"text" : "gate 1 0"
+					"text" : "gate 2 0"
 				}
 
 			}
@@ -125,7 +126,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3180.0, 1249.0, 226.0, 22.0 ],
+					"patching_rect" : [ 3195.0, 1239.0, 226.0, 22.0 ],
 					"text" : "s \"randomize clips after looper fades out\""
 				}
 
@@ -139,7 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3198.0, 1219.0, 268.0, 22.0 ],
+					"patching_rect" : [ 3213.0, 1209.0, 268.0, 22.0 ],
 					"suppressinlet" : 1,
 					"text" : "& instead, we manually trigger new drum clips",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -153,7 +154,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 3060.0, 1154.0, 52.0, 22.0 ],
+					"patching_rect" : [ 3147.0, 1158.400017261505127, 52.0, 22.0 ],
 					"text" : "gate 2 1"
 				}
 
@@ -168,7 +169,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3126.0, 1146.0, 319.0, 38.0 ],
+					"patching_rect" : [ 3213.0, 1150.400017261505127, 319.0, 38.0 ],
 					"suppressinlet" : 1,
 					"text" : "we also block looper_going_to_begin_fadeout_bang so that the risers and countdowns aren't triggered",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -789,6 +790,24 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 1211.0, 2202.40003365278244, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
+						"endX" : 						{
+							"label" : "endX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstY" : 						{
+							"label" : "firstY",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
 						"firstCurve" : 						{
 							"label" : "firstCurve",
 							"isEnum" : 0,
@@ -815,24 +834,6 @@
 ,
 						"endY" : 						{
 							"label" : "endY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"endX" : 						{
-							"label" : "endX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstY" : 						{
-							"label" : "firstY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"secondCurve" : 						{
-							"label" : "secondCurve",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -3691,12 +3692,6 @@
 							"parsestring" : ""
 						}
 ,
-						"beats" : 						{
-							"label" : "beats",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"mix" : 						{
 							"label" : "mix",
 							"isEnum" : 0,
@@ -3705,6 +3700,12 @@
 ,
 						"regen" : 						{
 							"label" : "regen",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"beats" : 						{
+							"label" : "beats",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5894,6 +5895,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-298", 0 ],
+					"source" : [ "obj-256", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-229", 0 ],
 					"source" : [ "obj-257", 1 ]
 				}
@@ -5908,13 +5916,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-256", 0 ],
-					"source" : [ "obj-259", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -5923,22 +5924,22 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-251", 0 ],
+					"order" : 0,
 					"source" : [ "obj-265", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-259", 0 ],
-					"order" : 0,
-					"source" : [ "obj-267", 0 ]
+					"destination" : [ "obj-256", 0 ],
+					"order" : 1,
+					"source" : [ "obj-265", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-265", 0 ],
-					"order" : 1,
 					"source" : [ "obj-267", 0 ]
 				}
 
@@ -6463,7 +6464,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-126", 0 ],
-					"midpoints" : [ 2746.300040781497955, 3274.80000764131546, 3507.299999892711639, 3274.80000764131546, 3507.299999892711639, 605.80000764131546, 1246.300018429756165, 605.80000764131546 ],
+					"midpoints" : [ 2746.300040781497955, 3274.80000764131546, 3606.299999892711639, 3274.80000764131546, 3606.299999892711639, 605.80000764131546, 1246.300018429756165, 605.80000764131546 ],
 					"order" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
@@ -6840,8 +6841,7 @@
 			}
 , 			{
 				"name" : "thru.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
