@@ -1165,7 +1165,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2993.0, 1044.0, 54.0, 22.0 ],
+					"patching_rect" : [ 3069.0, 1040.666666666666742, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1316,7 +1316,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2993.0, 1075.0, 127.0, 22.0 ],
+					"patching_rect" : [ 3069.0, 1075.0, 127.0, 22.0 ],
 					"text" : "s disable_solofx_bang"
 				}
 
@@ -1328,7 +1328,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2993.0, 1011.0, 47.0, 22.0 ],
+					"patching_rect" : [ 3069.0, 1006.333333333333371, 47.0, 22.0 ],
 					"text" : "sel 127"
 				}
 
@@ -1340,7 +1340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2993.0, 972.0, 53.0, 22.0 ],
+					"patching_rect" : [ 3069.0, 972.0, 53.0, 22.0 ],
 					"text" : "route 53"
 				}
 
@@ -1461,7 +1461,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2921.0, 972.0, 53.0, 22.0 ],
+					"patching_rect" : [ 2921.0, 1048.0, 53.0, 22.0 ],
 					"text" : "route 52"
 				}
 
