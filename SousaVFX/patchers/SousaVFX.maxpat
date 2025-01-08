@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 94.0, 2065.0, 1197.0 ],
+		"rect" : [ 789.0, 53.0, 650.0, 1242.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
@@ -40,10 +40,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2564.0, 2001.5, 38.0, 47.0 ],
+					"patching_rect" : [ 2564.0, 2001.5, 41.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 1494.5, 369.0, 38.0, 47.0 ],
+					"presentation_rect" : [ 1494.5, 369.0, 41.0, 47.0 ],
 					"text" : "FX to VFX\nmap"
 				}
 
@@ -749,7 +749,7 @@
 
 							}
  ],
-						"originid" : "pat-9332",
+						"originid" : "pat-9360",
 						"toolbaradditions" : [ "packagemanager" ],
 						"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ]
 					}
@@ -1139,7 +1139,7 @@
 
 							}
  ],
-						"originid" : "pat-9422",
+						"originid" : "pat-9450",
 						"styles" : [ 							{
 								"name" : "minimal",
 								"default" : 								{
@@ -1390,8 +1390,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_gl_texture", "", "", "" ],
-					"patching_rect" : [ 4835.0, 1104.0, 151.0, 22.0 ],
-					"text" : "jit.gl.isf @file Kaleidoscope"
+					"patching_rect" : [ 4835.0, 1104.0, 238.0, 22.0 ],
+					"text" : "jit.gl.isf @file Kaleidoscope @drawto async"
 				}
 
 			}
@@ -3432,7 +3432,6 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
-					"hidden" : 1,
 					"id" : "obj-134",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4220,7 +4219,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 141.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 890, 142, 2177, 1330 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 257, 400, 708, 528 ]
@@ -5277,7 +5276,7 @@
 
 							}
  ],
-						"originid" : "pat-10972"
+						"originid" : "pat-11000"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -7288,7 +7287,7 @@
 
 							}
  ],
-						"originid" : "pat-10986"
+						"originid" : "pat-11014"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -8287,7 +8286,7 @@
 
 							}
  ],
-						"originid" : "pat-10990"
+						"originid" : "pat-11018"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -12802,7 +12801,7 @@
 
 			}
  ],
-		"originid" : "pat-9330",
+		"originid" : "pat-9350",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
@@ -16896,6 +16895,13 @@
 				"name" : "main_vfx_env_sens.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "map_fx_to_vfx.json",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../../SousaFX/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
