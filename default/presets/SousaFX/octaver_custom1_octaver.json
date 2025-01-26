@@ -5,13 +5,19 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"submix" : [ 79.527559055118076 ],
-					"pitchslideup" : [ 4800 ],
-					"pitchslidedown" : [ 9600 ],
+					"submix" : [ 50.0 ],
+					"pitchslideup" : [ 960 ],
+					"pitchslidedown" : [ 960 ],
 					"pitchquantize" : [ 1 ],
-					"lowrange" : [ 26.0 ],
-					"highrange" : [ 200.0 ],
-					"enablesweepdown" : [ 0 ]
+					"lowrange" : [ 20.0 ],
+					"highrange" : [ 100.0 ],
+					"enablesweepdown" : [ 0 ],
+					"freq_detect" : [ 1 ],
+					"filter_boost" : [ 11.0 ],
+					"freq" : [ 35.0 ],
+					"rez" : [ 5.0 ],
+					"boost" : [ 11.0 ],
+					"filteractive" : [ 1.0 ]
 				}
 
 			}

@@ -38,13 +38,19 @@
 					"MIDI note output 1st tempo change" : [ 53 ],
 					"MIDI note output 2nd tempo change" : [ 54 ],
 					"MIDI note output 3rd tempo change" : [ 55 ],
-					"ableton auto-play launch delay" : [ 12 ],
+					"ableton auto-play launch delay" : [ 20 ],
 					"MIDI note output 8-bar trig" : [ 60 ],
 					"midi note in fadeout almost done" : [ 52 ],
 					"midi note in disable solofx" : [ 53 ],
 					"MIDI note output 4th tempo change" : [ 56 ],
 					"totalmix port" : [ "IAC Driver Bus 1" ],
 					"auto-trig_snapshot" : [ 1 ],
+					"MIDI note output play randim riser 16" : [ 62 ],
+					"MIDI note output 1st tempo change 16" : [ 63 ],
+					"MIDI note output 2nd tempo change 16" : [ 64 ],
+					"MIDI note output 3rd tempo change 16" : [ 65 ],
+					"MIDI note output 16-bar trig" : [ 70 ],
+					"MIDI note output 4th tempo change 16" : [ 66 ],
 					"MIDI MAP OUT::Drum Clip Stutter Enable (trig) MIDIOUT" : [ 61 ],
 					"MIDI MAP OUT[1]::syncrate_coll MIDIOUT" : [ 60 ],
 					"MIDI MAP OUT[2]::Drum Clip Reverb Send (uni) MIDIOUT" : [ 70 ],
@@ -60,13 +66,7 @@
 					"MIDI MAP OUT[13]::Talkback Mic Mute [ v ] MIDIOUT" : [ 50 ],
 					"MIDI MAP OUT[15]::Drum Clip Stutter Gated or Thru MIDIOUT" : [ 77 ],
 					"playback bus monitor mix vol::playback bus monitor mix vol MIDIOUT" : [ 80 ],
-					"playback bus monitor mix vol[1]::Scene Selector MIDIOUT" : [ 101 ],
-					"MIDI note output 16-bar trig" : [ 70 ],
-					"MIDI note output 1st tempo change 16" : [ 63 ],
-					"MIDI note output 2nd tempo change 16" : [ 64 ],
-					"MIDI note output 3rd tempo change 16" : [ 65 ],
-					"MIDI note output 4th tempo change 16" : [ 66 ],
-					"MIDI note output play randim riser 16" : [ 62 ]
+					"playback bus monitor mix vol[1]::Scene Selector MIDIOUT" : [ 101 ]
 				}
 
 			}

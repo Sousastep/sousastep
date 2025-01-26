@@ -19,7 +19,9 @@
 					"stutterstep::subdiv-mult" : [ 0.0 ],
 					"stutterstep::staircase[1]" : [ 100.0 ],
 					"stutterstep::staircase-mode" : [ 1 ],
-					"stutterstep::scan-rate" : [ 2.0 ],
+					"stutterstep::scatter" : [ 0.0 ],
+					"stutterstep::autopantype" : [ 20.0 ],
+					"stutterstep::autopanamt" : [ 26.771653543307195 ],
 					"DJfilter::smooth_freq_mod" : [ 78.593807896277241 ],
 					"DJfilter::filter_boost" : [ 13.999999999999998 ]
 				}

@@ -43,19 +43,19 @@
 								}
 ,
 								"himidfq" : 								{
-									"value" : 3000.0
+									"value" : 1200.0
 								}
 ,
 								"comp" : 								{
-									"value" : 25.0
+									"value" : 60.0
 								}
 ,
 								"himid" : 								{
-									"value" : 0.0
+									"value" : 13.0
 								}
 ,
 								"volume" : 								{
-									"value" : 0.0
+									"value" : -10.0
 								}
 ,
 								"attack" : 								{
@@ -72,7 +72,7 @@
 								}
 ,
 								"lookahead" : 								{
-									"value" : 1.0
+									"value" : 2.0
 								}
 
 							}

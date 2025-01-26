@@ -5,14 +5,20 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"software_or_hardware_delays" : [ 0 ],
 					"delays_input_selection" : [ 0 ],
-					"delay_output_volume" : [ -3.0 ],
-					"reverb_output_volume[1]" : [ 0.0 ],
-					"looper volume into delay" : [ -6 ],
-					"max dub send[1]" : [ 1.031889763779529 ],
+					"delay_output_volume" : [ -6.0 ],
+					"reverb_output_volume[1]" : [ -6.0 ],
+					"max dub send[1]" : [ 1.15 ],
 					"swirl joy" : [ 1 ],
-					"u535006194" : [ -19.968503937007867 ]
+					"u535006194" : [ -31.748031496063021 ],
+					"u471002486" : [ 0.0 ],
+					"u471002486[1]" : [ 0.0 ],
+					"u471002486[2]" : [ -3.0 ],
+					"u471002486[3]" : [ 0.0 ],
+					"software_or_hardware_delays_2" : [ 0 ],
+					"software_or_hardware_delays_3" : [ 1 ],
+					"software_or_hardware_delays_4" : [ 1 ],
+					"software_or_hardware_delays_1" : [ 0 ]
 				}
 
 			}

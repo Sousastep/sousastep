@@ -16,11 +16,11 @@
 							"embed" : 1,
 							"snapshot" : 							{
 								"__sps" : 								{
-									"HighMid~" : 									{
+									"Compensation~" : 									{
 
 									}
 ,
-									"Compensation~" : 									{
+									"HighMid~" : 									{
 
 									}
 ,
@@ -38,12 +38,24 @@
 
 								}
 ,
-								"himidfq" : 								{
-									"value" : 2200.0
+								"sustain" : 								{
+									"value" : 80.0
 								}
 ,
-								"sustain" : 								{
-									"value" : 47.0
+								"himidfq" : 								{
+									"value" : 1200.0
+								}
+,
+								"comp" : 								{
+									"value" : 85.0
+								}
+,
+								"himid" : 								{
+									"value" : 2.0
+								}
+,
+								"volume" : 								{
+									"value" : -6.0
 								}
 ,
 								"attack" : 								{
@@ -55,16 +67,8 @@
 									"value" : 0.0
 								}
 ,
-								"comp" : 								{
-									"value" : 40.0
-								}
-,
-								"himid" : 								{
-									"value" : 12.0
-								}
-,
-								"volume" : 								{
-									"value" : -5.0
+								"weighting" : 								{
+									"value" : 1.0
 								}
 ,
 								"lookahead" : 								{
@@ -75,7 +79,9 @@
 
 						}
  ],
-					"preset" : [ 2 ]
+					"preset" : [ 2 ],
+					"active" : [ "active", 1 ],
+					"weighting" : [ 1 ]
 				}
 
 			}

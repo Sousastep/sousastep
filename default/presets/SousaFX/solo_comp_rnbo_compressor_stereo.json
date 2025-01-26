@@ -16,11 +16,11 @@
 							"embed" : 1,
 							"snapshot" : 							{
 								"__sps" : 								{
-									"HighMid~" : 									{
+									"Compensation~" : 									{
 
 									}
 ,
-									"Compensation~" : 									{
+									"HighMid~" : 									{
 
 									}
 ,
@@ -38,12 +38,24 @@
 
 								}
 ,
-								"himidfq" : 								{
-									"value" : 2500.0
+								"sustain" : 								{
+									"value" : 80.0
 								}
 ,
-								"sustain" : 								{
-									"value" : 12.0
+								"himidfq" : 								{
+									"value" : 1200.0
+								}
+,
+								"comp" : 								{
+									"value" : 40.0
+								}
+,
+								"himid" : 								{
+									"value" : 0.0
+								}
+,
+								"volume" : 								{
+									"value" : -1.0
 								}
 ,
 								"attack" : 								{
@@ -52,23 +64,15 @@
 ,
 								"__presetid" : "compressor_stereo",
 								"softclip" : 								{
+									"value" : 0.0
+								}
+,
+								"weighting" : 								{
 									"value" : 1.0
-								}
-,
-								"comp" : 								{
-									"value" : 50.0
-								}
-,
-								"himid" : 								{
-									"value" : 12.0
-								}
-,
-								"volume" : 								{
-									"value" : -8.0
 								}
 ,
 								"lookahead" : 								{
-									"value" : 1.0
+									"value" : 0.0
 								}
 
 							}
@@ -76,7 +80,8 @@
 						}
  ],
 					"preset" : [ 0 ],
-					"active" : [ "active", 1 ]
+					"active" : [ "active", 1 ],
+					"weighting" : [ 1 ]
 				}
 
 			}

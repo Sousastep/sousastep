@@ -16,6 +16,18 @@
 							"embed" : 1,
 							"snapshot" : 							{
 								"__sps" : 								{
+									"Lows~" : 									{
+
+									}
+,
+									"Volume&Clip~" : 									{
+
+									}
+,
+									"Lookahead~" : 									{
+
+									}
+,
 									"Compensation~" : 									{
 
 									}
@@ -24,22 +36,26 @@
 
 									}
 ,
-									"Lookahead~" : 									{
+									"Volume&Clip~[1]" : 									{
 
 									}
+
+								}
 ,
-									"Volume&Clip~" : 									{
-
-									}
-
+								"lowboost" : 								{
+									"value" : 11.0
 								}
 ,
 								"sustain" : 								{
-									"value" : 10.0
+									"value" : 60.0
 								}
 ,
 								"comp" : 								{
-									"value" : 60.0
+									"value" : 75.0
+								}
+,
+								"lowfq" : 								{
+									"value" : 130.0
 								}
 ,
 								"attack" : 								{
@@ -51,12 +67,16 @@
 									"value" : 0.0
 								}
 ,
-								"volume" : 								{
-									"value" : -16.0
+								"volout" : 								{
+									"value" : 12.0
 								}
 ,
 								"lookahead" : 								{
-									"value" : 1.0
+									"value" : 2.0
+								}
+,
+								"volin" : 								{
+									"value" : 7.0
 								}
 
 							}

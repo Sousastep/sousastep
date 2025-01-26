@@ -16,6 +16,10 @@
 							"embed" : 1,
 							"snapshot" : 							{
 								"__sps" : 								{
+									"Lows~" : 									{
+
+									}
+,
 									"Compensation~" : 									{
 
 									}
@@ -34,12 +38,20 @@
 
 								}
 ,
+								"lowboost" : 								{
+									"value" : 3.0
+								}
+,
 								"sustain" : 								{
-									"value" : 10.0
+									"value" : 60.0
 								}
 ,
 								"comp" : 								{
-									"value" : 60.0
+									"value" : 0.0
+								}
+,
+								"lowfq" : 								{
+									"value" : 120.0
 								}
 ,
 								"attack" : 								{
@@ -52,11 +64,11 @@
 								}
 ,
 								"volume" : 								{
-									"value" : -22.0
+									"value" : 0.0
 								}
 ,
 								"lookahead" : 								{
-									"value" : 1.0
+									"value" : 2.0
 								}
 
 							}
@@ -64,7 +76,7 @@
 						}
  ],
 					"preset" : [ 0 ],
-					"active" : [ "active", 1 ]
+					"active" : [ "active", 0 ]
 				}
 
 			}

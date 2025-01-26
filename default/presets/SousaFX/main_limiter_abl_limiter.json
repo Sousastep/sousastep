@@ -1,0 +1,21 @@
+{
+	"pattrstorage" : 	{
+		"name" : "main_limiter_abl_limiter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"u352030861" : [ "autorelease", 1 ],
+					"u352030861[1]" : [ "ceiling", -0.300000011920929 ],
+					"u352030861[2]" : [ "gain", 3.0 ],
+					"u352030861[3]" : [ "lookahead", 2 ],
+					"u352030861[4]" : [ "release", 0.09 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

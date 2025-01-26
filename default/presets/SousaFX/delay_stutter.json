@@ -1,0 +1,26 @@
+{
+	"pattrstorage" : 	{
+		"name" : "delay_stutter",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"stutterLFO::stutter volume[1]" : [ -4.0 ],
+					"stutterLFO::inthru" : [ 1.0 ],
+					"stutterLFO::window" : [ 9.0 ],
+					"stutterLFO::offset[1]" : [ 0.013779527559055 ],
+					"stutterLFO::bypass_hipass" : [ 0 ],
+					"stutterLFO::accel-vol-dip" : [ 90.0 ],
+					"stutterLFO::subdiv-mult" : [ 0.0 ],
+					"stutterLFO::staircase[1]" : [ 100.0 ],
+					"stutterLFO::staircase-mode" : [ 0 ],
+					"stutterLFO::scatter" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
