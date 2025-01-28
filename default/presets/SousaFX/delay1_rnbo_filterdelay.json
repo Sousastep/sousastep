@@ -16,7 +16,7 @@
 							"embed" : 1,
 							"snapshot" : 							{
 								"regen" : 								{
-									"value" : 70.0
+									"value" : 9.0
 								}
 ,
 								"__sps" : 								{
@@ -57,7 +57,7 @@
 								}
 ,
 								"time" : 								{
-									"value" : 468.75
+									"value" : 428.571428571428555
 								}
 ,
 								"volume" : 								{
@@ -77,7 +77,7 @@
 								}
 ,
 								"scale" : 								{
-									"value" : 6.0
+									"value" : 2.0
 								}
 ,
 								"__presetid" : "FilterDelaySend"

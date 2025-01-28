@@ -1,6 +1,6 @@
 {
 	"pattrstorage" : 	{
-		"name" : "delay2_rnbo_filterdelay",
+		"name" : "delay4_rnbo_filterdelay",
 		"slots" : 		{
 			"1" : 			{
 				"id" : 1,
@@ -61,11 +61,11 @@
 								}
 ,
 								"volume" : 								{
-									"value" : -6.0
+									"value" : 0.0
 								}
 ,
 								"color" : 								{
-									"value" : 25.0
+									"value" : 50.0
 								}
 ,
 								"fb" : 								{
@@ -73,11 +73,11 @@
 								}
 ,
 								"spread" : 								{
-									"value" : 10.0
+									"value" : 0.0
 								}
 ,
 								"scale" : 								{
-									"value" : 3.0
+									"value" : 5.0
 								}
 ,
 								"__presetid" : "FilterDelaySend"
@@ -85,7 +85,7 @@
 
 						}
  ],
-					"preset" : [ 2 ]
+					"preset" : [ 0 ]
 				}
 
 			}

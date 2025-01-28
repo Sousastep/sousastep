@@ -12,7 +12,7 @@
 					"lowrange" : [ 20.0 ],
 					"highrange" : [ 100.0 ],
 					"enablesweepdown" : [ 0 ],
-					"freq_detect" : [ 1 ],
+					"freq_detect" : [ 0 ],
 					"filter_boost" : [ 11.0 ],
 					"freq" : [ 35.0 ],
 					"rez" : [ 5.0 ],

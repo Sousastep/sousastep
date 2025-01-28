@@ -7,9 +7,9 @@
 				"data" : 				{
 					"TapMult" : [ 0 ],
 					"depth" : [ "depth", 66.0 ],
-					"rate" : [ "rate", 12.0 ],
+					"rate" : [ "rate", 64.0 ],
 					"spread" : [ "spread", 68.0 ],
-					"sync" : [ 1 ]
+					"sync" : [ 0 ]
 				}
 
 			}
