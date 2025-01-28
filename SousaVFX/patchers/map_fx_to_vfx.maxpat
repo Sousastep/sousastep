@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1629.0, 300.0, 902.0, 826.0 ],
+		"rect" : [ 963.0, 248.0, 893.0, 774.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -84,7 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.0, 826.0, 115.0, 47.0 ],
+					"patching_rect" : [ 76.0, 826.0, 119.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 142.0, 196.0, 119.0, 47.0 ],
@@ -775,10 +775,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 462.0, 354.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 552, 443 ],
+						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 365, 44, 816, 172 ]
 					}
 ,
 					"text" : "pattrstorage map_fx_to_vfx @greedy 0 @savemode 0",
@@ -851,8 +851,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 418.0, 556.0, 23.0 ],
-					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaFX/data/map_fx_to_vfx.json\""
+					"patching_rect" : [ 300.0, 418.0, 563.0, 23.0 ],
+					"text" : "write \"~/Documents/Max 8/Projects/sousastep/SousaVFX/data/map_fx_to_vfx.json\""
 				}
 
 			}
@@ -1481,7 +1481,7 @@
 
 			}
  ],
-		"originid" : "pat-26074",
+		"originid" : "pat-564",
 		"toolbaradditions" : [ "packagemanager" ],
 		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 0.77 ]
