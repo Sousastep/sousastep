@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 44.0, 875.0, 1413.0 ],
+		"rect" : [ 0.0, 44.0, 1624.0, 1396.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -6459,7 +6459,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 2393.77500000000191, 4115.0, 22.0, 22.0 ],
-					"text" : "t 0"
+					"text" : "t 1"
 				}
 
 			}
