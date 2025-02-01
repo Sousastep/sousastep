@@ -4,15 +4,11 @@ Hardware
 Requirements
 ------------
 
-1. mac or windows computer:
+1. m-series mac:
 
-   Any m-series mac is recommended.
+   Any m-series mac is recommended. The min-spec m4 mac mini is a beast and only costs $530 with an edu discount. SousaFX is currently untested on Windows.
 
-   - m1 macbook pro, 8 cores: SousaFX takes two minutes to start, and idles around 4.8 GB RAM, 9% CPU.
-
-   - windows 11, DDR4 2666, i7-9700K, 8 cores: Five minutes to start, idles around 4.5 GB RAM, 14% CPU.
-
-   .. note:: To optimize your computer for audio performance, `check out these articles <https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&query=optimize>`_.
+   .. note:: To optimize your mac for audio performance, `check out these articles <https://help.ableton.com/hc/en-us/search?utf8=%E2%9C%93&query=optimize>`_.
 
 |
 
@@ -34,6 +30,8 @@ Requirements
 
 4. XLR microphone, or Yamaha SilentBrass™ mute & PersonalStudio™:
 
+   I use the Audio-Technica Pro35 clip-on mic.
+   
    If you're using a `SilentBrass mute <https://usa.yamaha.com/products/musical_instruments/winds/silent_brass/silent_brass_sbj_series/index.html>`_ you'll need an `eighth inch TRS to dual quarter inch TS cable <https://www.sweetwater.com/store/search?s=3.5mm+trs+to+dual+1%2F4+ts>`_ to connect the PersonalStudio's headphone output to the audio interface's line inputs.
 
 |

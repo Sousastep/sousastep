@@ -46,8 +46,7 @@ Selectable Effects
 
 -	Attack EQ
 
--	:ref:`Octaver <Octaver>`; 
-   also supports external routing
+-	:ref:`Octaver <Octaver>` (also supports external routing)
 
 -	:ref:`Sustain FX <FX Banks>` slot 1
 
@@ -67,8 +66,7 @@ Selectable Effects
 
 - 	high crossover :ref:`sustain compressor <Mix Bus>`
 
-- 	four :ref:`delay sends <Delay and Reverb Sends>`; 
-	also supports external routing
+- 	four :ref:`delay sends <Delay and Reverb Sends>` (also supports external routing)
 
 - 	:ref:`reverb send <Delay and Reverb Sends>`
 

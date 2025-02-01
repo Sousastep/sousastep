@@ -13,7 +13,7 @@ This window outlines SousaFX's audio signal flow, and links to the :ref:`audio e
 Main Presets
 ------------
 
-On the top-right are the main presets, which save the current state of the :ref:`modulation parameters <Modulation Parameters>`, and the :ref:`FX Banks' <FX Banks>` slot selections, bleed amount, and pitch amount. The main preset selection is accessible via "preset 1 - 4" in the :ref:`bindings <Controller Bindings>`. The button to the right of the preset number sets the initial preset number to load on startup.
+On the top-right are the main presets, which save the current state of the :ref:`modulation parameters <Modulation Parameters>`, and the :ref:`FX Banks' <FX Banks>` slot selections, bleed amount, and pitch amount. The button to the right of the preset number sets the initial preset number to load on startup.
 
 .. important:: Switching from one preset to another without saving will lose changes. Switching from one preset to a blank slot allows you to save the previous preset into the blank slot.
 
@@ -36,5 +36,10 @@ Peak Meters
 -----------
 
 Many FX sport a peak meter that shows how loud the FX's output has gotten. Clicking the peak meter resets it. Pressing the backslash key resets all the peak meters.
+
+Window Layout Presets
+---------------------
+
+Near the bottom-right, window layouts can be loaded and saved. Adjust the numberbox to load presets. Type in the textbox to describe the window layout. Click the "save" button to save the current preset. Click the "set" button to set the current preset as the initial preset when SousaFX launches.
 
 

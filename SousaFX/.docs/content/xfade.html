@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Envelope Crossfade &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>Envelope Crossfade &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -131,7 +129,8 @@ this allows the tuba to still be identifiable as a tuba while also having wild e
 <li><p>The high crossover’s mix between the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">attack fx and sustain fx</span></a>.</p></li>
 </ol>
 </div></blockquote>
-<a class="reference internal image-reference" href="../_images/xfade.webp"><img alt="xfade" class="align-center" src="../_images/xfade.webp" style="width: 60%;" /></a>
+<a class="reference internal image-reference" href="../_images/xfade.webp"><img alt="xfade" class="align-center" src="../_images/xfade.webp" style="width: 60%;" />
+</a>
 <ul>
 <li><p>xfade attack</p>
 <blockquote>
@@ -168,17 +167,23 @@ this allows the tuba to still be identifiable as a tuba while also having wild e
 <div><p>This menu selects the easing function for the crossfade. The steeper the easing function, the more quickly the crossfade occurs.</p>
 </div></blockquote>
 </li>
-<li><p>gate</p>
+<li><p>gate slider</p>
 <blockquote>
 <div><p>Sets SousaFX’s main noise gate. Set it low for playing at home, and higher when performing live. The <a class="reference internal" href="modparms.html#modulation-parameters"><span class="std std-ref">Modulation Parameters’</span></a> envelope begins at the bottom of this gate, regardless of where it’s set. Why is SousaFX’s main noise gate in the Envelope Crossfade window? Because it’s also used to…</p>
 </div></blockquote>
 </li>
-<li><p>improve envelope’s attack</p>
+<li><p>“improve envelope’s attack” toggle</p>
 <blockquote>
 <div><p>...improve the attack’s transients by maxing out the envelope whenever it’s below the noise gate.</p>
 </div></blockquote>
 </li>
-<li><p>low xfade offset</p>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>After a period of inactivity, the noise gate auto-increases a little, which prevents the gate from being triggered by simply picking up the tuba.</p>
+</div>
+<ul>
+<li><p>low xfade offset knob</p>
 <blockquote>
 <div><p>Offsets the crossfade’s center for the low frequencies. 0 - 30 % is recommended. This makes the low amplitude modulation fade in before the high frequency modulation fades in, which sounds quite nice. Check out the <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Mix Bus</span></a> to observe the effects of this parameter.</p>
 </div></blockquote>

@@ -11,7 +11,11 @@ The following modulation parameters can be controlled via the :ref:`bindings <Co
    
    - ``LFO Ceiling Envelope Curve`` 
 
-      Sets the rate of change for the envelope that controls the High Freq Mod LFO's range. Visible in the Ceiling and Floor functions.
+      Sets the rate of change for the top of the envelope that controls the High Freq Mod LFO's range. Visible in the Ceiling function.
+
+   - ``LFO Floor Envelope Curve`` 
+
+      Sets the rate of change for the bottom of the envelope that controls the High Freq Mod LFO's range. Visible in the Floor functions.
    
    - ``LFO Duty Cycle``
 
@@ -40,6 +44,11 @@ The following modulation parameters can be controlled via the :ref:`bindings <Co
    - ``LFO Env Pause``
 
       Decreases how much the envelope affects the range of the LFO.
+
+   - ``LFO Main Speed``
+
+      Smoothly increase and decrease the speed of the LFO.
+
 
 .. image:: media/LPFmod.webp
    :width: 100%

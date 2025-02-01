@@ -36,7 +36,7 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
 
 |
 
-4. An octave synth put together by `Alexander Panos <https://alexanderpanos.com/about>`_ and modified by moi. 
+4. An octave synth made with help from `Alexander Panos <https://alexanderpanos.com/about>`_ 
 
 .. image:: media/octavecustom.webp
    :width: 50%
@@ -62,3 +62,23 @@ partially based on the `EHX Micro Synth <https://www.ehx.com/products/micro-synt
 - leftmost numboxes
 	
 	Sets the frequency range (for the octave) within which the octave will sound. Generally, you don't need an octave below 30 Hz.
+
+- External / Internal menue
+
+   Sets wether the pitch detection is done within SousaFX or via external means.
+
+- active / bypass menu
+
+   Toggles a highpass filter.
+
+- filter boost
+
+   The filter is quiet and must be boosted ~11 dB.
+
+- freq
+
+   The HPF's frequency.
+
+- rez
+
+   The resonance of the filter, which allows the synth to increase in volume as it approaches the cutoff frequency from above.

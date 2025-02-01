@@ -2,7 +2,7 @@ Parameter Control Logic
 =======================
 
 Bindings can be relinquished and established 
-automatically based on wether or not the tuba's playing. 
+automatically based on wether or not the tuba's playing, or wether RB, RT, or LT is pressed. 
 This can happen either immediately 
 when the tuba starts or stops playing, or it can wait 
 until the gamepad's respective joystick axis 

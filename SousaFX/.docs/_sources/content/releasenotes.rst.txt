@@ -1,8 +1,147 @@
 Release Notes
 =============
 
-0.9.5
------
+0.10.2
+------
+
+Sousa​​​FX
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- :ref:`Stutter <Main Stutter Tremolo & Filters>`
+  
+  - Add autopanner.
+  
+  - Pressing same dpad button twice now reverses playback.
+  
+  - Declick staircase param.
+  
+  - Add scatter param, based on boss rc-505's beat scatter fx.
+  
+  - Allow stutter to be effected by delays.
+
+
+- :ref:`Delay and Reverb Sends <Delay and Reverb Sends>`
+
+  - Allow delays to be effected by stutter.
+  
+  - Allow int/ext fx to be set separately for each of the four delays.
+  
+  - Add feedback amount binding for delay send 1.
+
+  - Allow talkback mic into main delay sends.
+  
+  - Move wobble inputs post-compression.
+
+  - Add compressor post-delays.
+
+  - Don't require swirl to be enabled for max send to be >1. 
+
+  - Add input volume params.
+
+
+- :ref:`Controller Bindings <Controller Bindings>`
+  
+  - Allow R1 & R1 + dpad to control :ref:`FX Bank <FX Banks>` selection.
+    
+  - Boost noise gate by 0.2 after tuba's silent for more than 20 seconds. That way, after taking a break, the idle vfx animation won't disengage right when the tuba's picked up.
+  
+  - Remove PCL background picture because it was using a bunch of ram.
+  
+  - Fix PCL 'is control within deadzone' initialization.
+
+  - Removed Main Preset 1 - 4 bindings.
+
+  - Removed 16th quintuplet, and 32nd quintuplet.
+
+  - Add LFO Main Speed.
+
+  - Add LFO Floor Envelope Curve.
+
+  - Add Main Input Delay 1 fdbk.
+
+  - Add SoloFX Toggle.
+
+  - Add octaver mute.
+
+
+- :ref:`Looper <Loopers>`
+  
+  - Allow looper fadeout trigger to quantize to either one bar or one loop.
+  
+  - Add looper menu item for no fadeout, so it can be cleared immediately.
+  
+  - Disallow tempo changes while looping.
+  
+  - Allow soloFX to be toggled manually or automatically.
+  
+  - Fix looper auto-play-after-overdub.
+  
+  - Allow stutter into looper.
+  
+  - Disallow stutter into looper at the beginning of the loop.
+
+
+- :ref:`Modulation Parameters <Modulation Parameters>`
+  
+  - Add LFO Main Speed param, with phase-locked loop and consistent min & max speed regardless of bpm or subdivision.
+
+  - Add bindings for LFO Main Speed, and LFO Floor Envelope Curve.
+  
+  - Quantize subdiv rate reset to quarter note instead of whole note, which makes dotted rhythms feel a bit better.
+  
+  - Fix low amp mod randomized phase offset issue.
+  
+  - Lower minimum frequency.
+  
+  - Add squareness param to low amp mod lfos.
+  
+  - Allow LPF frequency to offset LPF resonance.
+
+
+- misc
+  
+  - Add frequency weighting options to :ref:`main envelope <Main Envelope>`, and compressors.
+  
+  - Add :ref:`window layout preset system <Window Layout Presets>`.
+  
+  - Add volume param pre-compression.
+    
+  - Adjust crossover's signal flow - allows lows signal path to either bypass LPF or sum LPF LR.
+  
+  - Properly clip pitch detection.
+  
+  - Improve octaver synth pitch detection.
+  
+  - Add speedlims to try to prevent midi port from crashing once in a blue moon.
+  
+  - Have mono compressor use the same UI template as the stereo compressor.
+  
+  - Ensure main UI flashes green on auto-save.
+  
+  - Fix metro auto-enable logic issue.
+
+  - Add video playback patcher for collabs.
+
+  - Allow SousaFX Startup to launch streaming PC via Wake On LAN.
+
+
+Sousa​​​VFX
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+- Allow fx selection to load vfx presets.
+
+- Include env pause in vfx env rate-mult output.
+
+- Add polarkaleido implementations.
+
+- Add Poly Star, and Spiral ISF shaders.
+ 
+- Display twitch emotes via streamelements > obs > virtualcam.
+
+
+
+0.10.1
+------
 
 Sousa​​FX
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,6 +264,8 @@ Past
 
 Known Bugs
 ----------
+
+- the "From Max 1" midi port crashes once in a blue moon, which prevents Max from sending midi to Live, and requires a reboot of SousaFX & SousaPlayback.
 
 - the :ref:`About SousaFX <Prestige System>` window shows "0 0" as install date on first boot.
 

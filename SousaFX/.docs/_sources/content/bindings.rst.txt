@@ -11,13 +11,13 @@ The controller bindings window allows gamepad inputs to be connected to effect p
 
 The bindings may be saved as presets. There are two factory preset slots, and five user preset slots. The factory presets can't be modified, but they may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.
 
-To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click on the connection and press the delete key. To save bindings, click "save / overwrite".
+To create a binding, click one of the input's circles and drag the connection to an output's circle. To delete a binding, click on the connection and press the delete key. To save bindings to the selected preset, click "save / overwrite".
 
-The gamepad's inputs are set up to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
+The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB's assignments, to allow for a second bank of subdivisions.
 
 Click the parameter labels to open their :ref:`control logic settings <Parameter Control Logic>`.
 
-Click to the right of the parameter labels to open the parameters window that they apply to.
+Click to the right of the parameter labels to open the effect window that they apply to.
 
 .. image:: media/bindings.webp
    :width: 100%
@@ -74,5 +74,18 @@ Click to the right of the parameter labels to open the parameters window that th
 
    These four bindings can select each of the first 16 :ref:`Main Presets <Main Window>`. Clicking them selects a preset, and holding them for more than 1 second sets the preset bank. Holding preset 1 sets preset bank 1 (presets 1 - 4), holding preset 2 sets preset bank 2 (presets 5 - 8), holding Preset 3 sets preset bank 3 (presets 9 - 12), and holding preset 4 sets preset bank 4 (presets 13 - 16).
 
+Hardcoded Bindings
+------------------
 
+The following bindings are set in stone:
+
+Holding RB allows the dpad to set the :ref:`Sustain FX <FX Banks>`.
+
+Holding RT allows the dpad to set the Attack FX.
+
+Holding RB & RT allows the dpad to set the Solo FX.
+
+Holding LT while pressing RT decreases the tempo. (not active while looper's looping)
+
+Holding LT while pressing RB increases the tempo. (not active while looper's looping)
 

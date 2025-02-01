@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delay and Reverb Sends &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>Delay and Reverb Sends &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -119,9 +117,11 @@
              
   <section id="delay-and-reverb-sends">
 <h1>Delay and Reverb Sends<a class="headerlink" href="#delay-and-reverb-sends" title="Link to this heading"></a></h1>
-<p>When delay sends are mapped to joysticks, a positive feedback loop can occur. The max amount of positive feedback is set by the “max send” dial. If the delay send is bound to a button then the feedback loop is disabled. The delay effects themselves should have a short feedback amount if they’re bound to a joystick, and a long feedback amount if they’re bound to a button.</p>
-<p>The delay sends are <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bound</span></a> via “Main Input Delay Send 1 - 4”, and “Looper Delay Send 1 - 4”. The reverb send is bound via “Main Input Reverb Send”</p>
-<a class="reference internal image-reference" href="../_images/sends.webp"><img alt="sends" class="align-center" src="../_images/sends.webp" style="width: 70%;" /></a>
+<p>The delay sends are <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bound</span></a> via <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">1</span> <span class="pre">-</span> <span class="pre">4</span></code>, and <code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Delay</span> <span class="pre">Send</span> <span class="pre">1</span> <span class="pre">-</span> <span class="pre">4</span></code>. The reverb send is bound via <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Reverb</span> <span class="pre">Send</span></code></p>
+<p>When a delay send is bound to a joystick, the joystick controls both the input volume and the feedback amount, which is in the spirit of <a class="reference external" href="https://www.youtube.com/watch?v=nA8OBQMt9WY" rel="noopener noreferrer" target="_blank">dub</a>. When a delay send is mapped to a button, the button only controls the input volume and does not increase the feedback amount. The delays themselves should have a short feedback amount if they’re bound to a joystick, and a long feedback amount if they’re bound to a button.</p>
+<p>Main Input Delay 1 is unique from the other 3 because its feedback amount is available as a separate binding called <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Delay</span> <span class="pre">1</span> <span class="pre">fdbk</span></code>.</p>
+<a class="reference internal image-reference" href="../_images/sends.webp"><img alt="sends" class="align-center" src="../_images/sends.webp" style="width: 90%;" />
+</a>
 <ul id="swirl">
 <li><p>swirl symbol</p>
 <blockquote>
@@ -136,6 +136,16 @@
 <li><p>max send</p>
 <blockquote>
 <div><p>When delay sends are mapped to joysticks, the feedback loop is allowed to be slightly positive, which can increase the volume of the feedback over time. The “max send” parameter sets how slight that positive potential is.</p>
+</div></blockquote>
+</li>
+<li><p>“RNBO/plugins” menus</p>
+<blockquote>
+<div><p>Sets wether to use software delays, or hardware delays. The hardware delay inputs and outputs can be set in the <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio IO Status</span></a> window via “external delay send/receive 1 - 4”.</p>
+</div></blockquote>
+</li>
+<li><p>“both dry &amp; mod” menu</p>
+<blockquote>
+<div><p>Determines which signal paths are affected by the delays. “dry” refers to the <a class="reference internal" href="mixbus.html#mix-bus"><span class="std std-ref">Attack’s</span></a> signal path, and “mod” refers to the Sustain’s signal path.</p>
 </div></blockquote>
 </li>
 </ul>

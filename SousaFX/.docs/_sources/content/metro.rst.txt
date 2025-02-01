@@ -65,3 +65,13 @@ To set up this effect, SousaPlayback's "drum bus" track's "Risset Ext FX" device
 .. note::
    
    Two great examples of continuous decelerandos are `Autechre Fold4 Wrap5 <https://www.youtube.com/watch?v=vUioVGqfu6s>`_, and `Vijay Iyer Historicity <https://www.youtube.com/watch?v=PG6UwES2laU&t=371s>`_.
+
+Hard​coded Bindings
+--------------------------
+
+Holding LT while pressing RT decreases the tempo. 
+
+Holding LT while pressing RB increases the tempo.
+
+These bindings are not active while the looper is looping. 
+

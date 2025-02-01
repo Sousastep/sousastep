@@ -41,12 +41,13 @@ The Looper's "Stutter Tremolo & Filters" effect uses the following bindings:
 Stutter
 -------
 
-Inspired by `Pioneer's Stutter FX <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t=972s>`_.
+Inspired by `Pioneer <https://www.youtube.com/watch?v=hb0XLX0b4Y4&t=972s>`_, 
+and the `Boss RC-505 <https://discord.com/channels/702636659157499924/832889571020111923/1274884562065035376>`_
 
 Parameters
 ~~~~~~~~~~
 
-- stutter
+- No Stut / STUTTER
 
    Toggle stutter on and off. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Enable``
 
@@ -56,33 +57,45 @@ Parameters
    or always pass through regardless of if the stutter is occuring? 
    This may be hardcoded to change dynamically. Don't worry about it.
 
-- staircase
+- auto-pan
 
-   modulates the stutter's startpoint as accel increases.
+   How much the stutter should pan left and right.
 
-- toggle left of staircase
+- smol menu to the right of auto-pan
 
-   determines if the stutter's startpoint modulation amount decreases as accel decreases, or sticks to its maximum value.
+   Sets the easing function for the panning.
 
-- button 
+- button to the right of auto-pan, under smol menu 
 
    Selects a random subdivision. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Random Rhythm``
 
-- stutter volume
+- staircase
 
-   The volume of the stutter.
+   Modulates the stutter's startpoint as accel increases.
 
-- subdiv menu
+- smol toggle left of staircase
 
-   The rhythm of the subdivision. Attached to binding's subdivisions.
+   Determines if the stutter's startpoint modulation amount decreases as accel decreases, or sticks to accel's max value.
+
+- subdiv menu below staircase
+
+   Sets subdivision. Attached to binding's subdivisions.
 
 - sync
 
    Same as the subdiv menu.
 
+- stutter volume
+
+   The overall volume of the stutter.
+
 - accel
 
    Slow down and speed up the stutter FX. Upon returning to the default speed, the stutter will resync to the downbeat. :ref:`Bound <Controller Bindings>` to ``Main Input Stutter Accel`` or ``Looper Stutter Accel``.
+
+- button above accel
+
+   Enables "scatter", which never stops recording into the half-note buffer. Inspired by RC-505.
 
 - window
 
@@ -96,13 +109,10 @@ Parameters
 
    Determines how much the stutter volume will decrease as the acceleration increases from neutral.
 
-- rightmost menu
+- top-right menu
 
    Multiplies the stutter's subdivision.
 
-- centermost menu
-
-   Adjusts the staircase's offset.
 
 
 Tremolo 

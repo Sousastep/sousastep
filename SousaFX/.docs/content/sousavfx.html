@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SousaVFX &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>SousaVFX &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -61,7 +59,6 @@
 <li class="toctree-l1"><a class="reference internal" href="playback.html">SousaPlayback</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">SousaVFX</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#startup">Startup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#pictures">Pictures</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="hardreq.html">Hardware</a></li>
@@ -111,12 +108,43 @@ or <a class="reference external" href="https://derivative.ca/" rel="noopener nor
 may also play nicely with SousaFX’s audio-rate control signals.</p>
 </div>
 <figure class="align-center">
-<a class="reference internal image-reference" href="../_images/vfx1.webp"><img alt="SousaVFX" src="../_images/vfx1.webp" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/SFX_UI.webp"><img alt="SousaVFX UI" src="../_images/SFX_UI.webp" style="width: 100%;" />
+</a>
 </figure>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>SousaVFX has 5 types of VFX:</p>
+<ol class="arabic">
+<li><p>Scrolling text, which I don’t use much anymore because people can’t tell it’s text unless I tell them that it’s text.</p></li>
+<li><p><a class="reference external" href="https://youtu.be/oKRB-gu30C8" rel="noopener noreferrer" target="_blank">That Primitive Action</a> “club-ready” shader by Dude837.</p></li>
+<li><p>A <a class="reference external" href="https://cycling74.com/articles/jitter-pbr-explorations" rel="noopener noreferrer" target="_blank">Torus Knot</a> geometry example, ported from <a class="reference external" href="https://github.com/mrdoob/three.js/blob/master/src/geometries/TorusKnotGeometry.js" rel="noopener noreferrer" target="_blank">TorusKnotGeometry</a> by Cycling74.</p></li>
+<li><p>Single &amp; multiple basic shapes with nifty rotational parameters, from a Max tutorial that I forget the source of.</p></li>
+<li><p><a class="reference external" href="https://isf.vidvox.net/isf-for-jitter" rel="noopener noreferrer" target="_blank">ISF shaders</a>, of which there are several:</p>
+<blockquote>
+<div><ol class="loweralpha simple">
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a802d7c113618206dec38" rel="noopener noreferrer" target="_blank">CandyWarp</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7fe07c113618206de624" rel="noopener noreferrer" target="_blank">Pinwheel</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a80387c113618206ded14" rel="noopener noreferrer" target="_blank">PolarGradient</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a802d7c113618206dec3b" rel="noopener noreferrer" target="_blank">RainbowGlowRing</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7fba7c113618206de35b" rel="noopener noreferrer" target="_blank">SpaceSpore</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7f7a7c113618206dde4d" rel="noopener noreferrer" target="_blank">FluidFlowSNoise</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7f797c113618206dde43" rel="noopener noreferrer" target="_blank">VoronoiDuplex</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7f877c113618206ddf63" rel="noopener noreferrer" target="_blank">ButterflyEffect</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a80437c113618206dee05" rel="noopener noreferrer" target="_blank">ColorDiffusionFlow</a></p></li>
+<li><p><a class="reference external" href="https://editor.isf.video/shaders/5e7a7fea7c113618206de6ea" rel="noopener noreferrer" target="_blank">PlanetOfBaobabs</a></p></li>
+<li><p>&amp; more!</p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 <section id="startup">
 <h2>Startup<a class="headerlink" href="#startup" title="Link to this heading"></a></h2>
 <ol class="arabic">
-<li><p>Open <code class="docutils literal notranslate"><span class="pre">~/Documents/​Max 8/​Projects/​sousastep/​SousaVFX/​SousaVFX.maxproj</span></code></p></li>
+<li><p>SousaVFX can auto-start via SousaFX’s <a class="reference internal" href="install.html#startupprefs"><span class="std std-ref">Startup Preferences</span></a>, or by opening <code class="docutils literal notranslate"><span class="pre">~/Documents/​Max 8/​Projects/​sousastep/​SousaVFX/​SousaVFX.maxproj</span></code></p></li>
 <li><p>If SousaVFX is running on the same computer as SousaFX,
 then the following <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio IO</span></a> may be set to Off.</p>
 <blockquote>
@@ -133,10 +161,6 @@ then SousaFX’s aformentioned audio outputs must be routed
 to SousaVFX’s audio inputs of the same name, and SousaPlayback’s “perc 1” track’s “Ext. Audio Effect” device’s “Audio To” output must be routed to SousaVFX’s “Audio IO” window’s “Kick &amp; Snare L/R” input.</p>
 </li>
 </ol>
-</section>
-<section id="pictures">
-<h2>Pictures<a class="headerlink" href="#pictures" title="Link to this heading"></a></h2>
-<p><a class="reference internal" href="sousavfxscreenshots.html#screenshots"><span class="std std-ref">More pictures of SousaVFX.</span></a></p>
 </section>
 </section>
 

@@ -47,15 +47,17 @@ The Envelope Crossfade is post-:ref:`crossover<Crossover>`. It basically control
 
    This menu selects the easing function for the crossfade. The steeper the easing function, the more quickly the crossfade occurs.
 
-- gate
+- gate slider
 
    Sets SousaFX's main noise gate. Set it low for playing at home, and higher when performing live. The :ref:`Modulation Parameters' <Modulation Parameters>` envelope begins at the bottom of this gate, regardless of where it's set. Why is SousaFX's main noise gate in the Envelope Crossfade window? Because it's also used to...
 
-- improve envelope's attack
+- "improve envelope's attack" toggle
 
    \.\.\.improve the attack's transients by maxing out the envelope whenever it's below the noise gate.
 
-- low xfade offset
+.. note:: After a period of inactivity, the noise gate auto-increases a little, which prevents the gate from being triggered by simply picking up the tuba.
+
+- low xfade offset knob
 
    Offsets the crossfade's center for the low frequencies. 0 - 30 % is recommended. This makes the low amplitude modulation fade in before the high frequency modulation fades in, which sounds quite nice. Check out the :ref:`Mix Bus <Mix Bus>` to observe the effects of this parameter.
 

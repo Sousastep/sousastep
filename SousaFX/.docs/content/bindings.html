@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Controller Bindings &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>Controller Bindings &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -63,6 +61,7 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Controller Bindings</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="pcl.html">Parameter Control Logic</a></li>
 <li class="toctree-l3"><a class="reference internal" href="deadzones.html">Deadzones</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#hardcoded-bindings">Hardcoded Bindings</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="settings.html">Settings</a></li>
@@ -114,11 +113,12 @@
 </div>
 <p>The controller bindings window allows gamepad inputs to be connected to effect parameters.</p>
 <p>The bindings may be saved as presets. There are two factory preset slots, and five user preset slots. The factory presets can’t be modified, but they may be copied to user presets by first selecting the factory preset, then selecting the empty user preset and saving.</p>
-<p>To create a binding, click one of the input’s circles and drag the connection to an output’s circle. To delete a binding, click on the connection and press the delete key. To save bindings, click “save / overwrite”.</p>
-<p>The gamepad’s inputs are set up to be ergonomic for having the controller attached to the side of a tuba. The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB’s assignments, to allow for a second bank of subdivisions.</p>
+<p>To create a binding, click one of the input’s circles and drag the connection to an output’s circle. To delete a binding, click on the connection and press the delete key. To save bindings to the selected preset, click “save / overwrite”.</p>
+<p>The right bumper, right trigger, and left trigger all change which bindings the X A B Y buttons are assigned to. The left trigger also changes the dpad and LB’s assignments, to allow for a second bank of subdivisions.</p>
 <p>Click the parameter labels to open their <a class="reference internal" href="pcl.html#parameter-control-logic"><span class="std std-ref">control logic settings</span></a>.</p>
-<p>Click to the right of the parameter labels to open the parameters window that they apply to.</p>
-<a class="reference internal image-reference" href="../_images/bindings.webp"><img alt="bindings window" class="align-center" src="../_images/bindings.webp" style="width: 100%;" /></a>
+<p>Click to the right of the parameter labels to open the effect window that they apply to.</p>
+<a class="reference internal image-reference" href="../_images/bindings.webp"><img alt="bindings window" class="align-center" src="../_images/bindings.webp" style="width: 100%;" />
+</a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -182,6 +182,15 @@
 </div></blockquote>
 </li>
 </ul>
+<section id="hardcoded-bindings">
+<h2>Hardcoded Bindings<a class="headerlink" href="#hardcoded-bindings" title="Link to this heading"></a></h2>
+<p>The following bindings are set in stone:</p>
+<p>Holding RB allows the dpad to set the <a class="reference internal" href="fxbanks.html#fx-banks"><span class="std std-ref">Sustain FX</span></a>.</p>
+<p>Holding RT allows the dpad to set the Attack FX.</p>
+<p>Holding RB &amp; RT allows the dpad to set the Solo FX.</p>
+<p>Holding LT while pressing RT decreases the tempo. (not active while looper’s looping)</p>
+<p>Holding LT while pressing RB increases the tempo. (not active while looper’s looping)</p>
+</section>
 </section>
 
 

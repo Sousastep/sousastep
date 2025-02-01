@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Loopers &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>Loopers &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -122,15 +120,16 @@
              
   <section id="loopers">
 <h1>Loopers<a class="headerlink" href="#loopers" title="Link to this heading"></a></h1>
-<p>A simple “one-button” looper with a handful of effects.</p>
-<a class="reference internal image-reference" href="../_images/loopers.webp"><img alt="loopers" class="align-center" src="../_images/loopers.webp" style="width: 60%;" /></a>
+<p>A “one-button” looper with a handful of effects.</p>
+<a class="reference internal image-reference" href="../_images/loopers.webp"><img alt="loopers" class="align-center" src="../_images/loopers.webp" style="width: 60%;" />
+</a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>The looper has four main states.</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>Idle</p>
+<li><p>Idle (Cleared)</p>
 <ol class="loweralpha simple">
 <li><p>Prepared</p></li>
 </ol>
@@ -144,12 +143,31 @@
 <li><p>Fading Out</p></li>
 </ol>
 </div></blockquote>
-<p>Hitting the button (called <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> in the <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a>)
+<p>The <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">binding</span></a>)
 advances the looper state from Idle to Prepared. Playing tuba advances from Prepared to Recording.
 After 8 or 16 bars, once the tuba’s envelope drops below the <a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">noise gate</span></a>, the looper automatically stops Recording
-and starts Looping. Once the looper starts looping, the main signal patch switches from Wobble to Solo. Hitting the button a second time
+and starts Looping. Once the looper starts looping, the main signal path switches from Wobble to Solo. Hitting the <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> button a second time
 prepares the looper to begin Fading Out when the loop repeats.</p>
-<p>Below the two loopers are the post-loop <a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">Stutter, Tremolo, &amp; Filters</span></a>. The following <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> are available:</p>
+<p>There’re two loopers because they switch back and forth every loop, which was supposed to allow one looper to record while the other fades out, but I never use it that way.</p>
+<p>Below the looper status is a menu that sets the kind of fade out, with four options:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>no fade</p></li>
+<li><p>volude fade</p></li>
+<li><p>highpass sweep up</p></li>
+<li><p>lowpass sweep down</p></li>
+</ol>
+</div></blockquote>
+<p>The numberbox to the right of that menu sets the curvature of the volume fade.</p>
+<p>The toggle to the right of the numberbox sets wether the looper fadeout’s beginning is quantized to one bar, or one loop.</p>
+<p>The toggle below the filter boost knob should be enabled if the stage volume overwhelms the noise gate.</p>
+<blockquote>
+<div><ol class="arabic simple" start="0">
+<li><p>After <code class="docutils literal notranslate"><span class="pre">looper</span> <span class="pre">record</span> <span class="pre">/</span> <span class="pre">fade</span> <span class="pre">out</span></code> pressed, wait until tuba starts playing to start recording. After 8/16 bars pass, wait until tuba stops playing to stop recording.</p></li>
+<li><p>If stage volume too loud and noise gate’s overwhelmed, start recording when looper button pressed, and stop recording 8/16 bars later.</p></li>
+</ol>
+</div></blockquote>
+<p>Below the loopers are the post-loop <a class="reference internal" href="mainstutter.html#main-stutter-tremolo-filters"><span class="std std-ref">Stutter, Tremolo, &amp; Filters</span></a>. The following <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">bindings</span></a> are available:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code></p></li>
@@ -162,7 +180,7 @@ prepares the looper to begin Fading Out when the loop repeats.</p>
 </ul>
 <section id="preferences">
 <h2>Preferences<a class="headerlink" href="#preferences" title="Link to this heading"></a></h2>
-<p>The toggles and menus at the botton of the looper window are preferences for how the looper should function. Mouseover the toggles to view tooltips describing their actions. From left to right, bottom to top:</p>
+<p>The toggles and menus at the botton of the looper window are preferences for how the looper should function. Mouseover the toggles to view tooltips describing their actions. From left to right, top to bottom:</p>
 <ul id="risers">
 <li><p>toggle 1</p>
 <blockquote>
@@ -176,7 +194,7 @@ prepares the looper to begin Fading Out when the loop repeats.</p>
 </li>
 <li><p>menu</p>
 <blockquote>
-<div><p>When the looper finishes fading out, the main signal patch switches from Solo to Wobble. The “switch after tuba stops playing / switch immediately” menu decides wether the switch happens after the looper finishes fading out AND after the tuba stops playing, or if the switch happens immediately after the looper finishes fading out.</p>
+<div><p>When the looper finishes fading out, the main signal path switches from Solo to Wobble. The “switch after tuba stops playing / switch immediately” menu decides wether the switch happens after the looper finishes fading out AND after the tuba stops playing, or if the switch happens immediately after the looper finishes fading out.</p>
 </div></blockquote>
 </li>
 <li><p>toggle 3</p>
@@ -197,6 +215,16 @@ prepares the looper to begin Fading Out when the loop repeats.</p>
 <li><p>toggle 5</p>
 <blockquote>
 <div><p>Plays a droplet sound effect through the metronome channel whenever the looper’s prepped, done recording, or starts fading.</p>
+</div></blockquote>
+</li>
+<li><p>toggle 6</p>
+<blockquote>
+<div><p>Enable to allow looper to record stutter.</p>
+</div></blockquote>
+</li>
+<li><p>auto switch / manual switch menu</p>
+<blockquote>
+<div><p>Sets wether Solo FX is toggled automatically when the looper starts and stops looping, or manually with the <code class="docutils literal notranslate"><span class="pre">Toggle</span> <span class="pre">SoloFX</span></code> binding.</p>
 </div></blockquote>
 </li>
 </ul>

@@ -22,7 +22,7 @@ The FX Banks are represented in the :ref:`main window <Main Window>` like so:
    :align: center
    :alt: postxfadebank
 
-SousaFX auto-switches between the Wobble FX and the Solo FX when the :ref:`looper <Loopers>` finishes recording, and finishes fading out.
+The Attack and Sustain FX Banks operate in tandem through the :ref:`Envelope Crossfade <Envelope Crossfade>`, which can collectively be called the Wobble FX. The Solo FX Bank operates independently of the Wobble FX. SousaFX can auto-switch from the Wobble FX to the Solo FX while the looper's looping. This automation can be enabled using the :ref:`looper's <Loopers>` "auto switch / manual switch" menu.
 
 The "bleed" dial allows the Attack FX's output into the Sustain FX's output and vice-versa. A little bit goes a long way.
 
@@ -47,3 +47,12 @@ The on/off toggle has two options for fx selection when unbypassing:
 These options, and plugin selections, are saved within the :ref:`Main Presets <Main Window>`.
 
 :ref:`Latency compensation <Latency Compensation>` varies depending on the currently selected plugins. This ensures the lowest possible latency.
+
+Hardcoded Bind​ings
+--------------------------
+
+Holding RB allows the dpad to set the Sustain FX.
+
+Holding RT allows the dpad to set the Attack FX.
+
+Holding RB & RT allows the dpad to set the Solo FX.

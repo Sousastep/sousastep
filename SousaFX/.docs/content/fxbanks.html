@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FX Banks &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>FX Banks &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -64,7 +62,10 @@
 <li class="toctree-l3"><a class="reference internal" href="xfade.html">Envelope Crossfade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="modparms.html">Modulation Parameters</a></li>
 <li class="toctree-l3"><a class="reference internal" href="octaver.html">Octaver</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">FX Banks</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">FX Banks</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#hardcoded-bindings">Hardcoded Bind​ings</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="crossover.html">Crossover</a></li>
 <li class="toctree-l3"><a class="reference internal" href="mixbus.html">Mix Bus</a></li>
 <li class="toctree-l3"><a class="reference internal" href="delay.html">Delay and Reverb Sends</a></li>
@@ -119,15 +120,18 @@
              
   <section id="fx-banks">
 <h1>FX Banks<a class="headerlink" href="#fx-banks" title="Link to this heading"></a></h1>
-<a class="reference internal image-reference" href="../_images/fxbanks.webp"><img alt="fxbanks" class="align-center" src="../_images/fxbanks.webp" style="width: 95%;" /></a>
+<a class="reference internal image-reference" href="../_images/fxbanks.webp"><img alt="fxbanks" class="align-center" src="../_images/fxbanks.webp" style="width: 95%;" />
+</a>
 <p>There are three separate FX Banks that each run four FX slots in parallel. Each FX slot can load one plugin, and the first FX slot in each Bank has an <a class="reference external" href="https://rnbo.cycling74.com/explore/rnbo-pedals" rel="noopener noreferrer" target="_blank">RNBO guitar pedal</a> effect that loads by default. The fifth slot bypasses the fx bank.</p>
 <p>The FX Banks are represented in the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">main window</span></a> like so:</p>
-<a class="reference internal image-reference" href="../_images/prexfadebanks.webp"><img alt="prexfadebanks" class="align-center" src="../_images/prexfadebanks.webp" style="width: 80%;" /></a>
+<a class="reference internal image-reference" href="../_images/prexfadebanks.webp"><img alt="prexfadebanks" class="align-center" src="../_images/prexfadebanks.webp" style="width: 80%;" />
+</a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<a class="reference internal image-reference" href="../_images/solofxbank.webp"><img alt="postxfadebank" class="align-center" src="../_images/solofxbank.webp" style="width: 60%;" /></a>
-<p>SousaFX auto-switches between the Wobble FX and the Solo FX when the <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper</span></a> finishes recording, and finishes fading out.</p>
+<a class="reference internal image-reference" href="../_images/solofxbank.webp"><img alt="postxfadebank" class="align-center" src="../_images/solofxbank.webp" style="width: 60%;" />
+</a>
+<p>The Attack and Sustain FX Banks operate in tandem through the <a class="reference internal" href="xfade.html#envelope-crossfade"><span class="std std-ref">Envelope Crossfade</span></a>, which can collectively be called the Wobble FX. The Solo FX Bank operates independently of the Wobble FX. SousaFX can auto-switch from the Wobble FX to the Solo FX while the looper’s looping. This automation can be enabled using the <a class="reference internal" href="loop.html#loopers"><span class="std std-ref">looper’s</span></a> “auto switch / manual switch” menu.</p>
 <p>The “bleed” dial allows the Attack FX’s output into the Sustain FX’s output and vice-versa. A little bit goes a long way.</p>
 <p>The “pitch amount” dials mix external audio into the Attack and Sustain FX paths, and are only visible if the “harmonizer” inputs in the <a class="reference internal" href="io.html#audio-io-status"><span class="std std-ref">Audio IO Status window</span></a> are enabled.
 I mainly use this with the H9000’s <a class="reference external" href="https://cdn.eventideaudio.com/manuals/h9000/2.1.12/content/appendix/algorithms/93_PitchFactor.html#diatonic" rel="noopener noreferrer" target="_blank">Diatonic</a> and
@@ -145,6 +149,12 @@ I mainly use this with the H9000’s <a class="reference external" href="https:/
 </ul>
 <p>These options, and plugin selections, are saved within the <a class="reference internal" href="main.html#main-window"><span class="std std-ref">Main Presets</span></a>.</p>
 <p><a class="reference internal" href="latency.html#latency-compensation"><span class="std std-ref">Latency compensation</span></a> varies depending on the currently selected plugins. This ensures the lowest possible latency.</p>
+<section id="hardcoded-bindings">
+<h2>Hardcoded Bind​ings<a class="headerlink" href="#hardcoded-bindings" title="Link to this heading"></a></h2>
+<p>Holding RB allows the dpad to set the Sustain FX.</p>
+<p>Holding RT allows the dpad to set the Attack FX.</p>
+<p>Holding RB &amp; RT allows the dpad to set the Solo FX.</p>
+</section>
 </section>
 
 

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" data-content_root="../">
 <head>
@@ -13,9 +15,9 @@
     </script>
     
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Main Stutter Tremolo &amp; Filters &mdash; SousaFX 0.9.4 documentation</title>
-      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
-      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+  <title>Main Stutter Tremolo &amp; Filters &mdash; SousaFX 0.10.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=e59714d7" />
       <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
       <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=08701e0d" />
       <link rel="stylesheet" type="text/css" href="../_static/dark_mode_css/general.css?v=c0a7eb24" />
@@ -23,19 +25,15 @@
 
   
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
-  <!--[if lt IE 9]>
-    <script src="../_static/js/html5shiv.min.js"></script>
-  <![endif]-->
-  
-        <script src="../_static/jquery.js?v=5d32c60e"></script>
-        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-        <script src="../_static/documentation_options.js?v=c5ca06ca"></script>
-        <script src="../_static/doctools.js?v=9a2dae69"></script>
-        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-        <script src="../_static/design-tabs.js?v=f930bc37"></script>
-        <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
-        <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
-        <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=261ea15a"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/design-tabs.js?v=f930bc37"></script>
+      <script src="../_static/js/theme_switcher.js?v=a0c445e9"></script>
+      <script src="../_static/dark_mode_js/default_dark.js?v=fd565c74"></script>
+      <script src="../_static/dark_mode_js/theme_switcher.js?v=358d3910"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
@@ -146,14 +144,16 @@
 <li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Tremolo</span> <span class="pre">Depth</span></code></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code></p></li>
 </ul>
-<a class="reference internal image-reference" href="../_images/mainstutter.webp"><img alt="stuttertremolofilters" class="align-center" src="../_images/mainstutter.webp" style="width: 65%;" /></a>
+<a class="reference internal image-reference" href="../_images/mainstutter.webp"><img alt="stuttertremolofilters" class="align-center" src="../_images/mainstutter.webp" style="width: 65%;" />
+</a>
 <section id="stutter">
 <h2>Stutter<a class="headerlink" href="#stutter" title="Link to this heading"></a></h2>
-<p>Inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hb0XLX0b4Y4&amp;t=972s" rel="noopener noreferrer" target="_blank">Pioneer’s Stutter FX</a>.</p>
+<p>Inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hb0XLX0b4Y4&amp;t=972s" rel="noopener noreferrer" target="_blank">Pioneer</a>,
+and the <a class="reference external" href="https://discord.com/channels/702636659157499924/832889571020111923/1274884562065035376" rel="noopener noreferrer" target="_blank">Boss RC-505</a></p>
 <section id="parameters">
 <h3>Parameters<a class="headerlink" href="#parameters" title="Link to this heading"></a></h3>
 <ul>
-<li><p>stutter</p>
+<li><p>No Stut / STUTTER</p>
 <blockquote>
 <div><p>Toggle stutter on and off. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Enable</span></code></p>
 </div></blockquote>
@@ -165,29 +165,34 @@ or always pass through regardless of if the stutter is occuring?
 This may be hardcoded to change dynamically. Don’t worry about it.</p>
 </div></blockquote>
 </li>
-<li><p>staircase</p>
+<li><p>auto-pan</p>
 <blockquote>
-<div><p>modulates the stutter’s startpoint as accel increases.</p>
+<div><p>How much the stutter should pan left and right.</p>
 </div></blockquote>
 </li>
-<li><p>toggle left of staircase</p>
+<li><p>smol menu to the right of auto-pan</p>
 <blockquote>
-<div><p>determines if the stutter’s startpoint modulation amount decreases as accel decreases, or sticks to its maximum value.</p>
+<div><p>Sets the easing function for the panning.</p>
 </div></blockquote>
 </li>
-<li><p>button</p>
+<li><p>button to the right of auto-pan, under smol menu</p>
 <blockquote>
 <div><p>Selects a random subdivision. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Random</span> <span class="pre">Rhythm</span></code></p>
 </div></blockquote>
 </li>
-<li><p>stutter volume</p>
+<li><p>staircase</p>
 <blockquote>
-<div><p>The volume of the stutter.</p>
+<div><p>Modulates the stutter’s startpoint as accel increases.</p>
 </div></blockquote>
 </li>
-<li><p>subdiv menu</p>
+<li><p>smol toggle left of staircase</p>
 <blockquote>
-<div><p>The rhythm of the subdivision. Attached to binding’s subdivisions.</p>
+<div><p>Determines if the stutter’s startpoint modulation amount decreases as accel decreases, or sticks to accel’s max value.</p>
+</div></blockquote>
+</li>
+<li><p>subdiv menu below staircase</p>
+<blockquote>
+<div><p>Sets subdivision. Attached to binding’s subdivisions.</p>
 </div></blockquote>
 </li>
 <li><p>sync</p>
@@ -195,9 +200,19 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <div><p>Same as the subdiv menu.</p>
 </div></blockquote>
 </li>
+<li><p>stutter volume</p>
+<blockquote>
+<div><p>The overall volume of the stutter.</p>
+</div></blockquote>
+</li>
 <li><p>accel</p>
 <blockquote>
 <div><p>Slow down and speed up the stutter FX. Upon returning to the default speed, the stutter will resync to the downbeat. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code> or <code class="docutils literal notranslate"><span class="pre">Looper</span> <span class="pre">Stutter</span> <span class="pre">Accel</span></code>.</p>
+</div></blockquote>
+</li>
+<li><p>button above accel</p>
+<blockquote>
+<div><p>Enables “scatter”, which never stops recording into the half-note buffer. Inspired by RC-505.</p>
 </div></blockquote>
 </li>
 <li><p>window</p>
@@ -215,14 +230,9 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <div><p>Determines how much the stutter volume will decrease as the acceleration increases from neutral.</p>
 </div></blockquote>
 </li>
-<li><p>rightmost menu</p>
+<li><p>top-right menu</p>
 <blockquote>
 <div><p>Multiplies the stutter’s subdivision.</p>
-</div></blockquote>
-</li>
-<li><p>centermost menu</p>
-<blockquote>
-<div><p>Adjusts the staircase’s offset.</p>
 </div></blockquote>
 </li>
 </ul>
@@ -247,10 +257,11 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <li><p>duty cycle</p>
 <blockquote>
 <div><p>The fraction of one period in which the signal is active. <a class="reference internal" href="bindings.html#controller-bindings"><span class="std std-ref">Bound</span></a> to <code class="docutils literal notranslate"><span class="pre">Main</span> <span class="pre">Input</span> <span class="pre">Tremolo</span> <span class="pre">Duty</span></code></p>
-<figure class="align-left" id="id3">
-<a class="reference internal image-reference" href="../_images/PWM_duty_cycle_with_label.webp"><img alt="duty" src="../_images/PWM_duty_cycle_with_label.webp" style="width: 80%;" /></a>
+<figure class="align-left" id="id4">
+<a class="reference internal image-reference" href="../_images/PWM_duty_cycle_with_label.webp"><img alt="duty" src="../_images/PWM_duty_cycle_with_label.webp" style="width: 80%;" />
+</a>
 <figcaption>
-<p><span class="caption-text"><a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Duty_cycle&amp;oldid=1180108380" rel="noopener noreferrer" target="_blank">Wikipedia - Duty Cycle</a></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+<p><span class="caption-text"><a class="reference external" href="https://en.wikipedia.org/w/index.php?title=Duty_cycle&amp;oldid=1180108380" rel="noopener noreferrer" target="_blank">Wikipedia - Duty Cycle</a></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
 </figcaption>
 </figure>
 </div></blockquote>
@@ -276,8 +287,8 @@ This may be hardcoded to change dynamically. Don’t worry about it.</p>
 <section id="filter">
 <h2>Filter<a class="headerlink" href="#filter" title="Link to this heading"></a></h2>
 <p>Also inspired by <a class="reference external" href="https://www.pioneerdj.com/en/product/features/mixer/filter-fx/" rel="noopener noreferrer" target="_blank">Pioneer</a>, a HP/LP filter.</p>
-<section id="id2">
-<h3>Parameters<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<section id="id3">
+<h3>Parameters<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <ul>
 <li><p>filter sweep</p>
 <blockquote>

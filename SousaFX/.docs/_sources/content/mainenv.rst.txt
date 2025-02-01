@@ -36,11 +36,11 @@ Parameters
 
 - Main
 
-   Envelope sensitivity.
+   Adjusts the overall envelope sensitivity.
 
 - Freq
 
-   The frequency to boost.
+   Sets the frequency to boost.
 
 - Boost
 
@@ -50,4 +50,16 @@ Parameters
 
 - Q
 
-   The "quality" / resonance of the boost.
+   The bandwidth of the boost. 1 is the default, towards 0 it gets narrower, towards 2 it gets wider.
+
+- low cut
+
+   Sets the frequency of the low cut filter, so that excessive subbass frequencies don't trigger the envelope.
+
+- weighting menu
+
+   Applies `k-weighting <https://www.soundonsound.com/glossary/k-weighting>`_, or `ITU-R 468 <https://en.wikipedia.org/wiki/ITU-R_468_noise_weighting>`_ weighting filters.
+
+- dB / linear menu
+
+   determines wether the envelope is logarithmic (dB), or linear.
