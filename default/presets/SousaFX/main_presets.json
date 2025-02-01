@@ -23,29 +23,29 @@
 					"mod params::aux_route_menu" : [ 0 ],
 					"mod params::high_SnTrSq" : [ 1 ],
 					"mod params::low_power" : [ -4.724409448818889 ],
-					"mod params::low_phase_offset" : [ 31.5 ],
+					"mod params::low_phase_offset" : [ 28.3503937007874 ],
 					"mod params::low_SnTrSq" : [ 0 ],
 					"mod params::low_duty_cycle" : [ 0.0 ],
 					"mod params::low_floor" : [ 0.0 ],
 					"mod params::verylow_power" : [ -9.448818897637789 ],
-					"mod params::verylow_phase_offset" : [ 66.14173228346452 ],
+					"mod params::verylow_phase_offset" : [ 37.795275590551178 ],
 					"mod params::verylow_SnTrSq" : [ 0 ],
 					"mod params::verylow_duty_cycle" : [ 0.0 ],
 					"mod params::verylow_floor" : [ 0.0 ],
-					"mod params::rez_min" : [ 54 ],
-					"mod params::rez_max" : [ 97 ],
+					"mod params::rez_min" : [ 23 ],
+					"mod params::rez_max" : [ 83 ],
 					"mod params::wah_or_trem" : [ 0 ],
 					"mod params::high_phase_offset[1]" : [ 31.496062992125996 ],
 					"mod params::high_duty_cycle" : [ 12.598425196850393 ],
-					"mod params::filter-type" : [ 0 ],
+					"mod params::filter-type" : [ 6 ],
 					"mod params::ceil_env_smooth" : [ 200.000000000000028 ],
 					"mod params::floor_env_smooth" : [ 200.000000000000028 ],
 					"mod params::diode-saturation" : [ 8.219033810502362 ],
 					"mod params::high_SnTrSq_randomize" : [ 0 ],
 					"mod params::randomize-LPF-type" : [ 0 ],
-					"mod params::env sens[1]" : [ 1.094488188976378 ],
+					"mod params::env sens[1]" : [ 1.0 ],
 					"mod params::high_pow" : [ 12.992125984252068 ],
-					"mod params::floor_y_pos" : [ 0.110236220472441 ],
+					"mod params::floor_y_pos" : [ 0.149606299212598 ],
 					"mod params::x_pos" : [ 0.0 ],
 					"mod params::ceil_y_pos" : [ 0.166992125984251 ],
 					"mod params::ceil_max" : [ 0.755905511811024 ],
@@ -53,7 +53,10 @@
 					"mod params::pre-rate_phase_offset_high" : [ -1.574803149606296 ],
 					"mod params::pre-rate_phase_offset_low" : [ 0.0 ],
 					"mod params::pre-rate_phase_offset_verylow" : [ 0.0 ],
-					"mod params::wah sens reduc" : [ 0.326771653543309 ],
+					"mod params::wah sens reduc" : [ 0.66 ],
+					"mod params::u830003532" : [ 1.0, 0.0, 1.0, 0.0, 0.428571428571429, 0, 0.0, 1.0, 0.744897959183674, 0, 0.405, "curve" ],
+					"mod params::very_low_squareness" : [ 0.0 ],
+					"mod params::low_squareness" : [ 0.0 ],
 					"mod params::transient_detect::transient_definition" : [ 0 ],
 					"umenu_presets::main_preset_initial" : [ 1 ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [ 1 ],
@@ -93,7 +96,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [ 1 ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [ 1 ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [ 1 ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [ 1 ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [ 1 ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [ 1 ],
+					"stutterstep::delay_stutter" : [ 1 ],
+					"patcher[4]::VFX_stutter" : [ 1 ]
 				}
 
 			}
@@ -150,6 +156,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -189,7 +198,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -246,6 +258,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -285,7 +300,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -342,6 +360,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -381,7 +402,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -438,6 +462,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -477,7 +504,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -534,6 +564,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -573,7 +606,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -630,6 +666,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -669,7 +708,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -726,6 +768,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -765,7 +810,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -822,6 +870,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -861,7 +912,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -918,6 +972,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -957,7 +1014,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1014,6 +1074,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1053,7 +1116,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1110,6 +1176,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1149,7 +1218,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1206,6 +1278,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1245,7 +1320,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1302,6 +1380,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1341,7 +1422,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1398,6 +1482,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1437,7 +1524,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1494,6 +1584,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1533,7 +1626,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1590,6 +1686,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1629,7 +1728,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1686,6 +1788,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1725,7 +1830,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}
@@ -1782,6 +1890,9 @@
 					"mod params::pre-rate_phase_offset_low" : [  ],
 					"mod params::pre-rate_phase_offset_verylow" : [  ],
 					"mod params::wah sens reduc" : [  ],
+					"mod params::u830003532" : [  ],
+					"mod params::very_low_squareness" : [  ],
+					"mod params::low_squareness" : [  ],
 					"mod params::transient_detect::transient_definition" : [  ],
 					"umenu_presets::main_preset_initial" : [  ],
 					"plugin_or_rnbo_selector[6]::main_limiter_rnbo_or_plugin" : [  ],
@@ -1821,7 +1932,10 @@
 					"plugin_or_rnbo_selector[11]::plugin_selector[3]::Post-Crossfade_FX_plugin4_plugin" : [  ],
 					"plugin_or_rnbo_selector::solo_comp_rnbo_or_plugin" : [  ],
 					"FOH_and_monitor_mix::mon_and_foh_mix" : [  ],
-					"patcher[1]::Solo FX stutter tremolo filters" : [  ]
+					"patcher[1]::Solo FX stutter tremolo filters" : [  ],
+					"plugin_or_rnbo_selector[3]::delays_comp_rnbo_or_plugin" : [  ],
+					"stutterstep::delay_stutter" : [  ],
+					"patcher[4]::VFX_stutter" : [  ]
 				}
 
 			}

@@ -7,7 +7,7 @@
 				"data" : 				{
 					"transient_helper" : [ 1 ],
 					"env_decay" : [ 555.467241779550363 ],
-					"noise_gate" : [ 0.04092075397509 ],
+					"noise_gate" : [ 0.108514650027795 ],
 					"interpolate_crossfades" : [ 26.0 ],
 					"env_attack" : [ 8.0 ],
 					"lock_low_mod" : [ 0 ],

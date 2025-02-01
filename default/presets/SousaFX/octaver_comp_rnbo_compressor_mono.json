@@ -20,6 +20,14 @@
 
 									}
 ,
+									"Volume&Clip~" : 									{
+
+									}
+,
+									"Lookahead~" : 									{
+
+									}
+,
 									"Compensation~" : 									{
 
 									}
@@ -28,11 +36,7 @@
 
 									}
 ,
-									"Lookahead~" : 									{
-
-									}
-,
-									"Volume&Clip~" : 									{
+									"Volume&Clip~[1]" : 									{
 
 									}
 
@@ -47,7 +51,7 @@
 								}
 ,
 								"comp" : 								{
-									"value" : 0.0
+									"value" : 63.0
 								}
 ,
 								"lowfq" : 								{
@@ -55,7 +59,7 @@
 								}
 ,
 								"attack" : 								{
-									"value" : 100.0
+									"value" : 77.0
 								}
 ,
 								"__presetid" : "compressor_mono",
@@ -63,12 +67,16 @@
 									"value" : 0.0
 								}
 ,
-								"volume" : 								{
+								"volout" : 								{
 									"value" : 0.0
 								}
 ,
 								"lookahead" : 								{
 									"value" : 2.0
+								}
+,
+								"volin" : 								{
+									"value" : 18.0
 								}
 
 							}

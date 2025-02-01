@@ -38,7 +38,7 @@
 					"MIDI note output 1st tempo change" : [ 53 ],
 					"MIDI note output 2nd tempo change" : [ 54 ],
 					"MIDI note output 3rd tempo change" : [ 55 ],
-					"ableton auto-play launch delay" : [ 20 ],
+					"ableton auto-play launch delay" : [ 10 ],
 					"MIDI note output 8-bar trig" : [ 60 ],
 					"midi note in fadeout almost done" : [ 52 ],
 					"midi note in disable solofx" : [ 53 ],

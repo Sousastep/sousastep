@@ -5,12 +5,14 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"preferred audio interface" : [ "\"MADIface Pro (79250639)\"" ],
-					"paused" : [ 0 ],
+					"preferred audio interface" : [ "None" ],
+					"paused" : [ 1 ],
 					"FX rig" : [ 2 ],
 					"VFX rig" : [ 0 ],
 					"playback rig" : [ 1 ],
-					"custom playback file" : [ "\"Macintosh HD:/Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaPlayback Project/SousaPlaybackPlugins.als\"" ]
+					"custom playback file" : [ "\"Macintosh HD:/Users/jbaylies/Documents/Max 8/Projects/sousastep/SousaPlayback Project/SousaPlaybackBackport.als\"" ],
+					"Drum Machine" : [ 0 ],
+					"scripts" : [ "No Scripts" ]
 				}
 
 			}
