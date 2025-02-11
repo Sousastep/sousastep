@@ -137,7 +137,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1901.0, 379.0, 137.0, 22.0 ],
-					"restore" : [ 0.530769230769231 ],
+					"restore" : [ 0.282051282051282 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -156,7 +156,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1649.0, 415.0, 129.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -175,7 +175,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1729.0, 379.0, 125.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -349,7 +349,6 @@
 , 			{
 				"box" : 				{
 					"floatoutput" : 1,
-					"hidden" : 1,
 					"id" : "obj-107",
 					"maxclass" : "slider",
 					"numinlets" : 1,
@@ -462,7 +461,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 438.0, 1250.0, 199.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ 16 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -508,7 +507,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 659.5, 1250.0, 116.0, 22.0 ],
-					"restore" : [ 0 ],
+					"restore" : [ -28 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -761,7 +760,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1464.0, 1510.0, 158.0, 22.0 ],
-					"text" : "scale 0 1 0 24 2. @classic 0"
+					"text" : "scale 0 1 0 48 1. @classic 0"
 				}
 
 			}
@@ -996,10 +995,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 168.0, 1525.5, 505.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage #1 @greedy 0 @savemode 0 @changemode 1",
@@ -4624,7 +4623,7 @@
 
 			}
  ],
-		"originid" : "pat-3970",
+		"originid" : "pat-9624",
 		"toolbaradditions" : [ "packagemanager" ],
 		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ]
 	}
