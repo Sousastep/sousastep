@@ -6,8 +6,8 @@
 				"id" : 1,
 				"data" : 				{
 					"bars_until_retrig" : [ 16 ],
-					"first_frame" : [ 3 ],
-					"output_gain" : [ -6.0 ]
+					"first_frame" : [ 15 ],
+					"output_gain" : [ 0.0 ]
 				}
 
 			}
