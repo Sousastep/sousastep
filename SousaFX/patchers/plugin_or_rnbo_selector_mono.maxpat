@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 871.0, 95.0, 1377.0, 967.0 ],
+		"rect" : [ 465.0, 218.0, 1377.0, 967.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -717,7 +717,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1393.5, 59.0, 73.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.312117247148308, 3.5, 91.0, 21.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 91.0, 21.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "umenu[1]"
 				}
@@ -1427,7 +1427,7 @@
 
 			}
  ],
-		"originid" : "pat-9131",
+		"originid" : "pat-12801",
 		"dependency_cache" : [ 			{
 				"name" : "#2.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",

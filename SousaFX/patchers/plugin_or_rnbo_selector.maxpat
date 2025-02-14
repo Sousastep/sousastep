@@ -2,42 +2,25 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 56.0, 216.0, 1955.0, 1162.0 ],
-		"bglocked" : 0,
+		"rect" : [ 56.0, 216.0, 662.0, 1162.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 2,
 		"toptoolbarpinned" : 2,
 		"righttoolbarpinned" : 2,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
 		"enablehscroll" : 0,
 		"enablevscroll" : 0,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
@@ -463,10 +446,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 576.0, 498.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 532, 396 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 257, 400, 708, 528 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage #1_rnbo_or_plugin @greedy 2 @savemode 0",
@@ -713,7 +696,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1393.0, 57.25, 73.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.312117247148308, 3.5, 91.0, 21.0 ],
+					"presentation_rect" : [ 3.0, 3.0, 91.0, 21.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "umenu[1]"
 				}
@@ -738,7 +721,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 89.0, 721.0, 243.0, 155.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 30.0, 401.0, 545.0 ],
+					"presentation_rect" : [ 0.0, 28.0, 401.0, 577.0 ],
 					"varname" : "#1",
 					"viewvisibility" : 1
 				}
@@ -853,7 +836,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"background" : 1,
-					"bgcolor" : [ 0.529411764705882, 0.529411764705882, 0.529411764705882, 1.0 ],
+					"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -1339,6 +1322,7 @@
 
 			}
  ],
+		"originid" : "pat-12793",
 		"dependency_cache" : [ 			{
 				"name" : "#2.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
@@ -1355,6 +1339,8 @@
 			}
  ],
 		"autosave" : 0,
+		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.545098039215686, 0.545098039215686, 0.545098039215686, 0.98 ]
 	}
 
