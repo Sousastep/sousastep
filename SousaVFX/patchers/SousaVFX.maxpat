@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 2008.0, 1197.0 ],
+		"rect" : [ 400.0, 53.0, 2087.0, 1197.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
@@ -1079,7 +1079,7 @@
 
 							}
  ],
-						"originid" : "pat-988",
+						"originid" : "pat-10012",
 						"toolbaradditions" : [ "packagemanager" ],
 						"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ]
 					}
@@ -1244,7 +1244,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 2868.0, 2500.0, 365.0, 465.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1405.0, 656.0, 550.0, 502.0 ],
+					"presentation_rect" : [ 1405.0, 656.0, 550.0, 639.0 ],
 					"varname" : "polarkaleido2",
 					"viewvisibility" : 1
 				}
@@ -1469,7 +1469,7 @@
 
 							}
  ],
-						"originid" : "pat-1098",
+						"originid" : "pat-10192",
 						"styles" : [ 							{
 								"name" : "minimal",
 								"default" : 								{
@@ -3746,6 +3746,7 @@
 				"box" : 				{
 					"angle" : 270.0,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 0.76 ],
+					"hidden" : 1,
 					"id" : "obj-136",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -4550,10 +4551,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 100, 500, 600 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -5607,7 +5608,7 @@
 
 							}
  ],
-						"originid" : "pat-3006"
+						"originid" : "pat-12098"
 					}
 ,
 					"patching_rect" : [ 4129.0, 933.0, 57.0, 22.0 ],
@@ -7620,7 +7621,7 @@
 
 							}
  ],
-						"originid" : "pat-3022"
+						"originid" : "pat-12112"
 					}
 ,
 					"patching_rect" : [ 4825.0, 1529.0, 57.0, 22.0 ],
@@ -8620,7 +8621,7 @@
 
 							}
  ],
-						"originid" : "pat-3026"
+						"originid" : "pat-12116"
 					}
 ,
 					"patching_rect" : [ 3986.0, 1987.0, 115.0, 22.0 ],
@@ -13251,7 +13252,7 @@
 
 			}
  ],
-		"originid" : "pat-830",
+		"originid" : "pat-9854",
 		"parameters" : 		{
 			"obj-102" : [ "live.text[5]", "live.text", 0 ],
 			"obj-104" : [ "live.text[6]", "live.text", 0 ],
@@ -13286,6 +13287,10 @@
 			"obj-284::obj-6::obj-23" : [ "live.menu[263]", "live.menu", 0 ],
 			"obj-284::obj-6::obj-51" : [ "live.numbox[442]", "live.numbox", 0 ],
 			"obj-284::obj-6::obj-53" : [ "live.numbox[441]", "live.numbox", 0 ],
+			"obj-288::obj-22::obj-133" : [ "scale_invert[275]", "Phase-Inversion", 1 ],
+			"obj-288::obj-22::obj-23" : [ "live.menu[344]", "live.menu", 0 ],
+			"obj-288::obj-22::obj-51" : [ "live.numbox[548]", "live.numbox", 0 ],
+			"obj-288::obj-22::obj-53" : [ "live.numbox[499]", "live.numbox", 0 ],
 			"obj-288::obj-64::obj-133" : [ "scale_invert[273]", "Phase-Inversion", 1 ],
 			"obj-288::obj-64::obj-23" : [ "live.menu[342]", "live.menu", 0 ],
 			"obj-288::obj-64::obj-51" : [ "live.numbox[545]", "live.numbox", 0 ],
@@ -14203,6 +14208,22 @@
 ,
 				"obj-284::obj-6::obj-53" : 				{
 					"parameter_longname" : "live.numbox[441]"
+				}
+,
+				"obj-288::obj-22::obj-133" : 				{
+					"parameter_longname" : "scale_invert[275]"
+				}
+,
+				"obj-288::obj-22::obj-23" : 				{
+					"parameter_longname" : "live.menu[344]"
+				}
+,
+				"obj-288::obj-22::obj-51" : 				{
+					"parameter_longname" : "live.numbox[548]"
+				}
+,
+				"obj-288::obj-22::obj-53" : 				{
+					"parameter_longname" : "live.numbox[499]"
 				}
 ,
 				"obj-288::obj-64::obj-133" : 				{
@@ -17757,8 +17778,8 @@
 			}
 , 			{
 				"name" : "map_fx_to_vfx.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
-				"patcherrelativepath" : "../../default/presets/SousaVFX",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
+				"patcherrelativepath" : "../../SousaFX/data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
