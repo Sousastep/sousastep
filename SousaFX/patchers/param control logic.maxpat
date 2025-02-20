@@ -2,8 +2,8 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -11,35 +11,47 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 337.0, 53.0, 1864.0, 1330.0 ],
-		"bglocked" : 0,
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
 		"toolbarvisible" : 0,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-87",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3117.0, 499.0, 29.5, 22.0 ],
+					"text" : "set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-78",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 551.0, 1204.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-64",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 551.0, 1240.5, 55.0, 22.0 ],
+					"text" : "del 6000"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-105",
 					"maxclass" : "newobj",
@@ -526,7 +538,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
-					"bordercolor" : [ 1.0, 0.709803921568627, 0.196078431372549, 1.0 ],
+					"bordercolor" : [ 0.931948395395052, 0.771744459193783, 0.523883756405412, 1.0 ],
 					"fontsize" : 12.0,
 					"id" : "obj-178",
 					"maxclass" : "live.menu",
@@ -559,6 +571,7 @@
 							"parameter_longname" : "curves",
 							"parameter_mmax" : 1,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "curves",
 							"parameter_type" : 2
 						}
@@ -740,7 +753,6 @@
 					"patching_rect" : [ 2906.0, 558.0, 403.0, 26.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 127.0, 283.0, 486.0, 26.0 ],
-					"text" : "This control is not mapped.",
 					"textcolor" : [ 0.894117647058824, 0.925490196078431, 0.917647058823529, 1.0 ]
 				}
 
@@ -992,7 +1004,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2451.0, 550.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.666666666666686, 214.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 277.666666666666686, 214.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1009,7 +1022,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2172.0, 474.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 277.666666666666686, 187.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 277.666666666666686, 187.0, 24.0, 24.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1277,7 +1291,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 631.0, 1150.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 152.0, 169.0, 169.0 ]
+					"presentation_rect" : [ 121.0, 152.0, 169.0, 169.0 ],
+					"svg" : ""
 				}
 
 			}
@@ -1449,7 +1464,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.0, 1310.0, 54.0, 22.0 ],
+					"patching_rect" : [ 551.0, 1313.5, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -1461,7 +1476,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 551.0, 1274.0, 77.0, 22.0 ],
+					"patching_rect" : [ 551.0, 1277.0, 77.0, 22.0 ],
 					"text" : "loadmess #1"
 				}
 
@@ -1528,6 +1543,7 @@
 							"parameter_mmax" : 100.0,
 							"parameter_mmin" : -100.0,
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "curve",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -1689,6 +1705,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-52",
@@ -1708,6 +1725,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-54",
@@ -1794,6 +1812,7 @@
 					"patching_rect" : [ 749.0, 1514.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 876.0, 261.0, 24.0, 24.0 ],
+					"svg" : "",
 					"varname" : "toggle"
 				}
 
@@ -2211,6 +2230,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"drawoffcolor" : 1,
 					"elementcolor" : [ 0.349019607843137, 0.349019607843137, 0.349019607843137, 0.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-70",
@@ -2274,7 +2294,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2276.0, 233.0, 124.0, 35.0 ],
+					"patching_rect" : [ 2263.0, 233.0, 124.0, 35.0 ],
 					"suppressinlet" : 1,
 					"text" : "bang if control is not bound to any joystick"
 				}
@@ -2302,10 +2322,10 @@
 					"id" : "obj-146",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "bang" ],
-					"patching_rect" : [ 2402.0, 296.0, 42.0, 22.0 ],
-					"text" : "t 0 0 b"
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "bang", "bang" ],
+					"patching_rect" : [ 2389.0, 296.0, 52.0, 22.0 ],
+					"text" : "t 0 0 b b"
 				}
 
 			}
@@ -2316,7 +2336,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 2402.0, 239.0, 41.0, 22.0 ],
+					"patching_rect" : [ 2389.0, 239.0, 41.0, 22.0 ],
 					"text" : "sel 14"
 				}
 
@@ -2616,6 +2636,7 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "function[45]",
 							"parameter_modmode" : 0,
+							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "function",
 							"parameter_type" : 3
 						}
@@ -3079,7 +3100,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1068", 0 ],
-					"midpoints" : [ 2411.5, 532.0, 2460.5, 532.0 ],
+					"midpoints" : [ 2398.5, 532.0, 2460.5, 532.0 ],
 					"source" : [ "obj-146", 0 ]
 				}
 
@@ -3088,6 +3109,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-137", 0 ],
 					"source" : [ "obj-146", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 0 ],
+					"midpoints" : [ 2431.5, 546.0, 945.0, 546.0, 945.0, 600.0, 582.0, 600.0, 582.0, 1008.0, 560.5, 1008.0 ],
+					"source" : [ "obj-146", 3 ]
 				}
 
 			}
@@ -3780,8 +3809,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-137", 0 ],
+					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-64", 0 ]
 				}
 
 			}
@@ -3883,6 +3919,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-64", 0 ],
+					"source" : [ "obj-78", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-125", 0 ],
 					"source" : [ "obj-79", 0 ]
 				}
@@ -3934,6 +3977,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-79", 3 ],
 					"source" : [ "obj-85", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-63", 0 ],
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}
@@ -4030,6 +4080,7 @@
 
 			}
  ],
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-114" : [ "function[45]", "function", 0 ],
 			"obj-178" : [ "curves", "curves", 0 ],
@@ -4090,6 +4141,8 @@
 			}
  ],
 		"autosave" : 0,
+		"toolbaradditions" : [ "packagemanager" ],
+		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.0, 0.050980392156863, 0.168627450980392, 0.97 ],
 		"editing_bgcolor" : [ 0.356862745098039, 0.356862745098039, 0.356862745098039, 1.0 ]
 	}
