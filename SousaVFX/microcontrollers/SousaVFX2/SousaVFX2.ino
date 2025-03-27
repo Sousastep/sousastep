@@ -9,6 +9,8 @@ FASTLED_USING_NAMESPACE
 #include "coordinate_maps.h"
 
 #define FRAMES_PER_SECOND 120
+const int frameInterval = ((1000 / FRAMES_PER_SECOND) * 1);
+const int micInterval = (100);
 #define ARRAY_SIZE(A) (sizeof(A) / sizeof((A)[0]))
 
 uint8_t offset = 0; // rotating "base color" used by many of the patterns
@@ -31,16 +33,48 @@ DMAMEM int displayMemory[ledsPerStrip * 6];
 int drawingMemory[ledsPerStrip * 6];
 char receivedChars[numChannels + 1];
 boolean newData = false;        // newData is used to determine if there is a new command
+unsigned long previousMillis = 0;  // will store last time mic was updated
+unsigned long previousMicros = 0;
+unsigned long previousMillisLED = 0;  // will store last time LED was updated
 unsigned long previousPatternMillis = 0;
 unsigned long previousPaletteMillis = 0;
+int circularmaskradius = 255;
 
 OctoWS2811 octo(ledsPerStrip, displayMemory, drawingMemory, config);
+
+#include <algorithm>
+#include <vector>
+
+// Smoothing parameters
+const float alphaUp = 1;   // Smoothing factor for increasing values
+const float alphaDown = 0.02; // Smoothing factor for decreasing values
+
+float smoothedValue = 0;  // Holds the smoothed output
+
+const int analogInPin = A4;  // Analog input pin that the potentiometer is attached to
+const int numReadings = 80;
+
+int readings[numReadings];  // the readings from the analog input
+int readIndex = 0;          // the index of the current reading
+int total = 0;              // the running total
+int average = 0;            // the average
+int peak = 0;               // the peak
+
+int sensorValue = 0;  // value read from the pot
+
+
+
 
 void setup()
 {
   random16_set_seed(analogRead(A0));
 
   // Serial.begin(115200);
+
+  // initialize all the readings to 0:
+  for (int thisReading = 0; thisReading < numReadings; thisReading++) {
+    readings[thisReading] = 0;
+  }
 
   FastLED.setBrightness(BRIGHTNESS);
 
@@ -52,16 +86,16 @@ void setup()
 typedef void (*SimplePatternList[])();
 SimplePatternList patterns = {
     // 2D map examples:
-     clockwisePalette,
-     counterClockwisePalette,
+     // clockwisePalette,
+     // counterClockwisePalette,
     outwardPalette,
     inwardPalette,
-    northPalette,
+    // northPalette,
     //northEastPalette,
     //eastPalette,
     //southEastPalette,
     //southPalette,
-    southWestPalette,
+    // southWestPalette,
     //westPalette,
     //northWestPalette,
 
@@ -612,45 +646,106 @@ uint8_t ease8InQuad(uint8_t i) {
     return i2 / 255;      // Scale back to 0-255 range
 }
 
+uint8_t ease8OutQuad(uint8_t i) {
+    uint16_t inv = 255 - i;  // Invert the input
+    uint16_t inv2 = inv * inv;  // Square the inverted input
+    return 255 - (inv2 / 255);  // Scale back and invert to create ease out effect
+}
+
 void loop() {
-  // Call the current pattern function, updating the 'leds' array
-  patterns[currentPatternIndex]();
 
   // Current time
   unsigned long currentMillis = millis();
+  unsigned long currentMicros = micros();
+  
+  if (currentMicros - previousMicros >= (micInterval)) {
+      // subtract the last reading:
+    total = total - readings[readIndex];
+      // read from the sensor:
+    readings[readIndex] = std::clamp(analogRead(analogInPin), 700, 715);
+      // add the reading to the total:
+    total = total + readings[readIndex];
+    
+      // Track the peak value
+    if (readings[readIndex] > peak) {
+      peak = readings[readIndex];
+    }
+  
+      // advance to the next position in the array:
+    readIndex = readIndex + 1;
 
-  offset = beat8(speed);
+      // if we're at the end of the array...
+    if (readIndex >= numReadings) {
+      
+        // Apply asymmetric smoothing
+      if (peak > smoothedValue) {
+          smoothedValue += alphaUp * (peak - smoothedValue);
+      } else {
+          smoothedValue += alphaDown * (peak - smoothedValue);
+      }
 
-  // Check if it's time to change patterns
-  if (autoplay && (currentMillis - previousPatternMillis >= autoplaySeconds * 1000)) {
-    previousPatternMillis = currentMillis;
-    nextPattern();
+      circularmaskradius = ease8OutQuad(std::clamp((int)map(smoothedValue, 700, 715, 0, 255), 0, 255));
+
+      Serial.print(0); // To freeze the lower limit
+      Serial.print(" ");
+      Serial.print(255); // To freeze the upper limit
+      Serial.print(" ");
+      Serial.println(circularmaskradius); // To send all three 'data' points to the plotter
+
+
+        // ...wrap around to the beginning:
+      readIndex = 0;
+    
+        // reset peak after each full cycle of readings
+      peak = readings[readIndex];
+    }
+    previousMicros = currentMicros;
   }
 
-  // Check if it's time to change palettes
-  if (autoplay && (currentMillis - previousPaletteMillis >= autoplaySeconds * 1000)) {
-    previousPaletteMillis = currentMillis;
-    nextPalette();
-  }
+  if (currentMillis - previousMillisLED >= frameInterval) {
+    // save the last time you blinked the LED
+    previousMillisLED = currentMillis;
 
-  // hi rez angles
+    // Call the current pattern function, updating the 'leds' array
+    patterns[currentPatternIndex]();
+
+    offset = beat8(speed);
+
+    // Check if it's time to change patterns
+    if (autoplay && (currentMillis - previousPatternMillis >= autoplaySeconds * 1000)) {
+      previousPatternMillis = currentMillis;
+      nextPattern();
+    }
+
+    // Check if it's time to change palettes
+    if (autoplay && (currentMillis - previousPaletteMillis >= autoplaySeconds * 1000)) {
+      previousPaletteMillis = currentMillis;
+      nextPalette();
+    }
+
+    // hi rez angles
     for (int i = 0; i < NUM_LEDS; i++) {
-    float divisions = abs((fmod(float(currentMillis / 12000.0), 110.0)-55.0)); //increasing divisions over time
-    float angleSize = 360.0f / divisions;
-    int dimmermask = (((fmod(float(angleshirez[i] - (currentMillis/40.0)), 360.0)) / angleSize) * 255);
-    leds[i] = leds[i].scale8(ease8InQuad(dimmermask));
-  }
+      float divisions = abs((fmod(float(currentMillis / 12000.0), 110.0)-55.0)); //increasing divisions over time
+      float angleSize = 360.0f / divisions;
+      int dimmermask = (((fmod(float(angleshirez[i] - (currentMillis/40.0)), 360.0)) / angleSize) * 255);
+      leds[i] = leds[i].scale8(ease8InQuad(dimmermask));
+    }
 
-  // Transfer the data from FastLED's format to OctoWS2811
-  for (int i = 0; i < ledsPerStrip * numStrips; i++) {
-    octo.setPixel(i, leds[i].r, leds[i].g, leds[i].b);
+    // circular mask
+     for (int i = 0; i < NUM_LEDS; i++) {
+       if (radii[i] > circularmaskradius)
+         leds[i] = leds[i].scale8(0);
+     }
+
+    // Transfer the data from FastLED's format to OctoWS2811
+    for (int i = 0; i < ledsPerStrip * numStrips; i++) {
+      octo.setPixel(i, leds[i].r, leds[i].g, leds[i].b);
+    }
+  
+    // Display once per frame
+    octo.show();
+  
   }
-  
-  // Display once per frame
-  octo.show();
-  
-  // Delay to maintain frame rate
-  delay(1000 / FRAMES_PER_SECOND);
 }
 
 
