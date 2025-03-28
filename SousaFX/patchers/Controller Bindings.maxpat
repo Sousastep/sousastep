@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 44.0, 875.0, 1396.0 ],
+		"rect" : [ 0.0, 44.0, 865.0, 1396.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
@@ -18,6 +18,54 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "Controller Bindings",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 4873.0, 2370.31034482758605, 53.0, 22.0 ],
+					"text" : "discon 6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "LFO or ADSR (uni)", "Modulation Parameters" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-108",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "hover_bang_ubutton.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 933.0, 3707.5, 255.0, 23.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 542.0, 231.0, 285.0, 17.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0353, 0.4078, 1.0, 0.9 ],
+					"id" : "obj-105",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 940.0, 3681.0, 248.0, 22.0 ],
+					"text" : "\"param control logic\" 0 f \"LFO or ADSR (uni)\"",
+					"varname" : "Main Input Delay Fdbk 1 (uni)[1]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-83",
 					"maxclass" : "newobj",
@@ -164,8 +212,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2295.5, 4194.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2295.5, 4194.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -187,7 +234,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1039.055147058823422, 2718.0, 95.0, 22.0 ],
+					"patching_rect" : [ 997.5, 2869.0, 95.0, 22.0 ],
 					"text" : "s toggle_soloFX"
 				}
 
@@ -378,8 +425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2450.77500000000191, 4194.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2450.77500000000191, 4194.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -986,8 +1032,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2227.0, 1965.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2227.0, 1965.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -999,8 +1044,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2095.0, 1965.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2095.0, 1965.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1106,7 +1150,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 930.851057171821594, 3751.06380295753479, 304.0, 22.0 ],
+					"patching_rect" : [ 1110.0, 3796.0, 304.0, 22.0 ],
 					"text" : "\"param control logic\" 0 f \"Main Input Delay Fdbk 1 (uni)\"",
 					"varname" : "Main Input Delay Fdbk 1 (uni)"
 				}
@@ -1155,8 +1199,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2573.052205882355338, 2823.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2573.052205882355338, 2823.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1358,7 +1401,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1146.0, 3646.0, 69.0, 22.0 ],
+					"patching_rect" : [ 1325.0, 3691.0, 69.0, 22.0 ],
 					"text" : "route 17 31"
 				}
 
@@ -1392,7 +1435,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 862.0, 3708.0, 268.0, 22.0 ],
+					"patching_rect" : [ 1041.0, 3753.0, 268.0, 22.0 ],
 					"text" : "\"param control logic\" 0.5 f \"LFO Main Speed (bi)\"",
 					"varname" : "param control logic"
 				}
@@ -5617,8 +5660,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2743.49632352941444, 2823.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2743.49632352941444, 2823.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6599,8 +6641,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3070.49632352941444, 2823.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 3070.49632352941444, 2823.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -6692,11 +6733,11 @@
 				"box" : 				{
 					"id" : "obj-776",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 4798.0, 2252.31034482758605, 86.0, 22.0 ],
-					"text" : "route 0 1 2 3 4"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 4798.0, 2252.31034482758605, 96.0, 22.0 ],
+					"text" : "route 0 1 2 3 4 6"
 				}
 
 			}
@@ -7350,11 +7391,11 @@
 				"box" : 				{
 					"id" : "obj-651",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 888.0, 3446.0, 86.0, 22.0 ],
-					"text" : "route 0 1 2 3 4"
+					"numinlets" : 7,
+					"numoutlets" : 7,
+					"outlettype" : [ "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 888.0, 3446.0, 96.0, 22.0 ],
+					"text" : "route 0 1 2 3 4 6"
 				}
 
 			}
@@ -9357,8 +9398,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 261.5, 2287.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 257.5, 114.0, 24.0, 24.0 ],
-					"svg" : ""
+					"presentation_rect" : [ 257.5, 114.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -9561,7 +9601,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9852,7 +9892,7 @@
 										"appversion" : 										{
 											"major" : 9,
 											"minor" : 0,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10360,8 +10400,7 @@
 ,
 									"patching_rect" : [ 347.0, 778.0, 126.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"fontsize" : 11.0,
-										"globalpatchername" : ""
+										"fontsize" : 11.0
 									}
 ,
 									"text" : "p \"L*HoC* to RGB\""
@@ -10879,7 +10918,6 @@
 ,
 					"patching_rect" : [ 4321.0, 2567.5, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ]
 					}
 ,
@@ -10934,8 +10972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4321.0, 2512.5, 40.0, 40.0 ],
-					"svg" : ""
+					"patching_rect" : [ 4321.0, 2512.5, 40.0, 40.0 ]
 				}
 
 			}
@@ -11358,7 +11395,7 @@
 						"appversion" : 						{
 							"major" : 9,
 							"minor" : 0,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11488,10 +11525,6 @@
 					}
 ,
 					"patching_rect" : [ 509.0, 1708.0, 141.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"globalpatchername" : ""
-					}
-,
 					"text" : "p matrixctrl getrow zlfilter"
 				}
 
@@ -14085,7 +14118,6 @@
 							"parameter_longname" : "delay[1]",
 							"parameter_mmax" : 300.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "pre delay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -14179,7 +14211,6 @@
 							"parameter_longname" : "delay",
 							"parameter_mmax" : 300.0,
 							"parameter_modmode" : 0,
-							"parameter_osc_name" : "<default>",
 							"parameter_shortname" : "post delay",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -16337,8 +16368,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 2407.0, 3300.0, 24.0, 24.0 ],
-					"svg" : ""
+					"patching_rect" : [ 2407.0, 3300.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -16620,7 +16650,7 @@
 					"patching_rect" : [ 1700.800025343894958, 3407.20005077123642, 191.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.5, 114.0, 237.0, 28.0 ],
-					"text" : "quarter",
+					"text" : "16th",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"textjustification" : 1
 				}
@@ -17228,16 +17258,6 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 47,
-										"out" : 0,
-										"gain" : 1.0
-									}
-, 									{
-										"in" : 47,
-										"out" : 31,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 12,
 										"out" : 71,
 										"gain" : 1.0
@@ -17248,23 +17268,23 @@
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 3,
-										"out" : 5,
-										"gain" : 1.0
-									}
-, 									{
 										"in" : 46,
 										"out" : 38,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 20,
-										"out" : 21,
+										"in" : 37,
+										"out" : 0,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 21,
-										"out" : 24,
+										"in" : 47,
+										"out" : 1,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 41,
+										"out" : 31,
 										"gain" : 1.0
 									}
 , 									{
@@ -17273,13 +17293,23 @@
 										"gain" : 1.0
 									}
 , 									{
+										"in" : 20,
+										"out" : 24,
+										"gain" : 1.0
+									}
+, 									{
+										"in" : 21,
+										"out" : 21,
+										"gain" : 1.0
+									}
+, 									{
 										"in" : 36,
 										"out" : 73,
 										"gain" : 1.0
 									}
 , 									{
-										"in" : 37,
-										"out" : 1,
+										"in" : 3,
+										"out" : 6,
 										"gain" : 1.0
 									}
  ]
@@ -18580,7 +18610,7 @@
 					"numoutlets" : 2,
 					"numouts" : 74,
 					"outcolormap" : [ 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 4, 0, 8, 3, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 8, 4, 6, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 5, 5, 5, 5, 5, 4, 8, 5, 3, 3, 0, 0, 3 ],
-					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Toggle SoloFX", "---", "---", "---", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "LFO Main Speed (bi)", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "Main Input Delay 1 fdbk (uni)", "mute octaver", "mute talkback", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (bi)", "Drum Clip Stutter Accel (bi)", "Main Input Stutter Accel (bi)", "LFO Auto-Wah Pause (uni)", "LFO Env Pause (uni)", "Attack Harmonizer Mix (uni)", "Sustain Harmonizer Mix (uni)", "LFO Floor Envelope Curve (bi)" ],
+					"outlabels" : [ "Main Input Delay send 1 (uni)", "Main Input Delay send 2 (uni)", "Main Input Delay send 3 (uni)", "Main Input Delay send 4 (uni)", "Main Input Reverb send (uni)", "Toggle SoloFX", "LFO or ADSR", "---", "---", "Tap Tempo", "Enable Metronome", "Toggle Continuous Accelerando", "looper record / fade out", "Toggle Sidechained Kick", "Scene Selection", "LFO 180° phase offset", "Bindings Selector", "LFO Main Speed (bi)", "half", "quarter", "eighth", "16th", "32nd", "quarter triplet", "eighth triplet", "16th triplet", "dotted quarter", "dotted eighth", "dotted 16th", "quarter quintuplet", "eighth quintuplet", "Main Input Delay 1 fdbk (uni)", "mute octaver", "mute talkback", "mute drumloops", "mute loopers", "Envelope Crossfade Position (bi)", "LFO Ceiling Envelope Curve (bi)", "LFO Duty Cycle (bi)", "LFO Swing Amount (uni)", "LFO Sync-Free Crossfade (uni)", "LFO Free Speed (bi)", "LPF Resonance Amount (either)", "Looper Filters (bi)", "Looper Stutter Random Rhythm (trig)", "Looper Stutter Enable (trig)", "Looper Tremolo Duty (bi)", "Looper Tremolo Depth (uni)", "Looper Delay Send 1 (uni)", "Looper Delay Send 2 (uni)", "Looper Delay Send 3 (uni)", "Looper Delay Send 4 (uni)", "Drum Clip Crossfade (bi)", "Drum Clip Filters (bi)", "Drum Clip Stutter Enable (trig)", "Drum Clip Tremolo Depth (uni)", "Drum Clip Tremolo Duty (bi)", "Drum Clip Delay Send (uni)", "Drum Clip Delay Param (bi)", "Drum Clip Reverb Send (uni)", "Drum Clip Reverb Param (bi)", "Main Input Filters (bi)", "Main Input Stutter Random Rhythm (trig)", "Main Input Stutter Enable (trig)", "Main Input Tremolo Duty (bi)", "Main Input Tremolo Depth (uni)", "Looper Stutter Accel (bi)", "Drum Clip Stutter Accel (bi)", "Main Input Stutter Accel (bi)", "LFO Auto-Wah Pause (uni)", "LFO Env Pause (uni)", "Attack Harmonizer Mix (uni)", "Sustain Harmonizer Mix (uni)", "LFO Floor Envelope Curve (bi)" ],
 					"outlettype" : [ "", "dictionary" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 476.0, 829.0, 1480.0 ],
@@ -19640,6 +19670,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1095", 0 ],
 					"source" : [ "obj-1099", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-765", 0 ],
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -26925,8 +26962,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1101", 0 ],
+					"destination" : [ "obj-105", 1 ],
 					"source" : [ "obj-651", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1101", 0 ],
+					"source" : [ "obj-651", 6 ]
 				}
 
 			}
@@ -27966,8 +28010,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1129", 0 ],
+					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-776", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1129", 0 ],
+					"source" : [ "obj-776", 6 ]
 				}
 
 			}
@@ -29026,6 +29077,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1275", 0 ],
 					"source" : [ "obj-897", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-105", 0 ],
+					"source" : [ "obj-898", 0 ]
 				}
 
 			}
