@@ -10,13 +10,24 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 625.0, 58.0, 1314.0, 1103.0 ],
+		"rect" : [ 633.0, 213.0, 520.0, 757.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbarvisible" : 0,
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "modulation parameters",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-383",
+					"maxclass" : "live.scope~",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 3627.0, 514.0, 184.0, 68.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-415",
 					"maxclass" : "newobj",
@@ -80,7 +91,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 577.020890399385507, 220.0, 62.0, 48.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 368.0, 62.0, 48.0 ],
+					"presentation_rect" : [ 75.0, 371.0, 62.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "LFO / ADSR",
@@ -171,8 +182,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 3544.0, 1013.0, 33.0, 22.0 ],
-					"text" : "* 0.1"
+					"patching_rect" : [ 3468.0, 1014.0, 40.0, 22.0 ],
+					"text" : "* 0.01"
 				}
 
 			}
@@ -183,8 +194,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 4240.0, 1060.0, 33.0, 22.0 ],
-					"text" : "* 0.1"
+					"patching_rect" : [ 4240.0, 1060.0, 40.0, 22.0 ],
+					"text" : "* 0.01"
 				}
 
 			}
@@ -195,7 +206,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 2486.0, 927.0, 150.0, 60.0 ],
+					"patching_rect" : [ 2486.0, 927.0, 152.0, 60.0 ],
 					"text" : "we want this to be visible all the time now because we're using it to trigger the ADSR"
 				}
 
@@ -769,7 +780,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1781.0, 356.0, 212.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 318.5, 589.0, 143.5, 21.0 ],
+					"presentation_rect" : [ 318.5, 589.0, 146.0, 21.0 ],
 					"suppressinlet" : 1,
 					"text" : "60 Hz                           9 kHz ",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -799,7 +810,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.188886323695796 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.019640659343301 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"domain" : 1.0,
@@ -2200,7 +2211,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3915.0, 1701.0, 83.0, 22.0 ],
-					"restore" : [ 0.857874015748031 ],
+					"restore" : [ 0.90511811023622 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -2301,7 +2312,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 5090.0, 1923.0, 98.0, 22.0 ],
-					"restore" : [ 0.196850393700788 ],
+					"restore" : [ 0.212598425196851 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3068,7 +3079,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 3415.0, 776.0, 126.0, 22.0 ],
-					"restore" : [ 100.000000000000014 ],
+					"restore" : [ 100.000000000000057 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -3443,7 +3454,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.196850393700788, 0, 0.0, 1.0, 0.227010332415763, 0, -0.22015583309846 ],
+					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 0.0, 0.212598425196851, 0, 0.0, 1.0, 0.241551966363227, 0, 0.0 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -5308,7 +5319,7 @@
 
 							}
  ],
-						"originid" : "pat-8279",
+						"originid" : "pat-8381",
 						"styles" : [ 							{
 								"name" : "AudioStatus_Menu",
 								"default" : 								{
@@ -5747,7 +5758,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1583.0, 913.0, 82.0, 22.0 ],
-					"restore" : [ 86 ],
+					"restore" : [ 73 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -5766,7 +5777,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1513.0, 946.0, 79.0, 22.0 ],
-					"restore" : [ 41 ],
+					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -7512,32 +7523,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 3068.0, 1306.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7554,8 +7547,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7612,32 +7623,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 4242.0, 2358.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7654,8 +7647,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7725,32 +7736,14 @@
 					"outlettype" : [ "signal", "list" ],
 					"patching_rect" : [ 5271.0, 2341.0, 184.0, 49.0 ],
 					"rnboattrcache" : 					{
-						"secondCurve" : 						{
-							"label" : "secondCurve",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstCurve" : 						{
-							"label" : "firstCurve",
+						"firstY" : 						{
+							"label" : "firstY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
 ,
 						"midX" : 						{
 							"label" : "midX",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"midY" : 						{
-							"label" : "midY",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"firstX" : 						{
-							"label" : "firstX",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -7767,8 +7760,26 @@
 							"parsestring" : ""
 						}
 ,
-						"firstY" : 						{
-							"label" : "firstY",
+						"firstX" : 						{
+							"label" : "firstX",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"secondCurve" : 						{
+							"label" : "secondCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"firstCurve" : 						{
+							"label" : "firstCurve",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"midY" : 						{
+							"label" : "midY",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -8089,7 +8100,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3726.0, 2404.0, 198.0, 14.994323077326499 ],
+					"patching_rect" : [ 3726.0, 2403.0, 198.0, 14.994323077326499 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 301.0, 387.0, 202.904666482178527, 14.994323077326499 ],
 					"size" : 1.0
@@ -8367,7 +8378,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.0, 0.228346456692913, 0, 0.0, 1.0, 0.857874015748031, 0, -0.22015583309846 ],
+					"addpoints_with_curve" : [ 0.0, 0.005116973898361, 0, 0.0, 0.0, 0.228346456692913, 0, 0.0, 1.0, 0.90511811023622, 0, -0.22015583309846 ],
 					"bgcolor" : [ 0.0, 0.443137254901961, 0.086274509803922, 0.87 ],
 					"classic_curve" : 1,
 					"clickadd" : 0,
@@ -10925,8 +10936,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-588", 0 ],
+					"destination" : [ "obj-383", 0 ],
 					"order" : 1,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-588", 0 ],
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -14103,7 +14122,7 @@
 
 			}
  ],
-		"originid" : "pat-8261",
+		"originid" : "pat-8367",
 		"toolbaradditions" : [ "packagemanager" ],
 		"toolbarexclusions" : [ "mixerslider", "quickrecord", "showsnapshots", "showmappings" ],
 		"bgcolor" : [ 0.279471418544607, 0.279471350143365, 0.279471368104493, 1.0 ],
