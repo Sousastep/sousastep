@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 836.0, 53.0, 1724.0, 1386.0 ],
+		"rect" : [ 1675.0, 53.0, 885.0, 1387.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
@@ -24,6 +24,30 @@
 		"enabletransparentbgwithtitlebar" : 1,
 		"title" : "SousaFX",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1034",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6354.0, 5283.0, 87.0, 22.0 ],
+					"text" : "slide~ 480 480"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-998",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 6330.916853904724121, 5339.0, 29.5, 22.0 ],
+					"text" : "*~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-1053",
 					"maxclass" : "newobj",
@@ -137,18 +161,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 6224.5, 5411.0, 30.0, 22.0 ],
 					"text" : "*~ 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-948",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 6360.0, 5326.0, 29.0, 22.0 ],
-					"text" : "thru"
 				}
 
 			}
@@ -9659,7 +9671,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-497",
-					"items" : [ "live", ",", "internal", ",", "link" ],
+					"items" : [ "internal", ",", "link", ",", "live" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13301,8 +13313,8 @@
 									"patching_rect" : [ 254.0, 268.0, 36.0, 23.0 ],
 									"rnbo_classname" : "out",
 									"rnbo_extra_attributes" : 									{
-										"meta" : "",
-										"comment" : ""
+										"comment" : "",
+										"meta" : ""
 									}
 ,
 									"rnbo_serial" : 1,
@@ -17896,6 +17908,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-998", 1 ],
+					"source" : [ "obj-1034", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1033", 0 ],
 					"source" : [ "obj-1035", 0 ]
 				}
@@ -20557,7 +20576,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-948", 0 ],
+					"destination" : [ "obj-1034", 0 ],
+					"source" : [ "obj-231", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-998", 0 ],
 					"source" : [ "obj-232", 0 ]
 				}
 
@@ -27485,22 +27511,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1148", 1 ],
-					"order" : 0,
-					"source" : [ "obj-948", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1150", 0 ],
-					"order" : 1,
-					"source" : [ "obj-948", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-332", 0 ],
 					"order" : 0,
 					"source" : [ "obj-949", 1 ]
@@ -27906,6 +27916,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1071", 0 ],
 					"source" : [ "obj-997", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1148", 1 ],
+					"order" : 0,
+					"source" : [ "obj-998", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1150", 0 ],
+					"order" : 1,
+					"source" : [ "obj-998", 0 ]
 				}
 
 			}
@@ -30760,13 +30786,6 @@
 				"name" : "latency_compensation.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "layout_1.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
