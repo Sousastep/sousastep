@@ -20,11 +20,12 @@ boolean autoplay = true;
 uint8_t autoplaySeconds = 45;
 
 // Define constants
-const int config = WS2811_GRB | WS2811_800kHz;
+const int config = WS2811_GRB | WS2811_800kHz; // why's this differ from #define LED_TYPE ?
 const int ledsPerStrip = 26;
 const int numStrips = 8;
 const int numChannels = ledsPerStrip * numStrips * 3;
-const int maxDataLength = numChannels;  // maxDataLength is the maximum length allowed for received data.
+const int maxDataLength = 9;  // maxDataLength is the maximum length allowed for received data via serial. currently just 1, yes.
+const int electretMicEnabled = 0;
 
 // Declare variables
 char serial_array[numChannels];
@@ -32,6 +33,7 @@ int serial_array_length = 0;
 DMAMEM int displayMemory[ledsPerStrip * 6];
 int drawingMemory[ledsPerStrip * 6];
 char receivedChars[numChannels + 1];
+char receivedCharsSerial[9];
 boolean newData = false;        // newData is used to determine if there is a new command
 unsigned long previousMillis = 0;  // will store last time mic was updated
 unsigned long previousMicros = 0;
@@ -69,7 +71,7 @@ void setup()
 {
   random16_set_seed(analogRead(A0));
 
-  // Serial.begin(115200);
+  Serial.begin(9600);
 
   // initialize all the readings to 0:
   for (int thisReading = 0; thisReading < numReadings; thisReading++) {
@@ -654,11 +656,25 @@ uint8_t ease8OutQuad(uint8_t i) {
 
 void loop() {
 
+  // get rnbo's outport values from rpi via usb serial
+  if (!electretMicEnabled) {    // if electret mic connected directly to teensy is disabled, read from serial input
+    recvWithStartEndMarkers();  // check to see if we have received any new commands
+    if (newData) {
+      uint8_t previousPalette = currentPaletteIndex;
+      circularmaskradius = receivedCharsSerial[0];
+      currentPaletteIndex = receivedCharsSerial[1];
+
+      if (previousPalette != currentPaletteIndex) {
+      currentPalette = palettes[currentPaletteIndex];
+      }
+    }
+  }
+
   // Current time
   unsigned long currentMillis = millis();
   unsigned long currentMicros = micros();
   
-  if (currentMicros - previousMicros >= (micInterval)) {
+  if ((currentMicros - previousMicros >= (micInterval)) && electretMicEnabled) {
       // subtract the last reading:
     total = total - readings[readIndex];
       // read from the sensor:
@@ -723,11 +739,12 @@ void loop() {
       nextPalette();
     }
 
-    // hi rez angles
+    // moire patterns emerge with high numbers of divisions
+    // inspired by mojovideotech's pinwheel shader https://editor.isf.video/shaders/5e7a7fe07c113618206de624
     for (int i = 0; i < NUM_LEDS; i++) {
       float divisions = abs((fmod(float(currentMillis / 12000.0), 110.0)-55.0)); //increasing divisions over time
       float angleSize = 360.0f / divisions;
-      int dimmermask = (((fmod(float(angleshirez[i] - (currentMillis/40.0)), 360.0)) / angleSize) * 255);
+      int dimmermask = (((fmod(float(angleshirez[i] - (currentMillis/40.0)), 360.0)) / angleSize) * 255); //magic
       leds[i] = leds[i].scale8(ease8InQuad(dimmermask));
     }
 
@@ -772,13 +789,13 @@ void recvWithStartEndMarkers()
       if (rc != endMarker)
       {
         if (ndx < maxDataLength) {
-          receivedChars[ndx] = rc;
+          receivedCharsSerial[ndx] = rc;
           ndx++;
         }
       }
       else
       {
-        receivedChars[ndx] = '\0'; // terminate the string
+        receivedCharsSerial[ndx] = '\0'; // terminate the string
         recvInProgress = false;
         ndx = 0;
         newData = true;
