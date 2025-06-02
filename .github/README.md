@@ -22,6 +22,9 @@ Five audio-rate control signal outputs let SousaFX send LFO and envelope data to
 
 SousaFX may be [downloaded](https://sousastep.github.io/SousaFX-docs/content/install.html#installation) and evaluated for free, however a license must be [purchased](https://sousastep.github.io/SousaFX-docs/content/purchase.html#purchase) for continued use.
 
+> [!NOTE]  
+> The next release may be the last as development switches over to [SousaFX-rnbo](https://github.com/Sousastep/SousaFX-rnbo)
+
 <a href="#books-documentation">![rainbow](./media/rainbow.png)</a>
 
 # :books: Documentation
