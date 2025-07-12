@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 53.0, 1589.0, 1197.0 ],
+		"rect" : [ 503.0, 126.0, 1589.0, 1197.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"toolbars_unpinned_last_save" : 15,
@@ -501,7 +501,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 4495.0, 62.0, 150.0, 22.0 ],
+					"patching_rect" : [ 4495.0, 61.0, 150.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1466.0, 563.0, 95.0, 22.0 ],
 					"text_width" : 62.0
@@ -2250,7 +2250,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 4558.0, 508.0, 89.0, 22.0 ],
+					"patching_rect" : [ 4505.0, 535.0, 89.0, 22.0 ],
 					"text" : "jit.gl.asyncread"
 				}
 
@@ -4674,10 +4674,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 138.0, 1449.0, 477.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
 						"parameter_enable" : 0,
-						"parameter_mappable" : 0,
-						"storage_rect" : [ 365, 44, 816, 172 ]
+						"parameter_mappable" : 0
 					}
 ,
 					"text" : "pattrstorage SousaVFX_primary @greedy 2 @savemode 0 @changemode 1",
@@ -5155,8 +5153,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "jit_gl_texture", "", "", "" ],
-					"patching_rect" : [ 4825.0, 1305.0, 385.0, 22.0 ],
-					"text" : "jit.gl.isf @file \"Circular Feedback Mask\" @drawto async @dim 256 256"
+					"patching_rect" : [ 4825.0, 1305.0, 299.0, 22.0 ],
+					"text" : "jit.gl.isf @file \"Circular Feedback Mask\" @dim 256 256"
 				}
 
 			}
@@ -8996,7 +8994,7 @@
 				"box" : 				{
 					"allowdrag" : 0,
 					"id" : "obj-38",
-					"items" : [ "debug-console", ",", "Bluetooth-Incoming-Port", ",", "usbmodem40590801" ],
+					"items" : [ "debug-console", ",", "MINIRIG4", ",", "Bluetooth-Incoming-Port" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -13437,7 +13435,6 @@
 			"obj-113" : [ "live.text[11]", "live.text", 0 ],
 			"obj-115" : [ "live.text[12]", "live.text", 0 ],
 			"obj-166::obj-2" : [ "live.text[13]", "live.text", 0 ],
-			"obj-238::obj-2::obj-869" : [ "live.numbox[534]", "live.numbox", 0 ],
 			"obj-284::obj-26::obj-133" : [ "scale_invert[242]", "Phase-Inversion", 1 ],
 			"obj-284::obj-26::obj-23" : [ "live.menu[262]", "live.menu", 0 ],
 			"obj-284::obj-26::obj-51" : [ "live.numbox[440]", "live.numbox", 0 ],
@@ -14287,10 +14284,6 @@
 			"parameter_overrides" : 			{
 				"obj-166::obj-2" : 				{
 					"parameter_longname" : "live.text[13]"
-				}
-,
-				"obj-238::obj-2::obj-869" : 				{
-					"parameter_longname" : "live.numbox[534]"
 				}
 ,
 				"obj-284::obj-26::obj-133" : 				{
@@ -17626,13 +17619,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Audio_Status.json",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/data",
-				"patcherrelativepath" : "../../SousaFX/data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "HCL-to-RGB_nodescript.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
@@ -17685,13 +17671,6 @@
 				"name" : "PolarKaleido2.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/data",
 				"patcherrelativepath" : "../data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SousaFX_Audio_Status.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaFX/patchers",
-				"patcherrelativepath" : "../../SousaFX/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -17822,13 +17801,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audio_status.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "butterflyeffect.json",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/default/presets/SousaVFX",
 				"patcherrelativepath" : "../../default/presets/SousaVFX",
@@ -17865,6 +17837,13 @@
 			}
 , 			{
 				"name" : "dude_shader.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dummy.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/sousastep/SousaVFX/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -17940,12 +17919,6 @@
 , 			{
 				"name" : "implicit.context.js",
 				"bootpath" : "C74:/packages/Jitter Tools/javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
