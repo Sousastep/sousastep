@@ -5,7 +5,7 @@
 </div>
 
 > [!IMPORTANT]  
-> A newer version of SousaFX is available. [Click here](https://sousastep.github.io/SousaFX-rnbo-docs/) to access the latest version.
+> A newer version of SousaFX is available. [Click here](https://github.com/Sousastep/SousaFX-rnbo) to access the latest version.
 
 ![sousafx](../SousaFX/.docs/_images/sousafx-lookup.webp)
 
