@@ -2,6 +2,11 @@
 
 [![Linktree](https://img.shields.io/badge/linktree-1de9b6?logo=linktree&style=flat-square&color=029900)](https://www.sousastep.quest/links/) [![Discord](https://img.shields.io/discord/1044699978993504368?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/feBwTZt84d) [![Twitch Status](https://img.shields.io/twitch/status/sousastep?label=Twitch&logo=twitch&style=flat-square)](https://www.twitch.tv/sousastep) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&color=029900)](https://makeapullrequest.com) 
 
+> [!IMPORTANT]  
+> [A newer version of SousaFX is available. Click here to access the latest version.](https://sousastep.github.io/SousaFX-rnbo-docs/)
+
+
+
 </div>
 
 ![sousafx](../SousaFX/.docs/_images/sousafx-lookup.webp)
@@ -21,9 +26,6 @@ SousaFX can run either on its own, or alongside Ableton Live to utilize drum loo
 Five audio-rate control signal outputs let SousaFX send LFO and envelope data to VFX apps such as [SousaVFX](https://sousastep.github.io/SousaFX-docs/content/sousavfx.html), VDMX, Resolume, Touchdesigner, etc.
 
 SousaFX may be [downloaded](https://sousastep.github.io/SousaFX-docs/content/install.html#installation) and evaluated for free, however a license must be [purchased](https://sousastep.github.io/SousaFX-docs/content/purchase.html#purchase) for continued use.
-
-> [!NOTE]  
-> The next release may be the last as development switches over to [SousaFX-rnbo](https://github.com/Sousastep/SousaFX-rnbo)
 
 <a href="#books-documentation">![rainbow](./media/rainbow.png)</a>
 
